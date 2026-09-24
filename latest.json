@@ -1,0 +1,357 @@
+{
+ "schema": "dalal-pulse/v1",
+ "generated_at": "2026-09-25T02:10:31+05:30",
+ "date": "2026-09-24",
+ "slot": "post",
+ "slot_label": "Close",
+ "stage": "Post-market mood",
+ "asof": "2026-09-24T16:00:00+05:30",
+ "nifty": {
+  "chg": -383.7,
+  "pct": -1.64,
+  "value": 23063.1
+ },
+ "mood": {
+  "label": "Closed near lows",
+  "score": -0.75,
+  "summary": "The Nifty closed just above its day's low in its worst session since March 9; declines beat advances almost 3 to 1 and midcaps fell harder than the benchmark.",
+  "detail": {
+   "laggards": "Financial services (−2.4%), private banks (−2%), metals (−2%), insurers and brokers",
+   "leaders": "NSE on debut (+0.9%), Hero Motors (+19%), Raymond; pharma and IT fell least",
+   "src": {
+    "title": "The Tribune — Nifty closes 1.64% lower at 23,063",
+    "url": "https://www.tribuneindia.com/news/business/dalal-street-hit-by-crude-fire-us-yield-surge-nifty-closes-1-64-lower-at-23063-sensex-lost-1247-points"
+   },
+   "tone": "Selling picked up again after 13:30: the Nifty lost another ~140 points into the close and there was no late dip-buying. Every sector index ended in the red.",
+   "watch": [
+    "FII/DII provisional figures due this evening, after FIIs bought ₹1,617 cr on Wednesday",
+    "Brent holding above $105 or easing on a US–Iran headline",
+    "US 10-yr yield overnight: a move back below 5% would ease EM pressure"
+   ]
+  }
+ },
+ "insights": [
+  {
+   "impact": "neg",
+   "key": "irdai-caps",
+   "line": "Nifty Financial Services −2.4%, its steepest fall in 3 months · Motilal Oswal ~−10%",
+   "more": [
+    "The IRDAI selling spread from insurers to brokers and lenders by the close",
+    "Draft also phases the expense cap down to 20% of premium over five years",
+    "It is still a consultation paper, and the final rules and start dates are pending",
+    "Bajaj Finance, Axis Bank and Bajaj Finserv were the biggest Sensex drags"
+   ],
+   "src": {
+    "title": "DSIJ — Closing Bell, Sep 24",
+    "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-nifty-50-plunges-164-as-crude-oil-surges-pb-fintech-crashes-36-59690"
+   },
+   "tag": "Regulation",
+   "title": "IRDAI selling spreads across financials",
+   "date": "2026-09-24",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-24",
+    "slot": "0930"
+   }
+  },
+  {
+   "impact": "neg",
+   "key": "crude",
+   "line": "Up another 2.25% today as US–Iran diplomacy stalls",
+   "more": [
+    "Brent ~$105.40, WTI ~$93.94 by India's close",
+    "Up from ~$102.5 this morning and near $100 on Wednesday",
+    "Raises pressure on the rupee, OMCs, paints and airlines"
+   ],
+   "src": {
+    "title": "DSIJ — Closing Bell, Sep 24",
+    "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-nifty-50-plunges-164-as-crude-oil-surges-pb-fintech-crashes-36-59690"
+   },
+   "tag": "Macro",
+   "title": "Brent climbs to ~$105.4",
+   "date": "2026-09-24",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "impact": "neg",
+   "key": "pb-fintech",
+   "line": "Locked at ₹1,247.40, below the ₹1,250–1,350 support analysts had flagged",
+   "more": [
+    "Reports put the day's fall at 34–36%, its worst session since listing",
+    "Emkay says the proposed commission cuts could make distribution unviable",
+    "Next: its disclosure of commission rates and customer-acquisition costs"
+   ],
+   "src": {
+    "title": "RetailIntel — PB Fintech lower circuit",
+    "url": "https://retailintel.in/signal/irdai-draft-norms-spark-34-crash-in-pb-fintech-as-insurance-f6b78427"
+   },
+   "tag": "Stocks",
+   "title": "PB Fintech ends ~34% down at lower circuit",
+   "date": "2026-09-24",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-24",
+    "slot": "1330"
+   }
+  },
+  {
+   "impact": "neg",
+   "key": "us-yields",
+   "line": "Highest since 2007; Japanese bond yields also at multi-year highs",
+   "more": [
+    "Higher safe returns in US bonds make Indian assets less attractive",
+    "Tomorrow's opening depends on the US and Japanese bond moves overnight"
+   ],
+   "src": {
+    "title": "Upstox — Worst day in over six months",
+    "url": "https://upstox.com/news/market-news/stocks/sensex-nifty-50-posts-worst-day-in-over-six-months-as-crude-surges-us-bond-yield-tops-5/article-200831/"
+   },
+   "tag": "Global",
+   "title": "US 10-yr climbs to 5.14%",
+   "date": "2026-09-24",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-24",
+    "slot": "0930"
+   }
+  },
+  {
+   "impact": "pos",
+   "key": "nse-listing",
+   "line": "Gave up most of its intraday gain but stayed above issue price",
+   "more": [
+    "Opened ₹1,800, high ₹1,878 vs ₹1,785 issue price",
+    "447 lakh shares traded, turnover ₹8,229 cr",
+    "Market cap about ₹4.55 lakh cr at the close"
+   ],
+   "src": {
+    "title": "Upstox — NSE listing live",
+    "url": "https://upstox.com/news/market-news/ipo/nse-ipo-listing-live-updates-share-price-national-stock-exchange-of-india-bse-september-24-2026/liveblog-200774/"
+   },
+   "tag": "Listing",
+   "title": "NSE ends debut at ₹1,817, +0.9%",
+   "date": "2026-09-24",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "post"
+   }
+  },
+  {
+   "impact": "pos",
+   "key": "hero-motors",
+   "line": "Newly listed auto-parts maker rallies against the tape on heavy volume",
+   "more": [
+    "Intraday high ₹116.80 vs ₹84 IPO price; listed at a discount on Wednesday",
+    "115.9 mn shares traded across NSE and BSE",
+    "Makes EV and two-wheeler powertrains; clients include BMW and Ducati"
+   ],
+   "src": {
+    "title": "Business Standard — Hero Motors surges 19%",
+    "url": "https://www.business-standard.com/markets/news/hero-motors-surges-19-in-weak-market-zooms-45-in-two-days-on-huge-volume-126092400354_1.html"
+   },
+   "tag": "Stocks",
+   "title": "Hero Motors +19%, up 45% in two days",
+   "date": "2026-09-24",
+   "slot": "post",
+   "when": "Close",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-24",
+    "slot": "post"
+   }
+  },
+  {
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "BDL wins ₹811 cr defence order",
+   "line": "Exide’s Li-ion cell plant goes live · Fidelity buys ₹279 cr of Welspun Living",
+   "more": [
+    "BDL: ₹810.79 cr Defence Ministry contract for SAT-SAAW equipment",
+    "Exide: Phase-I of its 6 GWh lithium-ion cell plant in Bengaluru commissioned",
+    "Welspun Living: Fidelity bought 1.30 cr shares (₹279 cr); promoter trust sold 2.45 cr (₹526 cr)",
+    "Max Estates: 9.76-acre Ghaziabad JDA, GDV ₹2,500–3,000 cr · Avantel: ₹177 cr Zetwerk order"
+   ],
+   "src": {
+    "title": "Business Standard — Stocks to watch",
+    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-nse-exide-industries-welspun-living-max-estates-ghcl-126092400133_1.html"
+   },
+   "key": "bdl-order",
+   "date": "2026-09-24",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": false,
+   "first_seen": {
+    "date": "2026-09-24",
+    "slot": "pre"
+   }
+  },
+  {
+   "tag": "Opening",
+   "impact": "neg",
+   "title": "Gift Nifty −138 pts after Wall St slide",
+   "line": "Likely lower open after Wednesday’s +0.5% close",
+   "more": [
+    "Wed close: Nifty 23,447 (+118), Sensex 74,828 (+299)",
+    "Metals led (+2%, Tata Steel, Hindalco); IT fell 1%",
+    "Midcaps +0.7%, smallcaps +0.9%: broad buying",
+    "Gift Nifty −138 pts points to a lower start as US stocks fell overnight"
+   ],
+   "src": {
+    "title": "Business Standard — Sep 23 close",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty-gift-nifty-brent-crude-oil-price-russia-war-jindal-supreme-share-price-september-23-126092300112_1.html"
+   },
+   "key": "gift-open",
+   "date": "2026-09-24",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": false,
+   "first_seen": {
+    "date": "2026-09-24",
+    "slot": "pre"
+   }
+  },
+  {
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs flip to buyers: +₹1,617 cr",
+   "line": "Breaks the selling streak · DIIs also bought ₹2,342 cr on Wed",
+   "more": [
+    "Sep 23: FIIs +₹1,617 cr, DIIs +₹2,342 cr (provisional cash)",
+    "Before this, FIIs sold in 8 of the prior 9 sessions",
+    "September FPI outflow was ₹23,676 cr through Sep 19",
+    "July and August were inflow months (+₹11,045 cr, +₹10,231 cr)"
+   ],
+   "src": {
+    "title": "5paisa — FII/DII data",
+    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
+   },
+   "key": "fii-flows",
+   "date": "2026-09-24",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": false,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Metals rally: Tata Steel, Hindalco lead",
+   "line": "Nifty Metal +2%, the best sector of the day",
+   "more": [
+    "Bajaj Finance also among the top Nifty gainers"
+   ],
+   "src": {
+    "title": "Business Standard — Sep 23 close",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty-gift-nifty-brent-crude-oil-price-russia-war-jindal-supreme-share-price-september-23-126092300112_1.html"
+   },
+   "key": "metals-rally",
+   "date": "2026-09-23",
+   "slot": "post",
+   "when": "Wed · Close",
+   "updated": false,
+   "is_new": false,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "post"
+   }
+  },
+  {
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "PMI strength backs domestic story",
+   "line": "September flash PMI 56.5 vs 54.3",
+   "more": [
+    "Reinforces confidence in India’s economic resilience"
+   ],
+   "src": {
+    "title": "Business Standard — Sep 23 close",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty-gift-nifty-brent-crude-oil-price-russia-war-jindal-supreme-share-price-september-23-126092300112_1.html"
+   },
+   "key": "pmi",
+   "date": "2026-09-23",
+   "slot": "post",
+   "when": "Wed · Close",
+   "updated": true,
+   "is_new": false,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IDFC First hits 52-week high on upgrade",
+   "line": "MOSL upgrades to Buy; stock +3% to ₹87.77",
+   "more": [
+    "Among top gainers in the Nifty Midcap 100",
+    "Bajaj Finance +2.1% after UBS upgrade to Neutral"
+   ],
+   "src": {
+    "title": "Business Standard — Market LIVE, Sep 23",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-nse-bse-sensex-today-nifty-gift-nifty-brent-crude-oil-price-russia-war-jindal-supreme-share-price-september-23-126092300112_1.html"
+   },
+   "key": "idfc-upgrade",
+   "date": "2026-09-23",
+   "slot": "1230",
+   "when": "Wed · 12:30",
+   "updated": false,
+   "is_new": false,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Arvind SmartSpaces +10.8% on bookings",
+   "line": "Bengaluru project crosses ₹500 cr in 30 days",
+   "more": [
+    "About 60% of inventory sold by value",
+    "Persistent Systems now owns 83.25% of Nagarro, plans Frankfurt delisting"
+   ],
+   "src": {
+    "title": "Angel One — Stocks to watch",
+    "url": "https://www.angelone.in/news/market-updates/stocks-to-watch-today-persistent-systems-irb-infrastructure-allcargo-and-others-september-23-2026"
+   },
+   "key": "arvind-smart",
+   "date": "2026-09-23",
+   "slot": "1230",
+   "when": "Wed · 12:30",
+   "updated": false,
+   "is_new": false,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  }
+ ]
+}
