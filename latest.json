@@ -1,37 +1,113 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-25T12:33:21+05:30",
+ "generated_at": "2026-09-25T13:03:34+05:30",
  "date": "2026-09-25",
- "slot": "1230",
- "slot_label": "12:30",
+ "slot": "1300",
+ "slot_label": "13:00",
  "stage": "Mid-market mood",
- "asof": "2026-09-25T12:30:00+05:30",
+ "asof": "2026-09-25T13:00:00+05:30",
  "nifty": {
-  "value": 23082.9,
-  "pct": 0.09,
-  "chg": 19.8,
+  "value": 23000,
+  "pct": -0.27,
+  "chg": -63.1,
   "approx": true
  },
  "mood": {
-  "label": "Calmer, narrow gains",
-  "score": 0.0,
-  "summary": "The benchmarks are holding modest gains into the afternoon and volatility is easing, but midcaps and smallcaps slipped slightly lower, so the lift is narrow and led by large caps.",
+  "label": "Gains fade",
+  "score": -0.1,
+  "summary": "The morning's small gains are fading and the Nifty is drifting back toward 23,000 in a tight range, though calmer volatility is keeping selling orderly rather than panicky.",
   "detail": {
-   "leaders": "Axis Bank, M&M, HCLTech; realty and autos; Whirlpool India",
-   "laggards": "Midcaps (−0.29%) and smallcaps (−0.09%); IT names (OFSS, Infosys)",
-   "tone": "Much the same as noon: the Sensex is still about 100–150 points higher and the Nifty is near 23,080, while India VIX has dropped 7.25% to 11.77. That is a sign traders are pricing out Thursday's panic even though broader buying is thin.",
+   "leaders": "Axis Bank, M&M, HCLTech, Asian Paints, Coal India; autos, realty",
+   "laggards": "IT; NSE shares back near IPO price; insurance-linked names",
+   "tone": "A slight step back from the 12:30 note: the Nifty has slipped from about 23,083 toward 23,000 and the Sensex is stuck in a range. India VIX is still down more than 7%, so the dip looks like fading momentum rather than fresh fear.",
    "watch": [
-    "Whether midcaps turn positive to confirm the recovery",
-    "Any concrete step on the US–Iran plan to end the conflict",
-    "European open and the US 10-yr yield"
+    "A close back below Thursday's 23,063 would make it a second losing day",
+    "Any breakthrough or breakdown in the US–Iran Hormuz talks",
+    "European open and the US 10-yr yield later today"
    ],
    "src": {
-    "title": "Kotak Neo — Market Midday, 25 September 2026",
-    "url": "https://www.kotakneo.com/news/market-news/market-midday-25-september-2026-sensex-nifty-gain/"
+    "title": "Business Standard — Stock Market LIVE, Sept 25",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Iran offers 60-day ceasefire, phased Hormuz exit",
+   "line": "Phased Hormuz reopening for an end to the US blockade; neither side wants to move first",
+   "more": [
+    "Iran proposed a regionwide ceasefire of up to 60 days",
+    "Talks on the UNGA sidelines are mediated by Qatar, Pakistan and Egypt",
+    "Sources say neither side wants to give up its leverage first",
+    "A deal would ease crude, the biggest macro risk for India"
+   ],
+   "src": {
+    "title": "Reuters via US News — US and Iran discuss phased deal to reopen Hormuz",
+    "url": "https://www.usnews.com/news/world/articles/2026-09-24/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-sources-say"
+   },
+   "date": "2026-09-25",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "nse-listing",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "NSE slips 1.5%, back near its IPO price",
+   "line": "Profit-taking on day two: low of ₹1,790.10 vs the ₹1,785 issue price; last near ₹1,807",
+   "more": [
+    "It opened at ₹1,825 against Thursday's ₹1,818 close on BSE",
+    "It rose 5% on Thursday after a muted listing",
+    "Market cap is about ₹4.47 lakh cr"
+   ],
+   "src": {
+    "title": "India TV — NSE shares fall 1.5% to trade near IPO price",
+    "url": "https://www.indiatvnews.com/business/markets/nse-shares-fall-1-5-to-trade-near-ipo-price-a-day-after-debut-here-s-what-macquarie-says-2026-09-25-1055248"
+   },
+   "date": "2026-09-25",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "a-one-steels-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "A-One Steels GMP at ₹50, about 12% premium",
+   "line": "Grey market implies ₹455 listing vs ₹405 upper band; day 1 was 55% subscribed",
+   "more": [
+    "Day 1 bids were for 42.5 lakh shares against 73.8 lakh on offer",
+    "The issue closes Sept 28; listing is expected on Oct 1",
+    "The GMP is unofficial and can change before listing"
+   ],
+   "src": {
+    "title": "A-One Steels IPO Day 2: subscription status, latest GMP",
+    "url": "https://www.inkl.com/news/a-one-steels-ipo-day-2-check-subscription-status-latest-gmp-reviews-other-key-details"
+   },
+   "date": "2026-09-25",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1200"
+   }
+  },
   {
    "key": "whirlpool-india",
    "tag": "Stocks",
@@ -51,7 +127,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1230"
@@ -75,7 +151,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1230"
@@ -99,7 +175,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1230"
@@ -128,31 +204,6 @@
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "a-one-steels-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "A-One Steels IPO: retail in, QIBs absent",
-   "line": "₹405 cr issue (₹385–405 band) under 1x on day 2; retail bids about 1.04x",
-   "more": [
-    "It was subscribed 0.64x by 10:06 am on day 2; QIBs had yet to bid",
-    "The issue closes Sept 28; listing is expected on Oct 1 on BSE and NSE",
-    "Analysts rate it 'subscribe' on long-term growth"
-   ],
-   "src": {
-    "title": "Groww — A-One Steels IPO Day 2 subscription status",
-    "url": "https://groww.in/blog/a-one-steels-ipo-day-2-subscription-status"
-   },
-   "date": "2026-09-25",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1200"
    }
   },
   {
@@ -202,31 +253,6 @@
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "WTI drops 1.7% to $93; Brent near $105.7",
-   "line": "Oil keeps easing as markets weigh a US–Iran truce against Houthi attack risks",
-   "more": [
-    "At 0212 GMT Brent was −0.82% at $105.73 and WTI −1.65% at $93.05",
-    "Iran signals Hormuz navigation in exchange for the US ending its naval blockade",
-    "Softer crude helps India's import bill and the rupee"
-   ],
-   "src": {
-    "title": "Business Standard — Oil prices fall as markets weigh Iran truce",
-    "url": "https://www.business-standard.com/amp/markets/commodities/oil-prices-fall-as-markets-weigh-iran-truce-oil-facility-attack-risks-126092500081_1.html"
-   },
-   "date": "2026-09-25",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
    }
   },
   {
@@ -620,31 +646,6 @@
    "first_seen": {
     "date": "2026-09-24",
     "slot": "0930"
-   }
-  },
-  {
-   "impact": "pos",
-   "key": "nse-listing",
-   "line": "Gave up most of its intraday gain but stayed above issue price",
-   "more": [
-    "Opened ₹1,800, high ₹1,878 vs ₹1,785 issue price",
-    "447 lakh shares traded, turnover ₹8,229 cr",
-    "Market cap about ₹4.55 lakh cr at the close"
-   ],
-   "src": {
-    "title": "Upstox — NSE listing live",
-    "url": "https://upstox.com/news/market-news/ipo/nse-ipo-listing-live-updates-share-price-national-stock-exchange-of-india-bse-september-24-2026/liveblog-200774/"
-   },
-   "tag": "Listing",
-   "title": "NSE ends debut at ₹1,817, +0.9%",
-   "date": "2026-09-24",
-   "slot": "post",
-   "when": "Thu · Close",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "post"
    }
   },
   {
