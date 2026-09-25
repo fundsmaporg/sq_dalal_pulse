@@ -1,37 +1,110 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-25T13:03:34+05:30",
+ "generated_at": "2026-09-25T13:33:12+05:30",
  "date": "2026-09-25",
- "slot": "1300",
- "slot_label": "13:00",
+ "slot": "1330",
+ "slot_label": "13:30",
  "stage": "Mid-market mood",
  "asof": "2026-09-25T13:00:00+05:30",
  "nifty": {
-  "value": 23000,
-  "pct": -0.27,
-  "chg": -63.1,
-  "approx": true
+  "value": 23036.65,
+  "pct": -0.11,
+  "chg": -26.45,
+  "approx": false
  },
  "mood": {
-  "label": "Gains fade",
-  "score": -0.1,
-  "summary": "The morning's small gains are fading and the Nifty is drifting back toward 23,000 in a tight range, though calmer volatility is keeping selling orderly rather than panicky.",
+  "label": "Drifting lower",
+  "score": -0.15,
+  "summary": "The Nifty has slipped just below Thursday's close while mid- and smallcaps lag and decliners outnumber advancers, so the morning's relief has turned into a slow, narrow drift lower.",
   "detail": {
-   "leaders": "Axis Bank, M&M, HCLTech, Asian Paints, Coal India; autos, realty",
-   "laggards": "IT; NSE shares back near IPO price; insurance-linked names",
-   "tone": "A slight step back from the 12:30 note: the Nifty has slipped from about 23,083 toward 23,000 and the Sensex is stuck in a range. India VIX is still down more than 7%, so the dip looks like fading momentum rather than fresh fear.",
+   "leaders": "Realty; Transport Corporation of India; select autos",
+   "laggards": "BSE MidCap 150 (−0.51%), SmallCap 250 (−0.32%); IT",
+   "tone": "Slightly weaker than 12:30: the Nifty has turned negative at 23,036.65 (−0.11%) and breadth is negative at 1,826 advancers vs 2,256 decliners on BSE. VIX is still subdued, so the selling is thin rather than forced.",
    "watch": [
-    "A close back below Thursday's 23,063 would make it a second losing day",
-    "Any breakthrough or breakdown in the US–Iran Hormuz talks",
-    "European open and the US 10-yr yield later today"
+    "Whether the Nifty holds 23,000 into the last two hours",
+    "European weakness spilling into Indian afternoon trade",
+    "Any US–Iran headline moving crude"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 25",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "idbi-stake-sale",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Govt evaluating IDBI Bank financial bids",
+   "line": "Sale of 60.72% stake moving steadily; Fairfax and Emirates NBD in the race",
+   "more": [
+    "The Government (30.48%) and LIC (30.24%) are selling jointly",
+    "Revised bids came in on July 13 after the first round missed the reserve price",
+    "Fairfax's reported ₹81/share offer values the stake at about ₹53,000 cr"
+   ],
+   "src": {
+    "title": "Business Standard — Govt evaluating financial bids for IDBI Bank stake sale",
+    "url": "https://www.business-standard.com/companies/news/govt-evaluating-financial-bids-for-strategic-stake-sale-in-idbi-bank-126092500411_1.html"
+   },
+   "date": "2026-09-25",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "tci-buyback",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "TCI jumps 13% on buyback proposal",
+   "line": "Transport Corporation of India's board meets on Sept 29 to consider a share buyback",
+   "more": [
+    "The stock was up 13.12% in early afternoon trade",
+    "The buyback size and price have not been disclosed yet"
+   ],
+   "src": {
+    "title": "Business Standard — Sensex, Nifty trade near flat line; realty shares jump",
+    "url": "https://www.business-standard.com/markets/capital-market-news/sensex-nifty-trade-near-flat-line-realty-shares-jump-126092500471_1.html"
+   },
+   "date": "2026-09-25",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "europe-open",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Europe opens soft; German sentiment slumps",
+   "line": "German GfK consumer confidence at −30.6 vs −27.4 expected; BMW −2.9%, UBS −1.8%",
+   "more": [
+    "A weak European open adds little support to Indian afternoon trade",
+    "High global yields remain the backdrop"
+   ],
+   "src": {
+    "title": "Newsquawk — Additional European Equity News, 25 Sept 2026",
+    "url": "https://www.newsquawk.com/headlines/additional-european-equity-news---25th-september-2026"
+   },
+   "date": "2026-09-25",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1330"
+   }
+  },
   {
    "key": "crude",
    "tag": "Macro",
@@ -52,7 +125,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -77,7 +150,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "post"
@@ -102,7 +175,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1200"
