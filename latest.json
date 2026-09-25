@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-25T11:33:18+05:30",
+ "generated_at": "2026-09-25T12:02:39+05:30",
  "date": "2026-09-25",
- "slot": "1130",
- "slot_label": "11:30",
+ "slot": "1200",
+ "slot_label": "12:00",
  "stage": "Mid-market mood",
- "asof": "2026-09-25T11:18:00+05:30",
+ "asof": "2026-09-25T12:00:00+05:30",
  "nifty": {
-  "value": 23097.1,
-  "pct": 0.15,
-  "chg": 34.0,
+  "value": 23082.9,
+  "pct": 0.09,
+  "chg": 19.8,
   "approx": false
  },
  "mood": {
-  "label": "Mild uptick",
+  "label": "Steady, subdued",
   "score": -0.05,
-  "summary": "The indices have edged off the flatline into mild gains, with the Nifty up about 0.15% and the Sensex up about 150 points. Trade stays narrow and stock-specific, with no broad buying.",
+  "summary": "The indices are holding small gains into noon in a narrow range. The Nifty is up about 0.1% and the Sensex about 150 points, with realty and autos ahead and IT still the drag.",
   "detail": {
-   "leaders": "Metals; L&T; stock-specific gainers (Wheels India, Spectrum Electrical)",
-   "laggards": "IT (OFSS, Infosys); PB Fintech",
-   "tone": "A small improvement on 11:00: the Nifty has moved from flat to about 34 points above Thursday's close and the Sensex gain has widened to about 149 points. The range is still tight and the lift looks like modest short-covering rather than conviction buying.",
+   "leaders": "Realty (top sector); autos (Bajaj Auto, Tata Motors PV); Power Grid, Axis Bank, M&M, HCLTech",
+   "laggards": "IT index weakest (OFSS, Infosys); ESDS at lower circuit; PB Fintech",
+   "tone": "Little changed from 11:30: the Nifty has eased slightly from 23,097 to 23,083 but is still above Thursday's close, and the Sensex gain is steady near 146 points. The market is consolidating after Thursday's rout rather than rebounding.",
    "watch": [
-    "Whether the Nifty clears 23,100 and holds it into the afternoon",
-    "Brent slipping further below $105 on US–Iran talks",
-    "European open and US yield direction"
+    "Whether the Nifty can clear 23,100 into the European open",
+    "Pressure from US yields spreading beyond IT",
+    "Brent moving back above $106 on Middle East headlines"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 25",
@@ -32,6 +32,80 @@
   }
  },
  "insights": [
+  {
+   "key": "esds-results",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "ESDS hits 5% lower circuit as Q1 profit halves",
+   "line": "Q1 FY27 PAT fell 57% QoQ to ₹29.3 cr; shares locked at ₹1,760.50 despite 14% YoY growth",
+   "more": [
+    "Revenue fell 20% QoQ to ₹133.65 cr from ₹167.5 cr",
+    "Year-on-year, profit rose 14% and revenue 7.3%",
+    "The stock ends a four-day winning streak; it is still about 310% above its IPO price"
+   ],
+   "src": {
+    "title": "Business Standard — ESDS hits 5% lower circuit as Q1 PAT halves",
+    "url": "https://www.business-standard.com/markets/news/esds-share-price-hit-5-lower-circuit-as-q1-pat-halves-up-310-from-ipo-price-126092500274_1.html"
+   },
+   "date": "2026-09-25",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "a-one-steels-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "A-One Steels IPO: retail in, QIBs absent",
+   "line": "₹405 cr issue (₹385–405 band) under 1x on day 2; retail bids about 1.04x",
+   "more": [
+    "It was subscribed 0.64x by 10:06 am on day 2; QIBs had yet to bid",
+    "The issue closes Sept 28; listing is expected on Oct 1 on BSE and NSE",
+    "Analysts rate it 'subscribe' on long-term growth"
+   ],
+   "src": {
+    "title": "Groww — A-One Steels IPO Day 2 subscription status",
+    "url": "https://groww.in/blog/a-one-steels-ipo-day-2-subscription-status"
+   },
+   "date": "2026-09-25",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "auto-realty",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Realty, autos lead; Bajaj Auto tops Nifty",
+   "line": "Bajaj Auto, Tata Motors PV, Power Grid top Nifty gainers; realty is the best sector",
+   "more": [
+    "Softer crude on US–Iran truce hopes is helping autos",
+    "The Nifty IT index is the weakest sector"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market LIVE, Sept 25",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
+   },
+   "date": "2026-09-25",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1200"
+   }
+  },
   {
    "key": "qip-fundraises",
    "tag": "Stocks",
@@ -51,7 +125,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1130"
@@ -76,7 +150,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -100,7 +174,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1130"
@@ -286,30 +360,6 @@
    "more": [
     "The deal adds Cognite's industrial AI capabilities to LTTS's engineering offerings",
     "This is a rare positive IT headline on a weak day for the sector"
-   ],
-   "src": {
-    "title": "Sunday Guardian — Stocks to watch today, September 25",
-    "url": "https://sundayguardianlive.com/business/stocks-to-watch-today-september-25-which-stocks-could-see-action-check-key-shares-in-focus-on-qips-earnings-acquisitions-orders-and-major-deals-292222/"
-   },
-   "date": "2026-09-25",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "esds-results",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "ESDS Software profit rises 14%",
-   "line": "Consolidated profit rose 14% YoY to ₹29.3 cr; revenue rose 7.3% to ₹133.7 cr",
-   "more": [
-    "Revenue rose from ₹124.6 cr a year earlier",
-    "Sterlite Technologies separately expanded its Neuralis data-centre portfolio for AI and cloud demand"
    ],
    "src": {
     "title": "Sunday Guardian — Stocks to watch today, September 25",
