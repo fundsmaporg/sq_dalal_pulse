@@ -81,10 +81,6 @@ header{display:flex;align-items:flex-start;gap:14px;flex-wrap:wrap;margin-bottom
 .detail div>span{font-size:13.5px;line-height:1.45}
 .watch{margin:6px 0 0;padding-left:17px;font-size:13.5px;line-height:1.5}
 .watch li{margin:2px 0}
-.stat{display:flex;gap:18px;flex-wrap:wrap;margin-top:14px;padding-top:14px;border-top:1px solid var(--rule)}
-.stat div{font-size:13px;color:var(--muted)}
-.stat b{display:block;font-size:19px;color:var(--ink);font-weight:700;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
-.approx{font-size:10.5px;color:var(--faint);font-weight:400}
 
 /* ---------- explainer strip ---------- */
 .how{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:10px;
@@ -240,19 +236,9 @@ footer b{color:var(--muted)}
   }
 
   function renderMood(d){
-    var m = d.mood || {}, det = m.detail || {}, n = d.nifty || {};
+    var m = d.mood || {}, det = m.detail || {};
     var sc = typeof m.score === "number" ? m.score : 0;
     var pct = ((sc + 1) / 2) * 100;
-    var nifty = "";
-    if(n.value != null){
-      nifty = '<div><b>' + Number(n.value).toLocaleString("en-IN") +
-              (n.approx ? ' <span class="approx">approx</span>' : '') + '</b>Nifty 50</div>';
-      if(n.pct != null){
-        var col = n.pct < 0 ? "var(--red)" : "var(--green)";
-        nifty += '<div><b style="color:' + col + '">' + (n.pct > 0 ? "+" : "") +
-                 Number(n.pct).toFixed(2) + '%</b>Change</div>';
-      }
-    }
     var watch = (det.watch || []).map(function(w){ return "<li>" + esc(w) + "</li>"; }).join("");
     $("mood").innerHTML =
       '<section class="mood" style="--band:' + band(sc) + '">' +
@@ -267,7 +253,6 @@ footer b{color:var(--muted)}
           '%;--band:' + band(sc) + '"></span></div>' +
           '<div class="scale"><span>Risk-off −1</span><span>' + bandWord(sc) + " " +
           (sc > 0 ? "+" : "") + sc.toFixed(2) + '</span><span>+1 Risk-on</span></div></div>' +
-        (nifty ? '<div class="stat">' + nifty + '</div>' : '') +
         '<div class="detail">' +
           (det.leaders ? '<div><b>Leading</b><span>' + esc(det.leaders) + '</span></div>' : '') +
           (det.laggards ? '<div><b>Lagging</b><span>' + esc(det.laggards) + '</span></div>' : '') +
