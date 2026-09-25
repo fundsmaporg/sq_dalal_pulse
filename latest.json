@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-25T14:02:23+05:30",
+ "generated_at": "2026-09-25T14:33:07+05:30",
  "date": "2026-09-25",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-09-25T14:00:00+05:30",
+ "asof": "2026-09-25T14:30:00+05:30",
  "nifty": {
-  "value": 23000,
-  "pct": -0.27,
-  "chg": -63.1,
+  "value": 23100,
+  "pct": 0.16,
+  "chg": 36.9,
   "approx": true
  },
  "mood": {
-  "label": "Stuck in range",
-  "score": -0.15,
-  "summary": "The benchmarks are stuck near 23,000 with no direction into the last 90 minutes. Mid- and smallcaps are weaker than the headline indices and buying is limited to individual stocks.",
+  "label": "Afternoon recovery",
+  "score": 0.1,
+  "summary": "Buyers have returned in the afternoon: the Sensex is up about 400 points from the day's low and the Nifty is back above 23,100, with mid- and smallcaps turning mildly positive.",
   "detail": {
-   "leaders": "Autos (Bajaj Auto, Tata Motors PV), Power Grid; order-win stocks such as Vascon and Engineers India",
-   "laggards": "Mid- and smallcaps; IT",
-   "tone": "Little changed from 13:30: the Nifty is still hovering near 23,000, slightly below Thursday's 23,063 close. Crude's rebound toward $106 has taken away the morning's main support.",
+   "leaders": "Axis Bank, Asian Paints, HCLTech; realty (top sector); private banks",
+   "laggards": "IT index (weakest sector); small finance banks",
+   "tone": "A clear turn from the 13:30–14:00 drift: the Nifty has climbed from its lows near 23,000 to above 23,100, and by 2 pm midcaps (+0.1%) and smallcaps (+0.21%) had turned green. Renewed US–Iran de-escalation headlines sparked the move.",
    "watch": [
-    "A close below 23,000 would signal Thursday's selling is not over",
-    "Brent pushing back above $106–107",
-    "US data and yields when America opens"
+    "Whether the Nifty holds 23,100 into the 3:30 close",
+    "Follow-through on Iran's offer to reopen Hormuz",
+    "US yields and Brent into the evening"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 25",
@@ -35,26 +35,75 @@
   {
    "key": "crude",
    "tag": "Macro",
-   "impact": "neg",
-   "title": "Brent rebounds off lows, back near $106",
-   "line": "The morning dip has reversed as Hormuz talks stall; this removes a tailwind for India",
+   "impact": "pos",
+   "title": "Iran signals Hormuz could reopen in 7 days",
+   "line": "Tehran says it could reopen the strait within a week if the US starts easing its blockade",
    "more": [
-    "Brent was about $105.6–105.7 in Asian trade this morning",
-    "The US–Iran phased deal is stuck on who moves first",
-    "Higher crude hurts OMCs, paints, airlines and the rupee"
+    "President Pezeshkian says it is up to the US to end the seven-month war",
+    "China is pushing for de-escalation; Xi is on a three-day US state visit",
+    "This follows three hours of indirect US–Iran talks at the UN"
    ],
    "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 25",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
+    "title": "CNBC — Iran puts onus on US to end war as China presses for de-escalation",
+    "url": "https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html"
    },
    "date": "2026-09-25",
-   "slot": "1400",
-   "when": "14:00",
+   "slot": "1430",
+   "when": "14:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
+   }
+  },
+  {
+   "key": "banks-rebound",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Private banks lead; Axis Bank tops Nifty",
+   "line": "Axis Bank +1.58%, IDBI Bank +1.96%, City Union +1.57% as banks recover Thursday's losses",
+   "more": [
+    "HDFC Bank (+0.38%) and SBI (+0.35%) are also firmer",
+    "Small finance banks such as CSB, Utkarsh and Equitas are lagging",
+    "Banks led Thursday's sell-off, so this bounce matters for the index"
+   ],
+   "src": {
+    "title": "Business Upturn — Banking sector stocks today, September 25",
+    "url": "https://businessupturn.com/finance/stock-market/banking-sector-stocks-today-september-25-idbi-bank-jumps-1-96-axis-bank-up-1-58-city-union-bank-gains-1-57/"
+   },
+   "date": "2026-09-25",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "realty-rebound",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Realty is the top sector; DLF, Godrej gain",
+   "line": "Nifty Realty +0.54%: Oberoi +1.43%, DLF +1.32%, Godrej Properties +1.19%",
+   "more": [
+    "Phoenix Mills (+1.07%) and Aditya Birla Real Estate (+1.43%) are also higher",
+    "Realty is rebounding after Thursday's decline"
+   ],
+   "src": {
+    "title": "Business Standard — Sensex, Nifty trade near flat line; realty shares jump",
+    "url": "https://www.business-standard.com/markets/capital-market-news/sensex-nifty-trade-near-flat-line-realty-shares-jump-126092500471_1.html"
+   },
+   "date": "2026-09-25",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1430"
    }
   },
   {
@@ -75,7 +124,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1400"
@@ -99,7 +148,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1400"
