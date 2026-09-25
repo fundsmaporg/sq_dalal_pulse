@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-25T15:02:39+05:30",
+ "generated_at": "2026-09-25T15:33:19+05:30",
  "date": "2026-09-25",
- "slot": "1500",
- "slot_label": "15:00",
+ "slot": "1530",
+ "slot_label": "15:30",
  "stage": "Closing mood",
- "asof": "2026-09-25T15:00:00+05:30",
+ "asof": "2026-09-25T15:30:00+05:30",
  "nifty": {
-  "value": 23100,
-  "pct": 0.16,
-  "chg": 36.9,
-  "approx": true
+  "value": 23128.1,
+  "pct": 0.28,
+  "chg": 65.0,
+  "approx": false
  },
  "mood": {
-  "label": "Holding gains",
-  "score": 0.1,
-  "summary": "Heading into the last half hour the benchmarks are holding modest gains near the day's better levels, with value buying in large caps keeping the Nifty above 23,100 and IT still the drag.",
+  "label": "Late recovery",
+  "score": 0.15,
+  "summary": "Indices finished near the day's highs after a late push. Sensex +301 and Nifty ~23,128 (+0.28%) partly recover Thursday's rout, with realty leading and IT the only real drag.",
   "detail": {
-   "leaders": "Axis Bank, Asian Paints, HCLTech; realty; private banks",
-   "laggards": "Nifty IT (weakest sector); small finance banks",
-   "tone": "Steady since 14:30: the afternoon recovery has held, with the Nifty above 23,100 after the 2 pm reading of 23,087.45 (+0.11%). There has been no fresh selling into the close so far, a calmer end than Thursday's rout.",
+   "leaders": "Axis Bank, Asian Paints, HCLTech; realty (top sector); private banks",
+   "laggards": "Nifty IT (weakest sector); NSE shares below listing price",
+   "tone": "The afternoon recovery built into the close: the Nifty went from about 23,000 at midday to 23,128 in the closing auction, and the Sensex gain widened to about 301 points. It clawed back only a small part of Thursday's 384-point fall, but the session ended on the front foot.",
    "watch": [
-    "A close above Thursday's 23,063 would snap the losing streak",
-    "Late US–Iran headlines moving Brent",
-    "FII provisional flow data after the close"
+    "FII/DII provisional flows due this evening",
+    "Weekend US–Iran headlines and Brent's Monday open",
+    "US PCE inflation on Sept 30 and the path of US yields"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 25",
@@ -32,6 +32,78 @@
   }
  },
  "insights": [
+  {
+   "key": "banks-rebound",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Axis Bank among top Nifty gainers at close",
+   "line": "Private banks led the late push; Axis Bank, Asian Paints and HCLTech topped Nifty gainers",
+   "more": [
+    "Banks had led Thursday's sell-off, so their bounce lifted the index most",
+    "Realty was the best-performing sector; IT the worst"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market LIVE, Sept 25",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
+   },
+   "date": "2026-09-25",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "nse-listing",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "NSE dips below its ₹1,800 listing price",
+   "line": "At ₹1,799 by 1 pm after a ₹1,790 low; brokerages still back the long-term story",
+   "more": [
+    "The debut-day gain of more than 5% reversed on day two",
+    "The issue price was ₹1,785; the stock opened at ₹1,800 on listing day"
+   ],
+   "src": {
+    "title": "Business Standard — NSE shares dip on day 2 of listing",
+    "url": "https://www.business-standard.com/markets/news/nse-shares-dip-on-day-2-of-listing-brokerages-back-long-term-growth-story-126092500302_1.html"
+   },
+   "date": "2026-09-25",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "a-one-steels-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "A-One Steels IPO 80% subscribed on day 2",
+   "line": "Retail and NII demand lead; ₹250 cr of the ₹405 cr raise will go to repaying debt",
+   "more": [
+    "The issue is a ₹355 cr fresh issue plus a ₹50 cr OFS; anchors put in ₹121 cr",
+    "Bidding closes Sept 28; the grey market implies a premium of about 12%"
+   ],
+   "src": {
+    "title": "Whalesbook — A-One Steels IPO reaches 80% subscription on day 2",
+    "url": "https://www.whalesbook.com/news/English/ipo/A-One-Steels-IPO-Reaches-80percent-Subscription-on-Day-2/6ab613d05aacb956d08024f8"
+   },
+   "date": "2026-09-25",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1200"
+   }
+  },
   {
    "key": "rupee",
    "tag": "Macro",
@@ -50,7 +122,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
@@ -74,7 +146,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-24",
     "slot": "0930"
@@ -98,7 +170,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1500"
@@ -127,31 +199,6 @@
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "banks-rebound",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Private banks lead; Axis Bank tops Nifty",
-   "line": "Axis Bank +1.58%, IDBI Bank +1.96%, City Union +1.57% as banks recover Thursday's losses",
-   "more": [
-    "HDFC Bank (+0.38%) and SBI (+0.35%) are also firmer",
-    "Small finance banks such as CSB, Utkarsh and Equitas are lagging",
-    "Banks led Thursday's sell-off, so this bounce matters for the index"
-   ],
-   "src": {
-    "title": "Business Upturn — Banking sector stocks today, September 25",
-    "url": "https://businessupturn.com/finance/stock-market/banking-sector-stocks-today-september-25-idbi-bank-jumps-1-96-axis-bank-up-1-58-city-union-bank-gains-1-57/"
-   },
-   "date": "2026-09-25",
-   "slot": "1430",
-   "when": "14:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1430"
    }
   },
   {
@@ -297,56 +344,6 @@
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1330"
-   }
-  },
-  {
-   "key": "nse-listing",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "NSE slips 1.5%, back near its IPO price",
-   "line": "Profit-taking on day two: low of ₹1,790.10 vs the ₹1,785 issue price; last near ₹1,807",
-   "more": [
-    "It opened at ₹1,825 against Thursday's ₹1,818 close on BSE",
-    "It rose 5% on Thursday after a muted listing",
-    "Market cap is about ₹4.47 lakh cr"
-   ],
-   "src": {
-    "title": "India TV — NSE shares fall 1.5% to trade near IPO price",
-    "url": "https://www.indiatvnews.com/business/markets/nse-shares-fall-1-5-to-trade-near-ipo-price-a-day-after-debut-here-s-what-macquarie-says-2026-09-25-1055248"
-   },
-   "date": "2026-09-25",
-   "slot": "1300",
-   "when": "13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "post"
-   }
-  },
-  {
-   "key": "a-one-steels-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "A-One Steels GMP at ₹50, about 12% premium",
-   "line": "Grey market implies ₹455 listing vs ₹405 upper band; day 1 was 55% subscribed",
-   "more": [
-    "Day 1 bids were for 42.5 lakh shares against 73.8 lakh on offer",
-    "The issue closes Sept 28; listing is expected on Oct 1",
-    "The GMP is unofficial and can change before listing"
-   ],
-   "src": {
-    "title": "A-One Steels IPO Day 2: subscription status, latest GMP",
-    "url": "https://www.inkl.com/news/a-one-steels-ipo-day-2-check-subscription-status-latest-gmp-reviews-other-key-details"
-   },
-   "date": "2026-09-25",
-   "slot": "1300",
-   "when": "13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1200"
    }
   },
   {
