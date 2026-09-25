@@ -1,37 +1,111 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-25T15:33:19+05:30",
+ "generated_at": "2026-09-25T16:02:49+05:30",
  "date": "2026-09-25",
- "slot": "1530",
- "slot_label": "15:30",
- "stage": "Closing mood",
- "asof": "2026-09-25T15:30:00+05:30",
+ "slot": "post",
+ "slot_label": "Close",
+ "stage": "Post-market mood",
+ "asof": "2026-09-25T16:00:00+05:30",
  "nifty": {
-  "value": 23128.1,
-  "pct": 0.28,
-  "chg": 65.0,
+  "value": 23140.5,
+  "pct": 0.34,
+  "chg": 77.4,
   "approx": false
  },
  "mood": {
-  "label": "Late recovery",
+  "label": "Relief close",
   "score": 0.15,
-  "summary": "Indices finished near the day's highs after a late push. Sensex +301 and Nifty ~23,128 (+0.28%) partly recover Thursday's rout, with realty leading and IT the only real drag.",
+  "summary": "The market ended the week with a modest relief bounce, closing near the day's highs. Large caps led, smallcaps edged up and midcaps slipped, so the rebound was narrow.",
   "detail": {
-   "leaders": "Axis Bank, Asian Paints, HCLTech; realty (top sector); private banks",
-   "laggards": "Nifty IT (weakest sector); NSE shares below listing price",
-   "tone": "The afternoon recovery built into the close: the Nifty went from about 23,000 at midday to 23,128 in the closing auction, and the Sensex gain widened to about 301 points. It clawed back only a small part of Thursday's 384-point fall, but the session ended on the front foot.",
+   "leaders": "Realty and auto (best sectors); Axis Bank, Asian Paints, M&M",
+   "laggards": "Nifty IT and Nifty Pharma (weakest sectors); Nifty MidCap 100 −0.14%",
+   "tone": "The final settle was a touch firmer than the closing-auction print, at Nifty 23,140.50 (+0.34%) and Sensex 73,895.74 (+315). That reclaims about a fifth of Thursday's 384-point fall after a morning spent chopping around 23,000–23,100.",
    "watch": [
-    "FII/DII provisional flows due this evening",
-    "Weekend US–Iran headlines and Brent's Monday open",
-    "US PCE inflation on Sept 30 and the path of US yields"
+    "FII/DII provisional flows for today (due after 5 pm)",
+    "Weekend US–Iran and Hormuz headlines ahead of Monday's open",
+    "US PCE inflation on Sept 30 and the US 10-yr near 5.1%"
    ],
    "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 25",
+    "title": "Business Standard — Stock Market Close, Sept 25",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "weekly-losing-streak",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Nifty's 7th straight weekly loss",
+   "line": "Friday's bounce couldn't stop the longest weekly losing run since the 2020 Covid crash",
+   "more": [
+    "The Nifty is down 5.8% (1,430 points) over the seven-week streak",
+    "Oil above $100, US yields near 2007 highs and FII selling drove the slide",
+    "Friday's gain came on hopes of a US–Iran truce"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market Close, Sept 25",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
+   },
+   "date": "2026-09-25",
+   "slot": "post",
+   "when": "Close",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "it-pharma-lag",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "IT and pharma end as the weakest sectors",
+   "line": "Nifty IT and Nifty Pharma closed as the biggest sector drags while realty and autos led",
+   "more": [
+    "IT was pressured all day as the US 10-yr yield stayed near 5.1%",
+    "Pharma gave up the defensive strength it showed during Thursday's sell-off"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market Close, Sept 25",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
+   },
+   "date": "2026-09-25",
+   "slot": "post",
+   "when": "Close",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "week-ahead",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Next week: PCE, A-One Steels, TCI buyback",
+   "line": "US PCE Sept 30; A-One Steels IPO closes Sept 28, lists Oct 1; TCI board meets Sept 29",
+   "more": [
+    "July core PCE was 3.3% YoY; a hot August print would add to Fed hike bets",
+    "A-One Steels was 80% subscribed by day 2, with a grey-market premium of about 12%",
+    "Iran has said it could reopen Hormuz within 7 days if the US eases its blockade"
+   ],
+   "src": {
+    "title": "StockMarketHours — August 2026 PCE release preview",
+    "url": "https://stockmarkethours.org/events/us-pce-release"
+   },
+   "date": "2026-09-25",
+   "slot": "post",
+   "when": "Close",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "post"
+   }
+  },
   {
    "key": "banks-rebound",
    "tag": "Stocks",
@@ -50,7 +124,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1430"
@@ -74,7 +148,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "post"
@@ -98,7 +172,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1200"
