@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TIP — The Important Push</title>
+<meta name="description" content="Live market mood and de-duplicated market insights for Indian equities, in a shape you can send as a push notification.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="TIP — The Important Push">
+<meta property="og:description" content="Live market mood and de-duplicated insights for Indian equities.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%232a78d6'/><text x='16' y='23' font-family='system-ui,sans-serif' font-size='17' font-weight='700' fill='%23fff' text-anchor='middle'>T</text></svg>">
+<style>
+:root{
+  color-scheme: light;
+  --surface:#fcfcfb; --card:#ffffff; --panel:#f4f3f0;
+  --ink:#0b0b0b; --muted:#52514e; --faint:#8a8984; --rule:#e6e5e1;
+  --accent:#2a78d6; --accent-soft:#eef4fd;
+  --red:#e34948; --amber:#c98500; --green:#008300;
+  --shadow:0 1px 2px rgba(11,11,11,.05), 0 8px 24px -12px rgba(11,11,11,.14);
+  --radius:14px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --surface:#151514; --card:#1c1c1b; --panel:#232322;
+    --ink:#f5f5f2; --muted:#b4b3ac; --faint:#84837c; --rule:#2e2e2c;
+    --accent:#5e9ded; --accent-soft:#17243a;
+    --red:#ef6b6a; --amber:#e0a02b; --green:#38a838;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -14px rgba(0,0,0,.7);
+  }
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--surface); color:var(--ink);
+  font:400 15px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Inter,Roboto,"Helvetica Neue",Arial,sans-serif;
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+  padding:0 16px env(safe-area-inset-bottom);
+}
+.wrap{max-width:860px;margin:0 auto;padding:28px 0 64px}
+a{color:var(--accent)}
+h1,h2,h3{margin:0;letter-spacing:-.015em}
+
+/* ---------- header ---------- */
+header{display:flex;align-items:flex-start;gap:14px;flex-wrap:wrap;margin-bottom:6px}
+.brand{display:flex;align-items:center;gap:9px}
+.mark{width:28px;height:28px;border-radius:7px;background:var(--accent);color:#fff;
+  display:grid;place-items:center;font-weight:800;font-size:15px;flex:none}
+.brand b{font-size:19px;font-weight:700;letter-spacing:-.02em}
+.brand span{color:var(--muted);font-size:13px}
+.live{margin-left:auto;display:flex;align-items:center;gap:7px;font-size:12px;color:var(--muted);
+  background:var(--panel);border-radius:999px;padding:6px 12px;white-space:nowrap}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--green);flex:none}
+.dot.on{animation:pulse 2.4s ease-in-out infinite}
+.dot.stale{background:var(--amber);animation:none}
+.dot.err{background:var(--red);animation:none}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.8)}}
+@media (prefers-reduced-motion: reduce){.dot.on{animation:none}}
+.tagline{color:var(--muted);font-size:14.5px;margin:10px 0 22px;max-width:62ch}
+
+/* ---------- mood ---------- */
+.mood{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);
+  padding:20px 20px 18px;margin-bottom:12px;border-top:3px solid var(--band, var(--amber))}
+.mood-top{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.kicker{font-size:10.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--accent)}
+.mood h2{font-size:27px;font-weight:700;margin:2px 0 0;letter-spacing:-.025em}
+.asof{margin-left:auto;font-size:12px;color:var(--faint);font-variant-numeric:tabular-nums}
+.summary{margin:11px 0 0;font-size:16px;line-height:1.5}
+.meter{margin:17px 0 4px}
+.track{position:relative;height:7px;border-radius:999px;
+  background:linear-gradient(90deg,var(--red) 0%,var(--amber) 50%,var(--green) 100%);opacity:.24}
+.needle{position:absolute;top:-4px;width:15px;height:15px;border-radius:50%;
+  background:var(--band,var(--amber));border:2.5px solid var(--card);transform:translateX(-50%);
+  transition:left .5s cubic-bezier(.4,0,.2,1)}
+.scale{display:flex;justify-content:space-between;font-size:10.5px;color:var(--faint);margin-top:8px}
+.detail{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-top:17px;
+  padding-top:16px;border-top:1px solid var(--rule)}
+.detail div>b{display:block;font-size:10.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--faint);margin-bottom:3px}
+.detail div>span{font-size:13.5px;line-height:1.45}
+.watch{margin:6px 0 0;padding-left:17px;font-size:13.5px;line-height:1.5}
+.watch li{margin:2px 0}
+.stat{display:flex;gap:18px;flex-wrap:wrap;margin-top:14px;padding-top:14px;border-top:1px solid var(--rule)}
+.stat div{font-size:13px;color:var(--muted)}
+.stat b{display:block;font-size:19px;color:var(--ink);font-weight:700;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.approx{font-size:10.5px;color:var(--faint);font-weight:400}
+
+/* ---------- explainer strip ---------- */
+.how{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:10px;
+  padding:13px 15px;font-size:13.2px;line-height:1.55;color:var(--ink);margin:18px 0 20px}
+.how b{font-weight:700}
+.pill{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.05em;padding:2px 7px;
+  border-radius:999px;vertical-align:1px}
+.pill.new{background:var(--green);color:#fff}
+.pill.upd{background:var(--panel);color:var(--muted);border:1px solid var(--rule)}
+
+/* ---------- filters ---------- */
+.bar{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:0 0 14px}
+.bar h3{font-size:16px;font-weight:700;margin-right:2px}
+.count{font-size:12.5px;color:var(--faint)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-left:auto}
+.chip{font:inherit;font-size:12px;padding:5px 11px;border-radius:999px;cursor:pointer;
+  border:1px solid var(--rule);background:var(--card);color:var(--muted);transition:.14s}
+.chip:hover{border-color:var(--faint);color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--surface)}
+.chip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* ---------- tips ---------- */
+.tips{display:flex;flex-direction:column;gap:10px}
+.tip{background:var(--card);border-radius:12px;box-shadow:var(--shadow);overflow:hidden;
+  border-left:3px solid var(--imp,var(--faint))}
+.tip-head{display:flex;align-items:flex-start;gap:11px;padding:14px 16px;cursor:pointer;
+  background:none;border:0;width:100%;text-align:left;font:inherit;color:inherit}
+.tip-head:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.tip-body{flex:1;min-width:0}
+.tip-meta{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:5px}
+.tag{font-size:10.5px;font-weight:600;letter-spacing:.03em;color:var(--muted);
+  background:var(--panel);padding:2px 8px;border-radius:999px}
+.when{font-size:11px;color:var(--faint);font-variant-numeric:tabular-nums}
+.imp{font-size:10.5px;font-weight:700;color:var(--imp);text-transform:uppercase;letter-spacing:.05em}
+.tip h4{margin:0;font-size:15.5px;font-weight:700;line-height:1.35;letter-spacing:-.01em}
+.line{margin:4px 0 0;font-size:13.8px;color:var(--muted);line-height:1.5}
+.chev{flex:none;width:18px;height:18px;margin-top:3px;color:var(--faint);transition:transform .2s}
+.tip[open] .chev{transform:rotate(90deg)}
+.more{padding:0 16px 15px 16px;display:none}
+.tip[open] .more{display:block}
+.more ul{margin:0 0 11px;padding-left:18px;font-size:13.5px;line-height:1.6;color:var(--ink)}
+.more li{margin:3px 0}
+.src{font-size:12px;color:var(--faint);display:flex;gap:6px;flex-wrap:wrap;align-items:baseline}
+.src a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent}
+.src a:hover{border-bottom-color:currentColor}
+.first{font-size:11.5px;color:var(--faint);margin-top:7px}
+
+/* ---------- states / footer ---------- */
+.msg{background:var(--card);border-radius:12px;padding:26px;text-align:center;color:var(--muted);
+  box-shadow:var(--shadow);font-size:14px}
+.msg button{margin-top:12px;font:inherit;font-size:13px;padding:7px 15px;border-radius:8px;
+  border:1px solid var(--rule);background:var(--panel);color:var(--ink);cursor:pointer}
+.skel{background:var(--card);border-radius:12px;box-shadow:var(--shadow);padding:16px;margin-bottom:10px}
+.skel div{height:11px;border-radius:5px;background:var(--panel);margin:7px 0;
+  animation:sh 1.5s ease-in-out infinite}
+.skel div:nth-child(2){width:62%}.skel div:nth-child(3){width:84%}
+@keyframes sh{0%,100%{opacity:1}50%{opacity:.45}}
+footer{margin-top:34px;padding-top:18px;border-top:1px solid var(--rule);
+  font-size:11.8px;color:var(--faint);line-height:1.6}
+footer b{color:var(--muted)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media(max-width:560px){
+  .wrap{padding:20px 0 48px}
+  .mood h2{font-size:23px}
+  .asof{margin-left:0;width:100%}
+  .chips{margin-left:0;width:100%}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand">
+      <div class="mark" aria-hidden="true">T</div>
+      <div>
+        <b>TIP</b> <span>The Important Push</span>
+      </div>
+    </div>
+    <div class="live" id="live" title="This page re-fetches the feed every 60 seconds">
+      <span class="dot on" id="dot"></span><span id="livetext">connecting…</span>
+    </div>
+  </header>
+
+  <p class="tagline">Live market mood and de-duplicated insights for Indian equities — the same
+  payload our API delivers, rendered exactly as it arrives. Refreshes every 60 seconds.</p>
+
+  <div id="mood" aria-live="polite"></div>
+
+  <div class="how">
+    <b>What you are looking at.</b> Every insight below carries the judgement your notification
+    layer needs. <span class="pill new">NEW</span> means the story appeared for the first time in
+    this refresh — that is the one you push. <span class="pill upd">UPDATE</span> means it is a
+    story your users already saw, carried forward with fresh information — refresh the card, do
+    not notify again. Tap any insight to open the supporting detail and its source.
+  </div>
+
+  <div class="bar">
+    <h3>TIPs</h3>
+    <span class="count" id="count"></span>
+    <div class="chips" id="chips" role="group" aria-label="Filter by theme"></div>
+  </div>
+
+  <div class="tips" id="tips">
+    <div class="skel"><div></div><div></div><div></div></div>
+    <div class="skel"><div></div><div></div><div></div></div>
+    <div class="skel"><div></div><div></div><div></div></div>
+  </div>
+
+  <footer>
+    <b>TIP is an information service, not investment advice.</b> Figures are drawn from public
+    reporting and may be approximate where the payload flags them as such; they are not a
+    substitute for an exchange feed. Each insight names and links its source — attribute it when
+    you display it. Published weekdays: pre-open, every half hour through the session, and after
+    the close.
+    <span id="stamp"></span>
+  </footer>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var FEED = "https://raw.githubusercontent.com/fundsmaporg/sq_dalal_pulse/main/latest.json";
+  var REFRESH = 60000;
+  var IMP = { pos:"var(--green)", neg:"var(--red)", watch:"var(--amber)" };
+  var IMPWORD = { pos:"Tailwind", neg:"Headwind", watch:"Watch" };
+  var lastGood = null, activeTag = null, lastFetch = 0, failures = 0;
+
+  var $ = function(id){ return document.getElementById(id); };
+  function esc(s){
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
+    });
+  }
+  function band(score){
+    return score <= -0.25 ? "var(--red)" : (score >= 0.25 ? "var(--green)" : "var(--amber)");
+  }
+  function bandWord(score){
+    return score <= -0.25 ? "Risk-off" : (score >= 0.25 ? "Risk-on" : "Neutral");
+  }
+  function istTime(iso){
+    if(!iso || iso.indexOf("T") < 0) return "";
+    return iso.split("T")[1].slice(0,5);
+  }
+  function safeUrl(u){
+    return /^https?:\/\//i.test(u || "") ? u : null;
+  }
+  function ago(ms){
+    var s = Math.round(ms/1000);
+    if(s < 60) return s + "s ago";
+    var m = Math.round(s/60);
+    return m < 60 ? m + "m ago" : Math.round(m/60) + "h ago";
+  }
+
+  function renderMood(d){
+    var m = d.mood || {}, det = m.detail || {}, n = d.nifty || {};
+    var sc = typeof m.score === "number" ? m.score : 0;
+    var pct = ((sc + 1) / 2) * 100;
+    var nifty = "";
+    if(n.value != null){
+      nifty = '<div><b>' + Number(n.value).toLocaleString("en-IN") +
+              (n.approx ? ' <span class="approx">approx</span>' : '') + '</b>Nifty 50</div>';
+      if(n.pct != null){
+        var col = n.pct < 0 ? "var(--red)" : "var(--green)";
+        nifty += '<div><b style="color:' + col + '">' + (n.pct > 0 ? "+" : "") +
+                 Number(n.pct).toFixed(2) + '%</b>Change</div>';
+      }
+    }
+    var watch = (det.watch || []).map(function(w){ return "<li>" + esc(w) + "</li>"; }).join("");
+    $("mood").innerHTML =
+      '<section class="mood" style="--band:' + band(sc) + '">' +
+        '<div class="mood-top">' +
+          '<div><div class="kicker">Market mood</div>' +
+          '<h2>' + esc(m.label || "—") + '</h2></div>' +
+          '<div class="asof">' + esc(d.date || "") + " · " + esc(d.slot_label || "") +
+          ' IST</div>' +
+        '</div>' +
+        (m.summary ? '<p class="summary">' + esc(m.summary) + '</p>' : '') +
+        '<div class="meter"><div class="track"><span class="needle" style="left:' + pct +
+          '%;--band:' + band(sc) + '"></span></div>' +
+          '<div class="scale"><span>Risk-off −1</span><span>' + bandWord(sc) + " " +
+          (sc > 0 ? "+" : "") + sc.toFixed(2) + '</span><span>+1 Risk-on</span></div></div>' +
+        (nifty ? '<div class="stat">' + nifty + '</div>' : '') +
+        '<div class="detail">' +
+          (det.leaders ? '<div><b>Leading</b><span>' + esc(det.leaders) + '</span></div>' : '') +
+          (det.laggards ? '<div><b>Lagging</b><span>' + esc(det.laggards) + '</span></div>' : '') +
+          (det.tone ? '<div><b>Versus the last reading</b><span>' + esc(det.tone) + '</span></div>' : '') +
+          (watch ? '<div><b>What would change it</b><ul class="watch">' + watch + '</ul></div>' : '') +
+        '</div>' +
+      '</section>';
+  }
+
+  function renderChips(tags){
+    var html = '<button class="chip" data-tag="" aria-pressed="' + (activeTag ? "false" : "true") +
+               '">All</button>';
+    tags.forEach(function(t){
+      html += '<button class="chip" data-tag="' + esc(t) + '" aria-pressed="' +
+              (activeTag === t ? "true" : "false") + '">' + esc(t) + "</button>";
+    });
+    $("chips").innerHTML = html;
+  }
+
+  function renderTips(list){
+    var shown = activeTag ? list.filter(function(t){ return t.tag === activeTag; }) : list;
+    var newCount = shown.filter(function(t){ return t.is_new; }).length;
+    $("count").textContent = (activeTag ? shown.length + " of " + list.length
+                                        : list.length + " live") +
+      " · " + newCount + " new in this refresh";
+    if(!shown.length){
+      $("tips").innerHTML = '<div class="msg">No insights under this theme right now.</div>';
+      return;
+    }
+    $("tips").innerHTML = shown.map(function(t, i){
+      var more = (t.more || []).map(function(b){ return "<li>" + esc(b) + "</li>"; }).join("");
+      var url = safeUrl(t.src && t.src.url);
+      var badge = t.is_new ? '<span class="pill new">NEW</span>'
+                : (t.updated ? '<span class="pill upd">UPDATE</span>' : "");
+      var fs = "";
+      if(!t.is_new && t.first_seen && t.first_seen.date){
+        fs = '<p class="first">First published ' + esc(t.first_seen.date) + " · " +
+             esc(t.first_seen.slot) + " — carried forward since.</p>";
+      }
+      return '<details class="tip" style="--imp:' + (IMP[t.impact] || "var(--faint)") + '">' +
+        '<summary class="tip-head">' +
+          '<div class="tip-body">' +
+            '<div class="tip-meta">' + badge +
+              '<span class="tag">' + esc(t.tag || "") + '</span>' +
+              '<span class="imp">' + esc(IMPWORD[t.impact] || "") + '</span>' +
+              '<span class="when">' + esc(t.when || "") + '</span>' +
+            '</div>' +
+            '<h4>' + esc(t.title || "") + '</h4>' +
+            (t.line ? '<p class="line">' + esc(t.line) + '</p>' : '') +
+          '</div>' +
+          '<svg class="chev" viewBox="0 0 16 16" fill="none" aria-hidden="true">' +
+            '<path d="M6 3.5L10.5 8L6 12.5" stroke="currentColor" stroke-width="1.8" ' +
+            'stroke-linecap="round" stroke-linejoin="round"/></svg>' +
+        '</summary>' +
+        '<div class="more">' +
+          (more ? "<ul>" + more + "</ul>" : "") +
+          (url ? '<p class="src">Source: <a href="' + esc(url) + '" target="_blank" ' +
+                 'rel="noopener noreferrer">' + esc((t.src && t.src.title) || url) + '</a></p>'
+               : (t.src && t.src.title
+                  ? '<p class="src">Source: ' + esc(t.src.title) + '</p>' : '')) +
+          fs +
+        '</div>' +
+      '</details>';
+    }).join("");
+  }
+
+  function render(d){
+    renderMood(d);
+    var tips = d.insights || [];
+    var tags = [];
+    tips.forEach(function(t){ if(t.tag && tags.indexOf(t.tag) < 0) tags.push(t.tag); });
+    tags.sort();
+    if(activeTag && tags.indexOf(activeTag) < 0) activeTag = null;
+    renderChips(tags);
+    renderTips(tips);
+    var gen = d.generated_at || "";
+    $("stamp").innerHTML = gen
+      ? '<br><br>Feed generated ' + esc(gen.replace("T", " ").slice(0, 16)) + " IST."
+      : "";
+  }
+
+  function setLive(state, text){
+    var dot = $("dot");
+    dot.className = "dot " + state;
+    $("livetext").textContent = text;
+  }
+
+  function tick(){
+    if(!lastFetch) return;
+    var d = Date.now() - lastFetch;
+    if(failures) return;
+    setLive(d > 15 * 60000 ? "stale" : "on", "live · updated " + ago(d));
+  }
+
+  var retryTimer = null;
+  function load(){
+    // A hung request must not leave the page sitting on "connecting…" forever.
+    var ctl = window.AbortController ? new AbortController() : null;
+    var killed = false;
+    var killer = setTimeout(function(){ killed = true; if(ctl) ctl.abort(); }, 12000);
+
+    fetch(FEED + "?t=" + Date.now(),
+          ctl ? { cache: "no-store", signal: ctl.signal } : { cache: "no-store" })
+      .then(function(r){
+        if(!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(function(d){
+        if(!d || !d.mood) throw new Error("unexpected payload");
+        clearTimeout(killer);
+        if(retryTimer){ clearTimeout(retryTimer); retryTimer = null; }
+        lastGood = d; failures = 0; lastFetch = Date.now();
+        render(d); tick();
+      })
+      .catch(function(){
+        clearTimeout(killer);
+        failures++;
+        if(lastGood){
+          setLive("stale", "showing last good · retrying");
+        } else {
+          setLive("err", failures < 4 ? "reconnecting…" : "feed unavailable");
+          if(failures >= 4){
+            $("tips").innerHTML = '<div class="msg">Could not reach the live feed.' +
+              '<br><button id="retry">Try again</button></div>';
+            var b = $("retry");
+            if(b) b.addEventListener("click", function(){ failures = 0; load(); });
+          }
+        }
+        // Back off quickly on the first few failures rather than waiting a full cycle.
+        if(failures < 4 && !retryTimer){
+          retryTimer = setTimeout(function(){ retryTimer = null; load(); },
+                                  Math.min(2000 * failures, 8000));
+        }
+      });
+  }
+
+  $("chips").addEventListener("click", function(e){
+    var b = e.target.closest(".chip");
+    if(!b || !lastGood) return;
+    activeTag = b.dataset.tag || null;
+    renderChips(Array.from(new Set((lastGood.insights || [])
+      .map(function(t){ return t.tag; }).filter(Boolean))).sort());
+    renderTips(lastGood.insights || []);
+  });
+
+  document.addEventListener("visibilitychange", function(){
+    if(!document.hidden && Date.now() - lastFetch > REFRESH) load();
+  });
+
+  load();
+  setInterval(load, REFRESH);
+  setInterval(tick, 10000);
+})();
+</script>
+</body>
+</html>
