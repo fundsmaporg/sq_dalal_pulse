@@ -1,37 +1,110 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-25T13:33:12+05:30",
+ "generated_at": "2026-09-25T14:02:23+05:30",
  "date": "2026-09-25",
- "slot": "1330",
- "slot_label": "13:30",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Mid-market mood",
- "asof": "2026-09-25T13:00:00+05:30",
+ "asof": "2026-09-25T14:00:00+05:30",
  "nifty": {
-  "value": 23036.65,
-  "pct": -0.11,
-  "chg": -26.45,
-  "approx": false
+  "value": 23000,
+  "pct": -0.27,
+  "chg": -63.1,
+  "approx": true
  },
  "mood": {
-  "label": "Drifting lower",
+  "label": "Stuck in range",
   "score": -0.15,
-  "summary": "The Nifty has slipped just below Thursday's close while mid- and smallcaps lag and decliners outnumber advancers, so the morning's relief has turned into a slow, narrow drift lower.",
+  "summary": "The benchmarks are stuck near 23,000 with no direction into the last 90 minutes. Mid- and smallcaps are weaker than the headline indices and buying is limited to individual stocks.",
   "detail": {
-   "leaders": "Realty; Transport Corporation of India; select autos",
-   "laggards": "BSE MidCap 150 (−0.51%), SmallCap 250 (−0.32%); IT",
-   "tone": "Slightly weaker than 12:30: the Nifty has turned negative at 23,036.65 (−0.11%) and breadth is negative at 1,826 advancers vs 2,256 decliners on BSE. VIX is still subdued, so the selling is thin rather than forced.",
+   "leaders": "Autos (Bajaj Auto, Tata Motors PV), Power Grid; order-win stocks such as Vascon and Engineers India",
+   "laggards": "Mid- and smallcaps; IT",
+   "tone": "Little changed from 13:30: the Nifty is still hovering near 23,000, slightly below Thursday's 23,063 close. Crude's rebound toward $106 has taken away the morning's main support.",
    "watch": [
-    "Whether the Nifty holds 23,000 into the last two hours",
-    "European weakness spilling into Indian afternoon trade",
-    "Any US–Iran headline moving crude"
+    "A close below 23,000 would signal Thursday's selling is not over",
+    "Brent pushing back above $106–107",
+    "US data and yields when America opens"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 25",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Brent rebounds off lows, back near $106",
+   "line": "The morning dip has reversed as Hormuz talks stall; this removes a tailwind for India",
+   "more": [
+    "Brent was about $105.6–105.7 in Asian trade this morning",
+    "The US–Iran phased deal is stuck on who moves first",
+    "Higher crude hurts OMCs, paints, airlines and the rupee"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market LIVE, Sept 25",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
+   },
+   "date": "2026-09-25",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "vascon-qualcomm",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Vascon jumps 8.7% on ₹661 cr Qualcomm order",
+   "line": "Wins a ₹660.79 cr contract to build a 12-floor Qualcomm India office in Bengaluru",
+   "more": [
+    "Execution runs 30 months from site handover",
+    "Shares rose 8.71% in early trade"
+   ],
+   "src": {
+    "title": "HDFC Sky — Vascon Engineers bags ₹660.79 cr Qualcomm project",
+    "url": "https://hdfcsky.com/news/vascon-engineers-bags-rs-660-79-crore-qualcomm-project"
+   },
+   "date": "2026-09-25",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "engineers-india",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Engineers India hits record ₹311",
+   "line": "The PSU engineering stock hits a fresh all-time high, bucking the weak broader market",
+   "more": [
+    "Momentum is building across timeframes",
+    "It is one of several small and midcap stocks at record highs today"
+   ],
+   "src": {
+    "title": "MarketsMojo — Engineers India hits all-time high",
+    "url": "https://www.marketsmojo.com/news/stocks-in-action/engineers-india-ltd-stock-hits-all-time-high-on-25-sep-2026-4205137"
+   },
+   "date": "2026-09-25",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1400"
+   }
+  },
   {
    "key": "idbi-stake-sale",
    "tag": "Policy",
@@ -51,7 +124,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1330"
@@ -75,7 +148,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1330"
@@ -99,36 +172,10 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1330"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "Iran offers 60-day ceasefire, phased Hormuz exit",
-   "line": "Phased Hormuz reopening for an end to the US blockade; neither side wants to move first",
-   "more": [
-    "Iran proposed a regionwide ceasefire of up to 60 days",
-    "Talks on the UNGA sidelines are mediated by Qatar, Pakistan and Egypt",
-    "Sources say neither side wants to give up its leverage first",
-    "A deal would ease crude, the biggest macro risk for India"
-   ],
-   "src": {
-    "title": "Reuters via US News — US and Iran discuss phased deal to reopen Hormuz",
-    "url": "https://www.usnews.com/news/world/articles/2026-09-24/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-sources-say"
-   },
-   "date": "2026-09-25",
-   "slot": "1300",
-   "when": "13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
    }
   },
   {
