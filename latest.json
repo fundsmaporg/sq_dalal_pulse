@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-25T11:02:54+05:30",
+ "generated_at": "2026-09-25T11:33:18+05:30",
  "date": "2026-09-25",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-09-25T11:00:00+05:30",
+ "asof": "2026-09-25T11:18:00+05:30",
  "nifty": {
-  "value": 23062.7,
-  "pct": 0.0,
-  "chg": -0.4,
+  "value": 23097.1,
+  "pct": 0.15,
+  "chg": 34.0,
   "approx": false
  },
  "mood": {
-  "label": "Range-bound",
-  "score": -0.1,
-  "summary": "The market is flat and range-bound for a third straight check. The Nifty sits on Thursday's close while the Sensex holds a small gain, with metals firm and midcap IT and fintech sold.",
+  "label": "Mild uptick",
+  "score": -0.05,
+  "summary": "The indices have edged off the flatline into mild gains, with the Nifty up about 0.15% and the Sensex up about 150 points. Trade stays narrow and stock-specific, with no broad buying.",
   "detail": {
-   "leaders": "Metals (Welspun Corp, Hindustan Zinc, Adani Enterprises); L&T",
-   "laggards": "IT (OFSS, Infosys, Mphasis); PB Fintech among midcaps",
-   "tone": "Unchanged from 10:30: the Nifty is pinned at 23,063 and the Sensex gain has narrowed to about 58 points. Pockets of buying in metals are offset by steady selling in IT and insurance-linked names.",
+   "leaders": "Metals; L&T; stock-specific gainers (Wheels India, Spectrum Electrical)",
+   "laggards": "IT (OFSS, Infosys); PB Fintech",
+   "tone": "A small improvement on 11:00: the Nifty has moved from flat to about 34 points above Thursday's close and the Sensex gain has widened to about 149 points. The range is still tight and the lift looks like modest short-covering rather than conviction buying.",
    "watch": [
-    "A break of the 23,000–23,100 band either way",
-    "Further selling in IT if the US 10-yr yield rises",
-    "Any US–Iran Hormuz headline moving Brent"
+    "Whether the Nifty clears 23,100 and holds it into the afternoon",
+    "Brent slipping further below $105 on US–Iran talks",
+    "European open and US yield direction"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 25",
@@ -32,6 +32,80 @@
   }
  },
  "insights": [
+  {
+   "key": "qip-fundraises",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Wheels India, Inox Green up to 5% on QIPs",
+   "line": "Wheels India rose as much as 5.5% to ₹2,300 after launching a ₹250 cr QIP",
+   "more": [
+    "The Wheels India QIP floor price is ₹2,197.10, with up to a 5% discount allowed",
+    "Its board was due to meet on Sept 25 to fix the final issue price",
+    "Inox Green also rose after launching its own QIP"
+   ],
+   "src": {
+    "title": "BusinessToday — Wheels India, Inox Green rise up to 5% on QIPs",
+    "url": "https://www.businesstoday.in/markets/trending-stocks/story/wheels-india-inox-green-shares-rise-up-to-5-as-companies-launch-qips-check-details-557731-2026-09-25"
+   },
+   "date": "2026-09-25",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "WTI drops 1.7% to $93; Brent near $105.7",
+   "line": "Oil keeps easing as markets weigh a US–Iran truce against Houthi attack risks",
+   "more": [
+    "At 0212 GMT Brent was −0.82% at $105.73 and WTI −1.65% at $93.05",
+    "Iran signals Hormuz navigation in exchange for the US ending its naval blockade",
+    "Softer crude helps India's import bill and the rupee"
+   ],
+   "src": {
+    "title": "Business Standard — Oil prices fall as markets weigh Iran truce",
+    "url": "https://www.business-standard.com/amp/markets/commodities/oil-prices-fall-as-markets-weigh-iran-truce-oil-facility-attack-risks-126092500081_1.html"
+   },
+   "date": "2026-09-25",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "spectrum-electrical",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Spectrum Electrical hits record ₹3,400",
+   "line": "The small-cap is up 4.47% to a fresh all-time high, far outpacing the Sensex",
+   "more": [
+    "It set a new 52-week and all-time high on Sept 25",
+    "Momentum is building across timeframes"
+   ],
+   "src": {
+    "title": "MarketsMojo — Spectrum Electrical hits all-time high of ₹3,400",
+    "url": "https://www.marketsmojo.com/news/stocks-in-action/spectrum-electrical-industries-ltd-hits-all-time-high-at-rs3400-4204484"
+   },
+   "date": "2026-09-25",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1130"
+   }
+  },
   {
    "key": "ofss",
    "tag": "Stocks",
@@ -51,7 +125,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1100"
@@ -75,7 +149,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1100"
@@ -99,7 +173,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-24",
     "slot": "1330"
@@ -266,32 +340,6 @@
    },
    "tag": "Flows",
    "title": "FIIs dump ₹5,027 cr; DIIs absorb ₹4,301 cr",
-   "date": "2026-09-25",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
-   }
-  },
-  {
-   "impact": "watch",
-   "key": "crude",
-   "line": "Brent −0.7% to $105.85; US–Iran talks weigh reopening Hormuz for lifting the blockade",
-   "more": [
-    "Negotiators in New York are reportedly exploring a phased route to ending the conflict",
-    "Tehran would reopen the Strait of Hormuz; Washington would lift its economic blockade",
-    "Saudi Arabia is raising East-West pipeline flows to Yanbu, but tanker loadings have not resumed",
-    "WTI −0.9% to $93.80 at 0032 GMT"
-   ],
-   "src": {
-    "title": "Investing.com (Reuters) — Oil falls as markets look to Iran truce",
-    "url": "https://www.investing.com/news/commodities-news/oil-prices-fall-as-markets-look-to-iran-truce-but-remain-wary-of-attacks-on-oil-facilities-4916502"
-   },
-   "tag": "Macro",
-   "title": "Oil eases on phased Hormuz deal talk",
    "date": "2026-09-25",
    "slot": "0930",
    "when": "9:30",
