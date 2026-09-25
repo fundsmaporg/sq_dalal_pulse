@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-25T10:33:11+05:30",
+ "generated_at": "2026-09-25T11:02:54+05:30",
  "date": "2026-09-25",
- "slot": "1030",
- "slot_label": "10:30",
+ "slot": "1100",
+ "slot_label": "11:00",
  "stage": "Mid-market mood",
- "asof": "2026-09-25T10:30:00+05:30",
+ "asof": "2026-09-25T11:00:00+05:30",
  "nifty": {
-  "value": 23055.2,
-  "pct": -0.03,
-  "chg": -7.9,
-  "approx": true
+  "value": 23062.7,
+  "pct": 0.0,
+  "chg": -0.4,
+  "approx": false
  },
  "mood": {
-  "label": "Sideways drift",
+  "label": "Range-bound",
   "score": -0.1,
-  "summary": "The benchmarks are stuck in a tight range around Thursday's close. The Sensex is modestly positive, the Nifty flat, and smallcaps edge up while midcaps lag.",
+  "summary": "The market is flat and range-bound for a third straight check. The Nifty sits on Thursday's close while the Sensex holds a small gain, with metals firm and midcap IT and fintech sold.",
   "detail": {
-   "leaders": "L&T, M&M, Axis Bank, SBI, Bajaj Finance; smallcaps slightly firmer",
-   "laggards": "IT (Infosys, TCS, Tech Mahindra); Sun Pharma, HUL; midcaps soft",
-   "tone": "Little change from the 10:00 note: the Nifty is still pinned near 23,050 and the Sensex has held on to a gain of about 100 points. Buyers are active in selected large caps, but nobody is chasing a broader rebound.",
+   "leaders": "Metals (Welspun Corp, Hindustan Zinc, Adani Enterprises); L&T",
+   "laggards": "IT (OFSS, Infosys, Mphasis); PB Fintech among midcaps",
+   "tone": "Unchanged from 10:30: the Nifty is pinned at 23,063 and the Sensex gain has narrowed to about 58 points. Pockets of buying in metals are offset by steady selling in IT and insurance-linked names.",
    "watch": [
-    "A decisive move above or below Thursday's 23,063 Nifty close",
-    "US 10-yr yield pushing further past 5.2%",
-    "Brent reacting to any US–Iran Hormuz headline"
+    "A break of the 23,000–23,100 band either way",
+    "Further selling in IT if the US 10-yr yield rises",
+    "Any US–Iran Hormuz headline moving Brent"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 25",
@@ -32,6 +32,79 @@
   }
  },
  "insights": [
+  {
+   "key": "ofss",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "OFSS slides 3–4%; puts pile up",
+   "line": "Oracle Financial Services is the weakest IT name, near ₹10,460 with heavy put buying",
+   "more": [
+    "Reports put the day's fall at 3.4–4.4%; it is among the top midcap losers",
+    "6,886 contracts traded at the ₹10,500 put strike and 5,112 at ₹10,000",
+    "On Monday it fell 6.5% on an FT report of stress in loans linked to an Oracle-leased US data centre"
+   ],
+   "src": {
+    "title": "MarketsMojo — Heavy put option activity in Oracle Financial Services",
+    "url": "https://www.marketsmojo.com/news/stocks-in-action/oracle-financial-services-sees-heavy-put-option-activity-amid-bearish-sentiment-4204645"
+   },
+   "date": "2026-09-25",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "metal-stocks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Metals outperform; Hind Zinc, Adani Ent gain",
+   "line": "Welspun Corp, Hindustan Zinc and Adani Enterprises lead the Nifty Metal index",
+   "more": [
+    "Metals are the main sector bucking the flat market",
+    "Welspun Corp is at a record high after its ₹4,000 cr US pipe order"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market LIVE, Sept 25",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
+   },
+   "date": "2026-09-25",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "pb-fintech",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "PB Fintech extends slide for a second day",
+   "line": "Down 2.2% at ₹1,180, among the top midcap losers after Thursday's 35% crash",
+   "more": [
+    "Selling follows IRDAI's draft caps on commissions and distribution costs",
+    "IRDAI is taking stakeholder feedback until October 25"
+   ],
+   "src": {
+    "title": "Moneycontrol via TradingView — PB Fintech among top midcap losers",
+    "url": "https://tr.tradingview.com/news/moneycontrol%3A6bd1dc7fa094b%3A0-pb-fintech-policybazaar-shares-fall-2-among-top-midcap-losers-in-morning-trading-session"
+   },
+   "date": "2026-09-25",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-24",
+    "slot": "1330"
+   }
+  },
   {
    "key": "welspun-corp",
    "tag": "Stocks",
@@ -51,7 +124,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1030"
@@ -75,7 +148,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-24",
     "slot": "0930"
@@ -99,7 +172,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
@@ -251,30 +324,6 @@
    "first_seen": {
     "date": "2026-09-25",
     "slot": "0930"
-   }
-  },
-  {
-   "impact": "neg",
-   "key": "pb-fintech",
-   "line": "Broker lowers target after the IRDAI draft on distribution costs; upside case at ₹1,620",
-   "more": [
-    "The cut follows Thursday's lower-circuit crash on IRDAI's proposed commission and cost caps",
-    "Jefferies has set out upside and downside scenarios for the stock"
-   ],
-   "src": {
-    "title": "BusinessToday — PB Fintech: Jefferies cuts target by 25%",
-    "url": "https://www.businesstoday.in/markets/stocks/story/pb-fintech-share-price-jefferies-cuts-target-by-25-upside-downside-scenarios-557708-2026-09-25"
-   },
-   "tag": "Stocks",
-   "title": "Jefferies cuts PB Fintech target by 25%",
-   "date": "2026-09-25",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-24",
-    "slot": "1330"
    }
   },
   {
