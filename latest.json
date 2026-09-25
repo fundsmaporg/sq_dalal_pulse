@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-25T10:03:02+05:30",
+ "generated_at": "2026-09-25T10:33:11+05:30",
  "date": "2026-09-25",
- "slot": "1000",
- "slot_label": "10:00",
- "stage": "Opening mood",
- "asof": "2026-09-25T09:50:00+05:30",
+ "slot": "1030",
+ "slot_label": "10:30",
+ "stage": "Mid-market mood",
+ "asof": "2026-09-25T10:30:00+05:30",
  "nifty": {
-  "value": 23050,
-  "pct": -0.06,
-  "chg": -13.1,
+  "value": 23055.2,
+  "pct": -0.03,
+  "chg": -7.9,
   "approx": true
  },
  "mood": {
-  "label": "Bounce stalls",
-  "score": -0.15,
-  "summary": "The early bounce has faded and the Nifty is back near Thursday's close. Breadth is roughly even: auto and private banks are up, while IT drags.",
+  "label": "Sideways drift",
+  "score": -0.1,
+  "summary": "The benchmarks are stuck in a tight range around Thursday's close. The Sensex is modestly positive, the Nifty flat, and smallcaps edge up while midcaps lag.",
   "detail": {
-   "leaders": "Auto, private banks and metals",
-   "laggards": "IT (OFSS, Infosys, Mphasis, TCS); PB Fintech and NSE extend losses",
-   "tone": "The Nifty has given back the small gain from the 9:30 note and is hovering around 23,050, just below Thursday's 23,063 close. Advances and declines are nearly level, so there is no conviction either way.",
+   "leaders": "L&T, M&M, Axis Bank, SBI, Bajaj Finance; smallcaps slightly firmer",
+   "laggards": "IT (Infosys, TCS, Tech Mahindra); Sun Pharma, HUL; midcaps soft",
+   "tone": "Little change from the 10:00 note: the Nifty is still pinned near 23,050 and the Sensex has held on to a gain of about 100 points. Buyers are active in selected large caps, but nobody is chasing a broader rebound.",
    "watch": [
-    "Whether the Nifty can reclaim and hold Thursday's 23,063 close",
-    "Brent holding below $106 on US–Iran Hormuz talks",
-    "The rupee holding near 95.90 as the RBI steps in"
+    "A decisive move above or below Thursday's 23,063 Nifty close",
+    "US 10-yr yield pushing further past 5.2%",
+    "Brent reacting to any US–Iran Hormuz headline"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 25",
@@ -33,24 +33,72 @@
  },
  "insights": [
   {
+   "key": "welspun-corp",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Welspun Corp hits record on ₹4,000 cr US order",
+   "line": "US arm wins its largest-ever pipe order (~$412.5 mn); stock up 5% to a record ₹2,837.50",
+   "more": [
+    "Welspun Tubular LLC will supply high-frequency induction welded (HFIW) pipes",
+    "The order is worth about $412.5 mn, or ₹4,000 cr",
+    "The stock is up about four-fold from its February low"
+   ],
+   "src": {
+    "title": "Business Standard — Welspun Corp jumps 5% as US arm wins ₹4,000 cr order",
+    "url": "https://www.business-standard.com/markets/news/welspun-corp-jump-5-as-us-arm-wins-4-000-cr-order-up-4-fold-from-feb-low-126092500195_1.html"
+   },
+   "date": "2026-09-25",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US 10-yr yield climbs to about 5.22%",
+   "line": "Wall St fell for a third straight session as the 10-yr yield rose; Asia trades mixed",
+   "more": [
+    "The yield is up from about 5.12% cited earlier, near its highest since 2007",
+    "High US yields keep risk appetite and FII flows into India in check"
+   ],
+   "src": {
+    "title": "India TV — 25 September 2026 Stock Market Updates",
+    "url": "https://www.indiatvnews.com/business/markets/25-september-2026-stock-market-updates-sensex-nifty-flat-amid-mixed-global-cues-it-stocks-drag-2026-09-25-1055235"
+   },
+   "date": "2026-09-25",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-24",
+    "slot": "0930"
+   }
+  },
+  {
    "key": "it-stocks",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "IT stocks lead the losers",
-   "line": "OFSS, Infosys, Mphasis and TCS are the weakest Nifty IT names as US yields stay high",
+   "title": "Infosys leads Sensex losers, down 1.4%",
+   "line": "Infosys −1.44%; TCS and Tech Mahindra also among the Sensex's biggest drags",
    "more": [
-    "IT is the only major sector down on the NSE in early trade",
-    "The US 10-yr yield near 5.1% and Fed hike bets weigh on US tech spending expectations",
-    "Auto, private banks and metals are offsetting the drag"
+    "OFSS and Mphasis are the weakest names in the Nifty IT index",
+    "L&T leads the Sensex gainers, up 0.95%, with M&M, Axis Bank, SBI and Bajaj Finance"
    ],
    "src": {
-    "title": "Business Standard — Nifty trades tad above 23,250 in early trade; breadth positive",
-    "url": "https://www.business-standard.com/markets/capital-market-news/nifty-trade-tad-above-23-250-in-early-trade-breadth-positive-126092500183_1.html"
+    "title": "India TV — 25 September 2026 Stock Market Updates",
+    "url": "https://www.indiatvnews.com/business/markets/25-september-2026-stock-market-updates-sensex-nifty-flat-amid-mixed-global-cues-it-stocks-drag-2026-09-25-1055235"
    },
    "date": "2026-09-25",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": false,
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-09-25",
@@ -76,7 +124,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
@@ -100,7 +148,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
@@ -124,7 +172,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
@@ -179,31 +227,6 @@
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
-   }
-  },
-  {
-   "impact": "neg",
-   "key": "us-yields",
-   "line": "S&P 500 −0.5%, Nasdaq −0.8% and Russell 2000 −1.8% as yields and oil weigh",
-   "more": [
-    "The 10-yr yield held near 5.12%, around its highest level since 2007",
-    "Bets on more Fed rate hikes are building",
-    "High US yields keep pressure on emerging-market flows"
-   ],
-   "src": {
-    "title": "TheStreet — Stock Market Today, Sept 24, 2026",
-    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-24-2026"
-   },
-   "tag": "Global",
-   "title": "US 10-yr stays near 5.1%; Wall St slips",
-   "date": "2026-09-25",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-24",
-    "slot": "0930"
    }
   },
   {
