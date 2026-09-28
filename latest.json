@@ -1,37 +1,110 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-28T13:03:25+05:30",
+ "generated_at": "2026-09-28T13:34:42+05:30",
  "date": "2026-09-28",
- "slot": "1300",
- "slot_label": "13:00",
+ "slot": "1330",
+ "slot_label": "13:30",
  "stage": "Mid-market mood",
- "asof": "2026-09-28T13:00:00+05:30",
+ "asof": "2026-09-28T13:30:00+05:30",
  "nifty": {
   "value": 22825.25,
   "pct": -1.36,
   "chg": -315.25,
-  "approx": false
+  "approx": true
  },
  "mood": {
-  "label": "Pinned at lows",
+  "label": "Banks drag on",
   "score": -0.65,
-  "summary": "The market is flat near the day's lows into the afternoon. The Nifty is holding a loss of about 1.36%, heavyweights like Adani Ports and L&T lead the drag, and mid- and smallcaps stay deep in the red.",
+  "summary": "The afternoon has brought no relief. The Sensex is still down about 900–1,000 points and banks are dragging hardest, with the Nifty stuck around 22,825 and every sector red.",
   "detail": {
-   "leaders": "Few; isolated stock-specific gainers only",
-   "laggards": "Adani Ports, L&T (lead the Sensex drag); Hindalco, Max Healthcare, Kotak; MidCap −1.31%, SmallCap −1.43%",
-   "tone": "No change in direction from 12:30: the Nifty at 22,825.25 (−315.25) at 1 pm is a touch below noon's 22,829. Brent pushing to fresh highs is keeping buyers away.",
+   "leaders": "IT only mildly lower on a weak rupee; isolated stock-specific gainers",
+   "laggards": "Banks (Nifty Bank −1.8%; Yes Bank, Union Bank, PNB); realty (−2.2%); metals, FMCG",
+   "tone": "Flat from 13:00: the Nifty was 22,825.25 (−1.36%) at 1 pm and there is no afternoon bounce yet. Bank heavyweights (HDFC Bank, ICICI, SBI) are now the main drag.",
    "watch": [
-    "Brent above $107.34 would add pressure into the close",
-    "Whether the 22,800 area holds for the day",
-    "FII/DII provisional data after the close"
+    "Whether banks stabilise into the last 90 minutes",
+    "Brent holding above $107",
+    "FII/DII provisional data after 5 pm"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 28",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-28-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126092800062_1.html"
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-updates-september-28-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126092800062_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "bank-nifty",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Bank Nifty down ~1.8% as heavyweights slide",
+   "line": "HDFC Bank −1.86%, SBI −1.83%, ICICI −1.68%; Yes Bank −4.4%, Union Bank −3.4% lead losses",
+   "more": [
+    "The Nifty Bank index lost more than 1,000 points intraday, to near 54,500",
+    "IDFC First −2.9%, PNB −2.7% and Canara −2.7% also sold",
+    "Rate-hike worries from high oil hit rate-sensitive lenders"
+   ],
+   "src": {
+    "title": "Angel One — Nifty Bank slumps over 1,000 points",
+    "url": "https://www.angelone.in/news/market-updates/nifty-bank-index-slumps-over-1-000-points-in-intraday-trade-on-september-28-2026"
+   },
+   "date": "2026-09-28",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "realty-slide",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Realty slumps 2.2%; Lodha, DLF down 2%+",
+   "line": "The Nifty Realty index fell to 854.95, reversing Friday's rebound as rate fears return",
+   "more": [
+    "Lodha −2.53%, DLF −2.01%, Prestige −1.78%",
+    "Realty is one of the worst-hit sectors today"
+   ],
+   "src": {
+    "title": "Business Standard — Sensex, Nifty plunge over 1%; realty skids",
+    "url": "https://www.business-standard.com/markets/capital-market-news/sensex-nifty-plunge-over-1-realty-shares-skid-126092800252_1.html"
+   },
+   "date": "2026-09-28",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "it-stocks",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "IT holds up better on a weak rupee",
+   "line": "Infosys only −0.22% at ₹998; weak rupee cushions exporters, but AI-pricing worries linger",
+   "more": [
+    "A falling rupee usually helps IT margins, since revenue is in dollars and costs in rupees",
+    "Analysts flag AI-led pricing deflation and flat enterprise IT spending"
+   ],
+   "src": {
+    "title": "LatestLY — Infosys slips marginally amid IT weakness",
+    "url": "https://www.latestly.com/business/infosys-stock-update-share-price-slips-marginally-amid-it-sector-weakness-7623335.html"
+   },
+   "date": "2026-09-28",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1000"
+   }
+  },
   {
    "key": "crude",
    "tag": "Macro",
@@ -50,7 +123,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -73,7 +146,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1300"
@@ -97,7 +170,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1300"
@@ -120,7 +193,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1300"
@@ -1093,30 +1166,6 @@
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "it-stocks",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Infosys leads Sensex losers, down 1.4%",
-   "line": "Infosys −1.44%; TCS and Tech Mahindra also among the Sensex's biggest drags",
-   "more": [
-    "OFSS and Mphasis are the weakest names in the Nifty IT index",
-    "L&T leads the Sensex gainers, up 0.95%, with M&M, Axis Bank, SBI and Bajaj Finance"
-   ],
-   "src": {
-    "title": "India TV — 25 September 2026 Stock Market Updates",
-    "url": "https://www.indiatvnews.com/business/markets/25-september-2026-stock-market-updates-sensex-nifty-flat-amid-mixed-global-cues-it-stocks-drag-2026-09-25-1055235"
-   },
-   "date": "2026-09-25",
-   "slot": "1030",
-   "when": "Fri · 10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
    }
   },
   {
