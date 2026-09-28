@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-28T08:33:10+05:30",
+ "generated_at": "2026-09-28T09:33:05+05:30",
  "date": "2026-09-28",
- "slot": "pre",
- "slot_label": "Pre-open",
- "stage": "Pre-market mood",
- "asof": "2026-09-28T08:30:00+05:30",
+ "slot": "0930",
+ "slot_label": "9:30",
+ "stage": "Opening mood",
+ "asof": "2026-09-28T09:18:00+05:30",
  "nifty": {
-  "value": 23140.5,
-  "pct": 0.34,
-  "chg": 77.4,
+  "value": 22966.35,
+  "pct": -0.75,
+  "chg": -174.15,
   "approx": false
  },
  "mood": {
-  "label": "Cautious, softer",
-  "score": -0.25,
-  "summary": "A soft, cautious start is likely: Gift Nifty points about 69 points lower after Friday's relief bounce, with Asia in the red and oil firming again.",
+  "label": "Gap-down selling",
+  "score": -0.45,
+  "summary": "A broad gap-down at the open: the Nifty is off about 0.75% below 23,000, mid- and smallcaps are each down about 0.6%, and auto, FMCG, metal and realty are all more than 1% lower.",
   "detail": {
-   "leaders": "Coal, power and steel names on company news (SAIL, IEX, NTPC Green)",
-   "laggards": "Likely OMCs, paints and aviation on crude; IT on US yields",
-   "tone": "A step back from Friday's 'relief close': the weekend rejection of Iran's Hormuz offer has pushed crude higher again and knocked Asia. Gift Nifty at 23,118.5 implies a small gap-down from Friday's 23,140.5 close.",
+   "leaders": "Few; defence (Bharat Dynamics) on its order win",
+   "laggards": "Hindalco, Max Healthcare, Kotak Bank; financials (Bajaj Finance, HDFC Bank); auto, FMCG, metal, realty",
+   "tone": "Worse than the pre-open read: Gift Nifty had pointed to about −69 points, but the Nifty opened down 174 at 22,966 as oil jumped on Trump's rejection of Iran's Hormuz offer. Selling is broad, not confined to oil-sensitive names.",
    "watch": [
-    "Brent holding above $106 on Hormuz headlines",
-    "Whether DIIs again absorb FII selling",
-    "The US 10-yr after Friday's touch of 5.225%"
+    "Whether 22,900–23,000 holds after the open",
+    "Brent's move from about $106",
+    "RBI defence of the rupee near 96"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 28",
@@ -32,6 +32,101 @@
   }
  },
  "insights": [
+  {
+   "key": "kotak-bank",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Kotak Bank falls up to 4% on slow growth",
+   "line": "Slower sequential growth in loans and deposits weighs; it is among the top Nifty losers",
+   "more": [
+    "Bajaj Finance, HDFC Bank and Bajaj Finserv are also down more than 1%",
+    "Financials are dragging the index again after Friday's relief"
+   ],
+   "src": {
+    "title": "HDFC Sky — Kotak Mahindra Bank shares fall 4%",
+    "url": "https://hdfcsky.com/news/kotak-mahindra-bank-shares-fall-4percent-as-slow-sequential-growth-in-loans-and-deposits-bothers-investors"
+   },
+   "date": "2026-09-28",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Rupee opens at 95.87 as Brent nears $106",
+   "line": "Failed US–Iran talks lift oil; traders see a 95.50–96.00 range with the RBI watching 96",
+   "more": [
+    "Most Asian currencies are weaker as the dollar firms",
+    "The yen and the won dipped noticeably"
+   ],
+   "src": {
+    "title": "NewsBytes — Rupee opens at 95.87 as Brent rises",
+    "url": "https://www.newsbytesapp.com/news/business/rupee-opens-at-9587-as-brent-crude-rises-to-10595/tldr"
+   },
+   "date": "2026-09-28",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "bharat-dynamics",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Bharat Dynamics wins ₹811 cr MoD order",
+   "line": "A contract to supply SAT-SAAW smart anti-airfield weapons to the Indian Air Force",
+   "more": [
+    "The contract with the Ministry of Defence is worth ₹810.79 cr",
+    "It is a rare positive trigger on a risk-off morning"
+   ],
+   "src": {
+    "title": "Sunday Guardian — Indian stocks in focus, Sept 28",
+    "url": "https://sundayguardianlive.com/business/indian-stocks-in-focus-monday-september-28-ola-electric-rights-issue-bharat-dynamics-defence-order-ipo-lock-in-expiries-other-key-triggers-check-stocks-to-watch-latest-updates-294035/"
+   },
+   "date": "2026-09-28",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "ola-electric",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Ola Electric board weighs rights issue today",
+   "line": "Board meets Sept 28 on a rights issue, after approving up to ₹1,500 cr of fundraising",
+   "more": [
+    "IPO lock-ins also expire for Rajputana Stainless and Saatvik Green Energy"
+   ],
+   "src": {
+    "title": "Sunday Guardian — Indian stocks in focus, Sept 28",
+    "url": "https://sundayguardianlive.com/business/indian-stocks-in-focus-monday-september-28-ola-electric-rights-issue-bharat-dynamics-defence-order-ipo-lock-in-expiries-other-key-triggers-check-stocks-to-watch-latest-updates-294035/"
+   },
+   "date": "2026-09-28",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "0930"
+   }
+  },
   {
    "key": "crude",
    "tag": "Macro",
@@ -51,7 +146,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -76,7 +171,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -101,7 +196,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-24",
     "slot": "0930"
@@ -125,7 +220,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "pre"
@@ -149,7 +244,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "pre"
@@ -173,7 +268,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "pre"
@@ -197,7 +292,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1200"
@@ -323,30 +418,6 @@
    "first_seen": {
     "date": "2026-09-23",
     "slot": "post"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "Rupee gives back gains, near 95.96/$",
-   "line": "USD/INR at 95.959, barely changed on the day after the rupee opened firmer at 95.90",
-   "more": [
-    "The RBI is capping volatility, but high crude and US yields limit rupee gains",
-    "A weak rupee raises the cost of FII selling in dollar terms"
-   ],
-   "src": {
-    "title": "Trading Economics — Indian Rupee",
-    "url": "https://tradingeconomics.com/india/currency"
-   },
-   "date": "2026-09-25",
-   "slot": "1500",
-   "when": "Fri · 15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
    }
   },
   {
