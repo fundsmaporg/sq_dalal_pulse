@@ -1,33 +1,33 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-28T14:03:30+05:30",
+ "generated_at": "2026-09-28T14:33:23+05:30",
  "date": "2026-09-28",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-09-28T14:00:00+05:30",
+ "asof": "2026-09-28T14:30:00+05:30",
  "nifty": {
-  "value": 22825.25,
-  "pct": -1.36,
-  "chg": -315.25,
+  "value": 22800,
+  "pct": -1.47,
+  "chg": -340.5,
   "approx": true
  },
  "mood": {
-  "label": "No relief",
-  "score": -0.65,
-  "summary": "Still pinned near the lows into the final 90 minutes: the Sensex is down about 900–1,000 points, the Nifty is near 22,825 and broader indices are off 1.3–1.4%.",
+  "label": "New lows",
+  "score": -0.7,
+  "summary": "A fresh leg lower in the afternoon has pushed the Nifty to about 22,800, a new session low, with the Sensex down about 1,000 points and broad selling showing no let-up into the last hour.",
   "detail": {
-   "leaders": "IT only mildly lower; scattered stock-specific gainers",
-   "laggards": "Banks (Yes Bank, Union Bank, IDFC First), Reliance, realty, metals; MidCap −1.31%, SmallCap −1.43%",
-   "tone": "Unchanged from 13:30: the last exact print, 22,825.25 (−1.36%) at 1 pm, still describes the tape. Heavyweights like Reliance joining the decline are stopping any afternoon bounce.",
+   "leaders": "Barely any; IT only mildly lower",
+   "laggards": "Reliance (52-week low), Kotak, HDFC Bank, Bajaj Finance (~−2% each); Hindalco, Max Healthcare; mid- and smallcaps",
+   "tone": "Worse than 14:00: after holding 22,841 (−1.29%) at 2 pm, the Nifty has slipped to test 22,800, below the morning low of 22,819.65. Heavyweight selling in Reliance and the big banks is driving the new leg down.",
    "watch": [
-    "A late bounce above 23,000 vs a close near the day's low of 22,819.65",
-    "Brent's move from about $107",
-    "FII/DII provisional flows after 5 pm"
+    "A close below 22,800 would mean a fresh six-month closing low",
+    "Any late short-covering into 3:30",
+    "FII/DII provisional data after 5 pm"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 28",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-updates-september-28-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126092800062_1.html"
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-28-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126092800062_1.html"
    }
   }
  },
@@ -36,24 +36,73 @@
    "key": "reliance",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "Reliance slides 1.7% to ₹1,205 day low",
-   "line": "The index heavyweight is near ₹1,210 vs ₹1,226 on Friday, adding to the Sensex's fall",
+   "title": "Reliance hits a 52-week low",
+   "line": "Down up to 1.7% to ₹1,205, below its prior 52-week low of ₹1,208.20; −22% so far in 2026",
    "more": [
-    "It opened at ₹1,218",
-    "It is down about 14% over six months and about 12% over a year"
+    "The Sensex is down about 13% YTD, so RIL is lagging the market",
+    "June-quarter interest costs rose 26.6% to ₹8,337 cr; profit is down 8.3% over a year",
+    "It trades below all key moving averages"
    ],
    "src": {
-    "title": "Kotak Neo — Reliance share price",
-    "url": "https://www.kotakneo.com/stocks/reliance-industries-share-price/"
+    "title": "LatestLY — Reliance slips near 52-week low",
+    "url": "https://www.latestly.com/business/reliance-industries-stock-update-share-price-slips-near-52-week-low-7623337.html"
    },
    "date": "2026-09-28",
-   "slot": "1400",
-   "when": "14:00",
-   "updated": false,
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1400"
+   }
+  },
+  {
+   "key": "a-one-steels-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "A-One Steels closes ~3x, but QIBs stayed out",
+   "line": "~3x on NII (5.62x) and retail (3.44x) demand; QIBs bid 0x across all three days",
+   "more": [
+    "Allotment is due Sept 29; listing Oct 1 on NSE and BSE",
+    "No institutional demand could cap listing-day support"
+   ],
+   "src": {
+    "title": "Whalesbook — A-One Steels IPO subscribed 3x",
+    "url": "https://www.whalesbook.com/news/English/ipo/A-One-Steels-India-IPO-Subscribed-3x-On-Final-Day/6aba05fb5aacb956d0826a43"
+   },
+   "date": "2026-09-28",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "RBI holds the rupee just short of 96",
+   "line": "The rupee is at 95.95/$ as the RBI repeatedly steps in to stop a sustained break past 96",
+   "more": [
+    "Brent near $107 and the US 10-yr at 5.2% keep pressure on the currency",
+    "A break of 96 would be a fresh test of RBI resolve"
+   ],
+   "src": {
+    "title": "NewsBytes — Rupee slips to 95.95 as RBI intervenes",
+    "url": "https://www.newsbytesapp.com/news/business/rupee-slips-to-9595-against-us-dollar-as-rbi-intervenes/tldr"
+   },
+   "date": "2026-09-28",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1000"
    }
   },
   {
@@ -74,7 +123,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1400"
@@ -97,7 +146,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1400"
@@ -343,31 +392,6 @@
    }
   },
   {
-   "key": "a-one-steels-ipo",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "A-One Steels IPO subscribed about 3x on last day",
-   "line": "Demand picked up on the final day despite the sell-off; it was 2.65x by 10:53 am",
-   "more": [
-    "NIIs bid 5.62x and retail 3.44x",
-    "The grey-market premium is about ₹58 (+14.3%) over the ₹405 upper band",
-    "Allotment is due Sept 29; listing Oct 1"
-   ],
-   "src": {
-    "title": "Zee Business — A-One Steels IPO final day subscription",
-    "url": "https://www.zeebiz.com/markets/ipo/news-a-one-steels-india-ipo-final-day-issue-subscribed-265x-so-far-check-category-wise-subscription-402944"
-   },
-   "date": "2026-09-28",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1200"
-   }
-  },
-  {
    "key": "nri-deposits",
    "tag": "Macro",
    "impact": "pos",
@@ -460,30 +484,6 @@
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Rupee slips 20 paise to 95.95/$",
-   "line": "A strong dollar and FPI outflows push it towards 96; the RBI is seen defending that level",
-   "more": [
-    "The rupee opened at 95.88",
-    "Brent above $107 widens the import bill"
-   ],
-   "src": {
-    "title": "Business Standard — Rupee falls 20 paise to 95.95",
-    "url": "https://www.business-standard.com/finance/news/rupee-falls-20-paise-to-95-95-against-us-dollar-during-early-trade-126092800203_1.html"
-   },
-   "date": "2026-09-28",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
    }
   },
   {
