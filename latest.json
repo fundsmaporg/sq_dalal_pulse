@@ -1,37 +1,156 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-28T15:33:11+05:30",
+ "generated_at": "2026-09-28T16:04:16+05:30",
  "date": "2026-09-28",
- "slot": "1530",
- "slot_label": "15:30",
- "stage": "Closing mood",
- "asof": "2026-09-28T15:30:00+05:30",
+ "slot": "post",
+ "slot_label": "Close",
+ "stage": "Post-market mood",
+ "asof": "2026-09-28T16:00:00+05:30",
  "nifty": {
-  "value": 22788.25,
-  "pct": -1.52,
-  "chg": -352.25,
+  "value": 22780.25,
+  "pct": -1.56,
+  "chg": -360.25,
   "approx": false
  },
  "mood": {
-  "label": "Closes at lows",
+  "label": "Heavy sell-off",
   "score": -0.75,
-  "summary": "Closed at the day's lows: Nifty down about 1.5% below 22,800 and Sensex off about 1,090 in the closing auction, with all 30 Sensex stocks red.",
+  "summary": "A broad, heavy sell-off: Nifty settled at 22,780 (−1.56%) and Sensex fell 1,124. Midcaps and smallcaps fell harder, and only two Nifty stocks rose.",
   "detail": {
-   "leaders": "None; every Sensex constituent ended lower",
-   "laggards": "PSU banks (−2.5%+), private banks, realty, metals, auto; late IT selling (Tech Mahindra, Infosys); Nifty MidCap 100 −1.32%, SmallCap 100 −1.45%",
-   "tone": "Worse than 15:00: the Nifty went from 22,805 to 22,788.25 (−352.25) in the closing auction, below the 22,800 level watched all afternoon. There was no end-of-day short-covering; the session ended at its weakest point.",
+   "leaders": "Only Dr Reddy's (+1.67%) and Infosys (+0.30%) among Nifty 50 stocks",
+   "laggards": "PSU Bank (−3.2%), Realty (−2.3%), Oil & Gas (−2.0%), Metal (−1.9%); Adani Ent, Jio Financial, Adani Ports, Tata Motors PV, L&T; MidCap 100 −1.63%, SmallCap 100 −1.83%",
+   "tone": "The final settle was a shade below the closing-auction print, at Nifty 22,780.25 (−360.25) and Sensex 72,771.72 (−1,124.02). That wipes out Friday's bounce and more, and the index closed at the day's low.",
    "watch": [
-    "FII/DII provisional flows after 5 pm",
-    "US–Iran and Hormuz headlines overnight",
-    "The US 10-yr and Brent before Tuesday's open"
+    "FII/DII provisional flows (not yet out)",
+    "Tuesday's monthly F&O expiry for Nifty, Bank Nifty and stock derivatives",
+    "Brent near $108, US–Iran headlines, and US PCE on Sept 30"
    ],
    "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 28",
+    "title": "Business Standard — Stock Market Close, Sept 28",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-28-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126092800062_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Brent jumps 3% to about $108",
+   "line": "Oil above $107 on US–Iran uncertainty drove the fall; yields and the rupee also weighed",
+   "more": [
+    "Brent was quoted at $107.88 at the time of reporting",
+    "Higher oil feeds inflation worries for India, which imports most of its crude"
+   ],
+   "src": {
+    "title": "The Tribune — Nifty falls 1.56%, Sensex tanks 1,124 points",
+    "url": "https://www.tribuneindia.com/news/business/nifty-falls-1-56-sensex-tanks-1124-points-as-psu-banks-plunge-crude-tops-usd-107"
+   },
+   "date": "2026-09-28",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "psu-banks",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "PSU banks end down more than 3.2%",
+   "line": "Nifty PSU Bank was the worst sector at the close, deeper than the 2.5% seen in the auction",
+   "more": [
+    "Realty −2.32%, Oil & Gas −1.97% and Metal −1.90% followed",
+    "All major sectors ended lower"
+   ],
+   "src": {
+    "title": "The Tribune — Nifty falls 1.56%, Sensex tanks 1,124 points",
+    "url": "https://www.tribuneindia.com/news/business/nifty-falls-1-56-sensex-tanks-1124-points-as-psu-banks-plunge-crude-tops-usd-107"
+   },
+   "date": "2026-09-28",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "it-stocks",
+   "tag": "Stocks",
+   "impact": "mixed",
+   "title": "Infosys ends green despite late IT selling",
+   "line": "Infosys (+0.30%) and Dr Reddy's (+1.67%) were the only Nifty 50 gainers at the settle",
+   "more": [
+    "This corrects the 15:30 note: Infosys recovered after being flagged as a late laggard",
+    "Adani Ent (−2.93%) and Jio Financial (−2.71%) led the losers"
+   ],
+   "src": {
+    "title": "Angel One — Top gainers and losers, Sept 28",
+    "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-september-28-2026-dr-reddy-s-and-infosys-gain-while-tata-motors-pv-drops-3"
+   },
+   "date": "2026-09-28",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Rupee slips about 20 paise to ~95.95/$",
+   "line": "RBI defence of 96 capped the fall; oil and the dollar kept it near record lows",
+   "more": [
+    "Other quotes put USD/INR briefly above 96"
+   ],
+   "approx": true,
+   "src": {
+    "title": "ETV Bharat — Rupee falls 20 paise to 95.95",
+    "url": "https://www.etvbharat.com/en/business/rupee-vs-usd-indian-currency-falls-20-paise-to-95-dot-95-against-us-dollar-enn26092801100"
+   },
+   "date": "2026-09-28",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "fno-expiry",
+   "tag": "Events",
+   "impact": "neutral",
+   "title": "Monthly F&O expiry on Tuesday",
+   "line": "September Nifty, Bank Nifty and stock derivatives expire Sept 29; expect volatility",
+   "more": [
+    "A-One Steels IPO allotment is also due Sept 29, with listing on Oct 1"
+   ],
+   "src": {
+    "title": "Liquide — Weekly outlook, Sep 28–Oct 2",
+    "url": "https://blog.liquide.life/weekly-review-indian-stock-market-prediction-sep-28th-oct-02nd-2026/"
+   },
+   "date": "2026-09-28",
+   "slot": "post",
+   "when": "Close",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "post"
+   }
+  },
   {
    "key": "wealth-erosion",
    "tag": "Macro",
@@ -50,58 +169,10 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "psu-banks",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "PSU banks crash over 2.5% into the close",
-   "line": "Nifty PSU Bank index extends from ~2% at midday; private banks also cut sharply",
-   "more": [
-    "Banking led the sector declines, with realty, metal and auto also sharply lower",
-    "Broader indices (Nifty 100/200/500) fell 1.36–1.38%"
-   ],
-   "src": {
-    "title": "Kotak Neo — Closing Bell, 28 September 2026",
-    "url": "https://www.kotakneo.com/news/market-news/closing-bell-28-september-2026/"
-   },
-   "date": "2026-09-28",
-   "slot": "1530",
-   "when": "15:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1100"
-   }
-  },
-  {
-   "key": "it-stocks",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "IT joins the sell-off late in the day",
-   "line": "Tech Mahindra and Infosys became top Sensex laggards, ending IT's relative resilience",
-   "more": [
-    "Sun Pharma and Bharti Airtel were also among the biggest drags",
-    "The AI-safety scare in US tech futures may have weighed on IT"
-   ],
-   "src": {
-    "title": "Kotak Neo — Closing Bell, 28 September 2026",
-    "url": "https://www.kotakneo.com/news/market-news/closing-bell-28-september-2026/"
-   },
-   "date": "2026-09-28",
-   "slot": "1530",
-   "when": "15:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
    }
   },
   {
@@ -154,30 +225,6 @@
    }
   },
   {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "Trump open to more talks despite rejecting plan",
-   "line": "Brent is +2.6% at $107.04; Trump rejected Iran's 7-day Hormuz plan but left the door open",
-   "more": [
-    "WTI is up 1.8% to about $94.10",
-    "Any restart of negotiations could quickly pull oil back"
-   ],
-   "src": {
-    "title": "The National — Oil rises as US-Iran talks hit stalemate",
-    "url": "https://www.thenationalnews.com/business/energy/2026/09/28/oil-prices-rise-as-us-iran-peace-talks-hit-stalemate/"
-   },
-   "date": "2026-09-28",
-   "slot": "1500",
-   "when": "15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
-   }
-  },
-  {
    "key": "reliance",
    "tag": "Stocks",
    "impact": "neg",
@@ -224,30 +271,6 @@
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "RBI holds the rupee just short of 96",
-   "line": "The rupee is at 95.95/$ as the RBI repeatedly steps in to stop a sustained break past 96",
-   "more": [
-    "Brent near $107 and the US 10-yr at 5.2% keep pressure on the currency",
-    "A break of 96 would be a fresh test of RBI resolve"
-   ],
-   "src": {
-    "title": "NewsBytes — Rupee slips to 95.95 as RBI intervenes",
-    "url": "https://www.newsbytesapp.com/news/business/rupee-slips-to-9595-against-us-dollar-as-rbi-intervenes/tldr"
-   },
-   "date": "2026-09-28",
-   "slot": "1430",
-   "when": "14:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
    }
   },
   {
