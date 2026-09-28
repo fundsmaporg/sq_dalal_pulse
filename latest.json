@@ -1,37 +1,109 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-28T10:35:10+05:30",
+ "generated_at": "2026-09-28T11:02:31+05:30",
  "date": "2026-09-28",
- "slot": "1030",
- "slot_label": "10:30",
+ "slot": "1100",
+ "slot_label": "11:00",
  "stage": "Mid-market mood",
- "asof": "2026-09-28T10:00:00+05:30",
+ "asof": "2026-09-28T11:00:00+05:30",
  "nifty": {
   "value": 22882.15,
   "pct": -1.12,
   "chg": -258.35,
-  "approx": false
+  "approx": true
  },
  "mood": {
-  "label": "Heavy selling",
-  "score": -0.6,
-  "summary": "Heavy selling is holding, not easing: the Nifty is stuck about 1.1–1.2% lower near 22,880 and the Sensex is down roughly 860–900 points, with no sector in the green.",
+  "label": "Fresh lows",
+  "score": -0.65,
+  "summary": "The sell-off has pushed to new lows: the Sensex is down about 1,000 points and PSU banks are adding to the pressure, leaving the Nifty near its worst levels with gains only in isolated stocks.",
   "detail": {
-   "leaders": "None of note; every sector index is red",
-   "laggards": "Financials, auto, FMCG, metal, realty; NSE shares; mid- and smallcaps",
-   "tone": "Little changed from 10:00: the Nifty at 22,882.15 (−1.12%) at 10 am is just off the 22,856 low, and there is no sign of dip-buying yet. VIX is still up about 15%.",
+   "leaders": "Isolated stocks only: Som Distilleries, RPG Life Sciences, Power Grid",
+   "laggards": "PSU banks (Nifty PSU Bank −2%); private financials; auto, FMCG, metal; mid- and smallcaps",
+   "tone": "Worse than 10:30: the Sensex decline has widened from about 860 to about 1,000 points, so the Nifty is likely below its 10 am level of 22,882. PSU banks have joined the selling, and there is still no dip-buying.",
    "watch": [
-    "A break below 22,800 would target the 22,600 support zone",
-    "Any easing in Brent from $106",
-    "DII buying stepping in, as on Friday"
+    "The 22,600 support zone if 22,800 gives way",
+    "Brent at $106 and any Hormuz headline",
+    "DII buying into the afternoon"
    ],
    "src": {
-    "title": "India TV — 28 September 2026 Stock Market Updates",
-    "url": "https://www.indiatvnews.com/business/markets/28-september-2026-stock-market-updates-sensex-drops-161-points-nifty-below-23100-as-brent-crude-surges-2026-09-28-1055475"
+    "title": "Business Standard — Stock Market LIVE, Sept 28",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-28-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126092800062_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "psu-banks",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "PSU banks slide 2% as selling widens",
+   "line": "The Nifty PSU Bank index is down about 2%, adding to the pressure from private financials",
+   "more": [
+    "Kotak, Bajaj Finance and HDFC Bank were already among the early drags",
+    "Higher crude and a weaker rupee hurt bank bond portfolios and margins"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market LIVE, Sept 28",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-28-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126092800062_1.html"
+   },
+   "date": "2026-09-28",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "som-distilleries",
+   "tag": "Regulation",
+   "impact": "pos",
+   "title": "Som Distilleries jumps on MP licence ruling",
+   "line": "MP High Court quashed the rejection of its 2026-27 excise licences; renewal due in 15 days",
+   "more": [
+    "The stock is up 7–10.6%, around ₹79",
+    "The court also awarded ₹1 lakh in costs to the company"
+   ],
+   "src": {
+    "title": "RetailIntel — MP HC clears Som Distilleries excise licence",
+    "url": "https://retailintel.in/signal/mp-high-court-clears-som-distilleries-2026-27-excise-licence-59d3cf93"
+   },
+   "date": "2026-09-28",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "rpg-life",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "RPG Life Sciences up 5–8% on Actis merger",
+   "line": "Market cheers the merger of subsidiary Actis Generics despite the broad sell-off",
+   "more": [
+    "Reported gains range from 5.2% to 8.22%",
+    "Power Grid is also up 1.2% on transmission wins and a ₹10,000 cr SBI loan approval"
+   ],
+   "src": {
+    "title": "MarketsMojo — RPG Life Sciences gains 8.22%",
+    "url": "https://www.marketsmojo.com/news/stocks-in-action/rpg-life-sciences-gains-822-4-key-factors-driving-the-surge-4206211"
+   },
+   "date": "2026-09-28",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1100"
+   }
+  },
   {
    "key": "nse-listing",
    "tag": "Listing",
@@ -50,7 +122,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "post"
@@ -74,7 +146,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1030"
@@ -98,7 +170,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "0930"
