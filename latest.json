@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-25T16:02:49+05:30",
- "date": "2026-09-25",
- "slot": "post",
- "slot_label": "Close",
- "stage": "Post-market mood",
- "asof": "2026-09-25T16:00:00+05:30",
+ "generated_at": "2026-09-28T08:33:10+05:30",
+ "date": "2026-09-28",
+ "slot": "pre",
+ "slot_label": "Pre-open",
+ "stage": "Pre-market mood",
+ "asof": "2026-09-28T08:30:00+05:30",
  "nifty": {
   "value": 23140.5,
   "pct": 0.34,
@@ -13,25 +13,196 @@
   "approx": false
  },
  "mood": {
-  "label": "Relief close",
-  "score": 0.15,
-  "summary": "The market ended the week with a modest relief bounce, closing near the day's highs. Large caps led, smallcaps edged up and midcaps slipped, so the rebound was narrow.",
+  "label": "Cautious, softer",
+  "score": -0.25,
+  "summary": "A soft, cautious start is likely: Gift Nifty points about 69 points lower after Friday's relief bounce, with Asia in the red and oil firming again.",
   "detail": {
-   "leaders": "Realty and auto (best sectors); Axis Bank, Asian Paints, M&M",
-   "laggards": "Nifty IT and Nifty Pharma (weakest sectors); Nifty MidCap 100 −0.14%",
-   "tone": "The final settle was a touch firmer than the closing-auction print, at Nifty 23,140.50 (+0.34%) and Sensex 73,895.74 (+315). That reclaims about a fifth of Thursday's 384-point fall after a morning spent chopping around 23,000–23,100.",
+   "leaders": "Coal, power and steel names on company news (SAIL, IEX, NTPC Green)",
+   "laggards": "Likely OMCs, paints and aviation on crude; IT on US yields",
+   "tone": "A step back from Friday's 'relief close': the weekend rejection of Iran's Hormuz offer has pushed crude higher again and knocked Asia. Gift Nifty at 23,118.5 implies a small gap-down from Friday's 23,140.5 close.",
    "watch": [
-    "FII/DII provisional flows for today (due after 5 pm)",
-    "Weekend US–Iran and Hormuz headlines ahead of Monday's open",
-    "US PCE inflation on Sept 30 and the US 10-yr near 5.1%"
+    "Brent holding above $106 on Hormuz headlines",
+    "Whether DIIs again absorb FII selling",
+    "The US 10-yr after Friday's touch of 5.225%"
    ],
    "src": {
-    "title": "Business Standard — Stock Market Close, Sept 25",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
+    "title": "Business Standard — Stock Market LIVE, Sept 28",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-updates-september-28-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126092800062_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Trump rejects Iran's Hormuz offer; Brent +1.7%",
+   "line": "Brent +$1.82 to $106.14, WTI $93.55 in early Asia after the US turned down Tehran's plan",
+   "more": [
+    "Iran offered to reopen Hormuz within 7 days if the US lifts its blockade, waives oil sanctions and agrees a ceasefire covering Lebanon",
+    "Trump said the deal 'would not be acceptable' and wants the strait opened immediately",
+    "Iran says it is still awaiting a 'definitive' US response"
+   ],
+   "src": {
+    "title": "NPR — Trump rejects plan to reopen Strait of Hormuz",
+    "url": "https://www.npr.org/2026/09/26/nx-s1-5981990/trump-rejects-iranian-deal-strait-of-hormuz"
+   },
+   "date": "2026-09-28",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "FIIs sell ₹3,694 cr; DIIs buy ₹2,838 cr",
+   "line": "Foreign selling continued on Friday even as the Nifty bounced; domestic funds cushioned it",
+   "more": [
+    "Sept 25 provisional cash data: FII −₹3,693.90 cr, DII +₹2,838.20 cr",
+    "This follows FII −₹5,027 cr on Thursday",
+    "The Nifty has fallen for seven straight weeks"
+   ],
+   "src": {
+    "title": "5paisa — FII DII Data",
+    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
+   },
+   "date": "2026-09-28",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US 10-yr hit 5.225%, highest since 2007",
+   "line": "Wall St still rose Friday (Dow +0.93%); US futures −0.3% this morning on Hormuz news",
+   "more": [
+    "Dow 51,828.62 (+478.64), S&P 500 7,743.41 (+0.51%), Nasdaq 27,068.72 (+0.5%)",
+    "Energy costs are lifting bets on more Fed rate hikes",
+    "August PCE inflation is due Sept 30"
+   ],
+   "src": {
+    "title": "Yahoo Finance — Stock market today, Sept 25",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html"
+   },
+   "date": "2026-09-28",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-24",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "asia-selloff",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Kospi −2.1%, China's CSI 300 −1.2%",
+   "line": "Asian markets slide on Monday as higher oil clouds the inflation and rate outlook",
+   "more": [
+    "Most Asian bourses are lower in early trade",
+    "Gift Nifty futures are at 23,118.5, down 69 points"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market LIVE, Sept 28",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-updates-september-28-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126092800062_1.html"
+   },
+   "date": "2026-09-28",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "iex-coal",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IEX arm applies for coal exchange licence",
+   "line": "A ₹100 cr subsidiary has applied to the Coal Controller to run physical coal trading",
+   "more": [
+    "It filed on Sept 25; the subsidiary was set up on June 1",
+    "The aim is to capture coal trading as e-auctions phase out"
+   ],
+   "src": {
+    "title": "Sahi — IEX subsidiary applies for coal exchange registration",
+    "url": "https://www.sahi.com/news/indian-energy-exchange-subsidiary-applies-for-coal-exchange-registration"
+   },
+   "date": "2026-09-28",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "sail-bccl",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "SAIL signs coking coal MoU with BCCL",
+   "line": "A domestic coking coal sourcing pact with Bharat Coking Coal cuts SAIL's import exposure",
+   "more": [
+    "Adani Power has merged 10 wholly owned subsidiaries into the parent",
+    "NTPC Green has commissioned 81.34 MW of its 650 MW Bikaner solar project"
+   ],
+   "src": {
+    "title": "LatestLY — Stocks to buy or sell today, Sept 28",
+    "url": "https://www.latestly.com/business/stocks-to-buy-or-sell-today-september-28-2026-sail-adani-power-and-vedanta-among-shares-that-may-remain-in-focus-on-monday-7623098.html"
+   },
+   "date": "2026-09-28",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "a-one-steels-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "A-One Steels IPO: last day to bid",
+   "line": "The ₹405 cr issue (₹385–405 band) closes today; allotment is due Sept 29 and listing Oct 1",
+   "more": [
+    "It was about 80% subscribed by the end of day 2",
+    "A ₹355 cr fresh issue plus a ₹50 cr OFS; minimum lot 37 shares"
+   ],
+   "src": {
+    "title": "Chittorgarh — A-One Steels IPO details",
+    "url": "https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/"
+   },
+   "date": "2026-09-28",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1200"
+   }
+  },
   {
    "key": "weekly-losing-streak",
    "tag": "Macro",
@@ -49,9 +220,9 @@
    },
    "date": "2026-09-25",
    "slot": "post",
-   "when": "Close",
+   "when": "Fri · Close",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "post"
@@ -73,9 +244,9 @@
    },
    "date": "2026-09-25",
    "slot": "post",
-   "when": "Close",
+   "when": "Fri · Close",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "post"
@@ -98,9 +269,9 @@
    },
    "date": "2026-09-25",
    "slot": "post",
-   "when": "Close",
+   "when": "Fri · Close",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "post"
@@ -122,7 +293,7 @@
    },
    "date": "2026-09-25",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Fri · 15:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -146,36 +317,12 @@
    },
    "date": "2026-09-25",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Fri · 15:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "post"
-   }
-  },
-  {
-   "key": "a-one-steels-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "A-One Steels IPO 80% subscribed on day 2",
-   "line": "Retail and NII demand lead; ₹250 cr of the ₹405 cr raise will go to repaying debt",
-   "more": [
-    "The issue is a ₹355 cr fresh issue plus a ₹50 cr OFS; anchors put in ₹121 cr",
-    "Bidding closes Sept 28; the grey market implies a premium of about 12%"
-   ],
-   "src": {
-    "title": "Whalesbook — A-One Steels IPO reaches 80% subscription on day 2",
-    "url": "https://www.whalesbook.com/news/English/ipo/A-One-Steels-IPO-Reaches-80percent-Subscription-on-Day-2/6ab613d05aacb956d08024f8"
-   },
-   "date": "2026-09-25",
-   "slot": "1530",
-   "when": "15:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1200"
    }
   },
   {
@@ -194,36 +341,12 @@
    },
    "date": "2026-09-25",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Fri · 15:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "us-yields",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "US 10-yr hovers near 5.1% after 5.15% peak",
-   "line": "Wall St ended Thursday mixed (S&P, Nasdaq flat; Dow −162) as oil and bonds swung",
-   "more": [
-    "The 10-yr topped 5.15% before retreating to about 5.1%",
-    "Yields near 2007 highs keep pressure on EM flows and Indian IT valuations"
-   ],
-   "src": {
-    "title": "Trading Economics — US stock market",
-    "url": "https://tradingeconomics.com/united-states/stock-market"
-   },
-   "date": "2026-09-25",
-   "slot": "1500",
-   "when": "15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-24",
-    "slot": "0930"
    }
   },
   {
@@ -242,37 +365,12 @@
    },
    "date": "2026-09-25",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Fri · 15:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1500"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Iran signals Hormuz could reopen in 7 days",
-   "line": "Tehran says it could reopen the strait within a week if the US starts easing its blockade",
-   "more": [
-    "President Pezeshkian says it is up to the US to end the seven-month war",
-    "China is pushing for de-escalation; Xi is on a three-day US state visit",
-    "This follows three hours of indirect US–Iran talks at the UN"
-   ],
-   "src": {
-    "title": "CNBC — Iran puts onus on US to end war as China presses for de-escalation",
-    "url": "https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html"
-   },
-   "date": "2026-09-25",
-   "slot": "1430",
-   "when": "14:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
    }
   },
   {
@@ -291,7 +389,7 @@
    },
    "date": "2026-09-25",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Fri · 14:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -315,7 +413,7 @@
    },
    "date": "2026-09-25",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Fri · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -339,7 +437,7 @@
    },
    "date": "2026-09-25",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Fri · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -364,7 +462,7 @@
    },
    "date": "2026-09-25",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Fri · 13:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -388,7 +486,7 @@
    },
    "date": "2026-09-25",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Fri · 13:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -412,7 +510,7 @@
    },
    "date": "2026-09-25",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Fri · 13:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -437,7 +535,7 @@
    },
    "date": "2026-09-25",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Fri · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -461,7 +559,7 @@
    },
    "date": "2026-09-25",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Fri · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -485,7 +583,7 @@
    },
    "date": "2026-09-25",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Fri · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -510,7 +608,7 @@
    },
    "date": "2026-09-25",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Fri · 12:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -534,7 +632,7 @@
    },
    "date": "2026-09-25",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Fri · 12:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -559,7 +657,7 @@
    },
    "date": "2026-09-25",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Fri · 11:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -583,7 +681,7 @@
    },
    "date": "2026-09-25",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Fri · 11:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -608,7 +706,7 @@
    },
    "date": "2026-09-25",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Fri · 11:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -632,7 +730,7 @@
    },
    "date": "2026-09-25",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Fri · 11:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -656,7 +754,7 @@
    },
    "date": "2026-09-25",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Fri · 11:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -681,7 +779,7 @@
    },
    "date": "2026-09-25",
    "slot": "1030",
-   "when": "10:30",
+   "when": "Fri · 10:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -705,7 +803,7 @@
    },
    "date": "2026-09-25",
    "slot": "1030",
-   "when": "10:30",
+   "when": "Fri · 10:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -729,37 +827,12 @@
    },
    "date": "2026-09-25",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Fri · 10:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
-   }
-  },
-  {
-   "impact": "neg",
-   "key": "fii-flows",
-   "line": "Heavy foreign selling in Thursday's rout, after FIIs bought ₹1,617 cr on Wednesday",
-   "more": [
-    "Provisional cash-segment data for Sept 24: FIIs −₹5,027.40 cr, DIIs +₹4,301.20 cr",
-    "About ₹2.7 lakh cr of market value was wiped out; 29 of 30 Sensex stocks fell",
-    "The selling came as US yields and crude rose together"
-   ],
-   "src": {
-    "title": "5paisa — FII DII Data Today",
-    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
-   },
-   "tag": "Flows",
-   "title": "FIIs dump ₹5,027 cr; DIIs absorb ₹4,301 cr",
-   "date": "2026-09-25",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
    }
   },
   {
@@ -778,7 +851,7 @@
    "title": "Sebi lets FPIs into commodity F&O",
    "date": "2026-09-25",
    "slot": "0930",
-   "when": "9:30",
+   "when": "Fri · 9:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -802,7 +875,7 @@
    "title": "Dr Lal PathLabs buys 70% of SN Genelab",
    "date": "2026-09-25",
    "slot": "0930",
-   "when": "9:30",
+   "when": "Fri · 9:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -827,7 +900,7 @@
    "title": "US–China extend trade truce by two months",
    "date": "2026-09-25",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Fri · Pre-open",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -852,7 +925,7 @@
    "title": "Waaree moves into chip-grade specialty gases",
    "date": "2026-09-25",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Fri · Pre-open",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -877,7 +950,7 @@
    "title": "Lemon Tree buys ₹120 cr Bandra land",
    "date": "2026-09-25",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Fri · Pre-open",
    "updated": false,
    "is_new": false,
    "first_seen": {
