@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-28T12:33:41+05:30",
+ "generated_at": "2026-09-28T13:03:25+05:30",
  "date": "2026-09-28",
- "slot": "1230",
- "slot_label": "12:30",
+ "slot": "1300",
+ "slot_label": "13:00",
  "stage": "Mid-market mood",
- "asof": "2026-09-28T12:30:00+05:30",
+ "asof": "2026-09-28T13:00:00+05:30",
  "nifty": {
-  "value": 22829.25,
-  "pct": -1.35,
-  "chg": -311.25,
-  "approx": true
+  "value": 22825.25,
+  "pct": -1.36,
+  "chg": -315.25,
+  "approx": false
  },
  "mood": {
-  "label": "Heavy, flat",
-  "score": -0.6,
-  "summary": "The benchmarks are marking time near the lows. The Sensex has trimmed its loss slightly to about 900 points, but mid- and smallcaps are still down about 1.3–1.4% and no recovery has formed.",
+  "label": "Pinned at lows",
+  "score": -0.65,
+  "summary": "The market is flat near the day's lows into the afternoon. The Nifty is holding a loss of about 1.36%, heavyweights like Adani Ports and L&T lead the drag, and mid- and smallcaps stay deep in the red.",
   "detail": {
-   "leaders": "Isolated stock-specific gainers; energy-linked names abroad",
-   "laggards": "Hindalco, Max Healthcare, Kotak Bank (top Nifty losers); Nifty MidCap −1.31%, SmallCap −1.43%",
-   "tone": "Much the same as noon: the Sensex headline loss has eased from about 1,000 to 900 points, but the Nifty is still around 22,830 and breadth is poor. The selling has paused rather than reversed.",
+   "leaders": "Few; isolated stock-specific gainers only",
+   "laggards": "Adani Ports, L&T (lead the Sensex drag); Hindalco, Max Healthcare, Kotak; MidCap −1.31%, SmallCap −1.43%",
+   "tone": "No change in direction from 12:30: the Nifty at 22,825.25 (−315.25) at 1 pm is a touch below noon's 22,829. Brent pushing to fresh highs is keeping buyers away.",
    "watch": [
-    "Whether the Sensex can recover more than half its loss before the close",
-    "Brent's path from about $107",
-    "The FII/DII flow print after the close"
+    "Brent above $107.34 would add pressure into the close",
+    "Whether the 22,800 area holds for the day",
+    "FII/DII provisional data after the close"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 28",
@@ -32,6 +32,100 @@
   }
  },
  "insights": [
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Brent climbs 2.9% to $107.34",
+   "line": "Oil extends gains through Asian trade after Trump's rejection of Iran's Hormuz plan",
+   "more": [
+    "It is up from about $106.1–106.3 in early Asia",
+    "Oil above $107 raises India's import bill and inflation risk"
+   ],
+   "src": {
+    "title": "CNBC — Brent crude tops $107",
+    "url": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html"
+   },
+   "date": "2026-09-28",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "tata-sons-listing",
+   "tag": "Regulation",
+   "impact": "watch",
+   "title": "RBI presses Tata Sons on listing plans",
+   "line": "RBI has written to Tata Sons twice since Sept 11 seeking an update on listing plans",
+   "more": [
+    "The outcome could affect sentiment across listed Tata group companies"
+   ],
+   "src": {
+    "title": "India IPO — Daily market and IPO updates, Sept 28",
+    "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-ipo-updates-28th-september-2026"
+   },
+   "date": "2026-09-28",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1300"
+   }
+  },
+  {
+   "key": "ipo-pipeline",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "JSW One, Anjali Labtech file for IPOs",
+   "line": "JSW One Platforms: ₹1,300 cr fresh + ₹1,754 cr OFS; Anjali Labtech: ₹1,225 cr",
+   "more": [
+    "Arete 22 has also filed a DRHP for a ₹440 cr fresh issue",
+    "The primary pipeline stays busy despite the secondary-market sell-off"
+   ],
+   "src": {
+    "title": "India IPO — Daily market and IPO updates, Sept 28",
+    "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-ipo-updates-28th-september-2026"
+   },
+   "date": "2026-09-28",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1300"
+   }
+  },
+  {
+   "key": "sebi-prim",
+   "tag": "Regulation",
+   "impact": "watch",
+   "title": "SEBI's PRIM opens up managed portfolios",
+   "line": "New framework allows customised portfolios from a ₹25 lakh ticket, below usual PMS limits",
+   "more": [
+    "It could widen access to professional portfolio management"
+   ],
+   "src": {
+    "title": "India IPO — Daily market and IPO updates, Sept 28",
+    "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-ipo-updates-28th-september-2026"
+   },
+   "date": "2026-09-28",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1300"
+   }
+  },
   {
    "key": "max-healthcare",
    "tag": "Stocks",
@@ -50,7 +144,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1230"
@@ -74,7 +168,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1330"
@@ -98,7 +192,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "0930"
@@ -174,30 +268,6 @@
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Brent crosses $107 as US–Iran deadlock bites",
-   "line": "Brent is up about 2.3% to ~$106.7–107 as Hormuz supply fears return after the talks stall",
-   "more": [
-    "The seven-month war has disrupted oil flows through the Strait of Hormuz",
-    "Higher oil feeds inflation and rate-hike fears for India"
-   ],
-   "src": {
-    "title": "The Week — Red Monday: why it happened",
-    "url": "https://www.theweek.in/news/biz-tech/2026/09/28/indian-stock-market-crash-oil-surge.html"
-   },
-   "date": "2026-09-28",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
    }
   },
   {
