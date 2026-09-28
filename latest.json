@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-28T13:34:42+05:30",
+ "generated_at": "2026-09-28T14:03:30+05:30",
  "date": "2026-09-28",
- "slot": "1330",
- "slot_label": "13:30",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Mid-market mood",
- "asof": "2026-09-28T13:30:00+05:30",
+ "asof": "2026-09-28T14:00:00+05:30",
  "nifty": {
   "value": 22825.25,
   "pct": -1.36,
@@ -13,17 +13,17 @@
   "approx": true
  },
  "mood": {
-  "label": "Banks drag on",
+  "label": "No relief",
   "score": -0.65,
-  "summary": "The afternoon has brought no relief. The Sensex is still down about 900–1,000 points and banks are dragging hardest, with the Nifty stuck around 22,825 and every sector red.",
+  "summary": "Still pinned near the lows into the final 90 minutes: the Sensex is down about 900–1,000 points, the Nifty is near 22,825 and broader indices are off 1.3–1.4%.",
   "detail": {
-   "leaders": "IT only mildly lower on a weak rupee; isolated stock-specific gainers",
-   "laggards": "Banks (Nifty Bank −1.8%; Yes Bank, Union Bank, PNB); realty (−2.2%); metals, FMCG",
-   "tone": "Flat from 13:00: the Nifty was 22,825.25 (−1.36%) at 1 pm and there is no afternoon bounce yet. Bank heavyweights (HDFC Bank, ICICI, SBI) are now the main drag.",
+   "leaders": "IT only mildly lower; scattered stock-specific gainers",
+   "laggards": "Banks (Yes Bank, Union Bank, IDFC First), Reliance, realty, metals; MidCap −1.31%, SmallCap −1.43%",
+   "tone": "Unchanged from 13:30: the last exact print, 22,825.25 (−1.36%) at 1 pm, still describes the tape. Heavyweights like Reliance joining the decline are stopping any afternoon bounce.",
    "watch": [
-    "Whether banks stabilise into the last 90 minutes",
-    "Brent holding above $107",
-    "FII/DII provisional data after 5 pm"
+    "A late bounce above 23,000 vs a close near the day's low of 22,819.65",
+    "Brent's move from about $107",
+    "FII/DII provisional flows after 5 pm"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 28",
@@ -32,6 +32,77 @@
   }
  },
  "insights": [
+  {
+   "key": "reliance",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Reliance slides 1.7% to ₹1,205 day low",
+   "line": "The index heavyweight is near ₹1,210 vs ₹1,226 on Friday, adding to the Sensex's fall",
+   "more": [
+    "It opened at ₹1,218",
+    "It is down about 14% over six months and about 12% over a year"
+   ],
+   "src": {
+    "title": "Kotak Neo — Reliance share price",
+    "url": "https://www.kotakneo.com/stocks/reliance-industries-share-price/"
+   },
+   "date": "2026-09-28",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "rate-hike-fears",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Oil revives rate-hike fears",
+   "line": "High energy prices raise concerns about more rate hikes, hitting banks, realty and NBFCs",
+   "more": [
+    "India imports most of its crude, so oil above $107 feeds straight into inflation",
+    "The US 10-yr near 5.2% adds to global tightening worries"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market LIVE, Sept 28",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-updates-september-28-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126092800062_1.html"
+   },
+   "date": "2026-09-28",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "mas-financial",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "MAS Financial hits a fresh 52-week low",
+   "line": "NBFC falls ~2.4% on valuation and weak technicals as rate-sensitive stocks slide",
+   "more": [
+    "The selling is spreading from large banks to smaller lenders"
+   ],
+   "src": {
+    "title": "MarketsMojo — MAS Financial declines 2.40%",
+    "url": "https://www.marketsmojo.com/news/stocks-in-action/mas-financial-services-declines-240-amid-valuation-shift-and-technical-weakness-4205861"
+   },
+   "date": "2026-09-28",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1400"
+   }
+  },
   {
    "key": "bank-nifty",
    "tag": "Stocks",
@@ -51,7 +122,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1330"
@@ -75,7 +146,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1330"
@@ -99,7 +170,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
