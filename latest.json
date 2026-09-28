@@ -1,37 +1,133 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-28T11:02:31+05:30",
+ "generated_at": "2026-09-28T11:49:04+05:30",
  "date": "2026-09-28",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-09-28T11:00:00+05:30",
+ "asof": "2026-09-28T11:30:00+05:30",
  "nifty": {
-  "value": 22882.15,
-  "pct": -1.12,
-  "chg": -258.35,
-  "approx": true
+  "value": 22821.85,
+  "pct": -1.38,
+  "chg": -318.65,
+  "approx": false
  },
  "mood": {
-  "label": "Fresh lows",
-  "score": -0.65,
-  "summary": "The sell-off has pushed to new lows: the Sensex is down about 1,000 points and PSU banks are adding to the pressure, leaving the Nifty near its worst levels with gains only in isolated stocks.",
+  "label": "Rout deepens",
+  "score": -0.7,
+  "summary": "The rout has deepened to near six-month lows: the Nifty is down about 1.4% near 22,820, mid- and smallcaps are off about 1.3–1.4%, and every major sector is in the red.",
   "detail": {
-   "leaders": "Isolated stocks only: Som Distilleries, RPG Life Sciences, Power Grid",
-   "laggards": "PSU banks (Nifty PSU Bank −2%); private financials; auto, FMCG, metal; mid- and smallcaps",
-   "tone": "Worse than 10:30: the Sensex decline has widened from about 860 to about 1,000 points, so the Nifty is likely below its 10 am level of 22,882. PSU banks have joined the selling, and there is still no dip-buying.",
+   "leaders": "Isolated names only (Som Distilleries, RPG Life, Power Grid)",
+   "laggards": "Metals, realty, PSU and private banks, financials; mid- and smallcaps −1.3%+",
+   "tone": "Worse than 11:00: the Nifty has slipped from 22,838 to 22,821.85 (−318.65) after a 22,819.65 low, and the Sensex is down more than 1,000 points. With Brent pushing past $107 there is still no sign of buyers.",
    "watch": [
-    "The 22,600 support zone if 22,800 gives way",
-    "Brent at $106 and any Hormuz headline",
-    "DII buying into the afternoon"
+    "The 22,600 support zone if selling continues",
+    "Brent's move above $107",
+    "DII buying and any RBI action on the rupee"
    ],
    "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 28",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-28-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126092800062_1.html"
+    "title": "BusinessToday — Investors lose ₹6 lakh crore as Brent crosses $107",
+    "url": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-plunge-over-1-investors-lose-rs-6-lakh-crore-as-brent-crude-crosses-107-558163-2026-09-28"
    }
   }
  },
  "insights": [
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Brent crosses $107 as US–Iran deadlock bites",
+   "line": "Brent is up about 2.3% to ~$106.7–107 as Hormuz supply fears return after the talks stall",
+   "more": [
+    "The seven-month war has disrupted oil flows through the Strait of Hormuz",
+    "Higher oil feeds inflation and rate-hike fears for India"
+   ],
+   "src": {
+    "title": "The Week — Red Monday: why it happened",
+    "url": "https://www.theweek.in/news/biz-tech/2026/09/28/indian-stock-market-crash-oil-surge.html"
+   },
+   "date": "2026-09-28",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "wealth-erosion",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Investors lose about ₹6 lakh cr in a session",
+   "line": "BSE market cap fell to ₹475.85 lakh cr from ₹481.88 lakh cr; indices near 6-month lows",
+   "more": [
+    "The seven-week slide has wiped out close to 6% of index value",
+    "Every major sector index is in the red"
+   ],
+   "src": {
+    "title": "BusinessToday — Investors lose ₹6 lakh crore",
+    "url": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-plunge-over-1-investors-lose-rs-6-lakh-crore-as-brent-crude-crosses-107-558163-2026-09-28"
+   },
+   "date": "2026-09-28",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "FPIs pull ₹17,131 cr in September",
+   "line": "Cumulative foreign equity selling in 2026 has crossed ₹2.4 lakh cr",
+   "more": [
+    "Persistent outflows are a key driver of the seven-week losing streak",
+    "DIIs have been absorbing part of the selling"
+   ],
+   "src": {
+    "title": "BusinessToday — Investors lose ₹6 lakh crore",
+    "url": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-plunge-over-1-investors-lose-rs-6-lakh-crore-as-brent-crude-crosses-107-558163-2026-09-28"
+   },
+   "date": "2026-09-28",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Rupee slips 20 paise to 95.95/$",
+   "line": "A strong dollar and FPI outflows push it towards 96; the RBI is seen defending that level",
+   "more": [
+    "The rupee opened at 95.88",
+    "Brent above $107 widens the import bill"
+   ],
+   "src": {
+    "title": "Business Standard — Rupee falls 20 paise to 95.95",
+    "url": "https://www.business-standard.com/finance/news/rupee-falls-20-paise-to-95-95-against-us-dollar-during-early-trade-126092800203_1.html"
+   },
+   "date": "2026-09-28",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1000"
+   }
+  },
   {
    "key": "psu-banks",
    "tag": "Stocks",
@@ -50,7 +146,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1100"
@@ -74,7 +170,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1100"
@@ -98,7 +194,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1100"
@@ -129,30 +225,6 @@
    }
   },
   {
-   "key": "wealth-erosion",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "18 Nifty stocks now 20%+ off their highs",
-   "line": "Sensex is ~14% below its Sept 2024 record, its longest wait for a new peak in a decade",
-   "more": [
-    "FPI selling, muted earnings and global uncertainty are prolonging the correction",
-    "Metals, PSU banks and pharma have held up relatively better"
-   ],
-   "src": {
-    "title": "India IPO — Daily market and IPO updates, Sept 28",
-    "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-ipo-updates-28th-september-2026"
-   },
-   "date": "2026-09-28",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1030"
-   }
-  },
-  {
    "key": "ola-electric",
    "tag": "Stocks",
    "impact": "watch",
@@ -174,55 +246,6 @@
    "first_seen": {
     "date": "2026-09-28",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Trump sees Iran strikes resuming after midterms",
-   "line": "After rejecting Iran's offer, Trump told aides he expects strikes to resume after November",
-   "more": [
-    "Brent is up 1.8% to $106.31",
-    "Iran says it won't soften its Hormuz demands",
-    "Restoring oil flows through Hormuz could face further delays"
-   ],
-   "src": {
-    "title": "CNBC — Oil gains as Trump rejects Iranian proposal",
-    "url": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html"
-   },
-   "date": "2026-09-28",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "FPIs back to selling in September",
-   "line": "After buying in July and August, foreign investors turned net sellers again this month",
-   "more": [
-    "Friday's provisional FII selling was ₹3,694 cr",
-    "Brent at $106 and the US 10-yr at 5.2% are cited as the main headwinds"
-   ],
-   "src": {
-    "title": "Business Standard — What's behind the market crash, Sept 28",
-    "url": "https://www.business-standard.com/markets/news/sensex-tanks-790-pts-intraday-nifty-below-23k-what-s-driving-mkts-lower-126092800155_1.html"
-   },
-   "date": "2026-09-28",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
    }
   },
   {
@@ -295,30 +318,6 @@
    "first_seen": {
     "date": "2026-09-28",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Rupee opens at 95.87 as Brent nears $106",
-   "line": "Failed US–Iran talks lift oil; traders see a 95.50–96.00 range with the RBI watching 96",
-   "more": [
-    "Most Asian currencies are weaker as the dollar firms",
-    "The yen and the won dipped noticeably"
-   ],
-   "src": {
-    "title": "NewsBytes — Rupee opens at 95.87 as Brent rises",
-    "url": "https://www.newsbytesapp.com/news/business/rupee-opens-at-9587-as-brent-crude-rises-to-10595/tldr"
-   },
-   "date": "2026-09-28",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
    }
   },
   {
