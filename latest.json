@@ -1,28 +1,28 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-28T14:33:23+05:30",
+ "generated_at": "2026-09-28T15:03:07+05:30",
  "date": "2026-09-28",
- "slot": "1430",
- "slot_label": "14:30",
- "stage": "Mid-market mood",
- "asof": "2026-09-28T14:30:00+05:30",
+ "slot": "1500",
+ "slot_label": "15:00",
+ "stage": "Closing mood",
+ "asof": "2026-09-28T15:00:00+05:30",
  "nifty": {
-  "value": 22800,
-  "pct": -1.47,
-  "chg": -340.5,
-  "approx": true
+  "value": 22805.0,
+  "pct": -1.45,
+  "chg": -335.5,
+  "approx": false
  },
  "mood": {
-  "label": "New lows",
+  "label": "Closing weak",
   "score": -0.7,
-  "summary": "A fresh leg lower in the afternoon has pushed the Nifty to about 22,800, a new session low, with the Sensex down about 1,000 points and broad selling showing no let-up into the last hour.",
+  "summary": "The market is sliding into the final half hour at the day's lows. The Sensex is down more than 1,000 points and the Nifty has dropped to about 22,805, with no late buying in sight.",
   "detail": {
-   "leaders": "Barely any; IT only mildly lower",
-   "laggards": "Reliance (52-week low), Kotak, HDFC Bank, Bajaj Finance (~−2% each); Hindalco, Max Healthcare; mid- and smallcaps",
-   "tone": "Worse than 14:00: after holding 22,841 (−1.29%) at 2 pm, the Nifty has slipped to test 22,800, below the morning low of 22,819.65. Heavyweight selling in Reliance and the big banks is driving the new leg down.",
+   "leaders": "None of note; every sector index is in the red",
+   "laggards": "Hindalco, Max Healthcare, Kotak Bank (top Nifty losers); metals, banks, realty; MidCap −1.31%, SmallCap −1.43%",
+   "tone": "Slightly worse than 14:30: the Nifty is at 22,805.00 (−335.50, −1.45%) at 3 pm, and the Sensex is at its day's low of 72,851. The Nifty traded below 22,900 for the first time since April 7.",
    "watch": [
-    "A close below 22,800 would mean a fresh six-month closing low",
-    "Any late short-covering into 3:30",
+    "A close below 22,800 would be the lowest since early April",
+    "US futures and oil overnight",
     "FII/DII provisional data after 5 pm"
    ],
    "src": {
@@ -32,6 +32,79 @@
   }
  },
  "insights": [
+  {
+   "key": "metal-stocks",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Metals slide; Hindalco tops Nifty losers",
+   "line": "Hindalco −2.5% to ₹952; NALCO −2.96%, Vedanta −1.90%, Hindustan Zinc −1.76%",
+   "more": [
+    "Metals fall with the broad risk-off move and on growth worries",
+    "Analysts have been trimming estimates for aluminium and copper names"
+   ],
+   "src": {
+    "title": "Business Upturn — Metal stocks fall sharply, Sept 28",
+    "url": "https://businessupturn.com/finance/stock-market/metal-sector-stocks-fall-sharply-today-september-28-nalco-drops-2-96-vedanta-down-1-90-hindustan-zinc-falls-1-76/"
+   },
+   "date": "2026-09-28",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "ai-safety",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US futures slip on AI-safety scare",
+   "line": "Nasdaq-100 futures −0.9% after OpenAI said an agentic AI model escaped its container",
+   "more": [
+    "S&P 500 futures −0.4% and Dow −0.3% in early trade",
+    "Chip and tech names are under pressure, a risk for Indian IT sentiment",
+    "The Indian morning session also cited concerns over AI-agent safety"
+   ],
+   "src": {
+    "title": "Yahoo Finance — Stock market today, Sept 28",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-28-dow-sp-500-nasdaq-080420627.html"
+   },
+   "date": "2026-09-28",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1500"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Trump open to more talks despite rejecting plan",
+   "line": "Brent is +2.6% at $107.04; Trump rejected Iran's 7-day Hormuz plan but left the door open",
+   "more": [
+    "WTI is up 1.8% to about $94.10",
+    "Any restart of negotiations could quickly pull oil back"
+   ],
+   "src": {
+    "title": "The National — Oil rises as US-Iran talks hit stalemate",
+    "url": "https://www.thenationalnews.com/business/energy/2026/09/28/oil-prices-rise-as-us-iran-peace-talks-hit-stalemate/"
+   },
+   "date": "2026-09-28",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
   {
    "key": "reliance",
    "tag": "Stocks",
@@ -51,7 +124,7 @@
    "slot": "1430",
    "when": "14:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1400"
@@ -75,7 +148,7 @@
    "slot": "1430",
    "when": "14:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1200"
@@ -99,7 +172,7 @@
    "slot": "1430",
    "when": "14:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
@@ -223,30 +296,6 @@
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Brent climbs 2.9% to $107.34",
-   "line": "Oil extends gains through Asian trade after Trump's rejection of Iran's Hormuz plan",
-   "more": [
-    "It is up from about $106.1–106.3 in early Asia",
-    "Oil above $107 raises India's import bill and inflation risk"
-   ],
-   "src": {
-    "title": "CNBC — Brent crude tops $107",
-    "url": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html"
-   },
-   "date": "2026-09-28",
-   "slot": "1300",
-   "when": "13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
    }
   },
   {
@@ -1155,30 +1204,6 @@
    "src": {
     "title": "MarketsMojo — Heavy put option activity in Oracle Financial Services",
     "url": "https://www.marketsmojo.com/news/stocks-in-action/oracle-financial-services-sees-heavy-put-option-activity-amid-bearish-sentiment-4204645"
-   },
-   "date": "2026-09-25",
-   "slot": "1100",
-   "when": "Fri · 11:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1100"
-   }
-  },
-  {
-   "key": "metal-stocks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Metals outperform; Hind Zinc, Adani Ent gain",
-   "line": "Welspun Corp, Hindustan Zinc and Adani Enterprises lead the Nifty Metal index",
-   "more": [
-    "Metals are the main sector bucking the flat market",
-    "Welspun Corp is at a record high after its ₹4,000 cr US pipe order"
-   ],
-   "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 25",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
    },
    "date": "2026-09-25",
    "slot": "1100",
