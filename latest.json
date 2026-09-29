@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-29T10:02:55+05:30",
+ "generated_at": "2026-09-29T10:33:27+05:30",
  "date": "2026-09-29",
- "slot": "1000",
- "slot_label": "10:00",
- "stage": "Opening mood",
- "asof": "2026-09-29T10:00:00+05:30",
+ "slot": "1030",
+ "slot_label": "10:30",
+ "stage": "Mid-market mood",
+ "asof": "2026-09-29T10:30:00+05:30",
  "nifty": {
   "value": 22605.55,
   "pct": -0.77,
   "chg": -174.7,
-  "approx": false
+  "approx": true
  },
  "mood": {
-  "label": "Selling deepens",
+  "label": "Pinned at lows",
   "score": -0.65,
-  "summary": "The selling has deepened through the first hour: the Nifty is testing 22,600, financials are leading the decline, and only pharma and healthcare are holding up.",
+  "summary": "The market is pinned near the day's lows with the Nifty testing 22,600. Banks are still the main drag, and there's no sign of dip-buying yet on expiry day.",
   "detail": {
-   "leaders": "Nifty Pharma, Nifty Healthcare; Zydus Lifesciences",
-   "laggards": "Private banks, Nifty Financial Services, Bank Nifty; Tata Motors PV, HDFC Life, Bajaj Finance",
-   "tone": "Worse than 09:30: the Nifty's loss has widened from 0.28% to 0.77% (22,605.55, −174.70) and the Sensex is down 578 at 72,194.03. The fall is steady rather than a spike, with no attempt to reclaim 22,700.",
+   "leaders": "Nifty Pharma, Nifty Healthcare",
+   "laggards": "Bank Nifty (−1%+): HDFC Bank, Axis Bank, ICICI Bank, Kotak Bank; Bajaj Finance, HDFC Life, Tata Motors PV",
+   "tone": "Little changed from 10:00: the last firm print was 22,605.55 (−0.77%), and the latest headline has the Sensex down more than 600 with the Nifty still testing 22,600. The selling has slowed, but there's no bounce.",
    "watch": [
-    "Whether 22,600 holds or gives way on expiry-day unwinding",
-    "India VIX: a move above 15 would signal a disorderly market",
-    "Any easing in Brent or a US–Iran headline"
+    "A decisive break below 22,600 into expiry settlement",
+    "Bank Nifty: heavyweights HDFC Bank and ICICI Bank set the index's direction",
+    "Brent easing below $105"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 29",
@@ -32,6 +32,77 @@
   }
  },
  "insights": [
+  {
+   "key": "rate-hike-fears",
+   "tag": "Policy",
+   "impact": "neg",
+   "title": "HSBC sees RBI hiking 50 bp in FY27",
+   "line": "Two 25 bp hikes to 5.75% forecast, as strong growth and 5%+ inflation weigh on bank stocks",
+   "more": [
+    "HSBC also expects the RBI to absorb ₹5–6 trillion of liquidity via OMO sales",
+    "Q2 GDP came in well above the RBI's 7% forecast",
+    "Rate-hike talk is being cited for the selling in HDFC Bank, SBI and ICICI Bank"
+   ],
+   "src": {
+    "title": "ANI — HSBC expects RBI to raise repo rate by 50 bps in FY27",
+    "url": "https://www.aninews.in/news/business/hsbc-expects-rbi-to-raise-repo-rate-by-50-bps-in-fy27-amid-strong-growth-inflation-pressures20260928131819/"
+   },
+   "date": "2026-09-29",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "bank-nifty",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "HDFC Bank, Axis lead Bank Nifty down 1%+",
+   "line": "Private lenders account for most of the Sensex fall; Kotak and ICICI Bank are also lower",
+   "more": [
+    "Infosys and Bajaj Finance are also among the Sensex drags"
+   ],
+   "src": {
+    "title": "Upstox — Sensex falls, Nifty below 22,700 dragged by banks",
+    "url": "https://upstox.com/news/market-news/stocks/sensex-falls-over-400-points-nifty-50-trades-below-22-700-dragged-by-banks/article-201027/"
+   },
+   "date": "2026-09-29",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "fno-expiry",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "LIC Housing, SAIL in F&O ban on expiry day",
+   "line": "Monthly Nifty and stock contracts settle today; the two stocks are barred from new F&O",
+   "more": [
+    "Expiry-day unwinding can exaggerate intraday moves"
+   ],
+   "src": {
+    "title": "Angel One — Monthly expiry; LIC Housing, SAIL in F&O ban",
+    "url": "https://www.angelone.in/news/market-updates/nifty-monthly-expiry-today-lic-housing-finance-and-sail-under-f-o-ban-on-september-29-2026"
+   },
+   "date": "2026-09-29",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "post"
+   }
+  },
   {
    "key": "wealth-erosion",
    "tag": "Macro",
@@ -50,7 +121,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1030"
@@ -73,7 +144,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1230"
@@ -97,7 +168,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -120,34 +191,10 @@
    "slot": "1000",
    "when": "10:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "bank-nifty",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Financials lead early losses again",
-   "line": "Private banks and financials are the worst sectors; Bank Nifty is falling fastest",
-   "more": [
-    "Business Standard headline: Sensex −500, Nifty below 22,700 as banks weigh",
-    "HDFC Life and Bajaj Finance are among the top Nifty losers"
-   ],
-   "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 29",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-29-sensex-today-nifty50-gift-nifty-crude-oil-price-ipo-today-126092900092_1.html"
-   },
-   "date": "2026-09-29",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1330"
    }
   },
   {
@@ -242,30 +289,6 @@
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "fno-expiry",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "September F&O expiry today",
-   "line": "Nifty, Bank Nifty and stock derivative contracts expire; 22,700 is the next support",
-   "more": [
-    "Analysts see resistance at 23,000–23,100 after Monday's breakdown",
-    "Expiry-day rollovers can amplify intraday swings"
-   ],
-   "src": {
-    "title": "Liquide — Weekly outlook, Sep 28–Oct 2",
-    "url": "https://blog.liquide.life/weekly-review-indian-stock-market-prediction-sep-28th-oct-02nd-2026/"
-   },
-   "date": "2026-09-29",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "post"
    }
   },
   {
@@ -459,30 +482,6 @@
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "rate-hike-fears",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Oil revives rate-hike fears",
-   "line": "High energy prices raise concerns about more rate hikes, hitting banks, realty and NBFCs",
-   "more": [
-    "India imports most of its crude, so oil above $107 feeds straight into inflation",
-    "The US 10-yr near 5.2% adds to global tightening worries"
-   ],
-   "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 28",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-updates-september-28-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126092800062_1.html"
-   },
-   "date": "2026-09-28",
-   "slot": "1400",
-   "when": "Mon · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1400"
    }
   },
   {
