@@ -1,29 +1,28 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-29T13:33:03+05:30",
+ "generated_at": "2026-09-29T14:02:29+05:30",
  "date": "2026-09-29",
- "slot": "1330",
- "slot_label": "13:30",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Mid-market mood",
- "asof": "2026-09-29T13:30:00+05:30",
+ "asof": "2026-09-29T14:00:00+05:30",
  "nifty": {
-  "value": 22669.75,
-  "pct": -0.49,
-  "chg": -110.5,
-  "approx": false
+  "value": 22650,
+  "pct": -0.57,
+  "approx": true
  },
  "mood": {
-  "label": "Range-bound, heavy",
+  "label": "Sideways, soft",
   "score": -0.4,
-  "summary": "The market is drifting in a narrow range about half a percent down, with no fresh selling and no buyers either. Pharma is still the lone green pocket heading into expiry.",
+  "summary": "The market is still stuck about half a percent down in a tight afternoon range. Midcaps and small caps are slipping only modestly, and stock-specific moves are doing the work.",
   "detail": {
-   "leaders": "Nifty Pharma and Healthcare",
-   "laggards": "Eternal, Titan (top Nifty losers); FMCG, Auto, Chemicals; Tata Motors PV, HDFC Life, Bajaj Finance",
-   "tone": "Steady versus 13:00: the Nifty was at 22,669.75 (−110.50, −0.49%) at 1 pm, and the latest headline has it around 22,680 with the Sensex down about 300. It has stayed in a 22,650–22,720 band since noon.",
+   "leaders": "Pharma (Mankind +1.8%, Gland +1.6%); Delhivery (+2.3%); Ellenbarrie on a BHEL order",
+   "laggards": "Eris Lifesciences (−4.5%), Sapphire Foods (−3.8%); Eternal, Titan; Nifty MidCap 100 −0.48%, SmallCap 100 −0.36% (1 pm)",
+   "tone": "Little changed from 13:30: the Nifty was 22,669.75 (−0.49%) at 1 pm, and the latest headline has it around 22,650 with the Sensex down about 300. It's the fourth straight half-hour in the 22,650–22,720 band.",
    "watch": [
-    "A break of the 22,650–22,720 range into expiry",
-    "Whether the RBI keeps defending the rupee at 96",
-    "European open and US futures"
+    "The final 90 minutes of monthly expiry: a range break either way",
+    "Rupee near 96.1 and RBI action",
+    "European open and Brent"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 29",
@@ -32,6 +31,76 @@
   }
  },
  "insights": [
+  {
+   "key": "ellenbarrie-bhel",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Ellenbarrie jumps 10% on ₹481 cr BHEL order",
+   "line": "It will build a 1,200 tpd air-separation unit for BHEL's coal-to-ammonium-nitrate project",
+   "more": [
+    "The turnkey scope covers design, supply, erection and commissioning",
+    "The stock hit a high of ₹394.95 but pared part of the gain"
+   ],
+   "src": {
+    "title": "5paisa — Ellenbarrie gains after ₹481 cr BHEL contract",
+    "url": "https://www.5paisa.com/blog/ellenbarrie-industrial-gases-shares-gain-5-after-rs481-crore-bhel-contract-win"
+   },
+   "date": "2026-09-29",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "delhivery",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Delhivery tops Nifty 500 gainers, up 2.3%",
+   "line": "The stock rebounds to ₹416.2 after falling over 20% between July 10 and Sept 28",
+   "more": [
+    "Buying ahead of half-yearly earnings is cited"
+   ],
+   "src": {
+    "title": "5paisa — Why these stocks are rising and falling, 29 Sep 26",
+    "url": "https://www.5paisa.com/blog/why-these-stocks-are-rising-and-falling-29-sep-26"
+   },
+   "date": "2026-09-29",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "sapphire-foods",
+   "tag": "Regulation",
+   "impact": "neg",
+   "title": "Sapphire Foods falls 3.8% on tax notice",
+   "line": "The KFC/Pizza Hut franchisee got a show-cause notice from UP state tax authorities",
+   "more": [
+    "Eris Lifesciences (−4.5%) is the top Nifty 500 loser"
+   ],
+   "src": {
+    "title": "5paisa — Why these stocks are rising and falling, 29 Sep 26",
+    "url": "https://www.5paisa.com/blog/why-these-stocks-are-rising-and-falling-29-sep-26"
+   },
+   "date": "2026-09-29",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "1400"
+   }
+  },
   {
    "key": "rupee",
    "tag": "Macro",
@@ -50,7 +119,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
@@ -73,7 +142,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -97,7 +166,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1330"
