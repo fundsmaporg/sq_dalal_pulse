@@ -1,37 +1,133 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-29T15:33:10+05:30",
+ "generated_at": "2026-09-29T16:03:26+05:30",
  "date": "2026-09-29",
- "slot": "1530",
- "slot_label": "15:30",
- "stage": "Closing mood",
- "asof": "2026-09-29T15:30:00+05:30",
+ "slot": "post",
+ "slot_label": "Close",
+ "stage": "Post-market mood",
+ "asof": "2026-09-29T16:00:00+05:30",
  "nifty": {
-  "value": 22683.75,
-  "pct": -0.42,
-  "chg": -96.5,
+  "value": 22716.2,
+  "pct": -0.28,
+  "chg": -64.05,
   "approx": false
  },
  "mood": {
-  "label": "Slips, off lows",
-  "score": -0.35,
-  "summary": "A second straight losing session ended on a firmer note: the Nifty closed off its lows, down about 0.4% in the auction after spending the afternoon in a tight range.",
+  "label": "Mild loss, steadier",
+  "score": -0.3,
+  "summary": "A second straight loss, but a mild one: the Nifty settled just 0.28% lower after recovering from a morning dip near 22,600, while midcaps and small caps fell harder.",
   "detail": {
-   "leaders": "Nifty Pharma and Healthcare (Cipla +0.98%, Sun Pharma +0.74%)",
-   "laggards": "FMCG, Auto, Chemicals (weakest sectors); Tata Motors PV, HDFC Life, Bajaj Finance (top Nifty losers)",
-   "tone": "Better than 15:00: the Nifty finished the closing auction at 22,683.75 (−96.50, −0.42%) and the Sensex at 72,480.07 (−291.65). That's about 80 pts above the 22,600 tested in the morning, and expiry passed without a late sell-off.",
+   "leaders": "Nifty Pharma and Healthcare (Cipla, Sun Pharma, Mankind, Gland)",
+   "laggards": "Titan, Wipro, HCLTech (top Nifty losers); realty, consumer durables, FMCG, auto; MidCap −0.99%, SmallCap −0.81%",
+   "tone": "The final settle was firmer than the closing-auction print: Nifty 22,716.20 (−64.05, −0.28%), Sensex 72,529.07 (−242.65, −0.33%). The index recovered about 115 pts from the morning low, but broader markets lagged.",
    "watch": [
-    "FII/DII provisional flows after 5 pm",
-    "Brent and US Treasury yields overnight",
-    "US PCE inflation on Wednesday"
+    "FII/DII provisional flows (after Monday's ₹5,353 cr FII sale)",
+    "US PCE inflation Wednesday; Brent near $107",
+    "RBI MPC Oct 5–7, where a 25 bp hike is widely expected"
    ],
    "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 29",
+    "title": "Business Standard — Stock Market Close, Sept 29",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-29-sensex-today-nifty50-gift-nifty-crude-oil-price-ipo-today-126092900092_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "september-slump",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Nifty's worst September in 25 years",
+   "line": "Down about 6% this month; among major markets only China (−6.4%) has done worse",
+   "more": [
+    "Auto, real estate and PSU banks were hit hardest; only pharma held steady",
+    "Dr Reddy's, Kotak Bank and Tata Steel were rare Nifty gainers",
+    "Money moving from secondary markets into IPOs is also cited"
+   ],
+   "src": {
+    "title": "Upstox — What's driving NIFTY50's 6% slump in September",
+    "url": "https://upstox.com/news/market-news/trading/beyond-oil-prices-and-bond-yields-here-is-what-s-driving-nifty-50-s-6-slump-in-september/article-201058/"
+   },
+   "date": "2026-09-29",
+   "slot": "post",
+   "when": "Close",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "realty-slide",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Realty falls for a second day",
+   "line": "Nifty Realty −0.86% to 843.60 (−2.95% in 2 days); Oberoi −2%, Prestige −1.8%",
+   "more": [
+    "Rising bond yields and rate-hike bets weigh on property stocks",
+    "Godrej Properties and Phoenix Mills also fell"
+   ],
+   "src": {
+    "title": "Business Standard — Sensex decline; realty shares under pressure",
+    "url": "https://www.business-standard.com/markets/capital-market-news/sensex-decline-512-pts-realty-shares-under-pressure-126092900481_1.html"
+   },
+   "date": "2026-09-29",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "it-stocks",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Wipro, HCLTech among the day's top losers",
+   "line": "IT stocks ended near 52-week lows ahead of Q2 results",
+   "more": [
+    "Titan also finished among the top Nifty losers"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market Close, Sept 29",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-29-sensex-today-nifty50-gift-nifty-crude-oil-price-ipo-today-126092900092_1.html"
+   },
+   "date": "2026-09-29",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "FII data due; Monday's outflow was ₹5,353 cr",
+   "line": "Tuesday's provisional flows are due after 5 pm; DIIs have been absorbing sales",
+   "more": [
+    "DIIs bought ₹5,189 cr on Monday",
+    "Foreign selling has run through most of September"
+   ],
+   "src": {
+    "title": "International News & Views — Nifty near 22,700 as crude hits $107",
+    "url": "https://www.internationalnewsandviews.com/stock-market-today-september-29-2026-nifty-crude-rupee-409825-2/"
+   },
+   "date": "2026-09-29",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
   {
    "key": "fno-expiry",
    "tag": "Stocks",
@@ -50,7 +146,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "post"
@@ -74,7 +170,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1130"
@@ -98,35 +194,10 @@
    "slot": "1530",
    "when": "15:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1530"
-   }
-  },
-  {
-   "key": "it-stocks",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Nifty IT heads for an 11% September slide",
-   "line": "Infosys, Wipro, KPIT and Tata Elxsi hit 52-week lows ahead of Q2 results",
-   "more": [
-    "Nifty IT was −0.83% at 27,854.40 at 12:51 pm vs −0.48% for the Nifty",
-    "US rate fears and oil-driven inflation weigh on tech spending",
-    "Infosys and HCLTech are among the top Sensex losers this afternoon"
-   ],
-   "src": {
-    "title": "Business Standard — Nifty IT cracks 11% in Sept; Infy, Wipro, Tata Elxsi at 52-week lows",
-    "url": "https://www.business-standard.com/markets/news/nifty-it-cracks-11-in-sept-infy-wipro-tata-elxsi-trade-at-52-week-lows-126092900530_1.html"
-   },
-   "date": "2026-09-29",
-   "slot": "1500",
-   "when": "15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
    }
   },
   {
@@ -747,30 +818,6 @@
    }
   },
   {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "FIIs dump ₹5,353 cr; DIIs absorb ₹5,189 cr",
-   "line": "Foreign selling in cash jumped from ₹3,694 cr on Friday as Monday's sell-off deepened",
-   "more": [
-    "DIIs bought almost all of the outflow",
-    "India VIX rose 12.54% to 13.69"
-   ],
-   "src": {
-    "title": "Stockpil — India Markets Today, Sept 28",
-    "url": "https://stockpil.com/india-markets-today-2026-09-28"
-   },
-   "date": "2026-09-29",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
-   }
-  },
-  {
    "key": "iip-august",
    "tag": "Macro",
    "impact": "pos",
@@ -960,30 +1007,6 @@
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "realty-slide",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Realty slumps 2.2%; Lodha, DLF down 2%+",
-   "line": "The Nifty Realty index fell to 854.95, reversing Friday's rebound as rate fears return",
-   "more": [
-    "Lodha −2.53%, DLF −2.01%, Prestige −1.78%",
-    "Realty is one of the worst-hit sectors today"
-   ],
-   "src": {
-    "title": "Business Standard — Sensex, Nifty plunge over 1%; realty skids",
-    "url": "https://www.business-standard.com/markets/capital-market-news/sensex-nifty-plunge-over-1-realty-shares-skid-126092800252_1.html"
-   },
-   "date": "2026-09-28",
-   "slot": "1330",
-   "when": "Mon · 13:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1330"
    }
   },
   {
