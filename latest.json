@@ -1,37 +1,131 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-29T09:33:11+05:30",
+ "generated_at": "2026-09-29T10:02:55+05:30",
  "date": "2026-09-29",
- "slot": "0930",
- "slot_label": "9:30",
+ "slot": "1000",
+ "slot_label": "10:00",
  "stage": "Opening mood",
- "asof": "2026-09-29T09:30:00+05:30",
+ "asof": "2026-09-29T10:00:00+05:30",
  "nifty": {
-  "value": 22716.3,
-  "pct": -0.28,
-  "chg": -63.95,
-  "approx": true
+  "value": 22605.55,
+  "pct": -0.77,
+  "chg": -174.7,
+  "approx": false
  },
  "mood": {
-  "label": "Selling resumes",
-  "score": -0.55,
-  "summary": "The selling resumed at the open. Breadth is roughly 2:1 negative, financials are dragging the index, and only pharma and healthcare are holding up.",
+  "label": "Selling deepens",
+  "score": -0.65,
+  "summary": "The selling has deepened through the first hour: the Nifty is testing 22,600, financials are leading the decline, and only pharma and healthcare are holding up.",
   "detail": {
-   "leaders": "Nifty Pharma and Nifty Healthcare",
+   "leaders": "Nifty Pharma, Nifty Healthcare; Zydus Lifesciences",
    "laggards": "Private banks, Nifty Financial Services, Bank Nifty; Tata Motors PV, HDFC Life, Bajaj Finance",
-   "tone": "The flat GIFT Nifty signal didn't hold. The Nifty opened 47.8 pts lower at 22,732.45 and slipped to 22,716.30 (−0.28%) by 9:17, extending Monday's sell-off to a fresh six-month low.",
+   "tone": "Worse than 09:30: the Nifty's loss has widened from 0.28% to 0.77% (22,605.55, −174.70) and the Sensex is down 578 at 72,194.03. The fall is steady rather than a spike, with no attempt to reclaim 22,700.",
    "watch": [
-    "Whether 22,700 holds into expiry, or 'below 22,700' headlines stick",
-    "Brent and any US–Iran response on Hormuz",
-    "Bank Nifty: stabilisation would ease pressure on the index"
+    "Whether 22,600 holds or gives way on expiry-day unwinding",
+    "India VIX: a move above 15 would signal a disorderly market",
+    "Any easing in Brent or a US–Iran headline"
    ],
    "src": {
-    "title": "India TV — Sensex, Nifty open in red, Sept 29",
-    "url": "https://www.indiatvnews.com/business/markets/29-september-2026-stock-market-updates-sensex-nifty-open-in-red-a-day-after-sharp-correction-2026-09-29-1055572"
+    "title": "Business Standard — Stock Market LIVE, Sept 29",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-29-sensex-today-nifty50-gift-nifty-crude-oil-price-ipo-today-126092900092_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "wealth-erosion",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Another ₹5.3 lakh cr wiped out early",
+   "line": "BSE market cap fell to ₹469.96 lakh cr from ₹475.44 lakh cr at Monday's close",
+   "more": [
+    "This comes on top of Monday's loss of about ₹7.5 lakh cr",
+    "High oil prices are the main trigger, feeding inflation fears"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market LIVE, Sept 29",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-29-sensex-today-nifty50-gift-nifty-crude-oil-price-ipo-today-126092900092_1.html"
+   },
+   "date": "2026-09-29",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "india-vix",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "India VIX jumps 8.3% to 14.77",
+   "line": "Traders are pricing in bigger near-term swings on the monthly F&O expiry day",
+   "more": [
+    "VIX already rose 12.5% on Monday"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market LIVE, Sept 29",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-29-sensex-today-nifty50-gift-nifty-crude-oil-price-ipo-today-126092900092_1.html"
+   },
+   "date": "2026-09-29",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent holds near $108",
+   "line": "Oil stays elevated as the US–Iran standoff over Hormuz drags on",
+   "more": [
+    "Goodreturns quotes $108.07, down from $109.30; reported levels vary by source",
+    "Brent is up about 18% in a month"
+   ],
+   "src": {
+    "title": "Goodreturns — Crude oil price today, 29 Sep 2026",
+    "url": "https://www.goodreturns.in/crude-oil-price.html"
+   },
+   "date": "2026-09-29",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "zydus-usfda",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Zydus outperforms after USFDA inspection",
+   "line": "The Ahmedabad plant got one observation, not related to data integrity",
+   "more": [
+    "Supports the pharma sector's defensive outperformance today"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market LIVE, Sept 29",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-29-sensex-today-nifty50-gift-nifty-crude-oil-price-ipo-today-126092900092_1.html"
+   },
+   "date": "2026-09-29",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "1000"
+   }
+  },
   {
    "key": "bank-nifty",
    "tag": "Stocks",
@@ -50,7 +144,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1330"
@@ -74,7 +168,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-24",
     "slot": "0930"
@@ -97,7 +191,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "pre"
@@ -120,7 +214,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
@@ -139,30 +233,6 @@
    "src": {
     "title": "Stockpil — India Markets Today, Sept 28",
     "url": "https://stockpil.com/india-markets-today-2026-09-28"
-   },
-   "date": "2026-09-29",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent stays above $105 on Hormuz stalemate",
-   "line": "Trump rejected Iran's plan to reopen Hormuz; Iran says it won't ease its terms",
-   "more": [
-    "Brent touched $108.83 on Monday before settling near $105.3",
-    "Reported levels differ across sources, so treat them as approximate"
-   ],
-   "src": {
-    "title": "CNBC — Oil price today, Sept 28",
-    "url": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html"
    },
    "date": "2026-09-29",
    "slot": "pre",
@@ -291,30 +361,6 @@
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "wealth-erosion",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Investors lose about ₹7.5 lakh cr today",
-   "line": "BSE market cap fell to ₹475.75 lakh cr from ₹483.25 lakh cr at Friday's close",
-   "more": [
-    "The loss widened from about ₹6 lakh cr at midday",
-    "Oil, US yields at multi-decade highs, FII exits and a weak rupee drove the sell-off"
-   ],
-   "src": {
-    "title": "LatestLY — Why is the stock market down today, Sept 28",
-    "url": "https://www.latestly.com/business/why-is-stock-market-down-today-september-28-2026-7623905.html"
-   },
-   "date": "2026-09-28",
-   "slot": "1530",
-   "when": "Mon · 15:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1030"
    }
   },
   {
@@ -745,30 +791,6 @@
    "first_seen": {
     "date": "2026-09-23",
     "slot": "post"
-   }
-  },
-  {
-   "key": "india-vix",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "India VIX jumps 15% to 13.98",
-   "line": "The fear gauge reverses Friday's easing as traders price in bigger near-term swings",
-   "more": [
-    "The VIX is up 14.97% on the day",
-    "Higher implied volatility raises hedging costs for F&O traders"
-   ],
-   "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 28",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-updates-september-28-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126092800062_1.html"
-   },
-   "date": "2026-09-28",
-   "slot": "1000",
-   "when": "Mon · 10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1230"
    }
   },
   {
