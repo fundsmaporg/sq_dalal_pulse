@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-28T16:04:16+05:30",
- "date": "2026-09-28",
- "slot": "post",
- "slot_label": "Close",
- "stage": "Post-market mood",
- "asof": "2026-09-28T16:00:00+05:30",
+ "generated_at": "2026-09-29T08:32:53+05:30",
+ "date": "2026-09-29",
+ "slot": "pre",
+ "slot_label": "Pre-open",
+ "stage": "Pre-market mood",
+ "asof": "2026-09-29T08:30:00+05:30",
  "nifty": {
   "value": 22780.25,
   "pct": -1.56,
@@ -13,47 +13,166 @@
   "approx": false
  },
  "mood": {
-  "label": "Heavy sell-off",
-  "score": -0.75,
-  "summary": "A broad, heavy sell-off: Nifty settled at 22,780 (−1.56%) and Sensex fell 1,124. Midcaps and smallcaps fell harder, and only two Nifty stocks rose.",
+  "label": "Fragile, flat start",
+  "score": -0.4,
+  "summary": "Set for a flat, fragile start after Monday's rout to a near six-month closing low, with GIFT Nifty barely changed and Asia weak on expiry day.",
   "detail": {
-   "leaders": "Only Dr Reddy's (+1.67%) and Infosys (+0.30%) among Nifty 50 stocks",
-   "laggards": "PSU Bank (−3.2%), Realty (−2.3%), Oil & Gas (−2.0%), Metal (−1.9%); Adani Ent, Jio Financial, Adani Ports, Tata Motors PV, L&T; MidCap 100 −1.63%, SmallCap 100 −1.83%",
-   "tone": "The final settle was a shade below the closing-auction print, at Nifty 22,780.25 (−360.25) and Sensex 72,771.72 (−1,124.02). That wipes out Friday's bounce and more, and the index closed at the day's low.",
+   "leaders": "Order-win names in focus: IRFC (₹4,200 cr DVC loan), NCC (₹1,077 cr award)",
+   "laggards": "Rate-sensitive banks and financials after Monday's PSU Bank rout; oil-sensitive sectors",
+   "tone": "GIFT Nifty at 22,816.50 (−0.04%) at 7:45 am suggests no follow-through selling yet but no bounce either. That follows Monday's 1.56% fall to 22,780.25 and a 12.5% jump in India VIX.",
    "watch": [
-    "FII/DII provisional flows (not yet out)",
-    "Tuesday's monthly F&O expiry for Nifty, Bank Nifty and stock derivatives",
-    "Brent near $108, US–Iran headlines, and US PCE on Sept 30"
+    "Whether the Nifty holds 22,700 through the monthly F&O expiry",
+    "Brent and US–Iran headlines on reopening Hormuz",
+    "A cooling in US yields ahead of Wednesday's PCE"
    ],
    "src": {
-    "title": "Business Standard — Stock Market Close, Sept 28",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-28-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126092800062_1.html"
+    "title": "Kotak Neo — Pre-Market, 29 September 2026",
+    "url": "https://www.kotakneo.com/news/market-news/pre-market-29-september-2026-gift-nifty-global-cues-oil-prices/"
    }
   }
  },
  "insights": [
   {
-   "key": "crude",
-   "tag": "Macro",
+   "key": "fii-flows",
+   "tag": "Flows",
    "impact": "neg",
-   "title": "Brent jumps 3% to about $108",
-   "line": "Oil above $107 on US–Iran uncertainty drove the fall; yields and the rupee also weighed",
+   "title": "FIIs dump ₹5,353 cr; DIIs absorb ₹5,189 cr",
+   "line": "Foreign selling in cash jumped from ₹3,694 cr on Friday as Monday's sell-off deepened",
    "more": [
-    "Brent was quoted at $107.88 at the time of reporting",
-    "Higher oil feeds inflation worries for India, which imports most of its crude"
+    "DIIs bought almost all of the outflow",
+    "India VIX rose 12.54% to 13.69"
    ],
    "src": {
-    "title": "The Tribune — Nifty falls 1.56%, Sensex tanks 1,124 points",
-    "url": "https://www.tribuneindia.com/news/business/nifty-falls-1-56-sensex-tanks-1124-points-as-psu-banks-plunge-crude-tops-usd-107"
+    "title": "Stockpil — India Markets Today, Sept 28",
+    "url": "https://stockpil.com/india-markets-today-2026-09-28"
    },
-   "date": "2026-09-28",
-   "slot": "post",
-   "when": "Close",
+   "date": "2026-09-29",
+   "slot": "pre",
+   "when": "Pre-open",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US 10-yr hits 5.24%, highest since 2007",
+   "line": "Yields rose 6 bp and Wall Street fell: S&P 500 −0.77%, Nasdaq −0.92%, Dow −0.67%",
+   "more": [
+    "The Fed 'higher for longer' bets are also weighing on Asia this morning",
+    "Boeing fell nearly 7% after the FAA held off certifying the 737 Max 10"
+   ],
+   "src": {
+    "title": "TheStreet — Stock Market Today, Sept 28, 2026",
+    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-28-2026"
+   },
+   "date": "2026-09-29",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-24",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent stays above $105 on Hormuz stalemate",
+   "line": "Trump rejected Iran's plan to reopen Hormuz; Iran says it won't ease its terms",
+   "more": [
+    "Brent touched $108.83 on Monday before settling near $105.3",
+    "Reported levels differ across sources, so treat them as approximate"
+   ],
+   "src": {
+    "title": "CNBC — Oil price today, Sept 28",
+    "url": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html"
+   },
+   "date": "2026-09-29",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "fno-expiry",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "September F&O expiry today",
+   "line": "Nifty, Bank Nifty and stock derivative contracts expire; 22,700 is the next support",
+   "more": [
+    "Analysts see resistance at 23,000–23,100 after Monday's breakdown",
+    "Expiry-day rollovers can amplify intraday swings"
+   ],
+   "src": {
+    "title": "Liquide — Weekly outlook, Sep 28–Oct 2",
+    "url": "https://blog.liquide.life/weekly-review-indian-stock-market-prediction-sep-28th-oct-02nd-2026/"
+   },
+   "date": "2026-09-29",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "iip-august",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "August IIP growth jumps to 8%",
+   "line": "Manufacturing rose 9% and electricity 12.3%; mining fell 5.6%",
+   "more": [
+    "April–August IIP growth is 6.7% vs 4.2% a year ago",
+    "Autos and electrical equipment led manufacturing"
+   ],
+   "src": {
+    "title": "Business Standard — Industrial production grows 8% in August",
+    "url": "https://www.business-standard.com/economy/news/industrial-output-grows-by-8-in-august-under-new-series-govt-data-126092800790_1.html"
+   },
+   "date": "2026-09-29",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "order-wins",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IRFC, NCC in focus on new deals",
+   "line": "IRFC signed a ₹4,200 cr loan with DVC; NCC won a ₹1,077 cr AP water order",
+   "more": [
+    "HCL Tech, NLC India and Power Mech Projects are also on watch lists"
+   ],
+   "src": {
+    "title": "LatestLY — Stocks to watch, Sept 29",
+    "url": "https://www.latestly.com/business/stocks-to-buy-or-sell-today-september-29-2026-irfc-ncc-and-hcl-technologies-among-shares-that-may-remain-in-focus-on-tuesday-7624633.html"
+   },
+   "date": "2026-09-29",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "pre"
    }
   },
   {
@@ -72,9 +191,9 @@
    },
    "date": "2026-09-28",
    "slot": "post",
-   "when": "Close",
+   "when": "Mon · Close",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1100"
@@ -83,7 +202,7 @@
   {
    "key": "it-stocks",
    "tag": "Stocks",
-   "impact": "mixed",
+   "impact": "watch",
    "title": "Infosys ends green despite late IT selling",
    "line": "Infosys (+0.30%) and Dr Reddy's (+1.67%) were the only Nifty 50 gainers at the settle",
    "more": [
@@ -96,9 +215,9 @@
    },
    "date": "2026-09-28",
    "slot": "post",
-   "when": "Close",
+   "when": "Mon · Close",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
@@ -120,35 +239,12 @@
    },
    "date": "2026-09-28",
    "slot": "post",
-   "when": "Close",
+   "when": "Mon · Close",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "fno-expiry",
-   "tag": "Events",
-   "impact": "neutral",
-   "title": "Monthly F&O expiry on Tuesday",
-   "line": "September Nifty, Bank Nifty and stock derivatives expire Sept 29; expect volatility",
-   "more": [
-    "A-One Steels IPO allotment is also due Sept 29, with listing on Oct 1"
-   ],
-   "src": {
-    "title": "Liquide — Weekly outlook, Sep 28–Oct 2",
-    "url": "https://blog.liquide.life/weekly-review-indian-stock-market-prediction-sep-28th-oct-02nd-2026/"
-   },
-   "date": "2026-09-28",
-   "slot": "post",
-   "when": "Close",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "post"
    }
   },
   {
@@ -167,7 +263,7 @@
    },
    "date": "2026-09-28",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Mon · 15:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -191,7 +287,7 @@
    },
    "date": "2026-09-28",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Mon · 15:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -216,7 +312,7 @@
    },
    "date": "2026-09-28",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Mon · 15:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -241,7 +337,7 @@
    },
    "date": "2026-09-28",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Mon · 14:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -265,7 +361,7 @@
    },
    "date": "2026-09-28",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Mon · 14:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -289,7 +385,7 @@
    },
    "date": "2026-09-28",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Mon · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -312,7 +408,7 @@
    },
    "date": "2026-09-28",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Mon · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -337,7 +433,7 @@
    },
    "date": "2026-09-28",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Mon · 13:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -361,7 +457,7 @@
    },
    "date": "2026-09-28",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Mon · 13:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -384,7 +480,7 @@
    },
    "date": "2026-09-28",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Mon · 13:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -408,7 +504,7 @@
    },
    "date": "2026-09-28",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Mon · 13:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -431,7 +527,7 @@
    },
    "date": "2026-09-28",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Mon · 13:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -455,7 +551,7 @@
    },
    "date": "2026-09-28",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Mon · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -479,7 +575,7 @@
    },
    "date": "2026-09-28",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Mon · 12:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -503,7 +599,7 @@
    },
    "date": "2026-09-28",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Mon · 12:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -527,7 +623,7 @@
    },
    "date": "2026-09-28",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Mon · 12:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -550,36 +646,12 @@
    },
    "date": "2026-09-28",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Mon · 12:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "FPIs pull ₹17,131 cr in September",
-   "line": "Cumulative foreign equity selling in 2026 has crossed ₹2.4 lakh cr",
-   "more": [
-    "Persistent outflows are a key driver of the seven-week losing streak",
-    "DIIs have been absorbing part of the selling"
-   ],
-   "src": {
-    "title": "BusinessToday — Investors lose ₹6 lakh crore",
-    "url": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-plunge-over-1-investors-lose-rs-6-lakh-crore-as-brent-crude-crosses-107-558163-2026-09-28"
-   },
-   "date": "2026-09-28",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
    }
   },
   {
@@ -598,7 +670,7 @@
    },
    "date": "2026-09-28",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Mon · 11:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -622,7 +694,7 @@
    },
    "date": "2026-09-28",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Mon · 11:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -646,7 +718,7 @@
    },
    "date": "2026-09-28",
    "slot": "1030",
-   "when": "10:30",
+   "when": "Mon · 10:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -670,7 +742,7 @@
    },
    "date": "2026-09-28",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Mon · 10:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -694,7 +766,7 @@
    },
    "date": "2026-09-28",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Mon · 10:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -718,36 +790,11 @@
    },
    "date": "2026-09-28",
    "slot": "0930",
-   "when": "9:30",
+   "when": "Mon · 9:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "us-yields",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "US 10-yr hit 5.225%, highest since 2007",
-   "line": "Wall St still rose Friday (Dow +0.93%); US futures −0.3% this morning on Hormuz news",
-   "more": [
-    "Dow 51,828.62 (+478.64), S&P 500 7,743.41 (+0.51%), Nasdaq 27,068.72 (+0.5%)",
-    "Energy costs are lifting bets on more Fed rate hikes",
-    "August PCE inflation is due Sept 30"
-   ],
-   "src": {
-    "title": "Yahoo Finance — Stock market today, Sept 25",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html"
-   },
-   "date": "2026-09-28",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-24",
     "slot": "0930"
    }
   },
@@ -767,7 +814,7 @@
    },
    "date": "2026-09-28",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Mon · Pre-open",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -791,7 +838,7 @@
    },
    "date": "2026-09-28",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Mon · Pre-open",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -815,7 +862,7 @@
    },
    "date": "2026-09-28",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Mon · Pre-open",
    "updated": false,
    "is_new": false,
    "first_seen": {
