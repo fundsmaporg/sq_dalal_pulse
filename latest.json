@@ -1,28 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-29T12:03:16+05:30",
+ "generated_at": "2026-09-29T12:33:27+05:30",
  "date": "2026-09-29",
- "slot": "1200",
- "slot_label": "12:00",
+ "slot": "1230",
+ "slot_label": "12:30",
  "stage": "Mid-market mood",
- "asof": "2026-09-29T12:00:00+05:30",
+ "asof": "2026-09-29T12:30:00+05:30",
  "nifty": {
-  "value": 22650,
-  "pct": -0.57,
-  "approx": true
+  "value": 22716.4,
+  "pct": -0.28,
+  "chg": -63.85,
+  "approx": false
  },
  "mood": {
-  "label": "Steadying off lows",
-  "score": -0.4,
-  "summary": "The market is steadying off its lows at midday: the Nifty is holding above 22,650, pharma is leading a partial recovery, and the broader tone is still negative.",
+  "label": "Losses pared",
+  "score": -0.25,
+  "summary": "The recovery has broadened: the Nifty has clawed back above 22,700 and more than halved its loss, while small caps edge up even though decliners still lead.",
   "detail": {
-   "leaders": "Nifty Pharma and Healthcare; Sun Pharma, Tech Mahindra, SBI, TCS among the Sensex gainers",
-   "laggards": "FMCG, Auto, Chemicals; Tata group stocks (Tata Motors PV at a 52-week low), Bajaj Finance, HDFC Life",
-   "tone": "A touch better than 11:30: the latest headline has the Sensex about 500 pts off its low (from 400) and the Nifty above 22,650, after 22,619.90 at 11:00. The bounce is holding but hasn't built momentum.",
+   "leaders": "Nifty Pharma and Healthcare; BSE Smallcap 250 (+0.13%); Electrosteel Castings",
+   "laggards": "Tata Motors PV, HDFC Life, Bajaj Finance; small-cap breadth is still weak (106 up, 142 down)",
+   "tone": "Clearly better than 12:00: at noon the Nifty was 22,716.40 (−63.85, −0.28%) and the Sensex 72,555.37 (−216), well off the lows near 22,600. The latest headline has the Nifty holding above 22,700.",
    "watch": [
-    "Whether the Nifty can reclaim 22,700–22,780 (Monday's close) into expiry",
-    "A turn in bank heavyweights",
-    "Brent and US futures in the European session"
+    "Reclaiming Monday's 22,780 close would turn the day green",
+    "Expiry settlement in the last hour",
+    "Whether banks join the pharma-led recovery"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 29",
@@ -31,6 +32,76 @@
   }
  },
  "insights": [
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Saudi supply relief offsets Hormuz stalemate",
+   "line": "Riyadh restored pipeline flows to about 3.5 mb/d, and Yanbu Red Sea loadings have resumed",
+   "more": [
+    "Brent settled at $105.28 on Monday after an intraday high of $108.83",
+    "US–Iran ceasefire and Hormuz talks are still deadlocked"
+   ],
+   "src": {
+    "title": "CNBC — Oil price today, Sept 28",
+    "url": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html"
+   },
+   "date": "2026-09-29",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "electrosteel",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Electrosteel Castings jumps 7.5%",
+   "line": "Hit a day's high of ₹77, outperforming its sector by about 7 percentage points",
+   "more": [
+    "One of the day's standout small-cap gainers"
+   ],
+   "src": {
+    "title": "MarketsMojo — Electrosteel Castings surges 7.47%",
+    "url": "https://www.marketsmojo.com/news/stocks-in-action/electrosteel-castings-ltd-hits-intraday-high-with-747-surge-on-29-sep-2026-4208691"
+   },
+   "date": "2026-09-29",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "ather-energy",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Ather Energy extends slide to 7 sessions",
+   "line": "Down 12.8% over the losing streak despite heavy trading",
+   "more": [
+    "EV names are under pressure; Ola Electric fell after its rights-issue plan"
+   ],
+   "src": {
+    "title": "MarketsMojo — Ather Energy high-value trading amid downtrend",
+    "url": "https://www.marketsmojo.com/news/stocks-in-action/ather-energy-ltd-sees-high-value-trading-amid-continued-downtrend-4208699"
+   },
+   "date": "2026-09-29",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "1230"
+   }
+  },
   {
    "key": "tata-sons-listing",
    "tag": "Regulation",
@@ -50,7 +121,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1300"
@@ -73,7 +144,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1200"
@@ -96,7 +167,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1130"
@@ -197,30 +268,6 @@
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1100"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent around $107 keeps inflation fears alive",
-   "line": "Trump's rejection of Iran's Hormuz terms keeps oil bid through the Asian session",
-   "more": [
-    "Brent was quoted at $106.54 (+1.2%) during the morning",
-    "The rupee is weaker than 96 per dollar"
-   ],
-   "src": {
-    "title": "International News & Views — Nifty near 22,700 as crude hits $107",
-    "url": "https://www.internationalnewsandviews.com/stock-market-today-september-29-2026-nifty-crude-rupee-409825-2/"
-   },
-   "date": "2026-09-29",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
    }
   },
   {
