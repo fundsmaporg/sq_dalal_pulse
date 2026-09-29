@@ -1,29 +1,28 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-29T12:33:27+05:30",
+ "generated_at": "2026-09-29T13:03:10+05:30",
  "date": "2026-09-29",
- "slot": "1230",
- "slot_label": "12:30",
+ "slot": "1300",
+ "slot_label": "13:00",
  "stage": "Mid-market mood",
- "asof": "2026-09-29T12:30:00+05:30",
+ "asof": "2026-09-29T13:00:00+05:30",
  "nifty": {
-  "value": 22716.4,
-  "pct": -0.28,
-  "chg": -63.85,
-  "approx": false
+  "value": 22655,
+  "pct": -0.55,
+  "approx": true
  },
  "mood": {
-  "label": "Losses pared",
-  "score": -0.25,
-  "summary": "The recovery has broadened: the Nifty has clawed back above 22,700 and more than halved its loss, while small caps edge up even though decliners still lead.",
+  "label": "Recovery fades",
+  "score": -0.45,
+  "summary": "The midday recovery has faded, with the Sensex slipping back to about 400 down as a fresh bond sell-off weighs on rate-sensitive sectors. Pharma is still the only real support.",
   "detail": {
-   "leaders": "Nifty Pharma and Healthcare; BSE Smallcap 250 (+0.13%); Electrosteel Castings",
-   "laggards": "Tata Motors PV, HDFC Life, Bajaj Finance; small-cap breadth is still weak (106 up, 142 down)",
-   "tone": "Clearly better than 12:00: at noon the Nifty was 22,716.40 (−63.85, −0.28%) and the Sensex 72,555.37 (−216), well off the lows near 22,600. The latest headline has the Nifty holding above 22,700.",
+   "leaders": "Nifty Pharma and Healthcare; block-deal names AXISCADES and TCI Express",
+   "laggards": "Rate-sensitive financials (HDFC Bank, Bajaj Finance, HDFC Life); FMCG, Auto; Tata Motors PV",
+   "tone": "Worse than 12:30: the Nifty was 22,716.40 (−0.28%) at noon, but the latest headline has the Sensex down about 400. That puts the Nifty back near 22,650, with bond yields capping the rebound.",
    "watch": [
-    "Reclaiming Monday's 22,780 close would turn the day green",
-    "Expiry settlement in the last hour",
-    "Whether banks join the pharma-led recovery"
+    "The 10-year G-Sec yield: a move above 7.2% would hurt banks further",
+    "Expiry settlement in the final 90 minutes",
+    "Brent and US futures"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 29",
@@ -32,6 +31,79 @@
   }
  },
  "insights": [
+  {
+   "key": "india-bond-yields",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "India 10-yr yield hits 7.19%, a 2½-year high",
+   "line": "Highest since April 2024 on oil, a weak rupee and the RBI's ₹1 trn OMO bond sales",
+   "more": [
+    "The yield eased slightly to about 7.18% after the spike",
+    "US 10-yr near 5.27% adds to the global bond sell-off"
+   ],
+   "src": {
+    "title": "Business Standard — G-Sec yields surge to 2.5-year high on crude spike",
+    "url": "https://www.business-standard.com/markets/capital-market-news/g-sec-yields-surge-to-2-5-year-high-on-crude-spike-rupee-nears-96-126092801195_1.html"
+   },
+   "date": "2026-09-29",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "1300"
+   }
+  },
+  {
+   "key": "rate-hike-fears",
+   "tag": "Policy",
+   "impact": "neg",
+   "title": "Most economists now see an RBI hike Oct 7",
+   "line": "35 of 61 in a Reuters poll expect a 25 bp repo hike to 5.50% at the Oct 5–7 MPC",
+   "more": [
+    "It would be the first increase since February 2023",
+    "A majority also see another hike in December",
+    "August inflation was 4.82%; the rupee is down about 6% this year"
+   ],
+   "src": {
+    "title": "Social News XYZ — Odds of rate hike at RBI's October MPC on the rise",
+    "url": "https://www.socialnews.xyz/2026/09/26/odds-of-rate-hike-at-rbis-october-mpc-meet-on-the-rise-economists/"
+   },
+   "date": "2026-09-29",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "block-deals",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "AXISCADES hits upper circuit, TCI Express +20%",
+   "line": "Large block trades in the morning window lifted both stocks against a weak market",
+   "more": [
+    "AXISCADES: 45.5 lakh shares traded at ₹1,824 (₹830 cr); the stock hit ₹2,067.40",
+    "TCI Express: ₹29.6 cr block; intraday high ₹583.20"
+   ],
+   "src": {
+    "title": "Upstox — AXISCADES upper circuit, TCI Express rallies 20% on block deals",
+    "url": "https://upstox.com/news/market-news/stocks/axiscade-shares-hit-10-upper-circuit-tci-express-stock-rallies-20-amid-block-deal-buzz/article-201043/"
+   },
+   "date": "2026-09-29",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "1300"
+   }
+  },
   {
    "key": "crude",
    "tag": "Global",
@@ -50,7 +122,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -73,7 +145,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1230"
@@ -96,7 +168,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1230"
@@ -268,31 +340,6 @@
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1100"
-   }
-  },
-  {
-   "key": "rate-hike-fears",
-   "tag": "Policy",
-   "impact": "neg",
-   "title": "HSBC sees RBI hiking 50 bp in FY27",
-   "line": "Two 25 bp hikes to 5.75% forecast, as strong growth and 5%+ inflation weigh on bank stocks",
-   "more": [
-    "HSBC also expects the RBI to absorb ₹5–6 trillion of liquidity via OMO sales",
-    "Q2 GDP came in well above the RBI's 7% forecast",
-    "Rate-hike talk is being cited for the selling in HDFC Bank, SBI and ICICI Bank"
-   ],
-   "src": {
-    "title": "ANI — HSBC expects RBI to raise repo rate by 50 bps in FY27",
-    "url": "https://www.aninews.in/news/business/hsbc-expects-rbi-to-raise-repo-rate-by-50-bps-in-fy27-amid-strong-growth-inflation-pressures20260928131819/"
-   },
-   "date": "2026-09-29",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1400"
    }
   },
   {
