@@ -1,29 +1,28 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-29T11:03:19+05:30",
+ "generated_at": "2026-09-29T11:33:11+05:30",
  "date": "2026-09-29",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-09-29T11:00:00+05:30",
+ "asof": "2026-09-29T11:30:00+05:30",
  "nifty": {
-  "value": 22605.55,
-  "pct": -0.77,
-  "chg": -174.7,
+  "value": 22650,
+  "pct": -0.57,
   "approx": true
  },
  "mood": {
-  "label": "Heavy, no bounce",
-  "score": -0.6,
-  "summary": "The market is stuck near its morning lows: indices are holding around 0.7–0.8% down with no recovery, financials are still the weak spot, and pharma is the only shelter.",
+  "label": "Tentative recovery",
+  "score": -0.45,
+  "summary": "The market is edging off its lows. The Nifty has climbed back above 22,650 after dipping near 22,600, but the rebound is shallow and most sectors are still red.",
   "detail": {
-   "leaders": "Nifty Pharma, Nifty Healthcare; R Systems (volume spike)",
-   "laggards": "Private banks and financials (HDFC Bank, Axis Bank, Bajaj Finance, HDFC Life); Tata Motors PV",
-   "tone": "No change from 10:30. There's no fresh intraday print after 10:00 (22,605.55, −0.77%), and the latest headlines still have the Nifty testing 22,600 and the Sensex down over 600. The selling has paused, but buyers aren't returning.",
+   "leaders": "Nifty Pharma (+0.36%) and Healthcare, led by Dr Reddy's and Sun Pharma",
+   "laggards": "FMCG, Auto (−1%+), Chemicals; HCLTech, Bajaj Finance, Tata Motors PV, HDFC Life",
+   "tone": "Slightly better than 11:00: the Nifty was 22,619.90 (−0.70%) at 11:00, and the latest headline has it above 22,650 with the Sensex about 400 pts off its low. This is the first sign of buyers stepping in today.",
    "watch": [
-    "Afternoon expiry settlement: a slide below 22,600 or a short-covering pop",
-    "US futures: Dow and Nasdaq futures down triple digits",
-    "Brent easing from around $107"
+    "Whether the Nifty can reclaim 22,700 before expiry settlement",
+    "Banks: a turn in HDFC Bank or ICICI would confirm the bounce",
+    "Any move in Brent or US futures"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 29",
@@ -32,6 +31,78 @@
   }
  },
  "insights": [
+  {
+   "key": "pharma-outperform",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Pharma is the lone gainer as defensives hold",
+   "line": "Nifty Pharma up 0.36% at 26,857.40 as Dr Reddy's and Sun Pharma rise",
+   "more": [
+    "Nifty Healthcare is also outperforming",
+    "FMCG, Auto and Chemicals are the weakest sectors"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market LIVE, Sept 29",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-29-sensex-today-nifty50-gift-nifty-crude-oil-price-ipo-today-126092900092_1.html"
+   },
+   "date": "2026-09-29",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "ola-electric",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Ola Electric slips 3.5% on ₹1,000 cr rights issue",
+   "line": "The board approved a rights issue of partly paid shares; terms are due on or after Oct 5",
+   "more": [
+    "The price, ratio and record date are still to be set",
+    "It comes on top of a ₹780 cr QIP earlier this year and a ₹1,500 cr approval",
+    "Deepa Bansal was named compliance officer"
+   ],
+   "src": {
+    "title": "Business Standard — Ola Electric board approves ₹1,000 cr rights issue",
+    "url": "https://www.business-standard.com/markets/news/ola-electric-board-approves-1-000-crore-fundraise-via-rights-issue-126092801163_1.html"
+   },
+   "date": "2026-09-29",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "hcltech-robotiq",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "HCLTech to buy Croatia's Robotiq.ai",
+   "line": "HCL Software is adding enterprise RPA, but the stock is among today's Sensex drags",
+   "more": [
+    "The deal is expected to close in November 2026"
+   ],
+   "src": {
+    "title": "Angel One — Stocks to watch, Sept 29",
+    "url": "https://www.angelone.in/news/market-updates/stocks-to-watch-today-honasa-consumer-hcl-tech-itc-and-others-september-29-2026"
+   },
+   "date": "2026-09-29",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "1130"
+   }
+  },
   {
    "key": "us-yields",
    "tag": "Global",
@@ -50,7 +121,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-24",
     "slot": "0930"
@@ -75,7 +146,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1100"
@@ -99,7 +170,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -672,30 +743,6 @@
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1330"
-   }
-  },
-  {
-   "key": "ola-electric",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Ola Electric near ₹38.5 before rights-issue call",
-   "line": "At ₹38.48 at 10:43 am (m-cap ~₹17,500 cr); the board's rights-issue outcome is awaited",
-   "more": [
-    "The 52-week range is ₹22.25–58.65",
-    "The size and pricing of the rights issue have not been disclosed yet"
-   ],
-   "src": {
-    "title": "Bajaj Finserv — Ola Electric share price",
-    "url": "https://www.bajajfinserv.in/investments/olaelec-share-price"
-   },
-   "date": "2026-09-28",
-   "slot": "1230",
-   "when": "Mon · 12:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "0930"
    }
   },
   {
