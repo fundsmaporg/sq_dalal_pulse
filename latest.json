@@ -1,28 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-29T13:03:10+05:30",
+ "generated_at": "2026-09-29T13:33:03+05:30",
  "date": "2026-09-29",
- "slot": "1300",
- "slot_label": "13:00",
+ "slot": "1330",
+ "slot_label": "13:30",
  "stage": "Mid-market mood",
- "asof": "2026-09-29T13:00:00+05:30",
+ "asof": "2026-09-29T13:30:00+05:30",
  "nifty": {
-  "value": 22655,
-  "pct": -0.55,
-  "approx": true
+  "value": 22669.75,
+  "pct": -0.49,
+  "chg": -110.5,
+  "approx": false
  },
  "mood": {
-  "label": "Recovery fades",
-  "score": -0.45,
-  "summary": "The midday recovery has faded, with the Sensex slipping back to about 400 down as a fresh bond sell-off weighs on rate-sensitive sectors. Pharma is still the only real support.",
+  "label": "Range-bound, heavy",
+  "score": -0.4,
+  "summary": "The market is drifting in a narrow range about half a percent down, with no fresh selling and no buyers either. Pharma is still the lone green pocket heading into expiry.",
   "detail": {
-   "leaders": "Nifty Pharma and Healthcare; block-deal names AXISCADES and TCI Express",
-   "laggards": "Rate-sensitive financials (HDFC Bank, Bajaj Finance, HDFC Life); FMCG, Auto; Tata Motors PV",
-   "tone": "Worse than 12:30: the Nifty was 22,716.40 (−0.28%) at noon, but the latest headline has the Sensex down about 400. That puts the Nifty back near 22,650, with bond yields capping the rebound.",
+   "leaders": "Nifty Pharma and Healthcare",
+   "laggards": "Eternal, Titan (top Nifty losers); FMCG, Auto, Chemicals; Tata Motors PV, HDFC Life, Bajaj Finance",
+   "tone": "Steady versus 13:00: the Nifty was at 22,669.75 (−110.50, −0.49%) at 1 pm, and the latest headline has it around 22,680 with the Sensex down about 300. It has stayed in a 22,650–22,720 band since noon.",
    "watch": [
-    "The 10-year G-Sec yield: a move above 7.2% would hurt banks further",
-    "Expiry settlement in the final 90 minutes",
-    "Brent and US futures"
+    "A break of the 22,650–22,720 range into expiry",
+    "Whether the RBI keeps defending the rupee at 96",
+    "European open and US futures"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 29",
@@ -31,6 +32,77 @@
   }
  },
  "insights": [
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Rupee hits a 2-month low of 96.16/$",
+   "line": "State banks were seen selling dollars, likely for the RBI; the rupee pared to about 96.11",
+   "more": [
+    "Oil and portfolio outflows are the main pressures",
+    "The RBI has been defending the 96 level for days"
+   ],
+   "src": {
+    "title": "Business Recorder — RBI likely intervenes to support rupee as oil weighs",
+    "url": "https://www.brecorder.com/news/40441764/indian-central-bank-likely-intervenes-to-support-rupee-as-oil-prices-weigh-traders-say"
+   },
+   "date": "2026-09-29",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent up 2% to about $107.4",
+   "line": "Middle East supply fears outweigh signs of recovering Gulf crude exports",
+   "more": [
+    "Higher oil is also pushing G-Sec yields to a 2½-year high"
+   ],
+   "src": {
+    "title": "Business Recorder — RBI likely intervenes to support rupee as oil weighs",
+    "url": "https://www.brecorder.com/news/40441764/indian-central-bank-likely-intervenes-to-support-rupee-as-oil-prices-weigh-traders-say"
+   },
+   "date": "2026-09-29",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "consumer-laggards",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Eternal, Titan lead the Nifty losers",
+   "line": "Consumer names weigh as the day's pressure shifts from banks to discretionary stocks",
+   "more": [
+    "Eternal is near ₹331 after a ₹328.45 low, down from Monday's ₹335 close",
+    "Titan is still weak after outlining watch-acquisition plans on Monday"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market LIVE, Sept 29",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-29-sensex-today-nifty50-gift-nifty-crude-oil-price-ipo-today-126092900092_1.html"
+   },
+   "date": "2026-09-29",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "1330"
+   }
+  },
   {
    "key": "india-bond-yields",
    "tag": "Macro",
@@ -49,7 +121,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1300"
@@ -74,7 +146,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1400"
@@ -98,34 +170,10 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1300"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Saudi supply relief offsets Hormuz stalemate",
-   "line": "Riyadh restored pipeline flows to about 3.5 mb/d, and Yanbu Red Sea loadings have resumed",
-   "more": [
-    "Brent settled at $105.28 on Monday after an intraday high of $108.83",
-    "US–Iran ceasefire and Hormuz talks are still deadlocked"
-   ],
-   "src": {
-    "title": "CNBC — Oil price today, Sept 28",
-    "url": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html"
-   },
-   "date": "2026-09-29",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
    }
   },
   {
@@ -479,29 +527,6 @@
    "first_seen": {
     "date": "2026-09-28",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Rupee weakens past 96 per dollar",
-   "line": "The rupee trades at 96.05, down 7 paise from 95.98, as oil and a firm dollar weigh",
-   "more": [
-    "The rupee is testing the 96 level the RBI has been defending"
-   ],
-   "src": {
-    "title": "Whalesbook — Rupee drops to 96.05",
-    "url": "https://www.whalesbook.com/news/English/economy/Indian-Rupee-Drops-to-9605-Against-Dollar-as-Oil-Prices-Rise/6abb34165aacb956d083d881"
-   },
-   "date": "2026-09-29",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
    }
   },
   {
