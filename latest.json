@@ -1,37 +1,131 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-29T08:32:53+05:30",
+ "generated_at": "2026-09-29T09:33:11+05:30",
  "date": "2026-09-29",
- "slot": "pre",
- "slot_label": "Pre-open",
- "stage": "Pre-market mood",
- "asof": "2026-09-29T08:30:00+05:30",
+ "slot": "0930",
+ "slot_label": "9:30",
+ "stage": "Opening mood",
+ "asof": "2026-09-29T09:30:00+05:30",
  "nifty": {
-  "value": 22780.25,
-  "pct": -1.56,
-  "chg": -360.25,
-  "approx": false
+  "value": 22716.3,
+  "pct": -0.28,
+  "chg": -63.95,
+  "approx": true
  },
  "mood": {
-  "label": "Fragile, flat start",
-  "score": -0.4,
-  "summary": "Set for a flat, fragile start after Monday's rout to a near six-month closing low, with GIFT Nifty barely changed and Asia weak on expiry day.",
+  "label": "Selling resumes",
+  "score": -0.55,
+  "summary": "The selling resumed at the open. Breadth is roughly 2:1 negative, financials are dragging the index, and only pharma and healthcare are holding up.",
   "detail": {
-   "leaders": "Order-win names in focus: IRFC (₹4,200 cr DVC loan), NCC (₹1,077 cr award)",
-   "laggards": "Rate-sensitive banks and financials after Monday's PSU Bank rout; oil-sensitive sectors",
-   "tone": "GIFT Nifty at 22,816.50 (−0.04%) at 7:45 am suggests no follow-through selling yet but no bounce either. That follows Monday's 1.56% fall to 22,780.25 and a 12.5% jump in India VIX.",
+   "leaders": "Nifty Pharma and Nifty Healthcare",
+   "laggards": "Private banks, Nifty Financial Services, Bank Nifty; Tata Motors PV, HDFC Life, Bajaj Finance",
+   "tone": "The flat GIFT Nifty signal didn't hold. The Nifty opened 47.8 pts lower at 22,732.45 and slipped to 22,716.30 (−0.28%) by 9:17, extending Monday's sell-off to a fresh six-month low.",
    "watch": [
-    "Whether the Nifty holds 22,700 through the monthly F&O expiry",
-    "Brent and US–Iran headlines on reopening Hormuz",
-    "A cooling in US yields ahead of Wednesday's PCE"
+    "Whether 22,700 holds into expiry, or 'below 22,700' headlines stick",
+    "Brent and any US–Iran response on Hormuz",
+    "Bank Nifty: stabilisation would ease pressure on the index"
    ],
    "src": {
-    "title": "Kotak Neo — Pre-Market, 29 September 2026",
-    "url": "https://www.kotakneo.com/news/market-news/pre-market-29-september-2026-gift-nifty-global-cues-oil-prices/"
+    "title": "India TV — Sensex, Nifty open in red, Sept 29",
+    "url": "https://www.indiatvnews.com/business/markets/29-september-2026-stock-market-updates-sensex-nifty-open-in-red-a-day-after-sharp-correction-2026-09-29-1055572"
    }
   }
  },
  "insights": [
+  {
+   "key": "bank-nifty",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Financials lead early losses again",
+   "line": "Private banks and financials are the worst sectors; Bank Nifty is falling fastest",
+   "more": [
+    "Business Standard headline: Sensex −500, Nifty below 22,700 as banks weigh",
+    "HDFC Life and Bajaj Finance are among the top Nifty losers"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market LIVE, Sept 29",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-29-sensex-today-nifty50-gift-nifty-crude-oil-price-ipo-today-126092900092_1.html"
+   },
+   "date": "2026-09-29",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US 10-yr touched 5.27%, a 19-year high",
+   "line": "The 30-yr hit 5.55%; Fed's Cook says AI and oil will keep pushing inflation up",
+   "more": [
+    "Cook said further hikes depend on the data",
+    "Meta −4.8% and Tesla −4.0% led the US mega-cap losses"
+   ],
+   "src": {
+    "title": "CNBC — Stock market today, Sept 28",
+    "url": "https://www.cnbc.com/2026/09/28/stock-market-today-live-updates.html"
+   },
+   "date": "2026-09-29",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-24",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "asia-selloff",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Asia slides on yields and oil",
+   "line": "Nikkei −1.11%, Topix −1.67%, Hang Seng −0.57% and Kospi −0.4%; only the ASX is higher",
+   "more": [
+    "Driven by rising US yields and fears of more Fed hikes"
+   ],
+   "src": {
+    "title": "investingLive — Asia stocks slip",
+    "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-asia-stocks-slip/"
+   },
+   "date": "2026-09-29",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Rupee weakens past 96 per dollar",
+   "line": "The rupee trades at 96.05, down 7 paise from 95.98, as oil and a firm dollar weigh",
+   "more": [
+    "The rupee is testing the 96 level the RBI has been defending"
+   ],
+   "src": {
+    "title": "Whalesbook — Rupee drops to 96.05",
+    "url": "https://www.whalesbook.com/news/English/economy/Indian-Rupee-Drops-to-9605-Against-Dollar-as-Oil-Prices-Rise/6abb34165aacb956d083d881"
+   },
+   "date": "2026-09-29",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1000"
+   }
+  },
   {
    "key": "fii-flows",
    "tag": "Flows",
@@ -50,34 +144,10 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "us-yields",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "US 10-yr hits 5.24%, highest since 2007",
-   "line": "Yields rose 6 bp and Wall Street fell: S&P 500 −0.77%, Nasdaq −0.92%, Dow −0.67%",
-   "more": [
-    "The Fed 'higher for longer' bets are also weighing on Asia this morning",
-    "Boeing fell nearly 7% after the FAA held off certifying the 737 Max 10"
-   ],
-   "src": {
-    "title": "TheStreet — Stock Market Today, Sept 28, 2026",
-    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-28-2026"
-   },
-   "date": "2026-09-29",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-09-24",
-    "slot": "0930"
    }
   },
   {
@@ -98,7 +168,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -122,7 +192,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "post"
@@ -146,7 +216,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "pre"
@@ -169,7 +239,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "pre"
@@ -212,30 +282,6 @@
    "src": {
     "title": "Angel One — Top gainers and losers, Sept 28",
     "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-september-28-2026-dr-reddy-s-and-infosys-gain-while-tata-motors-pv-drops-3"
-   },
-   "date": "2026-09-28",
-   "slot": "post",
-   "when": "Mon · Close",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Rupee slips about 20 paise to ~95.95/$",
-   "line": "RBI defence of 96 capped the fall; oil and the dollar kept it near record lows",
-   "more": [
-    "Other quotes put USD/INR briefly above 96"
-   ],
-   "approx": true,
-   "src": {
-    "title": "ETV Bharat — Rupee falls 20 paise to 95.95",
-    "url": "https://www.etvbharat.com/en/business/rupee-vs-usd-indian-currency-falls-20-paise-to-95-dot-95-against-us-dollar-enn26092801100"
    },
    "date": "2026-09-28",
    "slot": "post",
@@ -414,31 +460,6 @@
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "bank-nifty",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Bank Nifty down ~1.8% as heavyweights slide",
-   "line": "HDFC Bank −1.86%, SBI −1.83%, ICICI −1.68%; Yes Bank −4.4%, Union Bank −3.4% lead losses",
-   "more": [
-    "The Nifty Bank index lost more than 1,000 points intraday, to near 54,500",
-    "IDFC First −2.9%, PNB −2.7% and Canara −2.7% also sold",
-    "Rate-hike worries from high oil hit rate-sensitive lenders"
-   ],
-   "src": {
-    "title": "Angel One — Nifty Bank slumps over 1,000 points",
-    "url": "https://www.angelone.in/news/market-updates/nifty-bank-index-slumps-over-1-000-points-in-intraday-trade-on-september-28-2026"
-   },
-   "date": "2026-09-28",
-   "slot": "1330",
-   "when": "Mon · 13:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1330"
    }
   },
   {
@@ -796,30 +817,6 @@
    "first_seen": {
     "date": "2026-09-28",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "asia-selloff",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Kospi −2.1%, China's CSI 300 −1.2%",
-   "line": "Asian markets slide on Monday as higher oil clouds the inflation and rate outlook",
-   "more": [
-    "Most Asian bourses are lower in early trade",
-    "Gift Nifty futures are at 23,118.5, down 69 points"
-   ],
-   "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 28",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-updates-september-28-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126092800062_1.html"
-   },
-   "date": "2026-09-28",
-   "slot": "pre",
-   "when": "Mon · Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "pre"
    }
   },
   {
