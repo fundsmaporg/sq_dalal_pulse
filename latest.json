@@ -1,28 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-29T15:02:44+05:30",
+ "generated_at": "2026-09-29T15:33:10+05:30",
  "date": "2026-09-29",
- "slot": "1500",
- "slot_label": "15:00",
+ "slot": "1530",
+ "slot_label": "15:30",
  "stage": "Closing mood",
- "asof": "2026-09-29T15:00:00+05:30",
+ "asof": "2026-09-29T15:30:00+05:30",
  "nifty": {
-  "value": 22673,
-  "pct": -0.47,
-  "approx": true
+  "value": 22683.75,
+  "pct": -0.42,
+  "chg": -96.5,
+  "approx": false
  },
  "mood": {
-  "label": "Heavy into expiry",
-  "score": -0.4,
-  "summary": "The market enters expiry settlement near the day's midpoint, about half a percent down. It has pared from the lows, but IT and financials keep a lid on any late bounce.",
+  "label": "Slips, off lows",
+  "score": -0.35,
+  "summary": "A second straight losing session ended on a firmer note: the Nifty closed off its lows, down about 0.4% in the auction after spending the afternoon in a tight range.",
   "detail": {
-   "leaders": "Nifty Pharma and Healthcare",
-   "laggards": "Bajaj Finance, Infosys, HCLTech (top Sensex losers); Nifty IT at 52-week lows for Infosys, Wipro, KPIT, Tata Elxsi; consumer durables",
-   "tone": "Steady versus 14:30: at 2:53 pm the Sensex was down 341.19 (−0.47%) at 72,430.50, so the Nifty is near 22,670 and still in the 22,650–22,720 band it has held since noon.",
+   "leaders": "Nifty Pharma and Healthcare (Cipla +0.98%, Sun Pharma +0.74%)",
+   "laggards": "FMCG, Auto, Chemicals (weakest sectors); Tata Motors PV, HDFC Life, Bajaj Finance (top Nifty losers)",
+   "tone": "Better than 15:00: the Nifty finished the closing auction at 22,683.75 (−96.50, −0.42%) and the Sensex at 72,480.07 (−291.65). That's about 80 pts above the 22,600 tested in the morning, and expiry passed without a late sell-off.",
    "watch": [
-    "Final 30 minutes: expiry settlement and the closing auction",
-    "A late break below 22,650 would mean a close near the lows",
-    "US futures edging lower ahead of the open"
+    "FII/DII provisional flows after 5 pm",
+    "Brent and US Treasury yields overnight",
+    "US PCE inflation on Wednesday"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 29",
@@ -31,6 +32,78 @@
   }
  },
  "insights": [
+  {
+   "key": "fno-expiry",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "September F&O series settles near 22,684",
+   "line": "Monthly expiry passed without a late sell-off; October contracts now lead",
+   "more": [
+    "The Nifty spent most of the afternoon between 22,650 and 22,720",
+    "India VIX was elevated all session after Monday's 12.5% jump"
+   ],
+   "src": {
+    "title": "Groww — September 2026 F&O monthly expiry",
+    "url": "https://groww.in/blog/f-and-o-monthly-expiry"
+   },
+   "date": "2026-09-29",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "pharma-outperform",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Pharma limits the day's losses",
+   "line": "Cipla rose 0.98% and Sun Pharma 0.74% as defensives outperformed all session",
+   "more": [
+    "Nifty Pharma and Healthcare were the only sectors consistently green",
+    "Mankind (+1.8%) and Gland (+1.6%) also gained"
+   ],
+   "src": {
+    "title": "DSIJ — Sensex falls 390 points, Nifty down 0.51% as pharma, healthcare limit losses",
+    "url": "https://insights.dsij.in/dsijarticledetail/sensex-falls-390-points-nifty-50-down-051-as-pharma-healthcare-stocks-limit-losses-59751"
+   },
+   "date": "2026-09-29",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "fmcg-auto-drag",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "FMCG, auto and chemicals lead declines",
+   "line": "Consumer-facing sectors are the weakest as oil and rate-hike fears hit demand outlook",
+   "more": [
+    "Tata Motors PV, HDFC Life and Bajaj Finance were the top Nifty losers",
+    "Consumer durables fell for a second day"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market LIVE, Sept 29",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-29-sensex-today-nifty50-gift-nifty-crude-oil-price-ipo-today-126092900092_1.html"
+   },
+   "date": "2026-09-29",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "1530"
+   }
+  },
   {
    "key": "it-stocks",
    "tag": "Stocks",
@@ -50,7 +123,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
@@ -74,7 +147,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-24",
     "slot": "0930"
@@ -98,7 +171,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1500"
@@ -485,29 +558,6 @@
    }
   },
   {
-   "key": "pharma-outperform",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Pharma drives the midday recovery",
-   "line": "Sun Pharma joins Tech Mahindra, SBI and TCS among the Sensex gainers",
-   "more": [
-    "Business Standard credits pharma and healthcare with helping the indices pare losses"
-   ],
-   "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 29",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-29-sensex-today-nifty50-gift-nifty-crude-oil-price-ipo-today-126092900092_1.html"
-   },
-   "date": "2026-09-29",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-29",
-    "slot": "1130"
-   }
-  },
-  {
    "key": "ola-electric",
    "tag": "Stocks",
    "impact": "neg",
@@ -601,29 +651,6 @@
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1330"
-   }
-  },
-  {
-   "key": "fno-expiry",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "LIC Housing, SAIL in F&O ban on expiry day",
-   "line": "Monthly Nifty and stock contracts settle today; the two stocks are barred from new F&O",
-   "more": [
-    "Expiry-day unwinding can exaggerate intraday moves"
-   ],
-   "src": {
-    "title": "Angel One — Monthly expiry; LIC Housing, SAIL in F&O ban",
-    "url": "https://www.angelone.in/news/market-updates/nifty-monthly-expiry-today-lic-housing-finance-and-sail-under-f-o-ban-on-september-29-2026"
-   },
-   "date": "2026-09-29",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "post"
    }
   },
   {
