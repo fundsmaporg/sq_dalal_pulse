@@ -1,28 +1,28 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-30T11:03:09+05:30",
+ "generated_at": "2026-09-30T11:33:34+05:30",
  "date": "2026-09-30",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-09-30T11:00:00+05:30",
+ "asof": "2026-09-30T11:30:00+05:30",
  "nifty": {
   "value": 22697.2,
   "pct": -0.08,
   "chg": -19,
-  "approx": false
+  "approx": true
  },
  "mood": {
-  "label": "Stuck in range",
+  "label": "Marking time",
   "score": 0.1,
-  "summary": "Range-bound session: the Nifty hovers just below flat while midcaps and small caps hold gains of about 0.6–0.7%, so the broad market is doing better than the headline index.",
+  "summary": "Still range-bound: the headline indices barely move while mid and small caps keep their gains, so the market is marking time in a quiet mid-session.",
   "detail": {
-   "leaders": "Nifty IT (+2%, mid-tier IT led by Coforge, OFSS), PSU banks; MidCap +0.58%, SmallCap +0.74%",
-   "laggards": "Metals, pharma, healthcare; BSE after its Nifty entry",
-   "tone": "Little changed from 10:30: at 11:00 the Sensex was up 158.70 (+0.22%) at 72,687.77 and the Nifty down 19 (−0.08%) at 22,697.20. The Sensex's gain from 10:30 hasn't carried through to the Nifty.",
+   "leaders": "IT (mid-tier), PSU banks; NLC India; order-win small caps; MidCap +0.58%, SmallCap +0.74% (11 am)",
+   "laggards": "Metals, pharma, healthcare; BSE",
+   "tone": "No fresh index print since 11:00, when the Nifty was 22,697.20 (−0.08%) and the Sensex 72,687.77 (+0.22%). Reports still describe the indices as stuck in a range.",
    "watch": [
-    "A decisive move above 22,716–22,780",
-    "Whether IT strength extends into the Q2 results season",
+    "A break of the range either way into the afternoon",
+    "Brent and the rupee near 96",
     "US PCE tonight"
    ],
    "src": {
@@ -32,6 +32,78 @@
   }
  },
  "insights": [
+  {
+   "key": "nlc-nalco",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "NLC India gains on ₹12,000 cr JV with NALCO",
+   "line": "The 50:50 JV will build a 1,080 MW captive power plant for NALCO's Angul smelter",
+   "more": [
+    "The board approved it on Sept 29; the proposed name is NLC NALCO Power Ltd",
+    "The stock rose nearly 2% on the news"
+   ],
+   "src": {
+    "title": "TradingView/Moneycontrol — NLC India shares gain on JV with NALCO",
+    "url": "https://www.tradingview.com/news/moneycontrol:4d84092ad094b:0-nlc-india-shares-gain-on-jv-with-nalco-to-develop-1-080-mw-captive-power-plant/"
+   },
+   "date": "2026-09-30",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "order-wins",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "KSB, STL Networks land fresh orders",
+   "line": "KSB won a ₹118 cr export order; STL got a ₹249.8 cr RailTel cloud-infra contract",
+   "more": [
+    "STL's order is larger than its average quarterly revenue of ₹237.9 cr",
+    "Arisinfra (₹400 cr contract) and Kalpataru also cite new orders"
+   ],
+   "src": {
+    "title": "ScanX — Stocks to watch today, Sept 30, 2026",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-september-30-2026-arisinfra-solutions-tube/52277463"
+   },
+   "date": "2026-09-30",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "bank-of-baroda",
+   "tag": "Regulation",
+   "impact": "watch",
+   "title": "BoB auditor steps back from Q2 review",
+   "line": "One of five central auditors can't do the Q2 limited review; the other four will cover it",
+   "more": [
+    "The bank says it is not a resignation and not due to any disagreement",
+    "The stock has fallen for five straight sessions"
+   ],
+   "src": {
+    "title": "LatestLY — Stocks to buy or sell, Sept 30: Bank of Baroda, TCS, Biocon",
+    "url": "https://www.latestly.com/business/stocks-to-buy-or-sell-today-september-30-2026-bank-of-baroda-tcs-and-biocon-among-shares-that-may-remain-in-spotlight-on-wednesday-7626085.html"
+   },
+   "date": "2026-09-30",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1130"
+   }
+  },
   {
    "key": "it-stocks",
    "tag": "Stocks",
@@ -50,7 +122,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
@@ -75,7 +147,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1100"
@@ -98,7 +170,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1300"
@@ -974,29 +1046,6 @@
    "src": {
     "title": "Business Standard — Industrial production grows 8% in August",
     "url": "https://www.business-standard.com/economy/news/industrial-output-grows-by-8-in-august-under-new-series-govt-data-126092800790_1.html"
-   },
-   "date": "2026-09-29",
-   "slot": "pre",
-   "when": "Tue · Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-29",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "order-wins",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IRFC, NCC in focus on new deals",
-   "line": "IRFC signed a ₹4,200 cr loan with DVC; NCC won a ₹1,077 cr AP water order",
-   "more": [
-    "HCL Tech, NLC India and Power Mech Projects are also on watch lists"
-   ],
-   "src": {
-    "title": "LatestLY — Stocks to watch, Sept 29",
-    "url": "https://www.latestly.com/business/stocks-to-buy-or-sell-today-september-29-2026-irfc-ncc-and-hcl-technologies-among-shares-that-may-remain-in-focus-on-tuesday-7624633.html"
    },
    "date": "2026-09-29",
    "slot": "pre",
