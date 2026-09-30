@@ -1,28 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-30T09:33:10+05:30",
+ "generated_at": "2026-09-30T10:02:23+05:30",
  "date": "2026-09-30",
- "slot": "0930",
- "slot_label": "9:30",
+ "slot": "1000",
+ "slot_label": "10:00",
  "stage": "Opening mood",
- "asof": "2026-09-30T09:30:00+05:30",
+ "asof": "2026-09-30T10:00:00+05:30",
  "nifty": {
-  "value": 22710,
+  "value": 22723.1,
   "pct": -0.03,
-  "approx": true
+  "chg": -6.9,
+  "approx": false
  },
  "mood": {
-  "label": "Tentative steadying",
-  "score": -0.05,
-  "summary": "The market opened mixed and is now edging up. Midcaps and small caps are outperforming, even though decliners still lead advancers among Nifty stocks.",
+  "label": "Broad-based recovery",
+  "score": 0.15,
+  "summary": "The broad market is recovering even though the Nifty is flat. Advancers outnumber decliners almost 3:1, and the Sensex is edging higher on IT buying.",
   "detail": {
-   "leaders": "Nifty PSU Bank (+1%), IT, Oil & Gas, Chemicals; TCS; MidCap +0.58%, SmallCap +0.74%",
-   "laggards": "Nifty Healthcare; BSE (on Nifty debut), Max Healthcare, Dr Reddy's; Nifty breadth 18 up / 32 down",
-   "tone": "Steadier than the pre-open signal: the Nifty opened 45 pts lower at 22,671, but the latest headline has the Sensex up about 100 and the Nifty back above 22,700.",
+   "leaders": "IT (TCS top Sensex gainer), PSU banks, Oil & Gas, Chemicals; broader markets",
+   "laggards": "Healthcare (Dr Reddy's, Max Healthcare); BSE after its Nifty 50 debut",
+   "tone": "Firmer than 09:30: at 10:00 the Sensex was up 166.67 (+0.23%) at 72,695.74 and the Nifty flat at 22,723.10 (−6.90). NSE breadth is strong at 1,720 up vs 639 down.",
    "watch": [
-    "Holding above 22,700 and reclaiming 22,780",
-    "Whether heavy FII selling (₹9,980 cr Tuesday) resumes",
-    "US PCE tonight; Brent near $104"
+    "The Nifty turning green and clearing 22,780",
+    "Brent staying near $102–104",
+    "US PCE tonight"
    ],
    "src": {
     "title": "Business Standard — Stock Market LIVE, Sept 30",
@@ -31,6 +32,77 @@
   }
  },
  "insights": [
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Brent slides 2.6% to $102.59",
+   "line": "Middle East exports hit 16.3 mb/d in September, the highest since the Iran war began",
+   "more": [
+    "Saudi Arabia resumed Yanbu loadings with the East-West pipeline at about 3.5 mb/d",
+    "Brent is still up about 13% for the month"
+   ],
+   "src": {
+    "title": "Bloomberg — Oil holds loss as Middle East exports near pre-war level",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-29/latest-oil-market-news-and-analysis-for-sept-30"
+   },
+   "date": "2026-09-30",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "adroit-listing",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Adroit Industries lists 75% above IPO price",
+   "line": "Opened at ₹235 on NSE and ₹250 on BSE vs the ₹134 issue price, beating grey market signals",
+   "more": [
+    "The IPO was subscribed 176.85 times",
+    "Elevate Campuses listed 1.9% below its ₹362 issue price at ₹355.10"
+   ],
+   "src": {
+    "title": "Upstox — Adroit lists 75% above IPO price; how others debuted",
+    "url": "https://upstox.com/news/market-news/ipo/adroit-industries-shares-list-75-above-ipo-price-on-nse-here-s-how-swastika-infra-elevate-campuses-ar-mee-infotech-debuted/article-201100/"
+   },
+   "date": "2026-09-30",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "it-stocks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "TCS leads a rebound in beaten-down IT",
+   "line": "TCS is the top Sensex gainer as IT bounces off 52-week lows",
+   "more": [
+    "Nifty IT had fallen about 11% in September through Tuesday"
+   ],
+   "src": {
+    "title": "India TV — Stock market updates, 30 Sept 2026",
+    "url": "https://www.indiatvnews.com/business/markets/30-september-2026-stock-market-updates-sensex-drops-88-points-nifty-near-22-700-tcs-top-gainer-2026-09-30-1055680"
+   },
+   "date": "2026-09-30",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1000"
+   }
+  },
   {
    "key": "september-slump",
    "tag": "Macro",
@@ -49,7 +121,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "post"
@@ -73,7 +145,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "pre"
@@ -96,7 +168,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1100"
@@ -115,30 +187,6 @@
    "src": {
     "title": "NewsBytes — FIIs sell nearly ₹10,000 cr as DIIs buy ₹7,000 cr",
     "url": "https://www.newsbytesapp.com/news/business/fiis-sell-nearly-10000-cr-as-diis-buy-7000-cr/tldr"
-   },
-   "date": "2026-09-30",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Brent eases to about $104 on Saudi pipeline",
-   "line": "Oil fell nearly 3% Tuesday as Saudi Arabia restored half of East-West pipeline capacity",
-   "more": [
-    "It is steadying about 1% higher in Asian trade",
-    "US–Iran tensions still keep a floor under prices"
-   ],
-   "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 30",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-september-30-sensex-today-nifty-gift-nifty-crude-oil-price-adroit-industries-share-ipo-today-126093000100_1.html"
    },
    "date": "2026-09-30",
    "slot": "pre",
@@ -174,30 +222,6 @@
    }
   },
   {
-   "key": "adroit-listing",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Adroit Industries lists; grey market premium ~40%",
-   "line": "The ₹151 cr IPO (₹134 upper band) was subscribed 176.85 times",
-   "more": [
-    "GMP of ₹50–55 implies a listing near ₹184–189",
-    "Elevate Campuses, ArMee Infotech and Swastika Infra also list"
-   ],
-   "src": {
-    "title": "Chittorgarh — Adroit Industries IPO",
-    "url": "https://www.chittorgarh.com/ipo/adroit-industries-ipo/3007/"
-   },
-   "date": "2026-09-30",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "pre"
-   }
-  },
-  {
    "key": "realty-slide",
    "tag": "Stocks",
    "impact": "neg",
@@ -219,29 +243,6 @@
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1330"
-   }
-  },
-  {
-   "key": "it-stocks",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Wipro, HCLTech among the day's top losers",
-   "line": "IT stocks ended near 52-week lows ahead of Q2 results",
-   "more": [
-    "Titan also finished among the top Nifty losers"
-   ],
-   "src": {
-    "title": "Business Standard — Stock Market Close, Sept 29",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-29-sensex-today-nifty50-gift-nifty-crude-oil-price-ipo-today-126092900092_1.html"
-   },
-   "date": "2026-09-29",
-   "slot": "post",
-   "when": "Tue · Close",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
    }
   },
   {
