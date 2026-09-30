@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-30T11:33:34+05:30",
+ "generated_at": "2026-09-30T12:02:55+05:30",
  "date": "2026-09-30",
- "slot": "1130",
- "slot_label": "11:30",
+ "slot": "1200",
+ "slot_label": "12:00",
  "stage": "Mid-market mood",
- "asof": "2026-09-30T11:30:00+05:30",
+ "asof": "2026-09-30T12:00:00+05:30",
  "nifty": {
   "value": 22697.2,
   "pct": -0.08,
@@ -13,25 +13,95 @@
   "approx": true
  },
  "mood": {
-  "label": "Marking time",
+  "label": "Calm, waiting",
   "score": 0.1,
-  "summary": "Still range-bound: the headline indices barely move while mid and small caps keep their gains, so the market is marking time in a quiet mid-session.",
+  "summary": "A calm midday: volatility is easing and the indices are drifting near the flat line, while mid and small caps stay green as traders wait for US–Iran and US inflation signals.",
   "detail": {
-   "leaders": "IT (mid-tier), PSU banks; NLC India; order-win small caps; MidCap +0.58%, SmallCap +0.74% (11 am)",
+   "leaders": "TCS (+2.5% to ₹2,083.70), ICICI Bank (+2%), IndiGo, HCLTech, Tech Mahindra; mid-tier IT; PSU banks",
    "laggards": "Metals, pharma, healthcare; BSE",
-   "tone": "No fresh index print since 11:00, when the Nifty was 22,697.20 (−0.08%) and the Sensex 72,687.77 (+0.22%). Reports still describe the indices as stuck in a range.",
+   "tone": "Unchanged from 11:30. The last firm print was 11:00 (Nifty 22,697.20, −0.08%; Sensex +0.22%), and there has been no breakout since.",
    "watch": [
-    "A break of the range either way into the afternoon",
-    "Brent and the rupee near 96",
-    "US PCE tonight"
+    "The US response to Iran's Hormuz proposal, which Tehran expects today",
+    "US PCE tonight",
+    "A Nifty move through 22,780"
    ],
    "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 30",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-september-30-sensex-today-nifty-gift-nifty-crude-oil-price-adroit-industries-share-ipo-today-126093000100_1.html"
+    "title": "HDFC Sky — Sensex, Nifty rise as Iran-US peace hopes lift markets",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-september-30-2026-open-report-nifty-flat-sensex-up-after-two-sessions-of-losses"
    }
   }
  },
  "insights": [
+  {
+   "key": "iran-talks",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Iran expects a US reply on Hormuz today",
+   "line": "Araghchi says Tehran expects an official response to its proposal by the end of the day",
+   "more": [
+    "Trump rejected the earlier step-by-step plan and wants one deal that includes the nuclear issue",
+    "He has also cited 'a lot of momentum' toward a deal"
+   ],
+   "src": {
+    "title": "Al Jazeera — US-Iran talks in New York: what's the latest?",
+    "url": "https://www.aljazeera.com/news/2026/9/29/us-iran-talks-in-new-york-whats-the-latest"
+   },
+   "date": "2026-09-30",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent edges back above $103",
+   "line": "Nov Brent +0.7% to $103.30 after Trump denied he would ease Iran sanctions",
+   "more": [
+    "It follows Tuesday's 2.6% drop on recovering Gulf exports"
+   ],
+   "src": {
+    "title": "Sunday Guardian — Brent rises above $103 as Trump denies Iran sanctions relief",
+    "url": "https://sundayguardianlive.com/business/brent-crude-oil-price-today-september-30-brent-rises-above-103-wti-near-90-as-trump-denies-iran-sanctions-relief-check-latest-oil-rates-295672/"
+   },
+   "date": "2026-09-30",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "india-vix",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "India VIX eases to about 13.2",
+   "line": "VIX fell 1.72% to 13.18 in early trade as the fear gauge cools from Monday's spike",
+   "more": [
+    "It touched 14.77 on Tuesday morning"
+   ],
+   "src": {
+    "title": "HDFC Sky — India VIX falls 1.72% to 13.18",
+    "url": "https://hdfcsky.com/news/india-vix-declines-1-72percent-on-selling-pressure-from-fiis-oil-and-global-risk-factors-drive-the-session-september-30-2026"
+   },
+   "date": "2026-09-30",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1230"
+   }
+  },
   {
    "key": "nlc-nalco",
    "tag": "Stocks",
@@ -50,7 +120,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1130"
@@ -74,7 +144,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "pre"
@@ -98,7 +168,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1130"
@@ -246,30 +316,6 @@
    "first_seen": {
     "date": "2026-09-24",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Brent slides 2.6% to $102.59",
-   "line": "Middle East exports hit 16.3 mb/d in September, the highest since the Iran war began",
-   "more": [
-    "Saudi Arabia resumed Yanbu loadings with the East-West pipeline at about 3.5 mb/d",
-    "Brent is still up about 13% for the month"
-   ],
-   "src": {
-    "title": "Bloomberg — Oil holds loss as Middle East exports near pre-war level",
-    "url": "https://www.bloomberg.com/news/articles/2026-09-29/latest-oil-market-news-and-analysis-for-sept-30"
-   },
-   "date": "2026-09-30",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
    }
   },
   {
@@ -962,29 +1008,6 @@
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "india-vix",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "India VIX jumps 8.3% to 14.77",
-   "line": "Traders are pricing in bigger near-term swings on the monthly F&O expiry day",
-   "more": [
-    "VIX already rose 12.5% on Monday"
-   ],
-   "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 29",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-29-sensex-today-nifty50-gift-nifty-crude-oil-price-ipo-today-126092900092_1.html"
-   },
-   "date": "2026-09-29",
-   "slot": "1000",
-   "when": "Tue · 10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1230"
    }
   },
   {
