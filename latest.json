@@ -1,28 +1,27 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-30T10:02:23+05:30",
+ "generated_at": "2026-09-30T10:33:16+05:30",
  "date": "2026-09-30",
- "slot": "1000",
- "slot_label": "10:00",
- "stage": "Opening mood",
- "asof": "2026-09-30T10:00:00+05:30",
+ "slot": "1030",
+ "slot_label": "10:30",
+ "stage": "Mid-market mood",
+ "asof": "2026-09-30T10:30:00+05:30",
  "nifty": {
-  "value": 22723.1,
-  "pct": -0.03,
-  "chg": -6.9,
-  "approx": false
+  "value": 22720,
+  "pct": 0.02,
+  "approx": true
  },
  "mood": {
-  "label": "Broad-based recovery",
+  "label": "Quiet recovery",
   "score": 0.15,
-  "summary": "The broad market is recovering even though the Nifty is flat. Advancers outnumber decliners almost 3:1, and the Sensex is edging higher on IT buying.",
+  "summary": "The Sensex is building gains while the Nifty idles near 22,700. Breadth stays firmly positive, with buyers rotating into IT and PSU banks and out of metals and pharma.",
   "detail": {
-   "leaders": "IT (TCS top Sensex gainer), PSU banks, Oil & Gas, Chemicals; broader markets",
-   "laggards": "Healthcare (Dr Reddy's, Max Healthcare); BSE after its Nifty 50 debut",
-   "tone": "Firmer than 09:30: at 10:00 the Sensex was up 166.67 (+0.23%) at 72,695.74 and the Nifty flat at 22,723.10 (−6.90). NSE breadth is strong at 1,720 up vs 639 down.",
+   "leaders": "IT (TCS), PSU banks, Oil & Gas, Chemicals; broader markets",
+   "laggards": "Metal and pharma indices (top losing sectors); Healthcare; BSE after its Nifty entry",
+   "tone": "Slightly better than 10:00: the latest headline has the Sensex up about 300 (from +167 at 10:00) with the Nifty still near 22,700. The last firm Nifty print was 22,723.10 at 10:00.",
    "watch": [
-    "The Nifty turning green and clearing 22,780",
-    "Brent staying near $102–104",
+    "The Nifty turning green above 22,716 (Tuesday's close)",
+    "The rupee holding below 96",
     "US PCE tonight"
    ],
    "src": {
@@ -32,6 +31,78 @@
   }
  },
  "insights": [
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee back below 96 on RBI dollar sales",
+   "line": "Opened at 95.95 and traded 95.87–95.97 as state banks sold dollars, likely for the RBI",
+   "more": [
+    "Tuesday's close was 95.98",
+    "Softer oil is easing pressure even with the dollar index at a 16-month high"
+   ],
+   "src": {
+    "title": "Free Press Journal — Rupee slips 3 paise to 95.97; RBI keeps it below 96",
+    "url": "https://www.freepressjournal.in/business/rupee-slips-3-paise-to-9597-against-us-dollar-rbi-intervention-keeps-trading-below-96"
+   },
+   "date": "2026-09-30",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "sector-rotation",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Rotation out of pharma and metals",
+   "line": "Monday–Tuesday's defensive winners are lagging as IT and PSU banks lead",
+   "more": [
+    "Metal and pharma are the top losing sector indices",
+    "Healthcare names Dr Reddy's and Max Healthcare are among early Nifty losers"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market LIVE, Sept 30",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-september-30-sensex-today-nifty-gift-nifty-crude-oil-price-adroit-industries-share-ipo-today-126093000100_1.html"
+   },
+   "date": "2026-09-30",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "US PCE inflation due tonight",
+   "line": "A hot print could push the 10-yr yield further above its 2007 highs and hit EM flows",
+   "more": [
+    "Wall Street fell for a second day Tuesday on rising yields",
+    "The September jobs report is due Friday"
+   ],
+   "src": {
+    "title": "CNBC — Stock market news for Sept. 29, 2026",
+    "url": "https://www.cnbc.com/2026/09/28/stock-market-today-live-updates.html"
+   },
+   "date": "2026-09-30",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-24",
+    "slot": "0930"
+   }
+  },
   {
    "key": "crude",
    "tag": "Global",
@@ -50,7 +121,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -74,7 +145,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "pre"
@@ -97,7 +168,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
@@ -196,29 +267,6 @@
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "us-yields",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Wall St slips again as yields hit new highs",
-   "line": "Dow −0.26%, S&P 500 −0.16%, Nasdaq −0.09%; all closed off their lows",
-   "more": [
-    "US PCE inflation is due today; jobs report Friday"
-   ],
-   "src": {
-    "title": "CNBC — Stock market news for Sept. 29, 2026",
-    "url": "https://www.cnbc.com/2026/09/28/stock-market-today-live-updates.html"
-   },
-   "date": "2026-09-30",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-24",
-    "slot": "0930"
    }
   },
   {
@@ -481,30 +529,6 @@
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Rupee hits a 2-month low of 96.16/$",
-   "line": "State banks were seen selling dollars, likely for the RBI; the rupee pared to about 96.11",
-   "more": [
-    "Oil and portfolio outflows are the main pressures",
-    "The RBI has been defending the 96 level for days"
-   ],
-   "src": {
-    "title": "Business Recorder — RBI likely intervenes to support rupee as oil weighs",
-    "url": "https://www.brecorder.com/news/40441764/indian-central-bank-likely-intervenes-to-support-rupee-as-oil-prices-weigh-traders-say"
-   },
-   "date": "2026-09-29",
-   "slot": "1330",
-   "when": "Tue · 13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
    }
   },
   {
