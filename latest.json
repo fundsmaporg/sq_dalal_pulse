@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-29T16:03:26+05:30",
- "date": "2026-09-29",
- "slot": "post",
- "slot_label": "Close",
- "stage": "Post-market mood",
- "asof": "2026-09-29T16:00:00+05:30",
+ "generated_at": "2026-09-30T08:32:56+05:30",
+ "date": "2026-09-30",
+ "slot": "pre",
+ "slot_label": "Pre-open",
+ "stage": "Pre-market mood",
+ "asof": "2026-09-30T08:30:00+05:30",
  "nifty": {
   "value": 22716.2,
   "pct": -0.28,
@@ -13,25 +13,143 @@
   "approx": false
  },
  "mood": {
-  "label": "Mild loss, steadier",
-  "score": -0.3,
-  "summary": "A second straight loss, but a mild one: the Nifty settled just 0.28% lower after recovering from a morning dip near 22,600, while midcaps and small caps fell harder.",
+  "label": "Cautious, flat start",
+  "score": -0.25,
+  "summary": "The market is set for a cautious, near-flat start after two losing sessions: GIFT Nifty is barely changed and Asia is firmer, but heavy foreign selling hangs over the open.",
   "detail": {
-   "leaders": "Nifty Pharma and Healthcare (Cipla, Sun Pharma, Mankind, Gland)",
-   "laggards": "Titan, Wipro, HCLTech (top Nifty losers); realty, consumer durables, FMCG, auto; MidCap −0.99%, SmallCap −0.81%",
-   "tone": "The final settle was firmer than the closing-auction print: Nifty 22,716.20 (−64.05, −0.28%), Sensex 72,529.07 (−242.65, −0.33%). The index recovered about 115 pts from the morning low, but broader markets lagged.",
+   "leaders": "Order-win names (STL Networks, KSB, Arisinfra); BSE on Nifty 50 entry",
+   "laggards": "Wipro (Nifty 50 exit); rate-sensitive financials after heavy FII selling",
+   "tone": "GIFT Nifty was 22,835 (+5, +0.02%) at 7:42 am, after Tuesday's settle at 22,716.20 (−0.28%). Asia is firmer (Nikkei +1.29%, Kospi +0.43%) but FII outflows nearly doubled.",
    "watch": [
-    "FII/DII provisional flows (after Monday's ₹5,353 cr FII sale)",
-    "US PCE inflation Wednesday; Brent near $107",
-    "RBI MPC Oct 5–7, where a 25 bp hike is widely expected"
+    "Whether the Nifty reclaims 22,780–22,800 (Monday's close)",
+    "US PCE inflation tonight",
+    "Brent near $104 and US–Iran headlines"
    ],
    "src": {
-    "title": "Business Standard — Stock Market Close, Sept 29",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-29-sensex-today-nifty50-gift-nifty-crude-oil-price-ipo-today-126092900092_1.html"
+    "title": "Kotak Neo — Pre-Market, 30 September 2026",
+    "url": "https://www.kotakneo.com/news/market-news/pre-market-30-september-2026-gift-nifty-cautious-start-today/"
    }
   }
  },
  "insights": [
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "FIIs dump ₹9,980 cr; DIIs buy ₹6,953 cr",
+   "line": "Foreign selling almost doubled from Monday's ₹5,353 cr as the September exodus deepens",
+   "more": [
+    "DIIs absorbed about 70% of the outflow",
+    "FPIs also sold ₹9,192 cr of FAR bonds this month"
+   ],
+   "src": {
+    "title": "NewsBytes — FIIs sell nearly ₹10,000 cr as DIIs buy ₹7,000 cr",
+    "url": "https://www.newsbytesapp.com/news/business/fiis-sell-nearly-10000-cr-as-diis-buy-7000-cr/tldr"
+   },
+   "date": "2026-09-30",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Brent eases to about $104 on Saudi pipeline",
+   "line": "Oil fell nearly 3% Tuesday as Saudi Arabia restored half of East-West pipeline capacity",
+   "more": [
+    "It is steadying about 1% higher in Asian trade",
+    "US–Iran tensions still keep a floor under prices"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market LIVE, Sept 30",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-september-30-sensex-today-nifty-gift-nifty-crude-oil-price-adroit-industries-share-ipo-today-126093000100_1.html"
+   },
+   "date": "2026-09-30",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "nifty-rebalance",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "BSE replaces Wipro in the Nifty 50 today",
+   "line": "About $741 mn of passive inflows are expected into BSE; Wipro moves to the Nifty Next 50",
+   "more": [
+    "BSE's six-month average free-float m-cap is ₹1.41 lakh cr vs Wipro's ₹55,930 cr"
+   ],
+   "src": {
+    "title": "BusinessToday — BSE to replace Wipro in Nifty 50 from Sept 30",
+    "url": "https://www.businesstoday.in/markets/stocks/story/bse-to-replace-wipro-in-nifty-50-index-from-september-30-all-you-need-to-know-558467-2026-09-29"
+   },
+   "date": "2026-09-30",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Wall St slips again as yields hit new highs",
+   "line": "Dow −0.26%, S&P 500 −0.16%, Nasdaq −0.09%; all closed off their lows",
+   "more": [
+    "US PCE inflation is due today; jobs report Friday"
+   ],
+   "src": {
+    "title": "CNBC — Stock market news for Sept. 29, 2026",
+    "url": "https://www.cnbc.com/2026/09/28/stock-market-today-live-updates.html"
+   },
+   "date": "2026-09-30",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-24",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "adroit-listing",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Adroit Industries lists; grey market premium ~40%",
+   "line": "The ₹151 cr IPO (₹134 upper band) was subscribed 176.85 times",
+   "more": [
+    "GMP of ₹50–55 implies a listing near ₹184–189",
+    "Elevate Campuses, ArMee Infotech and Swastika Infra also list"
+   ],
+   "src": {
+    "title": "Chittorgarh — Adroit Industries IPO",
+    "url": "https://www.chittorgarh.com/ipo/adroit-industries-ipo/3007/"
+   },
+   "date": "2026-09-30",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "pre"
+   }
+  },
   {
    "key": "september-slump",
    "tag": "Macro",
@@ -49,9 +167,9 @@
    },
    "date": "2026-09-29",
    "slot": "post",
-   "when": "Close",
+   "when": "Tue · Close",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "post"
@@ -73,9 +191,9 @@
    },
    "date": "2026-09-29",
    "slot": "post",
-   "when": "Close",
+   "when": "Tue · Close",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1330"
@@ -96,36 +214,12 @@
    },
    "date": "2026-09-29",
    "slot": "post",
-   "when": "Close",
+   "when": "Tue · Close",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "FII data due; Monday's outflow was ₹5,353 cr",
-   "line": "Tuesday's provisional flows are due after 5 pm; DIIs have been absorbing sales",
-   "more": [
-    "DIIs bought ₹5,189 cr on Monday",
-    "Foreign selling has run through most of September"
-   ],
-   "src": {
-    "title": "International News & Views — Nifty near 22,700 as crude hits $107",
-    "url": "https://www.internationalnewsandviews.com/stock-market-today-september-29-2026-nifty-crude-rupee-409825-2/"
-   },
-   "date": "2026-09-29",
-   "slot": "post",
-   "when": "Close",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
    }
   },
   {
@@ -144,7 +238,7 @@
    },
    "date": "2026-09-29",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Tue · 15:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -168,7 +262,7 @@
    },
    "date": "2026-09-29",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Tue · 15:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -192,36 +286,12 @@
    },
    "date": "2026-09-29",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Tue · 15:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1530"
-   }
-  },
-  {
-   "key": "us-yields",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "US futures edge lower as yields keep rising",
-   "line": "Wall Street is set to extend Monday's losses on inflation fears and further Fed tightening",
-   "more": [
-    "US PCE (Wed) and the September jobs report (Fri) are next",
-    "The US–Iran talks stalemate keeps oil elevated"
-   ],
-   "src": {
-    "title": "Charles Schwab — Wall Street tug of war: geopolitics, data compete",
-    "url": "https://www.schwab.com/learn/story/stock-market-update-open"
-   },
-   "date": "2026-09-29",
-   "slot": "1500",
-   "when": "15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-24",
-    "slot": "0930"
    }
   },
   {
@@ -240,7 +310,7 @@
    },
    "date": "2026-09-29",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Tue · 15:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -264,7 +334,7 @@
    },
    "date": "2026-09-29",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Tue · 14:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -288,7 +358,7 @@
    },
    "date": "2026-09-29",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Tue · 14:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -312,7 +382,7 @@
    },
    "date": "2026-09-29",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Tue · 14:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -336,7 +406,7 @@
    },
    "date": "2026-09-29",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Tue · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -359,7 +429,7 @@
    },
    "date": "2026-09-29",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Tue · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -382,7 +452,7 @@
    },
    "date": "2026-09-29",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Tue · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -406,35 +476,12 @@
    },
    "date": "2026-09-29",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Tue · 13:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent up 2% to about $107.4",
-   "line": "Middle East supply fears outweigh signs of recovering Gulf crude exports",
-   "more": [
-    "Higher oil is also pushing G-Sec yields to a 2½-year high"
-   ],
-   "src": {
-    "title": "Business Recorder — RBI likely intervenes to support rupee as oil weighs",
-    "url": "https://www.brecorder.com/news/40441764/indian-central-bank-likely-intervenes-to-support-rupee-as-oil-prices-weigh-traders-say"
-   },
-   "date": "2026-09-29",
-   "slot": "1330",
-   "when": "13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
    }
   },
   {
@@ -453,7 +500,7 @@
    },
    "date": "2026-09-29",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Tue · 13:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -477,7 +524,7 @@
    },
    "date": "2026-09-29",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Tue · 13:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -502,7 +549,7 @@
    },
    "date": "2026-09-29",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Tue · 13:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -526,7 +573,7 @@
    },
    "date": "2026-09-29",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Tue · 13:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -549,7 +596,7 @@
    },
    "date": "2026-09-29",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Tue · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -572,7 +619,7 @@
    },
    "date": "2026-09-29",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Tue · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -597,7 +644,7 @@
    },
    "date": "2026-09-29",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Tue · 12:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -620,7 +667,7 @@
    },
    "date": "2026-09-29",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Tue · 12:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -645,7 +692,7 @@
    },
    "date": "2026-09-29",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Tue · 11:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -668,7 +715,7 @@
    },
    "date": "2026-09-29",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Tue · 11:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -693,7 +740,7 @@
    },
    "date": "2026-09-29",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Tue · 11:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -716,7 +763,7 @@
    },
    "date": "2026-09-29",
    "slot": "1030",
-   "when": "10:30",
+   "when": "Tue · 10:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -740,7 +787,7 @@
    },
    "date": "2026-09-29",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Tue · 10:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -763,7 +810,7 @@
    },
    "date": "2026-09-29",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Tue · 10:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -786,7 +833,7 @@
    },
    "date": "2026-09-29",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Tue · 10:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -809,7 +856,7 @@
    },
    "date": "2026-09-29",
    "slot": "0930",
-   "when": "9:30",
+   "when": "Tue · 9:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -833,7 +880,7 @@
    },
    "date": "2026-09-29",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Tue · Pre-open",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -856,7 +903,7 @@
    },
    "date": "2026-09-29",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Tue · Pre-open",
    "updated": false,
    "is_new": false,
    "first_seen": {
