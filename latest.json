@@ -1,59 +1,108 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-30T12:02:55+05:30",
+ "generated_at": "2026-09-30T12:33:52+05:30",
  "date": "2026-09-30",
- "slot": "1200",
- "slot_label": "12:00",
+ "slot": "1230",
+ "slot_label": "12:30",
  "stage": "Mid-market mood",
- "asof": "2026-09-30T12:00:00+05:30",
+ "asof": "2026-09-30T12:30:00+05:30",
  "nifty": {
-  "value": 22697.2,
-  "pct": -0.08,
-  "chg": -19,
-  "approx": true
+  "value": 22742.5,
+  "pct": 0.12,
+  "chg": 26.3,
+  "approx": false
  },
  "mood": {
-  "label": "Calm, waiting",
-  "score": 0.1,
-  "summary": "A calm midday: volatility is easing and the indices are drifting near the flat line, while mid and small caps stay green as traders wait for US–Iran and US inflation signals.",
+  "label": "Edging higher",
+  "score": 0.2,
+  "summary": "The Nifty has edged into the green after a flat morning, with the Sensex up about 0.4% as private banks and IT lead. A sharp slide in hospital stocks is the one weak spot.",
   "detail": {
-   "leaders": "TCS (+2.5% to ₹2,083.70), ICICI Bank (+2%), IndiGo, HCLTech, Tech Mahindra; mid-tier IT; PSU banks",
-   "laggards": "Metals, pharma, healthcare; BSE",
-   "tone": "Unchanged from 11:30. The last firm print was 11:00 (Nifty 22,697.20, −0.08%; Sensex +0.22%), and there has been no breakout since.",
+   "leaders": "ICICI Bank, Kotak Bank, TCS, Tech Mahindra, HCLTech; Chemicals, IT, PSU Bank, Oil & Gas",
+   "laggards": "Hospitals (Apollo, Fortis, Max, KIMS, Yatharth down 4.5–6%); Dr Reddy's (−2.8%); BSE; Nifty Healthcare the worst sector",
+   "tone": "Better than 12:00: at noon the Nifty was up 26.30 (+0.12%) at 22,742.50 and the Sensex up 298.54 (+0.41%) at 72,827.61, its first sustained move above Tuesday's close. The latest headline has the Nifty near 22,750.",
    "watch": [
-    "The US response to Iran's Hormuz proposal, which Tehran expects today",
-    "US PCE tonight",
-    "A Nifty move through 22,780"
+    "A move through 22,780 (Monday's close)",
+    "The US response to Iran's Hormuz proposal",
+    "US PCE tonight"
    ],
    "src": {
-    "title": "HDFC Sky — Sensex, Nifty rise as Iran-US peace hopes lift markets",
-    "url": "https://hdfcsky.com/news/bse-nse-sensex-september-30-2026-open-report-nifty-flat-sensex-up-after-two-sessions-of-losses"
+    "title": "Business Standard — Stock Market LIVE, Sept 30",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-september-30-sensex-today-nifty-gift-nifty-crude-oil-price-adroit-industries-share-ipo-today-126093000100_1.html"
    }
   }
  },
  "insights": [
   {
-   "key": "iran-talks",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Iran expects a US reply on Hormuz today",
-   "line": "Araghchi says Tehran expects an official response to its proposal by the end of the day",
+   "key": "hospital-pricing",
+   "tag": "Regulation",
+   "impact": "neg",
+   "title": "Hospital stocks slide as SC flags drug markups",
+   "line": "The Supreme Court floated a 16% cap on markups after citing a 10x cancer-drug markup",
    "more": [
-    "Trump rejected the earlier step-by-step plan and wants one deal that includes the nuclear issue",
-    "He has also cited 'a lot of momentum' toward a deal"
+    "Yatharth −5.9%, Apollo −5.7%, KIMS −5.5%, Fortis −4.8%, Max −4.55%",
+    "The court called the markups 'carnage'; next hearing is Oct 12",
+    "Pharmacy revenue and margins at hospitals are at risk"
    ],
    "src": {
-    "title": "Al Jazeera — US-Iran talks in New York: what's the latest?",
-    "url": "https://www.aljazeera.com/news/2026/9/29/us-iran-talks-in-new-york-whats-the-latest"
+    "title": "Business Standard — Hospital stocks under pressure: Apollo, Yatharth, Fortis, Max drop up to 7%",
+    "url": "https://www.business-standard.com/markets/news/hospital-stocks-under-pressure-apollo-yatharth-fortis-max-drop-up-to-7-126093000332_1.html"
    },
    "date": "2026-09-30",
-   "slot": "1200",
-   "when": "12:00",
+   "slot": "1230",
+   "when": "12:30",
    "updated": false,
    "is_new": true,
    "first_seen": {
     "date": "2026-09-30",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "iran-talks",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "De-escalation hopes lift sentiment",
+   "line": "Stocks firm on hopes of Middle East de-escalation as US–Iran contacts continue",
+   "more": [
+    "Iran is waiting for a US reply on its Hormuz plan",
+    "Brent is holding near $103"
+   ],
+   "src": {
+    "title": "Kotak Neo — Sensex, Nifty trade higher as Middle East de-escalation hopes lift sentiment",
+    "url": "https://www.kotakneo.com/news/market-news/sensex-nifty-trade-higher-as-middle-east-de-escalation-hopes-lift-sentiment/"
+   },
+   "date": "2026-09-30",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
     "slot": "1200"
+   }
+  },
+  {
+   "key": "private-banks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "ICICI, Kotak lead the Nifty's gains",
+   "line": "Private lenders join TCS and Tech Mahindra among the top Nifty 50 gainers",
+   "more": [
+    "ICICI Bank was up about 2% earlier in the session",
+    "This follows heavy selling in banks on Monday and Tuesday"
+   ],
+   "src": {
+    "title": "Kotak Neo — Market Midday, 30 September 2026",
+    "url": "https://www.kotakneo.com/news/market-news/market-midday-30-september-2026-benchmarks-gain/"
+   },
+   "date": "2026-09-30",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1230"
    }
   },
   {
@@ -73,7 +122,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -96,7 +145,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1230"
