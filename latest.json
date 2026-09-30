@@ -1,37 +1,107 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-30T14:02:48+05:30",
+ "generated_at": "2026-09-30T14:33:14+05:30",
  "date": "2026-09-30",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-09-30T14:00:00+05:30",
+ "asof": "2026-09-30T14:30:00+05:30",
  "nifty": {
-  "value": 22790.95,
-  "pct": 0.33,
-  "chg": 74.75,
+  "value": 22730,
+  "pct": 0.06,
   "approx": true
  },
  "mood": {
-  "label": "Gains holding",
-  "score": 0.3,
-  "summary": "The market is holding its afternoon gains, with the Nifty near Monday's close, as firmer European markets add support. Beneath the surface, several mid and small caps are still hitting fresh lows.",
+  "label": "Gains trimmed",
+  "score": 0.2,
+  "summary": "Benchmark gains are fading from the 1 pm peak, but small and midcaps are pulling ahead, so breadth stays healthy even as the heavyweights give back ground.",
   "detail": {
-   "leaders": "IT, PSU banks, Oil & Gas, Chemicals; ICICI Bank, TCS, Reliance",
-   "laggards": "Hospitals and healthcare; NSDL, Max Financial at 52-week lows; BSE",
-   "tone": "Steady versus 13:30. The last firm print was 1 pm (Nifty 22,790.95, +0.33%; Sensex 72,989.48, +0.63%), and afternoon reports say the benchmarks are holding their gains.",
+   "leaders": "Smallcaps (+1.05%) and midcaps (+0.62%); IT, PSU banks, Oil & Gas; Prestige, Power Mech",
+   "laggards": "Healthcare (Max Healthcare, Dr Reddy's); BSE",
+   "tone": "Softer than 14:00: the Nifty slipped to 22,747.05 (+0.14%) at 2 pm from 22,790.95 at 1 pm, and the Sensex gain narrowed to +315 from +460. The latest headline has it up only about 100.",
    "watch": [
-    "Whether the Nifty closes above 22,780",
-    "The last-day-of-quarter close, with window dressing possible",
-    "US PCE and any Iran update tonight"
+    "Holding above Tuesday's 22,716 close into the finish",
+    "Quarter-end flows in the last hour",
+    "US PCE and ADP data tonight"
    ],
    "src": {
-    "title": "Kotak Neo — Sensex, Nifty trade higher in afternoon session",
-    "url": "https://www.kotakneo.com/news/market-news/sensex-nifty-trade-higher-as-middle-east-de-escalation-hopes-lift-sentiment/"
+    "title": "Business Standard — Stock Market LIVE, Sept 30",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-september-30-sensex-today-nifty-gift-nifty-crude-oil-price-adroit-industries-share-ipo-today-126093000100_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "prestige-cppib",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Prestige jumps 4.9% on ₹3,000 cr CPPIB deal",
+   "line": "CPPIB is taking a 27% stake in Prestige's hospitality unit; the stock hit ₹1,468.50",
+   "more": [
+    "The deal was done by diluting a 27% stake in the hospitality arm"
+   ],
+   "src": {
+    "title": "Upstox — Prestige Estates, Power Mech, KPI Green among buzzing stocks",
+    "url": "https://upstox.com/news/market-news/stocks/prestige-estates-ksb-kpi-green-among-buzzing-stocks-as-sensex-jumps-over-500-pts-nifty-trades-above-23-750/article-201117/"
+   },
+   "date": "2026-09-30",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "order-wins",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "KPI Green, Power Mech land big orders",
+   "line": "KPI Green won a ₹2,025 cr 500 MW solar EPC order; Power Mech got a ₹549 cr O&M contract",
+   "more": [
+    "Power Mech rose as much as 5.7% to ₹2,535; its order is from Adani's Moxie Power",
+    "Laser Power also won a ₹44 cr CESC order"
+   ],
+   "src": {
+    "title": "Upstox — Prestige Estates, Power Mech, KPI Green among buzzing stocks",
+    "url": "https://upstox.com/news/market-news/stocks/prestige-estates-ksb-kpi-green-among-buzzing-stocks-as-sensex-jumps-over-500-pts-nifty-trades-above-23-750/article-201117/"
+   },
+   "date": "2026-09-30",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "US futures edge up ahead of the PCE test",
+   "line": "Dow futures are up about 0.2–0.5%; the 30-year Treasury yield topped 5.6%, a 24-year high",
+   "more": [
+    "ADP jobs, Q2 GDP and PCE inflation are all due tonight",
+    "The 10-year is near 5.3%, its highest since 2007"
+   ],
+   "src": {
+    "title": "IC Markets — Stock futures edge higher as yields stay elevated ahead of PCE",
+    "url": "https://www.ic.com/blog/wednesday-30th-sept-2026-stock-futures-edge-higher-as-treasury-yields-remain-elevated-ahead-of-pce-data/"
+   },
+   "date": "2026-09-30",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-24",
+    "slot": "0930"
+   }
+  },
   {
    "key": "europe-open",
    "tag": "Global",
@@ -49,7 +119,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1330"
@@ -72,7 +142,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1400"
@@ -95,7 +165,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1400"
@@ -340,30 +410,6 @@
    }
   },
   {
-   "key": "order-wins",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "KSB, STL Networks land fresh orders",
-   "line": "KSB won a ₹118 cr export order; STL got a ₹249.8 cr RailTel cloud-infra contract",
-   "more": [
-    "STL's order is larger than its average quarterly revenue of ₹237.9 cr",
-    "Arisinfra (₹400 cr contract) and Kalpataru also cite new orders"
-   ],
-   "src": {
-    "title": "ScanX — Stocks to watch today, Sept 30, 2026",
-    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-september-30-2026-arisinfra-solutions-tube/52277463"
-   },
-   "date": "2026-09-30",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-29",
-    "slot": "pre"
-   }
-  },
-  {
    "key": "bank-of-baroda",
    "tag": "Regulation",
    "impact": "watch",
@@ -482,30 +528,6 @@
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "us-yields",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "US PCE inflation due tonight",
-   "line": "A hot print could push the 10-yr yield further above its 2007 highs and hit EM flows",
-   "more": [
-    "Wall Street fell for a second day Tuesday on rising yields",
-    "The September jobs report is due Friday"
-   ],
-   "src": {
-    "title": "CNBC — Stock market news for Sept. 29, 2026",
-    "url": "https://www.cnbc.com/2026/09/28/stock-market-today-live-updates.html"
-   },
-   "date": "2026-09-30",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-24",
-    "slot": "0930"
    }
   },
   {
