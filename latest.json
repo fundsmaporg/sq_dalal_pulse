@@ -1,32 +1,32 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-30T15:33:18+05:30",
+ "generated_at": "2026-09-30T16:02:51+05:30",
  "date": "2026-09-30",
- "slot": "1530",
- "slot_label": "15:30",
- "stage": "Closing mood",
- "asof": "2026-09-30T15:30:00+05:30",
+ "slot": "post",
+ "slot_label": "Close",
+ "stage": "Post-market mood",
+ "asof": "2026-09-30T16:00:00+05:30",
  "nifty": {
-  "value": 22616.6,
-  "pct": -0.44,
-  "chg": -99.6,
-  "approx": true
+  "value": 22620.45,
+  "pct": -0.42,
+  "chg": -95.75,
+  "approx": false
  },
  "mood": {
-  "label": "Late slide",
-  "score": -0.4,
-  "summary": "Benchmarks ended in the red after a late slide erased the day's gains; selling in the final hour left the Nifty near its session low.",
+  "label": "Weak close",
+  "score": -0.35,
+  "summary": "Stocks closed a volatile session lower: the Nifty gave up early gains and fell about 0.4%, while the Sensex ended nearly flat as private banks cushioned it.",
   "detail": {
-   "leaders": "PSU banks, oil & gas, chemicals",
-   "laggards": "Hospitals, pharma, BSE",
-   "tone": "The afternoon fade deepened into the close. The Nifty lost nearly 100 pts on the day, while the Sensex fell less as its heavyweights held up better.",
+   "leaders": "Realty, private banks, media",
+   "laggards": "Healthcare, pharma, consumer durables, metals",
+   "tone": "The close was slightly better than the closing-auction print, but the Nifty still ended a third straight session lower to end September on a weak note.",
    "watch": [
     "US PCE inflation data tonight",
-    "FII provisional data for September's last session",
-    "October series start and Q2 business updates"
+    "Oct 1 auto sales and FII provisional flows",
+    "RBI policy decision on Oct 7"
    ],
    "src": {
-    "title": "Business Standard live",
+    "title": "Business Standard",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-september-30-sensex-today-nifty-gift-nifty-crude-oil-price-adroit-industries-share-ipo-today-126093000100_1.html"
    }
   }
@@ -36,26 +36,96 @@
    "key": "hospital-pricing",
    "tag": "Regulation",
    "impact": "neg",
-   "title": "SC remarks on drug mark-ups hit hospitals",
-   "line": "The Supreme Court flagged steep hospital markups on medicines, notably cancer drugs",
+   "title": "Apollo, Max end as top Nifty losers",
+   "line": "Hospital stocks closed at the bottom of the Nifty after the SC flagged medicine mark-ups",
    "more": [
-    "Max fell as much as 7%, Apollo about 6%, Yatharth nearly 6% and Fortis close to 5%",
-    "Tighter pharmacy pricing could cut EBITDA margin by 50–150 bp for pharmacy-heavy names",
-    "Four of the top five Nifty 500 losers are hospital stocks",
-    "Fortis is on a seven-day slide, near its 52-week low"
+    "Apollo Hospitals, Max Healthcare and BSE were the top Nifty50 losers",
+    "Healthcare and pharma were the weakest sectors at the close"
    ],
    "src": {
     "title": "Business Standard",
     "url": "https://www.business-standard.com/markets/news/hospital-stocks-under-pressure-apollo-yatharth-fortis-max-drop-up-to-7-126093000332_1.html"
    },
    "date": "2026-09-30",
-   "slot": "1530",
-   "when": "15:30",
+   "slot": "post",
+   "when": "Close",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1230"
+   }
+  },
+  {
+   "key": "rbi-policy",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "RBI MPC meets Oct 5–7; rate call on Oct 7",
+   "line": "The rate decision is the next big domestic trigger after a bruising September",
+   "more": [
+    "The MPC meets from October 5 to 7, with the repo decision due on October 7",
+    "The RBI's revised deposit-rate framework takes effect from October 1"
+   ],
+   "src": {
+    "title": "Upstox",
+    "url": "https://upstox.com/news/personal-finance/latest-updates/11-financial-changes-coming-in-october-2026-rbi-mpc-sbi-atm-rules-fd-rules-lpg-kyc-upi-mdr-small-savings-itr-deadline-and-more/article-200981/"
+   },
+   "date": "2026-09-30",
+   "slot": "post",
+   "when": "Close",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "FIIs sold ₹33,864 cr in September to date",
+   "line": "DIIs have bought ₹64,759 cr this month, absorbing heavy foreign selling",
+   "more": [
+    "The month-to-date figures run through September 29",
+    "Provisional data for today is due from NSE around 5 pm"
+   ],
+   "src": {
+    "title": "Trendlyne",
+    "url": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/"
+   },
+   "date": "2026-09-30",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "auto-sales",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "September auto sales due Oct 1",
+   "line": "Monthly volumes will test demand as Maruti, Tata Motors and Hyundai raise prices",
+   "more": [
+    "Carmakers cite higher input and operating costs",
+    "Sales are a key read on rural and discretionary demand"
+   ],
+   "src": {
+    "title": "Equity Brew",
+    "url": "https://equitybrew.substack.com/p/weekly-market-outlook-rbi-policy"
+   },
+   "date": "2026-09-30",
+   "slot": "post",
+   "when": "Close",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "post"
    }
   },
   {
@@ -77,7 +147,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "pre"
@@ -101,7 +171,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-24",
     "slot": "0930"
@@ -651,30 +721,6 @@
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1100"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "FIIs dump ₹9,980 cr; DIIs buy ₹6,953 cr",
-   "line": "Foreign selling almost doubled from Monday's ₹5,353 cr as the September exodus deepens",
-   "more": [
-    "DIIs absorbed about 70% of the outflow",
-    "FPIs also sold ₹9,192 cr of FAR bonds this month"
-   ],
-   "src": {
-    "title": "NewsBytes — FIIs sell nearly ₹10,000 cr as DIIs buy ₹7,000 cr",
-    "url": "https://www.newsbytesapp.com/news/business/fiis-sell-nearly-10000-cr-as-diis-buy-7000-cr/tldr"
-   },
-   "date": "2026-09-30",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
    }
   },
   {
