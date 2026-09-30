@@ -1,27 +1,28 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-30T10:33:16+05:30",
+ "generated_at": "2026-09-30T11:03:09+05:30",
  "date": "2026-09-30",
- "slot": "1030",
- "slot_label": "10:30",
+ "slot": "1100",
+ "slot_label": "11:00",
  "stage": "Mid-market mood",
- "asof": "2026-09-30T10:30:00+05:30",
+ "asof": "2026-09-30T11:00:00+05:30",
  "nifty": {
-  "value": 22720,
-  "pct": 0.02,
-  "approx": true
+  "value": 22697.2,
+  "pct": -0.08,
+  "chg": -19,
+  "approx": false
  },
  "mood": {
-  "label": "Quiet recovery",
-  "score": 0.15,
-  "summary": "The Sensex is building gains while the Nifty idles near 22,700. Breadth stays firmly positive, with buyers rotating into IT and PSU banks and out of metals and pharma.",
+  "label": "Stuck in range",
+  "score": 0.1,
+  "summary": "Range-bound session: the Nifty hovers just below flat while midcaps and small caps hold gains of about 0.6–0.7%, so the broad market is doing better than the headline index.",
   "detail": {
-   "leaders": "IT (TCS), PSU banks, Oil & Gas, Chemicals; broader markets",
-   "laggards": "Metal and pharma indices (top losing sectors); Healthcare; BSE after its Nifty entry",
-   "tone": "Slightly better than 10:00: the latest headline has the Sensex up about 300 (from +167 at 10:00) with the Nifty still near 22,700. The last firm Nifty print was 22,723.10 at 10:00.",
+   "leaders": "Nifty IT (+2%, mid-tier IT led by Coforge, OFSS), PSU banks; MidCap +0.58%, SmallCap +0.74%",
+   "laggards": "Metals, pharma, healthcare; BSE after its Nifty entry",
+   "tone": "Little changed from 10:30: at 11:00 the Sensex was up 158.70 (+0.22%) at 72,687.77 and the Nifty down 19 (−0.08%) at 22,697.20. The Sensex's gain from 10:30 hasn't carried through to the Nifty.",
    "watch": [
-    "The Nifty turning green above 22,716 (Tuesday's close)",
-    "The rupee holding below 96",
+    "A decisive move above 22,716–22,780",
+    "Whether IT strength extends into the Q2 results season",
     "US PCE tonight"
    ],
    "src": {
@@ -31,6 +32,78 @@
   }
  },
  "insights": [
+  {
+   "key": "it-stocks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Mid-tier IT leads a 2% jump in Nifty IT",
+   "line": "Nifty IT climbs to about 28,235 ahead of Q2 results; Coforge and OFSS lead the midcaps",
+   "more": [
+    "Mid-tier firms are converting deals better than the large caps",
+    "Persistent is expected to lead Q2 growth (about 7%), ahead of Coforge and Mphasis"
+   ],
+   "src": {
+    "title": "Whalesbook — Nifty IT rises as mid-caps outperform large players",
+    "url": "https://www.whalesbook.com/news/English/brokerage-reports/Nifty-IT-Rises-As-Mid-Caps-Outperform-Large-Players/6abc99455aacb956d085b0bb"
+   },
+   "date": "2026-09-30",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "technical-breakdown",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Nifty breaks its 200-day average on a weekly basis",
+   "line": "The first such breach in six years; the seven-week slide has wiped out about $250 bn",
+   "more": [
+    "The index is at its lowest close since early April",
+    "It is on course for an eighth straight weekly decline",
+    "Oil, foreign outflows and a lack of AI-linked plays are cited"
+   ],
+   "src": {
+    "title": "Bloomberg — Indian stocks break key support levels as selloff wipes out $250 billion",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-29/indian-stocks-are-breaking-long-held-supports-as-selloff-deepens"
+   },
+   "date": "2026-09-30",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "ipo-pipeline",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "IPO boom continues despite the sell-off",
+   "line": "Strong primary-market demand is drawing money away from secondary-market stocks",
+   "more": [
+    "Adroit Industries listed 75% above its IPO price today"
+   ],
+   "src": {
+    "title": "Bloomberg — India's IPO boom powers on despite stock market weakness",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-09-30/india-s-ipo-boom-powers-on-despite-stock-market-weakness"
+   },
+   "date": "2026-09-30",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1300"
+   }
+  },
   {
    "key": "rupee",
    "tag": "Macro",
@@ -49,7 +122,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
@@ -73,7 +146,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1030"
@@ -97,7 +170,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-24",
     "slot": "0930"
@@ -149,29 +222,6 @@
    "first_seen": {
     "date": "2026-09-30",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "it-stocks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "TCS leads a rebound in beaten-down IT",
-   "line": "TCS is the top Sensex gainer as IT bounces off 52-week lows",
-   "more": [
-    "Nifty IT had fallen about 11% in September through Tuesday"
-   ],
-   "src": {
-    "title": "India TV — Stock market updates, 30 Sept 2026",
-    "url": "https://www.indiatvnews.com/business/markets/30-september-2026-stock-market-updates-sensex-drops-88-points-nifty-near-22-700-tcs-top-gainer-2026-09-30-1055680"
-   },
-   "date": "2026-09-30",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
    }
   },
   {
@@ -1077,30 +1127,6 @@
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "ipo-pipeline",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "JSW One, Anjali Labtech file for IPOs",
-   "line": "JSW One Platforms: ₹1,300 cr fresh + ₹1,754 cr OFS; Anjali Labtech: ₹1,225 cr",
-   "more": [
-    "Arete 22 has also filed a DRHP for a ₹440 cr fresh issue",
-    "The primary pipeline stays busy despite the secondary-market sell-off"
-   ],
-   "src": {
-    "title": "India IPO — Daily market and IPO updates, Sept 28",
-    "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-ipo-updates-28th-september-2026"
-   },
-   "date": "2026-09-28",
-   "slot": "1300",
-   "when": "Mon · 13:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1300"
    }
   },
   {
