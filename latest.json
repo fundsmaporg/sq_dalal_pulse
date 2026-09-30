@@ -1,27 +1,28 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-30T13:02:33+05:30",
+ "generated_at": "2026-09-30T13:32:58+05:30",
  "date": "2026-09-30",
- "slot": "1300",
- "slot_label": "13:00",
+ "slot": "1330",
+ "slot_label": "13:30",
  "stage": "Mid-market mood",
- "asof": "2026-09-30T13:00:00+05:30",
+ "asof": "2026-09-30T13:30:00+05:30",
  "nifty": {
-  "value": 22750,
-  "pct": 0.15,
-  "approx": true
+  "value": 22790.95,
+  "pct": 0.33,
+  "chg": 74.75,
+  "approx": false
  },
  "mood": {
-  "label": "Heavyweights lead",
-  "score": 0.25,
-  "summary": "Gains are firming into the afternoon: the Sensex is up about 400 points as heavyweights lead, while the Nifty holds modest gains near 22,750 and stock-specific buying shows up in small caps.",
+  "label": "Rally builds",
+  "score": 0.35,
+  "summary": "The rally has broadened into the afternoon. The Nifty is up a third of a percent and back at Monday's close, volatility is sliding, and IT keeps leading.",
   "detail": {
-   "leaders": "ICICI Bank, Reliance, TCS, L&T, Kotak Bank, SBI; IT, PSU banks, Oil & Gas, Chemicals",
-   "laggards": "Hospitals and healthcare; Dr Reddy's; BSE",
-   "tone": "Stronger than 12:30: the Sensex headline has improved to about +400 from +299 at noon. The Nifty is around 22,750, up from 22,742.50 (+0.12%) at 12:00, so the Sensex is outpacing it.",
+   "leaders": "IT, PSU banks, Oil & Gas, Chemicals; ICICI Bank, TCS, Reliance; MidCap +0.58%, SmallCap +0.74%",
+   "laggards": "Healthcare and hospitals; BSE",
+   "tone": "Stronger than 13:00: at 1 pm the Nifty was up 74.75 (+0.33%) at 22,790.95 and the Sensex up 460.41 (+0.63%) at 72,989.48. That reclaims Monday's 22,780 close and wipes out Tuesday's loss.",
    "watch": [
-    "A close above 22,780 would reclaim Monday's level",
-    "The US reply to Iran on Hormuz",
+    "Holding above 22,780 into the close, which would snap the two-day losing run",
+    "Any word from the US on Iran's Hormuz plan",
     "US PCE tonight"
    ],
    "src": {
@@ -31,6 +32,78 @@
   }
  },
  "insights": [
+  {
+   "key": "ipo-pipeline",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Record $9 bn quarter for Indian IPOs",
+   "line": "July–Sept IPO proceeds are the most ever for the period; 2026 total is over $13 bn",
+   "more": [
+    "NSE, SBI Funds and Manipal Health raised more than $4.3 bn together",
+    "More than 200 companies are in the pipeline, with Jio and Avaada among the next big names",
+    "The boom comes as the Nifty is down about 13% this year"
+   ],
+   "src": {
+    "title": "Business Standard — Record quarter primes India IPO market for another blockbuster year",
+    "url": "https://www.business-standard.com/markets/ipo/record-quarter-primes-india-ipo-market-for-another-blockbuster-year-126093000146_1.html"
+   },
+   "date": "2026-09-30",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1300"
+   }
+  },
+  {
+   "key": "india-vix",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "India VIX drops about 5%",
+   "line": "The fear gauge extends its slide as the indices push higher through the afternoon",
+   "more": [
+    "It was down 1.72% at 13.18 in early trade"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market LIVE, Sept 30",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-september-30-sensex-today-nifty-gift-nifty-crude-oil-price-adroit-industries-share-ipo-today-126093000100_1.html"
+   },
+   "date": "2026-09-30",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "iran-talks",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "No US reply to Iran yet via mediators",
+   "line": "Qatari intermediaries are expected to relay Washington's answer on the Hormuz plan",
+   "more": [
+    "Iran wants a seven-day ceasefire, asset unfreezing and oil-sanctions relief",
+    "Trump expects talks to resume but called the offer 'unacceptable'"
+   ],
+   "src": {
+    "title": "CNN — Iran awaiting 'definitive' US response",
+    "url": "https://www.cnn.com/2026/09/26/middleeast/trump-rejects-iran-proposal-hormuz-intl"
+   },
+   "date": "2026-09-30",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1200"
+   }
+  },
   {
    "key": "index-heavyweights",
    "tag": "Stocks",
@@ -49,7 +122,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1300"
@@ -72,7 +145,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1300"
@@ -95,7 +168,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1300"
@@ -124,30 +197,6 @@
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "iran-talks",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "De-escalation hopes lift sentiment",
-   "line": "Stocks firm on hopes of Middle East de-escalation as US–Iran contacts continue",
-   "more": [
-    "Iran is waiting for a US reply on its Hormuz plan",
-    "Brent is holding near $103"
-   ],
-   "src": {
-    "title": "Kotak Neo — Sensex, Nifty trade higher as Middle East de-escalation hopes lift sentiment",
-    "url": "https://www.kotakneo.com/news/market-news/sensex-nifty-trade-higher-as-middle-east-de-escalation-hopes-lift-sentiment/"
-   },
-   "date": "2026-09-30",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "1200"
    }
   },
   {
@@ -194,29 +243,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "india-vix",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "India VIX eases to about 13.2",
-   "line": "VIX fell 1.72% to 13.18 in early trade as the fear gauge cools from Monday's spike",
-   "more": [
-    "It touched 14.77 on Tuesday morning"
-   ],
-   "src": {
-    "title": "HDFC Sky — India VIX falls 1.72% to 13.18",
-    "url": "https://hdfcsky.com/news/india-vix-declines-1-72percent-on-selling-pressure-from-fiis-oil-and-global-risk-factors-drive-the-session-september-30-2026"
-   },
-   "date": "2026-09-30",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
     "slot": "1230"
    }
   },
@@ -339,29 +365,6 @@
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1100"
-   }
-  },
-  {
-   "key": "ipo-pipeline",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "IPO boom continues despite the sell-off",
-   "line": "Strong primary-market demand is drawing money away from secondary-market stocks",
-   "more": [
-    "Adroit Industries listed 75% above its IPO price today"
-   ],
-   "src": {
-    "title": "Bloomberg — India's IPO boom powers on despite stock market weakness",
-    "url": "https://www.bloomberg.com/news/newsletters/2026-09-30/india-s-ipo-boom-powers-on-despite-stock-market-weakness"
-   },
-   "date": "2026-09-30",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1300"
    }
   },
   {
