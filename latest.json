@@ -1,37 +1,107 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-09-30T08:32:56+05:30",
+ "generated_at": "2026-09-30T09:33:10+05:30",
  "date": "2026-09-30",
- "slot": "pre",
- "slot_label": "Pre-open",
- "stage": "Pre-market mood",
- "asof": "2026-09-30T08:30:00+05:30",
+ "slot": "0930",
+ "slot_label": "9:30",
+ "stage": "Opening mood",
+ "asof": "2026-09-30T09:30:00+05:30",
  "nifty": {
-  "value": 22716.2,
-  "pct": -0.28,
-  "chg": -64.05,
-  "approx": false
+  "value": 22710,
+  "pct": -0.03,
+  "approx": true
  },
  "mood": {
-  "label": "Cautious, flat start",
-  "score": -0.25,
-  "summary": "The market is set for a cautious, near-flat start after two losing sessions: GIFT Nifty is barely changed and Asia is firmer, but heavy foreign selling hangs over the open.",
+  "label": "Tentative steadying",
+  "score": -0.05,
+  "summary": "The market opened mixed and is now edging up. Midcaps and small caps are outperforming, even though decliners still lead advancers among Nifty stocks.",
   "detail": {
-   "leaders": "Order-win names (STL Networks, KSB, Arisinfra); BSE on Nifty 50 entry",
-   "laggards": "Wipro (Nifty 50 exit); rate-sensitive financials after heavy FII selling",
-   "tone": "GIFT Nifty was 22,835 (+5, +0.02%) at 7:42 am, after Tuesday's settle at 22,716.20 (−0.28%). Asia is firmer (Nikkei +1.29%, Kospi +0.43%) but FII outflows nearly doubled.",
+   "leaders": "Nifty PSU Bank (+1%), IT, Oil & Gas, Chemicals; TCS; MidCap +0.58%, SmallCap +0.74%",
+   "laggards": "Nifty Healthcare; BSE (on Nifty debut), Max Healthcare, Dr Reddy's; Nifty breadth 18 up / 32 down",
+   "tone": "Steadier than the pre-open signal: the Nifty opened 45 pts lower at 22,671, but the latest headline has the Sensex up about 100 and the Nifty back above 22,700.",
    "watch": [
-    "Whether the Nifty reclaims 22,780–22,800 (Monday's close)",
-    "US PCE inflation tonight",
-    "Brent near $104 and US–Iran headlines"
+    "Holding above 22,700 and reclaiming 22,780",
+    "Whether heavy FII selling (₹9,980 cr Tuesday) resumes",
+    "US PCE tonight; Brent near $104"
    ],
    "src": {
-    "title": "Kotak Neo — Pre-Market, 30 September 2026",
-    "url": "https://www.kotakneo.com/news/market-news/pre-market-30-september-2026-gift-nifty-cautious-start-today/"
+    "title": "Business Standard — Stock Market LIVE, Sept 30",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-september-30-sensex-today-nifty-gift-nifty-crude-oil-price-adroit-industries-share-ipo-today-126093000100_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "september-slump",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Nifty heads for its worst September since 2018",
+   "line": "Down 5.67% for the month through Tuesday; 40 of 50 Nifty stocks are lower",
+   "more": [
+    "It is the steepest September fall since 2018's −6.42%",
+    "Corrects the '25-year' figure in Tuesday's post note"
+   ],
+   "src": {
+    "title": "Business Standard — Nifty 50 set to log worst September in 8 years",
+    "url": "https://www.business-standard.com/markets/news/nifty-50-logs-worst-september-performance-in-8-years-as-40-stocks-slide-126093000095_1.html"
+   },
+   "date": "2026-09-30",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "nifty-rebalance",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "BSE slips on its first day in the Nifty 50",
+   "line": "BSE is among the top Nifty losers as the index change takes effect; Wipro moves out",
+   "more": [
+    "About $741 mn of passive buying was expected ahead of inclusion",
+    "That buying was front-run, so a 'sell the news' move is common"
+   ],
+   "src": {
+    "title": "BusinessToday — BSE to replace Wipro in Nifty 50 from Sept 30",
+    "url": "https://www.businesstoday.in/markets/stocks/story/bse-to-replace-wipro-in-nifty-50-index-from-september-30-all-you-need-to-know-558467-2026-09-29"
+   },
+   "date": "2026-09-30",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "psu-banks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PSU banks rebound 1% after Monday's rout",
+   "line": "Nifty PSU Bank leads early gains alongside IT and oil & gas",
+   "more": [
+    "The index fell over 3% on Monday"
+   ],
+   "src": {
+    "title": "Business Standard — Stock Market LIVE, Sept 30",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-september-30-sensex-today-nifty-gift-nifty-crude-oil-price-adroit-industries-share-ipo-today-126093000100_1.html"
+   },
+   "date": "2026-09-30",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1100"
+   }
+  },
   {
    "key": "fii-flows",
    "tag": "Flows",
@@ -50,7 +120,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -74,33 +144,10 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "nifty-rebalance",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "BSE replaces Wipro in the Nifty 50 today",
-   "line": "About $741 mn of passive inflows are expected into BSE; Wipro moves to the Nifty Next 50",
-   "more": [
-    "BSE's six-month average free-float m-cap is ₹1.41 lakh cr vs Wipro's ₹55,930 cr"
-   ],
-   "src": {
-    "title": "BusinessToday — BSE to replace Wipro in Nifty 50 from Sept 30",
-    "url": "https://www.businesstoday.in/markets/stocks/story/bse-to-replace-wipro-in-nifty-50-index-from-september-30-all-you-need-to-know-558467-2026-09-29"
-   },
-   "date": "2026-09-30",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "pre"
    }
   },
   {
@@ -120,7 +167,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-24",
     "slot": "0930"
@@ -144,35 +191,10 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "september-slump",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Nifty's worst September in 25 years",
-   "line": "Down about 6% this month; among major markets only China (−6.4%) has done worse",
-   "more": [
-    "Auto, real estate and PSU banks were hit hardest; only pharma held steady",
-    "Dr Reddy's, Kotak Bank and Tata Steel were rare Nifty gainers",
-    "Money moving from secondary markets into IPOs is also cited"
-   ],
-   "src": {
-    "title": "Upstox — What's driving NIFTY50's 6% slump in September",
-    "url": "https://upstox.com/news/market-news/trading/beyond-oil-prices-and-bond-yields-here-is-what-s-driving-nifty-50-s-6-slump-in-september/article-201058/"
-   },
-   "date": "2026-09-29",
-   "slot": "post",
-   "when": "Tue · Close",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-29",
-    "slot": "post"
    }
   },
   {
@@ -909,30 +931,6 @@
    "first_seen": {
     "date": "2026-09-29",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "psu-banks",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "PSU banks end down more than 3.2%",
-   "line": "Nifty PSU Bank was the worst sector at the close, deeper than the 2.5% seen in the auction",
-   "more": [
-    "Realty −2.32%, Oil & Gas −1.97% and Metal −1.90% followed",
-    "All major sectors ended lower"
-   ],
-   "src": {
-    "title": "The Tribune — Nifty falls 1.56%, Sensex tanks 1,124 points",
-    "url": "https://www.tribuneindia.com/news/business/nifty-falls-1-56-sensex-tanks-1124-points-as-psu-banks-plunge-crude-tops-usd-107"
-   },
-   "date": "2026-09-28",
-   "slot": "post",
-   "when": "Mon · Close",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1100"
    }
   },
   {
