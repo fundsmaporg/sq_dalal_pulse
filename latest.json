@@ -1,36 +1,110 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-01T09:33:14+05:30",
+ "generated_at": "2026-10-01T10:02:35+05:30",
  "date": "2026-10-01",
- "slot": "0930",
- "slot_label": "9:30",
+ "slot": "1000",
+ "slot_label": "10:00",
  "stage": "Opening mood",
- "asof": "2026-10-01T09:30:00+05:30",
+ "asof": "2026-10-01T10:00:00+05:30",
  "nifty": {
-  "value": 22440,
-  "pct": -0.8,
-  "approx": true
+  "value": 22526.6,
+  "pct": -0.41,
+  "chg": -93.85,
+  "approx": false
  },
  "mood": {
-  "label": "Weak open",
-  "score": -0.45,
-  "summary": "The session has started on the back foot: the Nifty was down about 0.8% at pre-open, a steeper drop than overnight cues suggested, while the Sensex was off a milder 0.4%.",
+  "label": "Pressure persists",
+  "score": -0.4,
+  "summary": "Selling has eased from the pre-open slump, but the Nifty is still down about 0.4% below 22,550, on course for an eighth straight weekly loss.",
   "detail": {
-   "leaders": "Order-win names (NCC), Aurobindo Pharma",
-   "laggards": "Broad Nifty heavyweights",
-   "tone": "Selling resumed from the bell instead of the flat start Gift Nifty pointed to earlier, with traders cutting risk before Friday's holiday.",
+   "leaders": "Autos in focus on September sales (M&M)",
+   "laggards": "Hospitals (Apollo, Max), heavyweights",
+   "tone": "The Nifty has trimmed its pre-open loss of about 0.8% to roughly 0.4%, but there is no real dip-buying ahead of the three-day break.",
    "watch": [
-    "Whether the Nifty holds the 22,500 support",
-    "Auto sales prints as they come in",
-    "Crude moves on US-Iran headlines"
+    "Maruti and Tata Motors sales numbers",
+    "A break below 22,400, flagged by IIFL as a risk level",
+    "Crude moves on Iran headlines"
    ],
    "src": {
-    "title": "HDFC Sky",
-    "url": "https://hdfcsky.com/news/nifty-crashes-sensex-declines-at-pre-open-pointing-to-lower-start-for-benchmarks-october-1-2026"
+    "title": "Kotak Neo",
+    "url": "https://www.kotakneo.com/news/market-news/stock-market-update-1-october-2026-sensex-nifty/"
    }
   }
  },
  "insights": [
+  {
+   "key": "auto-sales",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "M&M sales up 15%; Bajaj Auto up 5%",
+   "line": "M&M sold 1,14,874 vehicles in September; Bajaj Auto's total rose to 5,38,443 units",
+   "more": [
+    "M&M SUV volumes rose 14% to 64,092 units",
+    "Bajaj Auto sold 5,10,504 units a year earlier",
+    "Maruti is estimated at about 2.38 lakh units vs 1.89 lakh a year ago"
+   ],
+   "src": {
+    "title": "Upstox auto sales live",
+    "url": "https://upstox.com/news/market-news/stocks/september-auto-sales-2026-live-updates-tata-motors-pv-maruti-suzuki-mahindra-and-mahindra-bajaj-auto-hyundai-eicher-force-tvs-hero-motocorp-share-price/liveblog-201159/"
+   },
+   "date": "2026-10-01",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "nse-bond-futures",
+   "tag": "Regulation",
+   "impact": "pos",
+   "title": "SEBI clears NSE corporate bond index futures",
+   "line": "NSE received SEBI's no-objection certificate for futures on a corporate bond index",
+   "more": [
+    "The product adds a hedging tool for corporate bond portfolios",
+    "It may support market making and price discovery in corporate bonds"
+   ],
+   "src": {
+    "title": "Business Today",
+    "url": "https://businesstoday.in/markets/stocks/story/nse-shares-in-focus-after-sebi-nod-for-corporate-bond-index-futures-558936-2026-10-01"
+   },
+   "date": "2026-10-01",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "hospital-pricing",
+   "tag": "Regulation",
+   "impact": "neg",
+   "title": "Hospital stocks extend slide on pricing fears",
+   "line": "Apollo and Max Healthcare lead the declines again after the SC remarks on drug mark-ups",
+   "more": [
+    "The sell-off continues for a second session",
+    "Investors fear tighter rules on hospital pharmacy margins"
+   ],
+   "src": {
+    "title": "HDFC Sky",
+    "url": "https://hdfcsky.com/news/nifty-crashes-sensex-declines-at-pre-open-pointing-to-lower-start-for-benchmarks-october-1-2026"
+   },
+   "date": "2026-10-01",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1230"
+   }
+  },
   {
    "key": "aurobindo-adquey",
    "tag": "Stocks",
@@ -49,7 +123,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "0930"
@@ -73,7 +147,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "pre"
@@ -97,7 +171,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "0930"
@@ -121,7 +195,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "pre"
@@ -177,30 +251,6 @@
    }
   },
   {
-   "key": "auto-sales",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "September auto sales roll in today",
-   "line": "Maruti, M&M, Tata Motors, Bajaj and TVS report volumes; festive demand is in focus",
-   "more": [
-    "A favourable year-ago base could flatter growth numbers",
-    "Several carmakers have announced price increases"
-   ],
-   "src": {
-    "title": "Upstox",
-    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-oct-1-auto-stocks-tech-mahindra-ncc-aurobindo-pharma-linde-india-power-stocks-transrail-lighting/article-201161/"
-   },
-   "date": "2026-10-01",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "post"
-   }
-  },
-  {
    "key": "crude",
    "tag": "Global",
    "impact": "watch",
@@ -221,30 +271,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "hospital-pricing",
-   "tag": "Regulation",
-   "impact": "neg",
-   "title": "Apollo, Max end as top Nifty losers",
-   "line": "Hospital stocks closed at the bottom of the Nifty after the SC flagged medicine mark-ups",
-   "more": [
-    "Apollo Hospitals, Max Healthcare and BSE were the top Nifty50 losers",
-    "Healthcare and pharma were the weakest sectors at the close"
-   ],
-   "src": {
-    "title": "Business Standard",
-    "url": "https://www.business-standard.com/markets/news/hospital-stocks-under-pressure-apollo-yatharth-fortis-max-drop-up-to-7-126093000332_1.html"
-   },
-   "date": "2026-09-30",
-   "slot": "post",
-   "when": "Wed · Close",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
     "slot": "1230"
    }
   },
