@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-01T15:02:26+05:30",
+ "generated_at": "2026-10-01T15:32:52+05:30",
  "date": "2026-10-01",
- "slot": "1500",
- "slot_label": "15:00",
+ "slot": "1530",
+ "slot_label": "15:30",
  "stage": "Closing mood",
- "asof": "2026-10-01T15:00:00+05:30",
+ "asof": "2026-10-01T15:30:00+05:30",
  "nifty": {
   "value": 22308,
   "pct": -1.38,
   "chg": -312.45,
-  "approx": false
+  "approx": true
  },
  "mood": {
-  "label": "Off the lows",
+  "label": "Weak finish",
   "score": -0.7,
-  "summary": "Benchmarks have clawed back a little from the 2 pm lows but remain down over 1% into the final half-hour, with selling broad-based outside banks and IT.",
+  "summary": "The session is closing deep in the red after a broad afternoon sell-off; the indices are ending a holiday-shortened week near 2026 lows, with official closing figures still awaited.",
   "detail": {
-   "leaders": "Banks (relative), IT",
+   "leaders": "Banks, IT (relative)",
    "laggards": "Autos, realty, FMCG, metals",
-   "tone": "Some short-covering has pared the Sensex's loss from over 1,000 pts to about 740, but the tone stays risk-off heading into the three-day break.",
+   "tone": "Losses stayed near the day's lows through the afternoon in what is set to be the fourth straight losing session before a three-day break.",
    "watch": [
-    "Closing auction relative to 22,300",
-    "FII provisional data after 5 pm",
-    "Weekend crude and West Asia headlines"
+    "FII/DII provisional data after 5 pm",
+    "Weekend crude and West Asia news",
+    "RBI MPC that starts Oct 5"
    ],
    "src": {
     "title": "Kotak Neo",
@@ -32,6 +32,78 @@
   }
  },
  "insights": [
+  {
+   "key": "nine-month-slump",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Selling spills into October after a 6.1% Sept fall",
+   "line": "The Nifty lost 6.1% in September, and the new month has opened with a sharp sell-off",
+   "more": [
+    "The Sensex hit a fresh calendar-year low today",
+    "The Nifty broke 22,400 for the first time since April 2"
+   ],
+   "src": {
+    "title": "Whalesbook",
+    "url": "https://www.whalesbook.com/news/English/economy/Sensex-Nifty-Fall-on-October-1-as-FII-Selling-Weighs/6abde2cf5aacb956d087839c"
+   },
+   "date": "2026-10-01",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1500"
+   }
+  },
+  {
+   "key": "us-futures",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "US stocks firmer as India sells off",
+   "line": "The US500 gauge rose about 0.6% to near 7,696 on October 1",
+   "more": [
+    "The softer US PCE inflation reading is still supporting risk appetite abroad",
+    "A steady global tone could limit a gap-down when India reopens on Monday"
+   ],
+   "src": {
+    "title": "Trading Economics",
+    "url": "https://tradingeconomics.com/united-states/stock-market"
+   },
+   "date": "2026-10-01",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "1530"
+   }
+  },
+  {
+   "key": "holiday-break",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Markets shut Friday; next session Monday",
+   "line": "Traders carry today's losses into a three-day break with VIX elevated",
+   "more": [
+    "Gandhi Jayanti holiday on Oct 2",
+    "The RBI MPC starts on the day markets reopen"
+   ],
+   "src": {
+    "title": "Zee Business",
+    "url": "https://zeebiz.com/market-news/news-stock-market-crash-sensex-hits-2026-low-nifty-below-22300-rs-87-lakh-crore-investor-wealth-wiped-out-403200"
+   },
+   "date": "2026-10-01",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "pre"
+   }
+  },
   {
    "key": "market-cap-loss",
    "tag": "Macro",
@@ -50,7 +122,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1500"
@@ -74,7 +146,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -98,7 +170,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1230"
@@ -615,30 +687,6 @@
    }
   },
   {
-   "key": "holiday-break",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Traders trim exposure before 3-day break",
-   "line": "Brokerages flag defensive positioning; markets are shut Friday and reopen Monday",
-   "more": [
-    "IIFL Capital, Nuvama and Ambit describe cautious stances entering October",
-    "Gap risk over the long weekend may keep leveraged positions light"
-   ],
-   "src": {
-    "title": "International News & Views",
-    "url": "https://www.internationalnewsandviews.com/stock-market-today-october-1-2026-409918-2/"
-   },
-   "date": "2026-10-01",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "pre"
-   }
-  },
-  {
    "key": "us-yields",
    "tag": "Global",
    "impact": "pos",
@@ -660,31 +708,6 @@
    "first_seen": {
     "date": "2026-09-24",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "nine-month-slump",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Worst nine-month run for markets in 15 years",
-   "line": "Sensex is down 14.7% and Nifty 13.1% in 2026 so far; IT is down 27% and FMCG 19%",
-   "more": [
-    "It is the weakest January–September showing in 15 years",
-    "Nifty ended August at 24,080.40, and the September series fell 5.70%",
-    "In 3 of 4 past nine-month losses, indices ended the year higher (2015 was the exception)"
-   ],
-   "src": {
-    "title": "Business Standard",
-    "url": "https://www.business-standard.com/markets/news/sensex-nifty-set-to-post-worst-9-month-show-in-15-years-126093000184_1.html"
-   },
-   "date": "2026-09-30",
-   "slot": "1500",
-   "when": "Wed · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "1500"
    }
   },
   {
