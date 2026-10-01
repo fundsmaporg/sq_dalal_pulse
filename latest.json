@@ -1,29 +1,28 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-01T12:02:35+05:30",
+ "generated_at": "2026-10-01T12:33:12+05:30",
  "date": "2026-10-01",
- "slot": "1200",
- "slot_label": "12:00",
+ "slot": "1230",
+ "slot_label": "12:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-01T12:00:00+05:30",
+ "asof": "2026-10-01T12:30:00+05:30",
  "nifty": {
-  "value": 22565.1,
-  "pct": -0.24,
-  "chg": -55.35,
+  "value": 22495,
+  "pct": -0.55,
   "approx": true
  },
  "mood": {
-  "label": "Stuck in range",
-  "score": -0.1,
-  "summary": "Indices are stuck in a tight range near the morning's levels: a strong IT rally is offsetting auto and hospital weakness, and the Sensex is barely below flat.",
+  "label": "Slipping lower",
+  "score": -0.45,
+  "summary": "Selling has picked up after midday: the Sensex hit its day's low, about 300 pts down, and the Nifty slipped below 22,500 as autos and metals dragged.",
   "detail": {
-   "leaders": "IT (Mphasis, Coforge, Infosys), private banks",
-   "laggards": "Autos (Bajaj Auto), hospitals (Apollo, Max)",
-   "tone": "Range trade continues; sector rotation into IT and banks is cushioning the indices, but there is no broad buying before the long weekend.",
+   "leaders": "IT, Kotak Bank, HDFC Life",
+   "laggards": "Metals (Tata Steel), autos (M&M, Maruti), UltraTech",
+   "tone": "The morning range broke to the downside after 12 pm, and the IT and bank cushion is no longer holding the indices.",
    "watch": [
-    "Maruti and Tata Motors sales prints",
-    "Whether IT strength extends into the close",
-    "Crude and Hormuz headlines"
+    "Whether the Nifty holds 22,400, flagged as the next risk level",
+    "Maruti's sales print",
+    "Crude and dollar moves on West Asia news"
    ],
    "src": {
     "title": "Business Standard live",
@@ -32,6 +31,79 @@
   }
  },
  "insights": [
+  {
+   "key": "metals-slide",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Metals slump; Tata Steel down over 6%",
+   "line": "Nifty Metal fell about 4% intraday on West Asia tensions and a firmer dollar",
+   "more": [
+    "SAIL, NMDC and Hindustan Copper also fell sharply",
+    "Investors are cutting exposure to cyclicals",
+    "The index touched about 11,773 vs a 12,269.8 previous close"
+   ],
+   "src": {
+    "title": "Angel One",
+    "url": "https://www.angelone.in/news/stocks/tata-steel-sail-and-hindalco-fall-as-nifty-metal-drops-4-percent-amid-west-asia-tensions"
+   },
+   "date": "2026-10-01",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "auto-sales",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Maruti, M&M slide as auto drag deepens",
+   "line": "Maruti fell 2.3% to ₹11,687 ahead of its September sales; M&M is among the top losers",
+   "more": [
+    "M&M is falling despite reporting 15% volume growth",
+    "Autos and metals are the market's biggest drags"
+   ],
+   "src": {
+    "title": "Upstox auto sales live",
+    "url": "https://upstox.com/news/market-news/stocks/september-auto-sales-2026-live-updates-tata-motors-pv-maruti-suzuki-mahindra-and-mahindra-bajaj-auto-hyundai-eicher-force-tvs-hero-motocorp-share-price/liveblog-201159/"
+   },
+   "date": "2026-10-01",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "roopa-screen-listing",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Roopa Screen SME lists 90% higher",
+   "line": "Shares debuted at ₹121.60 on BSE SME versus a ₹64 issue price",
+   "more": [
+    "The ₹19.2 cr IPO was subscribed 271.94 times",
+    "Retail demand was 529.82x and NII 421.94x"
+   ],
+   "src": {
+    "title": "Angel One",
+    "url": "https://www.angelone.in/news/ipos/roopa-screen-share-price-stock-lists-at-121-60-with-a-90-00-premium-on-bse"
+   },
+   "date": "2026-10-01",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "1230"
+   }
+  },
   {
    "key": "it-stocks",
    "tag": "Stocks",
@@ -51,7 +123,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
@@ -76,35 +148,10 @@
    "slot": "1200",
    "when": "12:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "auto-sales",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Royal Enfield posts record 1.34 lakh units",
-   "line": "Eicher's Royal Enfield sold 1,33,958 motorcycles in September, up 8% YoY",
-   "more": [
-    "April–September sales rose 20% to 7,09,096 units",
-    "International sales rose 17% in September",
-    "Maruti and Tata Motors are still due"
-   ],
-   "src": {
-    "title": "Whalesbook",
-    "url": "https://www.whalesbook.com/corporate-news/English/auto/Eicher-Motors-Reports-Record-September-Sales-of-133-Lakh-Motorcycles/6abdf3e880ecbb8a5f1aa654"
-   },
-   "date": "2026-10-01",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "post"
    }
   },
   {
