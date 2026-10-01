@@ -1,37 +1,110 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-01T11:02:47+05:30",
+ "generated_at": "2026-10-01T11:33:21+05:30",
  "date": "2026-10-01",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-01T11:00:00+05:30",
+ "asof": "2026-10-01T11:30:00+05:30",
  "nifty": {
-  "value": 22547.2,
-  "pct": -0.32,
-  "chg": -73.25,
-  "approx": true
+  "value": 22565.1,
+  "pct": -0.24,
+  "chg": -55.35,
+  "approx": false
  },
  "mood": {
-  "label": "Narrow drift",
-  "score": -0.25,
-  "summary": "Benchmarks are drifting in a tight range in the red, but broader-market losses have narrowed, with smallcaps now down only about 0.3%.",
+  "label": "Banks steady",
+  "score": -0.15,
+  "summary": "The market is grinding sideways with a shallow loss; private banks are steadying the Sensex, which is barely in the red, while the Nifty lags.",
   "detail": {
-   "leaders": "IT, M&M, Hyundai",
-   "laggards": "Bajaj Auto, hospitals, MRPL",
-   "tone": "Selling pressure has eased since 10:30 as broader indices claw back, though the benchmarks show no conviction ahead of the holiday.",
+   "leaders": "Private banks (index up ~1%), IT, fresh listings",
+   "laggards": "Bajaj Auto, hospitals",
+   "tone": "Losses keep shrinking: the Nifty has moved up from its 22,543.70 open, and bank buying has nearly erased the Sensex's fall.",
    "watch": [
-    "Maruti, Tata Motors and TVS sales prints",
-    "Any US-Iran progress on the Strait of Hormuz",
-    "Afternoon positioning before the three-day break"
+    "Whether private banks can pull the Nifty into the green",
+    "Maruti and Tata Motors sales prints",
+    "Position squaring before the long weekend"
    ],
    "src": {
     "title": "Business Standard live",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "moneyview-listing",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Moneyview lists at 62% premium",
+   "line": "The digital lender opened at ₹55 on NSE versus its ₹34 issue price; m-cap is ₹9,681 cr",
+   "more": [
+    "The ₹1,091.68 cr IPO had a ₹750 cr fresh issue and a ₹341.68 cr OFS",
+    "Allottees gained ₹9,261 per lot at the listing price",
+    "Strong debuts support the IPO pipeline despite weak secondary markets"
+   ],
+   "src": {
+    "title": "Upstox",
+    "url": "https://upstox.com/news/market-news/ipo/moneyview-shares-list-at-62-premium-on-nse-here-s-how-much-investors-made-per-lot/article-201176/"
+   },
+   "date": "2026-10-01",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "a-one-steels-listing",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "A-One Steels debuts 12–14% higher",
+   "line": "Opened at ₹455 on NSE (+12.35%) and ₹462 on BSE (+14.07%) vs the ₹405 issue price",
+   "more": [
+    "The ₹405 cr IPO was subscribed 11.61 times",
+    "The bidding window ran from Sep 24 to Sep 28"
+   ],
+   "src": {
+    "title": "Groww",
+    "url": "https://groww.in/blog/a-one-steels-shares-list-at-12-percent-premium-on-nse"
+   },
+   "date": "2026-10-01",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "private-banks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Private banks rally about 1%",
+   "line": "The Nifty Private Bank index is up about 1%, limiting the benchmark's losses",
+   "more": [
+    "Bank buying has left the Sensex nearly flat",
+    "Private banks also led sectors on Wednesday"
+   ],
+   "src": {
+    "title": "Business Standard live",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
+   },
+   "date": "2026-10-01",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1230"
+   }
+  },
   {
    "key": "crude",
    "tag": "Global",
@@ -50,7 +123,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -75,7 +148,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "post"
@@ -99,7 +172,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1200"
@@ -628,30 +701,6 @@
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1300"
-   }
-  },
-  {
-   "key": "private-banks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "ICICI, Kotak lead the Nifty's gains",
-   "line": "Private lenders join TCS and Tech Mahindra among the top Nifty 50 gainers",
-   "more": [
-    "ICICI Bank was up about 2% earlier in the session",
-    "This follows heavy selling in banks on Monday and Tuesday"
-   ],
-   "src": {
-    "title": "Kotak Neo — Market Midday, 30 September 2026",
-    "url": "https://www.kotakneo.com/news/market-news/market-midday-30-september-2026-benchmarks-gain/"
-   },
-   "date": "2026-09-30",
-   "slot": "1230",
-   "when": "Wed · 12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "1230"
    }
   },
   {
