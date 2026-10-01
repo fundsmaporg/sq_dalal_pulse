@@ -1,37 +1,108 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-01T14:02:06+05:30",
+ "generated_at": "2026-10-01T14:32:59+05:30",
  "date": "2026-10-01",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-01T14:00:00+05:30",
+ "asof": "2026-10-01T14:30:00+05:30",
  "nifty": {
-  "value": 22266.35,
-  "pct": -1.57,
-  "chg": -354.1,
-  "approx": false
+  "value": 22300,
+  "pct": -1.42,
+  "approx": true
  },
  "mood": {
-  "label": "Rout deepens",
-  "score": -0.85,
-  "summary": "The sell-off has deepened: the Sensex is down over 1,000 pts and the Nifty is off about 1.6%, with over ₹8 trillion of market value wiped out ahead of the long weekend.",
+  "label": "Fear grips",
+  "score": -0.8,
+  "summary": "The market is steadying slightly near the lows: the Sensex has trimmed its loss to about 900 pts and the Nifty is near 22,300, but volatility has jumped sharply.",
   "detail": {
-   "leaders": "Few; IT relatively resilient",
-   "laggards": "Autos, realty, FMCG, metals",
-   "tone": "Losses have widened further from 1:30 as rising oil adds to FII-led selling; there is no sign of dip-buying before the three-day break.",
+   "leaders": "IT (relative outperformer)",
+   "laggards": "Autos, Bajaj Auto, Apollo, Max Healthcare",
+   "tone": "After a 1,045-pt peak-to-trough fall, the Sensex has steadied a little from the 2 pm lows, but the VIX spike shows hedging demand into the three-day break.",
    "watch": [
-    "Whether the Nifty holds the 22,222 support",
-    "Brent breaking above $100",
-    "Closing-hour short covering"
+    "Close relative to the 22,222 support",
+    "RBI policy tone on Oct 7",
+    "FII provisional data after 5 pm"
    ],
    "src": {
-    "title": "Business Standard live",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
+    "title": "Business Standard",
+    "url": "https://www.business-standard.com/amp/markets/news/why-are-markets-falling-today-sensex-crashes-1-000-pts-intraday-hits-2026-low-nifty-at-22-300-126100100568_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "rbi-policy",
+   "tag": "Policy",
+   "impact": "neg",
+   "title": "Rate-hike fears for October MPC weigh",
+   "line": "Analysts cite fears of an RBI rate hike at the Oct 5–7 meet as a key trigger",
+   "more": [
+    "The rate decision is due on October 7",
+    "High crude prices and FII selling are also cited"
+   ],
+   "src": {
+    "title": "Business Standard",
+    "url": "https://www.business-standard.com/amp/markets/news/why-are-markets-falling-today-sensex-crashes-1-000-pts-intraday-hits-2026-low-nifty-at-22-300-126100100568_1.html"
+   },
+   "date": "2026-10-01",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "ipo-pipeline",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "IPO flood seen draining market liquidity",
+   "line": "A heavy IPO pipeline is absorbing cash just as FIIs sell, leaving few buyers",
+   "more": [
+    "Analysts flag lack of liquidity as a reason for the steep fall",
+    "Moneyview and A-One Steels listed today"
+   ],
+   "src": {
+    "title": "Business Standard",
+    "url": "https://www.business-standard.com/amp/markets/news/why-are-markets-falling-today-sensex-crashes-1-000-pts-intraday-hits-2026-low-nifty-at-22-300-126100100568_1.html"
+   },
+   "date": "2026-10-01",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1300"
+   }
+  },
+  {
+   "key": "india-vix",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "India VIX jumps 16%",
+   "line": "Volatility spikes as traders hedge ahead of the Gandhi Jayanti long weekend",
+   "more": [
+    "Markets are shut on Friday, Oct 2",
+    "Gap risk on Monday is driving demand for protection"
+   ],
+   "src": {
+    "title": "Business Standard",
+    "url": "https://www.business-standard.com/amp/markets/news/why-are-markets-falling-today-sensex-crashes-1-000-pts-intraday-hits-2026-low-nifty-at-22-300-126100100568_1.html"
+   },
+   "date": "2026-10-01",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1230"
+   }
+  },
   {
    "key": "crude",
    "tag": "Global",
@@ -51,7 +122,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -75,7 +146,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "post"
@@ -99,7 +170,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1330"
@@ -567,30 +638,6 @@
    }
   },
   {
-   "key": "rbi-policy",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "RBI MPC meets Oct 5–7; rate call on Oct 7",
-   "line": "The rate decision is the next big domestic trigger after a bruising September",
-   "more": [
-    "The MPC meets from October 5 to 7, with the repo decision due on October 7",
-    "The RBI's revised deposit-rate framework takes effect from October 1"
-   ],
-   "src": {
-    "title": "Upstox",
-    "url": "https://upstox.com/news/personal-finance/latest-updates/11-financial-changes-coming-in-october-2026-rbi-mpc-sbi-atm-rules-fd-rules-lpg-kyc-upi-mdr-small-savings-itr-deadline-and-more/article-200981/"
-   },
-   "date": "2026-09-30",
-   "slot": "post",
-   "when": "Wed · Close",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "post"
-   }
-  },
-  {
    "key": "nine-month-slump",
    "tag": "Macro",
    "impact": "neg",
@@ -729,54 +776,6 @@
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "ipo-pipeline",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Record $9 bn quarter for Indian IPOs",
-   "line": "July–Sept IPO proceeds are the most ever for the period; 2026 total is over $13 bn",
-   "more": [
-    "NSE, SBI Funds and Manipal Health raised more than $4.3 bn together",
-    "More than 200 companies are in the pipeline, with Jio and Avaada among the next big names",
-    "The boom comes as the Nifty is down about 13% this year"
-   ],
-   "src": {
-    "title": "Business Standard — Record quarter primes India IPO market for another blockbuster year",
-    "url": "https://www.business-standard.com/markets/ipo/record-quarter-primes-india-ipo-market-for-another-blockbuster-year-126093000146_1.html"
-   },
-   "date": "2026-09-30",
-   "slot": "1330",
-   "when": "Wed · 13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "india-vix",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "India VIX drops about 5%",
-   "line": "The fear gauge extends its slide as the indices push higher through the afternoon",
-   "more": [
-    "It was down 1.72% at 13.18 in early trade"
-   ],
-   "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 30",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-september-30-sensex-today-nifty-gift-nifty-crude-oil-price-adroit-industries-share-ipo-today-126093000100_1.html"
-   },
-   "date": "2026-09-30",
-   "slot": "1330",
-   "when": "Wed · 13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1230"
    }
   },
   {
