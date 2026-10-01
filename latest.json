@@ -1,37 +1,132 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-01T08:32:25+05:30",
+ "generated_at": "2026-10-01T09:33:14+05:30",
  "date": "2026-10-01",
- "slot": "pre",
- "slot_label": "Pre-open",
- "stage": "Pre-market mood",
- "asof": "2026-10-01T08:30:00+05:30",
+ "slot": "0930",
+ "slot_label": "9:30",
+ "stage": "Opening mood",
+ "asof": "2026-10-01T09:30:00+05:30",
  "nifty": {
-  "value": 22632,
-  "pct": -0.12,
-  "chg": -27.5,
+  "value": 22440,
+  "pct": -0.8,
   "approx": true
  },
  "mood": {
-  "label": "Cautious start",
-  "score": -0.2,
-  "summary": "A flat-to-soft open is likely as October begins, with Gift Nifty just below Wednesday's close and traders cautious ahead of a holiday break.",
+  "label": "Weak open",
+  "score": -0.45,
+  "summary": "The session has started on the back foot: the Nifty was down about 0.8% at pre-open, a steeper drop than overnight cues suggested, while the Sensex was off a milder 0.4%.",
   "detail": {
-   "leaders": "Autos in focus on September sales, oil marketers",
-   "laggards": "Hospitals after Wednesday's sell-off, rate-sensitives",
-   "tone": "After three straight losing sessions to close September, the setup is subdued; most Asian markets are lower and Gift Nifty points to little change.",
+   "leaders": "Order-win names (NCC), Aurobindo Pharma",
+   "laggards": "Broad Nifty heavyweights",
+   "tone": "Selling resumed from the bell instead of the flat start Gift Nifty pointed to earlier, with traders cutting risk before Friday's holiday.",
    "watch": [
-    "Whether Nifty holds the 22,500 support",
-    "Auto sales prints through the day",
-    "Crude and the rupee near ₹96/$"
+    "Whether the Nifty holds the 22,500 support",
+    "Auto sales prints as they come in",
+    "Crude moves on US-Iran headlines"
    ],
    "src": {
-    "title": "Business Standard live",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
+    "title": "HDFC Sky",
+    "url": "https://hdfcsky.com/news/nifty-crashes-sensex-declines-at-pre-open-pointing-to-lower-start-for-benchmarks-october-1-2026"
    }
   }
  },
  "insights": [
+  {
+   "key": "aurobindo-adquey",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Aurobindo unit launches US eczema drug",
+   "line": "Acrotech launched ADQUEY (difamilast 1%) ointment in the US for atopic dermatitis",
+   "more": [
+    "The ointment is approved for adults and children aged two and above",
+    "It marks Acrotech's entry into the US dermatology market"
+   ],
+   "src": {
+    "title": "Angel One",
+    "url": "https://www.angelone.in/news/market-updates/stocks-to-watch-today-aurobindo-pharma-ncc-highway-infrastructure-and-others-october-1-2026"
+   },
+   "date": "2026-10-01",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "order-wins",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "NCC adds ₹500 cr of orders in September",
+   "line": "NCC won two orders: ₹224.74 cr in buildings and ₹275.48 cr in transportation",
+   "more": [
+    "The combined value is ₹500.22 cr",
+    "Construction names stay in focus on order flow"
+   ],
+   "src": {
+    "title": "Angel One",
+    "url": "https://www.angelone.in/news/market-updates/stocks-to-watch-today-aurobindo-pharma-ncc-highway-infrastructure-and-others-october-1-2026"
+   },
+   "date": "2026-10-01",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "techm-bonus",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Tech Mahindra board to weigh bonus issue",
+   "line": "The Oct 15 board meeting will consider bonus shares, an interim dividend and Q2 results",
+   "more": [
+    "Q2 and first-half results for the period to September 2026 will be approved at the same meeting",
+    "TechM is among the top stocks in focus today"
+   ],
+   "src": {
+    "title": "Whalesbook",
+    "url": "https://www.whalesbook.com/news/English/sebiexchange/Aurobindo-Tech-Mahindra-and-Bata-India-Update-Oct-1-2026/6abdbe035aacb956d0874ec1"
+   },
+   "date": "2026-10-01",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "holiday-break",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Traders trim exposure before 3-day break",
+   "line": "Brokerages flag defensive positioning; markets are shut Friday and reopen Monday",
+   "more": [
+    "IIFL Capital, Nuvama and Ambit describe cautious stances entering October",
+    "Gap risk over the long weekend may keep leveraged positions light"
+   ],
+   "src": {
+    "title": "International News & Views",
+    "url": "https://www.internationalnewsandviews.com/stock-market-today-october-1-2026-409918-2/"
+   },
+   "date": "2026-10-01",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "pre"
+   }
+  },
   {
    "key": "fii-flows",
    "tag": "Flows",
@@ -51,7 +146,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -75,7 +170,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-24",
     "slot": "0930"
@@ -99,7 +194,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "post"
@@ -123,34 +218,10 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "holiday-break",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Markets shut Friday for Gandhi Jayanti",
-   "line": "Thursday is the last session before a long weekend, which may cap fresh positions",
-   "more": [
-    "Trading resumes on Monday, Oct 5",
-    "The RBI MPC begins its meeting on Oct 5; the rate decision is due on Oct 7"
-   ],
-   "src": {
-    "title": "Business Standard live",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
-   },
-   "date": "2026-10-01",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "pre"
    }
   },
   {
@@ -199,31 +270,6 @@
    "first_seen": {
     "date": "2026-09-30",
     "slot": "post"
-   }
-  },
-  {
-   "key": "order-wins",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Kalpataru bags ₹4,000 cr UAE pipeline job",
-   "line": "Order wins keep infra names active: Arisinfra won ₹400 cr and STL ₹249.8 cr from RailTel",
-   "more": [
-    "Kalpataru won a ₹4,000 cr EPC order for a UAE gas pipeline",
-    "Arisinfra rose 1.8% on a ₹400 cr DaaS contract",
-    "Cupid jumped nearly 7% on its entry into the Nifty Smallcap 250"
-   ],
-   "src": {
-    "title": "ScanX",
-    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-september-30-2026-arisinfra-solutions-tube/52277463"
-   },
-   "date": "2026-09-30",
-   "slot": "1530",
-   "when": "Wed · 15:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-29",
-    "slot": "pre"
    }
   },
   {
