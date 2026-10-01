@@ -1,60 +1,108 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-01T10:02:35+05:30",
+ "generated_at": "2026-10-01T10:32:55+05:30",
  "date": "2026-10-01",
- "slot": "1000",
- "slot_label": "10:00",
- "stage": "Opening mood",
- "asof": "2026-10-01T10:00:00+05:30",
+ "slot": "1030",
+ "slot_label": "10:30",
+ "stage": "Mid-market mood",
+ "asof": "2026-10-01T10:30:00+05:30",
  "nifty": {
-  "value": 22526.6,
-  "pct": -0.41,
-  "chg": -93.85,
+  "value": 22547.2,
+  "pct": -0.32,
+  "chg": -73.25,
   "approx": false
  },
  "mood": {
-  "label": "Pressure persists",
-  "score": -0.4,
-  "summary": "Selling has eased from the pre-open slump, but the Nifty is still down about 0.4% below 22,550, on course for an eighth straight weekly loss.",
+  "label": "Range-bound weakness",
+  "score": -0.35,
+  "summary": "The market is stuck in a narrow range below Wednesday's close; mid- and smallcaps are falling faster than the Nifty, and only IT is offering support.",
   "detail": {
-   "leaders": "Autos in focus on September sales (M&M)",
-   "laggards": "Hospitals (Apollo, Max), heavyweights",
-   "tone": "The Nifty has trimmed its pre-open loss of about 0.8% to roughly 0.4%, but there is no real dip-buying ahead of the three-day break.",
+   "leaders": "IT",
+   "laggards": "Autos (Bajaj Auto), hospitals (Apollo, Max), smallcaps (MRPL, Welspun Corp)",
+   "tone": "The Nifty is holding a smaller loss than at the open, but breadth is weak as broader indices lag.",
    "watch": [
     "Maruti and Tata Motors sales numbers",
-    "A break below 22,400, flagged by IIFL as a risk level",
-    "Crude moves on Iran headlines"
+    "Whether IT can lift the benchmark into the long weekend",
+    "Crude moves on West Asia supply headlines"
    ],
    "src": {
-    "title": "Kotak Neo",
-    "url": "https://www.kotakneo.com/news/market-news/stock-market-update-1-october-2026-sensex-nifty/"
+    "title": "Business Standard live",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
    }
   }
  },
  "insights": [
   {
+   "key": "bajaj-auto",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Bajaj Auto top Nifty loser on domestic slump",
+   "line": "Domestic sales fell 9% to 2,94,456 units; total growth of 5% missed the 13% estimate",
+   "more": [
+    "Exports jumped 32% to 2,43,987 units",
+    "Domestic two-wheelers fell 12%; three-wheelers rose 9%",
+    "Nifty Auto is the weakest sector"
+   ],
+   "src": {
+    "title": "RetailIntel",
+    "url": "https://retailintel.in/signal/bajaj-auto-s-domestic-sales-fall-9-in-september-as-exports-l-8f2d1f9b"
+   },
+   "date": "2026-10-01",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "1030"
+   }
+  },
+  {
    "key": "auto-sales",
    "tag": "Macro",
    "impact": "pos",
-   "title": "M&M sales up 15%; Bajaj Auto up 5%",
-   "line": "M&M sold 1,14,874 vehicles in September; Bajaj Auto's total rose to 5,38,443 units",
+   "title": "Hyundai posts its best month ever",
+   "line": "Hyundai Motor India sold a record 77,916 units in September",
    "more": [
-    "M&M SUV volumes rose 14% to 64,092 units",
-    "Bajaj Auto sold 5,10,504 units a year earlier",
-    "Maruti is estimated at about 2.38 lakh units vs 1.89 lakh a year ago"
+    "M&M was up 15% earlier, at 1,14,874 vehicles",
+    "Maruti and Tata Motors are yet to report"
    ],
    "src": {
     "title": "Upstox auto sales live",
     "url": "https://upstox.com/news/market-news/stocks/september-auto-sales-2026-live-updates-tata-motors-pv-maruti-suzuki-mahindra-and-mahindra-bajaj-auto-hyundai-eicher-force-tvs-hero-motocorp-share-price/liveblog-201159/"
    },
    "date": "2026-10-01",
-   "slot": "1000",
-   "when": "10:00",
+   "slot": "1030",
+   "when": "10:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "post"
+   }
+  },
+  {
+   "key": "smallcap-losers",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "MRPL, Welspun Corp lead smallcap losses",
+   "line": "Refiner MRPL and pipe maker Welspun Corp are the biggest drags among smallcaps",
+   "more": [
+    "Welspun Corp had jumped 5% on Sep 25 after its US arm won a ₹4,000 cr order",
+    "Smallcaps are underperforming the Nifty this morning"
+   ],
+   "src": {
+    "title": "Business Standard live",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
+   },
+   "date": "2026-10-01",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "1030"
    }
   },
   {
@@ -75,7 +123,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1000"
@@ -99,7 +147,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1230"
