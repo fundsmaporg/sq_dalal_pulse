@@ -1,37 +1,110 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-01T15:32:52+05:30",
+ "generated_at": "2026-10-01T16:02:17+05:30",
  "date": "2026-10-01",
- "slot": "1530",
- "slot_label": "15:30",
- "stage": "Closing mood",
- "asof": "2026-10-01T15:30:00+05:30",
+ "slot": "post",
+ "slot_label": "Close",
+ "stage": "Post-market mood",
+ "asof": "2026-10-01T16:00:00+05:30",
  "nifty": {
-  "value": 22308,
-  "pct": -1.38,
-  "chg": -312.45,
-  "approx": true
+  "value": 22421.95,
+  "pct": -0.88,
+  "chg": -198.5,
+  "approx": false
  },
  "mood": {
-  "label": "Weak finish",
-  "score": -0.7,
-  "summary": "The session is closing deep in the red after a broad afternoon sell-off; the indices are ending a holiday-shortened week near 2026 lows, with official closing figures still awaited.",
+  "label": "Bruised close",
+  "score": -0.55,
+  "summary": "Stocks ended a volatile session lower for a fourth straight day but well off the lows, as late short-covering trimmed losses ahead of the long weekend.",
   "detail": {
-   "leaders": "Banks, IT (relative)",
-   "laggards": "Autos, realty, FMCG, metals",
-   "tone": "Losses stayed near the day's lows through the afternoon in what is set to be the fourth straight losing session before a three-day break.",
+   "leaders": "IT (Mphasis, Coforge, Infosys)",
+   "laggards": "Autos, media, metals, FMCG; Bajaj Auto, Maruti, Shriram Finance",
+   "tone": "A late recovery pulled the Sensex about 600 pts off its low and the Nifty back above 22,400, but the trend stays weak heading into the three-day break.",
    "watch": [
-    "FII/DII provisional data after 5 pm",
-    "Weekend crude and West Asia news",
-    "RBI MPC that starts Oct 5"
+    "Weekend crude and US-Iran news",
+    "FII provisional data for today",
+    "RBI MPC starting Monday, Oct 5"
    ],
    "src": {
-    "title": "Kotak Neo",
-    "url": "https://www.kotakneo.com/share-market-today/"
+    "title": "Business Standard",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "auto-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Autos end 3% lower on sales disappointment",
+   "line": "Bajaj Auto and Maruti were the top Nifty losers despite strong industry volumes",
+   "more": [
+    "Nifty Auto fell about 3% at the close after a 4% intraday drop",
+    "Shriram Finance was also among the biggest losers",
+    "Media, metal and FMCG were the other weakest sectors"
+   ],
+   "src": {
+    "title": "Business Standard",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
+   },
+   "date": "2026-10-01",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "rbi-policy",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Rate-hike worries frame Monday's reopen",
+   "line": "Firm energy prices, bond yield volatility and rate-hike fears drove a fourth day of losses",
+   "more": [
+    "The RBI MPC meets Oct 5–7; the decision is due Oct 7",
+    "Markets are shut Friday for Gandhi Jayanti"
+   ],
+   "src": {
+    "title": "Business Standard",
+    "url": "https://www.business-standard.com/amp/markets/news/why-are-markets-falling-today-sensex-crashes-1-000-pts-intraday-hits-2026-low-nifty-at-22-300-126100100568_1.html"
+   },
+   "date": "2026-10-01",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "it-stocks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT stands out as the only bright spot",
+   "line": "Nifty IT was the best sector, helped by easing US rate-hike bets and Q2 positioning",
+   "more": [
+    "Mphasis, Coforge and Infosys led the morning gains",
+    "Tech Mahindra board meets Oct 15 on Q2 results and a bonus"
+   ],
+   "src": {
+    "title": "Business Standard",
+    "url": "https://www.business-standard.com/markets/news/nifty-it-defies-market-weakness-rises-2-mphasis-coforge-tcs-lead-126100100335_1.html"
+   },
+   "date": "2026-10-01",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1000"
+   }
+  },
   {
    "key": "nine-month-slump",
    "tag": "Macro",
@@ -50,7 +123,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1500"
@@ -74,7 +147,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1530"
@@ -98,7 +171,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "pre"
@@ -174,30 +247,6 @@
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "rbi-policy",
-   "tag": "Policy",
-   "impact": "neg",
-   "title": "Rate-hike fears for October MPC weigh",
-   "line": "Analysts cite fears of an RBI rate hike at the Oct 5–7 meet as a key trigger",
-   "more": [
-    "The rate decision is due on October 7",
-    "High crude prices and FII selling are also cited"
-   ],
-   "src": {
-    "title": "Business Standard",
-    "url": "https://www.business-standard.com/amp/markets/news/why-are-markets-falling-today-sensex-crashes-1-000-pts-intraday-hits-2026-low-nifty-at-22-300-126100100568_1.html"
-   },
-   "date": "2026-10-01",
-   "slot": "1430",
-   "when": "14:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "post"
    }
   },
   {
@@ -298,30 +347,6 @@
    }
   },
   {
-   "key": "auto-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Auto, realty and FMCG lead the slump",
-   "line": "Sector selling broadens beyond autos as the Sensex sinks more than 1,000 pts",
-   "more": [
-    "Realty and FMCG have joined autos among the biggest decliners",
-    "Over ₹8 trillion of investor wealth has been wiped out"
-   ],
-   "src": {
-    "title": "Business Standard live",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
-   },
-   "date": "2026-10-01",
-   "slot": "1400",
-   "when": "14:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1330"
-   }
-  },
-  {
    "key": "bel",
    "tag": "Stocks",
    "impact": "neg",
@@ -392,31 +417,6 @@
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "it-stocks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT rallies 2% as Fed hike bets fade",
-   "line": "Mphasis +4.4%, Coforge +3.9% and Infosys +2.4% lead; nine of ten Nifty IT stocks are up",
-   "more": [
-    "Odds of a near-term US rate hike fell to 44% from nearly 70%",
-    "Buying ahead of Q2 results and Accenture's earnings",
-    "TCS +1.7%, HCL Tech +1.6%, Tech Mahindra +1.4%"
-   ],
-   "src": {
-    "title": "Business Standard",
-    "url": "https://www.business-standard.com/markets/news/nifty-it-defies-market-weakness-rises-2-mphasis-coforge-tcs-lead-126100100335_1.html"
-   },
-   "date": "2026-10-01",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
    }
   },
   {
