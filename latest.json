@@ -1,37 +1,112 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-01T11:33:21+05:30",
+ "generated_at": "2026-10-01T12:02:35+05:30",
  "date": "2026-10-01",
- "slot": "1130",
- "slot_label": "11:30",
+ "slot": "1200",
+ "slot_label": "12:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-01T11:30:00+05:30",
+ "asof": "2026-10-01T12:00:00+05:30",
  "nifty": {
   "value": 22565.1,
   "pct": -0.24,
   "chg": -55.35,
-  "approx": false
+  "approx": true
  },
  "mood": {
-  "label": "Banks steady",
-  "score": -0.15,
-  "summary": "The market is grinding sideways with a shallow loss; private banks are steadying the Sensex, which is barely in the red, while the Nifty lags.",
+  "label": "Stuck in range",
+  "score": -0.1,
+  "summary": "Indices are stuck in a tight range near the morning's levels: a strong IT rally is offsetting auto and hospital weakness, and the Sensex is barely below flat.",
   "detail": {
-   "leaders": "Private banks (index up ~1%), IT, fresh listings",
-   "laggards": "Bajaj Auto, hospitals",
-   "tone": "Losses keep shrinking: the Nifty has moved up from its 22,543.70 open, and bank buying has nearly erased the Sensex's fall.",
+   "leaders": "IT (Mphasis, Coforge, Infosys), private banks",
+   "laggards": "Autos (Bajaj Auto), hospitals (Apollo, Max)",
+   "tone": "Range trade continues; sector rotation into IT and banks is cushioning the indices, but there is no broad buying before the long weekend.",
    "watch": [
-    "Whether private banks can pull the Nifty into the green",
     "Maruti and Tata Motors sales prints",
-    "Position squaring before the long weekend"
+    "Whether IT strength extends into the close",
+    "Crude and Hormuz headlines"
    ],
    "src": {
     "title": "Business Standard live",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "it-stocks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT rallies 2% as Fed hike bets fade",
+   "line": "Mphasis +4.4%, Coforge +3.9% and Infosys +2.4% lead; nine of ten Nifty IT stocks are up",
+   "more": [
+    "Odds of a near-term US rate hike fell to 44% from nearly 70%",
+    "Buying ahead of Q2 results and Accenture's earnings",
+    "TCS +1.7%, HCL Tech +1.6%, Tech Mahindra +1.4%"
+   ],
+   "src": {
+    "title": "Business Standard",
+    "url": "https://www.business-standard.com/markets/news/nifty-it-defies-market-weakness-rises-2-mphasis-coforge-tcs-lead-126100100335_1.html"
+   },
+   "date": "2026-10-01",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "mfg-pmi",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Manufacturing PMI hits 7-month high of 55.1",
+   "line": "September PMI rebounded from August's five-year low of 52.8, though below the 55.7 flash",
+   "more": [
+    "Demand rose for electronics, food, pharma and textiles",
+    "Export orders rose faster; hiring was the strongest since May",
+    "Business confidence hit a four-month high"
+   ],
+   "src": {
+    "title": "Business Standard",
+    "url": "https://www.business-standard.com/amp/economy/news/india-s-manufacturing-pmi-rises-to-55-1-in-september-hits-7-month-high-126100100299_1.html"
+   },
+   "date": "2026-10-01",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "auto-sales",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Royal Enfield posts record 1.34 lakh units",
+   "line": "Eicher's Royal Enfield sold 1,33,958 motorcycles in September, up 8% YoY",
+   "more": [
+    "April–September sales rose 20% to 7,09,096 units",
+    "International sales rose 17% in September",
+    "Maruti and Tata Motors are still due"
+   ],
+   "src": {
+    "title": "Whalesbook",
+    "url": "https://www.whalesbook.com/corporate-news/English/auto/Eicher-Motors-Reports-Record-September-Sales-of-133-Lakh-Motorcycles/6abdf3e880ecbb8a5f1aa654"
+   },
+   "date": "2026-10-01",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "post"
+   }
+  },
   {
    "key": "moneyview-listing",
    "tag": "Listing",
@@ -51,7 +126,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1130"
@@ -75,7 +150,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1130"
@@ -99,7 +174,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1230"
@@ -127,31 +202,6 @@
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "auto-sales",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "Auto sales mixed against estimates so far",
-   "line": "M&M's 15% growth beat Jefferies' 9–10% estimate; Bajaj's 5% missed its 15–17% call",
-   "more": [
-    "Jefferies expects 25–27% growth for Ashok Leyland and Tata Motors PV",
-    "TVS is estimated at 6.45 lakh units, up about 19%",
-    "Escorts Kubota tractors are seen down about 8.6%"
-   ],
-   "src": {
-    "title": "Zee Business",
-    "url": "https://www.zeebiz.com/automobile/news-september-auto-sales-why-could-maruti-tata-motors-ashok-leyland-tvs-report-higher-volumes-403099/amp"
-   },
-   "date": "2026-10-01",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "post"
    }
   },
   {
@@ -749,30 +799,6 @@
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "it-stocks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Mid-tier IT leads a 2% jump in Nifty IT",
-   "line": "Nifty IT climbs to about 28,235 ahead of Q2 results; Coforge and OFSS lead the midcaps",
-   "more": [
-    "Mid-tier firms are converting deals better than the large caps",
-    "Persistent is expected to lead Q2 growth (about 7%), ahead of Coforge and Mphasis"
-   ],
-   "src": {
-    "title": "Whalesbook — Nifty IT rises as mid-caps outperform large players",
-    "url": "https://www.whalesbook.com/news/English/brokerage-reports/Nifty-IT-Rises-As-Mid-Caps-Outperform-Large-Players/6abc99455aacb956d085b0bb"
-   },
-   "date": "2026-09-30",
-   "slot": "1100",
-   "when": "Wed · 11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
    }
   },
   {
