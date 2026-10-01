@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-01T13:32:49+05:30",
+ "generated_at": "2026-10-01T14:02:06+05:30",
  "date": "2026-10-01",
- "slot": "1330",
- "slot_label": "13:30",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-01T13:30:00+05:30",
+ "asof": "2026-10-01T14:00:00+05:30",
  "nifty": {
-  "value": 22324.65,
-  "pct": -1.31,
-  "chg": -295.8,
+  "value": 22266.35,
+  "pct": -1.57,
+  "chg": -354.1,
   "approx": false
  },
  "mood": {
-  "label": "Selling accelerates",
-  "score": -0.75,
-  "summary": "Selling has turned into a rout: the Sensex fell more than 800 pts to a new 2026 low and the Nifty broke below 22,400 for the first time since April 2.",
+  "label": "Rout deepens",
+  "score": -0.85,
+  "summary": "The sell-off has deepened: the Sensex is down over 1,000 pts and the Nifty is off about 1.6%, with over ₹8 trillion of market value wiped out ahead of the long weekend.",
   "detail": {
-   "leaders": "IT holding up relatively",
-   "laggards": "Autos (Nifty Auto −4%), metals, realty, FMCG",
-   "tone": "The drift turned into a sharp slide after 1 pm. The Nifty's loss has more than doubled from the noon level as sellers exit before the three-day break.",
+   "leaders": "Few; IT relatively resilient",
+   "laggards": "Autos, realty, FMCG, metals",
+   "tone": "Losses have widened further from 1:30 as rising oil adds to FII-led selling; there is no sign of dip-buying before the three-day break.",
    "watch": [
-    "Whether the Nifty finds support near 22,222",
-    "FII provisional data after the close",
-    "Crude and US yields over the long weekend"
+    "Whether the Nifty holds the 22,222 support",
+    "Brent breaking above $100",
+    "Closing-hour short covering"
    ],
    "src": {
     "title": "Business Standard live",
@@ -33,52 +33,76 @@
  },
  "insights": [
   {
-   "key": "auto-selloff",
-   "tag": "Stocks",
+   "key": "crude",
+   "tag": "Global",
    "impact": "neg",
-   "title": "Auto index tanks 4% despite strong sales",
-   "line": "Bajaj Auto and M&M lead a sector rout as traders sell into the September numbers",
+   "title": "Brent climbs back toward $100",
+   "line": "Oil reverses its morning dip as West Asia tensions persist, hitting Indian equities",
    "more": [
-    "Nifty Auto is the worst sector, down about 4%",
-    "Maruti and M&M are among the top Sensex losers",
-    "Bajaj's 9% domestic sales drop set the tone this morning"
+    "Brent was near $96.76 earlier in the day",
+    "Higher oil hurts India's import bill and the rupee",
+    "US-Iran talks on reopening Hormuz remain unresolved"
    ],
    "src": {
     "title": "Business Standard live",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
    },
    "date": "2026-10-01",
-   "slot": "1330",
-   "when": "13:30",
-   "updated": false,
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
    "is_new": true,
    "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1330"
+    "date": "2026-09-23",
+    "slot": "1230"
    }
   },
   {
    "key": "auto-sales",
    "tag": "Macro",
    "impact": "watch",
-   "title": "Maruti sales jump 24% to 2.36 lakh units",
-   "line": "Maruti sold 2,36,013 units in September vs 1,89,665 a year ago",
+   "title": "Tata Motors PV sales rise 15% to 70,210",
+   "line": "Tata PV beat the ~67,000 estimate; Q2 volumes jumped 40% to 2,01,723 units",
    "more": [
-    "Domestic 1,85,252; exports 44,219; other OEMs 6,542",
-    "Strong volumes have not stopped the auto selling"
+    "Tata Motors PV shares fell 2.2% to ₹277.40",
+    "Strong numbers across carmakers have not stopped the auto rout"
    ],
    "src": {
     "title": "Upstox auto sales live",
     "url": "https://upstox.com/news/market-news/stocks/september-auto-sales-2026-live-updates-tata-motors-pv-maruti-suzuki-mahindra-and-mahindra-bajaj-auto-hyundai-eicher-force-tvs-hero-motocorp-share-price/liveblog-201159/"
    },
    "date": "2026-10-01",
-   "slot": "1330",
-   "when": "13:30",
+   "slot": "1400",
+   "when": "14:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "post"
+   }
+  },
+  {
+   "key": "auto-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Auto, realty and FMCG lead the slump",
+   "line": "Sector selling broadens beyond autos as the Sensex sinks more than 1,000 pts",
+   "more": [
+    "Realty and FMCG have joined autos among the biggest decliners",
+    "Over ₹8 trillion of investor wealth has been wiped out"
+   ],
+   "src": {
+    "title": "Business Standard live",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
+   },
+   "date": "2026-10-01",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "1330"
    }
   },
   {
@@ -99,7 +123,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -299,30 +323,6 @@
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Brent slips 1.3% to $96.76",
-   "line": "Oil eases as US-Iran negotiations show signs of movement",
-   "more": [
-    "Brent had risen more than 8% in September",
-    "Cheaper crude helps India's import bill and the rupee"
-   ],
-   "src": {
-    "title": "Trading Economics",
-    "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
-   },
-   "date": "2026-10-01",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
    }
   },
   {
