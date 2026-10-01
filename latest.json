@@ -1,28 +1,28 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-01T12:33:12+05:30",
+ "generated_at": "2026-10-01T13:02:43+05:30",
  "date": "2026-10-01",
- "slot": "1230",
- "slot_label": "12:30",
+ "slot": "1300",
+ "slot_label": "13:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-01T12:30:00+05:30",
+ "asof": "2026-10-01T13:00:00+05:30",
  "nifty": {
-  "value": 22495,
-  "pct": -0.55,
+  "value": 22480,
+  "pct": -0.62,
   "approx": true
  },
  "mood": {
-  "label": "Slipping lower",
-  "score": -0.45,
-  "summary": "Selling has picked up after midday: the Sensex hit its day's low, about 300 pts down, and the Nifty slipped below 22,500 as autos and metals dragged.",
+  "label": "Lows extend",
+  "score": -0.5,
+  "summary": "Weakness has deepened into the afternoon: the Sensex is at its day's low, about 400 pts down, and the Nifty is holding below 22,500 as autos and metals weigh.",
   "detail": {
-   "leaders": "IT, Kotak Bank, HDFC Life",
-   "laggards": "Metals (Tata Steel), autos (M&M, Maruti), UltraTech",
-   "tone": "The morning range broke to the downside after 12 pm, and the IT and bank cushion is no longer holding the indices.",
+   "leaders": "Kotak Bank, IT, HDFC Life",
+   "laggards": "Autos (M&M, Maruti, Bajaj Auto), metals, UltraTech, BEL",
+   "tone": "Losses widened from the 12:30 update as sellers pressed into the long weekend; IT and Kotak are the only notable support.",
    "watch": [
-    "Whether the Nifty holds 22,400, flagged as the next risk level",
-    "Maruti's sales print",
-    "Crude and dollar moves on West Asia news"
+    "Whether the Nifty breaks 22,400",
+    "Maruti and Tata Motors sales prints",
+    "Late short-covering before the three-day break"
    ],
    "src": {
     "title": "Business Standard live",
@@ -31,6 +31,78 @@
   }
  },
  "insights": [
+  {
+   "key": "auto-sales",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Hyundai record split: domestic up 10.9%",
+   "line": "Hyundai sold 57,166 units at home and exported 20,750 (+10.4%); total up 10.8% YoY",
+   "more": [
+    "Auto stocks are still the top drag despite record volumes",
+    "Maruti and Tata Motors PV numbers are still awaited"
+   ],
+   "src": {
+    "title": "Upstox auto sales live",
+    "url": "https://upstox.com/news/market-news/stocks/september-auto-sales-2026-live-updates-tata-motors-pv-maruti-suzuki-mahindra-and-mahindra-bajaj-auto-hyundai-eicher-force-tvs-hero-motocorp-share-price/liveblog-201159/"
+   },
+   "date": "2026-10-01",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "private-banks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Kotak Bank jumps over 3%",
+   "line": "Kotak Mahindra Bank is a top Nifty gainer, cushioning the financials",
+   "more": [
+    "HDFC Life is up about 1.6%",
+    "Infosys and HCL Tech are also among the top gainers"
+   ],
+   "src": {
+    "title": "Sunday Guardian",
+    "url": "https://sundayguardianlive.com/business/sensex-today-october-1-index-falls-120-points-as-fii-selling-global-cues-weigh-on-markets-bajaj-auto-mm-lead-losses-while-kotak-mahindra-bank-it-stocks-gain-what-investors-should-watch-296364/"
+   },
+   "date": "2026-10-01",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "bel",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "BEL among Sensex laggards",
+   "line": "Bharat Electronics fell about 1.6% to ₹383.50 by mid-morning",
+   "more": [
+    "Its trading window is closed until 48 hours after Q2 results",
+    "It had closed at ₹389.85 on Wednesday"
+   ],
+   "src": {
+    "title": "Business Standard",
+    "url": "https://www.business-standard.com/markets/bharat-electronics-ltd-share-price-2298.html"
+   },
+   "date": "2026-10-01",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "1300"
+   }
+  },
   {
    "key": "metals-slide",
    "tag": "Stocks",
@@ -50,34 +122,10 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "auto-sales",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Maruti, M&M slide as auto drag deepens",
-   "line": "Maruti fell 2.3% to ₹11,687 ahead of its September sales; M&M is among the top losers",
-   "more": [
-    "M&M is falling despite reporting 15% volume growth",
-    "Autos and metals are the market's biggest drags"
-   ],
-   "src": {
-    "title": "Upstox auto sales live",
-    "url": "https://upstox.com/news/market-news/stocks/september-auto-sales-2026-live-updates-tata-motors-pv-maruti-suzuki-mahindra-and-mahindra-bajaj-auto-hyundai-eicher-force-tvs-hero-motocorp-share-price/liveblog-201159/"
-   },
-   "date": "2026-10-01",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "post"
    }
   },
   {
@@ -98,7 +146,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1230"
@@ -201,30 +249,6 @@
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "private-banks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Private banks rally about 1%",
-   "line": "The Nifty Private Bank index is up about 1%, limiting the benchmark's losses",
-   "more": [
-    "Bank buying has left the Sensex nearly flat",
-    "Private banks also led sectors on Wednesday"
-   ],
-   "src": {
-    "title": "Business Standard live",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
-   },
-   "date": "2026-10-01",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "1230"
    }
   },
   {
