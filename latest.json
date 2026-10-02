@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-01T16:02:17+05:30",
- "date": "2026-10-01",
- "slot": "post",
- "slot_label": "Close",
- "stage": "Post-market mood",
- "asof": "2026-10-01T16:00:00+05:30",
+ "generated_at": "2026-10-02T08:33:24+05:30",
+ "date": "2026-10-02",
+ "slot": "pre",
+ "slot_label": "Pre-open",
+ "stage": "Pre-market mood",
+ "asof": "2026-10-02T08:30:00+05:30",
  "nifty": {
   "value": 22421.95,
   "pct": -0.88,
@@ -13,17 +13,17 @@
   "approx": false
  },
  "mood": {
-  "label": "Bruised close",
-  "score": -0.55,
-  "summary": "Stocks ended a volatile session lower for a fourth straight day but well off the lows, as late short-covering trimmed losses ahead of the long weekend.",
+  "label": "Market closed",
+  "score": -0.4,
+  "summary": "Indian markets are shut today for Gandhi Jayanti; trading resumes Monday after four straight losing sessions left the Nifty near its lowest levels since April.",
   "detail": {
-   "leaders": "IT (Mphasis, Coforge, Infosys)",
-   "laggards": "Autos, media, metals, FMCG; Bajaj Auto, Maruti, Shriram Finance",
-   "tone": "A late recovery pulled the Sensex about 600 pts off its low and the Nifty back above 22,400, but the trend stays weak heading into the three-day break.",
+   "leaders": "IT was the only sector of note to gain on Thursday",
+   "laggards": "Autos, metals, media, FMCG",
+   "tone": "The market heads into a three-day break bruised: it trimmed late losses on Thursday, but FII selling and rate-hike fears remain unresolved.",
    "watch": [
-    "Weekend crude and US-Iran news",
-    "FII provisional data for today",
-    "RBI MPC starting Monday, Oct 5"
+    "RBI MPC outcome on Oct 7",
+    "Weekend crude and US-Iran Hormuz talks",
+    "FII flows when trading resumes Monday"
    ],
    "src": {
     "title": "Business Standard",
@@ -32,6 +32,103 @@
   }
  },
  "insights": [
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "FIIs sell ₹9,484 cr; DIIs buy ₹10,042 cr",
+   "line": "Heavy foreign selling continued on Oct 1, with FIIs also deeply short index futures",
+   "more": [
+    "FIIs hold a net short of 3,10,174 index-futures contracts",
+    "DIIs more than absorbed the cash selling (net +₹558 cr)",
+    "The figures are provisional"
+   ],
+   "src": {
+    "title": "5paisa FII/DII data",
+    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
+   },
+   "date": "2026-10-02",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-24",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "rbi-policy",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "RBI MPC meets Mon–Wed; decision Oct 7",
+   "line": "Inflation is at 4.82% and the rupee is past 96/$; the Governor's tone will be key",
+   "more": [
+    "Rate-hike fears were cited for Thursday's sell-off",
+    "Banks, realty and autos are most sensitive to the commentary"
+   ],
+   "src": {
+    "title": "GoPocket",
+    "url": "https://www.gopocket.in/news/rbi-policy-october-2026-repo-rate-inflation-emi-outlook"
+   },
+   "date": "2026-10-02",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "us-futures",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Wall Street edges up as yields retreat",
+   "line": "The S&P 500 rose 0.19% to 7,666.45 as Treasury yields eased from 20-year highs",
+   "more": [
+    "Dow +0.04% to 50,926.56; Nasdaq +0.04%",
+    "Chip and AI stocks led the late recovery"
+   ],
+   "src": {
+    "title": "TheStreet",
+    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-01-2026"
+   },
+   "date": "2026-10-02",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "1530"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Brent near $97 with Hormuz talks unresolved",
+   "line": "Brent fell 1.3% to $96.76 on Oct 1, but supply is expected to stay tight through Q4",
+   "more": [
+    "Iran has received a US proposal on reopening Hormuz",
+    "US sanctions on Iranian oil remain in place"
+   ],
+   "src": {
+    "title": "Trading Economics",
+    "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+   },
+   "date": "2026-10-02",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-24",
+    "slot": "pre"
+   }
+  },
   {
    "key": "auto-selloff",
    "tag": "Stocks",
@@ -49,36 +146,12 @@
    },
    "date": "2026-10-01",
    "slot": "post",
-   "when": "Close",
+   "when": "Thu · Close",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1330"
-   }
-  },
-  {
-   "key": "rbi-policy",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Rate-hike worries frame Monday's reopen",
-   "line": "Firm energy prices, bond yield volatility and rate-hike fears drove a fourth day of losses",
-   "more": [
-    "The RBI MPC meets Oct 5–7; the decision is due Oct 7",
-    "Markets are shut Friday for Gandhi Jayanti"
-   ],
-   "src": {
-    "title": "Business Standard",
-    "url": "https://www.business-standard.com/amp/markets/news/why-are-markets-falling-today-sensex-crashes-1-000-pts-intraday-hits-2026-low-nifty-at-22-300-126100100568_1.html"
-   },
-   "date": "2026-10-01",
-   "slot": "post",
-   "when": "Close",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "post"
    }
   },
   {
@@ -97,9 +170,9 @@
    },
    "date": "2026-10-01",
    "slot": "post",
-   "when": "Close",
+   "when": "Thu · Close",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
@@ -121,36 +194,12 @@
    },
    "date": "2026-10-01",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Thu · 15:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1500"
-   }
-  },
-  {
-   "key": "us-futures",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "US stocks firmer as India sells off",
-   "line": "The US500 gauge rose about 0.6% to near 7,696 on October 1",
-   "more": [
-    "The softer US PCE inflation reading is still supporting risk appetite abroad",
-    "A steady global tone could limit a gap-down when India reopens on Monday"
-   ],
-   "src": {
-    "title": "Trading Economics",
-    "url": "https://tradingeconomics.com/united-states/stock-market"
-   },
-   "date": "2026-10-01",
-   "slot": "1530",
-   "when": "15:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1530"
    }
   },
   {
@@ -169,7 +218,7 @@
    },
    "date": "2026-10-01",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Thu · 15:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -193,36 +242,12 @@
    },
    "date": "2026-10-01",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Thu · 15:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1500"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "FIIs dumped about ₹44,000 cr in September",
-   "line": "The month's heavy foreign selling is cited as a core reason for today's slide",
-   "more": [
-    "Analysts also cite a liquidity squeeze from IPO supply",
-    "Rate-hike fears ahead of the RBI meeting add pressure"
-   ],
-   "src": {
-    "title": "Business Standard",
-    "url": "https://www.business-standard.com/amp/markets/news/why-are-markets-falling-today-sensex-crashes-1-000-pts-intraday-hits-2026-low-nifty-at-22-300-126100100568_1.html"
-   },
-   "date": "2026-10-01",
-   "slot": "1500",
-   "when": "15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
    }
   },
   {
@@ -241,7 +266,7 @@
    },
    "date": "2026-10-01",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Thu · 15:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -265,7 +290,7 @@
    },
    "date": "2026-10-01",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Thu · 14:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -289,36 +314,11 @@
    },
    "date": "2026-10-01",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Thu · 14:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent climbs back toward $100",
-   "line": "Oil reverses its morning dip as West Asia tensions persist, hitting Indian equities",
-   "more": [
-    "Brent was near $96.76 earlier in the day",
-    "Higher oil hurts India's import bill and the rupee",
-    "US-Iran talks on reopening Hormuz remain unresolved"
-   ],
-   "src": {
-    "title": "Business Standard live",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
-   },
-   "date": "2026-10-01",
-   "slot": "1400",
-   "when": "14:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
     "slot": "1230"
    }
   },
@@ -338,7 +338,7 @@
    },
    "date": "2026-10-01",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Thu · 14:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -362,7 +362,7 @@
    },
    "date": "2026-10-01",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Thu · 13:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -387,7 +387,7 @@
    },
    "date": "2026-10-01",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Thu · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -411,7 +411,7 @@
    },
    "date": "2026-10-01",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Thu · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -436,7 +436,7 @@
    },
    "date": "2026-10-01",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Thu · 12:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -461,7 +461,7 @@
    },
    "date": "2026-10-01",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Thu · 11:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -485,7 +485,7 @@
    },
    "date": "2026-10-01",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Thu · 11:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -509,7 +509,7 @@
    },
    "date": "2026-10-01",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Thu · 11:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -534,7 +534,7 @@
    },
    "date": "2026-10-01",
    "slot": "1030",
-   "when": "10:30",
+   "when": "Thu · 10:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -558,7 +558,7 @@
    },
    "date": "2026-10-01",
    "slot": "1030",
-   "when": "10:30",
+   "when": "Thu · 10:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -582,7 +582,7 @@
    },
    "date": "2026-10-01",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Thu · 10:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -606,7 +606,7 @@
    },
    "date": "2026-10-01",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Thu · 10:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -630,7 +630,7 @@
    },
    "date": "2026-10-01",
    "slot": "0930",
-   "when": "9:30",
+   "when": "Thu · 9:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -654,7 +654,7 @@
    },
    "date": "2026-10-01",
    "slot": "0930",
-   "when": "9:30",
+   "when": "Thu · 9:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -678,7 +678,7 @@
    },
    "date": "2026-10-01",
    "slot": "0930",
-   "when": "9:30",
+   "when": "Thu · 9:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -702,7 +702,7 @@
    },
    "date": "2026-10-01",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Thu · Pre-open",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -1966,8 +1966,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-23",
-    "slot": "post"
+    "date": "2026-09-24",
+    "slot": "pre"
    }
   },
   {
@@ -2778,100 +2778,6 @@
    "first_seen": {
     "date": "2026-09-24",
     "slot": "pre"
-   }
-  },
-  {
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Metals rally: Tata Steel, Hindalco lead",
-   "line": "Nifty Metal +2%, the best sector of the day",
-   "more": [
-    "Bajaj Finance also among the top Nifty gainers"
-   ],
-   "src": {
-    "title": "Business Standard — Sep 23 close",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty-gift-nifty-brent-crude-oil-price-russia-war-jindal-supreme-share-price-september-23-126092300112_1.html"
-   },
-   "key": "metals-rally",
-   "date": "2026-09-23",
-   "slot": "post",
-   "when": "Wed · Close",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "post"
-   }
-  },
-  {
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "PMI strength backs domestic story",
-   "line": "September flash PMI 56.5 vs 54.3",
-   "more": [
-    "Reinforces confidence in India’s economic resilience"
-   ],
-   "src": {
-    "title": "Business Standard — Sep 23 close",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty-gift-nifty-brent-crude-oil-price-russia-war-jindal-supreme-share-price-september-23-126092300112_1.html"
-   },
-   "key": "pmi",
-   "date": "2026-09-23",
-   "slot": "post",
-   "when": "Wed · Close",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
-   }
-  },
-  {
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IDFC First hits 52-week high on upgrade",
-   "line": "MOSL upgrades to Buy; stock +3% to ₹87.77",
-   "more": [
-    "Among top gainers in the Nifty Midcap 100",
-    "Bajaj Finance +2.1% after UBS upgrade to Neutral"
-   ],
-   "src": {
-    "title": "Business Standard — Market LIVE, Sep 23",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-nse-bse-sensex-today-nifty-gift-nifty-brent-crude-oil-price-russia-war-jindal-supreme-share-price-september-23-126092300112_1.html"
-   },
-   "key": "idfc-upgrade",
-   "date": "2026-09-23",
-   "slot": "1230",
-   "when": "Wed · 12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
-   }
-  },
-  {
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Arvind SmartSpaces +10.8% on bookings",
-   "line": "Bengaluru project crosses ₹500 cr in 30 days",
-   "more": [
-    "About 60% of inventory sold by value",
-    "Persistent Systems now owns 83.25% of Nagarro, plans Frankfurt delisting"
-   ],
-   "src": {
-    "title": "Angel One — Stocks to watch",
-    "url": "https://www.angelone.in/news/market-updates/stocks-to-watch-today-persistent-systems-irb-infrastructure-allcargo-and-others-september-23-2026"
-   },
-   "key": "arvind-smart",
-   "date": "2026-09-23",
-   "slot": "1230",
-   "when": "Wed · 12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-23",
-    "slot": "1230"
    }
   }
  ]
