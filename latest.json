@@ -1,37 +1,109 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-05T10:03:53+05:30",
+ "generated_at": "2026-10-05T10:33:26+05:30",
  "date": "2026-10-05",
- "slot": "1000",
- "slot_label": "10:00",
- "stage": "Opening mood",
- "asof": "2026-10-05T10:00:00+05:30",
+ "slot": "1030",
+ "slot_label": "10:30",
+ "stage": "Mid-market mood",
+ "asof": "2026-10-05T10:30:00+05:30",
  "nifty": {
-  "value": 22543.65,
-  "pct": 0.54,
-  "chg": 121.7,
-  "approx": false
+  "value": 22610,
+  "pct": 0.8,
+  "approx": true
  },
  "mood": {
-  "label": "Steady gains",
-  "score": 0.35,
-  "summary": "Gains are holding at around 0.5% after the gap-up open; buying is broad, with IT and banking heavyweights leading.",
+  "label": "Rally widens",
+  "score": 0.5,
+  "summary": "The rally has widened, with the Sensex up more than 600 pts as midcaps join in, though Snapdeal's weak debut shows IPO appetite remains selective.",
   "detail": {
-   "leaders": "Infosys, HDFC Bank, Bajaj Finance",
-   "laggards": "RVNL",
-   "tone": "The open's momentum is steady rather than extending; traders are holding gains but staying cautious before Wednesday's RBI decision.",
+   "leaders": "Financials (M&M Financial, Bajaj Finance), Kalyan Jewellers, IT",
+   "laggards": "Snapdeal (new listing), RVNL",
+   "tone": "Gains have built on the open's momentum, with midcap financials and consumer names now joining the large-cap rally.",
    "watch": [
-    "Brent holding above $100",
-    "Snapdeal's debut trade",
-    "RBI tone on Oct 7"
+    "Whether the Nifty can reclaim 22,700",
+    "Brent near $101",
+    "RBI decision on Wednesday"
    ],
    "src": {
-    "title": "Kotak Neo",
-    "url": "https://www.kotakneo.com/news/market-news/stock-market-update-5october-2026-sensex-nifty/"
+    "title": "Business Standard live",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-snapdeal-listing-today-rvnl-share-price-today-ipo-today-126100500057_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "snapdeal-listing",
+   "tag": "Listing",
+   "impact": "neg",
+   "title": "Snapdeal lists 11.5% below issue price",
+   "line": "AceVector opened at ₹28.32 on NSE and ₹28.30 on BSE versus the ₹32 IPO price",
+   "more": [
+    "The grey market had pointed to a small premium",
+    "The ₹420 cr issue had been subscribed 4.93 times"
+   ],
+   "src": {
+    "title": "RetailIntel",
+    "url": "https://retailintel.in/signal/acevector-snapdeal-s-parent-lists-at-rs-28-30-on-bse-11-56-b-2ea49b58"
+   },
+   "date": "2026-10-05",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "mm-financial",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "M&M Financial leads midcaps on Q2 update",
+   "line": "Q2 disbursements rose 22% YoY to ₹16,490 cr; collection efficiency improved to 97%",
+   "more": [
+    "Business assets are about ₹1,46,300 cr, up around 15% YoY",
+    "The liquidity chest is over ₹16,200 cr",
+    "Q2 results are due on October 21"
+   ],
+   "src": {
+    "title": "ScanX",
+    "url": "https://scanx.trade/stock-market-news/companies/m-m-financial-q2fy27-results-disbursements-rise-22-yoy-16-490-crore/52496182"
+   },
+   "date": "2026-10-05",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "kalyan-jewellers",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Kalyan Jewellers jumps about 4.5%",
+   "line": "The stock rose 4.47% to about ₹540 in early trade, among the top midcap gainers",
+   "more": [
+    "Market cap is about ₹54,581 cr",
+    "M&M Financial and Kalyan Jewellers top the midcap gainers"
+   ],
+   "src": {
+    "title": "INDmoney",
+    "url": "https://www.indmoney.com/stocks/kalyan-jewellers-india-ltd-share-price"
+   },
+   "date": "2026-10-05",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "1030"
+   }
+  },
   {
    "key": "dmart",
    "tag": "Stocks",
@@ -51,7 +123,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1000"
@@ -75,7 +147,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "pre"
@@ -99,7 +171,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1000"
@@ -151,30 +223,6 @@
    "first_seen": {
     "date": "2026-10-05",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "snapdeal-listing",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Snapdeal trading starts at 10 am",
-   "line": "A special pre-open session sets the price; grey market pointed to only ~1.9% above ₹32",
-   "more": [
-    "The grey market premium was 60 paise on Oct 4",
-    "The ₹420 cr issue was subscribed 4.93 times"
-   ],
-   "src": {
-    "title": "IPO Guru",
-    "url": "https://www.ipoguru.in/blog/acevector-ipo-listing-5-october-snapdeal"
-   },
-   "date": "2026-10-05",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-05",
-    "slot": "pre"
    }
   },
   {
