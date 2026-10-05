@@ -1,60 +1,108 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-05T13:02:43+05:30",
+ "generated_at": "2026-10-05T13:33:16+05:30",
  "date": "2026-10-05",
- "slot": "1300",
- "slot_label": "13:00",
+ "slot": "1330",
+ "slot_label": "13:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-05T13:00:00+05:30",
+ "asof": "2026-10-05T13:30:00+05:30",
  "nifty": {
-  "value": 22480,
-  "pct": 0.26,
+  "value": 22458.3,
+  "pct": 0.16,
+  "chg": 36.35,
   "approx": true
  },
  "mood": {
-  "label": "Range-bound",
-  "score": 0.05,
-  "summary": "Benchmarks are stuck in a narrow band just above Thursday's close into early afternoon, with midcaps still ahead of smallcaps and no fresh push from buyers.",
+  "label": "Gains fading",
+  "score": 0.0,
+  "summary": "The market keeps sliding off its morning peak and is clinging to a slim gain, with sellers active in heavyweights while midcaps hold up better than smallcaps.",
   "detail": {
    "leaders": "PSU banks, metals, oil & gas; Bajaj Finance, Shriram Finance, ITC",
-   "laggards": "IT, pharma, healthcare; autos",
-   "tone": "Little change from the previous note: the Nifty holds just under 22,500 after fading from its 22,621.80 morning high, with stock-specific action doing the work.",
+   "laggards": "IT, pharma, autos; HCLTech, Asian Paints, HDFC Bank",
+   "tone": "Weaker than the previous note: at 1 pm the Nifty was up just 0.16% at 22,458.30, and a later update put the Sensex about 700 points off its high.",
    "watch": [
-    "A move back above 22,500 vs a test of the 22,460.80 morning low",
-    "IT and pharma selling deepening into the close",
-    "Whether HDFC Bank recovers its early CEO-news gains"
+    "A break below the 22,460.80 morning low turning the day red",
+    "HDFC Bank selling spreading to other private lenders",
+    "IT and pharma weakness into the close"
    ],
    "src": {
     "title": "Business Standard: Stock Market LIVE, Oct 5",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-snapdeal-listing-today-rvnl-share-price-today-ipo-today-126100500057_1.html"
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-snapdeal-listing-today-rvnl-share-price-today-ipo-today-126100500057_1.html"
    }
   }
  },
  "insights": [
   {
-   "key": "hdfc-bank",
+   "key": "v2-retail",
    "tag": "Stocks",
-   "impact": "watch",
-   "title": "HDFC Bank fades despite new CEO clarity",
-   "line": "RBI clears Anup Bagchi as MD & CEO; early 2% gain gave way to selling by late morning",
+   "impact": "neg",
+   "title": "V2 Retail crashes 19% on guidance cut",
+   "line": "FY27 same-store sales growth guidance cut to 5-7% from 8-10%; stock at 52-week low",
    "more": [
-    "Bagchi, now ICICI Prudential Life CEO, takes charge Oct 27 for three years",
-    "Q2 gross advances ~₹32.19 lakh cr, up about 16.3% YoY",
-    "Deposits ₹33.27 lakh cr, up 18.8% YoY; CASA up 10.8%",
-    "Stock hit ₹734 early (+2%) before slipping into the red"
+    "Q2 FY27 standalone revenue up 28.4% YoY to ₹905 cr",
+    "Festival-adjusted SSSG just 0.5%; calendar SSSG -14.9% as Navratri moved to Q3",
+    "Biggest one-day fall since March 2020; down 33% year to date"
    ],
    "src": {
-    "title": "Upstox: HDFC Bank shares slip despite CEO clarity",
-    "url": "https://upstox.com/news/market-news/stocks/hdfc-bank-shares-in-focus-after-rbi-clears-anup-bagchi-as-next-ceo-q2-business-update-out/article-201239"
+    "title": "Business Standard: Why V2 Retail shed 19%; DMart slipped 4%",
+    "url": "https://www.business-standard.com/markets/news/here-s-why-v2-retail-stock-tanked-19-dmart-slipped-4-to-near-52-week-low-on-monday-126100500172_1.html"
    },
    "date": "2026-10-05",
-   "slot": "1300",
-   "when": "13:00",
+   "slot": "1330",
+   "when": "13:30",
    "updated": false,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-05",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "hdfc-bank",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "HDFC Bank erases CEO-news gains",
+   "line": "Shares fell as much as 2.8% to ₹701.25 after an early rise; among top Nifty drags",
+   "more": [
+    "The fall came despite RBI clearing Anup Bagchi as MD & CEO",
+    "HCLTech and Asian Paints are also among the Nifty's top losers"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE, Oct 5",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-snapdeal-listing-today-rvnl-share-price-today-ipo-today-126100500057_1.html"
+   },
+   "date": "2026-10-05",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
     "slot": "1300"
+   }
+  },
+  {
+   "key": "dmart",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "DMart slips 4% to near 52-week low",
+   "line": "Sellers ignored the 18.4% Q2 revenue growth as retail stocks came under pressure",
+   "more": [
+    "Fell alongside V2 Retail's 19% crash",
+    "Q2 revenue was ₹19,206 cr, up 18.4% YoY"
+   ],
+   "src": {
+    "title": "Business Standard: Why V2 Retail shed 19%; DMart slipped 4%",
+    "url": "https://www.business-standard.com/markets/news/here-s-why-v2-retail-stock-tanked-19-dmart-slipped-4-to-near-52-week-low-on-monday-126100500172_1.html"
+   },
+   "date": "2026-10-05",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "1000"
    }
   },
   {
@@ -77,7 +125,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1300"
@@ -101,7 +149,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1300"
@@ -421,31 +469,6 @@
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "dmart",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "DMart Q2 revenue up 18.4% to ₹19,206 cr",
-   "line": "Avenue Supermarts' standalone revenue rose from ₹16,218.79 cr a year ago; stores now 518",
-   "more": [
-    "Revenue rose 4.7% sequentially from ₹18,343.49 cr",
-    "Store count grew from 503 at end-June",
-    "The figures are subject to auditors' limited review"
-   ],
-   "src": {
-    "title": "Kotak Neo",
-    "url": "https://www.kotakneo.com/news/stocks/dmart-q2-fy27-revenue-rises-18-percent-to-rs-19206-crore/"
-   },
-   "date": "2026-10-05",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-05",
-    "slot": "1000"
    }
   },
   {
