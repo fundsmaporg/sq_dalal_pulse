@@ -1,37 +1,110 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-05T09:33:29+05:30",
+ "generated_at": "2026-10-05T10:03:53+05:30",
  "date": "2026-10-05",
- "slot": "0930",
- "slot_label": "9:30",
+ "slot": "1000",
+ "slot_label": "10:00",
  "stage": "Opening mood",
- "asof": "2026-10-05T09:30:00+05:30",
+ "asof": "2026-10-05T10:00:00+05:30",
  "nifty": {
-  "value": 22551.7,
-  "pct": 0.58,
-  "chg": 129.75,
+  "value": 22543.65,
+  "pct": 0.54,
+  "chg": 121.7,
   "approx": false
  },
  "mood": {
-  "label": "Gap-up start",
-  "score": 0.4,
-  "summary": "Stocks opened firmly higher after the long weekend, with gains broad-based as mid- and smallcaps outpaced the benchmarks in early trade.",
+  "label": "Steady gains",
+  "score": 0.35,
+  "summary": "Gains are holding at around 0.5% after the gap-up open; buying is broad, with IT and banking heavyweights leading.",
   "detail": {
-   "leaders": "Bajaj Finance, Shriram Finance, ITC, HDFC Bank",
-   "laggards": "RVNL after an order cancellation",
-   "tone": "A sharp turnaround from Thursday's four-day losing streak as easing US rate fears lift sentiment ahead of the RBI decision.",
+   "leaders": "Infosys, HDFC Bank, Bajaj Finance",
+   "laggards": "RVNL",
+   "tone": "The open's momentum is steady rather than extending; traders are holding gains but staying cautious before Wednesday's RBI decision.",
    "watch": [
-    "Whether the Nifty holds above 22,500",
-    "Snapdeal's debut at 10 am",
-    "FII flows on the first session of the week"
+    "Brent holding above $100",
+    "Snapdeal's debut trade",
+    "RBI tone on Oct 7"
    ],
    "src": {
-    "title": "Business Standard live",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-snapdeal-listing-today-rvnl-share-price-today-ipo-today-126100500057_1.html"
+    "title": "Kotak Neo",
+    "url": "https://www.kotakneo.com/news/market-news/stock-market-update-5october-2026-sensex-nifty/"
    }
   }
  },
  "insights": [
+  {
+   "key": "dmart",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "DMart Q2 revenue up 18.4% to ₹19,206 cr",
+   "line": "Avenue Supermarts' standalone revenue rose from ₹16,218.79 cr a year ago; stores now 518",
+   "more": [
+    "Revenue rose 4.7% sequentially from ₹18,343.49 cr",
+    "Store count grew from 503 at end-June",
+    "The figures are subject to auditors' limited review"
+   ],
+   "src": {
+    "title": "Kotak Neo",
+    "url": "https://www.kotakneo.com/news/stocks/dmart-q2-fy27-revenue-rises-18-percent-to-rs-19206-crore/"
+   },
+   "date": "2026-10-05",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent back above $100 after the break",
+   "line": "Brent is near $101, despite a 0.9% dip today, well above Oct 1's $96.76",
+   "more": [
+    "Higher oil is a risk for India's inflation and the rupee",
+    "The rupee is trading near 96 per dollar"
+   ],
+   "src": {
+    "title": "Trading Economics",
+    "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+   },
+   "date": "2026-10-05",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "it-stocks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Infosys among top gainers as IT extends rally",
+   "line": "IT stocks gain as softer US jobs data cools Fed rate-hike expectations",
+   "more": [
+    "Infosys and HDFC Bank are among the top Sensex gainers",
+    "IT was the only notable gainer in Thursday's sell-off"
+   ],
+   "src": {
+    "title": "India TV News",
+    "url": "https://www.indiatvnews.com/business/news/5-october-2026-stock-market-updates-sensex-jumps-400-points-88-points-nifty-above-22-500-infosys-hdfc-bank-top-gainer-2026-10-05-1056087"
+   },
+   "date": "2026-10-05",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1000"
+   }
+  },
   {
    "key": "bajaj-finance",
    "tag": "Stocks",
@@ -50,7 +123,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1500"
@@ -74,7 +147,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "0930"
@@ -98,7 +171,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "pre"
@@ -204,30 +277,6 @@
    }
   },
   {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Brent near $97 with Hormuz talks unresolved",
-   "line": "Brent fell 1.3% to $96.76 on Oct 1, but supply is expected to stay tight through Q4",
-   "more": [
-    "Iran has received a US proposal on reopening Hormuz",
-    "US sanctions on Iranian oil remain in place"
-   ],
-   "src": {
-    "title": "Trading Economics",
-    "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
-   },
-   "date": "2026-10-02",
-   "slot": "pre",
-   "when": "Fri · Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "pre"
-   }
-  },
-  {
    "key": "auto-selloff",
    "tag": "Stocks",
    "impact": "neg",
@@ -250,30 +299,6 @@
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1330"
-   }
-  },
-  {
-   "key": "it-stocks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT stands out as the only bright spot",
-   "line": "Nifty IT was the best sector, helped by easing US rate-hike bets and Q2 positioning",
-   "more": [
-    "Mphasis, Coforge and Infosys led the morning gains",
-    "Tech Mahindra board meets Oct 15 on Q2 results and a bonus"
-   ],
-   "src": {
-    "title": "Business Standard",
-    "url": "https://www.business-standard.com/markets/news/nifty-it-defies-market-weakness-rises-2-mphasis-coforge-tcs-lead-126100100335_1.html"
-   },
-   "date": "2026-10-01",
-   "slot": "post",
-   "when": "Thu · Close",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
    }
   },
   {
