@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-05T15:33:18+05:30",
+ "generated_at": "2026-10-05T16:02:29+05:30",
  "date": "2026-10-05",
- "slot": "1530",
- "slot_label": "15:30",
- "stage": "Closing mood",
- "asof": "2026-10-05T15:30:00+05:30",
+ "slot": "post",
+ "slot_label": "Close",
+ "stage": "Post-market mood",
+ "asof": "2026-10-05T16:00:00+05:30",
  "nifty": {
   "value": 22535.45,
   "pct": 0.51,
   "chg": 113.5,
-  "approx": false
+  "approx": true
  },
  "mood": {
-  "label": "Late rebound",
+  "label": "Relief rebound",
   "score": 0.3,
-  "summary": "A late burst of buying lifted benchmarks back near the morning's levels into the close, reversing the afternoon fade, while midcaps stayed ahead of smallcaps.",
+  "summary": "Benchmarks closed higher after a choppy session, recovering an afternoon fade with late buying, while midcaps outpaced smallcaps and healthcare lagged.",
   "detail": {
-   "leaders": "PSU banks, media, metals; Bajaj Finance, Shriram Finance, ITC",
-   "laggards": "IT, pharma; HCLTech, Asian Paints, HDFC Bank",
-   "tone": "Much firmer than the previous note: the Nifty was up 113.50 points (0.51%) at 22,535.45 in the closing auction, after hugging Thursday's close for most of the afternoon.",
+   "leaders": "PSU banks, consumer durables, metals, media; Bajaj Finance, Shriram Finance, ITC",
+   "laggards": "Healthcare, IT; HCLTech, Asian Paints, HDFC Bank",
+   "tone": "The Nifty ended a choppy day up 113.50 points at 22,535.45 in the closing auction, after briefly giving up nearly all of its early gains.",
    "watch": [
-    "Provisional FII/DII flow data after the close",
-    "Whether the bounce holds after eight losing weeks",
-    "RBI policy and crude for the next session"
+    "RBI policy decision on Oct 7, with a 25 bps hike in play",
+    "FII flows after ₹9,484 cr of net selling on Oct 1",
+    "TCS Q2 results on Oct 8 kick off IT earnings"
    ],
    "src": {
     "title": "Business Standard: Sensex gains 403 pts, Nifty at 22,535 in closing auction",
@@ -32,6 +32,103 @@
   }
  },
  "insights": [
+  {
+   "key": "rbi-policy",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "RBI MPC meet begins; decision on Oct 7",
+   "line": "Economists divided on a 25 bps hike from 5.25% as crude and inflation pressures build",
+   "more": [
+    "Three-day MPC meeting runs Oct 5–7; decision at 10 am on Oct 7",
+    "A hike would be the first since February 2023",
+    "SBI Research flags elevated crude and broadening inflation"
+   ],
+   "src": {
+    "title": "BusinessToday: MPC begins 3-day meet as crude, inflation test policy",
+    "url": "https://www.businesstoday.in/india/story/will-rbi-hike-repo-rate-mpc-begins-3-day-meet-as-surging-crude-oil-inflation-test-policy-limits-559433-2026-10-05"
+   },
+   "date": "2026-10-05",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "Oct 5 FII data awaited after heavy selling",
+   "line": "FIIs sold ₹9,484 cr net on Oct 1 as DIIs bought ₹10,042 cr; Monday's data due later",
+   "more": [
+    "Oct 1 FII gross sell ₹21,744 cr vs buy ₹12,260 cr",
+    "Persistent foreign outflows remain a key overhang for the rebound"
+   ],
+   "src": {
+    "title": "5paisa: FII DII data",
+    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
+   },
+   "date": "2026-10-05",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "tcs-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "TCS opens Q2 earnings season on Oct 8",
+   "line": "IT results follow a weak sector day; HCLTech was among Monday's top Nifty losers",
+   "more": [
+    "Poonawalla Fincorp and Can Fin Homes report on Friday",
+    "HCLTech and Infosys follow later in October"
+   ],
+   "src": {
+    "title": "Business Upturn: Q2 FY27 results this week, TCS on October 8",
+    "url": "https://businessupturn.com/finance/stock-market/q2-results-this-week-tcs-october-8-poonawalla-fincorp-can-fin-homes-anand-rathi-earnings-calendar"
+   },
+   "date": "2026-10-05",
+   "slot": "post",
+   "when": "Close",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Jio Platforms IPO edges closer",
+   "line": "Reliance's telecom arm could raise up to ₹37,700 cr in what would be India's biggest IPO",
+   "more": [
+    "Fresh issue of up to 27 crore shares at ₹10 face value",
+    "Reliance Industries in focus as offer documents are finalised"
+   ],
+   "src": {
+    "title": "Upstox: Jio Platforms IPO, 3 key things to know",
+    "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-when-is-the-issue-likely-to-open-3-key-things-to-know/article-201251/"
+   },
+   "date": "2026-10-05",
+   "slot": "post",
+   "when": "Close",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "post"
+   }
+  },
   {
    "key": "yes-bank",
    "tag": "Stocks",
@@ -51,7 +148,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1530"
@@ -75,7 +172,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1530"
@@ -99,7 +196,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "pre"
@@ -764,31 +861,6 @@
    }
   },
   {
-   "key": "rbi-policy",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "RBI MPC begins; most see a 25 bp hike",
-   "line": "Eight of 10 economists in a BS poll expect the repo rate to rise to 5.50% on Oct 7",
-   "more": [
-    "The current repo rate is 5.25%",
-    "A hike would be the first since February 2023",
-    "Some economists expect another hike in December"
-   ],
-   "src": {
-    "title": "Business Standard",
-    "url": "https://www.business-standard.com/finance/news/rbi-mpc-meeting-october-2026-monetary-policy-repo-rate-hike-retail-inflation-126100200188_1.html"
-   },
-   "date": "2026-10-05",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "post"
-   }
-  },
-  {
    "key": "rvnl",
    "tag": "Stocks",
    "impact": "neg",
@@ -810,31 +882,6 @@
    "first_seen": {
     "date": "2026-10-05",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "FIIs sell ₹9,484 cr; DIIs buy ₹10,042 cr",
-   "line": "Heavy foreign selling continued on Oct 1, with FIIs also deeply short index futures",
-   "more": [
-    "FIIs hold a net short of 3,10,174 index-futures contracts",
-    "DIIs more than absorbed the cash selling (net +₹558 cr)",
-    "The figures are provisional"
-   ],
-   "src": {
-    "title": "5paisa FII/DII data",
-    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
-   },
-   "date": "2026-10-02",
-   "slot": "pre",
-   "when": "Fri · Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "0930"
    }
   },
   {
