@@ -1,36 +1,110 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-05T15:02:40+05:30",
+ "generated_at": "2026-10-05T15:33:18+05:30",
  "date": "2026-10-05",
- "slot": "1500",
- "slot_label": "15:00",
+ "slot": "1530",
+ "slot_label": "15:30",
  "stage": "Closing mood",
- "asof": "2026-10-05T15:00:00+05:30",
+ "asof": "2026-10-05T15:30:00+05:30",
  "nifty": {
-  "value": 22431,
-  "pct": 0.04,
-  "approx": true
+  "value": 22535.45,
+  "pct": 0.51,
+  "chg": 113.5,
+  "approx": false
  },
  "mood": {
-  "label": "Flat into close",
-  "score": 0.0,
-  "summary": "Benchmarks are hugging Thursday's close into the final half hour, with the morning rally fully unwound and the broader market only marginally positive.",
+  "label": "Late rebound",
+  "score": 0.3,
+  "summary": "A late burst of buying lifted benchmarks back near the morning's levels into the close, reversing the afternoon fade, while midcaps stayed ahead of smallcaps.",
   "detail": {
-   "leaders": "PSU banks, financials; Bajaj Finance, L&T, Nykaa",
-   "laggards": "IT, pharma, autos; HDFC Bank, HCLTech, Asian Paints",
-   "tone": "Unchanged from the previous note: the last firm print had the Nifty up 9.60 points at 22,431.35 at 2:30 pm, about 190 points below the 22,621.80 morning high.",
+   "leaders": "PSU banks, media, metals; Bajaj Finance, Shriram Finance, ITC",
+   "laggards": "IT, pharma; HCLTech, Asian Paints, HDFC Bank",
+   "tone": "Much firmer than the previous note: the Nifty was up 113.50 points (0.51%) at 22,535.45 in the closing auction, after hugging Thursday's close for most of the afternoon.",
    "watch": [
-    "A finish below Thursday's 22,421.95, which would extend the losing streak",
-    "Closing-auction moves in HDFC Bank and IT heavyweights",
-    "FII provisional flow data after the close"
+    "Provisional FII/DII flow data after the close",
+    "Whether the bounce holds after eight losing weeks",
+    "RBI policy and crude for the next session"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE, Oct 5",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-snapdeal-listing-today-rvnl-share-price-today-ipo-today-126100500057_1.html"
+    "title": "Business Standard: Sensex gains 403 pts, Nifty at 22,535 in closing auction",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-snapdeal-listing-today-rvnl-share-price-today-ipo-today-126100500057_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "yes-bank",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "YES Bank Q2 loans up 23.8% YoY",
+   "line": "Advances ₹3,09,675 cr, deposits up 19.5% to ₹3,54,084 cr; stock up 3% to ₹21.22",
+   "more": [
+    "Loans up 8.6% QoQ; deposits up 12.3% QoQ",
+    "CASA ratio slipped to 30% from 32.7% in June",
+    "Credit-deposit ratio eased to 87.5% from 90.4%"
+   ],
+   "src": {
+    "title": "Sahi: YES Bank loans up 23.8% to ₹3.10 lakh cr, deposits up 19.5%",
+    "url": "https://www.sahi.com/news/yes-bank-loans-increase-23-8-to-3-10-lakh-crore-deposits-up-19-5"
+   },
+   "date": "2026-10-05",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "1530"
+   }
+  },
+  {
+   "key": "bse-ltd",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "BSE Ltd up 4% as markets rebound",
+   "line": "Exchange stock hit ₹3,177.10 intraday, up 4.31% from ₹3,046",
+   "more": [
+    "Capital-market stocks gained as risk appetite returned",
+    "Comes after benchmarks' eight-week losing streak"
+   ],
+   "src": {
+    "title": "Zee Business: BSE stock jumps 4% as Sensex, Nifty rebound",
+    "url": "https://www.zeebiz.com/market-news/news-bse-share-price-stock-jumps-4-as-sensex-nifty-rebound-after-8-week-losing-streak-403357"
+   },
+   "date": "2026-10-05",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "1530"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Easing crude, Fed bets underpin rebound",
+   "line": "Lower oil prices and reduced Fed rate-hike odds lifted sentiment through the session",
+   "more": [
+    "Asian markets gained alongside",
+    "PSU Bank, Media and Metal indices rose up to 1%"
+   ],
+   "src": {
+    "title": "ETV Bharat: Sensex, Nifty in green after days of fall",
+    "url": "https://www.etvbharat.com/en/business/stock-market-on-october-5-sensex-nifty-top-stocks-crude-oil-price-enn26100501053"
+   },
+   "date": "2026-10-05",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "pre"
+   }
+  },
   {
    "key": "bajaj-finance",
    "tag": "Stocks",
@@ -49,7 +123,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1500"
@@ -74,7 +148,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1500"
@@ -98,7 +172,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1100"
@@ -639,30 +713,6 @@
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent back above $100 after the break",
-   "line": "Brent is near $101, despite a 0.9% dip today, well above Oct 1's $96.76",
-   "more": [
-    "Higher oil is a risk for India's inflation and the rupee",
-    "The rupee is trading near 96 per dollar"
-   ],
-   "src": {
-    "title": "Trading Economics",
-    "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
-   },
-   "date": "2026-10-05",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "pre"
    }
   },
   {
