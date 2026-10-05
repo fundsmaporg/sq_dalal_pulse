@@ -1,36 +1,110 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-05T14:03:19+05:30",
+ "generated_at": "2026-10-05T14:33:06+05:30",
  "date": "2026-10-05",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-05T14:00:00+05:30",
+ "asof": "2026-10-05T14:30:00+05:30",
  "nifty": {
-  "value": 22445,
-  "pct": 0.1,
-  "approx": true
+  "value": 22431.35,
+  "pct": 0.04,
+  "chg": 9.6,
+  "approx": false
  },
  "mood": {
-  "label": "Flat, cautious",
-  "score": 0.0,
-  "summary": "Benchmarks are hovering just above Thursday's close in a tight afternoon range, with heavyweights capping the upside and the broader market still mildly positive.",
+  "label": "Gains erased",
+  "score": -0.05,
+  "summary": "The market has gone flat, with the Nifty barely above Thursday's close and the Sensex slipping into the red as the morning's gains have all but evaporated.",
   "detail": {
-   "leaders": "PSU banks, metals, oil & gas; consumer internet names like Nykaa",
-   "laggards": "IT, pharma, autos; HDFC Bank, HCLTech, Asian Paints",
-   "tone": "Steady from the previous note: the Nifty has stayed just under 22,450–22,460 since 1 pm, well off the 22,621.80 morning high but still holding green.",
+   "leaders": "PSU banks, metals, oil & gas; Bajaj Finance, L&T, Nykaa",
+   "laggards": "IT, pharma, autos; HCLTech, Asian Paints, HDFC Bank",
+   "tone": "Softer than the previous note: the Nifty was up just 9.60 points at 22,431.35 at 2:30 pm while the Sensex was marginally lower at 71,891.73.",
    "watch": [
-    "A slip below Thursday's 22,421.95 close turning the day negative",
-    "HDFC Bank and IT selling into the final 90 minutes",
-    "PSU bank strength holding up after Q2 updates"
+    "Whether the Nifty closes below Thursday's 22,421.95",
+    "Last-hour selling in HDFC Bank and IT heavyweights",
+    "PSU banks and financials holding their gains"
    ],
    "src": {
     "title": "Business Standard: Stock Market LIVE, Oct 5",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-snapdeal-listing-today-rvnl-share-price-today-ipo-today-126100500057_1.html"
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-snapdeal-listing-today-rvnl-share-price-today-ipo-today-126100500057_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "lt-orders",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "L&T up 2% on Gulf and India power orders",
+   "line": "Transmission arm wins orders in Saudi Arabia, UAE and a Visakhapatnam project",
+   "more": [
+    "Saudi orders cover 380 kV transmission and substation work",
+    "UAE order for 132/11 kV substations and cabling",
+    "India order from a private developer for a Visakhapatnam transmission system"
+   ],
+   "src": {
+    "title": "BusinessToday: L&T advances 2% on orders across Saudi, UAE, India",
+    "url": "https://www.businesstoday.in/markets/stocks/story/lt-shares-advance-2-on-bagging-orders-across-saudi-arabia-uae-and-india-559522-2026-10-05"
+   },
+   "date": "2026-10-05",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "sammaan-capital",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Sammaan Capital Q2 disbursements up 55% QoQ",
+   "line": "Disbursements ~₹6,000 cr vs ₹3,875 cr in Q1; stock hit ₹138.75 before paring gains",
+   "more": [
+    "AUM crossed ₹59,000 cr; network expanded to 245 branches",
+    "Stock up as much as 5% intraday; ~0.5% higher at ₹133.10 by mid-noon"
+   ],
+   "src": {
+    "title": "Business Standard: Sammaan Capital Q2 disbursements up 55% QoQ",
+    "url": "https://www.business-standard.com/markets/news/sammaan-capital-q2-disbursements-up-55-qoq-stock-jumps-5-intraday-trade-126100500453_1.html"
+   },
+   "date": "2026-10-05",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "esds-software",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "ESDS Software hits lower circuit again",
+   "line": "Back-to-back lower circuits have dragged the stock down about 30% in six sessions",
+   "more": [
+    "Locked at lower circuit on Monday, Oct 5",
+    "Selling continues while the broader market trades flat"
+   ],
+   "src": {
+    "title": "Business Standard: ESDS Software sinks 30% in 6 days",
+    "url": "https://www.business-standard.com/markets/news/back-to-back-lower-circuit-esds-software-sinks-30-in-6-days-here-s-why-126100500450_1.html"
+   },
+   "date": "2026-10-05",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "1430"
+   }
+  },
   {
    "key": "nykaa",
    "tag": "Stocks",
@@ -50,7 +124,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1400"
@@ -75,7 +149,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1100"
@@ -99,7 +173,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1400"
