@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-05T08:32:58+05:30",
+ "generated_at": "2026-10-05T09:33:29+05:30",
  "date": "2026-10-05",
- "slot": "pre",
- "slot_label": "Pre-open",
- "stage": "Pre-market mood",
- "asof": "2026-10-05T08:30:00+05:30",
+ "slot": "0930",
+ "slot_label": "9:30",
+ "stage": "Opening mood",
+ "asof": "2026-10-05T09:30:00+05:30",
  "nifty": {
-  "value": 22645,
-  "pct": 0.51,
-  "chg": 115,
-  "approx": true
+  "value": 22551.7,
+  "pct": 0.58,
+  "chg": 129.75,
+  "approx": false
  },
  "mood": {
-  "label": "Relief bounce",
-  "score": 0.35,
-  "summary": "A gap-up open is on the cards after the long weekend, with Gift Nifty up over 100 pts as Asian markets rally on easing US rate-hike fears.",
+  "label": "Gap-up start",
+  "score": 0.4,
+  "summary": "Stocks opened firmly higher after the long weekend, with gains broad-based as mid- and smallcaps outpaced the benchmarks in early trade.",
   "detail": {
-   "leaders": "Asian markets higher; US tech led Friday's rally",
-   "laggards": "Rail PSUs (RVNL order cancelled)",
-   "tone": "The setup has flipped from Thursday's rout: global risk appetite improved over the break as weak US jobs data cooled Fed hike bets.",
+   "leaders": "Bajaj Finance, Shriram Finance, ITC, HDFC Bank",
+   "laggards": "RVNL after an order cancellation",
+   "tone": "A sharp turnaround from Thursday's four-day losing streak as easing US rate fears lift sentiment ahead of the RBI decision.",
    "watch": [
-    "Whether the gap-up holds through the session",
-    "RBI MPC tone as the meeting begins",
-    "FII flows after Thursday's ₹9,484 cr outflow"
+    "Whether the Nifty holds above 22,500",
+    "Snapdeal's debut at 10 am",
+    "FII flows on the first session of the week"
    ],
    "src": {
     "title": "Business Standard live",
@@ -32,6 +32,78 @@
   }
  },
  "insights": [
+  {
+   "key": "bajaj-finance",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Bajaj Finance leads gains on Q2 update",
+   "line": "Total business rose 18% YoY to ₹6.27 lakh cr; board approved warrants of up to ₹5,800 cr",
+   "more": [
+    "Bajaj Finance is the top Nifty gainer in early trade",
+    "The warrants can convert into equity shares"
+   ],
+   "src": {
+    "title": "Goodreturns",
+    "url": "https://www.goodreturns.in/personal-finance/stocks-to-watch-on-oct-5-hdfc-bajaj-finance-dmart-yes-bank-auto-stocks-and-more-in-focus-1539061.html"
+   },
+   "date": "2026-10-05",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "1500"
+   }
+  },
+  {
+   "key": "q2-updates",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Lenders in focus on Q2 business updates",
+   "line": "HDFC Bank rose over 1% as banks and NBFCs published September-quarter updates",
+   "more": [
+    "HDFC Bank, Yes Bank, Union Bank of India and Bajaj Finance released updates",
+    "Shriram Finance is among the top Nifty gainers"
+   ],
+   "src": {
+    "title": "Business Standard live",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-snapdeal-listing-today-rvnl-share-price-today-ipo-today-126100500057_1.html"
+   },
+   "date": "2026-10-05",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "snapdeal-listing",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Snapdeal trading starts at 10 am",
+   "line": "A special pre-open session sets the price; grey market pointed to only ~1.9% above ₹32",
+   "more": [
+    "The grey market premium was 60 paise on Oct 4",
+    "The ₹420 cr issue was subscribed 4.93 times"
+   ],
+   "src": {
+    "title": "IPO Guru",
+    "url": "https://www.ipoguru.in/blog/acevector-ipo-listing-5-october-snapdeal"
+   },
+   "date": "2026-10-05",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "pre"
+   }
+  },
   {
    "key": "us-futures",
    "tag": "Global",
@@ -51,7 +123,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1530"
@@ -76,34 +148,10 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "post"
-   }
-  },
-  {
-   "key": "snapdeal-listing",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Snapdeal shares debut today",
-   "line": "The ₹420 cr IPO, priced at ₹32 a share, was subscribed 4.9 times",
-   "more": [
-    "Shares list on both BSE and NSE",
-    "IIFL Capital, CLSA India and Systematix were lead managers"
-   ],
-   "src": {
-    "title": "Kotak Neo",
-    "url": "https://www.kotakneo.com/ipo/snapdeal-ipo/"
-   },
-   "date": "2026-10-05",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-05",
-    "slot": "pre"
    }
   },
   {
@@ -124,7 +172,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "pre"
@@ -1232,30 +1280,6 @@
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1530"
-   }
-  },
-  {
-   "key": "bajaj-finance",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Bajaj Finance a top Sensex drag all session",
-   "line": "Rate-hike fears and rising G-Sec yields weigh on NBFCs",
-   "more": [
-    "It has been among the top Nifty losers since the open",
-    "A 25 bp RBI repo hike is widely expected on Oct 7"
-   ],
-   "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 29",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-29-sensex-today-nifty50-gift-nifty-crude-oil-price-ipo-today-126092900092_1.html"
-   },
-   "date": "2026-09-29",
-   "slot": "1500",
-   "when": "Tue · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-29",
-    "slot": "1500"
    }
   },
   {
