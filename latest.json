@@ -1,29 +1,28 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-05T13:33:16+05:30",
+ "generated_at": "2026-10-05T14:03:19+05:30",
  "date": "2026-10-05",
- "slot": "1330",
- "slot_label": "13:30",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-05T13:30:00+05:30",
+ "asof": "2026-10-05T14:00:00+05:30",
  "nifty": {
-  "value": 22458.3,
-  "pct": 0.16,
-  "chg": 36.35,
+  "value": 22445,
+  "pct": 0.1,
   "approx": true
  },
  "mood": {
-  "label": "Gains fading",
+  "label": "Flat, cautious",
   "score": 0.0,
-  "summary": "The market keeps sliding off its morning peak and is clinging to a slim gain, with sellers active in heavyweights while midcaps hold up better than smallcaps.",
+  "summary": "Benchmarks are hovering just above Thursday's close in a tight afternoon range, with heavyweights capping the upside and the broader market still mildly positive.",
   "detail": {
-   "leaders": "PSU banks, metals, oil & gas; Bajaj Finance, Shriram Finance, ITC",
-   "laggards": "IT, pharma, autos; HCLTech, Asian Paints, HDFC Bank",
-   "tone": "Weaker than the previous note: at 1 pm the Nifty was up just 0.16% at 22,458.30, and a later update put the Sensex about 700 points off its high.",
+   "leaders": "PSU banks, metals, oil & gas; consumer internet names like Nykaa",
+   "laggards": "IT, pharma, autos; HDFC Bank, HCLTech, Asian Paints",
+   "tone": "Steady from the previous note: the Nifty has stayed just under 22,450–22,460 since 1 pm, well off the 22,621.80 morning high but still holding green.",
    "watch": [
-    "A break below the 22,460.80 morning low turning the day red",
-    "HDFC Bank selling spreading to other private lenders",
-    "IT and pharma weakness into the close"
+    "A slip below Thursday's 22,421.95 close turning the day negative",
+    "HDFC Bank and IT selling into the final 90 minutes",
+    "PSU bank strength holding up after Q2 updates"
    ],
    "src": {
     "title": "Business Standard: Stock Market LIVE, Oct 5",
@@ -32,6 +31,80 @@
   }
  },
  "insights": [
+  {
+   "key": "nykaa",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Nykaa jumps 6% on strong Q2 update",
+   "line": "Morgan Stanley keeps Overweight, target ₹356, after Q2 update beat its estimates",
+   "more": [
+    "Stock hit ₹342.95, up 6.11% from ₹323.20",
+    "Consolidated revenue growth tracking high-20s vs 26% estimate",
+    "Fashion net revenue growth seen in low 50s vs 35% estimate"
+   ],
+   "src": {
+    "title": "BusinessToday: Nykaa jumps as Morgan Stanley expects strong Q2",
+    "url": "https://www.businesstoday.in/markets/stocks/story/nykaa-shares-morgan-stanley-expects-strong-q2-show-stock-jumps-6-559468-2026-10-05"
+   },
+   "date": "2026-10-05",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "psu-banks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PNB global business up 12% to ₹31.2 lakh cr",
+   "line": "Advances up 14.8% vs deposits up 9.9%, adding to the run of strong PSU bank updates",
+   "more": [
+    "Global advances ₹13.4 lakh cr; global deposits ₹17.8 lakh cr",
+    "Gross NPA eased to 2.78% from 2.95%; net NPA 0.28%",
+    "PSU bank index among the day's outperformers"
+   ],
+   "src": {
+    "title": "Angel One: PNB reports Q2 FY27 business update",
+    "url": "https://www.angelone.in/news/stocks/pnb-share-price-in-focus-as-it-reports-q2-fy27-business-update"
+   },
+   "date": "2026-10-05",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "dp-wires",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "D P Wires locked at 20% upper circuit",
+   "line": "Buyers queued with no sellers as the small-cap hit its 20% price band",
+   "more": [
+    "Upper circuit lock on Oct 5; no trigger cited in the report",
+    "Several small-caps, including Nikita Papers (+9.98%), also hit upper circuits"
+   ],
+   "src": {
+    "title": "MarketsMojo: D P Wires locks at upper circuit with 20% gain",
+    "url": "https://www.marketsmojo.com/news/stocks-in-action/d-p-wires-ltd-surges-20-to-hit-upper-circuit-amid-strong-buying-pressure-4214841"
+   },
+   "date": "2026-10-05",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "1400"
+   }
+  },
   {
    "key": "v2-retail",
    "tag": "Stocks",
@@ -51,7 +124,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1330"
@@ -75,7 +148,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1300"
@@ -99,7 +172,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1000"
@@ -178,30 +251,6 @@
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "psu-banks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Indian Bank business tops ₹15.96 lakh cr",
-   "line": "Indian Bank's Q2 global business crossed ₹15.96 lakh cr with double-digit YoY growth",
-   "more": [
-    "PSU banks are among the day's best-performing sectors",
-    "Strong Q2 updates are supporting state lenders"
-   ],
-   "src": {
-    "title": "Equitybulls",
-    "url": "https://www.equitybulls.com/category.php?id=376219"
-   },
-   "date": "2026-10-05",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1100"
    }
   },
   {
