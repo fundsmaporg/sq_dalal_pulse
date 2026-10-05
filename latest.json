@@ -1,37 +1,135 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-02T08:33:24+05:30",
- "date": "2026-10-02",
+ "generated_at": "2026-10-05T08:32:58+05:30",
+ "date": "2026-10-05",
  "slot": "pre",
  "slot_label": "Pre-open",
  "stage": "Pre-market mood",
- "asof": "2026-10-02T08:30:00+05:30",
+ "asof": "2026-10-05T08:30:00+05:30",
  "nifty": {
-  "value": 22421.95,
-  "pct": -0.88,
-  "chg": -198.5,
-  "approx": false
+  "value": 22645,
+  "pct": 0.51,
+  "chg": 115,
+  "approx": true
  },
  "mood": {
-  "label": "Market closed",
-  "score": -0.4,
-  "summary": "Indian markets are shut today for Gandhi Jayanti; trading resumes Monday after four straight losing sessions left the Nifty near its lowest levels since April.",
+  "label": "Relief bounce",
+  "score": 0.35,
+  "summary": "A gap-up open is on the cards after the long weekend, with Gift Nifty up over 100 pts as Asian markets rally on easing US rate-hike fears.",
   "detail": {
-   "leaders": "IT was the only sector of note to gain on Thursday",
-   "laggards": "Autos, metals, media, FMCG",
-   "tone": "The market heads into a three-day break bruised: it trimmed late losses on Thursday, but FII selling and rate-hike fears remain unresolved.",
+   "leaders": "Asian markets higher; US tech led Friday's rally",
+   "laggards": "Rail PSUs (RVNL order cancelled)",
+   "tone": "The setup has flipped from Thursday's rout: global risk appetite improved over the break as weak US jobs data cooled Fed hike bets.",
    "watch": [
-    "RBI MPC outcome on Oct 7",
-    "Weekend crude and US-Iran Hormuz talks",
-    "FII flows when trading resumes Monday"
+    "Whether the gap-up holds through the session",
+    "RBI MPC tone as the meeting begins",
+    "FII flows after Thursday's ₹9,484 cr outflow"
    ],
    "src": {
-    "title": "Business Standard",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
+    "title": "Business Standard live",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-snapdeal-listing-today-rvnl-share-price-today-ipo-today-126100500057_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "us-futures",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Weak US jobs data lifts Wall Street",
+   "line": "US payrolls rose just 29,000 in September; jobless rate climbed to 4.2%, cooling hike bets",
+   "more": [
+    "S&P 500 +0.7% to 7,722.72; Nasdaq +1.2% to 27,190.86",
+    "Dow +0.5% to 51,176.46; the Nasdaq hit an intraday record",
+    "US bond yields eased, supporting Asian markets on Monday"
+   ],
+   "src": {
+    "title": "TheStreet",
+    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-02-2026"
+   },
+   "date": "2026-10-05",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "1530"
+   }
+  },
+  {
+   "key": "rbi-policy",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "RBI MPC begins; most see a 25 bp hike",
+   "line": "Eight of 10 economists in a BS poll expect the repo rate to rise to 5.50% on Oct 7",
+   "more": [
+    "The current repo rate is 5.25%",
+    "A hike would be the first since February 2023",
+    "Some economists expect another hike in December"
+   ],
+   "src": {
+    "title": "Business Standard",
+    "url": "https://www.business-standard.com/finance/news/rbi-mpc-meeting-october-2026-monetary-policy-repo-rate-hike-retail-inflation-126100200188_1.html"
+   },
+   "date": "2026-10-05",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "snapdeal-listing",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Snapdeal shares debut today",
+   "line": "The ₹420 cr IPO, priced at ₹32 a share, was subscribed 4.9 times",
+   "more": [
+    "Shares list on both BSE and NSE",
+    "IIFL Capital, CLSA India and Systematix were lead managers"
+   ],
+   "src": {
+    "title": "Kotak Neo",
+    "url": "https://www.kotakneo.com/ipo/snapdeal-ipo/"
+   },
+   "date": "2026-10-05",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "rvnl",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "RVNL loses East Coast Railway order",
+   "line": "A letter of acceptance for an IP-based video surveillance system has been cancelled",
+   "more": [
+    "The contract covered ECoR rolling stock",
+    "HDFC Bank, Yes Bank and Bajaj Finance are also in focus today"
+   ],
+   "src": {
+    "title": "TradingView / Moody's",
+    "url": "https://www.tradingview.com/news/moodys:81fe567816ed2:0-top-stocks-to-watch-tomorrow-hdfc-bank-yes-bank-rvnl-bajaj-finance-shares-in-focus-on-monday-5-oct-full-list/"
+   },
+   "date": "2026-10-05",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "pre"
+   }
+  },
   {
    "key": "fii-flows",
    "tag": "Flows",
@@ -49,60 +147,12 @@
    },
    "date": "2026-10-02",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Fri · Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
-    "date": "2026-09-24",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "rbi-policy",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "RBI MPC meets Mon–Wed; decision Oct 7",
-   "line": "Inflation is at 4.82% and the rupee is past 96/$; the Governor's tone will be key",
-   "more": [
-    "Rate-hike fears were cited for Thursday's sell-off",
-    "Banks, realty and autos are most sensitive to the commentary"
-   ],
-   "src": {
-    "title": "GoPocket",
-    "url": "https://www.gopocket.in/news/rbi-policy-october-2026-repo-rate-inflation-emi-outlook"
-   },
-   "date": "2026-10-02",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "post"
-   }
-  },
-  {
-   "key": "us-futures",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Wall Street edges up as yields retreat",
-   "line": "The S&P 500 rose 0.19% to 7,666.45 as Treasury yields eased from 20-year highs",
-   "more": [
-    "Dow +0.04% to 50,926.56; Nasdaq +0.04%",
-    "Chip and AI stocks led the late recovery"
-   ],
-   "src": {
-    "title": "TheStreet",
-    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-01-2026"
-   },
-   "date": "2026-10-02",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1530"
+    "date": "2026-09-25",
+    "slot": "0930"
    }
   },
   {
@@ -121,11 +171,11 @@
    },
    "date": "2026-10-02",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Fri · Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
-    "date": "2026-09-24",
+    "date": "2026-09-25",
     "slot": "pre"
    }
   },
@@ -706,7 +756,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-24",
+    "date": "2026-09-25",
     "slot": "0930"
    }
   },
@@ -1966,8 +2016,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-24",
-    "slot": "pre"
+    "date": "2026-09-25",
+    "slot": "1300"
    }
   },
   {
@@ -2501,8 +2551,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-24",
-    "slot": "1330"
+    "date": "2026-09-25",
+    "slot": "0930"
    }
   },
   {
@@ -2674,109 +2724,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
-    "slot": "pre"
-   }
-  },
-  {
-   "impact": "neg",
-   "key": "irdai-caps",
-   "line": "Nifty Financial Services −2.4%, its steepest fall in 3 months · Motilal Oswal ~−10%",
-   "more": [
-    "The IRDAI selling spread from insurers to brokers and lenders by the close",
-    "Draft also phases the expense cap down to 20% of premium over five years",
-    "It is still a consultation paper, and the final rules and start dates are pending",
-    "Bajaj Finance, Axis Bank and Bajaj Finserv were the biggest Sensex drags"
-   ],
-   "src": {
-    "title": "DSIJ — Closing Bell, Sep 24",
-    "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-nifty-50-plunges-164-as-crude-oil-surges-pb-fintech-crashes-36-59690"
-   },
-   "tag": "Regulation",
-   "title": "IRDAI selling spreads across financials",
-   "date": "2026-09-24",
-   "slot": "post",
-   "when": "Thu · Close",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-24",
-    "slot": "0930"
-   }
-  },
-  {
-   "impact": "pos",
-   "key": "hero-motors",
-   "line": "Newly listed auto-parts maker rallies against the tape on heavy volume",
-   "more": [
-    "Intraday high ₹116.80 vs ₹84 IPO price; listed at a discount on Wednesday",
-    "115.9 mn shares traded across NSE and BSE",
-    "Makes EV and two-wheeler powertrains; clients include BMW and Ducati"
-   ],
-   "src": {
-    "title": "Business Standard — Hero Motors surges 19%",
-    "url": "https://www.business-standard.com/markets/news/hero-motors-surges-19-in-weak-market-zooms-45-in-two-days-on-huge-volume-126092400354_1.html"
-   },
-   "tag": "Stocks",
-   "title": "Hero Motors +19%, up 45% in two days",
-   "date": "2026-09-24",
-   "slot": "post",
-   "when": "Thu · Close",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-24",
-    "slot": "post"
-   }
-  },
-  {
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "BDL wins ₹811 cr defence order",
-   "line": "Exide’s Li-ion cell plant goes live · Fidelity buys ₹279 cr of Welspun Living",
-   "more": [
-    "BDL: ₹810.79 cr Defence Ministry contract for SAT-SAAW equipment",
-    "Exide: Phase-I of its 6 GWh lithium-ion cell plant in Bengaluru commissioned",
-    "Welspun Living: Fidelity bought 1.30 cr shares (₹279 cr); promoter trust sold 2.45 cr (₹526 cr)",
-    "Max Estates: 9.76-acre Ghaziabad JDA, GDV ₹2,500–3,000 cr · Avantel: ₹177 cr Zetwerk order"
-   ],
-   "src": {
-    "title": "Business Standard — Stocks to watch",
-    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-nse-exide-industries-welspun-living-max-estates-ghcl-126092400133_1.html"
-   },
-   "key": "bdl-order",
-   "date": "2026-09-24",
-   "slot": "1130",
-   "when": "Thu · 11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-24",
-    "slot": "pre"
-   }
-  },
-  {
-   "tag": "Opening",
-   "impact": "neg",
-   "title": "Gift Nifty −138 pts after Wall St slide",
-   "line": "Likely lower open after Wednesday’s +0.5% close",
-   "more": [
-    "Wed close: Nifty 23,447 (+118), Sensex 74,828 (+299)",
-    "Metals led (+2%, Tata Steel, Hindalco); IT fell 1%",
-    "Midcaps +0.7%, smallcaps +0.9%: broad buying",
-    "Gift Nifty −138 pts points to a lower start as US stocks fell overnight"
-   ],
-   "src": {
-    "title": "Business Standard — Sep 23 close",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty-gift-nifty-brent-crude-oil-price-russia-war-jindal-supreme-share-price-september-23-126092300112_1.html"
-   },
-   "key": "gift-open",
-   "date": "2026-09-24",
-   "slot": "pre",
-   "when": "Thu · Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-24",
     "slot": "pre"
    }
   }
