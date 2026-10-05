@@ -1,36 +1,110 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-05T12:02:54+05:30",
+ "generated_at": "2026-10-05T12:34:45+05:30",
  "date": "2026-10-05",
- "slot": "1200",
- "slot_label": "12:00",
+ "slot": "1230",
+ "slot_label": "12:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-05T12:00:00+05:30",
+ "asof": "2026-10-05T12:30:00+05:30",
  "nifty": {
   "value": 22470,
   "pct": 0.21,
   "approx": true
  },
  "mood": {
-  "label": "Rally fades",
+  "label": "Flat drift",
   "score": 0.05,
-  "summary": "The rally has largely faded: the Sensex is about 600 pts off its high and the Nifty has slipped back below 22,500, clinging to a small gain as IT and autos drag.",
+  "summary": "Benchmarks are drifting just above Thursday's close after giving back most of the morning surge, while midcaps hold firmer gains than smallcaps.",
   "detail": {
-   "leaders": "PSU banks, metals, oil & gas, chemicals, banks",
-   "laggards": "IT, pharma, healthcare, autos",
-   "tone": "Selling into strength has erased most of the morning gap-up; traders are reluctant to chase ahead of the RBI decision.",
+   "leaders": "PSU banks, metals, oil & gas, Bajaj Finance, ITC",
+   "laggards": "IT, autos, pharma, healthcare",
+   "tone": "Range trade has replaced the morning rally; buyers are focused on PSU lenders after strong quarterly business numbers.",
    "watch": [
-    "The 22,460 intraday low",
-    "IT and auto weakness",
-    "RBI decision on Wednesday"
+    "A slip below 22,460",
+    "IT and auto selling deepening",
+    "RBI MPC outcome on Wednesday"
    ],
    "src": {
     "title": "Business Standard live",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-snapdeal-listing-today-rvnl-share-price-today-ipo-today-126100500057_1.html"
+    "url": "https://business-standard.com/markets/news/stock-market-live-october-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-snapdeal-listing-today-rvnl-share-price-today-ipo-today-126100500057_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "union-bank",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Union Bank advances up 18.5%; deposits lag",
+   "line": "Gross advances rose to ₹11,55,930 cr, but deposits grew just 6.87% to ₹13,19,457 cr",
+   "more": [
+    "Domestic CASA deposits rose 14.66% to ₹4,60,697 cr",
+    "Total global business rose 12.02% to ₹24,75,387 cr",
+    "The deposit gap could squeeze margins"
+   ],
+   "src": {
+    "title": "ScanX",
+    "url": "https://scanx.trade/stock-market-news/companies/union-bank-india-q2fy27-results-gross-advances-grow-18-53-yoy/52420660"
+   },
+   "date": "2026-10-05",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "psu-banks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Indian Bank business tops ₹15.96 lakh cr",
+   "line": "Indian Bank's Q2 global business crossed ₹15.96 lakh cr with double-digit YoY growth",
+   "more": [
+    "PSU banks are among the day's best-performing sectors",
+    "Strong Q2 updates are supporting state lenders"
+   ],
+   "src": {
+    "title": "Equitybulls",
+    "url": "https://www.equitybulls.com/category.php?id=376219"
+   },
+   "date": "2026-10-05",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "cipla",
+   "tag": "Regulation",
+   "impact": "neg",
+   "title": "Maharashtra FDA cancels Cipla unit's licence",
+   "line": "The drug sale licence of Cipla's Pune C&F warehouse was cancelled over storage lapses",
+   "more": [
+    "The order, effective Oct 1, follows a revised show-cause notice and a Sept 21 hearing",
+    "An earlier August order was withdrawn after a Bombay HC hearing",
+    "The FDA seized Reactin Plus stock worth ₹11.19 lakh"
+   ],
+   "src": {
+    "title": "Sahi",
+    "url": "https://www.sahi.com/news/cipla-unit-s-drug-sale-licence-cancelled-by-maharashtra-fda-over-alleged-violations"
+   },
+   "date": "2026-10-05",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "1230"
+   }
+  },
   {
    "key": "raymond-realty",
    "tag": "Stocks",
@@ -49,7 +123,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1200"
@@ -74,7 +148,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "pre"
@@ -98,7 +172,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1030"
@@ -198,30 +272,6 @@
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1530"
-   }
-  },
-  {
-   "key": "psu-banks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "PSU banks lead with a 1.5% gain",
-   "line": "Public-sector banks and metals carry the market as IT, pharma and healthcare slip",
-   "more": [
-    "Banking and metal stocks drove the early rally",
-    "Nifty IT, Pharma and Healthcare are the weakest sectors"
-   ],
-   "src": {
-    "title": "NewsBytes",
-    "url": "https://www.newsbytesapp.com/news/business/sensex-climbs-476-points-as-banks-and-metals-lead-gains/tldr"
-   },
-   "date": "2026-10-05",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1100"
    }
   },
   {
