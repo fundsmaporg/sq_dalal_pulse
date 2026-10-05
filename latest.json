@@ -1,28 +1,28 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-05T10:33:26+05:30",
+ "generated_at": "2026-10-05T11:03:03+05:30",
  "date": "2026-10-05",
- "slot": "1030",
- "slot_label": "10:30",
+ "slot": "1100",
+ "slot_label": "11:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-05T10:30:00+05:30",
+ "asof": "2026-10-05T11:00:00+05:30",
  "nifty": {
-  "value": 22610,
-  "pct": 0.8,
+  "value": 22480,
+  "pct": 0.26,
   "approx": true
  },
  "mood": {
-  "label": "Rally widens",
-  "score": 0.5,
-  "summary": "The rally has widened, with the Sensex up more than 600 pts as midcaps join in, though Snapdeal's weak debut shows IPO appetite remains selective.",
+  "label": "Gains pared",
+  "score": 0.15,
+  "summary": "The early rally has faded: the Sensex's gain has shrunk to about 200 pts from over 640 at 10 am, with IT and pharma selling offsetting bank strength.",
   "detail": {
-   "leaders": "Financials (M&M Financial, Bajaj Finance), Kalyan Jewellers, IT",
-   "laggards": "Snapdeal (new listing), RVNL",
-   "tone": "Gains have built on the open's momentum, with midcap financials and consumer names now joining the large-cap rally.",
+   "leaders": "PSU banks (index +1.5%), metals, Bajaj Finance",
+   "laggards": "IT, pharma, healthcare",
+   "tone": "Profit-taking set in after the 10 am high, but volatility is falling sharply, a sign that fear is easing ahead of the RBI decision.",
    "watch": [
-    "Whether the Nifty can reclaim 22,700",
-    "Brent near $101",
-    "RBI decision on Wednesday"
+    "Whether the Nifty holds above 22,500",
+    "Further IT selling",
+    "RBI outcome on Oct 7"
    ],
    "src": {
     "title": "Business Standard live",
@@ -31,6 +31,78 @@
   }
  },
  "insights": [
+  {
+   "key": "us-futures",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Fed hike odds collapse to 17.7%",
+   "line": "Markets see a 17.7% chance of a Fed hike on Oct 28, down from 71% a week earlier",
+   "more": [
+    "The shift followed Friday's weak US payrolls",
+    "Lower US yields ease pressure on foreign flows to India"
+   ],
+   "src": {
+    "title": "Outlook Money",
+    "url": "https://www.outlookmoney.com/invest/sensex-nifty-gap-up-opening-crude-oil-price-us-fed-rate-hike-ease"
+   },
+   "date": "2026-10-05",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "1530"
+   }
+  },
+  {
+   "key": "psu-banks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PSU banks lead with a 1.5% gain",
+   "line": "Public-sector banks and metals carry the market as IT, pharma and healthcare slip",
+   "more": [
+    "Banking and metal stocks drove the early rally",
+    "Nifty IT, Pharma and Healthcare are the weakest sectors"
+   ],
+   "src": {
+    "title": "NewsBytes",
+    "url": "https://www.newsbytesapp.com/news/business/sensex-climbs-476-points-as-banks-and-metals-lead-gains/tldr"
+   },
+   "date": "2026-10-05",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "hindustan-zinc",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Hindustan Zinc Q2 output rises 5–14%",
+   "line": "Mined metal rose 5% to 271 kt and refined lead rose 14% to 51 kt in the September quarter",
+   "more": [
+    "Saleable metal rose 7% to 264 kt",
+    "Refined zinc rose 5% to 212 kt"
+   ],
+   "src": {
+    "title": "Sunday Guardian",
+    "url": "https://sundayguardianlive.com/business/stocks-to-watch-for-october-5-which-stocks-will-be-in-focus-on-monday-hdfc-bank-hindustan-zinc-bajaj-finance-dmart-yes-bank-mm-bajaj-auto-uco-bank-infosys-wipro-muthoot-finance-bharat-coking-coal-298820/"
+   },
+   "date": "2026-10-05",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "1100"
+   }
+  },
   {
    "key": "snapdeal-listing",
    "tag": "Listing",
@@ -49,7 +121,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "pre"
@@ -74,7 +146,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1030"
@@ -98,7 +170,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1030"
@@ -223,31 +295,6 @@
    "first_seen": {
     "date": "2026-10-05",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "us-futures",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Weak US jobs data lifts Wall Street",
-   "line": "US payrolls rose just 29,000 in September; jobless rate climbed to 4.2%, cooling hike bets",
-   "more": [
-    "S&P 500 +0.7% to 7,722.72; Nasdaq +1.2% to 27,190.86",
-    "Dow +0.5% to 51,176.46; the Nasdaq hit an intraday record",
-    "US bond yields eased, supporting Asian markets on Monday"
-   ],
-   "src": {
-    "title": "TheStreet",
-    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-02-2026"
-   },
-   "date": "2026-10-05",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1530"
    }
   },
   {
@@ -1234,29 +1281,6 @@
    "first_seen": {
     "date": "2026-09-30",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "psu-banks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "PSU banks rebound 1% after Monday's rout",
-   "line": "Nifty PSU Bank leads early gains alongside IT and oil & gas",
-   "more": [
-    "The index fell over 3% on Monday"
-   ],
-   "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 30",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-september-30-sensex-today-nifty-gift-nifty-crude-oil-price-adroit-industries-share-ipo-today-126093000100_1.html"
-   },
-   "date": "2026-09-30",
-   "slot": "0930",
-   "when": "Wed · 9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1100"
    }
   },
   {
