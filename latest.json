@@ -1,37 +1,109 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-05T11:33:46+05:30",
+ "generated_at": "2026-10-05T12:02:54+05:30",
  "date": "2026-10-05",
- "slot": "1130",
- "slot_label": "11:30",
+ "slot": "1200",
+ "slot_label": "12:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-05T11:30:00+05:30",
+ "asof": "2026-10-05T12:00:00+05:30",
  "nifty": {
-  "value": 22502.1,
-  "pct": 0.36,
-  "chg": 80.15,
-  "approx": false
+  "value": 22470,
+  "pct": 0.21,
+  "approx": true
  },
  "mood": {
-  "label": "Holding gains",
-  "score": 0.2,
-  "summary": "The Nifty is consolidating above 22,500 after pulling back from its morning high, keeping a modest gain as buying stays selective ahead of the RBI decision.",
+  "label": "Rally fades",
+  "score": 0.05,
+  "summary": "The rally has largely faded: the Sensex is about 600 pts off its high and the Nifty has slipped back below 22,500, clinging to a small gain as IT and autos drag.",
   "detail": {
-   "leaders": "Bajaj Finance, Tata Motors PV, ITC, PSU banks",
-   "laggards": "IT, pharma, healthcare",
-   "tone": "The market steadied after the late-morning pullback; dips toward 22,460 found buyers, so the rebound is intact if subdued.",
+   "leaders": "PSU banks, metals, oil & gas, chemicals, banks",
+   "laggards": "IT, pharma, healthcare, autos",
+   "tone": "Selling into strength has erased most of the morning gap-up; traders are reluctant to chase ahead of the RBI decision.",
    "watch": [
-    "A hold of 22,460 intraday support",
-    "IT and pharma weakness spreading",
-    "RBI rate decision on Wednesday"
+    "The 22,460 intraday low",
+    "IT and auto weakness",
+    "RBI decision on Wednesday"
    ],
    "src": {
-    "title": "Angel One",
-    "url": "https://angelone.in/news/market-updates/nifty-50-index-climbs-above-22-500-mark-in-intraday-trade-on-october-5-2026"
+    "title": "Business Standard live",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-snapdeal-listing-today-rvnl-share-price-today-ipo-today-126100500057_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "raymond-realty",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Raymond Realty jumps 6% on Q2 pre-sales",
+   "line": "Q2 pre-sales nearly doubled (+98%) to ₹902 cr; collections rose 67% to ₹682 cr",
+   "more": [
+    "The stock hit a day's high of ₹689.90, up 6.4%",
+    "The growth came without any new project launches in the quarter"
+   ],
+   "src": {
+    "title": "Business Standard",
+    "url": "https://www.business-standard.com/companies/quarterly-results/raymond-realty-q2-fy27-pre-sales-collections-mahim-launches-126100500276_1.html"
+   },
+   "date": "2026-10-05",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "snapdeal-listing",
+   "tag": "Listing",
+   "impact": "neg",
+   "title": "AceVector stuck near ₹28.30 after listing",
+   "line": "Shares made no recovery from the 11.5% discount debut in early trade",
+   "more": [
+    "Its 4.93x subscription ranks 65th of 97 mainboard IPOs this year",
+    "The 2026 median subscription is 28.14x",
+    "The business is still loss-making"
+   ],
+   "src": {
+    "title": "HDFC Sky",
+    "url": "https://hdfcsky.com/news/acevector-shares-list-at-rs28-32-over-11percent-below-ipo-price"
+   },
+   "date": "2026-10-05",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "sector-rotation",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "PSU banks and metals lead; IT and pharma lag",
+   "line": "PSU Bank, Metal, Oil & Gas and Chemical indices outperform while IT and pharma fall",
+   "more": [
+    "Bajaj Finance, Shriram Finance and ITC are the top Nifty gainers",
+    "IT and auto shares are weighing on the indices"
+   ],
+   "src": {
+    "title": "Business Standard live",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-snapdeal-listing-today-rvnl-share-price-today-ipo-today-126100500057_1.html"
+   },
+   "date": "2026-10-05",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1030"
+   }
+  },
   {
    "key": "weekly-losing-streak",
    "tag": "Macro",
@@ -50,7 +122,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "post"
@@ -74,7 +146,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-25",
     "slot": "1230"
@@ -98,7 +170,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1200"
@@ -174,30 +246,6 @@
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1100"
-   }
-  },
-  {
-   "key": "snapdeal-listing",
-   "tag": "Listing",
-   "impact": "neg",
-   "title": "Snapdeal lists 11.5% below issue price",
-   "line": "AceVector opened at ₹28.32 on NSE and ₹28.30 on BSE versus the ₹32 IPO price",
-   "more": [
-    "The grey market had pointed to a small premium",
-    "The ₹420 cr issue had been subscribed 4.93 times"
-   ],
-   "src": {
-    "title": "RetailIntel",
-    "url": "https://retailintel.in/signal/acevector-snapdeal-s-parent-lists-at-rs-28-30-on-bse-11-56-b-2ea49b58"
-   },
-   "date": "2026-10-05",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-05",
-    "slot": "pre"
    }
   },
   {
@@ -975,30 +1023,6 @@
    "first_seen": {
     "date": "2026-09-25",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "sector-rotation",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Chemicals, IT and PSU banks hold up",
-   "line": "As heavyweights reversed, chemicals, IT, PSU banks and oil & gas still outperformed",
-   "more": [
-    "BSE, Max Healthcare and Dr Reddy's are the top Nifty losers",
-    "Healthcare is the weakest sector"
-   ],
-   "src": {
-    "title": "Business Standard live",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-september-30-sensex-today-nifty-gift-nifty-crude-oil-price-adroit-industries-share-ipo-today-126093000100_1.html"
-   },
-   "date": "2026-09-30",
-   "slot": "1500",
-   "when": "Wed · 15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "1030"
    }
   },
   {
