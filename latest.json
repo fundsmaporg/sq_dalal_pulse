@@ -1,36 +1,109 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-05T11:03:03+05:30",
+ "generated_at": "2026-10-05T11:33:46+05:30",
  "date": "2026-10-05",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-05T11:00:00+05:30",
+ "asof": "2026-10-05T11:30:00+05:30",
  "nifty": {
-  "value": 22480,
-  "pct": 0.26,
-  "approx": true
+  "value": 22502.1,
+  "pct": 0.36,
+  "chg": 80.15,
+  "approx": false
  },
  "mood": {
-  "label": "Gains pared",
-  "score": 0.15,
-  "summary": "The early rally has faded: the Sensex's gain has shrunk to about 200 pts from over 640 at 10 am, with IT and pharma selling offsetting bank strength.",
+  "label": "Holding gains",
+  "score": 0.2,
+  "summary": "The Nifty is consolidating above 22,500 after pulling back from its morning high, keeping a modest gain as buying stays selective ahead of the RBI decision.",
   "detail": {
-   "leaders": "PSU banks (index +1.5%), metals, Bajaj Finance",
+   "leaders": "Bajaj Finance, Tata Motors PV, ITC, PSU banks",
    "laggards": "IT, pharma, healthcare",
-   "tone": "Profit-taking set in after the 10 am high, but volatility is falling sharply, a sign that fear is easing ahead of the RBI decision.",
+   "tone": "The market steadied after the late-morning pullback; dips toward 22,460 found buyers, so the rebound is intact if subdued.",
    "watch": [
-    "Whether the Nifty holds above 22,500",
-    "Further IT selling",
-    "RBI outcome on Oct 7"
+    "A hold of 22,460 intraday support",
+    "IT and pharma weakness spreading",
+    "RBI rate decision on Wednesday"
    ],
    "src": {
-    "title": "Business Standard live",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-snapdeal-listing-today-rvnl-share-price-today-ipo-today-126100500057_1.html"
+    "title": "Angel One",
+    "url": "https://angelone.in/news/market-updates/nifty-50-index-climbs-above-22-500-mark-in-intraday-trade-on-october-5-2026"
    }
   }
  },
  "insights": [
+  {
+   "key": "weekly-losing-streak",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Rebound follows longest losing run in 25 years",
+   "line": "Eight straight weekly falls cut the Nifty 8.7% and the Sensex 8.4% before today's bounce",
+   "more": [
+    "Upbeat Asian markets, Friday's Wall Street gains and easing oil drove the open",
+    "Whether the bounce sticks hinges on the RBI decision on Oct 7"
+   ],
+   "src": {
+    "title": "HDFC Sky",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-october-5-2026-open-report-sensex-nifty-rally-as-upbeat-asia-easing-oil-offset-rbi-policy-caution"
+   },
+   "date": "2026-10-05",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "india-vix",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "India VIX drops nearly 7%",
+   "line": "Volatility is easing sharply after last week's spike as rate-hike fears cool",
+   "more": [
+    "The VIX had jumped about 16% during Thursday's sell-off",
+    "The decline came as the Nifty reclaimed 22,500"
+   ],
+   "src": {
+    "title": "Business Standard live",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-snapdeal-listing-today-rvnl-share-price-today-ipo-today-126100500057_1.html"
+   },
+   "date": "2026-10-05",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-25",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "tata-motors-pv",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Tata Motors PV rebounds after steep slide",
+   "line": "The stock is up about 1.25% today but remains down 17.6% over three months",
+   "more": [
+    "It is down 9.1% over the past month",
+    "Tata Motors PV is among the top Nifty gainers"
+   ],
+   "src": {
+    "title": "INDmoney",
+    "url": "https://www.indmoney.com/stocks/tata-motors-passenger-vehicles-ltd-share-price"
+   },
+   "date": "2026-10-05",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "1200"
+   }
+  },
   {
    "key": "us-futures",
    "tag": "Global",
@@ -49,7 +122,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1530"
@@ -73,7 +146,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1100"
@@ -97,7 +170,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1100"
@@ -514,30 +587,6 @@
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1300"
-   }
-  },
-  {
-   "key": "india-vix",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "India VIX jumps 16%",
-   "line": "Volatility spikes as traders hedge ahead of the Gandhi Jayanti long weekend",
-   "more": [
-    "Markets are shut on Friday, Oct 2",
-    "Gap risk on Monday is driving demand for protection"
-   ],
-   "src": {
-    "title": "Business Standard",
-    "url": "https://www.business-standard.com/amp/markets/news/why-are-markets-falling-today-sensex-crashes-1-000-pts-intraday-hits-2026-low-nifty-at-22-300-126100100568_1.html"
-   },
-   "date": "2026-10-01",
-   "slot": "1430",
-   "when": "Thu · 14:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1230"
    }
   },
   {
@@ -1642,29 +1691,6 @@
    }
   },
   {
-   "key": "tata-motors-pv",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Tata Motors PV hits a 52-week low of ₹272.55",
-   "line": "Down 2.6% to ₹275.65, its 4th straight fall and 8.6% lower over the four sessions",
-   "more": [
-    "Put buying at the ₹275 strike points to more bearish bets"
-   ],
-   "src": {
-    "title": "MarketsMojo — Tata Motors PV falls to 52-week low",
-    "url": "https://www.marketsmojo.com/news/stocks-in-action/tata-motors-passenger-vehicles-ltd-falls-to-52-week-low-of-rs27255-4208183"
-   },
-   "date": "2026-09-29",
-   "slot": "1200",
-   "when": "Tue · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-29",
-    "slot": "1200"
-   }
-  },
-  {
    "key": "ola-electric",
    "tag": "Stocks",
    "impact": "neg",
@@ -2235,31 +2261,6 @@
    "first_seen": {
     "date": "2026-09-28",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "weekly-losing-streak",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Nifty's 7th straight weekly loss",
-   "line": "Friday's bounce couldn't stop the longest weekly losing run since the 2020 Covid crash",
-   "more": [
-    "The Nifty is down 5.8% (1,430 points) over the seven-week streak",
-    "Oil above $100, US yields near 2007 highs and FII selling drove the slide",
-    "Friday's gain came on hopes of a US–Iran truce"
-   ],
-   "src": {
-    "title": "Business Standard — Stock Market Close, Sept 25",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
-   },
-   "date": "2026-09-25",
-   "slot": "post",
-   "when": "Fri · Close",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "post"
    }
   },
   {
