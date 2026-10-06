@@ -1,26 +1,27 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-06T11:33:52+05:30",
+ "generated_at": "2026-10-06T12:03:13+05:30",
  "date": "2026-10-06",
- "slot": "1130",
- "slot_label": "11:30",
+ "slot": "1200",
+ "slot_label": "12:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-06T11:30:00+05:30",
+ "asof": "2026-10-06T12:00:00+05:30",
  "nifty": {
-  "value": 22650,
-  "pct": 0.42,
+  "value": 22658.5,
+  "pct": 0.46,
+  "chg": 103.4,
   "approx": true
  },
  "mood": {
-  "label": "Holding firm",
+  "label": "Steady gains",
   "score": 0.35,
-  "summary": "The market is consolidating its morning gains near the day's highs, with metals and private banks leading and broader-market breadth still firmly positive.",
+  "summary": "Benchmarks are holding near their morning highs at midday in a narrow range, with steady buying in consumer, bank and aviation names and no sign of profit-taking yet.",
   "detail": {
-   "leaders": "Metals, private banks; Trent, Kotak Bank, Vedanta, Reliance",
+   "leaders": "Consumer staples on Q2 updates, private banks, metals; Trent, Kotak Bank, IndiGo",
    "laggards": "Healthcare; HDFC Bank, SBI",
-   "tone": "Unchanged from the previous note: no fresh index print, but headlines keep the Sensex about 300 points higher and the Nifty near 22,650, with early advancers outnumbering decliners 2,099 to 873.",
+   "tone": "Unchanged from the previous note: the 11 am print had the Nifty up 103.40 points (0.46%) at 22,658.50, still holding above the 22,600 zone.",
    "watch": [
-    "Whether metals and banks keep leading into expiry",
+    "Profit-taking into the expiry close",
     "Healthcare weakness spreading",
     "RBI decision at 10 am on Oct 7"
    ],
@@ -31,6 +32,78 @@
   }
  },
  "insights": [
+  {
+   "key": "godrej-consumer",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Godrej Consumer up 3% on Q2 outlook",
+   "line": "Guides high-teens revenue growth and high-single-digit volumes; stock hit ₹862.35",
+   "more": [
+    "Expects double-digit EBITDA growth for the September quarter",
+    "India business seen growing in the teens despite a 100–150 bps inventory hit",
+    "Says it remains on track to meet its FY27 outlook"
+   ],
+   "src": {
+    "title": "Zee Business: Godrej Consumer shares jump on Q2 update",
+    "url": "https://www.zeebiz.com/markets/stocks/news-godrej-consumer-products-shares-jump-on-q2-update-all-you-need-to-know-403404"
+   },
+   "date": "2026-10-06",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "indigo",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IndiGo gains after Nomura Buy call",
+   "line": "Nomura started coverage with a Buy and ₹6,000 target; IndiGo among early Nifty gainers",
+   "more": [
+    "Airline added domestic fuel charges of ₹375–1,300 from Oct 6",
+    "Fuel surcharge aims to offset higher jet fuel costs"
+   ],
+   "src": {
+    "title": "ad-hoc-news: Nomura sets ₹6,000 target for InterGlobe Aviation",
+    "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/nomura-sets-inr-6-000-target-for-interglobe-aviation-stock/70238264"
+   },
+   "date": "2026-10-06",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "shah-investors-listing",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Shah Investor's Home lists at 2.4% premium",
+   "line": "Shares opened at ₹171 on NSE in a muted debut",
+   "more": [
+    "Comes the same day SRIT India listed 14% higher on NSE"
+   ],
+   "src": {
+    "title": "Zee Business: Stock market news",
+    "url": "https://www.zeebiz.com/markets/stocks"
+   },
+   "date": "2026-10-06",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1200"
+   }
+  },
   {
    "key": "vedanta",
    "tag": "Stocks",
@@ -49,7 +122,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1030"
@@ -74,7 +147,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1130"
@@ -98,7 +171,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1130"
