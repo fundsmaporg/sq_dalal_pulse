@@ -1,37 +1,182 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-05T16:02:29+05:30",
- "date": "2026-10-05",
- "slot": "post",
- "slot_label": "Close",
- "stage": "Post-market mood",
- "asof": "2026-10-05T16:00:00+05:30",
+ "generated_at": "2026-10-06T08:33:18+05:30",
+ "date": "2026-10-06",
+ "slot": "pre",
+ "slot_label": "Pre-open",
+ "stage": "Pre-market mood",
+ "asof": "2026-10-06T08:30:00+05:30",
  "nifty": {
-  "value": 22535.45,
-  "pct": 0.51,
-  "chg": 113.5,
-  "approx": true
+  "value": 22555.75,
+  "pct": 0.6,
+  "chg": 133.8,
+  "approx": false
  },
  "mood": {
-  "label": "Relief rebound",
-  "score": 0.3,
-  "summary": "Benchmarks closed higher after a choppy session, recovering an afternoon fade with late buying, while midcaps outpaced smallcaps and healthcare lagged.",
+  "label": "Firm start seen",
+  "score": 0.25,
+  "summary": "Indian equities are set for a modestly firmer start after Monday's late recovery, with GIFT Nifty a little higher ahead of weekly expiry and a key RBI decision.",
   "detail": {
-   "leaders": "PSU banks, consumer durables, metals, media; Bajaj Finance, Shriram Finance, ITC",
-   "laggards": "Healthcare, IT; HCLTech, Asian Paints, HDFC Bank",
-   "tone": "The Nifty ended a choppy day up 113.50 points at 22,535.45 in the closing auction, after briefly giving up nearly all of its early gains.",
+   "leaders": "Private banks on Q2 updates; Trent; IT on overnight US tech strength",
+   "laggards": "Healthcare and FMCG lagged on Monday",
+   "tone": "Builds on Monday's close: the Nifty ended up 133.80 points (0.60%) at 22,555.75, and GIFT Nifty is up 27 points at 22,648.",
    "watch": [
-    "RBI policy decision on Oct 7, with a 25 bps hike in play",
-    "FII flows after ₹9,484 cr of net selling on Oct 1",
-    "TCS Q2 results on Oct 8 kick off IT earnings"
+    "Whether FII selling eases after another ₹4,699 cr net outflow",
+    "RBI policy decision on Wednesday, Oct 7",
+    "Weekly Nifty expiry swings"
    ],
    "src": {
-    "title": "Business Standard: Sensex gains 403 pts, Nifty at 22,535 in closing auction",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-snapdeal-listing-today-rvnl-share-price-today-ipo-today-126100500057_1.html"
+    "title": "Business Standard: GIFT Nifty signals positive open, Oct 6",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-6-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-srit-india-ipo-listing-126100600087_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "FIIs sell ₹4,699 cr; DIIs buy ₹5,182 cr",
+   "line": "Foreign selling continued on Monday even as domestic funds powered the rebound",
+   "more": [
+    "Provisional Oct 5 cash data: FII net -₹4,699.10 cr",
+    "DII net +₹5,181.60 cr, more than offsetting foreign outflows"
+   ],
+   "src": {
+    "title": "5paisa: FII DII data",
+    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
+   },
+   "date": "2026-10-06",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "wall-street",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Nasdaq hits record on AI chip rally",
+   "line": "Nasdaq up 1.05% to 27,477; S&P 500 up 0.66% as Nvidia hits an all-time high",
+   "more": [
+    "Dow added 0.18% to 51,267.90",
+    "Rally shrugged off elevated long-dated Treasury yields",
+    "Most Asian markets rose this morning on tech strength"
+   ],
+   "src": {
+    "title": "CNBC: Nasdaq closes at fresh record as tech shares rise",
+    "url": "https://www.cnbc.com/2026/10/04/stock-market-today-live-updates.html"
+   },
+   "date": "2026-10-06",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "private-banks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Axis, Kotak report strong Q2 loan growth",
+   "line": "Axis gross advances up 22.7% to ₹13.85 lakh cr; Kotak net advances up 24.7%",
+   "more": [
+    "Axis deposits up 20.7% to ₹14.52 lakh cr; CASA up 10.6%",
+    "Kotak net advances at ₹5.77 lakh cr as of Sept 30"
+   ],
+   "src": {
+    "title": "Upstox: Stocks to watch, Oct 6",
+    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-oct-6-godrej-consumer-products-trent-kotak-mahindra-bank-axis-bank-tata-steel-vedanta/article-201314/"
+   },
+   "date": "2026-10-06",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "trent",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Trent Q2 revenue up 23% to ₹5,788 cr",
+   "line": "Standalone revenue rose from ₹4,724 cr; H1 FY27 revenue up 21% to ₹11,454 cr",
+   "more": [
+    "Godrej Consumer guides high-teens Q2 revenue growth despite input inflation",
+    "Vedanta board to consider first FY27 interim dividend this week"
+   ],
+   "src": {
+    "title": "Upstox: Stocks to watch, Oct 6",
+    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-oct-6-godrej-consumer-products-trent-kotak-mahindra-bank-axis-bank-tata-steel-vedanta/article-201314/"
+   },
+   "date": "2026-10-06",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "srit-listing",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "SRIT India lists today on BSE, NSE",
+   "line": "₹218.4 cr IPO priced at ₹123–130; grey market hinted at ~36% premium",
+   "more": [
+    "Issue ran Sept 28–30; allotment on Oct 1",
+    "GMP of ₹47 as of Oct 4 is informal and may not hold"
+   ],
+   "src": {
+    "title": "IPO Watch: SRIT India IPO",
+    "url": "https://ipowatch.in/srit-india-ipo/"
+   },
+   "date": "2026-10-06",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Brent eases but stays above $100",
+   "line": "Brent fell 0.92% to $101.31 on Oct 5; still up about 55% from a year ago",
+   "more": [
+    "Up 4.27% over the past month",
+    "High oil keeps inflation and RBI hike risk in focus"
+   ],
+   "src": {
+    "title": "Trading Economics: Brent crude",
+    "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+   },
+   "date": "2026-10-06",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "pre"
+   }
+  },
   {
    "key": "rbi-policy",
    "tag": "Policy",
@@ -49,36 +194,12 @@
    },
    "date": "2026-10-05",
    "slot": "post",
-   "when": "Close",
+   "when": "Mon · Close",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "post"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "Oct 5 FII data awaited after heavy selling",
-   "line": "FIIs sold ₹9,484 cr net on Oct 1 as DIIs bought ₹10,042 cr; Monday's data due later",
-   "more": [
-    "Oct 1 FII gross sell ₹21,744 cr vs buy ₹12,260 cr",
-    "Persistent foreign outflows remain a key overhang for the rebound"
-   ],
-   "src": {
-    "title": "5paisa: FII DII data",
-    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
-   },
-   "date": "2026-10-05",
-   "slot": "post",
-   "when": "Close",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "0930"
    }
   },
   {
@@ -97,9 +218,9 @@
    },
    "date": "2026-10-05",
    "slot": "post",
-   "when": "Close",
+   "when": "Mon · Close",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "post"
@@ -121,9 +242,9 @@
    },
    "date": "2026-10-05",
    "slot": "post",
-   "when": "Close",
+   "when": "Mon · Close",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "post"
@@ -146,7 +267,7 @@
    },
    "date": "2026-10-05",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Mon · 15:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -170,36 +291,12 @@
    },
    "date": "2026-10-05",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Mon · 15:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1530"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Easing crude, Fed bets underpin rebound",
-   "line": "Lower oil prices and reduced Fed rate-hike odds lifted sentiment through the session",
-   "more": [
-    "Asian markets gained alongside",
-    "PSU Bank, Media and Metal indices rose up to 1%"
-   ],
-   "src": {
-    "title": "ETV Bharat: Sensex, Nifty in green after days of fall",
-    "url": "https://www.etvbharat.com/en/business/stock-market-on-october-5-sensex-nifty-top-stocks-crude-oil-price-enn26100501053"
-   },
-   "date": "2026-10-05",
-   "slot": "1530",
-   "when": "15:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "pre"
    }
   },
   {
@@ -218,7 +315,7 @@
    },
    "date": "2026-10-05",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Mon · 15:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -243,7 +340,7 @@
    },
    "date": "2026-10-05",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Mon · 15:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -267,7 +364,7 @@
    },
    "date": "2026-10-05",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Mon · 15:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -292,7 +389,7 @@
    },
    "date": "2026-10-05",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Mon · 14:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -316,7 +413,7 @@
    },
    "date": "2026-10-05",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Mon · 14:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -340,7 +437,7 @@
    },
    "date": "2026-10-05",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Mon · 14:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -365,7 +462,7 @@
    },
    "date": "2026-10-05",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Mon · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -389,7 +486,7 @@
    },
    "date": "2026-10-05",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Mon · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -414,7 +511,7 @@
    },
    "date": "2026-10-05",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Mon · 13:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -438,7 +535,7 @@
    },
    "date": "2026-10-05",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Mon · 13:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -462,7 +559,7 @@
    },
    "date": "2026-10-05",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Mon · 13:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -488,7 +585,7 @@
    },
    "date": "2026-10-05",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Mon · 13:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -512,7 +609,7 @@
    },
    "date": "2026-10-05",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Mon · 13:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -537,7 +634,7 @@
    },
    "date": "2026-10-05",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Mon · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -562,7 +659,7 @@
    },
    "date": "2026-10-05",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Mon · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -586,7 +683,7 @@
    },
    "date": "2026-10-05",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Mon · 12:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -611,7 +708,7 @@
    },
    "date": "2026-10-05",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Mon · 12:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -635,7 +732,7 @@
    },
    "date": "2026-10-05",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Mon · 12:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -659,12 +756,12 @@
    },
    "date": "2026-10-05",
    "slot": "1130",
-   "when": "11:30",
-   "updated": true,
+   "when": "Mon · 11:30",
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-25",
-    "slot": "post"
+    "date": "2026-10-05",
+    "slot": "1130"
    }
   },
   {
@@ -683,12 +780,12 @@
    },
    "date": "2026-10-05",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Mon · 11:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1230"
+    "date": "2026-09-28",
+    "slot": "1000"
    }
   },
   {
@@ -707,7 +804,7 @@
    },
    "date": "2026-10-05",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Mon · 11:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -731,7 +828,7 @@
    },
    "date": "2026-10-05",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Mon · 11:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -755,7 +852,7 @@
    },
    "date": "2026-10-05",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Mon · 11:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -780,7 +877,7 @@
    },
    "date": "2026-10-05",
    "slot": "1030",
-   "when": "10:30",
+   "when": "Mon · 10:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -804,7 +901,7 @@
    },
    "date": "2026-10-05",
    "slot": "1030",
-   "when": "10:30",
+   "when": "Mon · 10:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -828,12 +925,12 @@
    },
    "date": "2026-10-05",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Mon · 10:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
+    "date": "2026-09-28",
+    "slot": "1330"
    }
   },
   {
@@ -852,7 +949,7 @@
    },
    "date": "2026-10-05",
    "slot": "0930",
-   "when": "9:30",
+   "when": "Mon · 9:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -876,7 +973,7 @@
    },
    "date": "2026-10-05",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Mon · Pre-open",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -979,30 +1076,6 @@
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1500"
-   }
-  },
-  {
-   "key": "private-banks",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Banks hold up better than the market",
-   "line": "Bank Nifty is down only 0.63% versus the Nifty's 1.4% fall",
-   "more": [
-    "Kotak Bank was among the morning's top gainers",
-    "Financials are limiting the Sensex's damage relative to the Nifty"
-   ],
-   "src": {
-    "title": "Kotak Neo",
-    "url": "https://www.kotakneo.com/share-market-today/"
-   },
-   "date": "2026-10-01",
-   "slot": "1500",
-   "when": "Thu · 15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "1230"
    }
   },
   {
@@ -1413,8 +1486,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-25",
-    "slot": "0930"
+    "date": "2026-09-28",
+    "slot": "pre"
    }
   },
   {
@@ -1459,8 +1532,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1330"
+    "date": "2026-09-28",
+    "slot": "1230"
    }
   },
   {
@@ -1672,8 +1745,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
+    "date": "2026-09-28",
+    "slot": "0930"
    }
   },
   {
@@ -2313,11 +2386,11 @@
    "date": "2026-09-28",
    "slot": "1500",
    "when": "Mon · 15:00",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1100"
+    "date": "2026-09-28",
+    "slot": "1500"
    }
   },
   {
@@ -2390,8 +2463,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1200"
+    "date": "2026-09-28",
+    "slot": "pre"
    }
   },
   {
@@ -2576,11 +2649,11 @@
    "date": "2026-09-28",
    "slot": "1030",
    "when": "Mon · 10:30",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1300"
+    "date": "2026-09-28",
+    "slot": "1030"
    }
   },
   {
@@ -2676,592 +2749,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "it-pharma-lag",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "IT and pharma end as the weakest sectors",
-   "line": "Nifty IT and Nifty Pharma closed as the biggest sector drags while realty and autos led",
-   "more": [
-    "IT was pressured all day as the US 10-yr yield stayed near 5.1%",
-    "Pharma gave up the defensive strength it showed during Thursday's sell-off"
-   ],
-   "src": {
-    "title": "Business Standard — Stock Market Close, Sept 25",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
-   },
-   "date": "2026-09-25",
-   "slot": "post",
-   "when": "Fri · Close",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "post"
-   }
-  },
-  {
-   "key": "week-ahead",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "Next week: PCE, A-One Steels, TCI buyback",
-   "line": "US PCE Sept 30; A-One Steels IPO closes Sept 28, lists Oct 1; TCI board meets Sept 29",
-   "more": [
-    "July core PCE was 3.3% YoY; a hot August print would add to Fed hike bets",
-    "A-One Steels was 80% subscribed by day 2, with a grey-market premium of about 12%",
-    "Iran has said it could reopen Hormuz within 7 days if the US eases its blockade"
-   ],
-   "src": {
-    "title": "StockMarketHours — August 2026 PCE release preview",
-    "url": "https://stockmarkethours.org/events/us-pce-release"
-   },
-   "date": "2026-09-25",
-   "slot": "post",
-   "when": "Fri · Close",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "post"
-   }
-  },
-  {
-   "key": "banks-rebound",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Axis Bank among top Nifty gainers at close",
-   "line": "Private banks led the late push; Axis Bank, Asian Paints and HCLTech topped Nifty gainers",
-   "more": [
-    "Banks had led Thursday's sell-off, so their bounce lifted the index most",
-    "Realty was the best-performing sector; IT the worst"
-   ],
-   "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 25",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
-   },
-   "date": "2026-09-25",
-   "slot": "1530",
-   "when": "Fri · 15:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1430"
-   }
-  },
-  {
-   "key": "us-pce",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "US PCE on Sept 30 is next yield test",
-   "line": "The August PCE inflation print is due Sept 30; July core PCE ran at 3.3% YoY",
-   "more": [
-    "July headline PCE was 3.7% YoY, 0.2% MoM",
-    "A hot print would reinforce Fed hike bets and pressure FII flows into India"
-   ],
-   "src": {
-    "title": "StockMarketHours — August 2026 PCE release preview",
-    "url": "https://stockmarkethours.org/events/us-pce-release"
-   },
-   "date": "2026-09-25",
-   "slot": "1500",
-   "when": "Fri · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "realty-rebound",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Realty is the top sector; DLF, Godrej gain",
-   "line": "Nifty Realty +0.54%: Oberoi +1.43%, DLF +1.32%, Godrej Properties +1.19%",
-   "more": [
-    "Phoenix Mills (+1.07%) and Aditya Birla Real Estate (+1.43%) are also higher",
-    "Realty is rebounding after Thursday's decline"
-   ],
-   "src": {
-    "title": "Business Standard — Sensex, Nifty trade near flat line; realty shares jump",
-    "url": "https://www.business-standard.com/markets/capital-market-news/sensex-nifty-trade-near-flat-line-realty-shares-jump-126092500471_1.html"
-   },
-   "date": "2026-09-25",
-   "slot": "1430",
-   "when": "Fri · 14:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1430"
-   }
-  },
-  {
-   "key": "vascon-qualcomm",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Vascon jumps 8.7% on ₹661 cr Qualcomm order",
-   "line": "Wins a ₹660.79 cr contract to build a 12-floor Qualcomm India office in Bengaluru",
-   "more": [
-    "Execution runs 30 months from site handover",
-    "Shares rose 8.71% in early trade"
-   ],
-   "src": {
-    "title": "HDFC Sky — Vascon Engineers bags ₹660.79 cr Qualcomm project",
-    "url": "https://hdfcsky.com/news/vascon-engineers-bags-rs-660-79-crore-qualcomm-project"
-   },
-   "date": "2026-09-25",
-   "slot": "1400",
-   "when": "Fri · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "engineers-india",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Engineers India hits record ₹311",
-   "line": "The PSU engineering stock hits a fresh all-time high, bucking the weak broader market",
-   "more": [
-    "Momentum is building across timeframes",
-    "It is one of several small and midcap stocks at record highs today"
-   ],
-   "src": {
-    "title": "MarketsMojo — Engineers India hits all-time high",
-    "url": "https://www.marketsmojo.com/news/stocks-in-action/engineers-india-ltd-stock-hits-all-time-high-on-25-sep-2026-4205137"
-   },
-   "date": "2026-09-25",
-   "slot": "1400",
-   "when": "Fri · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "idbi-stake-sale",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Govt evaluating IDBI Bank financial bids",
-   "line": "Sale of 60.72% stake moving steadily; Fairfax and Emirates NBD in the race",
-   "more": [
-    "The Government (30.48%) and LIC (30.24%) are selling jointly",
-    "Revised bids came in on July 13 after the first round missed the reserve price",
-    "Fairfax's reported ₹81/share offer values the stake at about ₹53,000 cr"
-   ],
-   "src": {
-    "title": "Business Standard — Govt evaluating financial bids for IDBI Bank stake sale",
-    "url": "https://www.business-standard.com/companies/news/govt-evaluating-financial-bids-for-strategic-stake-sale-in-idbi-bank-126092500411_1.html"
-   },
-   "date": "2026-09-25",
-   "slot": "1330",
-   "when": "Fri · 13:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1330"
-   }
-  },
-  {
-   "key": "tci-buyback",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "TCI jumps 13% on buyback proposal",
-   "line": "Transport Corporation of India's board meets on Sept 29 to consider a share buyback",
-   "more": [
-    "The stock was up 13.12% in early afternoon trade",
-    "The buyback size and price have not been disclosed yet"
-   ],
-   "src": {
-    "title": "Business Standard — Sensex, Nifty trade near flat line; realty shares jump",
-    "url": "https://www.business-standard.com/markets/capital-market-news/sensex-nifty-trade-near-flat-line-realty-shares-jump-126092500471_1.html"
-   },
-   "date": "2026-09-25",
-   "slot": "1330",
-   "when": "Fri · 13:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1330"
-   }
-  },
-  {
-   "key": "whirlpool-india",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Whirlpool India jumps 12% on promoter exit talk",
-   "line": "Parent explores selling its remaining 39.76% stake as a control deal; stock hit ₹959.60",
-   "more": [
-    "Whirlpool Mauritius is in talks with more than one potential buyer",
-    "Whirlpool of India says it is not part of the negotiations and does not know the terms",
-    "About ₹987 cr of shares traded on NSE, a sharp volume spike"
-   ],
-   "src": {
-    "title": "RetailIntel — Whirlpool of India jumps 12% as promoter explores stake sale",
-    "url": "https://retailintel.in/signal/whirlpool-of-india-shares-jump-12-as-promoter-explores-poten-5ef04eee"
-   },
-   "date": "2026-09-25",
-   "slot": "1230",
-   "when": "Fri · 12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "jindal-supreme",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Jindal Supreme hits 5% upper circuit again",
-   "line": "The new listing extends its rally after a 29% premium debut on Sept 23 (issue price ₹93)",
-   "more": [
-    "It listed at ₹120 against the ₹93 IPO price",
-    "The IPO was subscribed 177 times"
-   ],
-   "src": {
-    "title": "India Infoline — Jindal Supreme hits upper circuit after 29% premium listing",
-    "url": "https://www.indiainfoline.com/news/companies/jindal-supreme-stocks-hit-upper-circuit-after-listing-at-29-percent-premium"
-   },
-   "date": "2026-09-25",
-   "slot": "1230",
-   "when": "Fri · 12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "esds-results",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "ESDS hits 5% lower circuit as Q1 profit halves",
-   "line": "Q1 FY27 PAT fell 57% QoQ to ₹29.3 cr; shares locked at ₹1,760.50 despite 14% YoY growth",
-   "more": [
-    "Revenue fell 20% QoQ to ₹133.65 cr from ₹167.5 cr",
-    "Year-on-year, profit rose 14% and revenue 7.3%",
-    "The stock ends a four-day winning streak; it is still about 310% above its IPO price"
-   ],
-   "src": {
-    "title": "Business Standard — ESDS hits 5% lower circuit as Q1 PAT halves",
-    "url": "https://www.business-standard.com/markets/news/esds-share-price-hit-5-lower-circuit-as-q1-pat-halves-up-310-from-ipo-price-126092500274_1.html"
-   },
-   "date": "2026-09-25",
-   "slot": "1200",
-   "when": "Fri · 12:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "auto-realty",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Realty, autos lead; Bajaj Auto tops Nifty",
-   "line": "Bajaj Auto, Tata Motors PV, Power Grid top Nifty gainers; realty is the best sector",
-   "more": [
-    "Softer crude on US–Iran truce hopes is helping autos",
-    "The Nifty IT index is the weakest sector"
-   ],
-   "src": {
-    "title": "Business Standard — Stock Market LIVE, Sept 25",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-updates-september-25-sensex-today-nifty50-gift-nifty-crude-oil-prices-nse-share-price-126092500092_1.html"
-   },
-   "date": "2026-09-25",
-   "slot": "1200",
-   "when": "Fri · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "qip-fundraises",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Wheels India, Inox Green up to 5% on QIPs",
-   "line": "Wheels India rose as much as 5.5% to ₹2,300 after launching a ₹250 cr QIP",
-   "more": [
-    "The Wheels India QIP floor price is ₹2,197.10, with up to a 5% discount allowed",
-    "Its board was due to meet on Sept 25 to fix the final issue price",
-    "Inox Green also rose after launching its own QIP"
-   ],
-   "src": {
-    "title": "BusinessToday — Wheels India, Inox Green rise up to 5% on QIPs",
-    "url": "https://www.businesstoday.in/markets/trending-stocks/story/wheels-india-inox-green-shares-rise-up-to-5-as-companies-launch-qips-check-details-557731-2026-09-25"
-   },
-   "date": "2026-09-25",
-   "slot": "1130",
-   "when": "Fri · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "spectrum-electrical",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Spectrum Electrical hits record ₹3,400",
-   "line": "The small-cap is up 4.47% to a fresh all-time high, far outpacing the Sensex",
-   "more": [
-    "It set a new 52-week and all-time high on Sept 25",
-    "Momentum is building across timeframes"
-   ],
-   "src": {
-    "title": "MarketsMojo — Spectrum Electrical hits all-time high of ₹3,400",
-    "url": "https://www.marketsmojo.com/news/stocks-in-action/spectrum-electrical-industries-ltd-hits-all-time-high-at-rs3400-4204484"
-   },
-   "date": "2026-09-25",
-   "slot": "1130",
-   "when": "Fri · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "ofss",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "OFSS slides 3–4%; puts pile up",
-   "line": "Oracle Financial Services is the weakest IT name, near ₹10,460 with heavy put buying",
-   "more": [
-    "Reports put the day's fall at 3.4–4.4%; it is among the top midcap losers",
-    "6,886 contracts traded at the ₹10,500 put strike and 5,112 at ₹10,000",
-    "On Monday it fell 6.5% on an FT report of stress in loans linked to an Oracle-leased US data centre"
-   ],
-   "src": {
-    "title": "MarketsMojo — Heavy put option activity in Oracle Financial Services",
-    "url": "https://www.marketsmojo.com/news/stocks-in-action/oracle-financial-services-sees-heavy-put-option-activity-amid-bearish-sentiment-4204645"
-   },
-   "date": "2026-09-25",
-   "slot": "1100",
-   "when": "Fri · 11:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1100"
-   }
-  },
-  {
-   "key": "pb-fintech",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "PB Fintech extends slide for a second day",
-   "line": "Down 2.2% at ₹1,180, among the top midcap losers after Thursday's 35% crash",
-   "more": [
-    "Selling follows IRDAI's draft caps on commissions and distribution costs",
-    "IRDAI is taking stakeholder feedback until October 25"
-   ],
-   "src": {
-    "title": "Moneycontrol via TradingView — PB Fintech among top midcap losers",
-    "url": "https://tr.tradingview.com/news/moneycontrol%3A6bd1dc7fa094b%3A0-pb-fintech-policybazaar-shares-fall-2-among-top-midcap-losers-in-morning-trading-session"
-   },
-   "date": "2026-09-25",
-   "slot": "1100",
-   "when": "Fri · 11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "welspun-corp",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Welspun Corp hits record on ₹4,000 cr US order",
-   "line": "US arm wins its largest-ever pipe order (~$412.5 mn); stock up 5% to a record ₹2,837.50",
-   "more": [
-    "Welspun Tubular LLC will supply high-frequency induction welded (HFIW) pipes",
-    "The order is worth about $412.5 mn, or ₹4,000 cr",
-    "The stock is up about four-fold from its February low"
-   ],
-   "src": {
-    "title": "Business Standard — Welspun Corp jumps 5% as US arm wins ₹4,000 cr order",
-    "url": "https://www.business-standard.com/markets/news/welspun-corp-jump-5-as-us-arm-wins-4-000-cr-order-up-4-fold-from-feb-low-126092500195_1.html"
-   },
-   "date": "2026-09-25",
-   "slot": "1030",
-   "when": "Fri · 10:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1030"
-   }
-  },
-  {
-   "key": "ltts-cognite",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "LTTS partners Cognite on industrial AI",
-   "line": "L&T Technology Services will jointly develop industrial AI and data solutions with Cognite",
-   "more": [
-    "The deal adds Cognite's industrial AI capabilities to LTTS's engineering offerings",
-    "This is a rare positive IT headline on a weak day for the sector"
-   ],
-   "src": {
-    "title": "Sunday Guardian — Stocks to watch today, September 25",
-    "url": "https://sundayguardianlive.com/business/stocks-to-watch-today-september-25-which-stocks-could-see-action-check-key-shares-in-focus-on-qips-earnings-acquisitions-orders-and-major-deals-292222/"
-   },
-   "date": "2026-09-25",
-   "slot": "1000",
-   "when": "Fri · 10:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "1000"
-   }
-  },
-  {
-   "impact": "pos",
-   "key": "mcx-fpi",
-   "line": "FPIs can trade select non-agricultural commodity futures and options; MCX in focus",
-   "more": [
-    "Sebi approved FPI participation in select non-agri commodity derivatives",
-    "The change widens the participant base for commodity exchanges such as MCX"
-   ],
-   "src": {
-    "title": "Business Standard — Stocks to watch: PB Fintech, MCX, NSE, Inox Green, Waaree, Dr Lal",
-    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-pb-fintech-mcx-nse-inox-green-waaree-energies-dr-lal-126092500100_1.html"
-   },
-   "tag": "Regulation",
-   "title": "Sebi lets FPIs into commodity F&O",
-   "date": "2026-09-25",
-   "slot": "0930",
-   "when": "Fri · 9:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "0930"
-   }
-  },
-  {
-   "impact": "pos",
-   "key": "dr-lal",
-   "line": "Up to ₹168 cr in cash plus an earn-out of up to ₹31.5 cr; adds advanced diagnostics",
-   "more": [
-    "The deal expands Dr Lal's specialised and advanced testing portfolio",
-    "The company plans 12–15 new labs by FY27"
-   ],
-   "src": {
-    "title": "Business Standard — Stocks to watch, Sept 25",
-    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-pb-fintech-mcx-nse-inox-green-waaree-energies-dr-lal-126092500100_1.html"
-   },
-   "tag": "Stocks",
-   "title": "Dr Lal PathLabs buys 70% of SN Genelab",
-   "date": "2026-09-25",
-   "slot": "0930",
-   "when": "Fri · 9:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "0930"
-   }
-  },
-  {
-   "impact": "watch",
-   "key": "trump-xi",
-   "line": "Trump–Xi summit in Washington; Nikkei +1.3%, but Hang Seng −1.6% on thin outcome",
-   "more": [
-    "Bessent said Washington and Beijing agreed a two-month truce extension",
-    "UBS called it shorter than hoped for a one-year rollover, but stabilising",
-    "Hong Kong losses led by financials, materials and tech"
-   ],
-   "src": {
-    "title": "Business Recorder — China, HK stocks slip on Trump-Xi outcome",
-    "url": "https://www.brecorder.com/news/40441001/china-hong-kong-stocks-slip-as-investors-weigh-trump-xi-summit-outcome"
-   },
-   "tag": "Global",
-   "title": "US–China extend trade truce by two months",
-   "date": "2026-09-25",
-   "slot": "pre",
-   "when": "Fri · Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "pre"
-   }
-  },
-  {
-   "impact": "pos",
-   "key": "waaree-energies",
-   "line": "Arm WCES to build UHP gas plant at Dahej; follows 2 GW module order",
-   "more": [
-    "WCES to supply ultra-high purity gases to semiconductor and solar cell makers",
-    "Plant at GIDC Saykha, Dahej: UHP ammonia and phosphine/hydrogen mixing units",
-    "2 GW module order from a domestic developer, to be executed over FY27–FY28"
-   ],
-   "src": {
-    "title": "Free Press Journal — Waaree Clean Energy enters specialty gases",
-    "url": "https://www.freepressjournal.in/business/waaree-clean-energy-solutions-enters-indias-specialty-gases-market-for-semiconductor-solar-manufacturing"
-   },
-   "tag": "Stocks",
-   "title": "Waaree moves into chip-grade specialty gases",
-   "date": "2026-09-25",
-   "slot": "pre",
-   "when": "Fri · Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
-    "slot": "pre"
-   }
-  },
-  {
-   "impact": "pos",
-   "key": "lemon-tree",
-   "line": "Subsidiary Fleur Hotels to build 172-key upscale hotel, its 7th Mumbai property",
-   "more": [
-    "Also signed a 90-room licensed hotel in Patancheru, Telangana",
-    "Fleur Hotels approved a wholly owned Maldives subsidiary",
-    "Marks a shift to owned assets in premium metros"
-   ],
-   "src": {
-    "title": "EquityBulls — Lemon Tree acquires land at Bandra East",
-    "url": "https://www.equitybulls.com/category.php?id=375769"
-   },
-   "tag": "Stocks",
-   "title": "Lemon Tree buys ₹120 cr Bandra land",
-   "date": "2026-09-25",
-   "slot": "pre",
-   "when": "Fri · Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-25",
     "slot": "pre"
    }
   }
