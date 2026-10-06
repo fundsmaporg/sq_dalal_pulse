@@ -1,36 +1,107 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-06T14:02:42+05:30",
+ "generated_at": "2026-10-06T14:33:07+05:30",
  "date": "2026-10-06",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-06T14:00:00+05:30",
+ "asof": "2026-10-06T14:30:00+05:30",
  "nifty": {
-  "value": 22705,
-  "pct": 0.67,
-  "approx": true
+  "value": 22710.45,
+  "pct": 0.69,
+  "chg": 154.7,
+  "approx": false
  },
  "mood": {
-  "label": "Firm afternoon",
+  "label": "Broad-based gains",
   "score": 0.45,
-  "summary": "Benchmarks are holding firm gains through the afternoon with banks still in charge, while realty and IT lag and traders stay positioned for tomorrow's policy decision.",
+  "summary": "Benchmarks are holding near the day's highs into the final hour, with gains broadening to oil & gas and pharma and smallcaps still outpacing midcaps.",
   "detail": {
-   "leaders": "Private banks; Kotak Bank, Axis Bank, IndusInd Bank, Trent",
-   "laggards": "Realty, IT, healthcare; IDFC First Bank",
-   "tone": "Steady from the previous note: the Sensex is up about 0.69% near 72,883, consistent with the Nifty holding around 22,700.",
+   "leaders": "Private banks, metals, oil & gas; pharma recovering; Trent, Kotak Bank",
+   "laggards": "Realty, IT",
+   "tone": "Steady from the previous note: at 2 pm the Nifty was up 154.70 points (0.69%) at 22,710.45 and the Sensex up 534 points at 72,916.42.",
    "watch": [
-    "Closing-hour moves on weekly expiry",
-    "Rate-sensitive stocks ahead of an expected RBI hike on Oct 7",
+    "Expiry-day swings in the final hour",
+    "Rate-sensitive stocks ahead of the RBI decision at 10 am on Oct 7",
     "FII flow data after the close"
    ],
    "src": {
-    "title": "Business Standard: Sensex gains 500 pts; Nifty Private Bank up 1%",
+    "title": "Business Standard: Sensex gains 500 pts, Nifty tops 22,700; Nifty Pharma reverses 3-day losing run",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-6-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-srit-india-ipo-listing-126100600087_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "meesho",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Meesho jumps 6% as Jefferies turns upbeat",
+   "line": "Stock up 6.19% to ₹240.40 on BSE after Jefferies flagged strong business prospects",
+   "more": [
+    "Among the bigger consumer-internet movers alongside Nykaa and Honasa"
+   ],
+   "src": {
+    "title": "BusinessToday: Meesho shares gain 6% as Jefferies upbeat",
+    "url": "https://www.businesstoday.in/markets/trending-stocks/story/meesho-shares-gain-as-jefferies-upbeat-on-business-prospects-559795-2026-10-06"
+   },
+   "date": "2026-10-06",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "pharma",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Pharma snaps a three-day losing run",
+   "line": "Nifty Pharma turns higher after leading Monday's declines",
+   "more": [
+    "Healthcare had been the weakest sector earlier in the session"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex gains 500 pts, Nifty tops 22,700; Nifty Pharma reverses 3-day losing run",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-6-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-srit-india-ipo-listing-126100600087_1.html"
+   },
+   "date": "2026-10-06",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "oil-gas",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Oil & gas joins metals and banks in the lead",
+   "line": "Energy shares advance as crude stays below its recent highs",
+   "more": [
+    "Brent eased to about $101 on Oct 5",
+    "Lower crude supports margins for refiners and fuel retailers"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex gains 500 pts, Nifty tops 22,700; Nifty Pharma reverses 3-day losing run",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-6-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-srit-india-ipo-listing-126100600087_1.html"
+   },
+   "date": "2026-10-06",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1430"
+   }
+  },
   {
    "key": "indusind-bank",
    "tag": "Stocks",
@@ -50,7 +121,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1400"
@@ -74,7 +145,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1400"
@@ -97,7 +168,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1400"
