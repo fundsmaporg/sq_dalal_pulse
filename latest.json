@@ -1,37 +1,109 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-06T10:03:09+05:30",
+ "generated_at": "2026-10-06T10:33:15+05:30",
  "date": "2026-10-06",
- "slot": "1000",
- "slot_label": "10:00",
- "stage": "Opening mood",
- "asof": "2026-10-06T10:00:00+05:30",
+ "slot": "1030",
+ "slot_label": "10:30",
+ "stage": "Mid-market mood",
+ "asof": "2026-10-06T10:30:00+05:30",
  "nifty": {
-  "value": 22591.6,
-  "pct": 0.16,
-  "chg": 35.85,
-  "approx": true
+  "value": 22660.35,
+  "pct": 0.46,
+  "chg": 104.6,
+  "approx": false
  },
  "mood": {
-  "label": "Cautious gains",
-  "score": 0.2,
-  "summary": "Benchmarks are holding small gains in a tight band near 22,600, with buyers picking specific stocks on Q2 updates while caution builds ahead of tomorrow's RBI decision.",
+  "label": "Gains extend",
+  "score": 0.4,
+  "summary": "Buying has broadened through the morning, lifting benchmarks clear of 22,600 with smallcaps outpacing midcaps as risk appetite improves ahead of the RBI decision.",
   "detail": {
-   "leaders": "Trent, Kotak Bank, Axis Bank, IndiGo, Hindalco, Reliance; consumer names on Q2 updates",
-   "laggards": "HDFC Bank, SBI, Yes Bank",
-   "tone": "Little changed from the open: early prints had the Nifty up 0.14–0.16% around 22,592, holding just under 22,600 on weekly expiry day.",
+   "leaders": "Trent, Kotak Bank, BSE; chemicals up over 1%; smallcaps",
+   "laggards": "HDFC Bank, SBI",
+   "tone": "Firmer than the previous note: at 10 am the Nifty was up 104.60 points (0.46%) at 22,660.35, breaking above the 22,600 zone that capped it earlier.",
    "watch": [
-    "A decisive move above 22,600",
-    "HDFC Bank and SBI weakness spreading to other lenders",
-    "Positioning before the RBI decision at 10 am on Oct 7"
+    "Holding above the 22,600–22,621 resistance zone into expiry",
+    "Smallcap index up 0.65% vs midcap up 0.29%",
+    "RBI policy decision at 10 am on Oct 7"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE, Oct 6",
+    "title": "Business Standard: Sensex up 200 pts, Nifty tops 22,600",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-6-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-srit-india-ipo-listing-126100600087_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "bse-ltd",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "BSE Ltd climbs 3% on heavy trading",
+   "line": "Exchange stock hit ₹3,292.3; among top gainers as institutional interest builds",
+   "more": [
+    "Opened at ₹3,209 and traded near ₹3,274.5, up 2.98%",
+    "Outpacing the capital-markets sector's 0.27% gain"
+   ],
+   "src": {
+    "title": "MarketsMojo: BSE Ltd surges on high-value trading",
+    "url": "https://www.marketsmojo.com/news/stocks-in-action/bse-ltd-surges-on-high-value-trading-and-institutional-interest-4215877"
+   },
+   "date": "2026-10-06",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "1530"
+   }
+  },
+  {
+   "key": "vedanta",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Vedanta board weighs dividend on Oct 8",
+   "line": "First interim payout for FY27 to be considered; record date set for Oct 14",
+   "more": [
+    "Stock closed at ₹255.05 on Monday, up 1.19%",
+    "Market capitalisation about ₹99,734 cr"
+   ],
+   "src": {
+    "title": "BusinessToday: Vedanta to consider dividend after Q2 updates",
+    "url": "https://www.businesstoday.in/markets/stocks/story/after-q2-business-updates-vedanta-to-consider-dividend-check-record-date-and-other-details-559711-2026-10-06"
+   },
+   "date": "2026-10-06",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "fo-ban",
+   "tag": "Regulation",
+   "impact": "watch",
+   "title": "Ambuja, Bandhan Bank, SAIL in F&O ban",
+   "line": "Three stocks barred from fresh F&O positions on weekly Nifty expiry day",
+   "more": [
+    "Ban applies when open interest crosses 95% of the market-wide limit",
+    "Only trades that reduce existing positions are allowed"
+   ],
+   "src": {
+    "title": "Angel One: Ambuja, Bandhan Bank, SAIL under F&O ban on Oct 6",
+    "url": "https://www.angelone.in/news/market-updates/nifty-weekly-expiry-today-ambuja-cements-bandhan-bank-and-sail-under-f-o-ban-on-october-6-2026"
+   },
+   "date": "2026-10-06",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1030"
+   }
+  },
   {
    "key": "srit-listing",
    "tag": "Listing",
@@ -50,7 +122,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "pre"
@@ -74,7 +146,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1000"
@@ -97,7 +169,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1000"
@@ -311,30 +383,6 @@
    "src": {
     "title": "Sahi: YES Bank loans up 23.8% to ₹3.10 lakh cr, deposits up 19.5%",
     "url": "https://www.sahi.com/news/yes-bank-loans-increase-23-8-to-3-10-lakh-crore-deposits-up-19-5"
-   },
-   "date": "2026-10-05",
-   "slot": "1530",
-   "when": "Mon · 15:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-05",
-    "slot": "1530"
-   }
-  },
-  {
-   "key": "bse-ltd",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "BSE Ltd up 4% as markets rebound",
-   "line": "Exchange stock hit ₹3,177.10 intraday, up 4.31% from ₹3,046",
-   "more": [
-    "Capital-market stocks gained as risk appetite returned",
-    "Comes after benchmarks' eight-week losing streak"
-   ],
-   "src": {
-    "title": "Zee Business: BSE stock jumps 4% as Sensex, Nifty rebound",
-    "url": "https://www.zeebiz.com/market-news/news-bse-share-price-stock-jumps-4-as-sensex-nifty-rebound-after-8-week-losing-streak-403357"
    },
    "date": "2026-10-05",
    "slot": "1530",
