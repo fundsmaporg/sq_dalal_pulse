@@ -1,29 +1,28 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-06T13:33:05+05:30",
+ "generated_at": "2026-10-06T14:02:42+05:30",
  "date": "2026-10-06",
- "slot": "1330",
- "slot_label": "13:30",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-06T13:30:00+05:30",
+ "asof": "2026-10-06T14:00:00+05:30",
  "nifty": {
-  "value": 22711.75,
-  "pct": 0.69,
-  "chg": 156,
-  "approx": false
+  "value": 22705,
+  "pct": 0.67,
+  "approx": true
  },
  "mood": {
-  "label": "Banks lead rally",
+  "label": "Firm afternoon",
   "score": 0.45,
-  "summary": "Benchmarks are holding near the day's highs into the afternoon, with banks driving the advance and smallcaps outpacing midcaps as breadth stays healthy.",
+  "summary": "Benchmarks are holding firm gains through the afternoon with banks still in charge, while realty and IT lag and traders stay positioned for tomorrow's policy decision.",
   "detail": {
-   "leaders": "Private banks up 1%; Trent, Kotak Bank, Axis Bank, BSE; smallcaps up 0.91%",
-   "laggards": "Realty the weakest sector; IT, healthcare",
-   "tone": "Steady from the previous note: at 1 pm the Nifty was up 156 points (0.69%) at 22,711.75 and the Sensex up 539 points at 72,921.95, with HDFC Bank now joining the bank rally.",
+   "leaders": "Private banks; Kotak Bank, Axis Bank, IndusInd Bank, Trent",
+   "laggards": "Realty, IT, healthcare; IDFC First Bank",
+   "tone": "Steady from the previous note: the Sensex is up about 0.69% near 72,883, consistent with the Nifty holding around 22,700.",
    "watch": [
-    "Realty and rate-sensitive stocks ahead of a possible RBI hike",
-    "Holding 22,700 into the expiry close",
-    "IT weakness before TCS results on Oct 8"
+    "Closing-hour moves on weekly expiry",
+    "Rate-sensitive stocks ahead of an expected RBI hike on Oct 7",
+    "FII flow data after the close"
    ],
    "src": {
     "title": "Business Standard: Sensex gains 500 pts; Nifty Private Bank up 1%",
@@ -32,6 +31,78 @@
   }
  },
  "insights": [
+  {
+   "key": "indusind-bank",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IndusInd Bank up 2% on Q2 update",
+   "line": "Net advances up 11.2% YoY to ₹3.62 lakh cr; deposits up 10.1% to ₹4.29 lakh cr",
+   "more": [
+    "Intraday high ₹903.70",
+    "Advances rose 11.1% QoQ",
+    "Raised $3.51 bn (~₹33,627 cr) in FCNR(B) deposits"
+   ],
+   "src": {
+    "title": "Angel One: IndusInd Bank in focus after Q2 FY27 update",
+    "url": "https://www.angelone.in/news/stocks/indusind-bank-share-price-in-focus-after-it-reports-q2-fy27-financial-update"
+   },
+   "date": "2026-10-06",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "fcnr-deposits",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "FCNR deposits lift banks' Q2 deposit growth",
+   "line": "Banks raised about $133 bn under RBI's FCNR(B) swap window, boosting balance sheets",
+   "more": [
+    "Axis raised $10.62 bn and IndusInd $3.51 bn in FCNR(B) deposits",
+    "FCNR window closed Aug 31; ECB and OFCB windows open till Dec 31"
+   ],
+   "src": {
+    "title": "Business Standard: Deposit growth gets a leg-up from FCNR(B) mobilisation",
+    "url": "https://www.business-standard.com/industry/banking/deposit-growth-gets-a-leg-up-for-banks-in-q2-due-to-fcnr-b-mobilisation-126100400354_1.html"
+   },
+   "date": "2026-10-06",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "rbl-bank",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "RBL Bank: Q2 advances up 40%, deposits up 34%",
+   "line": "Gross advances ₹1,43,350 cr and deposits ₹1,56,280 cr as of Sept 30",
+   "more": [
+    "Average liquidity coverage ratio improved to 148% from 133%"
+   ],
+   "src": {
+    "title": "Equitybulls: RBL Bank Q2 FY27 quarterly update",
+    "url": "https://www.equitybulls.com/category.php?id=376331"
+   },
+   "date": "2026-10-06",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1400"
+   }
+  },
   {
    "key": "axis-bank",
    "tag": "Stocks",
@@ -51,7 +122,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1330"
@@ -76,7 +147,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1330"
@@ -100,7 +171,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1330"
