@@ -1,37 +1,110 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-06T12:03:13+05:30",
+ "generated_at": "2026-10-06T12:33:12+05:30",
  "date": "2026-10-06",
- "slot": "1200",
- "slot_label": "12:00",
+ "slot": "1230",
+ "slot_label": "12:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-06T12:00:00+05:30",
+ "asof": "2026-10-06T12:30:00+05:30",
  "nifty": {
-  "value": 22658.5,
-  "pct": 0.46,
-  "chg": 103.4,
-  "approx": true
+  "value": 22681.4,
+  "pct": 0.56,
+  "chg": 125.65,
+  "approx": false
  },
  "mood": {
-  "label": "Steady gains",
-  "score": 0.35,
-  "summary": "Benchmarks are holding near their morning highs at midday in a narrow range, with steady buying in consumer, bank and aviation names and no sign of profit-taking yet.",
+  "label": "Grinding higher",
+  "score": 0.4,
+  "summary": "Benchmarks have edged to fresh session highs into early afternoon, with banks and metals pushing higher even as technology shares slip, leaving gains narrow but steady.",
   "detail": {
-   "leaders": "Consumer staples on Q2 updates, private banks, metals; Trent, Kotak Bank, IndiGo",
-   "laggards": "Healthcare; HDFC Bank, SBI",
-   "tone": "Unchanged from the previous note: the 11 am print had the Nifty up 103.40 points (0.46%) at 22,658.50, still holding above the 22,600 zone.",
+   "leaders": "Private banks, metals; Trent, Kotak Bank, BSE",
+   "laggards": "IT down over 1%, healthcare; HDFC Bank, SBI",
+   "tone": "A touch firmer than the previous note: at noon the Nifty was up 125.65 points (0.56%) at 22,681.40 and the Sensex up 437 points.",
    "watch": [
-    "Profit-taking into the expiry close",
-    "Healthcare weakness spreading",
+    "IT selling deepening before TCS results on Oct 8",
+    "Expiry-day swings into the close",
     "RBI decision at 10 am on Oct 7"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE, Oct 6",
+    "title": "Business Standard: Sensex rises 400 pts, Nifty tops 22,650; Nifty IT down over 1%",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-6-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-srit-india-ipo-listing-126100600087_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "rbi-policy",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Most economists see 25 bps hike tomorrow",
+   "line": "8 of 10 in a Business Standard poll expect repo to rise to 5.50% on Oct 7",
+   "more": [
+    "FE poll: 80% expect a hike; Reuters poll: nearly 60%",
+    "Rate unchanged at 5.25% for four straight reviews",
+    "Governor's press conference follows at noon"
+   ],
+   "src": {
+    "title": "Business Standard: RBI MPC meet Oct 5–7 — will RBI hike the repo rate?",
+    "url": "https://www.business-standard.com/finance/news/rbi-mpc-meeting-october-2026-monetary-policy-repo-rate-hike-retail-inflation-126100200188_1.html"
+   },
+   "date": "2026-10-06",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "it-stocks",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "IT shares slip ahead of Q2 earnings",
+   "line": "Nifty IT down over 1%, bucking the broader gains before TCS reports on Oct 8",
+   "more": [
+    "Previews point to a muted quarter for large-cap IT",
+    "HCLTech and Infosys report later in October"
+   ],
+   "src": {
+    "title": "Goodreturns: IT sector Q2 results preview",
+    "url": "https://www.goodreturns.in/news/it-sector-q2-results-preview-dates-dividends-bonus-tcs-hcl-infosys-wipro-muted-quarter-tech-stocks-1539409.html"
+   },
+   "date": "2026-10-06",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "trent",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Trent holds 10% upper circuit at ₹2,838",
+   "line": "Stock up from ₹2,580 and remains the top Nifty gainer after its Q2 update",
+   "more": [
+    "Q2 standalone revenue up 23% YoY",
+    "Private Bank index the best-performing sector, up about 0.75%"
+   ],
+   "src": {
+    "title": "HDFC Sky: Sensex, Nifty edge higher ahead of RBI decision",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-october-6-2026-open-report-sensex-nifty-edge-higher-as-investors-await-rbi-rate-decision"
+   },
+   "date": "2026-10-06",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "pre"
+   }
+  },
   {
    "key": "godrej-consumer",
    "tag": "Stocks",
@@ -51,7 +124,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1200"
@@ -75,7 +148,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1200"
@@ -98,7 +171,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1200"
@@ -344,30 +417,6 @@
    }
   },
   {
-   "key": "trent",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Trent hits 10% upper circuit on Q2 update",
-   "line": "Revenue up 23% YoY; Zudio crosses 1,000 stores as total network reaches 1,342",
-   "more": [
-    "Stock had closed at ₹2,580 on Monday, down nearly 10% this year",
-    "Trent is among the Nifty's top gainers in early trade"
-   ],
-   "src": {
-    "title": "Upstox: Trent's Zudio hits 1,000 stores as Q2 revenue jumps 23%",
-    "url": "https://upstox.com/news/market-news/stocks/trent-shares-in-focus-after-q2-revenue-jumps-23-yo-y-zudio-crosses-1-000-store-milestone/article-201309/"
-   },
-   "date": "2026-10-06",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-06",
-    "slot": "pre"
-   }
-  },
-  {
    "key": "fii-flows",
    "tag": "Flows",
    "impact": "neg",
@@ -438,31 +487,6 @@
    "first_seen": {
     "date": "2026-09-28",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "rbi-policy",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "RBI MPC meet begins; decision on Oct 7",
-   "line": "Economists divided on a 25 bps hike from 5.25% as crude and inflation pressures build",
-   "more": [
-    "Three-day MPC meeting runs Oct 5–7; decision at 10 am on Oct 7",
-    "A hike would be the first since February 2023",
-    "SBI Research flags elevated crude and broadening inflation"
-   ],
-   "src": {
-    "title": "BusinessToday: MPC begins 3-day meet as crude, inflation test policy",
-    "url": "https://www.businesstoday.in/india/story/will-rbi-hike-repo-rate-mpc-begins-3-day-meet-as-surging-crude-oil-inflation-test-policy-limits-559433-2026-10-05"
-   },
-   "date": "2026-10-05",
-   "slot": "post",
-   "when": "Mon · Close",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "post"
    }
   },
   {
@@ -1122,30 +1146,6 @@
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "it-stocks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Infosys among top gainers as IT extends rally",
-   "line": "IT stocks gain as softer US jobs data cools Fed rate-hike expectations",
-   "more": [
-    "Infosys and HDFC Bank are among the top Sensex gainers",
-    "IT was the only notable gainer in Thursday's sell-off"
-   ],
-   "src": {
-    "title": "India TV News",
-    "url": "https://www.indiatvnews.com/business/news/5-october-2026-stock-market-updates-sensex-jumps-400-points-88-points-nifty-above-22-500-infosys-hdfc-bank-top-gainer-2026-10-05-1056087"
-   },
-   "date": "2026-10-05",
-   "slot": "1000",
-   "when": "Mon · 10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1330"
    }
   },
   {
