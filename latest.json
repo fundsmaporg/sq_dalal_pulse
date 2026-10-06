@@ -1,36 +1,109 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-06T11:03:33+05:30",
+ "generated_at": "2026-10-06T11:33:52+05:30",
  "date": "2026-10-06",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-06T11:00:00+05:30",
+ "asof": "2026-10-06T11:30:00+05:30",
  "nifty": {
   "value": 22650,
   "pct": 0.42,
   "approx": true
  },
  "mood": {
-  "label": "Steady gains",
+  "label": "Holding firm",
   "score": 0.35,
-  "summary": "The market is holding firm gains into late morning, with a few heavyweights doing the lifting while healthcare lags and traders stay wary before tomorrow's policy call.",
+  "summary": "The market is consolidating its morning gains near the day's highs, with metals and private banks leading and broader-market breadth still firmly positive.",
   "detail": {
-   "leaders": "Private banks, Trent, Reliance, Kotak Bank, BSE; consumer names",
-   "laggards": "Healthcare, HDFC Bank, SBI",
-   "tone": "Similar to the previous note: the Sensex is up about 300 points, consistent with the Nifty holding near 22,650 after the 10 am print of 22,660.35.",
+   "leaders": "Metals, private banks; Trent, Kotak Bank, Vedanta, Reliance",
+   "laggards": "Healthcare; HDFC Bank, SBI",
+   "tone": "Unchanged from the previous note: no fresh index print, but headlines keep the Sensex about 300 points higher and the Nifty near 22,650, with early advancers outnumbering decliners 2,099 to 873.",
    "watch": [
+    "Whether metals and banks keep leading into expiry",
     "Healthcare weakness spreading",
-    "Whether Reliance extends gains on Jio IPO buzz",
     "RBI decision at 10 am on Oct 7"
    ],
    "src": {
-    "title": "Business Standard: Trent, RIL lead 300-point gains in Sensex; Honasa jumps 11%",
+    "title": "Business Standard: Stock Market LIVE, Oct 6",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-6-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-srit-india-ipo-listing-126100600087_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "vedanta",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Vedanta jumps 3% ahead of dividend meet",
+   "line": "Stock hit ₹264.90 after setting Oct 14 as record date for its first FY27 interim dividend",
+   "more": [
+    "Traded near ₹263.80 around 10:30 am vs ₹255.05 Monday close",
+    "Board meets Oct 8 to decide the payout"
+   ],
+   "src": {
+    "title": "Goodreturns: Vedanta shares rally over 3% after record date announcement",
+    "url": "https://www.goodreturns.in/news/vedanta-dividend-alert-shares-rally-over-3-after-record-date-announcement-demerger-mean-for-payout-1539399.html"
+   },
+   "date": "2026-10-06",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "angel-one",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Angel One up 2% on September update",
+   "line": "Client base reached 39.98 million, up 17.3% YoY; orders rose 11.7% MoM",
+   "more": [
+    "Average client funding book ₹78.7 bn, up 41% YoY",
+    "Gross client additions fell 19.6% MoM to 0.45 million",
+    "Q2 average daily turnover flat YoY, down 13.9% QoQ"
+   ],
+   "src": {
+    "title": "Upstox: Angel One shares jump 2% on Q2 business update",
+    "url": "https://upstox.com/news/market-news/stocks/angel-one-shares-jump-2-on-healthy-q2-business-updates-despite-muted-market-activity/article-201326/"
+   },
+   "date": "2026-10-06",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "metals",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Metal and bank shares lead the gains",
+   "line": "Metals join private banks at the top of the sector table as crude eases",
+   "more": [
+    "Hindalco among early Nifty gainers",
+    "Vedanta extends gains on dividend plans"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE, Oct 6",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-6-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-srit-india-ipo-listing-126100600087_1.html"
+   },
+   "date": "2026-10-06",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1130"
+   }
+  },
   {
    "key": "jio-ipo",
    "tag": "Stocks",
@@ -49,7 +122,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "post"
@@ -72,7 +145,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1000"
@@ -96,7 +169,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1230"
@@ -124,30 +197,6 @@
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1530"
-   }
-  },
-  {
-   "key": "vedanta",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Vedanta board weighs dividend on Oct 8",
-   "line": "First interim payout for FY27 to be considered; record date set for Oct 14",
-   "more": [
-    "Stock closed at ₹255.05 on Monday, up 1.19%",
-    "Market capitalisation about ₹99,734 cr"
-   ],
-   "src": {
-    "title": "BusinessToday: Vedanta to consider dividend after Q2 updates",
-    "url": "https://www.businesstoday.in/markets/stocks/story/after-q2-business-updates-vedanta-to-consider-dividend-check-record-date-and-other-details-559711-2026-10-06"
-   },
-   "date": "2026-10-06",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-06",
-    "slot": "1030"
    }
   },
   {
