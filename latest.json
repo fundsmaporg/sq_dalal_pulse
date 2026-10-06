@@ -1,37 +1,107 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-06T10:33:15+05:30",
+ "generated_at": "2026-10-06T11:03:33+05:30",
  "date": "2026-10-06",
- "slot": "1030",
- "slot_label": "10:30",
+ "slot": "1100",
+ "slot_label": "11:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-06T10:30:00+05:30",
+ "asof": "2026-10-06T11:00:00+05:30",
  "nifty": {
-  "value": 22660.35,
-  "pct": 0.46,
-  "chg": 104.6,
-  "approx": false
+  "value": 22650,
+  "pct": 0.42,
+  "approx": true
  },
  "mood": {
-  "label": "Gains extend",
-  "score": 0.4,
-  "summary": "Buying has broadened through the morning, lifting benchmarks clear of 22,600 with smallcaps outpacing midcaps as risk appetite improves ahead of the RBI decision.",
+  "label": "Steady gains",
+  "score": 0.35,
+  "summary": "The market is holding firm gains into late morning, with a few heavyweights doing the lifting while healthcare lags and traders stay wary before tomorrow's policy call.",
   "detail": {
-   "leaders": "Trent, Kotak Bank, BSE; chemicals up over 1%; smallcaps",
-   "laggards": "HDFC Bank, SBI",
-   "tone": "Firmer than the previous note: at 10 am the Nifty was up 104.60 points (0.46%) at 22,660.35, breaking above the 22,600 zone that capped it earlier.",
+   "leaders": "Private banks, Trent, Reliance, Kotak Bank, BSE; consumer names",
+   "laggards": "Healthcare, HDFC Bank, SBI",
+   "tone": "Similar to the previous note: the Sensex is up about 300 points, consistent with the Nifty holding near 22,650 after the 10 am print of 22,660.35.",
    "watch": [
-    "Holding above the 22,600–22,621 resistance zone into expiry",
-    "Smallcap index up 0.65% vs midcap up 0.29%",
-    "RBI policy decision at 10 am on Oct 7"
+    "Healthcare weakness spreading",
+    "Whether Reliance extends gains on Jio IPO buzz",
+    "RBI decision at 10 am on Oct 7"
    ],
    "src": {
-    "title": "Business Standard: Sensex up 200 pts, Nifty tops 22,600",
+    "title": "Business Standard: Trent, RIL lead 300-point gains in Sensex; Honasa jumps 11%",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-6-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-srit-india-ipo-listing-126100600087_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "jio-ipo",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Reliance gains on Jio IPO buzz",
+   "line": "RIL up about 1% to ₹1,198.50 and among the top contributors to the Sensex's gains",
+   "more": [
+    "Opened at ₹1,188.10 and climbed to its intraday high",
+    "Jio Platforms IPO could raise about ₹37,000–37,800 cr, India's largest"
+   ],
+   "src": {
+    "title": "LatestLY: Reliance share price jumps on Jio IPO news",
+    "url": "https://www.latestly.com/business/reliance-industries-stock-update-share-price-jumps-on-jio-ipo-news-7634158.html"
+   },
+   "date": "2026-10-06",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "honasa",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Honasa Consumer extends gain to 11%",
+   "line": "Rally builds on its early-30s Q2 NSV growth outlook, up from 8% earlier",
+   "more": [
+    "Mamaearth seen growing in the high teens; younger brands near mid-40s"
+   ],
+   "src": {
+    "title": "Business Standard: Trent, RIL lead 300-point gains in Sensex; Honasa jumps 11%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-6-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-srit-india-ipo-listing-126100600087_1.html"
+   },
+   "date": "2026-10-06",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "private-banks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Private banks lead sectors, Kotak on top",
+   "line": "Nifty Private Bank is the best-performing sector after strong Q2 loan updates",
+   "more": [
+    "Kotak Bank among top Nifty gainers on 24.7% advances growth",
+    "HDFC Bank and SBI continue to lag"
+   ],
+   "src": {
+    "title": "HDFC Sky: Sensex, Nifty edge higher ahead of RBI decision",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-october-6-2026-open-report-sensex-nifty-edge-higher-as-investors-await-rbi-rate-decision"
+   },
+   "date": "2026-10-06",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1230"
+   }
+  },
   {
    "key": "bse-ltd",
    "tag": "Stocks",
@@ -50,7 +120,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1530"
@@ -74,7 +144,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1030"
@@ -98,7 +168,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1030"
@@ -126,30 +196,6 @@
    "first_seen": {
     "date": "2026-10-06",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "honasa",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Honasa Consumer jumps 8% on Q2 outlook",
-   "line": "Expects early-30s NSV growth; stock hit ₹478.55, up 8.24% intraday",
-   "more": [
-    "Mamaearth seen growing in the high teens",
-    "Younger brands like Derma Co. and Aqualogica expected near mid-40s growth"
-   ],
-   "src": {
-    "title": "Upstox: Honasa Consumer jumps over 8% on Q2 NSV growth outlook",
-    "url": "https://upstox.com/news/market-news/stocks/honasa-consumer-shares-jump-over-8-after-q2-nsv-growth-seen-in-early-30s-margins-in-focus/article-201329/"
-   },
-   "date": "2026-10-06",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-06",
-    "slot": "1000"
    }
   },
   {
@@ -197,30 +243,6 @@
    "first_seen": {
     "date": "2026-10-06",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "private-banks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Kotak, Axis lead after Q2 loan growth",
-   "line": "Both lenders are among the top early gainers; HDFC Bank and SBI lag",
-   "more": [
-    "Kotak net advances up 24.7% YoY",
-    "Axis gross advances up 22.7%; deposits up 20.7%"
-   ],
-   "src": {
-    "title": "Upstox: Sensex, Nifty edge higher; Trent, Kotak Bank among top gainers",
-    "url": "https://upstox.com/news/market-news/stocks/sensex-nifty-50-edge-higher-trent-kotak-bank-among-top-gainers-after-quarterly-business-updates/article-201325/"
-   },
-   "date": "2026-10-06",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "1230"
    }
   },
   {
@@ -334,30 +356,6 @@
    "src": {
     "title": "Business Upturn: Q2 FY27 results this week, TCS on October 8",
     "url": "https://businessupturn.com/finance/stock-market/q2-results-this-week-tcs-october-8-poonawalla-fincorp-can-fin-homes-anand-rathi-earnings-calendar"
-   },
-   "date": "2026-10-05",
-   "slot": "post",
-   "when": "Mon · Close",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-05",
-    "slot": "post"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Jio Platforms IPO edges closer",
-   "line": "Reliance's telecom arm could raise up to ₹37,700 cr in what would be India's biggest IPO",
-   "more": [
-    "Fresh issue of up to 27 crore shares at ₹10 face value",
-    "Reliance Industries in focus as offer documents are finalised"
-   ],
-   "src": {
-    "title": "Upstox: Jio Platforms IPO, 3 key things to know",
-    "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-when-is-the-issue-likely-to-open-3-key-things-to-know/article-201251/"
    },
    "date": "2026-10-05",
    "slot": "post",
