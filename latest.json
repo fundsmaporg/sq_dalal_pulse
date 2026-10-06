@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-06T15:03:02+05:30",
+ "generated_at": "2026-10-06T15:33:05+05:30",
  "date": "2026-10-06",
- "slot": "1500",
- "slot_label": "15:00",
+ "slot": "1530",
+ "slot_label": "15:30",
  "stage": "Closing mood",
- "asof": "2026-10-06T15:00:00+05:30",
+ "asof": "2026-10-06T15:30:00+05:30",
  "nifty": {
   "value": 22711.35,
   "pct": 0.69,
@@ -13,17 +13,17 @@
   "approx": true
  },
  "mood": {
-  "label": "Strong into close",
+  "label": "Firm finish",
   "score": 0.45,
-  "summary": "Benchmarks are holding near the day's highs into the final half hour of expiry day, with broad participation and no sign of late selling ahead of tomorrow's policy call.",
+  "summary": "Benchmarks are wrapping up expiry day near the session's highs, holding a second straight day of gains with banks in front and smallcaps outperforming.",
   "detail": {
-   "leaders": "Private banks, metals, oil & gas; Trent, Kotak Bank, Axis Bank",
-   "laggards": "Realty, IT",
-   "tone": "Unchanged from the previous note: the latest print has the Nifty up 155.60 points (0.69%) at 22,711.35 and the Sensex up 524 points at 72,906.74.",
+   "leaders": "Private banks, metals, oil & gas; Trent, Kotak Bank, Jio Financial",
+   "laggards": "Realty, IT; Tech Mahindra, Coal India, Max Healthcare",
+   "tone": "Steady into the bell versus the previous note: the latest print shows the Nifty up 155.60 points (0.69%) at 22,711.35; final closing figures are still awaited.",
    "watch": [
-    "Closing-auction moves on weekly expiry",
-    "RBI decision at 10 am on Oct 7, with a 25 bps hike expected",
-    "FII flow data after the close"
+    "Official close and FII/DII data after 5:30 pm",
+    "RBI decision at 10 am on Oct 7",
+    "TCS Q2 results on Oct 8"
    ],
    "src": {
     "title": "Business Standard: Stock Market LIVE, Oct 6",
@@ -32,6 +32,78 @@
   }
  },
  "insights": [
+  {
+   "key": "rentomojo",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Rentomojo jumps 10% despite Q1 profit fall",
+   "line": "Stock hit ₹562.60 as investors focus on revenue growth over a one-off fire hit",
+   "more": [
+    "Q1 profit fell 39% YoY due to a fire incident in Noida",
+    "Listed on Sept 17; now about 39% above its ₹404 IPO price",
+    "Market cap around ₹5,778 cr"
+   ],
+   "src": {
+    "title": "Upstox: Rentomojo shares surge over 10% despite 39% fall in Q1 profit",
+    "url": "https://upstox.com/news/market-news/stocks/rentomojo-shares-surge-over-10-despite-a-39-yo-y-fall-in-q1-profits-revenue-growth-fire-incident-in-focus/article-201342/"
+   },
+   "date": "2026-10-06",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1530"
+   }
+  },
+  {
+   "key": "it-stocks",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Tech Mahindra leads IT losers",
+   "line": "TechM down 2.34% among the top Nifty losers; Coforge and Persistent also weak",
+   "more": [
+    "IT is among the weakest sectors ahead of TCS's results on Oct 8"
+   ],
+   "src": {
+    "title": "HDFC Sky: Top gainers & losers, Oct 6, 12 pm",
+    "url": "https://hdfcsky.com/news/top-gainers-losers-october-6-2026-at-12-pm"
+   },
+   "date": "2026-10-06",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "coal-india",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Coal India slips despite Nuvama upgrade",
+   "line": "Among the top Nifty losers a day after Nuvama upgraded it to Buy with a ₹501 target",
+   "more": [
+    "Upgrade cited 12.5% YoY volume growth in September",
+    "Proposed listing of subsidiary Mahanadi Coalfields also flagged"
+   ],
+   "src": {
+    "title": "BusinessToday: Coal India upgraded to Buy; target raised",
+    "url": "https://www.businesstoday.in/markets/stocks/story/coal-india-shares-brokerage-upgrades-stock-to-buy-q2-volume-mcl-listing-likely-to-boost-outlook-target-price-raised-559552-2026-10-05"
+   },
+   "date": "2026-10-06",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1530"
+   }
+  },
   {
    "key": "private-banks",
    "tag": "Stocks",
@@ -50,7 +122,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1230"
@@ -74,33 +146,10 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "it-stocks",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "HCLTech dips ahead of Oct 12 Q2 results",
-   "line": "Stock down 0.47% at ₹1,196.20 as IT lags; TCS opens the season on Oct 8",
-   "more": [
-    "HCLTech's Q2 FY27 earnings call is set for Oct 12 at 7:30 pm"
-   ],
-   "src": {
-    "title": "INDmoney: HCL Technologies share price",
-    "url": "https://www.indmoney.com/stocks/hcl-technologies-ltd-share-price"
-   },
-   "date": "2026-10-06",
-   "slot": "1500",
-   "when": "15:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1330"
    }
   },
   {
