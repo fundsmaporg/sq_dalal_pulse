@@ -1,37 +1,108 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-06T08:33:18+05:30",
+ "generated_at": "2026-10-06T09:33:36+05:30",
  "date": "2026-10-06",
- "slot": "pre",
- "slot_label": "Pre-open",
- "stage": "Pre-market mood",
- "asof": "2026-10-06T08:30:00+05:30",
+ "slot": "0930",
+ "slot_label": "9:30",
+ "stage": "Opening mood",
+ "asof": "2026-10-06T09:30:00+05:30",
  "nifty": {
-  "value": 22555.75,
-  "pct": 0.6,
-  "chg": 133.8,
-  "approx": false
+  "value": 22560,
+  "pct": 0.02,
+  "approx": true
  },
  "mood": {
-  "label": "Firm start seen",
-  "score": 0.25,
-  "summary": "Indian equities are set for a modestly firmer start after Monday's late recovery, with GIFT Nifty a little higher ahead of weekly expiry and a key RBI decision.",
+  "label": "Mild gains",
+  "score": 0.2,
+  "summary": "Benchmarks opened modestly higher on firm global cues but quickly settled into a narrow range, with gains concentrated in a handful of heavyweights on expiry day.",
   "detail": {
-   "leaders": "Private banks on Q2 updates; Trent; IT on overnight US tech strength",
-   "laggards": "Healthcare and FMCG lagged on Monday",
-   "tone": "Builds on Monday's close: the Nifty ended up 133.80 points (0.60%) at 22,555.75, and GIFT Nifty is up 27 points at 22,648.",
+   "leaders": "Trent, Kotak Bank, Axis Bank, Reliance, HCLTech, IndiGo",
+   "laggards": "HDFC Bank, Bharti Airtel, M&M, SBI",
+   "tone": "Slightly softer than the pre-open signal: the Nifty briefly went above 22,600 before settling just above 22,550, with the Sensex up about 100 points.",
    "watch": [
-    "Whether FII selling eases after another ₹4,699 cr net outflow",
-    "RBI policy decision on Wednesday, Oct 7",
-    "Weekly Nifty expiry swings"
+    "Whether the Nifty can hold above 22,600 on weekly expiry",
+    "HDFC Bank and SBI selling capping the upside",
+    "Positioning ahead of Wednesday's RBI decision"
    ],
    "src": {
-    "title": "Business Standard: GIFT Nifty signals positive open, Oct 6",
+    "title": "Business Standard: Sensex up 100 pts, Nifty tops 22,550; Trent hits 10% upper circuit",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-6-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-srit-india-ipo-listing-126100600087_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "trent",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Trent hits 10% upper circuit on Q2 update",
+   "line": "Revenue up 23% YoY; Zudio crosses 1,000 stores as total network reaches 1,342",
+   "more": [
+    "Stock had closed at ₹2,580 on Monday, down nearly 10% this year",
+    "Trent is among the Nifty's top gainers in early trade"
+   ],
+   "src": {
+    "title": "Upstox: Trent's Zudio hits 1,000 stores as Q2 revenue jumps 23%",
+    "url": "https://upstox.com/news/market-news/stocks/trent-shares-in-focus-after-q2-revenue-jumps-23-yo-y-zudio-crosses-1-000-store-milestone/article-201309/"
+   },
+   "date": "2026-10-06",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "private-banks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Kotak, Axis lead after Q2 loan growth",
+   "line": "Both lenders are among the top early gainers; HDFC Bank and SBI lag",
+   "more": [
+    "Kotak net advances up 24.7% YoY",
+    "Axis gross advances up 22.7%; deposits up 20.7%"
+   ],
+   "src": {
+    "title": "Upstox: Sensex, Nifty edge higher; Trent, Kotak Bank among top gainers",
+    "url": "https://upstox.com/news/market-news/stocks/sensex-nifty-50-edge-higher-trent-kotak-bank-among-top-gainers-after-quarterly-business-updates/article-201325/"
+   },
+   "date": "2026-10-06",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "srit-listing",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "SRIT India debuts after 116x subscription",
+   "line": "₹130 issue; grey market pointed to a 36–45% listing premium before debut",
+   "more": [
+    "₹218.4 cr IPO; lot size of 115 shares",
+    "GMP is informal and may not reflect the actual listing price"
+   ],
+   "src": {
+    "title": "Kotak Neo: SRIT India IPO subscribed 116.48x",
+    "url": "https://www.kotakneo.com/ipo/srit-india-ltd-ipo/"
+   },
+   "date": "2026-10-06",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "pre"
+   }
+  },
   {
    "key": "fii-flows",
    "tag": "Flows",
@@ -50,7 +121,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "pre"
@@ -75,79 +146,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-06",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "private-banks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Axis, Kotak report strong Q2 loan growth",
-   "line": "Axis gross advances up 22.7% to ₹13.85 lakh cr; Kotak net advances up 24.7%",
-   "more": [
-    "Axis deposits up 20.7% to ₹14.52 lakh cr; CASA up 10.6%",
-    "Kotak net advances at ₹5.77 lakh cr as of Sept 30"
-   ],
-   "src": {
-    "title": "Upstox: Stocks to watch, Oct 6",
-    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-oct-6-godrej-consumer-products-trent-kotak-mahindra-bank-axis-bank-tata-steel-vedanta/article-201314/"
-   },
-   "date": "2026-10-06",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "trent",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Trent Q2 revenue up 23% to ₹5,788 cr",
-   "line": "Standalone revenue rose from ₹4,724 cr; H1 FY27 revenue up 21% to ₹11,454 cr",
-   "more": [
-    "Godrej Consumer guides high-teens Q2 revenue growth despite input inflation",
-    "Vedanta board to consider first FY27 interim dividend this week"
-   ],
-   "src": {
-    "title": "Upstox: Stocks to watch, Oct 6",
-    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-oct-6-godrej-consumer-products-trent-kotak-mahindra-bank-axis-bank-tata-steel-vedanta/article-201314/"
-   },
-   "date": "2026-10-06",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-06",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "srit-listing",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "SRIT India lists today on BSE, NSE",
-   "line": "₹218.4 cr IPO priced at ₹123–130; grey market hinted at ~36% premium",
-   "more": [
-    "Issue ran Sept 28–30; allotment on Oct 1",
-    "GMP of ₹47 as of Oct 4 is informal and may not hold"
-   ],
-   "src": {
-    "title": "IPO Watch: SRIT India IPO",
-    "url": "https://ipowatch.in/srit-india-ipo/"
-   },
-   "date": "2026-10-06",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "pre"
@@ -171,7 +170,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "pre"
