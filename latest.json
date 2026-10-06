@@ -1,36 +1,108 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-06T09:33:36+05:30",
+ "generated_at": "2026-10-06T10:03:09+05:30",
  "date": "2026-10-06",
- "slot": "0930",
- "slot_label": "9:30",
+ "slot": "1000",
+ "slot_label": "10:00",
  "stage": "Opening mood",
- "asof": "2026-10-06T09:30:00+05:30",
+ "asof": "2026-10-06T10:00:00+05:30",
  "nifty": {
-  "value": 22560,
-  "pct": 0.02,
+  "value": 22591.6,
+  "pct": 0.16,
+  "chg": 35.85,
   "approx": true
  },
  "mood": {
-  "label": "Mild gains",
+  "label": "Cautious gains",
   "score": 0.2,
-  "summary": "Benchmarks opened modestly higher on firm global cues but quickly settled into a narrow range, with gains concentrated in a handful of heavyweights on expiry day.",
+  "summary": "Benchmarks are holding small gains in a tight band near 22,600, with buyers picking specific stocks on Q2 updates while caution builds ahead of tomorrow's RBI decision.",
   "detail": {
-   "leaders": "Trent, Kotak Bank, Axis Bank, Reliance, HCLTech, IndiGo",
-   "laggards": "HDFC Bank, Bharti Airtel, M&M, SBI",
-   "tone": "Slightly softer than the pre-open signal: the Nifty briefly went above 22,600 before settling just above 22,550, with the Sensex up about 100 points.",
+   "leaders": "Trent, Kotak Bank, Axis Bank, IndiGo, Hindalco, Reliance; consumer names on Q2 updates",
+   "laggards": "HDFC Bank, SBI, Yes Bank",
+   "tone": "Little changed from the open: early prints had the Nifty up 0.14–0.16% around 22,592, holding just under 22,600 on weekly expiry day.",
    "watch": [
-    "Whether the Nifty can hold above 22,600 on weekly expiry",
-    "HDFC Bank and SBI selling capping the upside",
-    "Positioning ahead of Wednesday's RBI decision"
+    "A decisive move above 22,600",
+    "HDFC Bank and SBI weakness spreading to other lenders",
+    "Positioning before the RBI decision at 10 am on Oct 7"
    ],
    "src": {
-    "title": "Business Standard: Sensex up 100 pts, Nifty tops 22,550; Trent hits 10% upper circuit",
+    "title": "Business Standard: Stock Market LIVE, Oct 6",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-6-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-srit-india-ipo-listing-126100600087_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "srit-listing",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "SRIT India lists at 14% premium on NSE",
+   "line": "Opened at ₹148 on NSE vs ₹130 issue price; ₹139.80 on BSE, a 7.5% premium",
+   "more": [
+    "Gain of ₹2,070 per 115-share lot at the NSE listing price",
+    "Debut came below grey-market hopes of a 36–45% premium"
+   ],
+   "src": {
+    "title": "Upstox: SRIT India lists at 14% premium on NSE",
+    "url": "https://upstox.com/news/market-news/ipo/srit-india-shares-list-at-14-premium-on-nse-here-s-how-much-investors-made-per-lot/article-201328/"
+   },
+   "date": "2026-10-06",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "honasa",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Honasa Consumer jumps 8% on Q2 outlook",
+   "line": "Expects early-30s NSV growth; stock hit ₹478.55, up 8.24% intraday",
+   "more": [
+    "Mamaearth seen growing in the high teens",
+    "Younger brands like Derma Co. and Aqualogica expected near mid-40s growth"
+   ],
+   "src": {
+    "title": "Upstox: Honasa Consumer jumps over 8% on Q2 NSV growth outlook",
+    "url": "https://upstox.com/news/market-news/stocks/honasa-consumer-shares-jump-over-8-after-q2-nsv-growth-seen-in-early-30s-margins-in-focus/article-201329/"
+   },
+   "date": "2026-10-06",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "marico",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Marico rises 3% after Q2 business update",
+   "line": "Consumer stocks with strong Q2 updates are drawing buyers in early trade",
+   "more": [
+    "Joins Godrej Consumer and Honasa in signalling firm Q2 demand"
+   ],
+   "src": {
+    "title": "Upstox: Honasa Consumer jumps over 8% on Q2 NSV growth outlook",
+    "url": "https://upstox.com/news/market-news/stocks/honasa-consumer-shares-jump-over-8-after-q2-nsv-growth-seen-in-early-30s-margins-in-focus/article-201329/"
+   },
+   "date": "2026-10-06",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1000"
+   }
+  },
   {
    "key": "trent",
    "tag": "Stocks",
@@ -49,7 +121,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "pre"
@@ -73,34 +145,10 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "srit-listing",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "SRIT India debuts after 116x subscription",
-   "line": "₹130 issue; grey market pointed to a 36–45% listing premium before debut",
-   "more": [
-    "₹218.4 cr IPO; lot size of 115 shares",
-    "GMP is informal and may not reflect the actual listing price"
-   ],
-   "src": {
-    "title": "Kotak Neo: SRIT India IPO subscribed 116.48x",
-    "url": "https://www.kotakneo.com/ipo/srit-india-ltd-ipo/"
-   },
-   "date": "2026-10-06",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-06",
-    "slot": "pre"
    }
   },
   {
