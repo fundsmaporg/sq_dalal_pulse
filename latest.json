@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-06T15:33:05+05:30",
+ "generated_at": "2026-10-06T16:02:55+05:30",
  "date": "2026-10-06",
- "slot": "1530",
- "slot_label": "15:30",
- "stage": "Closing mood",
- "asof": "2026-10-06T15:30:00+05:30",
+ "slot": "post",
+ "slot_label": "Close",
+ "stage": "Post-market mood",
+ "asof": "2026-10-06T16:00:00+05:30",
  "nifty": {
   "value": 22711.35,
   "pct": 0.69,
@@ -13,25 +13,98 @@
   "approx": true
  },
  "mood": {
-  "label": "Firm finish",
-  "score": 0.45,
-  "summary": "Benchmarks are wrapping up expiry day near the session's highs, holding a second straight day of gains with banks in front and smallcaps outperforming.",
+  "label": "Rebound extends",
+  "score": 0.4,
+  "summary": "Benchmarks closed near the day's highs for a second straight gain, with banks leading, smallcaps outperforming and realty and IT the main drags ahead of the RBI decision.",
   "detail": {
-   "leaders": "Private banks, metals, oil & gas; Trent, Kotak Bank, Jio Financial",
-   "laggards": "Realty, IT; Tech Mahindra, Coal India, Max Healthcare",
-   "tone": "Steady into the bell versus the previous note: the latest print shows the Nifty up 155.60 points (0.69%) at 22,711.35; final closing figures are still awaited.",
+   "leaders": "Private banks, metals, oil & gas; Trent, Kotak Bank, Axis Bank, IndusInd",
+   "laggards": "Realty, IT; Tech Mahindra, Coal India, IDFC First Bank",
+   "tone": "A second day of gains: latest figures put the Nifty up 155.60 points (0.69%) at 22,711.35 and the Sensex up about 0.69% near 72,883, after a steady climb through the session.",
    "watch": [
-    "Official close and FII/DII data after 5:30 pm",
-    "RBI decision at 10 am on Oct 7",
+    "RBI decision at 10 am on Oct 7: a 25 bps hike is priced in, a bigger move or a hawkish tone is not",
+    "FII flows after another heavy selling stretch",
     "TCS Q2 results on Oct 8"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE, Oct 6",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-6-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-srit-india-ipo-listing-126100600087_1.html"
+    "title": "Trading Economics: BSE Sensex",
+    "url": "https://tradingeconomics.com/india/stock-market"
    }
   }
  },
  "insights": [
+  {
+   "key": "rbi-policy",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "RBI decision at 10 am tomorrow",
+   "line": "Markets expect a 25 bps hike to 5.50%, the first increase since February 2023",
+   "more": [
+    "8 of 10 economists in a Business Standard poll expect a hike",
+    "Governor Sanjay Malhotra's press conference at noon",
+    "Tone on further hikes is the key risk for rate-sensitive stocks"
+   ],
+   "src": {
+    "title": "Business Standard: When and where to watch the RBI rate decision",
+    "url": "https://www.business-standard.com/finance/news/rbi-mpc-october-2026-meeting-when-and-where-to-watch-rate-decision-live-126100600090_1.html"
+   },
+   "date": "2026-10-06",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "private-banks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Q2 updates power private-bank rally",
+   "line": "Kotak gained about 3.5% and Axis about 1.5% as loan growth and FCNR deposits impressed",
+   "more": [
+    "Kotak net advances up 24.7%; Axis gross advances up 22.7%",
+    "IDFC First Bank bucked the trend despite 30% loan growth"
+   ],
+   "src": {
+    "title": "Upstox: Private bank stocks surge up to 4% on credit growth, FCNR boost",
+    "url": "https://upstox.com/news/market-news/stocks/kotak-mahindra-bank-axis-bank-indus-ind-private-bank-stocks-surge-up-to-4-on-credit-growth-fcnr-boost-q2-earnings-in-focus/article-201330/"
+   },
+   "date": "2026-10-06",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "FIIs net sellers of ₹14,183 cr in October",
+   "line": "DIIs have bought ₹15,223 cr month to date; Oct 6 provisional data due later",
+   "more": [
+    "Oct 5: FIIs sold ₹4,699 cr while DIIs bought ₹5,182 cr",
+    "Domestic buying continues to absorb foreign outflows"
+   ],
+   "src": {
+    "title": "5paisa: FII DII data",
+    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
+   },
+   "date": "2026-10-06",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-28",
+    "slot": "pre"
+   }
+  },
   {
    "key": "rentomojo",
    "tag": "Results",
@@ -51,7 +124,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1530"
@@ -74,7 +147,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-28",
     "slot": "1330"
@@ -98,34 +171,10 @@
    "slot": "1530",
    "when": "15:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1530"
-   }
-  },
-  {
-   "key": "private-banks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Private banks lead the day after Q2 updates",
-   "line": "Kotak, Axis and IndusInd up as much as 4%; Private Bank the top sector index",
-   "more": [
-    "Strong credit growth plus FCNR deposit inflows drove the buying",
-    "IDFC First Bank the notable laggard, down about 2.4%"
-   ],
-   "src": {
-    "title": "Upstox: Private bank stocks surge up to 4% on credit growth, FCNR boost",
-    "url": "https://upstox.com/news/market-news/stocks/kotak-mahindra-bank-axis-bank-indus-ind-private-bank-stocks-surge-up-to-4-on-credit-growth-fcnr-boost-q2-earnings-in-focus/article-201330/"
-   },
-   "date": "2026-10-06",
-   "slot": "1500",
-   "when": "15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "1230"
    }
   },
   {
@@ -441,31 +490,6 @@
    }
   },
   {
-   "key": "rbi-policy",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Most economists see 25 bps hike tomorrow",
-   "line": "8 of 10 in a Business Standard poll expect repo to rise to 5.50% on Oct 7",
-   "more": [
-    "FE poll: 80% expect a hike; Reuters poll: nearly 60%",
-    "Rate unchanged at 5.25% for four straight reviews",
-    "Governor's press conference follows at noon"
-   ],
-   "src": {
-    "title": "Business Standard: RBI MPC meet Oct 5–7 — will RBI hike the repo rate?",
-    "url": "https://www.business-standard.com/finance/news/rbi-mpc-meeting-october-2026-monetary-policy-repo-rate-hike-retail-inflation-126100200188_1.html"
-   },
-   "date": "2026-10-06",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "post"
-   }
-  },
-  {
    "key": "trent",
    "tag": "Stocks",
    "impact": "pos",
@@ -750,30 +774,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "FIIs sell ₹4,699 cr; DIIs buy ₹5,182 cr",
-   "line": "Foreign selling continued on Monday even as domestic funds powered the rebound",
-   "more": [
-    "Provisional Oct 5 cash data: FII net -₹4,699.10 cr",
-    "DII net +₹5,181.60 cr, more than offsetting foreign outflows"
-   ],
-   "src": {
-    "title": "5paisa: FII DII data",
-    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
-   },
-   "date": "2026-10-06",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
     "slot": "pre"
    }
   },
