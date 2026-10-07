@@ -1,37 +1,107 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-07T11:35:37+05:30",
+ "generated_at": "2026-10-07T12:03:41+05:30",
  "date": "2026-10-07",
- "slot": "1130",
- "slot_label": "11:30",
+ "slot": "1200",
+ "slot_label": "12:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-07T11:30:00+05:30",
+ "asof": "2026-10-07T12:00:00+05:30",
  "nifty": {
-  "value": 22696.5,
-  "pct": -0.35,
-  "chg": -79.6,
+  "value": 22705,
+  "pct": -0.31,
   "approx": true
  },
  "mood": {
-  "label": "Wait-and-watch",
-  "score": -0.1,
-  "summary": "Benchmarks are consolidating modest losses into midday after the RBI decision, with buyers cautious ahead of the Governor's press conference and higher bond yields capping gains.",
+  "label": "Recovery builds",
+  "score": 0.05,
+  "summary": "Benchmarks have recovered most of the morning's slide by midday as the in-line policy outcome eases fears, with state-run lenders turning higher and dip buyers returning.",
   "detail": {
-   "leaders": "Large caps holding up after the growth upgrade",
-   "laggards": "PSU banks, realty, autos",
-   "tone": "Similar to the previous note: no fresh print since 11 am, when the Nifty was down 79.60 points (0.35%) at 22,696.50.",
+   "leaders": "PSU banks up 1%; heavyweights recovering",
+   "laggards": "Realty, autos",
+   "tone": "Firmer than the previous note: the Sensex is about 400 points off its low and the Nifty has reclaimed 22,700, after being down 0.74% at 10 am.",
    "watch": [
-    "Governor Malhotra's noon press conference",
-    "10-year yield near 7.27%",
-    "Rupee near 96.5"
+    "Holding 22,700 into the afternoon",
+    "Bond yields after the hawkish stance shift",
+    "Governor's remarks on the pace of further hikes"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE, Oct 7",
+    "title": "Business Standard: Sensex off 400 pts from low; Nifty reclaims 22,700; Nifty PSU Bank rises 1%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "psu-banks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PSU banks rebound 1% after RBI hike",
+   "line": "State-run lenders reverse early losses as an in-line hike supports lending margins",
+   "more": [
+    "Union Bank, PNB and BoB had been among the top losers before the decision",
+    "Higher repo rates lift yields on repo-linked loans"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex off 400 pts from low; Nifty reclaims 22,700; Nifty PSU Bank rises 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
+   },
+   "date": "2026-10-07",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "ola-electric",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Ola Electric board to price ₹1,000 cr rights issue",
+   "line": "Board meets today on issue price, entitlement ratio and record date after exchange nod",
+   "more": [
+    "Rights issue will be of partly paid-up shares",
+    "Stock closed at ₹35.96 on Tuesday, down 1.96%"
+   ],
+   "src": {
+    "title": "Sahi: Ola Electric gets exchange approval for ₹1,000 cr rights issue",
+    "url": "https://www.sahi.com/news/ola-electric-receives-exchange-approval-for-1-000-crore-rights-issue-board-meets-october-7"
+   },
+   "date": "2026-10-07",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "apollo-tyres",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Apollo Tyres CFO Gaurav Kumar resigns",
+   "line": "Resignation effective Oct 6; stock had closed flat at ₹401.55",
+   "more": [
+    "Says he is leaving to pursue opportunities outside the company"
+   ],
+   "src": {
+    "title": "ScanX: Stocks to watch, Oct 7 — Mphasis, Apollo Tyres, Om Power, Granules",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-7-2026-mphasis-apollo-tyres-om-power/52882584"
+   },
+   "date": "2026-10-07",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "1200"
+   }
+  },
   {
    "key": "blue-dart",
    "tag": "Regulation",
@@ -50,7 +120,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1130"
@@ -73,7 +143,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1130"
@@ -96,7 +166,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1130"
@@ -1176,30 +1246,6 @@
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1500"
-   }
-  },
-  {
-   "key": "psu-banks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Bank of India, PNB lead PSU gains",
-   "line": "Bank of India up 3.41%, PNB and BHEL up 2.84% each as state-run names outperform",
-   "more": [
-    "Follows a run of strong Q2 business updates from PSU lenders",
-    "PSU Bank index among the day's best-performing sectors"
-   ],
-   "src": {
-    "title": "Business Upturn: PSU stocks surge, Oct 5",
-    "url": "https://businessupturn.com/finance/stock-market/psu-stocks-surge-today-october-5-bank-of-india-gains-3-41-bhel-rises-2-84-pnb-up-2-84/"
-   },
-   "date": "2026-10-05",
-   "slot": "1500",
-   "when": "Mon · 15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "0930"
    }
   },
   {
@@ -2959,31 +3005,6 @@
    "first_seen": {
     "date": "2026-09-29",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "ola-electric",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Ola Electric slips 3.5% on ₹1,000 cr rights issue",
-   "line": "The board approved a rights issue of partly paid shares; terms are due on or after Oct 5",
-   "more": [
-    "The price, ratio and record date are still to be set",
-    "It comes on top of a ₹780 cr QIP earlier this year and a ₹1,500 cr approval",
-    "Deepa Bansal was named compliance officer"
-   ],
-   "src": {
-    "title": "Business Standard — Ola Electric board approves ₹1,000 cr rights issue",
-    "url": "https://www.business-standard.com/markets/news/ola-electric-board-approves-1-000-crore-fundraise-via-rights-issue-126092801163_1.html"
-   },
-   "date": "2026-09-29",
-   "slot": "1130",
-   "when": "Tue · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-29",
-    "slot": "1130"
    }
   },
   {
