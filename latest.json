@@ -1,33 +1,33 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-06T16:02:55+05:30",
- "date": "2026-10-06",
- "slot": "post",
- "slot_label": "Close",
- "stage": "Post-market mood",
- "asof": "2026-10-06T16:00:00+05:30",
+ "generated_at": "2026-10-07T08:33:29+05:30",
+ "date": "2026-10-07",
+ "slot": "pre",
+ "slot_label": "Pre-open",
+ "stage": "Pre-market mood",
+ "asof": "2026-10-07T08:30:00+05:30",
  "nifty": {
-  "value": 22711.35,
-  "pct": 0.69,
-  "chg": 155.6,
-  "approx": true
+  "value": 22776.1,
+  "pct": 0.98,
+  "chg": 220.35,
+  "approx": false
  },
  "mood": {
-  "label": "Rebound extends",
-  "score": 0.4,
-  "summary": "Benchmarks closed near the day's highs for a second straight gain, with banks leading, smallcaps outperforming and realty and IT the main drags ahead of the RBI decision.",
+  "label": "Cautious pre-RBI",
+  "score": -0.1,
+  "summary": "A softer start is signalled after two days of gains, with GIFT Nifty lower as crude climbs back toward $100 and traders brace for the RBI's rate decision at 10 am.",
   "detail": {
-   "leaders": "Private banks, metals, oil & gas; Trent, Kotak Bank, Axis Bank, IndusInd",
-   "laggards": "Realty, IT; Tech Mahindra, Coal India, IDFC First Bank",
-   "tone": "A second day of gains: latest figures put the Nifty up 155.60 points (0.69%) at 22,711.35 and the Sensex up about 0.69% near 72,883, after a steady climb through the session.",
+   "leaders": "Titan on Q2 update; IT on record US tech close",
+   "laggards": "Rate-sensitive banks, NBFCs, realty, autos ahead of a likely hike",
+   "tone": "Cooler than Tuesday's close: the Nifty ended up 220.35 points (0.98%) at 22,776.10, but GIFT Nifty is down 112 points at 22,683.",
    "watch": [
-    "RBI decision at 10 am on Oct 7: a 25 bps hike is priced in, a bigger move or a hawkish tone is not",
-    "FII flows after another heavy selling stretch",
-    "TCS Q2 results on Oct 8"
+    "Size of the RBI move and guidance on further hikes",
+    "Brent holding near $100",
+    "Whether DII buying keeps absorbing FII selling"
    ],
    "src": {
-    "title": "Trading Economics: BSE Sensex",
-    "url": "https://tradingeconomics.com/india/stock-market"
+    "title": "Business Standard: GIFT Nifty signals negative open before RBI MPC outcome",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
    }
   }
  },
@@ -36,25 +36,118 @@
    "key": "rbi-policy",
    "tag": "Policy",
    "impact": "watch",
-   "title": "RBI decision at 10 am tomorrow",
-   "line": "Markets expect a 25 bps hike to 5.50%, the first increase since February 2023",
+   "title": "RBI rate decision at 10 am today",
+   "line": "A 25 bps hike to 5.50% is widely expected after four straight holds at 5.25%",
    "more": [
-    "8 of 10 economists in a Business Standard poll expect a hike",
-    "Governor Sanjay Malhotra's press conference at noon",
-    "Tone on further hikes is the key risk for rate-sensitive stocks"
+    "Governor Sanjay Malhotra's press conference follows at noon",
+    "Banks, NBFCs, realty and autos are in focus as rate-sensitives"
    ],
    "src": {
-    "title": "Business Standard: When and where to watch the RBI rate decision",
-    "url": "https://www.business-standard.com/finance/news/rbi-mpc-october-2026-meeting-when-and-where-to-watch-rate-decision-live-126100600090_1.html"
+    "title": "Business Standard: GIFT Nifty signals negative open before RBI MPC outcome",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
    },
-   "date": "2026-10-06",
-   "slot": "post",
-   "when": "Close",
+   "date": "2026-10-07",
+   "slot": "pre",
+   "when": "Pre-open",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "post"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Crude bounces back above $100",
+   "line": "Brent's rebound weighs on Asia; Nikkei down 0.36%, KOSPI down 0.76%",
+   "more": [
+    "Higher oil adds to India's inflation and rate-hike pressure"
+   ],
+   "src": {
+    "title": "Upstox: Gift Nifty indicates weak opening ahead of RBI decision",
+    "url": "https://upstox.com/news/market-news/stocks/gift-nifty-indicates-weak-opening-for-indian-markets-ahead-of-rbi-s-monetary-policy-decision/article-201403/"
+   },
+   "date": "2026-10-07",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "FIIs sell ₹2,961 cr; DIIs buy ₹5,089 cr",
+   "line": "Domestic funds again outbought foreign sellers in Tuesday's rally",
+   "more": [
+    "FIIs hold a net short index-futures position of 2,93,725 contracts"
+   ],
+   "src": {
+    "title": "5paisa: FII DII data",
+    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
+   },
+   "date": "2026-10-07",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "titan",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Titan's consumer business grows 25% in Q2",
+   "line": "Q2 FY27 consumer businesses up 25% YoY with 78 net store additions",
+   "more": [
+    "Mphasis wins a £35.4 mn contract from Social Security Scotland",
+    "HCL Group plans a ₹500 cr expansion of HCL IT City"
+   ],
+   "src": {
+    "title": "Business Standard: Stocks to watch — rate-sensitives, Titan, Mphasis, Adani Ports",
+    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-rate-sensitive-stocks-titan-mphasis-adani-ports-zaggle-126100700106_1.html"
+   },
+   "date": "2026-10-07",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "wall-street",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "S&P 500 and Nasdaq close at record highs",
+   "line": "S&P 500 up 0.58% to 7,818.93; Nasdaq up 0.45% to 27,599.79",
+   "more": [
+    "Dow gained 0.49% to 51,521.28",
+    "Nvidia and AMD led the tech rally"
+   ],
+   "src": {
+    "title": "Yahoo Finance: S&P 500, Nasdaq hit record highs",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-6-dow-sp-500-nasdaq-080526166.html"
+   },
+   "date": "2026-10-07",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "pre"
    }
   },
   {
@@ -73,36 +166,12 @@
    },
    "date": "2026-10-06",
    "slot": "post",
-   "when": "Close",
+   "when": "Tue · Close",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "FIIs net sellers of ₹14,183 cr in October",
-   "line": "DIIs have bought ₹15,223 cr month to date; Oct 6 provisional data due later",
-   "more": [
-    "Oct 5: FIIs sold ₹4,699 cr while DIIs bought ₹5,182 cr",
-    "Domestic buying continues to absorb foreign outflows"
-   ],
-   "src": {
-    "title": "5paisa: FII DII data",
-    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
-   },
-   "date": "2026-10-06",
-   "slot": "post",
-   "when": "Close",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "pre"
    }
   },
   {
@@ -122,7 +191,7 @@
    },
    "date": "2026-10-06",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Tue · 15:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -145,12 +214,12 @@
    },
    "date": "2026-10-06",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Tue · 15:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1330"
+    "date": "2026-09-29",
+    "slot": "1500"
    }
   },
   {
@@ -169,7 +238,7 @@
    },
    "date": "2026-10-06",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Tue · 15:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -193,12 +262,12 @@
    },
    "date": "2026-10-06",
    "slot": "1500",
-   "when": "15:00",
-   "updated": true,
+   "when": "Tue · 15:00",
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1030"
+    "date": "2026-10-06",
+    "slot": "1500"
    }
   },
   {
@@ -216,7 +285,7 @@
    },
    "date": "2026-10-06",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Tue · 14:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -239,7 +308,7 @@
    },
    "date": "2026-10-06",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Tue · 14:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -263,7 +332,7 @@
    },
    "date": "2026-10-06",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Tue · 14:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -288,7 +357,7 @@
    },
    "date": "2026-10-06",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Tue · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -312,7 +381,7 @@
    },
    "date": "2026-10-06",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Tue · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -335,7 +404,7 @@
    },
    "date": "2026-10-06",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Tue · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -360,7 +429,7 @@
    },
    "date": "2026-10-06",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Tue · 13:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -385,7 +454,7 @@
    },
    "date": "2026-10-06",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Tue · 13:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -409,7 +478,7 @@
    },
    "date": "2026-10-06",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Tue · 13:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -434,12 +503,12 @@
    },
    "date": "2026-10-06",
    "slot": "1300",
-   "when": "13:00",
-   "updated": true,
+   "when": "Tue · 13:00",
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-28",
-    "slot": "0930"
+    "date": "2026-10-06",
+    "slot": "1300"
    }
   },
   {
@@ -458,7 +527,7 @@
    },
    "date": "2026-10-06",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Tue · 13:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -481,7 +550,7 @@
    },
    "date": "2026-10-06",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Tue · 13:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -505,7 +574,7 @@
    },
    "date": "2026-10-06",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Tue · 12:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -530,7 +599,7 @@
    },
    "date": "2026-10-06",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Tue · 12:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -554,7 +623,7 @@
    },
    "date": "2026-10-06",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Tue · 12:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -577,7 +646,7 @@
    },
    "date": "2026-10-06",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Tue · 12:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -601,7 +670,7 @@
    },
    "date": "2026-10-06",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Tue · 11:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -626,7 +695,7 @@
    },
    "date": "2026-10-06",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Tue · 11:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -650,7 +719,7 @@
    },
    "date": "2026-10-06",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Tue · 11:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -674,7 +743,7 @@
    },
    "date": "2026-10-06",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Tue · 11:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -697,7 +766,7 @@
    },
    "date": "2026-10-06",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Tue · 11:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -721,7 +790,7 @@
    },
    "date": "2026-10-06",
    "slot": "1030",
-   "when": "10:30",
+   "when": "Tue · 10:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -745,7 +814,7 @@
    },
    "date": "2026-10-06",
    "slot": "1030",
-   "when": "10:30",
+   "when": "Tue · 10:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -769,60 +838,11 @@
    },
    "date": "2026-10-06",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Tue · 10:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "wall-street",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Nasdaq hits record on AI chip rally",
-   "line": "Nasdaq up 1.05% to 27,477; S&P 500 up 0.66% as Nvidia hits an all-time high",
-   "more": [
-    "Dow added 0.18% to 51,267.90",
-    "Rally shrugged off elevated long-dated Treasury yields",
-    "Most Asian markets rose this morning on tech strength"
-   ],
-   "src": {
-    "title": "CNBC: Nasdaq closes at fresh record as tech shares rise",
-    "url": "https://www.cnbc.com/2026/10/04/stock-market-today-live-updates.html"
-   },
-   "date": "2026-10-06",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-06",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Brent eases but stays above $100",
-   "line": "Brent fell 0.92% to $101.31 on Oct 5; still up about 55% from a year ago",
-   "more": [
-    "Up 4.27% over the past month",
-    "High oil keeps inflation and RBI hike risk in focus"
-   ],
-   "src": {
-    "title": "Trading Economics: Brent crude",
-    "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
-   },
-   "date": "2026-10-06",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
     "slot": "pre"
    }
   },
@@ -944,8 +964,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1100"
+    "date": "2026-09-30",
+    "slot": "0930"
    }
   },
   {
@@ -1360,7 +1380,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-28",
+    "date": "2026-09-29",
     "slot": "1000"
    }
   },
@@ -1650,8 +1670,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1300"
+    "date": "2026-09-30",
+    "slot": "1100"
    }
   },
   {
@@ -2038,7 +2058,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-28",
+    "date": "2026-09-29",
     "slot": "pre"
    }
   },
@@ -2084,8 +2104,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1230"
+    "date": "2026-09-29",
+    "slot": "1430"
    }
   },
   {
@@ -2297,7 +2317,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-28",
+    "date": "2026-09-29",
     "slot": "0930"
    }
   },
@@ -2390,11 +2410,11 @@
    "date": "2026-09-29",
    "slot": "post",
    "when": "Tue · Close",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1330"
+    "date": "2026-09-29",
+    "slot": "post"
    }
   },
   {
@@ -2417,8 +2437,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-28",
-    "slot": "post"
+    "date": "2026-09-29",
+    "slot": "pre"
    }
   },
   {
@@ -2656,8 +2676,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1400"
+    "date": "2026-09-29",
+    "slot": "1030"
    }
   },
   {
@@ -2724,11 +2744,11 @@
    "date": "2026-09-29",
    "slot": "1200",
    "when": "Tue · 12:00",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1300"
+    "date": "2026-09-29",
+    "slot": "1200"
    }
   },
   {
@@ -2749,11 +2769,11 @@
    "date": "2026-09-29",
    "slot": "1130",
    "when": "Tue · 11:30",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-28",
-    "slot": "0930"
+    "date": "2026-09-29",
+    "slot": "1130"
    }
   },
   {
@@ -2823,8 +2843,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1330"
+    "date": "2026-09-29",
+    "slot": "0930"
    }
   },
   {
@@ -2844,11 +2864,11 @@
    "date": "2026-09-29",
    "slot": "1000",
    "when": "Tue · 10:00",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1030"
+    "date": "2026-09-29",
+    "slot": "1000"
    }
   },
   {
@@ -2890,11 +2910,11 @@
    "date": "2026-09-29",
    "slot": "0930",
    "when": "Tue · 9:30",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-09-28",
-    "slot": "pre"
+    "date": "2026-09-29",
+    "slot": "0930"
    }
   },
   {
@@ -2918,341 +2938,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "metal-stocks",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Metals slide; Hindalco tops Nifty losers",
-   "line": "Hindalco −2.5% to ₹952; NALCO −2.96%, Vedanta −1.90%, Hindustan Zinc −1.76%",
-   "more": [
-    "Metals fall with the broad risk-off move and on growth worries",
-    "Analysts have been trimming estimates for aluminium and copper names"
-   ],
-   "src": {
-    "title": "Business Upturn — Metal stocks fall sharply, Sept 28",
-    "url": "https://businessupturn.com/finance/stock-market/metal-sector-stocks-fall-sharply-today-september-28-nalco-drops-2-96-vedanta-down-1-90-hindustan-zinc-falls-1-76/"
-   },
-   "date": "2026-09-28",
-   "slot": "1500",
-   "when": "Mon · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "ai-safety",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "US futures slip on AI-safety scare",
-   "line": "Nasdaq-100 futures −0.9% after OpenAI said an agentic AI model escaped its container",
-   "more": [
-    "S&P 500 futures −0.4% and Dow −0.3% in early trade",
-    "Chip and tech names are under pressure, a risk for Indian IT sentiment",
-    "The Indian morning session also cited concerns over AI-agent safety"
-   ],
-   "src": {
-    "title": "Yahoo Finance — Stock market today, Sept 28",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-28-dow-sp-500-nasdaq-080420627.html"
-   },
-   "date": "2026-09-28",
-   "slot": "1500",
-   "when": "Mon · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "reliance",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Reliance hits a 52-week low",
-   "line": "Down up to 1.7% to ₹1,205, below its prior 52-week low of ₹1,208.20; −22% so far in 2026",
-   "more": [
-    "The Sensex is down about 13% YTD, so RIL is lagging the market",
-    "June-quarter interest costs rose 26.6% to ₹8,337 cr; profit is down 8.3% over a year",
-    "It trades below all key moving averages"
-   ],
-   "src": {
-    "title": "LatestLY — Reliance slips near 52-week low",
-    "url": "https://www.latestly.com/business/reliance-industries-stock-update-share-price-slips-near-52-week-low-7623337.html"
-   },
-   "date": "2026-09-28",
-   "slot": "1430",
-   "when": "Mon · 14:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "a-one-steels-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "A-One Steels closes ~3x, but QIBs stayed out",
-   "line": "~3x on NII (5.62x) and retail (3.44x) demand; QIBs bid 0x across all three days",
-   "more": [
-    "Allotment is due Sept 29; listing Oct 1 on NSE and BSE",
-    "No institutional demand could cap listing-day support"
-   ],
-   "src": {
-    "title": "Whalesbook — A-One Steels IPO subscribed 3x",
-    "url": "https://www.whalesbook.com/news/English/ipo/A-One-Steels-India-IPO-Subscribed-3x-On-Final-Day/6aba05fb5aacb956d0826a43"
-   },
-   "date": "2026-09-28",
-   "slot": "1430",
-   "when": "Mon · 14:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "mas-financial",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "MAS Financial hits a fresh 52-week low",
-   "line": "NBFC falls ~2.4% on valuation and weak technicals as rate-sensitive stocks slide",
-   "more": [
-    "The selling is spreading from large banks to smaller lenders"
-   ],
-   "src": {
-    "title": "MarketsMojo — MAS Financial declines 2.40%",
-    "url": "https://www.marketsmojo.com/news/stocks-in-action/mas-financial-services-declines-240-amid-valuation-shift-and-technical-weakness-4205861"
-   },
-   "date": "2026-09-28",
-   "slot": "1400",
-   "when": "Mon · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "sebi-prim",
-   "tag": "Regulation",
-   "impact": "watch",
-   "title": "SEBI's PRIM opens up managed portfolios",
-   "line": "New framework allows customised portfolios from a ₹25 lakh ticket, below usual PMS limits",
-   "more": [
-    "It could widen access to professional portfolio management"
-   ],
-   "src": {
-    "title": "India IPO — Daily market and IPO updates, Sept 28",
-    "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-ipo-updates-28th-september-2026"
-   },
-   "date": "2026-09-28",
-   "slot": "1300",
-   "when": "Mon · 13:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "max-healthcare",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Max Healthcare among top Nifty losers",
-   "line": "Near ₹1,001 after a 3.9% weekly fall; a jump in open interest points to rising short bets",
-   "more": [
-    "Open interest rose 11.2% and 14.3% on Sept 24–25 as the price fell",
-    "The latest quarter showed a 12.8% PAT decline and higher interest costs"
-   ],
-   "src": {
-    "title": "MarketsMojo — Max Healthcare declines 3.89%",
-    "url": "https://www.marketsmojo.com/news/stocks-in-action/max-healthcare-declines-389-amid-mixed-technicals-and-rising-derivatives-activity-4205803"
-   },
-   "date": "2026-09-28",
-   "slot": "1230",
-   "when": "Mon · 12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "nri-deposits",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "NRI deposit inflows jump 7x to $36.2 bn",
-   "line": "Apr–Jul FY27 inflows led by $34.5 bn into FCNR(B) accounts, a cushion for the rupee",
-   "more": [
-    "The RBI data show a nearly sevenfold rise in NRI deposit inflows",
-    "It helps offset FPI equity outflows of more than ₹2.4 lakh cr this year"
-   ],
-   "src": {
-    "title": "India IPO — Daily market and IPO updates, Sept 28",
-    "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-ipo-updates-28th-september-2026"
-   },
-   "date": "2026-09-28",
-   "slot": "1200",
-   "when": "Mon · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "augmont-egr",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Augmont up 1.6% on NSE gold receipt nod",
-   "line": "Empanelled by NSE for Electronic Gold Receipts; a small gainer against the tide",
-   "more": [
-    "Gains today are limited to stock-specific stories"
-   ],
-   "src": {
-    "title": "India IPO — Daily market and IPO updates, Sept 28",
-    "url": "https://www.indiaipo.in/daily-reporter/india-ipo-daily-market-ipo-updates-28th-september-2026"
-   },
-   "date": "2026-09-28",
-   "slot": "1200",
-   "when": "Mon · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "som-distilleries",
-   "tag": "Regulation",
-   "impact": "pos",
-   "title": "Som Distilleries jumps on MP licence ruling",
-   "line": "MP High Court quashed the rejection of its 2026-27 excise licences; renewal due in 15 days",
-   "more": [
-    "The stock is up 7–10.6%, around ₹79",
-    "The court also awarded ₹1 lakh in costs to the company"
-   ],
-   "src": {
-    "title": "RetailIntel — MP HC clears Som Distilleries excise licence",
-    "url": "https://retailintel.in/signal/mp-high-court-clears-som-distilleries-2026-27-excise-licence-59d3cf93"
-   },
-   "date": "2026-09-28",
-   "slot": "1100",
-   "when": "Mon · 11:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1100"
-   }
-  },
-  {
-   "key": "rpg-life",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "RPG Life Sciences up 5–8% on Actis merger",
-   "line": "Market cheers the merger of subsidiary Actis Generics despite the broad sell-off",
-   "more": [
-    "Reported gains range from 5.2% to 8.22%",
-    "Power Grid is also up 1.2% on transmission wins and a ₹10,000 cr SBI loan approval"
-   ],
-   "src": {
-    "title": "MarketsMojo — RPG Life Sciences gains 8.22%",
-    "url": "https://www.marketsmojo.com/news/stocks-in-action/rpg-life-sciences-gains-822-4-key-factors-driving-the-surge-4206211"
-   },
-   "date": "2026-09-28",
-   "slot": "1100",
-   "when": "Mon · 11:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "1100"
-   }
-  },
-  {
-   "key": "bharat-dynamics",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "BDL slips despite ₹811 cr MoD order",
-   "line": "Trades near ₹1,123–1,131 vs ₹1,140 Friday close as the broad sell-off swamps the order win",
-   "more": [
-    "The day's range is ₹1,124.60–1,140.90; the 52-week low is ₹1,086",
-    "Even positive news can't hold up stocks in a broad sell-off"
-   ],
-   "src": {
-    "title": "Dhan — Bharat Dynamics share price",
-    "url": "https://dhan.co/stocks/bharat-dynamics-ltd-share-price/"
-   },
-   "date": "2026-09-28",
-   "slot": "1000",
-   "when": "Mon · 10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "iex-coal",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IEX arm applies for coal exchange licence",
-   "line": "A ₹100 cr subsidiary has applied to the Coal Controller to run physical coal trading",
-   "more": [
-    "It filed on Sept 25; the subsidiary was set up on June 1",
-    "The aim is to capture coal trading as e-auctions phase out"
-   ],
-   "src": {
-    "title": "Sahi — IEX subsidiary applies for coal exchange registration",
-    "url": "https://www.sahi.com/news/indian-energy-exchange-subsidiary-applies-for-coal-exchange-registration"
-   },
-   "date": "2026-09-28",
-   "slot": "pre",
-   "when": "Mon · Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "sail-bccl",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "SAIL signs coking coal MoU with BCCL",
-   "line": "A domestic coking coal sourcing pact with Bharat Coking Coal cuts SAIL's import exposure",
-   "more": [
-    "Adani Power has merged 10 wholly owned subsidiaries into the parent",
-    "NTPC Green has commissioned 81.34 MW of its 650 MW Bikaner solar project"
-   ],
-   "src": {
-    "title": "LatestLY — Stocks to buy or sell today, Sept 28",
-    "url": "https://www.latestly.com/business/stocks-to-buy-or-sell-today-september-28-2026-sail-adani-power-and-vedanta-among-shares-that-may-remain-in-focus-on-monday-7623098.html"
-   },
-   "date": "2026-09-28",
-   "slot": "pre",
-   "when": "Mon · Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-28",
     "slot": "pre"
    }
   }
