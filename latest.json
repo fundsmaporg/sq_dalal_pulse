@@ -1,37 +1,107 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-07T11:02:55+05:30",
+ "generated_at": "2026-10-07T11:35:37+05:30",
  "date": "2026-10-07",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-07T11:00:00+05:30",
+ "asof": "2026-10-07T11:30:00+05:30",
  "nifty": {
   "value": 22696.5,
   "pct": -0.35,
   "chg": -79.6,
-  "approx": false
+  "approx": true
  },
  "mood": {
-  "label": "Steady recovery",
-  "score": -0.05,
-  "summary": "Benchmarks are clawing back more of the morning's losses as the in-line hike and a growth upgrade calm nerves, though selling persists in rate-sensitive pockets.",
+  "label": "Wait-and-watch",
+  "score": -0.1,
+  "summary": "Benchmarks are consolidating modest losses into midday after the RBI decision, with buyers cautious ahead of the Governor's press conference and higher bond yields capping gains.",
   "detail": {
-   "leaders": "Heavyweights recovering after the growth upgrade",
+   "leaders": "Large caps holding up after the growth upgrade",
    "laggards": "PSU banks, realty, autos",
-   "tone": "Firmer than the previous note: at 11 am the Nifty was down just 79.60 points (0.35%) at 22,696.50, and the Sensex was down 129 points.",
+   "tone": "Similar to the previous note: no fresh print since 11 am, when the Nifty was down 79.60 points (0.35%) at 22,696.50.",
    "watch": [
-    "Governor's noon press conference on further tightening",
-    "10-year yield above 7.25%",
-    "Rupee near 96.5 per dollar"
+    "Governor Malhotra's noon press conference",
+    "10-year yield near 7.27%",
+    "Rupee near 96.5"
    ],
    "src": {
-    "title": "Business Standard: Sensex down 100 pts, Nifty near 22,650; rupee weakens to 96.54",
+    "title": "Business Standard: Stock Market LIVE, Oct 7",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "blue-dart",
+   "tag": "Regulation",
+   "impact": "neg",
+   "title": "Blue Dart arm gets ₹27.1 cr GST notice",
+   "line": "Show-cause notice to Blue Dart Aviation alleges short tax payment and excess ITC claims",
+   "more": [
+    "Issued by the Chennai South GST Commissionerate",
+    "Covers FY23–FY24 scrutiny"
+   ],
+   "src": {
+    "title": "Whalesbook: Blue Dart Aviation gets ₹27.10 cr GST show-cause notice",
+    "url": "https://www.whalesbook.com/corporate-news/English/lawcourt/Blue-Dart-Aviation-Gets-GST-Show-Cause-Notice-for-Rs-2710-Crore/6abe28d480ecbb8a5f1b2c5f"
+   },
+   "date": "2026-10-07",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "om-power",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Om Power Transmission wins ₹69 cr GETCO order",
+   "line": "Letter of intent for the 220 kV Prantij-Jantral line package in Gujarat",
+   "more": [
+    "Order value about ₹69.19 cr"
+   ],
+   "src": {
+    "title": "ScanX: Stocks to watch, Oct 7 — Mphasis, Apollo Tyres, Om Power, Granules",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-7-2026-mphasis-apollo-tyres-om-power/52882584"
+   },
+   "date": "2026-10-07",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "granules",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Granules India plans ₹2,000 cr expansion",
+   "line": "Drugmaker lays out organic growth investment plans",
+   "more": [
+    "Among the stocks in focus on Oct 7"
+   ],
+   "src": {
+    "title": "ScanX: Stocks to watch, Oct 7 — Mphasis, Apollo Tyres, Om Power, Granules",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-7-2026-mphasis-apollo-tyres-om-power/52882584"
+   },
+   "date": "2026-10-07",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "1130"
+   }
+  },
   {
    "key": "bond-yields",
    "tag": "Macro",
@@ -49,7 +119,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1100"
@@ -74,7 +144,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "post"
@@ -97,7 +167,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "0930"
