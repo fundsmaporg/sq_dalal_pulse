@@ -1,36 +1,110 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-07T12:03:41+05:30",
+ "generated_at": "2026-10-07T12:33:15+05:30",
  "date": "2026-10-07",
- "slot": "1200",
- "slot_label": "12:00",
+ "slot": "1230",
+ "slot_label": "12:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-07T12:00:00+05:30",
+ "asof": "2026-10-07T12:30:00+05:30",
  "nifty": {
-  "value": 22705,
-  "pct": -0.31,
+  "value": 22675,
+  "pct": -0.42,
+  "chg": -96,
   "approx": true
  },
  "mood": {
-  "label": "Recovery builds",
-  "score": 0.05,
-  "summary": "Benchmarks have recovered most of the morning's slide by midday as the in-line policy outcome eases fears, with state-run lenders turning higher and dip buyers returning.",
+  "label": "Hawkish drag",
+  "score": -0.15,
+  "summary": "Benchmarks have slipped back from late-morning highs during the Governor's press conference, holding modest losses with traders weighing a firmly hawkish outlook.",
   "detail": {
-   "leaders": "PSU banks up 1%; heavyweights recovering",
-   "laggards": "Realty, autos",
-   "tone": "Firmer than the previous note: the Sensex is about 400 points off its low and the Nifty has reclaimed 22,700, after being down 0.74% at 10 am.",
+   "leaders": "PSU banks; select heavyweights",
+   "laggards": "Realty, autos, IT ahead of TCS results",
+   "tone": "A little softer than the previous note: at 12:10 pm the Nifty was down about 96 points at 22,675 after briefly reclaiming 22,700.",
    "watch": [
-    "Holding 22,700 into the afternoon",
-    "Bond yields after the hawkish stance shift",
-    "Governor's remarks on the pace of further hikes"
+    "Bond yields after the 'hike or pause' guidance",
+    "TCS Q2 results on Oct 8",
+    "Holding the 22,600 area into the close"
    ],
    "src": {
-    "title": "Business Standard: Sensex off 400 pts from low; Nifty reclaims 22,700; Nifty PSU Bank rises 1%",
+    "title": "Business Standard: RBI presser LIVE — Sensex down 200 pts, Nifty near 22,650",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "rbi-policy",
+   "tag": "Policy",
+   "impact": "neg",
+   "title": "Governor: next move is a hike or a pause",
+   "line": "Malhotra rules out near-term rate cuts but says bank credit growth will stay robust",
+   "more": [
+    "Policy is driven mainly by domestic growth and inflation, he says",
+    "Stance is now 'calibrated tightening' after the 25 bps hike to 5.50%"
+   ],
+   "src": {
+    "title": "Business Standard: RBI presser LIVE — Sensex down 200 pts, Nifty near 22,650",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
+   },
+   "date": "2026-10-07",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "tcs-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "TCS Q2 tomorrow: modest growth expected",
+   "line": "Brokerages see 0.5–0.6% QoQ constant-currency revenue growth; PAT may rise 13%",
+   "more": [
+    "Deal wins seen at $8–11 bn (JM Financial, Kotak)",
+    "Margins seen down about 100 bps YoY",
+    "Interim dividend likely"
+   ],
+   "src": {
+    "title": "Business Standard: TCS Q2 preview — modest growth, PAT may rise 13%",
+    "url": "https://www.business-standard.com/markets/news/tcs-q2-results-earnings-preview-expectation-dividend-announcement-record-date-2026-revenue-growth-pat-126100600110_1.html"
+   },
+   "date": "2026-10-07",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "ola-electric",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Ola Electric promoter pledges 4.32% stake",
+   "line": "Bhavish Aggarwal pledged 20 cr shares to fund his part in the ₹1,000 cr rights issue",
+   "more": [
+    "Board meets today to set issue price, ratio and record date",
+    "Meeting was deferred from Oct 5 pending clearances"
+   ],
+   "src": {
+    "title": "BusinessToday: Ola Electric board meets today on rights issue terms",
+    "url": "https://www.businesstoday.in/markets/stocks/story/ola-electric-gets-nod-for-rights-issue-meeting-on-issue-price-rights-ratio-and-record-date-today-560011-2026-10-07"
+   },
+   "date": "2026-10-07",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "1130"
+   }
+  },
   {
    "key": "psu-banks",
    "tag": "Stocks",
@@ -49,34 +123,10 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "ola-electric",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Ola Electric board to price ₹1,000 cr rights issue",
-   "line": "Board meets today on issue price, entitlement ratio and record date after exchange nod",
-   "more": [
-    "Rights issue will be of partly paid-up shares",
-    "Stock closed at ₹35.96 on Tuesday, down 1.96%"
-   ],
-   "src": {
-    "title": "Sahi: Ola Electric gets exchange approval for ₹1,000 cr rights issue",
-    "url": "https://www.sahi.com/news/ola-electric-receives-exchange-approval-for-1-000-crore-rights-issue-board-meets-october-7"
-   },
-   "date": "2026-10-07",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-09-29",
-    "slot": "1130"
    }
   },
   {
@@ -96,7 +146,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1200"
@@ -193,31 +243,6 @@
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1100"
-   }
-  },
-  {
-   "key": "rbi-policy",
-   "tag": "Policy",
-   "impact": "neg",
-   "title": "RBI lifts FY27 inflation forecast to 5.2%",
-   "line": "Up from 5% in August; four of six members backed the shift to tightening",
-   "more": [
-    "August CPI rose to 4.8% from 4.5%; core inflation at 4.2%",
-    "RBI will use liquidity tools to align the call rate with repo",
-    "Surplus liquidity averaged ₹5.9 lakh cr since August"
-   ],
-   "src": {
-    "title": "Forbes India: RBI MPC live — repo raised to 5.5%, calibrated tightening",
-    "url": "https://www.forbesindia.com/article/news/rbi-mpc-meeting-live-rate-hike-in-focus-as-inflation-oil-rise-liveblog/2999124/1"
-   },
-   "date": "2026-10-07",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "post"
    }
   },
   {
@@ -1148,30 +1173,6 @@
    "first_seen": {
     "date": "2026-10-06",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "tcs-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "TCS opens Q2 earnings season on Oct 8",
-   "line": "IT results follow a weak sector day; HCLTech was among Monday's top Nifty losers",
-   "more": [
-    "Poonawalla Fincorp and Can Fin Homes report on Friday",
-    "HCLTech and Infosys follow later in October"
-   ],
-   "src": {
-    "title": "Business Upturn: Q2 FY27 results this week, TCS on October 8",
-    "url": "https://businessupturn.com/finance/stock-market/q2-results-this-week-tcs-october-8-poonawalla-fincorp-can-fin-homes-anand-rathi-earnings-calendar"
-   },
-   "date": "2026-10-05",
-   "slot": "post",
-   "when": "Mon · Close",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-05",
-    "slot": "post"
    }
   },
   {
