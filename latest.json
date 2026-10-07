@@ -1,33 +1,33 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-07T08:33:29+05:30",
+ "generated_at": "2026-10-07T09:33:13+05:30",
  "date": "2026-10-07",
- "slot": "pre",
- "slot_label": "Pre-open",
- "stage": "Pre-market mood",
- "asof": "2026-10-07T08:30:00+05:30",
+ "slot": "0930",
+ "slot_label": "9:30",
+ "stage": "Opening mood",
+ "asof": "2026-10-07T09:30:00+05:30",
  "nifty": {
-  "value": 22776.1,
-  "pct": 0.98,
-  "chg": 220.35,
-  "approx": false
+  "value": 22613,
+  "pct": -0.72,
+  "chg": -163,
+  "approx": true
  },
  "mood": {
-  "label": "Cautious pre-RBI",
-  "score": -0.1,
-  "summary": "A softer start is signalled after two days of gains, with GIFT Nifty lower as crude climbs back toward $100 and traders brace for the RBI's rate decision at 10 am.",
+  "label": "Pre-RBI jitters",
+  "score": -0.3,
+  "summary": "Benchmarks opened sharply lower as traders cut risk ahead of the 10 am RBI announcement, giving back part of the past two sessions' gains on oil-led inflation worries.",
   "detail": {
-   "leaders": "Titan on Q2 update; IT on record US tech close",
-   "laggards": "Rate-sensitive banks, NBFCs, realty, autos ahead of a likely hike",
-   "tone": "Cooler than Tuesday's close: the Nifty ended up 220.35 points (0.98%) at 22,776.10, but GIFT Nifty is down 112 points at 22,683.",
+   "leaders": "Few early gainers; IT supported by record US tech close",
+   "laggards": "Rate-sensitive banks, NBFCs, realty, autos",
+   "tone": "Weaker than the pre-open note expected: the Nifty opened down 163 points (0.72%) at 22,613 and the Sensex fell about 440 points.",
    "watch": [
-    "Size of the RBI move and guidance on further hikes",
-    "Brent holding near $100",
-    "Whether DII buying keeps absorbing FII selling"
+    "RBI's decision at 10 am: anything beyond 25 bps would deepen the fall",
+    "Brent near $100",
+    "Whether the Nifty holds 22,600"
    ],
    "src": {
-    "title": "Business Standard: GIFT Nifty signals negative open before RBI MPC outcome",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
+    "title": "Business Standard: Sensex drops 400 pts, Nifty near 22,600 ahead of RBI outcome",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
    }
   }
  },
@@ -36,24 +36,72 @@
    "key": "rbi-policy",
    "tag": "Policy",
    "impact": "watch",
-   "title": "RBI rate decision at 10 am today",
-   "line": "A 25 bps hike to 5.50% is widely expected after four straight holds at 5.25%",
+   "title": "Market trims risk 30 minutes before RBI",
+   "line": "Street widely expects a 25 bps hike; inflation worries from high oil weigh",
    "more": [
-    "Governor Sanjay Malhotra's press conference follows at noon",
-    "Banks, NBFCs, realty and autos are in focus as rate-sensitives"
+    "Rate-sensitive sectors are the most exposed to a hawkish surprise",
+    "Governor's press conference at noon"
    ],
    "src": {
-    "title": "Business Standard: GIFT Nifty signals negative open before RBI MPC outcome",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
+    "title": "Business Standard: Sensex drops 400 pts, Nifty near 22,600 ahead of RBI outcome",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
    },
    "date": "2026-10-07",
-   "slot": "pre",
-   "when": "Pre-open",
+   "slot": "0930",
+   "when": "9:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "post"
+   }
+  },
+  {
+   "key": "mphasis",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Mphasis wins £35.4 mn Scotland contract",
+   "line": "Extended deal to run Social Security Scotland's benefits platform for 2 mn citizens",
+   "more": [
+    "Covers maintenance of disability and heating-assistance benefit services"
+   ],
+   "src": {
+    "title": "Upstox: Mphasis signs £35.4 mn deal with Social Security Scotland",
+    "url": "https://upstox.com/news/market-news/stocks/mphasis-signs-35-4-million-deal-with-social-security-scotland-to-maintain-benefit-services-stock-in-focus/article-201383/"
+   },
+   "date": "2026-10-07",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "utkarsh-sfb",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Utkarsh SFB Q2 disbursements jump 55%",
+   "line": "Disbursements ₹3,525 cr vs ₹2,275 cr; deposits up 6.6% to ₹23,869 cr",
+   "more": [
+    "CASA deposits up 14.3% YoY to ₹5,121 cr",
+    "Non-JLG disbursements surged 94.2% YoY",
+    "Stock closed 2.27% higher at ₹13.52 on Tuesday, before the update"
+   ],
+   "src": {
+    "title": "Upstox: Utkarsh SFB disbursements up 55% in Q2",
+    "url": "https://upstox.com/news/market-news/stocks/utkarsh-sfb-reports-55-yo-y-rise-in-disbursements-to-3-525-crore-deposits-jump-7-in-q2-check-business-updates/article-201389/"
+   },
+   "date": "2026-10-07",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "0930"
    }
   },
   {
@@ -73,7 +121,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "pre"
@@ -96,7 +144,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-29",
     "slot": "pre"
@@ -120,7 +168,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "pre"
@@ -144,7 +192,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "pre"
