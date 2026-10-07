@@ -1,37 +1,111 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-07T15:03:16+05:30",
+ "generated_at": "2026-10-07T15:33:16+05:30",
  "date": "2026-10-07",
- "slot": "1500",
- "slot_label": "15:00",
+ "slot": "1530",
+ "slot_label": "15:30",
  "stage": "Closing mood",
- "asof": "2026-10-07T15:00:00+05:30",
+ "asof": "2026-10-07T15:30:00+05:30",
  "nifty": {
-  "value": 22650,
-  "pct": -0.55,
-  "chg": -126.1,
+  "value": 22615.45,
+  "pct": -0.71,
+  "chg": -160.65,
   "approx": true
  },
  "mood": {
-  "label": "Off the lows",
-  "score": -0.3,
-  "summary": "Benchmarks have clawed back part of the afternoon slide heading into the last half-hour, though the index remains firmly in the red with selling pressure easing rather than reversing.",
+  "label": "Hawkish close",
+  "score": -0.35,
+  "summary": "Benchmarks are ending the session lower, snapping a two-day winning run, after a choppy afternoon that saw a late bounce off the lows fade only partly into the closing auction.",
   "detail": {
-   "leaders": "Banks and NBFCs (SBI, HDFC Bank, Kotak)",
-   "laggards": "Metals (index down over 2%), auto, realty",
-   "tone": "A modest recovery since 2:30: Nifty is back around 22,650 per the latest headline after a 2 pm low of 22,578.25; Sensex is down about 400 pts versus 506 at 2 pm.",
+   "leaders": "Banks and NBFCs; Kotak, SBI, HDFC Bank",
+   "laggards": "Metals, auto, realty; Titan",
+   "tone": "Steadier than the 2 pm trough: in the closing auction Sensex was 72,648.40 (-419.41, -0.57%) and Nifty 22,615.45 (-160.65, -0.71%), above the day low of 22,578.25.",
    "watch": [
-    "Whether the bounce holds through the closing auction",
-    "Provisional FII/DII data after the close",
-    "Overnight US cues for Thursday"
+    "Provisional FII/DII data after hours",
+    "Bond yields and rupee after the first hike since Feb 2023",
+    "Brent holding above $100"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex drops 400 points, Nifty around 22,650; Nifty Metal down over 2%",
+    "title": "Business Standard: Stock Market LIVE – Sensex drops 419 points, Nifty at 22,615 in closing auction session",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "rate-path",
+   "tag": "Policy",
+   "impact": "neg",
+   "title": "Street pencils in more hikes after today",
+   "line": "BofA sees 100 bps of RBI hikes through H1 2027, with the first 25 bps now delivered",
+   "more": [
+    "Several analysts expect another 25 bps hike in December",
+    "BofA cites resilient growth and broadening inflation risks",
+    "Oil at $100–110 for most of September is a key pressure"
+   ],
+   "src": {
+    "title": "Asianet Newsable: RBI may hike interest rates by 100 bps by H1 2027, says BofA",
+    "url": "https://newsable.asianetnews.com/business/rbi-may-hike-interest-rates-by-100-bps-by-h1-2027-says-bofa-articleshow-qkvcsy8"
+   },
+   "date": "2026-10-07",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "1530"
+   }
+  },
+  {
+   "key": "titan",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Brokerages stay Buy on Titan despite miss",
+   "line": "UBS, Goldman, Citi, HSBC and Macquarie keep Buy; consensus target ₹5,423",
+   "more": [
+    "Target implies 22.7% upside after the 4% fall",
+    "Analysts blame the festive shift into Q3, high gold prices and weaker coin sales",
+    "CaratLane grew 32%; studded jewellery growth was in the early 30s"
+   ],
+   "src": {
+    "title": "BusinessToday: Titan share price targets – Q2 sales miss drags stock 4%; why it remains a buy",
+    "url": "https://www.businesstoday.in/markets/stocks/story/titan-share-price-targets-q2-sales-miss-drags-stock-4-why-jhunjhunwala-stock-remains-a-buy-560022-2026-10-07"
+   },
+   "date": "2026-10-07",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent stays above $101",
+   "line": "Brent rose 0.65% to $101.24 a barrel, keeping inflation and rupee pressure alive",
+   "more": [
+    "Rupee around 96.6 per dollar versus 96.5 in the previous session",
+    "Higher crude feeds the inflation risks cited by analysts expecting more hikes"
+   ],
+   "src": {
+    "title": "Trading Economics: Brent crude oil",
+    "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+   },
+   "date": "2026-10-07",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-29",
+    "slot": "pre"
+   }
+  },
   {
    "key": "bank-margins",
    "tag": "Policy",
@@ -51,7 +125,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1500"
@@ -75,7 +149,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1500"
@@ -99,7 +173,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1300"
@@ -251,30 +325,6 @@
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "titan",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Titan falls up to 4.7% on Q2 update",
-   "line": "Domestic jewellery growth of about 21% fell short of several analysts' estimates",
-   "more": [
-    "Stock hit a low of ₹4,335.60 on NSE",
-    "Top Nifty loser, down about 3.9% by noon"
-   ],
-   "src": {
-    "title": "HDFC Sky: Top gainers & losers, Oct 7, 12 pm",
-    "url": "https://hdfcsky.com/news/top-gainers-losers-october-7-2026-at-12-pm"
-   },
-   "date": "2026-10-07",
-   "slot": "1330",
-   "when": "13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "pre"
    }
   },
   {
@@ -674,29 +724,6 @@
    "first_seen": {
     "date": "2026-10-07",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Crude bounces back above $100",
-   "line": "Brent's rebound weighs on Asia; Nikkei down 0.36%, KOSPI down 0.76%",
-   "more": [
-    "Higher oil adds to India's inflation and rate-hike pressure"
-   ],
-   "src": {
-    "title": "Upstox: Gift Nifty indicates weak opening ahead of RBI decision",
-    "url": "https://upstox.com/news/market-news/stocks/gift-nifty-indicates-weak-opening-for-indian-markets-ahead-of-rbi-s-monetary-policy-decision/article-201403/"
-   },
-   "date": "2026-10-07",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-29",
-    "slot": "pre"
    }
   },
   {
