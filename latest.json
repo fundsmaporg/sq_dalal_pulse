@@ -1,37 +1,136 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-07T13:33:47+05:30",
+ "generated_at": "2026-10-07T14:03:37+05:30",
  "date": "2026-10-07",
- "slot": "1330",
- "slot_label": "13:30",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-07T13:30:00+05:30",
+ "asof": "2026-10-07T14:00:00+05:30",
  "nifty": {
-  "value": 22651.7,
-  "pct": -0.55,
-  "chg": -124.4,
+  "value": 22579.6,
+  "pct": -0.86,
+  "chg": -196.5,
   "approx": true
  },
  "mood": {
-  "label": "Selling resumes",
-  "score": -0.3,
-  "summary": "Selling has resumed into the afternoon, pushing benchmarks back toward the day's lows, while smallcaps hold flat and midcaps slip as hawkish RBI guidance sinks in.",
+  "label": "Selling deepens",
+  "score": -0.4,
+  "summary": "Benchmarks have slipped to their weakest prints of the day this afternoon, with rate-sensitive pockets dragging while lenders hold firm; the morning's partial recovery has fully unwound.",
   "detail": {
-   "leaders": "Smallcaps flat; Kotak Bank among few large-cap gainers",
-   "laggards": "Titan, Shriram Finance, Hindalco, Asian Paints, Bajaj Auto",
-   "tone": "Weaker than the previous note: at 1 pm the Nifty was down 124.40 points (0.55%) at 22,651.70, and a later headline put it below 22,600 with the Sensex down 400 points.",
+   "leaders": "Banks (Kotak, private lenders), PVR Inox, Vodafone Idea",
+   "laggards": "Realty, auto and other rate-sensitives; Titan; Shriram Finance",
+   "tone": "Losses widened since the 1:30 note: Sensex fell about 479 pts to 72,588.82 at 1:14 pm and Nifty slipped under 22,600, its weakest print we have seen today.",
    "watch": [
-    "A break below the morning low near 22,600",
-    "NBFC and consumer selling after the hike",
-    "TCS Q2 results on Oct 8"
+    "Whether Nifty holds 22,550 into the close",
+    "Bond yields after the 25 bp hike",
+    "Provisional FII/DII data after hours"
    ],
    "src": {
-    "title": "Business Standard: Sensex down 400 pts, Nifty below 22,600; Titan, Shriram Finance top losers",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
+    "title": "Upstox: Rate-sensitive shares, PVR Inox, Airtel among buzzing stocks as Sensex slumps over 450 pts",
+    "url": "https://upstox.com/news/market-news/stocks/rate-sensitive-shares-pvr-inox-airtel-among-buzzing-stocks-as-sensex-slumps-over-450-pts-nifty-trades-below-22-600/article-201442/"
    }
   }
  },
  "insights": [
+  {
+   "key": "rate-sensitives",
+   "tag": "Policy",
+   "impact": "neg",
+   "title": "Rate-sensitives slide; banks hold up",
+   "line": "Auto and realty in the red after the repo hike, while banking stocks trade in the green",
+   "more": [
+    "RBI raised repo 25 bps to 5.50%, its first hike in nearly four years",
+    "Auto, real estate and other rate-sensitive stocks traded lower in the afternoon",
+    "Banking stocks bucked the trend, seen in the green"
+   ],
+   "src": {
+    "title": "Upstox: Rate-sensitive shares, PVR Inox, Airtel among buzzing stocks as Sensex slumps over 450 pts",
+    "url": "https://upstox.com/news/market-news/stocks/rate-sensitive-shares-pvr-inox-airtel-among-buzzing-stocks-as-sensex-slumps-over-450-pts-nifty-trades-below-22-600/article-201442/"
+   },
+   "date": "2026-10-07",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "pvr-inox",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PVR Inox rallies against the tide",
+   "line": "Shares were up ₹82 at ₹1,331.4 around midday, among the day's buzzing stocks",
+   "more": [
+    "Quote as of 11:54 am; about 6.6% above the previous close",
+    "Stock hit a 52-week high in September after its buyback",
+    "No company announcement seen today to explain the move"
+   ],
+   "src": {
+    "title": "INDmoney: PVR Inox share price",
+    "url": "https://www.indmoney.com/stocks/pvr-inox-ltd-share-price"
+   },
+   "date": "2026-10-07",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "vodafone-idea",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Vodafone Idea among top volume movers",
+   "line": "Extends its rally after adding over 5 lakh mobile subscribers in August",
+   "more": [
+    "Subscriber base rose to 19.96 crore in August from 19.91 crore in July",
+    "Continues a run of customer additions that began in February",
+    "Among the most traded NSE stocks by volume today"
+   ],
+   "src": {
+    "title": "HDFC Sky: Trending stocks Oct 7 – Vodafone Idea, Moneyview, MobiKwik",
+    "url": "https://hdfcsky.com/news/trending-stocks-today-october-7-2026-vodafone-idea-moneyview-mobikwik-among-top-volume-movers-on-nse"
+   },
+   "date": "2026-10-07",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "mobikwik",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "MobiKwik climbs after block deal",
+   "line": "Shares rose after a large block deal in the previous session",
+   "more": [
+    "Among top NSE volume movers alongside Vodafone Idea and Moneyview",
+    "Moneyview led the active-stock gains after last week's debut"
+   ],
+   "src": {
+    "title": "HDFC Sky: Trending stocks Oct 7 – Vodafone Idea, Moneyview, MobiKwik",
+    "url": "https://hdfcsky.com/news/trending-stocks-today-october-7-2026-vodafone-idea-moneyview-mobikwik-among-top-volume-movers-on-nse"
+   },
+   "date": "2026-10-07",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "1400"
+   }
+  },
   {
    "key": "titan",
    "tag": "Stocks",
@@ -50,7 +149,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "pre"
@@ -74,7 +173,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1330"
@@ -97,34 +196,10 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1300"
-   }
-  },
-  {
-   "key": "rate-sensitives",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Banks rebound, autos and realty stay weak",
-   "line": "Bank, PSU bank and financial indices up to 1% higher; Nifty Auto down 1%",
-   "more": [
-    "Nifty Realty down 0.24% after the decision",
-    "Higher rates lift lending yields but raise borrowing costs for car and home buyers"
-   ],
-   "src": {
-    "title": "Business Standard: RBI hike impact — bank, NBFC shares rebound; auto, realty weak",
-    "url": "https://www.business-standard.com/markets/news/rbi-rate-hike-impact-bank-nbfc-shares-rebound-auto-realty-trade-weak-126100700313_1.html"
-   },
-   "date": "2026-10-07",
-   "slot": "1300",
-   "when": "13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1030"
    }
   },
   {
