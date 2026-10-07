@@ -1,60 +1,109 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-07T14:03:37+05:30",
+ "generated_at": "2026-10-07T14:33:00+05:30",
  "date": "2026-10-07",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-07T14:00:00+05:30",
+ "asof": "2026-10-07T14:30:00+05:30",
  "nifty": {
-  "value": 22579.6,
-  "pct": -0.86,
-  "chg": -196.5,
+  "value": 22583.5,
+  "pct": -0.85,
+  "chg": -192.6,
   "approx": true
  },
  "mood": {
-  "label": "Selling deepens",
-  "score": -0.4,
-  "summary": "Benchmarks have slipped to their weakest prints of the day this afternoon, with rate-sensitive pockets dragging while lenders hold firm; the morning's partial recovery has fully unwound.",
+  "label": "Pinned near lows",
+  "score": -0.45,
+  "summary": "Benchmarks are pinned near the day's lows into the final hour, with selling broadening beyond rate-sensitives to cyclicals and only shallow bounces off the bottom.",
   "detail": {
-   "leaders": "Banks (Kotak, private lenders), PVR Inox, Vodafone Idea",
-   "laggards": "Realty, auto and other rate-sensitives; Titan; Shriram Finance",
-   "tone": "Losses widened since the 1:30 note: Sensex fell about 479 pts to 72,588.82 at 1:14 pm and Nifty slipped under 22,600, its weakest print we have seen today.",
+   "leaders": "Private banks; select buzzing stocks",
+   "laggards": "Metals (index down over 2%), auto, realty",
+   "tone": "Little change from the 2 pm note: at 2 pm Sensex was 72,561.31 (-506.50) and Nifty 22,583.50 (-192.60), just off day lows of 72,520.73 and 22,578.25.",
    "watch": [
-    "Whether Nifty holds 22,550 into the close",
-    "Bond yields after the 25 bp hike",
-    "Provisional FII/DII data after hours"
+    "A close below the 22,578 intraday low",
+    "Whether banks keep cushioning the index",
+    "Provisional FII/DII data after the close"
    ],
    "src": {
-    "title": "Upstox: Rate-sensitive shares, PVR Inox, Airtel among buzzing stocks as Sensex slumps over 450 pts",
-    "url": "https://upstox.com/news/market-news/stocks/rate-sensitive-shares-pvr-inox-airtel-among-buzzing-stocks-as-sensex-slumps-over-450-pts-nifty-trades-below-22-600/article-201442/"
+    "title": "Business Standard: Stock Market LIVE, Oct 7 – Sensex drops nearly 500 pts; Nifty Metal down over 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
    }
   }
  },
  "insights": [
   {
+   "key": "metals",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Metal stocks lead the afternoon slide",
+   "line": "Nifty Metal is down over 2%, the weakest sectoral pocket this afternoon",
+   "more": [
+    "Metal shares fell up to 4%, with NALCO and JSW Steel among the top losers",
+    "Hindalco was already among Nifty losers at midday"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE, Oct 7 – Sensex drops nearly 500 pts; Nifty Metal down over 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
+   },
+   "date": "2026-10-07",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1130"
+   }
+  },
+  {
    "key": "rate-sensitives",
    "tag": "Policy",
    "impact": "neg",
-   "title": "Rate-sensitives slide; banks hold up",
-   "line": "Auto and realty in the red after the repo hike, while banking stocks trade in the green",
+   "title": "Auto, realty indices stay in the red",
+   "line": "Nifty Auto is down 1.16% and Nifty Realty 0.65% after the repo hike",
    "more": [
-    "RBI raised repo 25 bps to 5.50%, its first hike in nearly four years",
-    "Auto, real estate and other rate-sensitive stocks traded lower in the afternoon",
-    "Banking stocks bucked the trend, seen in the green"
+    "RBI raised the repo rate 25 bps to 5.50% and shifted to 'calibrated tightening'",
+    "Rate-sensitive sectors are bearing the brunt of the reaction",
+    "Figures as of about 2 pm"
    ],
    "src": {
-    "title": "Upstox: Rate-sensitive shares, PVR Inox, Airtel among buzzing stocks as Sensex slumps over 450 pts",
-    "url": "https://upstox.com/news/market-news/stocks/rate-sensitive-shares-pvr-inox-airtel-among-buzzing-stocks-as-sensex-slumps-over-450-pts-nifty-trades-below-22-600/article-201442/"
+    "title": "Business Standard: Stock Market LIVE, Oct 7 – Sensex drops nearly 500 pts; Nifty Metal down over 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
    },
    "date": "2026-10-07",
-   "slot": "1400",
-   "when": "14:00",
+   "slot": "1430",
+   "when": "14:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1030"
+   }
+  },
+  {
+   "key": "rbi-policy",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "First RBI hike since February 2023",
+   "line": "RBI signalled its next move would be a hike or a pause, ruling out near-term cuts",
+   "more": [
+    "Repo up 25 bps to 5.50%; GDP forecast raised to 7.1%",
+    "10-year yield rose to 7.25% from 7.19% after the decision",
+    "Hike came amid a weakening rupee"
+   ],
+   "src": {
+    "title": "Business Standard: Bond yields inch up as RBI's MPC changes stance with 25 bps hike",
+    "url": "https://www.business-standard.com/amp/finance/news/india-bond-yield-rbi-mpc-repo-rate-calibrated-tightening-126100700323_1.html"
+   },
+   "date": "2026-10-07",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "post"
    }
   },
   {
@@ -76,7 +125,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1400"
@@ -101,7 +150,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1400"
@@ -125,7 +174,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1400"
@@ -200,29 +249,6 @@
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1300"
-   }
-  },
-  {
-   "key": "rbi-policy",
-   "tag": "Policy",
-   "impact": "neg",
-   "title": "RBI sees inflation at 5.6% in Q1 FY28",
-   "line": "Q1 FY28 CPI forecast raised from 5.3%; FY27 core inflation seen at 4.4%",
-   "more": [
-    "Governor says growth remains resilient despite global shocks"
-   ],
-   "src": {
-    "title": "Business Standard: RBI presser LIVE — Sensex down 200 pts",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
-   },
-   "date": "2026-10-07",
-   "slot": "1300",
-   "when": "13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "post"
    }
   },
   {
@@ -1164,30 +1190,6 @@
    "src": {
     "title": "Upstox: Angel One shares jump 2% on Q2 business update",
     "url": "https://upstox.com/news/market-news/stocks/angel-one-shares-jump-2-on-healthy-q2-business-updates-despite-muted-market-activity/article-201326/"
-   },
-   "date": "2026-10-06",
-   "slot": "1130",
-   "when": "Tue · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-06",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "metals",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Metal and bank shares lead the gains",
-   "line": "Metals join private banks at the top of the sector table as crude eases",
-   "more": [
-    "Hindalco among early Nifty gainers",
-    "Vedanta extends gains on dividend plans"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE, Oct 6",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-6-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-srit-india-ipo-listing-126100600087_1.html"
    },
    "date": "2026-10-06",
    "slot": "1130",
