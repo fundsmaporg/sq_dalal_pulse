@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-08T12:35:09+05:30",
+ "generated_at": "2026-10-08T13:03:25+05:30",
  "date": "2026-10-08",
- "slot": "1230",
- "slot_label": "12:30",
+ "slot": "1300",
+ "slot_label": "13:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-08T12:30:00+05:30",
+ "asof": "2026-10-08T13:00:00+05:30",
  "nifty": {
   "value": 22371.1,
   "pct": -1.03,
@@ -13,16 +13,16 @@
   "approx": true
  },
  "mood": {
-  "label": "Selling accelerates",
-  "score": -0.55,
-  "summary": "Selling has accelerated into the afternoon, pushing benchmarks down more than 1% to the day's lows, with losses broadening across metals, FMCG and Adani names.",
+  "label": "Pinned lower",
+  "score": -0.5,
+  "summary": "Benchmarks were last seen near the late-morning lows with losses of about 1%, as an oil-led sell-off keeps a lid on any recovery and buyers stay confined to a handful of defensives.",
   "detail": {
-   "leaders": "Titan, TCS, HCL Tech, Nestle",
-   "laggards": "Adani Enterprises, JSW Steel, ITC, Max Healthcare, Adani Ports",
-   "tone": "A clear leg lower since the noon note: at 12 pm Sensex was 72,006.68 (-632.02) and Nifty 22,371.10 (-231.95, -1.03%), after an 11:35 am low of 22,339.95.",
+   "leaders": "TCS, HCL Tech, Titan, Nestle",
+   "laggards": "Adani Group, JSW Steel, ITC, Max Healthcare",
+   "tone": "No fresh leg down since 12:30; the latest print is Nifty 22,371.10 (-1.03%) at noon, slightly above the 11:35 am low of 22,339.95.",
    "watch": [
-    "Brent's move above $102",
-    "Whether Nifty holds 22,300",
+    "Brent holding near $102",
+    "A break below 22,340",
     "TCS numbers after the close"
    ],
    "src": {
@@ -32,6 +32,78 @@
   }
  },
  "insights": [
+  {
+   "key": "gst-council",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "GST Council: compliance reforms, not rate cuts",
+   "line": "Meeting is set to take up simpler compliance and faster refunds; no major rate changes",
+   "more": [
+    "Prosecution and arrest rules are also on the agenda",
+    "The last big rate overhaul (two main slabs, 5% and 18%) came in September 2025"
+   ],
+   "src": {
+    "title": "Business Standard: GST Council to take up far-reaching compliance reforms at Thursday meeting",
+    "url": "https://www.business-standard.com/economy/news/gst-council-to-take-up-far-reaching-compliance-reforms-at-thursday-meeting-126100701326_1.html"
+   },
+   "date": "2026-10-08",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "max-healthcare",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Max Healthcare slides again after 52-week low",
+   "line": "Down about 3.5% at noon after hitting a 52-week low of ₹891.15 on Wednesday",
+   "more": [
+    "Hospital stocks have been under pressure since Sept 30 Supreme Court remarks on drug pricing",
+    "Stock fell 6.82% in the week to Oct 2"
+   ],
+   "src": {
+    "title": "MarketsMojo: Max Healthcare falls to 52-week low of Rs 891.15",
+    "url": "https://marketsmojo.com/news/stocks-in-action/max-healthcare-institute-ltd-stock-hits-52-week-low-amid-market-downturn-4217579"
+   },
+   "date": "2026-10-08",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "1300"
+   }
+  },
+  {
+   "key": "tcs-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "TCS gains 1.2% into results",
+   "line": "TCS was among the top Nifty gainers at noon, hours before its Q2 numbers",
+   "more": [
+    "Results are due after market hours; earnings call at 7 pm",
+    "Stock is near its 52-week low after falling 14.5% in September"
+   ],
+   "src": {
+    "title": "HDFC Sky: Top gainers & losers, October 8, 2026 at 12:00 PM IST",
+    "url": "https://hdfcsky.com/news/top-gainers-losers-october-8-2026-at-12-pm"
+   },
+   "date": "2026-10-08",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "post"
+   }
+  },
   {
    "key": "crude",
    "tag": "Global",
@@ -51,7 +123,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "pre"
@@ -75,7 +147,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1030"
@@ -99,7 +171,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "pre"
@@ -123,34 +195,10 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "gst-council",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "GST Council meets today",
-   "line": "57th meeting is under way; pharma, FMCG and telecom are in focus for rate changes",
-   "more": [
-    "Sectors flagged in pre-market previews: pharma, FMCG, telecom",
-    "No decisions reported yet"
-   ],
-   "src": {
-    "title": "Angel One: Stocks to watch today – Godrej Properties, Tata Power, RPP Infra (October 8, 2026)",
-    "url": "https://www.angelone.in/news/market-updates/stocks-to-watch-today-godrej-properties-tata-power-rpp-infra-and-others-october-8-2026"
-   },
-   "date": "2026-10-08",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
-    "slot": "1200"
+    "slot": "1230"
    }
   },
   {
@@ -441,31 +489,6 @@
    "first_seen": {
     "date": "2026-09-30",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "tcs-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "TCS Q2 today: $7.66 bn revenue expected",
-   "line": "CNBC-TV18 poll sees 0.5–0.6% QoQ cc growth and $9–10 bn in deal wins",
-   "more": [
-    "Results after 3:30 pm; second interim dividend likely, record date Oct 14",
-    "Q1 deal wins were $9.5 bn",
-    "Stock traded ₹2,076–2,105 on Wednesday, near its 52-week low of ₹1,976.80"
-   ],
-   "src": {
-    "title": "ad-hoc-news: TCS stock heads into October 8 results with revenue in focus",
-    "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/tcs-stock-heads-into-october-8-results-with-revenue-in-focus/70254151"
-   },
-   "date": "2026-10-08",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-05",
-    "slot": "post"
    }
   },
   {
