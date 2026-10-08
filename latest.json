@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-08T11:33:34+05:30",
+ "generated_at": "2026-10-08T12:03:19+05:30",
  "date": "2026-10-08",
- "slot": "1130",
- "slot_label": "11:30",
+ "slot": "1200",
+ "slot_label": "12:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-08T11:30:00+05:30",
+ "asof": "2026-10-08T12:00:00+05:30",
  "nifty": {
   "value": 22473.25,
   "pct": -0.57,
@@ -13,17 +13,17 @@
   "approx": true
  },
  "mood": {
-  "label": "Stuck near lows",
+  "label": "Heavy drift",
   "score": -0.35,
-  "summary": "Trade has turned listless in the red, with no meaningful bounce attempt as sellers keep control and decliners keep outnumbering advancers by a wide margin.",
+  "summary": "The market is drifting lower into midday with no buyers stepping in at scale; activity is concentrated in results-driven single stocks while the broader tape stays heavy.",
   "detail": {
-   "leaders": "IT ahead of TCS; select jewellers",
-   "laggards": "Adani Group, realty, SBI Life, Bajaj Finance",
-   "tone": "Little changed from 11 am: the latest live readings have Sensex near 72,265 (-373) and Nifty near 22,450–22,475, with no fresh recovery.",
+   "leaders": "Results-led names (Senco Gold, Jubilant FoodWorks); IT",
+   "laggards": "Adani Group, realty, Tata Steel, SBI Life, Bajaj Finance",
+   "tone": "No real change from 11:30; the latest live reading still has Nifty around 22,450–22,475 and the Sensex about 400 pts lower, with no fresh print since late morning.",
    "watch": [
-    "Support near 22,400 cited by analysts",
+    "GST Council decisions later today",
     "Brent above $102",
-    "TCS numbers after the close"
+    "TCS Q2 numbers after the close"
    ],
    "src": {
     "title": "Business Standard: Stock Market LIVE – Sensex falls 400 pts, Nifty around 22,450; Adani Group shares fall up to 5%",
@@ -32,6 +32,102 @@
   }
  },
  "insights": [
+  {
+   "key": "gst-council",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "GST Council meets today",
+   "line": "57th meeting is under way; pharma, FMCG and telecom are in focus for rate changes",
+   "more": [
+    "Sectors flagged in pre-market previews: pharma, FMCG, telecom",
+    "No decisions reported yet"
+   ],
+   "src": {
+    "title": "Angel One: Stocks to watch today – Godrej Properties, Tata Power, RPP Infra (October 8, 2026)",
+    "url": "https://www.angelone.in/news/market-updates/stocks-to-watch-today-godrej-properties-tata-power-rpp-infra-and-others-october-8-2026"
+   },
+   "date": "2026-10-08",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "ola-electric",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Ola Electric fixes rights issue at ₹27",
+   "line": "Board approved 37.02 cr rights shares worth ₹999.73 cr, priced at ₹27 each",
+   "more": [
+    "Issue is of partly paid-up shares",
+    "Stock closed at ₹35.96 on Tuesday; the price is a steep discount"
+   ],
+   "src": {
+    "title": "Business Standard: Stocks to watch – TCS, Paytm, Tata Power, Ola, Tata Steel, Varun Bev",
+    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-october-8-paytm-tata-power-ola-electric-tata-steel-varun-bev-126100800120_1.html"
+   },
+   "date": "2026-10-08",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "jubilant-foodworks",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Jubilant FoodWorks Q2 revenue up 11.9%",
+   "line": "Consolidated revenue rose to ₹2,608.7 cr; the stock gained in early trade",
+   "more": [
+    "Rallied alongside Senco Gold on strong Q2 updates",
+    "Domino's operator is a bellwether for discretionary demand"
+   ],
+   "src": {
+    "title": "ScanX: Stocks to watch today, October 8, 2026 – Fino Payments Bank, Jubilant FoodWorks, Senco Gold",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-8-2026-fino-payments-bank-jubilant/52968961"
+   },
+   "date": "2026-10-08",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "tata-steel",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Tata Steel slips despite output jump",
+   "line": "Shares fell about 1.7% even as India crude steel output rose 10% YoY",
+   "more": [
+    "Q2 India deliveries were 5.97 mt",
+    "Nifty Metal fell over 2% on Wednesday"
+   ],
+   "src": {
+    "title": "ScanX: Stocks to watch today, October 8, 2026 – Fino Payments Bank, Jubilant FoodWorks, Senco Gold",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-8-2026-fino-payments-bank-jubilant/52968961"
+   },
+   "date": "2026-10-08",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "pre"
+   }
+  },
   {
    "key": "adani-ent",
    "tag": "Stocks",
@@ -50,7 +146,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1030"
@@ -74,7 +170,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "pre"
@@ -98,7 +194,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1130"
@@ -370,30 +466,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "tata-steel",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Tata Steel India output up 10% YoY",
-   "line": "Q2 India crude steel production hit 6.21 mt, up 8% QoQ",
-   "more": [
-    "Driven by Jamshedpur and Kalinganagar",
-    "India deliveries were 5.97 mt for the quarter"
-   ],
-   "src": {
-    "title": "Upstox: Stocks to watch, Oct 8 – Tata Power, TCS, Tata Steel, Senco Gold",
-    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-oct-8-tata-power-tcs-tata-steel-senco-gold-pc-jeweller-eveready-industries-jubilant-food-works/article-201486/"
-   },
-   "date": "2026-10-08",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
     "slot": "pre"
    }
   },
@@ -758,30 +830,6 @@
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1300"
-   }
-  },
-  {
-   "key": "ola-electric",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Ola Electric promoter pledges 4.32% stake",
-   "line": "Bhavish Aggarwal pledged 20 cr shares to fund his part in the ₹1,000 cr rights issue",
-   "more": [
-    "Board meets today to set issue price, ratio and record date",
-    "Meeting was deferred from Oct 5 pending clearances"
-   ],
-   "src": {
-    "title": "BusinessToday: Ola Electric board meets today on rights issue terms",
-    "url": "https://www.businesstoday.in/markets/stocks/story/ola-electric-gets-nod-for-rights-issue-meeting-on-issue-price-rights-ratio-and-record-date-today-560011-2026-10-07"
-   },
-   "date": "2026-10-07",
-   "slot": "1230",
-   "when": "Wed · 12:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1200"
    }
   },
   {
