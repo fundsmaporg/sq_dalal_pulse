@@ -1,37 +1,134 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-08T14:33:12+05:30",
+ "generated_at": "2026-10-08T15:02:46+05:30",
  "date": "2026-10-08",
- "slot": "1430",
- "slot_label": "14:30",
- "stage": "Mid-market mood",
- "asof": "2026-10-08T14:30:00+05:30",
+ "slot": "1500",
+ "slot_label": "15:00",
+ "stage": "Closing mood",
+ "asof": "2026-10-08T15:00:00+05:30",
  "nifty": {
-  "value": 22243.6,
-  "pct": -1.59,
-  "chg": -359.45,
+  "value": 22236,
+  "pct": -1.62,
+  "chg": -367.05,
   "approx": true
  },
  "mood": {
-  "label": "Rout extends",
+  "label": "Heavy into close",
   "score": -0.75,
-  "summary": "The rout is extending into the final hour, with benchmarks down about 1.5–1.6% and testing fresh lows as sellers dominate across large, mid and small caps.",
+  "summary": "Benchmarks are heading into the final half-hour near the day's lows, down more than 1.5%, with selling spread across metals, realty and defence and no late recovery in sight.",
   "detail": {
-   "leaders": "IT names ahead of TCS",
-   "laggards": "OMCs, ITC, Bharat Electronics, Adani Group, NBFCs",
-   "tone": "Losses deepened again: at 2 pm Sensex was 71,575.16 (-1,063, -1.46%) and Nifty 22,243.60 (-359.45, -1.59%); the latest headline has Nifty testing 22,200.",
+   "leaders": "Senco Gold; IT names ahead of TCS",
+   "laggards": "Metals, realty, defence, tourism; ITC, Vedanta",
+   "tone": "Little relief since 2:30: at 2:36 pm Sensex was 71,573.85 (-1,065, -1.47%) and Nifty about 22,236, after intraday lows of 71,406.79 and 22,190.",
    "watch": [
-    "Whether 22,200 holds into the close",
-    "Brent's 4% jump",
-    "TCS Q2 numbers after the bell"
+    "Whether Nifty closes above 22,200",
+    "Brent above $104",
+    "TCS numbers this evening"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex tanks 1,100 points, Nifty tests 22,200; over ₹11 trillion m-cap gone",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
+    "title": "Upstox: SENSEX tanks over 1,000 pts, NIFTY below 22,300; Senco Gold, TCS, Fino Payments Bank among buzzing stocks",
+    "url": "https://upstox.com/news/market-news/stocks/senco-gold-tcs-fino-payments-bank-among-buzzing-stocks-as-sensex-tanks-over-1-000-pts-nifty-trades-below-22-400/article-201527/"
    }
   }
  },
  "insights": [
+  {
+   "key": "selloff-drivers",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Three triggers behind today's 1% crash",
+   "line": "Crude's renewed jump, rising bond yields and rate-hike expectations sank the market",
+   "more": [
+    "Business Standard's explainer cites all three as drivers",
+    "US 10-year yield touched 5.36% overnight; the RBI hiked a day earlier",
+    "Poor El Niño-linked monsoon rains are adding to price pressures"
+   ],
+   "src": {
+    "title": "Business Standard: D-St meltdown explained – Sensex tanks 945 pts intraday, Nifty below 22,350",
+    "url": "https://www.business-standard.com/markets/news/market-crash-explained-sensex-tanks-780-pts-intraday-nifty-below-22-350-126100800440_1.html"
+   },
+   "date": "2026-10-08",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "1500"
+   }
+  },
+  {
+   "key": "itc",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "ITC slumps as much as 4.5%",
+   "line": "FMCG heavyweight is among the sharpest Sensex losers today",
+   "more": [
+    "Was down about 3.7% at noon",
+    "No company-specific trigger reported"
+   ],
+   "src": {
+    "title": "Upstox: SENSEX tanks over 1,000 pts, NIFTY below 22,300; Senco Gold, TCS, Fino Payments Bank among buzzing stocks",
+    "url": "https://upstox.com/news/market-news/stocks/senco-gold-tcs-fino-payments-bank-among-buzzing-stocks-as-sensex-tanks-over-1-000-pts-nifty-trades-below-22-400/article-201527/"
+   },
+   "date": "2026-10-08",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "1500"
+   }
+  },
+  {
+   "key": "vedanta",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Vedanta falls despite first FY27 dividend",
+   "line": "Shares fell as much as 2.8% to ₹254.05 after the board approved an interim dividend",
+   "more": [
+    "Metals are among the day's worst-hit sectors",
+    "Board approval came at Thursday's meeting"
+   ],
+   "src": {
+    "title": "Upstox: SENSEX tanks over 1,000 pts, NIFTY below 22,300; Senco Gold, TCS, Fino Payments Bank among buzzing stocks",
+    "url": "https://upstox.com/news/market-news/stocks/senco-gold-tcs-fino-payments-bank-among-buzzing-stocks-as-sensex-tanks-over-1-000-pts-nifty-trades-below-22-400/article-201527/"
+   },
+   "date": "2026-10-08",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "tcs-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "TCS results tonight; stock down 35% in 2026",
+   "line": "Investors want proof that AI revenue is offsetting weaker traditional IT spending",
+   "more": [
+    "Q1 revenue was ₹72,275 cr, with operating margin at 24%",
+    "Second interim dividend likely; record date Oct 14"
+   ],
+   "src": {
+    "title": "NiftyTrader: TCS Q2 FY27 results – stock down 35% in 2026, dividend decision on Oct 8",
+    "url": "https://www.niftytrader.in/markets/?p=31807"
+   },
+   "date": "2026-10-08",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "post"
+   }
+  },
   {
    "key": "investor-wealth",
    "tag": "Flows",
@@ -50,7 +147,7 @@
    "slot": "1430",
    "when": "14:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1430"
@@ -74,7 +171,7 @@
    "slot": "1430",
    "when": "14:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1430"
@@ -98,7 +195,7 @@
    "slot": "1430",
    "when": "14:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1230"
@@ -246,30 +343,6 @@
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1300"
-   }
-  },
-  {
-   "key": "tcs-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "TCS gains 1.2% into results",
-   "line": "TCS was among the top Nifty gainers at noon, hours before its Q2 numbers",
-   "more": [
-    "Results are due after market hours; earnings call at 7 pm",
-    "Stock is near its 52-week low after falling 14.5% in September"
-   ],
-   "src": {
-    "title": "HDFC Sky: Top gainers & losers, October 8, 2026 at 12:00 PM IST",
-    "url": "https://hdfcsky.com/news/top-gainers-losers-october-8-2026-at-12-pm"
-   },
-   "date": "2026-10-08",
-   "slot": "1300",
-   "when": "13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-05",
-    "slot": "post"
    }
   },
   {
@@ -1637,30 +1710,6 @@
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "vedanta",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Vedanta jumps 3% ahead of dividend meet",
-   "line": "Stock hit ₹264.90 after setting Oct 14 as record date for its first FY27 interim dividend",
-   "more": [
-    "Traded near ₹263.80 around 10:30 am vs ₹255.05 Monday close",
-    "Board meets Oct 8 to decide the payout"
-   ],
-   "src": {
-    "title": "Goodreturns: Vedanta shares rally over 3% after record date announcement",
-    "url": "https://www.goodreturns.in/news/vedanta-dividend-alert-shares-rally-over-3-after-record-date-announcement-demerger-mean-for-payout-1539399.html"
-   },
-   "date": "2026-10-06",
-   "slot": "1130",
-   "when": "Tue · 11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-06",
-    "slot": "1030"
    }
   },
   {
