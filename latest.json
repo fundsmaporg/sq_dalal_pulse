@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-08T11:02:35+05:30",
+ "generated_at": "2026-10-08T11:33:34+05:30",
  "date": "2026-10-08",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-08T11:00:00+05:30",
+ "asof": "2026-10-08T11:30:00+05:30",
  "nifty": {
   "value": 22473.25,
   "pct": -0.57,
@@ -13,21 +13,21 @@
   "approx": true
  },
  "mood": {
-  "label": "Heavy, steadying",
+  "label": "Stuck near lows",
   "score": -0.35,
-  "summary": "Benchmarks remain stuck in the red with decliners heavily outnumbering advancers, though the slide has steadied as defensive buying in tech offsets selling in realty and financials.",
+  "summary": "Trade has turned listless in the red, with no meaningful bounce attempt as sellers keep control and decliners keep outnumbering advancers by a wide margin.",
   "detail": {
-   "leaders": "IT (Nifty IT top sectoral gainer ahead of TCS); jewellers",
-   "laggards": "Realty (worst sector), Adani Group, SBI Life, Bajaj Finance",
-   "tone": "Slightly steadier than 10:30: Nifty was at 22,473.25 (-129.80, -0.57%) at 10:53 am; breadth was weak early with 1,645 decliners against 889 advancers on NSE.",
+   "leaders": "IT ahead of TCS; select jewellers",
+   "laggards": "Adani Group, realty, SBI Life, Bajaj Finance",
+   "tone": "Little changed from 11 am: the latest live readings have Sensex near 72,265 (-373) and Nifty near 22,450–22,475, with no fresh recovery.",
    "watch": [
-    "Whether IT strength holds into TCS numbers",
-    "Adani Group selling spreading",
-    "US yields and FII flows"
+    "Support near 22,400 cited by analysts",
+    "Brent above $102",
+    "TCS numbers after the close"
    ],
    "src": {
     "title": "Business Standard: Stock Market LIVE – Sensex falls 400 pts, Nifty around 22,450; Adani Group shares fall up to 5%",
-    "url": "https://business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
    }
   }
  },
@@ -36,24 +36,72 @@
    "key": "adani-ent",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "Selling widens across Adani Group stocks",
-   "line": "Adani Group shares fall up to 5%, extending Adani Enterprises' early 4% slide",
+   "title": "Adani Ports, Total Gas, Green join the slide",
+   "line": "Adani Enterprises, Ports, Total Gas and Green Energy are down up to 5%",
    "more": [
     "No company or regulatory trigger disclosed so far",
-    "Adani Enterprises had fallen 8.4% over the month to Oct 1"
+    "On Wednesday Adani Green had risen 3.2% while the rest of the group slipped"
    ],
    "src": {
     "title": "Business Standard: Stock Market LIVE – Sensex falls 400 pts, Nifty around 22,450; Adani Group shares fall up to 5%",
-    "url": "https://business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
    },
    "date": "2026-10-08",
-   "slot": "1100",
-   "when": "11:00",
+   "slot": "1130",
+   "when": "11:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1030"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent climbs above $102",
+   "line": "Oil is up from Wednesday's $101.24, keeping inflation and rupee worries alive",
+   "more": [
+    "Kotak Securities flagged oil and the RBI hike as key concerns pre-open",
+    "Oil near $100–110 has been cited as a reason for further RBI hikes"
+   ],
+   "src": {
+    "title": "Kotak Neo: Pre-Market 8 October 2026 – GIFT Nifty signals cautious start; RBI rate hike and oil prices in focus",
+    "url": "https://www.kotakneo.com/news/market-news/pre-market-8-october-2026-gift-nifty-signals-weak-start-after-rbi-rate-hike/"
+   },
+   "date": "2026-10-08",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "vishal-nirmiti-listing",
+   "tag": "Listing",
+   "impact": "neg",
+   "title": "Vishal Nirmiti lists below IPO price",
+   "line": "Debuted at ₹215 on NSE and BSE versus the ₹220 issue price, about 2.3% lower",
+   "more": [
+    "IPO was subscribed only 1.79 times overall",
+    "Shares listed on both NSE and BSE on Thursday"
+   ],
+   "src": {
+    "title": "HDFC Sky: Vishal Nirmiti lists at ₹215, slips 2% below IPO price",
+    "url": "https://hdfcsky.com/news/vishal-nirmiti-shares-decline-2-3-percent-on-debut"
+   },
+   "date": "2026-10-08",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "1130"
    }
   },
   {
@@ -74,7 +122,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1000"
@@ -98,7 +146,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "0930"
@@ -445,30 +493,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent stays above $101",
-   "line": "Brent rose 0.65% to $101.24 a barrel, keeping inflation and rupee pressure alive",
-   "more": [
-    "Rupee around 96.6 per dollar versus 96.5 in the previous session",
-    "Higher crude feeds the inflation risks cited by analysts expecting more hikes"
-   ],
-   "src": {
-    "title": "Trading Economics: Brent crude oil",
-    "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
-   },
-   "date": "2026-10-07",
-   "slot": "1530",
-   "when": "Wed · 15:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
     "slot": "pre"
    }
   },
