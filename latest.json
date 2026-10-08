@@ -1,37 +1,110 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-08T13:03:25+05:30",
+ "generated_at": "2026-10-08T13:33:12+05:30",
  "date": "2026-10-08",
- "slot": "1300",
- "slot_label": "13:00",
+ "slot": "1330",
+ "slot_label": "13:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-08T13:00:00+05:30",
+ "asof": "2026-10-08T13:30:00+05:30",
  "nifty": {
-  "value": 22371.1,
-  "pct": -1.03,
-  "chg": -231.95,
+  "value": 22261.05,
+  "pct": -1.51,
+  "chg": -342.0,
   "approx": true
  },
  "mood": {
-  "label": "Pinned lower",
-  "score": -0.5,
-  "summary": "Benchmarks were last seen near the late-morning lows with losses of about 1%, as an oil-led sell-off keeps a lid on any recovery and buyers stay confined to a handful of defensives.",
+  "label": "Risk-off deepens",
+  "score": -0.65,
+  "summary": "The sell-off has deepened through early afternoon, with benchmarks sliding about 1.5% to fresh day lows in a broad risk-off move and little sign of dip-buying.",
   "detail": {
-   "leaders": "TCS, HCL Tech, Titan, Nestle",
-   "laggards": "Adani Group, JSW Steel, ITC, Max Healthcare",
-   "tone": "No fresh leg down since 12:30; the latest print is Nifty 22,371.10 (-1.03%) at noon, slightly above the 11:35 am low of 22,339.95.",
+   "leaders": "IT names ahead of TCS results",
+   "laggards": "SBI Life, Bajaj Finance, Adani Group, metals",
+   "tone": "A fresh leg lower since the previous note: at 1 pm Sensex was 71,654.06 (-984.64, -1.36%) and Nifty about 22,261, below the 11:35 am low of 22,339.95.",
    "watch": [
-    "Brent holding near $102",
-    "A break below 22,340",
-    "TCS numbers after the close"
+    "Brent holding above $104",
+    "Nifty support near 22,200",
+    "TCS numbers and commentary after the close"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex at day's low, drops 700 pts, Nifty below 22,400; Brent rises 2%",
+    "title": "Business Standard: Stock Market LIVE – Sensex slumps 900 points, Nifty breaks 22,300; Brent crude tops $104",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent jumps 3.9% to $104 day high",
+   "line": "Oil hit $104.09 on ICE as West Asia supply worries persisted, fuelling risk-off",
+   "more": [
+    "Business Standard says the oil rally raised inflation concerns and hit equities",
+    "Brent is more than 50% higher than a year ago",
+    "India imports most of its crude, so higher prices hurt inflation and the rupee"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE – Sensex slumps 900 points, Nifty breaks 22,300; Brent crude tops $104",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
+   },
+   "date": "2026-10-08",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "bajaj-finance",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "SBI Life, Bajaj Finance still lead losers",
+   "line": "Both remain the top Nifty 50 losers at 1 pm as the slide widens",
+   "more": [
+    "Financials outside banks have been weak since the morning",
+    "The RBI's hike raises funding costs for NBFCs"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE – Sensex slumps 900 points, Nifty breaks 22,300; Brent crude tops $104",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
+   },
+   "date": "2026-10-08",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "it-stocks",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "IT keeps holding up as the market slides",
+   "line": "Nifty IT continues to draw buying, per ICICI Direct's 11 am update, ahead of TCS",
+   "more": [
+    "TCS and HCL Tech were among Nifty gainers at noon",
+    "TCS results are due after the close, with the call at 7 pm"
+   ],
+   "src": {
+    "title": "ICICI Direct: Share market today – live updates",
+    "url": "https://icicidirect.com/share-market-today"
+   },
+   "date": "2026-10-08",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1000"
+   }
+  },
   {
    "key": "gst-council",
    "tag": "Policy",
@@ -50,7 +123,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1200"
@@ -74,7 +147,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1300"
@@ -98,35 +171,10 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "post"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent jumps 2–3% on Hormuz tanker attacks",
-   "line": "Oil climbed to about $102.8 as Middle East attacks revived supply fears",
-   "more": [
-    "Tanker attacks in the Strait of Hormuz and Houthi strikes on Saudi sites cited",
-    "Business Standard links the afternoon slide in equities to the oil spike",
-    "Higher oil feeds the inflation worries behind the RBI's hike"
-   ],
-   "src": {
-    "title": "Trading Economics: Brent crude oil",
-    "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
-   },
-   "date": "2026-10-08",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "pre"
    }
   },
   {
@@ -295,54 +343,6 @@
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "it-stocks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT is the lone bright spot before TCS",
-   "line": "Nifty IT is the top-gaining sector as traders position ahead of TCS Q2 results",
-   "more": [
-    "TCS reports after market hours, with an earnings call at 7 pm",
-    "IT had fallen sharply in September on US rates and visa-fee worries"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex falls 400 pts, Nifty around 22,450; Adani Group shares fall up to 5%",
-    "url": "https://business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
-   },
-   "date": "2026-10-08",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "bajaj-finance",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "SBI Life, Bajaj Finance lead Nifty losers",
-   "line": "Financials outside banks are under pressure a day after the RBI's rate hike",
-   "more": [
-    "Both are among the top Nifty 50 losers this morning",
-    "Higher funding costs are a known headwind for NBFC margins"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex falls 400 pts, Nifty around 22,450; Adani Group shares fall up to 5%",
-    "url": "https://business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
-   },
-   "date": "2026-10-08",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-05",
-    "slot": "0930"
    }
   },
   {
