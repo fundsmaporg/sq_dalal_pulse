@@ -1,37 +1,109 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-08T14:02:40+05:30",
+ "generated_at": "2026-10-08T14:33:12+05:30",
  "date": "2026-10-08",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-08T14:00:00+05:30",
+ "asof": "2026-10-08T14:30:00+05:30",
  "nifty": {
-  "value": 22250,
-  "pct": -1.56,
-  "chg": -353.05,
+  "value": 22243.6,
+  "pct": -1.59,
+  "chg": -359.45,
   "approx": true
  },
  "mood": {
-  "label": "Broad sell-off",
-  "score": -0.7,
-  "summary": "Selling has broadened into mid and small caps as benchmarks extend losses past 1.5%, with no meaningful support emerging and risk appetite drained by the oil spike.",
+  "label": "Rout extends",
+  "score": -0.75,
+  "summary": "The rout is extending into the final hour, with benchmarks down about 1.5–1.6% and testing fresh lows as sellers dominate across large, mid and small caps.",
   "detail": {
-   "leaders": "IT (TCS, Infosys, Tech Mahindra)",
-   "laggards": "Realty, NBFCs, Adani Group, mid and small caps",
-   "tone": "Weaker again since 1:30: around 2 pm Sensex was down about 1,000 pts and Nifty below 22,250; Nifty MidCap fell 0.92% and SmallCap 1.06%.",
+   "leaders": "IT names ahead of TCS",
+   "laggards": "OMCs, ITC, Bharat Electronics, Adani Group, NBFCs",
+   "tone": "Losses deepened again: at 2 pm Sensex was 71,575.16 (-1,063, -1.46%) and Nifty 22,243.60 (-359.45, -1.59%); the latest headline has Nifty testing 22,200.",
    "watch": [
-    "Brent's 4% surge extending",
-    "Nifty support near 22,200",
-    "TCS numbers after the close"
+    "Whether 22,200 holds into the close",
+    "Brent's 4% jump",
+    "TCS Q2 numbers after the bell"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex tanks 1,000 points, Nifty below 22,250; Brent rises over 4%",
+    "title": "Business Standard: Stock Market LIVE – Sensex tanks 1,100 points, Nifty tests 22,200; over ₹11 trillion m-cap gone",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "investor-wealth",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "Over ₹11 trillion of market value wiped out",
+   "line": "BSE market cap fell ₹11.15 trn to ₹461.20 trn from Wednesday's close",
+   "more": [
+    "Driven by the oil spike and the hawkish RBI",
+    "Selling spans large, mid and small caps"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE – Sensex tanks 1,100 points, Nifty tests 22,200; over ₹11 trillion m-cap gone",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
+   },
+   "date": "2026-10-08",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "omc-stocks",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "OMC, aviation, paint, tyre stocks slide",
+   "line": "Oil-sensitive names are down about 1–5%, with HPCL and BPCL among major losers",
+   "more": [
+    "Brent's jump above $102 squeezes OMC marketing margins",
+    "Jet fuel is close to half of airline operating costs"
+   ],
+   "src": {
+    "title": "Nagpur Today: Crude oil surge hits oil-sensitive stocks",
+    "url": "https://nagpurtoday.in/crude-oil-surge-hits-oil-sensitive-stocks"
+   },
+   "date": "2026-10-08",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "midday-losers",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "ITC, Bharat Electronics among top losers",
+   "line": "ITC and Bharat Electronics are among the top Sensex losers today",
+   "more": [
+    "ITC was down 3.7% at noon",
+    "No stock-specific triggers reported"
+   ],
+   "src": {
+    "title": "Equitymaster: Sensex today trades lower; Nifty below 22,500; ITC, Bharat Elec top losers",
+    "url": "https://www.equitymaster.com/indian-share-markets/10/08/2026/Sensex-Today-Trades-Lower--Nifty-Below-22500--ITC--Bharat-Elec-Top-Losers"
+   },
+   "date": "2026-10-08",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "1230"
+   }
+  },
   {
    "key": "crude",
    "tag": "Global",
@@ -50,7 +122,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "pre"
@@ -74,7 +146,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1000"
@@ -98,7 +170,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1000"
@@ -246,30 +318,6 @@
    "first_seen": {
     "date": "2026-10-07",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "midday-losers",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "JSW Steel, ITC, Max Healthcare slide 3–4%",
-   "line": "JSW Steel is down about 4%, ITC 3.7% and Max Healthcare 3.5% at noon",
-   "more": [
-    "No stock-specific triggers reported for these moves",
-    "Metals remain weak for a second day"
-   ],
-   "src": {
-    "title": "HDFC Sky: Top gainers & losers, October 8, 2026 at 12:00 PM IST",
-    "url": "https://hdfcsky.com/news/top-gainers-losers-october-8-2026-at-12-pm"
-   },
-   "date": "2026-10-08",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1230"
    }
   },
   {
