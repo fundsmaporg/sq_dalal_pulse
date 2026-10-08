@@ -1,32 +1,32 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-08T15:32:55+05:30",
+ "generated_at": "2026-10-08T16:02:30+05:30",
  "date": "2026-10-08",
- "slot": "1530",
- "slot_label": "15:30",
- "stage": "Closing mood",
- "asof": "2026-10-08T15:30:00+05:30",
+ "slot": "post",
+ "slot_label": "Close",
+ "stage": "Post-market mood",
+ "asof": "2026-10-08T16:00:00+05:30",
  "nifty": {
-  "value": 22216,
-  "pct": -1.71,
-  "chg": -387.05,
-  "approx": true
+  "value": 22231.8,
+  "pct": -1.64,
+  "chg": -371.25,
+  "approx": false
  },
  "mood": {
-  "label": "Heavy losses",
+  "label": "Oil-led rout",
   "score": -0.75,
-  "summary": "Benchmarks are ending near the day's lows with losses of about 1.7%, a broad oil-driven sell-off in which IT outperformed and mid and small caps fell about 1%.",
+  "summary": "A heavy, broad sell-off took Nifty to a fresh 2026 intraday low, with volatility jumping and only IT holding up as oil, rates and foreign selling weighed together.",
   "detail": {
    "leaders": "Nifty IT (top sector), TCS ahead of results",
-   "laggards": "Realty (worst sector), SBI Life, Bajaj Finance, metals",
-   "tone": "No late recovery: in the closing auction Sensex was 71,461.62 (-1,177.08, -1.62%) and Nifty 22,216 (-387.05, -1.71%), against intraday lows of 71,406.79 and 22,190.",
+   "laggards": "Metals (worst sector), Adani Enterprises, JSW Steel, Max Healthcare",
+   "tone": "The official close was slightly off the auction low: Nifty 22,231.80 (-371.25, -1.64%) and Sensex 71,593.24 (-1,045.46, -1.44%), after a 2026 intraday low of 22,179.90; India VIX rose about 10%.",
    "watch": [
-    "TCS Q2 numbers and the 7 pm call",
-    "GST Council decisions",
-    "FII provisional data and Brent overnight"
+    "Market reaction to TCS's beat on Friday",
+    "Brent above $104",
+    "FII flows after Wednesday's ₹6,121 cr outflow"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex plunges 1,177, Nifty at 22,216 in closing auction session",
+    "title": "Business Standard: Stock Market Close – Sensex tanks 1,045 pts, Nifty ends at 22,232 as oil tops $104; VIX jumps 10%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
    }
   }
@@ -35,26 +35,98 @@
   {
    "key": "tcs-results",
    "tag": "Results",
-   "impact": "watch",
-   "title": "TCS reports tonight; Street eyes ₹13,700 cr",
-   "line": "Brokers see Q2 net profit near ₹13,700 cr; numbers due after the close",
+   "impact": "pos",
+   "title": "TCS beats: Q2 profit up 14.9% to ₹13,934 cr",
+   "line": "Revenue rose 11.2% to ₹73,188 cr, ahead of the ~₹13,700 cr profit consensus",
    "more": [
-    "Emkay expects ₹13,751 cr, up 6.6% YoY; JM Financial ₹13,702.5 cr",
-    "Q1 dividend was ₹12; record date Oct 14 for any second interim",
-    "Earnings call at 7 pm"
+    "Second interim dividend of ₹12; record date Oct 14, paid Oct 30",
+    "Acquiring Porsche's consulting arm MHP for about ₹3,484 cr ($373 mn)",
+    "Five-year strategic partnership with Porsche AG"
    ],
    "src": {
-    "title": "Kotak Neo: TCS Q2 results preview – revenue, profit, margin in focus as shares jump 3%",
-    "url": "https://www.kotakneo.com/news/stocks/tcs-q2-results-preview-revenue-profit-margin-deal-wins-ai/"
+    "title": "Whalesbook: TCS Q2 FY27 profit up 15% to Rs 13,934 cr; Rs 12 dividend declared",
+    "url": "https://www.whalesbook.com/corporate-news/English/technology/TCS-Q2-FY27-Profit-Up-15percent-to-Rs-13934-Cr-Rs-12-Dividend-Declared/6ac76caab2eb76fd08bf7a40"
    },
    "date": "2026-10-08",
-   "slot": "1530",
-   "when": "15:30",
+   "slot": "post",
+   "when": "Close",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "post"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent up 4% above $104 by the close",
+   "line": "Oil's surge on West Asia supply fears was the day's main trigger for the sell-off",
+   "more": [
+    "Business Standard also cites tighter monetary conditions and foreign outflows",
+    "India VIX jumped about 10%"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market Close – Sensex tanks 1,045 pts, Nifty ends at 22,232 as oil tops $104; VIX jumps 10%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
+   },
+   "date": "2026-10-08",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "adani-ent",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Adani Ent, JSW Steel, Max Healthcare top losers",
+   "line": "The three ended as the biggest Nifty 50 decliners; metals were the worst sector",
+   "more": [
+    "Adani Enterprises was down about 4.8% at noon",
+    "Max Healthcare hit a 52-week low on Wednesday"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market Close – Sensex tanks 1,045 pts, Nifty ends at 22,232 as oil tops $104; VIX jumps 10%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
+   },
+   "date": "2026-10-08",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "Thursday FII data awaited",
+   "line": "Provisional FII/DII figures for today are not out yet",
+   "more": [
+    "On Wednesday FIIs sold ₹6,121 cr while DIIs bought ₹4,597 cr",
+    "Foreign outflows were cited as a driver of today's slide"
+   ],
+   "src": {
+    "title": "Kotak Neo: FII/DII data",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+   },
+   "date": "2026-10-08",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "pre"
    }
   },
   {
@@ -75,7 +147,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1200"
@@ -99,7 +171,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "0930"
@@ -251,30 +323,6 @@
    }
   },
   {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent's rally stretches past 4%",
-   "line": "Oil gains have widened through the afternoon on West Asia supply fears",
-   "more": [
-    "Brent touched $104.09 earlier on ICE",
-    "Business Standard links the deepening equity sell-off to fears of prolonged price pressure"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex tanks 1,000 points, Nifty below 22,250; Brent rises over 4%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
-   },
-   "date": "2026-10-08",
-   "slot": "1400",
-   "when": "14:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "pre"
-   }
-  },
-  {
    "key": "it-stocks",
    "tag": "Stocks",
    "impact": "pos",
@@ -344,30 +392,6 @@
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1300"
-   }
-  },
-  {
-   "key": "adani-ent",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Adani Enterprises tops Nifty losers, -4.8%",
-   "line": "Down 4.82% to ₹2,610.90 at noon; Adani Ports down about 3.4%",
-   "more": [
-    "No company or regulatory trigger disclosed so far",
-    "Stock also fell 3.75% on Wednesday"
-   ],
-   "src": {
-    "title": "HDFC Sky: Top gainers & losers, October 8, 2026 at 12:00 PM IST",
-    "url": "https://hdfcsky.com/news/top-gainers-losers-october-8-2026-at-12-pm"
-   },
-   "date": "2026-10-08",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1030"
    }
   },
   {
@@ -605,31 +629,6 @@
    "date": "2026-10-08",
    "slot": "0930",
    "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "FIIs dump ₹6,121 cr on RBI hike day",
-   "line": "Foreign investors were heavy net sellers; DIIs absorbed ₹4,597 cr",
-   "more": [
-    "FII gross sales ₹18,699 cr vs purchases ₹12,578 cr (provisional)",
-    "Net institutional outflow about ₹1,525 cr",
-    "Figures are provisional and are finalised the next day"
-   ],
-   "src": {
-    "title": "StockEdge: FII/DII activity",
-    "url": "https://web.stockedge.com/fii-activity"
-   },
-   "date": "2026-10-08",
-   "slot": "pre",
-   "when": "Pre-open",
    "updated": true,
    "is_new": false,
    "first_seen": {
