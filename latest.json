@@ -1,37 +1,110 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-08T09:33:12+05:30",
+ "generated_at": "2026-10-08T10:03:06+05:30",
  "date": "2026-10-08",
- "slot": "0930",
- "slot_label": "9:30",
+ "slot": "1000",
+ "slot_label": "10:00",
  "stage": "Opening mood",
- "asof": "2026-10-08T09:30:00+05:30",
+ "asof": "2026-10-08T10:00:00+05:30",
  "nifty": {
-  "value": 22599,
-  "pct": -0.02,
-  "chg": -4,
+  "value": 22543.4,
+  "pct": -0.26,
+  "chg": -59.65,
   "approx": true
  },
  "mood": {
-  "label": "Flat, wary start",
-  "score": -0.1,
-  "summary": "A flat, hesitant start: benchmarks are hugging the previous close with no clear direction as traders sit on their hands ahead of the first big Q2 earnings print.",
+  "label": "Soft, cautious",
+  "score": -0.25,
+  "summary": "Benchmarks have slipped into mild losses after a flat start, with sellers edging ahead in a thin, cautious session as rising global bond yields keep risk appetite subdued.",
   "detail": {
-   "leaders": "Sensex inching higher; banks steady after the hike",
-   "laggards": "Paytm; IT names cautious before TCS",
-   "tone": "Calmer than Wednesday's post-hike slide: Sensex opened about 29 pts up near 72,668 while Nifty slipped about 4 pts.",
+   "leaders": "Few clear leaders; banks steady",
+   "laggards": "Paytm; IT ahead of TCS numbers",
+   "tone": "A little weaker than the flat open: Kotak Securities put Sensex at 72,484.38 (-154.32) and Nifty at 22,543.40 (-59.65, -0.26%) in early trade.",
    "watch": [
-    "Whether FII selling persists after Wednesday's ₹6,121 cr outflow",
-    "US 10-year yield above 5.3%",
-    "TCS numbers after market hours"
+    "US 10-year yield holding above 5.3%",
+    "FII flows after Wednesday's heavy selling",
+    "TCS results after the close"
    ],
    "src": {
-    "title": "India TV: 8 October 2026 stock market updates – Sensex, Nifty flat after RBI's repo rate hike, Paytm falls 7%",
-    "url": "https://www.indiatvnews.com/business/markets/8-october-2026-stock-market-updates-sensex-nifty-flat-after-rbi-s-repo-rate-hike-paytm-falls-7-2026-10-08-1056387"
+    "title": "Kotak Neo: Stock Market Update 8 October 2026 – Sensex, Nifty 50 trade lower after market opening",
+    "url": "https://www.kotakneo.com/news/market-news/stock-market-update-8-october-2026-sensex-nifty/"
    }
   }
  },
  "insights": [
+  {
+   "key": "asia",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Asian stocks slip as bond yields climb",
+   "line": "Nikkei down 0.55% and Kospi 0.2% as yields extend gains after Wall Street's dip",
+   "more": [
+    "Global equities are tracking higher bond yields lower",
+    "Nikkei had fallen 0.92% and Kospi nearly 2% on Tuesday"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE – GIFT Nifty signals negative open; Asia markets fall as bond yields extend gains",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
+   },
+   "date": "2026-10-08",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "fed-minutes",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Fed minutes on September hike in focus",
+   "line": "September meeting lifted US rates to 3.75–4.00%, the first Fed hike since 2023",
+   "more": [
+    "Projections pointed to one more hike in 2026",
+    "Soft jobs and inflation data since then cut October hike odds to about 20%",
+    "Minutes were due for release on Oct 7 at 2 pm ET"
+   ],
+   "src": {
+    "title": "investingLive: Fed minutes preview – one more hike guidance meets softer data",
+    "url": "https://investinglive.com/central-banks/fed-minutes-preview-one-more-hike-guidance-meets-softer-data-as-october-odds-fade/"
+   },
+   "date": "2026-10-08",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "paytm",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Paytm slide unexplained so far",
+   "line": "Stock fell 7% early; no exchange disclosure seen yet explaining the drop",
+   "more": [
+    "Earlier block deals (May 2026, Nov 2025) caused similar sharp falls",
+    "Watch exchange filings for a large-deal print"
+   ],
+   "src": {
+    "title": "India TV: 8 October 2026 stock market updates – Paytm falls 7%",
+    "url": "https://www.indiatvnews.com/business/markets/8-october-2026-stock-market-updates-sensex-nifty-flat-after-rbi-s-repo-rate-hike-paytm-falls-7-2026-10-08-1056387"
+   },
+   "date": "2026-10-08",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "0930"
+   }
+  },
   {
    "key": "us-yields",
    "tag": "Global",
@@ -51,34 +124,10 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-09-30",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "paytm",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Paytm falls 7% in early trade",
-   "line": "One97 Communications is among the sharpest early losers",
-   "more": [
-    "No company announcement seen yet to explain the drop",
-    "The stock had risen about 73% over six months up to early October"
-   ],
-   "src": {
-    "title": "India TV: 8 October 2026 stock market updates – Sensex, Nifty flat after RBI's repo rate hike, Paytm falls 7%",
-    "url": "https://www.indiatvnews.com/business/markets/8-october-2026-stock-market-updates-sensex-nifty-flat-after-rbi-s-repo-rate-hike-paytm-falls-7-2026-10-08-1056387"
-   },
-   "date": "2026-10-08",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "0930"
    }
   },
   {
@@ -100,7 +149,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "post"
