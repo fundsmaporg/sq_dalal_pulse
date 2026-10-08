@@ -1,37 +1,109 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-08T10:33:00+05:30",
+ "generated_at": "2026-10-08T11:02:35+05:30",
  "date": "2026-10-08",
- "slot": "1030",
- "slot_label": "10:30",
+ "slot": "1100",
+ "slot_label": "11:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-08T10:30:00+05:30",
+ "asof": "2026-10-08T11:00:00+05:30",
  "nifty": {
-  "value": 22450,
-  "pct": -0.68,
-  "chg": -153.05,
+  "value": 22473.25,
+  "pct": -0.57,
+  "chg": -129.8,
   "approx": true
  },
  "mood": {
-  "label": "Selling picks up",
-  "score": -0.4,
-  "summary": "Selling has picked up through the morning, pushing benchmarks to their weakest levels of the morning, while pockets of stock-specific buying keep the broader market from capitulating.",
+  "label": "Heavy, steadying",
+  "score": -0.35,
+  "summary": "Benchmarks remain stuck in the red with decliners heavily outnumbering advancers, though the slide has steadied as defensive buying in tech offsets selling in realty and financials.",
   "detail": {
-   "leaders": "Jewellery stocks (Senco Gold, PC Jeweller) on Q2 updates",
-   "laggards": "Adani Enterprises, Paytm; rate-sensitives",
-   "tone": "Weaker than the 10 am note: the latest live headline has Sensex down about 400 pts and Nifty around 22,450, versus 22,543 in early trade.",
+   "leaders": "IT (Nifty IT top sectoral gainer ahead of TCS); jewellers",
+   "laggards": "Realty (worst sector), Adani Group, SBI Life, Bajaj Finance",
+   "tone": "Slightly steadier than 10:30: Nifty was at 22,473.25 (-129.80, -0.57%) at 10:53 am; breadth was weak early with 1,645 decliners against 889 advancers on NSE.",
    "watch": [
-    "Whether Nifty holds 22,400",
-    "US yields and crude",
-    "TCS numbers after the close"
+    "Whether IT strength holds into TCS numbers",
+    "Adani Group selling spreading",
+    "US yields and FII flows"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex falls 400 pts, Nifty around 22,450; Adani Ent shares down 4%",
+    "title": "Business Standard: Stock Market LIVE – Sensex falls 400 pts, Nifty around 22,450; Adani Group shares fall up to 5%",
     "url": "https://business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "adani-ent",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Selling widens across Adani Group stocks",
+   "line": "Adani Group shares fall up to 5%, extending Adani Enterprises' early 4% slide",
+   "more": [
+    "No company or regulatory trigger disclosed so far",
+    "Adani Enterprises had fallen 8.4% over the month to Oct 1"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE – Sensex falls 400 pts, Nifty around 22,450; Adani Group shares fall up to 5%",
+    "url": "https://business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
+   },
+   "date": "2026-10-08",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "it-stocks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT is the lone bright spot before TCS",
+   "line": "Nifty IT is the top-gaining sector as traders position ahead of TCS Q2 results",
+   "more": [
+    "TCS reports after market hours, with an earnings call at 7 pm",
+    "IT had fallen sharply in September on US rates and visa-fee worries"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE – Sensex falls 400 pts, Nifty around 22,450; Adani Group shares fall up to 5%",
+    "url": "https://business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
+   },
+   "date": "2026-10-08",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-09-30",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "bajaj-finance",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "SBI Life, Bajaj Finance lead Nifty losers",
+   "line": "Financials outside banks are under pressure a day after the RBI's rate hike",
+   "more": [
+    "Both are among the top Nifty 50 losers this morning",
+    "Higher funding costs are a known headwind for NBFC margins"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE – Sensex falls 400 pts, Nifty around 22,450; Adani Group shares fall up to 5%",
+    "url": "https://business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
+   },
+   "date": "2026-10-08",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "0930"
+   }
+  },
   {
    "key": "senco-gold",
    "tag": "Stocks",
@@ -50,34 +122,10 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "adani-ent",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Adani Enterprises slides 4%",
-   "line": "Down 4% in morning trade, a notable Nifty laggard",
-   "more": [
-    "No company announcement seen yet explaining the fall",
-    "Stock had slipped 0.67% to ₹2,830.70 on Wednesday"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex falls 400 pts, Nifty around 22,450; Adani Ent shares down 4%",
-    "url": "https://business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
-   },
-   "date": "2026-10-08",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1030"
    }
   },
   {
@@ -98,7 +146,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1030"
@@ -1019,29 +1067,6 @@
    }
   },
   {
-   "key": "it-stocks",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Tech Mahindra leads IT losers",
-   "line": "TechM down 2.34% among the top Nifty losers; Coforge and Persistent also weak",
-   "more": [
-    "IT is among the weakest sectors ahead of TCS's results on Oct 8"
-   ],
-   "src": {
-    "title": "HDFC Sky: Top gainers & losers, Oct 6, 12 pm",
-    "url": "https://hdfcsky.com/news/top-gainers-losers-october-6-2026-at-12-pm"
-   },
-   "date": "2026-10-06",
-   "slot": "1530",
-   "when": "Tue · 15:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-09-30",
-    "slot": "1000"
-   }
-  },
-  {
    "key": "coal-india",
    "tag": "Stocks",
    "impact": "neg",
@@ -1639,30 +1664,6 @@
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1530"
-   }
-  },
-  {
-   "key": "bajaj-finance",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Bajaj Finance plans ₹17,500 cr fundraise",
-   "line": "Board approves QIP plus promoter warrants; AUM up 26.5% YoY to ~₹5,84,750 cr",
-   "more": [
-    "Funds to be raised via QIP and warrants issued to Bajaj Finserv",
-    "Stock rose as much as 5% to ₹995.80, a top Nifty gainer"
-   ],
-   "src": {
-    "title": "Business Standard: Q2 update, ₹17,500 cr fundraise drive Bajaj Finance higher",
-    "url": "https://www.business-standard.com/markets/news/q2-biz-update-17-500-crore-fundraise-plan-drive-bajaj-finance-4-higher-126100500187_1.html"
-   },
-   "date": "2026-10-05",
-   "slot": "1500",
-   "when": "Mon · 15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-05",
-    "slot": "0930"
    }
   },
   {
