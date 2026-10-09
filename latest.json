@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-09T13:33:20+05:30",
+ "generated_at": "2026-10-09T14:03:22+05:30",
  "date": "2026-10-09",
- "slot": "1330",
- "slot_label": "13:30",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-09T13:30:00+05:30",
+ "asof": "2026-10-09T14:00:00+05:30",
  "nifty": {
   "value": 22508.6,
   "pct": 1.25,
@@ -13,17 +13,17 @@
   "approx": true
  },
  "mood": {
-  "label": "Rally firms up",
+  "label": "Holding the highs",
   "score": 0.5,
-  "summary": "The market has pushed back to the day's highs into the afternoon, with the Nifty up about 1.25% and buying spreading beyond IT. Pharma is the main sector in the red.",
+  "summary": "The market is holding its gains near the day's high into mid-afternoon, with midcaps outperforming. Smallcaps are still flat and pharma is weak, so the rally is broad but uneven.",
   "detail": {
-   "leaders": "TCS, Apollo Hospitals, Max Healthcare; IT, FMCG",
+   "leaders": "TCS, IT; midcaps",
    "laggards": "Pharma; smallcaps trail midcaps",
-   "tone": "Stronger than 13:00: at 1 pm the Nifty was 22,508.60 (+1.25%) and the Sensex 72,421.37 (+828), close to intraday highs of 22,515.95 and 72,447.61.",
+   "tone": "Steady since 13:30: the last print had the Nifty at 22,508.60 (+1.25%) at 1 pm, near its intraday high of 22,515.95. No sign of fading yet.",
    "watch": [
     "A close above 22,500",
-    "Pharma weakness spreading",
-    "Brent reversing higher"
+    "Smallcaps joining the bounce",
+    "Pharma weakness deepening"
    ],
    "src": {
     "title": "Business Standard: Stock Market LIVE – Sensex gains 800 pts, Nifty near 22,500; Nifty Metal snaps 2-day losing run",
@@ -31,28 +31,52 @@
    },
    "movers": {
     "up": {
-     "summary": "TCS, Apollo Hospitals and Max Healthcare are the top Nifty gainers",
-     "why": "IT is riding TCS's Q2 beat, and hospitals are rallying as analysts say the new cancer-drug margin cap hits distributors more than hospitals.",
+     "summary": "TCS and the IT pack lead, with midcaps up over 1%",
+     "why": "TCS's Q2 beat has pulled IT out of a four-day slide, and midcaps are bouncing hard after Thursday's 2%+ fall.",
      "names": [
       {
        "name": "TCS",
        "dir": "up",
-       "line": "Q2 profit rose ~15%; the stock is leading IT's rebound after a 4-day slide"
+       "move": "up ~5%",
+       "line": "Top Nifty gainer at noon (₹2,178) after Q2 profit rose ~15%"
       },
       {
-       "name": "Apollo Hospitals",
+       "name": "Nifty IT",
        "dir": "up",
-       "line": "Recovers more of the SC-markup sell-off; ICICI Sec sees retailers bearing the cap"
+       "move": "+2.34%",
+       "line": "Ends a 4-day losing run, though off its morning high of +3.3%"
       },
       {
-       "name": "Max Healthcare",
+       "name": "Nifty Midcap 100",
        "dir": "up",
-       "line": "Jefferies stays bullish on hospitals despite the 30% trade-margin cap"
+       "move": "+1.09%",
+       "line": "Recovering after a 2%+ fall on Thursday; leading the broader market"
       }
      ],
      "src": {
       "title": "Business Standard: Stock Market LIVE – Sensex gains 800 pts, Nifty near 22,500; Nifty Metal snaps 2-day losing run",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+     }
+    },
+    "down": {
+     "summary": "Pharma is among the weakest sectors and smallcaps have barely moved",
+     "why": "The cancer-drug margin cap weighs on the pharma supply chain, and smallcaps haven't joined the bounce.",
+     "names": [
+      {
+       "name": "Nifty Pharma",
+       "dir": "down",
+       "line": "Among the worst sectors; the 30% trade-margin cap was expected to draw mild selling"
+      },
+      {
+       "name": "Nifty Smallcap 100",
+       "dir": "flat",
+       "move": "-0.01%",
+       "line": "Flat around 1 pm while midcaps rose 1.09%, after a 2%+ fall on Thursday"
+      }
+     ],
+     "src": {
+      "title": "CNBC-TV18 via TradingView: Hospital stocks seen flat to higher, pharma may see mild selling on cancer-drug cap",
+      "url": "https://www.tradingview.com/news/cnbctv:3fe5240f3094b:0/"
      }
     }
    }
@@ -62,26 +86,74 @@
   {
    "key": "hospital-stocks",
    "tag": "Policy",
-   "impact": "pos",
-   "title": "30% margin cap on cancer drugs lifts hospitals",
-   "line": "Centre reportedly caps trade margins on non-scheduled cancer drugs at 30% of MRP",
+   "impact": "watch",
+   "title": "Cancer-drug cap covers 110 drugs, 35 patented",
+   "line": "Government estimates ₹2,500 cr a year in patient savings; NPPA notification due this month",
    "more": [
-    "Fortis, Apollo, Max, KIMS, Narayana and Yatharth rose 2–5% intraday",
-    "ICICI Securities says the cap mainly hits retailer margins in the supply chain",
-    "The SC's drug-markup case returns on October 12"
+    "Goldman: oncology is <5% of hospital revenue and ~2–2.5% of EBITDA",
+    "Govt says the cap targets trade margins, not makers' selling prices",
+    "A DGHS expert committee will finalise the drug list"
    ],
    "src": {
-    "title": "Business Standard: Hospital stocks – why Fortis, Apollo, Max, Yatharth rallied up to 5%",
-    "url": "https://www.business-standard.com/markets/news/hospital-stocks-why-have-fortis-apollo-max-yatharth-rallied-up-to-5-on-friday-126100900234_1.html"
+    "title": "Zee Business: 30% margin cap on cancer drugs – why analysts expect a limited hit to hospital earnings",
+    "url": "https://www.zeebiz.com/market-news/news-30-margin-cap-on-cancer-drugs-why-analysts-expect-a-limited-hit-to-hospital-earnings-403641"
    },
    "date": "2026-10-09",
-   "slot": "1330",
-   "when": "13:30",
+   "slot": "1400",
+   "when": "14:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1030"
+   }
+  },
+  {
+   "key": "delhivery",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PL Capital upgrades Delhivery to Buy",
+   "line": "Target ₹532 implies 33% upside from Thursday's close of ₹398",
+   "more": [
+    "Upgraded from Hold",
+    "MOFSL also has a Buy, with a ₹510 target"
+   ],
+   "src": {
+    "title": "Business Today: Delhivery shares set for 33% upside, says PL Capital; turns bullish",
+    "url": "https://www.businesstoday.in/markets/stocks/story/delhivery-shares-set-for-a-upside-says-pl-capital-turns-bullish-560614-2026-10-09"
+   },
+   "date": "2026-10-09",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee firms 23 paise to 96.65 per dollar",
+   "line": "Opened at 96.74 on a softer dollar and suspected RBI intervention",
+   "more": [
+    "Thursday's close was 96.88",
+    "The move is from early trade; no closing rate yet"
+   ],
+   "src": {
+    "title": "Business Standard: Rupee rises 23 paise to 96.65 against US dollar in early trade",
+    "url": "https://business-standard.com/amp/finance/news/rupee-rises-23-paise-to-96-65-against-us-dollar-during-early-trade-126100900242_1.html"
+   },
+   "date": "2026-10-09",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "1100"
    }
   },
   {
@@ -102,7 +174,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1130"
@@ -126,7 +198,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "pre"
@@ -1394,29 +1466,6 @@
    "line": "Bonds sell off after the hike and hawkish stance, from 7.19% on Tuesday",
    "more": [
     "Higher yields raise borrowing costs for companies and the government"
-   ],
-   "src": {
-    "title": "Business Standard: Sensex down 100 pts, Nifty near 22,650; rupee weakens to 96.54",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
-   },
-   "date": "2026-10-07",
-   "slot": "1100",
-   "when": "Wed · 11:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1100"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Rupee weakens to 96.54 against the dollar",
-   "line": "Currency slips as crude hovers near $100 and foreign outflows continue",
-   "more": [
-    "Weak rupee adds to imported inflation pressure"
    ],
    "src": {
     "title": "Business Standard: Sensex down 100 pts, Nifty near 22,650; rupee weakens to 96.54",
