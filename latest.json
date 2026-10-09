@@ -1,59 +1,61 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-09T12:02:49+05:30",
+ "generated_at": "2026-10-09T12:34:21+05:30",
  "date": "2026-10-09",
- "slot": "1200",
- "slot_label": "12:00",
+ "slot": "1230",
+ "slot_label": "12:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-09T12:00:00+05:30",
+ "asof": "2026-10-09T12:30:00+05:30",
  "nifty": {
-  "value": 22511.55,
-  "pct": 1.26,
-  "chg": 279.75,
+  "value": 22451.9,
+  "pct": 0.99,
+  "chg": 220.1,
   "approx": true
  },
  "mood": {
-  "label": "Firm, narrow",
-  "score": 0.45,
-  "summary": "The market is consolidating its gains into midday, holding over 1% higher with large caps firm, while smallcaps stay in the red and the rally remains narrow.",
+  "label": "Firm, off highs",
+  "score": 0.4,
+  "summary": "The market is holding a ~1% gain at noon, a little off the 11 am high. TCS leads, hospitals extend their rebound and ITC recovers from its block-deal low.",
   "detail": {
-   "leaders": "TCS, HCL Tech, Infosys",
-   "laggards": "BSE, Reliance, Coal India, BEL; smallcaps",
-   "tone": "Little changed from 11:30: the latest live reading is still Nifty 22,511.55 (+1.26%) at 11 am, with Nifty SmallCap slightly lower (-0.17%) against a firmer MidCap (+0.54%).",
+   "leaders": "TCS, Apollo Hospitals, ITC; IT and FMCG",
+   "laggards": "JSW Steel; metal and pharma sectors",
+   "tone": "At 12 pm the Nifty was 22,451.90 (+0.99%) and the Sensex 72,297.64 (+704), slightly below their 11 am levels. Losses among Nifty stocks are shallow.",
    "watch": [
-    "Smallcaps turning positive",
-    "Q2 results from Poonawalla and Can Fin Homes",
-    "Any reversal in Brent"
+    "Whether the Nifty holds 22,400 into the close",
+    "Hospital stocks ahead of the Oct 12 SC hearing",
+    "Q2 results after hours"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex rises 700 pts, Nifty near 22,500; VIX down 5%",
+    "title": "Business Standard: Stock Market LIVE – Sensex up 704 pts at noon; IT, FMCG lead",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
    },
    "movers": {
     "up": {
-     "summary": "TCS, HCL Tech and Infosys lead the Nifty gainers",
-     "why": "IT is rallying after TCS's Q2 beat lifted sentiment across the sector, despite US PERM curbs.",
+     "summary": "TCS, Apollo Hospitals and ITC are among the top Nifty gainers",
+     "why": "TCS's Q2 beat drives IT; hospitals keep recovering; ITC bounces after a ₹9,395 cr block sale.",
      "names": [
       {
        "name": "TCS",
        "dir": "up",
-       "move": "+3.8%",
-       "line": "Q2 profit up ~15% to ₹13,884 cr, beating estimates"
+       "move": "+4.9%",
+       "line": "Top Nifty gainer at ₹2,178 after Q2 profit rose ~15%"
       },
       {
-       "name": "HCL Tech",
+       "name": "Apollo Hospitals",
        "dir": "up",
-       "line": "IT peers rally on the read-through from TCS's results"
+       "move": "+3.5%",
+       "line": "Hospitals rebound after the SC drug-markup sell-off; next hearing Oct 12"
       },
       {
-       "name": "Infosys",
+       "name": "ITC",
        "dir": "up",
-       "line": "Gains with the sector as all 10 Nifty IT stocks rise"
+       "move": "~+2%",
+       "line": "Bounces after hitting a 52-week low on GQG's stake sale"
       }
      ],
      "src": {
-      "title": "HDFC Sky: Sensex, Nifty gain; TCS jumps 3.8%",
-      "url": "https://hdfcsky.com/news/bse-nse-sensex-october-9-2026-open-report-sensex-nifty-open-higher-as-trump-rules-out-iran-attack-before-november-oil-eases-it-sector-leads-market-rally"
+      "title": "HDFC Sky: Top gainers & losers, Oct 9 at 12:00 PM",
+      "url": "https://hdfcsky.com/news/top-gainers-losers-october-9-2026-at-12-pm"
      }
     }
    }
@@ -61,23 +63,73 @@
  },
  "insights": [
   {
-   "key": "gold",
-   "tag": "Macro",
+   "key": "itc-block-deal",
+   "tag": "Deals",
    "impact": "watch",
-   "title": "Gold jumps ₹1,140 per 10g",
-   "line": "24K gold rose sharply; jewellery stocks firm, led by PC Jeweller and Titan",
+   "title": "ITC rebounds after GQG's ₹9,395 cr exit",
+   "line": "GQG sold a 2.91% stake at ~₹257 a share; Fidelity and ICICI Pru MF were the biggest buyers",
    "more": [
-    "Thangamayil Jewellery also among gainers",
-    "Kalyan Jewellers was the only jewellery stock in the red"
+    "About 36.5 crore shares changed hands in 14 tranches on Thursday",
+    "The stock fell ~4% on Thursday and rose ~2% on Friday",
+    "ITC is down about 30% in 2026 on cigarette tax hikes"
    ],
    "src": {
-    "title": "HDFC Sky: Gold prices today – 24K gold rises ₹1,140 per 10g",
-    "url": "https://hdfcsky.com/news/gold-rate-today-9-october-2026-check-gold-price-of-24k-22k-18k-in-mumbai-kolkata-delhi-other-indian-cities-as-rates-jump-rs1140-per-10-gm"
+    "title": "Upstox: ITC block deals – GQG sells 2.91% stake for ₹9,395 crore",
+    "url": "https://upstox.com/news/market-news/stocks/itc-block-deals-gqg-partners-sells-2-91-stake-for-9-395-crore-check-buyers-list/article-201556/"
    },
    "date": "2026-10-09",
-   "slot": "1200",
-   "when": "12:00",
+   "slot": "1230",
+   "when": "12:30",
    "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "hospital-stocks",
+   "tag": "Sector",
+   "impact": "pos",
+   "title": "Hospital stocks extend recovery",
+   "line": "Apollo is up ~3.5% at noon, regaining ground lost on the SC's drug-markup scrutiny",
+   "more": [
+    "Sep 30 sell-off: Apollo -5.7%, Fortis -6.3%, Max -5.3%",
+    "The SC questioned 10x markups on cancer drugs; no ruling yet",
+    "Next hearing is on October 12"
+   ],
+   "src": {
+    "title": "ThePrint: Hospital stocks erase $2.6 bn as SC questions cancer-drug markups",
+    "url": "https://theprint.in/world/hospital-stocks-erase-2-6-billion-as-supreme-court-questions-steep-markups-on-cancer-drugs/3058410/"
+   },
+   "date": "2026-10-09",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "gold",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PC Jeweller is the most active stock at noon",
+   "line": "Up about 6.6% and leading the volume chart as gold prices rise",
+   "more": [
+    "24K gold rose ₹1,140 per 10g earlier today",
+    "Jewellery stocks are broadly firm"
+   ],
+   "src": {
+    "title": "HDFC Sky: Most active stocks, Oct 9 at 12:00 PM",
+    "url": "https://hdfcsky.com/news/most-active-stocks-october-9-2026-at-12-pm"
+   },
+   "date": "2026-10-09",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-09",
@@ -102,7 +154,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1200"
@@ -126,7 +178,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1130"
@@ -203,30 +255,6 @@
    "first_seen": {
     "date": "2026-10-05",
     "slot": "post"
-   }
-  },
-  {
-   "key": "hospital-stocks",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Drug margin cap splits hospitals, pharma",
-   "line": "Hospitals rally while Nifty Pharma is among the weakest sectors this morning",
-   "more": [
-    "Centre reportedly capping trade margins on non-scheduled cancer drugs at 30% of MRP",
-    "Fortis, Apollo, Max and Yatharth up as much as 5%"
-   ],
-   "src": {
-    "title": "Business Standard: Hospital stocks – why have Fortis, Apollo, Max, Yatharth rallied up to 5%?",
-    "url": "https://www.business-standard.com/markets/news/hospital-stocks-why-have-fortis-apollo-max-yatharth-rallied-up-to-5-on-friday-126100900234_1.html"
-   },
-   "date": "2026-10-09",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1030"
    }
   },
   {
