@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-09T12:34:21+05:30",
+ "generated_at": "2026-10-09T13:02:58+05:30",
  "date": "2026-10-09",
- "slot": "1230",
- "slot_label": "12:30",
+ "slot": "1300",
+ "slot_label": "13:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-09T12:30:00+05:30",
+ "asof": "2026-10-09T13:00:00+05:30",
  "nifty": {
   "value": 22451.9,
   "pct": 0.99,
@@ -13,55 +13,98 @@
   "approx": true
  },
  "mood": {
-  "label": "Firm, off highs",
-  "score": 0.4,
-  "summary": "The market is holding a ~1% gain at noon, a little off the 11 am high. TCS leads, hospitals extend their rebound and ITC recovers from its block-deal low.",
+  "label": "Steady, broadening",
+  "score": 0.45,
+  "summary": "The market is holding about 1% gains into early afternoon, with midcaps up over 1% and smallcaps flat. The rebound is broadening a little but still leans on large caps.",
   "detail": {
-   "leaders": "TCS, Apollo Hospitals, ITC; IT and FMCG",
-   "laggards": "JSW Steel; metal and pharma sectors",
-   "tone": "At 12 pm the Nifty was 22,451.90 (+0.99%) and the Sensex 72,297.64 (+704), slightly below their 11 am levels. Losses among Nifty stocks are shallow.",
+   "leaders": "IT, FMCG; midcaps",
+   "laggards": "Metal, pharma; smallcaps flat",
+   "tone": "The latest print is noon (Nifty 22,451.90, +0.99%). By 12:29 the Nifty MidCap was up 1.09% and the SmallCap was flat (-0.01%), better than the narrow 11:30 picture.",
    "watch": [
-    "Whether the Nifty holds 22,400 into the close",
-    "Hospital stocks ahead of the Oct 12 SC hearing",
-    "Q2 results after hours"
+    "Smallcaps turning positive",
+    "Whether IT holds its gains into the close",
+    "Brent after Thursday's $104 settle"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex up 704 pts at noon; IT, FMCG lead",
+    "title": "Business Standard: Stock Market LIVE – Sensex gains 800 pts; Nifty IT ends 4-day losing run as TCS leads",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
-   },
-   "movers": {
-    "up": {
-     "summary": "TCS, Apollo Hospitals and ITC are among the top Nifty gainers",
-     "why": "TCS's Q2 beat drives IT; hospitals keep recovering; ITC bounces after a ₹9,395 cr block sale.",
-     "names": [
-      {
-       "name": "TCS",
-       "dir": "up",
-       "move": "+4.9%",
-       "line": "Top Nifty gainer at ₹2,178 after Q2 profit rose ~15%"
-      },
-      {
-       "name": "Apollo Hospitals",
-       "dir": "up",
-       "move": "+3.5%",
-       "line": "Hospitals rebound after the SC drug-markup sell-off; next hearing Oct 12"
-      },
-      {
-       "name": "ITC",
-       "dir": "up",
-       "move": "~+2%",
-       "line": "Bounces after hitting a 52-week low on GQG's stake sale"
-      }
-     ],
-     "src": {
-      "title": "HDFC Sky: Top gainers & losers, Oct 9 at 12:00 PM",
-      "url": "https://hdfcsky.com/news/top-gainers-losers-october-9-2026-at-12-pm"
-     }
-    }
    }
   }
  },
  "insights": [
+  {
+   "key": "it-stocks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT trims gains but ends a 4-day losing run",
+   "line": "Nifty IT was up 2.34% at 28,381.75 at 12:29, off its morning high of +3.26%",
+   "more": [
+    "TCS's Q2 beat is still leading the sector",
+    "Gains have cooled since all 10 IT stocks rose in early trade"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE – Sensex gains 800 pts; Nifty IT ends 4-day losing run as TCS leads",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+   },
+   "date": "2026-10-09",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "pace-digitek",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Pace Digitek jumps 6% on a ₹179 cr BESS order",
+   "line": "Hit an intraday high of ₹171.56 on the NSE after a battery-storage order win",
+   "more": [
+    "The order is for a battery energy storage system (BESS)",
+    "The stock was on today's stocks-to-watch lists"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE – Sensex gains 800 pts; Nifty IT ends 4-day losing run as TCS leads",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+   },
+   "date": "2026-10-09",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1300"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Can Fin Homes, Poonawalla report Q2 today",
+   "line": "Can Fin's Q1 profit rose 20% to ₹268 cr; it made ₹251 cr in Q2 last year",
+   "more": [
+    "Can Fin's loan book grew 11% YoY to ₹42,961 cr in Q1",
+    "Poonawalla's Q1 PAT was ₹308 cr on AUM of ₹67,054 cr",
+    "Anand Rathi Wealth and Canara Robeco AMC also report today"
+   ],
+   "src": {
+    "title": "FilingReader: Can Fin Homes Q1 net profit rises 20% to ₹268 crore",
+    "url": "https://filingreader.com/news-wire/mumbai/2026-07-18/can-fin-homes-net-profit-rises-20-to-268-crore"
+   },
+   "date": "2026-10-09",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1130"
+   }
+  },
   {
    "key": "itc-block-deal",
    "tag": "Deals",
@@ -81,7 +124,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1230"
@@ -106,7 +149,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1030"
@@ -130,7 +173,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1200"
@@ -158,30 +201,6 @@
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Poonawalla Q2 due; Q1 set a high bar",
-   "line": "Q1 FY27 PAT rose 21% QoQ to ₹308 cr as AUM hit ₹67,054 cr",
-   "more": [
-    "Q1 NIM was 9.10%; gross NPA eased to 1.37%",
-    "Can Fin Homes, Anand Rathi Wealth and Canara Robeco AMC also report today"
-   ],
-   "src": {
-    "title": "Angel One: Poonawalla Fincorp Q1 FY27 business update – PAT rises 21% QoQ",
-    "url": "https://www.angelone.in/news/stocks/poonawalla-fincorp-q1-fy27-business-update-pat-rises-21-percent-qoq-aum-reaches-rs-67054-crore"
-   },
-   "date": "2026-10-09",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1130"
    }
   },
   {
@@ -352,30 +371,6 @@
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "it-stocks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Nifty IT rallies 3% on TCS read-through",
-   "line": "Infosys, Tech Mahindra and HCL Tech are among the top gainers at the open",
-   "more": [
-    "Rally comes despite reports of US PERM curbs on Indian IT firms",
-    "IT was the top-performing sector even in Thursday's sell-off"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex rises 300 pts; Nifty IT gains 3% as TCS, Infosys shares lead",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
-   },
-   "date": "2026-10-09",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1200"
    }
   },
   {
