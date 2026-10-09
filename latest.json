@@ -1,32 +1,32 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-09T09:32:40+05:30",
+ "generated_at": "2026-10-09T10:02:46+05:30",
  "date": "2026-10-09",
- "slot": "0930",
- "slot_label": "9:30",
+ "slot": "1000",
+ "slot_label": "10:00",
  "stage": "Opening mood",
- "asof": "2026-10-09T09:30:00+05:30",
+ "asof": "2026-10-09T10:00:00+05:30",
  "nifty": {
-  "value": 22335,
-  "pct": 0.46,
-  "chg": 103.2,
+  "value": 22353.6,
+  "pct": 0.55,
+  "chg": 121.8,
   "approx": true
  },
  "mood": {
-  "label": "IT-led rebound",
-  "score": 0.3,
-  "summary": "A relief rally is under way at the open, led squarely by tech, as benchmarks claw back part of Thursday's slide with oil easing in Asian trade.",
+  "label": "Rebound builds",
+  "score": 0.4,
+  "summary": "The rebound is gathering pace, with the Sensex now up about 600 pts as tech-led buying spreads, though the market is still trying to dodge a ninth straight weekly loss.",
   "detail": {
-   "leaders": "IT (Nifty IT +3%): TCS, Infosys, Tech Mahindra, HCL Tech; ITC",
+   "leaders": "IT (Nifty IT +2.8–3%): TCS, Infosys, Tech Mahindra, HCL Tech",
    "laggards": "Eternal, ICICI Bank, BEL",
-   "tone": "A sharp turn from Thursday's rout: around 9:18 am Sensex was up about 372 pts at 71,965 and Nifty up about 103 pts (0.46%) near 22,335.",
+   "tone": "Firmer than the open: the Sensex gain widened to about 600 pts per the latest headline, after Nifty was at 22,353.60 (+121.80) at 9:18 am.",
    "watch": [
-    "Whether the bounce broadens beyond IT",
-    "Brent's move after easing in Asia",
-    "FII flows after Thursday's heavy selling"
+    "Nifty's 2026 low of 22,181 as support",
+    "Whether the week can avoid a ninth straight weekly fall",
+    "Brent and FII flows"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex rises 300 pts; Nifty IT gains 3% as TCS, Infosys shares lead",
+    "title": "Business Standard: Stock Market LIVE – Sensex rises 600 pts; Nifty IT gains 3% as TCS, Infosys shares lead",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
    }
   }
@@ -36,24 +36,72 @@
    "key": "tcs-results",
    "tag": "Results",
    "impact": "pos",
-   "title": "TCS jumps nearly 4% on Q2 beat",
-   "line": "Top Sensex gainer after profit rose 15% to ₹13,884 cr, ahead of estimates",
+   "title": "TCS up 4.7%; analysts flag weak margins",
+   "line": "Shares hit ₹2,174 intraday; deal TCV was $9.6 bn, but margins disappointed",
    "more": [
-    "Stock had fallen about 34% in 2026 before the results",
-    "₹12 interim dividend; record date Oct 14"
+    "MOFSL keeps ₹2,630 target; another broker has Buy at ₹2,400",
+    "Near-term outlook depends on pipeline conversion, analysts say"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex rises 300 pts; Nifty IT gains 3% as TCS, Infosys shares lead",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+    "title": "Business Standard: TCS Q2 review – analysts flag weak margins amid steady growth; stock up 4%",
+    "url": "https://www.business-standard.com/markets/news/tcs-q2-review-analysts-flag-weak-margins-amid-steady-growth-stock-up-4-126100900185_1.html"
    },
    "date": "2026-10-09",
-   "slot": "0930",
-   "when": "9:30",
+   "slot": "1000",
+   "when": "10:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "post"
+   }
+  },
+  {
+   "key": "kec-international",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "KEC International bags ₹1,030 cr orders",
+   "line": "Includes 400 kV Bhutan and 380 kV Saudi lines plus a 300 MW+ wind project",
+   "more": [
+    "Year-to-date order intake now exceeds ₹8,600 cr",
+    "Also won tower, hardware and pole orders in the Americas"
+   ],
+   "src": {
+    "title": "Business Standard: Stocks to watch – TCS, Infosys, Wipro, Anand Rathi, KEC Int'l, NCC, BEML",
+    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-october-9-tcs-infosys-wipro-it-stocks-anand-rathi-kec-int-l-ncc-beml-126100900116_1.html"
+   },
+   "date": "2026-10-09",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "ncc",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "NCC wins ₹1,286 cr Hyderabad road order",
+   "line": "Letter of acceptance for Radial Road-2 in Telangana, to be completed in 18 months",
+   "more": [
+    "Awarded by Hyderabad Growth Corridor",
+    "BEML separately disclosed an order of about ₹75.6 cr"
+   ],
+   "src": {
+    "title": "Business Standard: Stocks to watch – TCS, Infosys, Wipro, Anand Rathi, KEC Int'l, NCC, BEML",
+    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-october-9-tcs-infosys-wipro-it-stocks-anand-rathi-kec-int-l-ncc-beml-126100900116_1.html"
+   },
+   "date": "2026-10-09",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1000"
    }
   },
   {
@@ -74,7 +122,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1200"
@@ -98,7 +146,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "pre"
