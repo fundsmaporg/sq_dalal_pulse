@@ -1,49 +1,44 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-09T15:33:19+05:30",
+ "generated_at": "2026-10-09T16:03:35+05:30",
  "date": "2026-10-09",
- "slot": "1530",
- "slot_label": "15:30",
- "stage": "Closing mood",
- "asof": "2026-10-09T15:30:00+05:30",
+ "slot": "post",
+ "slot_label": "Close",
+ "stage": "Post-market mood",
+ "asof": "2026-10-09T16:00:00+05:30",
  "nifty": {
-  "value": 22565.5,
-  "pct": 1.5,
-  "chg": 333.7,
-  "approx": true
+  "value": 22520.45,
+  "pct": 1.3,
+  "chg": 288.65,
+  "approx": false
  },
  "mood": {
-  "label": "Strong finish",
-  "score": 0.65,
-  "summary": "The market is ending near the day's best levels, with the Nifty up about 1.5% into the close, as buying spreads from IT into FMCG, healthcare and midcaps. Smallcaps lagged all day.",
+  "label": "Broad rebound",
+  "score": 0.55,
+  "summary": "The market closed with broad-based gains of about 1.3%, recovering most of Thursday's fall. Midcaps outperformed and smallcaps finished higher too.",
   "detail": {
-   "leaders": "IT, FMCG, Fortis; midcaps",
+   "leaders": "IT, Fortis; midcaps",
    "laggards": "Pharma; smallcaps trail midcaps",
-   "tone": "Firmer than 15:00: at 3 pm the Nifty was 22,565.50 (+1.5%) and the Sensex 72,636.33 (+1,043), back near the afternoon highs. Official closing figures are still awaited.",
+   "tone": "Gave back a little from the 3 pm print (22,565.50) to settle at 22,520.45 (+1.3%); the Sensex closed at 72,472.33 (+879.09, +1.23%).",
    "watch": [
-    "Provisional FII/DII data after the close",
-    "Q2 results from Anand Rathi Wealth and Poonawalla",
-    "Brent and US futures overnight"
+    "FII flows after a 10-day selling streak",
+    "Monday's Supreme Court hearing on cancer-drug markups",
+    "Brent and US markets over the weekend"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex up 1,043 pts at 3 pm, Nifty at 22,565",
+    "title": "Business Standard: Stock Market Close – broad-based buying helps Sensex rebound 879 pts; IT pack shines",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT and FMCG lead the close, with Fortis and midcaps also strong",
-     "why": "TCS's Q2 lifted IT all day; late in the session FMCG joined on GST input-credit relief and hospitals on a milder-than-feared drug cap.",
+     "summary": "IT led the rebound, with Fortis and midcaps also strong at the close",
+     "why": "TCS's Q2 drove a sector-wide IT rally, and lower oil and a milder-than-feared drug cap brought buyers back into beaten-down midcaps and hospitals.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
        "move": "up ~3.3%",
-       "line": "Broke a 4-day losing run; Cyient up 4.9% and Hexaware up 11% among IT names"
-      },
-      {
-       "name": "Nifty FMCG",
-       "dir": "up",
-       "line": "Colgate up ~6% as the GST Council recommends wider input-credit eligibility"
+       "line": "Broke a 4-day losing run; TCS ended up ~4.5% and Cyient ~4.9%"
       },
       {
        "name": "Fortis Healthcare",
@@ -54,33 +49,33 @@
       {
        "name": "Nifty Midcap 100",
        "dir": "up",
-       "move": "+1.18%",
-       "line": "As of 1 pm, bouncing after a 2%+ fall on Thursday; outpaced smallcaps all day"
+       "move": "+1.56%",
+       "line": "Beat the Nifty's 1.3% as buyers returned after Thursday's 2%+ fall"
       }
      ],
      "src": {
-      "title": "Anand Rathi: Top gainers today (updated 09 Oct 2026, 3:31 pm)",
-      "url": "https://anandrathi.com/share-market-today/top-gainers-today"
+      "title": "Business Standard: Stock Market Close – broad-based buying helps Sensex rebound 879 pts; IT pack shines",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
      }
     },
     "down": {
-     "summary": "Pharma was among the weaker sectors and smallcaps lagged all day",
-     "why": "The cancer-drug margin cap clouds pharma's trade economics, and smallcaps barely joined the rebound.",
+     "summary": "Pharma was among the weaker sectors and smallcaps lagged midcaps",
+     "why": "The cancer-drug margin cap weighed on pharma sentiment, and smallcaps joined the rebound only modestly.",
      "names": [
       {
        "name": "Nifty Pharma",
        "dir": "down",
-       "line": "Among the worst sectors on the live blog; reports on individual pharma names are mixed"
+       "line": "Among the weakest sectors intraday; reports on individual pharma names are mixed"
       },
       {
        "name": "Nifty Smallcap 100",
        "dir": "up",
-       "move": "+0.16%",
-       "line": "Barely higher at 1 pm, against +1.18% for midcaps"
+       "move": "+0.54%",
+       "line": "Closed higher but well behind midcaps (+1.56%)"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE – Sensex up 1,043 pts at 3 pm, Nifty at 22,565",
+      "title": "Business Standard: Stock Market Close – broad-based buying helps Sensex rebound 879 pts; IT pack shines",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
      }
     }
@@ -88,6 +83,78 @@
   }
  },
  "insights": [
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "FIIs are on a 10-day selling streak",
+   "line": "Thursday's net sale was ₹12,944 cr; Friday's provisional figure is not out yet",
+   "more": [
+    "DIIs bought ₹10,703 cr on Thursday",
+    "October to date: FIIs -₹36,210 cr, DIIs +₹35,612 cr"
+   ],
+   "src": {
+    "title": "Kotak Neo: FII DII data today",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+   },
+   "date": "2026-10-09",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Poonawalla AUM rises to ₹73,950 cr in Q2",
+   "line": "A provisional update shows AUM up from ~₹67,054 cr in Q1; full Q2 results are pending",
+   "more": [
+    "Liquidity buffer of ~₹6,400 cr at quarter-end",
+    "Q1 PAT was ₹307.71 cr; the year-ago Q2 profit was ₹74 cr"
+   ],
+   "src": {
+    "title": "Equitybulls: Poonawalla Fincorp reports provisional AUM of ₹73,950 crore for Q2 FY27",
+    "url": "https://www.equitybulls.com/category.php?id=376332"
+   },
+   "date": "2026-10-09",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "hospital-stocks",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Cancer-drug cap goes to the SC on Monday",
+   "line": "The Supreme Court hears the drug-markup matter on October 12, the next trading day",
+   "more": [
+    "A DGHS committee will finalise the list of covered drugs",
+    "NPPA is expected to notify the cap later this month"
+   ],
+   "src": {
+    "title": "Business Today: Cancer drugs may get cheaper as govt set to cap trade margins at 30%",
+    "url": "https://www.businesstoday.in/industry/pharma/story/cancer-drugs-may-get-cheaper-as-govt-set-to-cap-trade-margins-at-30-560489-2026-10-08"
+   },
+   "date": "2026-10-09",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1030"
+   }
+  },
   {
    "key": "gst-council",
    "tag": "Policy",
@@ -107,7 +174,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1200"
@@ -131,7 +198,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "post"
@@ -155,34 +222,10 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "hospital-stocks",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Cancer-drug markups average 170%, up to 700%",
-   "line": "The 30% trade-margin cap could cut prices of covered drugs by up to 70%",
-   "more": [
-    "The cap is expected to save patients about ₹2,500 cr a year",
-    "The matter is listed in the Supreme Court on October 12"
-   ],
-   "src": {
-    "title": "Business Today: Cancer drugs may get cheaper as govt set to cap trade margins at 30%",
-    "url": "https://www.businesstoday.in/industry/pharma/story/cancer-drugs-may-get-cheaper-as-govt-set-to-cap-trade-margins-at-30-560489-2026-10-08"
-   },
-   "date": "2026-10-09",
-   "slot": "1500",
-   "when": "15:00",
-   "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
-    "slot": "1030"
+    "slot": "1130"
    }
   },
   {
@@ -207,30 +250,6 @@
    "first_seen": {
     "date": "2026-10-09",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Anand Rathi Wealth, Poonawalla report after close",
-   "line": "Anand Rathi earned ₹100 cr in Q2 last year, up 31%, on revenue of ₹307.2 cr",
-   "more": [
-    "The focus is on fee-income durability and client additions",
-    "Poonawalla's Q1 PAT was ₹308 cr on AUM of ₹67,054 cr"
-   ],
-   "src": {
-    "title": "Business Standard: Q2 FY27 results today – Anand Rathi, Poonawalla Fincorp to announce earnings",
-    "url": "https://www.business-standard.com/companies/quarterly-results/q2fy27-results-today-anand-rathi-poonawalla-fincorp-to-announce-earnings-126100900183_1.html"
-   },
-   "date": "2026-10-09",
-   "slot": "1500",
-   "when": "15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1130"
    }
   },
   {
@@ -520,30 +539,6 @@
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "FIIs dump ₹12,944 cr on Thursday",
-   "line": "More than double Wednesday's outflow; DIIs bought ₹10,703 cr (provisional)",
-   "more": [
-    "October FII outflows now about ₹36,210 cr month to date",
-    "DIIs have bought about ₹35,612 cr in the same period"
-   ],
-   "src": {
-    "title": "5paisa: FII DII data today",
-    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
-   },
-   "date": "2026-10-09",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "pre"
    }
   },
   {
