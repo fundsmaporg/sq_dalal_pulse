@@ -1,0 +1,130 @@
+{
+ "asof": "2026-10-09T13:30:00+05:30",
+ "summary": "The market has pushed back to the day's highs into the afternoon, with the Nifty up about 1.25% and buying spreading beyond IT. Pharma is the main sector in the red.",
+ "mood": {
+  "label": "Rally firms up",
+  "score": 0.5,
+  "detail": {
+   "stats": [],
+   "leaders": "TCS, Apollo Hospitals, Max Healthcare; IT, FMCG",
+   "laggards": "Pharma; smallcaps trail midcaps",
+   "movers": {
+    "up": {
+     "summary": "TCS, Apollo Hospitals and Max Healthcare are the top Nifty gainers",
+     "why": "IT is riding TCS's Q2 beat, and hospitals are rallying as analysts say the new cancer-drug margin cap hits distributors more than hospitals.",
+     "names": [
+      {
+       "name": "TCS",
+       "dir": "up",
+       "line": "Q2 profit rose ~15%; the stock is leading IT's rebound after a 4-day slide"
+      },
+      {
+       "name": "Apollo Hospitals",
+       "dir": "up",
+       "line": "Recovers more of the SC-markup sell-off; ICICI Sec sees retailers bearing the cap"
+      },
+      {
+       "name": "Max Healthcare",
+       "dir": "up",
+       "line": "Jefferies stays bullish on hospitals despite the 30% trade-margin cap"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market LIVE – Sensex gains 800 pts, Nifty near 22,500; Nifty Metal snaps 2-day losing run",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+     }
+    }
+   },
+   "tone": "Stronger than 13:00: at 1 pm the Nifty was 22,508.60 (+1.25%) and the Sensex 72,421.37 (+828), close to intraday highs of 22,515.95 and 72,447.61.",
+   "watch": [
+    "A close above 22,500",
+    "Pharma weakness spreading",
+    "Brent reversing higher"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE – Sensex gains 800 pts, Nifty near 22,500; Nifty Metal snaps 2-day losing run",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 22508.6,
+  "pct": 1.25,
+  "chg": 276.8,
+  "approx": true
+ },
+ "top": [
+  {
+   "key": "hospital-stocks",
+   "tag": "Policy",
+   "impact": "pos",
+   "title": "30% margin cap on cancer drugs lifts hospitals",
+   "line": "Centre reportedly caps trade margins on non-scheduled cancer drugs at 30% of MRP",
+   "more": [
+    "Fortis, Apollo, Max, KIMS, Narayana and Yatharth rose 2–5% intraday",
+    "ICICI Securities says the cap mainly hits retailer margins in the supply chain",
+    "The SC's drug-markup case returns on October 12"
+   ],
+   "src": {
+    "title": "Business Standard: Hospital stocks – why Fortis, Apollo, Max, Yatharth rallied up to 5%",
+    "url": "https://www.business-standard.com/markets/news/hospital-stocks-why-have-fortis-apollo-max-yatharth-rallied-up-to-5-on-friday-126100900234_1.html"
+   }
+  },
+  {
+   "key": "metals",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Metals snap a two-day losing run",
+   "line": "Nifty Metal turned higher by early afternoon after leading Thursday's selloff",
+   "more": [
+    "On Thursday JSW Steel fell 4.5% and Vedanta 3.2%",
+    "That selling followed the RBI's hawkish shift and higher crude"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE – Sensex gains 800 pts, Nifty near 22,500; Nifty Metal snaps 2-day losing run",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Easing oil underpins the rebound",
+   "line": "Oil eased after Trump ruled out an Iran strike before November",
+   "more": [
+    "Brent settled at $104.28 on Thursday, up 4%",
+    "Lower crude eases pressure on India's import bill and rupee"
+   ],
+   "src": {
+    "title": "HDFC Sky: Sensex, Nifty open higher as Trump rules out Iran attack before November; oil eases",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-october-9-2026-open-report-sensex-nifty-open-higher-as-trump-rules-out-iran-attack-before-november-oil-eases-it-sector-leads-market-rally"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Business Standard: Stock Market LIVE – Sensex gains 800 pts, Nifty near 22,500; Nifty Metal snaps 2-day losing run",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+  },
+  {
+   "title": "Business Standard: Hospital stocks – why Fortis, Apollo, Max, Yatharth rallied up to 5%",
+   "url": "https://www.business-standard.com/markets/news/hospital-stocks-why-have-fortis-apollo-max-yatharth-rallied-up-to-5-on-friday-126100900234_1.html"
+  },
+  {
+   "title": "inkl: Hospital stocks rally up to 5% despite cancer-drug price caps; why Jefferies stays bullish",
+   "url": "https://www.inkl.com/news/apollo-hospitals-max-health-hospital-stocks-jump-up-to-5-after-30-cap-on-cancer-drugs-what-is-jefferies-saying"
+  },
+  {
+   "title": "HDFC Sky: Sectoral snapshot, Oct 8 – metal, auto, energy, realty tumble",
+   "url": "https://hdfcsky.com/news/sectoral-snapshot-today-october-8-2026-metal-auto-energy-realty-stocks-tumble-all-sectors-in-red"
+  },
+  {
+   "title": "HDFC Sky: Sensex, Nifty open higher as Trump rules out Iran attack before November; oil eases",
+   "url": "https://hdfcsky.com/news/bse-nse-sensex-october-9-2026-open-report-sensex-nifty-open-higher-as-trump-rules-out-iran-attack-before-november-oil-eases-it-sector-leads-market-rally"
+  },
+  {
+   "title": "Business Standard: Market close Oct 8 – Sensex tanks 1,045 pts as oil tops $104",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
+  }
+ ]
+}

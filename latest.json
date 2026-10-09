@@ -1,37 +1,137 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-09T13:02:58+05:30",
+ "generated_at": "2026-10-09T13:33:20+05:30",
  "date": "2026-10-09",
- "slot": "1300",
- "slot_label": "13:00",
+ "slot": "1330",
+ "slot_label": "13:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-09T13:00:00+05:30",
+ "asof": "2026-10-09T13:30:00+05:30",
  "nifty": {
-  "value": 22451.9,
-  "pct": 0.99,
-  "chg": 220.1,
+  "value": 22508.6,
+  "pct": 1.25,
+  "chg": 276.8,
   "approx": true
  },
  "mood": {
-  "label": "Steady, broadening",
-  "score": 0.45,
-  "summary": "The market is holding about 1% gains into early afternoon, with midcaps up over 1% and smallcaps flat. The rebound is broadening a little but still leans on large caps.",
+  "label": "Rally firms up",
+  "score": 0.5,
+  "summary": "The market has pushed back to the day's highs into the afternoon, with the Nifty up about 1.25% and buying spreading beyond IT. Pharma is the main sector in the red.",
   "detail": {
-   "leaders": "IT, FMCG; midcaps",
-   "laggards": "Metal, pharma; smallcaps flat",
-   "tone": "The latest print is noon (Nifty 22,451.90, +0.99%). By 12:29 the Nifty MidCap was up 1.09% and the SmallCap was flat (-0.01%), better than the narrow 11:30 picture.",
+   "leaders": "TCS, Apollo Hospitals, Max Healthcare; IT, FMCG",
+   "laggards": "Pharma; smallcaps trail midcaps",
+   "tone": "Stronger than 13:00: at 1 pm the Nifty was 22,508.60 (+1.25%) and the Sensex 72,421.37 (+828), close to intraday highs of 22,515.95 and 72,447.61.",
    "watch": [
-    "Smallcaps turning positive",
-    "Whether IT holds its gains into the close",
-    "Brent after Thursday's $104 settle"
+    "A close above 22,500",
+    "Pharma weakness spreading",
+    "Brent reversing higher"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex gains 800 pts; Nifty IT ends 4-day losing run as TCS leads",
+    "title": "Business Standard: Stock Market LIVE – Sensex gains 800 pts, Nifty near 22,500; Nifty Metal snaps 2-day losing run",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+   },
+   "movers": {
+    "up": {
+     "summary": "TCS, Apollo Hospitals and Max Healthcare are the top Nifty gainers",
+     "why": "IT is riding TCS's Q2 beat, and hospitals are rallying as analysts say the new cancer-drug margin cap hits distributors more than hospitals.",
+     "names": [
+      {
+       "name": "TCS",
+       "dir": "up",
+       "line": "Q2 profit rose ~15%; the stock is leading IT's rebound after a 4-day slide"
+      },
+      {
+       "name": "Apollo Hospitals",
+       "dir": "up",
+       "line": "Recovers more of the SC-markup sell-off; ICICI Sec sees retailers bearing the cap"
+      },
+      {
+       "name": "Max Healthcare",
+       "dir": "up",
+       "line": "Jefferies stays bullish on hospitals despite the 30% trade-margin cap"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market LIVE – Sensex gains 800 pts, Nifty near 22,500; Nifty Metal snaps 2-day losing run",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+     }
+    }
    }
   }
  },
  "insights": [
+  {
+   "key": "hospital-stocks",
+   "tag": "Policy",
+   "impact": "pos",
+   "title": "30% margin cap on cancer drugs lifts hospitals",
+   "line": "Centre reportedly caps trade margins on non-scheduled cancer drugs at 30% of MRP",
+   "more": [
+    "Fortis, Apollo, Max, KIMS, Narayana and Yatharth rose 2–5% intraday",
+    "ICICI Securities says the cap mainly hits retailer margins in the supply chain",
+    "The SC's drug-markup case returns on October 12"
+   ],
+   "src": {
+    "title": "Business Standard: Hospital stocks – why Fortis, Apollo, Max, Yatharth rallied up to 5%",
+    "url": "https://www.business-standard.com/markets/news/hospital-stocks-why-have-fortis-apollo-max-yatharth-rallied-up-to-5-on-friday-126100900234_1.html"
+   },
+   "date": "2026-10-09",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "metals",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Metals snap a two-day losing run",
+   "line": "Nifty Metal turned higher by early afternoon after leading Thursday's selloff",
+   "more": [
+    "On Thursday JSW Steel fell 4.5% and Vedanta 3.2%",
+    "That selling followed the RBI's hawkish shift and higher crude"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE – Sensex gains 800 pts, Nifty near 22,500; Nifty Metal snaps 2-day losing run",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+   },
+   "date": "2026-10-09",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Easing oil underpins the rebound",
+   "line": "Oil eased after Trump ruled out an Iran strike before November",
+   "more": [
+    "Brent settled at $104.28 on Thursday, up 4%",
+    "Lower crude eases pressure on India's import bill and rupee"
+   ],
+   "src": {
+    "title": "HDFC Sky: Sensex, Nifty open higher as Trump rules out Iran attack before November; oil eases",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-october-9-2026-open-report-sensex-nifty-open-higher-as-trump-rules-out-iran-attack-before-november-oil-eases-it-sector-leads-market-rally"
+   },
+   "date": "2026-10-09",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "pre"
+   }
+  },
   {
    "key": "it-stocks",
    "tag": "Stocks",
@@ -50,7 +150,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1200"
@@ -74,7 +174,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1300"
@@ -99,7 +199,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1130"
@@ -128,31 +228,6 @@
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "hospital-stocks",
-   "tag": "Sector",
-   "impact": "pos",
-   "title": "Hospital stocks extend recovery",
-   "line": "Apollo is up ~3.5% at noon, regaining ground lost on the SC's drug-markup scrutiny",
-   "more": [
-    "Sep 30 sell-off: Apollo -5.7%, Fortis -6.3%, Max -5.3%",
-    "The SC questioned 10x markups on cancer drugs; no ruling yet",
-    "Next hearing is on October 12"
-   ],
-   "src": {
-    "title": "ThePrint: Hospital stocks erase $2.6 bn as SC questions cancer-drug markups",
-    "url": "https://theprint.in/world/hospital-stocks-erase-2-6-billion-as-supreme-court-questions-steep-markups-on-cancer-drugs/3058410/"
-   },
-   "date": "2026-10-09",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1030"
    }
   },
   {
@@ -229,30 +304,6 @@
    }
   },
   {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Oil eases after Trump rules out Iran strike",
-   "line": "Trump said no attack on Iran before November, cooling oil after Thursday's spike",
-   "more": [
-    "Brent had settled at $104.28 on Thursday, up 4%",
-    "Softer oil is one of the drivers of today's rebound"
-   ],
-   "src": {
-    "title": "HDFC Sky: Sensex, Nifty open higher as Trump rules out Iran attack before November; oil eases",
-    "url": "https://hdfcsky.com/news/bse-nse-sensex-october-9-2026-open-report-sensex-nifty-open-higher-as-trump-rules-out-iran-attack-before-november-oil-eases-it-sector-leads-market-rally"
-   },
-   "date": "2026-10-09",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "pre"
-   }
-  },
-  {
    "key": "tcs-results",
    "tag": "Results",
    "impact": "watch",
@@ -274,30 +325,6 @@
    "first_seen": {
     "date": "2026-10-05",
     "slot": "post"
-   }
-  },
-  {
-   "key": "metals",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Metals stay weak despite market bounce",
-   "line": "Nifty Metal is among the worst-performing sectors for a second straight day",
-   "more": [
-    "Metal was Thursday's worst sector in the oil-led sell-off",
-    "JSW Steel was among Thursday's top Nifty losers"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex at day's high, surges 800 pts, Nifty near 22,500; VIX down 5%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
-   },
-   "date": "2026-10-09",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-06",
-    "slot": "1130"
    }
   },
   {
