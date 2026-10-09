@@ -76,9 +76,33 @@ header{display:flex;align-items:flex-start;gap:14px;flex-wrap:wrap;margin-bottom
 .scale{display:flex;justify-content:space-between;font-size:10.5px;color:var(--faint);margin-top:8px}
 .detail{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-top:17px;
   padding-top:16px;border-top:1px solid var(--rule)}
-.detail div>b{display:block;font-size:10.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
-  color:var(--faint);margin-bottom:3px}
-.detail div>span{font-size:13.5px;line-height:1.45}
+.detail div>b, .detail summary>b{display:block;font-size:10.5px;font-weight:700;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--faint);margin-bottom:3px}
+.detail div>span, .detail summary>span{font-size:13.5px;line-height:1.45}
+/* tappable leaders / laggards */
+.mv{border:0;padding:0;background:none}
+.mv>summary{cursor:pointer;list-style:none;border-radius:8px;margin:-5px -7px;padding:5px 24px 5px 7px;
+  position:relative;transition:background .14s}
+.mv>summary::-webkit-details-marker{display:none}
+.mv>summary:hover{background:var(--panel)}
+.mv>summary:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.mv>summary::after{content:"";position:absolute;right:8px;top:12px;width:6px;height:6px;
+  border-right:1.6px solid var(--faint);border-bottom:1.6px solid var(--faint);
+  transform:rotate(45deg);transition:transform .2s}
+.mv[open]>summary::after{transform:rotate(-135deg);top:15px}
+.mv .tap{display:block;font-size:10.5px;color:var(--accent);font-weight:600;margin-top:4px}
+.mv[open] .tap{display:none}
+.mv-why{font-size:13px;line-height:1.5;color:var(--muted);margin:11px 0 9px}
+.mv-n{padding:7px 0;border-top:1px solid var(--rule)}
+.mv-n .hd{display:flex;gap:7px;align-items:baseline;flex-wrap:wrap}
+.mv-n .nm{font-size:13px;font-weight:700}
+.mv-n .mo{font-size:11px;font-weight:700;padding:1px 6px;border-radius:999px;white-space:nowrap;
+  background:var(--panel);color:var(--muted)}
+.mv-n .mo.up{color:var(--green)} .mv-n .mo.down{color:var(--red)}
+.mv-n .ln{display:block;margin-top:2px;font-size:12.5px;color:var(--muted);line-height:1.45}
+.mv-src{font-size:11px;margin-top:9px}
+.mv-src a{color:var(--accent);text-decoration:none}
+.mv-src a:hover{text-decoration:underline}
 .watch{margin:6px 0 0;padding-left:17px;font-size:13.5px;line-height:1.5}
 .watch li{margin:2px 0}
 
@@ -235,6 +259,30 @@ footer b{color:var(--muted)}
     return m < 60 ? m + "m ago" : Math.round(m/60) + "h ago";
   }
 
+  // "Leading" / "Lagging" collapse to the plain line and open the per-name breakdown
+  // when the payload carries one. movers is optional, so always fall back cleanly.
+  function moverCell(label, text, group){
+    if(!text && !group) return "";
+    var names = (group && group.names) || [];
+    var head = '<b>' + esc(label) + '</b><span>' + esc(text || (group && group.summary) || "") +
+               '</span>';
+    if(!group || (!names.length && !group.why)) return "<div>" + head + "</div>";
+    var rows = names.map(function(n){
+      var cls = n.dir === "up" ? " up" : (n.dir === "down" ? " down" : "");
+      return '<div class="mv-n"><span class="hd"><span class="nm">' + esc(n.name) + '</span>' +
+        (n.move ? '<span class="mo' + cls + '">' + esc(n.move) + '</span>' : '') + '</span>' +
+        (n.line ? '<span class="ln">' + esc(n.line) + '</span>' : '') + '</div>';
+    }).join("");
+    var url = safeUrl(group.src && group.src.url);
+    return '<details class="mv"><summary>' + head +
+             '<span class="tap">' + names.length + ' names · tap to read</span></summary>' +
+           (group.why ? '<p class="mv-why">' + esc(group.why) + '</p>' : '') + rows +
+           (url ? '<p class="mv-src"><a href="' + esc(url) + '" target="_blank" ' +
+                  'rel="noopener noreferrer">' + esc((group.src && group.src.title) || url) +
+                  '</a></p>' : '') +
+           '</details>';
+  }
+
   function renderMood(d){
     var m = d.mood || {}, det = m.detail || {};
     var sc = typeof m.score === "number" ? m.score : 0;
@@ -254,8 +302,8 @@ footer b{color:var(--muted)}
           '<div class="scale"><span>Risk-off −1</span><span>' + bandWord(sc) + " " +
           (sc > 0 ? "+" : "") + sc.toFixed(2) + '</span><span>+1 Risk-on</span></div></div>' +
         '<div class="detail">' +
-          (det.leaders ? '<div><b>Leading</b><span>' + esc(det.leaders) + '</span></div>' : '') +
-          (det.laggards ? '<div><b>Lagging</b><span>' + esc(det.laggards) + '</span></div>' : '') +
+          moverCell("Leading", det.leaders, (det.movers || {}).up) +
+          moverCell("Lagging", det.laggards, (det.movers || {}).down) +
           (det.tone ? '<div><b>Versus the last reading</b><span>' + esc(det.tone) + '</span></div>' : '') +
           (watch ? '<div><b>What would change it</b><ul class="watch">' + watch + '</ul></div>' : '') +
         '</div>' +

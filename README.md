@@ -23,7 +23,25 @@ Half-hourly Indian equity market notes for the Markets Now screen, written by sc
     "label": "Selling deepens",
     "score": -0.7,                 // -1 risk-off … +1 risk-on (red ≤ -0.25, amber, green ≥ 0.25)
     "summary": "One sentence on how the market is trading.",
-    "detail": { "leaders": "…", "laggards": "…", "tone": "…", "watch": ["…"], "src": { "title": "…", "url": "…" } }
+    "detail": {
+      "leaders": "…",              // collapsed one-liner — what is holding up
+      "laggards": "…",             // collapsed one-liner — what is under pressure
+      "tone": "…", "watch": ["…"], "src": { "title": "…", "url": "…" },
+      "movers": {                  // OPTIONAL — the tappable breakdown behind the two lines above
+        "up": {
+          "summary": "…",          // ≤ 90 chars, same substance as `leaders`
+          "why": "…",              // 1–2 sentences: what is driving this side
+          "names": [
+            { "name": "TCS",
+              "move": "+3.4%",     // as reported; omitted when the source gives no figure
+              "dir": "up",         // up | down | flat | null
+              "line": "…" }        // ≤ 90 chars: why THIS name
+          ],
+          "src": { "title": "…", "url": "…" }
+        },
+        "down": { /* same shape, for the names under pressure */ }
+      }
+    }
   },
   "insights": [
     {
@@ -41,3 +59,20 @@ Half-hourly Indian equity market notes for the Markets Now screen, written by sc
 ```
 
 Figures come from public news sources and can be approximate (`nifty.approx`). Use your own market feed for exact levels.
+
+### Making "holding up" / "under pressure" tappable
+
+`detail.leaders` and `detail.laggards` are the collapsed one-liners the screen already
+shows. `detail.movers` is what opens when the user taps one of them:
+`movers.up` sits behind **leaders**, `movers.down` behind **laggards**.
+
+`movers` is **optional and may be missing entirely** — on older notes, or whenever a run
+could not source per-name detail it can stand behind. Treat it as progressive enhancement:
+show the row as tappable only when the matching side exists and has `names` or `why`,
+and otherwise render the plain string exactly as today. The feed builder drops any side it
+cannot normalise rather than emitting an empty one, so `movers.up` existing is a sufficient
+signal that there is something worth opening. At most 6 names per side.
+
+`move` is a string, not a number, because sources quote ranges and approximations
+("+2.8–3%", "up ~3%"). Use `dir` for colour — a name can be in `movers.up` while still
+down on the day, when it is simply falling less than the market.
