@@ -1,87 +1,80 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-09T14:33:26+05:30",
+ "generated_at": "2026-10-09T15:02:47+05:30",
  "date": "2026-10-09",
- "slot": "1430",
- "slot_label": "14:30",
- "stage": "Mid-market mood",
- "asof": "2026-10-09T14:30:00+05:30",
+ "slot": "1500",
+ "slot_label": "15:00",
+ "stage": "Closing mood",
+ "asof": "2026-10-09T15:00:00+05:30",
  "nifty": {
-  "value": 22550,
-  "pct": 1.43,
-  "chg": 318.2,
+  "value": 22516.95,
+  "pct": 1.28,
+  "chg": 284.95,
   "approx": true
  },
  "mood": {
-  "label": "Rally extends",
-  "score": 0.6,
-  "summary": "The market has pushed to fresh session highs in the afternoon, with the Sensex up about 1,000 points. Midcaps are leading the broader market and smallcaps have edged into the green.",
+  "label": "Firm into close",
+  "score": 0.55,
+  "summary": "The market is holding a gain of about 1.3% into the final half-hour, a little below its afternoon peak. Midcaps are still leading the broader market, while smallcaps are only marginally higher.",
   "detail": {
-   "leaders": "IT (Persistent, Mphasis); midcaps",
+   "leaders": "IT, FMCG; midcaps",
    "laggards": "Pharma; smallcaps trail midcaps",
-   "tone": "Stronger than 14:00: the Nifty has pushed above 22,550 from 22,508.60 at 1 pm, and smallcaps have turned slightly positive.",
+   "tone": "Slightly off the 14:30 peak above 22,550: the 2 pm print was Nifty 22,516.95 (+1.28%) and Sensex 72,522.72 (+929) at 1:53. Gains are holding.",
    "watch": [
-    "Whether the Nifty holds 22,550 into the close",
-    "Profit-taking in IT after its 3% run",
-    "Q2 results after the bell"
+    "Whether the Nifty closes above 22,500",
+    "Late profit-taking in IT",
+    "Q2 results from Anand Rathi and Poonawalla after the bell"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex extends gains, jumps 1,000 pts, Nifty above 22,550; IT shares outperform",
+    "title": "Business Standard: Stock Market LIVE – Sensex extends gains, Nifty above 22,500; IT shares outperform",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT is the standout sector, with Persistent and Mphasis up ~3%, and midcaps are ahead",
-     "why": "TCS's Q2 has revived appetite for IT across large and midcaps, and midcaps are bouncing hard after Thursday's 2%+ fall.",
+     "summary": "IT and FMCG are the strongest sectors, and midcaps are up over 1%",
+     "why": "TCS's Q2 has driven a sector-wide IT bounce, and beaten-down consumer and midcap names are being bought back after Thursday's selloff.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
        "move": "up 3%+",
-       "line": "All 10 constituents were higher at midday, despite the US visa curbs"
+       "line": "All 10 stocks advanced at midday as Persistent and Mphasis rose ~3%"
       },
       {
-       "name": "Persistent Systems",
+       "name": "Nifty FMCG",
        "dir": "up",
-       "move": "+2.74%",
-       "line": "Midcap IT tracking TCS's read-through and shrugging off the PERM suspension"
-      },
-      {
-       "name": "Mphasis",
-       "dir": "up",
-       "move": "+2.90%",
-       "line": "Among the stronger IT gainers as buyers rotate back into the sector"
+       "line": "Among the top sectors, helped by ITC bouncing off a 52-week low"
       },
       {
        "name": "Nifty Midcap 100",
        "dir": "up",
        "move": "+1.18%",
-       "line": "At 1 pm, well ahead of the Nifty Smallcap 100's +0.16%"
+       "line": "Recovering after a 2%+ fall on Thursday; well ahead of smallcaps"
       }
      ],
      "src": {
-      "title": "Zee Business: Nifty IT rises over 3%; Infosys, Wipro gain despite US visa curbs",
-      "url": "https://www.zeebiz.com/market-news/news-it-stocks-rally-nifty-it-rises-nearly-3-infosys-wipro-gain-despite-us-visa-curbs-mixed-bag-tcs-q2-results-403639"
+      "title": "Business Standard: Stock Market LIVE – Sensex extends gains, Nifty above 22,500; IT shares outperform",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
      }
     },
     "down": {
-     "summary": "Pharma is among the weakest sectors and smallcaps are lagging the bounce",
-     "why": "The new cancer-drug trade-margin cap is weighing on pharma, and smallcaps are rising far less than midcaps.",
+     "summary": "Pharma is among the weaker sectors and smallcaps are lagging the bounce",
+     "why": "The cancer-drug trade-margin cap clouds pharma sentiment, and smallcaps have barely joined the rally.",
      "names": [
       {
        "name": "Nifty Pharma",
        "dir": "down",
-       "line": "Among the worst sectors; the 30% margin cap was expected to draw mild selling"
+       "line": "Among the worst sectors on BS's live blog, though some pharma names gained on the cap news"
       },
       {
        "name": "Nifty Smallcap 100",
        "dir": "up",
        "move": "+0.16%",
-       "line": "In the green by 1 pm, but trailing midcaps (+1.18%) by a wide margin"
+       "line": "Only marginally higher by 1 pm, versus +1.18% for midcaps"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE – Sensex extends gains, jumps 1,000 pts, Nifty above 22,550; IT shares outperform",
+      "title": "Business Standard: Stock Market LIVE – Sensex extends gains, Nifty above 22,500; IT shares outperform",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
      }
     }
@@ -89,6 +82,78 @@
   }
  },
  "insights": [
+  {
+   "key": "hospital-stocks",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Cancer-drug markups average 170%, up to 700%",
+   "line": "The 30% trade-margin cap could cut prices of covered drugs by up to 70%",
+   "more": [
+    "The cap is expected to save patients about ₹2,500 cr a year",
+    "The matter is listed in the Supreme Court on October 12"
+   ],
+   "src": {
+    "title": "Business Today: Cancer drugs may get cheaper as govt set to cap trade margins at 30%",
+    "url": "https://www.businesstoday.in/industry/pharma/story/cancer-drugs-may-get-cheaper-as-govt-set-to-cap-trade-margins-at-30-560489-2026-10-08"
+   },
+   "date": "2026-10-09",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "us-perm-curbs",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "IT stocks shrug off the US visa curbs",
+   "line": "Infosys and Wipro gained despite the US PERM suspension covering Indian IT firms",
+   "more": [
+    "Mphasis rose 2.90% and Persistent 2.74%",
+    "Investors focused on TCS's Q2 over the visa headlines"
+   ],
+   "src": {
+    "title": "Zee Business: Nifty IT rises over 3%; Infosys, Wipro gain despite US visa curbs",
+    "url": "https://www.zeebiz.com/market-news/news-it-stocks-rally-nifty-it-rises-nearly-3-infosys-wipro-gain-despite-us-visa-curbs-mixed-bag-tcs-q2-results-403639"
+   },
+   "date": "2026-10-09",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Anand Rathi Wealth, Poonawalla report after close",
+   "line": "Anand Rathi earned ₹100 cr in Q2 last year, up 31%, on revenue of ₹307.2 cr",
+   "more": [
+    "The focus is on fee-income durability and client additions",
+    "Poonawalla's Q1 PAT was ₹308 cr on AUM of ₹67,054 cr"
+   ],
+   "src": {
+    "title": "Business Standard: Q2 FY27 results today – Anand Rathi, Poonawalla Fincorp to announce earnings",
+    "url": "https://www.business-standard.com/companies/quarterly-results/q2fy27-results-today-anand-rathi-poonawalla-fincorp-to-announce-earnings-126100900183_1.html"
+   },
+   "date": "2026-10-09",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1130"
+   }
+  },
   {
    "key": "tcs-results",
    "tag": "Results",
@@ -107,7 +172,7 @@
    "slot": "1430",
    "when": "14:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "post"
@@ -132,7 +197,7 @@
    "slot": "1430",
    "when": "14:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1130"
@@ -156,35 +221,10 @@
    "slot": "1430",
    "when": "14:30",
    "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1430"
-   }
-  },
-  {
-   "key": "hospital-stocks",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Cancer-drug cap covers 110 drugs, 35 patented",
-   "line": "Government estimates ₹2,500 cr a year in patient savings; NPPA notification due this month",
-   "more": [
-    "Goldman: oncology is <5% of hospital revenue and ~2–2.5% of EBITDA",
-    "Govt says the cap targets trade margins, not makers' selling prices",
-    "A DGHS expert committee will finalise the drug list"
-   ],
-   "src": {
-    "title": "Zee Business: 30% margin cap on cancer drugs – why analysts expect a limited hit to hospital earnings",
-    "url": "https://www.zeebiz.com/market-news/news-30-margin-cap-on-cancer-drugs-why-analysts-expect-a-limited-hit-to-hospital-earnings-403641"
-   },
-   "date": "2026-10-09",
-   "slot": "1400",
-   "when": "14:00",
-   "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
-    "slot": "1030"
+    "slot": "1430"
    }
   },
   {
@@ -332,31 +372,6 @@
    }
   },
   {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Can Fin Homes, Poonawalla report Q2 today",
-   "line": "Can Fin's Q1 profit rose 20% to ₹268 cr; it made ₹251 cr in Q2 last year",
-   "more": [
-    "Can Fin's loan book grew 11% YoY to ₹42,961 cr in Q1",
-    "Poonawalla's Q1 PAT was ₹308 cr on AUM of ₹67,054 cr",
-    "Anand Rathi Wealth and Canara Robeco AMC also report today"
-   ],
-   "src": {
-    "title": "FilingReader: Can Fin Homes Q1 net profit rises 20% to ₹268 crore",
-    "url": "https://filingreader.com/news-wire/mumbai/2026-07-18/can-fin-homes-net-profit-rises-20-to-268-crore"
-   },
-   "date": "2026-10-09",
-   "slot": "1300",
-   "when": "13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1130"
-   }
-  },
-  {
    "key": "itc-block-deal",
    "tag": "Deals",
    "impact": "watch",
@@ -427,31 +442,6 @@
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "us-perm-curbs",
-   "tag": "Regulation",
-   "impact": "watch",
-   "title": "IT rallies despite US PERM suspension",
-   "line": "All 10 Nifty IT stocks are up even as the US suspends PERM filings for eight IT firms",
-   "more": [
-    "Nifty IT up 3.26% to 28,642.10 at 9:49 am; Wipro +3.3%, LTIMindtree +3.3%",
-    "Suspension covers TCS, Infosys, Wipro and HCL Tech",
-    "Analysts warn forced local hiring could pressure margins"
-   ],
-   "src": {
-    "title": "Outlook Money: TCS, Infosys, Wipro gain despite US PERM scheme suspension",
-    "url": "https://www.outlookmoney.com/invest/tcs-infosys-wipro-share-price-it-stocks-post-early-gains-despite-perm-scheme-suspension"
-   },
-   "date": "2026-10-09",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "pre"
    }
   },
   {

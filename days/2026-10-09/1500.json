@@ -1,0 +1,156 @@
+{
+ "asof": "2026-10-09T15:00:00+05:30",
+ "summary": "The market is holding a gain of about 1.3% into the final half-hour, a little below its afternoon peak. Midcaps are still leading the broader market, while smallcaps are only marginally higher.",
+ "mood": {
+  "label": "Firm into close",
+  "score": 0.55,
+  "detail": {
+   "stats": [],
+   "leaders": "IT, FMCG; midcaps",
+   "laggards": "Pharma; smallcaps trail midcaps",
+   "movers": {
+    "up": {
+     "summary": "IT and FMCG are the strongest sectors, and midcaps are up over 1%",
+     "why": "TCS's Q2 has driven a sector-wide IT bounce, and beaten-down consumer and midcap names are being bought back after Thursday's selloff.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "move": "up 3%+",
+       "dir": "up",
+       "line": "All 10 stocks advanced at midday as Persistent and Mphasis rose ~3%"
+      },
+      {
+       "name": "Nifty FMCG",
+       "dir": "up",
+       "line": "Among the top sectors, helped by ITC bouncing off a 52-week low"
+      },
+      {
+       "name": "Nifty Midcap 100",
+       "move": "+1.18%",
+       "dir": "up",
+       "line": "Recovering after a 2%+ fall on Thursday; well ahead of smallcaps"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market LIVE – Sensex extends gains, Nifty above 22,500; IT shares outperform",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+     }
+    },
+    "down": {
+     "summary": "Pharma is among the weaker sectors and smallcaps are lagging the bounce",
+     "why": "The cancer-drug trade-margin cap clouds pharma sentiment, and smallcaps have barely joined the rally.",
+     "names": [
+      {
+       "name": "Nifty Pharma",
+       "dir": "down",
+       "line": "Among the worst sectors on BS's live blog, though some pharma names gained on the cap news"
+      },
+      {
+       "name": "Nifty Smallcap 100",
+       "move": "+0.16%",
+       "dir": "up",
+       "line": "Only marginally higher by 1 pm, versus +1.18% for midcaps"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market LIVE – Sensex extends gains, Nifty above 22,500; IT shares outperform",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+     }
+    }
+   },
+   "tone": "Slightly off the 14:30 peak above 22,550: the 2 pm print was Nifty 22,516.95 (+1.28%) and Sensex 72,522.72 (+929) at 1:53. Gains are holding.",
+   "watch": [
+    "Whether the Nifty closes above 22,500",
+    "Late profit-taking in IT",
+    "Q2 results from Anand Rathi and Poonawalla after the bell"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE – Sensex extends gains, Nifty above 22,500; IT shares outperform",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 22516.95,
+  "pct": 1.28,
+  "chg": 284.95,
+  "approx": true
+ },
+ "top": [
+  {
+   "key": "hospital-stocks",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Cancer-drug markups average 170%, up to 700%",
+   "line": "The 30% trade-margin cap could cut prices of covered drugs by up to 70%",
+   "more": [
+    "The cap is expected to save patients about ₹2,500 cr a year",
+    "The matter is listed in the Supreme Court on October 12"
+   ],
+   "src": {
+    "title": "Business Today: Cancer drugs may get cheaper as govt set to cap trade margins at 30%",
+    "url": "https://www.businesstoday.in/industry/pharma/story/cancer-drugs-may-get-cheaper-as-govt-set-to-cap-trade-margins-at-30-560489-2026-10-08"
+   }
+  },
+  {
+   "key": "us-perm-curbs",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "IT stocks shrug off the US visa curbs",
+   "line": "Infosys and Wipro gained despite the US PERM suspension covering Indian IT firms",
+   "more": [
+    "Mphasis rose 2.90% and Persistent 2.74%",
+    "Investors focused on TCS's Q2 over the visa headlines"
+   ],
+   "src": {
+    "title": "Zee Business: Nifty IT rises over 3%; Infosys, Wipro gain despite US visa curbs",
+    "url": "https://www.zeebiz.com/market-news/news-it-stocks-rally-nifty-it-rises-nearly-3-infosys-wipro-gain-despite-us-visa-curbs-mixed-bag-tcs-q2-results-403639"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Anand Rathi Wealth, Poonawalla report after close",
+   "line": "Anand Rathi earned ₹100 cr in Q2 last year, up 31%, on revenue of ₹307.2 cr",
+   "more": [
+    "The focus is on fee-income durability and client additions",
+    "Poonawalla's Q1 PAT was ₹308 cr on AUM of ₹67,054 cr"
+   ],
+   "src": {
+    "title": "Business Standard: Q2 FY27 results today – Anand Rathi, Poonawalla Fincorp to announce earnings",
+    "url": "https://www.business-standard.com/companies/quarterly-results/q2fy27-results-today-anand-rathi-poonawalla-fincorp-to-announce-earnings-126100900183_1.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Business Standard: Stock Market LIVE – Sensex extends gains, Nifty above 22,500; IT shares outperform",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+  },
+  {
+   "title": "Zee Business: Nifty IT rises over 3%; Infosys, Wipro gain despite US visa curbs",
+   "url": "https://www.zeebiz.com/market-news/news-it-stocks-rally-nifty-it-rises-nearly-3-infosys-wipro-gain-despite-us-visa-curbs-mixed-bag-tcs-q2-results-403639"
+  },
+  {
+   "title": "inkl: ITC shares rise 2% a day after 52-week low on GQG sale",
+   "url": "https://www.inkl.com/news/itc-shares-in-focus-after-rajiv-jain-backed-gqg-sells-stake-worth-rs-9-395-crore-whats-ahead-after-30-crash-in-2026"
+  },
+  {
+   "title": "Upstox: Sun Pharma, Dr Reddy's, Max Healthcare – pharma, hospital stocks in focus on 30% cancer-drug margin cap",
+   "url": "https://upstox.com/news/market-news/stocks/sun-pharma-dr-reddy-s-max-healthcare-pharma-hospital-stocks-in-focus-amid-reports-of-30-anti-cancer-drug-margin-cap/article-201569/"
+  },
+  {
+   "title": "Business Today: Cancer drugs may get cheaper as govt set to cap trade margins at 30%",
+   "url": "https://www.businesstoday.in/industry/pharma/story/cancer-drugs-may-get-cheaper-as-govt-set-to-cap-trade-margins-at-30-560489-2026-10-08"
+  },
+  {
+   "title": "Business Standard: Q2 FY27 results today – Anand Rathi, Poonawalla Fincorp to announce earnings",
+   "url": "https://www.business-standard.com/companies/quarterly-results/q2fy27-results-today-anand-rathi-poonawalla-fincorp-to-announce-earnings-126100900183_1.html"
+  },
+  {
+   "title": "Business Standard: Anand Rathi Wealth Q2 FY26 – net profit up 31% at ₹100 crore",
+   "url": "https://www.business-standard.com/companies/news/anand-rathi-wealth-q2-fy26-results-net-profit-up-31-at-100-crore-125101301151_1.html"
+  }
+ ]
+}
