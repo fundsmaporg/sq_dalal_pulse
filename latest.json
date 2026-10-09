@@ -1,37 +1,141 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-09T11:02:54+05:30",
+ "generated_at": "2026-10-09T11:38:08+05:30",
  "date": "2026-10-09",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-09T11:00:00+05:30",
+ "asof": "2026-10-09T11:30:00+05:30",
  "nifty": {
-  "value": 22500,
-  "pct": 1.21,
-  "chg": 268.2,
+  "value": 22511.55,
+  "pct": 1.26,
+  "chg": 279.75,
   "approx": true
  },
  "mood": {
-  "label": "Narrow rally",
-  "score": 0.45,
-  "summary": "Benchmarks are at the day's high, up over 1%, as volatility cools, but the rally is narrow: midcaps are up modestly and smallcaps are slightly in the red.",
+  "label": "Gains hold",
+  "score": 0.5,
+  "summary": "Benchmarks are holding gains of about 1.2% near the day's high as volatility eases, with tech and healthcare doing the heavy lifting while metals and pharma lag.",
   "detail": {
-   "leaders": "IT, FMCG; TCS, Apollo Hospitals, Max Healthcare",
-   "laggards": "Metals, pharma; smallcaps",
-   "tone": "Gains extended since 10:30: the Sensex is up about 800 pts at the day's high with Nifty near 22,500; India VIX is down 5%, but Nifty SmallCap is slightly lower (-0.17%).",
+   "leaders": "TCS, Apollo Hospitals, Max Healthcare; IT and FMCG",
+   "laggards": "Metals and pharma",
+   "tone": "Steady since 11 am, when Nifty was at 22,511.55 (+279.75, +1.26%) and the Sensex up about 809 pts; India VIX is down about 5%.",
    "watch": [
-    "Whether smallcaps join the rally",
-    "Nifty holding 22,500",
-    "Brent and week-end positioning"
+    "Q2 numbers from Poonawalla, Can Fin Homes and Anand Rathi",
+    "Whether smallcaps join in",
+    "Brent's direction into the weekend"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex at day's high, surges 800 pts, Nifty near 22,500; VIX down 5%",
+    "title": "Business Standard: Stock Market LIVE – Sensex at day's high, surges 700 pts, Nifty near 22,500; VIX down 5%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+   },
+   "movers": {
+    "up": {
+     "summary": "TCS, Apollo Hospitals and Max Healthcare lead the Nifty 50",
+     "why": "TCS is rallying on its Q2 profit beat, while hospital stocks are bid on a reported trade-margin cap for cancer drugs.",
+     "names": [
+      {
+       "name": "TCS",
+       "dir": "up",
+       "move": "+4.6%",
+       "line": "Q2 profit up ~15% to ₹13,884 cr, ahead of estimates"
+      },
+      {
+       "name": "Apollo Hospitals",
+       "dir": "up",
+       "move": "+2.1%",
+       "line": "Hospitals rally on a reported 30% trade-margin cap for cancer drugs"
+      },
+      {
+       "name": "Max Healthcare",
+       "dir": "up",
+       "move": "+2.3%",
+       "line": "Rebounds from a 52-week low on the same hospital-sector rally"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Hospital stocks – why have Fortis, Apollo, Max, Yatharth rallied up to 5%?",
+      "url": "https://www.business-standard.com/markets/news/hospital-stocks-why-have-fortis-apollo-max-yatharth-rallied-up-to-5-on-friday-126100900234_1.html"
+     }
+    }
    }
   }
  },
  "insights": [
+  {
+   "key": "hexaware",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Hexaware jumps 12% on Anthropic deal",
+   "line": "Shares hit ₹574.45 after a multi-year partnership to embed Claude AI in its platforms",
+   "more": [
+    "Becomes a Preferred Partner in Anthropic's Claude Partner Network",
+    "Has over 1,100 Claude-certified professionals",
+    "Stock is still down about 25% in 2026 and below its IPO price"
+   ],
+   "src": {
+    "title": "BusinessToday: Hexaware Technologies shares rise over 12% in early deals; here's why",
+    "url": "https://www.businesstoday.in/markets/stocks/story/hexaware-technologies-shares-rise-over-in-early-deals-heres-why-560566-2026-10-09"
+   },
+   "date": "2026-10-09",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Poonawalla, Can Fin, AR Wealth report today",
+   "line": "NBFC and wealth Q2 numbers due after TCS kicked off the earnings season",
+   "more": [
+    "Jefferies expects Can Fin Homes profit up ~6% YoY; Buy, target ₹1,075",
+    "Canara Robeco AMC also reports today",
+    "Poonawalla Fincorp rose 1.55% to ₹445 ahead of results"
+   ],
+   "src": {
+    "title": "BusinessToday: Poonawalla, AR Wealth, Can Fin Homes – how result-bound stocks are faring",
+    "url": "https://www.businesstoday.in/markets/trending-stocks/story/poonawalla-ar-wealth-can-fin-homes-how-result-bound-stocks-are-faring-check-previews-targets-560569-2026-10-09"
+   },
+   "date": "2026-10-09",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Oil eases after Trump rules out Iran strike",
+   "line": "Trump said no attack on Iran before November, cooling oil after Thursday's spike",
+   "more": [
+    "Brent had settled at $104.28 on Thursday, up 4%",
+    "Softer oil is one of the drivers of today's rebound"
+   ],
+   "src": {
+    "title": "HDFC Sky: Sensex, Nifty open higher as Trump rules out Iran attack before November; oil eases",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-october-9-2026-open-report-sensex-nifty-open-higher-as-trump-rules-out-iran-attack-before-november-oil-eases-it-sector-leads-market-rally"
+   },
+   "date": "2026-10-09",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "pre"
+   }
+  },
   {
    "key": "tcs-results",
    "tag": "Results",
@@ -50,7 +154,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "post"
@@ -74,7 +178,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1030"
@@ -98,7 +202,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1130"
@@ -199,30 +303,6 @@
    "first_seen": {
     "date": "2026-10-01",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Oil eases in Asian trade",
-   "line": "Brent is slipping after settling at $104.28, giving some relief to oil importers",
-   "more": [
-    "Business Standard cites easing oil as a support for the open",
-    "Brent had jumped 4% on Thursday on Hormuz tanker attacks"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex rises 300 pts; Nifty IT gains 3% as TCS, Infosys shares lead",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
-   },
-   "date": "2026-10-09",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "pre"
    }
   },
   {
