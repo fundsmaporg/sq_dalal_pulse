@@ -46,7 +46,9 @@ Half-hourly Indian equity market notes for the Markets Now screen, written by sc
   "insights": [
     {
       "key": "pb-fintech",           // stable story id used for de-duplication
-      "tag": "Stocks",               // Regulation | Global | Macro | Flows | Listing | Stocks | Opening | Results | Policy
+      "tag": "Stocks",               // usually: Regulation | Global | Macro | Flows | Listing |
+                                     // Stocks | Opening | Results | Policy — but treat as OPEN,
+                                     // see "Tags are an open set" below
       "impact": "neg",               // pos = tailwind, neg = headwind, watch
       "title": "…", "line": "…", "more": ["…"], "src": { "title": "…", "url": "…" },
       "date": "2026-09-24", "slot": "1330", "when": "13:30",
@@ -59,6 +61,17 @@ Half-hourly Indian equity market notes for the Markets Now screen, written by sc
 ```
 
 Figures come from public news sources and can be approximate (`nifty.approx`). Use your own market feed for exact levels.
+
+### Tags are an open set
+
+The nine values above are what the generator is asked for and what it emits almost all of
+the time — but it is a language model writing JSON, not a database with a constraint, and
+it does occasionally coin a new one. A live payload on 2026-10-09 carried `"Deals"`.
+
+So consumers must **cope rather than assume**: render an unrecognised tag as plain text
+with neutral styling, and never switch exhaustively on it or index into a lookup that can
+miss. Tag counts are also heavily skewed — 83 of 132 insights were `Stocks` in that same
+payload — so don't build a layout that needs an even spread.
 
 ### Making "holding up" / "under pressure" tappable
 
