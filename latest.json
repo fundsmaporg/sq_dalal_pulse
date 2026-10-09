@@ -1,54 +1,103 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-09T10:02:46+05:30",
+ "generated_at": "2026-10-09T10:32:48+05:30",
  "date": "2026-10-09",
- "slot": "1000",
- "slot_label": "10:00",
- "stage": "Opening mood",
- "asof": "2026-10-09T10:00:00+05:30",
+ "slot": "1030",
+ "slot_label": "10:30",
+ "stage": "Mid-market mood",
+ "asof": "2026-10-09T10:30:00+05:30",
  "nifty": {
-  "value": 22353.6,
-  "pct": 0.55,
-  "chg": 121.8,
+  "value": 22457.85,
+  "pct": 1.02,
+  "chg": 226.05,
   "approx": true
  },
  "mood": {
-  "label": "Rebound builds",
-  "score": 0.4,
-  "summary": "The rebound is gathering pace, with the Sensex now up about 600 pts as tech-led buying spreads, though the market is still trying to dodge a ninth straight weekly loss.",
+  "label": "Rally broadens",
+  "score": 0.5,
+  "summary": "The relief rally has broadened, with benchmarks up about 1% as buying spreads from tech into FMCG and healthcare, while metals and pharma lag.",
   "detail": {
-   "leaders": "IT (Nifty IT +2.8–3%): TCS, Infosys, Tech Mahindra, HCL Tech",
-   "laggards": "Eternal, ICICI Bank, BEL",
-   "tone": "Firmer than the open: the Sensex gain widened to about 600 pts per the latest headline, after Nifty was at 22,353.60 (+121.80) at 9:18 am.",
+   "leaders": "IT, FMCG; TCS, Apollo Hospitals, Max Healthcare",
+   "laggards": "Nifty Metal, Nifty Pharma",
+   "tone": "Stronger than at 10 am's note: at 10 am Sensex was 72,259.46 (+666.22, +0.93%) and Nifty 22,457.85 (+226.05, +1.02%); the latest headline has the Sensex up about 700 pts.",
    "watch": [
-    "Nifty's 2026 low of 22,181 as support",
-    "Whether the week can avoid a ninth straight weekly fall",
-    "Brent and FII flows"
+    "Whether Nifty holds above 22,450",
+    "Brent after Thursday's 4% jump",
+    "Week-end FII positioning"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex rises 600 pts; Nifty IT gains 3% as TCS, Infosys shares lead",
+    "title": "Business Standard: Stock Market LIVE – Sensex rises 700 pts, Nifty tops 22,450 as TCS, Apollo Hospitals shares lead",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
    }
   }
  },
  "insights": [
   {
+   "key": "us-perm-curbs",
+   "tag": "Regulation",
+   "impact": "watch",
+   "title": "IT rallies despite US PERM suspension",
+   "line": "All 10 Nifty IT stocks are up even as the US suspends PERM filings for eight IT firms",
+   "more": [
+    "Nifty IT up 3.26% to 28,642.10 at 9:49 am; Wipro +3.3%, LTIMindtree +3.3%",
+    "Suspension covers TCS, Infosys, Wipro and HCL Tech",
+    "Analysts warn forced local hiring could pressure margins"
+   ],
+   "src": {
+    "title": "Outlook Money: TCS, Infosys, Wipro gain despite US PERM scheme suspension",
+    "url": "https://www.outlookmoney.com/invest/tcs-infosys-wipro-share-price-it-stocks-post-early-gains-despite-perm-scheme-suspension"
+   },
+   "date": "2026-10-09",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "hospital-stocks",
+   "tag": "Policy",
+   "impact": "pos",
+   "title": "Hospital stocks rally up to 5%",
+   "line": "Apollo, Max, Fortis and Yatharth gain on reports of a 30% trade-margin cap on cancer drugs",
+   "more": [
+    "Centre reportedly capping trade margins on non-scheduled anti-cancer drugs at 30% of MRP",
+    "Max Healthcare up about 2.3% and Apollo about 2.1%, both among top Nifty gainers"
+   ],
+   "src": {
+    "title": "Business Standard: Hospital stocks – why have Fortis, Apollo, Max, Yatharth rallied up to 5%?",
+    "url": "https://www.business-standard.com/markets/news/hospital-stocks-why-have-fortis-apollo-max-yatharth-rallied-up-to-5-on-friday-126100900234_1.html"
+   },
+   "date": "2026-10-09",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1030"
+   }
+  },
+  {
    "key": "tcs-results",
    "tag": "Results",
    "impact": "pos",
-   "title": "TCS up 4.7%; analysts flag weak margins",
-   "line": "Shares hit ₹2,174 intraday; deal TCV was $9.6 bn, but margins disappointed",
+   "title": "TCS extends gains, leads Nifty 50",
+   "line": "Shares up about 4.7%, the top Nifty gainer as IT leads the rebound",
    "more": [
-    "MOFSL keeps ₹2,630 target; another broker has Buy at ₹2,400",
-    "Near-term outlook depends on pipeline conversion, analysts say"
+    "Q2 net profit rose about 15% YoY to ₹13,884 cr",
+    "Deal wins (TCV) of $9.6 bn; margins flagged as weak"
    ],
    "src": {
-    "title": "Business Standard: TCS Q2 review – analysts flag weak margins amid steady growth; stock up 4%",
-    "url": "https://www.business-standard.com/markets/news/tcs-q2-review-analysts-flag-weak-margins-amid-steady-growth-stock-up-4-126100900185_1.html"
+    "title": "Zee Business: Nifty IT rises over 3%; Infosys, Wipro gain despite US visa curbs",
+    "url": "https://zeebiz.com/market-news/news-it-stocks-rally-nifty-it-rises-nearly-3-infosys-wipro-gain-despite-us-visa-curbs-mixed-bag-tcs-q2-results-403639"
    },
    "date": "2026-10-09",
-   "slot": "1000",
-   "when": "10:00",
+   "slot": "1030",
+   "when": "10:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -74,7 +123,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1000"
@@ -98,7 +147,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1000"
@@ -149,31 +198,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "us-perm-curbs",
-   "tag": "Regulation",
-   "impact": "neg",
-   "title": "US suspends Indian IT firms from PERM",
-   "line": "TCS, Infosys, Wipro and HCL barred from US green-card labour certification",
-   "more": [
-    "Labour Dept cited abuse of the programme; Cognizant and Capgemini also named",
-    "Microsoft and Adobe were also suspended, citing federal probes",
-    "Duration and appeal process not yet clear"
-   ],
-   "src": {
-    "title": "LatestLY: Infosys, TCS, Wipro, HCL suspended from US PERM programme",
-    "url": "https://www.latestly.com/us/indian-it-giants-infosys-tcs-wipro-hcl-suspended-from-us-perm-programme-what-it-means-for-green-card-applicants-7637730.html"
-   },
-   "date": "2026-10-09",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
     "slot": "pre"
    }
   },
