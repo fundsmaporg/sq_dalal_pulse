@@ -1,88 +1,167 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-09T14:03:22+05:30",
+ "generated_at": "2026-10-09T14:33:26+05:30",
  "date": "2026-10-09",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-09T14:00:00+05:30",
+ "asof": "2026-10-09T14:30:00+05:30",
  "nifty": {
-  "value": 22508.6,
-  "pct": 1.25,
-  "chg": 276.8,
+  "value": 22550,
+  "pct": 1.43,
+  "chg": 318.2,
   "approx": true
  },
  "mood": {
-  "label": "Holding the highs",
-  "score": 0.5,
-  "summary": "The market is holding its gains near the day's high into mid-afternoon, with midcaps outperforming. Smallcaps are still flat and pharma is weak, so the rally is broad but uneven.",
+  "label": "Rally extends",
+  "score": 0.6,
+  "summary": "The market has pushed to fresh session highs in the afternoon, with the Sensex up about 1,000 points. Midcaps are leading the broader market and smallcaps have edged into the green.",
   "detail": {
-   "leaders": "TCS, IT; midcaps",
+   "leaders": "IT (Persistent, Mphasis); midcaps",
    "laggards": "Pharma; smallcaps trail midcaps",
-   "tone": "Steady since 13:30: the last print had the Nifty at 22,508.60 (+1.25%) at 1 pm, near its intraday high of 22,515.95. No sign of fading yet.",
+   "tone": "Stronger than 14:00: the Nifty has pushed above 22,550 from 22,508.60 at 1 pm, and smallcaps have turned slightly positive.",
    "watch": [
-    "A close above 22,500",
-    "Smallcaps joining the bounce",
-    "Pharma weakness deepening"
+    "Whether the Nifty holds 22,550 into the close",
+    "Profit-taking in IT after its 3% run",
+    "Q2 results after the bell"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex gains 800 pts, Nifty near 22,500; Nifty Metal snaps 2-day losing run",
+    "title": "Business Standard: Stock Market LIVE – Sensex extends gains, jumps 1,000 pts, Nifty above 22,550; IT shares outperform",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
    },
    "movers": {
     "up": {
-     "summary": "TCS and the IT pack lead, with midcaps up over 1%",
-     "why": "TCS's Q2 beat has pulled IT out of a four-day slide, and midcaps are bouncing hard after Thursday's 2%+ fall.",
+     "summary": "IT is the standout sector, with Persistent and Mphasis up ~3%, and midcaps are ahead",
+     "why": "TCS's Q2 has revived appetite for IT across large and midcaps, and midcaps are bouncing hard after Thursday's 2%+ fall.",
      "names": [
-      {
-       "name": "TCS",
-       "dir": "up",
-       "move": "up ~5%",
-       "line": "Top Nifty gainer at noon (₹2,178) after Q2 profit rose ~15%"
-      },
       {
        "name": "Nifty IT",
        "dir": "up",
-       "move": "+2.34%",
-       "line": "Ends a 4-day losing run, though off its morning high of +3.3%"
+       "move": "up 3%+",
+       "line": "All 10 constituents were higher at midday, despite the US visa curbs"
+      },
+      {
+       "name": "Persistent Systems",
+       "dir": "up",
+       "move": "+2.74%",
+       "line": "Midcap IT tracking TCS's read-through and shrugging off the PERM suspension"
+      },
+      {
+       "name": "Mphasis",
+       "dir": "up",
+       "move": "+2.90%",
+       "line": "Among the stronger IT gainers as buyers rotate back into the sector"
       },
       {
        "name": "Nifty Midcap 100",
        "dir": "up",
-       "move": "+1.09%",
-       "line": "Recovering after a 2%+ fall on Thursday; leading the broader market"
+       "move": "+1.18%",
+       "line": "At 1 pm, well ahead of the Nifty Smallcap 100's +0.16%"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE – Sensex gains 800 pts, Nifty near 22,500; Nifty Metal snaps 2-day losing run",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+      "title": "Zee Business: Nifty IT rises over 3%; Infosys, Wipro gain despite US visa curbs",
+      "url": "https://www.zeebiz.com/market-news/news-it-stocks-rally-nifty-it-rises-nearly-3-infosys-wipro-gain-despite-us-visa-curbs-mixed-bag-tcs-q2-results-403639"
      }
     },
     "down": {
-     "summary": "Pharma is among the weakest sectors and smallcaps have barely moved",
-     "why": "The cancer-drug margin cap weighs on the pharma supply chain, and smallcaps haven't joined the bounce.",
+     "summary": "Pharma is among the weakest sectors and smallcaps are lagging the bounce",
+     "why": "The new cancer-drug trade-margin cap is weighing on pharma, and smallcaps are rising far less than midcaps.",
      "names": [
       {
        "name": "Nifty Pharma",
        "dir": "down",
-       "line": "Among the worst sectors; the 30% trade-margin cap was expected to draw mild selling"
+       "line": "Among the worst sectors; the 30% margin cap was expected to draw mild selling"
       },
       {
        "name": "Nifty Smallcap 100",
-       "dir": "flat",
-       "move": "-0.01%",
-       "line": "Flat around 1 pm while midcaps rose 1.09%, after a 2%+ fall on Thursday"
+       "dir": "up",
+       "move": "+0.16%",
+       "line": "In the green by 1 pm, but trailing midcaps (+1.18%) by a wide margin"
       }
      ],
      "src": {
-      "title": "CNBC-TV18 via TradingView: Hospital stocks seen flat to higher, pharma may see mild selling on cancer-drug cap",
-      "url": "https://www.tradingview.com/news/cnbctv:3fe5240f3094b:0/"
+      "title": "Business Standard: Stock Market LIVE – Sensex extends gains, jumps 1,000 pts, Nifty above 22,550; IT shares outperform",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "tcs-results",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "TCS up ~5% on faster AI revenue growth",
+   "line": "Analysts credit an acceleration in AI-related revenue and international growth",
+   "more": [
+    "Q2 profit rose ~15% YoY",
+    "Nifty IT climbed above 28,600 intraday"
+   ],
+   "src": {
+    "title": "Angel One: Nifty IT climbs above 28,600 intraday on Oct 9 – key reasons",
+    "url": "https://www.angelone.in/news/market-updates/nifty-it-index-climbs-above-28-600-mark-in-intraday-trade-on-october-9-2026-know-the-key-reasons"
+   },
+   "date": "2026-10-09",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "hexaware",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Hexaware holds a 12% jump on Anthropic deal",
+   "line": "Becomes a Preferred Partner in Anthropic's Claude Partner Network; touched ₹574.45",
+   "more": [
+    "Claude will be built into its Zerovity and AgentVerse platforms",
+    "Hexaware has 1,100+ Claude-certified staff",
+    "The stock had been well down for 2026 before the deal"
+   ],
+   "src": {
+    "title": "Business Standard: Hexaware Technologies share price zooms 12% on Anthropic tie-up",
+    "url": "https://www.business-standard.com/markets/news/hexaware-technologies-share-price-zooms-12-on-anthropic-tie-up-126100900243_1.html"
+   },
+   "date": "2026-10-09",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "eicher-motors",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Eicher among top gainers; Citi keeps top pick",
+   "line": "Up about 3.6% at noon; September sales rose 8% YoY to 133,958 units",
+   "more": [
+    "Citi retains Eicher as its top auto pick",
+    "Bajaj Auto's September two-wheeler sales fell 12% YoY"
+   ],
+   "src": {
+    "title": "Citi retains Eicher Motors as a top auto pick",
+    "url": "https://ad-hoc-news.de/boerse/news/corporate-news/citi-retains-eicher-motors-stock-as-a-top-auto-pick/70264626"
+   },
+   "date": "2026-10-09",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1430"
+   }
+  },
   {
    "key": "hospital-stocks",
    "tag": "Policy",
@@ -102,7 +181,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1030"
@@ -126,7 +205,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1400"
@@ -150,7 +229,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1100"
@@ -348,55 +427,6 @@
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "hexaware",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Hexaware jumps 12% on Anthropic deal",
-   "line": "Shares hit ₹574.45 after a multi-year partnership to embed Claude AI in its platforms",
-   "more": [
-    "Becomes a Preferred Partner in Anthropic's Claude Partner Network",
-    "Has over 1,100 Claude-certified professionals",
-    "Stock is still down about 25% in 2026 and below its IPO price"
-   ],
-   "src": {
-    "title": "BusinessToday: Hexaware Technologies shares rise over 12% in early deals; here's why",
-    "url": "https://www.businesstoday.in/markets/stocks/story/hexaware-technologies-shares-rise-over-in-early-deals-heres-why-560566-2026-10-09"
-   },
-   "date": "2026-10-09",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "tcs-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Analysts see limited upside for TCS rally",
-   "line": "Stock near ₹2,172 after a 4.6% jump; analysts flag resistance at ₹2,250–2,330",
-   "more": [
-    "About 37 lakh shares traded by 9:45 am",
-    "Analysts caution the rebound may be short-lived after a weak 2026 for IT"
-   ],
-   "src": {
-    "title": "Business Standard: Analysts caution TCS pullback may be short-lived; flag key levels",
-    "url": "https://www.business-standard.com/markets/news/tcs-share-price-analysts-caution-tcs-pullback-may-be-short-lived-flag-key-levels-to-track-126100900291_1.html"
-   },
-   "date": "2026-10-09",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-05",
-    "slot": "post"
    }
   },
   {
