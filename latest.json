@@ -1,33 +1,33 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-09T08:32:44+05:30",
+ "generated_at": "2026-10-09T09:32:40+05:30",
  "date": "2026-10-09",
- "slot": "pre",
- "slot_label": "Pre-open",
- "stage": "Pre-market mood",
- "asof": "2026-10-09T08:30:00+05:30",
+ "slot": "0930",
+ "slot_label": "9:30",
+ "stage": "Opening mood",
+ "asof": "2026-10-09T09:30:00+05:30",
  "nifty": {
-  "value": 22231.8,
-  "pct": -1.64,
-  "chg": -371.25,
-  "approx": false
+  "value": 22335,
+  "pct": 0.46,
+  "chg": 103.2,
+  "approx": true
  },
  "mood": {
-  "label": "Relief bounce eyed",
-  "score": 0.05,
-  "summary": "A relief bounce is on the cards at the open after Thursday's rout, with offshore futures pointing higher, though heavy foreign selling and $100+ oil keep conviction low.",
+  "label": "IT-led rebound",
+  "score": 0.3,
+  "summary": "A relief rally is under way at the open, led squarely by tech, as benchmarks claw back part of Thursday's slide with oil easing in Asian trade.",
   "detail": {
-   "leaders": "TCS after its Q2 beat; banks",
-   "laggards": "IT peers on US visa curbs; OMCs and paints on oil",
-   "tone": "A firmer setup than Thursday's slide: GIFT Nifty was at 22,381 (+129, +0.57%) at 7:42 am, against Nifty's 22,231.80 close (-1.64%).",
+   "leaders": "IT (Nifty IT +3%): TCS, Infosys, Tech Mahindra, HCL Tech; ITC",
+   "laggards": "Eternal, ICICI Bank, BEL",
+   "tone": "A sharp turn from Thursday's rout: around 9:18 am Sensex was up about 372 pts at 71,965 and Nifty up about 103 pts (0.46%) near 22,335.",
    "watch": [
-    "Whether TCS's beat outweighs the US PERM curbs on IT",
-    "Brent above $104",
-    "FII flows after a ₹12,944 cr sell-off"
+    "Whether the bounce broadens beyond IT",
+    "Brent's move after easing in Asia",
+    "FII flows after Thursday's heavy selling"
    ],
    "src": {
-    "title": "Business Standard: Stocks to watch – TCS, Infosys, Wipro, Anand Rathi, KEC Int'l, NCC, BEML",
-    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-october-9-tcs-infosys-wipro-it-stocks-anand-rathi-kec-int-l-ncc-beml-126100900116_1.html"
+    "title": "Business Standard: Stock Market LIVE – Sensex rises 300 pts; Nifty IT gains 3% as TCS, Infosys shares lead",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
    }
   }
  },
@@ -36,25 +36,72 @@
    "key": "tcs-results",
    "tag": "Results",
    "impact": "pos",
-   "title": "TCS Q2 profit up 14.9%, beats estimates",
-   "line": "Net profit about ₹13,884 cr vs ~₹13,700 cr consensus; ₹12 interim dividend declared",
+   "title": "TCS jumps nearly 4% on Q2 beat",
+   "line": "Top Sensex gainer after profit rose 15% to ₹13,884 cr, ahead of estimates",
    "more": [
-    "Revenue rose about 11% YoY to ~₹73,188 cr",
-    "Acquiring Porsche's consulting arm MHP; record date Oct 14",
-    "An early report put profit at ₹13,934 cr; Business Standard has ₹13,884 cr"
+    "Stock had fallen about 34% in 2026 before the results",
+    "₹12 interim dividend; record date Oct 14"
    ],
    "src": {
-    "title": "Business Standard: Stocks to watch – TCS, Infosys, Wipro, Anand Rathi, KEC Int'l, NCC, BEML",
-    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-october-9-tcs-infosys-wipro-it-stocks-anand-rathi-kec-int-l-ncc-beml-126100900116_1.html"
+    "title": "Business Standard: Stock Market LIVE – Sensex rises 300 pts; Nifty IT gains 3% as TCS, Infosys shares lead",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
    },
    "date": "2026-10-09",
-   "slot": "pre",
-   "when": "Pre-open",
+   "slot": "0930",
+   "when": "9:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "post"
+   }
+  },
+  {
+   "key": "it-stocks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Nifty IT rallies 3% on TCS read-through",
+   "line": "Infosys, Tech Mahindra and HCL Tech are among the top gainers at the open",
+   "more": [
+    "Rally comes despite reports of US PERM curbs on Indian IT firms",
+    "IT was the top-performing sector even in Thursday's sell-off"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE – Sensex rises 300 pts; Nifty IT gains 3% as TCS, Infosys shares lead",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+   },
+   "date": "2026-10-09",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Oil eases in Asian trade",
+   "line": "Brent is slipping after settling at $104.28, giving some relief to oil importers",
+   "more": [
+    "Business Standard cites easing oil as a support for the open",
+    "Brent had jumped 4% on Thursday on Hormuz tanker attacks"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE – Sensex rises 300 pts; Nifty IT gains 3% as TCS, Infosys shares lead",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+   },
+   "date": "2026-10-09",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-01",
+    "slot": "pre"
    }
   },
   {
@@ -76,7 +123,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "pre"
@@ -100,31 +147,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent settles at $104.28, up 4%",
-   "line": "Oil touched nearly $106 before easing on Trump's no-strike pledge before midterms",
-   "more": [
-    "Iran stepped up attacks on tankers in Hormuz",
-    "The pledge did not reverse the rally"
-   ],
-   "src": {
-    "title": "NBC News: Trump's pledge not to strike Iran before midterms fails to soothe oil markets",
-    "url": "https://www.nbcnews.com/business/energy/oil-prices-stocks-trump-iran-rcna602248"
-   },
-   "date": "2026-10-09",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-01",
     "slot": "pre"
@@ -148,7 +171,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "pre"
@@ -369,30 +392,6 @@
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "it-stocks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT is the only sector holding up",
-   "line": "TCS, Infosys and Tech Mahindra rose about 1.4–1.5% in late morning as the market fell",
-   "more": [
-    "Nifty IT was the top sectoral gainer and Nifty Realty the worst at 1 pm",
-    "TCS reports Q2 after the close"
-   ],
-   "src": {
-    "title": "Sunday Guardian: Nifty 50 today – index falls below 22,500 as RBI rate hike, rising crude weigh",
-    "url": "https://sundayguardianlive.com/business/nifty-50-today-indian-stock-index-falls-below-22500-as-rbi-rate-hike-rising-crude-weigh-on-markets-top-gainers-losers-and-what-investors-should-know-301235/"
-   },
-   "date": "2026-10-08",
-   "slot": "1400",
-   "when": "Thu · 14:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1200"
    }
   },
   {
