@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-12T10:35:28+05:30",
+ "generated_at": "2026-10-12T11:03:24+05:30",
  "date": "2026-10-12",
- "slot": "1030",
- "slot_label": "10:30",
+ "slot": "1100",
+ "slot_label": "11:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-12T10:30:00+05:30",
+ "asof": "2026-10-12T11:00:00+05:30",
  "nifty": {
   "value": 22500,
   "pct": -0.09,
@@ -13,31 +13,32 @@
   "approx": true
  },
  "mood": {
-  "label": "Drifting lower",
+  "label": "Heavy, rangebound",
   "score": -0.15,
-  "summary": "The market has slipped into the red, with the Nifty just below 22,500 and the Sensex down about 200 points. PSU banks lead the decline, while autos and media still offer some support.",
+  "summary": "The market is stuck slightly in the red with the Nifty hovering around 22,500, after giving up all of its early gains. Banks remain the main drag while autos hold up.",
   "detail": {
    "leaders": "Steel (Tata Steel)",
    "laggards": "DMart",
-   "tone": "Weaker than 10:00, when the Nifty was flat at 22,514.75. PNB, SBI and Canara Bank are the top PSU Bank losers; Bajaj Auto (+3.46%) still leads the Nifty gainers.",
+   "tone": "Little changed since 10:30: the latest read still has the Nifty below 22,500 and the Sensex down about 200 points, with PSU banks the weakest sector.",
    "watch": [
-    "Whether the Nifty reclaims 22,500",
-    "PSU bank selling deepening",
-    "HCLTech's results after market hours"
+    "The Supreme Court's stance on cancer-drug markups",
+    "A bounce in bank stocks",
+    "HCLTech's numbers after the bell"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex down 200 pts, Nifty below 22,500; Cupid falls after hitting new 52-wk high",
+    "title": "Business Standard: Stock Market LIVE – Sensex down 200 pts, Nifty below 22,500; PSU banks weigh",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-12-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-126101200057_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Tata Steel is holding gains as steel stocks react to the draft policy",
+     "summary": "Tata Steel led the Sensex gainers early as steel stocks react to the draft policy",
      "why": "The draft National Steel Policy 2047 has put steelmakers in focus.",
      "names": [
       {
        "name": "Tata Steel",
        "dir": "up",
-       "line": "The draft targets 604 mt of capacity and 302 kg per-capita use by 2047"
+       "move": "+0.95% early",
+       "line": "The draft targets 604 mt of capacity and 45 mt of exports by 2047"
       }
      ],
      "src": {
@@ -46,14 +47,14 @@
      }
     },
     "down": {
-     "summary": "DMart is still down nearly 4% on margin worries after Q2",
-     "why": "Rising wage costs squeezed margins even as revenue grew 17.8%.",
+     "summary": "DMart is still under pressure on margin concerns after Q2",
+     "why": "Higher wage costs squeezed margins and several brokerages cut targets.",
      "names": [
       {
        "name": "DMart (Avenue Supermarts)",
        "dir": "down",
        "move": "-3.83%",
-       "line": "At ₹3,382.10 earlier; several brokerages cut targets after the margin dip"
+       "line": "Citi says Sell with a ₹3,300 target, HSBC says Reduce; UBS sees ₹5,000"
       }
      ],
      "src": {
@@ -66,27 +67,76 @@
  },
  "insights": [
   {
+   "key": "hospital-stocks",
+   "tag": "Regulation",
+   "impact": "watch",
+   "title": "SC hears the cancer-drug markup case today",
+   "line": "Hospital stocks are down 8–12% since September 22 on the court's scrutiny of drug markups",
+   "more": [
+    "The Solicitor General had sought two weeks to examine the matter",
+    "The court asked whether a uniform 16% margin should apply",
+    "Analysts call it mainly a sentiment hit so far"
+   ],
+   "src": {
+    "title": "Whalesbook: Supreme Court scrutiny on drug pricing hits hospital stocks",
+    "url": "https://www.whalesbook.com/news/English/healthcarebiotech/Supreme-Court-Scrutiny-on-Drug-Pricing-Hits-Hospital-Stocks/6abf537a5aacb956d0895f70"
+   },
+   "date": "2026-10-12",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1030"
+   }
+  },
+  {
    "key": "hcltech",
    "tag": "Results",
    "impact": "watch",
-   "title": "HCLTech reports after the bell; guidance in focus",
-   "line": "Street sees Q2 net profit of ~₹4,850–4,910 cr, vs ₹4,624 cr in Q1",
+   "title": "Kotak sees HCLTech's Q2 adjusted PAT at ₹4,901 cr",
+   "line": "Revenue growth, margins and whether the FY27 guidance changes are the key watch points",
    "more": [
-    "Management said in July it would revisit the outlook after this quarter",
-    "Deal wins and the interim dividend are also in focus"
+    "Q1 FY27 net profit was ₹4,624 cr, up 20.3% YoY",
+    "Results are due after market hours"
    ],
    "src": {
-    "title": "Zee Business: HCLTech Q2 results preview – revenue, profit likely to rise; 5 key factors to track",
-    "url": "https://www.zeebiz.com/market-news/news-hcltech-q2-results-preview-revenue-profit-likely-to-rise-5-key-factors-to-track-403668"
+    "title": "Kotak Neo: HCLTech Q2 results – revenue growth, margins and guidance in focus",
+    "url": "https://www.kotakneo.com/news/stocks/hcltech-q2-results-in-focus/"
    },
    "date": "2026-10-12",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": false,
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-12",
     "slot": "1030"
+   }
+  },
+  {
+   "key": "icici-pru-amc",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "ICICI Pru AMC is among today's Q2 reporters",
+   "line": "Q1 FY27 profit was ₹965 cr on revenue of ₹1,564 cr; a year ago, Q2 profit was ₹835 cr",
+   "more": [
+    "It is one of 18 companies reporting today",
+    "Figures are from a preview; check the filing"
+   ],
+   "src": {
+    "title": "Univest: ICICI Prudential AMC Q2 FY27 results preview",
+    "url": "https://univest.in/blogs/icici-prudential-amc-q2-results-fy27-preview-date-expectations"
+   },
+   "date": "2026-10-12",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "1100"
    }
   },
   {
@@ -107,7 +157,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-12",
     "slot": "1030"
@@ -131,7 +181,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1130"
@@ -306,30 +356,6 @@
    "first_seen": {
     "date": "2026-10-12",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "hospital-stocks",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "SC hears the cancer-drug markup case today",
-   "line": "The hearing follows the government's plan to cap trade margins at 30% of MRP",
-   "more": [
-    "Hospital stocks rallied 2–5% on Friday as analysts saw a limited hit",
-    "Pharma was among Friday's weaker sectors"
-   ],
-   "src": {
-    "title": "Business Today: Cancer drugs may get cheaper as govt set to cap trade margins at 30%",
-    "url": "https://www.businesstoday.in/industry/pharma/story/cancer-drugs-may-get-cheaper-as-govt-set-to-cap-trade-margins-at-30-560489-2026-10-08"
-   },
-   "date": "2026-10-12",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1030"
    }
   },
   {
