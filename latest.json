@@ -1,55 +1,55 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-12T12:03:52+05:30",
+ "generated_at": "2026-10-12T12:33:15+05:30",
  "date": "2026-10-12",
- "slot": "1200",
- "slot_label": "12:00",
+ "slot": "1230",
+ "slot_label": "12:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-12T12:00:00+05:30",
+ "asof": "2026-10-12T12:30:00+05:30",
  "nifty": {
-  "value": 22487,
-  "pct": -0.15,
-  "chg": -33.5,
+  "value": 22369.3,
+  "pct": -0.67,
+  "chg": -151.15,
   "approx": true
  },
  "mood": {
-  "label": "Weak, steel bid",
-  "score": -0.2,
-  "summary": "The market is in mild risk-off mode at midday, with the Nifty just below 22,500 and losers outnumbering gainers. Steel and autos are the only pockets of real strength.",
+  "label": "Risk-off builds",
+  "score": -0.45,
+  "summary": "Selling has broadened into the afternoon: the Nifty is down about 0.7% below 22,400, the Sensex is 900 points off its high, and volatility is jumping. Midcaps and smallcaps are roughly flat.",
   "detail": {
    "leaders": "Steel (Nifty Metal, JSW Steel, Tata Steel)",
    "laggards": "DMart",
-   "tone": "A touch better than the 11 am low (Nifty 22,429.25): Angel One has the Nifty down about 0.15% at midday after an intraday low of 22,472.15. Tech Mahindra, Bharti Airtel, ITC and SBI are the main drags; Bajaj Auto leads the gainers.",
+   "tone": "Sharply weaker than 12:00: at 12 pm the Sensex was 71,904.27 (-568) and the Nifty 22,369.30 (-0.67%), and India VIX is up about 7%. Tech Mahindra (-4.5%), ITC and SBI are the top Sensex losers.",
    "watch": [
-    "Whether the Nifty reclaims 22,500",
-    "HCLTech's results after the bell",
-    "Rupee holding its RBI-driven gains"
+    "Whether the Nifty holds 22,350",
+    "India VIX after its 7% jump",
+    "HCLTech's results after the bell"
    ],
    "src": {
-    "title": "Angel One: Nifty 50 drops below 22,500 in intraday trade on October 12, 2026",
-    "url": "https://www.angelone.in/news/market-updates/nifty-50-index-drops-below-22-500-mark-in-intraday-trade-on-october-12-2026"
+    "title": "Business Standard: Stock Market LIVE – Sensex down 500 pts, Nifty below 22,400; Nifty PSU Bank down 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-12-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-126101200057_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Steel stocks lead, with Nifty Metal up over 1% on the draft steel policy",
-     "why": "The draft National Steel Policy 2047 points to near-tripling of capacity, implying decades of demand growth.",
+     "summary": "Steel stocks are the main pocket of strength on the draft policy",
+     "why": "The draft National Steel Policy 2047 implies capacity rising to 604 mt from 220 mt.",
      "names": [
       {
        "name": "Nifty Metal",
        "dir": "up",
        "move": "+1.2% early",
-       "line": "Steelmakers lead the index on the draft policy's 604 mt capacity target"
+       "line": "Steelmakers lead the index on the draft policy's long-term demand targets"
       },
       {
        "name": "JSW Steel",
        "dir": "up",
        "move": "+1.59% early",
-       "line": "BofA names it a top pick to ride long-term growth in steel consumption"
+       "line": "BofA names it a top pick to benefit from rising steel consumption"
       },
       {
        "name": "Tata Steel",
        "dir": "up",
-       "line": "Among the top Nifty gainers at midday as steelmakers rally"
+       "line": "Among the Nifty gainers as the steel pack rallies"
       }
      ],
      "src": {
@@ -58,14 +58,14 @@
      }
     },
     "down": {
-     "summary": "DMart is still among the weakest names after its Q2 margin dip",
-     "why": "Wage-led cost increases cut margins, prompting several brokerages to lower targets.",
+     "summary": "DMart remains a weak spot after its Q2 margin squeeze",
+     "why": "Wage-led cost increases cut margins, and several brokerages trimmed targets.",
      "names": [
       {
        "name": "DMart (Avenue Supermarts)",
        "dir": "down",
        "move": "-3.83%",
-       "line": "EBITDA margin fell 28 bps; JPMorgan, Jefferies and Morgan Stanley cut targets"
+       "line": "EBITDA margin fell 28 bps YoY; Citi has a Sell call with a ₹3,300 target"
       }
      ],
      "src": {
@@ -77,6 +77,78 @@
   }
  },
  "insights": [
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "Foreign selling outweighs domestic positives",
+   "line": "Geojit's VK Vijayakumar says external headwinds are swamping domestic support",
+   "more": [
+    "FIIs have sold for 11 straight sessions",
+    "The RBI's rupee measures failed to keep the early rally going"
+   ],
+   "src": {
+    "title": "Business Today: Stock market today – why Sensex, Nifty are falling",
+    "url": "https://www.businesstoday.in/markets/stocks/story/stock-market-today-why-sensex-nifty-are-falling-560963-2026-10-12"
+   },
+   "date": "2026-10-12",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-02",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "High US yields keep pressure on EMs",
+   "line": "The US 10-year crossed 5.35% last week, its highest intraday level since 2002",
+   "more": [
+    "Fed minutes hinted at another hike before year-end",
+    "BusinessToday lists high US yields among today's drags"
+   ],
+   "src": {
+    "title": "Outlook Money: Why the stock market fell (Oct 8) – FPI selling, crude oil, US yields",
+    "url": "https://www.outlookmoney.com/invest/why-stock-market-fell-today-sensex-nifty-crash-fpi-selling-crude-oil-us-yields"
+   },
+   "date": "2026-10-12",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Crude near $105 keeps pressure on",
+   "line": "Crude around $104.78 keeps inflation and current-account worries alive",
+   "more": [
+    "BusinessToday cites elevated crude among today's main drags",
+    "Analysts flagged weekend attacks on Saudi infrastructure"
+   ],
+   "src": {
+    "title": "Goodreturns: Sensex falls over 900 pts from day's high, Nifty below 22,400 as India VIX jumps 7%",
+    "url": "https://goodreturns.in/news/stock-market-crash-today-sensex-falls-over-900-pts-from-day-high-nifty-slips-below-22400-india-vix-1540753.html"
+   },
+   "date": "2026-10-12",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-02",
+    "slot": "pre"
+   }
+  },
   {
    "key": "steel-policy",
    "tag": "Policy",
@@ -96,7 +168,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-12",
     "slot": "pre"
@@ -121,7 +193,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1100"
@@ -145,34 +217,10 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-12",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Oil cools on a Russia-Ukraine 'energy ceasefire'",
-   "line": "MCX crude fell 2.22% at the open after Trump announced an energy ceasefire",
-   "more": [
-    "Analysts warn weekend attacks on Saudi infrastructure could revive oil",
-    "A renewed rise in crude would test the rupee's rebound"
-   ],
-   "src": {
-    "title": "HDFC Sky: Sensex, Nifty flat as RBI rupee curbs kick in; oil cools on energy ceasefire",
-    "url": "https://hdfcsky.com/news/bse-nse-sensex-october-12-2026-open-report-sensex-nifty-flat-as-rbi-rupee-curbs-kick-in-oil-cools-on-energy-ceasefire"
-   },
-   "date": "2026-10-12",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-02",
-    "slot": "pre"
    }
   },
   {
@@ -342,31 +390,6 @@
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "FIIs sold ₹3,569 cr on Friday, 11th day running",
-   "line": "DIIs bought ₹4,743 cr, more than absorbing the foreign selling",
-   "more": [
-    "DIIs have been net buyers for 31 straight sessions",
-    "Friday's foreign selling was well below Thursday's ₹12,944 cr",
-    "Figures are provisional"
-   ],
-   "src": {
-    "title": "Quantsapp: FII DII data (9 Oct)",
-    "url": "https://www.quantsapp.com/fii-dii"
-   },
-   "date": "2026-10-12",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-02",
-    "slot": "pre"
    }
   },
   {
@@ -1160,31 +1183,6 @@
    "slot": "1000",
    "when": "Thu · 10:00",
    "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "us-yields",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "US 10-year yield brushes 5.36%",
-   "line": "Treasury yield spike pressured Asia after Wall Street slipped from records",
-   "more": [
-    "Yield briefly touched 5.36% before settling near 5.28%",
-    "Asian shares fell in early trade",
-    "High US yields add to pressure for FII outflows"
-   ],
-   "src": {
-    "title": "India TV: 8 October 2026 stock market updates – Sensex, Nifty flat after RBI's repo rate hike, Paytm falls 7%",
-    "url": "https://www.indiatvnews.com/business/markets/8-october-2026-stock-market-updates-sensex-nifty-flat-after-rbi-s-repo-rate-hike-paytm-falls-7-2026-10-08-1056387"
-   },
-   "date": "2026-10-08",
-   "slot": "0930",
-   "when": "Thu · 9:30",
-   "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
