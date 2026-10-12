@@ -1,0 +1,156 @@
+{
+ "asof": "2026-10-12T13:00:00+05:30",
+ "summary": "The market is stuck near its lows into the afternoon, with the Nifty down about 0.7% and volatility elevated. Metals and autos are outperforming, and the broader market is flat.",
+ "mood": {
+  "label": "Pinned near lows",
+  "score": -0.4,
+  "detail": {
+   "stats": [],
+   "leaders": "Steel (Nifty Metal, SAIL, Tata Steel)",
+   "laggards": "DMart",
+   "movers": {
+    "up": {
+     "summary": "Steel stocks keep outperforming, led by SAIL, on the draft steel policy",
+     "why": "The draft National Steel Policy 2047 targets 604 mt of capacity, signalling long-term demand growth for producers.",
+     "names": [
+      {
+       "name": "Nifty Metal",
+       "move": "+1.05%",
+       "dir": "up",
+       "line": "At 12,127.15 in early trade, led by steelmakers on the policy draft"
+      },
+      {
+       "name": "SAIL",
+       "move": "+3.35%",
+       "dir": "up",
+       "line": "At ₹177.25 by late morning, the top steel gainer on the policy draft"
+      },
+      {
+       "name": "Tata Steel",
+       "move": "+0.55%",
+       "dir": "up",
+       "line": "At ₹174.55 late morning, holding gains as the steel pack rallies"
+      }
+     ],
+     "src": {
+      "title": "Business Today: SAIL, HZL, Jindal Steel, Tata Steel, Nalco, Hindalco jump up to 3%; top stock pick",
+      "url": "https://www.businesstoday.in/markets/stocks/story/sail-hindustan-zinc-jindal-steel-tata-steel-nalco-hindalco-shares-jump-up-to-3-top-stock-pick-560941-2026-10-12"
+     }
+    },
+    "down": {
+     "summary": "DMart remains a weak spot after its Q2 margin squeeze",
+     "why": "Wage-led cost increases cut margins, and several brokerages trimmed targets.",
+     "names": [
+      {
+       "name": "DMart (Avenue Supermarts)",
+       "move": "-3.83%",
+       "dir": "down",
+       "line": "EBITDA margin fell 28 bps YoY; JPMorgan, Jefferies and Elara cut targets"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: DMart stock down 3% – why brokerages are mixed after Q2",
+      "url": "https://www.business-standard.com/markets/news/dmart-stock-down-over-3-after-q2fy27-result-draws-mixed-brokerage-views-126101200102_1.html"
+     }
+    }
+   },
+   "tone": "No real recovery from 12:30: the latest print is the 12 pm Nifty at 22,369.30 (-0.67%). India VIX was up over 7% as frontline stocks wiped out the opening gains.",
+   "watch": [
+    "Whether the Nifty holds 22,350",
+    "India VIX staying above 15",
+    "HCLTech results and guidance after the bell"
+   ],
+   "src": {
+    "title": "Goodreturns: Sensex falls over 900 pts from day's high, Nifty below 22,400 as India VIX jumps 7%",
+    "url": "https://goodreturns.in/news/stock-market-crash-today-sensex-falls-over-900-pts-from-day-high-nifty-slips-below-22400-india-vix-1540753.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 22369.3,
+  "pct": -0.67,
+  "chg": -151.15,
+  "approx": true
+ },
+ "top": [
+  {
+   "key": "hcltech",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "HCLTech to revisit its 1–4% FY27 growth guidance",
+   "line": "The current outlook is 1–4% cc revenue growth and 17.5–18.5% EBIT margin",
+   "more": [
+    "Brokerages expect net profit up about 12% YoY",
+    "Management said in July it would revisit guidance after Q2"
+   ],
+   "src": {
+    "title": "Genvest: HCLTech Q2 FY27 results – date and what to watch",
+    "url": "https://www.genvest.ai/results/hcltech-q2-fy27"
+   }
+  },
+  {
+   "key": "steel-policy",
+   "tag": "Policy",
+   "impact": "pos",
+   "title": "Jefferies, BofA pick JSW Steel on draft policy",
+   "line": "Both brokerages name JSW Steel their top metals pick as the policy draft lifts the sector",
+   "more": [
+    "JSW Steel was up 0.71% at ₹1,177.25 late morning",
+    "The draft aims for 604 mt of crude steel capacity by 2047"
+   ],
+   "src": {
+    "title": "Business Today: SAIL, HZL, Jindal Steel, Tata Steel, Nalco, Hindalco jump up to 3%; top stock pick",
+    "url": "https://www.businesstoday.in/markets/stocks/story/sail-hindustan-zinc-jindal-steel-tata-steel-nalco-hindalco-shares-jump-up-to-3-top-stock-pick-560941-2026-10-12"
+   }
+  },
+  {
+   "key": "hospital-stocks",
+   "tag": "Regulation",
+   "impact": "watch",
+   "title": "Govt may seek more time in SC drug-markup case",
+   "line": "Today's outcome is uncertain; the Centre may ask for time to study drug prices",
+   "more": [
+    "The court has floated a uniform 16% trade margin",
+    "The Centre has already moved to cap cancer-drug margins at 30%"
+   ],
+   "src": {
+    "title": "Whalesbook: Government expands cancer-drug margin caps before Supreme Court hearing",
+    "url": "https://www.whalesbook.com/news/English/healthcarebiotech/Government-Expands-Cancer-Drug-Margin-Caps-Before-Supreme-Court-Hearing/6ac7695979a16deaeaea850f"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Business Standard: Stock Market LIVE – Sensex down 500 pts, Nifty below 22,400; Nifty PSU Bank down 1%",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-october-12-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-126101200057_1.html"
+  },
+  {
+   "title": "Business Today: SAIL, HZL, Jindal Steel, Tata Steel, Nalco, Hindalco jump up to 3%; top stock pick",
+   "url": "https://www.businesstoday.in/markets/stocks/story/sail-hindustan-zinc-jindal-steel-tata-steel-nalco-hindalco-shares-jump-up-to-3-top-stock-pick-560941-2026-10-12"
+  },
+  {
+   "title": "Outlook Money: National Steel Policy draft fuels rally in Tata Steel, JSW, SAIL; Nifty Metal up 1.2%",
+   "url": "https://www.outlookmoney.com/invest/national-steel-policy-draft-pulls-nifty-metal-steel-stocks-in-green"
+  },
+  {
+   "title": "Business Standard: DMart stock down 3% – why brokerages are mixed after Q2",
+   "url": "https://www.business-standard.com/markets/news/dmart-stock-down-over-3-after-q2fy27-result-draws-mixed-brokerage-views-126101200102_1.html"
+  },
+  {
+   "title": "HDFC Sky: India VIX rises 4.31% to 15.16 despite market gains",
+   "url": "https://hdfcsky.com/news/indias-vix-index-rises-by-4-31percent-despite-rupee-appreciation-and-decline-in-crude-oil-prices-october-12-2026"
+  },
+  {
+   "title": "Goodreturns: Sensex falls over 900 pts from day's high, Nifty below 22,400 as India VIX jumps 7%",
+   "url": "https://goodreturns.in/news/stock-market-crash-today-sensex-falls-over-900-pts-from-day-high-nifty-slips-below-22400-india-vix-1540753.html"
+  },
+  {
+   "title": "Genvest: HCLTech Q2 FY27 results – date and what to watch",
+   "url": "https://www.genvest.ai/results/hcltech-q2-fy27"
+  },
+  {
+   "title": "Whalesbook: Government expands cancer-drug margin caps before Supreme Court hearing",
+   "url": "https://www.whalesbook.com/news/English/healthcarebiotech/Government-Expands-Cancer-Drug-Margin-Caps-Before-Supreme-Court-Hearing/6ac7695979a16deaeaea850f"
+  }
+ ]
+}

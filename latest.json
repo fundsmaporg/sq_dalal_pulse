@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-12T12:33:15+05:30",
+ "generated_at": "2026-10-12T13:03:18+05:30",
  "date": "2026-10-12",
- "slot": "1230",
- "slot_label": "12:30",
+ "slot": "1300",
+ "slot_label": "13:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-12T12:30:00+05:30",
+ "asof": "2026-10-12T13:00:00+05:30",
  "nifty": {
   "value": 22369.3,
   "pct": -0.67,
@@ -13,48 +13,49 @@
   "approx": true
  },
  "mood": {
-  "label": "Risk-off builds",
-  "score": -0.45,
-  "summary": "Selling has broadened into the afternoon: the Nifty is down about 0.7% below 22,400, the Sensex is 900 points off its high, and volatility is jumping. Midcaps and smallcaps are roughly flat.",
+  "label": "Pinned near lows",
+  "score": -0.4,
+  "summary": "The market is stuck near its lows into the afternoon, with the Nifty down about 0.7% and volatility elevated. Metals and autos are outperforming, and the broader market is flat.",
   "detail": {
-   "leaders": "Steel (Nifty Metal, JSW Steel, Tata Steel)",
+   "leaders": "Steel (Nifty Metal, SAIL, Tata Steel)",
    "laggards": "DMart",
-   "tone": "Sharply weaker than 12:00: at 12 pm the Sensex was 71,904.27 (-568) and the Nifty 22,369.30 (-0.67%), and India VIX is up about 7%. Tech Mahindra (-4.5%), ITC and SBI are the top Sensex losers.",
+   "tone": "No real recovery from 12:30: the latest print is the 12 pm Nifty at 22,369.30 (-0.67%). India VIX was up over 7% as frontline stocks wiped out the opening gains.",
    "watch": [
     "Whether the Nifty holds 22,350",
-    "India VIX after its 7% jump",
-    "HCLTech's results after the bell"
+    "India VIX staying above 15",
+    "HCLTech results and guidance after the bell"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex down 500 pts, Nifty below 22,400; Nifty PSU Bank down 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-12-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-126101200057_1.html"
+    "title": "Goodreturns: Sensex falls over 900 pts from day's high, Nifty below 22,400 as India VIX jumps 7%",
+    "url": "https://goodreturns.in/news/stock-market-crash-today-sensex-falls-over-900-pts-from-day-high-nifty-slips-below-22400-india-vix-1540753.html"
    },
    "movers": {
     "up": {
-     "summary": "Steel stocks are the main pocket of strength on the draft policy",
-     "why": "The draft National Steel Policy 2047 implies capacity rising to 604 mt from 220 mt.",
+     "summary": "Steel stocks keep outperforming, led by SAIL, on the draft steel policy",
+     "why": "The draft National Steel Policy 2047 targets 604 mt of capacity, signalling long-term demand growth for producers.",
      "names": [
       {
        "name": "Nifty Metal",
        "dir": "up",
-       "move": "+1.2% early",
-       "line": "Steelmakers lead the index on the draft policy's long-term demand targets"
+       "move": "+1.05%",
+       "line": "At 12,127.15 in early trade, led by steelmakers on the policy draft"
       },
       {
-       "name": "JSW Steel",
+       "name": "SAIL",
        "dir": "up",
-       "move": "+1.59% early",
-       "line": "BofA names it a top pick to benefit from rising steel consumption"
+       "move": "+3.35%",
+       "line": "At ₹177.25 by late morning, the top steel gainer on the policy draft"
       },
       {
        "name": "Tata Steel",
        "dir": "up",
-       "line": "Among the Nifty gainers as the steel pack rallies"
+       "move": "+0.55%",
+       "line": "At ₹174.55 late morning, holding gains as the steel pack rallies"
       }
      ],
      "src": {
-      "title": "Outlook Money: National Steel Policy draft fuels rally in Tata Steel, JSW, SAIL; Nifty Metal up 1.2%",
-      "url": "https://www.outlookmoney.com/invest/national-steel-policy-draft-pulls-nifty-metal-steel-stocks-in-green"
+      "title": "Business Today: SAIL, HZL, Jindal Steel, Tata Steel, Nalco, Hindalco jump up to 3%; top stock pick",
+      "url": "https://www.businesstoday.in/markets/stocks/story/sail-hindustan-zinc-jindal-steel-tata-steel-nalco-hindalco-shares-jump-up-to-3-top-stock-pick-560941-2026-10-12"
      }
     },
     "down": {
@@ -65,7 +66,7 @@
        "name": "DMart (Avenue Supermarts)",
        "dir": "down",
        "move": "-3.83%",
-       "line": "EBITDA margin fell 28 bps YoY; Citi has a Sell call with a ₹3,300 target"
+       "line": "EBITDA margin fell 28 bps YoY; JPMorgan, Jefferies and Elara cut targets"
       }
      ],
      "src": {
@@ -77,6 +78,78 @@
   }
  },
  "insights": [
+  {
+   "key": "hcltech",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "HCLTech to revisit its 1–4% FY27 growth guidance",
+   "line": "The current outlook is 1–4% cc revenue growth and 17.5–18.5% EBIT margin",
+   "more": [
+    "Brokerages expect net profit up about 12% YoY",
+    "Management said in July it would revisit guidance after Q2"
+   ],
+   "src": {
+    "title": "Genvest: HCLTech Q2 FY27 results – date and what to watch",
+    "url": "https://www.genvest.ai/results/hcltech-q2-fy27"
+   },
+   "date": "2026-10-12",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "steel-policy",
+   "tag": "Policy",
+   "impact": "pos",
+   "title": "Jefferies, BofA pick JSW Steel on draft policy",
+   "line": "Both brokerages name JSW Steel their top metals pick as the policy draft lifts the sector",
+   "more": [
+    "JSW Steel was up 0.71% at ₹1,177.25 late morning",
+    "The draft aims for 604 mt of crude steel capacity by 2047"
+   ],
+   "src": {
+    "title": "Business Today: SAIL, HZL, Jindal Steel, Tata Steel, Nalco, Hindalco jump up to 3%; top stock pick",
+    "url": "https://www.businesstoday.in/markets/stocks/story/sail-hindustan-zinc-jindal-steel-tata-steel-nalco-hindalco-shares-jump-up-to-3-top-stock-pick-560941-2026-10-12"
+   },
+   "date": "2026-10-12",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "hospital-stocks",
+   "tag": "Regulation",
+   "impact": "watch",
+   "title": "Govt may seek more time in SC drug-markup case",
+   "line": "Today's outcome is uncertain; the Centre may ask for time to study drug prices",
+   "more": [
+    "The court has floated a uniform 16% trade margin",
+    "The Centre has already moved to cap cancer-drug margins at 30%"
+   ],
+   "src": {
+    "title": "Whalesbook: Government expands cancer-drug margin caps before Supreme Court hearing",
+    "url": "https://www.whalesbook.com/news/English/healthcarebiotech/Government-Expands-Cancer-Drug-Margin-Caps-Before-Supreme-Court-Hearing/6ac7695979a16deaeaea850f"
+   },
+   "date": "2026-10-12",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1030"
+   }
+  },
   {
    "key": "fii-flows",
    "tag": "Flows",
@@ -95,7 +168,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-02",
     "slot": "pre"
@@ -119,7 +192,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "0930"
@@ -143,34 +216,9 @@
    "slot": "1230",
    "when": "12:30",
    "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-02",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "steel-policy",
-   "tag": "Policy",
-   "impact": "pos",
-   "title": "Draft steel policy sees capacity near tripling",
-   "line": "The Vision 2047 draft lifts capacity from 220 mt to 604 mt and demand to 505 mt",
-   "more": [
-    "Finished steel consumption was 164 mt in FY26",
-    "Released by the Steel Ministry on October 11 for consultation",
-    "BofA picks JSW Steel as the top beneficiary"
-   ],
-   "src": {
-    "title": "Business Today: SAIL, HZL, Jindal Steel, Tata Steel, Nalco, Hindalco jump up to 3%; top stock pick",
-    "url": "https://www.businesstoday.in/markets/stocks/story/sail-hindustan-zinc-jindal-steel-tata-steel-nalco-hindalco-shares-jump-up-to-3-top-stock-pick-560941-2026-10-12"
-   },
-   "date": "2026-10-12",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-12",
+    "date": "2026-10-02",
     "slot": "pre"
    }
   },
@@ -200,30 +248,6 @@
    }
   },
   {
-   "key": "hcltech",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "HCLTech seen posting double-digit Q2 growth",
-   "line": "Revenue and profit are expected to rise in double digits YoY; results are due after hours",
-   "more": [
-    "Guidance, deal wins and the interim dividend are the key watch points",
-    "Tech Mahindra is the top Nifty loser ahead of the numbers"
-   ],
-   "src": {
-    "title": "Upstox: HCL Tech Q2 – revenue, net profit may rise in double digits; focus on guidance, deal wins, interim dividend",
-    "url": "https://upstox.com/news/market-news/earnings/hcl-tech-q2-revenue-net-profit-may-rise-in-double-digits-key-focus-on-guidance-deal-wins-and-interim-dividend/article-201649/"
-   },
-   "date": "2026-10-12",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-12",
-    "slot": "1030"
-   }
-  },
-  {
    "key": "gallantt-ispat",
    "tag": "Stocks",
    "impact": "watch",
@@ -245,31 +269,6 @@
    "first_seen": {
     "date": "2026-10-12",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "hospital-stocks",
-   "tag": "Regulation",
-   "impact": "watch",
-   "title": "SC hears the cancer-drug markup case today",
-   "line": "Hospital stocks are down 8–12% since September 22 on the court's scrutiny of drug markups",
-   "more": [
-    "The Solicitor General had sought two weeks to examine the matter",
-    "The court asked whether a uniform 16% margin should apply",
-    "Analysts call it mainly a sentiment hit so far"
-   ],
-   "src": {
-    "title": "Whalesbook: Supreme Court scrutiny on drug pricing hits hospital stocks",
-    "url": "https://www.whalesbook.com/news/English/healthcarebiotech/Supreme-Court-Scrutiny-on-Drug-Pricing-Hits-Hospital-Stocks/6abf537a5aacb956d0895f70"
-   },
-   "date": "2026-10-12",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1030"
    }
   },
   {
