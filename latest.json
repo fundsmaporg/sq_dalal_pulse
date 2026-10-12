@@ -1,38 +1,38 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-12T14:03:05+05:30",
+ "generated_at": "2026-10-12T14:33:06+05:30",
  "date": "2026-10-12",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-12T14:00:00+05:30",
+ "asof": "2026-10-12T14:30:00+05:30",
  "nifty": {
-  "value": 22399,
-  "pct": -0.54,
-  "chg": -121.45,
+  "value": 22374.45,
+  "pct": -0.65,
+  "chg": -146.4,
   "approx": true
  },
  "mood": {
-  "label": "Heavy, off lows",
-  "score": -0.35,
-  "summary": "The market is clawing back a little but remains about 0.5% lower into mid-afternoon, with banks still the heaviest weight. Steel stocks continue to provide most of the support.",
+  "label": "Split market",
+  "score": -0.25,
+  "summary": "Large caps are stuck about 0.65% lower into the last hour as banks, IT and FMCG weigh, but smallcaps are up over 1%, so the broader market is firmer than the headline indices.",
   "detail": {
-   "leaders": "Steel (SAIL, Tata Steel)",
+   "leaders": "Steel (SAIL, Tata Steel); Bajaj Auto",
    "laggards": "Banks (Nifty Bank, SBI, ICICI Bank, PNB)",
-   "tone": "Slightly better than 13:30: a mid-session print has the Nifty at about 22,399 (-0.54%) and the Sensex near 71,974 (-0.69%), up from the 22,370s.",
+   "tone": "Little changed from 14:00: at 2 pm the Sensex was 71,921.75 (-551) and the Nifty 22,374.45 (-0.65%). The Nifty Smallcap is up 1.17%, a sharp contrast with the large caps.",
    "watch": [
-    "Bank stocks after Tuesday's ₹25,000 cr bond sale",
-    "Whether the Nifty holds 22,400",
-    "HCLTech results after the bell"
+    "Whether the Nifty holds 22,350 into the close",
+    "Smallcap strength holding",
+    "HCLTech results and guidance after the bell"
    ],
    "src": {
-    "title": "Trade Brains: Sensex & Nifty 50 live updates, 12 October – markets eye positive opening as RBI moves to support rupee",
-    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-12-october-markets-eye-positive-opening-as-rbi-moves-to-support-rupee-12667380"
+    "title": "Business Standard: Stock Market LIVE – Sensex slumps 700 pts, Nifty near 22,400; VIX jumps 7%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-12-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-126101200057_1.html"
    },
    "movers": {
     "up": {
-     "summary": "SAIL and Tata Steel lead the gainers on the draft steel policy",
-     "why": "The draft National Steel Policy 2047 targets 604 mt of capacity, nearly triple today's 220 mt.",
+     "summary": "Steelmakers and Bajaj Auto lead the gainers in a weak market",
+     "why": "The draft steel policy lifts metals, and easing geopolitical tensions are helping autos.",
      "names": [
       {
        "name": "SAIL",
@@ -44,16 +44,22 @@
        "name": "Tata Steel",
        "dir": "up",
        "move": "+1.48%",
-       "line": "At ₹176.38, among the Nifty's top gainers as the steel pack rallies"
+       "line": "At ₹176.38, among the top Nifty gainers as the steel pack rallies"
+      },
+      {
+       "name": "Bajaj Auto",
+       "dir": "up",
+       "move": "up 3%+",
+       "line": "Leads the Nifty gainers as Russia-Ukraine and Iran-Saudi tensions ease"
       }
      ],
      "src": {
-      "title": "Angel One: Nifty 50 drops below 22,500 in intraday trade on October 12, 2026",
-      "url": "https://www.angelone.in/news/market-updates/nifty-50-index-drops-below-22-500-mark-in-intraday-trade-on-october-12-2026"
+      "title": "Outlook Money: Sensex, Nifty choppy despite Russia-Ukraine ceasefire, Iran-Saudi talks easing tensions",
+      "url": "https://www.outlookmoney.com/invest/sensex-nifty-volatile-russia-ukraine-energy-ceasefire-iran-saudi-talks-stock-market-today"
      }
     },
     "down": {
-     "summary": "Banks remain the main drag after the RBI's daily CRR change",
+     "summary": "Banks remain the heaviest drag after the RBI's daily CRR change",
      "why": "From October 16, banks must keep 99% of required CRR daily, up from 90%, and a ₹25,000 cr bond sale will drain more liquidity.",
      "names": [
       {
@@ -78,7 +84,7 @@
        "name": "PNB",
        "dir": "down",
        "move": "-1.41%",
-       "line": "At ₹115.15, leading PSU Bank index losses"
+       "line": "At ₹115.15, among the top PSU Bank index losers"
       }
      ],
      "src": {
@@ -90,6 +96,79 @@
   }
  },
  "insights": [
+  {
+   "key": "hcltech",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "HCLTech seen posting 15–17% profit growth",
+   "line": "Street sees Q2 revenue of ₹34,900–35,300 cr, up 15–16% YoY; results due after hours",
+   "more": [
+    "The board will also consider a third interim dividend for FY27",
+    "Investors want an update on the HPE Telco and Jaspersoft deals",
+    "Current FY27 guidance is 1–4% cc revenue growth"
+   ],
+   "src": {
+    "title": "Upstox: HCL Tech Q2 – revenue, net profit may rise in double digits",
+    "url": "https://upstox.com/news/market-news/earnings/hcl-tech-q2-revenue-net-profit-may-rise-in-double-digits-key-focus-on-guidance-deal-wins-and-interim-dividend/article-201649/"
+   },
+   "date": "2026-10-12",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "reliance",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Reliance hits a fresh 52-week low of ₹1,160",
+   "line": "Its fourth straight decline takes the four-session loss to 4.58%",
+   "more": [
+    "It trades below its 5- to 200-day moving averages",
+    "The 52-week high is about ₹1,611"
+   ],
+   "src": {
+    "title": "MarketsMojo: Reliance Industries falls to 52-week low of ₹1,160.3 as sell-off deepens",
+    "url": "https://www.marketsmojo.com/news/stocks-in-action/reliance-industries-ltd-falls-to-52-week-low-of-rs11603-amid-market-downturn-4223098"
+   },
+   "date": "2026-10-12",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "geopolitics",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Ceasefire, Iran-Saudi talks ease tensions",
+   "line": "A Russia-Ukraine energy ceasefire and Iran-Saudi talks are helping sentiment, led by autos",
+   "more": [
+    "Auto stocks led sectoral gains early in the session",
+    "Banks, IT and FMCG kept the indices lower anyway"
+   ],
+   "src": {
+    "title": "Outlook Money: Sensex, Nifty choppy despite Russia-Ukraine ceasefire, Iran-Saudi talks easing tensions",
+    "url": "https://www.outlookmoney.com/invest/sensex-nifty-volatile-russia-ukraine-energy-ceasefire-iran-saudi-talks-stock-market-today"
+   },
+   "date": "2026-10-12",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "1430"
+   }
+  },
   {
    "key": "rbi-crr",
    "tag": "Policy",
@@ -108,7 +187,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-12",
     "slot": "1330"
@@ -132,7 +211,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1100"
@@ -156,7 +235,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-12",
     "slot": "1400"
@@ -208,30 +287,6 @@
    "first_seen": {
     "date": "2026-10-12",
     "slot": "1330"
-   }
-  },
-  {
-   "key": "hcltech",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "HCLTech to revisit its 1–4% FY27 growth guidance",
-   "line": "The current outlook is 1–4% cc revenue growth and 17.5–18.5% EBIT margin",
-   "more": [
-    "Brokerages expect net profit up about 12% YoY",
-    "Management said in July it would revisit guidance after Q2"
-   ],
-   "src": {
-    "title": "Genvest: HCLTech Q2 FY27 results – date and what to watch",
-    "url": "https://www.genvest.ai/results/hcltech-q2-fy27"
-   },
-   "date": "2026-10-12",
-   "slot": "1300",
-   "when": "13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-12",
-    "slot": "1030"
    }
   },
   {
