@@ -1,0 +1,178 @@
+{
+ "asof": "2026-10-12T13:30:00+05:30",
+ "summary": "The market is holding about 0.6% lower in a heavy afternoon session, with banks leading the decline. Metals are the main source of support, and the broader market is flat.",
+ "mood": {
+  "label": "Banks drag",
+  "score": -0.4,
+  "detail": {
+   "stats": [],
+   "leaders": "Steel (Nifty Metal, SAIL, Tata Steel)",
+   "laggards": "Banks (Nifty Bank, SBI, ICICI Bank); DMart",
+   "movers": {
+    "up": {
+     "summary": "Steel stocks keep outperforming, led by SAIL, on the draft steel policy",
+     "why": "The draft National Steel Policy 2047 targets 604 mt of capacity, signalling long-term demand growth.",
+     "names": [
+      {
+       "name": "Nifty Metal",
+       "move": "+1.05%",
+       "dir": "up",
+       "line": "At 12,127.15 in early trade, led by steelmakers on the policy draft"
+      },
+      {
+       "name": "SAIL",
+       "move": "+3.35%",
+       "dir": "up",
+       "line": "At ₹177.25 by late morning, the top steel gainer on the policy draft"
+      },
+      {
+       "name": "Tata Steel",
+       "move": "+0.55%",
+       "dir": "up",
+       "line": "At ₹174.55 late morning, holding gains as the steel pack rallies"
+      }
+     ],
+     "src": {
+      "title": "Business Today: SAIL, HZL, Jindal Steel, Tata Steel, Nalco, Hindalco jump up to 3%; top stock pick",
+      "url": "https://www.businesstoday.in/markets/stocks/story/sail-hindustan-zinc-jindal-steel-tata-steel-nalco-hindalco-shares-jump-up-to-3-top-stock-pick-560941-2026-10-12"
+     }
+    },
+    "down": {
+     "summary": "Banks are the biggest drag after the RBI tightened daily CRR rules; DMart is weak",
+     "why": "Banks must now hold 99% of required CRR every day, up from 90%, which drains liquidity and lifts funding costs.",
+     "names": [
+      {
+       "name": "Nifty Bank",
+       "move": "-0.83%",
+       "dir": "down",
+       "line": "At 54,798.25; Jefferies sees ₹40,000–80,000 cr drained from the system"
+      },
+      {
+       "name": "SBI",
+       "move": "-2.06%",
+       "dir": "down",
+       "line": "Weakest Bank Nifty stock, at ₹939.30, after the CRR change"
+      },
+      {
+       "name": "ICICI Bank",
+       "move": "-1.37%",
+       "dir": "down",
+       "line": "At ₹1,336.50 as tighter liquidity and higher G-sec yields hit treasury income"
+      },
+      {
+       "name": "DMart (Avenue Supermarts)",
+       "move": "-3.83%",
+       "dir": "down",
+       "line": "Q2 EBITDA margin fell 28 bps YoY; several brokerages cut targets"
+      }
+     ],
+     "src": {
+      "title": "Upstox: SBI, ICICI Bank, HDFC Bank drag Nifty Bank down 1%; why banking stocks are falling",
+      "url": "https://upstox.com/news/market-news/stocks/sbi-icici-bank-hdfc-bank-others-drag-nifty-bank-down-1-here-s-why-banking-stocks-are-falling-today/article-201678/"
+     }
+    }
+   },
+   "tone": "Little changed from 13:00: at 1 pm the Nifty was 22,373.80 (-0.65%) and later 22,377.75 (-0.63%). The Sensex is about 550 points lower, and India VIX is up.",
+   "watch": [
+    "Bank stocks stabilising after the CRR change",
+    "Whether the Nifty holds 22,350",
+    "HCLTech results after the bell"
+   ],
+   "src": {
+    "title": "IndiaIPO: Sensex slips 550 pts, Nifty below 22,400; PSU banks decline",
+    "url": "https://www.indiaipo.in/news/detail/sensex-today-stock-market-live-sensex-slips-550-pts-nifty-below-22400-psu-banks-decline-vix-j"
+   }
+  }
+ },
+ "nifty": {
+  "value": 22377.75,
+  "pct": -0.63,
+  "chg": -142.7,
+  "approx": true
+ },
+ "top": [
+  {
+   "key": "rbi-crr",
+   "tag": "Policy",
+   "impact": "neg",
+   "title": "RBI tightens daily CRR rule, banks slide",
+   "line": "Banks must keep 99% of required CRR every day, up from 90%; the 3% rate is unchanged",
+   "more": [
+    "Jefferies estimates ₹40,000–80,000 cr could be drained from the system",
+    "Nifty Bank fell 1% to an intraday low of 54,709.05"
+   ],
+   "src": {
+    "title": "Upstox: SBI, ICICI Bank, HDFC Bank drag Nifty Bank down 1%; why banking stocks are falling",
+    "url": "https://upstox.com/news/market-news/stocks/sbi-icici-bank-hdfc-bank-others-drag-nifty-bank-down-1-here-s-why-banking-stocks-are-falling-today/article-201678/"
+   }
+  },
+  {
+   "key": "gsec-yields",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "10-year G-sec yield hits a three-year high",
+   "line": "Higher bond yields add to bank funding costs and squeeze treasury profits",
+   "more": [
+    "Comes alongside the RBI's liquidity tightening",
+    "Tighter liquidity also raises banks' funding costs"
+   ],
+   "src": {
+    "title": "Kotak Neo: Nifty Bank falls 400 points as RBI tightens liquidity and bond yields hit a three-year high",
+    "url": "https://www.kotakneo.com/news/sectors/bank-nifty-falls-400-points-rbi-liquidity-measures-bond-yields-pressure-banks/"
+   }
+  },
+  {
+   "key": "mf-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Equity MF inflows jump 31% to ₹38,307 cr",
+   "line": "September SIP inflows hit a record ₹32,490 cr despite the weak market",
+   "more": [
+    "Smallcap funds led with ₹9,039 cr, then midcap funds with ₹7,835 cr",
+    "Industry AUM fell 5.1% MoM to ₹82.64 lakh cr on debt outflows"
+   ],
+   "src": {
+    "title": "Zee Business: AMFI September 2026 data – SIP inflows hit record ₹32,490 crore",
+    "url": "https://www.zeebiz.com/personal-finance/mutual-fund/news-amfi-september-data-2026-mf-aum-falls-51-mom-to-rs-8264-lakh-crore-sip-inflows-hit-record-rs-32490-crore-403757"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Business Standard: Stock Market LIVE – Sensex down 500 pts; equity fund inflow increases 31% in September",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-october-12-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-126101200057_1.html"
+  },
+  {
+   "title": "IndiaIPO: Sensex slips 550 pts, Nifty below 22,400; PSU banks decline",
+   "url": "https://www.indiaipo.in/news/detail/sensex-today-stock-market-live-sensex-slips-550-pts-nifty-below-22400-psu-banks-decline-vix-j"
+  },
+  {
+   "title": "Upstox: SBI, ICICI Bank, HDFC Bank drag Nifty Bank down 1%; why banking stocks are falling",
+   "url": "https://upstox.com/news/market-news/stocks/sbi-icici-bank-hdfc-bank-others-drag-nifty-bank-down-1-here-s-why-banking-stocks-are-falling-today/article-201678/"
+  },
+  {
+   "title": "Zee Business: Bank stocks fall – why SBI, ICICI, PNB, HDFC shares are falling",
+   "url": "https://www.zeebiz.com/market-news/news-bank-stocks-fall-why-sbi-icici-pnb-hdfc-others-shares-falling-403752"
+  },
+  {
+   "title": "Kotak Neo: Nifty Bank falls 400 points as RBI tightens liquidity and bond yields hit a three-year high",
+   "url": "https://www.kotakneo.com/news/sectors/bank-nifty-falls-400-points-rbi-liquidity-measures-bond-yields-pressure-banks/"
+  },
+  {
+   "title": "Business Today: SAIL, HZL, Jindal Steel, Tata Steel, Nalco, Hindalco jump up to 3%; top stock pick",
+   "url": "https://www.businesstoday.in/markets/stocks/story/sail-hindustan-zinc-jindal-steel-tata-steel-nalco-hindalco-shares-jump-up-to-3-top-stock-pick-560941-2026-10-12"
+  },
+  {
+   "title": "Business Standard: DMart stock down 3% – why brokerages are mixed after Q2",
+   "url": "https://www.business-standard.com/markets/news/dmart-stock-down-over-3-after-q2fy27-result-draws-mixed-brokerage-views-126101200102_1.html"
+  },
+  {
+   "title": "Zee Business: AMFI September 2026 data – SIP inflows hit record ₹32,490 crore",
+   "url": "https://www.zeebiz.com/personal-finance/mutual-fund/news-amfi-september-data-2026-mf-aum-falls-51-mom-to-rs-8264-lakh-crore-sip-inflows-hit-record-rs-32490-crore-403757"
+  },
+  {
+   "title": "Hans India: Equity funds inflow surges over 30% in September; AUM at ₹82.64 lakh crore",
+   "url": "https://www.thehansindia.com/business/equity-funds-inflow-surges-over-30-pc-in-september-industry-aum-at-rs-8264-lakh-crore-amfi-1131652"
+  }
+ ]
+}
