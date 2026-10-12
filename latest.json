@@ -1,45 +1,39 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-12T13:33:27+05:30",
+ "generated_at": "2026-10-12T14:03:05+05:30",
  "date": "2026-10-12",
- "slot": "1330",
- "slot_label": "13:30",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-12T13:30:00+05:30",
+ "asof": "2026-10-12T14:00:00+05:30",
  "nifty": {
-  "value": 22377.75,
-  "pct": -0.63,
-  "chg": -142.7,
+  "value": 22399,
+  "pct": -0.54,
+  "chg": -121.45,
   "approx": true
  },
  "mood": {
-  "label": "Banks drag",
-  "score": -0.4,
-  "summary": "The market is holding about 0.6% lower in a heavy afternoon session, with banks leading the decline. Metals are the main source of support, and the broader market is flat.",
+  "label": "Heavy, off lows",
+  "score": -0.35,
+  "summary": "The market is clawing back a little but remains about 0.5% lower into mid-afternoon, with banks still the heaviest weight. Steel stocks continue to provide most of the support.",
   "detail": {
-   "leaders": "Steel (Nifty Metal, SAIL, Tata Steel)",
-   "laggards": "Banks (Nifty Bank, SBI, ICICI Bank); DMart",
-   "tone": "Little changed from 13:00: at 1 pm the Nifty was 22,373.80 (-0.65%) and later 22,377.75 (-0.63%). The Sensex is about 550 points lower, and India VIX is up.",
+   "leaders": "Steel (SAIL, Tata Steel)",
+   "laggards": "Banks (Nifty Bank, SBI, ICICI Bank, PNB)",
+   "tone": "Slightly better than 13:30: a mid-session print has the Nifty at about 22,399 (-0.54%) and the Sensex near 71,974 (-0.69%), up from the 22,370s.",
    "watch": [
-    "Bank stocks stabilising after the CRR change",
-    "Whether the Nifty holds 22,350",
+    "Bank stocks after Tuesday's ₹25,000 cr bond sale",
+    "Whether the Nifty holds 22,400",
     "HCLTech results after the bell"
    ],
    "src": {
-    "title": "IndiaIPO: Sensex slips 550 pts, Nifty below 22,400; PSU banks decline",
-    "url": "https://www.indiaipo.in/news/detail/sensex-today-stock-market-live-sensex-slips-550-pts-nifty-below-22400-psu-banks-decline-vix-j"
+    "title": "Trade Brains: Sensex & Nifty 50 live updates, 12 October – markets eye positive opening as RBI moves to support rupee",
+    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-12-october-markets-eye-positive-opening-as-rbi-moves-to-support-rupee-12667380"
    },
    "movers": {
     "up": {
-     "summary": "Steel stocks keep outperforming, led by SAIL, on the draft steel policy",
-     "why": "The draft National Steel Policy 2047 targets 604 mt of capacity, signalling long-term demand growth.",
+     "summary": "SAIL and Tata Steel lead the gainers on the draft steel policy",
+     "why": "The draft National Steel Policy 2047 targets 604 mt of capacity, nearly triple today's 220 mt.",
      "names": [
-      {
-       "name": "Nifty Metal",
-       "dir": "up",
-       "move": "+1.05%",
-       "line": "At 12,127.15 in early trade, led by steelmakers on the policy draft"
-      },
       {
        "name": "SAIL",
        "dir": "up",
@@ -49,47 +43,47 @@
       {
        "name": "Tata Steel",
        "dir": "up",
-       "move": "+0.55%",
-       "line": "At ₹174.55 late morning, holding gains as the steel pack rallies"
+       "move": "+1.48%",
+       "line": "At ₹176.38, among the Nifty's top gainers as the steel pack rallies"
       }
      ],
      "src": {
-      "title": "Business Today: SAIL, HZL, Jindal Steel, Tata Steel, Nalco, Hindalco jump up to 3%; top stock pick",
-      "url": "https://www.businesstoday.in/markets/stocks/story/sail-hindustan-zinc-jindal-steel-tata-steel-nalco-hindalco-shares-jump-up-to-3-top-stock-pick-560941-2026-10-12"
+      "title": "Angel One: Nifty 50 drops below 22,500 in intraday trade on October 12, 2026",
+      "url": "https://www.angelone.in/news/market-updates/nifty-50-index-drops-below-22-500-mark-in-intraday-trade-on-october-12-2026"
      }
     },
     "down": {
-     "summary": "Banks are the biggest drag after the RBI tightened daily CRR rules; DMart is weak",
-     "why": "Banks must now hold 99% of required CRR every day, up from 90%, which drains liquidity and lifts funding costs.",
+     "summary": "Banks remain the main drag after the RBI's daily CRR change",
+     "why": "From October 16, banks must keep 99% of required CRR daily, up from 90%, and a ₹25,000 cr bond sale will drain more liquidity.",
      "names": [
       {
        "name": "Nifty Bank",
        "dir": "down",
-       "move": "-0.83%",
-       "line": "At 54,798.25; Jefferies sees ₹40,000–80,000 cr drained from the system"
+       "move": "-0.85%",
+       "line": "At 54,786.20 late morning, falling nearly 500 points at worst"
       },
       {
        "name": "SBI",
        "dir": "down",
-       "move": "-2.06%",
-       "line": "Weakest Bank Nifty stock, at ₹939.30, after the CRR change"
+       "move": "-1.94%",
+       "line": "At ₹939.55, the weakest bank heavyweight after the liquidity tightening"
       },
       {
        "name": "ICICI Bank",
        "dir": "down",
-       "move": "-1.37%",
-       "line": "At ₹1,336.50 as tighter liquidity and higher G-sec yields hit treasury income"
+       "move": "-1.26%",
+       "line": "At ₹1,337; Jefferies sees some NIM impact, though it can be passed on"
       },
       {
-       "name": "DMart (Avenue Supermarts)",
+       "name": "PNB",
        "dir": "down",
-       "move": "-3.83%",
-       "line": "Q2 EBITDA margin fell 28 bps YoY; several brokerages cut targets"
+       "move": "-1.41%",
+       "line": "At ₹115.15, leading PSU Bank index losses"
       }
      ],
      "src": {
-      "title": "Upstox: SBI, ICICI Bank, HDFC Bank drag Nifty Bank down 1%; why banking stocks are falling",
-      "url": "https://upstox.com/news/market-news/stocks/sbi-icici-bank-hdfc-bank-others-drag-nifty-bank-down-1-here-s-why-banking-stocks-are-falling-today/article-201678/"
+      "title": "Moneycontrol via TradingView: Bank Nifty slides nearly 500 points as RBI liquidity measures, rising bond yields weigh",
+      "url": "https://www.tradingview.com/news/moneycontrol:248b8f8f3094b:0-bank-nifty-slides-nearly-500-points-as-rbi-liquidity-measures-rising-bond-yields-weigh-on-bank-stocks/"
      }
     }
    }
@@ -100,24 +94,72 @@
    "key": "rbi-crr",
    "tag": "Policy",
    "impact": "neg",
-   "title": "RBI tightens daily CRR rule, banks slide",
-   "line": "Banks must keep 99% of required CRR every day, up from 90%; the 3% rate is unchanged",
+   "title": "CRR change kicks in Oct 16; bond sale Tuesday",
+   "line": "RBI will also sell ₹25,000 cr of government bonds on Tuesday, draining more liquidity",
    "more": [
-    "Jefferies estimates ₹40,000–80,000 cr could be drained from the system",
-    "Nifty Bank fell 1% to an intraday low of 54,709.05"
+    "Banks must keep 99% of required CRR daily, up from 90%",
+    "Jefferies sees some margin impact but expects it to be passed on to borrowers"
    ],
    "src": {
-    "title": "Upstox: SBI, ICICI Bank, HDFC Bank drag Nifty Bank down 1%; why banking stocks are falling",
-    "url": "https://upstox.com/news/market-news/stocks/sbi-icici-bank-hdfc-bank-others-drag-nifty-bank-down-1-here-s-why-banking-stocks-are-falling-today/article-201678/"
+    "title": "Moneycontrol via TradingView: Bank Nifty slides nearly 500 points as RBI liquidity measures, rising bond yields weigh",
+    "url": "https://www.tradingview.com/news/moneycontrol:248b8f8f3094b:0-bank-nifty-slides-nearly-500-points-as-rbi-liquidity-measures-rising-bond-yields-weigh-on-bank-stocks/"
    },
    "date": "2026-10-12",
-   "slot": "1330",
-   "when": "13:30",
-   "updated": false,
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-12",
     "slot": "1330"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee holds gains near 95.69 per dollar",
+   "line": "The currency is holding most of the morning's RBI-driven rebound",
+   "more": [
+    "It opened about 1% stronger near 95.76",
+    "Friday's close was about 96.73"
+   ],
+   "src": {
+    "title": "Trade Brains: Sensex & Nifty 50 live updates, 12 October – markets eye positive opening as RBI moves to support rupee",
+    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-12-october-markets-eye-positive-opening-as-rbi-moves-to-support-rupee-12667380"
+   },
+   "date": "2026-10-12",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "dr-reddys",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Dr Reddy's among the few pharma gainers",
+   "line": "Up 1.57% as Panacea Biotech and Aurobindo Pharma also edge higher",
+   "more": [
+    "Among the Nifty gainers alongside Bajaj Auto and M&M",
+    "No stock-specific trigger reported"
+   ],
+   "src": {
+    "title": "Business Upturn: Pharma sector stocks today, Oct 12 – Dr Reddy's gains 1.57%",
+    "url": "https://businessupturn.com/finance/stock-market/pharma-sector-stocks-today-october-12-dr-reddys-laboratories-gains-1-57-panacea-biotech-rises-1-03-aurobindo-pharma-up-0-35"
+   },
+   "date": "2026-10-12",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "1400"
    }
   },
   {
@@ -138,7 +180,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-12",
     "slot": "1330"
@@ -162,7 +204,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-12",
     "slot": "1330"
@@ -310,31 +352,6 @@
    "first_seen": {
     "date": "2026-10-02",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "RBI's oil window may divert $11–12 bn a month",
-   "line": "Emkay estimates that much monthly dollar demand could move off the spot market",
-   "more": [
-    "The rupee opened about 1% stronger near 95.76",
-    "Analysts say the measures buy time, but structural steps are needed",
-    "The rupee had neared a record low around 97 last week"
-   ],
-   "src": {
-    "title": "Zee Business: Rupee jumps 97 paise after RBI's dollar move – temporary relief rally?",
-    "url": "https://www.zeebiz.com/market-news/news-usd-vs-inr-rupee-jumps-97-paise-after-rbis-dollar-move-is-this-temporary-relief-rally-403749"
-   },
-   "date": "2026-10-12",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1100"
    }
   },
   {
