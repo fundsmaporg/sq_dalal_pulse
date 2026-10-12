@@ -1,43 +1,43 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-12T10:03:16+05:30",
+ "generated_at": "2026-10-12T10:35:28+05:30",
  "date": "2026-10-12",
- "slot": "1000",
- "slot_label": "10:00",
- "stage": "Opening mood",
- "asof": "2026-10-12T10:00:00+05:30",
+ "slot": "1030",
+ "slot_label": "10:30",
+ "stage": "Mid-market mood",
+ "asof": "2026-10-12T10:30:00+05:30",
  "nifty": {
-  "value": 22514.75,
-  "pct": -0.03,
-  "chg": -5.7,
+  "value": 22500,
+  "pct": -0.09,
+  "chg": -20.45,
   "approx": true
  },
  "mood": {
-  "label": "Gains fade",
-  "score": -0.05,
-  "summary": "The opening gains have evaporated: the Sensex has slipped into the red, about 600 points off its high, as banks, IT and FMCG turn lower. Autos and media are still holding up.",
+  "label": "Drifting lower",
+  "score": -0.15,
+  "summary": "The market has slipped into the red, with the Nifty just below 22,500 and the Sensex down about 200 points. PSU banks lead the decline, while autos and media still offer some support.",
   "detail": {
    "leaders": "Steel (Tata Steel)",
    "laggards": "DMart",
-   "tone": "Weaker than 09:30: at 10 am the Sensex was 72,333.32 (-139) and the Nifty 22,514.75, roughly flat. PSU banks are the weakest sector, while auto and media lead.",
+   "tone": "Weaker than 10:00, when the Nifty was flat at 22,514.75. PNB, SBI and Canara Bank are the top PSU Bank losers; Bajaj Auto (+3.46%) still leads the Nifty gainers.",
    "watch": [
-    "Whether the Nifty holds 22,500",
-    "Bank stocks finding support",
-    "HCLTech results later today"
+    "Whether the Nifty reclaims 22,500",
+    "PSU bank selling deepening",
+    "HCLTech's results after market hours"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex off 600 pts from day's high, Nifty near 22,500; PSU bank shares weigh",
+    "title": "Business Standard: Stock Market LIVE – Sensex down 200 pts, Nifty below 22,500; Cupid falls after hitting new 52-wk high",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-12-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-126101200057_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Tata Steel is among the gainers as steel stocks react to the draft policy",
-     "why": "The government's draft National Steel Policy 2047 lays out aggressive capacity and demand targets.",
+     "summary": "Tata Steel is holding gains as steel stocks react to the draft policy",
+     "why": "The draft National Steel Policy 2047 has put steelmakers in focus.",
      "names": [
       {
        "name": "Tata Steel",
        "dir": "up",
-       "line": "The draft targets 604 mt of capacity and 45 mt of exports by 2047"
+       "line": "The draft targets 604 mt of capacity and 302 kg per-capita use by 2047"
       }
      ],
      "src": {
@@ -46,14 +46,14 @@
      }
     },
     "down": {
-     "summary": "DMart is down nearly 4% as higher costs squeeze Q2 margins",
-     "why": "Wage-driven cost increases cut margins even as revenue grew strongly.",
+     "summary": "DMart is still down nearly 4% on margin worries after Q2",
+     "why": "Rising wage costs squeezed margins even as revenue grew 17.8%.",
      "names": [
       {
        "name": "DMart (Avenue Supermarts)",
        "dir": "down",
        "move": "-3.83%",
-       "line": "At ₹3,382.10; EBITDA margin fell 28 bps YoY, partly on minimum-wage hikes"
+       "line": "At ₹3,382.10 earlier; several brokerages cut targets after the margin dip"
       }
      ],
      "src": {
@@ -65,6 +65,78 @@
   }
  },
  "insights": [
+  {
+   "key": "hcltech",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "HCLTech reports after the bell; guidance in focus",
+   "line": "Street sees Q2 net profit of ~₹4,850–4,910 cr, vs ₹4,624 cr in Q1",
+   "more": [
+    "Management said in July it would revisit the outlook after this quarter",
+    "Deal wins and the interim dividend are also in focus"
+   ],
+   "src": {
+    "title": "Zee Business: HCLTech Q2 results preview – revenue, profit likely to rise; 5 key factors to track",
+    "url": "https://www.zeebiz.com/market-news/news-hcltech-q2-results-preview-revenue-profit-likely-to-rise-5-key-factors-to-track-403668"
+   },
+   "date": "2026-10-12",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "cupid",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Cupid falls after hitting a new 52-week high",
+   "line": "The stock reversed after a fresh high; it hit ₹368 on Friday",
+   "more": [
+    "Up 246% so far in 2026 and 30% over the past month",
+    "The rally followed a raised FY27 guidance"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE – Sensex down 200 pts, Nifty below 22,500; Cupid falls after hitting new 52-wk high",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-12-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-126101200057_1.html"
+   },
+   "date": "2026-10-12",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "18 companies report Q2 earnings today",
+   "line": "HCLTech and ICICI Prudential AMC are among the 18 firms reporting today",
+   "more": [
+    "RBL Bank also reports",
+    "The results will test last week's TCS-led IT rebound"
+   ],
+   "src": {
+    "title": "Business Standard: Q2 results today – HCLTech, ICICI Pru among 18 firms to report earnings",
+    "url": "https://www.business-standard.com/companies/quarterly-results/q2-results-today-hcltech-icici-pru-among-18-firms-to-report-earnings-126101200104_1.html"
+   },
+   "date": "2026-10-12",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1130"
+   }
+  },
   {
    "key": "dmart",
    "tag": "Results",
@@ -83,7 +155,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1000"
@@ -107,34 +179,10 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "HCLTech, ICICI Pru AMC, RBL Bank report today",
-   "line": "HCLTech's numbers will test the IT rebound sparked by TCS last week",
-   "more": [
-    "Adani Green's H1 energy sales rose 32% to 25,747 MU",
-    "IT stocks are among this morning's laggards"
-   ],
-   "src": {
-    "title": "Business Standard: Stocks to watch – HCLTech, DMart, M&M, Adani Green, KEC Int'l, ICICI Pru",
-    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-hcltech-dmart-m-m-adani-green-kec-int-l-icici-pru-126101200059_1.html"
-   },
-   "date": "2026-10-12",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1130"
    }
   },
   {
