@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-09T16:03:35+05:30",
- "date": "2026-10-09",
- "slot": "post",
- "slot_label": "Close",
- "stage": "Post-market mood",
- "asof": "2026-10-09T16:00:00+05:30",
+ "generated_at": "2026-10-12T08:33:38+05:30",
+ "date": "2026-10-12",
+ "slot": "pre",
+ "slot_label": "Pre-open",
+ "stage": "Pre-market mood",
+ "asof": "2026-10-12T08:30:00+05:30",
  "nifty": {
   "value": 22520.45,
   "pct": 1.3,
@@ -13,72 +13,21 @@
   "approx": false
  },
  "mood": {
-  "label": "Broad rebound",
-  "score": 0.55,
-  "summary": "The market closed with broad-based gains of about 1.3%, recovering most of Thursday's fall. Midcaps outperformed and smallcaps finished higher too.",
+  "label": "Steady start eyed",
+  "score": 0.15,
+  "summary": "A flat-to-firm start is likely after Friday's 1.3% rebound: GIFT Nifty is little changed, Wall Street ended higher, but Asia is mixed and foreign selling continues.",
   "detail": {
-   "leaders": "IT, Fortis; midcaps",
-   "laggards": "Pharma; smallcaps trail midcaps",
-   "tone": "Gave back a little from the 3 pm print (22,565.50) to settle at 22,520.45 (+1.3%); the Sensex closed at 72,472.33 (+879.09, +1.23%).",
+   "leaders": "Results plays: Poonawalla, DMart; order wins",
+   "laggards": "Asian peers; FII selling",
+   "tone": "After Friday's broad rebound (Nifty 22,520.45, +1.3%), GIFT Nifty was at 22,621, up 18.5 points, at 7:36 am, pointing to a quiet open. Kospi fell 2.22% on West Asia worries; Japan is shut for a holiday.",
    "watch": [
-    "FII flows after a 10-day selling streak",
-    "Monday's Supreme Court hearing on cancer-drug markups",
-    "Brent and US markets over the weekend"
+    "Whether FIIs end their selling streak",
+    "HCLTech's Q2 numbers during the day",
+    "Today's Supreme Court hearing on cancer-drug markups"
    ],
    "src": {
-    "title": "Business Standard: Stock Market Close – broad-based buying helps Sensex rebound 879 pts; IT pack shines",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
-   },
-   "movers": {
-    "up": {
-     "summary": "IT led the rebound, with Fortis and midcaps also strong at the close",
-     "why": "TCS's Q2 drove a sector-wide IT rally, and lower oil and a milder-than-feared drug cap brought buyers back into beaten-down midcaps and hospitals.",
-     "names": [
-      {
-       "name": "Nifty IT",
-       "dir": "up",
-       "move": "up ~3.3%",
-       "line": "Broke a 4-day losing run; TCS ended up ~4.5% and Cyient ~4.9%"
-      },
-      {
-       "name": "Fortis Healthcare",
-       "dir": "up",
-       "move": "+3.56%",
-       "line": "Analysts see oncology at <5% of hospital revenue, limiting the cap's hit"
-      },
-      {
-       "name": "Nifty Midcap 100",
-       "dir": "up",
-       "move": "+1.56%",
-       "line": "Beat the Nifty's 1.3% as buyers returned after Thursday's 2%+ fall"
-      }
-     ],
-     "src": {
-      "title": "Business Standard: Stock Market Close – broad-based buying helps Sensex rebound 879 pts; IT pack shines",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
-     }
-    },
-    "down": {
-     "summary": "Pharma was among the weaker sectors and smallcaps lagged midcaps",
-     "why": "The cancer-drug margin cap weighed on pharma sentiment, and smallcaps joined the rebound only modestly.",
-     "names": [
-      {
-       "name": "Nifty Pharma",
-       "dir": "down",
-       "line": "Among the weakest sectors intraday; reports on individual pharma names are mixed"
-      },
-      {
-       "name": "Nifty Smallcap 100",
-       "dir": "up",
-       "move": "+0.54%",
-       "line": "Closed higher but well behind midcaps (+1.56%)"
-      }
-     ],
-     "src": {
-      "title": "Business Standard: Stock Market Close – broad-based buying helps Sensex rebound 879 pts; IT pack shines",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
-     }
-    }
+    "title": "Business Standard: Stocks to watch – HCLTech, DMart, M&M, Adani Green, KEC Int'l, ICICI Pru",
+    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-hcltech-dmart-m-m-adani-green-kec-int-l-icici-pru-126101200059_1.html"
    }
   }
  },
@@ -86,24 +35,50 @@
   {
    "key": "fii-flows",
    "tag": "Flows",
-   "impact": "watch",
-   "title": "FIIs are on a 10-day selling streak",
-   "line": "Thursday's net sale was ₹12,944 cr; Friday's provisional figure is not out yet",
+   "impact": "neg",
+   "title": "FIIs sold ₹3,569 cr on Friday, 11th day running",
+   "line": "DIIs bought ₹4,743 cr, more than absorbing the foreign selling",
    "more": [
-    "DIIs bought ₹10,703 cr on Thursday",
-    "October to date: FIIs -₹36,210 cr, DIIs +₹35,612 cr"
+    "DIIs have been net buyers for 31 straight sessions",
+    "Friday's foreign selling was well below Thursday's ₹12,944 cr",
+    "Figures are provisional"
    ],
    "src": {
-    "title": "Kotak Neo: FII DII data today",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+    "title": "Quantsapp: FII DII data (9 Oct)",
+    "url": "https://www.quantsapp.com/fii-dii"
    },
-   "date": "2026-10-09",
-   "slot": "post",
-   "when": "Close",
+   "date": "2026-10-12",
+   "slot": "pre",
+   "when": "Pre-open",
    "updated": true,
    "is_new": true,
    "first_seen": {
-    "date": "2026-10-01",
+    "date": "2026-10-02",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "wall-street",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Wall Street ends a volatile week higher",
+   "line": "Dow +0.83% to 51,654.95, S&P 500 +0.59%, Nasdaq +0.64% on Friday",
+   "more": [
+    "Oil and long-dated yields eased on Friday but stayed elevated",
+    "The US 10-year yield ended the week at 5.24%",
+    "Q3 earnings season starts this week"
+   ],
+   "src": {
+    "title": "TheStreet: Stock market today (Oct 9, 2026) – Dow, S&P 500 end week higher",
+    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-09-2026"
+   },
+   "date": "2026-10-12",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
     "slot": "pre"
    }
   },
@@ -111,19 +86,20 @@
    "key": "q2-results",
    "tag": "Results",
    "impact": "watch",
-   "title": "Poonawalla AUM rises to ₹73,950 cr in Q2",
-   "line": "A provisional update shows AUM up from ~₹67,054 cr in Q1; full Q2 results are pending",
+   "title": "Poonawalla's profit jumps 5x; Anand Rathi slips",
+   "line": "Poonawalla Q2 PAT ₹374.85 cr vs ₹74.2 cr; Anand Rathi Wealth ₹89.26 cr vs ~₹100 cr",
    "more": [
-    "Liquidity buffer of ~₹6,400 cr at quarter-end",
-    "Q1 PAT was ₹307.71 cr; the year-ago Q2 profit was ₹74 cr"
+    "Poonawalla's gross NPA improved to 1.20% from 1.37% in Q1",
+    "Anand Rathi's interim dividend is ₹4 vs ₹6 last year",
+    "HCLTech and ICICI Pru AMC report today"
    ],
    "src": {
-    "title": "Equitybulls: Poonawalla Fincorp reports provisional AUM of ₹73,950 crore for Q2 FY27",
-    "url": "https://www.equitybulls.com/category.php?id=376332"
+    "title": "Equitybulls: Poonawalla Fincorp Q2 FY27 net profit surges to ₹374.85 crore",
+    "url": "https://www.equitybulls.com/category.php?id=376688"
    },
-   "date": "2026-10-09",
-   "slot": "post",
-   "when": "Close",
+   "date": "2026-10-12",
+   "slot": "pre",
+   "when": "Pre-open",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -132,22 +108,70 @@
    }
   },
   {
+   "key": "dmart",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "DMart's Q2 profit up 8.5% but margins dip",
+   "line": "Net profit ₹743 cr on revenue up 17.8% to ₹19,644 cr; EBITDA margin 7.1% vs 7.3%",
+   "more": [
+    "Added 15 stores in the quarter, taking the total to 518",
+    "Results came out on Saturday; first trading reaction today"
+   ],
+   "src": {
+    "title": "Business Standard: D-Mart Q2FY27 – net profit rises 8.5% to ₹743 cr, revenue grows 17.8%",
+    "url": "https://www.business-standard.com/companies/quarterly-results/d-mart-q2fy27-result-net-profit-rises-8-5-to-743-cr-revenue-grows-17-8-126101000510_1.html"
+   },
+   "date": "2026-10-12",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "steel-policy",
+   "tag": "Policy",
+   "impact": "pos",
+   "title": "Draft steel policy targets 604 mt by 2047",
+   "line": "The government has released a draft National Steel Policy Vision 2047 for consultation",
+   "more": [
+    "Targets 302 kg per-capita consumption and 45 mt of exports",
+    "Tata Steel, JSW Steel, SAIL, Jindal Steel and NMDC are in focus"
+   ],
+   "src": {
+    "title": "Upstox: Stocks to watch, Oct 12 – RBL Bank, DMart, steel stocks, HCLTech, ICICI Pru AMC",
+    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-oct-12-rbl-bank-d-mart-steel-stocks-hcl-tech-icici-pru-brigade-enterprises-adani-enterprises/article-201647/"
+   },
+   "date": "2026-10-12",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "pre"
+   }
+  },
+  {
    "key": "hospital-stocks",
    "tag": "Policy",
    "impact": "watch",
-   "title": "Cancer-drug cap goes to the SC on Monday",
-   "line": "The Supreme Court hears the drug-markup matter on October 12, the next trading day",
+   "title": "SC hears the cancer-drug markup case today",
+   "line": "The hearing follows the government's plan to cap trade margins at 30% of MRP",
    "more": [
-    "A DGHS committee will finalise the list of covered drugs",
-    "NPPA is expected to notify the cap later this month"
+    "Hospital stocks rallied 2–5% on Friday as analysts saw a limited hit",
+    "Pharma was among Friday's weaker sectors"
    ],
    "src": {
     "title": "Business Today: Cancer drugs may get cheaper as govt set to cap trade margins at 30%",
     "url": "https://www.businesstoday.in/industry/pharma/story/cancer-drugs-may-get-cheaper-as-govt-set-to-cap-trade-margins-at-30-560489-2026-10-08"
    },
-   "date": "2026-10-09",
-   "slot": "post",
-   "when": "Close",
+   "date": "2026-10-12",
+   "slot": "pre",
+   "when": "Pre-open",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -172,7 +196,7 @@
    },
    "date": "2026-10-09",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Fri · 15:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -196,7 +220,7 @@
    },
    "date": "2026-10-09",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Fri · 15:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -220,7 +244,7 @@
    },
    "date": "2026-10-09",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Fri · 15:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -244,7 +268,7 @@
    },
    "date": "2026-10-09",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Fri · 15:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -268,7 +292,7 @@
    },
    "date": "2026-10-09",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Fri · 14:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -292,7 +316,7 @@
    },
    "date": "2026-10-09",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Fri · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -316,7 +340,7 @@
    },
    "date": "2026-10-09",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Fri · 14:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -340,7 +364,7 @@
    },
    "date": "2026-10-09",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Fri · 13:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -364,11 +388,11 @@
    },
    "date": "2026-10-09",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Fri · 13:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-01",
+    "date": "2026-10-02",
     "slot": "pre"
    }
   },
@@ -388,12 +412,12 @@
    },
    "date": "2026-10-09",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Fri · 13:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1200"
+    "date": "2026-10-05",
+    "slot": "1000"
    }
   },
   {
@@ -412,7 +436,7 @@
    },
    "date": "2026-10-09",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Fri · 13:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -437,7 +461,7 @@
    },
    "date": "2026-10-09",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Fri · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -461,7 +485,7 @@
    },
    "date": "2026-10-09",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Fri · 12:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -485,7 +509,7 @@
    },
    "date": "2026-10-09",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Fri · 12:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -509,7 +533,7 @@
    },
    "date": "2026-10-09",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Fri · 10:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -533,36 +557,12 @@
    },
    "date": "2026-10-09",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Fri · 10:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "wall-street",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Nasdaq drops 1.25% as chip stocks slide",
-   "line": "S&P 500 -0.47%, Dow +0.1% as a report on OpenAI revenue hit AI names",
-   "more": [
-    "Chip index sank 3.4%",
-    "Higher oil kept Treasury yields elevated"
-   ],
-   "src": {
-    "title": "CNBC: Stock market news for Oct. 8, 2026",
-    "url": "https://www.cnbc.com/2026/10/07/stock-market-today-live-updates-.html"
-   },
-   "date": "2026-10-09",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-06",
-    "slot": "pre"
    }
   },
   {
@@ -1041,11 +1041,11 @@
    "date": "2026-10-08",
    "slot": "0930",
    "when": "Thu · 9:30",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-01",
-    "slot": "pre"
+    "date": "2026-10-08",
+    "slot": "0930"
    }
   },
   {
@@ -1093,8 +1093,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1430"
+    "date": "2026-10-02",
+    "slot": "pre"
    }
   },
   {
@@ -1616,8 +1616,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1130"
+    "date": "2026-10-06",
+    "slot": "pre"
    }
   },
   {
@@ -2418,30 +2418,6 @@
    }
   },
   {
-   "key": "dmart",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "DMart slips 4% to near 52-week low",
-   "line": "Sellers ignored the 18.4% Q2 revenue growth as retail stocks came under pressure",
-   "more": [
-    "Fell alongside V2 Retail's 19% crash",
-    "Q2 revenue was ₹19,206 cr, up 18.4% YoY"
-   ],
-   "src": {
-    "title": "Business Standard: Why V2 Retail shed 19%; DMart slipped 4%",
-    "url": "https://www.business-standard.com/markets/news/here-s-why-v2-retail-stock-tanked-19-dmart-slipped-4-to-near-52-week-low-on-monday-126100500172_1.html"
-   },
-   "date": "2026-10-05",
-   "slot": "1330",
-   "when": "Mon · 13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-05",
-    "slot": "1000"
-   }
-  },
-  {
    "key": "orient-cables-listing",
    "tag": "Listing",
    "impact": "pos",
@@ -2655,11 +2631,11 @@
    "date": "2026-10-05",
    "slot": "1130",
    "when": "Mon · 11:30",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1430"
+    "date": "2026-10-05",
+    "slot": "1130"
    }
   },
   {
@@ -2706,8 +2682,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1530"
+    "date": "2026-10-02",
+    "slot": "pre"
    }
   },
   {
@@ -2829,491 +2805,6 @@
    "first_seen": {
     "date": "2026-10-05",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "auto-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Autos end 3% lower on sales disappointment",
-   "line": "Bajaj Auto and Maruti were the top Nifty losers despite strong industry volumes",
-   "more": [
-    "Nifty Auto fell about 3% at the close after a 4% intraday drop",
-    "Shriram Finance was also among the biggest losers",
-    "Media, metal and FMCG were the other weakest sectors"
-   ],
-   "src": {
-    "title": "Business Standard",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
-   },
-   "date": "2026-10-01",
-   "slot": "post",
-   "when": "Thu · Close",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1330"
-   }
-  },
-  {
-   "key": "nine-month-slump",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Selling spills into October after a 6.1% Sept fall",
-   "line": "The Nifty lost 6.1% in September, and the new month has opened with a sharp sell-off",
-   "more": [
-    "The Sensex hit a fresh calendar-year low today",
-    "The Nifty broke 22,400 for the first time since April 2"
-   ],
-   "src": {
-    "title": "Whalesbook",
-    "url": "https://www.whalesbook.com/news/English/economy/Sensex-Nifty-Fall-on-October-1-as-FII-Selling-Weighs/6abde2cf5aacb956d087839c"
-   },
-   "date": "2026-10-01",
-   "slot": "1530",
-   "when": "Thu · 15:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1530"
-   }
-  },
-  {
-   "key": "holiday-break",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Markets shut Friday; next session Monday",
-   "line": "Traders carry today's losses into a three-day break with VIX elevated",
-   "more": [
-    "Gandhi Jayanti holiday on Oct 2",
-    "The RBI MPC starts on the day markets reopen"
-   ],
-   "src": {
-    "title": "Zee Business",
-    "url": "https://zeebiz.com/market-news/news-stock-market-crash-sensex-hits-2026-low-nifty-below-22300-rs-87-lakh-crore-investor-wealth-wiped-out-403200"
-   },
-   "date": "2026-10-01",
-   "slot": "1530",
-   "when": "Thu · 15:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "market-cap-loss",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "₹8.7 lakh crore of investor wealth erased",
-   "line": "BSE market cap fell to ₹464.38 lakh cr from ₹473.09 lakh cr at Wednesday's close",
-   "more": [
-    "The Sensex hit a fresh 2026 low during the session",
-    "India VIX jumped about 16%"
-   ],
-   "src": {
-    "title": "Zee Business",
-    "url": "https://www.zeebiz.com/market-news/news-stock-market-crash-sensex-hits-2026-low-nifty-below-22300-rs-87-lakh-crore-investor-wealth-wiped-out-403200"
-   },
-   "date": "2026-10-01",
-   "slot": "1500",
-   "when": "Thu · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "ipo-pipeline",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "IPO flood seen draining market liquidity",
-   "line": "A heavy IPO pipeline is absorbing cash just as FIIs sell, leaving few buyers",
-   "more": [
-    "Analysts flag lack of liquidity as a reason for the steep fall",
-    "Moneyview and A-One Steels listed today"
-   ],
-   "src": {
-    "title": "Business Standard",
-    "url": "https://www.business-standard.com/amp/markets/news/why-are-markets-falling-today-sensex-crashes-1-000-pts-intraday-hits-2026-low-nifty-at-22-300-126100100568_1.html"
-   },
-   "date": "2026-10-01",
-   "slot": "1430",
-   "when": "Thu · 14:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1430"
-   }
-  },
-  {
-   "key": "auto-sales",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "Tata Motors PV sales rise 15% to 70,210",
-   "line": "Tata PV beat the ~67,000 estimate; Q2 volumes jumped 40% to 2,01,723 units",
-   "more": [
-    "Tata Motors PV shares fell 2.2% to ₹277.40",
-    "Strong numbers across carmakers have not stopped the auto rout"
-   ],
-   "src": {
-    "title": "Upstox auto sales live",
-    "url": "https://upstox.com/news/market-news/stocks/september-auto-sales-2026-live-updates-tata-motors-pv-maruti-suzuki-mahindra-and-mahindra-bajaj-auto-hyundai-eicher-force-tvs-hero-motocorp-share-price/liveblog-201159/"
-   },
-   "date": "2026-10-01",
-   "slot": "1400",
-   "when": "Thu · 14:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "bel",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "BEL among Sensex laggards",
-   "line": "Bharat Electronics fell about 1.6% to ₹383.50 by mid-morning",
-   "more": [
-    "Its trading window is closed until 48 hours after Q2 results",
-    "It had closed at ₹389.85 on Wednesday"
-   ],
-   "src": {
-    "title": "Business Standard",
-    "url": "https://www.business-standard.com/markets/bharat-electronics-ltd-share-price-2298.html"
-   },
-   "date": "2026-10-01",
-   "slot": "1300",
-   "when": "Thu · 13:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "metals-slide",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Metals slump; Tata Steel down over 6%",
-   "line": "Nifty Metal fell about 4% intraday on West Asia tensions and a firmer dollar",
-   "more": [
-    "SAIL, NMDC and Hindustan Copper also fell sharply",
-    "Investors are cutting exposure to cyclicals",
-    "The index touched about 11,773 vs a 12,269.8 previous close"
-   ],
-   "src": {
-    "title": "Angel One",
-    "url": "https://www.angelone.in/news/stocks/tata-steel-sail-and-hindalco-fall-as-nifty-metal-drops-4-percent-amid-west-asia-tensions"
-   },
-   "date": "2026-10-01",
-   "slot": "1230",
-   "when": "Thu · 12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "roopa-screen-listing",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Roopa Screen SME lists 90% higher",
-   "line": "Shares debuted at ₹121.60 on BSE SME versus a ₹64 issue price",
-   "more": [
-    "The ₹19.2 cr IPO was subscribed 271.94 times",
-    "Retail demand was 529.82x and NII 421.94x"
-   ],
-   "src": {
-    "title": "Angel One",
-    "url": "https://www.angelone.in/news/ipos/roopa-screen-share-price-stock-lists-at-121-60-with-a-90-00-premium-on-bse"
-   },
-   "date": "2026-10-01",
-   "slot": "1230",
-   "when": "Thu · 12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "mfg-pmi",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Manufacturing PMI hits 7-month high of 55.1",
-   "line": "September PMI rebounded from August's five-year low of 52.8, though below the 55.7 flash",
-   "more": [
-    "Demand rose for electronics, food, pharma and textiles",
-    "Export orders rose faster; hiring was the strongest since May",
-    "Business confidence hit a four-month high"
-   ],
-   "src": {
-    "title": "Business Standard",
-    "url": "https://www.business-standard.com/amp/economy/news/india-s-manufacturing-pmi-rises-to-55-1-in-september-hits-7-month-high-126100100299_1.html"
-   },
-   "date": "2026-10-01",
-   "slot": "1200",
-   "when": "Thu · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "moneyview-listing",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Moneyview lists at 62% premium",
-   "line": "The digital lender opened at ₹55 on NSE versus its ₹34 issue price; m-cap is ₹9,681 cr",
-   "more": [
-    "The ₹1,091.68 cr IPO had a ₹750 cr fresh issue and a ₹341.68 cr OFS",
-    "Allottees gained ₹9,261 per lot at the listing price",
-    "Strong debuts support the IPO pipeline despite weak secondary markets"
-   ],
-   "src": {
-    "title": "Upstox",
-    "url": "https://upstox.com/news/market-news/ipo/moneyview-shares-list-at-62-premium-on-nse-here-s-how-much-investors-made-per-lot/article-201176/"
-   },
-   "date": "2026-10-01",
-   "slot": "1130",
-   "when": "Thu · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "a-one-steels-listing",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "A-One Steels debuts 12–14% higher",
-   "line": "Opened at ₹455 on NSE (+12.35%) and ₹462 on BSE (+14.07%) vs the ₹405 issue price",
-   "more": [
-    "The ₹405 cr IPO was subscribed 11.61 times",
-    "The bidding window ran from Sep 24 to Sep 28"
-   ],
-   "src": {
-    "title": "Groww",
-    "url": "https://groww.in/blog/a-one-steels-shares-list-at-12-percent-premium-on-nse"
-   },
-   "date": "2026-10-01",
-   "slot": "1130",
-   "when": "Thu · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "iran-talks",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Iran receives US proposal on Hormuz",
-   "line": "Tehran says it received a US proposal on reopening the Strait of Hormuz",
-   "more": [
-    "Iranian government spokesperson Fatemeh Mohajerani confirmed receipt",
-    "A reopening would ease supply fears that have kept crude near $100"
-   ],
-   "src": {
-    "title": "Trading Economics",
-    "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
-   },
-   "date": "2026-10-01",
-   "slot": "1100",
-   "when": "Thu · 11:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1100"
-   }
-  },
-  {
-   "key": "bajaj-auto",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Bajaj Auto top Nifty loser on domestic slump",
-   "line": "Domestic sales fell 9% to 2,94,456 units; total growth of 5% missed the 13% estimate",
-   "more": [
-    "Exports jumped 32% to 2,43,987 units",
-    "Domestic two-wheelers fell 12%; three-wheelers rose 9%",
-    "Nifty Auto is the weakest sector"
-   ],
-   "src": {
-    "title": "RetailIntel",
-    "url": "https://retailintel.in/signal/bajaj-auto-s-domestic-sales-fall-9-in-september-as-exports-l-8f2d1f9b"
-   },
-   "date": "2026-10-01",
-   "slot": "1030",
-   "when": "Thu · 10:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1030"
-   }
-  },
-  {
-   "key": "smallcap-losers",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "MRPL, Welspun Corp lead smallcap losses",
-   "line": "Refiner MRPL and pipe maker Welspun Corp are the biggest drags among smallcaps",
-   "more": [
-    "Welspun Corp had jumped 5% on Sep 25 after its US arm won a ₹4,000 cr order",
-    "Smallcaps are underperforming the Nifty this morning"
-   ],
-   "src": {
-    "title": "Business Standard live",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
-   },
-   "date": "2026-10-01",
-   "slot": "1030",
-   "when": "Thu · 10:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1030"
-   }
-  },
-  {
-   "key": "nse-bond-futures",
-   "tag": "Regulation",
-   "impact": "pos",
-   "title": "SEBI clears NSE corporate bond index futures",
-   "line": "NSE received SEBI's no-objection certificate for futures on a corporate bond index",
-   "more": [
-    "The product adds a hedging tool for corporate bond portfolios",
-    "It may support market making and price discovery in corporate bonds"
-   ],
-   "src": {
-    "title": "Business Today",
-    "url": "https://businesstoday.in/markets/stocks/story/nse-shares-in-focus-after-sebi-nod-for-corporate-bond-index-futures-558936-2026-10-01"
-   },
-   "date": "2026-10-01",
-   "slot": "1000",
-   "when": "Thu · 10:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "hospital-pricing",
-   "tag": "Regulation",
-   "impact": "neg",
-   "title": "Hospital stocks extend slide on pricing fears",
-   "line": "Apollo and Max Healthcare lead the declines again after the SC remarks on drug mark-ups",
-   "more": [
-    "The sell-off continues for a second session",
-    "Investors fear tighter rules on hospital pharmacy margins"
-   ],
-   "src": {
-    "title": "HDFC Sky",
-    "url": "https://hdfcsky.com/news/nifty-crashes-sensex-declines-at-pre-open-pointing-to-lower-start-for-benchmarks-october-1-2026"
-   },
-   "date": "2026-10-01",
-   "slot": "1000",
-   "when": "Thu · 10:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "aurobindo-adquey",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Aurobindo unit launches US eczema drug",
-   "line": "Acrotech launched ADQUEY (difamilast 1%) ointment in the US for atopic dermatitis",
-   "more": [
-    "The ointment is approved for adults and children aged two and above",
-    "It marks Acrotech's entry into the US dermatology market"
-   ],
-   "src": {
-    "title": "Angel One",
-    "url": "https://www.angelone.in/news/market-updates/stocks-to-watch-today-aurobindo-pharma-ncc-highway-infrastructure-and-others-october-1-2026"
-   },
-   "date": "2026-10-01",
-   "slot": "0930",
-   "when": "Thu · 9:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "order-wins",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "NCC adds ₹500 cr of orders in September",
-   "line": "NCC won two orders: ₹224.74 cr in buildings and ₹275.48 cr in transportation",
-   "more": [
-    "The combined value is ₹500.22 cr",
-    "Construction names stay in focus on order flow"
-   ],
-   "src": {
-    "title": "Angel One",
-    "url": "https://www.angelone.in/news/market-updates/stocks-to-watch-today-aurobindo-pharma-ncc-highway-infrastructure-and-others-october-1-2026"
-   },
-   "date": "2026-10-01",
-   "slot": "0930",
-   "when": "Thu · 9:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "techm-bonus",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Tech Mahindra board to weigh bonus issue",
-   "line": "The Oct 15 board meeting will consider bonus shares, an interim dividend and Q2 results",
-   "more": [
-    "Q2 and first-half results for the period to September 2026 will be approved at the same meeting",
-    "TechM is among the top stocks in focus today"
-   ],
-   "src": {
-    "title": "Whalesbook",
-    "url": "https://www.whalesbook.com/news/English/sebiexchange/Aurobindo-Tech-Mahindra-and-Bata-India-Update-Oct-1-2026/6abdbe035aacb956d0874ec1"
-   },
-   "date": "2026-10-01",
-   "slot": "0930",
-   "when": "Thu · 9:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-01",
-    "slot": "0930"
    }
   }
  ]
