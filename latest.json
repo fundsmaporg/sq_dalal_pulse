@@ -1,43 +1,43 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-12T09:33:39+05:30",
+ "generated_at": "2026-10-12T10:03:16+05:30",
  "date": "2026-10-12",
- "slot": "0930",
- "slot_label": "9:30",
+ "slot": "1000",
+ "slot_label": "10:00",
  "stage": "Opening mood",
- "asof": "2026-10-12T09:30:00+05:30",
+ "asof": "2026-10-12T10:00:00+05:30",
  "nifty": {
-  "value": 22585.05,
-  "pct": 0.29,
-  "chg": 64.6,
+  "value": 22514.75,
+  "pct": -0.03,
+  "chg": -5.7,
   "approx": true
  },
  "mood": {
-  "label": "Firm, trimmed open",
-  "score": 0.25,
-  "summary": "The market opened higher but gave back part of an early 400-point Sensex jump. Autos and media are firm, while banks and IT are slipping, keeping the advance modest.",
+  "label": "Gains fade",
+  "score": -0.05,
+  "summary": "The opening gains have evaporated: the Sensex has slipped into the red, about 600 points off its high, as banks, IT and FMCG turn lower. Autos and media are still holding up.",
   "detail": {
    "leaders": "Steel (Tata Steel)",
    "laggards": "DMart",
-   "tone": "Nifty opened at 22,593.20 and hit 22,651.10, then eased to 22,585.05 (+0.29%) by 9:21. Nifty Auto rose 1.18% and Media 2.43%, with Bajaj Auto up 3.07% and Tech Mahindra down over 4%.",
+   "tone": "Weaker than 09:30: at 10 am the Sensex was 72,333.32 (-139) and the Nifty 22,514.75, roughly flat. PSU banks are the weakest sector, while auto and media lead.",
    "watch": [
-    "Whether banks and IT recover",
-    "HCLTech's Q2 numbers today",
-    "The rupee holding near 95.75"
+    "Whether the Nifty holds 22,500",
+    "Bank stocks finding support",
+    "HCLTech results later today"
    ],
    "src": {
-    "title": "Upstox: Sensex up 300 pts, Nifty tops 22,600 in early trade; Bajaj Auto, BEL top gainers, Tech Mahindra down 3%",
-    "url": "https://upstox.com/news/market-news/trading/sensex-up-300-pts-nifty-50-tops-22-600-in-early-trade-bajaj-auto-bel-top-gainers-tech-mahindra-down-3/article-201656/"
+    "title": "Business Standard: Stock Market LIVE – Sensex off 600 pts from day's high, Nifty near 22,500; PSU bank shares weigh",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-12-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-126101200057_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Tata Steel is among the early gainers as steel stocks react to the draft policy",
-     "why": "The government's draft National Steel Policy 2047 sets aggressive capacity and consumption targets.",
+     "summary": "Tata Steel is among the gainers as steel stocks react to the draft policy",
+     "why": "The government's draft National Steel Policy 2047 lays out aggressive capacity and demand targets.",
      "names": [
       {
        "name": "Tata Steel",
        "dir": "up",
-       "line": "Draft policy targets 604 mt of capacity and 302 kg per-capita use by 2047"
+       "line": "The draft targets 604 mt of capacity and 45 mt of exports by 2047"
       }
      ],
      "src": {
@@ -46,25 +46,97 @@
      }
     },
     "down": {
-     "summary": "DMart slides about 3% as investors focus on its thinner Q2 margins",
-     "why": "Profit growth lagged revenue growth as margins narrowed.",
+     "summary": "DMart is down nearly 4% as higher costs squeeze Q2 margins",
+     "why": "Wage-driven cost increases cut margins even as revenue grew strongly.",
      "names": [
       {
        "name": "DMart (Avenue Supermarts)",
        "dir": "down",
-       "move": "-3%",
-       "line": "Q2 profit +8.5% vs revenue +17.8%; EBITDA margin slipped to 7.1% from 7.3%"
+       "move": "-3.83%",
+       "line": "At ₹3,382.10; EBITDA margin fell 28 bps YoY, partly on minimum-wage hikes"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE – Sensex rises 200 pts, Nifty near 22,600; DMart shares decline 3%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-12-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-126101200057_1.html"
+      "title": "Business Standard: DMart stock down 3% – why brokerages are mixed after Q2",
+      "url": "https://www.business-standard.com/markets/news/dmart-stock-down-over-3-after-q2fy27-result-draws-mixed-brokerage-views-126101200102_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "dmart",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Brokerages split on DMart after Q2; targets cut",
+   "line": "JPMorgan, Jefferies, Morgan Stanley and Elara cut targets; UBS and CLSA stay at Buy",
+   "more": [
+    "Citi says Sell with a ₹3,300 target; HSBC says Reduce at ₹3,520",
+    "UBS sees ₹5,000; Morgan Stanley stays Overweight at ₹4,182"
+   ],
+   "src": {
+    "title": "Business Standard: DMart stock down 3% – why brokerages are mixed after Q2",
+    "url": "https://www.business-standard.com/markets/news/dmart-stock-down-over-3-after-q2fy27-result-draws-mixed-brokerage-views-126101200102_1.html"
+   },
+   "date": "2026-10-12",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-05",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "kec-international",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "KEC wins ₹1,014 cr orders, its first 765 kV line",
+   "line": "New India T&D orders include its first 765 kV line, from a pumped-storage plant",
+   "more": [
+    "Year-to-date order intake now exceeds ₹9,600 cr",
+    "The client was not named"
+   ],
+   "src": {
+    "title": "Sahi: KEC International secures ₹1,014 crore T&D orders in India",
+    "url": "https://sahi.com/news/kec-international-secures-1-014-crore-t-d-orders-in-india"
+   },
+   "date": "2026-10-12",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "HCLTech, ICICI Pru AMC, RBL Bank report today",
+   "line": "HCLTech's numbers will test the IT rebound sparked by TCS last week",
+   "more": [
+    "Adani Green's H1 energy sales rose 32% to 25,747 MU",
+    "IT stocks are among this morning's laggards"
+   ],
+   "src": {
+    "title": "Business Standard: Stocks to watch – HCLTech, DMart, M&M, Adani Green, KEC Int'l, ICICI Pru",
+    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-hcltech-dmart-m-m-adani-green-kec-int-l-icici-pru-126101200059_1.html"
+   },
+   "date": "2026-10-12",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1130"
+   }
+  },
   {
    "key": "rupee",
    "tag": "Macro",
@@ -84,7 +156,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1100"
@@ -108,34 +180,10 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-02",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Poonawalla's ROA hits 2.18% as AUM rises 10%",
-   "line": "Q2 AUM rose 10.4% QoQ to ₹74,008 cr; gross NPA at 1.2%, net NPA at 0.61%",
-   "more": [
-    "The stock ended 2.24% higher at ₹448.05 on Friday",
-    "The CEO says the focus is margin per unit, not volume"
-   ],
-   "src": {
-    "title": "Investing.com: Poonawalla Fincorp Q2FY27 slides – 405% PAT growth, ROA hits 2.18%",
-    "url": "https://ng.investing.com/news/stock-market-news/poonawalla-fincorp-q2fy27-slides-405-pat-growth-roa-hits-218-93CH-2729323"
-   },
-   "date": "2026-10-12",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1130"
    }
   },
   {
@@ -186,30 +234,6 @@
    "first_seen": {
     "date": "2026-10-06",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "dmart",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "DMart's Q2 profit up 8.5% but margins dip",
-   "line": "Net profit ₹743 cr on revenue up 17.8% to ₹19,644 cr; EBITDA margin 7.1% vs 7.3%",
-   "more": [
-    "Added 15 stores in the quarter, taking the total to 518",
-    "Results came out on Saturday; first trading reaction today"
-   ],
-   "src": {
-    "title": "Business Standard: D-Mart Q2FY27 – net profit rises 8.5% to ₹743 cr, revenue grows 17.8%",
-    "url": "https://www.business-standard.com/companies/quarterly-results/d-mart-q2fy27-result-net-profit-rises-8-5-to-743-cr-revenue-grows-17-8-126101000510_1.html"
-   },
-   "date": "2026-10-12",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-05",
-    "slot": "1000"
    }
   },
   {
@@ -548,30 +572,6 @@
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "kec-international",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "KEC International bags ₹1,030 cr orders",
-   "line": "Includes 400 kV Bhutan and 380 kV Saudi lines plus a 300 MW+ wind project",
-   "more": [
-    "Year-to-date order intake now exceeds ₹8,600 cr",
-    "Also won tower, hardware and pole orders in the Americas"
-   ],
-   "src": {
-    "title": "Business Standard: Stocks to watch – TCS, Infosys, Wipro, Anand Rathi, KEC Int'l, NCC, BEML",
-    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-october-9-tcs-infosys-wipro-it-stocks-anand-rathi-kec-int-l-ncc-beml-126100900116_1.html"
-   },
-   "date": "2026-10-09",
-   "slot": "1000",
-   "when": "Fri · 10:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1000"
    }
   },
   {
