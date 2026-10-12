@@ -1,60 +1,71 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-12T11:33:18+05:30",
+ "generated_at": "2026-10-12T12:03:52+05:30",
  "date": "2026-10-12",
- "slot": "1130",
- "slot_label": "11:30",
+ "slot": "1200",
+ "slot_label": "12:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-12T11:30:00+05:30",
+ "asof": "2026-10-12T12:00:00+05:30",
  "nifty": {
-  "value": 22429.25,
-  "pct": -0.4,
-  "chg": -91.2,
+  "value": 22487,
+  "pct": -0.15,
+  "chg": -33.5,
   "approx": true
  },
  "mood": {
-  "label": "Selling deepens",
-  "score": -0.35,
-  "summary": "Selling has deepened through the morning, taking the Sensex to its day's low, about 500 points down. Large caps are under pressure while select smallcaps are still drawing buyers.",
+  "label": "Weak, steel bid",
+  "score": -0.2,
+  "summary": "The market is in mild risk-off mode at midday, with the Nifty just below 22,500 and losers outnumbering gainers. Steel and autos are the only pockets of real strength.",
   "detail": {
-   "leaders": "Steel (Tata Steel)",
+   "leaders": "Steel (Nifty Metal, JSW Steel, Tata Steel)",
    "laggards": "DMart",
-   "tone": "Worse than 11:00: at 11 am the Sensex was 72,080.21 (-392) and the Nifty 22,429.25 (-0.4%), and the Sensex has since slipped to its day's low. Tech Mahindra and SBI are among the laggards.",
+   "tone": "A touch better than the 11 am low (Nifty 22,429.25): Angel One has the Nifty down about 0.15% at midday after an intraday low of 22,472.15. Tech Mahindra, Bharti Airtel, ITC and SBI are the main drags; Bajaj Auto leads the gainers.",
    "watch": [
-    "Whether the Nifty holds 22,400",
-    "Bank stocks finding support",
-    "HCLTech's results after the bell"
+    "Whether the Nifty reclaims 22,500",
+    "HCLTech's results after the bell",
+    "Rupee holding its RBI-driven gains"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex at day's low, down 500 pts; Gallantt, Syngene lead SmallCap gains",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-12-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-126101200057_1.html"
+    "title": "Angel One: Nifty 50 drops below 22,500 in intraday trade on October 12, 2026",
+    "url": "https://www.angelone.in/news/market-updates/nifty-50-index-drops-below-22-500-mark-in-intraday-trade-on-october-12-2026"
    },
    "movers": {
     "up": {
-     "summary": "Tata Steel held up early as steel stocks react to the draft policy",
-     "why": "The draft National Steel Policy 2047 has put steelmakers in focus.",
+     "summary": "Steel stocks lead, with Nifty Metal up over 1% on the draft steel policy",
+     "why": "The draft National Steel Policy 2047 points to near-tripling of capacity, implying decades of demand growth.",
      "names": [
+      {
+       "name": "Nifty Metal",
+       "dir": "up",
+       "move": "+1.2% early",
+       "line": "Steelmakers lead the index on the draft policy's 604 mt capacity target"
+      },
+      {
+       "name": "JSW Steel",
+       "dir": "up",
+       "move": "+1.59% early",
+       "line": "BofA names it a top pick to ride long-term growth in steel consumption"
+      },
       {
        "name": "Tata Steel",
        "dir": "up",
-       "move": "+0.95% early",
-       "line": "The draft targets 604 mt of capacity and 302 kg per-capita use by 2047"
+       "line": "Among the top Nifty gainers at midday as steelmakers rally"
       }
      ],
      "src": {
-      "title": "India TV: Sensex, Nifty open in green as rupee surges 98 paise; Tata Steel among gainers",
-      "url": "https://www.indiatvnews.com/business/markets/12-october-2026-stock-market-updates-sensex-nifty-open-in-green-as-rupee-surges-98-paise-gift-nifty-today-usd-inr-2026-10-12-1056717"
+      "title": "Outlook Money: National Steel Policy draft fuels rally in Tata Steel, JSW, SAIL; Nifty Metal up 1.2%",
+      "url": "https://www.outlookmoney.com/invest/national-steel-policy-draft-pulls-nifty-metal-steel-stocks-in-green"
      }
     },
     "down": {
-     "summary": "DMart remains a weak spot after its Q2 margin squeeze",
-     "why": "Wage-led cost increases squeezed margins, and several brokerages cut targets.",
+     "summary": "DMart is still among the weakest names after its Q2 margin dip",
+     "why": "Wage-led cost increases cut margins, prompting several brokerages to lower targets.",
      "names": [
       {
        "name": "DMart (Avenue Supermarts)",
        "dir": "down",
        "move": "-3.83%",
-       "line": "EBITDA margin fell 28 bps YoY; JPMorgan, Jefferies and Elara cut targets"
+       "line": "EBITDA margin fell 28 bps; JPMorgan, Jefferies and Morgan Stanley cut targets"
       }
      ],
      "src": {
@@ -67,28 +78,77 @@
  },
  "insights": [
   {
-   "key": "rupee",
+   "key": "steel-policy",
    "tag": "Policy",
    "impact": "pos",
-   "title": "RBI's strongest rupee defence since 2013",
-   "line": "Banks must deposit 20% of FX derivatives over $2 mn with the RBI; oil firms get a window",
+   "title": "Draft steel policy sees capacity near tripling",
+   "line": "The Vision 2047 draft lifts capacity from 220 mt to 604 mt and demand to 505 mt",
    "more": [
-    "The window covers the daily dollar needs of three state-run oil marketers",
-    "Hedging demand had hit a record $77 bn",
-    "The rupee has fallen over 7% this year"
+    "Finished steel consumption was 164 mt in FY26",
+    "Released by the Steel Ministry on October 11 for consultation",
+    "BofA picks JSW Steel as the top beneficiary"
    ],
    "src": {
-    "title": "CNBC: India unveils tough curbs on dollar demand to defend rupee",
-    "url": "https://www.cnbc.com/amp/2026/10/10/india-unveils-tough-curbs-on-dollar-demand-to-defend-rupee.html"
+    "title": "Business Today: SAIL, HZL, Jindal Steel, Tata Steel, Nalco, Hindalco jump up to 3%; top stock pick",
+    "url": "https://www.businesstoday.in/markets/stocks/story/sail-hindustan-zinc-jindal-steel-tata-steel-nalco-hindalco-shares-jump-up-to-3-top-stock-pick-560941-2026-10-12"
    },
    "date": "2026-10-12",
-   "slot": "1130",
-   "when": "11:30",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "RBI's oil window may divert $11–12 bn a month",
+   "line": "Emkay estimates that much monthly dollar demand could move off the spot market",
+   "more": [
+    "The rupee opened about 1% stronger near 95.76",
+    "Analysts say the measures buy time, but structural steps are needed",
+    "The rupee had neared a record low around 97 last week"
+   ],
+   "src": {
+    "title": "Zee Business: Rupee jumps 97 paise after RBI's dollar move – temporary relief rally?",
+    "url": "https://www.zeebiz.com/market-news/news-usd-vs-inr-rupee-jumps-97-paise-after-rbis-dollar-move-is-this-temporary-relief-rally-403749"
+   },
+   "date": "2026-10-12",
+   "slot": "1200",
+   "when": "12:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1100"
+   }
+  },
+  {
+   "key": "hcltech",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "HCLTech seen posting double-digit Q2 growth",
+   "line": "Revenue and profit are expected to rise in double digits YoY; results are due after hours",
+   "more": [
+    "Guidance, deal wins and the interim dividend are the key watch points",
+    "Tech Mahindra is the top Nifty loser ahead of the numbers"
+   ],
+   "src": {
+    "title": "Upstox: HCL Tech Q2 – revenue, net profit may rise in double digits; focus on guidance, deal wins, interim dividend",
+    "url": "https://upstox.com/news/market-news/earnings/hcl-tech-q2-revenue-net-profit-may-rise-in-double-digits-key-focus-on-guidance-deal-wins-and-interim-dividend/article-201649/"
+   },
+   "date": "2026-10-12",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "1030"
    }
   },
   {
@@ -109,7 +169,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-02",
     "slot": "pre"
@@ -133,7 +193,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-12",
     "slot": "1130"
@@ -161,30 +221,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
-    "slot": "1030"
-   }
-  },
-  {
-   "key": "hcltech",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Kotak sees HCLTech's Q2 adjusted PAT at ₹4,901 cr",
-   "line": "Revenue growth, margins and whether the FY27 guidance changes are the key watch points",
-   "more": [
-    "Q1 FY27 net profit was ₹4,624 cr, up 20.3% YoY",
-    "Results are due after market hours"
-   ],
-   "src": {
-    "title": "Kotak Neo: HCLTech Q2 results – revenue growth, margins and guidance in focus",
-    "url": "https://www.kotakneo.com/news/stocks/hcltech-q2-results-in-focus/"
-   },
-   "date": "2026-10-12",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-12",
     "slot": "1030"
    }
   },
@@ -355,30 +391,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "steel-policy",
-   "tag": "Policy",
-   "impact": "pos",
-   "title": "Draft steel policy targets 604 mt by 2047",
-   "line": "The government has released a draft National Steel Policy Vision 2047 for consultation",
-   "more": [
-    "Targets 302 kg per-capita consumption and 45 mt of exports",
-    "Tata Steel, JSW Steel, SAIL, Jindal Steel and NMDC are in focus"
-   ],
-   "src": {
-    "title": "Upstox: Stocks to watch, Oct 12 – RBL Bank, DMart, steel stocks, HCLTech, ICICI Pru AMC",
-    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-oct-12-rbl-bank-d-mart-steel-stocks-hcl-tech-icici-pru-brigade-enterprises-adani-enterprises/article-201647/"
-   },
-   "date": "2026-10-12",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-12",
     "slot": "pre"
    }
   },
