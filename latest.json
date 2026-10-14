@@ -1,95 +1,160 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-14T12:02:37+05:30",
+ "generated_at": "2026-10-14T12:33:16+05:30",
  "date": "2026-10-14",
- "slot": "1200",
- "slot_label": "12:00",
+ "slot": "1230",
+ "slot_label": "12:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-14T12:00:00+05:30",
+ "asof": "2026-10-14T12:30:00+05:30",
  "nifty": {
-  "value": 22718,
-  "pct": -0.02,
-  "chg": -4,
+  "value": 22726.05,
+  "pct": 0.02,
+  "chg": 4.1,
   "approx": true
  },
  "mood": {
-  "label": "Range-bound drift",
+  "label": "Stock-specific chop",
   "score": 0.0,
-  "summary": "The Nifty is stuck in a narrow band around 22,700 into midday, with mid and smallcaps flat and IT the only sector pulling clearly ahead while pharma and PSU banks drift lower.",
+  "summary": "The Nifty is still pinned just above 22,700 after midday, with action shifting to stock-specific moves in IT, IDBI Bank and defence while financials and PSU banks lag.",
   "detail": {
-   "leaders": "Nifty IT, TCS, Nestle India",
-   "laggards": "Nifty Pharma, Nifty PSU Bank, Shriram Finance",
-   "tone": "Little changed from 11:30: the Nifty is hugging the flat line (down 0.02% at 11:03) and Kotak sees the session range-bound with a negative bias.",
+   "leaders": "Nifty IT, Wipro, IDBI Bank",
+   "laggards": "Nifty PSU Bank, Shriram Finance",
+   "tone": "Unchanged from noon: the Nifty was 22,726 at 12:23, up 4 points, and September's WPI jump hasn't shifted the index so far.",
    "watch": [
-    "Brent pushing further above $106",
-    "A break below the morning low near 22,685",
-    "Whether IT holds its two-day gains into the close"
+    "Bond-yield and rate-bet reaction to the 11.39% WPI print",
+    "Wipro's Q2 numbers",
+    "Brent holding above $106"
    ],
    "src": {
-    "title": "Kotak Neo: Market Midday, 14 Oct — markets trade sideways",
-    "url": "https://www.kotakneo.com/news/market-news/sensex-nifty-50-trade-narrow-range-amid-rising-crude-oil-prices/"
+    "title": "Business Standard: Stock Market LIVE — Sensex in range, Sept WPI at 11.39%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-14-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101400113_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT is the standout sector, with TCS and Nestle India the top Nifty gainers",
-     "why": "IT buying has carried over from Tuesday's HCLTech-driven rally, while Nestle India is bid a day before its Q2 results.",
+     "summary": "IT stays the top sector, with Wipro and IDBI Bank the standout single-stock gainers",
+     "why": "Results season is driving positioning: IT is extending its post-HCLTech rally, and lenders and IT names with earnings due are seeing buying.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "move": "+1.5%",
-       "line": "Best-performing sector index, extending Tuesday's 5.2% jump"
+       "line": "Still the best-performing sector index past midday"
       },
       {
-       "name": "TCS",
+       "name": "Wipro",
        "dir": "up",
-       "move": "+2.7%",
-       "line": "Top Nifty gainer, adding to Tuesday's sharp gain in the IT rally"
+       "move": "+4.45%",
+       "line": "Rallies ahead of its Q2 results review scheduled for Oct 14–15"
       },
       {
-       "name": "Nestle India",
+       "name": "IDBI Bank",
        "dir": "up",
-       "move": "+2.6%",
-       "line": "Rises ahead of Q2 results due Oct 15; a preview sees PAT topping ₹1,000 cr"
+       "move": "+10–13%",
+       "line": "Bids ahead of Q2 results, as the govt evaluates bids for a 60.72% stake sale"
       }
      ],
      "src": {
-      "title": "Newsdrum: Sensex recovers early losses, Nifty nears 22,700",
-      "url": "https://newsdrum.in/business/sensex-recovers-early-losses-nifty-nears-22700-can-mkt-optimism-survive-global-headwinds-12674045"
+      "title": "Lapaas Voice: IDBI Bank shares rally 13% as Q2 results and stake sale loom",
+      "url": "https://lapaasvoice.com/idbi-bank-shares-rally-13-as-q2-results-and-stake-sale-loom"
      }
     },
     "down": {
-     "summary": "Pharma and PSU banks are the weakest sectors; Shriram Finance leads Nifty losers",
-     "why": "Sectors that rose with Tuesday's broad rally are giving ground as crude and inflation worries cap risk appetite.",
+     "summary": "PSU banks are the weakest sector and Shriram Finance is the biggest Nifty loser",
+     "why": "Financials are giving back part of Tuesday's broad gains while inflation and crude keep rate worries alive.",
      "names": [
-      {
-       "name": "Nifty Pharma",
-       "dir": "down",
-       "move": "down over 0.8%",
-       "line": "Among the two weakest sectors, with Dr Reddy's (-1.9%) the main drag"
-      },
       {
        "name": "Nifty PSU Bank",
        "dir": "down",
-       "move": "down over 0.8%",
-       "line": "Gives back part of Tuesday's ~1% PSU-bank gain"
+       "line": "Weakest sector index, reversing part of Tuesday's ~1% PSU-bank gain"
       },
       {
        "name": "Shriram Finance",
        "dir": "down",
-       "move": "~-3%",
-       "line": "Top Nifty loser, a day after ranking among Tuesday's top gainers"
+       "move": "-3.6%",
+       "line": "Top Nifty loser at ₹952.45, a day after ranking among Tuesday's top gainers"
       }
      ],
      "src": {
-      "title": "Newsdrum: Sensex recovers early losses, Nifty nears 22,700",
-      "url": "https://newsdrum.in/business/sensex-recovers-early-losses-nifty-nears-22700-can-mkt-optimism-survive-global-headwinds-12674045"
+      "title": "HDFC Sky: Top gainers & losers, Oct 14, 12:00 PM",
+      "url": "https://hdfcsky.com/news/top-gainers-losers-october-14-2026-at-12-pm"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "wpi-inflation",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Wholesale inflation jumps to 11.39%",
+   "line": "September WPI is up from 9.92% in August as fuel, food and manufactured prices rise",
+   "more": [
+    "Fuel and power inflation 25.85%; crude petroleum and gas up 57.32% YoY",
+    "Food index 8.66% vs 7.05%; manufactured goods at a series-high 9.76%",
+    "Comes after the RBI hiked the repo rate by 25 bp to 5.50% last week"
+   ],
+   "src": {
+    "title": "IANS: India's wholesale inflation at 11.39% in September",
+    "url": "https://ianslive.in/indias-wholesale-inflation-stands-at-1139-pc-in-september-govt--20261014122437"
+   },
+   "date": "2026-10-14",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "bel-order",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "BEL gains on ₹661.5 cr Navy contract",
+   "line": "Defence Ministry deal with BrahMos Aerospace for ship fire-control systems and launchers",
+   "more": [
+    "Bharat Electronics was up about 1.6%",
+    "The contract covers fire-control systems and launchers for Indian Navy ships"
+   ],
+   "src": {
+    "title": "ScanX: Stocks to watch, Oct 14 — BEL, Transformers & Rectifiers, Wipro",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-14-2026-bharat-electronics-transformers/53487349"
+   },
+   "date": "2026-10-14",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "transformers-rectifiers",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Transformers & Rectifiers Q2 profit up 338%",
+   "line": "The stock rose about 3% after September-quarter net profit more than quadrupled YoY",
+   "more": [
+    "Q2 net profit up 338% year-on-year",
+    "Shares gained about 3% in morning trade"
+   ],
+   "src": {
+    "title": "ScanX: Stocks to watch, Oct 14 — BEL, Transformers & Rectifiers, Wipro",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-14-2026-bharat-electronics-transformers/53487349"
+   },
+   "date": "2026-10-14",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1230"
+   }
+  },
   {
    "key": "crude",
    "tag": "Global",
@@ -108,7 +173,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-05",
     "slot": "1000"
@@ -133,7 +198,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1200"
@@ -158,7 +223,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1400"
