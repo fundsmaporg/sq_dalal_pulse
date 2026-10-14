@@ -1,55 +1,55 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-14T12:33:16+05:30",
+ "generated_at": "2026-10-14T13:02:52+05:30",
  "date": "2026-10-14",
- "slot": "1230",
- "slot_label": "12:30",
+ "slot": "1300",
+ "slot_label": "13:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-14T12:30:00+05:30",
+ "asof": "2026-10-14T13:00:00+05:30",
  "nifty": {
-  "value": 22726.05,
-  "pct": 0.02,
-  "chg": 4.1,
-  "approx": true
+  "value": 22689.3,
+  "pct": -0.14,
+  "chg": -32.55,
+  "approx": false
  },
  "mood": {
-  "label": "Stock-specific chop",
-  "score": 0.0,
-  "summary": "The Nifty is still pinned just above 22,700 after midday, with action shifting to stock-specific moves in IT, IDBI Bank and defence while financials and PSU banks lag.",
+  "label": "Mild slippage",
+  "score": -0.1,
+  "summary": "The Nifty has slipped just under 22,700 in early afternoon trade, with mid and smallcaps a touch lower and selling in financials outweighing a still-firm IT pack.",
   "detail": {
-   "leaders": "Nifty IT, Wipro, IDBI Bank",
-   "laggards": "Nifty PSU Bank, Shriram Finance",
-   "tone": "Unchanged from noon: the Nifty was 22,726 at 12:23, up 4 points, and September's WPI jump hasn't shifted the index so far.",
+   "leaders": "Nifty IT, TCS, IDBI Bank",
+   "laggards": "Shriram Finance, Nifty PSU Bank, Nifty Midcap 100",
+   "tone": "A slight step down from 12:30: the Nifty went from 4 points up to 32.55 points down by 1 pm, though it is still a narrow-range session.",
    "watch": [
-    "Bond-yield and rate-bet reaction to the 11.39% WPI print",
-    "Wipro's Q2 numbers",
-    "Brent holding above $106"
+    "Whether the Nifty holds 22,650–22,700",
+    "Bond yields after the 11.39% WPI print",
+    "Wipro's Q2 results"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex in range, Sept WPI at 11.39%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-14-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101400113_1.html"
+    "title": "Business Standard: Stock Market LIVE — Shriram Finance, HDFC Life top losers",
+    "url": "https://business-standard.com/markets/news/stock-market-live-october-14-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101400113_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT stays the top sector, with Wipro and IDBI Bank the standout single-stock gainers",
-     "why": "Results season is driving positioning: IT is extending its post-HCLTech rally, and lenders and IT names with earnings due are seeing buying.",
+     "summary": "IT still leads, with TCS among top Nifty gainers and IDBI Bank surging",
+     "why": "IT is holding its post-HCLTech rally, and IDBI Bank is bid on its pending stake sale and results.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "line": "Still the best-performing sector index past midday"
+       "line": "Best-performing sector index through the session so far"
       },
       {
-       "name": "Wipro",
+       "name": "TCS",
        "dir": "up",
-       "move": "+4.45%",
-       "line": "Rallies ahead of its Q2 results review scheduled for Oct 14–15"
+       "move": "+1.89%",
+       "line": "Among top Nifty gainers at noon, extending Tuesday's sharp IT-led gain"
       },
       {
        "name": "IDBI Bank",
        "dir": "up",
        "move": "+10–13%",
-       "line": "Bids ahead of Q2 results, as the govt evaluates bids for a 60.72% stake sale"
+       "line": "Govt is evaluating bids for a 60.72% stake; Q2 results are also due"
       }
      ],
      "src": {
@@ -58,30 +58,109 @@
      }
     },
     "down": {
-     "summary": "PSU banks are the weakest sector and Shriram Finance is the biggest Nifty loser",
-     "why": "Financials are giving back part of Tuesday's broad gains while inflation and crude keep rate worries alive.",
+     "summary": "Financials lead the slide, with Shriram Finance the top Nifty loser",
+     "why": "Lenders and NBFCs that rallied on Tuesday are giving back gains on a day when bond yields sit near three-year highs.",
      "names": [
-      {
-       "name": "Nifty PSU Bank",
-       "dir": "down",
-       "line": "Weakest sector index, reversing part of Tuesday's ~1% PSU-bank gain"
-      },
       {
        "name": "Shriram Finance",
        "dir": "down",
        "move": "-3.6%",
-       "line": "Top Nifty loser at ₹952.45, a day after ranking among Tuesday's top gainers"
+       "line": "Top Nifty loser at ₹952.45, reversing part of Tuesday's gain"
+      },
+      {
+       "name": "Nifty PSU Bank",
+       "dir": "down",
+       "line": "Weakest sector index today, reversing part of Tuesday's ~1% PSU-bank gain"
+      },
+      {
+       "name": "Nifty Midcap 100",
+       "dir": "down",
+       "move": "-0.27%",
+       "line": "Trails the Nifty as broader-market buying stays thin"
       }
      ],
      "src": {
-      "title": "HDFC Sky: Top gainers & losers, Oct 14, 12:00 PM",
-      "url": "https://hdfcsky.com/news/top-gainers-losers-october-14-2026-at-12-pm"
+      "title": "Business Standard: Stock Market LIVE — Shriram Finance, HDFC Life top losers",
+      "url": "https://business-standard.com/markets/news/stock-market-live-october-14-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101400113_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "gsec-yields",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "10-year yield at 3-year high",
+   "line": "Benchmark G-Sec yield hit ~7.38% on Tuesday as RBI tightening and oil pressure bonds",
+   "more": [
+    "Highest in over three years, per Trading Economics",
+    "Investing.com shows a lower 7.352%; sources differ by ~3 bp",
+    "RBI liquidity tightening and Brent above $100 cited"
+   ],
+   "src": {
+    "title": "Trading Economics: India 10-year bond yield",
+    "url": "https://tradingeconomics.com/india/government-bond-yield"
+   },
+   "date": "2026-10-14",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "tata-elxsi",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Tata Elxsi Q2 revenue up 15%",
+   "line": "Revenue grew 3.4% QoQ to ₹1,055.7 cr; profit about ₹170 cr, up ~10% YoY",
+   "more": [
+    "Results were announced on Tuesday, Oct 13",
+    "Higher staff and operating costs weighed on margins"
+   ],
+   "src": {
+    "title": "PR Newswire: Tata Elxsi Q2 FY27 results",
+    "url": "https://www.prnewswire.com/news-releases/tata-elxsi-delivers-healthy-revenue-growth-of-3-4-qoq-and-15-yoy-in-q2-fy27--302907117.html"
+   },
+   "date": "2026-10-14",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1300"
+   }
+  },
+  {
+   "key": "irdai-caps",
+   "tag": "Regulation",
+   "impact": "watch",
+   "title": "Insurers remain weak",
+   "line": "HDFC Life fell 2.29% and SBI Life 1.73% by noon; sector still weak after IRDAI cost plan",
+   "more": [
+    "IRDAI's Sept proposal to cut commissions and expense limits hit the sector",
+    "On Sep 24, HDFC Life fell 6.75% and peers dropped up to 10%"
+   ],
+   "src": {
+    "title": "Business Today: Life insurer shares tumble up to 10% (Sep 24)",
+    "url": "https://www.businesstoday.in/markets/stocks/story/icici-prudential-life-hdfc-life-sbi-life-shares-tumble-up-to-10-heres-why-557442-2026-09-24"
+   },
+   "date": "2026-10-14",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1300"
+   }
+  },
   {
    "key": "wpi-inflation",
    "tag": "Macro",
@@ -101,7 +180,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1230"
@@ -125,7 +204,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1230"
@@ -149,7 +228,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1230"
@@ -519,30 +598,6 @@
    "first_seen": {
     "date": "2026-10-12",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "gsec-yields",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "10-year G-sec yield hits a three-year high",
-   "line": "Higher bond yields add to bank funding costs and squeeze treasury profits",
-   "more": [
-    "Comes alongside the RBI's liquidity tightening",
-    "Tighter liquidity also raises banks' funding costs"
-   ],
-   "src": {
-    "title": "Kotak Neo: Nifty Bank falls 400 points as RBI tightens liquidity and bond yields hit a three-year high",
-    "url": "https://www.kotakneo.com/news/sectors/bank-nifty-falls-400-points-rbi-liquidity-measures-bond-yields-pressure-banks/"
-   },
-   "date": "2026-10-12",
-   "slot": "1330",
-   "when": "Mon · 13:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-12",
-    "slot": "1330"
    }
   },
   {
