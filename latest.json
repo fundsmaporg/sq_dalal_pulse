@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-14T13:33:19+05:30",
+ "generated_at": "2026-10-14T14:02:58+05:30",
  "date": "2026-10-14",
- "slot": "1330",
- "slot_label": "13:30",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-14T13:30:00+05:30",
+ "asof": "2026-10-14T14:00:00+05:30",
  "nifty": {
   "value": 22572,
   "pct": -0.66,
@@ -13,17 +13,17 @@
   "approx": true
  },
  "mood": {
-  "label": "Selling picks up",
+  "label": "Heavy afternoon",
   "score": -0.3,
-  "summary": "Selling has picked up after 1 pm, dragging the Nifty below 22,600; financials lead the drop while IT and Adani stocks hold up.",
+  "summary": "The Nifty was last reported around 22,570, down about 0.66% after the 1 pm slide, with financials still weighing and IT plus Adani stocks the main support.",
   "detail": {
    "leaders": "Nifty IT, Adani Energy Solutions, Adani Green",
    "laggards": "Nifty PSU Bank, Shriram Finance",
-   "tone": "A clear step down from 1 pm, when the Nifty was off just 0.14%: by 1:23 pm the Sensex was down about 411 points (0.56%) and the Nifty about 0.66%.",
+   "tone": "No fresh index print since 1:23 pm, when the Nifty was down about 0.66%; the leaders and laggards are unchanged from the 1:30 note.",
    "watch": [
     "Whether 22,550–22,600 holds into the close",
-    "Brent and bond yields after the hot WPI print",
-    "Wipro's Q2 results"
+    "Wipro's Q2 results tomorrow evening",
+    "Brent and bond yields after the hot WPI print"
    ],
    "src": {
     "title": "Business Standard: Stock Market LIVE — Sensex falls 400 pts, Nifty below 22,600; Adani shares advance",
@@ -31,13 +31,13 @@
    },
    "movers": {
     "up": {
-     "summary": "IT is still the top sector, and Adani Group stocks rise against the falling market",
-     "why": "IT is holding its post-HCLTech rally, while Adani stocks advance on a day of fresh group news (a Jabil JV MoU, a power supply deal).",
+     "summary": "IT is still the top sector, and Adani Group stocks rise against the weak market",
+     "why": "IT is holding its post-HCLTech rally, and Adani stocks advance on a day of fresh group news (a Jabil JV MoU, a power supply deal).",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "line": "Still the best-performing sector index even as the broader market slides"
+       "line": "Best-performing sector index even as the benchmark slides"
       },
       {
        "name": "Adani Energy Solutions",
@@ -74,14 +74,88 @@
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex falls 400 pts, Nifty below 22,600; Adani shares advance",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-14-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101400113_1.html"
+      "title": "HDFC Sky: Top gainers & losers, Oct 14, 12:00 PM",
+      "url": "https://hdfcsky.com/news/top-gainers-losers-october-14-2026-at-12-pm"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "wipro-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Wipro Q2 due Oct 15 after market",
+   "line": "Guided -1.5% to +0.5% QoQ cc revenue growth; Q3 outlook and margins in focus",
+   "more": [
+    "IT services revenue guided at $2.574–2.627 bn",
+    "One preview sees ~8% YoY revenue growth with single-digit EBIT growth",
+    "Another expects a 0.5–1.4% QoQ cc revenue decline"
+   ],
+   "src": {
+    "title": "Business Standard: Wipro Q2 preview — revenue growth likely over 8%",
+    "url": "https://www.business-standard.com/amp/markets/news/wipro-q2-results-preview-revenue-growth-likely-over-8-margins-in-focus-126101400475_1.html"
+   },
+   "date": "2026-10-14",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "hdfc-bank-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "HDFC Bank Q2 on Saturday, Oct 17",
+   "line": "Board meets Saturday; CEO Sashidhar Jagdishan retires on Oct 26",
+   "more": [
+    "Results come on a non-trading day, so the reaction is due Monday",
+    "The CEO transition may draw attention alongside the numbers"
+   ],
+   "src": {
+    "title": "PSU Connect: HDFC Bank board meeting on 17 October for Q2",
+    "url": "https://www.psuconnect.in/bank-news/hdfc-bank-fixes-date-for-q2-results-board-meeting-on-17-october"
+   },
+   "date": "2026-10-14",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "idbi-bank",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IDBI Bank jumps on privatisation interest",
+   "line": "Shares rose 8–13% as the govt weighs bids for a 60.72% stake",
+   "more": [
+    "Up 8.23% as of 12:42 pm, per HDFC Sky",
+    "Govt is evaluating bids from Fairfax and Emirates NBD",
+    "Q2 results are also due"
+   ],
+   "src": {
+    "title": "HDFC Sky: NSE most active — IDBI Bank, Vedanta Power rally",
+    "url": "https://hdfcsky.com/news/trending-stocks-today-october-14-2026-idbi-bank-vedanta-power-rally-pc-jeweller-vodafone-idea-fall"
+   },
+   "date": "2026-10-14",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1400"
+   }
+  },
   {
    "key": "ltcg-stt",
    "tag": "Policy",
@@ -101,7 +175,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1330"
@@ -125,7 +199,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1330"
@@ -149,7 +223,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1330"
