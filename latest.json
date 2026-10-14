@@ -1,93 +1,160 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-14T13:02:52+05:30",
+ "generated_at": "2026-10-14T13:33:19+05:30",
  "date": "2026-10-14",
- "slot": "1300",
- "slot_label": "13:00",
+ "slot": "1330",
+ "slot_label": "13:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-14T13:00:00+05:30",
+ "asof": "2026-10-14T13:30:00+05:30",
  "nifty": {
-  "value": 22689.3,
-  "pct": -0.14,
-  "chg": -32.55,
-  "approx": false
+  "value": 22572,
+  "pct": -0.66,
+  "chg": -150,
+  "approx": true
  },
  "mood": {
-  "label": "Mild slippage",
-  "score": -0.1,
-  "summary": "The Nifty has slipped just under 22,700 in early afternoon trade, with mid and smallcaps a touch lower and selling in financials outweighing a still-firm IT pack.",
+  "label": "Selling picks up",
+  "score": -0.3,
+  "summary": "Selling has picked up after 1 pm, dragging the Nifty below 22,600; financials lead the drop while IT and Adani stocks hold up.",
   "detail": {
-   "leaders": "Nifty IT, TCS, IDBI Bank",
-   "laggards": "Shriram Finance, Nifty PSU Bank, Nifty Midcap 100",
-   "tone": "A slight step down from 12:30: the Nifty went from 4 points up to 32.55 points down by 1 pm, though it is still a narrow-range session.",
+   "leaders": "Nifty IT, Adani Energy Solutions, Adani Green",
+   "laggards": "Nifty PSU Bank, Shriram Finance",
+   "tone": "A clear step down from 1 pm, when the Nifty was off just 0.14%: by 1:23 pm the Sensex was down about 411 points (0.56%) and the Nifty about 0.66%.",
    "watch": [
-    "Whether the Nifty holds 22,650–22,700",
-    "Bond yields after the 11.39% WPI print",
+    "Whether 22,550–22,600 holds into the close",
+    "Brent and bond yields after the hot WPI print",
     "Wipro's Q2 results"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Shriram Finance, HDFC Life top losers",
-    "url": "https://business-standard.com/markets/news/stock-market-live-october-14-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101400113_1.html"
+    "title": "Business Standard: Stock Market LIVE — Sensex falls 400 pts, Nifty below 22,600; Adani shares advance",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-14-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101400113_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT still leads, with TCS among top Nifty gainers and IDBI Bank surging",
-     "why": "IT is holding its post-HCLTech rally, and IDBI Bank is bid on its pending stake sale and results.",
+     "summary": "IT is still the top sector, and Adani Group stocks rise against the falling market",
+     "why": "IT is holding its post-HCLTech rally, while Adani stocks advance on a day of fresh group news (a Jabil JV MoU, a power supply deal).",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "line": "Best-performing sector index through the session so far"
+       "line": "Still the best-performing sector index even as the broader market slides"
       },
       {
-       "name": "TCS",
+       "name": "Adani Energy Solutions",
        "dir": "up",
-       "move": "+1.89%",
-       "line": "Among top Nifty gainers at noon, extending Tuesday's sharp IT-led gain"
+       "move": "up to 4%+",
+       "line": "Leads Adani Group gains as the flagship signs a data-centre JV MoU with Jabil"
       },
       {
-       "name": "IDBI Bank",
+       "name": "Adani Green Energy",
        "dir": "up",
-       "move": "+10–13%",
-       "line": "Govt is evaluating bids for a 60.72% stake; Q2 results are also due"
+       "move": "up to 4%+",
+       "line": "Among group leaders as Adani Power signs a 25-year 1,234 MW supply pact"
       }
      ],
      "src": {
-      "title": "Lapaas Voice: IDBI Bank shares rally 13% as Q2 results and stake sale loom",
-      "url": "https://lapaasvoice.com/idbi-bank-shares-rally-13-as-q2-results-and-stake-sale-loom"
+      "title": "Business Standard: Stock Market LIVE — Sensex falls 400 pts, Nifty below 22,600; Adani shares advance",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-14-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101400113_1.html"
      }
     },
     "down": {
-     "summary": "Financials lead the slide, with Shriram Finance the top Nifty loser",
-     "why": "Lenders and NBFCs that rallied on Tuesday are giving back gains on a day when bond yields sit near three-year highs.",
+     "summary": "PSU banks are the weakest sector and Shriram Finance leads Nifty losers",
+     "why": "Financials that led Tuesday's rally are bearing the brunt of today's give-back, with Bajaj Finance and BSE also among top losers.",
      "names": [
-      {
-       "name": "Shriram Finance",
-       "dir": "down",
-       "move": "-3.6%",
-       "line": "Top Nifty loser at ₹952.45, reversing part of Tuesday's gain"
-      },
       {
        "name": "Nifty PSU Bank",
        "dir": "down",
-       "line": "Weakest sector index today, reversing part of Tuesday's ~1% PSU-bank gain"
+       "line": "Biggest sectoral decliner, reversing part of Tuesday's ~1% gain"
       },
       {
-       "name": "Nifty Midcap 100",
+       "name": "Shriram Finance",
        "dir": "down",
-       "move": "-0.27%",
-       "line": "Trails the Nifty as broader-market buying stays thin"
+       "move": "-3.6% at noon",
+       "line": "Top Nifty loser all day, after ranking among Tuesday's top gainers"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Shriram Finance, HDFC Life top losers",
-      "url": "https://business-standard.com/markets/news/stock-market-live-october-14-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101400113_1.html"
+      "title": "Business Standard: Stock Market LIVE — Sensex falls 400 pts, Nifty below 22,600; Adani shares advance",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-14-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101400113_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "ltcg-stt",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "FM open to views on LTCG and STT",
+   "line": "Sitharaman's Tuesday remarks sparked a 1,109-pt Sensex rally, but no change is promised",
+   "more": [
+    "She said the STT debate is healthy and some argue only one of the two taxes should stay",
+    "She declined to commit, citing the early stage of Budget preparation",
+    "SBI Research has called for scrapping LTCG, with FPI outflows at ₹3.08 lakh cr in 2026"
+   ],
+   "src": {
+    "title": "Business Today: LTCG, STT debate — FM to 'tread cautiously'",
+    "url": "https://www.businesstoday.in/markets/stocks/story/ltcg-stt-debate-fm-sitharaman-to-tread-cautiously-on-taxation-ahead-of-budget-561279-2026-10-13"
+   },
+   "date": "2026-10-14",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "adani-jabil",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Adani Ent signs data-centre JV MoU",
+   "line": "Non-binding MoU with US-based Jabil for AI and data-centre equipment",
+   "more": [
+    "Announced on Tuesday, Oct 13",
+    "Adani Group stocks advanced today, with gains up to 4%+"
+   ],
+   "src": {
+    "title": "Upstox: Adani Enterprises signs MoU with Jabil for data centre hardware JV",
+    "url": "https://upstox.com/news/market-news/stocks/adani-enterprises-shares-in-focus-as-firm-signs-mo-u-with-us-based-jabil-for-data-centre-hardware-jv/article-201779"
+   },
+   "date": "2026-10-14",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "adani-power-psa",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Adani Power: 1,234 MW, 25-year PSA",
+   "line": "Power supply agreement signed with Uttarakhand Power Corporation",
+   "more": [
+    "Agreement runs for 25 years",
+    "Covers 1,234 MW of supply"
+   ],
+   "src": {
+    "title": "Trade Brains: Adani Power signs 25-year 1,234 MW PSA with Uttarakhand",
+    "url": "https://tradebrains.in/indian-markets/adani-power-secures-25-year-power-supply-agreement-for-1234-mw-with-uttarakhand-power-corporation-12674700"
+   },
+   "date": "2026-10-14",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1330"
+   }
+  },
   {
    "key": "gsec-yields",
    "tag": "Macro",
@@ -107,7 +174,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-12",
     "slot": "1330"
@@ -131,7 +198,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1300"
@@ -155,7 +222,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1300"
