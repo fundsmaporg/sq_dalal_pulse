@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-15T13:02:39+05:30",
+ "generated_at": "2026-10-15T13:33:08+05:30",
  "date": "2026-10-15",
- "slot": "1300",
- "slot_label": "13:00",
+ "slot": "1330",
+ "slot_label": "13:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-15T13:00:00+05:30",
+ "asof": "2026-10-15T13:30:00+05:30",
  "nifty": {
   "value": 22973.95,
   "pct": 1.55,
@@ -13,25 +13,25 @@
   "approx": true
  },
  "mood": {
-  "label": "Rally stretches",
-  "score": 0.6,
-  "summary": "The rally widened through midday, with the Sensex up about 1,200 points and the Nifty near 22,970, though PSU banks and a couple of results-day names are bucking it.",
+  "label": "Gains hold",
+  "score": 0.55,
+  "summary": "The benchmarks were last reported up about 1.5% at noon, with IT and telecom in charge and results-driven selling confined to a few names.",
   "detail": {
    "leaders": "Bharti Airtel, Tech Mahindra, Nifty IT",
    "laggards": "Nestle India, IDBI Bank",
-   "tone": "Firmer than the 11 am reading used at 12:30: by noon the Sensex gain had widened to 1,200 points (1.69%) at 74,011.21, and the Nifty was up 351.25 points.",
+   "tone": "No fresh index print since noon, when the Sensex was up 1,200 points at 74,011.21; leadership and laggards are unchanged.",
    "watch": [
     "Tech Mahindra and Wipro results after the close",
-    "Nifty PSU Bank, down about 1%",
-    "Whether the rally holds into the 3:30 close"
+    "Whether the noon highs hold into the 3:30 close",
+    "Nifty PSU Bank, the weakest sector"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,200 pts, Nifty reclaims 22,900; Nifty PSU Bank falls 1%",
+    "title": "Business Standard: Stock Market LIVE, Oct 15",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Airtel and IT heavyweights keep leading the benchmarks higher",
+     "summary": "Airtel and IT heavyweights continue to lead the rally",
      "why": "IT is extending its three-day run into results, and telecom is in focus after Jio's IPO pricing.",
      "names": [
       {
@@ -43,7 +43,7 @@
       {
        "name": "Tech Mahindra",
        "dir": "up",
-       "line": "Co-leads the Sensex rally ahead of Q2 today, where a bonus issue is on the table"
+       "line": "Co-leads the rally ahead of Q2 after the close, where a bonus issue is on the table"
       },
       {
        "name": "Nifty IT",
@@ -52,19 +52,19 @@
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex surges 1,200 pts, Nifty reclaims 22,900; Nifty PSU Bank falls 1%",
+      "title": "Business Standard: Stock Market LIVE, Oct 15",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
      }
     },
     "down": {
-     "summary": "Nestle India and IDBI Bank slide on results and deal disappointment",
-     "why": "Stock-specific selling: Nestle fell despite a strong quarter, and IDBI on a below-market deal price.",
+     "summary": "Nestle India and IDBI Bank stay under pressure on stock-specific news",
+     "why": "Nestle is falling despite a strong quarter, and IDBI on a below-market Fairfax deal price.",
      "names": [
       {
        "name": "Nestle India",
        "dir": "down",
        "move": "-4.7% to -7%",
-       "line": "Fell to ₹1,260–1,318 despite Q2 profit rising 36% and beating estimates"
+       "line": "Down despite Q2 profit rising 36% and beating estimates"
       },
       {
        "name": "IDBI Bank",
@@ -74,7 +74,7 @@
       }
      ],
      "src": {
-      "title": "Zee Business: Nestle India Q2 — profit up, shares fall nearly 5%",
+      "title": "Zee Business: Nestle India Q2 — shares fall nearly 5%",
       "url": "https://www.zeebiz.com/companies/news-nestle-india-q2-results-fmcg-majors-net-profit-rises-416-to-rs-1968-crore-revenue-up-226-shares-fall-nearly-5-403993"
      }
     }
@@ -82,6 +82,78 @@
   }
  },
  "insights": [
+  {
+   "key": "polycab-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Polycab Q2 profit up ~43% to ₹977 cr",
+   "line": "Revenue jumped about 53% to ₹9,899 crore in the September quarter",
+   "more": [
+    "Profit up from ₹685.45 cr a year ago",
+    "Shares were 0.21% lower at ₹8,317.50 ahead of the numbers"
+   ],
+   "src": {
+    "title": "Upstox: Q2 results live — Polycab PAT climbs 43% to ₹977 cr",
+    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-wipro-nestle-india-tech-mahindra-polycab-jio-financial-hdfc-life-irfc-hdfc-amc-angel-one-others-to-declare-earnings-oct015/liveblog-201887/"
+   },
+   "date": "2026-10-15",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee gains 31 paise to 94.86/$",
+   "line": "RBI intervention and easing oil demand lifted the rupee in early trade",
+   "more": [
+    "Previous close was 95.17 per dollar",
+    "A firmer rupee is among the reasons cited for today's rally"
+   ],
+   "src": {
+    "title": "Deccan Herald: Rupee rises 31 paise to 94.86 against US dollar",
+    "url": "https://www.deccanherald.com/business/rupee-rises-31-paise-to-9486-against-us-dollar-in-early-trade-4183384"
+   },
+   "date": "2026-10-15",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Brent eases to ~$105",
+   "line": "Oil is down about 0.9% on the day, easing inflation fears",
+   "more": [
+    "Brent at $105.13 early Thursday vs a $106.06 prior close",
+    "Day's range roughly $105.10–106.01"
+   ],
+   "src": {
+    "title": "Dealplexus: Crude oil (Brent) today",
+    "url": "https://www.dealplexus.com/markets/crude-oil-price-today"
+   },
+   "date": "2026-10-15",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "pre"
+   }
+  },
   {
    "key": "nestle-india",
    "tag": "Results",
@@ -101,7 +173,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1200"
@@ -125,7 +197,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1200"
@@ -149,7 +221,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1130"
@@ -322,54 +394,6 @@
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Brent slips about 1%",
-   "line": "Lower oil is helping Indian stocks extend gains to the day's high",
-   "more": [
-    "Brent had eased to about $105 early Thursday from roughly $106",
-    "Crude near $107 had weighed on sentiment on Wednesday"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex at day's high, up 900 points, Nifty reclaims 22,800 as Brent falls 1%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
-   },
-   "date": "2026-10-15",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-06",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Firmer rupee, softer crude help",
-   "line": "A stronger rupee and easing oil prices supported the open despite weak global cues",
-   "more": [
-    "Brent eased to about $105 early Thursday from $106",
-    "IT, rupee and crude all cited as early supports"
-   ],
-   "src": {
-    "title": "Newsdrum: Sensex jumps 400 points; Jio IPO, Wipro earnings in focus",
-    "url": "https://www.newsdrum.in/business/sensex-jumps-400-points-jio-ipo-wipro-earnings-and-stocks-in-focus-12677163"
-   },
-   "date": "2026-10-15",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1100"
    }
   },
   {
