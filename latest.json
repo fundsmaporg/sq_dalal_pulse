@@ -1,65 +1,154 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-15T12:02:42+05:30",
+ "generated_at": "2026-10-15T12:33:18+05:30",
  "date": "2026-10-15",
- "slot": "1200",
- "slot_label": "12:00",
+ "slot": "1230",
+ "slot_label": "12:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-15T12:00:00+05:30",
+ "asof": "2026-10-15T12:30:00+05:30",
  "nifty": {
-  "value": 22950,
-  "pct": 1.45,
-  "chg": 327,
+  "value": 22932.8,
+  "pct": 1.37,
+  "chg": 310.1,
   "approx": true
  },
  "mood": {
-  "label": "Heavyweight rally",
-  "score": 0.55,
-  "summary": "Benchmarks pushed to fresh intraday highs in late morning, with the Sensex up about 1,100 points, but the rally is led by heavyweights while smallcaps lag.",
+  "label": "Rally holds",
+  "score": 0.5,
+  "summary": "The Sensex is holding a gain of about 1,000 points into early afternoon as telecom joins IT in leading, while a few heavy stock-specific falls pull against the tide.",
   "detail": {
-   "leaders": "Nifty IT, TCS, Tech Mahindra",
-   "laggards": "BEL, Adani Ports, Trent, Power Grid, Nifty Smallcap 100",
-   "tone": "Slightly firmer than at 11:30: the index has pushed to about 22,950 intraday, though the India VIX was up over 1% and broader indices were weaker at the open.",
+   "leaders": "Bharti Airtel, Tech Mahindra, Nifty IT",
+   "laggards": "IDBI Bank",
+   "tone": "Steady versus noon: the ~1,000-point Sensex gain is intact, with leadership broadening from IT to telecom.",
    "watch": [
+    "Nestle India's slide and its Q2 numbers",
     "Tech Mahindra and Wipro results after the close",
-    "Whether smallcaps catch up or keep lagging",
-    "Brent and the rupee, both supportive today"
+    "Whether smallcaps join the rally"
    ],
    "src": {
-    "title": "Business Standard: Bulls strike! Sensex zooms 1,100 pts intraday, Nifty at 22,950 — key reasons",
-    "url": "https://www.business-standard.com/markets/news/bulls-strike-sensex-zooms-1-100-pts-intraday-nifty-at-22-950-key-reasons-126101500351_1.html"
+    "title": "Business Standard: Stock Market LIVE — Airtel, TechM lead 1,000-pt Sensex rally; Nestle India drops 8%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT is still the engine, with TCS and Tech Mahindra among the top Sensex gainers",
-     "why": "IT has risen roughly 8–9% over three sessions on earnings resilience after HCLTech's Q2, value buying and rotation from AI-linked stocks abroad.",
+     "summary": "Airtel has joined IT at the front, with Tech Mahindra still among top gainers",
+     "why": "Reports tie Airtel's rise to Jio's IPO pricing, while IT extends its three-day run into results.",
      "names": [
       {
-       "name": "Nifty IT",
+       "name": "Bharti Airtel",
        "dir": "up",
-       "line": "Up for a third straight session after HCLTech's Q2 beat set off the rally"
-      },
-      {
-       "name": "TCS",
-       "dir": "up",
-       "move": "+2.19% at open",
-       "line": "Top Nifty gainer at the open as IT buying extended"
+       "move": "+3.69%",
+       "line": "Top gainer at noon at ₹1,860.80 as Jio's ₹10.3 lakh cr IPO valuation spotlights telecom"
       },
       {
        "name": "Tech Mahindra",
        "dir": "up",
-       "line": "Among top Sensex gainers ahead of Q2 today, where a bonus issue is on the table"
+       "line": "Co-leads the Sensex rally ahead of Q2 today, where a bonus issue is on the table"
+      },
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "line": "Third straight day of gains since HCLTech's Q2 beat on Tuesday"
       }
      ],
      "src": {
-      "title": "Sunday Guardian: Sensex soars over 1,000 points, Nifty crosses 22,900 — gainers and losers",
-      "url": "https://sundayguardianlive.com/business/sensex-today-nifty-50-indian-stock-market-live-sensex-soars-over-1000-points-nifty-crosses-22900-as-it-banking-and-consumer-stocks-lead-rally-check-key-triggers-gainers-and-losers-306035/"
+      "title": "Business Standard: Stock Market LIVE — Airtel, TechM lead 1,000-pt Sensex rally; Nestle India drops 8%",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
+     }
+    },
+    "down": {
+     "summary": "IDBI Bank slides as the Fairfax deal price disappoints",
+     "why": "The approved ₹81/share price came in well below where the stock had been trading.",
+     "names": [
+      {
+       "name": "IDBI Bank",
+       "dir": "down",
+       "move": "-6%",
+       "line": "Fell to ₹84.97 as the ₹81 deal price lagged a ₹90.40 close and ₹100–110 hopes"
+      }
+     ],
+     "src": {
+      "title": "NewsBytes: IDBI Bank shares fall 6% after nearly ₹53,000 cr deal",
+      "url": "https://www.newsbytesapp.com/news/business/idbi-bank-shares-fall-6-after-nearly-53-000cr-deal/story"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "nestle-india",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Nestle India drops 8% on results day",
+   "line": "The FMCG major slid sharply; its Q2 numbers had been expected to top ₹1,000 cr in profit",
+   "more": [
+    "Stock was down just 0.56% at ₹1,375.40 at 10:11 am, ahead of earnings",
+    "Previews expected ~20% revenue growth and ~37% profit growth",
+    "The reason for the slide was not yet reported"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Airtel, TechM lead 1,000-pt Sensex rally; Nestle India drops 8%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
+   },
+   "date": "2026-10-15",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "idbi-bank",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "IDBI Bank slips 6% on Fairfax deal price",
+   "line": "Approved ₹81/share undershot the ₹90.40 prior close and ₹100–110 market hopes",
+   "more": [
+    "Price still beat the ₹75.99 fair value set by independent valuers",
+    "Deal still needs regulatory steps before completion"
+   ],
+   "src": {
+    "title": "Lapaas Voice: IDBI Bank shares fall after Fairfax approval — why investors are disappointed",
+    "url": "https://lapaasvoice.com/idbi-bank-shares-fall-6-after-fairfax-deal-approval-why-investors-are-disappointed"
+   },
+   "date": "2026-10-15",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Jio IPO lifts Airtel, telecom",
+   "line": "Airtel up nearly 4% as Jio's ~₹10.3 lakh cr IPO valuation puts telecom in focus",
+   "more": [
+    "Vodafone Idea rose about 1.5%; Reliance also traded higher",
+    "A 15% tariff hike is expected in December 2026, per one report"
+   ],
+   "src": {
+    "title": "Kotak Neo: Jio IPO puts telecom in focus as Bharti Airtel jumps 3%",
+    "url": "https://www.kotakneo.com/news/ipos/jio-platforms-ipo-puts-telecom-stocks-in-focus-bharti-airtel-shares-jump-3-percent/"
+   },
+   "date": "2026-10-15",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1100"
+   }
+  },
   {
    "key": "rally-drivers",
    "tag": "Stocks",
@@ -79,7 +168,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1200"
@@ -103,33 +192,9 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
-    "slot": "1100"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Jio IPO filing lifts sentiment",
-   "line": "Open reports cited the ₹30,213 cr Jio Platforms IPO among the morning's supports",
-   "more": [
-    "Issue opens Oct 21 and closes Oct 23",
-    "Listing tentatively set for Oct 28"
-   ],
-   "src": {
-    "title": "HDFC Sky: Sensex, Nifty jump at open; oil eases, Jio IPO lifts mood",
-    "url": "https://hdfcsky.com/news/bse-nse-sensex-october-15-2026-open-report-markets-soar-as-it-gains-jio-ipo-lift-sentiment"
-   },
-   "date": "2026-10-15",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-06",
     "slot": "1100"
    }
   },
@@ -179,30 +244,6 @@
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "nestle-india",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Nestle India reports Q2 today",
-   "line": "Preview expected strong volumes to drive growth, with PAT possibly above ₹1,000 cr",
-   "more": [
-    "HDFC Life, Wipro and Jio Financial also report Thursday",
-    "Nestle shares were near ₹1,318.70 on Tuesday"
-   ],
-   "src": {
-    "title": "Business Standard: Nestle India Q2 preview",
-    "url": "https://www.business-standard.com/amp/markets/news/nestle-india-q2-results-preview-strong-volumes-to-drive-growth-pat-may-top-1k-cr-126101300623_1.html"
-   },
-   "date": "2026-10-15",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-14",
-    "slot": "1200"
    }
   },
   {
@@ -275,31 +316,6 @@
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "idbi-bank",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Fairfax pays ₹81/share for IDBI control",
-   "line": "Cabinet-approved ₹52,878 cr deal is the largest FDI in India's financial sector",
-   "more": [
-    "Bid of ₹81/share beat the ₹75.99 fair value set by valuers",
-    "Govt keeps 15%, LIC 19%; Fairfax must make an open offer",
-    "CSB Bank to be merged into IDBI Bank within two years"
-   ],
-   "src": {
-    "title": "Business Today: Centre approves Fairfax's ₹52,878 cr bid for 60.72% of IDBI Bank",
-    "url": "https://www.businesstoday.in/latest/corporate/story/centre-approves-fairfax-financials-rs52878-crore-bid-for-60-72-stake-in-idbi-bank-561590-2026-10-14"
-   },
-   "date": "2026-10-15",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-14",
-    "slot": "1400"
    }
   },
   {
