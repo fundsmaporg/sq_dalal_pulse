@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-15T15:02:27+05:30",
+ "generated_at": "2026-10-15T15:33:18+05:30",
  "date": "2026-10-15",
- "slot": "1500",
- "slot_label": "15:00",
+ "slot": "1530",
+ "slot_label": "15:30",
  "stage": "Closing mood",
- "asof": "2026-10-15T15:00:00+05:30",
+ "asof": "2026-10-15T15:30:00+05:30",
  "nifty": {
   "value": 23052,
   "pct": 1.9,
@@ -13,17 +13,17 @@
   "approx": true
  },
  "mood": {
-  "label": "Narrow surge",
+  "label": "Strong finish",
   "score": 0.6,
-  "summary": "Heading into the final half hour, the Sensex is up about 1,500 points and the Nifty holds above 23,000, but smallcaps and microcaps are falling, leaving the rally narrow.",
+  "summary": "The session is closing with the benchmarks up close to 2% with the Nifty around 23,050, even as smallcaps and microcaps finish in the red.",
   "detail": {
    "leaders": "HCLTech, Tech Mahindra, TCS, Bharti Airtel",
    "laggards": "Nestle India, IDBI Bank",
-   "tone": "Firm versus 2:30: the Sensex gain has stretched to about 1,527 points at 74,309, with the Nifty near 23,052, its first trade above 23,000 in twelve sessions.",
+   "tone": "Little changed from 3 pm: no official close was published yet; the latest snapshot had the Sensex up about 1,527 points at 74,309 and the Nifty near 23,052.",
    "watch": [
-    "Whether the Nifty closes above 23,000",
-    "Tech Mahindra, Wipro and HDFC Life results after the close",
-    "Smallcap selling, with the Smallcap 100 down 1.11%"
+    "Tech Mahindra and Wipro results tonight",
+    "HDFC Bank Q2 on Saturday",
+    "FII flow data after 14 straight selling sessions"
    ],
    "src": {
     "title": "Whalesbook: Sensex, Nifty hit 23,000; Nestlé India falls 9% after results",
@@ -31,31 +31,31 @@
    },
    "movers": {
     "up": {
-     "summary": "IT majors and Airtel continue to drive the benchmarks higher",
-     "why": "IT is extending its three-day post-HCLTech rally into results, and telecom is in focus after Jio's IPO pricing.",
+     "summary": "IT majors and Airtel carried the day's 1,500-point Sensex rally",
+     "why": "IT extended its three-day post-HCLTech rally into results, and telecom was in focus after Jio's IPO pricing.",
      "names": [
       {
        "name": "HCLTech",
        "dir": "up",
        "move": "+3.18%",
-       "line": "Among top gainers; its Q2 beat on Tuesday started the IT run"
+       "line": "Its Q2 beat on Tuesday started the IT run that powered today's rally"
       },
       {
        "name": "Tech Mahindra",
        "dir": "up",
        "move": "+3.88%",
-       "line": "Rises into Q2 after the close, where a bonus issue is on the table"
+       "line": "Ran up into Q2 results due after the close, with a bonus issue on the table"
       },
       {
        "name": "TCS",
        "dir": "up",
-       "line": "Top-three Nifty gainer as IT buying runs into a third session"
+       "line": "Among top Nifty gainers all day as IT buying ran into a third session"
       },
       {
        "name": "Bharti Airtel",
        "dir": "up",
        "move": "+3.90%",
-       "line": "Led Nifty gainers on Jio IPO read-through for telecom valuations"
+       "line": "Led Nifty gainers on Jio IPO read-through for telecom"
       }
      ],
      "src": {
@@ -64,7 +64,7 @@
      }
     },
     "down": {
-     "summary": "Nestle India and IDBI Bank are the heaviest stock-specific losers",
+     "summary": "Nestle India and IDBI Bank were the day's heaviest losers",
      "why": "Nestle sold off on a cautious cost outlook despite strong profit, and IDBI on a below-market Fairfax deal price.",
      "names": [
       {
@@ -90,6 +90,79 @@
  },
  "insights": [
   {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Big Q2 slate lands after the close",
+   "line": "Tech Mahindra, Wipro, HDFC Life, Jio Financial, HDFC AMC and Indian Bank report tonight",
+   "more": [
+    "49 companies were scheduled to report on Thursday",
+    "Tech Mahindra's board weighs a bonus issue and interim dividend",
+    "Wipro guided -1.5% to +0.5% QoQ cc revenue growth"
+   ],
+   "src": {
+    "title": "Business Standard: Q2 results today — Wipro, Nestle India, 47 others",
+    "url": "https://www.business-standard.com/companies/quarterly-results/q2-results-today-wipro-nestle-india-47-others-to-announce-earnings-126101500151_1.html"
+   },
+   "date": "2026-10-15",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "techm-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "TechM Q2: profit seen ₹1,530–1,580 cr",
+   "line": "Preview expects EBIT margin roughly flat at 14.3–14.5% after a 3%+ run-up today",
+   "more": [
+    "Would be its first bonus issue since 2015 if approved",
+    "Stock had risen nearly 9% in two sessions from its Oct 12 low"
+   ],
+   "src": {
+    "title": "Upstox: Tech Mahindra Q2 preview — bonus, guidance and dividend in focus",
+    "url": "https://upstox.com/news/market-news/earnings/tech-mahindra-q2-results-net-profit-likely-to-see-double-digit-growth-key-focus-on-bonus-issue-guidance-and-dividend/article-201891/"
+   },
+   "date": "2026-10-15",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "wipro-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Wipro Q2: Q3 guidance in focus",
+   "line": "Analysts see revenue growth over 8% YoY; margins and December-quarter outlook key",
+   "more": [
+    "IT services revenue guided at $2.574–2.627 bn",
+    "One preview sees a 0.5–1.4% QoQ cc dip"
+   ],
+   "src": {
+    "title": "Business Standard: Wipro Q2 preview",
+    "url": "https://www.business-standard.com/amp/markets/news/wipro-q2-results-preview-revenue-growth-likely-over-8-margins-in-focus-126101400475_1.html"
+   },
+   "date": "2026-10-15",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1400"
+   }
+  },
+  {
    "key": "nestle-india",
    "tag": "Results",
    "impact": "neg",
@@ -107,7 +180,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1200"
@@ -131,7 +204,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1100"
@@ -155,7 +228,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1430"
@@ -330,30 +403,6 @@
    }
   },
   {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "More results due after market",
-   "line": "Wipro, Tech Mahindra, HDFC Life, Jio Financial, Polycab and HDFC AMC report today",
-   "more": [
-    "Tech Mahindra board to consider a bonus issue",
-    "Wipro guided -1.5% to +0.5% QoQ cc revenue growth"
-   ],
-   "src": {
-    "title": "Upstox: Q2 results live — Nestle India profit rises 36% to ₹1,027 cr",
-    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-wipro-nestle-india-tech-mahindra-polycab-jio-financial-hdfc-life-irfc-hdfc-amc-angel-one-others-to-declare-earnings-oct015/liveblog-201887/"
-   },
-   "date": "2026-10-15",
-   "slot": "1300",
-   "when": "13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1130"
-   }
-  },
-  {
    "key": "idbi-bank",
    "tag": "Stocks",
    "impact": "neg",
@@ -424,54 +473,6 @@
    "first_seen": {
     "date": "2026-10-15",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "techm-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "TechM may announce first bonus since 2015",
-   "line": "Board considers a bonus issue and interim dividend alongside Q2 numbers today",
-   "more": [
-    "One preview sees net profit of ₹1,530–1,580 cr",
-    "EBIT margin expected flat at 14.3–14.5%"
-   ],
-   "src": {
-    "title": "Upstox: Tech Mahindra Q2 preview — bonus, guidance and dividend in focus",
-    "url": "https://upstox.com/news/market-news/earnings/tech-mahindra-q2-results-net-profit-likely-to-see-double-digit-growth-key-focus-on-bonus-issue-guidance-and-dividend/article-201891/"
-   },
-   "date": "2026-10-15",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "wipro-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Q2 slate after market: Wipro, TechM",
-   "line": "Nestle India, HDFC Life and Jio Financial also report Thursday",
-   "more": [
-    "Wipro guided -1.5% to +0.5% QoQ cc revenue growth",
-    "Results will test the IT rally's footing into Friday"
-   ],
-   "src": {
-    "title": "Upstox: Sensex surges over 400 points, Nifty reclaims 22,700 led by IT",
-    "url": "https://upstox.com/news/market-news/stocks/sensex-surges-over-400-points-nifty-50-reclaims-22-700-led-by-gains-in-it-shares/article-201882/"
-   },
-   "date": "2026-10-15",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-14",
-    "slot": "1400"
    }
   },
   {
