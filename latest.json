@@ -1,82 +1,110 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-15T08:33:21+05:30",
+ "generated_at": "2026-10-15T09:33:16+05:30",
  "date": "2026-10-15",
- "slot": "pre",
- "slot_label": "Pre-open",
- "stage": "Pre-market mood",
- "asof": "2026-10-15T08:45:00+05:30",
+ "slot": "0930",
+ "slot_label": "9:30",
+ "stage": "Opening mood",
+ "asof": "2026-10-15T09:30:00+05:30",
  "nifty": {
-  "value": 22622.7,
-  "pct": -0.44,
-  "chg": -99.25,
-  "approx": false
+  "value": 22671.3,
+  "pct": 0.21,
+  "chg": 48.6,
+  "approx": true
  },
  "mood": {
-  "label": "Weak start seen",
-  "score": -0.35,
-  "summary": "A soft open is on the cards: Gift Nifty points 35–50 points lower after a weak Wall Street session, with the Nifty starting from 22,623 after Wednesday's 0.44% slip.",
+  "label": "Defiant open",
+  "score": 0.1,
+  "summary": "Indian stocks opened modestly higher, shrugging off a steep sell-off across Asia, with IT buying lifting the Nifty back towards 22,700 after Wednesday's dip.",
   "detail": {
-   "leaders": "Nifty IT, MRPL",
-   "laggards": "Nifty Pharma, HDB Financial Services",
-   "tone": "Wednesday's afternoon slide carried to the close (Nifty -0.44%), and overnight cues add to the pressure going into Thursday.",
+   "leaders": "IT, led by TCS",
+   "laggards": "No clear sectoral drag yet in early trade",
+   "tone": "A better start than the pre-open note expected: Gift Nifty had pointed lower, but the Sensex opened 183.91 points up at 72,965.80.",
    "watch": [
-    "How IT trades after Nasdaq's 1.9% drop",
+    "Whether the open holds as Kospi and Nikkei slide",
     "Wipro, Nestle India and HDFC Life results after market",
-    "Whether FII selling extends to a 15th session"
+    "FII flows after 14 straight days of selling"
    ],
    "src": {
-    "title": "Upstox: Gift Nifty futures indicate weak start; Wipro, Nestle, HDFC Life in focus",
-    "url": "https://upstox.com/news/market-news/stocks/gift-nifty-futures-indicate-weak-start-for-markets-wipro-nestle-hdfc-life-shares-in-focus/article-201871"
-   },
-   "movers": {
-    "up": {
-     "summary": "IT was Wednesday's best sector; MRPL rallied on a blowout quarter",
-     "why": "IT held up through Wednesday's slide on the post-HCLTech rally, and results-driven buying lifted select names.",
-     "names": [
-      {
-       "name": "Nifty IT",
-       "dir": "up",
-       "line": "Top sector for a second session on Wednesday; faces a US tech sell-off today"
-      },
-      {
-       "name": "MRPL",
-       "dir": "up",
-       "move": "+5.33%",
-       "line": "Q2 net profit jumped 195%, and it secured its first international credit rating"
-      }
-     ],
-     "src": {
-      "title": "ScanX: Stocks to watch, Oct 15 — HDB Financial, IDBI Bank, MRPL",
-      "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-15-2026-hdb-financial-services-tata/53573460"
-     }
-    },
-    "down": {
-     "summary": "Pharma was Wednesday's weakest sector; HDB Financial slid on a profit miss",
-     "why": "Pharma and healthcare weighed most on the indices, while HDB Financial fell on results that missed estimates.",
-     "names": [
-      {
-       "name": "Nifty Pharma",
-       "dir": "down",
-       "move": "~-1%",
-       "line": "Weakest sector index Wednesday, with Dr Reddy's among Nifty losers at midday"
-      },
-      {
-       "name": "HDB Financial Services",
-       "dir": "down",
-       "move": "-4.15%",
-       "line": "Q2 profit grew 34% YoY but missed analyst estimates"
-      }
-     ],
-     "src": {
-      "title": "Business Standard: Market close, Oct 14 — Sensex down 252 pts, Nifty at 22,623",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-14-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101400113_1.html"
-     }
-    }
+    "title": "India TV: Sensex gains 183 points, Nifty near 22,700, TCS jumps over 2%",
+    "url": "https://www.indiatvnews.com/business/markets/15-october-2026-stock-market-updates-sensex-gains-183-points-nifty-near-22-700-tcs-hcl-tech-it-stock-rally-rupee-strengthens-2026-10-15-1057011"
    }
   }
  },
  "insights": [
+  {
+   "key": "asia-chip-rout",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Kospi plunges 7% as chip rout deepens",
+   "line": "SK Hynix fell 11.2% and Samsung 9.4%; Nikkei dropped 4.7% after hot US inflation",
+   "more": [
+    "Kospi down 7.2%; MSCI Asia Pacific down nearly 3%",
+    "Memory makers hit by reports of progress at China's CXMT",
+    "Hotter US CPI lifted bets on further Fed hikes"
+   ],
+   "src": {
+    "title": "Investing.com: Asia stocks tumble, Kospi slumps 7% on chip rout, Fed rate fears",
+    "url": "https://www.investing.com/news/stock-market-news/asia-stocks-slump-as-chip-rout-deepens-after-hotter-us-inflation-4950421"
+   },
+   "date": "2026-10-15",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "it-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT buying continues; TCS up over 2%",
+   "line": "Indian IT extends its rally into a third session even as Nasdaq fell 1.9% overnight",
+   "more": [
+    "Nifty IT was the top sector on both Tuesday and Wednesday",
+    "Wipro and Tech Mahindra report Q2 later today"
+   ],
+   "src": {
+    "title": "India TV: Sensex gains 183 points, Nifty near 22,700, TCS jumps over 2%",
+    "url": "https://www.indiatvnews.com/business/markets/15-october-2026-stock-market-updates-sensex-gains-183-points-nifty-near-22-700-tcs-hcl-tech-it-stock-rally-rupee-strengthens-2026-10-15-1057011"
+   },
+   "date": "2026-10-15",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee firms at the open",
+   "line": "The rupee strengthened in early trade, per India TV's opening report",
+   "more": [
+    "On Tuesday it firmed for a third straight session to 95.37/$",
+    "That move followed RBI measures to curb speculative trading"
+   ],
+   "src": {
+    "title": "India TV: Sensex gains 183 points, Nifty near 22,700, TCS jumps over 2%",
+    "url": "https://www.indiatvnews.com/business/markets/15-october-2026-stock-market-updates-sensex-gains-183-points-nifty-near-22-700-tcs-hcl-tech-it-stock-rally-rupee-strengthens-2026-10-15-1057011"
+   },
+   "date": "2026-10-15",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "1100"
+   }
+  },
   {
    "key": "wall-street",
    "tag": "Global",
@@ -96,7 +124,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "pre"
@@ -121,7 +149,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1100"
@@ -145,7 +173,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1400"
@@ -170,7 +198,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "pre"
@@ -194,7 +222,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1130"
@@ -590,31 +618,6 @@
    "first_seen": {
     "date": "2026-10-12",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Policy",
-   "impact": "pos",
-   "title": "RBI cuts no-proof FX position limit to $5 mn",
-   "line": "Positions without an underlying exposure are now capped at $5 mn, down from $100 mn",
-   "more": [
-    "The rupee opened about 1% stronger near 95.6–95.8",
-    "Friday's close of 96.71 was near the record low of 96.96 hit in May",
-    "Analysts warn crude, FII selling and yields still weigh"
-   ],
-   "src": {
-    "title": "Deccan Herald: Rupee jumps 91 paise after RBI steps in with measures",
-    "url": "https://www.deccanherald.com/business/markets/rupee-jumps-91-paise-to-9580-against-us-dollar-in-early-trade-4179335"
-   },
-   "date": "2026-10-12",
-   "slot": "1530",
-   "when": "Mon · 15:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1100"
    }
   },
   {
