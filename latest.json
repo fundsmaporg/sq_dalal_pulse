@@ -1,87 +1,161 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-15T13:33:08+05:30",
+ "generated_at": "2026-10-15T14:02:55+05:30",
  "date": "2026-10-15",
- "slot": "1330",
- "slot_label": "13:30",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-15T13:30:00+05:30",
+ "asof": "2026-10-15T14:00:00+05:30",
  "nifty": {
-  "value": 22973.95,
-  "pct": 1.55,
-  "chg": 351.25,
-  "approx": true
+  "value": 22982.55,
+  "pct": 1.6,
+  "chg": 359.85,
+  "approx": false
  },
  "mood": {
-  "label": "Gains hold",
-  "score": 0.55,
-  "summary": "The benchmarks were last reported up about 1.5% at noon, with IT and telecom in charge and results-driven selling confined to a few names.",
+  "label": "Rally extends",
+  "score": 0.6,
+  "summary": "The rally extended into the afternoon, with the Sensex up about 1,270 points and the Nifty near 22,980, as IT, private banks and autos lead and FMCG, media and PSU banks lag.",
   "detail": {
-   "leaders": "Bharti Airtel, Tech Mahindra, Nifty IT",
+   "leaders": "Bharti Airtel, Tech Mahindra, HCLTech",
    "laggards": "Nestle India, IDBI Bank",
-   "tone": "No fresh index print since noon, when the Sensex was up 1,200 points at 74,011.21; leadership and laggards are unchanged.",
+   "tone": "Higher than the noon reading the 1330 note used: by 1:36 pm the Sensex was up 1,270.13 points at 74,046.10, up from 1,200 points at noon.",
    "watch": [
-    "Tech Mahindra and Wipro results after the close",
-    "Whether the noon highs hold into the 3:30 close",
-    "Nifty PSU Bank, the weakest sector"
+    "Tech Mahindra, Wipro and HDFC Life results after the close",
+    "Whether the highs hold into the 3:30 close",
+    "FMCG and PSU-bank weakness"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE, Oct 15",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
+    "title": "Trade Brains: Sensex & Nifty 50 live updates, 15 October",
+    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-15-october-sensex-gains-035-nifty-50-rises-044-tech-mahindra-jumps-253-and-tcs-gains-217-12677093"
    },
    "movers": {
     "up": {
-     "summary": "Airtel and IT heavyweights continue to lead the rally",
-     "why": "IT is extending its three-day run into results, and telecom is in focus after Jio's IPO pricing.",
+     "summary": "Airtel, Tech Mahindra and HCLTech top the Nifty gainers, each up 3–4%",
+     "why": "IT extends its three-day results-led rally, and telecom is in focus after Jio's IPO pricing.",
      "names": [
       {
        "name": "Bharti Airtel",
        "dir": "up",
-       "move": "+3.69%",
-       "line": "Top gainer at noon at ₹1,860.80 as Jio's IPO valuation spotlights telecom"
+       "move": "+3.90%",
+       "line": "Top Nifty gainer as Jio's ₹10.3 lakh cr IPO valuation spotlights telecom"
       },
       {
        "name": "Tech Mahindra",
        "dir": "up",
-       "line": "Co-leads the rally ahead of Q2 after the close, where a bonus issue is on the table"
+       "move": "+3.88%",
+       "line": "Rises into Q2 results after the close, where a bonus issue is on the table"
       },
       {
-       "name": "Nifty IT",
+       "name": "HCLTech",
        "dir": "up",
-       "line": "Third straight day of gains since HCLTech's Q2 beat on Tuesday"
+       "move": "+3.18%",
+       "line": "Extends its post-results rally; its Q2 beat on Tuesday set off the IT run"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE, Oct 15",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
+      "title": "Trade Brains: Sensex & Nifty 50 live updates, 15 October",
+      "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-15-october-sensex-gains-035-nifty-50-rises-044-tech-mahindra-jumps-253-and-tcs-gains-217-12677093"
      }
     },
     "down": {
-     "summary": "Nestle India and IDBI Bank stay under pressure on stock-specific news",
-     "why": "Nestle is falling despite a strong quarter, and IDBI on a below-market Fairfax deal price.",
+     "summary": "Nestle India and IDBI Bank are the standout losers on results and deal terms",
+     "why": "Both falls are stock-specific: Nestle despite a beat, IDBI on a below-market deal price.",
      "names": [
       {
        "name": "Nestle India",
        "dir": "down",
        "move": "-4.7% to -7%",
-       "line": "Down despite Q2 profit rising 36% and beating estimates"
+       "line": "Down despite Q2 profit rising 36% and beating estimates; FMCG is a lagging sector"
       },
       {
        "name": "IDBI Bank",
        "dir": "down",
-       "move": "-6%",
-       "line": "Fairfax's ₹81/share deal price is below its ₹90.40 close and ₹100–110 hopes"
+       "move": "-6.74%",
+       "line": "Fairfax's ₹81/share deal price is below its ₹90.40 close and market hopes"
       }
      ],
      "src": {
-      "title": "Zee Business: Nestle India Q2 — shares fall nearly 5%",
-      "url": "https://www.zeebiz.com/companies/news-nestle-india-q2-results-fmcg-majors-net-profit-rises-416-to-rs-1968-crore-revenue-up-226-shares-fall-nearly-5-403993"
+      "title": "HDFC Sky: Trending stocks, Oct 15 — Vodafone Idea gains, IDBI slumps",
+      "url": "https://hdfcsky.com/news/trending-stocks-today-october-15-2026-vodafone-idea-pc-jeweller-idbi-bank-in-focus-tata-silver-etf-falls-3-3percent"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "sector-rotation",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT, private banks and autos lead",
+   "line": "FMCG, media and PSU banks are the sectors declining at 1:36 pm",
+   "more": [
+    "Sensex up 1,270.13 points at 74,046.10 at 1:36 pm",
+    "Nifty up about 1.60% at 22,982.55"
+   ],
+   "src": {
+    "title": "Trade Brains: Sensex & Nifty 50 live updates, 15 October",
+    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-15-october-sensex-gains-035-nifty-50-rises-044-tech-mahindra-jumps-253-and-tcs-gains-217-12677093"
+   },
+   "date": "2026-10-15",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Jio IPO lifts Vodafone Idea too",
+   "line": "Vodafone Idea gained on Jio IPO sentiment, alongside Airtel's near-4% rise",
+   "more": [
+    "Vodafone Idea was among the most active NSE stocks at noon",
+    "Jio Platforms IPO opens Oct 21 at ₹1,065–1,119"
+   ],
+   "src": {
+    "title": "HDFC Sky: Trending stocks, Oct 15 — Vodafone Idea gains, IDBI slumps",
+    "url": "https://hdfcsky.com/news/trending-stocks-today-october-15-2026-vodafone-idea-pc-jeweller-idbi-bank-in-focus-tata-silver-etf-falls-3-3percent"
+   },
+   "date": "2026-10-15",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "hdfc-life-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "HDFC Life reports Q2 today",
+   "line": "Insurer's results are due alongside Wipro and Tech Mahindra after market",
+   "more": [
+    "Q1 FY27 standalone profit was ₹611.42 cr, up 12%",
+    "Market cap stood at about ₹1.2 trillion on Oct 15"
+   ],
+   "src": {
+    "title": "ad-hoc-news: HDFC Life schedules Q2 results",
+    "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/hdfc-life-schedules-q2-results-analysts-trim-hdfc-life-stock-target-to-inr-740-18/70326459"
+   },
+   "date": "2026-10-15",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1400"
+   }
+  },
   {
    "key": "polycab-q2",
    "tag": "Results",
@@ -100,7 +174,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1330"
@@ -124,7 +198,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1100"
@@ -148,7 +222,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "pre"
@@ -249,30 +323,6 @@
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Jio IPO lifts Airtel, telecom",
-   "line": "Airtel up nearly 4% as Jio's ~₹10.3 lakh cr IPO valuation puts telecom in focus",
-   "more": [
-    "Vodafone Idea rose about 1.5%; Reliance also traded higher",
-    "A 15% tariff hike is expected in December 2026, per one report"
-   ],
-   "src": {
-    "title": "Kotak Neo: Jio IPO puts telecom in focus as Bharti Airtel jumps 3%",
-    "url": "https://www.kotakneo.com/news/ipos/jio-platforms-ipo-puts-telecom-stocks-in-focus-bharti-airtel-shares-jump-3-percent/"
-   },
-   "date": "2026-10-15",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-06",
-    "slot": "1100"
    }
   },
   {
