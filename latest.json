@@ -1,72 +1,74 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-15T14:02:55+05:30",
+ "generated_at": "2026-10-15T14:33:13+05:30",
  "date": "2026-10-15",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-15T14:00:00+05:30",
+ "asof": "2026-10-15T14:30:00+05:30",
  "nifty": {
-  "value": 22982.55,
-  "pct": 1.6,
-  "chg": 359.85,
+  "value": 23045.55,
+  "pct": 1.87,
+  "chg": 422.85,
   "approx": false
  },
  "mood": {
-  "label": "Rally extends",
-  "score": 0.6,
-  "summary": "The rally extended into the afternoon, with the Sensex up about 1,270 points and the Nifty near 22,980, as IT, private banks and autos lead and FMCG, media and PSU banks lag.",
+  "label": "Rally builds",
+  "score": 0.65,
+  "summary": "The rally kept building through the afternoon, with the Sensex up about 1,500 points and the Nifty above 23,000, though smallcaps and PSU banks are not joining in.",
   "detail": {
-   "leaders": "Bharti Airtel, Tech Mahindra, HCLTech",
+   "leaders": "HCLTech, Tech Mahindra, TCS, Bharti Airtel",
    "laggards": "Nestle India, IDBI Bank",
-   "tone": "Higher than the noon reading the 1330 note used: by 1:36 pm the Sensex was up 1,270.13 points at 74,046.10, up from 1,200 points at noon.",
+   "tone": "Stronger again than at 1:36 pm: by 2 pm the Sensex was up 1,498.68 points (2.06%) at 74,280.57 and the Nifty 422.85 points at 23,045.55.",
    "watch": [
+    "Whether the Nifty closes above 23,000",
     "Tech Mahindra, Wipro and HDFC Life results after the close",
-    "Whether the highs hold into the 3:30 close",
-    "FMCG and PSU-bank weakness"
+    "Smallcap selling, with Sterlite, MTAR, HFCL and Netweb down ~5%"
    ],
    "src": {
-    "title": "Trade Brains: Sensex & Nifty 50 live updates, 15 October",
-    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-15-october-sensex-gains-035-nifty-50-rises-044-tech-mahindra-jumps-253-and-tcs-gains-217-12677093"
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,400 pts, Nifty reclaims 23,000",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Airtel, Tech Mahindra and HCLTech top the Nifty gainers, each up 3–4%",
-     "why": "IT extends its three-day results-led rally, and telecom is in focus after Jio's IPO pricing.",
+     "summary": "IT majors and Airtel top the Sensex, each up 2.5–3.5%",
+     "why": "IT is extending its three-day post-HCLTech rally into results, and telecom is in focus after Jio's IPO pricing.",
      "names": [
       {
-       "name": "Bharti Airtel",
+       "name": "HCLTech",
        "dir": "up",
-       "move": "+3.90%",
-       "line": "Top Nifty gainer as Jio's ₹10.3 lakh cr IPO valuation spotlights telecom"
+       "line": "Among top Sensex gainers; its Q2 beat on Tuesday started the IT run"
       },
       {
        "name": "Tech Mahindra",
        "dir": "up",
-       "move": "+3.88%",
-       "line": "Rises into Q2 results after the close, where a bonus issue is on the table"
+       "line": "Rises into Q2 after the close, where a bonus issue is on the table"
       },
       {
-       "name": "HCLTech",
+       "name": "TCS",
        "dir": "up",
-       "move": "+3.18%",
-       "line": "Extends its post-results rally; its Q2 beat on Tuesday set off the IT run"
+       "line": "Top-three Nifty gainer as IT buying runs into a third session"
+      },
+      {
+       "name": "Bharti Airtel",
+       "dir": "up",
+       "line": "Up on Jio IPO read-through; it led Nifty gainers at noon"
       }
      ],
      "src": {
-      "title": "Trade Brains: Sensex & Nifty 50 live updates, 15 October",
-      "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-15-october-sensex-gains-035-nifty-50-rises-044-tech-mahindra-jumps-253-and-tcs-gains-217-12677093"
+      "title": "Business Standard: Stock Market LIVE — Sensex surges 1,400 pts, Nifty reclaims 23,000",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
      }
     },
     "down": {
-     "summary": "Nestle India and IDBI Bank are the standout losers on results and deal terms",
-     "why": "Both falls are stock-specific: Nestle despite a beat, IDBI on a below-market deal price.",
+     "summary": "Nestle India and IDBI Bank are the day's standout losers",
+     "why": "Stock-specific selling: Nestle fell further despite a strong quarter, and IDBI on a below-market Fairfax deal price.",
      "names": [
       {
        "name": "Nestle India",
        "dir": "down",
-       "move": "-4.7% to -7%",
-       "line": "Down despite Q2 profit rising 36% and beating estimates; FMCG is a lagging sector"
+       "move": "~-9%",
+       "line": "Slide deepened to about 9% despite Q2 profit rising 36% and beating estimates"
       },
       {
        "name": "IDBI Bank",
@@ -76,14 +78,86 @@
       }
      ],
      "src": {
-      "title": "HDFC Sky: Trending stocks, Oct 15 — Vodafone Idea gains, IDBI slumps",
-      "url": "https://hdfcsky.com/news/trending-stocks-today-october-15-2026-vodafone-idea-pc-jeweller-idbi-bank-in-focus-tata-silver-etf-falls-3-3percent"
+      "title": "Business Standard: Stock Market LIVE — Sensex surges 1,400 pts, Nifty reclaims 23,000",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "nifty-23k",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Nifty back above 23,000",
+   "line": "First time the index has reclaimed 23,000 since September 25, per CNBC-TV18",
+   "more": [
+    "Rally came despite a sell-off across Asian markets",
+    "IT, auto and private banks are leading the gains"
+   ],
+   "src": {
+    "title": "CNBC-TV18 via TradingView: Nifty eyes 23,000",
+    "url": "https://www.tradingview.com/news/cnbctv:b37826cb7094b:0/"
+   },
+   "date": "2026-10-15",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "nestle-india",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Nestle India slide deepens to ~9%",
+   "line": "Stock keeps falling despite Q2 standalone profit up 36% to ₹1,026.77 cr",
+   "more": [
+    "Revenue rose about 20% to ₹6,788 cr",
+    "Zee Business said results beat its estimates"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,400 pts, Nifty reclaims 23,000",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
+   },
+   "date": "2026-10-15",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "breadth",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Smallcaps miss out on the rally",
+   "line": "Sterlite, MTAR, HFCL and Netweb slid about 5% as Nifty PSU Bank fell most",
+   "more": [
+    "Gains are concentrated in IT, private banks and select heavyweights",
+    "49 companies are scheduled to report Q2 today"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,400 pts, Nifty reclaims 23,000",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
+   },
+   "date": "2026-10-15",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1100"
+   }
+  },
   {
    "key": "sector-rotation",
    "tag": "Stocks",
@@ -102,7 +176,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1400"
@@ -126,7 +200,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1100"
@@ -150,7 +224,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1400"
@@ -226,31 +300,6 @@
    "first_seen": {
     "date": "2026-10-06",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "nestle-india",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Nestle Q2 profit up 36%, but stock falls",
-   "line": "Standalone profit ₹1,026.77 cr, revenue +20.3% to ₹6,788 cr; shares slid 5–7% after",
-   "more": [
-    "EBITDA margin 23.8%; ad and marketing spend up 46%",
-    "Zee Business says results beat its estimates",
-    "Shares fell 4.74% to ₹1,317.70 in one report, 7% to ₹1,260 in another"
-   ],
-   "src": {
-    "title": "Upstox: Q2 results live — Nestle India profit rises 36% to ₹1,027 cr",
-    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-wipro-nestle-india-tech-mahindra-polycab-jio-financial-hdfc-life-irfc-hdfc-amc-angel-one-others-to-declare-earnings-oct015/liveblog-201887/"
-   },
-   "date": "2026-10-15",
-   "slot": "1300",
-   "when": "13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-14",
-    "slot": "1200"
    }
   },
   {
@@ -348,30 +397,6 @@
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "breadth",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Smallcaps, PSU names lag the rally",
-   "line": "Nifty Smallcap 100 fell 0.75% at the open; BEL, Adani Ports, Trent among Sensex laggards",
-   "more": [
-    "Power Grid, SBI, L&T and NTPC also among laggards",
-    "Top gainers: TCS, TechM, Infosys, Airtel, ICICI Bank, Axis Bank, ITC"
-   ],
-   "src": {
-    "title": "Sunday Guardian: Sensex soars over 1,000 points, Nifty crosses 22,900 — gainers and losers",
-    "url": "https://sundayguardianlive.com/business/sensex-today-nifty-50-indian-stock-market-live-sensex-soars-over-1000-points-nifty-crosses-22900-as-it-banking-and-consumer-stocks-lead-rally-check-key-triggers-gainers-and-losers-306035/"
-   },
-   "date": "2026-10-15",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1100"
    }
   },
   {
