@@ -1,33 +1,61 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-15T11:02:35+05:30",
+ "generated_at": "2026-10-15T11:33:05+05:30",
  "date": "2026-10-15",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-15T11:00:00+05:30",
+ "asof": "2026-10-15T11:30:00+05:30",
  "nifty": {
-  "value": 22866.9,
-  "pct": 1.08,
-  "chg": 244.2,
-  "approx": true
+  "value": 22932.8,
+  "pct": 1.37,
+  "chg": 310.1,
+  "approx": false
  },
  "mood": {
-  "label": "Narrow rally",
-  "score": 0.3,
-  "summary": "The benchmarks remain firmly higher on IT, but the rally is narrow: midcaps and smallcaps are slightly negative and more sectors are falling than rising.",
+  "label": "Rally extends",
+  "score": 0.55,
+  "summary": "The rally has re-accelerated into late morning, with the Sensex up over 1,000 points and the Nifty above 22,900, still powered mainly by IT heavyweights.",
   "detail": {
-   "leaders": "Nifty IT",
-   "laggards": "Power, PSU banks, smallcaps",
-   "tone": "Gains look less broad than at 10:30: later snapshots put the Sensex up roughly 360–600 points, versus the ~900-point high, as the Nifty MidCap and SmallCap slipped 0.11% and 0.41%.",
+   "leaders": "Nifty IT, Tech Mahindra, TCS",
+   "laggards": "Nifty PSU Bank",
+   "tone": "Stronger than at 11:00: the Sensex was up 1,062.21 points (1.46%) at 73,844.10 at 11 am, well above the 360–600-point snapshots seen earlier.",
    "watch": [
-    "Whether IT can keep carrying the index on weak breadth",
-    "Wipro and Tech Mahindra Q2 numbers after the close",
-    "Any pick-up in selling in power and PSU banks"
+    "Tech Mahindra and Wipro results after the close",
+    "Whether breadth improves beyond IT",
+    "Brent, down about 1% today"
    ],
    "src": {
-    "title": "MarketsMojo: Sensex edges higher; IT leads gains while power drags",
-    "url": "https://www.marketsmojo.com/news/stock-market-news/sensex-edges-higher-amid-mixed-sectoral-trends-it-leads-gains-while-power-drags-4226183"
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,000 pts, Nifty reclaims 22,900 as Brent falls 1%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
+   },
+   "movers": {
+    "up": {
+     "summary": "IT leads again, with Tech Mahindra and TCS among the top Nifty gainers",
+     "why": "The IT index has gained about 9% in three sessions on earnings resilience, value buying and rotation away from AI-linked stocks.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "line": "Up about 9% over three sessions since HCLTech's Q2 beat"
+      },
+      {
+       "name": "Tech Mahindra",
+       "dir": "up",
+       "move": "+3%",
+       "line": "At ₹1,627 ahead of Q2 today, where the board weighs a bonus issue and interim dividend"
+      },
+      {
+       "name": "TCS",
+       "dir": "up",
+       "line": "Among the top three Nifty gainers as IT buying runs into a third session"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Nifty IT rallies 9% in 3 sessions — 3 key factors",
+      "url": "https://business-standard.com/markets/news/nifty-it-rallies-9-in-3-sessions-3-key-factors-driving-the-momentum-126101500316_1.html"
+     }
+    }
    }
   }
  },
@@ -36,24 +64,72 @@
    "key": "it-rally",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "IT keeps doing the heavy lifting",
-   "line": "Tech is the top sector, up about 1.8–2.6% across snapshots, as Tech Mahindra and TCS lead",
+   "title": "Nifty IT up ~9% in three sessions",
+   "line": "Analysts cite earnings resilience, value buying and rotation away from AI-linked stocks",
    "more": [
-    "Third straight session of IT gains, sparked by HCLTech's Q2 beat",
-    "Tech Mahindra and Wipro report Q2 later today"
+    "Rally began with HCLTech's Q2 beat on Tuesday",
+    "Tech Mahindra and TCS are among the notable gainers"
    ],
    "src": {
-    "title": "MarketsMojo: Sensex climbs over 600 points as tech leads gains",
-    "url": "https://www.marketsmojo.com/news/stock-market-news/sensex-climbs-over-600-points-as-tech-sector-leads-gains-amid-mixed-mid-and-small-cap-performance-4226356"
+    "title": "Business Standard: Nifty IT rallies 9% in 3 sessions — 3 key factors",
+    "url": "https://business-standard.com/markets/news/nifty-it-rallies-9-in-3-sessions-3-key-factors-driving-the-momentum-126101500316_1.html"
    },
    "date": "2026-10-15",
-   "slot": "1100",
-   "when": "11:00",
+   "slot": "1130",
+   "when": "11:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "0930"
+   }
+  },
+  {
+   "key": "techm-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "TechM may announce first bonus since 2015",
+   "line": "Board considers a bonus issue and interim dividend alongside Q2 numbers today",
+   "more": [
+    "One preview sees net profit of ₹1,530–1,580 cr",
+    "EBIT margin expected flat at 14.3–14.5%"
+   ],
+   "src": {
+    "title": "Upstox: Tech Mahindra Q2 preview — bonus, guidance and dividend in focus",
+    "url": "https://upstox.com/news/market-news/earnings/tech-mahindra-q2-results-net-profit-likely-to-see-double-digit-growth-key-focus-on-bonus-issue-guidance-and-dividend/article-201891/"
+   },
+   "date": "2026-10-15",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "nestle-india",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Nestle India reports Q2 today",
+   "line": "Preview expected strong volumes to drive growth, with PAT possibly above ₹1,000 cr",
+   "more": [
+    "HDFC Life, Wipro and Jio Financial also report Thursday",
+    "Nestle shares were near ₹1,318.70 on Tuesday"
+   ],
+   "src": {
+    "title": "Business Standard: Nestle India Q2 preview",
+    "url": "https://www.business-standard.com/amp/markets/news/nestle-india-q2-results-preview-strong-volumes-to-drive-growth-pat-may-top-1k-cr-126101300623_1.html"
+   },
+   "date": "2026-10-15",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1200"
    }
   },
   {
@@ -74,7 +150,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1100"
@@ -98,7 +174,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1400"
@@ -566,31 +642,6 @@
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "nestle-india",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Nestle India Q2 due Oct 15",
-   "line": "Preview expects strong volumes to drive growth, with PAT possibly above ₹1,000 cr",
-   "more": [
-    "The stock was the No. 2 Nifty gainer this morning, up about 2.6%",
-    "Shares had slipped 0.3% to ₹1,318.70 on Tuesday",
-    "52-week range ₹1,159.40–₹1,553"
-   ],
-   "src": {
-    "title": "Business Standard: Nestle India Q2 preview",
-    "url": "https://www.business-standard.com/amp/markets/news/nestle-india-q2-results-preview-strong-volumes-to-drive-growth-pat-may-top-1k-cr-126101300623_1.html"
-   },
-   "date": "2026-10-14",
-   "slot": "1200",
-   "when": "Wed · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-14",
-    "slot": "1200"
    }
   },
   {
