@@ -1,65 +1,138 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-15T11:33:05+05:30",
+ "generated_at": "2026-10-15T12:02:42+05:30",
  "date": "2026-10-15",
- "slot": "1130",
- "slot_label": "11:30",
+ "slot": "1200",
+ "slot_label": "12:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-15T11:30:00+05:30",
+ "asof": "2026-10-15T12:00:00+05:30",
  "nifty": {
-  "value": 22932.8,
-  "pct": 1.37,
-  "chg": 310.1,
-  "approx": false
+  "value": 22950,
+  "pct": 1.45,
+  "chg": 327,
+  "approx": true
  },
  "mood": {
-  "label": "Rally extends",
+  "label": "Heavyweight rally",
   "score": 0.55,
-  "summary": "The rally has re-accelerated into late morning, with the Sensex up over 1,000 points and the Nifty above 22,900, still powered mainly by IT heavyweights.",
+  "summary": "Benchmarks pushed to fresh intraday highs in late morning, with the Sensex up about 1,100 points, but the rally is led by heavyweights while smallcaps lag.",
   "detail": {
-   "leaders": "Nifty IT, Tech Mahindra, TCS",
-   "laggards": "Nifty PSU Bank",
-   "tone": "Stronger than at 11:00: the Sensex was up 1,062.21 points (1.46%) at 73,844.10 at 11 am, well above the 360–600-point snapshots seen earlier.",
+   "leaders": "Nifty IT, TCS, Tech Mahindra",
+   "laggards": "BEL, Adani Ports, Trent, Power Grid, Nifty Smallcap 100",
+   "tone": "Slightly firmer than at 11:30: the index has pushed to about 22,950 intraday, though the India VIX was up over 1% and broader indices were weaker at the open.",
    "watch": [
     "Tech Mahindra and Wipro results after the close",
-    "Whether breadth improves beyond IT",
-    "Brent, down about 1% today"
+    "Whether smallcaps catch up or keep lagging",
+    "Brent and the rupee, both supportive today"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,000 pts, Nifty reclaims 22,900 as Brent falls 1%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
+    "title": "Business Standard: Bulls strike! Sensex zooms 1,100 pts intraday, Nifty at 22,950 — key reasons",
+    "url": "https://www.business-standard.com/markets/news/bulls-strike-sensex-zooms-1-100-pts-intraday-nifty-at-22-950-key-reasons-126101500351_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT leads again, with Tech Mahindra and TCS among the top Nifty gainers",
-     "why": "The IT index has gained about 9% in three sessions on earnings resilience, value buying and rotation away from AI-linked stocks.",
+     "summary": "IT is still the engine, with TCS and Tech Mahindra among the top Sensex gainers",
+     "why": "IT has risen roughly 8–9% over three sessions on earnings resilience after HCLTech's Q2, value buying and rotation from AI-linked stocks abroad.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "line": "Up about 9% over three sessions since HCLTech's Q2 beat"
-      },
-      {
-       "name": "Tech Mahindra",
-       "dir": "up",
-       "move": "+3%",
-       "line": "At ₹1,627 ahead of Q2 today, where the board weighs a bonus issue and interim dividend"
+       "line": "Up for a third straight session after HCLTech's Q2 beat set off the rally"
       },
       {
        "name": "TCS",
        "dir": "up",
-       "line": "Among the top three Nifty gainers as IT buying runs into a third session"
+       "move": "+2.19% at open",
+       "line": "Top Nifty gainer at the open as IT buying extended"
+      },
+      {
+       "name": "Tech Mahindra",
+       "dir": "up",
+       "line": "Among top Sensex gainers ahead of Q2 today, where a bonus issue is on the table"
       }
      ],
      "src": {
-      "title": "Business Standard: Nifty IT rallies 9% in 3 sessions — 3 key factors",
-      "url": "https://business-standard.com/markets/news/nifty-it-rallies-9-in-3-sessions-3-key-factors-driving-the-momentum-126101500316_1.html"
+      "title": "Sunday Guardian: Sensex soars over 1,000 points, Nifty crosses 22,900 — gainers and losers",
+      "url": "https://sundayguardianlive.com/business/sensex-today-nifty-50-indian-stock-market-live-sensex-soars-over-1000-points-nifty-crosses-22900-as-it-banking-and-consumer-stocks-lead-rally-check-key-triggers-gainers-and-losers-306035/"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "rally-drivers",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Why markets are rallying today",
+   "line": "IT rebound, bargain buying near six-month lows, cheaper oil and a firmer rupee",
+   "more": [
+    "Oil fell more than $1 as Hormuz risk was weighed against US moves to ease shipping costs",
+    "Analysts point to value buying with indices near six-month lows",
+    "Rupee has appreciated sharply this week"
+   ],
+   "src": {
+    "title": "Business Standard: Bulls strike! Sensex zooms 1,100 pts intraday, Nifty at 22,950 — key reasons",
+    "url": "https://www.business-standard.com/markets/news/bulls-strike-sensex-zooms-1-100-pts-intraday-nifty-at-22-950-key-reasons-126101500351_1.html"
+   },
+   "date": "2026-10-15",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "breadth",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Smallcaps, PSU names lag the rally",
+   "line": "Nifty Smallcap 100 fell 0.75% at the open; BEL, Adani Ports, Trent among Sensex laggards",
+   "more": [
+    "Power Grid, SBI, L&T and NTPC also among laggards",
+    "Top gainers: TCS, TechM, Infosys, Airtel, ICICI Bank, Axis Bank, ITC"
+   ],
+   "src": {
+    "title": "Sunday Guardian: Sensex soars over 1,000 points, Nifty crosses 22,900 — gainers and losers",
+    "url": "https://sundayguardianlive.com/business/sensex-today-nifty-50-indian-stock-market-live-sensex-soars-over-1000-points-nifty-crosses-22900-as-it-banking-and-consumer-stocks-lead-rally-check-key-triggers-gainers-and-losers-306035/"
+   },
+   "date": "2026-10-15",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Jio IPO filing lifts sentiment",
+   "line": "Open reports cited the ₹30,213 cr Jio Platforms IPO among the morning's supports",
+   "more": [
+    "Issue opens Oct 21 and closes Oct 23",
+    "Listing tentatively set for Oct 28"
+   ],
+   "src": {
+    "title": "HDFC Sky: Sensex, Nifty jump at open; oil eases, Jio IPO lifts mood",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-october-15-2026-open-report-markets-soar-as-it-gains-jio-ipo-lift-sentiment"
+   },
+   "date": "2026-10-15",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "1100"
+   }
+  },
   {
    "key": "it-rally",
    "tag": "Stocks",
@@ -78,7 +151,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "0930"
@@ -102,7 +175,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1130"
@@ -126,34 +199,10 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "breadth",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Breadth weak beneath the rally",
-   "line": "Of 38 sectors tracked, 20 were down and 18 up in one snapshot; power fell about 1.4%",
-   "more": [
-    "Nifty SmallCap down 0.41%, MidCap down 0.11% in the live blog",
-    "Nifty PSU Bank was the weakest sector index earlier"
-   ],
-   "src": {
-    "title": "MarketsMojo: Sensex edges higher; IT leads gains while power drags",
-    "url": "https://www.marketsmojo.com/news/stock-market-news/sensex-edges-higher-amid-mixed-sectoral-trends-it-leads-gains-while-power-drags-4226183"
-   },
-   "date": "2026-10-15",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1100"
    }
   },
   {
@@ -325,31 +374,6 @@
    "first_seen": {
     "date": "2026-10-06",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Jio IPO priced at ₹1,065–1,119",
-   "line": "Fresh issue of up to ₹30,213 cr, set to be India's largest IPO; opens Oct 21",
-   "more": [
-    "Bidding runs Oct 21–23; anchor book Oct 19; listing expected Oct 28",
-    "Minimum lot of 12 shares",
-    "Up to ₹2,500 cr reserved for Reliance shareholders"
-   ],
-   "src": {
-    "title": "Business Today: Jio Platforms IPO price band ₹1,065–1,119",
-    "url": "https://www.businesstoday.in/markets/ipo-corner/story/jio-platforms-ipo-price-band-announced-at-rs-1065-1119-set-to-become-indias-biggest-public-issue-561665-2026-10-14"
-   },
-   "date": "2026-10-15",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-06",
-    "slot": "1100"
    }
   },
   {
