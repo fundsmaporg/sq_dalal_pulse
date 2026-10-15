@@ -1,94 +1,184 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-15T15:33:18+05:30",
+ "generated_at": "2026-10-15T16:02:53+05:30",
  "date": "2026-10-15",
- "slot": "1530",
- "slot_label": "15:30",
- "stage": "Closing mood",
- "asof": "2026-10-15T15:30:00+05:30",
+ "slot": "post",
+ "slot_label": "Close",
+ "stage": "Post-market mood",
+ "asof": "2026-10-15T16:00:00+05:30",
  "nifty": {
-  "value": 23052,
-  "pct": 1.9,
-  "chg": 429,
-  "approx": true
+  "value": 22997.35,
+  "pct": 1.66,
+  "chg": 374.65,
+  "approx": false
  },
  "mood": {
-  "label": "Strong finish",
-  "score": 0.6,
-  "summary": "The session is closing with the benchmarks up close to 2% with the Nifty around 23,050, even as smallcaps and microcaps finish in the red.",
+  "label": "Narrow big rally",
+  "score": 0.55,
+  "summary": "Large caps staged a powerful 2% rally and the Nifty finished a whisker below 23,000, but it was a narrow day: midcaps slipped and smallcaps fell 1.3%.",
   "detail": {
-   "leaders": "HCLTech, Tech Mahindra, TCS, Bharti Airtel",
+   "leaders": "Tech Mahindra, Nifty IT, Bharti Airtel",
    "laggards": "Nestle India, IDBI Bank",
-   "tone": "Little changed from 3 pm: no official close was published yet; the latest snapshot had the Sensex up about 1,527 points at 74,309 and the Nifty near 23,052.",
+   "tone": "The rally held into the close: the Sensex finished up 1,533.72 points (2.11%) at 74,315.61, and the Nifty closed just under 23,000.",
    "watch": [
-    "Tech Mahindra and Wipro results tonight",
-    "HDFC Bank Q2 on Saturday",
-    "FII flow data after 14 straight selling sessions"
+    "Tech Mahindra's results and bonus decision",
+    "Wipro's weaker profit as IT trades Friday",
+    "HDFC Bank Q2 on Saturday"
    ],
    "src": {
-    "title": "Whalesbook: Sensex, Nifty hit 23,000; Nestlé India falls 9% after results",
-    "url": "https://www.whalesbook.com/news/English/economy/Sensex-Nifty-Hit-23000-Nestle-India-Falls-9percent-After-Results/6ad08fb379a16deaeaf273ef"
+    "title": "Business Standard: Market close — Sensex surges 1,534 pts, Nifty at 22,997 as crude falls 2%; IT, auto shine",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT majors and Airtel carried the day's 1,500-point Sensex rally",
-     "why": "IT extended its three-day post-HCLTech rally into results, and telecom was in focus after Jio's IPO pricing.",
+     "summary": "Tech Mahindra topped the Nifty as IT and Airtel powered the 1,534-pt Sensex jump",
+     "why": "IT extended a three-day rally sparked by HCLTech's Q2 beat, while telecom got a lift from Jio's IPO pricing; falling crude helped too.",
      "names": [
-      {
-       "name": "HCLTech",
-       "dir": "up",
-       "move": "+3.18%",
-       "line": "Its Q2 beat on Tuesday started the IT run that powered today's rally"
-      },
       {
        "name": "Tech Mahindra",
        "dir": "up",
-       "move": "+3.88%",
-       "line": "Ran up into Q2 results due after the close, with a bonus issue on the table"
+       "line": "Top Nifty gainer into its Q2 board meeting, where a bonus issue is on the agenda"
       },
       {
-       "name": "TCS",
+       "name": "Nifty IT",
        "dir": "up",
-       "line": "Among top Nifty gainers all day as IT buying ran into a third session"
+       "line": "Third straight day of gains; up about 9% over three sessions"
       },
       {
        "name": "Bharti Airtel",
        "dir": "up",
-       "move": "+3.90%",
-       "line": "Led Nifty gainers on Jio IPO read-through for telecom"
+       "move": "~+3.9% intraday",
+       "line": "Jio's ₹10.3 lakh cr IPO valuation spotlighted telecom"
       }
      ],
      "src": {
-      "title": "Trade Brains: Sensex & Nifty 50 live updates, 15 October",
-      "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-15-october-sensex-gains-035-nifty-50-rises-044-tech-mahindra-jumps-253-and-tcs-gains-217-12677093"
+      "title": "Angel One: Top gainers & losers Oct 15 — TechM, ICICI Bank gain; Nestle drops over 7%",
+      "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-october-15-2026-tech-mahindra-and-icici-bank-gain-while-nestle-drops-over-7"
      }
     },
     "down": {
-     "summary": "Nestle India and IDBI Bank were the day's heaviest losers",
-     "why": "Nestle sold off on a cautious cost outlook despite strong profit, and IDBI on a below-market Fairfax deal price.",
+     "summary": "Nestle India led Nifty losers; IDBI Bank slumped on the Fairfax deal price",
+     "why": "Both were stock-specific: Nestle on a cautious cost outlook despite strong profit, IDBI on a below-market sale price.",
      "names": [
       {
        "name": "Nestle India",
        "dir": "down",
-       "move": "~-9%",
+       "move": "over -7%",
        "line": "Management warned of food inflation and rising commodity costs despite 36% profit growth"
       },
       {
        "name": "IDBI Bank",
        "dir": "down",
-       "move": "-6.74%",
-       "line": "Fairfax's ₹81/share deal price is below its ₹90.40 close and market hopes"
+       "move": "~-6.7% intraday",
+       "line": "Fairfax's ₹81/share deal price is below its ₹90.40 prior close and market hopes"
       }
      ],
      "src": {
-      "title": "Whalesbook: Sensex, Nifty hit 23,000; Nestlé India falls 9% after results",
-      "url": "https://www.whalesbook.com/news/English/economy/Sensex-Nifty-Hit-23000-Nestle-India-Falls-9percent-After-Results/6ad08fb379a16deaeaf273ef"
+      "title": "Angel One: Top gainers & losers Oct 15 — TechM, ICICI Bank gain; Nestle drops over 7%",
+      "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-october-15-2026-tech-mahindra-and-icici-bank-gain-while-nestle-drops-over-7"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "wipro-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Wipro Q2 profit dips despite 9% revenue rise",
+   "line": "Net profit about ₹3,199.7 cr vs ₹3,262.4 cr a year ago; revenue ₹24,752.7 cr",
+   "more": [
+    "Previews had pencilled in ₹3,410–3,445 cr profit",
+    "Report ties the profit dip to a ₹15,050.8 cr share buyback",
+    "Single-source report; Q3 guidance not yet confirmed"
+   ],
+   "src": {
+    "title": "Whalesbook: Wipro Q2 FY27 revenue grows to ₹24,752 cr; net profit dips",
+    "url": "https://www.whalesbook.com/corporate-news/English/technology/Wipro-Q2-FY27-Revenue-Grows-to-Rs-24752-Crore-Net-Profit-Dips/6ad0a885b2eb76fd08c4476f"
+   },
+   "date": "2026-10-15",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Crude falls about 2%",
+   "line": "Lower oil eased inflation worries and helped fuel the rally",
+   "more": [
+    "Brent had been near $106 earlier in the week",
+    "Rupee also firmed to 94.86/$ in early trade"
+   ],
+   "src": {
+    "title": "Business Standard: Market close — Sensex surges 1,534 pts, Nifty at 22,997 as crude falls 2%; IT, auto shine",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
+   },
+   "date": "2026-10-15",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "techm-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "TechM board meets Oct 15–16 on Q2, bonus",
+   "line": "Results, an interim dividend and a bonus issue are on the two-day board agenda",
+   "more": [
+    "Would be its first bonus issue since 2015 if approved",
+    "Bonus ratio and record date not yet disclosed"
+   ],
+   "src": {
+    "title": "Angel One: Tech Mahindra board to consider Q2 FY27 results Oct 15",
+    "url": "https://www.angelone.in/news/stocks/tech-mahindra-share-price-in-focus-board-to-consider-q2fy27-earnings-results-on-october-15-2026"
+   },
+   "date": "2026-10-15",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "FII data for Thursday awaited",
+   "line": "Foreign funds had sold for 14 straight sessions through Wednesday",
+   "more": [
+    "FIIs sold ₹1,857 cr on Oct 14 while DIIs bought ₹2,670 cr",
+    "Thursday's provisional figures were not yet out at 4 pm"
+   ],
+   "src": {
+    "title": "5paisa: FII DII data",
+    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
+   },
+   "date": "2026-10-15",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-06",
+    "slot": "pre"
+   }
+  },
   {
    "key": "q2-results",
    "tag": "Results",
@@ -108,58 +198,10 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "techm-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "TechM Q2: profit seen ₹1,530–1,580 cr",
-   "line": "Preview expects EBIT margin roughly flat at 14.3–14.5% after a 3%+ run-up today",
-   "more": [
-    "Would be its first bonus issue since 2015 if approved",
-    "Stock had risen nearly 9% in two sessions from its Oct 12 low"
-   ],
-   "src": {
-    "title": "Upstox: Tech Mahindra Q2 preview — bonus, guidance and dividend in focus",
-    "url": "https://upstox.com/news/market-news/earnings/tech-mahindra-q2-results-net-profit-likely-to-see-double-digit-growth-key-focus-on-bonus-issue-guidance-and-dividend/article-201891/"
-   },
-   "date": "2026-10-15",
-   "slot": "1530",
-   "when": "15:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "wipro-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Wipro Q2: Q3 guidance in focus",
-   "line": "Analysts see revenue growth over 8% YoY; margins and December-quarter outlook key",
-   "more": [
-    "IT services revenue guided at $2.574–2.627 bn",
-    "One preview sees a 0.5–1.4% QoQ cc dip"
-   ],
-   "src": {
-    "title": "Business Standard: Wipro Q2 preview",
-    "url": "https://www.business-standard.com/amp/markets/news/wipro-q2-results-preview-revenue-growth-likely-over-8-margins-in-focus-126101400475_1.html"
-   },
-   "date": "2026-10-15",
-   "slot": "1530",
-   "when": "15:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-14",
-    "slot": "1400"
    }
   },
   {
@@ -355,30 +397,6 @@
    }
   },
   {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Brent eases to ~$105",
-   "line": "Oil is down about 0.9% on the day, easing inflation fears",
-   "more": [
-    "Brent at $105.13 early Thursday vs a $106.06 prior close",
-    "Day's range roughly $105.10–106.01"
-   ],
-   "src": {
-    "title": "Dealplexus: Crude oil (Brent) today",
-    "url": "https://www.dealplexus.com/markets/crude-oil-price-today"
-   },
-   "date": "2026-10-15",
-   "slot": "1330",
-   "when": "13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-06",
-    "slot": "pre"
-   }
-  },
-  {
    "key": "psu-banks",
    "tag": "Stocks",
    "impact": "neg",
@@ -514,31 +532,6 @@
    "src": {
     "title": "TheStreet: Stock market today, Oct 14 — Nasdaq falls 2% on hot inflation",
     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-14-2026"
-   },
-   "date": "2026-10-15",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-06",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "FIIs sell ₹1,857 cr, 14th straight day",
-   "line": "DIIs bought ₹2,670 cr on Wednesday, more than offsetting foreign selling",
-   "more": [
-    "FII net -₹1,857.44 cr in cash (provisional)",
-    "DII net +₹2,670.44 cr",
-    "FIIs hold a large net short in index futures"
-   ],
-   "src": {
-    "title": "Kotak Neo: FII DII data",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
    },
    "date": "2026-10-15",
    "slot": "pre",
