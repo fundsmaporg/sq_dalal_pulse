@@ -1,44 +1,44 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-15T12:33:18+05:30",
+ "generated_at": "2026-10-15T13:02:39+05:30",
  "date": "2026-10-15",
- "slot": "1230",
- "slot_label": "12:30",
+ "slot": "1300",
+ "slot_label": "13:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-15T12:30:00+05:30",
+ "asof": "2026-10-15T13:00:00+05:30",
  "nifty": {
-  "value": 22932.8,
-  "pct": 1.37,
-  "chg": 310.1,
+  "value": 22973.95,
+  "pct": 1.55,
+  "chg": 351.25,
   "approx": true
  },
  "mood": {
-  "label": "Rally holds",
-  "score": 0.5,
-  "summary": "The Sensex is holding a gain of about 1,000 points into early afternoon as telecom joins IT in leading, while a few heavy stock-specific falls pull against the tide.",
+  "label": "Rally stretches",
+  "score": 0.6,
+  "summary": "The rally widened through midday, with the Sensex up about 1,200 points and the Nifty near 22,970, though PSU banks and a couple of results-day names are bucking it.",
   "detail": {
    "leaders": "Bharti Airtel, Tech Mahindra, Nifty IT",
-   "laggards": "IDBI Bank",
-   "tone": "Steady versus noon: the ~1,000-point Sensex gain is intact, with leadership broadening from IT to telecom.",
+   "laggards": "Nestle India, IDBI Bank",
+   "tone": "Firmer than the 11 am reading used at 12:30: by noon the Sensex gain had widened to 1,200 points (1.69%) at 74,011.21, and the Nifty was up 351.25 points.",
    "watch": [
-    "Nestle India's slide and its Q2 numbers",
     "Tech Mahindra and Wipro results after the close",
-    "Whether smallcaps join the rally"
+    "Nifty PSU Bank, down about 1%",
+    "Whether the rally holds into the 3:30 close"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Airtel, TechM lead 1,000-pt Sensex rally; Nestle India drops 8%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,200 pts, Nifty reclaims 22,900; Nifty PSU Bank falls 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Airtel has joined IT at the front, with Tech Mahindra still among top gainers",
-     "why": "Reports tie Airtel's rise to Jio's IPO pricing, while IT extends its three-day run into results.",
+     "summary": "Airtel and IT heavyweights keep leading the benchmarks higher",
+     "why": "IT is extending its three-day run into results, and telecom is in focus after Jio's IPO pricing.",
      "names": [
       {
        "name": "Bharti Airtel",
        "dir": "up",
        "move": "+3.69%",
-       "line": "Top gainer at noon at ₹1,860.80 as Jio's ₹10.3 lakh cr IPO valuation spotlights telecom"
+       "line": "Top gainer at noon at ₹1,860.80 as Jio's IPO valuation spotlights telecom"
       },
       {
        "name": "Tech Mahindra",
@@ -52,24 +52,30 @@
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Airtel, TechM lead 1,000-pt Sensex rally; Nestle India drops 8%",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
+      "title": "Business Standard: Stock Market LIVE — Sensex surges 1,200 pts, Nifty reclaims 22,900; Nifty PSU Bank falls 1%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
      }
     },
     "down": {
-     "summary": "IDBI Bank slides as the Fairfax deal price disappoints",
-     "why": "The approved ₹81/share price came in well below where the stock had been trading.",
+     "summary": "Nestle India and IDBI Bank slide on results and deal disappointment",
+     "why": "Stock-specific selling: Nestle fell despite a strong quarter, and IDBI on a below-market deal price.",
      "names": [
+      {
+       "name": "Nestle India",
+       "dir": "down",
+       "move": "-4.7% to -7%",
+       "line": "Fell to ₹1,260–1,318 despite Q2 profit rising 36% and beating estimates"
+      },
       {
        "name": "IDBI Bank",
        "dir": "down",
        "move": "-6%",
-       "line": "Fell to ₹84.97 as the ₹81 deal price lagged a ₹90.40 close and ₹100–110 hopes"
+       "line": "Fairfax's ₹81/share deal price is below its ₹90.40 close and ₹100–110 hopes"
       }
      ],
      "src": {
-      "title": "NewsBytes: IDBI Bank shares fall 6% after nearly ₹53,000 cr deal",
-      "url": "https://www.newsbytesapp.com/news/business/idbi-bank-shares-fall-6-after-nearly-53-000cr-deal/story"
+      "title": "Zee Business: Nestle India Q2 — profit up, shares fall nearly 5%",
+      "url": "https://www.zeebiz.com/companies/news-nestle-india-q2-results-fmcg-majors-net-profit-rises-416-to-rs-1968-crore-revenue-up-226-shares-fall-nearly-5-403993"
      }
     }
    }
@@ -79,26 +85,74 @@
   {
    "key": "nestle-india",
    "tag": "Results",
-   "impact": "neg",
-   "title": "Nestle India drops 8% on results day",
-   "line": "The FMCG major slid sharply; its Q2 numbers had been expected to top ₹1,000 cr in profit",
+   "impact": "watch",
+   "title": "Nestle Q2 profit up 36%, but stock falls",
+   "line": "Standalone profit ₹1,026.77 cr, revenue +20.3% to ₹6,788 cr; shares slid 5–7% after",
    "more": [
-    "Stock was down just 0.56% at ₹1,375.40 at 10:11 am, ahead of earnings",
-    "Previews expected ~20% revenue growth and ~37% profit growth",
-    "The reason for the slide was not yet reported"
+    "EBITDA margin 23.8%; ad and marketing spend up 46%",
+    "Zee Business says results beat its estimates",
+    "Shares fell 4.74% to ₹1,317.70 in one report, 7% to ₹1,260 in another"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Airtel, TechM lead 1,000-pt Sensex rally; Nestle India drops 8%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
+    "title": "Upstox: Q2 results live — Nestle India profit rises 36% to ₹1,027 cr",
+    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-wipro-nestle-india-tech-mahindra-polycab-jio-financial-hdfc-life-irfc-hdfc-amc-angel-one-others-to-declare-earnings-oct015/liveblog-201887/"
    },
    "date": "2026-10-15",
-   "slot": "1230",
-   "when": "12:30",
+   "slot": "1300",
+   "when": "13:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1200"
+   }
+  },
+  {
+   "key": "psu-banks",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "PSU banks fall ~1% against the rally",
+   "line": "Nifty PSU Bank is the weakest sector index while benchmarks gain over 1.5%",
+   "more": [
+    "IDBI Bank down 6% on the Fairfax deal price",
+    "No broader trigger has been reported for the sector"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,200 pts, Nifty reclaims 22,900; Nifty PSU Bank falls 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
+   },
+   "date": "2026-10-15",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "More results due after market",
+   "line": "Wipro, Tech Mahindra, HDFC Life, Jio Financial, Polycab and HDFC AMC report today",
+   "more": [
+    "Tech Mahindra board to consider a bonus issue",
+    "Wipro guided -1.5% to +0.5% QoQ cc revenue growth"
+   ],
+   "src": {
+    "title": "Upstox: Q2 results live — Nestle India profit rises 36% to ₹1,027 cr",
+    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-wipro-nestle-india-tech-mahindra-polycab-jio-financial-hdfc-life-irfc-hdfc-amc-angel-one-others-to-declare-earnings-oct015/liveblog-201887/"
+   },
+   "date": "2026-10-15",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1130"
    }
   },
   {
@@ -119,7 +173,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1400"
@@ -143,7 +197,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1100"
@@ -295,30 +349,6 @@
    }
   },
   {
-   "key": "psu-banks",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "PSU banks lag the rally",
-   "line": "Nifty PSU Bank is the weakest sector index while the broader market gains over 1%",
-   "more": [
-    "Adani Ports is the top Sensex loser",
-    "No specific trigger has been reported for the PSU-bank weakness"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex at day's high, up 900 points, Nifty reclaims 22,800 as Brent falls 1%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
-   },
-   "date": "2026-10-15",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1200"
-   }
-  },
-  {
    "key": "rupee",
    "tag": "Macro",
    "impact": "pos",
@@ -415,30 +445,6 @@
    "first_seen": {
     "date": "2026-10-06",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Wipro, Nestle, HDFC Life report today",
-   "line": "Tech Mahindra and Jio Financial also report Q2 numbers on Thursday",
-   "more": [
-    "Wipro guided -1.5% to +0.5% QoQ cc revenue growth",
-    "Nestle India's Q2 profit is seen topping ₹1,000 cr"
-   ],
-   "src": {
-    "title": "Upstox: Gift Nifty futures indicate weak start; Wipro, Nestle, HDFC Life in focus",
-    "url": "https://upstox.com/news/market-news/stocks/gift-nifty-futures-indicate-weak-start-for-markets-wipro-nestle-hdfc-life-shares-in-focus/article-201871"
-   },
-   "date": "2026-10-15",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1130"
    }
   },
   {
