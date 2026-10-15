@@ -1,37 +1,111 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-15T09:33:16+05:30",
+ "generated_at": "2026-10-15T10:03:35+05:30",
  "date": "2026-10-15",
- "slot": "0930",
- "slot_label": "9:30",
+ "slot": "1000",
+ "slot_label": "10:00",
  "stage": "Opening mood",
- "asof": "2026-10-15T09:30:00+05:30",
+ "asof": "2026-10-15T10:00:00+05:30",
  "nifty": {
-  "value": 22671.3,
-  "pct": 0.21,
-  "chg": 48.6,
+  "value": 22800,
+  "pct": 0.79,
+  "chg": 177,
   "approx": true
  },
  "mood": {
-  "label": "Defiant open",
-  "score": 0.1,
-  "summary": "Indian stocks opened modestly higher, shrugging off a steep sell-off across Asia, with IT buying lifting the Nifty back towards 22,700 after Wednesday's dip.",
+  "label": "Rally builds",
+  "score": 0.45,
+  "summary": "Gains have extended after a firm open, with the Sensex up around 800 points and the Nifty back above 22,800 as IT leads a sharp break from Asia's sell-off.",
   "detail": {
-   "leaders": "IT, led by TCS",
-   "laggards": "No clear sectoral drag yet in early trade",
-   "tone": "A better start than the pre-open note expected: Gift Nifty had pointed lower, but the Sensex opened 183.91 points up at 72,965.80.",
+   "leaders": "Nifty IT, Tech Mahindra, TCS, Infosys",
+   "laggards": "Not yet reported in early trade",
+   "tone": "A clear step up from the 9:30 open: gains have roughly quadrupled from the Sensex's +184-point start, with IT doing most of the lifting.",
    "watch": [
-    "Whether the open holds as Kospi and Nikkei slide",
-    "Wipro, Nestle India and HDFC Life results after market",
+    "Whether Asia's chip rout catches up with Indian IT",
+    "Wipro and Tech Mahindra Q2 numbers after the close",
     "FII flows after 14 straight days of selling"
    ],
    "src": {
-    "title": "India TV: Sensex gains 183 points, Nifty near 22,700, TCS jumps over 2%",
-    "url": "https://www.indiatvnews.com/business/markets/15-october-2026-stock-market-updates-sensex-gains-183-points-nifty-near-22-700-tcs-hcl-tech-it-stock-rally-rupee-strengthens-2026-10-15-1057011"
+    "title": "Business Standard: Stock Market LIVE — Sensex rises 800, Nifty reclaims 22,800; Nifty IT gains over 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "it-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Nifty IT jumps over 2%",
+   "line": "Tech Mahindra, TCS and Infosys lead the Sensex as the IT rally runs into a third session",
+   "more": [
+    "Tech Mahindra reports Q2 later today; Wipro too",
+    "TCS, Tech Mahindra and Infosys were up 1.5%+ each by 9:20 am",
+    "Nifty IT topped the sector table on Tuesday and Wednesday"
+   ],
+   "src": {
+    "title": "Upstox: Sensex surges over 400 points, Nifty reclaims 22,700 led by IT",
+    "url": "https://upstox.com/news/market-news/stocks/sensex-surges-over-400-points-nifty-50-reclaims-22-700-led-by-gains-in-it-shares/article-201882/"
+   },
+   "date": "2026-10-15",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "idbi-bank",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Fairfax pays ₹81/share for IDBI control",
+   "line": "Cabinet-approved ₹52,878 cr deal is the largest FDI in India's financial sector",
+   "more": [
+    "Bid of ₹81/share beat the ₹75.99 fair value set by valuers",
+    "Govt keeps 15%, LIC 19%; Fairfax must make an open offer",
+    "CSB Bank to be merged into IDBI Bank within two years"
+   ],
+   "src": {
+    "title": "Business Today: Centre approves Fairfax's ₹52,878 cr bid for 60.72% of IDBI Bank",
+    "url": "https://www.businesstoday.in/latest/corporate/story/centre-approves-fairfax-financials-rs52878-crore-bid-for-60-72-stake-in-idbi-bank-561590-2026-10-14"
+   },
+   "date": "2026-10-15",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Firmer rupee, softer crude help",
+   "line": "A stronger rupee and easing oil prices supported the open despite weak global cues",
+   "more": [
+    "Brent eased to about $105 early Thursday from $106",
+    "IT, rupee and crude all cited as early supports"
+   ],
+   "src": {
+    "title": "Newsdrum: Sensex jumps 400 points; Jio IPO, Wipro earnings in focus",
+    "url": "https://www.newsdrum.in/business/sensex-jumps-400-points-jio-ipo-wipro-earnings-and-stocks-in-focus-12677163"
+   },
+   "date": "2026-10-15",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "1100"
+   }
+  },
   {
    "key": "asia-chip-rout",
    "tag": "Global",
@@ -51,58 +125,10 @@
    "slot": "0930",
    "when": "9:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "it-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT buying continues; TCS up over 2%",
-   "line": "Indian IT extends its rally into a third session even as Nasdaq fell 1.9% overnight",
-   "more": [
-    "Nifty IT was the top sector on both Tuesday and Wednesday",
-    "Wipro and Tech Mahindra report Q2 later today"
-   ],
-   "src": {
-    "title": "India TV: Sensex gains 183 points, Nifty near 22,700, TCS jumps over 2%",
-    "url": "https://www.indiatvnews.com/business/markets/15-october-2026-stock-market-updates-sensex-gains-183-points-nifty-near-22-700-tcs-hcl-tech-it-stock-rally-rupee-strengthens-2026-10-15-1057011"
-   },
-   "date": "2026-10-15",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee firms at the open",
-   "line": "The rupee strengthened in early trade, per India TV's opening report",
-   "more": [
-    "On Tuesday it firmed for a third straight session to 95.37/$",
-    "That move followed RBI measures to curb speculative trading"
-   ],
-   "src": {
-    "title": "India TV: Sensex gains 183 points, Nifty near 22,700, TCS jumps over 2%",
-    "url": "https://www.indiatvnews.com/business/markets/15-october-2026-stock-market-updates-sensex-gains-183-points-nifty-near-22-700-tcs-hcl-tech-it-stock-rally-rupee-strengthens-2026-10-15-1057011"
-   },
-   "date": "2026-10-15",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1100"
    }
   },
   {
@@ -153,30 +179,6 @@
    "first_seen": {
     "date": "2026-10-06",
     "slot": "1100"
-   }
-  },
-  {
-   "key": "idbi-bank",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Govt approves Fairfax's IDBI Bank buy",
-   "line": "Approval for a ₹52,878 cr stake acquisition; the stock jumped 8.98% on Wednesday",
-   "more": [
-    "The govt had weighed bids from Fairfax and Emirates NBD for a 60.72% stake",
-    "IDBI Bank is among today's stocks to watch"
-   ],
-   "src": {
-    "title": "ScanX: Stocks to watch, Oct 15 — HDB Financial, IDBI Bank, MRPL",
-    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-15-2026-hdb-financial-services-tata/53573460"
-   },
-   "date": "2026-10-15",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-14",
-    "slot": "1400"
    }
   },
   {
