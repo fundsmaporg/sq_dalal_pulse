@@ -1,66 +1,72 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-16T13:02:53+05:30",
+ "generated_at": "2026-10-16T13:33:22+05:30",
  "date": "2026-10-16",
- "slot": "1300",
- "slot_label": "13:00",
+ "slot": "1330",
+ "slot_label": "13:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-16T13:00:00+05:30",
+ "asof": "2026-10-16T13:30:00+05:30",
  "nifty": {
-  "value": 23135,
-  "pct": 0.6,
-  "chg": 138,
+  "value": 23121,
+  "pct": 0.54,
+  "chg": 124,
   "approx": true
  },
  "mood": {
-  "label": "Gains extend",
-  "score": 0.4,
-  "summary": "Gains widened into early afternoon, with the Sensex up about 400 points, but it is still a large-cap IT story while midcaps hover near flat.",
+  "label": "Heavyweights carry",
+  "score": 0.35,
+  "summary": "The Nifty is holding above 23,100 into the afternoon on IT and telecom buying, though decliners have outnumbered advancers, so the gains rest on a few heavyweights.",
   "detail": {
-   "leaders": "Tech Mahindra, Infosys, TCS",
+   "leaders": "Tech Mahindra, Infosys, TCS, Bharti Airtel",
    "laggards": "HDFC Life, Jio Financial, Persistent",
-   "tone": "Firmer than 12:30: Business Standard's live-blog headline has moved from a 300-point to a 400-point Sensex gain, though breadth is still mixed.",
+   "tone": "Steady versus 13:00: the IT-led gains are holding, and the Sensex has recovered more than 700 points from its early low, but breadth remains weak.",
    "watch": [
-    "Resistance around 23,100–23,150 that analysts flag",
-    "Whether midcaps turn positive",
+    "Whether the Nifty can clear 23,150 resistance",
+    "Profit-taking in IT into the weekend",
     "HDFC Bank's Q2 results on Saturday"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Tech Mahindra, Infosys lead 400-pt gain in Sensex; SMIDs trade mixed",
+    "title": "Business Standard: Stock Market LIVE — Tech Mahindra, Infosys lead gain in Sensex; SMIDs trade mixed",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
    },
    "movers": {
     "up": {
-     "summary": "The three IT heavyweights, Tech Mahindra, Infosys and TCS, are driving the Sensex gain",
-     "why": "Strong Q2 numbers across large IT names have pulled buyers back into the sector, and its index weight is enough to carry the market.",
+     "summary": "IT majors and Bharti Airtel are the Sensex's biggest contributors today",
+     "why": "Strong Q2 results across IT have revived buying in the sector, and Airtel is gaining on its recent tariff increase ahead of Jio's IPO.",
      "names": [
       {
        "name": "Tech Mahindra",
        "dir": "up",
-       "move": "up ~7.5–8%",
-       "line": "Q2 profit up ~34% to ₹1,609.7 cr, deal wins up 25%, and a 1:1 bonus"
+       "move": "+7.24%",
+       "line": "Q2 profit up ~34%, deal wins up 25%, and a 1:1 bonus; the top Sensex gainer"
       },
       {
        "name": "Infosys",
        "dir": "up",
-       "move": "up over 4%",
-       "line": "Riding the sector rally and AI-demand optimism before its Q2 results on Oct 23"
+       "move": "+4.87%",
+       "line": "Sector rally and AI-demand optimism before its own Q2 results on Oct 23"
       },
       {
        "name": "TCS",
        "dir": "up",
-       "move": "up 3.5%",
-       "line": "Its Q2 results were among those that restarted buying in IT this week"
+       "move": "+3.58%",
+       "line": "Its Q2 results helped restart buying across IT this week"
+      },
+      {
+       "name": "Bharti Airtel",
+       "dir": "up",
+       "move": "up ~3%",
+       "line": "Up ~6% in two days after a ₹50 postpaid tariff hike, ahead of Jio's IPO"
       }
      ],
      "src": {
-      "title": "ScanX: Markets at Noon — Nifty gains 0.54% as jewellery sector soars",
-      "url": "https://scanx.trade/stock-market-news/markets/market-today-mid-bell-update-nifty50-share-price-sensex-share-price-crude-fii-gift-nifty-rupee-latest-16-10-2026/53677822"
+      "title": "WorldNews24x7: Sensex rebounds over 700 points from day's low; Nifty above 23,100 as IT stocks rally",
+      "url": "https://www.worldnews24x7.tv/sensex-rebounds-over-700-points-from-days-low-nifty-climbs-above-23100-as-it-stocks-rally/"
      }
     },
     "down": {
-     "summary": "HDFC Life, Jio Financial and Persistent remain weighed down by Q2 disappointments",
-     "why": "All three reported quarterly profits below expectations or sharply lower, so they are being sold even as the index rises.",
+     "summary": "Q2 misses keep HDFC Life, Jio Financial and Persistent among the day's losers",
+     "why": "Each reported quarterly profit below expectations or sharply lower year on year, so none is joining the large-cap rally.",
      "names": [
       {
        "name": "HDFC Life",
@@ -90,6 +96,81 @@
  },
  "insights": [
   {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Jio IPO grey premium ~20% before Oct 21 open",
+   "line": "GMP is about ₹221 over the ₹1,119 top band; Airtel is rising ahead of the issue",
+   "more": [
+    "Issue ~₹30,213 cr; opens Oct 21, closes Oct 23; lot of 12 shares",
+    "Allotment Oct 26, listing expected Oct 28",
+    "Analysts don't see the ~2.9% dilution pulling money from Airtel"
+   ],
+   "src": {
+    "title": "BusinessToday: Why Bharti Airtel share price is rising ahead of Jio's ₹30,213 crore IPO",
+    "url": "https://www.businesstoday.in/markets/stocks/story/jio-ipo-why-bharti-airtel-share-price-is-rising-ahead-of-rs-30213-crore-offer-562037-2026-10-16"
+   },
+   "date": "2026-10-16",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "india-us-trade",
+   "tag": "Policy",
+   "impact": "pos",
+   "title": "India-US trade deal: first tranche finalised",
+   "line": "Goyal says it is in legal drafting; signing depends on the US tariff structure",
+   "more": [
+    "Legal drafting and final review are under way",
+    "India wants tariffs no higher than rivals such as Vietnam and Bangladesh",
+    "A February framework cut tariffs on most Indian goods to 18% from 50%"
+   ],
+   "src": {
+    "title": "India TV: India-US trade deal first tranche finalised, in legal drafting — Piyush Goyal",
+    "url": "https://www.indiatvnews.com/business/news/india-us-trade-deal-first-tranche-finalised-undergoing-legal-drafting-and-final-review-piyush-goyal-latest-updates-2026-10-15-1057082"
+   },
+   "date": "2026-10-16",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "breadth",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "Rally is narrow; decliners lead on NSE",
+   "line": "Early on, 1,583 NSE stocks fell vs 1,043 rising, even as large caps pushed indices up",
+   "more": [
+    "Early breadth: 1,583 decliners vs 1,043 advancers",
+    "Profit-taking in energy, banking and consumer stocks",
+    "Nifty IT up 3.39% at 31,761 mid-morning"
+   ],
+   "src": {
+    "title": "Punjab Kesari: Sensex, Nifty trade flat to positive as IT rally offsets profit booking",
+    "url": "https://english.punjabkesari.com/india/stock-market-updates-october-16-2026-sensex-nifty-it-rally"
+   },
+   "date": "2026-10-16",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1100"
+   }
+  },
+  {
    "key": "pc-jeweller",
    "tag": "Stocks",
    "impact": "watch",
@@ -108,7 +189,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1030"
@@ -133,7 +214,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1300"
@@ -158,7 +239,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "pre"
@@ -663,30 +744,6 @@
    }
   },
   {
-   "key": "breadth",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Smallcaps, microcaps fall on a big up day",
-   "line": "Nifty Smallcap 100 fell 1.11% and Microcap 250 1.39% as gains stayed in large caps",
-   "more": [
-    "Sterlite, MTAR, HFCL and Netweb were down about 5% earlier",
-    "Nifty PSU Bank was the weakest sector index"
-   ],
-   "src": {
-    "title": "Whalesbook: Sensex, Nifty hit 23,000; Nestlé India falls 9% after results",
-    "url": "https://www.whalesbook.com/news/English/economy/Sensex-Nifty-Hit-23000-Nestle-India-Falls-9percent-After-Results/6ad08fb379a16deaeaf273ef"
-   },
-   "date": "2026-10-15",
-   "slot": "1500",
-   "when": "Thu · 15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1100"
-   }
-  },
-  {
    "key": "nifty-23k",
    "tag": "Stocks",
    "impact": "pos",
@@ -732,30 +789,6 @@
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Jio IPO lifts Vodafone Idea too",
-   "line": "Vodafone Idea gained on Jio IPO sentiment, alongside Airtel's near-4% rise",
-   "more": [
-    "Vodafone Idea was among the most active NSE stocks at noon",
-    "Jio Platforms IPO opens Oct 21 at ₹1,065–1,119"
-   ],
-   "src": {
-    "title": "HDFC Sky: Trending stocks, Oct 15 — Vodafone Idea gains, IDBI slumps",
-    "url": "https://hdfcsky.com/news/trending-stocks-today-october-15-2026-vodafone-idea-pc-jeweller-idbi-bank-in-focus-tata-silver-etf-falls-3-3percent"
-   },
-   "date": "2026-10-15",
-   "slot": "1400",
-   "when": "Thu · 14:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
    }
   },
   {
