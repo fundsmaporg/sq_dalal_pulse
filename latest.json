@@ -1,70 +1,72 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-16T12:33:11+05:30",
+ "generated_at": "2026-10-16T13:02:53+05:30",
  "date": "2026-10-16",
- "slot": "1230",
- "slot_label": "12:30",
+ "slot": "1300",
+ "slot_label": "13:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-16T12:30:00+05:30",
+ "asof": "2026-10-16T13:00:00+05:30",
  "nifty": {
-  "value": 23120.65,
-  "pct": 0.54,
-  "chg": 123.3,
+  "value": 23135,
+  "pct": 0.6,
+  "chg": 138,
   "approx": true
  },
  "mood": {
-  "label": "Gains holding",
-  "score": 0.3,
-  "summary": "The Nifty is holding about half a percent of gains around 23,100 into the afternoon, with midcaps slightly lower and smallcaps slightly higher, so breadth is still mixed.",
+  "label": "Gains extend",
+  "score": 0.4,
+  "summary": "Gains widened into early afternoon, with the Sensex up about 400 points, but it is still a large-cap IT story while midcaps hover near flat.",
   "detail": {
-   "leaders": "Nifty IT, Tech Mahindra, Infosys",
+   "leaders": "Tech Mahindra, Infosys, TCS",
    "laggards": "HDFC Life, Jio Financial, Persistent",
-   "tone": "Roughly unchanged from noon, when the Nifty was up 0.54%; a later live-blog headline cites a Sensex gain of about 200 points, suggesting a slight trim.",
+   "tone": "Firmer than 12:30: Business Standard's live-blog headline has moved from a 300-point to a 400-point Sensex gain, though breadth is still mixed.",
    "watch": [
-    "Whether the Nifty holds 23,000, the key support analysts cite",
-    "Resistance around 23,100–23,150",
+    "Resistance around 23,100–23,150 that analysts flag",
+    "Whether midcaps turn positive",
     "HDFC Bank's Q2 results on Saturday"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Tech Mahindra, Infosys lead gain in Sensex; SMIDs trade mixed",
+    "title": "Business Standard: Stock Market LIVE — Tech Mahindra, Infosys lead 400-pt gain in Sensex; SMIDs trade mixed",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT is still doing the lifting, led by Tech Mahindra and Infosys",
-     "why": "Strong Q2 numbers from the large IT companies are keeping buyers in the sector, which remains the day's best-performing group.",
+     "summary": "The three IT heavyweights, Tech Mahindra, Infosys and TCS, are driving the Sensex gain",
+     "why": "Strong Q2 numbers across large IT names have pulled buyers back into the sector, and its index weight is enough to carry the market.",
      "names": [
-      {
-       "name": "Nifty IT",
-       "dir": "up",
-       "move": "up nearly 3%",
-       "line": "Top sector again, building on Thursday's 5.22% jump, its best since May 2025"
-      },
       {
        "name": "Tech Mahindra",
        "dir": "up",
-       "move": "up ~7%",
-       "line": "Q2 profit up 33%, deal wins up 25%, and a 1:1 bonus; the top Nifty IT gainer"
+       "move": "up ~7.5–8%",
+       "line": "Q2 profit up ~34% to ₹1,609.7 cr, deal wins up 25%, and a 1:1 bonus"
       },
       {
        "name": "Infosys",
        "dir": "up",
-       "line": "Riding the sector rally and AI-demand commentary before its Q2 results on Oct 23"
+       "move": "up over 4%",
+       "line": "Riding the sector rally and AI-demand optimism before its Q2 results on Oct 23"
+      },
+      {
+       "name": "TCS",
+       "dir": "up",
+       "move": "up 3.5%",
+       "line": "Its Q2 results were among those that restarted buying in IT this week"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Tech Mahindra, Infosys lead gain in Sensex; SMIDs trade mixed",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
+      "title": "ScanX: Markets at Noon — Nifty gains 0.54% as jewellery sector soars",
+      "url": "https://scanx.trade/stock-market-news/markets/market-today-mid-bell-update-nifty50-share-price-sensex-share-price-crude-fii-gift-nifty-rupee-latest-16-10-2026/53677822"
      }
     },
     "down": {
-     "summary": "Q2 disappointments keep HDFC Life, Jio Financial and Persistent lower",
-     "why": "Each reported profit below estimates or sharply lower year on year, so they are not joining the IT-led gains.",
+     "summary": "HDFC Life, Jio Financial and Persistent remain weighed down by Q2 disappointments",
+     "why": "All three reported quarterly profits below expectations or sharply lower, so they are being sold even as the index rises.",
      "names": [
       {
        "name": "HDFC Life",
        "dir": "down",
-       "line": "Q2 standalone profit of ₹508 cr missed estimates; a top Nifty loser"
+       "move": "down 3.3%",
+       "line": "Hit a day's low of ₹532.60 after Q2 profit of ₹508 cr missed estimates"
       },
       {
        "name": "Jio Financial",
@@ -88,6 +90,81 @@
  },
  "insights": [
   {
+   "key": "pc-jeweller",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "PC Jeweller hits 52-week high on bulk deal",
+   "line": "The shares rose as much as 14% after Halwasia bought 5.10 crore shares at ₹14.43",
+   "more": [
+    "Intraday high ₹16.45 vs ₹15.06 open on NSE",
+    "Bulk purchase of 5.10 crore shares at ₹14.43 on Thursday",
+    "Jewellery stocks led the sector board at noon, per ScanX"
+   ],
+   "src": {
+    "title": "Goodreturns: PC Jeweller soars 14% to 52-week high after major bulk deal",
+    "url": "https://www.goodreturns.in/news/pc-jeweller-share-price-soars-14-to-52-week-high-after-major-bulk-deal-know-key-trigger-behind-rally-1541931.html"
+   },
+   "date": "2026-10-16",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "europe-open",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "European stocks open higher",
+   "line": "STOXX 600 rose 0.3% early as strong earnings steadied markets after the tech selloff",
+   "more": [
+    "STOXX 600 at 641.75 by 0708 GMT, up 0.3%",
+    "Index up more than 1% for the week",
+    "FTSE 100 slipped 0.26%"
+   ],
+   "src": {
+    "title": "Reuters via Investing.com: European stocks gain as Schneider lifts sentiment",
+    "url": "https://www.investing.com/news/stock-market-news/european-stocks-gain-as-schneider-lifts-sentiment-inflation-data-awaited-4953276"
+   },
+   "date": "2026-10-16",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "1300"
+   }
+  },
+  {
+   "key": "wall-street",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "US futures flat; S&P heads for a weekly loss",
+   "line": "S&P 500 futures were near flat as Wall Street worries about US economic vulnerability",
+   "more": [
+    "S&P 500 futures -0.04%, Nasdaq-100 -0.2% late Thursday",
+    "The S&P 500 is on track for a losing week",
+    "Concern is growing that the US economy is more fragile than it looks"
+   ],
+   "src": {
+    "title": "CNBC: S&P 500 futures little changed as index heads for losing week",
+    "url": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html"
+   },
+   "date": "2026-10-16",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "pre"
+   }
+  },
+  {
    "key": "iifl-fin-q2",
    "tag": "Results",
    "impact": "pos",
@@ -106,7 +183,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1230"
@@ -131,7 +208,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1230"
@@ -156,7 +233,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1200"
@@ -525,30 +602,6 @@
    "src": {
     "title": "5paisa: FII DII data",
     "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
-   },
-   "date": "2026-10-16",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "wall-street",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Dow up ~1% as bank earnings lift Wall St",
-   "line": "S&P 500 rose 0.35% to 7,746; Nasdaq recovered from a 1%+ intraday drop",
-   "more": [
-    "Treasury yields fell and AI debt worries eased",
-    "Asian markets rebounded as chip stocks recovered"
-   ],
-   "src": {
-    "title": "TheStreet: Stock market today, Oct 15 — Dow edges higher as tech sell-off pivots",
-    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-15-2026"
    },
    "date": "2026-10-16",
    "slot": "pre",
@@ -2153,30 +2206,6 @@
    "first_seen": {
     "date": "2026-10-08",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "pc-jeweller",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "PC Jeweller gains on debt-free Q2 update",
-   "line": "Up about 3.5% to ₹13.6 after Q2 revenue grew 28% YoY",
-   "more": [
-    "Says it is debt-free and has completed a ₹500 cr fundraise",
-    "Realised ₹142 cr of export receivables"
-   ],
-   "src": {
-    "title": "Screener: PC Jeweller Ltd",
-    "url": "https://www.screener.in/company/PCJEWELLER/consolidated/"
-   },
-   "date": "2026-10-08",
-   "slot": "1030",
-   "when": "Thu · 10:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1030"
    }
   },
   {
