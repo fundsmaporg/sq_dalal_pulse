@@ -1,61 +1,61 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-16T15:02:29+05:30",
+ "generated_at": "2026-10-16T15:33:55+05:30",
  "date": "2026-10-16",
- "slot": "1500",
- "slot_label": "15:00",
+ "slot": "1530",
+ "slot_label": "15:30",
  "stage": "Closing mood",
- "asof": "2026-10-16T15:00:00+05:30",
+ "asof": "2026-10-16T15:30:00+05:30",
  "nifty": {
-  "value": 23131.25,
-  "pct": 0.58,
-  "chg": 134.35,
+  "value": 23119.0,
+  "pct": 0.53,
+  "chg": 121.65,
   "approx": true
  },
  "mood": {
-  "label": "Firm into close",
-  "score": 0.4,
-  "summary": "The market heads into the final half-hour about 0.6% higher and more than 200 points off its morning low, though broader stocks still trail the large caps.",
+  "label": "IT-led close",
+  "score": 0.35,
+  "summary": "The market ended Friday's session firm, holding about half a percent of gains after recovering from an early dip, though the advance was narrow and led by large-cap IT.",
   "detail": {
    "leaders": "Nifty IT, Tech Mahindra, TCS, Infosys",
    "laggards": "Yes Bank, HDFC Life, Jio Financial, Persistent",
-   "tone": "Slightly firmer than 14:30: the Nifty's gain edged up to about 0.58%, and the index sits more than 200 points above its morning low.",
+   "tone": "Gains were steady into the close: the Nifty was up 0.46% at 3 PM and 0.53% in the closing auction, versus about 0.58% at the last note.",
    "watch": [
-    "Whether the gains hold through the closing auction",
-    "HDFC Bank and Yes Bank results on Saturday",
-    "Final FII/DII flow data after the close"
+    "HDFC Bank and Yes Bank Q2 results on Saturday",
+    "Jio Platforms IPO opening Oct 21",
+    "Today's provisional FII/DII flows"
    ],
    "src": {
-    "title": "Zee Business: Why are Sensex, Nifty rising today? IT stocks, FII positions among 4 key factors",
-    "url": "https://www.zeebiz.com/market-news/news-why-are-sensex-nifty-rising-today-it-stocks-fii-positions-among-4-key-factors-404071"
+    "title": "Business Standard: Stock Market LIVE — Sensex gains 359 points, Nifty at 23,119 in closing auction session",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT is still the engine: the sector index is up over 3%, led by Tech Mahindra",
-     "why": "Strong Q2 numbers have pulled money back into IT after months of AI worries, and the sector's weight is keeping the indices green.",
+     "summary": "IT carried the day, with Tech Mahindra, TCS and Infosys the standout gainers",
+     "why": "Strong Q2 numbers pulled money back into IT after months of AI-related worry, and the sector did most of the index's lifting.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "move": "+3.23%",
-       "line": "At 31,712; all six major IT names have gained over the past five sessions"
+       "move": "up over 3% intraday",
+       "line": "The top sector all day; all six major IT names have gained over five sessions"
       },
       {
        "name": "Tech Mahindra",
        "dir": "up",
-       "move": "+7.75%",
+       "move": "up ~7.75%",
        "line": "Q2 profit up 32.7%, deal wins up 25%, plus a 1:1 bonus and ₹15 dividend"
       },
       {
        "name": "TCS",
        "dir": "up",
-       "move": "+4.08%",
+       "move": "up ~4%",
        "line": "Its Q2 results helped restart buying across IT this week"
       },
       {
        "name": "Infosys",
        "dir": "up",
-       "move": "+3.83%",
+       "move": "up ~3.8%",
        "line": "Sector rally and AI-demand optimism before its Q2 results on Oct 23"
       }
      ],
@@ -65,7 +65,7 @@
      }
     },
     "down": {
-     "summary": "Yes Bank's AT1 fallout and Q2 misses keep these four names lower",
+     "summary": "Yes Bank's AT1 fallout and Q2 misses kept these four names lower",
      "why": "Yes Bank faces a capital hit from the AT1 ruling, while the other three reported disappointing September-quarter profits.",
      "names": [
       {
@@ -77,7 +77,7 @@
       {
        "name": "HDFC Life",
        "dir": "down",
-       "line": "Q2 profit of ₹508 cr missed estimates; a top Nifty loser"
+       "line": "Q2 profit of ₹508 cr missed estimates; among the top Nifty losers"
       },
       {
        "name": "Jio Financial",
@@ -101,6 +101,81 @@
  },
  "insights": [
   {
+   "key": "weekend-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "HDFC Bank, Yes Bank report on Saturday",
+   "line": "Both report Q2 on Oct 17, so Monday's open will reflect the numbers",
+   "more": [
+    "HDFC Bank's earnings call is at 4 pm IST Saturday",
+    "Yes Bank's board considers results Oct 17, after the AT1 ruling",
+    "Citi sees a ~250 bp CET1 hit for Yes Bank from the verdict"
+   ],
+   "src": {
+    "title": "Zee Business: HDFC Bank Q2 results date and earnings call",
+    "url": "https://www.zeebiz.com/markets/stocks/news-hdfc-bank-q2-results-date-private-lender-to-host-earnings-call-on-this-day-403854"
+   },
+   "date": "2026-10-16",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "1530"
+   }
+  },
+  {
+   "key": "week-ahead",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Next week: Jio IPO and Infosys results",
+   "line": "Jio's ~₹30,213 cr IPO runs Oct 21–23; Infosys reports Q2 on Oct 23",
+   "more": [
+    "Jio price band ₹1,065–1,119; grey premium about ₹221",
+    "Jio allotment Oct 26, listing expected Oct 28",
+    "Infosys results will test the IT rally"
+   ],
+   "src": {
+    "title": "InvestorGain: Jio Platforms IPO details, GMP and dates",
+    "url": "https://www.investorgain.com/ipo/jio-platforms-ipo/2306/"
+   },
+   "date": "2026-10-16",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "1530"
+   }
+  },
+  {
+   "key": "tips-music-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "TIPS Music Q2 profit up 23%",
+   "line": "Revenue grew 35%, and the board declared a ₹6.50 interim dividend",
+   "more": [
+    "Net profit ~₹65.5 cr, up 23%",
+    "Interim dividend ₹6.50/share; record date Oct 22",
+    "Content costs weighed on margins"
+   ],
+   "src": {
+    "title": "Whalesbook: TIPS Music Q2 profit jumps 23%, declares ₹6.50 dividend",
+    "url": "https://www.whalesbook.com/news/Hinglish/media-and-entertainment/TIPS-Music-Q2-Profit-Jumps-23percent-Declares-indian-rupee650-Dividend/6ad1efba79a16deaeaf41c69"
+   },
+   "date": "2026-10-16",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "1530"
+   }
+  },
+  {
    "key": "rally-drivers",
    "tag": "Flows",
    "impact": "pos",
@@ -119,7 +194,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1200"
@@ -144,7 +219,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "0930"
@@ -169,7 +244,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "pre"
