@@ -1,92 +1,167 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-16T11:33:31+05:30",
+ "generated_at": "2026-10-16T12:03:03+05:30",
  "date": "2026-10-16",
- "slot": "1130",
- "slot_label": "11:30",
+ "slot": "1200",
+ "slot_label": "12:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-16T11:30:00+05:30",
+ "asof": "2026-10-16T12:00:00+05:30",
  "nifty": {
-  "value": 23104.05,
-  "pct": 0.46,
-  "chg": 106.7,
+  "value": 23120.65,
+  "pct": 0.54,
+  "chg": 123.3,
   "approx": false
  },
  "mood": {
-  "label": "IT keeps lifting",
-  "score": 0.3,
-  "summary": "Gains are edging higher, with the Nifty above 23,100, but the lift is still concentrated in IT while midcaps and smallcaps lag slightly.",
+  "label": "Steady IT-led gains",
+  "score": 0.35,
+  "summary": "The market is grinding higher into midday, with the Nifty up about 0.5% above 23,100, but smaller stocks are mixed and the gains remain concentrated in large-cap IT.",
   "detail": {
-   "leaders": "Nifty IT, Tech Mahindra, TCS, Wipro",
-   "laggards": "HDFC Life, Jio Financial",
-   "tone": "Slightly firmer than the last note: the Sensex gain widened to about 0.4% by 11:00, but the advance is still led by IT rather than broad-based.",
+   "leaders": "Tech Mahindra, Infosys, Wipro",
+   "laggards": "HDFC Life, Jio Financial, Persistent",
+   "tone": "A touch firmer than the last note: the Nifty's gain widened to about 0.54% by noon, though it is still led by large caps.",
    "watch": [
-    "Whether midcaps and smallcaps turn positive",
+    "Whether smaller stocks join the rally",
     "HDFC Bank's Q2 results on Saturday",
-    "Any spillover from the weak insurance stocks into other financials"
+    "Infosys's Q2 results on Oct 23"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex up 300 pts; Nifty tops 23,050; Nifty IT gains nearly 3%",
+    "title": "Business Standard: Stock Market LIVE — Tech Mahindra, Infosys lead 300-pt gain in Sensex; SMIDs trade mixed",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT stocks, led by Tech Mahindra, TCS and Wipro, are carrying the index higher",
-     "why": "September-quarter results from IT majors have brought buyers back to the sector after months of worry about AI hurting services demand.",
+     "summary": "Tech Mahindra, Infosys and Wipro are leading the Sensex's midday gain",
+     "why": "Strong September-quarter results from the large IT companies have brought buyers back to the sector, and they are doing most of the index's lifting.",
      "names": [
-      {
-       "name": "Nifty IT",
-       "dir": "up",
-       "move": "up nearly 3%",
-       "line": "Top-performing sector, extending this week's results-driven run"
-      },
       {
        "name": "Tech Mahindra",
        "dir": "up",
        "move": "up ~7%",
-       "line": "Q2 profit up 33%, deal wins up 25%, plus a 1:1 bonus; top Nifty IT gainer"
+       "line": "Q2 profit up 33%, deal wins up 25%, and a 1:1 bonus with an Oct 23 record date"
       },
       {
-       "name": "TCS",
+       "name": "Infosys",
        "dir": "up",
-       "line": "Among the top Nifty IT gainers; its Q2 results helped restart buying in IT"
+       "line": "Riding the sector rally and AI-demand commentary before its own Q2 results on Oct 23"
       },
       {
        "name": "Wipro",
        "dir": "up",
        "move": "up nearly 4%",
-       "line": "Q2 revenue beat estimates; Jefferies sees delayed large deals closing"
+       "line": "Q2 revenue and margins beat estimates; Jefferies sees delayed large deals closing"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex up 300 pts; Nifty tops 23,050; Nifty IT gains nearly 3%",
+      "title": "Business Standard: Stock Market LIVE — Tech Mahindra, Infosys lead 300-pt gain in Sensex; SMIDs trade mixed",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
      }
     },
     "down": {
-     "summary": "HDFC Life and Jio Financial are still the Nifty's biggest drags after Q2 misses",
-     "why": "Both missed September-quarter profit estimates, and they stay among the top Nifty50 losers even as the index climbs.",
+     "summary": "Q2 misses weigh on HDFC Life, Jio Financial and Persistent",
+     "why": "Each reported September-quarter profit below expectations or sharply lower year on year, and none is joining the IT rally.",
      "names": [
       {
        "name": "HDFC Life",
        "dir": "down",
-       "line": "Q2 standalone profit of ₹508 cr missed analyst estimates"
+       "line": "Q2 standalone profit of ₹508 cr missed analyst estimates; a top Nifty loser"
       },
       {
        "name": "Jio Financial",
        "dir": "down",
-       "line": "Q2 profit fell 51% to ₹340 cr, below the ~₹470 cr estimate"
+       "line": "Q2 profit fell 51% to ₹340 cr on higher costs and no dividend income"
+      },
+      {
+       "name": "Persistent",
+       "dir": "down",
+       "move": "down ~4%",
+       "line": "Q2 profit fell 25% YoY to ₹351.5 cr on acquisition costs, despite 30% revenue growth"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex up 300 pts; Nifty tops 23,050; Nifty IT gains nearly 3%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
+      "title": "Zee Business: Persistent Systems shares plunge 4% after Q2 results",
+      "url": "https://www.zeebiz.com/market-news/news-persistent-systems-shares-plunge-4-after-q2-results-buy-or-sell-brokerages-weigh-in-404047"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "persistent-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Persistent profit falls 25% despite growth",
+   "line": "Acquisition costs squeezed Q2 profit to ₹351.5 cr even as revenue rose 30%",
+   "more": [
+    "Revenue ₹4,663.9 cr; USD revenue up 20% to $487.6m",
+    "EBIT margin 15.0%; profit down ~27% QoQ",
+    "Deal wins: TCV $633.5m, ACV $481m"
+   ],
+   "src": {
+    "title": "Upstox: Persistent Systems Q2 — profit declines 27% QoQ as margins shrink; TCV at $633m",
+    "url": "https://upstox.com/news/market-news/earnings/persistent-systems-q2-results-profit-declines-27-qo-q-to-352-crore-as-margins-shrink-tcv-at-633-million/article-201927/"
+   },
+   "date": "2026-10-16",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "angel-one-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Angel One Q2 profit up 45% QoQ",
+   "line": "Profit jumped to ₹334.9 cr on flat revenue; the board declared a ₹1.40 interim dividend",
+   "more": [
+    "Net profit up 44.7% QoQ to ₹334.9 cr",
+    "Revenue roughly flat at ₹1,426.9 cr",
+    "Interim dividend of ₹1.40 per share"
+   ],
+   "src": {
+    "title": "Business Standard: Stocks to watch — Jio Fin, Yes Bank, Wipro, L&T Fin, Angel One, Urban Co",
+    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-jio-fin-yes-bank-wipro-l-t-fin-angel-one-urban-co-126101600086_1.html"
+   },
+   "date": "2026-10-16",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "mankind-cell-therapy",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Mankind buys into cancer cell therapy",
+   "line": "It will buy 70% of Belgium's Armed Cell Therapeutics for ₹511.18 cr",
+   "more": [
+    "70% stake in Armed Cell Therapeutics for ₹511.18 cr",
+    "Marks entry into next-generation cancer cell therapies",
+    "Could widen its specialty healthcare portfolio"
+   ],
+   "src": {
+    "title": "Business Standard: Stocks to watch — Jio Fin, Yes Bank, Wipro, L&T Fin, Angel One, Urban Co",
+    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-jio-fin-yes-bank-wipro-l-t-fin-angel-one-urban-co-126101600086_1.html"
+   },
+   "date": "2026-10-16",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "1200"
+   }
+  },
   {
    "key": "sebi-cas",
    "tag": "Regulation",
@@ -106,7 +181,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1130"
@@ -131,7 +206,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1400"
@@ -156,7 +231,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1130"
