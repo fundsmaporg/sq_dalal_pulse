@@ -1,83 +1,77 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-16T15:33:55+05:30",
+ "generated_at": "2026-10-16T16:03:24+05:30",
  "date": "2026-10-16",
- "slot": "1530",
- "slot_label": "15:30",
- "stage": "Closing mood",
- "asof": "2026-10-16T15:30:00+05:30",
+ "slot": "post",
+ "slot_label": "Close",
+ "stage": "Post-market mood",
+ "asof": "2026-10-16T16:00:00+05:30",
  "nifty": {
-  "value": 23119.0,
-  "pct": 0.53,
-  "chg": 121.65,
-  "approx": true
+  "value": 23146.15,
+  "pct": 0.65,
+  "chg": 148.8,
+  "approx": false
  },
  "mood": {
-  "label": "IT-led close",
-  "score": 0.35,
-  "summary": "The market ended Friday's session firm, holding about half a percent of gains after recovering from an early dip, though the advance was narrow and led by large-cap IT.",
+  "label": "Strong IT close",
+  "score": 0.45,
+  "summary": "The Nifty closed 0.65% higher at 23,146, capping its best week in 27 weeks, but midcaps and smallcaps ended flat to lower, so the gains were narrow and large-cap led.",
   "detail": {
    "leaders": "Nifty IT, Tech Mahindra, TCS, Infosys",
-   "laggards": "Yes Bank, HDFC Life, Jio Financial, Persistent",
-   "tone": "Gains were steady into the close: the Nifty was up 0.46% at 3 PM and 0.53% in the closing auction, versus about 0.58% at the last note.",
+   "laggards": "HDFC Life, Jio Financial, Nifty Midcap 100",
+   "tone": "Firmer than the 15:30 auction read: the Nifty settled at 23,146, its second straight gain, after recovering from an early drop below 23,000.",
    "watch": [
     "HDFC Bank and Yes Bank Q2 results on Saturday",
-    "Jio Platforms IPO opening Oct 21",
-    "Today's provisional FII/DII flows"
+    "Whether foreign selling eases after 15 straight sessions",
+    "Jio IPO subscription from Oct 21"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex gains 359 points, Nifty at 23,119 in closing auction session",
+    "title": "Business Standard: Stock Market Close — Sensex gains for 2nd day, rises 414 pts, Nifty at 23,146; IT index zooms 4%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT carried the day, with Tech Mahindra, TCS and Infosys the standout gainers",
-     "why": "Strong Q2 numbers pulled money back into IT after months of AI-related worry, and the sector did most of the index's lifting.",
+     "summary": "IT drove the close: the sector index rose 3.92%, led by Tech Mahindra's ~8% jump",
+     "why": "A run of strong Q2 results has pulled money back into IT after months of worry about AI hurting services demand.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "move": "up over 3% intraday",
-       "line": "The top sector all day; all six major IT names have gained over five sessions"
+       "move": "+3.92%",
+       "line": "Closed at 31,924.10; up around 10% this week, the main engine of the Nifty's gain"
       },
       {
        "name": "Tech Mahindra",
        "dir": "up",
-       "move": "up ~7.75%",
-       "line": "Q2 profit up 32.7%, deal wins up 25%, plus a 1:1 bonus and ₹15 dividend"
+       "move": "+7.96%",
+       "line": "Closed at ₹1,780 after Q2 profit rose 32.7% and a 1:1 bonus was announced"
       },
       {
        "name": "TCS",
        "dir": "up",
-       "move": "up ~4%",
-       "line": "Its Q2 results helped restart buying across IT this week"
+       "move": "+4.82%",
+       "line": "Closed at ₹2,468; its Q2 results helped restart buying across IT"
       },
       {
        "name": "Infosys",
        "dir": "up",
-       "move": "up ~3.8%",
-       "line": "Sector rally and AI-demand optimism before its Q2 results on Oct 23"
+       "move": "+4.61%",
+       "line": "Closed at ₹1,162.20, rallying with the sector before its Oct 23 results"
       }
      ],
      "src": {
-      "title": "Zee Business: Why are Sensex, Nifty rising today? IT stocks, FII positions among 4 key factors",
-      "url": "https://www.zeebiz.com/market-news/news-why-are-sensex-nifty-rising-today-it-stocks-fii-positions-among-4-key-factors-404071"
+      "title": "Newsdrum (PTI): Tech Mahindra-led IT rally propels Sensex 414 points higher, Nifty posts 27-week best",
+      "url": "https://www.newsdrum.in/business/tech-mahindra-led-it-rally-propels-sensex-414-points-higher-nifty-posts-27-week-best-12682090"
      }
     },
     "down": {
-     "summary": "Yes Bank's AT1 fallout and Q2 misses kept these four names lower",
-     "why": "Yes Bank faces a capital hit from the AT1 ruling, while the other three reported disappointing September-quarter profits.",
+     "summary": "Q2 misses weighed on HDFC Life and Jio Financial; midcaps lagged the large caps",
+     "why": "Two financials were sold after weak September-quarter numbers, and buying stayed concentrated in large-cap IT rather than the broader market.",
      "names": [
-      {
-       "name": "Yes Bank",
-       "dir": "down",
-       "move": "down as much as 3.85%",
-       "line": "Brokerages flag a capital hit from the AT1 verdict; results are due Saturday"
-      },
       {
        "name": "HDFC Life",
        "dir": "down",
-       "line": "Q2 profit of ₹508 cr missed estimates; among the top Nifty losers"
+       "line": "Q2 profit of ₹508 cr missed estimates; among the Nifty's top losers today"
       },
       {
        "name": "Jio Financial",
@@ -85,21 +79,96 @@
        "line": "Q2 profit fell 51% to ₹340 cr on higher costs and no dividend income"
       },
       {
-       "name": "Persistent",
+       "name": "Nifty Midcap 100",
        "dir": "down",
-       "move": "down ~4%",
-       "line": "Q2 profit fell 25% to ₹351.5 cr on acquisition costs, despite 30% revenue growth"
+       "move": "-0.11%",
+       "line": "Ended slightly lower as buying stuck to large-cap IT; smallcaps were flat (-0.01%)"
       }
      ],
      "src": {
-      "title": "Telangana Today: Brokerages flag capital risks for Yes Bank after SC order; stock falls nearly 4%",
-      "url": "https://telanganatoday.com/brokerages-flag-capital-risks-for-yes-bank-after-sc-order-stock-falls-nearly-4-pc"
+      "title": "Business Standard: Stock Market Close — Sensex gains for 2nd day, rises 414 pts, Nifty at 23,146; IT index zooms 4%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "it-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT index up ~10% this week",
+   "line": "Nifty IT rose 3.92% on Friday as Q2 results from TechM, TCS and HCLTech revived buying",
+   "more": [
+    "Nifty IT closed at 31,924.10, up 3.92% today",
+    "Tech Mahindra +7.96%, TCS +4.82%, Infosys +4.61%",
+    "Metal, media and auto stocks also saw buying"
+   ],
+   "src": {
+    "title": "Newsdrum (PTI): Tech Mahindra-led IT rally propels Sensex 414 points higher, Nifty posts 27-week best",
+    "url": "https://www.newsdrum.in/business/tech-mahindra-led-it-rally-propels-sensex-414-points-higher-nifty-posts-27-week-best-12682090"
+   },
+   "date": "2026-10-16",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "FIIs sold for 15 straight sessions",
+   "line": "FII cash selling over the streak totals about ₹84,138 cr; they are net short futures",
+   "more": [
+    "Oct 15: FII -₹5,285 cr, DII +₹3,319 cr",
+    "FIIs net short ~2.8 lakh index-futures contracts",
+    "Today's provisional data was not yet published at writing"
+   ],
+   "src": {
+    "title": "Quantsapp: FII DII data",
+    "url": "https://www.quantsapp.com/fii-dii"
+   },
+   "date": "2026-10-16",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "monday-setup",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Weekend results set up Monday's open",
+   "line": "HDFC Bank and Yes Bank report Saturday; Jio's IPO opens Tuesday, Oct 21",
+   "more": [
+    "HDFC Bank earnings call 4 pm IST Saturday; profit seen roughly flat",
+    "Yes Bank results follow the AT1 ruling; Citi sees ~250 bp CET1 hit",
+    "Jio IPO: ₹1,065–1,119 band, Oct 21–23"
+   ],
+   "src": {
+    "title": "Zee Business: HDFC Bank Q2 results date and earnings call",
+    "url": "https://www.zeebiz.com/markets/stocks/news-hdfc-bank-q2-results-date-private-lender-to-host-earnings-call-on-this-day-403854"
+   },
+   "date": "2026-10-16",
+   "slot": "post",
+   "when": "Close",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "post"
+   }
+  },
   {
    "key": "weekend-results",
    "tag": "Results",
@@ -119,7 +188,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1530"
@@ -144,7 +213,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1530"
@@ -169,7 +238,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1530"
@@ -198,56 +267,6 @@
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "it-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT stocks up as much as 21% in five days",
-   "line": "IT market value has risen ₹2.7 lakh cr since Oct 12 as Q2 results eased AI fears",
-   "more": [
-    "All six major IT stocks gained across Oct 12–16",
-    "Combined market cap up about ₹2.7 lakh crore",
-    "Q2 results from HCLTech and TCS set off the run"
-   ],
-   "src": {
-    "title": "Zee Business: IT stocks rally up to 21% in 5 days; mcap swells by ₹2.7 lakh crore",
-    "url": "https://zeebiz.com/market-news/news-it-stocks-rally-up-to-21-in-5-days-tcs-infosys-other-firms-mcap-swells-by-rs-27-lakh-crore-what-s-behind-rally-404067"
-   },
-   "date": "2026-10-16",
-   "slot": "1500",
-   "when": "15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "FIIs net sellers of ~₹50,000 cr in October",
-   "line": "Foreign selling of ₹49,935 cr this month is being fully absorbed by domestic institutions",
-   "more": [
-    "Oct 15: FII -₹5,285 cr, DII +₹3,319 cr",
-    "October to date: FII -₹49,935 cr, DII +₹51,829 cr",
-    "Today's provisional data is due after the close"
-   ],
-   "src": {
-    "title": "Quantsapp: FII DII data today",
-    "url": "https://www.quantsapp.com/fii-dii"
-   },
-   "date": "2026-10-16",
-   "slot": "1500",
-   "when": "15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "pre"
    }
   },
   {
