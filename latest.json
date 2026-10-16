@@ -1,66 +1,71 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-16T11:03:27+05:30",
+ "generated_at": "2026-10-16T11:33:31+05:30",
  "date": "2026-10-16",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-16T11:00:00+05:30",
+ "asof": "2026-10-16T11:30:00+05:30",
  "nifty": {
-  "value": 23067,
-  "pct": 0.3,
-  "chg": 70,
-  "approx": true
+  "value": 23104.05,
+  "pct": 0.46,
+  "chg": 106.7,
+  "approx": false
  },
  "mood": {
-  "label": "Narrow gains hold",
-  "score": 0.2,
-  "summary": "The Nifty is holding modest gains just above 23,000 on IT buying, while energy and FMCG see selling, so the advance is narrow rather than broad-based.",
+  "label": "IT keeps lifting",
+  "score": 0.3,
+  "summary": "Gains are edging higher, with the Nifty above 23,100, but the lift is still concentrated in IT while midcaps and smallcaps lag slightly.",
   "detail": {
-   "leaders": "Nifty IT, Tech Mahindra, Wipro",
+   "leaders": "Nifty IT, Tech Mahindra, TCS, Wipro",
    "laggards": "HDFC Life, Jio Financial",
-   "tone": "Little changed from 10:30: the index is holding a gain of about 0.3% instead of extending it, with IT alone doing the lifting.",
+   "tone": "Slightly firmer than the last note: the Sensex gain widened to about 0.4% by 11:00, but the advance is still led by IT rather than broad-based.",
    "watch": [
-    "Whether buying spreads beyond IT",
-    "Crude staying above $100 a barrel",
-    "HDFC Bank's Q2 results, due this weekend"
+    "Whether midcaps and smallcaps turn positive",
+    "HDFC Bank's Q2 results on Saturday",
+    "Any spillover from the weak insurance stocks into other financials"
    ],
    "src": {
-    "title": "Equitymaster: Sensex Today Trades Higher; Nifty Above 23,000; IT Stocks Shine",
-    "url": "https://www.equitymaster.com/indian-share-markets/10/16/2026/Sensex-Today-Trades-Higher--Nifty-Above-23000--IT-Stocks-Shine"
+    "title": "Business Standard: Stock Market LIVE — Sensex up 300 pts; Nifty tops 23,050; Nifty IT gains nearly 3%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT stocks are doing the lifting, with Tech Mahindra and Wipro both up after results",
-     "why": "Results from Tech Mahindra and Wipro beat on revenue or deals, extending a results-led run in IT shares that is supporting the index.",
+     "summary": "IT stocks, led by Tech Mahindra, TCS and Wipro, are carrying the index higher",
+     "why": "September-quarter results from IT majors have brought buyers back to the sector after months of worry about AI hurting services demand.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
        "move": "up nearly 3%",
-       "line": "The top sector on the Nifty this morning, carrying most of the index gain"
+       "line": "Top-performing sector, extending this week's results-driven run"
       },
       {
        "name": "Tech Mahindra",
        "dir": "up",
        "move": "up ~7%",
-       "line": "Hit ₹1,764.30 after a 33% profit rise and a 1:1 bonus"
+       "line": "Q2 profit up 33%, deal wins up 25%, plus a 1:1 bonus; top Nifty IT gainer"
+      },
+      {
+       "name": "TCS",
+       "dir": "up",
+       "line": "Among the top Nifty IT gainers; its Q2 results helped restart buying in IT"
       },
       {
        "name": "Wipro",
        "dir": "up",
        "move": "up nearly 4%",
-       "line": "Revenue and margins beat; Jefferies sees two delayed large deals closing this quarter"
+       "line": "Q2 revenue beat estimates; Jefferies sees delayed large deals closing"
       }
      ],
      "src": {
-      "title": "Equitymaster: Sensex Today Trades Higher; Nifty Above 23,000; IT Stocks Shine",
-      "url": "https://www.equitymaster.com/indian-share-markets/10/16/2026/Sensex-Today-Trades-Higher--Nifty-Above-23000--IT-Stocks-Shine"
+      "title": "Business Standard: Stock Market LIVE — Sensex up 300 pts; Nifty tops 23,050; Nifty IT gains nearly 3%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
      }
     },
     "down": {
-     "summary": "HDFC Life and Jio Financial remain among the Nifty's top losers after Q2 misses",
-     "why": "Both missed September-quarter profit estimates, and they remain among the top Nifty losers even with the index in the green.",
+     "summary": "HDFC Life and Jio Financial are still the Nifty's biggest drags after Q2 misses",
+     "why": "Both missed September-quarter profit estimates, and they stay among the top Nifty50 losers even as the index climbs.",
      "names": [
       {
        "name": "HDFC Life",
@@ -70,11 +75,11 @@
       {
        "name": "Jio Financial",
        "dir": "down",
-       "line": "Q2 profit fell 51% to ₹340 cr, with no dividend income this quarter"
+       "line": "Q2 profit fell 51% to ₹340 cr, below the ~₹470 cr estimate"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Nifty tops 23,050; Nifty IT gains nearly 3%",
+      "title": "Business Standard: Stock Market LIVE — Sensex up 300 pts; Nifty tops 23,050; Nifty IT gains nearly 3%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
      }
     }
@@ -82,6 +87,81 @@
   }
  },
  "insights": [
+  {
+   "key": "sebi-cas",
+   "tag": "Regulation",
+   "impact": "watch",
+   "title": "SEBI revises closing auction and F&O rules",
+   "line": "SEBI changed closing-auction timings and derivative settlement prices, in two phases",
+   "more": [
+    "Review covers the closing auction session (CAS) and its timings",
+    "Also changes how settlement prices of derivative contracts are set",
+    "The changes will be rolled out in two phases"
+   ],
+   "src": {
+    "title": "Zee Business: SEBI revises CAS framework — new timings and F&O settlement method",
+    "url": "https://www.zeebiz.com/market-news/news-sebi-revises-cas-framework-new-market-timings-and-fo-settlement-method-explained-for-traders-and-investors-404038"
+   },
+   "date": "2026-10-16",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "hdfc-bank-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "HDFC Bank reports Q2 on Saturday",
+   "line": "Results and a 4 pm earnings call on Oct 17; margins and credit costs are in focus",
+   "more": [
+    "Q2 FY27 earnings call at 4 pm IST on Saturday, Oct 17",
+    "Previous quarter's NIM was 3.26%, per SAHI",
+    "CEO Sashidhar Jagdishan retires Oct 26; succession has been fast-tracked"
+   ],
+   "src": {
+    "title": "Zee Business: HDFC Bank Q2 results date and earnings call",
+    "url": "https://www.zeebiz.com/markets/stocks/news-hdfc-bank-q2-results-date-private-lender-to-host-earnings-call-on-this-day-403854"
+   },
+   "date": "2026-10-16",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "sebi-reforms",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "SEBI outlines listing, bond and AI plans",
+   "line": "SEBI's chairman set out reform plans; most are work in progress, not final rules",
+   "more": [
+    "Plans cover listings, the bond market and use of AI",
+    "Chairman Tuhin Kanta Pandey put market cap at ₹472 lakh crore",
+    "Mostly disclosures of work in progress"
+   ],
+   "src": {
+    "title": "5paisa: SEBI outlines capital market reforms with listing, bond and AI plans",
+    "url": "https://www.5paisa.com/blog/sebi-capital-market-reforms-listing-bonds-ai"
+   },
+   "date": "2026-10-16",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "1130"
+   }
+  },
   {
    "key": "wipro-q2",
    "tag": "Results",
@@ -101,7 +181,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1400"
@@ -126,7 +206,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "1100"
@@ -151,7 +231,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "pre"
@@ -280,30 +360,6 @@
    "first_seen": {
     "date": "2026-10-16",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "hdfc-bank-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "HDFC Bank Q2 due this weekend",
-   "line": "Deposits rose 18.8% YoY to about ₹33.3 lakh cr; CEO Jagdishan retires Oct 26",
-   "more": [
-    "Gross advances up about 16.3% YoY per provisional update",
-    "Bank has reportedly sent two CEO candidate names to the RBI"
-   ],
-   "src": {
-    "title": "PSU Connect: HDFC Bank Q2 FY27 — advances cross ₹33 lakh cr, deposits +18.8%",
-    "url": "https://www.psuconnect.in/financial/hdfc-bank-q2-fy27-period-end-advances-cross-33-lakh-crore"
-   },
-   "date": "2026-10-16",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-14",
-    "slot": "1400"
    }
   },
   {
