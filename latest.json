@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-16T14:02:29+05:30",
+ "generated_at": "2026-10-16T14:32:54+05:30",
  "date": "2026-10-16",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-16T14:00:00+05:30",
+ "asof": "2026-10-16T14:30:00+05:30",
  "nifty": {
   "value": 23126.8,
   "pct": 0.56,
   "chg": 129.45,
-  "approx": false
+  "approx": true
  },
  "mood": {
-  "label": "Steady IT-led gains",
-  "score": 0.35,
-  "summary": "The Nifty is holding a steady gain of just over 0.5% into the last 90 minutes, with IT doing the work while midcaps and smallcaps edge lower.",
+  "label": "Gains holding",
+  "score": 0.3,
+  "summary": "The market is holding its gain of about 0.5% into the final hour, still resting on large-cap IT while broader stocks drift slightly lower.",
   "detail": {
    "leaders": "Tech Mahindra, Wipro, Infosys, TCS",
-   "laggards": "HDFC Life, Jio Financial, Persistent",
-   "tone": "Little changed from 13:30: the Nifty's gain is stuck around 0.55%, with no extension and no fade so far.",
+   "laggards": "Yes Bank, HDFC Life, Jio Financial, Persistent",
+   "tone": "Unchanged from 14:00: the IT-led gain is holding at about 0.5% with no fresh push either way.",
    "watch": [
-    "Profit-taking in IT into the Friday close",
-    "Whether the Nifty holds above 23,100",
-    "HDFC Bank's Q2 results on Saturday"
+    "Profit-taking in IT into the weekend close",
+    "HDFC Bank and Yes Bank results on Saturday",
+    "Whether the Nifty closes above 23,100"
    ],
    "src": {
     "title": "Business Standard: Stock Market LIVE — Sensex gains 300 pts, Nifty tops 23,100; Nifty IT rises over 3%",
@@ -31,8 +31,8 @@
    },
    "movers": {
     "up": {
-     "summary": "Four IT majors are carrying the index after a strong run of Q2 results",
-     "why": "Better-than-feared September-quarter numbers have revived buying in IT, and the sector's weight is enough to lift the benchmarks.",
+     "summary": "IT majors are still carrying the index into the final hour",
+     "why": "Better-than-feared Q2 results across IT have revived buying, and the sector's weight is keeping the benchmarks green.",
      "names": [
       {
        "name": "Tech Mahindra",
@@ -60,18 +60,24 @@
       }
      ],
      "src": {
-      "title": "Upstox: Sensex gains over 340 pts, Nifty above 23,100 in noon session; TechM, Wipro, IndiGo among buzzing stocks",
+      "title": "Upstox: Sensex gains over 340 pts, Nifty above 23,100 in noon session; TechM, Wipro among buzzing stocks",
       "url": "https://upstox.com/news/market-news/stocks/sensex-gains-over-340-pts-nifty-trades-above-23-100-in-noon-session-tech-m-wipro-indi-go-among-buzzing-stocks/article-201990/"
      }
     },
     "down": {
-     "summary": "HDFC Life, Jio Financial and Persistent stay lower after Q2 disappointments",
-     "why": "Each posted quarterly profit below expectations or sharply lower year on year, and none is joining the rally.",
+     "summary": "Yes Bank's AT1 fallout and Q2 misses keep these four names lower",
+     "why": "Yes Bank faces a capital hit from the AT1 ruling, while the other three reported disappointing September-quarter profits.",
      "names": [
+      {
+       "name": "Yes Bank",
+       "dir": "down",
+       "move": "down as much as 3.85%",
+       "line": "Fell to ₹17.45 as brokerages flag capital risk from the AT1 verdict"
+      },
       {
        "name": "HDFC Life",
        "dir": "down",
-       "line": "Q2 profit of ₹508 cr missed estimates; a top Nifty loser at 2 PM"
+       "line": "Q2 profit of ₹508 cr missed estimates; a top Nifty loser"
       },
       {
        "name": "Jio Financial",
@@ -86,14 +92,89 @@
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex gains 300 pts, Nifty tops 23,100; Nifty IT rises over 3%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
+      "title": "Telangana Today: Brokerages flag capital risks for Yes Bank after SC order; stock falls nearly 4%",
+      "url": "https://telanganatoday.com/brokerages-flag-capital-risks-for-yes-bank-after-sc-order-stock-falls-nearly-4-pc"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "yes-bank-at1",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Brokerages flag Yes Bank capital risk",
+   "line": "Citi sees a 250 bp hit to CET1 from the AT1 ruling; results are due Saturday",
+   "more": [
+    "Citi: CET1 could fall to 11.5%; book value down 13–14%",
+    "Morgan Stanley keeps underweight with a ₹17 target",
+    "Board meets Oct 17 to consider results"
+   ],
+   "src": {
+    "title": "Telangana Today: Brokerages flag capital risks for Yes Bank after SC order; stock falls nearly 4%",
+    "url": "https://telanganatoday.com/brokerages-flag-capital-risks-for-yes-bank-after-sc-order-stock-falls-nearly-4-pc"
+   },
+   "date": "2026-10-16",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "hdfc-bank-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "HDFC Bank Q2 profit seen flat",
+   "line": "Analysts expect flat profit and margins despite strong loan growth; results Saturday",
+   "more": [
+    "Single-digit growth expected in profit and NII",
+    "Options price in a ~±3.3% move by Oct 27",
+    "Shares edged up about 0.5% to ₹729 ahead of results"
+   ],
+   "src": {
+    "title": "Upstox: HDFC Bank Q2 — net profit likely flat despite strong loan growth",
+    "url": "https://upstox.com/news/market-news/earnings/hdfc-bank-q2-results-net-profit-likely-to-remain-flat-despite-strong-loan-growth-key-focus-on-nim-and-leadership-transition/article-201980/"
+   },
+   "date": "2026-10-16",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee near 94.8, up 1.8% this week",
+   "line": "It firmed 20 paise early on a softer dollar and RBI action; Jio IPO flows are expected",
+   "more": [
+    "Opened at 94.72 vs Thursday's 95.05 close",
+    "Dealers see Jio IPO inflows pushing it toward 94–94.50",
+    "It was near a record low last week"
+   ],
+   "src": {
+    "title": "Business Standard: Rupee rises 20 paise to 94.79 against US dollar in early trade",
+    "url": "https://www.business-standard.com/finance/news/rupee-rises-20-paise-to-94-79-against-us-dollar-during-early-trade-126101600248_1.html"
+   },
+   "date": "2026-10-16",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "1100"
+   }
+  },
   {
    "key": "wipro-q2",
    "tag": "Results",
@@ -113,7 +194,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1400"
@@ -138,7 +219,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "pre"
@@ -163,7 +244,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1400"
@@ -470,31 +551,6 @@
    }
   },
   {
-   "key": "hdfc-bank-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "HDFC Bank reports Q2 on Saturday",
-   "line": "Results and a 4 pm earnings call on Oct 17; margins and credit costs are in focus",
-   "more": [
-    "Q2 FY27 earnings call at 4 pm IST on Saturday, Oct 17",
-    "Previous quarter's NIM was 3.26%, per SAHI",
-    "CEO Sashidhar Jagdishan retires Oct 26; succession has been fast-tracked"
-   ],
-   "src": {
-    "title": "Zee Business: HDFC Bank Q2 results date and earnings call",
-    "url": "https://www.zeebiz.com/markets/stocks/news-hdfc-bank-q2-results-date-private-lender-to-host-earnings-call-on-this-day-403854"
-   },
-   "date": "2026-10-16",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-14",
-    "slot": "1400"
-   }
-  },
-  {
    "key": "sebi-reforms",
    "tag": "Policy",
    "impact": "watch",
@@ -517,31 +573,6 @@
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee firms further at the open",
-   "line": "USD/INR opened at 94.95 vs Thursday's 95.06 close as crude and the dollar soften",
-   "more": [
-    "Thursday was the fifth straight session of rupee gains",
-    "The dollar index eased from an 18-month high as US yields fell",
-    "Importer dollar demand and the trade deficit are capping gains"
-   ],
-   "src": {
-    "title": "Business Standard: Rupee extends rally for fifth session as crude, dollar soften",
-    "url": "https://www.business-standard.com/amp/economy/news/rupee-extends-rally-for-fifth-consecutive-session-as-crude-dollar-soften-126101501313_1.html"
-   },
-   "date": "2026-10-16",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1100"
    }
   },
   {
@@ -643,31 +674,6 @@
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "yes-bank-at1",
-   "tag": "Regulation",
-   "impact": "neg",
-   "title": "YES Bank slides again after SC AT1 verdict",
-   "line": "Supreme Court upheld quashing of the ₹8,415 cr AT1 write-off; stock down ~3% early",
-   "more": [
-    "Shares closed 14.52% lower at ₹18.12 on Thursday after the ruling",
-    "The bank may have to pay bondholders ₹8,415 cr plus interest",
-    "Market value fell by about ₹9,605 cr on Thursday"
-   ],
-   "src": {
-    "title": "HDFC Sky: Yes Bank shares tank 14% after SC verdict",
-    "url": "https://hdfcsky.com/news/yes-bank-shares-tumble-14-5-pc-market-valuation-falls-rs-9605-cr"
-   },
-   "date": "2026-10-16",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "0930"
    }
   },
   {
