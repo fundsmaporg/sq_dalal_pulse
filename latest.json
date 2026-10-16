@@ -1,73 +1,74 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-16T10:02:53+05:30",
+ "generated_at": "2026-10-16T10:34:35+05:30",
  "date": "2026-10-16",
- "slot": "1000",
- "slot_label": "10:00",
- "stage": "Opening mood",
- "asof": "2026-10-16T10:00:00+05:30",
+ "slot": "1030",
+ "slot_label": "10:30",
+ "stage": "Mid-market mood",
+ "asof": "2026-10-16T10:30:00+05:30",
  "nifty": {
-  "value": 22940,
-  "pct": -0.25,
-  "chg": -57,
-  "approx": true
+  "value": 23079.8,
+  "pct": 0.36,
+  "chg": 82.45,
+  "approx": false
  },
  "mood": {
-  "label": "Mild pullback",
-  "score": -0.1,
-  "summary": "The market is in a mild pullback after Thursday's surge, with the Sensex down about 0.25% and the Nifty just under 23,000, as results-day losers offset a sharp jump in Tech Mahindra.",
+  "label": "IT-led rebound",
+  "score": 0.25,
+  "summary": "The early dip has reversed into modest gains, with the Nifty back above 23,050 on IT buying, though midcaps and smallcaps are slightly red, so the advance is narrow.",
   "detail": {
-   "leaders": "Tech Mahindra, TCS",
-   "laggards": "HDFC Life, Jio Financial Services",
-   "tone": "A touch weaker than the 9:30 note: the Sensex was down 187 points (0.25%) at 74,127, with midcaps and smallcaps also slightly lower.",
+   "leaders": "Nifty IT, Tech Mahindra",
+   "laggards": "HDFC Life, Jio Financial",
+   "tone": "A turn from the 10:00 note: the Sensex is up about 0.3% after trading lower earlier, as IT buying outweighed the results-day losers.",
    "watch": [
-    "Whether Tech Mahindra's rally pulls IT higher",
-    "Insurance and NBFC stocks after weak results",
-    "Nifty's 23,000 level"
+    "Whether IT keeps the Nifty above 23,050 into midday",
+    "Whether the broader market joins the gains",
+    "HDFC Bank's Q2 results, due this weekend"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts; Nifty below 23,000; YES Bank falls 3%",
+    "title": "Business Standard: Stock Market LIVE — Sensex up; Nifty tops 23,050; Nifty IT gains nearly 3%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Tech Mahindra leads the Sensex after a Q2 beat and its first bonus issue since 2015",
-     "why": "Tech Mahindra's post-results jump is the main support, with select IT names also higher.",
+     "summary": "IT stocks are carrying the market, with Tech Mahindra the standout after its results",
+     "why": "Buyers are returning to IT after strong September-quarter numbers from Tech Mahindra, TCS and HCLTech eased worries about AI hitting services demand.",
      "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "move": "up nearly 3%",
+       "line": "The sector index is leading the Nifty, extending this week's results-driven run"
+      },
       {
        "name": "Tech Mahindra",
        "dir": "up",
-       "move": "up to +5.38%",
-       "line": "Hit ₹1,738.90 after Q2 profit rose 33% and the board approved a 1:1 bonus"
-      },
-      {
-       "name": "TCS",
-       "dir": "up",
-       "line": "Among Sensex gainers alongside Infosys, Airtel and M&M"
+       "move": "up to +5.44%",
+       "line": "Q2 profit rose 33% to ₹1,586 cr, deal wins grew 25%, and a 1:1 bonus is due"
       }
      ],
      "src": {
-      "title": "Upstox: Tech Mahindra shares jump over 6%, up 21% in 5 sessions",
-      "url": "https://upstox.com/news/market-news/stocks/tech-mahindra-shares-zoom-20-in-5-sessions-q2-beat-lifts-earnings-outlook-but-is-the-rally-ahead-of-fundamentals/article-201963/"
+      "title": "Business Standard: Q2 impact — TechM shares gain 5% as analysts raise estimates",
+      "url": "https://business-standard.com/amp/markets/news/q2-impact-techm-shares-gain-5-as-analysts-raise-earnings-estimate-target-126101600185_1.html"
      }
     },
     "down": {
-     "summary": "HDFC Life and Jio Financial lead Nifty losers after their Q2 numbers",
-     "why": "Results disappointments: Jio Financial's profit halved and HDFC Life's profit missed estimates.",
+     "summary": "Results misses keep HDFC Life and Jio Financial among the top Nifty losers",
+     "why": "Both reported September-quarter profits below analyst estimates, and they remain among the Nifty's biggest losers even as the index has turned higher.",
      "names": [
       {
        "name": "HDFC Life",
        "dir": "down",
-       "line": "Top Nifty loser; Q2 profit of ₹508 cr missed the ~₹630 cr Street estimate"
+       "line": "Q2 standalone profit of ₹508 cr missed analyst estimates"
       },
       {
-       "name": "Jio Financial Services",
+       "name": "Jio Financial",
        "dir": "down",
-       "line": "Q2 profit fell 51% to ₹340 cr on higher expenses and no dividend income"
+       "line": "Q2 profit fell 51% to ₹340 cr, below the ~₹470 cr estimate, on higher costs"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts; Nifty below 23,000; YES Bank falls 3%",
+      "title": "Business Standard: Stock Market LIVE — Sensex up; Nifty tops 23,050; Nifty IT gains nearly 3%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
      }
     }
@@ -76,23 +77,75 @@
  },
  "insights": [
   {
+   "key": "techm-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "TechM deal wins up 25%; analysts raise estimates",
+   "line": "New deal wins of $1,023m back the rally; record date for the 1:1 bonus is Oct 23",
+   "more": [
+    "Q2 net profit up 33% YoY to ₹1,586 cr",
+    "New deal wins of $1,023m, up 25.4%",
+    "Antique raised FY28/29 EPS 2–3%, but its ₹1,575 target is below the share price",
+    "₹15 interim dividend; bonus record date Oct 23"
+   ],
+   "src": {
+    "title": "Business Standard: Q2 impact — TechM shares gain 5% as analysts raise estimates",
+    "url": "https://business-standard.com/amp/markets/news/q2-impact-techm-shares-gain-5-as-analysts-raise-earnings-estimate-target-126101600185_1.html"
+   },
+   "date": "2026-10-16",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "wipro-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Wipro guides Q3 IT revenue at $2.57–2.63bn",
+   "line": "Revenue rose 9.1% to ₹24,750 cr even as profit slipped; the outlook is cautious",
+   "more": [
+    "Q3 IT services revenue guided at $2,571–2,625m",
+    "Q2 revenue ₹24,750 cr ($2,583m), up 9.1% YoY",
+    "IT services margin 16.5%"
+   ],
+   "src": {
+    "title": "BusinessToday: Wipro Q2 profit slips slightly YoY to Rs 3,201 crore; revenue climbs 9%",
+    "url": "https://www.businesstoday.in/markets/stocks/story/wipro-q2-profit-slips-slightly-yoy-to-rs-3201-crore-revenue-climbs-9-561842-2026-10-15"
+   },
+   "date": "2026-10-16",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1400"
+   }
+  },
+  {
    "key": "jio-fin-q2",
    "tag": "Results",
    "impact": "neg",
-   "title": "Jio Financial Q2 profit halves to ₹340 cr",
-   "line": "Total income rose 70% to ₹1,699 cr, but expenses jumped and dividend income dried up",
+   "title": "Jio Fin: lending grows, dividend income gone",
+   "line": "The 51% profit drop reflects higher expenses and no dividend income this quarter",
    "more": [
-    "Profit down from ₹695 cr a year ago",
-    "H1 profit still up at ₹1,171 cr"
+    "Lending NII rose 116% to ₹302 cr; lending PAT up 140% to ₹120 cr",
+    "No dividend income vs ₹269 cr a year earlier",
+    "Total income rose to about ₹1,699 cr from ₹1,002 cr"
    ],
    "src": {
-    "title": "Upstox: Jio Financial Services Q2 FY27 net profit declines 51%",
-    "url": "https://upstox.com/news/market-news/earnings/jio-financial-services-q2-fy-27-net-profit-declines-51-as-total-expenses-jump-to-1-166-crore-yo-y/article-201938/"
+    "title": "Inc42: Jio Financial Services Q2 profit halves YoY to ₹340 Cr",
+    "url": "https://inc42.com/buzz/jio-financial-services-q2-profit-halves-yoy-to-%E2%82%B9340-cr/"
    },
    "date": "2026-10-16",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": false,
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-16",
@@ -118,33 +171,9 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "wipro-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Wipro's Q2 in line; brokers split",
-   "line": "Profit down 1.41% to ₹3,200.6 cr; operating margin up 50 bp QoQ to 16.5%",
-   "more": [
-    "Nomura keeps Buy with ₹200 target; Citi keeps Sell with ₹145",
-    "Stock settled at ₹173.70 on Thursday before results"
-   ],
-   "src": {
-    "title": "Business Today: Wipro Q2 profit slips slightly to ₹3,201 cr; revenue +9%",
-    "url": "https://www.businesstoday.in/markets/stocks/story/wipro-q2-profit-slips-slightly-yoy-to-rs-3201-crore-revenue-climbs-9-561842-2026-10-15"
-   },
-   "date": "2026-10-16",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-14",
     "slot": "1400"
    }
   },
@@ -219,30 +248,6 @@
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "techm-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "TechM Q2 profit +33%, 1:1 bonus, ₹15 dividend",
-   "line": "Revenue rose 15.6% to ₹16,180 cr; EBIT margin 14.8%; deal wins $1.02 bn",
-   "more": [
-    "Net profit ₹1,586 cr, though one outlet says below ₹1,677 cr estimate",
-    "Bonus subject to shareholder approval; record date not yet set"
-   ],
-   "src": {
-    "title": "Kotak Neo: Tech Mahindra Q2 FY27 — revenue +15.6%, EBIT margin 14.8%",
-    "url": "https://www.kotakneo.com/news/stocks/tech-mahindra-share-price-in-focus-as-company-announces-q2-fy27-results/"
-   },
-   "date": "2026-10-16",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1130"
    }
   },
   {
