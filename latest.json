@@ -1,78 +1,77 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-16T13:33:22+05:30",
+ "generated_at": "2026-10-16T14:02:29+05:30",
  "date": "2026-10-16",
- "slot": "1330",
- "slot_label": "13:30",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-16T13:30:00+05:30",
+ "asof": "2026-10-16T14:00:00+05:30",
  "nifty": {
-  "value": 23121,
-  "pct": 0.54,
-  "chg": 124,
-  "approx": true
+  "value": 23126.8,
+  "pct": 0.56,
+  "chg": 129.45,
+  "approx": false
  },
  "mood": {
-  "label": "Heavyweights carry",
+  "label": "Steady IT-led gains",
   "score": 0.35,
-  "summary": "The Nifty is holding above 23,100 into the afternoon on IT and telecom buying, though decliners have outnumbered advancers, so the gains rest on a few heavyweights.",
+  "summary": "The Nifty is holding a steady gain of just over 0.5% into the last 90 minutes, with IT doing the work while midcaps and smallcaps edge lower.",
   "detail": {
-   "leaders": "Tech Mahindra, Infosys, TCS, Bharti Airtel",
+   "leaders": "Tech Mahindra, Wipro, Infosys, TCS",
    "laggards": "HDFC Life, Jio Financial, Persistent",
-   "tone": "Steady versus 13:00: the IT-led gains are holding, and the Sensex has recovered more than 700 points from its early low, but breadth remains weak.",
+   "tone": "Little changed from 13:30: the Nifty's gain is stuck around 0.55%, with no extension and no fade so far.",
    "watch": [
-    "Whether the Nifty can clear 23,150 resistance",
-    "Profit-taking in IT into the weekend",
+    "Profit-taking in IT into the Friday close",
+    "Whether the Nifty holds above 23,100",
     "HDFC Bank's Q2 results on Saturday"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Tech Mahindra, Infosys lead gain in Sensex; SMIDs trade mixed",
+    "title": "Business Standard: Stock Market LIVE — Sensex gains 300 pts, Nifty tops 23,100; Nifty IT rises over 3%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT majors and Bharti Airtel are the Sensex's biggest contributors today",
-     "why": "Strong Q2 results across IT have revived buying in the sector, and Airtel is gaining on its recent tariff increase ahead of Jio's IPO.",
+     "summary": "Four IT majors are carrying the index after a strong run of Q2 results",
+     "why": "Better-than-feared September-quarter numbers have revived buying in IT, and the sector's weight is enough to lift the benchmarks.",
      "names": [
       {
        "name": "Tech Mahindra",
        "dir": "up",
-       "move": "+7.24%",
-       "line": "Q2 profit up ~34%, deal wins up 25%, and a 1:1 bonus; the top Sensex gainer"
+       "move": "up as much as 8.9%",
+       "line": "Q2 profit up 32.7% to ₹1,585.6 cr, plus a 1:1 bonus and ₹15 dividend"
+      },
+      {
+       "name": "Wipro",
+       "dir": "up",
+       "move": "up as much as 6.5%",
+       "line": "Citi says Q2 earnings were slightly better than expected"
       },
       {
        "name": "Infosys",
        "dir": "up",
-       "move": "+4.87%",
-       "line": "Sector rally and AI-demand optimism before its own Q2 results on Oct 23"
+       "move": "up over 4%",
+       "line": "Sector rally and AI-demand optimism before its Q2 results on Oct 23"
       },
       {
        "name": "TCS",
        "dir": "up",
-       "move": "+3.58%",
+       "move": "up 3.5%",
        "line": "Its Q2 results helped restart buying across IT this week"
-      },
-      {
-       "name": "Bharti Airtel",
-       "dir": "up",
-       "move": "up ~3%",
-       "line": "Up ~6% in two days after a ₹50 postpaid tariff hike, ahead of Jio's IPO"
       }
      ],
      "src": {
-      "title": "WorldNews24x7: Sensex rebounds over 700 points from day's low; Nifty above 23,100 as IT stocks rally",
-      "url": "https://www.worldnews24x7.tv/sensex-rebounds-over-700-points-from-days-low-nifty-climbs-above-23100-as-it-stocks-rally/"
+      "title": "Upstox: Sensex gains over 340 pts, Nifty above 23,100 in noon session; TechM, Wipro, IndiGo among buzzing stocks",
+      "url": "https://upstox.com/news/market-news/stocks/sensex-gains-over-340-pts-nifty-trades-above-23-100-in-noon-session-tech-m-wipro-indi-go-among-buzzing-stocks/article-201990/"
      }
     },
     "down": {
-     "summary": "Q2 misses keep HDFC Life, Jio Financial and Persistent among the day's losers",
-     "why": "Each reported quarterly profit below expectations or sharply lower year on year, so none is joining the large-cap rally.",
+     "summary": "HDFC Life, Jio Financial and Persistent stay lower after Q2 disappointments",
+     "why": "Each posted quarterly profit below expectations or sharply lower year on year, and none is joining the rally.",
      "names": [
       {
        "name": "HDFC Life",
        "dir": "down",
-       "move": "down 3.3%",
-       "line": "Hit a day's low of ₹532.60 after Q2 profit of ₹508 cr missed estimates"
+       "line": "Q2 profit of ₹508 cr missed estimates; a top Nifty loser at 2 PM"
       },
       {
        "name": "Jio Financial",
@@ -87,14 +86,89 @@
       }
      ],
      "src": {
-      "title": "Zee Business: Persistent Systems shares plunge 4% after Q2 results",
-      "url": "https://www.zeebiz.com/market-news/news-persistent-systems-shares-plunge-4-after-q2-results-buy-or-sell-brokerages-weigh-in-404047"
+      "title": "Business Standard: Stock Market LIVE — Sensex gains 300 pts, Nifty tops 23,100; Nifty IT rises over 3%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "wipro-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Citi: Wipro Q2 slightly ahead of expectations",
+   "line": "The shares rose as much as 6.5% even though profit fell 4.5% quarter on quarter",
+   "more": [
+    "Profit ₹3,200.6 cr, down 4.5% QoQ",
+    "Citi says earnings were slightly better than expected",
+    "The BSE IT index is up about 2.5%"
+   ],
+   "src": {
+    "title": "Upstox: Sensex gains over 340 pts, Nifty above 23,100 in noon session; TechM, Wipro, IndiGo among buzzing stocks",
+    "url": "https://upstox.com/news/market-news/stocks/sensex-gains-over-340-pts-nifty-trades-above-23-100-in-noon-session-tech-m-wipro-indi-go-among-buzzing-stocks/article-201990/"
+   },
+   "date": "2026-10-16",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "wall-street",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Wall Street rebounded from steep early losses",
+   "line": "The Dow rose 1.08% Thursday as Treasury yields fell and AI-debt worries eased",
+   "more": [
+    "Dow +556 pts to 52,177.69; S&P 500 +0.33% to 7,744.06",
+    "Chip stocks lagged: Broadcom -4.35%, Micron -4.79%",
+    "Falling Treasury yields helped the turnaround"
+   ],
+   "src": {
+    "title": "HDFC Sky: US stock market close — Dow, S&P 500 and Nasdaq",
+    "url": "https://hdfcsky.com/news/us-stock-market-close-dow-sp500-nasdaq-october-16-2026"
+   },
+   "date": "2026-10-16",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "asia-rebound",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Asian markets rebound after the tech selloff",
+   "line": "KOSPI rose nearly 3% and the Nikkei about 1.9% as chip stocks recovered",
+   "more": [
+    "KOSDAQ +3.18%, ending a seven-day losing streak",
+    "Samsung Electronics and SK Hynix recovered",
+    "Nikkei 225 up ~1.9% at about 65,655"
+   ],
+   "src": {
+    "title": "Sunday Guardian: KOSPI rebounds nearly 3%, KOSDAQ jumps 3.18% after seven-day losing streak",
+    "url": "https://sundayguardianlive.com/business/korea-stock-market-krx-today-october-16-why-is-the-korean-stock-market-up-today-kospi-rebounds-nearly-3-kosdaq-jumps-318-after-seven-day-losing-streak-top-gainers-losers-306647/"
+   },
+   "date": "2026-10-16",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "1400"
+   }
+  },
   {
    "key": "jio-ipo",
    "tag": "Listing",
@@ -114,7 +188,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "pre"
@@ -139,7 +213,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1330"
@@ -164,7 +238,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1100"
@@ -218,31 +292,6 @@
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1300"
-   }
-  },
-  {
-   "key": "wall-street",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "US futures flat; S&P heads for a weekly loss",
-   "line": "S&P 500 futures were near flat as Wall Street worries about US economic vulnerability",
-   "more": [
-    "S&P 500 futures -0.04%, Nasdaq-100 -0.2% late Thursday",
-    "The S&P 500 is on track for a losing week",
-    "Concern is growing that the US economy is more fragile than it looks"
-   ],
-   "src": {
-    "title": "CNBC: S&P 500 futures little changed as index heads for losing week",
-    "url": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html"
-   },
-   "date": "2026-10-16",
-   "slot": "1300",
-   "when": "13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "pre"
    }
   },
   {
@@ -468,31 +517,6 @@
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "wipro-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Wipro beats; buys 20% stake in FLARRE.AI",
-   "line": "Jefferies: revenue, margins beat; two delayed large deals seen closing this quarter",
-   "more": [
-    "Revenue slightly above estimates; deal bookings fell sharply YoY",
-    "20% stake in FLARRE.AI via Wipro IT Services LLC, to complete by Oct 31",
-    "Stock still down almost 32% this year despite four days of gains"
-   ],
-   "src": {
-    "title": "NewsBytes: Wipro stock jumps nearly 4% after Q2 revenue",
-    "url": "https://www.newsbytesapp.com/news/business/wipro-stock-jumps-nearly-4-after-q2-rs24753-cr-revenue/tldr"
-   },
-   "date": "2026-10-16",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-14",
-    "slot": "1400"
    }
   },
   {
