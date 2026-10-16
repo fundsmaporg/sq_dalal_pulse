@@ -1,70 +1,70 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-16T12:03:03+05:30",
+ "generated_at": "2026-10-16T12:33:11+05:30",
  "date": "2026-10-16",
- "slot": "1200",
- "slot_label": "12:00",
+ "slot": "1230",
+ "slot_label": "12:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-16T12:00:00+05:30",
+ "asof": "2026-10-16T12:30:00+05:30",
  "nifty": {
   "value": 23120.65,
   "pct": 0.54,
   "chg": 123.3,
-  "approx": false
+  "approx": true
  },
  "mood": {
-  "label": "Steady IT-led gains",
-  "score": 0.35,
-  "summary": "The market is grinding higher into midday, with the Nifty up about 0.5% above 23,100, but smaller stocks are mixed and the gains remain concentrated in large-cap IT.",
+  "label": "Gains holding",
+  "score": 0.3,
+  "summary": "The Nifty is holding about half a percent of gains around 23,100 into the afternoon, with midcaps slightly lower and smallcaps slightly higher, so breadth is still mixed.",
   "detail": {
-   "leaders": "Tech Mahindra, Infosys, Wipro",
+   "leaders": "Nifty IT, Tech Mahindra, Infosys",
    "laggards": "HDFC Life, Jio Financial, Persistent",
-   "tone": "A touch firmer than the last note: the Nifty's gain widened to about 0.54% by noon, though it is still led by large caps.",
+   "tone": "Roughly unchanged from noon, when the Nifty was up 0.54%; a later live-blog headline cites a Sensex gain of about 200 points, suggesting a slight trim.",
    "watch": [
-    "Whether smaller stocks join the rally",
-    "HDFC Bank's Q2 results on Saturday",
-    "Infosys's Q2 results on Oct 23"
+    "Whether the Nifty holds 23,000, the key support analysts cite",
+    "Resistance around 23,100–23,150",
+    "HDFC Bank's Q2 results on Saturday"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Tech Mahindra, Infosys lead 300-pt gain in Sensex; SMIDs trade mixed",
+    "title": "Business Standard: Stock Market LIVE — Tech Mahindra, Infosys lead gain in Sensex; SMIDs trade mixed",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Tech Mahindra, Infosys and Wipro are leading the Sensex's midday gain",
-     "why": "Strong September-quarter results from the large IT companies have brought buyers back to the sector, and they are doing most of the index's lifting.",
+     "summary": "IT is still doing the lifting, led by Tech Mahindra and Infosys",
+     "why": "Strong Q2 numbers from the large IT companies are keeping buyers in the sector, which remains the day's best-performing group.",
      "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "move": "up nearly 3%",
+       "line": "Top sector again, building on Thursday's 5.22% jump, its best since May 2025"
+      },
       {
        "name": "Tech Mahindra",
        "dir": "up",
        "move": "up ~7%",
-       "line": "Q2 profit up 33%, deal wins up 25%, and a 1:1 bonus with an Oct 23 record date"
+       "line": "Q2 profit up 33%, deal wins up 25%, and a 1:1 bonus; the top Nifty IT gainer"
       },
       {
        "name": "Infosys",
        "dir": "up",
-       "line": "Riding the sector rally and AI-demand commentary before its own Q2 results on Oct 23"
-      },
-      {
-       "name": "Wipro",
-       "dir": "up",
-       "move": "up nearly 4%",
-       "line": "Q2 revenue and margins beat estimates; Jefferies sees delayed large deals closing"
+       "line": "Riding the sector rally and AI-demand commentary before its Q2 results on Oct 23"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Tech Mahindra, Infosys lead 300-pt gain in Sensex; SMIDs trade mixed",
+      "title": "Business Standard: Stock Market LIVE — Tech Mahindra, Infosys lead gain in Sensex; SMIDs trade mixed",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
      }
     },
     "down": {
-     "summary": "Q2 misses weigh on HDFC Life, Jio Financial and Persistent",
-     "why": "Each reported September-quarter profit below expectations or sharply lower year on year, and none is joining the IT rally.",
+     "summary": "Q2 disappointments keep HDFC Life, Jio Financial and Persistent lower",
+     "why": "Each reported profit below estimates or sharply lower year on year, so they are not joining the IT-led gains.",
      "names": [
       {
        "name": "HDFC Life",
        "dir": "down",
-       "line": "Q2 standalone profit of ₹508 cr missed analyst estimates; a top Nifty loser"
+       "line": "Q2 standalone profit of ₹508 cr missed estimates; a top Nifty loser"
       },
       {
        "name": "Jio Financial",
@@ -75,7 +75,7 @@
        "name": "Persistent",
        "dir": "down",
        "move": "down ~4%",
-       "line": "Q2 profit fell 25% YoY to ₹351.5 cr on acquisition costs, despite 30% revenue growth"
+       "line": "Q2 profit fell 25% to ₹351.5 cr on acquisition costs, despite 30% revenue growth"
       }
      ],
      "src": {
@@ -87,6 +87,81 @@
   }
  },
  "insights": [
+  {
+   "key": "iifl-fin-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "IIFL Finance Q2 profit nearly doubles",
+   "line": "Profit beat estimates as AUM grew 38% to ₹1.24 lakh cr; asset quality improved",
+   "more": [
+    "Consolidated profit ~₹766 cr vs ₹735 cr estimate; pre-NCI PAT ₹805 cr",
+    "AUM up 38% YoY to ₹1,24,268 cr",
+    "Gross NPA 1.48% vs 1.55% QoQ; tax demands of ₹1,438.95 cr pending"
+   ],
+   "src": {
+    "title": "Free Press Journal: IIFL Finance Q2FY27 net profit climbs 93% to ₹805 crore",
+    "url": "https://www.freepressjournal.in/business/iifl-finance-q2fy27-net-profit-climbs-93-to-805-crore-aum-crosses-124-lakh-crore"
+   },
+   "date": "2026-10-16",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "lt-fin-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "L&T Finance profit up 33% to ₹975 cr",
+   "line": "Net interest income rose 32.6% and the retail book grew 29%, with asset quality improving",
+   "more": [
+    "Consolidated PAT ₹975 cr vs ₹735 cr a year ago",
+    "NII up 32.6% to ₹3,187 cr; GNPA 2.8% vs 2.9% QoQ",
+    "Rural disbursements slowed on monsoon uncertainty"
+   ],
+   "src": {
+    "title": "Free Press Journal: L&T Finance reports 33% profit jump to ₹975 crore in Q2 FY27",
+    "url": "https://www.freepressjournal.in/business/lt-finance-reports-33-profit-jump-to-975-crore-in-q2-fy27-retail-book-grows-29-to-134600-crore"
+   },
+   "date": "2026-10-16",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "rally-drivers",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "Thursday's rally was narrow and short-covering led",
+   "line": "Decliners outnumbered advancers nearly 2:1 even as the Nifty had its best day in 4 months",
+   "more": [
+    "NSE decliners 1,755 vs 898 advancers on Thursday",
+    "Analysts tied much of the gain to short-covering",
+    "They see the 50-DMA near 23,500 as the next test"
+   ],
+   "src": {
+    "title": "Business Standard: Nifty sees best day in 4 months, rally remains confined to largecap stocks",
+    "url": "https://www.business-standard.com/markets/news/it-private-banks-lift-nifty-1-7-as-asian-ai-stocks-tumble-smallcaps-fall-126101501402_1.html"
+   },
+   "date": "2026-10-16",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1200"
+   }
+  },
   {
    "key": "persistent-q2",
    "tag": "Results",
@@ -106,7 +181,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1200"
@@ -131,7 +206,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1200"
@@ -156,7 +231,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1200"
@@ -700,31 +775,6 @@
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "rally-drivers",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Why markets are rallying today",
-   "line": "IT rebound, bargain buying near six-month lows, cheaper oil and a firmer rupee",
-   "more": [
-    "Oil fell more than $1 as Hormuz risk was weighed against US moves to ease shipping costs",
-    "Analysts point to value buying with indices near six-month lows",
-    "Rupee has appreciated sharply this week"
-   ],
-   "src": {
-    "title": "Business Standard: Bulls strike! Sensex zooms 1,100 pts intraday, Nifty at 22,950 — key reasons",
-    "url": "https://www.business-standard.com/markets/news/bulls-strike-sensex-zooms-1-100-pts-intraday-nifty-at-22-950-key-reasons-126101500351_1.html"
-   },
-   "date": "2026-10-15",
-   "slot": "1200",
-   "when": "Thu · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1200"
    }
   },
   {
