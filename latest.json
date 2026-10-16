@@ -1,75 +1,110 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-16T08:33:40+05:30",
+ "generated_at": "2026-10-16T09:33:54+05:30",
  "date": "2026-10-16",
- "slot": "pre",
- "slot_label": "Pre-open",
- "stage": "Pre-market mood",
- "asof": "2026-10-16T08:45:00+05:30",
+ "slot": "0930",
+ "slot_label": "9:30",
+ "stage": "Opening mood",
+ "asof": "2026-10-16T09:30:00+05:30",
  "nifty": {
-  "value": 22997.35,
-  "pct": 1.66,
-  "chg": 374.65,
-  "approx": false
+  "value": 22995,
+  "pct": -0.01,
+  "chg": -2,
+  "approx": true
  },
  "mood": {
-  "label": "Firm start seen",
-  "score": 0.4,
-  "summary": "A firm start is indicated, with GIFT Nifty about 75–95 points higher, as the market looks to build on Thursday's 1.7% jump that left the Nifty just below 23,000.",
+  "label": "Soft open",
+  "score": -0.05,
+  "summary": "The positive GIFT Nifty signal faded at the open: the Nifty slipped back just under 23,000 and the Sensex was down about 190 points as autos and financials weighed.",
   "detail": {
-   "leaders": "Tech Mahindra, Nifty IT",
-   "laggards": "Nestle India",
-   "tone": "Thursday's broad-cap rally (Sensex +2.11%) was narrow underneath, with smallcaps down 1.31%; overnight cues are supportive.",
+   "leaders": "Not yet reported in early trade",
+   "laggards": "Auto and financial stocks, YES Bank",
+   "tone": "Weaker than the pre-open signal: GIFT Nifty had pointed 75–95 points higher, but by 9:18 am the Sensex was down about 190 points at roughly 74,126.",
    "watch": [
-    "Whether the Nifty clears the 23,000–23,100 resistance zone",
-    "Reaction to Wipro's profit dip and TechM's bonus",
-    "FII selling, now 15 sessions long"
+    "Whether the Nifty can reclaim and hold 23,000",
+    "IT reaction to Wipro's profit dip and TechM's bonus",
+    "YES Bank and financials after the AT1 verdict"
    ],
    "src": {
-    "title": "DSIJ: Pre-market — GIFT Nifty gains 76 points",
-    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-nifty-50-sensex-likely-to-open-higher-as-gift-nifty-gains-76-points-60052"
-   },
-   "movers": {
-    "up": {
-     "summary": "Tech Mahindra topped Nifty gainers on Thursday as IT extended its run",
-     "why": "IT rose for a third session after HCLTech's Q2 beat, and Tech Mahindra has since delivered a 33% profit jump with a 1:1 bonus.",
-     "names": [
-      {
-       "name": "Tech Mahindra",
-       "dir": "up",
-       "line": "Top Nifty gainer Thursday; Q2 profit then rose 33% to ₹1,586 cr with a 1:1 bonus"
-      },
-      {
-       "name": "Nifty IT",
-       "dir": "up",
-       "line": "Up about 9% over three sessions on earnings resilience and value buying"
-      }
-     ],
-     "src": {
-      "title": "Angel One: Top gainers & losers Oct 15",
-      "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-october-15-2026-tech-mahindra-and-icici-bank-gain-while-nestle-drops-over-7"
-     }
-    },
-    "down": {
-     "summary": "Nestle India led Nifty losers after a cautious cost outlook",
-     "why": "Management's warning on food inflation and commodity costs outweighed a 36% profit jump.",
-     "names": [
-      {
-       "name": "Nestle India",
-       "dir": "down",
-       "move": "over -7%",
-       "line": "Fell despite Q2 profit up 36% as management flagged food and commodity cost pressure"
-      }
-     ],
-     "src": {
-      "title": "Whalesbook: Nestlé India falls 9% after results",
-      "url": "https://www.whalesbook.com/news/English/economy/Sensex-Nifty-Hit-23000-Nestle-India-Falls-9percent-After-Results/6ad08fb379a16deaeaf273ef"
-     }
-    }
+    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts; Nifty below 23,000; YES Bank falls 3%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "yes-bank-at1",
+   "tag": "Regulation",
+   "impact": "neg",
+   "title": "YES Bank slides again after SC AT1 verdict",
+   "line": "Supreme Court upheld quashing of the ₹8,415 cr AT1 write-off; stock down ~3% early",
+   "more": [
+    "Shares closed 14.52% lower at ₹18.12 on Thursday after the ruling",
+    "The bank may have to pay bondholders ₹8,415 cr plus interest",
+    "Market value fell by about ₹9,605 cr on Thursday"
+   ],
+   "src": {
+    "title": "HDFC Sky: Yes Bank shares tank 14% after SC verdict",
+    "url": "https://hdfcsky.com/news/yes-bank-shares-tumble-14-5-pc-market-valuation-falls-rs-9605-cr"
+   },
+   "date": "2026-10-16",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "auto-slump",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Autos drag; Maruti near 18-month low",
+   "line": "Maruti is down about 33% in 2026 on margin worries tied to rising commodity costs",
+   "more": [
+    "Hit an 18-month low of ₹11,126.05 earlier this week",
+    "Brokerages flag raw-material cost pressure on Maruti and Hyundai"
+   ],
+   "src": {
+    "title": "Business Standard: Maruti Suzuki tanks 33% in 2026; stock hits 18-month low",
+    "url": "https://www.business-standard.com/markets/news/maruti-suzuki-share-price-tanks-33-in-calendar-year-2026-stock-hits-18-month-low-126101300461_1.html"
+   },
+   "date": "2026-10-16",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "hdfc-bank-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "HDFC Bank Q2 due this weekend",
+   "line": "Deposits rose 18.8% YoY to about ₹33.3 lakh cr; CEO Jagdishan retires Oct 26",
+   "more": [
+    "Gross advances up about 16.3% YoY per provisional update",
+    "Bank has reportedly sent two CEO candidate names to the RBI"
+   ],
+   "src": {
+    "title": "PSU Connect: HDFC Bank Q2 FY27 — advances cross ₹33 lakh cr, deposits +18.8%",
+    "url": "https://www.psuconnect.in/financial/hdfc-bank-q2-fy27-period-end-advances-cross-33-lakh-crore"
+   },
+   "date": "2026-10-16",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1400"
+   }
+  },
   {
    "key": "techm-q2",
    "tag": "Results",
@@ -88,7 +123,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1130"
@@ -112,7 +147,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1400"
@@ -136,7 +171,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "pre"
@@ -160,7 +195,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-07",
     "slot": "pre"
@@ -184,7 +219,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1400"
@@ -527,30 +562,6 @@
    "first_seen": {
     "date": "2026-10-15",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "hdfc-bank-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "HDFC Bank Q2 on Saturday, Oct 17",
-   "line": "Board meets Saturday; CEO Sashidhar Jagdishan retires on Oct 26",
-   "more": [
-    "Results come on a non-trading day, so the reaction is due Monday",
-    "The CEO transition may draw attention alongside the numbers"
-   ],
-   "src": {
-    "title": "PSU Connect: HDFC Bank board meeting on 17 October for Q2",
-    "url": "https://www.psuconnect.in/bank-news/hdfc-bank-fixes-date-for-q2-results-board-meeting-on-17-october"
-   },
-   "date": "2026-10-14",
-   "slot": "1400",
-   "when": "Wed · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-14",
-    "slot": "1400"
    }
   },
   {
