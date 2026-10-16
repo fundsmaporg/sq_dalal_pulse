@@ -1,60 +1,66 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-16T10:34:35+05:30",
+ "generated_at": "2026-10-16T11:03:27+05:30",
  "date": "2026-10-16",
- "slot": "1030",
- "slot_label": "10:30",
+ "slot": "1100",
+ "slot_label": "11:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-16T10:30:00+05:30",
+ "asof": "2026-10-16T11:00:00+05:30",
  "nifty": {
-  "value": 23079.8,
-  "pct": 0.36,
-  "chg": 82.45,
-  "approx": false
+  "value": 23067,
+  "pct": 0.3,
+  "chg": 70,
+  "approx": true
  },
  "mood": {
-  "label": "IT-led rebound",
-  "score": 0.25,
-  "summary": "The early dip has reversed into modest gains, with the Nifty back above 23,050 on IT buying, though midcaps and smallcaps are slightly red, so the advance is narrow.",
+  "label": "Narrow gains hold",
+  "score": 0.2,
+  "summary": "The Nifty is holding modest gains just above 23,000 on IT buying, while energy and FMCG see selling, so the advance is narrow rather than broad-based.",
   "detail": {
-   "leaders": "Nifty IT, Tech Mahindra",
+   "leaders": "Nifty IT, Tech Mahindra, Wipro",
    "laggards": "HDFC Life, Jio Financial",
-   "tone": "A turn from the 10:00 note: the Sensex is up about 0.3% after trading lower earlier, as IT buying outweighed the results-day losers.",
+   "tone": "Little changed from 10:30: the index is holding a gain of about 0.3% instead of extending it, with IT alone doing the lifting.",
    "watch": [
-    "Whether IT keeps the Nifty above 23,050 into midday",
-    "Whether the broader market joins the gains",
+    "Whether buying spreads beyond IT",
+    "Crude staying above $100 a barrel",
     "HDFC Bank's Q2 results, due this weekend"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex up; Nifty tops 23,050; Nifty IT gains nearly 3%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
+    "title": "Equitymaster: Sensex Today Trades Higher; Nifty Above 23,000; IT Stocks Shine",
+    "url": "https://www.equitymaster.com/indian-share-markets/10/16/2026/Sensex-Today-Trades-Higher--Nifty-Above-23000--IT-Stocks-Shine"
    },
    "movers": {
     "up": {
-     "summary": "IT stocks are carrying the market, with Tech Mahindra the standout after its results",
-     "why": "Buyers are returning to IT after strong September-quarter numbers from Tech Mahindra, TCS and HCLTech eased worries about AI hitting services demand.",
+     "summary": "IT stocks are doing the lifting, with Tech Mahindra and Wipro both up after results",
+     "why": "Results from Tech Mahindra and Wipro beat on revenue or deals, extending a results-led run in IT shares that is supporting the index.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
        "move": "up nearly 3%",
-       "line": "The sector index is leading the Nifty, extending this week's results-driven run"
+       "line": "The top sector on the Nifty this morning, carrying most of the index gain"
       },
       {
        "name": "Tech Mahindra",
        "dir": "up",
-       "move": "up to +5.44%",
-       "line": "Q2 profit rose 33% to ₹1,586 cr, deal wins grew 25%, and a 1:1 bonus is due"
+       "move": "up ~7%",
+       "line": "Hit ₹1,764.30 after a 33% profit rise and a 1:1 bonus"
+      },
+      {
+       "name": "Wipro",
+       "dir": "up",
+       "move": "up nearly 4%",
+       "line": "Revenue and margins beat; Jefferies sees two delayed large deals closing this quarter"
       }
      ],
      "src": {
-      "title": "Business Standard: Q2 impact — TechM shares gain 5% as analysts raise estimates",
-      "url": "https://business-standard.com/amp/markets/news/q2-impact-techm-shares-gain-5-as-analysts-raise-earnings-estimate-target-126101600185_1.html"
+      "title": "Equitymaster: Sensex Today Trades Higher; Nifty Above 23,000; IT Stocks Shine",
+      "url": "https://www.equitymaster.com/indian-share-markets/10/16/2026/Sensex-Today-Trades-Higher--Nifty-Above-23000--IT-Stocks-Shine"
      }
     },
     "down": {
-     "summary": "Results misses keep HDFC Life and Jio Financial among the top Nifty losers",
-     "why": "Both reported September-quarter profits below analyst estimates, and they remain among the Nifty's biggest losers even as the index has turned higher.",
+     "summary": "HDFC Life and Jio Financial remain among the Nifty's top losers after Q2 misses",
+     "why": "Both missed September-quarter profit estimates, and they remain among the top Nifty losers even with the index in the green.",
      "names": [
       {
        "name": "HDFC Life",
@@ -64,11 +70,11 @@
       {
        "name": "Jio Financial",
        "dir": "down",
-       "line": "Q2 profit fell 51% to ₹340 cr, below the ~₹470 cr estimate, on higher costs"
+       "line": "Q2 profit fell 51% to ₹340 cr, with no dividend income this quarter"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex up; Nifty tops 23,050; Nifty IT gains nearly 3%",
+      "title": "Business Standard: Stock Market LIVE — Nifty tops 23,050; Nifty IT gains nearly 3%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
      }
     }
@@ -76,6 +82,81 @@
   }
  },
  "insights": [
+  {
+   "key": "wipro-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Wipro beats; buys 20% stake in FLARRE.AI",
+   "line": "Jefferies: revenue, margins beat; two delayed large deals seen closing this quarter",
+   "more": [
+    "Revenue slightly above estimates; deal bookings fell sharply YoY",
+    "20% stake in FLARRE.AI via Wipro IT Services LLC, to complete by Oct 31",
+    "Stock still down almost 32% this year despite four days of gains"
+   ],
+   "src": {
+    "title": "NewsBytes: Wipro stock jumps nearly 4% after Q2 revenue",
+    "url": "https://www.newsbytesapp.com/news/business/wipro-stock-jumps-nearly-4-after-q2-rs24753-cr-revenue/tldr"
+   },
+   "date": "2026-10-16",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee firms further at the open",
+   "line": "USD/INR opened at 94.95 vs Thursday's 95.06 close as crude and the dollar soften",
+   "more": [
+    "Thursday was the fifth straight session of rupee gains",
+    "The dollar index eased from an 18-month high as US yields fell",
+    "Importer dollar demand and the trade deficit are capping gains"
+   ],
+   "src": {
+    "title": "Business Standard: Rupee extends rally for fifth session as crude, dollar soften",
+    "url": "https://www.business-standard.com/amp/economy/news/rupee-extends-rally-for-fifth-consecutive-session-as-crude-dollar-soften-126101501313_1.html"
+   },
+   "date": "2026-10-16",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent stays above $105",
+   "line": "Oil eased slightly but stays high on geopolitical risk and US tanker-sanction doubts",
+   "more": [
+    "Brent at $105.16 at the open, down 0.72%",
+    "WTI at $97.15",
+    "Oil and gas was the weakest Nifty sector in early trade"
+   ],
+   "src": {
+    "title": "Kotak Neo: Pre-Market 16 October 2026 — GIFT Nifty hints at higher opening",
+    "url": "https://www.kotakneo.com/news/market-news/pre-market-16-october-2026-gift-nifty-hints-at-higher-opening/"
+   },
+   "date": "2026-10-16",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-07",
+    "slot": "pre"
+   }
+  },
   {
    "key": "techm-q2",
    "tag": "Results",
@@ -96,35 +177,10 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "wipro-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Wipro guides Q3 IT revenue at $2.57–2.63bn",
-   "line": "Revenue rose 9.1% to ₹24,750 cr even as profit slipped; the outlook is cautious",
-   "more": [
-    "Q3 IT services revenue guided at $2,571–2,625m",
-    "Q2 revenue ₹24,750 cr ($2,583m), up 9.1% YoY",
-    "IT services margin 16.5%"
-   ],
-   "src": {
-    "title": "BusinessToday: Wipro Q2 profit slips slightly YoY to Rs 3,201 crore; revenue climbs 9%",
-    "url": "https://www.businesstoday.in/markets/stocks/story/wipro-q2-profit-slips-slightly-yoy-to-rs-3201-crore-revenue-climbs-9-561842-2026-10-15"
-   },
-   "date": "2026-10-16",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-14",
-    "slot": "1400"
    }
   },
   {
@@ -146,7 +202,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1000"
@@ -291,30 +347,6 @@
    "date": "2026-10-16",
    "slot": "pre",
    "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Crude falls about 2%",
-   "line": "Lower oil eased inflation worries and helped fuel the rally",
-   "more": [
-    "Brent had been near $106 earlier in the week",
-    "Rupee also firmed to 94.86/$ in early trade"
-   ],
-   "src": {
-    "title": "Business Standard: Market close — Sensex surges 1,534 pts, Nifty at 22,997 as crude falls 2%; IT, auto shine",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
-   },
-   "date": "2026-10-15",
-   "slot": "post",
-   "when": "Thu · Close",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -489,30 +521,6 @@
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1330"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee gains 31 paise to 94.86/$",
-   "line": "RBI intervention and easing oil demand lifted the rupee in early trade",
-   "more": [
-    "Previous close was 95.17 per dollar",
-    "A firmer rupee is among the reasons cited for today's rally"
-   ],
-   "src": {
-    "title": "Deccan Herald: Rupee rises 31 paise to 94.86 against US dollar",
-    "url": "https://www.deccanherald.com/business/rupee-rises-31-paise-to-9486-against-us-dollar-in-early-trade-4183384"
-   },
-   "date": "2026-10-15",
-   "slot": "1330",
-   "when": "Thu · 13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1100"
    }
   },
   {
