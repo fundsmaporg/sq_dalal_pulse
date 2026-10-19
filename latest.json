@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-19T13:33:18+05:30",
+ "generated_at": "2026-10-19T14:04:21+05:30",
  "date": "2026-10-19",
- "slot": "1330",
- "slot_label": "13:30",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-19T13:30:00+05:30",
+ "asof": "2026-10-19T14:00:00+05:30",
  "nifty": {
-  "value": 22895,
-  "pct": -1.08,
-  "chg": -251,
+  "value": 22912.8,
+  "pct": -1.01,
+  "chg": -233.35,
   "approx": true
  },
  "mood": {
-  "label": "Pinned at lows",
-  "score": -0.6,
-  "summary": "The market is pinned near its day's low, with the Sensex down about 800 points and the Nifty below 22,900, as bank-led selling shows no sign of easing before the holiday.",
+  "label": "Stuck near lows",
+  "score": -0.55,
+  "summary": "The market is stuck near its day's low, down about 1%, with selling broad-based outside state-run banks ahead of Tuesday's holiday.",
   "detail": {
    "leaders": "Nifty PSU Bank, PNB, UltraTech Cement",
    "laggards": "HDFC Bank, ICICI Bank, Axis Bank, Nifty Smallcap 100",
-   "tone": "Slightly weaker than 13:00: the Sensex loss has edged to about 800 points, and the Nifty is now below 22,900.",
+   "tone": "Little changed from 13:30: indices are holding near the day's low with no recovery attempt yet.",
    "watch": [
-    "Any late recovery before Tuesday's holiday",
-    "UltraTech and Bajaj Finance results this evening",
-    "Brent near $108–110"
+    "Any short-covering before Tuesday's holiday",
+    "Bajaj Finance results and its 6 pm call",
+    "Brent near $108"
    ],
    "src": {
     "title": "Business Standard: Stock Market LIVE — Sensex at day's low, falls 800 pts, Nifty below 22,900; bank shares weigh",
@@ -31,13 +31,13 @@
    },
    "movers": {
     "up": {
-     "summary": "PSU banks and UltraTech are holding up in a falling market",
-     "why": "Strong Q2 numbers are supporting state-run lenders, and UltraTech is rising ahead of its own results.",
+     "summary": "PSU banks and UltraTech are holding gains in a weak market",
+     "why": "Strong Q2 numbers are supporting state-run lenders, and UltraTech has now reported a 21% profit rise.",
      "names": [
       {
        "name": "Nifty PSU Bank",
        "dir": "up",
-       "line": "Still the top sector, on better margins at state-run lenders"
+       "line": "The top sector, on better margins at state-run lenders"
       },
       {
        "name": "PNB",
@@ -49,7 +49,7 @@
        "name": "UltraTech Cement",
        "dir": "up",
        "move": "up ~2%",
-       "line": "At ₹11,132 ahead of its Q2 results, due today with a 4 pm call"
+       "line": "Q2 profit rose ~21% to about ₹1,500 cr as sales grew 19%"
       }
      ],
      "src": {
@@ -58,7 +58,7 @@
      }
     },
     "down": {
-     "summary": "Three private banks account for over half the Sensex fall; smallcaps slip",
+     "summary": "Three private banks drive most of the fall; smallcaps are also lower",
      "why": "HDFC Bank, ICICI Bank and Axis Bank are being sold after Q2, and the weakness has spread to smaller stocks.",
      "names": [
       {
@@ -74,7 +74,7 @@
       {
        "name": "Axis Bank",
        "dir": "down",
-       "line": "A mixed quarter that missed Q2 earnings estimates; NIM fell to 3.36%"
+       "line": "A mixed quarter that missed Q2 estimates; NIM fell to 3.36%"
       },
       {
        "name": "Nifty Smallcap 100",
@@ -92,6 +92,81 @@
   }
  },
  "insights": [
+  {
+   "key": "ultratech-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "UltraTech Q2 profit up 21%; volumes +14%",
+   "line": "PAT rose to about ₹1,500 cr as consolidated sales grew 18.9% to ₹23,024 cr",
+   "more": [
+    "PAT up 21.3% YoY to ~₹1,501 cr",
+    "Domestic grey cement volumes +13.8% to 35.94 mt",
+    "Sources differ slightly: revenue ₹23,024–23,295 cr"
+   ],
+   "src": {
+    "title": "Investywise: UltraTech Cement Q2 FY27 — net sales up 18.9% to ₹23,024 crore",
+    "url": "https://www.investywise.com/ultratech-cement-approves-q2-fy27-financial-results"
+   },
+   "date": "2026-10-19",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "bajaj-fin-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Bajaj Finance results due; AUM up 26.5%",
+   "line": "Its operating update showed AUM at ₹5.85 lakh cr; profit numbers and a 6 pm call follow",
+   "more": [
+    "AUM ~₹5,84,750 cr, up 26.5% YoY",
+    "Customer franchise 128.85 mn",
+    "Deposits book ~₹69,750 cr"
+   ],
+   "src": {
+    "title": "ScanX: Bajaj Finance Q2FY27 — AUM rises 26.5% YoY to ₹584,750 crore",
+    "url": "https://scanx.trade/stock-market-news/companies/bajaj-finance-q2fy27-results-aum-rises-26-5-yoy-584-750-crore/52551135"
+   },
+   "date": "2026-10-19",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "market-holiday",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "No trading Tuesday; Jio IPO opens Wednesday",
+   "line": "Markets shut on Oct 20 for Dussehra; positions carry over to Wednesday",
+   "more": [
+    "Trading resumes Wednesday, Oct 21",
+    "Jio Platforms IPO opens the same day",
+    "Today's results reactions will play out on Wednesday"
+   ],
+   "src": {
+    "title": "TradeBrains: Sensex & Nifty 50 live updates, 19 October",
+    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-19-october-gift-nifty-gains-63-points-to-23128-brent-crude-falls-175-stocks-remain-in-focus-12688278"
+   },
+   "date": "2026-10-19",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1130"
+   }
+  },
   {
    "key": "crude",
    "tag": "Global",
@@ -111,7 +186,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1130"
@@ -136,35 +211,10 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "ultratech-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "UltraTech rises 2% ahead of Q2 results",
-   "line": "The cement leader trades near ₹11,132 before results and a 4 pm earnings call",
-   "more": [
-    "Shares up about 2% on NSE",
-    "One of two key Nifty results today, with Bajaj Finance",
-    "Bajaj Finance's call is at 6 pm"
-   ],
-   "src": {
-    "title": "IndiaIPO: Q2 results live — HDFC, ICICI, Axis, Yes Bank react; UltraTech, Bajaj Fin report today",
-    "url": "https://www.indiaipo.in/news/detail/q2-results-live-updates-hdfc-icici-axis-yes-bank-react-to-earnings-ultratech-bajaj-fin-report-today"
-   },
-   "date": "2026-10-19",
-   "slot": "1330",
-   "when": "13:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1200"
    }
   },
   {
@@ -364,31 +414,6 @@
    "first_seen": {
     "date": "2026-10-15",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "market-holiday",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Markets shut Tuesday for Dussehra",
-   "line": "NSE and BSE are closed on Oct 20; trading resumes Wednesday, when Jio's IPO opens",
-   "more": [
-    "No trading on Tuesday, October 20",
-    "Jio Platforms IPO opens Wednesday, Oct 21",
-    "High crude and Q2 results remain the week's themes"
-   ],
-   "src": {
-    "title": "BusinessToday: Markets next week — Jio Platforms IPO, high crude oil prices and Q2 earnings in focus",
-    "url": "https://www.businesstoday.in/markets/stocks/story/markets-next-week-jio-platforms-ipo-high-crude-oil-prices-and-q2-earnings-in-focus-562260-2026-10-18"
-   },
-   "date": "2026-10-19",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1130"
    }
   },
   {
