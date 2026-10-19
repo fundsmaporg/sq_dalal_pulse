@@ -1,77 +1,83 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-19T10:34:08+05:30",
+ "generated_at": "2026-10-19T11:02:49+05:30",
  "date": "2026-10-19",
- "slot": "1030",
- "slot_label": "10:30",
+ "slot": "1100",
+ "slot_label": "11:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-19T10:30:00+05:30",
+ "asof": "2026-10-19T11:00:00+05:30",
  "nifty": {
-  "value": 23056.15,
-  "pct": -0.39,
-  "chg": -90,
+  "value": 23061.3,
+  "pct": -0.37,
+  "chg": -84.85,
   "approx": false
  },
  "mood": {
-  "label": "Private banks drag",
-  "score": -0.3,
-  "summary": "Selling has widened, with 12 of 15 NSE sector indices lower and the Nifty slipping toward 23,000, though PSU banks are bucking the trend while private lenders lead the fall.",
+  "label": "Banks split",
+  "score": -0.25,
+  "summary": "The Nifty is drifting about 0.4% lower near 23,060 in a split bank trade: state-run lenders rally on results while private banks and IT keep the benchmarks in the red.",
   "detail": {
-   "leaders": "ICICI Bank",
-   "laggards": "Axis Bank, HDFC Bank, Nifty Private Bank, Infosys",
-   "tone": "Weaker than the last note's flat read: by 10:00 the Sensex was down about 240 points as the dip broadened.",
+   "leaders": "Nifty PSU Bank, PNB, Canara Bank",
+   "laggards": "Axis Bank, HDFC Bank, Infosys",
+   "tone": "Slightly weaker than 10:30: the Sensex's loss widened to about 320 points by 11:00, while the Nifty held near 23,060.",
    "watch": [
     "Whether the Nifty holds 23,000",
-    "Brent crude near $108",
-    "UltraTech and Hindustan Zinc results later today"
+    "Union Bank, Bajaj Finance and Hindustan Zinc results today",
+    "Brent crude near $108"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex down 200 pts, Nifty around 23,000; Nifty PSU Bank rises 2%",
+    "title": "Business Standard: Stock Market LIVE — Sensex down 300 pts, Nifty around 23,050; Jindal Saw drops over 7%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
    },
    "movers": {
     "up": {
-     "summary": "ICICI Bank is the private lender holding up, after a Q2 beat",
-     "why": "Investors are separating the private banks by results quality, and ICICI's profit beat and stable asset quality are winning support.",
+     "summary": "State-run banks are rallying after strong Q2 numbers, led by PNB and Canara Bank",
+     "why": "PNB and Canara Bank beat estimates with better margins and cleaner books, lifting the whole PSU bank pack while private peers fall.",
      "names": [
       {
-       "name": "ICICI Bank",
+       "name": "Nifty PSU Bank",
        "dir": "up",
-       "move": "up ~1%",
-       "line": "Q2 profit up 20%; Nuvama, Citi and Jefferies keep Buy calls"
+       "move": "up ~2.6–3%",
+       "line": "The top sector; improving deposit quality is lifting margins across state-run lenders"
+      },
+      {
+       "name": "PNB",
+       "dir": "up",
+       "move": "up ~8%",
+       "line": "Q2 profit up 12.8% to ₹5,532 cr, ahead of estimates; gross NPA fell to 2.55%"
+      },
+      {
+       "name": "Canara Bank",
+       "dir": "up",
+       "move": "up 2–4%",
+       "line": "An all-round Q2 beat, with core operating profit up 13.3% on better NIM and fees"
       }
      ],
      "src": {
-      "title": "Business Standard: ICICI Bank gains 1% post Q2 results; analysts upbeat on asset quality",
-      "url": "https://business-standard.com/amp/markets/news/icici-bank-shares-gain-1-after-q2-results-brokerages-remain-bullish-126101900131_1.html"
+      "title": "Business Standard: Nifty PSU Bank index surges 3%; PNB, PSB, Canara, Union Bank soar up to 8%",
+      "url": "https://www.business-standard.com/amp/markets/news/nifty-psu-bank-index-surges-3-pnb-psb-canara-union-bank-soar-up-to-8-126101900159_1.html"
      }
     },
     "down": {
-     "summary": "Private banks lead the fall on weak margins, while IT sees profit-taking",
-     "why": "Margin squeezes at Axis Bank and HDFC Bank are dragging private lenders, and IT is giving back part of last week's rally.",
+     "summary": "Private banks are falling on weak margins, and IT faces profit-taking",
+     "why": "Margin squeezes at Axis Bank and HDFC Bank are weighing on private lenders, while IT gives back some of last week's gains.",
      "names": [
       {
        "name": "Axis Bank",
        "dir": "down",
        "move": "-4.5%",
-       "line": "At ₹1,231.50; profit fell 1.3% sequentially and NIM dropped to 3.36%"
+       "line": "Profit fell 1.3% sequentially and NIM dropped to 3.36% from 3.73%"
       },
       {
        "name": "HDFC Bank",
        "dir": "down",
        "move": "-1.54%",
-       "line": "At ₹717.60; margins shrank more than analysts expected in Q2"
-      },
-      {
-       "name": "Nifty Private Bank",
-       "dir": "down",
-       "move": "down ~2%",
-       "line": "The weakest sector, pulled down by Axis Bank's and HDFC Bank's post-results selling"
+       "line": "Margins shrank more than analysts expected despite 4.7% profit growth"
       },
       {
        "name": "Infosys",
        "dir": "down",
-       "line": "Among top Nifty losers as IT stocks see profit-taking after last week's run"
+       "line": "Among top Nifty losers as IT stocks see profit-taking after last week's rally"
       }
      ],
      "src": {
@@ -84,28 +90,103 @@
  },
  "insights": [
   {
+   "key": "pnb-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "PNB Q2 beats; shares jump ~8%",
+   "line": "Profit rose 12.8% to ₹5,532 cr on controlled provisions; gross NPA fell to 2.55%",
+   "more": [
+    "Global NIM 2.58% vs 2.50% in Q1",
+    "Net NPA 0.25% vs 0.36% a year ago",
+    "Motilal Oswal: Buy, target ₹140"
+   ],
+   "src": {
+    "title": "Free Press Journal: PNB's Q2 FY27 net profit climbs 12.8% to ₹5,532 crore, GNPA ratio improves",
+    "url": "https://www.freepressjournal.in/business/pnbs-q2-fy27-net-profit-climbs-128-to-5532-crore-gnpa-ratio-improves"
+   },
+   "date": "2026-10-19",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1100"
+   }
+  },
+  {
    "key": "psu-banks",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "PSU banks rise against the bank selloff",
-   "line": "Nifty PSU Bank is up about 2%, led by SBI, PNB and Canara Bank, as private lenders fall",
+   "title": "PSU banks rally as margins improve",
+   "line": "Nifty PSU Bank rose up to 3%; PNB, Punjab & Sind, Canara and Union Bank gained up to 8%",
    "more": [
-    "Nifty PSU Bank +1.93% to 8,250.90",
-    "SBI up about 2%",
-    "Nifty Private Bank down nearly 2%"
+    "Canara Bank: core PPoP up 13.3% on better NIM and fees",
+    "SBI, Bank of India and Indian Bank up 2–4%",
+    "Better deposit quality is cited as the driver of higher NIMs"
    ],
    "src": {
-    "title": "Upstox: SENSEX, NIFTY50 subdued; IT shares fall on profit booking, PSU banks rise",
-    "url": "https://upstox.com/news/market-news/stocks/sensex-nifty-50-subdued-it-shares-fall-on-profit-booking-psu-banks-rise/article-202053/"
+    "title": "Business Standard: Nifty PSU Bank index surges 3%; PNB, PSB, Canara, Union Bank soar up to 8%",
+    "url": "https://www.business-standard.com/amp/markets/news/nifty-psu-bank-index-surges-3-pnb-psb-canara-union-bank-soar-up-to-8-126101900159_1.html"
    },
    "date": "2026-10-19",
-   "slot": "1030",
-   "when": "10:30",
+   "slot": "1100",
+   "when": "11:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1030"
+   }
+  },
+  {
+   "key": "jindal-saw-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Jindal Saw slumps 7.6% on Q2 profit drop",
+   "line": "Net profit fell 69% to ₹47 cr; the stock hit ₹278.70 on NSE",
+   "more": [
+    "Profit down 69.1% YoY from ₹152 cr",
+    "Sequential profit down about 55%",
+    "Previous close ₹301.60"
+   ],
+   "src": {
+    "title": "Punjab Kesari: Jindal Saw clocks 69% drop in Q2 net profit to ₹47 crore",
+    "url": "https://english.punjabkesari.com/business/jindal-saw-q2-net-profit-plunges-69-pc-to-rs-47-crore"
+   },
+   "date": "2026-10-19",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Bajaj Finance, Union Bank report today",
+   "line": "UltraTech, Hindustan Zinc, IREDA and L&T Technology are also due",
+   "more": [
+    "Bajaj Finance shares were little changed ahead of results",
+    "Bajaj Finance earnings call at 6 pm IST",
+    "35 companies report today"
+   ],
+   "src": {
+    "title": "Upstox: Q2 results live — Bajaj Finance, Union Bank, UltraTech, Hindustan Zinc, IREDA, L&T Tech on Oct 19",
+    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-bajaj-finance-union-bank-ultra-tech-cement-hindustan-zinc-ireda-l-and-t-tech-others-to-declare-earnings-on-oct-19/liveblog-202055/"
+   },
+   "date": "2026-10-19",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1130"
    }
   },
   {
@@ -127,7 +208,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "0930"
@@ -152,7 +233,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "pre"
@@ -230,31 +311,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "UltraTech, Hindustan Zinc and 33 more report",
-   "line": "A heavy results day; Bajaj Finance's earnings call is due this evening",
-   "more": [
-    "UltraTech Cement and Hindustan Zinc report today",
-    "35 companies are scheduled in total",
-    "Bajaj Finance earnings call at 6 pm IST"
-   ],
-   "src": {
-    "title": "Business Standard: Q2 results today — UltraTech Cement, Hindustan Zinc and 33 more on Oct 19",
-    "url": "https://business-standard.com/companies/quarterly-results/q2-results-today-ultratech-cement-hindustan-zinc-and-33-more-on-oct-19-126101900127_1.html"
-   },
-   "date": "2026-10-19",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
     "slot": "1130"
    }
   },
