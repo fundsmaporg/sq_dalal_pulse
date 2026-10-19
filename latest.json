@@ -1,38 +1,38 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-19T15:35:01+05:30",
+ "generated_at": "2026-10-19T16:03:58+05:30",
  "date": "2026-10-19",
- "slot": "1530",
- "slot_label": "15:30",
- "stage": "Closing mood",
- "asof": "2026-10-19T15:30:00+05:30",
+ "slot": "post",
+ "slot_label": "Close",
+ "stage": "Post-market mood",
+ "asof": "2026-10-19T16:00:00+05:30",
  "nifty": {
-  "value": 22889,
+  "value": 22888.95,
   "pct": -1.11,
-  "chg": -257,
-  "approx": true
+  "chg": -257.2,
+  "approx": false
  },
  "mood": {
-  "label": "Weak close",
+  "label": "Bank-led selloff",
   "score": -0.6,
-  "summary": "The market closed over 1% lower, just off the day's low, with private banks and IT driving a broad selloff that left only state-run banks and a few results winners in the green.",
+  "summary": "The Nifty closed 1.1% lower at 22,889, snapping a two-day rally as private banks and IT were sold heavily; only state-run banks and a handful of results winners rose.",
   "detail": {
    "leaders": "Nifty PSU Bank, PNB, Ixigo",
    "laggards": "HDFC Bank, Axis Bank, ICICI Bank, Nifty IT",
-   "tone": "Slightly off the lows versus 15:00: the Sensex closed down 876 points after being down over 1,000 at the worst.",
+   "tone": "Confirms the weak close: the Nifty settled at 22,888.95 and the Sensex at 73,852.90, slightly above the session lows.",
    "watch": [
     "Bajaj Finance results tonight",
-    "Wednesday's reopening after the Dussehra holiday",
-    "Jio IPO subscription from Oct 21"
+    "FII flows when trading resumes Wednesday",
+    "Jio IPO demand from Oct 21"
    ],
    "src": {
-    "title": "Business Standard: Market Close — Sensex snaps 2-day winning streak, down 876 pts; Nifty at 22,889 as IT, pvt banks drag",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
+    "title": "Zee Business: Closing Bell — Sensex loses over 1,000 pts from day's high, Nifty below 22,900; private banks, IT drag",
+    "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-loses-over-1000-pts-from-days-high-nifty-slips-below-22900-private-banks-it-stocks-drag-404161"
    },
    "movers": {
     "up": {
-     "summary": "PSU banks and results winners like Ixigo were the day's few gainers",
-     "why": "Strong September-quarter numbers drew buyers into state-run lenders and a handful of stocks even as the market fell.",
+     "summary": "State-run banks and results winners such as Ixigo were the day's few gainers",
+     "why": "Strong September-quarter numbers drew buyers into PSU lenders and a few stocks even as the market fell.",
      "names": [
       {
        "name": "Nifty PSU Bank",
@@ -58,8 +58,8 @@
      }
     },
     "down": {
-     "summary": "Private banks and IT dragged the index; HDFC, Axis and ICICI led the fall",
-     "why": "Big private lenders were sold after Q2 numbers disappointed, and IT gave back part of last week's rally.",
+     "summary": "Private banks and IT drove the fall, led by HDFC, Axis and ICICI",
+     "why": "Big private lenders were sold after disappointing Q2 numbers, and IT gave back part of last week's rally.",
      "names": [
       {
        "name": "HDFC Bank",
@@ -84,8 +84,8 @@
       }
      ],
      "src": {
-      "title": "Business Standard: Market Close — Sensex snaps 2-day winning streak, down 876 pts; Nifty at 22,889 as IT, pvt banks drag",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
+      "title": "Zee Business: Closing Bell — Sensex loses over 1,000 pts from day's high, Nifty below 22,900; private banks, IT drag",
+      "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-loses-over-1000-pts-from-days-high-nifty-slips-below-22900-private-banks-it-stocks-drag-404161"
      }
     }
    }
@@ -96,20 +96,20 @@
    "key": "bank-selloff",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "Private banks and IT end a two-day rally",
-   "line": "Heavy selling in private lenders and IT snapped the Sensex's two-day winning streak",
+   "title": "Sensex ends 876 pts lower on bank, IT selling",
+   "line": "The Sensex closed at 73,852.90 after hitting 73,708.54, ending a two-day winning streak",
    "more": [
-    "Sensex down 876 pts (1.17%) at ~73,852",
-    "HDFC Bank and Axis Bank missed Q2 expectations",
-    "The Nifty 500 also fell about 1%"
+    "Sensex -876.37 (-1.17%); Nifty -257.20 (-1.11%)",
+    "Private banks and IT drove the decline",
+    "HDFC, ICICI and Axis drove over half the Sensex fall"
    ],
    "src": {
-    "title": "Business Standard: Market Close — Sensex snaps 2-day winning streak, down 876 pts; Nifty at 22,889 as IT, pvt banks drag",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
+    "title": "Zee Business: Closing Bell — Sensex loses over 1,000 pts from day's high, Nifty below 22,900; private banks, IT drag",
+    "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-loses-over-1000-pts-from-days-high-nifty-slips-below-22900-private-banks-it-stocks-drag-404161"
    },
    "date": "2026-10-19",
-   "slot": "1530",
-   "when": "15:30",
+   "slot": "post",
+   "when": "Close",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -118,53 +118,53 @@
    }
   },
   {
+   "key": "bajaj-fin-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Bajaj Finance results due tonight",
+   "line": "Analysts expect profit up 26–29% to ₹6,250–6,390 cr on 26.5% AUM growth",
+   "more": [
+    "Year-ago profit ₹4,948 cr",
+    "NII seen at ₹12,950–13,390 cr",
+    "Reaction comes Wednesday, after the holiday"
+   ],
+   "src": {
+    "title": "Upstox: Bajaj Finance Q2 preview — NII and net profit likely to see double-digit growth",
+    "url": "https://upstox.com/news/market-news/earnings/bajaj-finance-q2-results-nii-and-net-profit-likely-to-see-double-digit-growth-driven-by-strong-aum-and-loan-growth/article-202049/"
+   },
+   "date": "2026-10-19",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1400"
+   }
+  },
+  {
    "key": "next-session",
    "tag": "Opening",
    "impact": "watch",
-   "title": "Next session Wednesday; Jio IPO opens",
-   "line": "Markets are shut Tuesday for Dussehra; Jio's ~₹30,213 cr IPO opens Oct 21",
+   "title": "Markets reopen Wednesday with Jio IPO",
+   "line": "No trading Tuesday for Dussehra; the Jio Platforms IPO opens Oct 21",
    "more": [
-    "Trading resumes Wednesday, Oct 21",
-    "Jio price band ₹1,065–1,119",
-    "Today's Bajaj Finance and UltraTech results will be priced in then"
+    "Jio price band ₹1,065–1,119; ~₹30,213 cr issue",
+    "Bajaj Finance and UltraTech results get priced in Wednesday",
+    "Brent near $108 remains a risk"
    ],
    "src": {
     "title": "InvestorGain: Jio Platforms IPO details, GMP and dates",
     "url": "https://www.investorgain.com/ipo/jio-platforms-ipo/2306/"
    },
    "date": "2026-10-19",
-   "slot": "1530",
-   "when": "15:30",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1530"
-   }
-  },
-  {
-   "key": "bajaj-fin-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Bajaj Finance reports after the bell",
-   "line": "Results and a 6 pm call follow an operating update showing AUM up 26.5%",
-   "more": [
-    "AUM ~₹5.85 lakh cr, up 26.5% YoY",
-    "Deposits book ~₹69,750 cr",
-    "Earnings call at 6 pm IST"
-   ],
-   "src": {
-    "title": "ScanX: Bajaj Finance Q2FY27 — AUM rises 26.5% YoY to ₹584,750 crore",
-    "url": "https://scanx.trade/stock-market-news/companies/bajaj-finance-q2fy27-results-aum-rises-26-5-yoy-584-750-crore/52551135"
-   },
-   "date": "2026-10-19",
-   "slot": "1530",
-   "when": "15:30",
+   "slot": "post",
+   "when": "Close",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-19",
-    "slot": "1400"
+    "slot": "1530"
    }
   },
   {
