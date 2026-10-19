@@ -1,44 +1,43 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-19T12:33:37+05:30",
+ "generated_at": "2026-10-19T13:04:48+05:30",
  "date": "2026-10-19",
- "slot": "1230",
- "slot_label": "12:30",
+ "slot": "1300",
+ "slot_label": "13:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-19T12:30:00+05:30",
+ "asof": "2026-10-19T13:00:00+05:30",
  "nifty": {
-  "value": 22950,
-  "pct": -0.85,
-  "chg": -196,
-  "approx": true
+  "value": 22912.8,
+  "pct": -1.01,
+  "chg": -233.35,
+  "approx": false
  },
  "mood": {
-  "label": "Selling deepens",
-  "score": -0.5,
-  "summary": "The slide is extending into the afternoon, with the Sensex down over 700 points and the Nifty near 22,950, as volatility rises and private banks keep falling.",
+  "label": "Broad selloff",
+  "score": -0.6,
+  "summary": "The market is at its day's low, down about 1%, and the selloff has broadened: midcaps and smallcaps are now falling too, as private banks lead the decline.",
   "detail": {
    "leaders": "Nifty PSU Bank, PNB, Union Bank",
-   "laggards": "HDFC Bank, Axis Bank, Nifty IT",
-   "tone": "Weaker than noon: the Sensex's loss has widened from about 570 to over 700 points, and India VIX is up over 4%.",
+   "laggards": "HDFC Bank, ICICI Bank, Axis Bank, Nifty Smallcap 100",
+   "tone": "Weaker than 12:30: both indices are now down about 1%, at the day's low, as the bank-led selling spreads to midcaps and smallcaps.",
    "watch": [
-    "Whether selling accelerates into the close before Tuesday's holiday",
-    "UltraTech's 4 pm call and Bajaj Finance results",
+    "Whether the Nifty breaks below 22,900",
+    "FPI selling ahead of Tuesday's holiday",
     "Brent crude near $108"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex drops over 700 pts, Nifty near 22,950; VIX rises over 4%",
+    "title": "Business Standard: Stock Market LIVE — Sensex at day's low, falls nearly 800 pts, Nifty near 22,900; bank shares weigh",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
    },
    "movers": {
     "up": {
-     "summary": "State-run banks are holding up on strong Q2 numbers from PNB and Union Bank",
-     "why": "PSU lenders are reporting better margins and cleaner books, so they are rising even as the broader market slides.",
+     "summary": "State-run banks are the one bright spot after strong Q2 numbers",
+     "why": "PNB, Canara and Union Bank reported better margins and cleaner books, keeping PSU banks higher in a falling market.",
      "names": [
       {
        "name": "Nifty PSU Bank",
        "dir": "up",
-       "move": "up ~2.6–3%",
-       "line": "The top sector as better deposit quality lifts margins at state-run lenders"
+       "line": "Still the top sector at 1 PM as better deposit quality lifts PSU bank margins"
       },
       {
        "name": "PNB",
@@ -58,37 +57,114 @@
      }
     },
     "down": {
-     "summary": "HDFC Bank and Axis Bank lead the slide; IT is down about 1%",
-     "why": "Margin squeezes at the two big private lenders are dragging the index, and IT profit-taking is adding to the pressure.",
+     "summary": "HDFC, ICICI and Axis account for over half the Sensex fall; smallcaps slide",
+     "why": "The three private lenders are being sold after their Q2 numbers, and the weakness has spread to smaller stocks.",
      "names": [
       {
        "name": "HDFC Bank",
        "dir": "down",
-       "move": "down ~1.5%",
-       "line": "Margins shrank more than analysts expected, despite 4.7% profit growth"
+       "line": "Analysts see an overhang until a successor for the deputy MD is named"
+      },
+      {
+       "name": "ICICI Bank",
+       "dir": "down",
+       "line": "Has turned into a drag after its early gains, among the top three Sensex losers"
       },
       {
        "name": "Axis Bank",
        "dir": "down",
-       "move": "down ~4.5%",
-       "line": "Profit fell 1.3% sequentially and NIM dropped to 3.36% from 3.73%"
+       "line": "A mixed quarter that missed Q2 earnings estimates; NIM fell to 3.36%"
       },
       {
-       "name": "Nifty IT",
+       "name": "Nifty Smallcap 100",
        "dir": "down",
-       "move": "down ~1%",
-       "line": "Profit-taking after last week's ~10% sector rally"
+       "move": "-0.75%",
+       "line": "Selling has spread to smaller stocks; Nifty Midcap is down 0.65%"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex drops over 700 pts, Nifty near 22,950; VIX rises over 4%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
+      "title": "Business Standard: Sensex crashes 765 pts intraday — bank stocks, FPI selling among key factors",
+      "url": "https://www.business-standard.com/markets/news/sensex-crashes-765-pts-intraday-bank-stocks-fpi-selling-among-key-factors-126101900390_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "bank-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Three private banks drive half the Sensex fall",
+   "line": "HDFC Bank, ICICI Bank and Axis Bank account for over 50% of the selling after Q2",
+   "more": [
+    "HDFC Bank: overhang until a deputy MD successor is named",
+    "Axis Bank's mixed quarter missed Q2 estimates",
+    "Sensex hit an intraday low around 73,948"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex crashes 765 pts intraday — bank stocks, FPI selling among key factors",
+    "url": "https://www.business-standard.com/markets/news/sensex-crashes-765-pts-intraday-bank-stocks-fpi-selling-among-key-factors-126101900390_1.html"
+   },
+   "date": "2026-10-19",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1300"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "FPIs have sold a record ₹3.12 trn this year",
+   "line": "Analysts doubt FII buying will last with crude at $108; the FM flags outflow risk",
+   "more": [
+    "Record ₹3.12 trn of FPI selling so far in 2026",
+    "Sitharaman reportedly flagged capital outflows as a key 2027 risk",
+    "Geojit: rupee strength helped, but high crude is a headwind"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex crashes 765 pts intraday — bank stocks, FPI selling among key factors",
+    "url": "https://www.business-standard.com/markets/news/sensex-crashes-765-pts-intraday-bank-stocks-fpi-selling-among-key-factors-126101900390_1.html"
+   },
+   "date": "2026-10-19",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "liquidity",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Banks tap RBI's first cash auction in 3 months",
+   "line": "Banks borrowed from the RBI's cash window as short-term market rates spiked",
+   "more": [
+    "First use of the RBI cash auction in three months",
+    "Short-term money-market rates have risen sharply"
+   ],
+   "src": {
+    "title": "Business Standard: Banks tap RBI's first cash auction in 3 months as market rates spike",
+    "url": "https://www.business-standard.com/markets/news/banks-tap-rbi-s-first-cash-auction-in-3-months-as-market-rates-spike-126101900379_1.html"
+   },
+   "date": "2026-10-19",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1300"
+   }
+  },
   {
    "key": "union-bank-q2",
    "tag": "Results",
@@ -108,7 +184,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1230"
@@ -133,7 +209,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1230"
@@ -158,7 +234,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1230"
@@ -437,31 +513,6 @@
    "first_seen": {
     "date": "2026-10-19",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs turned buyers after 15 selling sessions",
-   "line": "Friday's net foreign buying broke a 15-session selling streak, even as DIIs sold",
-   "more": [
-    "FIIs net bought ~₹1,166 cr on Oct 16",
-    "DIIs net sold ~₹3,661 cr",
-    "Analysts flag Brent crude as a near-term risk"
-   ],
-   "src": {
-    "title": "Free Press Journal: Sensex gains 120 points at open as FIIs turn buyers after 15 sessions of selling",
-    "url": "https://www.freepressjournal.in/business/share-market-today-sensex-gains-120-points-nifty-opens-at-23150-as-fiis-turn-buyers-after-15-sessions-of-selling"
-   },
-   "date": "2026-10-19",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "pre"
    }
   },
   {

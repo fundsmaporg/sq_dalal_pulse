@@ -1,0 +1,159 @@
+{
+ "asof": "2026-10-19T13:00:00+05:30",
+ "summary": "The market is at its day's low, down about 1%, and the selloff has broadened: midcaps and smallcaps are now falling too, as private banks lead the decline.",
+ "mood": {
+  "label": "Broad selloff",
+  "score": -0.6,
+  "detail": {
+   "stats": [],
+   "leaders": "Nifty PSU Bank, PNB, Union Bank",
+   "laggards": "HDFC Bank, ICICI Bank, Axis Bank, Nifty Smallcap 100",
+   "movers": {
+    "up": {
+     "summary": "State-run banks are the one bright spot after strong Q2 numbers",
+     "why": "PNB, Canara and Union Bank reported better margins and cleaner books, keeping PSU banks higher in a falling market.",
+     "names": [
+      {
+       "name": "Nifty PSU Bank",
+       "dir": "up",
+       "line": "Still the top sector at 1 PM as better deposit quality lifts PSU bank margins"
+      },
+      {
+       "name": "PNB",
+       "move": "up ~8%",
+       "dir": "up",
+       "line": "Q2 profit up 12.8% to ₹5,532 cr, ahead of estimates; gross NPA fell to 2.55%"
+      },
+      {
+       "name": "Union Bank",
+       "dir": "up",
+       "line": "Q2 profit rose 30% to ₹5,537 cr, with NII up 20%"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Nifty PSU Bank index surges 3%; PNB, PSB, Canara, Union Bank soar up to 8%",
+      "url": "https://www.business-standard.com/amp/markets/news/nifty-psu-bank-index-surges-3-pnb-psb-canara-union-bank-soar-up-to-8-126101900159_1.html"
+     }
+    },
+    "down": {
+     "summary": "HDFC, ICICI and Axis account for over half the Sensex fall; smallcaps slide",
+     "why": "The three private lenders are being sold after their Q2 numbers, and the weakness has spread to smaller stocks.",
+     "names": [
+      {
+       "name": "HDFC Bank",
+       "dir": "down",
+       "line": "Analysts see an overhang until a successor for the deputy MD is named"
+      },
+      {
+       "name": "ICICI Bank",
+       "dir": "down",
+       "line": "Has turned into a drag after its early gains, among the top three Sensex losers"
+      },
+      {
+       "name": "Axis Bank",
+       "dir": "down",
+       "line": "A mixed quarter that missed Q2 earnings estimates; NIM fell to 3.36%"
+      },
+      {
+       "name": "Nifty Smallcap 100",
+       "move": "-0.75%",
+       "dir": "down",
+       "line": "Selling has spread to smaller stocks; Nifty Midcap is down 0.65%"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Sensex crashes 765 pts intraday — bank stocks, FPI selling among key factors",
+      "url": "https://www.business-standard.com/markets/news/sensex-crashes-765-pts-intraday-bank-stocks-fpi-selling-among-key-factors-126101900390_1.html"
+     }
+    }
+   },
+   "tone": "Weaker than 12:30: both indices are now down about 1%, at the day's low, as the bank-led selling spreads to midcaps and smallcaps.",
+   "watch": [
+    "Whether the Nifty breaks below 22,900",
+    "FPI selling ahead of Tuesday's holiday",
+    "Brent crude near $108"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex at day's low, falls nearly 800 pts, Nifty near 22,900; bank shares weigh",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 22912.8,
+  "pct": -1.01,
+  "chg": -233.35,
+  "approx": false
+ },
+ "top": [
+  {
+   "key": "bank-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Three private banks drive half the Sensex fall",
+   "line": "HDFC Bank, ICICI Bank and Axis Bank account for over 50% of the selling after Q2",
+   "more": [
+    "HDFC Bank: overhang until a deputy MD successor is named",
+    "Axis Bank's mixed quarter missed Q2 estimates",
+    "Sensex hit an intraday low around 73,948"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex crashes 765 pts intraday — bank stocks, FPI selling among key factors",
+    "url": "https://www.business-standard.com/markets/news/sensex-crashes-765-pts-intraday-bank-stocks-fpi-selling-among-key-factors-126101900390_1.html"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "FPIs have sold a record ₹3.12 trn this year",
+   "line": "Analysts doubt FII buying will last with crude at $108; the FM flags outflow risk",
+   "more": [
+    "Record ₹3.12 trn of FPI selling so far in 2026",
+    "Sitharaman reportedly flagged capital outflows as a key 2027 risk",
+    "Geojit: rupee strength helped, but high crude is a headwind"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex crashes 765 pts intraday — bank stocks, FPI selling among key factors",
+    "url": "https://www.business-standard.com/markets/news/sensex-crashes-765-pts-intraday-bank-stocks-fpi-selling-among-key-factors-126101900390_1.html"
+   }
+  },
+  {
+   "key": "liquidity",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Banks tap RBI's first cash auction in 3 months",
+   "line": "Banks borrowed from the RBI's cash window as short-term market rates spiked",
+   "more": [
+    "First use of the RBI cash auction in three months",
+    "Short-term money-market rates have risen sharply"
+   ],
+   "src": {
+    "title": "Business Standard: Banks tap RBI's first cash auction in 3 months as market rates spike",
+    "url": "https://www.business-standard.com/markets/news/banks-tap-rbi-s-first-cash-auction-in-3-months-as-market-rates-spike-126101900379_1.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Business Standard: Stock Market LIVE — Sensex at day's low, falls nearly 800 pts, Nifty near 22,900; bank shares weigh",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
+  },
+  {
+   "title": "Business Standard: Sensex crashes 765 pts intraday — bank stocks, FPI selling among key factors",
+   "url": "https://www.business-standard.com/markets/news/sensex-crashes-765-pts-intraday-bank-stocks-fpi-selling-among-key-factors-126101900390_1.html"
+  },
+  {
+   "title": "Business Standard: Banks tap RBI's first cash auction in 3 months as market rates spike",
+   "url": "https://www.business-standard.com/markets/news/banks-tap-rbi-s-first-cash-auction-in-3-months-as-market-rates-spike-126101900379_1.html"
+  },
+  {
+   "title": "Business Standard: Nifty PSU Bank index surges 3%; PNB, PSB, Canara, Union Bank soar up to 8%",
+   "url": "https://www.business-standard.com/amp/markets/news/nifty-psu-bank-index-surges-3-pnb-psb-canara-union-bank-soar-up-to-8-126101900159_1.html"
+  },
+  {
+   "title": "Upstox: Q2 results live — Union Bank profit rises 30% to ₹5,537 crore",
+   "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-bajaj-finance-union-bank-ultra-tech-cement-hindustan-zinc-ireda-l-and-t-tech-others-to-declare-earnings-on-oct-19/liveblog-202055/"
+  }
+ ]
+}
