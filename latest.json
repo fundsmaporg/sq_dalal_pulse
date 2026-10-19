@@ -1,44 +1,44 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-19T11:02:49+05:30",
+ "generated_at": "2026-10-19T11:34:27+05:30",
  "date": "2026-10-19",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-19T11:00:00+05:30",
+ "asof": "2026-10-19T11:30:00+05:30",
  "nifty": {
   "value": 23061.3,
   "pct": -0.37,
   "chg": -84.85,
-  "approx": false
+  "approx": true
  },
  "mood": {
   "label": "Banks split",
   "score": -0.25,
-  "summary": "The Nifty is drifting about 0.4% lower near 23,060 in a split bank trade: state-run lenders rally on results while private banks and IT keep the benchmarks in the red.",
+  "summary": "The market is holding a modest loss of about 0.4% ahead of Tuesday's holiday, with selling in private banks and IT offset in part by a rally in state-run lenders.",
   "detail": {
    "leaders": "Nifty PSU Bank, PNB, Canara Bank",
-   "laggards": "Axis Bank, HDFC Bank, Infosys",
-   "tone": "Slightly weaker than 10:30: the Sensex's loss widened to about 320 points by 11:00, while the Nifty held near 23,060.",
+   "laggards": "HDFC Bank, Axis Bank, Infosys",
+   "tone": "Little changed from 11:00, when the Nifty was down 0.37%; the bank split is still the story, with no broad selling.",
    "watch": [
-    "Whether the Nifty holds 23,000",
-    "Union Bank, Bajaj Finance and Hindustan Zinc results today",
+    "Positioning ahead of Tuesday's Dussehra holiday",
+    "Union Bank, Bajaj Finance and Hindustan Zinc results",
     "Brent crude near $108"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex down 300 pts, Nifty around 23,050; Jindal Saw drops over 7%",
+    "title": "Business Standard: Stock Market LIVE — HDFC Bank, Axis Bank lead 300-pt loss in Sensex; PNB surges 8% post Q2 result",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
    },
    "movers": {
     "up": {
-     "summary": "State-run banks are rallying after strong Q2 numbers, led by PNB and Canara Bank",
-     "why": "PNB and Canara Bank beat estimates with better margins and cleaner books, lifting the whole PSU bank pack while private peers fall.",
+     "summary": "State-run banks keep rallying on strong Q2 numbers, led by PNB",
+     "why": "PNB and Canara Bank beat estimates with better margins and cleaner books, lifting the whole PSU bank pack.",
      "names": [
       {
        "name": "Nifty PSU Bank",
        "dir": "up",
        "move": "up ~2.6–3%",
-       "line": "The top sector; improving deposit quality is lifting margins across state-run lenders"
+       "line": "The top sector; better deposit quality is lifting margins at state-run lenders"
       },
       {
        "name": "PNB",
@@ -50,7 +50,7 @@
        "name": "Canara Bank",
        "dir": "up",
        "move": "up 2–4%",
-       "line": "An all-round Q2 beat, with core operating profit up 13.3% on better NIM and fees"
+       "line": "Q2 profit up 8.4% to ₹5,175 cr, with an all-round beat on NIM and fees"
       }
      ],
      "src": {
@@ -59,36 +59,111 @@
      }
     },
     "down": {
-     "summary": "Private banks are falling on weak margins, and IT faces profit-taking",
-     "why": "Margin squeezes at Axis Bank and HDFC Bank are weighing on private lenders, while IT gives back some of last week's gains.",
+     "summary": "HDFC Bank and Axis Bank lead the Sensex lower; IT sees profit-taking",
+     "why": "Margin squeezes at the two big private lenders are dragging the index, while IT gives back some of last week's rally.",
      "names": [
-      {
-       "name": "Axis Bank",
-       "dir": "down",
-       "move": "-4.5%",
-       "line": "Profit fell 1.3% sequentially and NIM dropped to 3.36% from 3.73%"
-      },
       {
        "name": "HDFC Bank",
        "dir": "down",
-       "move": "-1.54%",
-       "line": "Margins shrank more than analysts expected despite 4.7% profit growth"
+       "move": "down ~1.5%",
+       "line": "Margins shrank more than analysts expected, despite 4.7% profit growth"
+      },
+      {
+       "name": "Axis Bank",
+       "dir": "down",
+       "move": "down ~4.5%",
+       "line": "Profit fell 1.3% sequentially and NIM dropped to 3.36% from 3.73%"
       },
       {
        "name": "Infosys",
        "dir": "down",
-       "line": "Among top Nifty losers as IT stocks see profit-taking after last week's rally"
+       "line": "Among top Nifty losers as IT stocks see profit-taking after last week's run"
       }
      ],
      "src": {
-      "title": "Upstox: SENSEX, NIFTY50 subdued; IT shares fall on profit booking, PSU banks rise",
-      "url": "https://upstox.com/news/market-news/stocks/sensex-nifty-50-subdued-it-shares-fall-on-profit-booking-psu-banks-rise/article-202053/"
+      "title": "Business Standard: Stock Market LIVE — HDFC Bank, Axis Bank lead 300-pt loss in Sensex; PNB surges 8% post Q2 result",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "market-holiday",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Markets shut Tuesday for Dussehra",
+   "line": "NSE and BSE are closed on Oct 20; trading resumes Wednesday, when Jio's IPO opens",
+   "more": [
+    "No trading on Tuesday, October 20",
+    "Jio Platforms IPO opens Wednesday, Oct 21",
+    "High crude and Q2 results remain the week's themes"
+   ],
+   "src": {
+    "title": "BusinessToday: Markets next week — Jio Platforms IPO, high crude oil prices and Q2 earnings in focus",
+    "url": "https://www.businesstoday.in/markets/stocks/story/markets-next-week-jio-platforms-ipo-high-crude-oil-prices-and-q2-earnings-in-focus-562260-2026-10-18"
+   },
+   "date": "2026-10-19",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "canara-bank-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Canara Bank profit up 8.4% to ₹5,175 cr",
+   "line": "Core operating profit rose 13.3% on better NIM, fees and costs",
+   "more": [
+    "Net profit ₹5,175 cr, up 8.4% YoY",
+    "Core PPoP +13.3%, led by NII and fees",
+    "Shares among PSU bank gainers today"
+   ],
+   "src": {
+    "title": "Business Standard: Nifty PSU Bank index surges 3%; PNB, PSB, Canara, Union Bank soar up to 8%",
+    "url": "https://www.business-standard.com/amp/markets/news/nifty-psu-bank-index-surges-3-pnb-psb-canara-union-bank-soar-up-to-8-126101900159_1.html"
+   },
+   "date": "2026-10-19",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Jio IPO opens Wednesday after the holiday",
+   "line": "The ~₹30,213 cr issue runs Oct 21–23 at ₹1,065–1,119 a share",
+   "more": [
+    "Lot size 12 shares",
+    "Allotment Oct 26; listing expected Oct 28",
+    "Grey-market premium was about ₹221 last week"
+   ],
+   "src": {
+    "title": "InvestorGain: Jio Platforms IPO details, GMP and dates",
+    "url": "https://www.investorgain.com/ipo/jio-platforms-ipo/2306/"
+   },
+   "date": "2026-10-19",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "pre"
+   }
+  },
   {
    "key": "pnb-q2",
    "tag": "Results",
@@ -108,7 +183,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1100"
@@ -133,7 +208,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1030"
@@ -158,7 +233,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1100"
@@ -183,7 +258,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1130"
@@ -587,31 +662,6 @@
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Jio IPO grey premium ~20% before Oct 21 open",
-   "line": "GMP is about ₹221 over the ₹1,119 top band; Airtel is rising ahead of the issue",
-   "more": [
-    "Issue ~₹30,213 cr; opens Oct 21, closes Oct 23; lot of 12 shares",
-    "Allotment Oct 26, listing expected Oct 28",
-    "Analysts don't see the ~2.9% dilution pulling money from Airtel"
-   ],
-   "src": {
-    "title": "BusinessToday: Why Bharti Airtel share price is rising ahead of Jio's ₹30,213 crore IPO",
-    "url": "https://www.businesstoday.in/markets/stocks/story/jio-ipo-why-bharti-airtel-share-price-is-rising-ahead-of-rs-30213-crore-offer-562037-2026-10-16"
-   },
-   "date": "2026-10-16",
-   "slot": "1330",
-   "when": "Fri · 13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
    }
   },
   {
