@@ -1,44 +1,44 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-19T10:04:03+05:30",
+ "generated_at": "2026-10-19T10:34:08+05:30",
  "date": "2026-10-19",
- "slot": "1000",
- "slot_label": "10:00",
- "stage": "Opening mood",
- "asof": "2026-10-19T10:00:00+05:30",
+ "slot": "1030",
+ "slot_label": "10:30",
+ "stage": "Mid-market mood",
+ "asof": "2026-10-19T10:30:00+05:30",
  "nifty": {
-  "value": 23150,
-  "pct": 0.02,
-  "chg": 4,
-  "approx": true
+  "value": 23056.15,
+  "pct": -0.39,
+  "chg": -90,
+  "approx": false
  },
  "mood": {
-  "label": "Flat, bank-driven",
-  "score": -0.05,
-  "summary": "The Nifty is hovering flat around 23,150 as private-bank results pull stocks in opposite directions, while midcaps and smallcaps edge slightly lower.",
+  "label": "Private banks drag",
+  "score": -0.3,
+  "summary": "Selling has widened, with 12 of 15 NSE sector indices lower and the Nifty slipping toward 23,000, though PSU banks are bucking the trend while private lenders lead the fall.",
   "detail": {
    "leaders": "ICICI Bank",
-   "laggards": "Axis Bank, HDFC Bank, Infosys",
-   "tone": "Steadier than the 09:30 note: Business Standard's live blog now shows the Sensex flat and the Nifty near 23,150, with Axis Bank the main drag.",
+   "laggards": "Axis Bank, HDFC Bank, Nifty Private Bank, Infosys",
+   "tone": "Weaker than the last note's flat read: by 10:00 the Sensex was down about 240 points as the dip broadened.",
    "watch": [
-    "Whether Axis and HDFC Bank selling spreads to other lenders",
-    "Brent near $108",
-    "UltraTech and Hindustan Zinc results today"
+    "Whether the Nifty holds 23,000",
+    "Brent crude near $108",
+    "UltraTech and Hindustan Zinc results later today"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex flat, Nifty around 23,150; Axis Bank shares fall 4%",
+    "title": "Business Standard: Stock Market LIVE — Sensex down 200 pts, Nifty around 23,000; Nifty PSU Bank rises 2%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
    },
    "movers": {
     "up": {
-     "summary": "ICICI Bank is gaining after a Q2 beat, with brokerages staying bullish",
-     "why": "Among the three big private banks that reported over the weekend, ICICI is the one investors are rewarding.",
+     "summary": "ICICI Bank is the private lender holding up, after a Q2 beat",
+     "why": "Investors are separating the private banks by results quality, and ICICI's profit beat and stable asset quality are winning support.",
      "names": [
       {
        "name": "ICICI Bank",
        "dir": "up",
        "move": "up ~1%",
-       "line": "Q2 profit up 20% to ₹14,843 cr; Nuvama, Citi and Jefferies reiterate Buy"
+       "line": "Q2 profit up 20%; Nuvama, Citi and Jefferies keep Buy calls"
       }
      ],
      "src": {
@@ -47,37 +47,117 @@
      }
     },
     "down": {
-     "summary": "Axis Bank and HDFC Bank are falling on margin squeezes; Infosys is also lower",
-     "why": "Shrinking margins at two big private lenders are weighing on financials, and IT is cooling after last week's sharp rally.",
+     "summary": "Private banks lead the fall on weak margins, while IT sees profit-taking",
+     "why": "Margin squeezes at Axis Bank and HDFC Bank are dragging private lenders, and IT is giving back part of last week's rally.",
      "names": [
       {
        "name": "Axis Bank",
        "dir": "down",
-       "move": "down ~4%",
-       "line": "NIM fell to 3.36% from 3.73% a year ago, despite a 38% profit jump"
+       "move": "-4.5%",
+       "line": "At ₹1,231.50; profit fell 1.3% sequentially and NIM dropped to 3.36%"
       },
       {
        "name": "HDFC Bank",
        "dir": "down",
-       "move": "down ~1.5–2%",
-       "line": "Profit up 4.7%, in line with estimates, but the margin squeeze was bigger than expected"
+       "move": "-1.54%",
+       "line": "At ₹717.60; margins shrank more than analysts expected in Q2"
+      },
+      {
+       "name": "Nifty Private Bank",
+       "dir": "down",
+       "move": "down ~2%",
+       "line": "The weakest sector, pulled down by Axis Bank's and HDFC Bank's post-results selling"
       },
       {
        "name": "Infosys",
        "dir": "down",
-       "move": "-1.33%",
-       "line": "Among early Nifty losers as IT gives back some of last week's ~10% sector rally"
+       "line": "Among top Nifty losers as IT stocks see profit-taking after last week's run"
       }
      ],
      "src": {
-      "title": "TradeBrains: Sensex & Nifty 50 live updates, 19 October",
-      "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-19-october-gift-nifty-gains-63-points-to-23128-brent-crude-falls-175-stocks-remain-in-focus-12688278"
+      "title": "Upstox: SENSEX, NIFTY50 subdued; IT shares fall on profit booking, PSU banks rise",
+      "url": "https://upstox.com/news/market-news/stocks/sensex-nifty-50-subdued-it-shares-fall-on-profit-booking-psu-banks-rise/article-202053/"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "psu-banks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PSU banks rise against the bank selloff",
+   "line": "Nifty PSU Bank is up about 2%, led by SBI, PNB and Canara Bank, as private lenders fall",
+   "more": [
+    "Nifty PSU Bank +1.93% to 8,250.90",
+    "SBI up about 2%",
+    "Nifty Private Bank down nearly 2%"
+   ],
+   "src": {
+    "title": "Upstox: SENSEX, NIFTY50 subdued; IT shares fall on profit booking, PSU banks rise",
+    "url": "https://upstox.com/news/market-news/stocks/sensex-nifty-50-subdued-it-shares-fall-on-profit-booking-psu-banks-rise/article-202053/"
+   },
+   "date": "2026-10-19",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "axis-bank-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Axis Bank's profit fell 1.3% quarter on quarter",
+   "line": "The sequential dip and the sharp NIM fall have the stock down 4.5%, the top Nifty loser",
+   "more": [
+    "Shares at ₹1,231.50 on NSE, -4.5%",
+    "Year-on-year profit was up ~38%",
+    "NIM 3.36% vs 3.73% a year ago"
+   ],
+   "src": {
+    "title": "Upstox: SENSEX, NIFTY50 subdued; IT shares fall on profit booking, PSU banks rise",
+    "url": "https://upstox.com/news/market-news/stocks/sensex-nifty-50-subdued-it-shares-fall-on-profit-booking-psu-banks-rise/article-202053/"
+   },
+   "date": "2026-10-19",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs turned buyers after 15 selling sessions",
+   "line": "Friday's net foreign buying broke a 15-session selling streak, even as DIIs sold",
+   "more": [
+    "FIIs net bought ~₹1,166 cr on Oct 16",
+    "DIIs net sold ~₹3,661 cr",
+    "Analysts flag Brent crude as a near-term risk"
+   ],
+   "src": {
+    "title": "Free Press Journal: Sensex gains 120 points at open as FIIs turn buyers after 15 sessions of selling",
+    "url": "https://www.freepressjournal.in/business/share-market-today-sensex-gains-120-points-nifty-opens-at-23150-as-fiis-turn-buyers-after-15-sessions-of-selling"
+   },
+   "date": "2026-10-19",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "pre"
+   }
+  },
   {
    "key": "hdfc-bank-q2",
    "tag": "Results",
@@ -97,7 +177,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1400"
@@ -122,35 +202,10 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "axis-bank-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Axis Bank down ~4% on margin compression",
-   "line": "Axis is the biggest Nifty drag as NIM fell 37 bp year on year",
-   "more": [
-    "Q2 profit ₹7,003 cr, up ~38%",
-    "NII up 12% to ₹15,371 cr",
-    "Fell 3.69% early, then about 4%"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex flat, Nifty around 23,150; Axis Bank shares fall 4%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
-   },
-   "date": "2026-10-19",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "0930"
    }
   },
   {
@@ -176,31 +231,6 @@
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "DIIs ended their buying streak on Friday",
-   "line": "DIIs sold ₹3,661 cr on Oct 16 after a long buying run, while FIIs bought ₹1,166 cr",
-   "more": [
-    "DIIs had bought for 46 straight sessions",
-    "Friday was the first DII net sale in that run",
-    "Persistent FII selling remains a concern, analysts say"
-   ],
-   "src": {
-    "title": "Whalesbook: Indian markets set for flat opening as DIIs end buying streak",
-    "url": "https://www.whalesbook.com/news/English/sebiexchange/Indian-Markets-Set-For-Flat-Opening-As-DIIs-End-Buying-Streak/6ad57a4c79a16deaeaf627ba"
-   },
-   "date": "2026-10-19",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "pre"
    }
   },
   {
@@ -997,30 +1027,6 @@
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1330"
-   }
-  },
-  {
-   "key": "psu-banks",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "PSU banks fall ~1% against the rally",
-   "line": "Nifty PSU Bank is the weakest sector index while benchmarks gain over 1.5%",
-   "more": [
-    "IDBI Bank down 6% on the Fairfax deal price",
-    "No broader trigger has been reported for the sector"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,200 pts, Nifty reclaims 22,900; Nifty PSU Bank falls 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-15-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101500089_1.html"
-   },
-   "date": "2026-10-15",
-   "slot": "1300",
-   "when": "Thu · 13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1030"
    }
   },
   {
