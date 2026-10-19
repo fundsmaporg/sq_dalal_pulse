@@ -1,43 +1,43 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-19T15:03:06+05:30",
+ "generated_at": "2026-10-19T15:35:01+05:30",
  "date": "2026-10-19",
- "slot": "1500",
- "slot_label": "15:00",
+ "slot": "1530",
+ "slot_label": "15:30",
  "stage": "Closing mood",
- "asof": "2026-10-19T15:00:00+05:30",
+ "asof": "2026-10-19T15:30:00+05:30",
  "nifty": {
-  "value": 22876.4,
-  "pct": -1.17,
-  "chg": -269.75,
+  "value": 22889,
+  "pct": -1.11,
+  "chg": -257,
   "approx": true
  },
  "mood": {
-  "label": "Selloff holds",
-  "score": -0.65,
-  "summary": "The market is heading into the close near its day's low, down over 1%, with only state-run banks and a few results-driven stocks holding up before Tuesday's holiday.",
+  "label": "Weak close",
+  "score": -0.6,
+  "summary": "The market closed over 1% lower, just off the day's low, with private banks and IT driving a broad selloff that left only state-run banks and a few results winners in the green.",
   "detail": {
    "leaders": "Nifty PSU Bank, PNB, Ixigo",
-   "laggards": "HDFC Bank, Axis Bank, ICICI Bank, UltraTech Cement",
-   "tone": "Little changed from 14:30: indices are still near the lows, with Business Standard's headline now showing a Sensex loss of just over 900 points.",
+   "laggards": "HDFC Bank, Axis Bank, ICICI Bank, Nifty IT",
+   "tone": "Slightly off the lows versus 15:00: the Sensex closed down 876 points after being down over 1,000 at the worst.",
    "watch": [
-    "Final close ahead of Tuesday's holiday",
-    "Bajaj Finance results this evening",
-    "Jio IPO opening on Wednesday"
+    "Bajaj Finance results tonight",
+    "Wednesday's reopening after the Dussehra holiday",
+    "Jio IPO subscription from Oct 21"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex at day's low, down over 900 pts, Nifty near 22,850; ₹4.5 trn m-cap gone",
+    "title": "Business Standard: Market Close — Sensex snaps 2-day winning streak, down 876 pts; Nifty at 22,889 as IT, pvt banks drag",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
    },
    "movers": {
     "up": {
-     "summary": "PSU banks and a few results winners like Ixigo are bucking the selloff",
-     "why": "Strong September-quarter numbers are the only thing drawing buyers today, from state-run lenders to travel platform Ixigo.",
+     "summary": "PSU banks and results winners like Ixigo were the day's few gainers",
+     "why": "Strong September-quarter numbers drew buyers into state-run lenders and a handful of stocks even as the market fell.",
      "names": [
       {
        "name": "Nifty PSU Bank",
        "dir": "up",
-       "line": "Still the top sector as better deposit quality lifts PSU bank margins"
+       "line": "The top sector all day as better deposit quality lifted PSU bank margins"
       },
       {
        "name": "PNB",
@@ -58,19 +58,19 @@
      }
     },
     "down": {
-     "summary": "Private banks still lead the fall; UltraTech slips despite better profit",
-     "why": "HDFC Bank and Axis Bank missed expectations and remain the biggest drags, while selling has spread to financials and IT.",
+     "summary": "Private banks and IT dragged the index; HDFC, Axis and ICICI led the fall",
+     "why": "Big private lenders were sold after Q2 numbers disappointed, and IT gave back part of last week's rally.",
      "names": [
       {
        "name": "HDFC Bank",
        "dir": "down",
        "move": "down ~2%",
-       "line": "Q2 fell short of analyst expectations as margins narrowed"
+       "line": "Q2 fell short of expectations as margins narrowed"
       },
       {
        "name": "Axis Bank",
        "dir": "down",
-       "line": "Q2 earnings missed estimates; NIM fell to 3.36% from 3.73%"
+       "line": "Q2 missed estimates; NIM fell to 3.36% from 3.73%"
       },
       {
        "name": "ICICI Bank",
@@ -78,21 +78,95 @@
        "line": "Gave up early gains to become one of the three biggest Sensex drags"
       },
       {
-       "name": "UltraTech Cement",
+       "name": "Nifty IT",
        "dir": "down",
-       "move": "-1.6%",
-       "line": "Margin slipped to 16.6% on higher input costs, despite 21% profit growth"
+       "line": "Profit-taking after last week's ~10% sector rally"
       }
      ],
      "src": {
-      "title": "BusinessToday: Market crash — Sensex tanks 1,100 points from day's high; here's why",
-      "url": "https://businesstoday.in/markets/stocks/story/market-crash-sensex-tanks-1100-points-from-days-high-heres-why-d-street-is-in-the-red-562436-2026-10-19"
+      "title": "Business Standard: Market Close — Sensex snaps 2-day winning streak, down 876 pts; Nifty at 22,889 as IT, pvt banks drag",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "bank-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Private banks and IT end a two-day rally",
+   "line": "Heavy selling in private lenders and IT snapped the Sensex's two-day winning streak",
+   "more": [
+    "Sensex down 876 pts (1.17%) at ~73,852",
+    "HDFC Bank and Axis Bank missed Q2 expectations",
+    "The Nifty 500 also fell about 1%"
+   ],
+   "src": {
+    "title": "Business Standard: Market Close — Sensex snaps 2-day winning streak, down 876 pts; Nifty at 22,889 as IT, pvt banks drag",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
+   },
+   "date": "2026-10-19",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1300"
+   }
+  },
+  {
+   "key": "next-session",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Next session Wednesday; Jio IPO opens",
+   "line": "Markets are shut Tuesday for Dussehra; Jio's ~₹30,213 cr IPO opens Oct 21",
+   "more": [
+    "Trading resumes Wednesday, Oct 21",
+    "Jio price band ₹1,065–1,119",
+    "Today's Bajaj Finance and UltraTech results will be priced in then"
+   ],
+   "src": {
+    "title": "InvestorGain: Jio Platforms IPO details, GMP and dates",
+    "url": "https://www.investorgain.com/ipo/jio-platforms-ipo/2306/"
+   },
+   "date": "2026-10-19",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1530"
+   }
+  },
+  {
+   "key": "bajaj-fin-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Bajaj Finance reports after the bell",
+   "line": "Results and a 6 pm call follow an operating update showing AUM up 26.5%",
+   "more": [
+    "AUM ~₹5.85 lakh cr, up 26.5% YoY",
+    "Deposits book ~₹69,750 cr",
+    "Earnings call at 6 pm IST"
+   ],
+   "src": {
+    "title": "ScanX: Bajaj Finance Q2FY27 — AUM rises 26.5% YoY to ₹584,750 crore",
+    "url": "https://scanx.trade/stock-market-news/companies/bajaj-finance-q2fy27-results-aum-rises-26-5-yoy-584-750-crore/52551135"
+   },
+   "date": "2026-10-19",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1400"
+   }
+  },
   {
    "key": "crude",
    "tag": "Global",
@@ -112,7 +186,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "1130"
@@ -137,7 +211,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1500"
@@ -162,7 +236,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1430"
@@ -191,56 +265,6 @@
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "bank-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Private bank selling has not let up",
-   "line": "Nifty Private Bank is still the worst sector; PSU banks remain the only bright spot",
-   "more": [
-    "HDFC, ICICI and Axis drove over half the Sensex fall",
-    "Nifty PSU Bank is still the top sector",
-    "Midcap and smallcap indices are also lower"
-   ],
-   "src": {
-    "title": "Business Standard: Sensex crashes 765 pts intraday — bank stocks, FPI selling among key factors",
-    "url": "https://www.business-standard.com/markets/news/sensex-crashes-765-pts-intraday-bank-stocks-fpi-selling-among-key-factors-126101900390_1.html"
-   },
-   "date": "2026-10-19",
-   "slot": "1430",
-   "when": "14:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "bajaj-fin-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Bajaj Finance results due; AUM up 26.5%",
-   "line": "Its operating update showed AUM at ₹5.85 lakh cr; profit numbers and a 6 pm call follow",
-   "more": [
-    "AUM ~₹5,84,750 cr, up 26.5% YoY",
-    "Customer franchise 128.85 mn",
-    "Deposits book ~₹69,750 cr"
-   ],
-   "src": {
-    "title": "ScanX: Bajaj Finance Q2FY27 — AUM rises 26.5% YoY to ₹584,750 crore",
-    "url": "https://scanx.trade/stock-market-news/companies/bajaj-finance-q2fy27-results-aum-rises-26-5-yoy-584-750-crore/52551135"
-   },
-   "date": "2026-10-19",
-   "slot": "1400",
-   "when": "14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1400"
    }
   },
   {
