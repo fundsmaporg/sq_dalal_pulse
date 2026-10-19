@@ -1,55 +1,49 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-19T14:04:21+05:30",
+ "generated_at": "2026-10-19T14:33:02+05:30",
  "date": "2026-10-19",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-19T14:00:00+05:30",
+ "asof": "2026-10-19T14:30:00+05:30",
  "nifty": {
-  "value": 22912.8,
-  "pct": -1.01,
-  "chg": -233.35,
-  "approx": true
+  "value": 22876.4,
+  "pct": -1.17,
+  "chg": -269.75,
+  "approx": false
  },
  "mood": {
-  "label": "Stuck near lows",
-  "score": -0.55,
-  "summary": "The market is stuck near its day's low, down about 1%, with selling broad-based outside state-run banks ahead of Tuesday's holiday.",
+  "label": "Selloff deepens",
+  "score": -0.7,
+  "summary": "Selling has intensified, with the Sensex down about 1,000 points at the day's low and roughly ₹4.5 trillion of market value wiped out, as the slide spreads well beyond private banks.",
   "detail": {
-   "leaders": "Nifty PSU Bank, PNB, UltraTech Cement",
-   "laggards": "HDFC Bank, ICICI Bank, Axis Bank, Nifty Smallcap 100",
-   "tone": "Little changed from 13:30: indices are holding near the day's low with no recovery attempt yet.",
+   "leaders": "Nifty PSU Bank, PNB",
+   "laggards": "HDFC Bank, ICICI Bank, Axis Bank, UltraTech Cement",
+   "tone": "Clearly weaker than 14:00: by 2 PM the Sensex was down 910 points, and Business Standard now reports a fall of about 1,000 points.",
    "watch": [
-    "Any short-covering before Tuesday's holiday",
-    "Bajaj Finance results and its 6 pm call",
+    "Whether the Nifty holds 22,850 into the close",
+    "Bajaj Finance results this evening",
     "Brent near $108"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex at day's low, falls 800 pts, Nifty below 22,900; bank shares weigh",
+    "title": "Business Standard: Stock Market LIVE — Sensex at day's low, falls 1000 pts, Nifty near 22,850; ₹4.5 trn m-cap gone",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
    },
    "movers": {
     "up": {
-     "summary": "PSU banks and UltraTech are holding gains in a weak market",
-     "why": "Strong Q2 numbers are supporting state-run lenders, and UltraTech has now reported a 21% profit rise.",
+     "summary": "PSU banks are the only real gainers, led by PNB after its Q2 beat",
+     "why": "Better margins and cleaner books at state-run lenders are keeping them higher even as the rest of the market falls.",
      "names": [
       {
        "name": "Nifty PSU Bank",
        "dir": "up",
-       "line": "The top sector, on better margins at state-run lenders"
+       "line": "Still rising at 2 PM as better deposit quality lifts PSU bank margins"
       },
       {
        "name": "PNB",
        "dir": "up",
        "move": "up ~8%",
        "line": "Q2 profit up 12.8% to ₹5,532 cr, ahead of estimates; gross NPA fell to 2.55%"
-      },
-      {
-       "name": "UltraTech Cement",
-       "dir": "up",
-       "move": "up ~2%",
-       "line": "Q2 profit rose ~21% to about ₹1,500 cr as sales grew 19%"
       }
      ],
      "src": {
@@ -58,8 +52,8 @@
      }
     },
     "down": {
-     "summary": "Three private banks drive most of the fall; smallcaps are also lower",
-     "why": "HDFC Bank, ICICI Bank and Axis Bank are being sold after Q2, and the weakness has spread to smaller stocks.",
+     "summary": "Private banks lead the rout; UltraTech slips despite a 21% profit rise",
+     "why": "The three biggest private lenders are still being sold after Q2, and even good results are failing to hold up in the broad selling.",
      "names": [
       {
        "name": "HDFC Bank",
@@ -77,10 +71,10 @@
        "line": "A mixed quarter that missed Q2 estimates; NIM fell to 3.36%"
       },
       {
-       "name": "Nifty Smallcap 100",
+       "name": "UltraTech Cement",
        "dir": "down",
-       "move": "-0.75%",
-       "line": "Selling has spread to smaller stocks; Nifty Midcap is down 0.65%"
+       "move": "-1.6%",
+       "line": "At ₹10,680; margin slipped to 16.6% from 16.8% on higher input costs"
       }
      ],
      "src": {
@@ -95,26 +89,76 @@
   {
    "key": "ultratech-q2",
    "tag": "Results",
-   "impact": "pos",
-   "title": "UltraTech Q2 profit up 21%; volumes +14%",
-   "line": "PAT rose to about ₹1,500 cr as consolidated sales grew 18.9% to ₹23,024 cr",
+   "impact": "neg",
+   "title": "UltraTech slips 1.6% despite 21% profit rise",
+   "line": "Margins dipped to 16.6% on higher input costs; the shares trade at ₹10,680",
    "more": [
-    "PAT up 21.3% YoY to ~₹1,501 cr",
-    "Domestic grey cement volumes +13.8% to 35.94 mt",
-    "Sources differ slightly: revenue ₹23,024–23,295 cr"
+    "PAT ₹1,501 cr vs ₹1,238 cr a year ago",
+    "EBITDA margin 16.6% vs 16.8%",
+    "Also announced executive succession plans"
    ],
    "src": {
-    "title": "Investywise: UltraTech Cement Q2 FY27 — net sales up 18.9% to ₹23,024 crore",
-    "url": "https://www.investywise.com/ultratech-cement-approves-q2-fy27-financial-results"
+    "title": "Upstox: UltraTech Cement Q2 — net profit jumps 21.3% to ₹1,501 crore; shares trade in red",
+    "url": "https://upstox.com/news/market-news/earnings/ultratech-cement-q2-results-net-profit-jumps-21-3-at-1-501-crore-shares-trade-in-red/article-202080/"
    },
    "date": "2026-10-19",
-   "slot": "1400",
-   "when": "14:00",
+   "slot": "1430",
+   "when": "14:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1200"
+   }
+  },
+  {
+   "key": "mcap-wipeout",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "About ₹4.5 trn of market value wiped out",
+   "line": "Investor wealth fell about ₹4.5 trillion as the Sensex slid about 1,000 points",
+   "more": [
+    "Sensex at the day's low, down about 1,000 points",
+    "Nifty near 22,850",
+    "Private banks remain the biggest drag"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex at day's low, falls 1000 pts, Nifty near 22,850; ₹4.5 trn m-cap gone",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
+   },
+   "date": "2026-10-19",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "bank-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Private bank selling has not let up",
+   "line": "Nifty Private Bank is still the worst sector; PSU banks remain the only bright spot",
+   "more": [
+    "HDFC, ICICI and Axis drove over half the Sensex fall",
+    "Nifty PSU Bank is still the top sector",
+    "Midcap and smallcap indices are also lower"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex crashes 765 pts intraday — bank stocks, FPI selling among key factors",
+    "url": "https://www.business-standard.com/markets/news/sensex-crashes-765-pts-intraday-bank-stocks-fpi-selling-among-key-factors-126101900390_1.html"
+   },
+   "date": "2026-10-19",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1300"
    }
   },
   {
@@ -136,7 +180,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1400"
@@ -161,7 +205,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1130"
@@ -215,31 +259,6 @@
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "bank-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Three private banks drive half the Sensex fall",
-   "line": "HDFC Bank, ICICI Bank and Axis Bank account for over 50% of the selling after Q2",
-   "more": [
-    "HDFC Bank: overhang until a deputy MD successor is named",
-    "Axis Bank's mixed quarter missed Q2 estimates",
-    "Sensex hit an intraday low around 73,948"
-   ],
-   "src": {
-    "title": "Business Standard: Sensex crashes 765 pts intraday — bank stocks, FPI selling among key factors",
-    "url": "https://www.business-standard.com/markets/news/sensex-crashes-765-pts-intraday-bank-stocks-fpi-selling-among-key-factors-126101900390_1.html"
-   },
-   "date": "2026-10-19",
-   "slot": "1300",
-   "when": "13:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1300"
    }
   },
   {
