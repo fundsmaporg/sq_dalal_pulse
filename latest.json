@@ -1,43 +1,43 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-19T13:04:48+05:30",
+ "generated_at": "2026-10-19T13:33:18+05:30",
  "date": "2026-10-19",
- "slot": "1300",
- "slot_label": "13:00",
+ "slot": "1330",
+ "slot_label": "13:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-19T13:00:00+05:30",
+ "asof": "2026-10-19T13:30:00+05:30",
  "nifty": {
-  "value": 22912.8,
-  "pct": -1.01,
-  "chg": -233.35,
-  "approx": false
+  "value": 22895,
+  "pct": -1.08,
+  "chg": -251,
+  "approx": true
  },
  "mood": {
-  "label": "Broad selloff",
+  "label": "Pinned at lows",
   "score": -0.6,
-  "summary": "The market is at its day's low, down about 1%, and the selloff has broadened: midcaps and smallcaps are now falling too, as private banks lead the decline.",
+  "summary": "The market is pinned near its day's low, with the Sensex down about 800 points and the Nifty below 22,900, as bank-led selling shows no sign of easing before the holiday.",
   "detail": {
-   "leaders": "Nifty PSU Bank, PNB, Union Bank",
+   "leaders": "Nifty PSU Bank, PNB, UltraTech Cement",
    "laggards": "HDFC Bank, ICICI Bank, Axis Bank, Nifty Smallcap 100",
-   "tone": "Weaker than 12:30: both indices are now down about 1%, at the day's low, as the bank-led selling spreads to midcaps and smallcaps.",
+   "tone": "Slightly weaker than 13:00: the Sensex loss has edged to about 800 points, and the Nifty is now below 22,900.",
    "watch": [
-    "Whether the Nifty breaks below 22,900",
-    "FPI selling ahead of Tuesday's holiday",
-    "Brent crude near $108"
+    "Any late recovery before Tuesday's holiday",
+    "UltraTech and Bajaj Finance results this evening",
+    "Brent near $108–110"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex at day's low, falls nearly 800 pts, Nifty near 22,900; bank shares weigh",
+    "title": "Business Standard: Stock Market LIVE — Sensex at day's low, falls 800 pts, Nifty below 22,900; bank shares weigh",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
    },
    "movers": {
     "up": {
-     "summary": "State-run banks are the one bright spot after strong Q2 numbers",
-     "why": "PNB, Canara and Union Bank reported better margins and cleaner books, keeping PSU banks higher in a falling market.",
+     "summary": "PSU banks and UltraTech are holding up in a falling market",
+     "why": "Strong Q2 numbers are supporting state-run lenders, and UltraTech is rising ahead of its own results.",
      "names": [
       {
        "name": "Nifty PSU Bank",
        "dir": "up",
-       "line": "Still the top sector at 1 PM as better deposit quality lifts PSU bank margins"
+       "line": "Still the top sector, on better margins at state-run lenders"
       },
       {
        "name": "PNB",
@@ -46,9 +46,10 @@
        "line": "Q2 profit up 12.8% to ₹5,532 cr, ahead of estimates; gross NPA fell to 2.55%"
       },
       {
-       "name": "Union Bank",
+       "name": "UltraTech Cement",
        "dir": "up",
-       "line": "Q2 profit rose 30% to ₹5,537 cr, with NII up 20%"
+       "move": "up ~2%",
+       "line": "At ₹11,132 ahead of its Q2 results, due today with a 4 pm call"
       }
      ],
      "src": {
@@ -57,8 +58,8 @@
      }
     },
     "down": {
-     "summary": "HDFC, ICICI and Axis account for over half the Sensex fall; smallcaps slide",
-     "why": "The three private lenders are being sold after their Q2 numbers, and the weakness has spread to smaller stocks.",
+     "summary": "Three private banks account for over half the Sensex fall; smallcaps slip",
+     "why": "HDFC Bank, ICICI Bank and Axis Bank are being sold after Q2, and the weakness has spread to smaller stocks.",
      "names": [
       {
        "name": "HDFC Bank",
@@ -68,7 +69,7 @@
       {
        "name": "ICICI Bank",
        "dir": "down",
-       "line": "Has turned into a drag after its early gains, among the top three Sensex losers"
+       "line": "Gave up early gains to become one of the three biggest Sensex drags"
       },
       {
        "name": "Axis Bank",
@@ -92,6 +93,81 @@
  },
  "insights": [
   {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent near $108 after its highest close since May",
+   "line": "Friday's $109.86 settle was the highest since May, on Hormuz shipping attacks",
+   "more": [
+    "Brent ~$108 on Monday morning",
+    "Attacks on vessels near the Strait of Hormuz disrupted flows",
+    "Higher crude raises importers' dollar demand"
+   ],
+   "src": {
+    "title": "Kotak Neo: Rupee today — INR above 95 as crude nears $110",
+    "url": "https://www.kotakneo.com/news/global-markets/rupee-today-us-dollar-crude-oil-rbi-outlook/"
+   },
+   "date": "2026-10-19",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Rupee holds near 95 as RBI steps in",
+   "line": "The rupee hovers around 94.8–95.2 per dollar as RBI support offsets oil-driven pressure",
+   "more": [
+    "Friday close 94.89, a sixth straight gain",
+    "Early trade near 94.80 on RBI intervention",
+    "Oil above $105 keeps pressure on the currency"
+   ],
+   "src": {
+    "title": "Deccan Chronicle: Rupee rises 9 paise to 94.80 against US dollar",
+    "url": "https://www.deccanchronicle.com/business/economics/rupee-rises-9-paise-to-9480-against-us-dollar-crude-oil-surge-threatens-recovery-1997089"
+   },
+   "date": "2026-10-19",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "ultratech-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "UltraTech rises 2% ahead of Q2 results",
+   "line": "The cement leader trades near ₹11,132 before results and a 4 pm earnings call",
+   "more": [
+    "Shares up about 2% on NSE",
+    "One of two key Nifty results today, with Bajaj Finance",
+    "Bajaj Finance's call is at 6 pm"
+   ],
+   "src": {
+    "title": "IndiaIPO: Q2 results live — HDFC, ICICI, Axis, Yes Bank react; UltraTech, Bajaj Fin report today",
+    "url": "https://www.indiaipo.in/news/detail/q2-results-live-updates-hdfc-icici-axis-yes-bank-react-to-earnings-ultratech-bajaj-fin-report-today"
+   },
+   "date": "2026-10-19",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1200"
+   }
+  },
+  {
    "key": "bank-selloff",
    "tag": "Stocks",
    "impact": "neg",
@@ -110,7 +186,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1300"
@@ -135,7 +211,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
     "slot": "pre"
@@ -159,7 +235,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1300"
@@ -254,31 +330,6 @@
    "src": {
     "title": "IndiaIPO: Hindustan Zinc Q2 results 2026 — preview, dividend history",
     "url": "https://www.indiaipo.in/news/detail/hindustan-zinc-q2-results-2026-anil-agarwal-led-vedanta-firm-to-report-earnings-next-week-preview-dividend-history"
-   },
-   "date": "2026-10-19",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "ultratech-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "UltraTech results; earnings call at 4 pm",
-   "line": "UltraTech Cement reports Q2 FY27 today, with a 4 pm IST call on consolidated results",
-   "more": [
-    "Earnings call 4 pm IST on Oct 19",
-    "Covers the quarter to Sept 30, 2026",
-    "Q2 FY26 profit was ₹1,232 cr"
-   ],
-   "src": {
-    "title": "Kalkine: UltraTech Cement Q2 FY27 earnings call date and details",
-    "url": "https://www.kalkine.co.in/article/announcements/ultratech-cement-nseultracemco-when-is-the-q2-fy27-earnings-call-scheduled"
    },
    "date": "2026-10-19",
    "slot": "1200",
@@ -566,31 +617,6 @@
    }
   },
   {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent holds near $108 on supply attacks",
-   "line": "Oil eased from Friday's $110 but stays high on refinery and shipping attacks",
-   "more": [
-    "Ukraine struck a Russian oil refinery",
-    "Iranian attacks on ships in the Strait of Hormuz increased",
-    "Houthi attacks on Saudi Arabia continue"
-   ],
-   "src": {
-    "title": "Zee Business: Nifty, Bank Nifty near breakout levels; Anil Singhvi explains key triggers",
-    "url": "https://zeebiz.com/market-news/news-nifty-bank-nifty-near-breakout-levels-anil-singhvi-explains-key-triggers-for-market-rally-404134"
-   },
-   "date": "2026-10-19",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1130"
-   }
-  },
-  {
    "key": "yes-bank-at1",
    "tag": "Results",
    "impact": "neg",
@@ -763,31 +789,6 @@
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee near 94.8, up 1.8% this week",
-   "line": "It firmed 20 paise early on a softer dollar and RBI action; Jio IPO flows are expected",
-   "more": [
-    "Opened at 94.72 vs Thursday's 95.05 close",
-    "Dealers see Jio IPO inflows pushing it toward 94–94.50",
-    "It was near a record low last week"
-   ],
-   "src": {
-    "title": "Business Standard: Rupee rises 20 paise to 94.79 against US dollar in early trade",
-    "url": "https://www.business-standard.com/finance/news/rupee-rises-20-paise-to-94-79-against-us-dollar-during-early-trade-126101600248_1.html"
-   },
-   "date": "2026-10-16",
-   "slot": "1430",
-   "when": "Fri · 14:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1400"
    }
   },
   {

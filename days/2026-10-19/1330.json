@@ -1,0 +1,169 @@
+{
+ "asof": "2026-10-19T13:30:00+05:30",
+ "summary": "The market is pinned near its day's low, with the Sensex down about 800 points and the Nifty below 22,900, as bank-led selling shows no sign of easing before the holiday.",
+ "mood": {
+  "label": "Pinned at lows",
+  "score": -0.6,
+  "detail": {
+   "stats": [],
+   "leaders": "Nifty PSU Bank, PNB, UltraTech Cement",
+   "laggards": "HDFC Bank, ICICI Bank, Axis Bank, Nifty Smallcap 100",
+   "movers": {
+    "up": {
+     "summary": "PSU banks and UltraTech are holding up in a falling market",
+     "why": "Strong Q2 numbers are supporting state-run lenders, and UltraTech is rising ahead of its own results.",
+     "names": [
+      {
+       "name": "Nifty PSU Bank",
+       "dir": "up",
+       "line": "Still the top sector, on better margins at state-run lenders"
+      },
+      {
+       "name": "PNB",
+       "move": "up ~8%",
+       "dir": "up",
+       "line": "Q2 profit up 12.8% to ₹5,532 cr, ahead of estimates; gross NPA fell to 2.55%"
+      },
+      {
+       "name": "UltraTech Cement",
+       "move": "up ~2%",
+       "dir": "up",
+       "line": "At ₹11,132 ahead of its Q2 results, due today with a 4 pm call"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Nifty PSU Bank index surges 3%; PNB, PSB, Canara, Union Bank soar up to 8%",
+      "url": "https://www.business-standard.com/amp/markets/news/nifty-psu-bank-index-surges-3-pnb-psb-canara-union-bank-soar-up-to-8-126101900159_1.html"
+     }
+    },
+    "down": {
+     "summary": "Three private banks account for over half the Sensex fall; smallcaps slip",
+     "why": "HDFC Bank, ICICI Bank and Axis Bank are being sold after Q2, and the weakness has spread to smaller stocks.",
+     "names": [
+      {
+       "name": "HDFC Bank",
+       "dir": "down",
+       "line": "Analysts see an overhang until a successor for the deputy MD is named"
+      },
+      {
+       "name": "ICICI Bank",
+       "dir": "down",
+       "line": "Gave up early gains to become one of the three biggest Sensex drags"
+      },
+      {
+       "name": "Axis Bank",
+       "dir": "down",
+       "line": "A mixed quarter that missed Q2 earnings estimates; NIM fell to 3.36%"
+      },
+      {
+       "name": "Nifty Smallcap 100",
+       "move": "-0.75%",
+       "dir": "down",
+       "line": "Selling has spread to smaller stocks; Nifty Midcap is down 0.65%"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Sensex crashes 765 pts intraday — bank stocks, FPI selling among key factors",
+      "url": "https://www.business-standard.com/markets/news/sensex-crashes-765-pts-intraday-bank-stocks-fpi-selling-among-key-factors-126101900390_1.html"
+     }
+    }
+   },
+   "tone": "Slightly weaker than 13:00: the Sensex loss has edged to about 800 points, and the Nifty is now below 22,900.",
+   "watch": [
+    "Any late recovery before Tuesday's holiday",
+    "UltraTech and Bajaj Finance results this evening",
+    "Brent near $108–110"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex at day's low, falls 800 pts, Nifty below 22,900; bank shares weigh",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 22895,
+  "pct": -1.08,
+  "chg": -251,
+  "approx": true
+ },
+ "top": [
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent near $108 after its highest close since May",
+   "line": "Friday's $109.86 settle was the highest since May, on Hormuz shipping attacks",
+   "more": [
+    "Brent ~$108 on Monday morning",
+    "Attacks on vessels near the Strait of Hormuz disrupted flows",
+    "Higher crude raises importers' dollar demand"
+   ],
+   "src": {
+    "title": "Kotak Neo: Rupee today — INR above 95 as crude nears $110",
+    "url": "https://www.kotakneo.com/news/global-markets/rupee-today-us-dollar-crude-oil-rbi-outlook/"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Rupee holds near 95 as RBI steps in",
+   "line": "The rupee hovers around 94.8–95.2 per dollar as RBI support offsets oil-driven pressure",
+   "more": [
+    "Friday close 94.89, a sixth straight gain",
+    "Early trade near 94.80 on RBI intervention",
+    "Oil above $105 keeps pressure on the currency"
+   ],
+   "src": {
+    "title": "Deccan Chronicle: Rupee rises 9 paise to 94.80 against US dollar",
+    "url": "https://www.deccanchronicle.com/business/economics/rupee-rises-9-paise-to-9480-against-us-dollar-crude-oil-surge-threatens-recovery-1997089"
+   }
+  },
+  {
+   "key": "ultratech-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "UltraTech rises 2% ahead of Q2 results",
+   "line": "The cement leader trades near ₹11,132 before results and a 4 pm earnings call",
+   "more": [
+    "Shares up about 2% on NSE",
+    "One of two key Nifty results today, with Bajaj Finance",
+    "Bajaj Finance's call is at 6 pm"
+   ],
+   "src": {
+    "title": "IndiaIPO: Q2 results live — HDFC, ICICI, Axis, Yes Bank react; UltraTech, Bajaj Fin report today",
+    "url": "https://www.indiaipo.in/news/detail/q2-results-live-updates-hdfc-icici-axis-yes-bank-react-to-earnings-ultratech-bajaj-fin-report-today"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Business Standard: Stock Market LIVE — Sensex at day's low, falls 800 pts, Nifty below 22,900; bank shares weigh",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
+  },
+  {
+   "title": "Business Standard: Sensex crashes 765 pts intraday — bank stocks, FPI selling among key factors",
+   "url": "https://www.business-standard.com/markets/news/sensex-crashes-765-pts-intraday-bank-stocks-fpi-selling-among-key-factors-126101900390_1.html"
+  },
+  {
+   "title": "Business Standard: Nifty PSU Bank index surges 3%; PNB, PSB, Canara, Union Bank soar up to 8%",
+   "url": "https://www.business-standard.com/amp/markets/news/nifty-psu-bank-index-surges-3-pnb-psb-canara-union-bank-soar-up-to-8-126101900159_1.html"
+  },
+  {
+   "title": "IndiaIPO: Q2 results live — HDFC, ICICI, Axis, Yes Bank react; UltraTech, Bajaj Fin report today",
+   "url": "https://www.indiaipo.in/news/detail/q2-results-live-updates-hdfc-icici-axis-yes-bank-react-to-earnings-ultratech-bajaj-fin-report-today"
+  },
+  {
+   "title": "Kotak Neo: Rupee today — INR above 95 as crude nears $110",
+   "url": "https://www.kotakneo.com/news/global-markets/rupee-today-us-dollar-crude-oil-rbi-outlook/"
+  },
+  {
+   "title": "Deccan Chronicle: Rupee rises 9 paise to 94.80 against US dollar",
+   "url": "https://www.deccanchronicle.com/business/economics/rupee-rises-9-paise-to-9480-against-us-dollar-crude-oil-surge-threatens-recovery-1997089"
+  },
+  {
+   "title": "TradeBrains: Sensex & Nifty 50 live updates, 19 October",
+   "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-19-october-gift-nifty-gains-63-points-to-23128-brent-crude-falls-175-stocks-remain-in-focus-12688278"
+  }
+ ]
+}
