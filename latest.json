@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-16T16:03:24+05:30",
- "date": "2026-10-16",
- "slot": "post",
- "slot_label": "Close",
- "stage": "Post-market mood",
- "asof": "2026-10-16T16:00:00+05:30",
+ "generated_at": "2026-10-19T08:33:39+05:30",
+ "date": "2026-10-19",
+ "slot": "pre",
+ "slot_label": "Pre-open",
+ "stage": "Pre-market mood",
+ "asof": "2026-10-19T08:30:00+05:30",
  "nifty": {
   "value": 23146.15,
   "pct": 0.65,
@@ -13,87 +13,175 @@
   "approx": false
  },
  "mood": {
-  "label": "Strong IT close",
-  "score": 0.45,
-  "summary": "The Nifty closed 0.65% higher at 23,146, capping its best week in 27 weeks, but midcaps and smallcaps ended flat to lower, so the gains were narrow and large-cap led.",
+  "label": "Tepid start",
+  "score": -0.1,
+  "summary": "A muted open is likely after the Nifty's best week in 27 weeks, as GIFT Nifty trades flat to slightly negative and Asian markets slip after a tech-led selloff on Wall Street.",
   "detail": {
-   "leaders": "Nifty IT, Tech Mahindra, TCS, Infosys",
-   "laggards": "HDFC Life, Jio Financial, Nifty Midcap 100",
-   "tone": "Firmer than the 15:30 auction read: the Nifty settled at 23,146, its second straight gain, after recovering from an early drop below 23,000.",
+   "leaders": "ICICI Bank (Q2 beat)",
+   "laggards": "Yes Bank (AT1 hit), HDFC Bank (margins)",
+   "tone": "A cooler start than Friday's IT-led close at 23,146, as weak global tech cues and weekend bank results compete for direction.",
    "watch": [
-    "HDFC Bank and Yes Bank Q2 results on Saturday",
-    "Whether foreign selling eases after 15 straight sessions",
-    "Jio IPO subscription from Oct 21"
+    "How HDFC Bank trades on its squeezed margin",
+    "Whether IT holds last week's ~10% gain after the Nasdaq's 2.1% fall",
+    "Hindustan Zinc and Bajaj Finance results today"
    ],
    "src": {
-    "title": "Business Standard: Stock Market Close — Sensex gains for 2nd day, rises 414 pts, Nifty at 23,146; IT index zooms 4%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
-   },
-   "movers": {
-    "up": {
-     "summary": "IT drove the close: the sector index rose 3.92%, led by Tech Mahindra's ~8% jump",
-     "why": "A run of strong Q2 results has pulled money back into IT after months of worry about AI hurting services demand.",
-     "names": [
-      {
-       "name": "Nifty IT",
-       "dir": "up",
-       "move": "+3.92%",
-       "line": "Closed at 31,924.10; up around 10% this week, the main engine of the Nifty's gain"
-      },
-      {
-       "name": "Tech Mahindra",
-       "dir": "up",
-       "move": "+7.96%",
-       "line": "Closed at ₹1,780 after Q2 profit rose 32.7% and a 1:1 bonus was announced"
-      },
-      {
-       "name": "TCS",
-       "dir": "up",
-       "move": "+4.82%",
-       "line": "Closed at ₹2,468; its Q2 results helped restart buying across IT"
-      },
-      {
-       "name": "Infosys",
-       "dir": "up",
-       "move": "+4.61%",
-       "line": "Closed at ₹1,162.20, rallying with the sector before its Oct 23 results"
-      }
-     ],
-     "src": {
-      "title": "Newsdrum (PTI): Tech Mahindra-led IT rally propels Sensex 414 points higher, Nifty posts 27-week best",
-      "url": "https://www.newsdrum.in/business/tech-mahindra-led-it-rally-propels-sensex-414-points-higher-nifty-posts-27-week-best-12682090"
-     }
-    },
-    "down": {
-     "summary": "Q2 misses weighed on HDFC Life and Jio Financial; midcaps lagged the large caps",
-     "why": "Two financials were sold after weak September-quarter numbers, and buying stayed concentrated in large-cap IT rather than the broader market.",
-     "names": [
-      {
-       "name": "HDFC Life",
-       "dir": "down",
-       "line": "Q2 profit of ₹508 cr missed estimates; among the Nifty's top losers today"
-      },
-      {
-       "name": "Jio Financial",
-       "dir": "down",
-       "line": "Q2 profit fell 51% to ₹340 cr on higher costs and no dividend income"
-      },
-      {
-       "name": "Nifty Midcap 100",
-       "dir": "down",
-       "move": "-0.11%",
-       "line": "Ended slightly lower as buying stuck to large-cap IT; smallcaps were flat (-0.01%)"
-      }
-     ],
-     "src": {
-      "title": "Business Standard: Stock Market Close — Sensex gains for 2nd day, rises 414 pts, Nifty at 23,146; IT index zooms 4%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-16-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101600083_1.html"
-     }
-    }
+    "title": "Business Standard: Stock Market LIVE — GIFT Nifty signals tepid open; Asian markets down; Brent falls 1.5%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "hdfc-bank-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "HDFC Bank profit up 4.7%; margin squeezed",
+   "line": "Standalone profit rose to ₹19,510 cr, but NIM fell to 3.16% and treasury gains dropped",
+   "more": [
+    "NII up 9.7%; advances +16.2%, deposits +18.8%",
+    "NIM 3.16% vs 3.26% in Q1, on total assets",
+    "Treasury income fell about ₹1,610 cr; gross NPA improved to 1.11%"
+   ],
+   "src": {
+    "title": "Business Standard: HDFC Bank Q2FY27 — net profit rises 4.7% to ₹19,510 cr, NII up 9.7%",
+    "url": "https://www.business-standard.com/companies/quarterly-results/hdfc-bank-q2fy27-result-net-profit-rises-4-7-to-19-510-cr-nii-up-9-7-126101700465_1.html"
+   },
+   "date": "2026-10-19",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "yes-bank-at1",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Yes Bank: ₹5,217 cr pro-forma loss on AT1",
+   "line": "Reported profit rose 65% to ₹1,080 cr, but booking the AT1 ruling would mean a loss",
+   "more": [
+    "The AT1 impact is not in reported results; auditors qualified their review",
+    "Net worth would fall to ₹46,970 cr from ₹53,268 cr",
+    "NII +22.7% to ₹2,822 cr; gross NPA 1.2%"
+   ],
+   "src": {
+    "title": "Kotak Neo: YES Bank Q2 FY27 — AT1 ruling raises risk of a ₹5,217 crore loss",
+    "url": "https://www.kotakneo.com/news/stocks/yes-bank-share-price-and-q2-fy-27-results/"
+   },
+   "date": "2026-10-19",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "icici-bank-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "ICICI Bank profit up 20%, beats estimates",
+   "line": "Standalone profit rose to ₹14,843 cr on lower provisions; NIM dipped 12 bp",
+   "more": [
+    "Consolidated profit ₹16,333 cr, up 22.3%",
+    "NII up 17.7% to ₹25,339 cr; NIM 4.18%",
+    "Gross NPA improved to 1.20%"
+   ],
+   "src": {
+    "title": "Upstox: ICICI Bank Q2 — profit rises 20% to ₹14,843 crore, NIM down 12 bps",
+    "url": "https://upstox.com/news/market-news/earnings/icici-bank-q2-results-profit-rises-20-yo-y-to-14-843-crore-nim-down-12-basis-points-asset-quality-improves/article-202026/"
+   },
+   "date": "2026-10-19",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "wall-street",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Nasdaq fell 2.1% Friday on AI chip selling",
+   "line": "The S&P 500 and Nasdaq posted their worst week since June; the Dow eked out a weekly gain",
+   "more": [
+    "S&P 500 -1.1% to 7,659.44",
+    "Nasdaq -2.1% to 26,140.03; Dow -0.3%",
+    "Asian markets opened lower Monday; Brent down about 1.5%"
+   ],
+   "src": {
+    "title": "ABC News (AP): How major US stock indexes fared Friday 10/16/2026",
+    "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-friday-10162026-137331951"
+   },
+   "date": "2026-10-19",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs turned net buyers on Friday",
+   "line": "FIIs bought a net ₹1,166 cr while DIIs sold ₹3,661 cr, reversing Thursday's pattern",
+   "more": [
+    "Oct 16: FII +₹1,165.92 cr, DII -₹3,661.28 cr (provisional)",
+    "On Oct 15, FIIs sold ₹5,285 cr",
+    "Combined institutional net about -₹2,495 cr"
+   ],
+   "src": {
+    "title": "Multibagg: FIIs ₹1,166 cr inflow, DIIs ₹3,661 cr outflow on Oct 16",
+    "url": "https://www.multibagg.ai/market-pulse/articles/fiis-diis-flows-oct16-cmvc1sjcr000x3euhnmprc7t7"
+   },
+   "date": "2026-10-19",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Hindustan Zinc, Bajaj Finance report today",
+   "line": "HZL's board meets midday; Bajaj Finance's earnings call is at 6 pm",
+   "more": [
+    "Hindustan Zinc results due between 12 pm and 3 pm",
+    "Bajaj Finance AUM was up 26.5% YoY, per Oct 3 update",
+    "Axis Bank, DLF and UltraTech also in focus"
+   ],
+   "src": {
+    "title": "Upstox: Stocks to watch, Oct 19 — HDFC Bank, YES, Axis Bank, HFCL, Vedanta, HZL, DLF",
+    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-oct-19-hdfc-bank-yes-axis-bank-hfcl-vedanta-hzl-dlf-idbi-bank-ireda-ltts/article-202040/"
+   },
+   "date": "2026-10-19",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "1130"
+   }
+  },
   {
    "key": "it-rally",
    "tag": "Stocks",
@@ -111,37 +199,12 @@
    },
    "date": "2026-10-16",
    "slot": "post",
-   "when": "Close",
+   "when": "Fri · Close",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "FIIs sold for 15 straight sessions",
-   "line": "FII cash selling over the streak totals about ₹84,138 cr; they are net short futures",
-   "more": [
-    "Oct 15: FII -₹5,285 cr, DII +₹3,319 cr",
-    "FIIs net short ~2.8 lakh index-futures contracts",
-    "Today's provisional data was not yet published at writing"
-   ],
-   "src": {
-    "title": "Quantsapp: FII DII data",
-    "url": "https://www.quantsapp.com/fii-dii"
-   },
-   "date": "2026-10-16",
-   "slot": "post",
-   "when": "Close",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "pre"
    }
   },
   {
@@ -161,9 +224,9 @@
    },
    "date": "2026-10-16",
    "slot": "post",
-   "when": "Close",
+   "when": "Fri · Close",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "post"
@@ -186,7 +249,7 @@
    },
    "date": "2026-10-16",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Fri · 15:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -211,7 +274,7 @@
    },
    "date": "2026-10-16",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Fri · 15:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -236,7 +299,7 @@
    },
    "date": "2026-10-16",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Fri · 15:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -261,62 +324,12 @@
    },
    "date": "2026-10-16",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Fri · 15:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "yes-bank-at1",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Brokerages flag Yes Bank capital risk",
-   "line": "Citi sees a 250 bp hit to CET1 from the AT1 ruling; results are due Saturday",
-   "more": [
-    "Citi: CET1 could fall to 11.5%; book value down 13–14%",
-    "Morgan Stanley keeps underweight with a ₹17 target",
-    "Board meets Oct 17 to consider results"
-   ],
-   "src": {
-    "title": "Telangana Today: Brokerages flag capital risks for Yes Bank after SC order; stock falls nearly 4%",
-    "url": "https://telanganatoday.com/brokerages-flag-capital-risks-for-yes-bank-after-sc-order-stock-falls-nearly-4-pc"
-   },
-   "date": "2026-10-16",
-   "slot": "1430",
-   "when": "14:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "hdfc-bank-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "HDFC Bank Q2 profit seen flat",
-   "line": "Analysts expect flat profit and margins despite strong loan growth; results Saturday",
-   "more": [
-    "Single-digit growth expected in profit and NII",
-    "Options price in a ~±3.3% move by Oct 27",
-    "Shares edged up about 0.5% to ₹729 ahead of results"
-   ],
-   "src": {
-    "title": "Upstox: HDFC Bank Q2 — net profit likely flat despite strong loan growth",
-    "url": "https://upstox.com/news/market-news/earnings/hdfc-bank-q2-results-net-profit-likely-to-remain-flat-despite-strong-loan-growth-key-focus-on-nim-and-leadership-transition/article-201980/"
-   },
-   "date": "2026-10-16",
-   "slot": "1430",
-   "when": "14:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-14",
-    "slot": "1400"
    }
   },
   {
@@ -336,12 +349,12 @@
    },
    "date": "2026-10-16",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Fri · 14:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1100"
+    "date": "2026-10-09",
+    "slot": "1400"
    }
   },
   {
@@ -361,37 +374,12 @@
    },
    "date": "2026-10-16",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Fri · 14:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "wall-street",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Wall Street rebounded from steep early losses",
-   "line": "The Dow rose 1.08% Thursday as Treasury yields fell and AI-debt worries eased",
-   "more": [
-    "Dow +556 pts to 52,177.69; S&P 500 +0.33% to 7,744.06",
-    "Chip stocks lagged: Broadcom -4.35%, Micron -4.79%",
-    "Falling Treasury yields helped the turnaround"
-   ],
-   "src": {
-    "title": "HDFC Sky: US stock market close — Dow, S&P 500 and Nasdaq",
-    "url": "https://hdfcsky.com/news/us-stock-market-close-dow-sp500-nasdaq-october-16-2026"
-   },
-   "date": "2026-10-16",
-   "slot": "1400",
-   "when": "14:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "pre"
    }
   },
   {
@@ -411,7 +399,7 @@
    },
    "date": "2026-10-16",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Fri · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -436,7 +424,7 @@
    },
    "date": "2026-10-16",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Fri · 13:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -461,7 +449,7 @@
    },
    "date": "2026-10-16",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Fri · 13:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -486,7 +474,7 @@
    },
    "date": "2026-10-16",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Fri · 13:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -511,7 +499,7 @@
    },
    "date": "2026-10-16",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Fri · 13:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -536,7 +524,7 @@
    },
    "date": "2026-10-16",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Fri · 13:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -561,7 +549,7 @@
    },
    "date": "2026-10-16",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Fri · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -586,7 +574,7 @@
    },
    "date": "2026-10-16",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Fri · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -611,7 +599,7 @@
    },
    "date": "2026-10-16",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Fri · 12:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -636,7 +624,7 @@
    },
    "date": "2026-10-16",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Fri · 12:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -661,7 +649,7 @@
    },
    "date": "2026-10-16",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Fri · 12:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -686,7 +674,7 @@
    },
    "date": "2026-10-16",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Fri · 11:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -711,7 +699,7 @@
    },
    "date": "2026-10-16",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Fri · 11:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -736,12 +724,12 @@
    },
    "date": "2026-10-16",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Fri · 11:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-07",
-    "slot": "pre"
+    "date": "2026-10-08",
+    "slot": "1130"
    }
   },
   {
@@ -762,7 +750,7 @@
    },
    "date": "2026-10-16",
    "slot": "1030",
-   "when": "10:30",
+   "when": "Fri · 10:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -787,7 +775,7 @@
    },
    "date": "2026-10-16",
    "slot": "1030",
-   "when": "10:30",
+   "when": "Fri · 10:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -812,7 +800,7 @@
    },
    "date": "2026-10-16",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Fri · 10:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -836,37 +824,12 @@
    },
    "date": "2026-10-16",
    "slot": "0930",
-   "when": "9:30",
+   "when": "Fri · 9:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Big Q2 slate lands after the close",
-   "line": "Tech Mahindra, Wipro, HDFC Life, Jio Financial, HDFC AMC and Indian Bank report tonight",
-   "more": [
-    "49 companies were scheduled to report on Thursday",
-    "Tech Mahindra's board weighs a bonus issue and interim dividend",
-    "Wipro guided -1.5% to +0.5% QoQ cc revenue growth"
-   ],
-   "src": {
-    "title": "Business Standard: Q2 results today — Wipro, Nestle India, 47 others",
-    "url": "https://www.business-standard.com/companies/quarterly-results/q2-results-today-wipro-nestle-india-47-others-to-announce-earnings-126101500151_1.html"
-   },
-   "date": "2026-10-15",
-   "slot": "1530",
-   "when": "Thu · 15:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1130"
    }
   },
   {
@@ -985,8 +948,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1200"
+    "date": "2026-10-15",
+    "slot": "1030"
    }
   },
   {
@@ -1713,8 +1676,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1230"
+    "date": "2026-10-08",
+    "slot": "pre"
    }
   },
   {
@@ -1833,8 +1796,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1430"
+    "date": "2026-10-09",
+    "slot": "1100"
    }
   },
   {
@@ -2240,11 +2203,11 @@
    "date": "2026-10-08",
    "slot": "1230",
    "when": "Thu · 12:30",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-07",
-    "slot": "pre"
+    "date": "2026-10-08",
+    "slot": "1230"
    }
   },
   {
@@ -2264,10 +2227,10 @@
    "date": "2026-10-08",
    "slot": "1200",
    "when": "Thu · 12:00",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-07",
+    "date": "2026-10-08",
     "slot": "1200"
    }
   },
@@ -2413,530 +2376,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-10-08",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "bank-margins",
-   "tag": "Policy",
-   "impact": "pos",
-   "title": "No liquidity squeeze; brokers back lenders",
-   "line": "RBI stopped short of extra liquidity tightening, giving banks relief after the hike",
-   "more": [
-    "Banks reversed early losses; Kotak led Nifty gainers at midday, up 1.84%",
-    "Brokerages favour HDFC Bank, ICICI Bank, Kotak, Bajaj Finance and Tata Capital",
-    "Higher funding costs could still pressure NBFC margins"
-   ],
-   "src": {
-    "title": "Kotak Neo: Bank stocks rise after RBI rate hike; Kotak Bank, PNB gain",
-    "url": "https://www.kotakneo.com/news/sectors/rbi-rate-hike-bank-stocks-kotak-pnb-union-bank-gains/"
-   },
-   "date": "2026-10-07",
-   "slot": "post",
-   "when": "Wed · Close",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "rbi-policy",
-   "tag": "Policy",
-   "impact": "neg",
-   "title": "Day one of tightening: 25 bp hike to 5.50%",
-   "line": "Unanimous hike, the first since Feb 2023; stance moved to 'calibrated tightening'",
-   "more": [
-    "Governor Sanjay Malhotra signalled that the next move will be a hike or a pause",
-    "Rate-sensitive auto and realty stocks bore the brunt, while banks gained"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market Close – Sensex falls 429 pts, Nifty ends at 22,603 as RBI hikes rate",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
-   },
-   "date": "2026-10-07",
-   "slot": "post",
-   "when": "Wed · Close",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "rate-path",
-   "tag": "Policy",
-   "impact": "neg",
-   "title": "Street pencils in more hikes after today",
-   "line": "BofA sees 100 bps of RBI hikes through H1 2027, with the first 25 bps now delivered",
-   "more": [
-    "Several analysts expect another 25 bps hike in December",
-    "BofA cites resilient growth and broadening inflation risks",
-    "Oil at $100–110 for most of September is a key pressure"
-   ],
-   "src": {
-    "title": "Asianet Newsable: RBI may hike interest rates by 100 bps by H1 2027, says BofA",
-    "url": "https://newsable.asianetnews.com/business/rbi-may-hike-interest-rates-by-100-bps-by-h1-2027-says-bofa-articleshow-qkvcsy8"
-   },
-   "date": "2026-10-07",
-   "slot": "1530",
-   "when": "Wed · 15:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1530"
-   }
-  },
-  {
-   "key": "concor",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "CONCOR orders 12 BLSS wagon rakes",
-   "line": "₹89.09 cr contract to Eastern Railway, adding to the container fleet",
-   "more": [
-    "Rakes are bogie low container spine car wagons with BVCM brake vans",
-    "Latest fleet-expansion push under the new leadership"
-   ],
-   "src": {
-    "title": "Maritime Gateway: CONCOR places order worth Rs 89.09 crore for 12 rakes of BLSS wagons",
-    "url": "https://www.maritimegateway.com/concor-blss-wagon-order/"
-   },
-   "date": "2026-10-07",
-   "slot": "1500",
-   "when": "Wed · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "smallcap-circuits",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Select smallcaps lock upper circuits",
-   "line": "RPSG Ventures hit a 7.9% upper circuit and Advit Jewels 10%, despite the weak tape",
-   "more": [
-    "Capital Trust, Sadbhav Engineering and Kavveri Defence also locked at 5% upper circuits",
-    "No company announcements were cited for these moves"
-   ],
-   "src": {
-    "title": "MarketsMojo: RPSG Ventures locks at upper circuit",
-    "url": "https://www.marketsmojo.com/news/stocks-in-action/rpsg-ventures-ltd-surges-to-upper-circuit-on-robust-buying-pressure-4217403"
-   },
-   "date": "2026-10-07",
-   "slot": "1500",
-   "when": "Wed · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "rate-sensitives",
-   "tag": "Policy",
-   "impact": "neg",
-   "title": "Auto, realty indices stay in the red",
-   "line": "Nifty Auto is down 1.16% and Nifty Realty 0.65% after the repo hike",
-   "more": [
-    "RBI raised the repo rate 25 bps to 5.50% and shifted to 'calibrated tightening'",
-    "Rate-sensitive sectors are bearing the brunt of the reaction",
-    "Figures as of about 2 pm"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE, Oct 7 – Sensex drops nearly 500 pts; Nifty Metal down over 2%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
-   },
-   "date": "2026-10-07",
-   "slot": "1430",
-   "when": "Wed · 14:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1030"
-   }
-  },
-  {
-   "key": "pvr-inox",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "PVR Inox rallies against the tide",
-   "line": "Shares were up ₹82 at ₹1,331.4 around midday, among the day's buzzing stocks",
-   "more": [
-    "Quote as of 11:54 am; about 6.6% above the previous close",
-    "Stock hit a 52-week high in September after its buyback",
-    "No company announcement seen today to explain the move"
-   ],
-   "src": {
-    "title": "INDmoney: PVR Inox share price",
-    "url": "https://www.indmoney.com/stocks/pvr-inox-ltd-share-price"
-   },
-   "date": "2026-10-07",
-   "slot": "1400",
-   "when": "Wed · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "vodafone-idea",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Vodafone Idea among top volume movers",
-   "line": "Extends its rally after adding over 5 lakh mobile subscribers in August",
-   "more": [
-    "Subscriber base rose to 19.96 crore in August from 19.91 crore in July",
-    "Continues a run of customer additions that began in February",
-    "Among the most traded NSE stocks by volume today"
-   ],
-   "src": {
-    "title": "HDFC Sky: Trending stocks Oct 7 – Vodafone Idea, Moneyview, MobiKwik",
-    "url": "https://hdfcsky.com/news/trending-stocks-today-october-7-2026-vodafone-idea-moneyview-mobikwik-among-top-volume-movers-on-nse"
-   },
-   "date": "2026-10-07",
-   "slot": "1400",
-   "when": "Wed · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "mobikwik",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "MobiKwik climbs after block deal",
-   "line": "Shares rose after a large block deal in the previous session",
-   "more": [
-    "Among top NSE volume movers alongside Vodafone Idea and Moneyview",
-    "Moneyview led the active-stock gains after last week's debut"
-   ],
-   "src": {
-    "title": "HDFC Sky: Trending stocks Oct 7 – Vodafone Idea, Moneyview, MobiKwik",
-    "url": "https://hdfcsky.com/news/trending-stocks-today-october-7-2026-vodafone-idea-moneyview-mobikwik-among-top-volume-movers-on-nse"
-   },
-   "date": "2026-10-07",
-   "slot": "1400",
-   "when": "Wed · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "shriram-finance",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Shriram Finance slides as rates go up",
-   "line": "NBFC down about 2% and among the top Nifty losers after the RBI's hike",
-   "more": [
-    "Higher funding costs weigh on lenders that borrow from the market",
-    "Hindalco, Asian Paints and Bajaj Auto also among top losers"
-   ],
-   "src": {
-    "title": "HDFC Sky: Top gainers & losers, Oct 7, 12 pm",
-    "url": "https://hdfcsky.com/news/top-gainers-losers-october-7-2026-at-12-pm"
-   },
-   "date": "2026-10-07",
-   "slot": "1330",
-   "when": "Wed · 13:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1330"
-   }
-  },
-  {
-   "key": "kotak-bank",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Kotak Bank leads Nifty gainers",
-   "line": "Private lender tops the gainers' list as banks hold up after the hike",
-   "more": [
-    "Extends Tuesday's rally on its strong Q2 business update"
-   ],
-   "src": {
-    "title": "HDFC Sky: Top gainers & losers, Oct 7, 12 pm",
-    "url": "https://hdfcsky.com/news/top-gainers-losers-october-7-2026-at-12-pm"
-   },
-   "date": "2026-10-07",
-   "slot": "1330",
-   "when": "Wed · 13:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1330"
-   }
-  },
-  {
-   "key": "tube-investments",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Tube Investments jumps 5.3%",
-   "line": "Stock hit ₹2,445.75 intraday amid heavy options activity",
-   "more": [
-    "Rs 2,400 puts drew 2,069 contracts"
-   ],
-   "src": {
-    "title": "MarketsMojo: Put activity on Tube Investments",
-    "url": "https://www.marketsmojo.com/news/stocks-in-action/heavy-put-option-activity-signals-bearish-sentiment-in-tube-investments-of-india-ltd-4217301"
-   },
-   "date": "2026-10-07",
-   "slot": "1300",
-   "when": "Wed · 13:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "prime-focus",
-   "tag": "Regulation",
-   "impact": "neg",
-   "title": "IT Dept reportedly searches Prime Focus",
-   "line": "Tax department searches at the media-tech firm's offices reported on Oct 7",
-   "more": [
-    "Reported by Trendlyne; details still awaited"
-   ],
-   "src": {
-    "title": "Trendlyne: Market trades lower; IT Dept reportedly searches Prime Focus",
-    "url": "https://trendlyne.com/posts/5884596/market-trades-lower-it-dept-reportedly-searches-prime-focus-offices"
-   },
-   "date": "2026-10-07",
-   "slot": "1300",
-   "when": "Wed · 13:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "apollo-tyres",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Apollo Tyres CFO Gaurav Kumar resigns",
-   "line": "Resignation effective Oct 6; stock had closed flat at ₹401.55",
-   "more": [
-    "Says he is leaving to pursue opportunities outside the company"
-   ],
-   "src": {
-    "title": "ScanX: Stocks to watch, Oct 7 — Mphasis, Apollo Tyres, Om Power, Granules",
-    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-7-2026-mphasis-apollo-tyres-om-power/52882584"
-   },
-   "date": "2026-10-07",
-   "slot": "1200",
-   "when": "Wed · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "blue-dart",
-   "tag": "Regulation",
-   "impact": "neg",
-   "title": "Blue Dart arm gets ₹27.1 cr GST notice",
-   "line": "Show-cause notice to Blue Dart Aviation alleges short tax payment and excess ITC claims",
-   "more": [
-    "Issued by the Chennai South GST Commissionerate",
-    "Covers FY23–FY24 scrutiny"
-   ],
-   "src": {
-    "title": "Whalesbook: Blue Dart Aviation gets ₹27.10 cr GST show-cause notice",
-    "url": "https://www.whalesbook.com/corporate-news/English/lawcourt/Blue-Dart-Aviation-Gets-GST-Show-Cause-Notice-for-Rs-2710-Crore/6abe28d480ecbb8a5f1b2c5f"
-   },
-   "date": "2026-10-07",
-   "slot": "1130",
-   "when": "Wed · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "om-power",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Om Power Transmission wins ₹69 cr GETCO order",
-   "line": "Letter of intent for the 220 kV Prantij-Jantral line package in Gujarat",
-   "more": [
-    "Order value about ₹69.19 cr"
-   ],
-   "src": {
-    "title": "ScanX: Stocks to watch, Oct 7 — Mphasis, Apollo Tyres, Om Power, Granules",
-    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-7-2026-mphasis-apollo-tyres-om-power/52882584"
-   },
-   "date": "2026-10-07",
-   "slot": "1130",
-   "when": "Wed · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "granules",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Granules India plans ₹2,000 cr expansion",
-   "line": "Drugmaker lays out organic growth investment plans",
-   "more": [
-    "Among the stocks in focus on Oct 7"
-   ],
-   "src": {
-    "title": "ScanX: Stocks to watch, Oct 7 — Mphasis, Apollo Tyres, Om Power, Granules",
-    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-7-2026-mphasis-apollo-tyres-om-power/52882584"
-   },
-   "date": "2026-10-07",
-   "slot": "1130",
-   "when": "Wed · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "bond-yields",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "10-year yield jumps 8 bps to 7.27%",
-   "line": "Bonds sell off after the hike and hawkish stance, from 7.19% on Tuesday",
-   "more": [
-    "Higher yields raise borrowing costs for companies and the government"
-   ],
-   "src": {
-    "title": "Business Standard: Sensex down 100 pts, Nifty near 22,650; rupee weakens to 96.54",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
-   },
-   "date": "2026-10-07",
-   "slot": "1100",
-   "when": "Wed · 11:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1100"
-   }
-  },
-  {
-   "key": "rbi-growth",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "RBI raises FY27 GDP forecast to 7.1%",
-   "line": "Growth projection lifted by 40 bps, helping markets recover from the open",
-   "more": [
-    "Benchmarks pared losses after the projection was announced"
-   ],
-   "src": {
-    "title": "Business Standard: Sensex off 300 pts from low, Nifty tops 22,650 as RBI hikes FY27 GDP projection",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
-   },
-   "date": "2026-10-07",
-   "slot": "1030",
-   "when": "Wed · 10:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1030"
-   }
-  },
-  {
-   "key": "adani-ports-paradip",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Adani Ports sets up Paradip terminal arm",
-   "line": "New subsidiary will develop and run two dry-bulk berths at Paradip Port, Odisha",
-   "more": [
-    "Wholly owned unit named Paradip Mahanadi Terminal Ltd"
-   ],
-   "src": {
-    "title": "BusinessToday: Titan, HCL Tech, Adani Ports, Mphasis among stocks in focus",
-    "url": "https://www.businesstoday.in/markets/stocks/story/gift-nifty-down-120-points-titan-hcl-tech-adani-ports-mphasis-ola-electric-among-stocks-in-focus-560004-2026-10-07"
-   },
-   "date": "2026-10-07",
-   "slot": "1000",
-   "when": "Wed · 10:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "mphasis",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Mphasis wins £35.4 mn Scotland contract",
-   "line": "Extended deal to run Social Security Scotland's benefits platform for 2 mn citizens",
-   "more": [
-    "Covers maintenance of disability and heating-assistance benefit services"
-   ],
-   "src": {
-    "title": "Upstox: Mphasis signs £35.4 mn deal with Social Security Scotland",
-    "url": "https://upstox.com/news/market-news/stocks/mphasis-signs-35-4-million-deal-with-social-security-scotland-to-maintain-benefit-services-stock-in-focus/article-201383/"
-   },
-   "date": "2026-10-07",
-   "slot": "0930",
-   "when": "Wed · 9:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "utkarsh-sfb",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Utkarsh SFB Q2 disbursements jump 55%",
-   "line": "Disbursements ₹3,525 cr vs ₹2,275 cr; deposits up 6.6% to ₹23,869 cr",
-   "more": [
-    "CASA deposits up 14.3% YoY to ₹5,121 cr",
-    "Non-JLG disbursements surged 94.2% YoY",
-    "Stock closed 2.27% higher at ₹13.52 on Tuesday, before the update"
-   ],
-   "src": {
-    "title": "Upstox: Utkarsh SFB disbursements up 55% in Q2",
-    "url": "https://upstox.com/news/market-news/stocks/utkarsh-sfb-reports-55-yo-y-rise-in-disbursements-to-3-525-crore-deposits-jump-7-in-q2-check-business-updates/article-201389/"
-   },
-   "date": "2026-10-07",
-   "slot": "0930",
-   "when": "Wed · 9:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-07",
     "slot": "0930"
    }
   }
