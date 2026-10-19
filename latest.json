@@ -1,64 +1,76 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-19T14:33:02+05:30",
+ "generated_at": "2026-10-19T15:03:06+05:30",
  "date": "2026-10-19",
- "slot": "1430",
- "slot_label": "14:30",
- "stage": "Mid-market mood",
- "asof": "2026-10-19T14:30:00+05:30",
+ "slot": "1500",
+ "slot_label": "15:00",
+ "stage": "Closing mood",
+ "asof": "2026-10-19T15:00:00+05:30",
  "nifty": {
   "value": 22876.4,
   "pct": -1.17,
   "chg": -269.75,
-  "approx": false
+  "approx": true
  },
  "mood": {
-  "label": "Selloff deepens",
-  "score": -0.7,
-  "summary": "Selling has intensified, with the Sensex down about 1,000 points at the day's low and roughly ₹4.5 trillion of market value wiped out, as the slide spreads well beyond private banks.",
+  "label": "Selloff holds",
+  "score": -0.65,
+  "summary": "The market is heading into the close near its day's low, down over 1%, with only state-run banks and a few results-driven stocks holding up before Tuesday's holiday.",
   "detail": {
-   "leaders": "Nifty PSU Bank, PNB",
-   "laggards": "HDFC Bank, ICICI Bank, Axis Bank, UltraTech Cement",
-   "tone": "Clearly weaker than 14:00: by 2 PM the Sensex was down 910 points, and Business Standard now reports a fall of about 1,000 points.",
+   "leaders": "Nifty PSU Bank, PNB, Ixigo",
+   "laggards": "HDFC Bank, Axis Bank, ICICI Bank, UltraTech Cement",
+   "tone": "Little changed from 14:30: indices are still near the lows, with Business Standard's headline now showing a Sensex loss of just over 900 points.",
    "watch": [
-    "Whether the Nifty holds 22,850 into the close",
+    "Final close ahead of Tuesday's holiday",
     "Bajaj Finance results this evening",
-    "Brent near $108"
+    "Jio IPO opening on Wednesday"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex at day's low, falls 1000 pts, Nifty near 22,850; ₹4.5 trn m-cap gone",
+    "title": "Business Standard: Stock Market LIVE — Sensex at day's low, down over 900 pts, Nifty near 22,850; ₹4.5 trn m-cap gone",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
    },
    "movers": {
     "up": {
-     "summary": "PSU banks are the only real gainers, led by PNB after its Q2 beat",
-     "why": "Better margins and cleaner books at state-run lenders are keeping them higher even as the rest of the market falls.",
+     "summary": "PSU banks and a few results winners like Ixigo are bucking the selloff",
+     "why": "Strong September-quarter numbers are the only thing drawing buyers today, from state-run lenders to travel platform Ixigo.",
      "names": [
       {
        "name": "Nifty PSU Bank",
        "dir": "up",
-       "line": "Still rising at 2 PM as better deposit quality lifts PSU bank margins"
+       "line": "Still the top sector as better deposit quality lifts PSU bank margins"
       },
       {
        "name": "PNB",
        "dir": "up",
        "move": "up ~8%",
        "line": "Q2 profit up 12.8% to ₹5,532 cr, ahead of estimates; gross NPA fell to 2.55%"
+      },
+      {
+       "name": "Ixigo",
+       "dir": "up",
+       "move": "up as much as 14.9%",
+       "line": "Hit ₹165.99 on NSE after strong September-quarter results"
       }
      ],
      "src": {
-      "title": "Business Standard: Nifty PSU Bank index surges 3%; PNB, PSB, Canara, Union Bank soar up to 8%",
-      "url": "https://www.business-standard.com/amp/markets/news/nifty-psu-bank-index-surges-3-pnb-psb-canara-union-bank-soar-up-to-8-126101900159_1.html"
+      "title": "Upstox: Ixigo, PNB, HFCL, L&T among buzzing stocks; Sensex falls over 1,000 pts from day's high",
+      "url": "https://upstox.com/news/market-news/stocks/ixigo-pnb-hfcl-l-and-t-among-buzzing-stocks-sensex-falls-over-1-000-pts-from-day-s-high-nifty-below-22-900/article-202077/"
      }
     },
     "down": {
-     "summary": "Private banks lead the rout; UltraTech slips despite a 21% profit rise",
-     "why": "The three biggest private lenders are still being sold after Q2, and even good results are failing to hold up in the broad selling.",
+     "summary": "Private banks still lead the fall; UltraTech slips despite better profit",
+     "why": "HDFC Bank and Axis Bank missed expectations and remain the biggest drags, while selling has spread to financials and IT.",
      "names": [
       {
        "name": "HDFC Bank",
        "dir": "down",
-       "line": "Analysts see an overhang until a successor for the deputy MD is named"
+       "move": "down ~2%",
+       "line": "Q2 fell short of analyst expectations as margins narrowed"
+      },
+      {
+       "name": "Axis Bank",
+       "dir": "down",
+       "line": "Q2 earnings missed estimates; NIM fell to 3.36% from 3.73%"
       },
       {
        "name": "ICICI Bank",
@@ -66,26 +78,96 @@
        "line": "Gave up early gains to become one of the three biggest Sensex drags"
       },
       {
-       "name": "Axis Bank",
-       "dir": "down",
-       "line": "A mixed quarter that missed Q2 estimates; NIM fell to 3.36%"
-      },
-      {
        "name": "UltraTech Cement",
        "dir": "down",
        "move": "-1.6%",
-       "line": "At ₹10,680; margin slipped to 16.6% from 16.8% on higher input costs"
+       "line": "Margin slipped to 16.6% on higher input costs, despite 21% profit growth"
       }
      ],
      "src": {
-      "title": "Business Standard: Sensex crashes 765 pts intraday — bank stocks, FPI selling among key factors",
-      "url": "https://www.business-standard.com/markets/news/sensex-crashes-765-pts-intraday-bank-stocks-fpi-selling-among-key-factors-126101900390_1.html"
+      "title": "BusinessToday: Market crash — Sensex tanks 1,100 points from day's high; here's why",
+      "url": "https://businesstoday.in/markets/stocks/story/market-crash-sensex-tanks-1100-points-from-days-high-heres-why-d-street-is-in-the-red-562436-2026-10-19"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent holds $108 after a five-month high",
+   "line": "Oil eased from $110 but remains a key reason for today's selling, analysts say",
+   "more": [
+    "Brent hit a five-month high of $110 before easing",
+    "Higher crude strains India's current account and the rupee",
+    "Cited alongside bank results as a main driver of the fall"
+   ],
+   "src": {
+    "title": "BusinessToday: Market crash — Sensex tanks 1,100 points from day's high; here's why",
+    "url": "https://businesstoday.in/markets/stocks/story/market-crash-sensex-tanks-1100-points-from-days-high-heres-why-d-street-is-in-the-red-562436-2026-10-19"
+   },
+   "date": "2026-10-19",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-08",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "ixigo-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Ixigo jumps up to 14.9% on Q2 results",
+   "line": "LE Travenues shares hit ₹165.99 on the NSE after strong September-quarter numbers",
+   "more": [
+    "Intraday high ₹165.99",
+    "Among the few big gainers on a weak day",
+    "Rally driven by its September-quarter results"
+   ],
+   "src": {
+    "title": "Upstox: Ixigo, PNB, HFCL, L&T among buzzing stocks; Sensex falls over 1,000 pts from day's high",
+    "url": "https://upstox.com/news/market-news/stocks/ixigo-pnb-hfcl-l-and-t-among-buzzing-stocks-sensex-falls-over-1-000-pts-from-day-s-high-nifty-below-22-900/article-202077/"
+   },
+   "date": "2026-10-19",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1500"
+   }
+  },
+  {
+   "key": "mcap-wipeout",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "Sensex fell over 1,000 pts from the day's high",
+   "line": "The Sensex hit about 73,771 at the low; investors lost about ₹4.3–4.5 lakh crore",
+   "more": [
+    "Intraday low ~73,771; Nifty low ~22,861",
+    "Selloff followed a ~3% gain in both indices last week",
+    "Estimates of value lost range from ₹4.3 to ₹4.5 lakh crore"
+   ],
+   "src": {
+    "title": "Upstox: Ixigo, PNB, HFCL, L&T among buzzing stocks; Sensex falls over 1,000 pts from day's high",
+    "url": "https://upstox.com/news/market-news/stocks/ixigo-pnb-hfcl-l-and-t-among-buzzing-stocks-sensex-falls-over-1-000-pts-from-day-s-high-nifty-below-22-900/article-202077/"
+   },
+   "date": "2026-10-19",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1430"
+   }
+  },
   {
    "key": "ultratech-q2",
    "tag": "Results",
@@ -105,35 +187,10 @@
    "slot": "1430",
    "when": "14:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "mcap-wipeout",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "About ₹4.5 trn of market value wiped out",
-   "line": "Investor wealth fell about ₹4.5 trillion as the Sensex slid about 1,000 points",
-   "more": [
-    "Sensex at the day's low, down about 1,000 points",
-    "Nifty near 22,850",
-    "Private banks remain the biggest drag"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex at day's low, falls 1000 pts, Nifty near 22,850; ₹4.5 trn m-cap gone",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-q2-results-hind-zinc-share-price-today-ipo-today-126101900052_1.html"
-   },
-   "date": "2026-10-19",
-   "slot": "1430",
-   "when": "14:30",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1430"
    }
   },
   {
@@ -155,7 +212,7 @@
    "slot": "1430",
    "when": "14:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1300"
@@ -208,31 +265,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent near $108 after its highest close since May",
-   "line": "Friday's $109.86 settle was the highest since May, on Hormuz shipping attacks",
-   "more": [
-    "Brent ~$108 on Monday morning",
-    "Attacks on vessels near the Strait of Hormuz disrupted flows",
-    "Higher crude raises importers' dollar demand"
-   ],
-   "src": {
-    "title": "Kotak Neo: Rupee today — INR above 95 as crude nears $110",
-    "url": "https://www.kotakneo.com/news/global-markets/rupee-today-us-dollar-crude-oil-rbi-outlook/"
-   },
-   "date": "2026-10-19",
-   "slot": "1330",
-   "when": "13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
     "slot": "1130"
    }
   },
