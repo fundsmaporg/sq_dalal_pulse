@@ -8,9 +8,21 @@ collapsed to their most recent version.
 import json, os, glob, datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SLOTS = ["pre"] + [f"{m//60:02d}{m%60:02d}" for m in range(570, 931, 30)] + ["post"]
-LABEL = {"pre": "Pre-open", "post": "Close", **{s: f"{int(s[:2])}:{s[2:]}" for s in SLOTS[1:-1]}}
-STAGE = lambda s: "Pre-market" if s == "pre" else "Post-market" if s == "post" else ("Opening" if s <= "1000" else "Closing" if s >= "1500" else "Mid-market")
+# "outlook" is the Sunday-evening note looking ahead to Monday's open. It sorts first so
+# that if a day somehow carried both, the live pre-open note still wins as the latest.
+TIME_SLOTS = [f"{m//60:02d}{m%60:02d}" for m in range(570, 931, 30)]
+SLOTS = ["outlook", "pre"] + TIME_SLOTS + ["post"]
+LABEL = {"outlook": "Outlook", "pre": "Pre-open", "post": "Close",
+         **{s: f"{int(s[:2])}:{s[2:]}" for s in TIME_SLOTS}}
+
+def STAGE(s):
+    if s == "outlook":
+        return "Weekend outlook"
+    if s == "pre":
+        return "Pre-market mood"
+    if s == "post":
+        return "Post-market mood"
+    return ("Opening" if s <= "1000" else "Closing" if s >= "1500" else "Mid-market") + " mood"
 
 def load():
     days = {}
@@ -103,7 +115,7 @@ def main():
     out = {
         "schema": "dalal-pulse/v1",
         "generated_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=5, minutes=30))).isoformat(timespec="seconds"),
-        "date": ld, "slot": ls, "slot_label": LABEL[ls], "stage": STAGE(ls) + " mood",
+        "date": ld, "slot": ls, "slot_label": LABEL[ls], "stage": STAGE(ls),
         "asof": cur.get("asof"),
         "nifty": cur.get("nifty"),
         "mood": {"label": cur["mood"]["label"], "score": cur["mood"]["score"],

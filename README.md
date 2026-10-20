@@ -6,7 +6,7 @@ Half-hourly Indian equity market notes for the Markets Now screen, written by sc
 | Path | What it is |
 |---|---|
 | `latest.json` | **What the app reads.** Current market mood + merged, de-duplicated insights (newest first, last 7 trading days). |
-| `days/<YYYY-MM-DD>/<slot>.json` | Raw note for each slot. Slots: `pre`, `0930` … `1530`, `post`. |
+| `days/<YYYY-MM-DD>/<slot>.json` | Raw note for each slot. Slots: `outlook`, `pre`, `0930` … `1530`, `post`. |
 | `scripts/build_feed.py` | Rebuilds `latest.json` from `days/`. |
 | `.github/workflows/push.yml` | On every change to `latest.json`, POSTs it to `PULSE_ENDPOINT_URL` (repo secret), with `Authorization: Bearer PULSE_ENDPOINT_TOKEN` if set. |
 
@@ -61,6 +61,25 @@ Half-hourly Indian equity market notes for the Markets Now screen, written by sc
 ```
 
 Figures come from public news sources and can be approximate (`nifty.approx`). Use your own market feed for exact levels.
+
+### The Sunday outlook note
+
+`outlook` is a weekend slot, written on **Sunday evening** and filed under the Sunday's own
+date, looking ahead to the next trading session. It is the only note published outside
+market hours and the only one not produced by the two weekday routines — it has its own
+schedule and its own prompt in `scripts/outlook-prompt.md`.
+
+Consumers need no special handling: it is an ordinary note. `slot_label` reads `Outlook`
+and `stage` reads `Weekend outlook` rather than `… mood`, which is the cue to present it as
+a look-ahead rather than a live reading.
+
+Two differences worth knowing:
+
+- **`nifty` carries the last close**, not a prediction — there is no live level on a Sunday.
+- **`movers` is deliberately absent.** It describes what is moving right now, and nothing
+  is. `leaders` and `laggards` are still present as forward-looking lines, so a consumer
+  that makes them tappable should fall back to plain text here, exactly as it does on any
+  other note without `movers`.
 
 ### Tags are an open set
 
