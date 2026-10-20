@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-19T16:03:58+05:30",
- "date": "2026-10-19",
- "slot": "post",
- "slot_label": "Close",
- "stage": "Post-market mood",
- "asof": "2026-10-19T16:00:00+05:30",
+ "generated_at": "2026-10-20T08:33:46+05:30",
+ "date": "2026-10-20",
+ "slot": "pre",
+ "slot_label": "Pre-open",
+ "stage": "Pre-market mood",
+ "asof": "2026-10-20T08:35:00+05:30",
  "nifty": {
   "value": 22888.95,
   "pct": -1.11,
@@ -13,85 +13,176 @@
   "approx": false
  },
  "mood": {
-  "label": "Bank-led selloff",
-  "score": -0.6,
-  "summary": "The Nifty closed 1.1% lower at 22,889, snapping a two-day rally as private banks and IT were sold heavily; only state-run banks and a handful of results winners rose.",
+  "label": "Market closed",
+  "score": -0.2,
+  "summary": "Indian equities are shut today for Dussehra; trading resumes Wednesday after Monday's 1.1% bank-led fall, with the Jio IPO and fresh Q2 results set to drive the reopen.",
   "detail": {
-   "leaders": "Nifty PSU Bank, PNB, Ixigo",
-   "laggards": "HDFC Bank, Axis Bank, ICICI Bank, Nifty IT",
-   "tone": "Confirms the weak close: the Nifty settled at 22,888.95 and the Sensex at 73,852.90, slightly above the session lows.",
+   "leaders": "No trading today — NSE and BSE closed for Dussehra",
+   "laggards": "No trading today — trading resumes Wednesday, Oct 21",
+   "tone": "No session today. Monday closed weak, with the Nifty at 22,888.95 (-1.11%) as private banks and IT fell.",
    "watch": [
-    "Bajaj Finance results tonight",
-    "FII flows when trading resumes Wednesday",
-    "Jio IPO demand from Oct 21"
+    "Market reaction to Bajaj Finance's Q2 beat on Wednesday",
+    "Demand for the Jio Platforms IPO, which opens Oct 21",
+    "Whether FII selling continues after Monday's ₹1,149 cr outflow"
    ],
    "src": {
-    "title": "Zee Business: Closing Bell — Sensex loses over 1,000 pts from day's high, Nifty below 22,900; private banks, IT drag",
-    "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-loses-over-1000-pts-from-days-high-nifty-slips-below-22900-private-banks-it-stocks-drag-404161"
-   },
-   "movers": {
-    "up": {
-     "summary": "State-run banks and results winners such as Ixigo were the day's few gainers",
-     "why": "Strong September-quarter numbers drew buyers into PSU lenders and a few stocks even as the market fell.",
-     "names": [
-      {
-       "name": "Nifty PSU Bank",
-       "dir": "up",
-       "line": "The top sector all day as better deposit quality lifted PSU bank margins"
-      },
-      {
-       "name": "PNB",
-       "dir": "up",
-       "move": "up ~8%",
-       "line": "Q2 profit up 12.8% to ₹5,532 cr, ahead of estimates; gross NPA fell to 2.55%"
-      },
-      {
-       "name": "Ixigo",
-       "dir": "up",
-       "move": "up as much as 14.9%",
-       "line": "Hit ₹165.99 on NSE after strong September-quarter results"
-      }
-     ],
-     "src": {
-      "title": "Upstox: Ixigo, PNB, HFCL, L&T among buzzing stocks; Sensex falls over 1,000 pts from day's high",
-      "url": "https://upstox.com/news/market-news/stocks/ixigo-pnb-hfcl-l-and-t-among-buzzing-stocks-sensex-falls-over-1-000-pts-from-day-s-high-nifty-below-22-900/article-202077/"
-     }
-    },
-    "down": {
-     "summary": "Private banks and IT drove the fall, led by HDFC, Axis and ICICI",
-     "why": "Big private lenders were sold after disappointing Q2 numbers, and IT gave back part of last week's rally.",
-     "names": [
-      {
-       "name": "HDFC Bank",
-       "dir": "down",
-       "move": "down ~2%",
-       "line": "Q2 fell short of expectations as margins narrowed"
-      },
-      {
-       "name": "Axis Bank",
-       "dir": "down",
-       "line": "Q2 missed estimates; NIM fell to 3.36% from 3.73%"
-      },
-      {
-       "name": "ICICI Bank",
-       "dir": "down",
-       "line": "Gave up early gains to become one of the three biggest Sensex drags"
-      },
-      {
-       "name": "Nifty IT",
-       "dir": "down",
-       "line": "Profit-taking after last week's ~10% sector rally"
-      }
-     ],
-     "src": {
-      "title": "Zee Business: Closing Bell — Sensex loses over 1,000 pts from day's high, Nifty below 22,900; private banks, IT drag",
-      "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-loses-over-1000-pts-from-days-high-nifty-slips-below-22900-private-banks-it-stocks-drag-404161"
-     }
-    }
+    "title": "Zee Business: Are NSE, BSE open or closed on Dussehra on October 20?",
+    "url": "https://www.zeebiz.com/market-news/news-market-holiday-are-nse-bse-open-or-closed-on-dussehra-on-october-20-404087"
    }
   }
  },
  "insights": [
+  {
+   "key": "market-holiday",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "NSE, BSE shut for Dussehra today",
+   "line": "Equity, F&O and currency segments closed; trading resumes Wednesday, Oct 21.",
+   "more": [
+    "Oct 20 is also an NSE clearing holiday",
+    "MCX morning session closed; evening session from 5 pm open",
+    "Banks are closed for Dussehra too"
+   ],
+   "src": {
+    "title": "Zee Business: Are NSE, BSE open or closed on Dussehra on October 20?",
+    "url": "https://www.zeebiz.com/market-news/news-market-holiday-are-nse-bse-open-or-closed-on-dussehra-on-october-20-404087"
+   },
+   "date": "2026-10-20",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "bajaj-fin-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Bajaj Finance Q2 profit up 28.7%",
+   "line": "Consolidated profit ₹6,366.57 cr vs ₹4,947.76 cr a year ago; stock reacts Wednesday.",
+   "more": [
+    "NII up 23.6% to ₹13,335 cr",
+    "AUM up 26% to ₹5.85 lakh cr",
+    "Gross NPA 1.06%, net NPA 0.42%",
+    "One report put profit at ₹6,266 cr; most cite ₹6,366.57 cr"
+   ],
+   "src": {
+    "title": "Equitybulls: Bajaj Finance Q2 FY27 net profit rises 28.68% to ₹6,366.57 cr",
+    "url": "https://www.equitybulls.com/news/377242/bajaj-finance-q2-fy27-consolidated-net-profit-rises-28-68-yoy-to-6-366-57-crore"
+   },
+   "date": "2026-10-20",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "FIIs sold ₹1,149 cr on Monday",
+   "line": "DIIs bought ₹3,201 cr, more than absorbing the foreign selling (provisional).",
+   "more": [
+    "FIIs bought ₹11,241 cr, sold ₹12,389 cr",
+    "DIIs bought ₹14,781 cr, sold ₹11,580 cr",
+    "Figures are provisional NSE data"
+   ],
+   "src": {
+    "title": "NiftyTrader: FII DII data today",
+    "url": "https://www.niftytrader.in/fii-dii-data"
+   },
+   "date": "2026-10-20",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Jio Platforms IPO opens Wednesday",
+   "line": "₹30,213 cr all-fresh issue at ₹1,065–1,119; bidding Oct 21–23, listing Oct 28.",
+   "more": [
+    "Lot of 12 shares; ₹13,428 at the upper band",
+    "Grey-market premium about ₹250 (unofficial)",
+    "Allotment expected Oct 26"
+   ],
+   "src": {
+    "title": "Chittorgarh: Jio Platforms IPO details",
+    "url": "https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/"
+   },
+   "date": "2026-10-20",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "wall-street",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Nasdaq up 1.1% as US tech rebounds",
+   "line": "S&P 500 rose 0.41% to 7,690.73 on Monday; the Dow slipped 0.07%.",
+   "more": [
+    "Nasdaq closed at 26,430.89",
+    "Tech bounced after last week's AI-driven selloff",
+    "Meta and Tesla report Wednesday after the US close"
+   ],
+   "src": {
+    "title": "TheStreet: Stock market today Oct 19, 2026 — Nasdaq climbs as tech rebounds",
+    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-oct-19-2026-nasdaq-futures-climb-as-tech-rebound-from-sell-off"
+   },
+   "date": "2026-10-20",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Brent eases from $110 high",
+   "line": "Brent near $108 on Monday after a five-month high; still elevated for India.",
+   "more": [
+    "Friday settlement of $109.86 was highest since May 19",
+    "US move to ease Russia sanctions weighed on prices",
+    "IEA members pledged to finish 100 mn bbl stock release"
+   ],
+   "src": {
+    "title": "Mitrade: Brent slips from $110 as Russian supply prospects return",
+    "url": "https://www.mitrade.com/insights/commodity-analysis/oil-news/brent-slips-from-110-russian-supply-20261019J1430"
+   },
+   "date": "2026-10-20",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-09",
+    "slot": "pre"
+   }
+  },
   {
    "key": "bank-selloff",
    "tag": "Stocks",
@@ -109,37 +200,12 @@
    },
    "date": "2026-10-19",
    "slot": "post",
-   "when": "Close",
+   "when": "Mon · Close",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1300"
-   }
-  },
-  {
-   "key": "bajaj-fin-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Bajaj Finance results due tonight",
-   "line": "Analysts expect profit up 26–29% to ₹6,250–6,390 cr on 26.5% AUM growth",
-   "more": [
-    "Year-ago profit ₹4,948 cr",
-    "NII seen at ₹12,950–13,390 cr",
-    "Reaction comes Wednesday, after the holiday"
-   ],
-   "src": {
-    "title": "Upstox: Bajaj Finance Q2 preview — NII and net profit likely to see double-digit growth",
-    "url": "https://upstox.com/news/market-news/earnings/bajaj-finance-q2-results-nii-and-net-profit-likely-to-see-double-digit-growth-driven-by-strong-aum-and-loan-growth/article-202049/"
-   },
-   "date": "2026-10-19",
-   "slot": "post",
-   "when": "Close",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1400"
    }
   },
   {
@@ -159,37 +225,12 @@
    },
    "date": "2026-10-19",
    "slot": "post",
-   "when": "Close",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1530"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent holds $108 after a five-month high",
-   "line": "Oil eased from $110 but remains a key reason for today's selling, analysts say",
-   "more": [
-    "Brent hit a five-month high of $110 before easing",
-    "Higher crude strains India's current account and the rupee",
-    "Cited alongside bank results as a main driver of the fall"
-   ],
-   "src": {
-    "title": "BusinessToday: Market crash — Sensex tanks 1,100 points from day's high; here's why",
-    "url": "https://businesstoday.in/markets/stocks/story/market-crash-sensex-tanks-1100-points-from-days-high-heres-why-d-street-is-in-the-red-562436-2026-10-19"
-   },
-   "date": "2026-10-19",
-   "slot": "1500",
-   "when": "15:00",
+   "when": "Mon · Close",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1130"
+    "date": "2026-10-19",
+    "slot": "1530"
    }
   },
   {
@@ -209,7 +250,7 @@
    },
    "date": "2026-10-19",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Mon · 15:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -234,7 +275,7 @@
    },
    "date": "2026-10-19",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Mon · 15:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -259,37 +300,12 @@
    },
    "date": "2026-10-19",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Mon · 14:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "market-holiday",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "No trading Tuesday; Jio IPO opens Wednesday",
-   "line": "Markets shut on Oct 20 for Dussehra; positions carry over to Wednesday",
-   "more": [
-    "Trading resumes Wednesday, Oct 21",
-    "Jio Platforms IPO opens the same day",
-    "Today's results reactions will play out on Wednesday"
-   ],
-   "src": {
-    "title": "TradeBrains: Sensex & Nifty 50 live updates, 19 October",
-    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-19-october-gift-nifty-gains-63-points-to-23128-brent-crude-falls-175-stocks-remain-in-focus-12688278"
-   },
-   "date": "2026-10-19",
-   "slot": "1400",
-   "when": "14:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1130"
    }
   },
   {
@@ -309,37 +325,12 @@
    },
    "date": "2026-10-19",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Mon · 13:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "FPIs have sold a record ₹3.12 trn this year",
-   "line": "Analysts doubt FII buying will last with crude at $108; the FM flags outflow risk",
-   "more": [
-    "Record ₹3.12 trn of FPI selling so far in 2026",
-    "Sitharaman reportedly flagged capital outflows as a key 2027 risk",
-    "Geojit: rupee strength helped, but high crude is a headwind"
-   ],
-   "src": {
-    "title": "Business Standard: Sensex crashes 765 pts intraday — bank stocks, FPI selling among key factors",
-    "url": "https://www.business-standard.com/markets/news/sensex-crashes-765-pts-intraday-bank-stocks-fpi-selling-among-key-factors-126101900390_1.html"
-   },
-   "date": "2026-10-19",
-   "slot": "1300",
-   "when": "13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "pre"
    }
   },
   {
@@ -358,7 +349,7 @@
    },
    "date": "2026-10-19",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Mon · 13:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -383,7 +374,7 @@
    },
    "date": "2026-10-19",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Mon · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -408,7 +399,7 @@
    },
    "date": "2026-10-19",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Mon · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -433,7 +424,7 @@
    },
    "date": "2026-10-19",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Mon · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -458,7 +449,7 @@
    },
    "date": "2026-10-19",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Mon · 12:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -483,7 +474,7 @@
    },
    "date": "2026-10-19",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Mon · 12:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -508,37 +499,12 @@
    },
    "date": "2026-10-19",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Mon · 11:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Jio IPO opens Wednesday after the holiday",
-   "line": "The ~₹30,213 cr issue runs Oct 21–23 at ₹1,065–1,119 a share",
-   "more": [
-    "Lot size 12 shares",
-    "Allotment Oct 26; listing expected Oct 28",
-    "Grey-market premium was about ₹221 last week"
-   ],
-   "src": {
-    "title": "InvestorGain: Jio Platforms IPO details, GMP and dates",
-    "url": "https://www.investorgain.com/ipo/jio-platforms-ipo/2306/"
-   },
-   "date": "2026-10-19",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
    }
   },
   {
@@ -558,7 +524,7 @@
    },
    "date": "2026-10-19",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Mon · 11:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -583,7 +549,7 @@
    },
    "date": "2026-10-19",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Mon · 11:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -608,7 +574,7 @@
    },
    "date": "2026-10-19",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Mon · 11:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -633,7 +599,7 @@
    },
    "date": "2026-10-19",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Mon · 11:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -658,7 +624,7 @@
    },
    "date": "2026-10-19",
    "slot": "1030",
-   "when": "10:30",
+   "when": "Mon · 10:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -683,7 +649,7 @@
    },
    "date": "2026-10-19",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Mon · 10:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -708,7 +674,7 @@
    },
    "date": "2026-10-19",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Mon · 10:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -733,37 +699,12 @@
    },
    "date": "2026-10-19",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Mon · Pre-open",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "wall-street",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Nasdaq fell 2.1% Friday on AI chip selling",
-   "line": "The S&P 500 and Nasdaq posted their worst week since June; the Dow eked out a weekly gain",
-   "more": [
-    "S&P 500 -1.1% to 7,659.44",
-    "Nasdaq -2.1% to 26,140.03; Dow -0.3%",
-    "Asian markets opened lower Monday; Brent down about 1.5%"
-   ],
-   "src": {
-    "title": "ABC News (AP): How major US stock indexes fared Friday 10/16/2026",
-    "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-friday-10162026-137331951"
-   },
-   "date": "2026-10-19",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "pre"
    }
   },
   {
@@ -1009,11 +950,11 @@
    "date": "2026-10-16",
    "slot": "1300",
    "when": "Fri · 13:00",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1030"
+    "date": "2026-10-16",
+    "slot": "1300"
    }
   },
   {
@@ -1823,8 +1764,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-08",
-    "slot": "0930"
+    "date": "2026-10-12",
+    "slot": "1230"
    }
   },
   {
@@ -2109,11 +2050,11 @@
    "date": "2026-10-09",
    "slot": "1530",
    "when": "Fri · 15:30",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1200"
+    "date": "2026-10-09",
+    "slot": "1530"
    }
   },
   {
@@ -2136,7 +2077,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-08",
+    "date": "2026-10-09",
     "slot": "pre"
    }
   },
@@ -2280,8 +2221,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1100"
+    "date": "2026-10-09",
+    "slot": "0930"
    }
   },
   {
@@ -2403,440 +2344,6 @@
    "first_seen": {
     "date": "2026-10-09",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "adani-ent",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Adani Ent, JSW Steel, Max Healthcare top losers",
-   "line": "The three ended as the biggest Nifty 50 decliners; metals were the worst sector",
-   "more": [
-    "Adani Enterprises was down about 4.8% at noon",
-    "Max Healthcare hit a 52-week low on Wednesday"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market Close – Sensex tanks 1,045 pts, Nifty ends at 22,232 as oil tops $104; VIX jumps 10%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
-   },
-   "date": "2026-10-08",
-   "slot": "post",
-   "when": "Thu · Close",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1030"
-   }
-  },
-  {
-   "key": "bajaj-finance",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "SBI Life, Bajaj Finance end as top losers",
-   "line": "Both stayed among the top Nifty 50 losers through the session after the RBI hike",
-   "more": [
-    "Realty was the weakest sector index",
-    "IT was the top-performing sector"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex plunges 1,177, Nifty at 22,216 in closing auction session",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
-   },
-   "date": "2026-10-08",
-   "slot": "1530",
-   "when": "Thu · 15:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1100"
-   }
-  },
-  {
-   "key": "selloff-drivers",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Three triggers behind today's 1% crash",
-   "line": "Crude's renewed jump, rising bond yields and rate-hike expectations sank the market",
-   "more": [
-    "Business Standard's explainer cites all three as drivers",
-    "US 10-year yield touched 5.36% overnight; the RBI hiked a day earlier",
-    "Poor El Niño-linked monsoon rains are adding to price pressures"
-   ],
-   "src": {
-    "title": "Business Standard: D-St meltdown explained – Sensex tanks 945 pts intraday, Nifty below 22,350",
-    "url": "https://www.business-standard.com/markets/news/market-crash-explained-sensex-tanks-780-pts-intraday-nifty-below-22-350-126100800440_1.html"
-   },
-   "date": "2026-10-08",
-   "slot": "1500",
-   "when": "Thu · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "itc",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "ITC slumps as much as 4.5%",
-   "line": "FMCG heavyweight is among the sharpest Sensex losers today",
-   "more": [
-    "Was down about 3.7% at noon",
-    "No company-specific trigger reported"
-   ],
-   "src": {
-    "title": "Upstox: SENSEX tanks over 1,000 pts, NIFTY below 22,300; Senco Gold, TCS, Fino Payments Bank among buzzing stocks",
-    "url": "https://upstox.com/news/market-news/stocks/senco-gold-tcs-fino-payments-bank-among-buzzing-stocks-as-sensex-tanks-over-1-000-pts-nifty-trades-below-22-400/article-201527/"
-   },
-   "date": "2026-10-08",
-   "slot": "1500",
-   "when": "Thu · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "vedanta",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Vedanta falls despite first FY27 dividend",
-   "line": "Shares fell as much as 2.8% to ₹254.05 after the board approved an interim dividend",
-   "more": [
-    "Metals are among the day's worst-hit sectors",
-    "Board approval came at Thursday's meeting"
-   ],
-   "src": {
-    "title": "Upstox: SENSEX tanks over 1,000 pts, NIFTY below 22,300; Senco Gold, TCS, Fino Payments Bank among buzzing stocks",
-    "url": "https://upstox.com/news/market-news/stocks/senco-gold-tcs-fino-payments-bank-among-buzzing-stocks-as-sensex-tanks-over-1-000-pts-nifty-trades-below-22-400/article-201527/"
-   },
-   "date": "2026-10-08",
-   "slot": "1500",
-   "when": "Thu · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "investor-wealth",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "Over ₹11 trillion of market value wiped out",
-   "line": "BSE market cap fell ₹11.15 trn to ₹461.20 trn from Wednesday's close",
-   "more": [
-    "Driven by the oil spike and the hawkish RBI",
-    "Selling spans large, mid and small caps"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex tanks 1,100 points, Nifty tests 22,200; over ₹11 trillion m-cap gone",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"
-   },
-   "date": "2026-10-08",
-   "slot": "1430",
-   "when": "Thu · 14:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1430"
-   }
-  },
-  {
-   "key": "omc-stocks",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "OMC, aviation, paint, tyre stocks slide",
-   "line": "Oil-sensitive names are down about 1–5%, with HPCL and BPCL among major losers",
-   "more": [
-    "Brent's jump above $102 squeezes OMC marketing margins",
-    "Jet fuel is close to half of airline operating costs"
-   ],
-   "src": {
-    "title": "Nagpur Today: Crude oil surge hits oil-sensitive stocks",
-    "url": "https://nagpurtoday.in/crude-oil-surge-hits-oil-sensitive-stocks"
-   },
-   "date": "2026-10-08",
-   "slot": "1430",
-   "when": "Thu · 14:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1430"
-   }
-  },
-  {
-   "key": "midday-losers",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "ITC, Bharat Electronics among top losers",
-   "line": "ITC and Bharat Electronics are among the top Sensex losers today",
-   "more": [
-    "ITC was down 3.7% at noon",
-    "No stock-specific triggers reported"
-   ],
-   "src": {
-    "title": "Equitymaster: Sensex today trades lower; Nifty below 22,500; ITC, Bharat Elec top losers",
-    "url": "https://www.equitymaster.com/indian-share-markets/10/08/2026/Sensex-Today-Trades-Lower--Nifty-Below-22500--ITC--Bharat-Elec-Top-Losers"
-   },
-   "date": "2026-10-08",
-   "slot": "1430",
-   "when": "Thu · 14:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "asia",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Kospi falls nearly 2% on Samsung results",
-   "line": "Regional selling deepened as South Korea's benchmark slid after Samsung's numbers",
-   "more": [
-    "Adds to pressure from higher US yields and oil",
-    "Asian markets were already weak in the morning"
-   ],
-   "src": {
-    "title": "Sunday Guardian: KOSPI today, October 8 – index falls nearly 2%; Samsung results",
-    "url": "https://sundayguardianlive.com/business/kospi-today-october-8-index-falls-nearly-2-check-top-gainers-and-losers-samsung-results-and-reasons-behind-the-market-selloff-301181"
-   },
-   "date": "2026-10-08",
-   "slot": "1400",
-   "when": "Thu · 14:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "max-healthcare",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Max Healthcare slides again after 52-week low",
-   "line": "Down about 3.5% at noon after hitting a 52-week low of ₹891.15 on Wednesday",
-   "more": [
-    "Hospital stocks have been under pressure since Sept 30 Supreme Court remarks on drug pricing",
-    "Stock fell 6.82% in the week to Oct 2"
-   ],
-   "src": {
-    "title": "MarketsMojo: Max Healthcare falls to 52-week low of Rs 891.15",
-    "url": "https://marketsmojo.com/news/stocks-in-action/max-healthcare-institute-ltd-stock-hits-52-week-low-amid-market-downturn-4217579"
-   },
-   "date": "2026-10-08",
-   "slot": "1300",
-   "when": "Thu · 13:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "titan",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Titan rebounds to lead Nifty gainers",
-   "line": "Up 1.34% to ₹4,435.80 at noon after Wednesday's 3.8% drop on its Q2 update",
-   "more": [
-    "TCS (+1.2%) and HCL Tech (+0.76%) also among the gainers ahead of results",
-    "Brokerages kept Buy ratings on Titan after the Q2 miss"
-   ],
-   "src": {
-    "title": "HDFC Sky: Top gainers & losers, October 8, 2026 at 12:00 PM IST",
-    "url": "https://hdfcsky.com/news/top-gainers-losers-october-8-2026-at-12-pm"
-   },
-   "date": "2026-10-08",
-   "slot": "1230",
-   "when": "Thu · 12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "ola-electric",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Ola Electric fixes rights issue at ₹27",
-   "line": "Board approved 37.02 cr rights shares worth ₹999.73 cr, priced at ₹27 each",
-   "more": [
-    "Issue is of partly paid-up shares",
-    "Stock closed at ₹35.96 on Tuesday; the price is a steep discount"
-   ],
-   "src": {
-    "title": "Business Standard: Stocks to watch – TCS, Paytm, Tata Power, Ola, Tata Steel, Varun Bev",
-    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-october-8-paytm-tata-power-ola-electric-tata-steel-varun-bev-126100800120_1.html"
-   },
-   "date": "2026-10-08",
-   "slot": "1200",
-   "when": "Thu · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "jubilant-foodworks",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Jubilant FoodWorks Q2 revenue up 11.9%",
-   "line": "Consolidated revenue rose to ₹2,608.7 cr; the stock gained in early trade",
-   "more": [
-    "Rallied alongside Senco Gold on strong Q2 updates",
-    "Domino's operator is a bellwether for discretionary demand"
-   ],
-   "src": {
-    "title": "ScanX: Stocks to watch today, October 8, 2026 – Fino Payments Bank, Jubilant FoodWorks, Senco Gold",
-    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-8-2026-fino-payments-bank-jubilant/52968961"
-   },
-   "date": "2026-10-08",
-   "slot": "1200",
-   "when": "Thu · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "tata-steel",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Tata Steel slips despite output jump",
-   "line": "Shares fell about 1.7% even as India crude steel output rose 10% YoY",
-   "more": [
-    "Q2 India deliveries were 5.97 mt",
-    "Nifty Metal fell over 2% on Wednesday"
-   ],
-   "src": {
-    "title": "ScanX: Stocks to watch today, October 8, 2026 – Fino Payments Bank, Jubilant FoodWorks, Senco Gold",
-    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-8-2026-fino-payments-bank-jubilant/52968961"
-   },
-   "date": "2026-10-08",
-   "slot": "1200",
-   "when": "Thu · 12:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "vishal-nirmiti-listing",
-   "tag": "Listing",
-   "impact": "neg",
-   "title": "Vishal Nirmiti lists below IPO price",
-   "line": "Debuted at ₹215 on NSE and BSE versus the ₹220 issue price, about 2.3% lower",
-   "more": [
-    "IPO was subscribed only 1.79 times overall",
-    "Shares listed on both NSE and BSE on Thursday"
-   ],
-   "src": {
-    "title": "HDFC Sky: Vishal Nirmiti lists at ₹215, slips 2% below IPO price",
-    "url": "https://hdfcsky.com/news/vishal-nirmiti-shares-decline-2-3-percent-on-debut"
-   },
-   "date": "2026-10-08",
-   "slot": "1130",
-   "when": "Thu · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "senco-gold",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Senco Gold jumps 8% on Q2 update",
-   "line": "Opened 8% higher, then traded about 5.5% up by 9:20 am, bucking the weak market",
-   "more": [
-    "Retail revenue growth accelerated to 29% YoY",
-    "Highest-ever first-half topline, above ₹5,000 cr"
-   ],
-   "src": {
-    "title": "Business Standard: Senco Gold jumps 8% on Q2 biz update; achieves highest-ever topline in H1",
-    "url": "https://business-standard.com/markets/news/senco-gold-jumps-8-on-q2-biz-update-achieves-highest-ever-topline-in-h1-126100800190_1.html"
-   },
-   "date": "2026-10-08",
-   "slot": "1030",
-   "when": "Thu · 10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "fed-minutes",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Fed minutes on September hike in focus",
-   "line": "September meeting lifted US rates to 3.75–4.00%, the first Fed hike since 2023",
-   "more": [
-    "Projections pointed to one more hike in 2026",
-    "Soft jobs and inflation data since then cut October hike odds to about 20%",
-    "Minutes were due for release on Oct 7 at 2 pm ET"
-   ],
-   "src": {
-    "title": "investingLive: Fed minutes preview – one more hike guidance meets softer data",
-    "url": "https://investinglive.com/central-banks/fed-minutes-preview-one-more-hike-guidance-meets-softer-data-as-october-odds-fade/"
-   },
-   "date": "2026-10-08",
-   "slot": "1000",
-   "when": "Thu · 10:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "paytm",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Paytm slide unexplained so far",
-   "line": "Stock fell 7% early; no exchange disclosure seen yet explaining the drop",
-   "more": [
-    "Earlier block deals (May 2026, Nov 2025) caused similar sharp falls",
-    "Watch exchange filings for a large-deal print"
-   ],
-   "src": {
-    "title": "India TV: 8 October 2026 stock market updates – Paytm falls 7%",
-    "url": "https://www.indiatvnews.com/business/markets/8-october-2026-stock-market-updates-sensex-nifty-flat-after-rbi-s-repo-rate-hike-paytm-falls-7-2026-10-08-1056387"
-   },
-   "date": "2026-10-08",
-   "slot": "1000",
-   "when": "Thu · 10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-08",
-    "slot": "0930"
    }
   }
  ]
