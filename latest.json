@@ -1,71 +1,71 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-21T11:36:39+05:30",
+ "generated_at": "2026-10-21T12:04:18+05:30",
  "date": "2026-10-21",
- "slot": "1130",
- "slot_label": "11:30",
+ "slot": "1200",
+ "slot_label": "12:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-21T11:30:00+05:30",
+ "asof": "2026-10-21T12:00:00+05:30",
  "nifty": {
-  "value": 23000,
-  "pct": 0.48,
-  "approx": true
+  "value": 22824.45,
+  "pct": -0.28,
+  "chg": -64.5,
+  "approx": false
  },
  "mood": {
-  "label": "Steady, IT-led",
-  "score": 0.2,
-  "summary": "The market is holding a modest gain around 23,000 in a range-bound late morning, with IT still the main support and broader indices little changed.",
+  "label": "Gains erased",
+  "score": -0.15,
+  "summary": "The morning rally has fully unravelled: benchmarks have slipped into the red, about 800 Sensex points off the day's high, with autos sliding and broader selling replacing the early optimism.",
   "detail": {
-   "leaders": "Nifty IT, L&T Technology Services",
+   "leaders": "IT stocks, L&T Technology Services",
    "laggards": "Bajaj Finance, Bajaj Finserv",
-   "tone": "Little changed from the 1100 note: the index has stopped fading and is holding near 23,000, though without fresh momentum.",
+   "tone": "A sharp turn from the 1130 note: the index has slipped below Monday's close as profit booking, elevated crude and resistance near 23,100 snuffed out the rally; Nifty Auto is down over 2%.",
    "watch": [
-    "Any formal India-US trade deal announcement",
-    "Whether private banks start to participate",
-    "Eternal Q2 numbers after the close"
+    "Whether the Nifty holds 22,800",
+    "A recovery in autos and financials",
+    "Any formal word on the India-US trade deal"
    ],
    "src": {
-    "title": "Zee Business: Sensex jumps nearly 400 pts, Nifty above 23,000; IT, PSU bank stocks lead",
-    "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-jumps-nearly-400-points-nifty-above-23000-it-psu-bank-stocks-lead-gains-404238"
+    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex off 800 pts from day's high, Nifty below 22,900; Nifty Auto falls over 2%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT continues to carry the market, with LTTS the standout gainer",
-     "why": "The post-results rally in IT services is extending, and IT led the early gains on India-US trade deal hopes.",
+     "summary": "IT is the only real pocket of strength left, led by LTTS",
+     "why": "Post-results buying in IT services continues even as the wider market gives up its gains.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "move": "+2.0%",
-       "line": "Strongest sector index today; Infosys was the top Nifty gainer at the open"
+       "line": "IT and telecom stocks saw buying through the morning; Infosys, TCS led gains"
       },
       {
        "name": "L&T Technology Services",
        "dir": "up",
        "move": "up ~15%",
-       "line": "Q2 profit rose to ₹548 cr, beating estimates; stock hit ₹4,143"
+       "line": "Q2 profit rose to ₹548 cr, beating estimates"
       }
      ],
      "src": {
-      "title": "Business Standard: Nifty IT index hits high; LTTS zooms 15%",
-      "url": "https://www.business-standard.com/markets/news/nifty-it-index-hits-8-month-high-ltts-zooms-15-on-wednesday-here-s-why-126102100228_1.html"
+      "title": "Equitymaster: Sensex rallies 794 points, Nifty above 23,100 (10:30 am)",
+      "url": "https://www.equitymaster.com/indian-share-markets/10/21/2026/Sensex-Today-Rallies-794-Points--Nifty-Above-23100--Infosys--TCS-Top-Gainers"
      }
     },
     "down": {
-     "summary": "Bajaj group stocks remain the main drag on the Nifty",
-     "why": "Bajaj Finance's guidance for pressure on lending margins has overshadowed its 29% profit growth.",
+     "summary": "Bajaj group financials remain the heaviest stock-specific drag",
+     "why": "Bajaj Finance's guidance for pressure on lending margins prompted target cuts despite strong Q2 profit.",
      "names": [
       {
        "name": "Bajaj Finance",
        "dir": "down",
        "move": "down ~2.6–3%",
-       "line": "Biggest Nifty loser; brokerages trimmed targets on margin worries"
+       "line": "Biggest Nifty loser after flagging margin pressure from funding costs"
       },
       {
        "name": "Bajaj Finserv",
        "dir": "down",
        "move": "-0.5%",
-       "line": "Holding company of Bajaj Finance slips with its lending arm"
+       "line": "Holding company slips with its lending arm"
       }
      ],
      "src": {
@@ -77,6 +77,78 @@
   }
  },
  "insights": [
+  {
+   "key": "volatility",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Profit booking wipes out the morning rally",
+   "line": "Sellers emerged near 23,100 as elevated crude and resistance levels capped gains.",
+   "more": [
+    "Sensex is ~800 pts below its intraday high",
+    "Nifty Auto is down over 2%; most stocks are declining"
+   ],
+   "src": {
+    "title": "NewsBytes: Sensex down 600 points from high, Nifty dips below 22,950",
+    "url": "https://www.newsbytesapp.com/news/business/sensex-down-600-points-and-nifty-dips-below-22950/tldr"
+   },
+   "date": "2026-10-21",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee gains 29 paise to 94.62/$",
+   "line": "Rupee firmed in early trade; an analyst sees a 94.00–94.75 range today.",
+   "more": [
+    "Opened at 94.78, then touched 94.62",
+    "High oil prices remain a drag on the currency"
+   ],
+   "src": {
+    "title": "Business Standard: Rupee rises 29 paise to 94.62 against US dollar in early trade",
+    "url": "https://www.business-standard.com/finance/news/rupee-rises-29-paise-to-94-62-against-us-dollar-during-early-trade-126102100233_1.html"
+   },
+   "date": "2026-10-21",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Jio IPO: retail slow, institutions lead",
+   "line": "QIBs ~3.25x by late morning; retail ~0.25x and NII ~0.26x on day one.",
+   "more": [
+    "Grey-market premium ~₹265, or ~23.7% (unofficial)",
+    "Bidding closes Oct 23"
+   ],
+   "src": {
+    "title": "IIFL: Jio IPO live — fully subscribed within hours; GMP and live status",
+    "url": "https://www.indiainfoline.com/news/ipo/jio-ipo-live-indias-biggest-ipo-fully-subscribed-within-hours-of-going-public-check-gmp-and-live-subscription-status"
+   },
+   "date": "2026-10-21",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "pre"
+   }
+  },
   {
    "key": "india-us-trade",
    "tag": "Policy",
@@ -96,7 +168,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1330"
@@ -120,58 +192,10 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Jio IPO covered in under 35 minutes",
-   "line": "Book was about 1.01x subscribed by 10:34 am on day one, led by institutions.",
-   "more": [
-    "Issue stays open until Oct 23",
-    "Grey market points to a listing gain of nearly 25% (unofficial)"
-   ],
-   "src": {
-    "title": "Business Standard: Jio Platforms IPO fully subscribed in less than 35 minutes",
-    "url": "https://www.business-standard.com/amp/markets/ipo/jio-platforms-ipo-subscription-qib-retail-anchor-investor-126102100328_1.html"
-   },
-   "date": "2026-10-21",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "volatility",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "'Sell on rally' trend seen continuing",
-   "line": "A strategist says crude and US yields may keep near-term rallies capped.",
-   "more": [
-    "Sensex hit about +800 pts intraday before paring",
-    "Nifty PSU Bank (+0.74%) and Metal (+0.70%) also up early"
-   ],
-   "src": {
-    "title": "The Tribune: Sensex jumps 571 points on India-US trade deal optimism",
-    "url": "https://www.tribuneindia.com/news/business/sensex-jumps-571-points-nifty-rises-167-points-on-india-us-trade-deal-optimism"
-   },
-   "date": "2026-10-21",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1230"
    }
   },
   {
@@ -543,31 +567,6 @@
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "Rupee holds near 95 as RBI steps in",
-   "line": "The rupee hovers around 94.8–95.2 per dollar as RBI support offsets oil-driven pressure",
-   "more": [
-    "Friday close 94.89, a sixth straight gain",
-    "Early trade near 94.80 on RBI intervention",
-    "Oil above $105 keeps pressure on the currency"
-   ],
-   "src": {
-    "title": "Deccan Chronicle: Rupee rises 9 paise to 94.80 against US dollar",
-    "url": "https://www.deccanchronicle.com/business/economics/rupee-rises-9-paise-to-9480-against-us-dollar-crude-oil-surge-threatens-recovery-1997089"
-   },
-   "date": "2026-10-19",
-   "slot": "1330",
-   "when": "Mon · 13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-12",
-    "slot": "0930"
    }
   },
   {
