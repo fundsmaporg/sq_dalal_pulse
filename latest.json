@@ -1,72 +1,65 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-21T10:33:26+05:30",
+ "generated_at": "2026-10-21T11:03:20+05:30",
  "date": "2026-10-21",
- "slot": "1030",
- "slot_label": "10:30",
+ "slot": "1100",
+ "slot_label": "11:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-21T10:30:00+05:30",
+ "asof": "2026-10-21T11:00:00+05:30",
  "nifty": {
-  "value": 23033,
-  "pct": 0.63,
-  "chg": 144.05,
+  "value": 22950,
+  "pct": 0.27,
   "approx": true
  },
  "mood": {
-  "label": "IT-led gains",
-  "score": 0.3,
-  "summary": "Gains have narrowed from the open but the Nifty holds just above 23,000, with IT doing nearly all the work while financials drag and broader markets stay subdued.",
+  "label": "Gains fade",
+  "score": 0.15,
+  "summary": "The morning rally has faded to a modest gain, with the Sensex giving back more than half its early advance as selling on rallies resumes; IT is still holding the market up.",
   "detail": {
-   "leaders": "Nifty IT, L&T Technology Services, Infosys",
+   "leaders": "Nifty IT, L&T Technology Services",
    "laggards": "Bajaj Finance, Bajaj Finserv",
-   "tone": "Gains have narrowed since the 1000 note (Sensex from ~+590 to ~+400 pts), but IT leadership is intact and LTTS has emerged as the session's standout.",
+   "tone": "Weaker than the 1030 note: the Sensex has pared its gain to about 300 points from as much as 800 intraday, as a strategist flagged a continuing 'sell on rally' trend.",
    "watch": [
-    "Whether IT can hold gains if banks stay flat",
-    "Jio IPO day-one subscription numbers",
-    "Eternal's Q2 results after market hours"
+    "Whether the Nifty holds 22,900 into the afternoon",
+    "Any official word on the India-US trade deal",
+    "Retail demand for the Jio IPO through the day"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex rises 400 pts, Nifty tops 23,000; L&T Tech jumps 15%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
+    "title": "Business Standard: Why are markets rising today?",
+    "url": "https://www.business-standard.com/markets/news/why-are-markets-rising-today-sensex-up-800-pts-intraday-nifty-tops-23-100-126102100246_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT stocks lead, with LTTS surging and Infosys among the top Nifty gainers",
-     "why": "Q2 results have revived the IT trade: the sector has rallied sharply since mid-October as earnings beat and AI-disruption worries eased.",
+     "summary": "IT keeps the market in the green, led by a 15% jump in LTTS",
+     "why": "Strong Q2 numbers have kept the IT rally going, and IT led the early gains on India-US trade deal hopes.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "move": "+2.2%",
-       "line": "Index at a 10-month high; up ~16% in recent sessions on Q2 earnings cheer"
+       "move": "+2.0%",
+       "line": "Top sector index; at a multi-month high as the post-results IT rally extends"
       },
       {
        "name": "L&T Technology Services",
        "dir": "up",
        "move": "up ~15%",
-       "line": "Q2 profit up 66.8% to ₹548.2 cr; ICICI Securities flags big-deal execution"
-      },
-      {
-       "name": "Infosys",
-       "dir": "up",
-       "move": "+3.3%",
-       "line": "Top Nifty 50 gainer early as the large-cap IT rally extends"
+       "line": "Q2 profit up 66.8% to ₹548.2 cr, well above estimates"
       }
      ],
      "src": {
-      "title": "Business Standard: Nifty IT index hits 10-month high; LTTS zooms 15% — here's why",
-      "url": "https://www.business-standard.com/amp/markets/news/nifty-it-index-hits-10-month-high-ltts-zooms-15-on-wednesday-here-s-why-126102100228_1.html"
+      "title": "Business Standard: Nifty IT index hits high; LTTS zooms 15%",
+      "url": "https://www.business-standard.com/markets/news/nifty-it-index-hits-8-month-high-ltts-zooms-15-on-wednesday-here-s-why-126102100228_1.html"
      }
     },
     "down": {
-     "summary": "Bajaj group financials weigh after Bajaj Finance's Q2 margin warning",
-     "why": "Bajaj Finance's 29% profit growth was overshadowed by guidance for pressure on lending margins, prompting target cuts.",
+     "summary": "Bajaj group stocks stay under pressure after Bajaj Finance's margin warning",
+     "why": "Bajaj Finance guided for pressure on lending margins, and several brokerages cut their targets despite strong Q2 profit growth.",
      "names": [
       {
        "name": "Bajaj Finance",
        "dir": "down",
        "move": "down ~2.3–3%",
-       "line": "Margin pressure flagged; Morgan Stanley, Jefferies and JPMorgan cut targets"
+       "line": "Biggest Nifty drag; margin pressure from higher funding costs flagged"
       },
       {
        "name": "Bajaj Finserv",
@@ -84,6 +77,80 @@
   }
  },
  "insights": [
+  {
+   "key": "india-us-trade",
+   "tag": "Policy",
+   "impact": "pos",
+   "title": "Trump says India-US trade deal is near",
+   "line": "Trump said Tuesday the two sides are close to a deal; it lifted early sentiment.",
+   "more": [
+    "He said the deal would differ from previous trade deals",
+    "Reports credit it for the early 570-pt Sensex jump",
+    "Crude and US bond yields still weigh on sentiment"
+   ],
+   "src": {
+    "title": "Free Press Journal: Sensex jumps 571 pts as India-US trade deal hopes lift sentiment",
+    "url": "https://www.freepressjournal.in/business/stock-market-today-sensex-jumps-571-points-nifty-reclaims-23000-mark-as-india-us-trade-deal-hopes-lift-investor-sentiment"
+   },
+   "date": "2026-10-21",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Jio IPO fully subscribed within 2 hours",
+   "line": "Issue covered ~1.03x by 10:40 am, driven by QIBs at 3.25x; retail at 0.25x.",
+   "more": [
+    "NII portion at about 0.26x",
+    "Retail bid for 1.94 cr shares vs 8.50 cr reserved",
+    "Bidding runs to Oct 23"
+   ],
+   "src": {
+    "title": "IPO Guru: Jio Platforms IPO fully subscribed within 2 hours",
+    "url": "https://www.ipoguru.in/news/jio-platforms-ipo-fully-subscribed-within-2-hours"
+   },
+   "date": "2026-10-21",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "volatility",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "'Sell on rally' trend seen continuing",
+   "line": "A strategist says crude and US yields may keep near-term rallies capped.",
+   "more": [
+    "Sensex hit about +800 pts intraday before paring",
+    "Nifty PSU Bank (+0.74%) and Metal (+0.70%) also up early"
+   ],
+   "src": {
+    "title": "The Tribune: Sensex jumps 571 points on India-US trade deal optimism",
+    "url": "https://www.tribuneindia.com/news/business/sensex-jumps-571-points-nifty-rises-167-points-on-india-us-trade-deal-optimism"
+   },
+   "date": "2026-10-21",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1230"
+   }
+  },
   {
    "key": "ltts-q2",
    "tag": "Results",
@@ -103,7 +170,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "1030"
@@ -128,34 +195,10 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Jio raised ₹8,110 cr from 212 anchors",
-   "line": "Anchor shares allotted at the ₹1,119 top of the band; public bidding runs to Oct 23.",
-   "more": [
-    "Allotment Oct 26; listing on Oct 28",
-    "Day-one subscription data not yet published by trackers"
-   ],
-   "src": {
-    "title": "Kotak Neo: Jio IPO subscription status",
-    "url": "https://www.kotakneo.com/news/ipos/jio-ipo-subscription-status/"
-   },
-   "date": "2026-10-21",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
    }
   },
   {
@@ -542,31 +585,6 @@
    "src": {
     "title": "Upstox: Q2 results live — Union Bank profit rises 30% to ₹5,537 crore, NII advances 20%",
     "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-bajaj-finance-union-bank-ultra-tech-cement-hindustan-zinc-ireda-l-and-t-tech-others-to-declare-earnings-on-oct-19/liveblog-202055/"
-   },
-   "date": "2026-10-19",
-   "slot": "1230",
-   "when": "Mon · 12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "volatility",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "India VIX jumps as caution builds",
-   "line": "VIX is up over 4% as rupee worries, US volatility and Asian tech selling weigh",
-   "more": [
-    "VIX rose 3.34% to 14.52 early, then over 4%",
-    "Still well below its 52-week high of 28.90",
-    "Elevated crude and FPI outflows also cited"
-   ],
-   "src": {
-    "title": "HDFC Sky: India VIX rises 3% as markets open cautious",
-    "url": "https://hdfcsky.com/news/india-vix-jumps-3-34percent-to-14-52-as-rupee-concerns-us-volatility-asian-tech-sell-off-lift-volatility-october-19-2026"
    },
    "date": "2026-10-19",
    "slot": "1230",
@@ -1026,31 +1044,6 @@
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "india-us-trade",
-   "tag": "Policy",
-   "impact": "pos",
-   "title": "India-US trade deal: first tranche finalised",
-   "line": "Goyal says it is in legal drafting; signing depends on the US tariff structure",
-   "more": [
-    "Legal drafting and final review are under way",
-    "India wants tariffs no higher than rivals such as Vietnam and Bangladesh",
-    "A February framework cut tariffs on most Indian goods to 18% from 50%"
-   ],
-   "src": {
-    "title": "India TV: India-US trade deal first tranche finalised, in legal drafting — Piyush Goyal",
-    "url": "https://www.indiatvnews.com/business/news/india-us-trade-deal-first-tranche-finalised-undergoing-legal-drafting-and-final-review-piyush-goyal-latest-updates-2026-10-15-1057082"
-   },
-   "date": "2026-10-16",
-   "slot": "1330",
-   "when": "Fri · 13:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1330"
    }
   },
   {
