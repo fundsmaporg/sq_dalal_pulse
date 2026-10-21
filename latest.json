@@ -1,60 +1,108 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-21T09:33:32+05:30",
+ "generated_at": "2026-10-21T10:02:56+05:30",
  "date": "2026-10-21",
- "slot": "0930",
- "slot_label": "9:30",
+ "slot": "1000",
+ "slot_label": "10:00",
  "stage": "Opening mood",
- "asof": "2026-10-21T09:30:00+05:30",
+ "asof": "2026-10-21T10:00:00+05:30",
  "nifty": {
-  "value": 23054,
-  "pct": 0.72,
-  "chg": 165,
+  "value": 23050,
+  "pct": 0.7,
   "approx": true
  },
  "mood": {
-  "label": "Relief rally",
+  "label": "Rebound holds",
   "score": 0.35,
-  "summary": "Indian equities opened firmly higher after the holiday, recovering part of Monday's fall, while broader markets lagged the frontline gains with midcaps barely up and smallcaps flat.",
+  "summary": "The opening bounce is holding, with the Nifty back above 23,000 and the Sensex up roughly 0.9%, as IT heavyweights do the lifting while broader markets stay muted.",
   "detail": {
-   "leaders": "Frontline indices; Sensex up nearly 590 pts, Hindustan Zinc up 4%",
-   "laggards": "Bajaj Finance down ~2.7% after Q2; small caps flat",
-   "tone": "The gap-up flagged pre-open has held in early trade, reversing part of Monday's 1.1% fall, though broader markets are not joining in yet.",
+   "leaders": "IT: Nifty IT up ~2.4%, led by Infosys and TCS",
+   "laggards": "Bajaj Finance down ~2.5–2.9%; Bajaj Finserv slightly lower",
+   "tone": "Little changed from the opening note: gains have held and IT has taken over leadership, with Infosys up about 3.3% and TCS about 2.7%.",
    "watch": [
-    "Whether private banks join the bounce after Monday's selloff",
-    "Day-one subscription numbers for the Jio IPO after 10 am",
-    "Brent holding above $110"
+    "Whether banks join IT in the rally",
+    "Eternal's Q2 results after market hours",
+    "Jio IPO day-one subscription data"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex rises 600 pts, Nifty tops 23,050",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
+    "title": "Trade Brains: Sensex & Nifty 50 live updates, 21 October",
+    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-21-october-gift-nifty-at-at-23007-brent-above-110-bajaj-finance-infosys-in-focus-12693559"
    }
   }
  },
  "insights": [
   {
+   "key": "hd-fire-ipo",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "HD Fire Protect lists at ~24% premium",
+   "line": "Opened at ₹335 on NSE vs ₹271 issue price; ₹334.40 on BSE.",
+   "more": [
+    "Investors made ₹3,520 per lot at the NSE listing price",
+    "Issue was subscribed about 132 times",
+    "Entirely an offer for sale of ₹712 cr; company gets no proceeds"
+   ],
+   "src": {
+    "title": "Upstox: HD Fire Protect shares list at nearly 24% premium",
+    "url": "https://upstox.com/news/market-news/ipo/hd-fire-protect-shares-list-at-nearly-24-premium-here-s-how-much-investors-made-per-lot/article-202127/"
+   },
+   "date": "2026-10-21",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "0930"
+   }
+  },
+  {
    "key": "bajaj-fin-q2",
    "tag": "Results",
    "impact": "neg",
-   "title": "Bajaj Finance slips despite 29% profit rise",
-   "line": "Stock down about 2.7% at ₹931.75 in early trade in its first session after Q2.",
+   "title": "Bajaj Finance extends losses after Q2",
+   "line": "Shares down 2.9% at ₹929.20 on NSE despite a 23.6% rise in net interest income.",
    "more": [
-    "Q2 profit ₹6,367 cr, up 29%; NII ₹13,335 cr",
-    "Management flagged some margin pressure and a macro provision",
-    "Stock had closed at ₹957.35 on Monday, down 2.52%"
+    "Biggest Nifty 50 loser in early trade",
+    "Bajaj Finserv slipped about 0.5%"
    ],
    "src": {
-    "title": "Trendlyne: Bajaj Finance live share price",
-    "url": "https://trendlyne.com/equity/150/BAJFINANCE/bajaj-finance-ltd/"
+    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex rises 500 pts, Nifty tops 23,000; Infosys, TCS lead gains",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
    },
    "date": "2026-10-21",
-   "slot": "0930",
-   "when": "9:30",
+   "slot": "1000",
+   "when": "10:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1400"
+   }
+  },
+  {
+   "key": "eternal-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Eternal reports Q2 today; call at 5 pm",
+   "line": "Kotak sees revenue ~₹23,729 cr and adjusted PAT ~₹293 cr; Blinkit is the focus.",
+   "more": [
+    "Kotak's EBITDA estimate is ₹854 cr",
+    "Zee Business sees revenue up 16.2% QoQ to ₹23,492 cr",
+    "Q1 FY27 profit was ₹92 cr"
+   ],
+   "src": {
+    "title": "NiftyTrader: Eternal Q2 FY27 results on Oct 21 — can Blinkit deliver?",
+    "url": "https://www.niftytrader.in/markets/eternal-q2-fy27-results-on-oct-21/"
+   },
+   "date": "2026-10-21",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "1000"
    }
   },
   {
@@ -76,34 +124,10 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "hd-fire-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "HD Fire Protect lists today",
-   "line": "Issue priced at ₹271 and subscribed 132x; grey market pointed to ~23–25% premium.",
-   "more": [
-    "Lists on BSE and NSE",
-    "GMP was ₹63–68 on Oct 20 (unofficial)"
-   ],
-   "src": {
-    "title": "IPO Guru: HD Fire Protect IPO listing 21 Oct",
-    "url": "https://www.ipoguru.in/news/hd-fire-protect-ipo-listing-date-gmp-21-october"
-   },
-   "date": "2026-10-21",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "0930"
    }
   },
   {
