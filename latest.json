@@ -1,55 +1,80 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-21T08:33:16+05:30",
+ "generated_at": "2026-10-21T09:33:32+05:30",
  "date": "2026-10-21",
- "slot": "pre",
- "slot_label": "Pre-open",
- "stage": "Pre-market mood",
- "asof": "2026-10-21T08:35:00+05:30",
+ "slot": "0930",
+ "slot_label": "9:30",
+ "stage": "Opening mood",
+ "asof": "2026-10-21T09:30:00+05:30",
  "nifty": {
-  "value": 22888.95,
-  "pct": -1.11,
-  "chg": -257.2,
-  "approx": false
+  "value": 23054,
+  "pct": 0.72,
+  "chg": 165,
+  "approx": true
  },
  "mood": {
-  "label": "Firmer open seen",
-  "score": 0.2,
-  "summary": "Indian equities look set for a firmer reopen after the holiday, with GIFT Nifty pointing higher and Asian markets rebounding, though Monday's bank-led losses keep the bias cautious.",
+  "label": "Relief rally",
+  "score": 0.35,
+  "summary": "Indian equities opened firmly higher after the holiday, recovering part of Monday's fall, while broader markets lagged the frontline gains with midcaps barely up and smallcaps flat.",
   "detail": {
-   "leaders": "GIFT Nifty indicating a higher start; Asian markets up",
-   "laggards": "Monday's private bank and IT selloff still to be digested",
-   "tone": "A change from Monday's 1.1% fall: overnight cues have turned supportive, with Asia rebounding after Tuesday's tech-led slide.",
+   "leaders": "Frontline indices; Sensex up nearly 590 pts, Hindustan Zinc up 4%",
+   "laggards": "Bajaj Finance down ~2.7% after Q2; small caps flat",
+   "tone": "The gap-up flagged pre-open has held in early trade, reversing part of Monday's 1.1% fall, though broader markets are not joining in yet.",
    "watch": [
-    "Whether the gap-up holds once private banks trade after Monday's selloff",
-    "Brent holding above $110 on Gulf supply risks",
-    "Subscription demand for the Jio Platforms IPO on day one"
+    "Whether private banks join the bounce after Monday's selloff",
+    "Day-one subscription numbers for the Jio IPO after 10 am",
+    "Brent holding above $110"
    ],
    "src": {
-    "title": "Kotak Neo: Pre-market 21 October 2026 — GIFT Nifty points to a positive start",
-    "url": "https://www.kotakneo.com/news/market-news/pre-market-21-october-2026-gift-nifty-points-to-positive-start/"
+    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex rises 600 pts, Nifty tops 23,050",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
    }
   }
  },
  "insights": [
   {
+   "key": "bajaj-fin-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Bajaj Finance slips despite 29% profit rise",
+   "line": "Stock down about 2.7% at ₹931.75 in early trade in its first session after Q2.",
+   "more": [
+    "Q2 profit ₹6,367 cr, up 29%; NII ₹13,335 cr",
+    "Management flagged some margin pressure and a macro provision",
+    "Stock had closed at ₹957.35 on Monday, down 2.52%"
+   ],
+   "src": {
+    "title": "Trendlyne: Bajaj Finance live share price",
+    "url": "https://trendlyne.com/equity/150/BAJFINANCE/bajaj-finance-ltd/"
+   },
+   "date": "2026-10-21",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1400"
+   }
+  },
+  {
    "key": "jio-ipo",
    "tag": "Listing",
    "impact": "watch",
-   "title": "Jio Platforms IPO opens for bids today",
-   "line": "Record $3.2 bn issue drew $854 mn from anchors including BlackRock and Fidelity.",
+   "title": "Jio IPO bidding live; first data after 10 am",
+   "line": "All-fresh issue of 27 crore shares; QIBs get 50%, retail 35%, NIIs 15%.",
    "more": [
-    "India's largest IPO; bidding runs Oct 21–23",
-    "Anchor book included Capital Group",
-    "Seen as a test of demand while Indian stocks are under pressure"
+    "No offer-for-sale component",
+    "Day-one subscription figures expected after 10 am",
+    "Grey-market premium ₹253 on Oct 19 (unofficial)"
    ],
    "src": {
-    "title": "Bloomberg: Jio's record $3.2 billion IPO puts India's market muscle to the test",
-    "url": "https://www.bloomberg.com/news/newsletters/2026-10-21/jio-s-record-3-2-billion-ipo-puts-india-s-market-muscle-to-the-test"
+    "title": "Upstox: Jio Platforms IPO opens — lot size, subscription status, key dates",
+    "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-india-s-biggest-public-issue-opens-for-subscription-check-lot-size-subscription-status-and-key-dates/article-202116/"
    },
    "date": "2026-10-21",
-   "slot": "pre",
-   "when": "Pre-open",
+   "slot": "0930",
+   "when": "9:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -58,28 +83,27 @@
    }
   },
   {
-   "key": "bajaj-fin-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Bajaj Finance raises FY27 growth guidance",
-   "line": "AUM growth guidance lifted to 26–27% from 23–25%; first trade since the Q2 print.",
+   "key": "hd-fire-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "HD Fire Protect lists today",
+   "line": "Issue priced at ₹271 and subscribed 132x; grey market pointed to ~23–25% premium.",
    "more": [
-    "AUM up about 26.5% to ₹5.84 lakh cr",
-    "Net NPA fell to 0.42% from 0.60% a year ago",
-    "Management flagged some margin pressure and a macro provision"
+    "Lists on BSE and NSE",
+    "GMP was ₹63–68 on Oct 20 (unofficial)"
    ],
    "src": {
-    "title": "Investing.com: Bajaj Finance lifts FY27 growth view after strong Q2 (call transcript)",
-    "url": "https://ng.investing.com/news/stock-market-news/earnings-call-transcript-bajaj-finance-lifts-fy27-growth-view-after-strong-q2-93CH-2743856"
+    "title": "IPO Guru: HD Fire Protect IPO listing 21 Oct",
+    "url": "https://www.ipoguru.in/news/hd-fire-protect-ipo-listing-date-gmp-21-october"
    },
    "date": "2026-10-21",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
+   "slot": "0930",
+   "when": "9:30",
+   "updated": false,
    "is_new": true,
    "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1400"
+    "date": "2026-10-21",
+    "slot": "0930"
    }
   },
   {
@@ -101,7 +125,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-12",
     "slot": "pre"
@@ -125,7 +149,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "pre"
@@ -149,7 +173,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-12",
     "slot": "0930"
@@ -173,7 +197,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-12",
     "slot": "pre"
@@ -197,7 +221,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-12",
     "slot": "pre"
