@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-21T15:03:02+05:30",
+ "generated_at": "2026-10-21T15:35:34+05:30",
  "date": "2026-10-21",
- "slot": "1500",
- "slot_label": "15:00",
+ "slot": "1530",
+ "slot_label": "15:30",
  "stage": "Closing mood",
- "asof": "2026-10-21T15:00:00+05:30",
+ "asof": "2026-10-21T15:30:00+05:30",
  "nifty": {
-  "value": 22681.75,
-  "pct": -0.91,
-  "chg": -207.2,
-  "approx": false
+  "value": 22738.45,
+  "pct": -0.66,
+  "chg": -150.5,
+  "approx": true
  },
  "mood": {
-  "label": "Broad sell-off",
-  "score": -0.55,
-  "summary": "The market is near the day's lows into the final half hour, with broad-based selling hitting smaller stocks far harder than the benchmarks and IT the only sector holding firm.",
+  "label": "Late recovery, weak",
+  "score": -0.35,
+  "summary": "Benchmarks clawed back part of the afternoon slide into the close but still ended lower for a second session, while mid and smallcaps suffered far heavier losses.",
   "detail": {
-   "leaders": "Nifty IT, L&T Technology Services",
+   "leaders": "Nifty IT, Infosys, TCS, L&T Technology Services",
    "laggards": "Nifty Smallcap 100, Nifty Midcap 100, Bajaj Finance",
-   "tone": "Weaker again since the 1430 note: the Nifty has slipped further to 22,681.75 at 3 pm, and the gap with mid and smallcaps shows the selling is now broad.",
+   "tone": "Better than the 1500 note: the Nifty recovered from about 22,682 to 22,738 in the closing auction, but the day still ended with a near-1,200-point Sensex swing from its high.",
    "watch": [
-    "Whether the Nifty closes below 22,700",
-    "Eternal's Q2 results after the bell",
-    "FII/DII provisional data this evening"
+    "Eternal, Adani Green and Indian Hotels results tonight",
+    "FII/DII provisional data after the close",
+    "Day two of Jio IPO bidding"
    ],
    "src": {
     "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 500 pts; Eternal falls over 4% ahead of Q2",
@@ -31,46 +31,59 @@
    },
    "movers": {
     "up": {
-     "summary": "IT is the lone sector in the green, with Nifty IT at an 8-month high",
-     "why": "Strong Q2 numbers have kept buyers in IT services even as the rest of the market sold off.",
+     "summary": "IT stocks bucked the slide, with Nifty IT touching an 8-month high",
+     "why": "Strong September-quarter earnings, healthy deal wins and upbeat management commentary kept IT bid against the market trend.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "line": "Hit an 8-month high; Infosys, TCS and Tech Mahindra among top Nifty gainers"
+       "move": "up as much as 2.63%",
+       "line": "Hit 32,348 intraday, an 8-month high; up 26% from its July low"
+      },
+      {
+       "name": "Infosys",
+       "dir": "up",
+       "move": "+2.44%",
+       "line": "Up about 18% so far in October amid Q2 earnings cheer"
+      },
+      {
+       "name": "TCS",
+       "dir": "up",
+       "move": "+2.21%",
+       "line": "Has surged about 23% so far in October"
       },
       {
        "name": "L&T Technology Services",
        "dir": "up",
        "move": "up as much as 14.7%",
-       "line": "Q2 profit up 66.8% to ₹548.2 cr, well ahead of estimates"
+       "line": "Q2 profit up 66.8% to ₹548.2 cr"
       }
      ],
      "src": {
-      "title": "Business Standard: Nifty IT index hits 8-month high; LTTS zooms 15%",
-      "url": "https://www.business-standard.com/markets/news/nifty-it-index-hits-8-month-high-ltts-zooms-15-on-wednesday-here-s-why-126102100228_1.html"
+      "title": "Upstox: Infosys, Wipro — IT stocks steal the show as Nifty IT jumps 2.6% against market trend",
+      "url": "https://upstox.com/news/market-news/stocks/infosys-wipro-it-stocks-steal-the-show-as-nifty-it-jumps-2-6-against-market-trend-what-s-driving-the-rally/article-202148/"
      }
     },
     "down": {
-     "summary": "Small and midcaps are bearing the brunt, falling far more than the Nifty",
-     "why": "A defence sell-off, Brent near $109 and foreign outflows have triggered broad risk-off selling that is hitting smaller stocks hardest.",
+     "summary": "Small and midcaps fell two to three times as much as the Nifty",
+     "why": "A defence sell-off, Brent near $109 and foreign outflows triggered broad selling that hit smaller stocks hardest.",
      "names": [
       {
        "name": "Nifty Smallcap 100",
        "dir": "down",
        "move": "-2.48%",
-       "line": "Steepest fall among major indices as selling broadens beyond large caps"
+       "line": "Heaviest-hit major index as risk-off selling broadened"
       },
       {
        "name": "Nifty Midcap 100",
        "dir": "down",
        "move": "-1.82%",
-       "line": "Roughly double the Nifty's fall amid the afternoon risk-off move"
+       "line": "Underperformed large caps through the afternoon"
       },
       {
        "name": "Bajaj Finance",
        "dir": "down",
-       "line": "Among top Nifty losers after flagging lending-margin pressure in Q2"
+       "line": "Among top Nifty losers after its Q2 lending-margin warning"
       }
      ],
      "src": {
@@ -83,22 +96,70 @@
  },
  "insights": [
   {
-   "key": "eternal-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Eternal falls over 4% ahead of Q2 results",
-   "line": "Stock among top Nifty losers before tonight's numbers; brokerages see PAT of ₹228–293 cr.",
+   "key": "it-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT rally defies market; Nifty IT +2.6%",
+   "line": "Q2 earnings, deal wins and upbeat commentary drive IT to an 8-month high.",
    "more": [
-    "Earnings call at 5 pm",
-    "Blinkit's profitability is the key watch point"
+    "TCS up 23% in October; Infosys and Mphasis up 18% each",
+    "Index up 26% from its July 1 low of 25,699"
+   ],
+   "src": {
+    "title": "Upstox: Infosys, Wipro — IT stocks steal the show as Nifty IT jumps 2.6% against market trend",
+    "url": "https://upstox.com/news/market-news/stocks/infosys-wipro-it-stocks-steal-the-show-as-nifty-it-jumps-2-6-against-market-trend-what-s-driving-the-rally/article-202148/"
+   },
+   "date": "2026-10-21",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "volatility",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Broader market hit hardest in sell-off",
+   "line": "Midcap 100 fell 1.82% and Smallcap 100 2.48% as selling broadened.",
+   "more": [
+    "Auto, bank and realty shares weighed on benchmarks",
+    "Sensex swung from ~+800 pts to ~-580 pts before trimming losses"
    ],
    "src": {
     "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 500 pts; Eternal falls over 4% ahead of Q2",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
    },
    "date": "2026-10-21",
-   "slot": "1500",
-   "when": "15:00",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "eternal-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Eternal Q2 results due after the close",
+   "line": "Shares fell over 4% into the numbers; earnings call at 5 pm.",
+   "more": [
+    "Brokerages see PAT of ₹228–293 cr",
+    "Blinkit's margins are the key focus"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 500 pts; Eternal falls over 4% ahead of Q2",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
+   },
+   "date": "2026-10-21",
+   "slot": "1530",
+   "when": "15:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -124,34 +185,10 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "volatility",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Mid, smallcaps slump in broad sell-off",
-   "line": "Nifty Midcap 100 down 1.82% and Smallcap 100 down 2.48% at 3 pm.",
-   "more": [
-    "Eicher Motors, Trent and Adani Enterprises also among top Nifty losers",
-    "India VIX up about 8% earlier in the afternoon"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 500 pts; Eternal falls over 4% ahead of Q2",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
-   },
-   "date": "2026-10-21",
-   "slot": "1500",
-   "when": "15:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1230"
    }
   },
   {
@@ -744,31 +781,6 @@
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "it-rally",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "IT gives back part of last week's rally",
-   "line": "Nifty IT is down about 1% as investors book profits after a ~10% weekly surge",
-   "more": [
-    "Infosys among the top Nifty losers",
-    "Asian tech also fell after Friday's Nasdaq slide",
-    "Infosys reports Q2 on Oct 23"
-   ],
-   "src": {
-    "title": "Upstox: SENSEX, NIFTY50 subdued; IT shares fall on profit booking, PSU banks rise",
-    "url": "https://upstox.com/news/market-news/stocks/sensex-nifty-50-subdued-it-shares-fall-on-profit-booking-psu-banks-rise/article-202053/"
-   },
-   "date": "2026-10-19",
-   "slot": "1200",
-   "when": "Mon · 12:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "0930"
    }
   },
   {
