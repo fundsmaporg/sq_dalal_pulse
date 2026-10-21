@@ -1,0 +1,160 @@
+{
+ "asof": "2026-10-21T10:30:00+05:30",
+ "summary": "Gains have narrowed from the open but the Nifty holds just above 23,000, with IT doing nearly all the work while financials drag and broader markets stay subdued.",
+ "mood": {
+  "label": "IT-led gains",
+  "score": 0.3,
+  "detail": {
+   "stats": [],
+   "leaders": "Nifty IT, L&T Technology Services, Infosys",
+   "laggards": "Bajaj Finance, Bajaj Finserv",
+   "movers": {
+    "up": {
+     "summary": "IT stocks lead, with LTTS surging and Infosys among the top Nifty gainers",
+     "why": "Q2 results have revived the IT trade: the sector has rallied sharply since mid-October as earnings beat and AI-disruption worries eased.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "move": "+2.2%",
+       "dir": "up",
+       "line": "Index at a 10-month high; up ~16% in recent sessions on Q2 earnings cheer"
+      },
+      {
+       "name": "L&T Technology Services",
+       "move": "up ~15%",
+       "dir": "up",
+       "line": "Q2 profit up 66.8% to ₹548.2 cr; ICICI Securities flags big-deal execution"
+      },
+      {
+       "name": "Infosys",
+       "move": "+3.3%",
+       "dir": "up",
+       "line": "Top Nifty 50 gainer early as the large-cap IT rally extends"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Nifty IT index hits 10-month high; LTTS zooms 15% — here's why",
+      "url": "https://www.business-standard.com/amp/markets/news/nifty-it-index-hits-10-month-high-ltts-zooms-15-on-wednesday-here-s-why-126102100228_1.html"
+     }
+    },
+    "down": {
+     "summary": "Bajaj group financials weigh after Bajaj Finance's Q2 margin warning",
+     "why": "Bajaj Finance's 29% profit growth was overshadowed by guidance for pressure on lending margins, prompting target cuts.",
+     "names": [
+      {
+       "name": "Bajaj Finance",
+       "move": "down ~2.3–3%",
+       "dir": "down",
+       "line": "Margin pressure flagged; Morgan Stanley, Jefferies and JPMorgan cut targets"
+      },
+      {
+       "name": "Bajaj Finserv",
+       "move": "-0.5%",
+       "dir": "down",
+       "line": "Holding company of Bajaj Finance slips with its lending arm"
+      }
+     ],
+     "src": {
+      "title": "Zee Business: Bajaj Finance falls 3% despite 29% profit growth; brokerages cut targets",
+      "url": "https://www.zeebiz.com/markets/stocks/news-bajaj-finance-shares-fall-3-despite-29-profit-growth-why-are-brokerages-cutting-targets-404240"
+     }
+    }
+   },
+   "tone": "Gains have narrowed since the 1000 note (Sensex from ~+590 to ~+400 pts), but IT leadership is intact and LTTS has emerged as the session's standout.",
+   "watch": [
+    "Whether IT can hold gains if banks stay flat",
+    "Jio IPO day-one subscription numbers",
+    "Eternal's Q2 results after market hours"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex rises 400 pts, Nifty tops 23,000; L&T Tech jumps 15%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 23033,
+  "pct": 0.63,
+  "chg": 144.05,
+  "approx": true
+ },
+ "top": [
+  {
+   "key": "ltts-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "LTTS jumps ~15% on strong Q2",
+   "line": "Net profit ₹548.2 cr, up 66.8% YoY, beat estimates; shares hit ₹4,143 on NSE.",
+   "more": [
+    "Growth led by sustainability segment and large-deal execution",
+    "Management expects another year of double-digit growth there",
+    "Some reports cite 53.5% profit growth; ₹548 cr is consistent"
+   ],
+   "src": {
+    "title": "Business Standard: Nifty IT index hits 10-month high; LTTS zooms 15% — here's why",
+    "url": "https://www.business-standard.com/amp/markets/news/nifty-it-index-hits-10-month-high-ltts-zooms-15-on-wednesday-here-s-why-126102100228_1.html"
+   }
+  },
+  {
+   "key": "bajaj-fin-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Brokerages cut Bajaj Finance targets",
+   "line": "Morgan Stanley, Jefferies, JPMorgan trim targets on margin worries; ratings kept positive.",
+   "more": [
+    "Morgan Stanley: ₹1,260 from ₹1,300",
+    "Jefferies: ₹1,230 from ₹1,280; JPMorgan: ₹1,260 from ₹1,310",
+    "CLSA holds Outperform with ₹1,300 target"
+   ],
+   "src": {
+    "title": "Zee Business: Bajaj Finance falls 3% despite 29% profit growth; brokerages cut targets",
+    "url": "https://www.zeebiz.com/markets/stocks/news-bajaj-finance-shares-fall-3-despite-29-profit-growth-why-are-brokerages-cutting-targets-404240"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Jio raised ₹8,110 cr from 212 anchors",
+   "line": "Anchor shares allotted at the ₹1,119 top of the band; public bidding runs to Oct 23.",
+   "more": [
+    "Allotment Oct 26; listing on Oct 28",
+    "Day-one subscription data not yet published by trackers"
+   ],
+   "src": {
+    "title": "Kotak Neo: Jio IPO subscription status",
+    "url": "https://www.kotakneo.com/news/ipos/jio-ipo-subscription-status/"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex rises 400 pts, Nifty tops 23,000; L&T Tech jumps 15%",
+   "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
+  },
+  {
+   "title": "Business Standard: Nifty IT index hits 10-month high; LTTS zooms 15% — here's why",
+   "url": "https://www.business-standard.com/amp/markets/news/nifty-it-index-hits-10-month-high-ltts-zooms-15-on-wednesday-here-s-why-126102100228_1.html"
+  },
+  {
+   "title": "Zee Business: IT stocks rally up to 21% in 5 days — what's behind the rally?",
+   "url": "https://www.zeebiz.com/market-news/news-it-stocks-rally-up-to-21-in-5-days-tcs-infosys-other-firms-mcap-swells-by-rs-27-lakh-crore-what-s-behind-rally-404067"
+  },
+  {
+   "title": "Zee Business: Bajaj Finance falls 3% despite 29% profit growth; brokerages cut targets",
+   "url": "https://www.zeebiz.com/markets/stocks/news-bajaj-finance-shares-fall-3-despite-29-profit-growth-why-are-brokerages-cutting-targets-404240"
+  },
+  {
+   "title": "MarketScreener: India's Bajaj Finance falls on lending margin concerns",
+   "url": "https://www.marketscreener.com/news/india-s-bajaj-finance-falls-on-lending-margin-concerns-ce785cd8df8dff20"
+  },
+  {
+   "title": "Trade Brains: Sensex & Nifty 50 live updates, 21 October",
+   "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-21-october-gift-nifty-at-at-23007-brent-above-110-bajaj-finance-infosys-in-focus-12693559"
+  },
+  {
+   "title": "Kotak Neo: Jio IPO subscription status",
+   "url": "https://www.kotakneo.com/news/ipos/jio-ipo-subscription-status/"
+  }
+ ]
+}

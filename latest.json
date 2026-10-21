@@ -1,36 +1,163 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-21T10:02:56+05:30",
+ "generated_at": "2026-10-21T10:33:26+05:30",
  "date": "2026-10-21",
- "slot": "1000",
- "slot_label": "10:00",
- "stage": "Opening mood",
- "asof": "2026-10-21T10:00:00+05:30",
+ "slot": "1030",
+ "slot_label": "10:30",
+ "stage": "Mid-market mood",
+ "asof": "2026-10-21T10:30:00+05:30",
  "nifty": {
-  "value": 23050,
-  "pct": 0.7,
+  "value": 23033,
+  "pct": 0.63,
+  "chg": 144.05,
   "approx": true
  },
  "mood": {
-  "label": "Rebound holds",
-  "score": 0.35,
-  "summary": "The opening bounce is holding, with the Nifty back above 23,000 and the Sensex up roughly 0.9%, as IT heavyweights do the lifting while broader markets stay muted.",
+  "label": "IT-led gains",
+  "score": 0.3,
+  "summary": "Gains have narrowed from the open but the Nifty holds just above 23,000, with IT doing nearly all the work while financials drag and broader markets stay subdued.",
   "detail": {
-   "leaders": "IT: Nifty IT up ~2.4%, led by Infosys and TCS",
-   "laggards": "Bajaj Finance down ~2.5–2.9%; Bajaj Finserv slightly lower",
-   "tone": "Little changed from the opening note: gains have held and IT has taken over leadership, with Infosys up about 3.3% and TCS about 2.7%.",
+   "leaders": "Nifty IT, L&T Technology Services, Infosys",
+   "laggards": "Bajaj Finance, Bajaj Finserv",
+   "tone": "Gains have narrowed since the 1000 note (Sensex from ~+590 to ~+400 pts), but IT leadership is intact and LTTS has emerged as the session's standout.",
    "watch": [
-    "Whether banks join IT in the rally",
-    "Eternal's Q2 results after market hours",
-    "Jio IPO day-one subscription data"
+    "Whether IT can hold gains if banks stay flat",
+    "Jio IPO day-one subscription numbers",
+    "Eternal's Q2 results after market hours"
    ],
    "src": {
-    "title": "Trade Brains: Sensex & Nifty 50 live updates, 21 October",
-    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-21-october-gift-nifty-at-at-23007-brent-above-110-bajaj-finance-infosys-in-focus-12693559"
+    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex rises 400 pts, Nifty tops 23,000; L&T Tech jumps 15%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
+   },
+   "movers": {
+    "up": {
+     "summary": "IT stocks lead, with LTTS surging and Infosys among the top Nifty gainers",
+     "why": "Q2 results have revived the IT trade: the sector has rallied sharply since mid-October as earnings beat and AI-disruption worries eased.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "move": "+2.2%",
+       "line": "Index at a 10-month high; up ~16% in recent sessions on Q2 earnings cheer"
+      },
+      {
+       "name": "L&T Technology Services",
+       "dir": "up",
+       "move": "up ~15%",
+       "line": "Q2 profit up 66.8% to ₹548.2 cr; ICICI Securities flags big-deal execution"
+      },
+      {
+       "name": "Infosys",
+       "dir": "up",
+       "move": "+3.3%",
+       "line": "Top Nifty 50 gainer early as the large-cap IT rally extends"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Nifty IT index hits 10-month high; LTTS zooms 15% — here's why",
+      "url": "https://www.business-standard.com/amp/markets/news/nifty-it-index-hits-10-month-high-ltts-zooms-15-on-wednesday-here-s-why-126102100228_1.html"
+     }
+    },
+    "down": {
+     "summary": "Bajaj group financials weigh after Bajaj Finance's Q2 margin warning",
+     "why": "Bajaj Finance's 29% profit growth was overshadowed by guidance for pressure on lending margins, prompting target cuts.",
+     "names": [
+      {
+       "name": "Bajaj Finance",
+       "dir": "down",
+       "move": "down ~2.3–3%",
+       "line": "Margin pressure flagged; Morgan Stanley, Jefferies and JPMorgan cut targets"
+      },
+      {
+       "name": "Bajaj Finserv",
+       "dir": "down",
+       "move": "-0.5%",
+       "line": "Holding company of Bajaj Finance slips with its lending arm"
+      }
+     ],
+     "src": {
+      "title": "Zee Business: Bajaj Finance falls 3% despite 29% profit growth; brokerages cut targets",
+      "url": "https://www.zeebiz.com/markets/stocks/news-bajaj-finance-shares-fall-3-despite-29-profit-growth-why-are-brokerages-cutting-targets-404240"
+     }
+    }
    }
   }
  },
  "insights": [
+  {
+   "key": "ltts-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "LTTS jumps ~15% on strong Q2",
+   "line": "Net profit ₹548.2 cr, up 66.8% YoY, beat estimates; shares hit ₹4,143 on NSE.",
+   "more": [
+    "Growth led by sustainability segment and large-deal execution",
+    "Management expects another year of double-digit growth there",
+    "Some reports cite 53.5% profit growth; ₹548 cr is consistent"
+   ],
+   "src": {
+    "title": "Business Standard: Nifty IT index hits 10-month high; LTTS zooms 15% — here's why",
+    "url": "https://www.business-standard.com/amp/markets/news/nifty-it-index-hits-10-month-high-ltts-zooms-15-on-wednesday-here-s-why-126102100228_1.html"
+   },
+   "date": "2026-10-21",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "bajaj-fin-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Brokerages cut Bajaj Finance targets",
+   "line": "Morgan Stanley, Jefferies, JPMorgan trim targets on margin worries; ratings kept positive.",
+   "more": [
+    "Morgan Stanley: ₹1,260 from ₹1,300",
+    "Jefferies: ₹1,230 from ₹1,280; JPMorgan: ₹1,260 from ₹1,310",
+    "CLSA holds Outperform with ₹1,300 target"
+   ],
+   "src": {
+    "title": "Zee Business: Bajaj Finance falls 3% despite 29% profit growth; brokerages cut targets",
+    "url": "https://www.zeebiz.com/markets/stocks/news-bajaj-finance-shares-fall-3-despite-29-profit-growth-why-are-brokerages-cutting-targets-404240"
+   },
+   "date": "2026-10-21",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Jio raised ₹8,110 cr from 212 anchors",
+   "line": "Anchor shares allotted at the ₹1,119 top of the band; public bidding runs to Oct 23.",
+   "more": [
+    "Allotment Oct 26; listing on Oct 28",
+    "Day-one subscription data not yet published by trackers"
+   ],
+   "src": {
+    "title": "Kotak Neo: Jio IPO subscription status",
+    "url": "https://www.kotakneo.com/news/ipos/jio-ipo-subscription-status/"
+   },
+   "date": "2026-10-21",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "pre"
+   }
+  },
   {
    "key": "hd-fire-ipo",
    "tag": "Listing",
@@ -50,34 +177,10 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "bajaj-fin-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Bajaj Finance extends losses after Q2",
-   "line": "Shares down 2.9% at ₹929.20 on NSE despite a 23.6% rise in net interest income.",
-   "more": [
-    "Biggest Nifty 50 loser in early trade",
-    "Bajaj Finserv slipped about 0.5%"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex rises 500 pts, Nifty tops 23,000; Infosys, TCS lead gains",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
-   },
-   "date": "2026-10-21",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1400"
    }
   },
   {
@@ -99,35 +202,10 @@
    "slot": "1000",
    "when": "10:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Jio IPO bidding live; first data after 10 am",
-   "line": "All-fresh issue of 27 crore shares; QIBs get 50%, retail 35%, NIIs 15%.",
-   "more": [
-    "No offer-for-sale component",
-    "Day-one subscription figures expected after 10 am",
-    "Grey-market premium ₹253 on Oct 19 (unofficial)"
-   ],
-   "src": {
-    "title": "Upstox: Jio Platforms IPO opens — lot size, subscription status, key dates",
-    "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-india-s-biggest-public-issue-opens-for-subscription-check-lot-size-subscription-status-and-key-dates/article-202116/"
-   },
-   "date": "2026-10-21",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
    }
   },
   {
