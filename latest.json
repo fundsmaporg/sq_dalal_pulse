@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-20T08:33:46+05:30",
- "date": "2026-10-20",
+ "generated_at": "2026-10-21T08:33:16+05:30",
+ "date": "2026-10-21",
  "slot": "pre",
  "slot_label": "Pre-open",
  "stage": "Pre-market mood",
- "asof": "2026-10-20T08:35:00+05:30",
+ "asof": "2026-10-21T08:35:00+05:30",
  "nifty": {
   "value": 22888.95,
   "pct": -1.11,
@@ -13,25 +13,196 @@
   "approx": false
  },
  "mood": {
-  "label": "Market closed",
-  "score": -0.2,
-  "summary": "Indian equities are shut today for Dussehra; trading resumes Wednesday after Monday's 1.1% bank-led fall, with the Jio IPO and fresh Q2 results set to drive the reopen.",
+  "label": "Firmer open seen",
+  "score": 0.2,
+  "summary": "Indian equities look set for a firmer reopen after the holiday, with GIFT Nifty pointing higher and Asian markets rebounding, though Monday's bank-led losses keep the bias cautious.",
   "detail": {
-   "leaders": "No trading today — NSE and BSE closed for Dussehra",
-   "laggards": "No trading today — trading resumes Wednesday, Oct 21",
-   "tone": "No session today. Monday closed weak, with the Nifty at 22,888.95 (-1.11%) as private banks and IT fell.",
+   "leaders": "GIFT Nifty indicating a higher start; Asian markets up",
+   "laggards": "Monday's private bank and IT selloff still to be digested",
+   "tone": "A change from Monday's 1.1% fall: overnight cues have turned supportive, with Asia rebounding after Tuesday's tech-led slide.",
    "watch": [
-    "Market reaction to Bajaj Finance's Q2 beat on Wednesday",
-    "Demand for the Jio Platforms IPO, which opens Oct 21",
-    "Whether FII selling continues after Monday's ₹1,149 cr outflow"
+    "Whether the gap-up holds once private banks trade after Monday's selloff",
+    "Brent holding above $110 on Gulf supply risks",
+    "Subscription demand for the Jio Platforms IPO on day one"
    ],
    "src": {
-    "title": "Zee Business: Are NSE, BSE open or closed on Dussehra on October 20?",
-    "url": "https://www.zeebiz.com/market-news/news-market-holiday-are-nse-bse-open-or-closed-on-dussehra-on-october-20-404087"
+    "title": "Kotak Neo: Pre-market 21 October 2026 — GIFT Nifty points to a positive start",
+    "url": "https://www.kotakneo.com/news/market-news/pre-market-21-october-2026-gift-nifty-points-to-positive-start/"
    }
   }
  },
  "insights": [
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Jio Platforms IPO opens for bids today",
+   "line": "Record $3.2 bn issue drew $854 mn from anchors including BlackRock and Fidelity.",
+   "more": [
+    "India's largest IPO; bidding runs Oct 21–23",
+    "Anchor book included Capital Group",
+    "Seen as a test of demand while Indian stocks are under pressure"
+   ],
+   "src": {
+    "title": "Bloomberg: Jio's record $3.2 billion IPO puts India's market muscle to the test",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-10-21/jio-s-record-3-2-billion-ipo-puts-india-s-market-muscle-to-the-test"
+   },
+   "date": "2026-10-21",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "bajaj-fin-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Bajaj Finance raises FY27 growth guidance",
+   "line": "AUM growth guidance lifted to 26–27% from 23–25%; first trade since the Q2 print.",
+   "more": [
+    "AUM up about 26.5% to ₹5.84 lakh cr",
+    "Net NPA fell to 0.42% from 0.60% a year ago",
+    "Management flagged some margin pressure and a macro provision"
+   ],
+   "src": {
+    "title": "Investing.com: Bajaj Finance lifts FY27 growth view after strong Q2 (call transcript)",
+    "url": "https://ng.investing.com/news/stock-market-news/earnings-call-transcript-bajaj-finance-lifts-fy27-growth-view-after-strong-q2-93CH-2743856"
+   },
+   "date": "2026-10-21",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "wall-street",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Dow up 1% on earnings, lower oil",
+   "line": "Dow rose 529.85 pts to 52,495.88 on Tuesday; S&P 500 +0.28%, Nasdaq flat.",
+   "more": [
+    "S&P 500 ended at 7,712.57",
+    "Nasdaq slipped 0.02% to 26,424.82 as AI stocks lagged",
+    "3M rose more than 5% after a guidance raise"
+   ],
+   "src": {
+    "title": "CNBC: Stock market news for Oct. 20, 2026",
+    "url": "https://www.cnbc.com/2026/10/19/stock-market-today-live-updates.html"
+   },
+   "date": "2026-10-21",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "asia-markets",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Asia rebounds; Kospi up 3.7%",
+   "line": "Nikkei up 1.3% and Kospi up 3.7% in early trade, tracking Wall Street.",
+   "more": [
+    "Follows Tuesday's slide when Kospi fell 4.4% on chip selling",
+    "Nikkei had fallen 1.4% on Tuesday"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE Oct 21 — GIFT Nifty rises 100 pts; Asian markets gain; Brent near $110",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
+   },
+   "date": "2026-10-21",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent back above $110",
+   "line": "Tanker attacks near Hormuz and Houthi strikes on Saudi Arabia keep oil at 5-month highs.",
+   "more": [
+    "Brent settled at $109.55 on Monday",
+    "Elevated crude is a headwind for India's import bill and inflation"
+   ],
+   "src": {
+    "title": "OilPrice.com: Brent tops $110 as tanker attacks threaten Persian Gulf supply",
+    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tops-110-as-Tanker-Attacks-Threaten-Persian-Gulf-Supply.html"
+   },
+   "date": "2026-10-21",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Eternal, Adani Green among Q2 reporters",
+   "line": "Indian Hotels, KEI Industries, M&M Financial and IGI also report today.",
+   "more": [
+    "Adani Green and Eternal flagged as key stock-specific catalysts",
+    "HD Fire Protect lists today; Paras Healthcare IPO opens"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE Oct 21 — GIFT Nifty rises 100 pts; Asian markets gain; Brent near $110",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
+   },
+   "date": "2026-10-21",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "FIIs sold ₹1,149 cr before the holiday",
+   "line": "DIIs bought ₹3,201 cr on Monday, absorbing foreign selling (provisional).",
+   "more": [
+    "Monday's figures are the latest; Tuesday was a holiday",
+    "Provisional NSE data; final figures can be revised"
+   ],
+   "src": {
+    "title": "NiftyTrader: FII DII data today",
+    "url": "https://www.niftytrader.in/fii-dii-data"
+   },
+   "date": "2026-10-21",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "pre"
+   }
+  },
   {
    "key": "market-holiday",
    "tag": "Opening",
@@ -49,138 +220,12 @@
    },
    "date": "2026-10-20",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Tue · Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "bajaj-fin-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Bajaj Finance Q2 profit up 28.7%",
-   "line": "Consolidated profit ₹6,366.57 cr vs ₹4,947.76 cr a year ago; stock reacts Wednesday.",
-   "more": [
-    "NII up 23.6% to ₹13,335 cr",
-    "AUM up 26% to ₹5.85 lakh cr",
-    "Gross NPA 1.06%, net NPA 0.42%",
-    "One report put profit at ₹6,266 cr; most cite ₹6,366.57 cr"
-   ],
-   "src": {
-    "title": "Equitybulls: Bajaj Finance Q2 FY27 net profit rises 28.68% to ₹6,366.57 cr",
-    "url": "https://www.equitybulls.com/news/377242/bajaj-finance-q2-fy27-consolidated-net-profit-rises-28-68-yoy-to-6-366-57-crore"
-   },
-   "date": "2026-10-20",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "FIIs sold ₹1,149 cr on Monday",
-   "line": "DIIs bought ₹3,201 cr, more than absorbing the foreign selling (provisional).",
-   "more": [
-    "FIIs bought ₹11,241 cr, sold ₹12,389 cr",
-    "DIIs bought ₹14,781 cr, sold ₹11,580 cr",
-    "Figures are provisional NSE data"
-   ],
-   "src": {
-    "title": "NiftyTrader: FII DII data today",
-    "url": "https://www.niftytrader.in/fii-dii-data"
-   },
-   "date": "2026-10-20",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Jio Platforms IPO opens Wednesday",
-   "line": "₹30,213 cr all-fresh issue at ₹1,065–1,119; bidding Oct 21–23, listing Oct 28.",
-   "more": [
-    "Lot of 12 shares; ₹13,428 at the upper band",
-    "Grey-market premium about ₹250 (unofficial)",
-    "Allotment expected Oct 26"
-   ],
-   "src": {
-    "title": "Chittorgarh: Jio Platforms IPO details",
-    "url": "https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/"
-   },
-   "date": "2026-10-20",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "wall-street",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Nasdaq up 1.1% as US tech rebounds",
-   "line": "S&P 500 rose 0.41% to 7,690.73 on Monday; the Dow slipped 0.07%.",
-   "more": [
-    "Nasdaq closed at 26,430.89",
-    "Tech bounced after last week's AI-driven selloff",
-    "Meta and Tesla report Wednesday after the US close"
-   ],
-   "src": {
-    "title": "TheStreet: Stock market today Oct 19, 2026 — Nasdaq climbs as tech rebounds",
-    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-oct-19-2026-nasdaq-futures-climb-as-tech-rebound-from-sell-off"
-   },
-   "date": "2026-10-20",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Brent eases from $110 high",
-   "line": "Brent near $108 on Monday after a five-month high; still elevated for India.",
-   "more": [
-    "Friday settlement of $109.86 was highest since May 19",
-    "US move to ease Russia sanctions weighed on prices",
-    "IEA members pledged to finish 100 mn bbl stock release"
-   ],
-   "src": {
-    "title": "Mitrade: Brent slips from $110 as Russian supply prospects return",
-    "url": "https://www.mitrade.com/insights/commodity-analysis/oil-news/brent-slips-from-110-russian-supply-20261019J1430"
-   },
-   "date": "2026-10-20",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "pre"
    }
   },
   {
@@ -329,8 +374,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1400"
+    "date": "2026-10-12",
+    "slot": "0930"
    }
   },
   {
@@ -580,31 +625,6 @@
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1100"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Bajaj Finance, Union Bank report today",
-   "line": "UltraTech, Hindustan Zinc, IREDA and L&T Technology are also due",
-   "more": [
-    "Bajaj Finance shares were little changed ahead of results",
-    "Bajaj Finance earnings call at 6 pm IST",
-    "35 companies report today"
-   ],
-   "src": {
-    "title": "Upstox: Q2 results live — Bajaj Finance, Union Bank, UltraTech, Hindustan Zinc, IREDA, L&T Tech on Oct 19",
-    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-bajaj-finance-union-bank-ultra-tech-cement-hindustan-zinc-ireda-l-and-t-tech-others-to-declare-earnings-on-oct-19/liveblog-202055/"
-   },
-   "date": "2026-10-19",
-   "slot": "1100",
-   "when": "Mon · 11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1130"
    }
   },
   {
@@ -1932,8 +1952,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1030"
+    "date": "2026-10-12",
+    "slot": "pre"
    }
   },
   {
@@ -2025,324 +2045,10 @@
    "date": "2026-10-12",
    "slot": "1000",
    "when": "Mon · 10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "gst-council",
-   "tag": "Policy",
-   "impact": "pos",
-   "title": "GST Council's credit relief lifts FMCG stocks",
-   "line": "Colgate jumped up to 7.6% as the Council backed wider input-tax-credit eligibility",
-   "more": [
-    "Credits would cover items like employee insurance, catering and free samples",
-    "ITC and Britannia also rose; FMCG stocks gained up to 6%",
-    "These are recommendations; the benefit depends on the final rules"
-   ],
-   "src": {
-    "title": "Business Standard: Colgate Palmolive shares surge 7.6% as GST relief boosts FMCG optimism",
-    "url": "https://www.business-standard.com/markets/news/colgate-palmolive-shares-surge-7-6-as-gst-relief-boosts-fmcg-optimism-126100900667_1.html"
-   },
-   "date": "2026-10-09",
-   "slot": "1530",
-   "when": "Fri · 15:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1530"
-   }
-  },
-  {
-   "key": "tcs-results",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "TCS ends up ~4.5% to lead the IT rebound",
-   "line": "At ₹2,169.70 near the close; Reuters had the stock up as much as ~5.4%",
-   "more": [
-    "Q2 profit rose 15% to ₹13,884 cr",
-    "Financials, PSU banks and realty also joined the rebound"
-   ],
-   "src": {
-    "title": "The United Indian: Why is the stock market up today? TCS leads Sensex rally",
-    "url": "https://www.theunitedindian.com/news/why-stock-market-up-today-sensex-nifty-tcs-crude-oil"
-   },
-   "date": "2026-10-09",
-   "slot": "1530",
-   "when": "Fri · 15:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "hexaware",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Hexaware holds an 11% gain into the close",
-   "line": "At ₹567.65 near 3:30 pm, still up 11% on its Anthropic partnership",
-   "more": [
-    "It is the day's top gainer on Anand Rathi's list",
-    "The stock touched ₹574.45 intraday"
-   ],
-   "src": {
-    "title": "Anand Rathi: Top gainers today (updated 09 Oct 2026, 3:31 pm)",
-    "url": "https://anandrathi.com/share-market-today/top-gainers-today"
-   },
-   "date": "2026-10-09",
-   "slot": "1530",
-   "when": "Fri · 15:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "us-perm-curbs",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "IT stocks shrug off the US visa curbs",
-   "line": "Infosys and Wipro gained despite the US PERM suspension covering Indian IT firms",
-   "more": [
-    "Mphasis rose 2.90% and Persistent 2.74%",
-    "Investors focused on TCS's Q2 over the visa headlines"
-   ],
-   "src": {
-    "title": "Zee Business: Nifty IT rises over 3%; Infosys, Wipro gain despite US visa curbs",
-    "url": "https://www.zeebiz.com/market-news/news-it-stocks-rally-nifty-it-rises-nearly-3-infosys-wipro-gain-despite-us-visa-curbs-mixed-bag-tcs-q2-results-403639"
-   },
-   "date": "2026-10-09",
-   "slot": "1500",
-   "when": "Fri · 15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "eicher-motors",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Eicher among top gainers; Citi keeps top pick",
-   "line": "Up about 3.6% at noon; September sales rose 8% YoY to 133,958 units",
-   "more": [
-    "Citi retains Eicher as its top auto pick",
-    "Bajaj Auto's September two-wheeler sales fell 12% YoY"
-   ],
-   "src": {
-    "title": "Citi retains Eicher Motors as a top auto pick",
-    "url": "https://ad-hoc-news.de/boerse/news/corporate-news/citi-retains-eicher-motors-stock-as-a-top-auto-pick/70264626"
-   },
-   "date": "2026-10-09",
-   "slot": "1430",
-   "when": "Fri · 14:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1430"
-   }
-  },
-  {
-   "key": "delhivery",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "PL Capital upgrades Delhivery to Buy",
-   "line": "Target ₹532 implies 33% upside from Thursday's close of ₹398",
-   "more": [
-    "Upgraded from Hold",
-    "MOFSL also has a Buy, with a ₹510 target"
-   ],
-   "src": {
-    "title": "Business Today: Delhivery shares set for 33% upside, says PL Capital; turns bullish",
-    "url": "https://www.businesstoday.in/markets/stocks/story/delhivery-shares-set-for-a-upside-says-pl-capital-turns-bullish-560614-2026-10-09"
-   },
-   "date": "2026-10-09",
-   "slot": "1400",
-   "when": "Fri · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "metals",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Metals snap a two-day losing run",
-   "line": "Nifty Metal turned higher by early afternoon after leading Thursday's selloff",
-   "more": [
-    "On Thursday JSW Steel fell 4.5% and Vedanta 3.2%",
-    "That selling followed the RBI's hawkish shift and higher crude"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex gains 800 pts, Nifty near 22,500; Nifty Metal snaps 2-day losing run",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
-   },
-   "date": "2026-10-09",
-   "slot": "1330",
-   "when": "Fri · 13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1100"
-   }
-  },
-  {
-   "key": "it-stocks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT trims gains but ends a 4-day losing run",
-   "line": "Nifty IT was up 2.34% at 28,381.75 at 12:29, off its morning high of +3.26%",
-   "more": [
-    "TCS's Q2 beat is still leading the sector",
-    "Gains have cooled since all 10 IT stocks rose in early trade"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex gains 800 pts; Nifty IT ends 4-day losing run as TCS leads",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
-   },
-   "date": "2026-10-09",
-   "slot": "1300",
-   "when": "Fri · 13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "pace-digitek",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Pace Digitek jumps 6% on a ₹179 cr BESS order",
-   "line": "Hit an intraday high of ₹171.56 on the NSE after a battery-storage order win",
-   "more": [
-    "The order is for a battery energy storage system (BESS)",
-    "The stock was on today's stocks-to-watch lists"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE – Sensex gains 800 pts; Nifty IT ends 4-day losing run as TCS leads",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
-   },
-   "date": "2026-10-09",
-   "slot": "1300",
-   "when": "Fri · 13:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "itc-block-deal",
-   "tag": "Deals",
-   "impact": "watch",
-   "title": "ITC rebounds after GQG's ₹9,395 cr exit",
-   "line": "GQG sold a 2.91% stake at ~₹257 a share; Fidelity and ICICI Pru MF were the biggest buyers",
-   "more": [
-    "About 36.5 crore shares changed hands in 14 tranches on Thursday",
-    "The stock fell ~4% on Thursday and rose ~2% on Friday",
-    "ITC is down about 30% in 2026 on cigarette tax hikes"
-   ],
-   "src": {
-    "title": "Upstox: ITC block deals – GQG sells 2.91% stake for ₹9,395 crore",
-    "url": "https://upstox.com/news/market-news/stocks/itc-block-deals-gqg-partners-sells-2-91-stake-for-9-395-crore-check-buyers-list/article-201556/"
-   },
-   "date": "2026-10-09",
-   "slot": "1230",
-   "when": "Fri · 12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "gold",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "PC Jeweller is the most active stock at noon",
-   "line": "Up about 6.6% and leading the volume chart as gold prices rise",
-   "more": [
-    "24K gold rose ₹1,140 per 10g earlier today",
-    "Jewellery stocks are broadly firm"
-   ],
-   "src": {
-    "title": "HDFC Sky: Most active stocks, Oct 9 at 12:00 PM",
-    "url": "https://hdfcsky.com/news/most-active-stocks-october-9-2026-at-12-pm"
-   },
-   "date": "2026-10-09",
-   "slot": "1230",
-   "when": "Fri · 12:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "early-losers",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "BSE, Reliance, Coal India lag the rally",
-   "line": "BSE fell 1.2% early, with Reliance, Coal India and BEL also lower",
-   "more": [
-    "No stock-specific triggers reported",
-    "Smallcaps are also in the red despite the index gains"
-   ],
-   "src": {
-    "title": "HDFC Sky: Sensex, Nifty gain; TCS jumps 3.8%",
-    "url": "https://hdfcsky.com/news/bse-nse-sensex-october-9-2026-open-report-sensex-nifty-open-higher-as-trump-rules-out-iran-attack-before-november-oil-eases-it-sector-leads-market-rally"
-   },
-   "date": "2026-10-09",
-   "slot": "1200",
-   "when": "Fri · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "ncc",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "NCC wins ₹1,286 cr Hyderabad road order",
-   "line": "Letter of acceptance for Radial Road-2 in Telangana, to be completed in 18 months",
-   "more": [
-    "Awarded by Hyderabad Growth Corridor",
-    "BEML separately disclosed an order of about ₹75.6 cr"
-   ],
-   "src": {
-    "title": "Business Standard: Stocks to watch – TCS, Infosys, Wipro, Anand Rathi, KEC Int'l, NCC, BEML",
-    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-october-9-tcs-infosys-wipro-it-stocks-anand-rathi-kec-int-l-ncc-beml-126100900116_1.html"
-   },
-   "date": "2026-10-09",
-   "slot": "1000",
-   "when": "Fri · 10:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-09",
+    "date": "2026-10-12",
     "slot": "1000"
    }
   }
