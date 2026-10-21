@@ -1,0 +1,152 @@
+{
+ "asof": "2026-10-21T15:00:00+05:30",
+ "summary": "The market is near the day's lows into the final half hour, with broad-based selling hitting smaller stocks far harder than the benchmarks and IT the only sector holding firm.",
+ "mood": {
+  "label": "Broad sell-off",
+  "score": -0.55,
+  "detail": {
+   "stats": [],
+   "leaders": "Nifty IT, L&T Technology Services",
+   "laggards": "Nifty Smallcap 100, Nifty Midcap 100, Bajaj Finance",
+   "movers": {
+    "up": {
+     "summary": "IT is the lone sector in the green, with Nifty IT at an 8-month high",
+     "why": "Strong Q2 numbers have kept buyers in IT services even as the rest of the market sold off.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "line": "Hit an 8-month high; Infosys, TCS and Tech Mahindra among top Nifty gainers"
+      },
+      {
+       "name": "L&T Technology Services",
+       "move": "up as much as 14.7%",
+       "dir": "up",
+       "line": "Q2 profit up 66.8% to ₹548.2 cr, well ahead of estimates"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Nifty IT index hits 8-month high; LTTS zooms 15%",
+      "url": "https://www.business-standard.com/markets/news/nifty-it-index-hits-8-month-high-ltts-zooms-15-on-wednesday-here-s-why-126102100228_1.html"
+     }
+    },
+    "down": {
+     "summary": "Small and midcaps are bearing the brunt, falling far more than the Nifty",
+     "why": "A defence sell-off, Brent near $109 and foreign outflows have triggered broad risk-off selling that is hitting smaller stocks hardest.",
+     "names": [
+      {
+       "name": "Nifty Smallcap 100",
+       "move": "-2.48%",
+       "dir": "down",
+       "line": "Steepest fall among major indices as selling broadens beyond large caps"
+      },
+      {
+       "name": "Nifty Midcap 100",
+       "move": "-1.82%",
+       "dir": "down",
+       "line": "Roughly double the Nifty's fall amid the afternoon risk-off move"
+      },
+      {
+       "name": "Bajaj Finance",
+       "dir": "down",
+       "line": "Among top Nifty losers after flagging lending-margin pressure in Q2"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 500 pts; Eternal falls over 4% ahead of Q2",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
+     }
+    }
+   },
+   "tone": "Weaker again since the 1430 note: the Nifty has slipped further to 22,681.75 at 3 pm, and the gap with mid and smallcaps shows the selling is now broad.",
+   "watch": [
+    "Whether the Nifty closes below 22,700",
+    "Eternal's Q2 results after the bell",
+    "FII/DII provisional data this evening"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 500 pts; Eternal falls over 4% ahead of Q2",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 22681.75,
+  "pct": -0.91,
+  "chg": -207.2,
+  "approx": false
+ },
+ "top": [
+  {
+   "key": "eternal-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Eternal falls over 4% ahead of Q2 results",
+   "line": "Stock among top Nifty losers before tonight's numbers; brokerages see PAT of ₹228–293 cr.",
+   "more": [
+    "Earnings call at 5 pm",
+    "Blinkit's profitability is the key watch point"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 500 pts; Eternal falls over 4% ahead of Q2",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Jio IPO GMP slips about 2% on day one",
+   "line": "Grey-market premium eased even as the book was covered within an hour of opening.",
+   "more": [
+    "NSE data showed 13.56 lakh applications",
+    "Subscription around 1.3x in midday readings; QIBs lead"
+   ],
+   "src": {
+    "title": "Goodreturns: Jio IPO Day 1 live — GMP falls 2% despite fastest subscription",
+    "url": "https://www.goodreturns.in/news/jio-ipo-day-1-live-subscription-status-gmp-today-price-band-reviews-allotment-listing-date-1542735.html"
+   }
+  },
+  {
+   "key": "volatility",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Mid, smallcaps slump in broad sell-off",
+   "line": "Nifty Midcap 100 down 1.82% and Smallcap 100 down 2.48% at 3 pm.",
+   "more": [
+    "Eicher Motors, Trent and Adani Enterprises also among top Nifty losers",
+    "India VIX up about 8% earlier in the afternoon"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 500 pts; Eternal falls over 4% ahead of Q2",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 500 pts; Eternal falls over 4% ahead of Q2",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
+  },
+  {
+   "title": "Upstox: SENSEX, NIFTY erase early gains, tumble nearly 1%",
+   "url": "https://upstox.com/news/market-news/stocks/sensex-nifty-erase-early-gains-tumble-nearly-1-in-noon-deals-ril-llts-hfcl-among-buzzing-stocks/article-202159/"
+  },
+  {
+   "title": "Business Standard: Nifty IT index hits 8-month high; LTTS zooms 15%",
+   "url": "https://www.business-standard.com/markets/news/nifty-it-index-hits-8-month-high-ltts-zooms-15-on-wednesday-here-s-why-126102100228_1.html"
+  },
+  {
+   "title": "Zee Business: Bajaj Finance falls 3% despite 29% profit growth",
+   "url": "https://www.zeebiz.com/markets/stocks/news-bajaj-finance-shares-fall-3-despite-29-profit-growth-why-are-brokerages-cutting-targets-404240"
+  },
+  {
+   "title": "Goodreturns: Jio IPO Day 1 live — GMP falls 2% despite fastest subscription",
+   "url": "https://www.goodreturns.in/news/jio-ipo-day-1-live-subscription-status-gmp-today-price-band-reviews-allotment-listing-date-1542735.html"
+  },
+  {
+   "title": "NiftyTrader: Eternal Q2 FY27 results on Oct 21",
+   "url": "https://www.niftytrader.in/markets/eternal-q2-fy27-results-on-oct-21/"
+  }
+ ]
+}
