@@ -1,99 +1,103 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-21T12:04:18+05:30",
+ "generated_at": "2026-10-21T12:33:15+05:30",
  "date": "2026-10-21",
- "slot": "1200",
- "slot_label": "12:00",
+ "slot": "1230",
+ "slot_label": "12:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-21T12:00:00+05:30",
+ "asof": "2026-10-21T12:30:00+05:30",
  "nifty": {
-  "value": 22824.45,
-  "pct": -0.28,
-  "chg": -64.5,
-  "approx": false
+  "value": 22750,
+  "pct": -0.61,
+  "chg": -139,
+  "approx": true
  },
  "mood": {
-  "label": "Gains erased",
-  "score": -0.15,
-  "summary": "The morning rally has fully unravelled: benchmarks have slipped into the red, about 800 Sensex points off the day's high, with autos sliding and broader selling replacing the early optimism.",
+  "label": "Selling deepens",
+  "score": -0.35,
+  "summary": "Selling has deepened through midday, with the Sensex now about 400 points lower and the Nifty below 22,750, as autos and realty lead declines and the morning's gains are a distant memory.",
   "detail": {
-   "leaders": "IT stocks, L&T Technology Services",
-   "laggards": "Bajaj Finance, Bajaj Finserv",
-   "tone": "A sharp turn from the 1130 note: the index has slipped below Monday's close as profit booking, elevated crude and resistance near 23,100 snuffed out the rally; Nifty Auto is down over 2%.",
+   "leaders": "IT stocks still the main support",
+   "laggards": "Auto and realty shares",
+   "tone": "Worse than the 1200 note: the slide below Monday's close has extended, leaving the Sensex roughly 1,200 points off its intraday high.",
    "watch": [
-    "Whether the Nifty holds 22,800",
-    "A recovery in autos and financials",
-    "Any formal word on the India-US trade deal"
+    "Whether the Nifty can hold 22,700",
+    "Brent's move after climbing back above $110",
+    "Any official India-US trade deal news"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex off 800 pts from day's high, Nifty below 22,900; Nifty Auto falls over 2%",
+    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 400 pts, Nifty below 22,750; auto, realty shares weigh",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
-   },
-   "movers": {
-    "up": {
-     "summary": "IT is the only real pocket of strength left, led by LTTS",
-     "why": "Post-results buying in IT services continues even as the wider market gives up its gains.",
-     "names": [
-      {
-       "name": "Nifty IT",
-       "dir": "up",
-       "line": "IT and telecom stocks saw buying through the morning; Infosys, TCS led gains"
-      },
-      {
-       "name": "L&T Technology Services",
-       "dir": "up",
-       "move": "up ~15%",
-       "line": "Q2 profit rose to ₹548 cr, beating estimates"
-      }
-     ],
-     "src": {
-      "title": "Equitymaster: Sensex rallies 794 points, Nifty above 23,100 (10:30 am)",
-      "url": "https://www.equitymaster.com/indian-share-markets/10/21/2026/Sensex-Today-Rallies-794-Points--Nifty-Above-23100--Infosys--TCS-Top-Gainers"
-     }
-    },
-    "down": {
-     "summary": "Bajaj group financials remain the heaviest stock-specific drag",
-     "why": "Bajaj Finance's guidance for pressure on lending margins prompted target cuts despite strong Q2 profit.",
-     "names": [
-      {
-       "name": "Bajaj Finance",
-       "dir": "down",
-       "move": "down ~2.6–3%",
-       "line": "Biggest Nifty loser after flagging margin pressure from funding costs"
-      },
-      {
-       "name": "Bajaj Finserv",
-       "dir": "down",
-       "move": "-0.5%",
-       "line": "Holding company slips with its lending arm"
-      }
-     ],
-     "src": {
-      "title": "Zee Business: Bajaj Finance falls 3% despite 29% profit growth",
-      "url": "https://www.zeebiz.com/markets/stocks/news-bajaj-finance-shares-fall-3-despite-29-profit-growth-why-are-brokerages-cutting-targets-404240"
-     }
-    }
    }
   }
  },
  "insights": [
   {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent climbs back above $110",
+   "line": "Brent up 1.2% to about $110.10 on Wednesday; WTI near $99 on Hormuz supply fears.",
+   "more": [
+    "Hit a five-month high of $111.99 on Tuesday before settling at $108.79",
+    "At least 18 tanker attacks in the last two weeks, per Kpler data",
+    "Iran-Pakistan mediation talks briefly pulled prices back"
+   ],
+   "src": {
+    "title": "OilPrice.com: Oil prices climb above $110 as Middle East supply fears persist",
+    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-110-as-Middle-East-Supply-Fears-Persist.html"
+   },
+   "date": "2026-10-21",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-12",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Jio IPO at 1.18x by 11 am",
+   "line": "Bids for 23.3 cr shares vs 19.75 cr on offer; QIB portion at 3.77x.",
+   "more": [
+    "Earlier readings were ~1.01x at 10:34 am",
+    "Retail demand was lagging at about 0.25x in late morning"
+   ],
+   "src": {
+    "title": "The Week: Jio Platforms IPO gets 100% subscribed by 11 am",
+    "url": "https://www.theweek.in/news/biz-tech/2026/10/21/jio-platforms-ipo-fully-subscribed.html"
+   },
+   "date": "2026-10-21",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "pre"
+   }
+  },
+  {
    "key": "volatility",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "Profit booking wipes out the morning rally",
-   "line": "Sellers emerged near 23,100 as elevated crude and resistance levels capped gains.",
+   "title": "Sell-off widens to autos and realty",
+   "line": "Profit booking from the morning high has broadened, with auto and realty shares weighing.",
    "more": [
-    "Sensex is ~800 pts below its intraday high",
-    "Nifty Auto is down over 2%; most stocks are declining"
+    "Sensex had been up about 800 pts intraday",
+    "Nifty Auto was down over 2% around noon"
    ],
    "src": {
-    "title": "NewsBytes: Sensex down 600 points from high, Nifty dips below 22,950",
-    "url": "https://www.newsbytesapp.com/news/business/sensex-down-600-points-and-nifty-dips-below-22950/tldr"
+    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 400 pts, Nifty below 22,750; auto, realty shares weigh",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
    },
    "date": "2026-10-21",
-   "slot": "1200",
-   "when": "12:00",
+   "slot": "1230",
+   "when": "12:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -119,34 +123,10 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-12",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Jio IPO: retail slow, institutions lead",
-   "line": "QIBs ~3.25x by late morning; retail ~0.25x and NII ~0.26x on day one.",
-   "more": [
-    "Grey-market premium ~₹265, or ~23.7% (unofficial)",
-    "Bidding closes Oct 23"
-   ],
-   "src": {
-    "title": "IIFL: Jio IPO live — fully subscribed within hours; GMP and live status",
-    "url": "https://www.indiainfoline.com/news/ipo/jio-ipo-live-indias-biggest-ipo-fully-subscribed-within-hours-of-going-public-check-gmp-and-live-subscription-status"
-   },
-   "date": "2026-10-21",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
    }
   },
   {
@@ -345,30 +325,6 @@
    "first_seen": {
     "date": "2026-10-21",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent back above $110",
-   "line": "Tanker attacks near Hormuz and Houthi strikes on Saudi Arabia keep oil at 5-month highs.",
-   "more": [
-    "Brent settled at $109.55 on Monday",
-    "Elevated crude is a headwind for India's import bill and inflation"
-   ],
-   "src": {
-    "title": "OilPrice.com: Brent tops $110 as tanker attacks threaten Persian Gulf supply",
-    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tops-110-as-Tanker-Attacks-Threaten-Persian-Gulf-Supply.html"
-   },
-   "date": "2026-10-21",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-12",
-    "slot": "0930"
    }
   },
   {
