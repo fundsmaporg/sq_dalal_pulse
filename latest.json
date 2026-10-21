@@ -1,49 +1,49 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-21T11:03:20+05:30",
+ "generated_at": "2026-10-21T11:36:39+05:30",
  "date": "2026-10-21",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-21T11:00:00+05:30",
+ "asof": "2026-10-21T11:30:00+05:30",
  "nifty": {
-  "value": 22950,
-  "pct": 0.27,
+  "value": 23000,
+  "pct": 0.48,
   "approx": true
  },
  "mood": {
-  "label": "Gains fade",
-  "score": 0.15,
-  "summary": "The morning rally has faded to a modest gain, with the Sensex giving back more than half its early advance as selling on rallies resumes; IT is still holding the market up.",
+  "label": "Steady, IT-led",
+  "score": 0.2,
+  "summary": "The market is holding a modest gain around 23,000 in a range-bound late morning, with IT still the main support and broader indices little changed.",
   "detail": {
    "leaders": "Nifty IT, L&T Technology Services",
    "laggards": "Bajaj Finance, Bajaj Finserv",
-   "tone": "Weaker than the 1030 note: the Sensex has pared its gain to about 300 points from as much as 800 intraday, as a strategist flagged a continuing 'sell on rally' trend.",
+   "tone": "Little changed from the 1100 note: the index has stopped fading and is holding near 23,000, though without fresh momentum.",
    "watch": [
-    "Whether the Nifty holds 22,900 into the afternoon",
-    "Any official word on the India-US trade deal",
-    "Retail demand for the Jio IPO through the day"
+    "Any formal India-US trade deal announcement",
+    "Whether private banks start to participate",
+    "Eternal Q2 numbers after the close"
    ],
    "src": {
-    "title": "Business Standard: Why are markets rising today?",
-    "url": "https://www.business-standard.com/markets/news/why-are-markets-rising-today-sensex-up-800-pts-intraday-nifty-tops-23-100-126102100246_1.html"
+    "title": "Zee Business: Sensex jumps nearly 400 pts, Nifty above 23,000; IT, PSU bank stocks lead",
+    "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-jumps-nearly-400-points-nifty-above-23000-it-psu-bank-stocks-lead-gains-404238"
    },
    "movers": {
     "up": {
-     "summary": "IT keeps the market in the green, led by a 15% jump in LTTS",
-     "why": "Strong Q2 numbers have kept the IT rally going, and IT led the early gains on India-US trade deal hopes.",
+     "summary": "IT continues to carry the market, with LTTS the standout gainer",
+     "why": "The post-results rally in IT services is extending, and IT led the early gains on India-US trade deal hopes.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
        "move": "+2.0%",
-       "line": "Top sector index; at a multi-month high as the post-results IT rally extends"
+       "line": "Strongest sector index today; Infosys was the top Nifty gainer at the open"
       },
       {
        "name": "L&T Technology Services",
        "dir": "up",
        "move": "up ~15%",
-       "line": "Q2 profit up 66.8% to ₹548.2 cr, well above estimates"
+       "line": "Q2 profit rose to ₹548 cr, beating estimates; stock hit ₹4,143"
       }
      ],
      "src": {
@@ -52,14 +52,14 @@
      }
     },
     "down": {
-     "summary": "Bajaj group stocks stay under pressure after Bajaj Finance's margin warning",
-     "why": "Bajaj Finance guided for pressure on lending margins, and several brokerages cut their targets despite strong Q2 profit growth.",
+     "summary": "Bajaj group stocks remain the main drag on the Nifty",
+     "why": "Bajaj Finance's guidance for pressure on lending margins has overshadowed its 29% profit growth.",
      "names": [
       {
        "name": "Bajaj Finance",
        "dir": "down",
-       "move": "down ~2.3–3%",
-       "line": "Biggest Nifty drag; margin pressure from higher funding costs flagged"
+       "move": "down ~2.6–3%",
+       "line": "Biggest Nifty loser; brokerages trimmed targets on margin worries"
       },
       {
        "name": "Bajaj Finserv",
@@ -69,7 +69,7 @@
       }
      ],
      "src": {
-      "title": "Zee Business: Bajaj Finance falls 3% despite 29% profit growth; brokerages cut targets",
+      "title": "Zee Business: Bajaj Finance falls 3% despite 29% profit growth",
       "url": "https://www.zeebiz.com/markets/stocks/news-bajaj-finance-shares-fall-3-despite-29-profit-growth-why-are-brokerages-cutting-targets-404240"
      }
     }
@@ -81,20 +81,20 @@
    "key": "india-us-trade",
    "tag": "Policy",
    "impact": "pos",
-   "title": "Trump says India-US trade deal is near",
-   "line": "Trump said Tuesday the two sides are close to a deal; it lifted early sentiment.",
+   "title": "Rubio, Trump say trade deal is very close",
+   "line": "Rubio says few issues remain; an announcement and leaders' signing could come soon.",
    "more": [
-    "He said the deal would differ from previous trade deals",
-    "Reports credit it for the early 570-pt Sensex jump",
-    "Crude and US bond yields still weigh on sentiment"
+    "Rubio spoke in Mumbai on Oct 20",
+    "Trump said a deal is 'pretty close' after over a year of talks",
+    "No signing date has been confirmed"
    ],
    "src": {
-    "title": "Free Press Journal: Sensex jumps 571 pts as India-US trade deal hopes lift sentiment",
-    "url": "https://www.freepressjournal.in/business/stock-market-today-sensex-jumps-571-points-nifty-reclaims-23000-mark-as-india-us-trade-deal-hopes-lift-investor-sentiment"
+    "title": "BusinessToday: 'Pretty close' — Trump says India-US trade deal is in sight",
+    "url": "https://www.businesstoday.in/india/story/pretty-close-after-rubio-donald-trump-says-india-us-trade-deal-is-in-sight-562656-2026-10-21"
    },
    "date": "2026-10-21",
-   "slot": "1100",
-   "when": "11:00",
+   "slot": "1130",
+   "when": "11:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -103,23 +103,46 @@
    }
   },
   {
+   "key": "russia-oil-tariff",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Trump waives tariffs on Russian oil buyers",
+   "line": "100% tariffs on buyers of Russian oil and gas waived a day before they were due.",
+   "more": [
+    "Offers respite to India just before the measures took effect",
+    "Announced alongside comments on the India-US deal"
+   ],
+   "src": {
+    "title": "BusinessToday: 'Pretty close' — Trump says India-US trade deal is in sight",
+    "url": "https://www.businesstoday.in/india/story/pretty-close-after-rubio-donald-trump-says-india-us-trade-deal-is-in-sight-562656-2026-10-21"
+   },
+   "date": "2026-10-21",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "1130"
+   }
+  },
+  {
    "key": "jio-ipo",
    "tag": "Listing",
    "impact": "pos",
-   "title": "Jio IPO fully subscribed within 2 hours",
-   "line": "Issue covered ~1.03x by 10:40 am, driven by QIBs at 3.25x; retail at 0.25x.",
+   "title": "Jio IPO covered in under 35 minutes",
+   "line": "Book was about 1.01x subscribed by 10:34 am on day one, led by institutions.",
    "more": [
-    "NII portion at about 0.26x",
-    "Retail bid for 1.94 cr shares vs 8.50 cr reserved",
-    "Bidding runs to Oct 23"
+    "Issue stays open until Oct 23",
+    "Grey market points to a listing gain of nearly 25% (unofficial)"
    ],
    "src": {
-    "title": "IPO Guru: Jio Platforms IPO fully subscribed within 2 hours",
-    "url": "https://www.ipoguru.in/news/jio-platforms-ipo-fully-subscribed-within-2-hours"
+    "title": "Business Standard: Jio Platforms IPO fully subscribed in less than 35 minutes",
+    "url": "https://www.business-standard.com/amp/markets/ipo/jio-platforms-ipo-subscription-qib-retail-anchor-investor-126102100328_1.html"
    },
    "date": "2026-10-21",
-   "slot": "1100",
-   "when": "11:00",
+   "slot": "1130",
+   "when": "11:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -145,7 +168,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1230"
