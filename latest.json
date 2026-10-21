@@ -1,33 +1,76 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-21T14:03:11+05:30",
+ "generated_at": "2026-10-21T14:33:58+05:30",
  "date": "2026-10-21",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-21T14:00:00+05:30",
+ "asof": "2026-10-21T14:30:00+05:30",
  "nifty": {
-  "value": 22700,
-  "pct": -0.83,
-  "chg": -189,
-  "approx": true
+  "value": 22704.5,
+  "pct": -0.81,
+  "chg": -184.45,
+  "approx": false
  },
  "mood": {
-  "label": "Risk-off afternoon",
-  "score": -0.4,
-  "summary": "Losses have deepened again into the afternoon, with the Nifty slipping toward 22,700 and volatility climbing, as broad selling outweighs the few pockets of support.",
+  "label": "Selling broadens",
+  "score": -0.45,
+  "summary": "Selling has broadened into the afternoon, with the Nifty below 22,700 and close to its intraday low; only IT heavyweights are bucking a market weighed down by financials, autos and defence.",
   "detail": {
-   "leaders": "No clear sector leadership",
-   "laggards": "Auto, bank and realty shares",
-   "tone": "Weaker than the 1330 note: the Nifty has slipped from about 22,750 toward 22,700 and the India VIX is up 8.5% to 16.03.",
+   "leaders": "Infosys, TCS, L&T Technology Services",
+   "laggards": "Bajaj Finance",
+   "tone": "Weaker than the 1400 note: the Sensex loss has widened to about 500 points and the Nifty hit an intraday fall of up to 0.95%, with Eternal, Eicher Motors, Trent and Adani Enterprises also among top losers.",
    "watch": [
-    "A break below 22,700 on the Nifty",
-    "Whether the VIX keeps climbing into the close",
-    "Q2 numbers from Adani Green, Indian Hotels and Eternal after hours"
+    "Whether the Nifty breaks its intraday low into the close",
+    "Eternal's Q2 results and 5 pm call",
+    "FII flow data after the close"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 400 pts, Nifty near 22,700; VIX jumps 8%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
+    "title": "Upstox: SENSEX, NIFTY erase early gains, tumble nearly 1% in noon deals",
+    "url": "https://upstox.com/news/market-news/stocks/sensex-nifty-erase-early-gains-tumble-nearly-1-in-noon-deals-ril-llts-hfcl-among-buzzing-stocks/article-202159/"
+   },
+   "movers": {
+    "up": {
+     "summary": "IT heavyweights are the lone bright spot, with Infosys and TCS among top Nifty gainers",
+     "why": "The post-results IT rally has held through the sell-off as Q2 numbers beat expectations and AI-disruption worries eased.",
+     "names": [
+      {
+       "name": "Infosys",
+       "dir": "up",
+       "line": "Among top Nifty 50 gainers at 2 pm alongside Tech Mahindra and HCLTech"
+      },
+      {
+       "name": "TCS",
+       "dir": "up",
+       "line": "Still in the green as the IT rerating continues despite the market slide"
+      },
+      {
+       "name": "L&T Technology Services",
+       "dir": "up",
+       "move": "up as much as 14.7%",
+       "line": "Q2 profit up 66.8% to ₹548.2 cr; hit ₹4,143 intraday"
+      }
+     ],
+     "src": {
+      "title": "Upstox: SENSEX, NIFTY erase early gains, tumble nearly 1% in noon deals",
+      "url": "https://upstox.com/news/market-news/stocks/sensex-nifty-erase-early-gains-tumble-nearly-1-in-noon-deals-ril-llts-hfcl-among-buzzing-stocks/article-202159/"
+     }
+    },
+    "down": {
+     "summary": "Bajaj Finance remains among the heaviest drags on the Nifty",
+     "why": "Its margin warning and brokerage target cuts have kept the stock under pressure all day.",
+     "names": [
+      {
+       "name": "Bajaj Finance",
+       "dir": "down",
+       "line": "Among top Nifty losers at 2 pm after flagging pressure on lending margins"
+      }
+     ],
+     "src": {
+      "title": "Zee Business: Bajaj Finance falls 3% despite 29% profit growth",
+      "url": "https://www.zeebiz.com/markets/stocks/news-bajaj-finance-shares-fall-3-despite-29-profit-growth-why-are-brokerages-cutting-targets-404240"
+     }
+    }
    }
   }
  },
@@ -36,24 +79,73 @@
    "key": "volatility",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "India VIX up 8.5% to 16.03",
-   "line": "Volatility gauge climbs as the Sensex extends its slide to about 400 points.",
+   "title": "Defence sell-off, crude, FII outflows weigh",
+   "line": "Indices turned negative as defence stocks fell and Brent held near $109; FIIs sold.",
    "more": [
-    "Sensex was up about 800 pts intraday in the morning",
-    "Auto, bank and realty shares lead the declines"
+    "Sensex fell as much as 0.8% and Nifty 0.95% intraday",
+    "India VIX up about 8%",
+    "Eternal, Bajaj Finance, Eicher, Trent, Adani Ent among top Nifty losers"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 400 pts, Nifty near 22,700; VIX jumps 8%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
+    "title": "Upstox: SENSEX, NIFTY erase early gains, tumble nearly 1% in noon deals",
+    "url": "https://upstox.com/news/market-news/stocks/sensex-nifty-erase-early-gains-tumble-nearly-1-in-noon-deals-ril-llts-hfcl-among-buzzing-stocks/article-202159/"
    },
    "date": "2026-10-21",
-   "slot": "1400",
-   "when": "14:00",
+   "slot": "1430",
+   "when": "14:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1230"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Jio IPO at 1.43x; QIBs 4.13x",
+   "line": "Bids for 28.31 cr shares vs 19.75 cr on offer by 12:33 pm on day one.",
+   "more": [
+    "Retail and NII categories still below full subscription",
+    "Issue closes Oct 23"
+   ],
+   "src": {
+    "title": "Free Press Journal: Jio IPO fully subscribed within 100 minutes",
+    "url": "https://www.freepressjournal.in/business/jio-ipo-fully-subscribed-within-100-minutes-of-opening-rs-30213-crore-mega-issue-sees-strong-institutional-demand"
+   },
+   "date": "2026-10-21",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "eternal-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Eternal among top losers before Q2",
+   "line": "Brokerages see PAT of ₹228–293 cr; Motilal Oswal sees adjusted PAT of ₹574 cr.",
+   "more": [
+    "Results and earnings call due today, call at 5 pm",
+    "Stock closed at ₹320 on Oct 19"
+   ],
+   "src": {
+    "title": "Upstox: Eternal Q2 results — net profit likely to surge multifold on Blinkit",
+    "url": "https://upstox.com/news/market-news/earnings/eternal-q2-results-net-profit-likely-to-surge-multifold-driven-by-blinkit-business-growth/article-202143/"
+   },
+   "date": "2026-10-21",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "1000"
    }
   },
   {
@@ -74,7 +166,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "1400"
@@ -99,34 +191,10 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Jio IPO QIB book above 4x",
-   "line": "Issue at about 1.40x by 12:10 pm; QIB portion 4.10x, NII 0.51x.",
-   "more": [
-    "Business Standard later cited 1.44x overall",
-    "Retail demand still trails institutions"
-   ],
-   "src": {
-    "title": "HDFC Sky: Jio Platforms IPO subscription status, October 21",
-    "url": "https://hdfcsky.com/news/jio-platforms-ipo-subscription-status-october-21-2026"
-   },
-   "date": "2026-10-21",
-   "slot": "1330",
-   "when": "13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
    }
   },
   {
@@ -348,31 +416,6 @@
    "first_seen": {
     "date": "2026-10-21",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "eternal-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Eternal reports Q2 today; call at 5 pm",
-   "line": "Kotak sees revenue ~₹23,729 cr and adjusted PAT ~₹293 cr; Blinkit is the focus.",
-   "more": [
-    "Kotak's EBITDA estimate is ₹854 cr",
-    "Zee Business sees revenue up 16.2% QoQ to ₹23,492 cr",
-    "Q1 FY27 profit was ₹92 cr"
-   ],
-   "src": {
-    "title": "NiftyTrader: Eternal Q2 FY27 results on Oct 21 — can Blinkit deliver?",
-    "url": "https://www.niftytrader.in/markets/eternal-q2-fy27-results-on-oct-21/"
-   },
-   "date": "2026-10-21",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1000"
    }
   },
   {
