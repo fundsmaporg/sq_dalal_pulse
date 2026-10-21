@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-21T13:03:15+05:30",
+ "generated_at": "2026-10-21T13:33:07+05:30",
  "date": "2026-10-21",
- "slot": "1300",
- "slot_label": "13:00",
+ "slot": "1330",
+ "slot_label": "13:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-21T13:00:00+05:30",
+ "asof": "2026-10-21T13:30:00+05:30",
  "nifty": {
   "value": 22750,
   "pct": -0.61,
@@ -13,47 +13,95 @@
   "approx": true
  },
  "mood": {
-  "label": "Weak, off lows",
-  "score": -0.25,
-  "summary": "Benchmarks remain in the red but have pared their losses, with the Nifty hovering near 22,750 as auto, bank and realty stocks weigh in a choppy session.",
+  "label": "Nervous drift",
+  "score": -0.3,
+  "summary": "The market is stuck in the red near 22,750 with no sign of a fresh recovery, and a sharp rise in volatility shows traders turning more defensive into the final two hours.",
   "detail": {
    "leaders": "IT stocks provide some support",
    "laggards": "Auto, bank and realty shares",
-   "tone": "Slightly better than the 1230 note: the Sensex loss has narrowed to about 200 points from roughly 400, though the index is still well below the morning high.",
+   "tone": "Little changed to slightly weaker since the 1300 note, with the Sensex loss back at roughly 300–400 points and the India VIX up about 8%.",
    "watch": [
-    "Whether the Nifty reclaims Monday's close of 22,889",
-    "Afternoon Q2 results from Adani Green, Indian Hotels and Eternal",
-    "Brent holding above $110"
+    "Whether the Nifty holds 22,700 into the close",
+    "Indian Hotels, Adani Green and Eternal results after hours",
+    "A further jump in India VIX"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 200 pts, Nifty around 22,750; Jio IPO subscribed 1.44 times",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
+    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 400 pts, Nifty around 22,750; VIX jumps 8%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
    }
   }
  },
  "insights": [
   {
+   "key": "volatility",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "India VIX jumps about 8%",
+   "line": "Fear gauge spikes as the Sensex swings from a big morning gain to a loss.",
+   "more": [
+    "Sensex is down roughly 300–400 pts after being up ~800 pts intraday",
+    "Auto, bank and realty shares are the main drags"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 400 pts, Nifty around 22,750; VIX jumps 8%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
+   },
+   "date": "2026-10-21",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1230"
+   }
+  },
+  {
    "key": "jio-ipo",
    "tag": "Listing",
    "impact": "pos",
-   "title": "Jio IPO subscribed 1.44 times so far",
-   "line": "Demand is building through day one, up from about 1.27x around late morning.",
+   "title": "Jio IPO QIB book above 4x",
+   "line": "Issue at about 1.40x by 12:10 pm; QIB portion 4.10x, NII 0.51x.",
    "more": [
-    "QIB portion at about 3.86x and NII at 0.40x by 11:30 am",
-    "Bidding closes on October 23"
+    "Business Standard later cited 1.44x overall",
+    "Retail demand still trails institutions"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 200 pts, Nifty around 22,750; Jio IPO subscribed 1.44 times",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
+    "title": "HDFC Sky: Jio Platforms IPO subscription status, October 21",
+    "url": "https://hdfcsky.com/news/jio-platforms-ipo-subscription-status-october-21-2026"
    },
    "date": "2026-10-21",
-   "slot": "1300",
-   "when": "13:00",
+   "slot": "1330",
+   "when": "13:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "pre"
+   }
+  },
+  {
+   "key": "indian-hotels-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Indian Hotels Q2 due; 40% profit rise seen",
+   "line": "Zee Business sees profit at ~₹398 cr and revenue up 17.5% to ~₹2,398 cr.",
+   "more": [
+    "EBITDA seen up 22.2% to ~₹696.5 cr",
+    "Stock closed at ₹760 on Oct 19, down 1.57%"
+   ],
+   "src": {
+    "title": "Zee Business: Indian Hotels Q2 preview — profit seen rising 40% to ₹398 cr",
+    "url": "https://www.zeebiz.com/companies/news-indian-hotels-q2-preview-profit-seen-rising-40-yoy-to-rs-398-crore-revenue-may-grow-18-404172"
+   },
+   "date": "2026-10-21",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "1330"
    }
   },
   {
@@ -74,34 +122,10 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-12",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "volatility",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Auto, bank, realty shares weigh",
-   "line": "Losses have narrowed from the lows, but these sectors keep the indices in the red.",
-   "more": [
-    "Sensex had been up about 800 pts intraday this morning",
-    "Sensex now down about 200 pts"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 200 pts, Nifty around 22,750; Jio IPO subscribed 1.44 times",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
-   },
-   "date": "2026-10-21",
-   "slot": "1300",
-   "when": "13:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1230"
    }
   },
   {
