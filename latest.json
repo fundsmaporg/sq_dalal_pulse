@@ -1,37 +1,151 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-22T10:34:11+05:30",
+ "generated_at": "2026-10-22T11:03:05+05:30",
  "date": "2026-10-22",
- "slot": "1030",
- "slot_label": "10:30",
+ "slot": "1100",
+ "slot_label": "11:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-22T10:30:00+05:30",
+ "asof": "2026-10-22T11:00:00+05:30",
  "nifty": {
-  "value": 22780,
-  "pct": -0.14,
-  "chg": -31,
+  "value": 22720,
+  "pct": -0.4,
+  "chg": -91,
   "approx": true
  },
  "mood": {
-  "label": "Steady recovery",
-  "score": -0.1,
-  "summary": "The market has recovered most of its opening losses, with the Sensex now down only about 100 points, though metal, auto and bank stocks are still dragging and smaller stocks remain soft.",
+  "label": "Off the lows",
+  "score": -0.2,
+  "summary": "Benchmarks are off their lows but still in the red, with realty and bank shares helping the recovery while midcaps stay under pressure from post-results selling.",
   "detail": {
-   "leaders": "Eternal, PC Jeweller",
-   "laggards": "Metal, auto and bank stocks",
-   "tone": "Better than the 1000 note: the Sensex loss has shrunk to about 100 points from roughly 366, and from about 573 shortly after the open.",
+   "leaders": "PC Jeweller, Eternal",
+   "laggards": "KEI Industries",
+   "tone": "Still choppy since the 1030 note: the Sensex is about 300 points above its day's low, helped by realty and bank shares, but has not turned positive.",
    "watch": [
-    "Whether the Nifty can reclaim Wednesday's close of 22,811",
-    "Brent crude holding above $110",
-    "Retail demand in the Jio IPO"
+    "A move back above Wednesday's Nifty close of 22,811",
+    "Further midcap selling on results misses",
+    "Jio IPO retail demand ahead of Friday's close"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 100 pts; Jio IPO subscribed 3.3 times on day 2",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex rebounds 300 pts from day's low; KEI Ind, M&M Fin lead MidCap losses",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+   },
+   "movers": {
+    "up": {
+     "summary": "Results-driven buying in PC Jeweller and Eternal",
+     "why": "Investors are rewarding companies whose Q2 numbers or brokerage views beat fears.",
+     "names": [
+      {
+       "name": "PC Jeweller",
+       "dir": "up",
+       "move": "up as much as 8.97%",
+       "line": "Q2 profit up 58% to ₹330.66 cr; now free of bank debt"
+      },
+      {
+       "name": "Eternal",
+       "dir": "up",
+       "move": "+1.36%",
+       "line": "Brokerages kept Buy ratings after Q2; consensus target ₹381"
+      }
+     ],
+     "src": {
+      "title": "BusinessToday: Eternal — CLSA sets highest target post Q2; Macquarie lowest",
+      "url": "https://www.businesstoday.in/markets/stocks/story/eternal-shares-clsa-sets-highest-target-post-q2-results-macquarie-has-the-lowest-562941-2026-10-22"
+     }
+    },
+    "down": {
+     "summary": "KEI Industries leads midcap losses after its Q2 numbers",
+     "why": "Margin compression in Q2 results is drawing sellers in midcaps.",
+     "names": [
+      {
+       "name": "KEI Industries",
+       "dir": "down",
+       "move": "-8.6%",
+       "line": "Profit up 29% but PAT margin slipped to 6.95% from 7.46%; fifth straight fall"
+      }
+     ],
+     "src": {
+      "title": "Zee Business: KEI Industries Q2 — profit rises 29% to ₹262 crore; revenue jumps 39%",
+      "url": "https://www.zeebiz.com/companies/news-kei-industries-q2-results-profit-rises-29-yoy-to-rs-262-crore-revenue-jumps-39-404291"
+     }
+    }
    }
   }
  },
  "insights": [
+  {
+   "key": "kei-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "KEI Industries slumps 8.6% after Q2",
+   "line": "Profit rose 29% to ₹262.45 cr and revenue 38.5%, but margins narrowed.",
+   "more": [
+    "PAT margin 6.95% vs 7.46% a year ago",
+    "Stock falls to about ₹3,866 on NSE",
+    "Fifth straight session of losses"
+   ],
+   "src": {
+    "title": "Zee Business: KEI Industries Q2 — profit rises 29% to ₹262 crore; revenue jumps 39%",
+    "url": "https://www.zeebiz.com/companies/news-kei-industries-q2-results-profit-rises-29-yoy-to-rs-262-crore-revenue-jumps-39-404291"
+   },
+   "date": "2026-10-22",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-22",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "adani-green-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Adani Green Q2 profit up 16% to ₹747 cr",
+   "line": "Total income grew 39% to ₹4,520 cr; one report says profit beat estimates.",
+   "more": [
+    "Some outlets put profit at ₹670–673 cr",
+    "Standalone profit fell 93% to ₹33 cr"
+   ],
+   "src": {
+    "title": "Business Standard: Adani Green Energy Q2 profit grows 16% to ₹747 crore, income up 39%",
+    "url": "https://www.business-standard.com/companies/quarterly-results/adani-green-energy-q2-profit-grows-16-to-747-crore-income-up-39-126102100784_1.html"
+   },
+   "date": "2026-10-22",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "vishal-mega-mart-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Vishal Mega Mart gets target cuts after Q2 miss",
+   "line": "Profit up 3.7% to ₹157.9 cr missed estimates by 14%; consensus 'Buy' intact.",
+   "more": [
+    "Shares fell 6% on Wednesday, hitting ₹86.66 intraday",
+    "Company blamed festive-season shift to Q3",
+    "HDFC Inst. Equities keeps Buy, target ₹135"
+   ],
+   "src": {
+    "title": "BusinessToday: Vishal Mega Mart — Q2 disappoints, stock gets 'Buy' with target cuts",
+    "url": "https://www.businesstoday.in/markets/stocks/story/vishal-mega-mart-share-price-q2-disappoints-stock-gets-buy-but-with-target-cuts-562948-2026-10-22"
+   },
+   "date": "2026-10-22",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-22",
+    "slot": "1100"
+   }
+  },
   {
    "key": "eternal-q2",
    "tag": "Results",
@@ -51,7 +165,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "1000"
@@ -75,7 +189,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "pre"
@@ -99,7 +213,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-22",
     "slot": "1000"
@@ -321,30 +435,6 @@
    "first_seen": {
     "date": "2026-10-15",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "adani-green-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Adani Green Q2 results due today",
-   "line": "Board meets today; H1 FY27 capacity rose 24% to 20,763 MW with energy sales up 32%.",
-   "more": [
-    "Investor and analyst call scheduled for October 22",
-    "FY26 revenue was ₹11,602 cr with EBITDA of ₹10,865 cr"
-   ],
-   "src": {
-    "title": "Kalkine: Adani Green lifts operational capacity 24% to 20,763 MW in H1 FY27; Q2 results Oct 21",
-    "url": "https://www.kalkine.co.in/article/energy/adani-green-energy-nse-adanigreen-lifts-operational-capacity-24-to-20763-mw-in-h1-fy27-q2-results-on-october-21"
-   },
-   "date": "2026-10-21",
-   "slot": "1400",
-   "when": "Wed · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1400"
    }
   },
   {
