@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dalal Pulse Technical View</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --bg: #0f161b; --surface: #151e24; --surface-2: #1b262d; --line: #26343c; --fg: #e9ece7; --muted: #98a5ab; --faint: #6d7a80;
+  --accent: #f0a63a; --accent-ink: #1a1206; --up: #2fbd87; --down: #ef5b50; --info: #5a93ff;
+  --display: "Fraunces", Georgia, serif; --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) { --bg: #f5f3ec; --surface: #fff; --surface-2: #f0ede4; --line: #e1dccf; --fg: #16211f; --muted: #5d6b6b; --faint: #8a9593; --accent: #b8700a; --accent-ink: #fff; --up: #1b9a68; --down: #d6463b; --info: #2f6fd6; color-scheme: light; } }
+:root[data-theme="light"] { --bg: #f5f3ec; --surface: #fff; --surface-2: #f0ede4; --line: #e1dccf; --fg: #16211f; --muted: #5d6b6b; --faint: #8a9593; --accent: #b8700a; --accent-ink: #fff; --up: #1b9a68; --down: #d6463b; --info: #2f6fd6; color-scheme: light; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.55; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 18px 56px; }
+.wrap { max-width: 1120px; margin: 0 auto; display: grid; gap: 20px; }
+a { color: var(--info); }
+h1, h2 { margin: 0; text-wrap: balance; }
+h2 { font-family: var(--display); font-weight: 500; font-size: 1.3rem; }
+.eyebrow { font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+header.top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+header.top h1 { font-family: var(--display); font-weight: 600; font-size: 1.6rem; }
+header.top .sub { color: var(--muted); font-size: 0.9rem; }
+form.ask { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 10px; align-items: end; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+@media (max-width: 720px) { form.ask { grid-template-columns: minmax(0, 1fr); } }
+label.field { display: grid; gap: 4px; font-size: 0.8rem; color: var(--muted); }
+input#symbol { font: inherit; font-size: 1rem; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface-2); color: var(--fg); min-width: 0; }
+.seg { display: flex; gap: 4px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 8px; padding: 3px; }
+.seg button { font: inherit; font-size: 0.88rem; background: transparent; color: var(--fg); border: 0; border-radius: 6px; padding: 7px 12px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); font-weight: 600; }
+button.go { font: inherit; font-weight: 600; background: var(--accent); color: var(--accent-ink); border: 0; border-radius: 8px; padding: 11px 18px; cursor: pointer; }
+button.go[disabled] { opacity: 0.6; cursor: progress; }
+button:focus-visible, input:focus-visible, a:focus-visible { outline: 2px solid var(--info); outline-offset: 2px; }
+.status { font-size: 0.9rem; color: var(--muted); min-height: 1.4em; }
+.status.err { color: var(--down); }
+.verdict { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; }
+.verdict h1 { font-family: var(--display); font-weight: 600; font-size: clamp(1.7rem, 4vw, 2.3rem); line-height: 1.05; }
+.badge { display: inline-flex; align-items: center; padding: 6px 12px; border-radius: 999px; font-weight: 600; letter-spacing: 0.02em; font-size: 0.9rem; background: var(--surface-2); border: 1px solid var(--line); }
+.badge[data-view="bullish"] { background: var(--up); color: #072a1c; border-color: transparent; }
+.badge[data-view="bearish"] { background: var(--down); color: #2b0906; border-color: transparent; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 0.85rem; color: var(--muted); }
+.meta b { color: var(--fg); font-weight: 600; }
+.chart-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.chart-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 0.82rem; color: var(--muted); }
+.legend i { display: inline-block; width: 18px; border-top: 2px solid; vertical-align: middle; margin-right: 6px; }
+.legend i.dash { border-top-style: dashed; }
+.range { display: flex; gap: 6px; }
+.range button { background: var(--surface-2); color: var(--fg); border: 1px solid var(--line); border-radius: 6px; padding: 5px 10px; font: inherit; font-size: 0.82rem; cursor: pointer; }
+.range button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+#chart { width: 100%; height: 440px; }
+@media (max-width: 640px) { #chart { height: 320px; } }
+.chart-foot { padding: 8px 14px; font-size: 0.78rem; color: var(--faint); border-top: 1px solid var(--line); }
+.grid { display: grid; grid-template-columns: minmax(0, 330px) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 820px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; min-width: 0; }
+.panel h2 { margin-bottom: 10px; }
+table.levels { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+table.levels td { padding: 7px 0; border-bottom: 1px solid var(--line); }
+table.levels tr:last-child td { border-bottom: 0; }
+table.levels td:last-child { text-align: right; white-space: nowrap; }
+.lvl { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 8px; vertical-align: middle; }
+.headline { font-family: var(--display); font-size: 1.2rem; font-weight: 500; line-height: 1.3; margin-bottom: 12px; max-width: 62ch; }
+.reasons { display: grid; gap: 12px; }
+.reason { display: grid; gap: 6px; max-width: 70ch; }
+.reason p { margin: 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.chip { font-family: var(--mono); font-size: 0.72rem; padding: 2px 7px; border-radius: 4px; background: var(--surface-2); border: 1px solid var(--line); color: var(--muted); cursor: pointer; }
+.chip[aria-expanded="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.fact { font-size: 0.82rem; color: var(--muted); background: var(--surface-2); border-left: 3px solid var(--accent); padding: 6px 10px; border-radius: 0 6px 6px 0; }
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 14px; }
+.two h3 { font-size: 0.76rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; font-weight: 600; }
+.two ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; }
+.invalid { border-left: 3px solid var(--down); padding: 8px 12px; background: var(--surface-2); border-radius: 0 6px 6px 0; margin-top: 12px; font-size: 0.92rem; }
+.invalid b { color: var(--down); }
+.strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; }
+.tile { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+.tile .k { font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.tile .v { font-size: 1.15rem; font-weight: 600; margin-top: 4px; }
+.tile .s { font-size: 0.8rem; color: var(--muted); margin-top: 2px; }
+.ok { color: var(--up); } .warn { color: var(--accent); }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: var(--accent-ink); font-weight: 600; text-decoration: none; padding: 9px 14px; border-radius: 8px; border: 0; font: inherit; cursor: pointer; }
+.btn.ghost { background: var(--surface-2); color: var(--fg); border: 1px solid var(--line); }
+pre { margin: 10px 0 0; background: var(--surface-2); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; font-family: var(--mono); font-size: 0.74rem; line-height: 1.5; overflow-x: auto; max-height: 240px; }
+.note { font-size: 0.85rem; color: var(--muted); max-width: 72ch; margin: 8px 0 0; }
+footer { font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 12px; display: grid; gap: 6px; max-width: 80ch; }
+[hidden] { display: none !important; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div><div class="eyebrow">Dalal Pulse</div><h1>Technical view</h1><div class="sub">Pick a stock and a horizon. The engine measures the chart; the model writes the view from those numbers.</div></div>
+    <div class="meta" id="svc"></div>
+  </header>
+
+  <form class="ask" id="ask">
+    <label class="field">Stock (NSE symbol)
+      <input id="symbol" name="symbol" list="symbols" placeholder="e.g. BSE, RELIANCE, HDFCBANK" autocomplete="off" required>
+      <datalist id="symbols"></datalist>
+    </label>
+    <label class="field">Horizon
+      <div class="seg" id="horizon" role="group" aria-label="Horizon">
+        <button type="button" data-h="swing" aria-pressed="true">Swing</button>
+        <button type="button" data-h="medium" aria-pressed="false">Medium</button>
+        <button type="button" data-h="long" aria-pressed="false">Long</button>
+      </div>
+    </label>
+    <button class="go" id="go" type="submit">Get view</button>
+  </form>
+  <div class="status" id="status"></div>
+
+  <div id="result" hidden>
+    <div class="wrap" style="gap: 20px">
+      <div class="verdict">
+        <h1 id="company"></h1>
+        <span class="badge" id="viewBadge"></span>
+        <div class="meta"><span>Setup <b id="setup"></b></span><span>Pattern <b id="pattern"></b></span><span>Confidence <b id="confidence"></b></span><span>As of <b id="asof" class="num"></b></span></div>
+      </div>
+
+      <section class="chart-card">
+        <div class="chart-head">
+          <div class="legend"><span><i style="border-color: var(--accent)"></i>pattern</span><span><i class="dash" style="border-color: var(--info)"></i>breakout</span><span><i class="dash" style="border-color: var(--up)"></i>target</span><span><i class="dash" style="border-color: var(--down)"></i>stop</span></div>
+          <div class="range"><button type="button" id="btnPattern" aria-pressed="true">Pattern</button><button type="button" id="btnYear" aria-pressed="false">1 year</button><button type="button" id="btnAll" aria-pressed="false">All</button></div>
+        </div>
+        <div id="chart"></div>
+        <div class="chart-foot" id="chartFoot"></div>
+      </section>
+
+      <section class="grid">
+        <div class="panel"><h2>Levels</h2><table class="levels" id="levels"></table><div class="invalid" id="invalidation"></div></div>
+        <div class="panel">
+          <h2>The view</h2>
+          <div class="headline" id="headline"></div>
+          <div class="reasons" id="reasons"></div>
+          <div class="two"><div><h3>What would strengthen it</h3><ul id="strengthen"></ul></div><div><h3>What to watch</h3><ul id="watch"></ul></div></div>
+          <p class="note" id="horizonNote"></p>
+        </div>
+      </section>
+
+      <section class="strip">
+        <div class="tile"><div class="k">Reasoner</div><div class="v" id="reasoner" style="font-size:0.95rem"></div><div class="s" id="agree"></div></div>
+        <div class="tile"><div class="k">Checker</div><div class="v" id="checker"></div><div class="s">every number traced to a stored bar or computed fact</div></div>
+        <div class="tile"><div class="k">Detector</div><div class="v" id="detScore"></div><div class="s" id="detNote"></div></div>
+        <div class="tile"><div class="k">Data</div><div class="v num" id="bars"></div><div class="s" id="prov"></div></div>
+      </section>
+
+      <section class="panel">
+        <h2>Take it with you</h2>
+        <div class="actions">
+          <a class="btn" id="tvLink" href="#" target="_blank" rel="noopener">Open on TradingView</a>
+          <button type="button" class="btn ghost" id="copyPine">Copy Pine Script</button>
+          <a class="btn ghost" id="cardLink" href="#" target="_blank" rel="noopener">Share card (PNG)</a>
+        </div>
+        <p class="note">TradingView has no API for drawings. Open the chart, paste the script in the Pine Editor, press "Add to chart"; the pattern and levels appear on your own chart. Inside a broker app the same geometry is drawn automatically.</p>
+        <pre id="pine" tabindex="0"></pre>
+      </section>
+
+      <section class="panel"><h2>Image check from the model</h2><p class="note" style="margin-top:0" id="imageCheck"></p></section>
+    </div>
+  </div>
+
+  <footer>
+    <div>Views are generated by rules on price data and a language model reasoning over those numbers. They can be wrong and early breakouts often fail. Not a recommendation to buy or sell; verify independently. In a live product views are published under a SEBI-registered Research Analyst with the required disclosures.</div>
+    <div>Chart rendered with <a href="https://www.tradingview.com/" target="_blank" rel="noopener">TradingView Lightweight Charts&trade;</a>, &copy; TradingView, Inc., Apache-2.0.</div>
+  </footer>
+</div>
+
+<script src="lightweight-charts.js"></script>
+<script>
+(function () {
+  var STATIC = !!window.TAVIEW_STATIC;            // static demo: JSON files instead of the API
+  var fmt = new Intl.NumberFormat('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  var fmt0 = new Intl.NumberFormat('en-IN', { maximumFractionDigits: 0 });
+  function css(n) { return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
+  function el(id) { return document.getElementById(id); }
+  function text(id, v) { el(id).textContent = v == null ? '' : v; }
+  var LEVEL = { breakout: '--info', target: '--up', stop: '--down', breakout_up: '--info', breakout_down: '--info', target_up: '--up', target_down: '--down' };
+  var horizon = 'swing', data = null, chart = null, candles = null, volume = null, priceLines = [], primitive = null;
+
+  function catmull(ctx, pts) { ctx.moveTo(pts[0].x, pts[0].y); for (var i = 0; i < pts.length - 1; i++) { var p0 = pts[i - 1] || pts[i], p1 = pts[i], p2 = pts[i + 1], p3 = pts[i + 2] || p2; ctx.bezierCurveTo(p1.x + (p2.x - p0.x) / 6, p1.y + (p2.y - p0.y) / 6, p2.x - (p3.x - p1.x) / 6, p2.y - (p3.y - p1.y) / 6, p2.x, p2.y); } }
+  function Prim(geo) { this.geo = geo; var s = this; this.view = { renderer: function () { return { draw: function (t) { s.draw(t); } }; }, zOrder: function () { return 'top'; } }; }
+  Prim.prototype.attached = function (p) { this.chart = p.chart; this.series = p.series; };
+  Prim.prototype.updateAllViews = function () {}; Prim.prototype.paneViews = function () { return [this.view]; };
+  Prim.prototype.draw = function (target) {
+    var ch = this.chart, se = this.series, geo = this.geo; if (!geo) return;
+    var accent = css('--accent'), X = function (d) { return ch.timeScale().timeToCoordinate(d); }, Y = function (p) { return se.priceToCoordinate(p); };
+    target.useMediaCoordinateSpace(function (scope) {
+      var ctx = scope.context, W = ch.timeScale().width();
+      geo.primitives.forEach(function (prim) {
+        if (prim.type === 'trendline' || prim.type === 'polyline' || prim.type === 'curve') {
+          var pts = prim.points.map(function (q) { return { x: X(q.d), y: Y(q.p) }; }).filter(function (q) { return q.x != null && q.y != null; });
+          if (pts.length < 2) return; ctx.beginPath();
+          if (prim.type === 'curve') catmull(ctx, pts); else { ctx.moveTo(pts[0].x, pts[0].y); for (var i = 1; i < pts.length; i++) ctx.lineTo(pts[i].x, pts[i].y); if (prim.type === 'trendline') { var a = pts[pts.length - 2], b = pts[pts.length - 1]; if (b.x > a.x) { var k = (b.y - a.y) / (b.x - a.x); ctx.lineTo(W, b.y + k * (W - b.x)); } } }
+          ctx.lineWidth = 2.2; ctx.lineJoin = 'round'; ctx.lineCap = 'round'; ctx.strokeStyle = accent; ctx.stroke();
+        } else if (prim.type === 'box') {
+          var x1 = X(prim.t1_d), x2 = X(prim.t2_d), y1 = Y(prim.p1), y2 = Y(prim.p2); if ([x1, x2, y1, y2].some(function (v) { return v == null; })) return;
+          ctx.fillStyle = accent; ctx.globalAlpha = 0.12; ctx.fillRect(Math.min(x1, x2), Math.min(y1, y2), Math.abs(x2 - x1), Math.abs(y2 - y1)); ctx.globalAlpha = 1; ctx.strokeStyle = accent; ctx.lineWidth = 1.5; ctx.strokeRect(Math.min(x1, x2), Math.min(y1, y2), Math.abs(x2 - x1), Math.abs(y2 - y1));
+        } else if (prim.type === 'label') {
+          var x = X(prim.t_d), y = Y(prim.p); if (x == null || y == null) return;
+          ctx.font = '600 12px ' + css('--body'); ctx.textAlign = 'center'; ctx.textBaseline = 'top'; var w = ctx.measureText(prim.text).width + 12, bx = x - 12 - w, by = y + 8;
+          ctx.fillStyle = accent; ctx.beginPath(); ctx.roundRect ? ctx.roundRect(bx, by, w, 20, 4) : ctx.rect(bx, by, w, 20); ctx.fill();
+          ctx.beginPath(); ctx.moveTo(bx + w, by + 10); ctx.lineTo(x - 3, y + 1); ctx.lineWidth = 1.5; ctx.strokeStyle = accent; ctx.stroke();
+          ctx.fillStyle = css('--accent-ink'); ctx.fillText(prim.text, bx + w / 2, by + 4);
+        }
+      });
+    });
+  };
+
+  function colors() { return { bg: css('--surface'), fg: css('--fg'), grid: css('--line'), up: css('--up'), down: css('--down') }; }
+  function ensureChart() {
+    if (chart) return;
+    var c = colors();
+    chart = LightweightCharts.createChart(el('chart'), { autoSize: true, layout: { background: { type: 'solid', color: c.bg }, textColor: c.fg, fontFamily: css('--body'), fontSize: 12, attributionLogo: true }, grid: { vertLines: { color: c.grid }, horzLines: { color: c.grid } }, rightPriceScale: { borderColor: c.grid, scaleMargins: { top: 0.08, bottom: 0.22 } }, timeScale: { borderColor: c.grid, rightOffset: 16 }, crosshair: { mode: 0 } });
+    candles = chart.addSeries(LightweightCharts.CandlestickSeries, { upColor: c.up, downColor: c.down, borderVisible: false, wickUpColor: c.up, wickDownColor: c.down, priceFormat: { type: 'price', precision: 2, minMove: 0.05 } });
+    volume = chart.addSeries(LightweightCharts.HistogramSeries, { priceFormat: { type: 'volume' }, priceScaleId: 'vol' });
+    volume.priceScale().applyOptions({ scaleMargins: { top: 0.84, bottom: 0 } });
+    var mq = window.matchMedia('(prefers-color-scheme: light)'); if (mq.addEventListener) mq.addEventListener('change', applyTheme);
+    new MutationObserver(applyTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  }
+  function applyTheme() {
+    if (!chart || !data) return; var c = colors();
+    chart.applyOptions({ layout: { background: { type: 'solid', color: c.bg }, textColor: c.fg }, grid: { vertLines: { color: c.grid }, horzLines: { color: c.grid } }, rightPriceScale: { borderColor: c.grid }, timeScale: { borderColor: c.grid } });
+    candles.applyOptions({ upColor: c.up, downColor: c.down, wickUpColor: c.up, wickDownColor: c.down });
+    volume.setData(data.bars.map(function (b) { return { time: b.time, value: b.volume, color: (b.close >= b.open ? c.up : c.down) + '55' }; }));
+    priceLines.forEach(function (pl) { pl.line.applyOptions({ color: css(pl.token) }); });
+  }
+  function setPressed(id) { ['btnPattern', 'btnYear', 'btnAll'].forEach(function (b) { el(b).setAttribute('aria-pressed', String(b === id)); }); }
+  function showPattern() {
+    if (!data.geometry) return showYear();
+    var dates = []; data.geometry.primitives.forEach(function (p) { (p.points || []).forEach(function (q) { dates.push(q.d); }); if (p.from_d) dates.push(p.from_d); if (p.t1_d) dates.push(p.t1_d); });
+    dates.sort(); var idx = data.bars.findIndex(function (b) { return b.time >= dates[0]; }); var from = data.bars[Math.max(0, idx - 30)].time;
+    chart.timeScale().setVisibleRange({ from: from, to: data.bars[data.bars.length - 1].time }); setPressed('btnPattern');
+  }
+  function showYear() { var n = data.horizon === 'long' ? 156 : 250; chart.timeScale().setVisibleLogicalRange({ from: data.bars.length - n, to: data.bars.length + 12 }); setPressed('btnYear'); }
+  function showAll() { chart.timeScale().fitContent(); setPressed('btnAll'); }
+
+  function render(d) {
+    data = d; el('result').hidden = false; ensureChart();
+    priceLines.forEach(function (pl) { candles.removePriceLine(pl.line); }); priceLines = [];
+    if (primitive) { candles.detachPrimitive(primitive); primitive = null; }
+    candles.setData(d.bars.map(function (b) { return { time: b.time, open: b.open, high: b.high, low: b.low, close: b.close }; }));
+    (d.geometry ? d.geometry.primitives : []).filter(function (p) { return p.type === 'hline'; }).forEach(function (p) {
+      var token = LEVEL[p.role] || '--muted'; priceLines.push({ token: token, line: candles.createPriceLine({ price: p.price, color: css(token), lineWidth: 1, lineStyle: 2, axisLabelVisible: true, title: p.role.replace(/_/g, ' ') }) });
+    });
+    if (d.geometry) { primitive = new Prim(d.geometry); candles.attachPrimitive(primitive); }
+    applyTheme(); requestAnimationFrame(function () { requestAnimationFrame(showPattern); });
+    text('company', d.company + ' (' + d.symbol + ')');
+    var vb = el('viewBadge'); vb.textContent = (d.view || '').toUpperCase(); vb.dataset.view = d.view;
+    text('setup', d.setup); text('pattern', d.candidate ? d.candidate.pattern.replace(/_/g, ' ') : 'none'); text('confidence', d.confidence); text('asof', d.as_of);
+    el('chartFoot').textContent = (d.geometry ? 'Pattern drawn from the detector\'s geometry. ' : 'No pattern candidate passed the detector thresholds; levels and trend only. ') + 'Prices in ₹, ' + d.interval + ' bars, adjusted for bonuses and splits. Scroll to zoom, drag to pan.';
+    text('headline', d.headline);
+    var reasons = el('reasons'); reasons.innerHTML = '';
+    (d.reasons || []).forEach(function (r) {
+      var div = document.createElement('div'); div.className = 'reason'; var p = document.createElement('p'); p.textContent = r.text; div.appendChild(p);
+      var chips = document.createElement('div'); chips.className = 'chips';
+      (r.evidence || []).forEach(function (id) {
+        var b = document.createElement('button'); b.type = 'button'; b.className = 'chip'; b.textContent = id; b.setAttribute('aria-expanded', 'false');
+        var ft = d.facts[id] || (id.charAt(0) === 'C' ? 'Pattern candidate ' + id : 'Pivot ' + id); b.title = ft;
+        b.addEventListener('click', function () { var open = b.getAttribute('aria-expanded') === 'true'; var ex = div.querySelector('.fact[data-for="' + id + '"]'); if (open) { b.setAttribute('aria-expanded', 'false'); if (ex) ex.remove(); } else { b.setAttribute('aria-expanded', 'true'); var f = document.createElement('div'); f.className = 'fact'; f.dataset.for = id; f.textContent = id + ' · ' + ft; div.appendChild(f); } });
+        chips.appendChild(b);
+      });
+      div.appendChild(chips); reasons.appendChild(div);
+    });
+    var lv = d.levels || {}, last = d.bars[d.bars.length - 1].close;
+    var rows = [['First resistance', lv.first_resistance, '--down'], ['Target', lv.target, '--up'], ['Breakout', lv.breakout, '--info'], ['Last close', last, '--fg'], ['First support', lv.first_support, '--up'], ['Invalidation', d.invalidation && d.invalidation.level, '--down'], ['Stop', lv.stop, '--down']].filter(function (r) { return r[1] != null; });
+    rows.sort(function (a, b) { return b[1] - a[1]; });
+    var tbl = el('levels'); tbl.innerHTML = rows.map(function (r) { return '<tr><td><span class="lvl" style="background: var(' + r[2] + ')"></span>' + r[0] + '</td><td class="num">₹' + fmt.format(r[1]) + '</td></tr>'; }).join('');
+    el('invalidation').innerHTML = d.invalidation ? '<b>Invalidation</b> · ' + d.invalidation.condition : '';
+    el('strengthen').innerHTML = (d.what_would_strengthen || []).map(function (s) { return '<li></li>'; }).join(''); Array.prototype.forEach.call(el('strengthen').children, function (li, i) { li.textContent = d.what_would_strengthen[i]; });
+    el('watch').innerHTML = (d.what_to_watch || []).map(function () { return '<li></li>'; }).join(''); Array.prototype.forEach.call(el('watch').children, function (li, i) { li.textContent = d.what_to_watch[i]; });
+    text('horizonNote', d.horizon_note);
+    text('reasoner', d.reasoner); var n = d.consensus.views.length, agree = d.consensus.views.filter(function (v) { return v === d.consensus.final_view; }).length;
+    text('agree', n > 1 ? agree + ' of ' + n + ' samples agree' : (d.reasoner_mode === 'fallback' ? 'no model key configured: deterministic summary' : 'single sample'));
+    var clean = d.samples.every(function (s) { return !s.checker.length; }); el('checker').textContent = clean ? 'Clean' : 'Issues'; el('checker').className = 'v ' + (clean ? 'ok' : 'warn');
+    text('detScore', d.candidate ? d.candidate.score.toFixed(2) + ' / 1' : 'no candidate'); text('detNote', d.candidate ? d.candidate.pattern.replace(/_/g, ' ') + ' · ' + d.candidate.status : (d.candidates.length ? d.candidates.length + ' weak candidates below the bar' : 'nothing above the 0.50 threshold'));
+    text('bars', fmt0.format(d.bars.length)); text('prov', d.provenance.source + ' · last bar ' + d.provenance.last_bar);
+    el('tvLink').href = d.tv_link; text('pine', d.pine || '// no pattern candidate, nothing to draw'); el('copyPine').disabled = !d.pine;
+    el('cardLink').href = STATIC ? ('data/views/' + d.symbol.replace(':', '_') + '_' + d.horizon + '.png') : ('/api/card.png?symbol=' + encodeURIComponent(d.symbol) + '&horizon=' + d.horizon);
+    text('imageCheck', d.image_check);
+    el('result').hidden = false;
+  }
+
+  function status(msg, err) { var s = el('status'); s.textContent = msg; s.className = 'status' + (err ? ' err' : ''); }
+  async function load(symbol, h) {
+    el('go').disabled = true; status('Measuring the chart and asking the model… this takes a few seconds for a new stock.');
+    try {
+      var sym = symbol.toUpperCase().trim(); if (sym.indexOf(':') < 0) sym = 'NSE:' + sym;
+      var url = STATIC ? ('data/views/' + sym.replace(':', '_') + '_' + h + '.json') : ('/api/view?symbol=' + encodeURIComponent(sym) + '&horizon=' + h);
+      var r = await fetch(url); if (!r.ok) { var body = await r.text(); throw new Error(STATIC ? 'This demo only has precomputed views; pick a listed stock.' : (JSON.parse(body).detail || body)); }
+      render(await r.json()); status('');
+      try { localStorage.setItem('taview.last', JSON.stringify({ symbol: sym, horizon: h })); } catch (e) {}
+    } catch (e) { status(e.message || String(e), true); }
+    el('go').disabled = false;
+  }
+  el('horizon').addEventListener('click', function (ev) { var b = ev.target.closest('button'); if (!b) return; horizon = b.dataset.h; Array.prototype.forEach.call(el('horizon').children, function (x) { x.setAttribute('aria-pressed', String(x === b)); }); });
+  el('ask').addEventListener('submit', function (ev) { ev.preventDefault(); load(el('symbol').value, horizon); });
+  el('btnPattern').addEventListener('click', showPattern); el('btnYear').addEventListener('click', showYear); el('btnAll').addEventListener('click', showAll);
+  el('copyPine').addEventListener('click', function () { var btn = this, done = function () { btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = 'Copy Pine Script'; }, 1800); }; try { navigator.clipboard.writeText(data.pine).then(done, function () { var r = document.createRange(); r.selectNodeContents(el('pine')); var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = 'Selected, press copy'; }); } catch (e) {} });
+
+  (async function boot() {
+    try {
+      var r = await fetch(STATIC ? 'data/index.json' : '/api/symbols'); var j = await r.json();
+      el('symbols').innerHTML = j.symbols.map(function (s) { return '<option value="' + s.symbol.replace('NSE:', '') + '">' + s.name + (s.precomputed && s.precomputed.length ? ' · ready: ' + s.precomputed.join(', ') : '') + '</option>'; }).join('');
+      if (!STATIC) { var hr = await fetch('/api/health'); var hj = await hr.json(); el('svc').innerHTML = '<span>Provider <b>' + hj.provider + '</b></span><span>Reasoner <b>' + (hj.reasoner === 'fallback' ? 'deterministic fallback' : hj.model) + '</b></span><span>Stored views <b>' + hj.views_stored + '</b></span>'; }
+      else { el('svc').innerHTML = '<span>Static demo <b>' + j.symbols.length + ' stocks precomputed</b></span>'; }
+      var last = null; try { last = JSON.parse(localStorage.getItem('taview.last') || 'null'); } catch (e) {}
+      var start = last || { symbol: 'NSE:BSE', horizon: 'swing' };
+      el('symbol').value = start.symbol.replace('NSE:', ''); horizon = start.horizon; Array.prototype.forEach.call(el('horizon').children, function (x) { x.setAttribute('aria-pressed', String(x.dataset.h === horizon)); });
+      load(start.symbol, horizon);
+    } catch (e) { status('Could not reach the backend: ' + e.message, true); }
+  })();
+})();
+</script>
+</body>
+</html>

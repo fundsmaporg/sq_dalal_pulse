@@ -1,0 +1,81 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Technical view card</title>
+<style>
+:root { --bg: #0f161b; --surface: #151e24; --surface-2: #1b262d; --line: #26343c; --fg: #e9ece7; --muted: #a2adb2; --accent: #f0a63a; --accent-ink: #1a1206; --up: #2fbd87; --down: #ef5b50; --info: #6a9dff; }
+* { box-sizing: border-box; }
+html, body { margin: 0; width: 1080px; height: 1920px; background: var(--bg); color: var(--fg); font-family: "IBM Plex Sans", system-ui, sans-serif; font-size: 27px; line-height: 1.45; overflow: hidden; }
+.frame { position: relative; width: 1080px; height: 1920px; padding: 44px 56px 40px; display: flex; flex-direction: column; gap: 16px; }
+.frame::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 12px; background: linear-gradient(90deg, var(--accent), var(--up)); }
+.brand { display: flex; justify-content: space-between; align-items: center; }
+.wordmark { display: flex; align-items: center; gap: 16px; }
+.mark { width: 64px; height: 64px; border-radius: 14px; background: var(--accent); color: var(--accent-ink); display: grid; place-items: center; font-family: Georgia, serif; font-weight: 700; font-size: 38px; }
+.wordmark b { font-family: Georgia, serif; font-weight: 700; font-size: 40px; display: block; line-height: 1; }
+.wordmark span { color: var(--muted); font-size: 22px; display: block; margin-top: 6px; }
+.pill { background: var(--surface-2); border: 1px solid var(--line); border-radius: 999px; padding: 14px 24px; font-size: 22px; color: var(--muted); max-width: 440px; text-align: right; line-height: 1.3; }
+.title { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; }
+.title h1 { margin: 0; font-family: Georgia, serif; font-weight: 700; font-size: 72px; line-height: 1; letter-spacing: -0.02em; }
+.title .sub { color: var(--muted); font-size: 24px; }
+.view { background: var(--up); color: #072a1c; font-weight: 600; border-radius: 999px; padding: 10px 22px; font-size: 26px; letter-spacing: 0.04em; white-space: nowrap; }
+.view[data-view="bearish"] { background: var(--down); color: #2b0906; } .view[data-view="neutral"] { background: var(--surface-2); color: var(--fg); border: 1px solid var(--line); }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 20px 30px; }
+.panel h2 { margin: 0 0 10px; font-size: 27px; font-weight: 600; }
+.kv { display: grid; gap: 5px; font-size: 22px; line-height: 1.4; } .kv b { font-weight: 600; }
+.take { font-size: 23px; line-height: 1.42; margin: 0; }
+.chart-box { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; height: 540px; flex: none; display: grid; grid-template-rows: 52px 1fr 106px; }
+.chart-top { display: flex; justify-content: space-between; align-items: center; padding: 0 24px; font-size: 18px; color: var(--muted); border-bottom: 1px solid var(--line); white-space: nowrap; }
+.chart-top i { display: inline-block; width: 26px; border-top: 3px solid; vertical-align: middle; margin: 0 8px 0 16px; } .chart-top i.d { border-top-style: dashed; }
+#chart { width: 100%; height: 382px; }
+.levels { display: grid; grid-template-columns: repeat(5, 1fr); border-top: 1px solid var(--line); }
+.levels div { padding: 12px 8px 0; text-align: center; border-right: 1px solid var(--line); } .levels div:last-child { border-right: 0; }
+.levels .k { font-size: 16px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); line-height: 1.2; }
+.levels .v { font-family: "IBM Plex Mono", monospace; font-size: 26px; font-weight: 500; margin-top: 6px; line-height: 1.2; }
+.trust { display: flex; gap: 14px; flex-wrap: wrap; font-size: 21px; color: var(--muted); }
+.trust span { background: var(--surface-2); border: 1px solid var(--line); border-radius: 999px; padding: 8px 16px; } .trust span b { color: var(--fg); font-weight: 600; }
+.disclaimer { font-size: 17px; line-height: 1.36; color: var(--muted); } .disclaimer b { color: var(--fg); }
+</style></head><body>
+<div class="frame">
+  <div class="brand"><div class="wordmark"><div class="mark">D</div><div><b>Dalal Pulse</b><span>Technical view &middot; AI reasoning over computed values</span></div></div><div class="pill">Pattern detected by rules on price data; the view written from those numbers</div></div>
+  <div class="title"><div><h1 id="t"></h1><div class="sub" id="sub"></div></div><div class="view" id="v"></div></div>
+  <div class="panel"><h2>Key parameters</h2><div class="kv" id="kv"></div></div>
+  <div class="panel"><h2>Take on chart</h2><p class="take" id="take"></p></div>
+  <div class="chart-box"><div class="chart-top"><span id="ct"></span><span><i style="border-color: var(--accent)"></i>pattern <i class="d" style="border-color: var(--info)"></i>breakout <i class="d" style="border-color: var(--up)"></i>target <i class="d" style="border-color: var(--down)"></i>stop</span></div><div id="chart"></div><div class="levels" id="lv"></div></div>
+  <div class="trust" id="trust"></div>
+  <div class="disclaimer" id="disc"></div>
+</div>
+<script>/*__LIB__*/</script>
+<script>/*__DATA__*/</script>
+<script>
+var d = window.VIEW; var fmt0 = new Intl.NumberFormat('en-IN', { maximumFractionDigits: 0 });
+function css(n){ return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
+function t(id, v){ document.getElementById(id).textContent = v == null ? '' : v; }
+t('t', d.symbol.split(':')[1]); t('sub', d.company + ' · ' + d.symbol + ' · ' + (d.interval === '1W' ? 'weekly' : 'daily') + ' chart · as of close ' + d.as_of);
+var v = document.getElementById('v'); v.textContent = d.view.toUpperCase() + '*'; v.dataset.view = d.view;
+document.getElementById('kv').innerHTML = '<div><b>Interval:</b> ' + d.interval + ' &nbsp;|&nbsp; <b>Horizon:</b> ' + d.horizon + ' &nbsp;|&nbsp; <b>Pattern:</b> ' + (d.candidate ? d.candidate.pattern.replace(/_/g, ' ') + ' (' + d.candidate.status + ')' : 'none') + ' &nbsp;|&nbsp; <b>Confidence:</b> ' + d.confidence + '</div><div><b>Observations:</b> ' + (d.reasons || []).slice(0, 3).map(function (r) { return r.text; }).join(' ').slice(0, 520) + '</div>';
+t('take', d.headline + ' ' + ((d.reasons || []).map(function (r) { return r.text; }).join(' ')).slice(0, 700));
+var c = { bg: css('--surface'), fg: css('--fg'), grid: css('--line'), up: css('--up'), down: css('--down') };
+var bars = d.bars.slice(-(d.horizon === 'long' ? 156 : 250)); t('ct', 'Last ' + bars.length + ' bars, drawn from the detector\'s geometry');
+var chart = LightweightCharts.createChart(document.getElementById('chart'), { autoSize: true, layout: { background: { type: 'solid', color: c.bg }, textColor: c.fg, fontSize: 18, attributionLogo: true }, grid: { vertLines: { color: c.grid }, horzLines: { color: c.grid } }, rightPriceScale: { borderColor: c.grid, scaleMargins: { top: 0.08, bottom: 0.22 } }, timeScale: { borderColor: c.grid, rightOffset: 14 }, crosshair: { visible: false }, handleScroll: false, handleScale: false });
+var candles = chart.addSeries(LightweightCharts.CandlestickSeries, { upColor: c.up, downColor: c.down, borderVisible: false, wickUpColor: c.up, wickDownColor: c.down, priceFormat: { type: 'price', precision: 0, minMove: 1 } });
+candles.setData(bars.map(function (b) { return { time: b.time, open: b.open, high: b.high, low: b.low, close: b.close }; }));
+var vol = chart.addSeries(LightweightCharts.HistogramSeries, { priceFormat: { type: 'volume' }, priceScaleId: 'vol' }); vol.priceScale().applyOptions({ scaleMargins: { top: 0.84, bottom: 0 } });
+vol.setData(bars.map(function (b) { return { time: b.time, value: b.volume, color: (b.close >= b.open ? c.up : c.down) + '55' }; }));
+var COL = { breakout: '--info', target: '--up', stop: '--down', breakout_up: '--info', breakout_down: '--info', target_up: '--up', target_down: '--down' };
+var prims = d.geometry ? d.geometry.primitives : [];
+prims.filter(function (p) { return p.type === 'hline'; }).forEach(function (p) { candles.createPriceLine({ price: p.price, color: css(COL[p.role] || '--muted'), lineWidth: 2, lineStyle: 2, axisLabelVisible: true, title: '' }); });
+function Prim(geo) { this.geo = geo; var s = this; this.v = { renderer: function () { return { draw: function (t) { s.draw(t); } }; }, zOrder: function () { return 'top'; } }; }
+Prim.prototype.attached = function (p) { this.chart = p.chart; this.series = p.series; }; Prim.prototype.updateAllViews = function () {}; Prim.prototype.paneViews = function () { return [this.v]; };
+Prim.prototype.draw = function (target) { var ch = this.chart, se = this.series, geo = this.geo, acc = css('--accent');
+  target.useMediaCoordinateSpace(function (scope) { var ctx = scope.context, W = ch.timeScale().width();
+    geo.primitives.forEach(function (prim) {
+      if (prim.type === 'trendline' || prim.type === 'polyline' || prim.type === 'curve') { var pts = prim.points.map(function (q) { return { x: ch.timeScale().timeToCoordinate(q.d), y: se.priceToCoordinate(q.p) }; }).filter(function (q) { return q.x != null && q.y != null; }); if (pts.length < 2) return; ctx.beginPath(); ctx.moveTo(pts[0].x, pts[0].y); for (var i = 1; i < pts.length; i++) ctx.lineTo(pts[i].x, pts[i].y); if (prim.type === 'trendline') { var a = pts[pts.length - 2], b = pts[pts.length - 1]; if (b.x > a.x) { var k = (b.y - a.y) / (b.x - a.x); ctx.lineTo(W, b.y + k * (W - b.x)); } } ctx.lineWidth = 3.5; ctx.lineCap = 'round'; ctx.strokeStyle = acc; ctx.stroke(); }
+      else if (prim.type === 'box') { var x1 = ch.timeScale().timeToCoordinate(prim.t1_d), x2 = ch.timeScale().timeToCoordinate(prim.t2_d), y1 = se.priceToCoordinate(prim.p1), y2 = se.priceToCoordinate(prim.p2); if ([x1, x2, y1, y2].some(function (v) { return v == null; })) return; ctx.fillStyle = acc; ctx.globalAlpha = 0.12; ctx.fillRect(Math.min(x1, x2), Math.min(y1, y2), Math.abs(x2 - x1), Math.abs(y2 - y1)); ctx.globalAlpha = 1; ctx.strokeStyle = acc; ctx.lineWidth = 2; ctx.strokeRect(Math.min(x1, x2), Math.min(y1, y2), Math.abs(x2 - x1), Math.abs(y2 - y1)); }
+      else if (prim.type === 'label') { var x = ch.timeScale().timeToCoordinate(prim.t_d), y = se.priceToCoordinate(prim.p); if (x == null || y == null) return; ctx.font = '600 20px IBM Plex Sans, sans-serif'; ctx.textAlign = 'center'; ctx.textBaseline = 'top'; var w = ctx.measureText(prim.text).width + 20, bx = x - 16 - w, by = y + 10; ctx.fillStyle = acc; ctx.beginPath(); ctx.roundRect(bx, by, w, 32, 6); ctx.fill(); ctx.beginPath(); ctx.moveTo(bx + w, by + 16); ctx.lineTo(x - 4, y + 2); ctx.lineWidth = 2; ctx.strokeStyle = acc; ctx.stroke(); ctx.fillStyle = css('--accent-ink'); ctx.fillText(prim.text, bx + w / 2, by + 6); }
+    }); }); };
+if (d.geometry) candles.attachPrimitive(new Prim(d.geometry));
+chart.timeScale().setVisibleLogicalRange({ from: -1, to: bars.length + 12 });
+var lv = d.levels || {}; var cells = [['Breakout', lv.breakout], ['Resistance', lv.first_resistance], ['Target', lv.target], ['Invalidation', d.invalidation && d.invalidation.level], ['Stop', lv.stop]];
+document.getElementById('lv').innerHTML = cells.map(function (x) { return '<div><div class="k">' + x[0] + '</div><div class="v">' + (x[1] == null ? '—' : fmt0.format(x[1])) + '</div></div>'; }).join('');
+var n = d.consensus.views.length, agree = d.consensus.views.filter(function (x) { return x === d.consensus.final_view; }).length;
+document.getElementById('trust').innerHTML = '<span><b>' + agree + ' of ' + n + '</b> samples agree</span><span>every number traced to data</span>' + (d.candidate ? '<span>fit score <b>' + d.candidate.score.toFixed(2) + '</b></span>' : '') + '<span>' + d.reasoner + '</span>';
+document.getElementById('disc').innerHTML = '<b>*Important:</b> AI-assisted analysis for illustration. The pattern was detected by rules on adjusted NSE closing data to ' + d.as_of + ' and the text was written from those computed values; both can be wrong, and early breakouts often fail. Not a recommendation to buy or sell. Verify independently. In a live product this view is published under a SEBI-registered Research Analyst\'s name with the required disclosures.';
+window.__ready = true;
+</script></body></html>
