@@ -1,44 +1,44 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-22T15:34:59+05:30",
+ "generated_at": "2026-10-22T16:02:58+05:30",
  "date": "2026-10-22",
- "slot": "1530",
- "slot_label": "15:30",
- "stage": "Closing mood",
- "asof": "2026-10-22T15:30:00+05:30",
+ "slot": "post",
+ "slot_label": "Close",
+ "stage": "Post-market mood",
+ "asof": "2026-10-22T16:00:00+05:30",
  "nifty": {
-  "value": 22666.55,
-  "pct": -0.63,
-  "chg": -144.8,
-  "approx": true
+  "value": 22687.65,
+  "pct": -0.54,
+  "chg": -123.7,
+  "approx": false
  },
  "mood": {
-  "label": "Third losing day",
+  "label": "Third straight loss",
   "score": -0.4,
-  "summary": "The market ended the session lower for a third straight day, with the Nifty settling around 22,667 in the closing auction and mid and smallcaps falling more than twice as much.",
+  "summary": "Indian equities closed lower for a third straight session, with selling broad-based and smallcaps again underperforming as oil and West Asia worries kept investors defensive.",
   "detail": {
    "leaders": "PC Jeweller",
-   "laggards": "Nifty Midcap 100, Nifty Smallcap 100, Adani Green",
-   "tone": "Slightly weaker than the 1500 note: the Sensex ended the closing auction about 418 points lower after briefly trimming losses to about 300; power and metal stocks dragged.",
+   "laggards": "Nifty Smallcap 100, Nifty Midcap 100, Adani Green",
+   "tone": "The final close at 22,687.65 was slightly better than the closing-auction print in the 1530 note, but the Nifty still ended a third straight day lower.",
    "watch": [
-    "Swiggy's Q2 results tonight",
-    "FII/DII provisional data",
-    "Jio IPO's final day of bidding on Friday"
+    "Reaction to Swiggy's Q2 numbers on Friday",
+    "Final-day demand for the Jio IPO",
+    "FII flows and Brent's move above $110"
    ],
    "src": {
-    "title": "ETV Bharat: Sensex, Nifty decline as power, metal stocks drag lower",
-    "url": "https://www.etvbharat.com/en/business/stock-market-on-october-22-sensex-nifty-power-metal-stocks-enn26102201328"
+    "title": "Business Standard: Stock Market Close — Sensex falls 460 pts, Nifty ends at 22,688; RIL, Eternal, HDFC Bank top losers",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
    },
    "movers": {
     "up": {
-     "summary": "PC Jeweller was a rare standout gainer after its strong Q2",
-     "why": "Stock-specific Q2 beats were the only consistent source of buying.",
+     "summary": "PC Jeweller was a rare standout gainer on a strong Q2",
+     "why": "Stock-specific earnings beats were the only consistent source of buying.",
      "names": [
       {
        "name": "PC Jeweller",
        "dir": "up",
        "move": "up as much as 8.97%",
-       "line": "Q2 profit up 58% to ₹330.66 cr; now debt-free"
+       "line": "Q2 profit up 58% to ₹330.66 cr; now free of bank debt"
       }
      ],
      "src": {
@@ -47,20 +47,20 @@
      }
     },
     "down": {
-     "summary": "Mid and smallcaps fell more than twice as much as the Nifty",
-     "why": "West Asia tension, crude near $110 and elevated US yields hit riskier stocks hardest.",
+     "summary": "Small and midcaps fell more than the Nifty for a third session",
+     "why": "Oil-driven inflation worries and West Asia tension pushed investors away from riskier stocks.",
      "names": [
-      {
-       "name": "Nifty Midcap 100",
-       "dir": "down",
-       "move": "-1.53%",
-       "line": "Results-driven selling in KEI, M&M Financial added to the broad risk-off"
-      },
       {
        "name": "Nifty Smallcap 100",
        "dir": "down",
-       "move": "-1.4%",
-       "line": "Third straight day of heavy smallcap losses"
+       "move": "-1.17%",
+       "line": "Extends a three-session slide after Wednesday's 2.37% fall"
+      },
+      {
+       "name": "Nifty Midcap 100",
+       "dir": "down",
+       "move": "-0.87%",
+       "line": "Results-driven selling in KEI and M&M Financial added to losses"
       },
       {
        "name": "Adani Green",
@@ -70,7 +70,7 @@
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex falls 418 pts, Nifty at 22,667 in closing auction session",
+      "title": "Business Standard: Stock Market Close — Sensex falls 460 pts, Nifty ends at 22,688; RIL, Eternal, HDFC Bank top losers",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
      }
     }
@@ -79,27 +79,76 @@
  },
  "insights": [
   {
+   "key": "swiggy-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Swiggy Q2 loss narrows to ₹922 cr",
+   "line": "Revenue up 36.1% to ₹7,571 cr; loss narrower than ₹1,092 cr a year ago, per one report.",
+   "more": [
+    "Analysts had expected a loss of about ₹824 cr",
+    "Report also cites Instamart leadership changes",
+    "Single source; awaiting confirmation from filing"
+   ],
+   "src": {
+    "title": "Whalesbook: Swiggy Q2 revenue climbs 36% to ₹7,571 crore, losses narrow",
+    "url": "https://www.whalesbook.com/corporate-news/English/technology/Swiggy-Q2-Revenue-Climbs-36percent-to-Rs-7571-Crore-Losses-Narrow/6ad9e316b2eb76fd08c87041"
+   },
+   "date": "2026-10-22",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-22",
+    "slot": "1200"
+   }
+  },
+  {
    "key": "jio-ipo",
    "tag": "Listing",
    "impact": "pos",
-   "title": "Jio IPO crosses 4x on day two",
-   "line": "Issue at 4.02x by 2:53 pm; QIBs at 9.69x and NIIs at 3.82x.",
+   "title": "Jio IPO at 4x+ heading into final day",
+   "line": "Issue crossed 4x on day two, with QIBs near 9.7x and NIIs at 3.8x.",
    "more": [
-    "Retail book at 1.18x by about 1 pm",
-    "Bidding closes Friday; listing Oct 28"
+    "Bidding closes Friday, October 23",
+    "Allotment Oct 26; listing Oct 28"
    ],
    "src": {
-    "title": "Upstox: Jio Platforms IPO Day 2 live — issue subscribed 3.85 times, retail 1.18x",
+    "title": "Upstox: Jio Platforms IPO Day 2 live updates",
     "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-day-2-live-updates-subscription-status-price-band-lot-size-allotment-listing-date-time-oct-22-2026/liveblog-202205/"
    },
    "date": "2026-10-22",
-   "slot": "1530",
-   "when": "15:30",
+   "slot": "post",
+   "when": "Close",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "pre"
+   }
+  },
+  {
+   "key": "heavyweights-drag",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "RIL, Eternal, HDFC Bank lead losers",
+   "line": "Reliance fell about 1.5%, nearing its 52-week low of ₹1,152.30, amid broad weakness.",
+   "more": [
+    "Power and metal stocks also weighed on the indices",
+    "Nestle and HDFC Life cited among top Nifty losers in another report"
+   ],
+   "src": {
+    "title": "LatestLY: Reliance Industries share price dips amid market weakness",
+    "url": "https://www.latestly.com/business/reliance-industries-stock-update-share-price-dips-amid-market-weakness-7652793.html"
+   },
+   "date": "2026-10-22",
+   "slot": "post",
+   "when": "Close",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-22",
+    "slot": "post"
    }
   },
   {
@@ -120,34 +169,10 @@
    "slot": "1530",
    "when": "15:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-22",
     "slot": "1530"
-   }
-  },
-  {
-   "key": "swiggy-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Swiggy reports Q2 after the close",
-   "line": "Street expects revenue near ₹7,382 cr and a net loss around ₹824 cr.",
-   "more": [
-    "Instamart adjusted EBITDA loss seen at ~₹840 cr",
-    "Stock fell as much as 5.2% ahead of the numbers"
-   ],
-   "src": {
-    "title": "Zee Business: Swiggy Q2 results preview",
-    "url": "https://www.zeebiz.com/market-news/news-swiggy-q2-results-preview-revenue-losses-instamart-growth-5-key-things-to-watch-403936"
-   },
-   "date": "2026-10-22",
-   "slot": "1530",
-   "when": "15:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1200"
    }
   },
   {
