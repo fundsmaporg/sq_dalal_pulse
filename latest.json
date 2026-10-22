@@ -1,44 +1,44 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-22T14:03:24+05:30",
+ "generated_at": "2026-10-22T14:33:38+05:30",
  "date": "2026-10-22",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-22T14:00:00+05:30",
+ "asof": "2026-10-22T14:30:00+05:30",
  "nifty": {
-  "value": 22638.8,
-  "pct": -0.76,
-  "chg": -172.55,
-  "approx": false
+  "value": 22620,
+  "pct": -0.84,
+  "chg": -191,
+  "approx": true
  },
  "mood": {
-  "label": "Afternoon slide",
+  "label": "Stuck near lows",
   "score": -0.4,
-  "summary": "Selling has picked up again into the final stretch, with the Nifty slipping toward 22,640 and breadth weak as mid and smallcaps stay down about 1%.",
+  "summary": "The market is holding near the session's weaker levels into the last hour, with the Sensex about 500 points down and broader indices still lagging the benchmarks.",
   "detail": {
    "leaders": "PC Jeweller",
    "laggards": "Adani Green, KEI Industries",
-   "tone": "Weaker than the 1330 note: the Sensex loss widened to 458 points at 2 pm from about 291 at 1 pm, and Nifty Metal is among the weakest sectors.",
+   "tone": "Little changed from the 1400 note: the Sensex is still around 500 points lower, with L&T, Bajaj Auto and Bharti Airtel among the few large caps in the green at midday.",
    "watch": [
-    "A close below 22,600 support",
-    "Swiggy's Q2 results after market hours",
-    "Brent's move above $110"
+    "Whether the Nifty closes below 22,600",
+    "Swiggy's Q2 numbers after the close",
+    "Jio IPO's final day on Friday"
    ],
    "src": {
-    "title": "DSIJ: Sensex falls 291 points, Nifty 50 drops 0.44% as West Asia tensions weigh",
-    "url": "https://insights.dsij.in/dsijarticledetail/sensex-falls-291-points-nifty-50-drops-044-as-west-asia-tensions-weigh-on-markets-60116"
+    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 500 pts; Jio IPO subscribed 4.3 times on 2nd day so far",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
    },
    "movers": {
     "up": {
-     "summary": "PC Jeweller is among the few names holding gains",
-     "why": "Stock-specific Q2 beats are the only consistent source of buying.",
+     "summary": "PC Jeweller is still among the few clear gainers",
+     "why": "Stock-specific Q2 strength is the main source of buying in a weak market.",
      "names": [
       {
        "name": "PC Jeweller",
        "dir": "up",
        "move": "up as much as 8.97%",
-       "line": "Q2 profit up 58% to ₹330.66 cr; now debt-free"
+       "line": "Q2 profit up 58% to ₹330.66 cr and now debt-free"
       }
      ],
      "src": {
@@ -47,8 +47,8 @@
      }
     },
     "down": {
-     "summary": "Results disappointments keep Adani Green and KEI under pressure",
-     "why": "Sequential profit declines and margin compression in Q2 are drawing sellers.",
+     "summary": "Adani Green and KEI remain under pressure after their Q2 numbers",
+     "why": "Sequential profit declines and margin compression continue to draw sellers.",
      "names": [
       {
        "name": "Adani Green",
@@ -73,27 +73,75 @@
  },
  "insights": [
   {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Jio IPO subscribed 4.3x on day two",
+   "line": "Demand climbs from about 3.5x late morning; retail book already fully subscribed.",
+   "more": [
+    "Bidding closes Friday, October 23",
+    "Listing scheduled for October 28"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 500 pts; Jio IPO subscribed 4.3 times on 2nd day so far",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+   },
+   "date": "2026-10-22",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "pre"
+   }
+  },
+  {
    "key": "swiggy-q2",
    "tag": "Results",
    "impact": "watch",
-   "title": "Swiggy Q2 due; loss seen widening to ₹824 cr",
-   "line": "Zee Business sees revenue up 8.4% QoQ to ₹7,382 cr; Instamart loss seen at ₹840 cr.",
+   "title": "Swiggy results after the bell",
+   "line": "Analysts expect revenue near ₹7,382 cr and a wider net loss of about ₹824 cr.",
    "more": [
-    "Food delivery GOV expected to grow 19% YoY",
-    "Stock fell up to 5.2% to ₹212 ahead of the numbers"
+    "Instamart adjusted EBITDA loss seen at ~₹840 cr",
+    "Stock fell as much as 5.2% ahead of the numbers"
    ],
    "src": {
-    "title": "Zee Business: Swiggy Q2 results preview — revenue, losses, Instamart growth",
+    "title": "Zee Business: Swiggy Q2 results preview",
     "url": "https://www.zeebiz.com/market-news/news-swiggy-q2-results-preview-revenue-losses-instamart-growth-5-key-things-to-watch-403936"
    },
    "date": "2026-10-22",
-   "slot": "1400",
-   "when": "14:00",
+   "slot": "1430",
+   "when": "14:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-22",
     "slot": "1200"
+   }
+  },
+  {
+   "key": "large-cap-gainers",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "L&T, Bajaj Auto, Airtel buck the slide",
+   "line": "L&T up 1.2%, Bajaj Auto 1.17% and Bharti Airtel 1.14% at noon, per one snapshot.",
+   "more": [
+    "ICICI Bank and Cipla also in the green at midday",
+    "Gains are narrow against broad weakness"
+   ],
+   "src": {
+    "title": "HDFC Sky: Top gainers and losers today, October 22, 2026, at 12:00 PM IST",
+    "url": "https://hdfcsky.com/news/top-gainers-and-losers-today-october-22-2026-at-12-pm"
+   },
+   "date": "2026-10-22",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-22",
+    "slot": "1430"
    }
   },
   {
@@ -114,7 +162,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1130"
@@ -138,34 +186,10 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-22",
     "slot": "1330"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Jio IPO at 3.47x with retail book full",
-   "line": "NII portion at about 2.34–2.37x and QIBs at 9.42x by late morning on day two.",
-   "more": [
-    "Grey-market premium about ₹247 implies ~₹1,366 listing (unofficial)",
-    "Issue closes Friday"
-   ],
-   "src": {
-    "title": "Business Standard: Jio Platforms IPO — retail quota full, subscribed 3.47 times on day two",
-    "url": "https://www.business-standard.com/amp/markets/ipo/retail-investors-fully-subscribe-ambani-s-jio-ipo-on-second-day-126102200394_1.html"
-   },
-   "date": "2026-10-22",
-   "slot": "1330",
-   "when": "13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
    }
   },
   {
