@@ -1,77 +1,149 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-22T09:33:29+05:30",
+ "generated_at": "2026-10-22T10:03:49+05:30",
  "date": "2026-10-22",
- "slot": "0930",
- "slot_label": "9:30",
+ "slot": "1000",
+ "slot_label": "10:00",
  "stage": "Opening mood",
- "asof": "2026-10-22T09:30:00+05:30",
+ "asof": "2026-10-22T10:00:00+05:30",
  "nifty": {
-  "value": 22600,
-  "pct": -0.93,
-  "chg": -211,
+  "value": 22690,
+  "pct": -0.53,
+  "chg": -121,
   "approx": true
  },
  "mood": {
-  "label": "Gap-down open",
-  "score": -0.5,
-  "summary": "Indian equities opened sharply lower, extending a two-day slide, with the Nifty testing 22,600 and mid and smallcaps down about 1% as selling stays broad.",
+  "label": "Losses narrow",
+  "score": -0.35,
+  "summary": "The market has pared some of its opening losses but remains firmly in the red, with the Nifty just below 22,700 and buying limited to a handful of results-driven stocks.",
   "detail": {
-   "leaders": "PC Jeweller jumps 8% after Q2",
-   "laggards": "Nifty Midcap, Nifty Smallcap",
-   "tone": "Weaker than the pre-open signal: the Nifty opened 157 points lower at 22,626 and the Sensex was down about 573 points by 9:18 am.",
+   "leaders": "PC Jeweller",
+   "laggards": "BSE Smallcap Select, BSE Midcap Select",
+   "tone": "Slightly better than the 0930 note: the Sensex loss has narrowed to about 366 points from around 573 at 9:18 am.",
    "watch": [
-    "Whether the Nifty holds 22,500, the low end of analysts' range",
-    "Brent's move above $110",
-    "Day two of Jio IPO bidding"
+    "A break below support at 22,600, which analysts say could open 22,300",
+    "A move back above 22,800",
+    "Retail demand on day two of the Jio IPO"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 500 pts, Nifty tests 22,600; PC Jeweller jumps 8% post Q2",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+    "title": "India TV: Sensex down 366 points, Nifty below 22,700; Power Grid drops 2%",
+    "url": "https://www.indiatvnews.com/business/markets/sensex-nifty-opening-october-22-stock-market-updates-gift-nifty-brent-crude-oil-price-geopolitical-tension-asian-markets-2026-10-22-1057584"
    },
    "movers": {
     "up": {
-     "summary": "Little is rising; PC Jeweller is a rare standout after its Q2 numbers",
-     "why": "Stock-specific results are the only source of strength in a weak open.",
+     "summary": "Results-driven buying in a few names; PC Jeweller up about 9%",
+     "why": "Stock-specific Q2 beats are the main source of strength in an otherwise weak tape.",
      "names": [
       {
        "name": "PC Jeweller",
        "dir": "up",
-       "move": "+8%",
-       "line": "Jumped after reporting its Q2 results"
+       "move": "up as much as 8.97%",
+       "line": "Q2 profit up 58% to ₹330.66 cr; now free of bank debt"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 500 pts, Nifty tests 22,600; PC Jeweller jumps 8% post Q2",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+      "title": "BusinessToday: PC Jeweller shares jump 9% on 58% surge in Q2 profit, debt-free status",
+      "url": "https://www.businesstoday.in/markets/stocks/story/pc-jeweller-shares-jump-9-on-58-surge-in-q2-net-profit-debt-free-status-key-details-562959-2026-10-22"
      }
     },
     "down": {
-     "summary": "Mid and smallcaps fell about 1% at the open, extending Wednesday's rout",
-     "why": "Brent above $110, US-Iran tensions, FII outflows and weak global cues are weighing on riskier stocks.",
+     "summary": "Smaller stocks remain under pressure for a third straight session",
+     "why": "Crude near $110, US-Iran tensions and FII outflows keep risk appetite low for mid and smallcaps.",
      "names": [
       {
-       "name": "Nifty Midcap",
+       "name": "BSE Smallcap Select",
        "dir": "down",
-       "move": "-1.04%",
-       "line": "Down for a third session after a 1.58% fall on Wednesday"
+       "move": "-0.44%",
+       "line": "Extends Wednesday's sharp smallcap slide, though at a slower pace"
       },
       {
-       "name": "Nifty Smallcap",
+       "name": "BSE Midcap Select",
        "dir": "down",
-       "move": "-0.91%",
-       "line": "Selling continues after Wednesday's 2.37% slump"
+       "line": "Down about 77 points as broad selling continues"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 500 pts, Nifty tests 22,600; PC Jeweller jumps 8% post Q2",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+      "title": "India TV: Sensex down 366 points, Nifty below 22,700; Power Grid drops 2%",
+      "url": "https://www.indiatvnews.com/business/markets/sensex-nifty-opening-october-22-stock-market-updates-gift-nifty-brent-crude-oil-price-geopolitical-tension-asian-markets-2026-10-22-1057584"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "pc-jeweller-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "PC Jeweller jumps on 58% profit rise",
+   "line": "Q2 profit ₹330.66 cr vs ₹209.54 cr; revenue up 28% to ₹1,054 cr; now debt-free.",
+   "more": [
+    "EBITDA up 74.4% to ₹310.45 cr; margin 29.4%",
+    "Repaid all 14 consortium banks ahead of schedule",
+    "Plans up to 100 showrooms in 12–18 months"
+   ],
+   "src": {
+    "title": "BusinessToday: PC Jeweller shares jump 9% on 58% surge in Q2 profit, debt-free status",
+    "url": "https://www.businesstoday.in/markets/stocks/story/pc-jeweller-shares-jump-9-on-58-surge-in-q2-net-profit-debt-free-status-key-details-562959-2026-10-22"
+   },
+   "date": "2026-10-22",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-22",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Jio IPO at 3.21x; retail at 78%",
+   "line": "QIB book 9.42x and NII 1.77x; retail is the only category not yet fully subscribed.",
+   "more": [
+    "Issue closes on October 23",
+    "Sources differ on the day-one close: 3.04x vs 3.2x"
+   ],
+   "src": {
+    "title": "Upstox: Jio Platforms IPO subscribed 3.21 times so far on Day 2",
+    "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-day-2-check-subscription-status-and-10-key-things-retail-investors-should-know-from-rhp/article-202193/"
+   },
+   "date": "2026-10-22",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "volatility",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Analysts flag 22,600 as key Nifty support",
+   "line": "A decisive break could expose 22,300–22,200; 23,000 needed to regain momentum.",
+   "more": [
+    "Support seen at 22,650–22,600",
+    "Expected range for the day: 22,500–23,150"
+   ],
+   "src": {
+    "title": "Goodreturns: Stock market outlook Oct 22 — Sensex, Nifty likely under pressure",
+    "url": "https://www.goodreturns.in/news/stock-market-outlook-today-october-22-2026-sensex-nifty-likely-to-remain-under-pressure-as-crude-oil-1542951.html"
+   },
+   "date": "2026-10-22",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1230"
+   }
+  },
   {
    "key": "asia-markets",
    "tag": "Global",
@@ -90,7 +162,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "pre"
@@ -114,7 +186,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1130"
@@ -139,7 +211,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "1000"
@@ -163,7 +235,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "1330"
@@ -217,30 +289,6 @@
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Jio IPO subscribed 3.2x on day one",
-   "line": "QIB portion booked 9.42x and NIIs 1.83x as bidding enters day two.",
-   "more": [
-    "Employee and shareholder quotas at 1.36x and 1.46x",
-    "Issue closes October 23"
-   ],
-   "src": {
-    "title": "TelecomLead: Jio Platforms IPO subscribed 3.2 times on Day 1",
-    "url": "https://telecomlead.com/5g/jio-platforms-ipo-subscribed-3-2-times-on-day-1-%E2%82%B930213-crore-issue-fully-booked-in-100-minutes-128298"
-   },
-   "date": "2026-10-22",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
    }
   },
   {
@@ -313,30 +361,6 @@
    "first_seen": {
     "date": "2026-10-15",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "volatility",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Broader market hit hardest in sell-off",
-   "line": "Midcap 100 fell 1.82% and Smallcap 100 2.48% as selling broadened.",
-   "more": [
-    "Auto, bank and realty shares weighed on benchmarks",
-    "Sensex swung from ~+800 pts to ~-580 pts before trimming losses"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 21 — Sensex down 500 pts; Eternal falls over 4% ahead of Q2",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
-   },
-   "date": "2026-10-21",
-   "slot": "1530",
-   "when": "Wed · 15:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1230"
    }
   },
   {
