@@ -1,44 +1,44 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-22T13:34:12+05:30",
+ "generated_at": "2026-10-22T14:03:24+05:30",
  "date": "2026-10-22",
- "slot": "1330",
- "slot_label": "13:30",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-22T13:30:00+05:30",
+ "asof": "2026-10-22T14:00:00+05:30",
  "nifty": {
-  "value": 22650,
-  "pct": -0.71,
-  "chg": -161,
-  "approx": true
+  "value": 22638.8,
+  "pct": -0.76,
+  "chg": -172.55,
+  "approx": false
  },
  "mood": {
-  "label": "Pressure eases slightly",
-  "score": -0.35,
-  "summary": "Losses have eased slightly into mid-afternoon with the Nifty near 22,650, but the market stays firmly negative as West Asia worries linger and mid and smallcaps hold losses of about 1%.",
+  "label": "Afternoon slide",
+  "score": -0.4,
+  "summary": "Selling has picked up again into the final stretch, with the Nifty slipping toward 22,640 and breadth weak as mid and smallcaps stay down about 1%.",
   "detail": {
    "leaders": "PC Jeweller",
    "laggards": "Adani Green, KEI Industries",
-   "tone": "Marginally better than the 1300 note: the Sensex loss narrowed to about 400 points from roughly 500, as traders continued to weigh West Asia tension.",
+   "tone": "Weaker than the 1330 note: the Sensex loss widened to 458 points at 2 pm from about 291 at 1 pm, and Nifty Metal is among the weakest sectors.",
    "watch": [
-    "Whether the Nifty can hold above 22,600 into the close",
+    "A close below 22,600 support",
     "Swiggy's Q2 results after market hours",
-    "Final-day Jio IPO demand on Friday"
+    "Brent's move above $110"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 400 pts, Nifty near 22,650; Garware Hi-Tech falls 14% post Q2",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+    "title": "DSIJ: Sensex falls 291 points, Nifty 50 drops 0.44% as West Asia tensions weigh",
+    "url": "https://insights.dsij.in/dsijarticledetail/sensex-falls-291-points-nifty-50-drops-044-as-west-asia-tensions-weigh-on-markets-60116"
    },
    "movers": {
     "up": {
-     "summary": "PC Jeweller remains one of the few gainers on its Q2 beat",
-     "why": "Stock-specific Q2 strength is the main source of buying.",
+     "summary": "PC Jeweller is among the few names holding gains",
+     "why": "Stock-specific Q2 beats are the only consistent source of buying.",
      "names": [
       {
        "name": "PC Jeweller",
        "dir": "up",
        "move": "up as much as 8.97%",
-       "line": "Q2 profit up 58% to ₹330.66 cr and now debt-free"
+       "line": "Q2 profit up 58% to ₹330.66 cr; now debt-free"
       }
      ],
      "src": {
@@ -47,14 +47,14 @@
      }
     },
     "down": {
-     "summary": "Results-hit stocks Adani Green and KEI lead the laggards",
-     "why": "Sequential profit declines and margin pressure in Q2 numbers are drawing sellers.",
+     "summary": "Results disappointments keep Adani Green and KEI under pressure",
+     "why": "Sequential profit declines and margin compression in Q2 are drawing sellers.",
      "names": [
       {
        "name": "Adani Green",
        "dir": "down",
        "move": "-1.22%",
-       "line": "Q2 profit down 24% QoQ to ₹747 cr on grid constraints; fifth straight fall"
+       "line": "Q2 profit down 24% QoQ on grid constraints; fifth straight fall"
       },
       {
        "name": "KEI Industries",
@@ -73,23 +73,71 @@
  },
  "insights": [
   {
+   "key": "swiggy-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Swiggy Q2 due; loss seen widening to ₹824 cr",
+   "line": "Zee Business sees revenue up 8.4% QoQ to ₹7,382 cr; Instamart loss seen at ₹840 cr.",
+   "more": [
+    "Food delivery GOV expected to grow 19% YoY",
+    "Stock fell up to 5.2% to ₹212 ahead of the numbers"
+   ],
+   "src": {
+    "title": "Zee Business: Swiggy Q2 results preview — revenue, losses, Instamart growth",
+    "url": "https://www.zeebiz.com/market-news/news-swiggy-q2-results-preview-revenue-losses-instamart-growth-5-key-things-to-watch-403936"
+   },
+   "date": "2026-10-22",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-22",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Oil and inflation worries keep pressure on",
+   "line": "Rising oil prices heighten inflation-outlook concerns amid West Asia supply fears.",
+   "more": [
+    "Traders weighing possible supply disruption",
+    "Midcap and smallcap indices down about 1% each"
+   ],
+   "src": {
+    "title": "DSIJ: Sensex falls 291 points, Nifty 50 drops 0.44% as West Asia tensions weigh",
+    "url": "https://insights.dsij.in/dsijarticledetail/sensex-falls-291-points-nifty-50-drops-044-as-west-asia-tensions-weigh-on-markets-60116"
+   },
+   "date": "2026-10-22",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1130"
+   }
+  },
+  {
    "key": "garware-q2",
    "tag": "Results",
    "impact": "neg",
-   "title": "Garware Hi-Tech tumbles 14% despite Q2 beat",
-   "line": "Stock fell sharply even as profit rose 42% to ₹129.44 cr and revenue 22% to ₹695.53 cr.",
+   "title": "Garware Hi-Tech holds 14% loss after Q2",
+   "line": "Shares remain sharply lower despite a 42% profit rise and higher margin guidance.",
    "more": [
-    "EBITDA margin expanded to 27.2% from 23.4%",
-    "Raised FY27 EBITDA margin guidance to 27% ± 2%"
+    "Q2 revenue a record ₹695.53 cr",
+    "FY27 EBITDA margin guidance raised to 27% ± 2%"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 400 pts, Nifty near 22,650; Garware Hi-Tech falls 14% post Q2",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 500 pts, Nifty near 22,650; Garware Hi-Tech falls 14% post Q2",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
    },
    "date": "2026-10-22",
-   "slot": "1330",
-   "when": "13:30",
-   "updated": false,
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-22",
@@ -114,7 +162,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "pre"
@@ -138,34 +186,10 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "swiggy-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Swiggy board meets on Q2 results today",
-   "line": "Stock fell about 5% ahead of the numbers, a day after rival Eternal's profit miss.",
-   "more": [
-    "Hit an intraday low of ₹212 on BSE",
-    "Trading window closed until 48 hours after results"
-   ],
-   "src": {
-    "title": "Angel One: Swiggy share price declines over 4% ahead of Q2 FY27 results",
-    "url": "https://www.angelone.in/news/stocks/swiggy-share-price-declines-over-4-ahead-of-q2-fy27-results-announcement"
-   },
-   "date": "2026-10-22",
-   "slot": "1300",
-   "when": "13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1200"
    }
   },
   {
@@ -190,30 +214,6 @@
    "first_seen": {
     "date": "2026-10-22",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "West Asia supply fears weigh on market",
-   "line": "Traders weigh West Asia tension and possible supply disruptions; Brent near $110.",
-   "more": [
-    "Tanker attacks and a mine strike near Hormuz feed a risk premium",
-    "Brent touched $111.99 on Tuesday, highest since May"
-   ],
-   "src": {
-    "title": "Zee Business: Brent crude crosses $110 again amid US-Iran tensions",
-    "url": "https://www.zeebiz.com/markets/commodities/news-brent-crude-crosses-110-again-amid-us-iran-tensions-will-oil-prices-rise-further-404237"
-   },
-   "date": "2026-10-22",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-14",
-    "slot": "1130"
    }
   },
   {
