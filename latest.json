@@ -1,44 +1,44 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-22T13:04:12+05:30",
+ "generated_at": "2026-10-22T13:34:12+05:30",
  "date": "2026-10-22",
- "slot": "1300",
- "slot_label": "13:00",
+ "slot": "1330",
+ "slot_label": "13:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-22T13:00:00+05:30",
+ "asof": "2026-10-22T13:30:00+05:30",
  "nifty": {
-  "value": 22600,
-  "pct": -0.93,
-  "chg": -211,
+  "value": 22650,
+  "pct": -0.71,
+  "chg": -161,
   "approx": true
  },
  "mood": {
-  "label": "Heavy, near lows",
-  "score": -0.45,
-  "summary": "The market remains under pressure into the afternoon, with the Sensex about 500 points lower and the Nifty hovering near 22,600 as selling spreads across defensives and results-hit midcaps.",
+  "label": "Pressure eases slightly",
+  "score": -0.35,
+  "summary": "Losses have eased slightly into mid-afternoon with the Nifty near 22,650, but the market stays firmly negative as West Asia worries linger and mid and smallcaps hold losses of about 1%.",
   "detail": {
    "leaders": "PC Jeweller",
-   "laggards": "Adani Green, KEI Industries, Nifty FMCG",
-   "tone": "Little changed from the 1230 note: the Sensex loss is around 500 points, slightly better than about 600, with the Nifty still near 22,600 support.",
+   "laggards": "Adani Green, KEI Industries",
+   "tone": "Marginally better than the 1300 note: the Sensex loss narrowed to about 400 points from roughly 500, as traders continued to weigh West Asia tension.",
    "watch": [
-    "A break below 22,600 support",
+    "Whether the Nifty can hold above 22,600 into the close",
     "Swiggy's Q2 results after market hours",
-    "Jio IPO final-day bidding on Friday"
+    "Final-day Jio IPO demand on Friday"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 500 pts, Nifty near 22,600; Adani Green falls for 5th day",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 400 pts, Nifty near 22,650; Garware Hi-Tech falls 14% post Q2",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
    },
    "movers": {
     "up": {
-     "summary": "PC Jeweller is among the few names holding gains",
-     "why": "Stock-specific Q2 beats are the main source of buying in a weak tape.",
+     "summary": "PC Jeweller remains one of the few gainers on its Q2 beat",
+     "why": "Stock-specific Q2 strength is the main source of buying.",
      "names": [
       {
        "name": "PC Jeweller",
        "dir": "up",
        "move": "up as much as 8.97%",
-       "line": "Q2 profit up 58% to ₹330.66 cr; now free of bank debt"
+       "line": "Q2 profit up 58% to ₹330.66 cr and now debt-free"
       }
      ],
      "src": {
@@ -47,30 +47,24 @@
      }
     },
     "down": {
-     "summary": "Results disappointments and FMCG weakness lead the losers",
-     "why": "Sequential profit declines and margin pressure in Q2 numbers, plus FMCG input-cost worries, are drawing sellers.",
+     "summary": "Results-hit stocks Adani Green and KEI lead the laggards",
+     "why": "Sequential profit declines and margin pressure in Q2 numbers are drawing sellers.",
      "names": [
       {
        "name": "Adani Green",
        "dir": "down",
-       "move": "down as much as ~4%",
-       "line": "Q2 profit fell 24% QoQ to ₹747 cr on grid constraints; fifth day of losses"
+       "move": "-1.22%",
+       "line": "Q2 profit down 24% QoQ to ₹747 cr on grid constraints; fifth straight fall"
       },
       {
        "name": "KEI Industries",
        "dir": "down",
        "move": "-8.6%",
        "line": "Q2 PAT margin slipped to 6.95% from 7.46%"
-      },
-      {
-       "name": "Nifty FMCG",
-       "dir": "down",
-       "move": "-1.4%",
-       "line": "Higher input costs squeezing margins; down about 18–20% this year"
       }
      ],
      "src": {
-      "title": "Business Standard: Adani Green shares extend fall to 5th day, down 4% as Q2 PAT dips 24% QoQ",
+      "title": "Business Standard: Adani Green shares extend fall to 5th day as Q2 PAT dips 24% QoQ",
       "url": "https://www.business-standard.com/markets/news/adani-green-shares-extend-fall-to-5th-day-down-4-as-q2-pat-dips-24-qoq-126102200476_1.html"
      }
     }
@@ -79,23 +73,70 @@
  },
  "insights": [
   {
+   "key": "garware-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Garware Hi-Tech tumbles 14% despite Q2 beat",
+   "line": "Stock fell sharply even as profit rose 42% to ₹129.44 cr and revenue 22% to ₹695.53 cr.",
+   "more": [
+    "EBITDA margin expanded to 27.2% from 23.4%",
+    "Raised FY27 EBITDA margin guidance to 27% ± 2%"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 400 pts, Nifty near 22,650; Garware Hi-Tech falls 14% post Q2",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+   },
+   "date": "2026-10-22",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-22",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Jio IPO at 3.47x with retail book full",
+   "line": "NII portion at about 2.34–2.37x and QIBs at 9.42x by late morning on day two.",
+   "more": [
+    "Grey-market premium about ₹247 implies ~₹1,366 listing (unofficial)",
+    "Issue closes Friday"
+   ],
+   "src": {
+    "title": "Business Standard: Jio Platforms IPO — retail quota full, subscribed 3.47 times on day two",
+    "url": "https://www.business-standard.com/amp/markets/ipo/retail-investors-fully-subscribe-ambani-s-jio-ipo-on-second-day-126102200394_1.html"
+   },
+   "date": "2026-10-22",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "pre"
+   }
+  },
+  {
    "key": "adani-green-q2",
    "tag": "Results",
    "impact": "neg",
-   "title": "Adani Green Q2 profit down 24% QoQ",
-   "line": "Profit fell to ₹747 cr from ₹983 cr; delayed transmission lines cut grid availability.",
+   "title": "Adani Green pares fall to about 1.2%",
+   "line": "Stock traded 1.22% lower at ₹1,243.10 by midday after falling nearly 4% earlier.",
    "more": [
-    "Stock down about 8% over five sessions",
-    "H1 capex ₹16,000 cr; net debt ₹1.03 lakh cr",
-    "Profit still up 16% year-on-year"
+    "Down about 8% over five sessions",
+    "Q2 profit fell 24% QoQ on grid constraints"
    ],
    "src": {
-    "title": "Business Standard: Adani Green shares extend fall to 5th day, down 4% as Q2 PAT dips 24% QoQ",
+    "title": "Business Standard: Adani Green shares extend fall to 5th day as Q2 PAT dips 24% QoQ",
     "url": "https://www.business-standard.com/markets/news/adani-green-shares-extend-fall-to-5th-day-down-4-as-q2-pat-dips-24-qoq-126102200476_1.html"
    },
    "date": "2026-10-22",
-   "slot": "1300",
-   "when": "13:00",
+   "slot": "1330",
+   "when": "13:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -121,7 +162,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-22",
     "slot": "1200"
@@ -145,35 +186,10 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-22",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Jio IPO retail book fully subscribed",
-   "line": "Retail portion crossed 1x by 11 am on day two; overall book at 3.48x.",
-   "more": [
-    "QIB portion at 9.42x",
-    "Grey-market premium about ₹247 vs ₹1,119 upper band (unofficial)",
-    "Issue closes Friday"
-   ],
-   "src": {
-    "title": "Telangana Today: Jio Platforms IPO retail quota fully subscribed within hours on Day 2",
-    "url": "https://telanganatoday.com/jio-platforms-ipo-retail-quota-fully-subscribed-within-hours-on-day-2"
-   },
-   "date": "2026-10-22",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
    }
   },
   {
