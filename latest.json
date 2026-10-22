@@ -1,37 +1,174 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-22T08:33:01+05:30",
+ "generated_at": "2026-10-22T09:33:29+05:30",
  "date": "2026-10-22",
- "slot": "pre",
- "slot_label": "Pre-open",
- "stage": "Pre-market mood",
- "asof": "2026-10-22T08:35:00+05:30",
+ "slot": "0930",
+ "slot_label": "9:30",
+ "stage": "Opening mood",
+ "asof": "2026-10-22T09:30:00+05:30",
  "nifty": {
-  "value": 22811.35,
-  "pct": -0.34,
-  "chg": -77.6,
-  "approx": false
+  "value": 22600,
+  "pct": -0.93,
+  "chg": -211,
+  "approx": true
  },
  "mood": {
-  "label": "Weak start seen",
-  "score": -0.25,
-  "summary": "Indian equities look set for a soft start after two losing sessions, with GIFT Nifty pointing lower as US tech futures slip and crude stays near $110.",
+  "label": "Gap-down open",
+  "score": -0.5,
+  "summary": "Indian equities opened sharply lower, extending a two-day slide, with the Nifty testing 22,600 and mid and smallcaps down about 1% as selling stays broad.",
   "detail": {
-   "leaders": "No trading yet; GIFT Nifty points lower",
-   "laggards": "Pre-open; Wednesday's smallcap rout still in focus",
-   "tone": "Follows Wednesday's narrow close at 22,811.35 (-0.34%), when midcaps and smallcaps fell far harder than the Nifty.",
+   "leaders": "PC Jeweller jumps 8% after Q2",
+   "laggards": "Nifty Midcap, Nifty Smallcap",
+   "tone": "Weaker than the pre-open signal: the Nifty opened 157 points lower at 22,626 and the Sensex was down about 573 points by 9:18 am.",
    "watch": [
-    "Whether the Nifty holds 22,700 after a weak open",
-    "Reaction to Eternal's profit miss",
-    "A second session of FII buying"
+    "Whether the Nifty holds 22,500, the low end of analysts' range",
+    "Brent's move above $110",
+    "Day two of Jio IPO bidding"
    ],
    "src": {
-    "title": "Kotak Neo: Pre-market 22 October 2026 — GIFT Nifty signals a weak start",
-    "url": "https://www.kotakneo.com/news/market-news/pre-market-22-october-2026-gift-nifty-signals-weak-market-opening/"
+    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 500 pts, Nifty tests 22,600; PC Jeweller jumps 8% post Q2",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+   },
+   "movers": {
+    "up": {
+     "summary": "Little is rising; PC Jeweller is a rare standout after its Q2 numbers",
+     "why": "Stock-specific results are the only source of strength in a weak open.",
+     "names": [
+      {
+       "name": "PC Jeweller",
+       "dir": "up",
+       "move": "+8%",
+       "line": "Jumped after reporting its Q2 results"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 500 pts, Nifty tests 22,600; PC Jeweller jumps 8% post Q2",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+     }
+    },
+    "down": {
+     "summary": "Mid and smallcaps fell about 1% at the open, extending Wednesday's rout",
+     "why": "Brent above $110, US-Iran tensions, FII outflows and weak global cues are weighing on riskier stocks.",
+     "names": [
+      {
+       "name": "Nifty Midcap",
+       "dir": "down",
+       "move": "-1.04%",
+       "line": "Down for a third session after a 1.58% fall on Wednesday"
+      },
+      {
+       "name": "Nifty Smallcap",
+       "dir": "down",
+       "move": "-0.91%",
+       "line": "Selling continues after Wednesday's 2.37% slump"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 500 pts, Nifty tests 22,600; PC Jeweller jumps 8% post Q2",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+     }
+    }
    }
   }
  },
  "insights": [
+  {
+   "key": "asia-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Asian markets slide on AI-trade worries",
+   "line": "Asian stocks declined on concerns over the AI trade, adding to weak cues for India.",
+   "more": [
+    "US Nasdaq-100 futures had slipped after Meta and Tesla results",
+    "GIFT Nifty had pointed to a negative start"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 500 pts, Nifty tests 22,600; PC Jeweller jumps 8% post Q2",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+   },
+   "date": "2026-10-22",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Crude above $110 and US-Iran tensions weigh",
+   "line": "Analysts cite Brent above $110, US-Iran tensions and persistent FII outflows.",
+   "more": [
+    "Analysts see a Nifty range of 22,500–23,150 today",
+    "Elevated crude raises inflation and cost worries"
+   ],
+   "src": {
+    "title": "Goodreturns: Stock market outlook Oct 22 — Sensex, Nifty likely under pressure as crude tops $110",
+    "url": "https://www.goodreturns.in/news/stock-market-outlook-today-october-22-2026-sensex-nifty-likely-to-remain-under-pressure-as-crude-oil-1542951.html"
+   },
+   "date": "2026-10-22",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "eternal-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Eternal fell after missing profit estimates",
+   "line": "Shares slid up to 5% on Wednesday after Q2 profit of ₹125 cr lagged estimates.",
+   "more": [
+    "Revenue rose to ₹24,138 cr from ₹13,590 cr",
+    "Reports differ on EBITDA: ₹666 cr vs ₹752 cr",
+    "Closed down about 3.5% at ₹308.8"
+   ],
+   "src": {
+    "title": "BusinessToday: Eternal Q2 earnings — net profit rises 92%, revenue at ₹24,138 crore",
+    "url": "https://www.businesstoday.in/markets/stocks/story/eternal-q2-earnings-net-profit-rises-92-revenue-at-rs-24138-crore-562828-2026-10-21"
+   },
+   "date": "2026-10-22",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "indian-hotels-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "IHCL revenue up to ₹2,484 cr in Q2",
+   "line": "Consolidated revenue rose from ₹2,041 cr; profit at ₹379.85 cr vs ₹318.26 cr.",
+   "more": [
+    "Standalone profit was ₹392.64 cr",
+    "Results flagged Brij Hospitality buy and Oriental Hotels merger"
+   ],
+   "src": {
+    "title": "Whalesbook: Indian Hotels Company Q2 profit rises to ₹379.85 crore",
+    "url": "https://www.whalesbook.com/corporate-news/English/consumer-products/Indian-Hotels-Company-Q2-profit-rises-to-Rs-37985-crore/6ad8a2e3b2eb76fd08c78655"
+   },
+   "date": "2026-10-22",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "1330"
+   }
+  },
   {
    "key": "fii-flows",
    "tag": "Flows",
@@ -51,7 +188,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1130"
@@ -76,7 +213,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1130"
@@ -100,34 +237,10 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "indian-hotels-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Indian Hotels Q2 profit up 19.5% to ₹380 cr",
-   "line": "Tata group hotel chain's profit rose from ₹318 cr a year earlier.",
-   "more": [
-    "A Zee Business preview had estimated about ₹398 cr",
-    "Stock in focus at today's open"
-   ],
-   "src": {
-    "title": "Sunday Guardian: Stocks to watch Oct 22 — Swiggy, BEL, Eternal, Adani stocks in focus",
-    "url": "https://sundayguardianlive.com/business/stocks-to-watch-today-october-22-will-sensex-and-nifty-extend-their-losing-streak-gift-nifty-signals-weak-start-swiggy-bel-eternal-and-adani-stocks-in-focus-309856/"
-   },
-   "date": "2026-10-22",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1330"
    }
   },
   {
@@ -148,7 +261,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-22",
     "slot": "pre"
@@ -172,59 +285,10 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "eternal-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Eternal Q2 profit ₹125 cr, misses estimates",
-   "line": "Profit up 92% YoY but well below the ₹271 cr analyst average; revenue up 78%.",
-   "more": [
-    "Total expenses rose 75% to ₹24,166 cr",
-    "Sources differ on revenue: ₹23,138 cr vs ₹24,138 cr",
-    "Stock fell about 3% ahead of the numbers"
-   ],
-   "src": {
-    "title": "Upstox: Eternal Q2 — net profit rises 92% to ₹125 crore, revenue up 78%",
-    "url": "https://upstox.com/news/market-news/earnings/eternal-q2-results-zomato-and-blinkit-operator-s-net-profit-rises-92-to-125-crore-revenue-up-78/article-202165/"
-   },
-   "date": "2026-10-21",
-   "slot": "post",
-   "when": "Wed · Close",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent up 1.3% to $110.15",
-   "line": "Rising crude, foreign selling and inflation worries were cited for the reversal.",
-   "more": [
-    "India VIX rose about 6% by the close",
-    "Sensex had been up over 500 pts early on trade-deal hopes"
-   ],
-   "src": {
-    "title": "Free Press Journal: Sensex drops 143 points as Nifty slips below 22,900; crude above $110 triggers sell-off",
-    "url": "https://www.freepressjournal.in/business/sensex-drops-143-points-as-nifty-slips-below-22900-at-closing-rising-crude-oil-prices-above-110-trigger-stock-market-sell-off"
-   },
-   "date": "2026-10-21",
-   "slot": "post",
-   "when": "Wed · Close",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-14",
-    "slot": "1130"
    }
   },
   {
@@ -470,30 +534,6 @@
    "first_seen": {
     "date": "2026-10-21",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "asia-markets",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Asia rebounds; Kospi up 3.7%",
-   "line": "Nikkei up 1.3% and Kospi up 3.7% in early trade, tracking Wall Street.",
-   "more": [
-    "Follows Tuesday's slide when Kospi fell 4.4% on chip selling",
-    "Nikkei had fallen 1.4% on Tuesday"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 21 — GIFT Nifty rises 100 pts; Asian markets gain; Brent near $110",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-21-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-platforms-ipo-today-hd-fire-protect-share-price-126102100078_1.html"
-   },
-   "date": "2026-10-21",
-   "slot": "pre",
-   "when": "Wed · Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "pre"
    }
   },
   {
