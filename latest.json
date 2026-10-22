@@ -1,123 +1,108 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-22T10:03:49+05:30",
+ "generated_at": "2026-10-22T10:34:11+05:30",
  "date": "2026-10-22",
- "slot": "1000",
- "slot_label": "10:00",
- "stage": "Opening mood",
- "asof": "2026-10-22T10:00:00+05:30",
+ "slot": "1030",
+ "slot_label": "10:30",
+ "stage": "Mid-market mood",
+ "asof": "2026-10-22T10:30:00+05:30",
  "nifty": {
-  "value": 22690,
-  "pct": -0.53,
-  "chg": -121,
+  "value": 22780,
+  "pct": -0.14,
+  "chg": -31,
   "approx": true
  },
  "mood": {
-  "label": "Losses narrow",
-  "score": -0.35,
-  "summary": "The market has pared some of its opening losses but remains firmly in the red, with the Nifty just below 22,700 and buying limited to a handful of results-driven stocks.",
+  "label": "Steady recovery",
+  "score": -0.1,
+  "summary": "The market has recovered most of its opening losses, with the Sensex now down only about 100 points, though metal, auto and bank stocks are still dragging and smaller stocks remain soft.",
   "detail": {
-   "leaders": "PC Jeweller",
-   "laggards": "BSE Smallcap Select, BSE Midcap Select",
-   "tone": "Slightly better than the 0930 note: the Sensex loss has narrowed to about 366 points from around 573 at 9:18 am.",
+   "leaders": "Eternal, PC Jeweller",
+   "laggards": "Metal, auto and bank stocks",
+   "tone": "Better than the 1000 note: the Sensex loss has shrunk to about 100 points from roughly 366, and from about 573 shortly after the open.",
    "watch": [
-    "A break below support at 22,600, which analysts say could open 22,300",
-    "A move back above 22,800",
-    "Retail demand on day two of the Jio IPO"
+    "Whether the Nifty can reclaim Wednesday's close of 22,811",
+    "Brent crude holding above $110",
+    "Retail demand in the Jio IPO"
    ],
    "src": {
-    "title": "India TV: Sensex down 366 points, Nifty below 22,700; Power Grid drops 2%",
-    "url": "https://www.indiatvnews.com/business/markets/sensex-nifty-opening-october-22-stock-market-updates-gift-nifty-brent-crude-oil-price-geopolitical-tension-asian-markets-2026-10-22-1057584"
-   },
-   "movers": {
-    "up": {
-     "summary": "Results-driven buying in a few names; PC Jeweller up about 9%",
-     "why": "Stock-specific Q2 beats are the main source of strength in an otherwise weak tape.",
-     "names": [
-      {
-       "name": "PC Jeweller",
-       "dir": "up",
-       "move": "up as much as 8.97%",
-       "line": "Q2 profit up 58% to ₹330.66 cr; now free of bank debt"
-      }
-     ],
-     "src": {
-      "title": "BusinessToday: PC Jeweller shares jump 9% on 58% surge in Q2 profit, debt-free status",
-      "url": "https://www.businesstoday.in/markets/stocks/story/pc-jeweller-shares-jump-9-on-58-surge-in-q2-net-profit-debt-free-status-key-details-562959-2026-10-22"
-     }
-    },
-    "down": {
-     "summary": "Smaller stocks remain under pressure for a third straight session",
-     "why": "Crude near $110, US-Iran tensions and FII outflows keep risk appetite low for mid and smallcaps.",
-     "names": [
-      {
-       "name": "BSE Smallcap Select",
-       "dir": "down",
-       "move": "-0.44%",
-       "line": "Extends Wednesday's sharp smallcap slide, though at a slower pace"
-      },
-      {
-       "name": "BSE Midcap Select",
-       "dir": "down",
-       "line": "Down about 77 points as broad selling continues"
-      }
-     ],
-     "src": {
-      "title": "India TV: Sensex down 366 points, Nifty below 22,700; Power Grid drops 2%",
-      "url": "https://www.indiatvnews.com/business/markets/sensex-nifty-opening-october-22-stock-market-updates-gift-nifty-brent-crude-oil-price-geopolitical-tension-asian-markets-2026-10-22-1057584"
-     }
-    }
+    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 100 pts; Jio IPO subscribed 3.3 times on day 2",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
    }
   }
  },
  "insights": [
   {
-   "key": "pc-jeweller-q2",
+   "key": "eternal-q2",
    "tag": "Results",
    "impact": "pos",
-   "title": "PC Jeweller jumps on 58% profit rise",
-   "line": "Q2 profit ₹330.66 cr vs ₹209.54 cr; revenue up 28% to ₹1,054 cr; now debt-free.",
+   "title": "Brokerages stay bullish on Eternal",
+   "line": "Nearly all of 17 brokerages rate it Buy; stock up 1.36% to ₹316.60 despite profit miss.",
    "more": [
-    "EBITDA up 74.4% to ₹310.45 cr; margin 29.4%",
-    "Repaid all 14 consortium banks ahead of schedule",
-    "Plans up to 100 showrooms in 12–18 months"
+    "Consensus target ₹381, about 22% upside",
+    "CLSA highest at ₹513; Macquarie lowest at ₹225 (Underperform)",
+    "CLSA cut FY27–29 profit estimates on faster store expansion"
    ],
    "src": {
-    "title": "BusinessToday: PC Jeweller shares jump 9% on 58% surge in Q2 profit, debt-free status",
-    "url": "https://www.businesstoday.in/markets/stocks/story/pc-jeweller-shares-jump-9-on-58-surge-in-q2-net-profit-debt-free-status-key-details-562959-2026-10-22"
+    "title": "BusinessToday: Eternal — CLSA sets highest target post Q2; Macquarie has lowest",
+    "url": "https://www.businesstoday.in/markets/stocks/story/eternal-shares-clsa-sets-highest-target-post-q2-results-macquarie-has-the-lowest-562941-2026-10-22"
    },
    "date": "2026-10-22",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": false,
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
    "is_new": true,
    "first_seen": {
-    "date": "2026-10-22",
+    "date": "2026-10-21",
     "slot": "1000"
    }
   },
   {
    "key": "jio-ipo",
    "tag": "Listing",
-   "impact": "watch",
-   "title": "Jio IPO at 3.21x; retail at 78%",
-   "line": "QIB book 9.42x and NII 1.77x; retail is the only category not yet fully subscribed.",
+   "impact": "pos",
+   "title": "Jio IPO subscribed 3.3x on day two",
+   "line": "Demand picks up from 3.21x earlier in the morning; bidding closes Friday.",
    "more": [
-    "Issue closes on October 23",
-    "Sources differ on the day-one close: 3.04x vs 3.2x"
+    "QIB book above 9x; retail still below full subscription",
+    "Issue size ₹30,213 cr"
    ],
    "src": {
-    "title": "Upstox: Jio Platforms IPO subscribed 3.21 times so far on Day 2",
-    "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-day-2-check-subscription-status-and-10-key-things-retail-investors-should-know-from-rhp/article-202193/"
+    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 100 pts; Jio IPO subscribed 3.3 times on day 2",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
    },
    "date": "2026-10-22",
-   "slot": "1000",
-   "when": "10:00",
+   "slot": "1030",
+   "when": "10:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "pre"
+   }
+  },
+  {
+   "key": "pc-jeweller-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "PC Jeweller hits ₹20.17 session high",
+   "line": "Stock rose 8.97% from ₹18.51 after Q2 profit jumped 58% and it turned debt-free.",
+   "more": [
+    "Revenue up 28% to ₹1,054.47 cr",
+    "Plans up to 100 new showrooms over 12–18 months"
+   ],
+   "src": {
+    "title": "BusinessToday: PC Jeweller shares jump 9% on 58% surge in Q2 net profit",
+    "url": "https://www.businesstoday.in/markets/stocks/story/pc-jeweller-shares-jump-9-on-58-surge-in-q2-net-profit-debt-free-status-key-details-562959-2026-10-22"
+   },
+   "date": "2026-10-22",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-22",
+    "slot": "1000"
    }
   },
   {
@@ -138,7 +123,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "1230"
@@ -190,31 +175,6 @@
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "eternal-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Eternal fell after missing profit estimates",
-   "line": "Shares slid up to 5% on Wednesday after Q2 profit of ₹125 cr lagged estimates.",
-   "more": [
-    "Revenue rose to ₹24,138 cr from ₹13,590 cr",
-    "Reports differ on EBITDA: ₹666 cr vs ₹752 cr",
-    "Closed down about 3.5% at ₹308.8"
-   ],
-   "src": {
-    "title": "BusinessToday: Eternal Q2 earnings — net profit rises 92%, revenue at ₹24,138 crore",
-    "url": "https://www.businesstoday.in/markets/stocks/story/eternal-q2-earnings-net-profit-rises-92-revenue-at-rs-24138-crore-562828-2026-10-21"
-   },
-   "date": "2026-10-22",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1000"
    }
   },
   {
