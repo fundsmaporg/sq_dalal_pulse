@@ -1,70 +1,70 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-22T11:03:05+05:30",
+ "generated_at": "2026-10-22T11:36:00+05:30",
  "date": "2026-10-22",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-22T11:00:00+05:30",
+ "asof": "2026-10-22T11:30:00+05:30",
  "nifty": {
-  "value": 22720,
-  "pct": -0.4,
-  "chg": -91,
-  "approx": true
+  "value": 22733.9,
+  "pct": -0.34,
+  "chg": -77.45,
+  "approx": false
  },
  "mood": {
-  "label": "Off the lows",
-  "score": -0.2,
-  "summary": "Benchmarks are off their lows but still in the red, with realty and bank shares helping the recovery while midcaps stay under pressure from post-results selling.",
+  "label": "Losses contained",
+  "score": -0.15,
+  "summary": "The market is holding a narrower loss through late morning, with the Nifty around 22,730 after recovering from the day's low, though selling persists in a handful of heavyweights.",
   "detail": {
    "leaders": "PC Jeweller, Eternal",
    "laggards": "KEI Industries",
-   "tone": "Still choppy since the 1030 note: the Sensex is about 300 points above its day's low, helped by realty and bank shares, but has not turned positive.",
+   "tone": "Steadier than the 1100 note: the Nifty was at 22,733.90 (-0.34%) at 11 am, well above the 22,650 seen at 10 am; Power Grid, M&M and Nestle were the top Nifty losers.",
    "watch": [
-    "A move back above Wednesday's Nifty close of 22,811",
-    "Further midcap selling on results misses",
+    "A push above Wednesday's close of 22,811",
+    "Any concrete India-US trade deal news",
     "Jio IPO retail demand ahead of Friday's close"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex rebounds 300 pts from day's low; KEI Ind, M&M Fin lead MidCap losses",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex rebounds 300 pts from day's low",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Results-driven buying in PC Jeweller and Eternal",
-     "why": "Investors are rewarding companies whose Q2 numbers or brokerage views beat fears.",
+     "summary": "Results-driven buying continues in PC Jeweller and Eternal",
+     "why": "Better-than-feared Q2 numbers and supportive brokerage calls are drawing buyers to select names.",
      "names": [
       {
        "name": "PC Jeweller",
        "dir": "up",
        "move": "up as much as 8.97%",
-       "line": "Q2 profit up 58% to ₹330.66 cr; now free of bank debt"
+       "line": "Q2 profit up 58% to ₹330.66 cr and now free of bank debt"
       },
       {
        "name": "Eternal",
        "dir": "up",
        "move": "+1.36%",
-       "line": "Brokerages kept Buy ratings after Q2; consensus target ₹381"
+       "line": "Nearly all brokerages kept Buy ratings after Q2; consensus target ₹381"
       }
      ],
      "src": {
-      "title": "BusinessToday: Eternal — CLSA sets highest target post Q2; Macquarie lowest",
+      "title": "BusinessToday: Eternal — CLSA sets highest target post Q2",
       "url": "https://www.businesstoday.in/markets/stocks/story/eternal-shares-clsa-sets-highest-target-post-q2-results-macquarie-has-the-lowest-562941-2026-10-22"
      }
     },
     "down": {
-     "summary": "KEI Industries leads midcap losses after its Q2 numbers",
-     "why": "Margin compression in Q2 results is drawing sellers in midcaps.",
+     "summary": "KEI Industries remains the standout loser after its Q2 margin squeeze",
+     "why": "A narrower profit margin overshadowed strong revenue growth in KEI's results.",
      "names": [
       {
        "name": "KEI Industries",
        "dir": "down",
        "move": "-8.6%",
-       "line": "Profit up 29% but PAT margin slipped to 6.95% from 7.46%; fifth straight fall"
+       "line": "PAT margin fell to 6.95% from 7.46%; fifth straight session of losses"
       }
      ],
      "src": {
-      "title": "Zee Business: KEI Industries Q2 — profit rises 29% to ₹262 crore; revenue jumps 39%",
+      "title": "Zee Business: KEI Industries Q2 — profit rises 29% to ₹262 crore",
       "url": "https://www.zeebiz.com/companies/news-kei-industries-q2-results-profit-rises-29-yoy-to-rs-262-crore-revenue-jumps-39-404291"
      }
     }
@@ -73,24 +73,72 @@
  },
  "insights": [
   {
+   "key": "india-us-trade",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Rubio: India trade deal 99% done, weeks away",
+   "line": "Rubio says the deal could be finalised within weeks; Indian officials say talks stalled.",
+   "more": [
+    "No final terms or signing date published",
+    "February framework cut US tariff on India to 18% from 25%",
+    "Goyal met USTR Greer for talks"
+   ],
+   "src": {
+    "title": "Diya TV: Rubio says U.S.-India trade deal is weeks away, but hurdles remain",
+    "url": "https://diyatvusa.com/rubio-says-u-s-india-trade-deal-is-weeks-away-but-hurdles-remain/"
+   },
+   "date": "2026-10-22",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Jio IPO at 3.35x; retail nears full book",
+   "line": "Retail portion at about 92% on day two; NIIs at 2.02x and QIBs at 9.42x.",
+   "more": [
+    "Earlier day-two reading was 3.32x with retail at 89%",
+    "Bidding closes Friday, October 23"
+   ],
+   "src": {
+    "title": "India TV: Jio IPO GMP today — strong demand on day 2",
+    "url": "https://www.indiatvnews.com/business/markets/jio-ipo-gmp-today-public-issue-continues-to-garner-strong-demand-on-day-2-check-subscription-status-2026-10-22-1057587"
+   },
+   "date": "2026-10-22",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "pre"
+   }
+  },
+  {
    "key": "kei-q2",
    "tag": "Results",
    "impact": "neg",
-   "title": "KEI Industries slumps 8.6% after Q2",
-   "line": "Profit rose 29% to ₹262.45 cr and revenue 38.5%, but margins narrowed.",
+   "title": "KEI Industries extends fall to fifth day",
+   "line": "Stock down about 8.6% after Q2 as margin compression outweighs 29% profit growth.",
    "more": [
-    "PAT margin 6.95% vs 7.46% a year ago",
-    "Stock falls to about ₹3,866 on NSE",
-    "Fifth straight session of losses"
+    "Revenue up 38.5% to ₹3,776.42 cr",
+    "Stock was down about 9% in four sessions before results"
    ],
    "src": {
-    "title": "Zee Business: KEI Industries Q2 — profit rises 29% to ₹262 crore; revenue jumps 39%",
+    "title": "Zee Business: KEI Industries Q2 — profit rises 29% to ₹262 crore",
     "url": "https://www.zeebiz.com/companies/news-kei-industries-q2-results-profit-rises-29-yoy-to-rs-262-crore-revenue-jumps-39-404291"
    },
    "date": "2026-10-22",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": false,
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-22",
@@ -115,7 +163,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "1400"
@@ -140,7 +188,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-22",
     "slot": "1100"
@@ -169,30 +217,6 @@
    "first_seen": {
     "date": "2026-10-21",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Jio IPO subscribed 3.3x on day two",
-   "line": "Demand picks up from 3.21x earlier in the morning; bidding closes Friday.",
-   "more": [
-    "QIB book above 9x; retail still below full subscription",
-    "Issue size ₹30,213 cr"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 100 pts; Jio IPO subscribed 3.3 times on day 2",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
-   },
-   "date": "2026-10-22",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
    }
   },
   {
@@ -484,31 +508,6 @@
    "first_seen": {
     "date": "2026-10-15",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "india-us-trade",
-   "tag": "Policy",
-   "impact": "pos",
-   "title": "Rubio, Trump say trade deal is very close",
-   "line": "Rubio says few issues remain; an announcement and leaders' signing could come soon.",
-   "more": [
-    "Rubio spoke in Mumbai on Oct 20",
-    "Trump said a deal is 'pretty close' after over a year of talks",
-    "No signing date has been confirmed"
-   ],
-   "src": {
-    "title": "BusinessToday: 'Pretty close' — Trump says India-US trade deal is in sight",
-    "url": "https://www.businesstoday.in/india/story/pretty-close-after-rubio-donald-trump-says-india-us-trade-deal-is-in-sight-562656-2026-10-21"
-   },
-   "date": "2026-10-21",
-   "slot": "1130",
-   "when": "Wed · 11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1330"
    }
   },
   {
