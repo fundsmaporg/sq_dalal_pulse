@@ -1,50 +1,50 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-22T11:36:00+05:30",
+ "generated_at": "2026-10-22T12:03:41+05:30",
  "date": "2026-10-22",
- "slot": "1130",
- "slot_label": "11:30",
+ "slot": "1200",
+ "slot_label": "12:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-22T11:30:00+05:30",
+ "asof": "2026-10-22T12:00:00+05:30",
  "nifty": {
-  "value": 22733.9,
-  "pct": -0.34,
-  "chg": -77.45,
-  "approx": false
+  "value": 22700,
+  "pct": -0.49,
+  "chg": -111,
+  "approx": true
  },
  "mood": {
-  "label": "Losses contained",
-  "score": -0.15,
-  "summary": "The market is holding a narrower loss through late morning, with the Nifty around 22,730 after recovering from the day's low, though selling persists in a handful of heavyweights.",
+  "label": "Range-bound, soft",
+  "score": -0.2,
+  "summary": "Benchmarks are stuck in a narrow range around midday with the Nifty near 22,700, as FMCG weakness offsets the morning recovery and midcaps stay soft.",
   "detail": {
    "leaders": "PC Jeweller, Eternal",
-   "laggards": "KEI Industries",
-   "tone": "Steadier than the 1100 note: the Nifty was at 22,733.90 (-0.34%) at 11 am, well above the 22,650 seen at 10 am; Power Grid, M&M and Nestle were the top Nifty losers.",
+   "laggards": "KEI Industries, Swiggy",
+   "tone": "Little changed from the 1130 note: the Nifty is holding near 22,700, and Nifty FMCG is down over 1%, with Nestle among the top Nifty losers.",
    "watch": [
-    "A push above Wednesday's close of 22,811",
-    "Any concrete India-US trade deal news",
-    "Jio IPO retail demand ahead of Friday's close"
+    "Swiggy's Q2 numbers after market hours",
+    "A break of the 22,650–22,800 range",
+    "Jio IPO's final-day demand on Friday"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex rebounds 300 pts from day's low",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex stuck in range, Nifty near 22,700; Nifty FMCG falls over 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Results-driven buying continues in PC Jeweller and Eternal",
-     "why": "Better-than-feared Q2 numbers and supportive brokerage calls are drawing buyers to select names.",
+     "summary": "PC Jeweller and Eternal hold gains on results and brokerage support",
+     "why": "Better-than-feared Q2 numbers and broadly bullish brokerage calls keep buyers in select names.",
      "names": [
       {
        "name": "PC Jeweller",
        "dir": "up",
        "move": "up as much as 8.97%",
-       "line": "Q2 profit up 58% to ₹330.66 cr and now free of bank debt"
+       "line": "Q2 profit up 58% to ₹330.66 cr; now free of bank debt"
       },
       {
        "name": "Eternal",
        "dir": "up",
        "move": "+1.36%",
-       "line": "Nearly all brokerages kept Buy ratings after Q2; consensus target ₹381"
+       "line": "Brokerages largely kept Buy ratings after its Q2 profit miss"
       }
      ],
      "src": {
@@ -53,25 +53,104 @@
      }
     },
     "down": {
-     "summary": "KEI Industries remains the standout loser after its Q2 margin squeeze",
-     "why": "A narrower profit margin overshadowed strong revenue growth in KEI's results.",
+     "summary": "KEI Industries and Swiggy among the heaviest losers in the broader market",
+     "why": "Post-results margin worries and pre-results caution are weighing on these midcaps.",
      "names": [
       {
        "name": "KEI Industries",
        "dir": "down",
        "move": "-8.6%",
-       "line": "PAT margin fell to 6.95% from 7.46%; fifth straight session of losses"
+       "line": "Q2 PAT margin slipped to 6.95% from 7.46%; fifth straight fall"
+      },
+      {
+       "name": "Swiggy",
+       "dir": "down",
+       "move": "down ~4.8%",
+       "line": "Slid to about ₹212.90 ahead of its Q2 results due today"
       }
      ],
      "src": {
-      "title": "Zee Business: KEI Industries Q2 — profit rises 29% to ₹262 crore",
-      "url": "https://www.zeebiz.com/companies/news-kei-industries-q2-results-profit-rises-29-yoy-to-rs-262-crore-revenue-jumps-39-404291"
+      "title": "Angel One: Swiggy share price declines over 4% ahead of Q2 FY27 results",
+      "url": "https://www.angelone.in/news/stocks/swiggy-share-price-declines-over-4-ahead-of-q2-fy27-results-announcement"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "swiggy-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Swiggy slides ~5% ahead of Q2 results",
+   "line": "Shares hit an intraday low of ₹212 on BSE; board meets today to approve Q2 numbers.",
+   "more": [
+    "Anand Rathi recently upgraded the stock to Buy",
+    "Rival Eternal's Q2 profit missed estimates on Wednesday",
+    "Completed divestment of Lynks Logistics"
+   ],
+   "src": {
+    "title": "Angel One: Swiggy share price declines over 4% ahead of Q2 FY27 results",
+    "url": "https://www.angelone.in/news/stocks/swiggy-share-price-declines-over-4-ahead-of-q2-fy27-results-announcement"
+   },
+   "date": "2026-10-22",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-22",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "fmcg-weak",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "FMCG stocks drag; Nifty FMCG down over 1%",
+   "line": "FMCG is among the weakest sectors at midday; Nestle India is a top Nifty loser.",
+   "more": [
+    "Power Grid and M&M also among top Nifty losers",
+    "Midcap and smallcap indices fell about 1% earlier"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex stuck in range, Nifty near 22,700; Nifty FMCG falls over 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+   },
+   "date": "2026-10-22",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-22",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Crude near $110 keeps caution in place",
+   "line": "Oil above $110 and Middle East tensions weighed on the open.",
+   "more": [
+    "Asian markets also declined on AI-trade worries",
+    "Analysts flag 22,600 as key Nifty support"
+   ],
+   "src": {
+    "title": "HDFC Sky: Indian markets signal weak start as crude tops $110",
+    "url": "https://hdfcsky.com/news/pre-open-points-to-lower-start-as-oil-hovers-above-110-asia-declines"
+   },
+   "date": "2026-10-22",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-14",
+    "slot": "1130"
+   }
+  },
   {
    "key": "india-us-trade",
    "tag": "Policy",
@@ -91,7 +170,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
     "slot": "1330"
@@ -115,7 +194,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "pre"
@@ -139,7 +218,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-22",
     "slot": "1100"
@@ -289,30 +368,6 @@
    "first_seen": {
     "date": "2026-10-21",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Crude above $110 and US-Iran tensions weigh",
-   "line": "Analysts cite Brent above $110, US-Iran tensions and persistent FII outflows.",
-   "more": [
-    "Analysts see a Nifty range of 22,500–23,150 today",
-    "Elevated crude raises inflation and cost worries"
-   ],
-   "src": {
-    "title": "Goodreturns: Stock market outlook Oct 22 — Sensex, Nifty likely under pressure as crude tops $110",
-    "url": "https://www.goodreturns.in/news/stock-market-outlook-today-october-22-2026-sensex-nifty-likely-to-remain-under-pressure-as-crude-oil-1542951.html"
-   },
-   "date": "2026-10-22",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-14",
-    "slot": "1130"
    }
   },
   {
