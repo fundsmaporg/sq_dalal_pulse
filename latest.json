@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-22T12:35:13+05:30",
+ "generated_at": "2026-10-22T13:04:12+05:30",
  "date": "2026-10-22",
- "slot": "1230",
- "slot_label": "12:30",
+ "slot": "1300",
+ "slot_label": "13:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-22T12:30:00+05:30",
+ "asof": "2026-10-22T13:00:00+05:30",
  "nifty": {
   "value": 22600,
   "pct": -0.93,
@@ -13,32 +13,32 @@
   "approx": true
  },
  "mood": {
-  "label": "Selling resumes",
+  "label": "Heavy, near lows",
   "score": -0.45,
-  "summary": "Selling has resumed into early afternoon, pushing the Sensex down about 600 points and the Nifty back toward 22,600, as defensives like FMCG and pharma join the slide and midcaps stay weak.",
+  "summary": "The market remains under pressure into the afternoon, with the Sensex about 500 points lower and the Nifty hovering near 22,600 as selling spreads across defensives and results-hit midcaps.",
   "detail": {
    "leaders": "PC Jeweller",
-   "laggards": "Nifty FMCG, Nifty Pharma",
-   "tone": "Weaker than the 1200 note: the Sensex loss has widened to about 600 points from a range-bound midday, and the Nifty is back near the day's lows around 22,600.",
+   "laggards": "Adani Green, KEI Industries, Nifty FMCG",
+   "tone": "Little changed from the 1230 note: the Sensex loss is around 500 points, slightly better than about 600, with the Nifty still near 22,600 support.",
    "watch": [
-    "A break below 22,600 support, which analysts say could open 22,300",
-    "Brent's move around $110",
-    "Swiggy's Q2 results after hours"
+    "A break below 22,600 support",
+    "Swiggy's Q2 results after market hours",
+    "Jio IPO final-day bidding on Friday"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 600 pts, Nifty near 22,600; Adani Green falls for 5th day",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 500 pts, Nifty near 22,600; Adani Green falls for 5th day",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Few gainers; PC Jeweller still holds its post-results jump",
-     "why": "Only stock-specific Q2 stories are drawing buyers in a broadly weak market.",
+     "summary": "PC Jeweller is among the few names holding gains",
+     "why": "Stock-specific Q2 beats are the main source of buying in a weak tape.",
      "names": [
       {
        "name": "PC Jeweller",
        "dir": "up",
        "move": "up as much as 8.97%",
-       "line": "Q2 profit up 58% to ₹330.66 cr and the company is now debt-free"
+       "line": "Q2 profit up 58% to ₹330.66 cr; now free of bank debt"
       }
      ],
      "src": {
@@ -47,31 +47,110 @@
      }
     },
     "down": {
-     "summary": "Defensive FMCG and pharma stocks are among the worst performers",
-     "why": "West Asia tensions and supply-disruption worries are weighing broadly, and FMCG is also battling input-cost pressure.",
+     "summary": "Results disappointments and FMCG weakness lead the losers",
+     "why": "Sequential profit declines and margin pressure in Q2 numbers, plus FMCG input-cost worries, are drawing sellers.",
      "names": [
+      {
+       "name": "Adani Green",
+       "dir": "down",
+       "move": "down as much as ~4%",
+       "line": "Q2 profit fell 24% QoQ to ₹747 cr on grid constraints; fifth day of losses"
+      },
+      {
+       "name": "KEI Industries",
+       "dir": "down",
+       "move": "-8.6%",
+       "line": "Q2 PAT margin slipped to 6.95% from 7.46%"
+      },
       {
        "name": "Nifty FMCG",
        "dir": "down",
        "move": "-1.4%",
-       "line": "Higher input costs squeezing margins; index down about 18–20% this year"
-      },
-      {
-       "name": "Nifty Pharma",
-       "dir": "down",
-       "move": "-1.4%",
-       "line": "Falls alongside FMCG as West Asia tension hits sentiment"
+       "line": "Higher input costs squeezing margins; down about 18–20% this year"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 600 pts, Nifty near 22,600; Adani Green falls for 5th day",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
+      "title": "Business Standard: Adani Green shares extend fall to 5th day, down 4% as Q2 PAT dips 24% QoQ",
+      "url": "https://www.business-standard.com/markets/news/adani-green-shares-extend-fall-to-5th-day-down-4-as-q2-pat-dips-24-qoq-126102200476_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "adani-green-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Adani Green Q2 profit down 24% QoQ",
+   "line": "Profit fell to ₹747 cr from ₹983 cr; delayed transmission lines cut grid availability.",
+   "more": [
+    "Stock down about 8% over five sessions",
+    "H1 capex ₹16,000 cr; net debt ₹1.03 lakh cr",
+    "Profit still up 16% year-on-year"
+   ],
+   "src": {
+    "title": "Business Standard: Adani Green shares extend fall to 5th day, down 4% as Q2 PAT dips 24% QoQ",
+    "url": "https://www.business-standard.com/markets/news/adani-green-shares-extend-fall-to-5th-day-down-4-as-q2-pat-dips-24-qoq-126102200476_1.html"
+   },
+   "date": "2026-10-22",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "swiggy-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Swiggy board meets on Q2 results today",
+   "line": "Stock fell about 5% ahead of the numbers, a day after rival Eternal's profit miss.",
+   "more": [
+    "Hit an intraday low of ₹212 on BSE",
+    "Trading window closed until 48 hours after results"
+   ],
+   "src": {
+    "title": "Angel One: Swiggy share price declines over 4% ahead of Q2 FY27 results",
+    "url": "https://www.angelone.in/news/stocks/swiggy-share-price-declines-over-4-ahead-of-q2-fy27-results-announcement"
+   },
+   "date": "2026-10-22",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-22",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "fmcg-weak",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "FMCG, pharma slide 1.4% each",
+   "line": "Defensive sectors weighed as West Asia tension and supply worries hit sentiment.",
+   "more": [
+    "FMCG faces input-cost pressure on margins",
+    "Nestle India among top Nifty losers"
+   ],
+   "src": {
+    "title": "Kotak Neo: Nifty FMCG falls over 1% — why are FMCG stocks falling?",
+    "url": "https://www.kotakneo.com/news/sectors/nifty-fmcg-falls-raw-material-costs-2026/"
+   },
+   "date": "2026-10-22",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-22",
+    "slot": "1200"
+   }
+  },
   {
    "key": "jio-ipo",
    "tag": "Listing",
@@ -91,7 +170,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "pre"
@@ -115,83 +194,10 @@
    "slot": "1230",
    "when": "12:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-14",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "adani-green-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Adani Green falls for a fifth day",
-   "line": "Stock extends losing streak after Q2; standalone profit fell 93% to ₹33 cr.",
-   "more": [
-    "Consolidated profit rose 16% to ₹747 cr per one report",
-    "Income up 39% to ₹4,520 cr"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 600 pts, Nifty near 22,600; Adani Green falls for 5th day",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
-   },
-   "date": "2026-10-22",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "swiggy-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Swiggy slides ~5% ahead of Q2 results",
-   "line": "Shares hit an intraday low of ₹212 on BSE; board meets today to approve Q2 numbers.",
-   "more": [
-    "Anand Rathi recently upgraded the stock to Buy",
-    "Rival Eternal's Q2 profit missed estimates on Wednesday",
-    "Completed divestment of Lynks Logistics"
-   ],
-   "src": {
-    "title": "Angel One: Swiggy share price declines over 4% ahead of Q2 FY27 results",
-    "url": "https://www.angelone.in/news/stocks/swiggy-share-price-declines-over-4-ahead-of-q2-fy27-results-announcement"
-   },
-   "date": "2026-10-22",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "fmcg-weak",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "FMCG stocks drag; Nifty FMCG down over 1%",
-   "line": "FMCG is among the weakest sectors at midday; Nestle India is a top Nifty loser.",
-   "more": [
-    "Power Grid and M&M also among top Nifty losers",
-    "Midcap and smallcap indices fell about 1% earlier"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex stuck in range, Nifty near 22,700; Nifty FMCG falls over 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
-   },
-   "date": "2026-10-22",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1200"
    }
   },
   {
