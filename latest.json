@@ -1,43 +1,44 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-23T15:03:14+05:30",
+ "generated_at": "2026-10-23T15:35:18+05:30",
  "date": "2026-10-23",
- "slot": "1500",
- "slot_label": "15:00",
+ "slot": "1530",
+ "slot_label": "15:30",
  "stage": "Closing mood",
- "asof": "2026-10-23T15:00:00+05:30",
+ "asof": "2026-10-23T15:30:00+05:30",
  "nifty": {
-  "value": 22531.4,
-  "pct": -0.69,
-  "chg": -156.25,
+  "value": 22600,
+  "pct": -0.39,
+  "chg": -87.65,
   "approx": true
  },
  "mood": {
-  "label": "Steadier into close",
+  "label": "Off lows, still red",
   "score": -0.3,
-  "summary": "Into the last half hour the market is holding its partial recovery, still lower on the day, with IT the clear support and broader stocks, metals and realty lagging.",
+  "summary": "The market closed lower for a fourth straight day but well off its lows, as late IT-led buying trimmed losses; volatility jumped and smaller stocks took the heaviest damage.",
   "detail": {
    "leaders": "IT: Nifty IT, TCS, Infosys",
-   "laggards": "Realty: Nifty Realty, Godrej Properties; Nifty Metal",
-   "tone": "Broadly unchanged from 14:30: the latest reading had the Nifty at 22,531 (-0.69%) at 2 PM, holding well above the 22,402 low, with no fresh selling wave reported since.",
+   "laggards": "Smallcaps, midcaps; metals, realty",
+   "tone": "Better than the midday lows: the Sensex ended only about 126 points lower after being down more than 700, though India VIX rose about 8% and the losing streak stretched to four sessions.",
    "watch": [
-    "Closing level versus 22,500",
-    "Jio IPO final subscription tally",
-    "Infosys, JSW Steel, BPCL and Adani Power results after hours"
+    "Infosys FY27 guidance after hours",
+    "Brent and West Asia over the weekend",
+    "Results from JSW Steel, BPCL, Dr Reddy's and Tata Motors"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex rebounds 600 pts from day's low",
+    "title": "Business Standard: Stock Market Close — Sensex falls for 4th day, ends 126 pts lower; Nifty at 22,600; VIX rises 8%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT is the backbone of the afternoon recovery",
-     "why": "Investors keep buying Indian IT services despite the global tech sell-off, and IT gains pulled the indices off their lows.",
+     "summary": "IT carried the market through a volatile session and powered the late recovery",
+     "why": "Indian IT rose after the global sell-off in AI-linked shares, offsetting some of the oil-driven selling elsewhere.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "line": "Top sector all session; IT advances drove the index recovery"
+       "move": "about +1%",
+       "line": "Top sector of the day as investors rotated into IT services"
       },
       {
        "name": "TCS",
@@ -49,37 +50,43 @@
        "name": "Infosys",
        "dir": "up",
        "move": "up over 1%",
-       "line": "Bought ahead of its Q2 results, due after market hours today"
+       "line": "Bought ahead of its Q2 results and FY27 guidance after the close"
       }
      ],
      "src": {
-      "title": "Business Standard: Market crash — Sensex sinks 1,279 pts from day's high; Nifty tests 22,400",
-      "url": "https://www.business-standard.com/amp/markets/news/market-crash-sensex-sinks-1-279-pts-from-day-s-high-nifty-tests-22-400-126102300346_1.html"
+      "title": "MarketScreener (Reuters): Indian shares subdued as rising crude prices eclipse IT gains",
+      "url": "https://www.marketscreener.com/news/indian-shares-subdued-as-rising-crude-prices-eclipse-it-gains-ce785cdede80f426"
      }
     },
     "down": {
-     "summary": "Realty and metals remain the weakest sectors; Godrej Properties lags",
-     "why": "Oil-driven inflation worries keep weighing on these sectors, and weak results add to the pressure.",
+     "summary": "Broader markets were hit hardest, with metals and realty the weakest sectors",
+     "why": "Brent near $114 revived inflation worries, and investors sold riskier smaller stocks and cyclical sectors hardest.",
      "names": [
       {
-       "name": "Nifty Realty",
+       "name": "Nifty Smallcap 100",
        "dir": "down",
-       "line": "Among the two weakest sectors; Godrej Properties slides after a 62% profit drop"
+       "move": "-3.45%",
+       "line": "Far worse than the Nifty, its third straight daily decline"
       },
       {
-       "name": "Godrej Properties",
+       "name": "Nifty Midcap 100",
        "dir": "down",
-       "move": "down ~6%",
-       "line": "Q2 profit fell 62% to ₹154 cr as costs rose faster than revenue"
+       "move": "-2.54%",
+       "line": "Extends losses of 1.58% and 0.87% from the prior two sessions"
       },
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "line": "Among the two weakest sectors all day; NALCO and Vedanta lead losses"
+       "line": "Among the two weakest sectors; fell over 3% at one point, led by NALCO"
+      },
+      {
+       "name": "Nifty Realty",
+       "dir": "down",
+       "line": "Among the two weakest sectors; Godrej Properties fell on a 62% profit drop"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex rebounds 600 pts from day's low",
+      "title": "Business Standard: Stock Market Close — Sensex falls for 4th day, ends 126 pts lower; Nifty at 22,600; VIX rises 8%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
      }
     }
@@ -90,26 +97,74 @@
   {
    "key": "jio-ipo",
    "tag": "Listing",
-   "impact": "watch",
-   "title": "Jio IPO passes 9x before the close",
-   "line": "Final-day bidding keeps accelerating into the last hours of the ₹30,213 cr issue",
+   "impact": "pos",
+   "title": "Jio IPO closes 9.33x subscribed",
+   "line": "India's largest IPO ends with heavy institutional demand; QIBs at 20.63x by 1:30 pm",
    "more": [
-    "One tracker shows 9.10x overall as of 1:39 pm",
-    "NSE data had it at 8.22x around 1:26 pm, QIB 17.65x, retail 2.20x",
-    "Allotment likely Oct 26; listing Oct 28"
+    "Overall subscription rose from 5.42x on Day 2 to 9.33x at close",
+    "QIB demand jumped from 14.06x at 11:30 to 20.63x by 13:30",
+    "Allotment likely Oct 26; listing scheduled for Oct 28"
    ],
    "src": {
-    "title": "IPO Platform: Jio Platforms IPO subscription status live",
-    "url": "https://www.ipoplatform.com/ipo/subscription/jio-platforms-ipo/4699"
+    "title": "ScanX: Jio Platforms IPO Day 3 — subscribed 9.33x; QIB surges to 20.63x",
+    "url": "https://scanx.trade/stock-market-news/ipo/jio-platforms-ipo-day-3-subscribed-6-78x-qib-demand-leads-14-06x-check-allotment-status/54281537"
    },
    "date": "2026-10-23",
-   "slot": "1500",
-   "when": "15:00",
+   "slot": "1530",
+   "when": "15:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "pre"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Oil keeps the lid on Indian stocks",
+   "line": "Brent near $114 after Houthi attacks on Saudi Arabia outweighed the IT rally",
+   "more": [
+    "Reuters: surging oil on Middle East tensions extended losses to a 4th session",
+    "Energy-supply fears followed attacks on Saudi Arabia by Yemen's Houthis"
+   ],
+   "src": {
+    "title": "MarketScreener (Reuters): Indian shares subdued as rising crude prices eclipse IT gains",
+    "url": "https://www.marketscreener.com/news/indian-shares-subdued-as-rising-crude-prices-eclipse-it-gains-ce785cdede80f426"
+   },
+   "date": "2026-10-23",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "dr-reddys-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Dr Reddy's among tonight's big results",
+   "line": "Pharma major reports Q2 FY27 alongside Infosys, JSW Steel, BPCL and Tata Motors",
+   "more": [
+    "Year-ago Q2 consolidated profit was ₹1,437.2 cr, up 14% YoY",
+    "Results for the quarter and half-year ended Sept 30 due today"
+   ],
+   "src": {
+    "title": "TaxGuru: Dr. Reddy's to announce Q2FY27 results on 23 October 2026",
+    "url": "https://taxguru.in/finance/business/dr-reddys-laboratories-to-announce-q2fy27-results-on-23-october-2026.html"
+   },
+   "date": "2026-10-23",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "1530"
    }
   },
   {
@@ -130,7 +185,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1500"
@@ -154,34 +209,10 @@
    "slot": "1500",
    "when": "15:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1500"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Brent heads for ~$6 weekly gain",
-   "line": "Thursday's 4% jump to $113.17 was the highest settle since May",
-   "more": [
-    "Rally followed reports of US-Israeli plans for renewed attacks on Iran",
-    "Brent traded at $114 early Friday with Houthi attacks on Saudi sites in focus"
-   ],
-   "src": {
-    "title": "OilPrice.com: Brent hits $114 as Houthi attacks threaten Saudi energy infrastructure",
-    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-114-as-Houthi-Attacks-Threaten-Saudi-Energy-Infrastructure.html"
-   },
-   "date": "2026-10-23",
-   "slot": "1430",
-   "when": "14:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1030"
    }
   },
   {
