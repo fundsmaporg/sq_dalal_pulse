@@ -1,93 +1,88 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-23T15:35:18+05:30",
+ "generated_at": "2026-10-23T16:04:24+05:30",
  "date": "2026-10-23",
- "slot": "1530",
- "slot_label": "15:30",
- "stage": "Closing mood",
- "asof": "2026-10-23T15:30:00+05:30",
+ "slot": "post",
+ "slot_label": "Close",
+ "stage": "Post-market mood",
+ "asof": "2026-10-23T16:05:00+05:30",
  "nifty": {
-  "value": 22600,
+  "value": 22600.0,
   "pct": -0.39,
   "chg": -87.65,
-  "approx": true
+  "approx": false
  },
  "mood": {
-  "label": "Off lows, still red",
-  "score": -0.3,
-  "summary": "The market closed lower for a fourth straight day but well off its lows, as late IT-led buying trimmed losses; volatility jumped and smaller stocks took the heaviest damage.",
+  "label": "Fourth straight loss",
+  "score": -0.35,
+  "summary": "The market closed lower for a fourth straight session but well off its lows; the headline indices dipped modestly while midcaps and smallcaps fell 2–3% and volatility jumped.",
   "detail": {
-   "leaders": "IT: Nifty IT, TCS, Infosys",
+   "leaders": "IT majors: TCS, Infosys",
    "laggards": "Smallcaps, midcaps; metals, realty",
-   "tone": "Better than the midday lows: the Sensex ended only about 126 points lower after being down more than 700, though India VIX rose about 8% and the losing streak stretched to four sessions.",
+   "tone": "A late recovery trimmed the damage versus midday, when the Sensex was down more than 700 points, but the losing streak reached four sessions and India VIX rose 6.34% to 16.76.",
    "watch": [
-    "Infosys FY27 guidance after hours",
-    "Brent and West Asia over the weekend",
-    "Results from JSW Steel, BPCL, Dr Reddy's and Tata Motors"
+    "Infosys FY27 guidance and the IT reaction on Monday",
+    "Brent and West Asia headlines over the weekend",
+    "Friday's FII/DII data after Thursday's ₹3,459 cr FII sale"
    ],
    "src": {
-    "title": "Business Standard: Stock Market Close — Sensex falls for 4th day, ends 126 pts lower; Nifty at 22,600; VIX rises 8%",
+    "title": "Business Standard: Stock Market Close — Sensex falls for 4th day, ends 126 pts lower; Nifty at 22,600; VIX rises 6%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT carried the market through a volatile session and powered the late recovery",
-     "why": "Indian IT rose after the global sell-off in AI-linked shares, offsetting some of the oil-driven selling elsewhere.",
+     "summary": "IT majors were the main support on a weak day",
+     "why": "Indian IT drew buyers after the global sell-off in AI-linked shares, partly offsetting oil-driven selling elsewhere.",
      "names": [
-      {
-       "name": "Nifty IT",
-       "dir": "up",
-       "move": "about +1%",
-       "line": "Top sector of the day as investors rotated into IT services"
-      },
       {
        "name": "TCS",
        "dir": "up",
-       "move": "up over 2%",
-       "line": "Strongest IT name; its Q2 earnings beat market expectations this month"
+       "move": "+2.03% at noon",
+       "line": "Top Sensex gainer at midday; its Q2 beat market expectations this month"
       },
       {
        "name": "Infosys",
        "dir": "up",
-       "move": "up over 1%",
-       "line": "Bought ahead of its Q2 results and FY27 guidance after the close"
+       "line": "Among top gainers ahead of its Q2 results and FY27 guidance after the close"
       }
      ],
      "src": {
-      "title": "MarketScreener (Reuters): Indian shares subdued as rising crude prices eclipse IT gains",
-      "url": "https://www.marketscreener.com/news/indian-shares-subdued-as-rising-crude-prices-eclipse-it-gains-ce785cdede80f426"
+      "title": "HDFC Sky: Top gainers and losers today, 23 October 2026 at 12 PM",
+      "url": "https://hdfcsky.com/news/top-gainers-and-top-losers-today-23-october-2026-at-12-pm"
      }
     },
     "down": {
-     "summary": "Broader markets were hit hardest, with metals and realty the weakest sectors",
-     "why": "Brent near $114 revived inflation worries, and investors sold riskier smaller stocks and cyclical sectors hardest.",
+     "summary": "Broader markets took the heaviest hit; metals and realty led sector losses",
+     "why": "Brent near $114 revived inflation and margin worries, and investors cut riskier smaller stocks and cyclical sectors hardest.",
      "names": [
       {
        "name": "Nifty Smallcap 100",
        "dir": "down",
-       "move": "-3.45%",
-       "line": "Far worse than the Nifty, its third straight daily decline"
+       "move": "-2.94%",
+       "line": "Third straight fall, far steeper than the Nifty's 0.39% dip"
       },
       {
        "name": "Nifty Midcap 100",
        "dir": "down",
-       "move": "-2.54%",
+       "move": "-2.21%",
        "line": "Extends losses of 1.58% and 0.87% from the prior two sessions"
       },
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "line": "Among the two weakest sectors; fell over 3% at one point, led by NALCO"
+       "move": "-2.71%",
+       "line": "Worst sector; Tata Steel and Hindalco were the top Nifty losers"
       },
       {
        "name": "Nifty Realty",
        "dir": "down",
-       "line": "Among the two weakest sectors; Godrej Properties fell on a 62% profit drop"
+       "move": "-2.38%",
+       "line": "Godrej Properties slid after its Q2 profit fell 62% to ₹154 cr"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market Close — Sensex falls for 4th day, ends 126 pts lower; Nifty at 22,600; VIX rises 8%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+      "title": "Zee Business: Closing Bell — Sensex falls 126 pts, Nifty below 22,600 as oil spikes; metal, realty lead losses",
+      "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-falls-126-points-nifty-below-22600-as-oil-prices-spike-metal-realty-stocks-lead-losses-404434"
      }
     }
    }
@@ -95,23 +90,72 @@
  },
  "insights": [
   {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Oil outweighs IT gains for a 4th day",
+   "line": "Brent near $114 on Saudi supply fears is the main overhang heading into the weekend",
+   "more": [
+    "Brent settled up 4% at $113.17 on Thursday, its highest since May",
+    "Oil was on track for a ~$6 weekly gain after Houthi attacks on Saudi sites",
+    "Reuters: oil-driven losses extended the market's slide into a 4th session"
+   ],
+   "src": {
+    "title": "MarketScreener (Reuters): Indian shares subdued as rising crude prices eclipse IT gains",
+    "url": "https://www.marketscreener.com/news/indian-shares-subdued-as-rising-crude-prices-eclipse-it-gains-ce785cdede80f426"
+   },
+   "date": "2026-10-23",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "infosys-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Infosys Q2 and guidance set Monday's tone",
+   "line": "Brokerages expect a trim to FY27 revenue guidance after an IT rally into the print",
+   "more": [
+    "Bloomberg consensus: net profit ~₹7,904 cr, sales ~₹49,108 cr",
+    "Some brokerages see guidance cut to 1–2.5% from 1.5–3%; margin guide seen at 20–22%",
+    "Board also considering an interim dividend"
+   ],
+   "src": {
+    "title": "BusinessToday: Infosys Q2 results, dividend — expectations, timing, FY27 guidance",
+    "url": "https://www.businesstoday.in/markets/stocks/story/infosys-q2-results-dividend-earnings-expectations-timing-fy27-guidance-targets-563068-2026-10-22"
+   },
+   "date": "2026-10-23",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "1230"
+   }
+  },
+  {
    "key": "jio-ipo",
    "tag": "Listing",
    "impact": "pos",
-   "title": "Jio IPO closes 9.33x subscribed",
-   "line": "India's largest IPO ends with heavy institutional demand; QIBs at 20.63x by 1:30 pm",
+   "title": "Jio IPO closes 9.33x; listing on Oct 28",
+   "line": "Strong institutional demand for India's largest IPO; allotment due Monday",
    "more": [
-    "Overall subscription rose from 5.42x on Day 2 to 9.33x at close",
-    "QIB demand jumped from 14.06x at 11:30 to 20.63x by 13:30",
-    "Allotment likely Oct 26; listing scheduled for Oct 28"
+    "QIB demand reached 20.63x by 1:30 pm on the final day",
+    "Allotment likely Oct 26; shares to list on BSE and NSE on Oct 28"
    ],
    "src": {
     "title": "ScanX: Jio Platforms IPO Day 3 — subscribed 9.33x; QIB surges to 20.63x",
     "url": "https://scanx.trade/stock-market-news/ipo/jio-platforms-ipo-day-3-subscribed-6-78x-qib-demand-leads-14-06x-check-allotment-status/54281537"
    },
    "date": "2026-10-23",
-   "slot": "1530",
-   "when": "15:30",
+   "slot": "post",
+   "when": "Close",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -120,27 +164,27 @@
    }
   },
   {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Oil keeps the lid on Indian stocks",
-   "line": "Brent near $114 after Houthi attacks on Saudi Arabia outweighed the IT rally",
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Heavy after-hours results slate",
+   "line": "JSW Steel, BPCL, Dr Reddy's, Tata Motors and Adani Power report after the close",
    "more": [
-    "Reuters: surging oil on Middle East tensions extended losses to a 4th session",
-    "Energy-supply fears followed attacks on Saudi Arabia by Yemen's Houthis"
+    "About 75 companies were scheduled to report on Oct 23",
+    "Also due: Coforge, Shriram Finance, Torrent Pharma, IndusInd Bank"
    ],
    "src": {
-    "title": "MarketScreener (Reuters): Indian shares subdued as rising crude prices eclipse IT gains",
-    "url": "https://www.marketscreener.com/news/indian-shares-subdued-as-rising-crude-prices-eclipse-it-gains-ce785cdede80f426"
+    "title": "Business Standard: Q2 results today — Infosys, Tata Motors, Adani Power among 75 firms",
+    "url": "https://www.business-standard.com/companies/quarterly-results/q2-results-infosys-tata-motors-adani-power-among-75-firms-on-oct-23-126102300433_1.html"
    },
    "date": "2026-10-23",
-   "slot": "1530",
-   "when": "15:30",
+   "slot": "post",
+   "when": "Close",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-15",
-    "slot": "1030"
+    "slot": "pre"
    }
   },
   {
@@ -161,7 +205,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1530"
@@ -290,30 +334,6 @@
    }
   },
   {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "IndusInd, UTI AMC join a heavy results slate",
-   "line": "Banks, IT, oil marketers and steelmakers all report today",
-   "more": [
-    "IndusInd Bank and UTI AMC are among today's reporters",
-    "Adani Power, Coforge, Dr Reddy's and Tata Motors also due"
-   ],
-   "src": {
-    "title": "Business Upturn: Top Q2 results today, October 23",
-    "url": "https://businessupturn.com/finance/stock-market/quarterly-results/top-q2-results-today-october-23-infosys-coforge-tata-motors-adani-powe-bank-of-india-bpcl-among-companies-to-announce-earnings/"
-   },
-   "date": "2026-10-23",
-   "slot": "1400",
-   "when": "14:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
-   }
-  },
-  {
    "key": "jsw-steel-q2",
    "tag": "Results",
    "impact": "watch",
@@ -434,31 +454,6 @@
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1300"
-   }
-  },
-  {
-   "key": "infosys-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Infosys Q2 tonight; guidance cut feared",
-   "line": "Brokerages expect FY27 revenue guidance to be trimmed from the 1.5–3% band",
-   "more": [
-    "Bloomberg consensus: net profit ~₹7,904 cr, sales ~₹49,108 cr, margin 21.2%",
-    "Emkay sees guidance at 1.5–2.5%; Nuvama sees 1.0–2.5%",
-    "Large-deal TCV expected around $2.5–3 bn; interim dividend also on the agenda"
-   ],
-   "src": {
-    "title": "Business Standard: Infosys Q2 preview — analysts see PAT rising 10%; guidance in focus",
-    "url": "https://www.business-standard.com/markets/news/infosys-q2-results-preview-analysts-see-pat-rising-10-guidance-in-focus-126102200709_1.html"
-   },
-   "date": "2026-10-23",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1230"
    }
   },
   {
