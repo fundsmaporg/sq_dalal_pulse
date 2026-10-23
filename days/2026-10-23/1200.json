@@ -1,0 +1,169 @@
+{
+ "asof": "2026-10-23T12:00:00+05:30",
+ "summary": "The recovery off the lows has faded and selling has resumed: the Nifty is down over 1% at midday, metals are hit hardest and IT remains the only sector offering support.",
+ "mood": {
+  "label": "Selling resumes",
+  "score": -0.6,
+  "detail": {
+   "stats": [],
+   "leaders": "IT: Nifty IT, TCS, Infosys",
+   "laggards": "Metals: Nifty Metal, Hindalco, Tata Steel; Swiggy",
+   "movers": {
+    "up": {
+     "summary": "IT is still the market's lone support as most sectors trade lower",
+     "why": "Indian IT services continue to attract buyers despite the global tech and AI sell-off.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "line": "Top sector all session, extending this month's results-led rally"
+      },
+      {
+       "name": "TCS",
+       "dir": "up",
+       "line": "Leads IT gains; its Q2 earnings beat market expectations this month"
+      },
+      {
+       "name": "Infosys",
+       "dir": "up",
+       "line": "Bought ahead of its Q2 results, due after market hours today"
+      }
+     ],
+     "src": {
+      "title": "Asianet Newsable: Nifty IT jumps 1.31% as TCS, Infosys lead tech rally",
+      "url": "https://newsable.asianetnews.com/markets/nifty-it-index-jumps-tcs-infosys-lead-tech-stock-rally-articleshow-5ayx517"
+     }
+    },
+    "down": {
+     "summary": "Metal stocks lead the slide, with the sector index down more than 3%",
+     "why": "Metals are bearing the brunt of a sell-off driven by surging oil prices and West Asia supply fears.",
+     "names": [
+      {
+       "name": "Nifty Metal",
+       "move": "down over 3%",
+       "dir": "down",
+       "line": "Worst sector at midday; NALCO and Vedanta are its biggest losers"
+      },
+      {
+       "name": "Hindalco",
+       "dir": "down",
+       "line": "Top Nifty 50 loser as aluminium names lead the metals rout"
+      },
+      {
+       "name": "Tata Steel",
+       "dir": "down",
+       "line": "Among the top Nifty 50 and Sensex losers as metals slide"
+      },
+      {
+       "name": "Swiggy",
+       "dir": "down",
+       "line": "Near record lows after Instamart losses dominated its Q2 numbers"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market Crash LIVE — Sensex down 600 pts, Nifty below 22,450; Nifty Metal falls over 3%",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+     }
+    }
+   },
+   "tone": "Worse than at 11:30: the bounce to about 22,500 has given way and the Nifty is back near 22,420, with the Sensex down about 600 points.",
+   "watch": [
+    "Brent near $115 and any West Asia escalation",
+    "Whether the Nifty breaks its 22,407 intraday low",
+    "Infosys Q2 after the close"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market Crash LIVE — Sensex down 600 pts, Nifty below 22,450; Nifty Metal falls over 3%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 22420,
+  "pct": -1.18,
+  "chg": -267.65,
+  "approx": true
+ },
+ "top": [
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Jio IPO crosses 6x on final day",
+   "line": "Institutions pile in at 13.56x while retail demand stays below 2x",
+   "more": [
+    "6.15x overall by 10:28 am per NSE data",
+    "NII portion 7.65x; retail 1.78x",
+    "Bidding closes today; listing set for Oct 28"
+   ],
+   "src": {
+    "title": "Upstox: Jio Platforms IPO Day 3 live — subscribed 6.15 times, QIBs 13.56x",
+    "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-day-3-live-updates-subscription-status-price-band-lot-size-allotment-date-listing-time-oct-23-2026/liveblog-202281/"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Oil nears $115 on Saudi attack fears",
+   "line": "Houthi attacks in Saudi Arabia keep pushing crude toward fresh highs",
+   "more": [
+    "Oil has shot up to nearly $115 a barrel, per a rupee market report",
+    "Rising crude is seen squeezing margins via higher inflation"
+   ],
+   "src": {
+    "title": "NewsBytes: Indian rupee opens at ₹94.79 against US dollar amid volatility",
+    "url": "https://www.newsbytesapp.com/news/business/indian-rupee-opens-at-rs9479-against-us-dollar-amid-volatility/tldr"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Rupee edges up to 94.79 at open",
+   "line": "A 3-paise gain at the open follows a 43-paise slide on Thursday",
+   "more": [
+    "Opened at 94.79 against the US dollar",
+    "Oil near $115 keeps pressure on the currency"
+   ],
+   "src": {
+    "title": "NewsBytes: Indian rupee opens at ₹94.79 against US dollar amid volatility",
+    "url": "https://www.newsbytesapp.com/news/business/indian-rupee-opens-at-rs9479-against-us-dollar-amid-volatility/tldr"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Business Standard: Stock Market Crash LIVE — Sensex down 600 pts, Nifty below 22,450; Nifty Metal falls over 3%",
+   "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+  },
+  {
+   "title": "Upstox: Jio Platforms IPO Day 3 live — subscribed 6.15 times, QIBs 13.56x",
+   "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-day-3-live-updates-subscription-status-price-band-lot-size-allotment-date-listing-time-oct-23-2026/liveblog-202281/"
+  },
+  {
+   "title": "India TV News: Jio IPO subscribed over 6 times on day 3",
+   "url": "https://www.indiatvnews.com/business/markets/jio-ipo-gmp-jio-platforms-ipo-subscription-status-allotment-date-listing-date-and-other-details-2026-10-23-1057706"
+  },
+  {
+   "title": "Groww: Jio Platforms IPO Day 3 subscription status",
+   "url": "https://groww.in/blog/jio-platforms-ipo-day-3-subscription-status"
+  },
+  {
+   "title": "NewsBytes: Indian rupee opens at ₹94.79 against US dollar amid volatility",
+   "url": "https://www.newsbytesapp.com/news/business/indian-rupee-opens-at-rs9479-against-us-dollar-amid-volatility/tldr"
+  },
+  {
+   "title": "Upstox: Sensex drops over 1,250 pts from day's high as crude tops $114",
+   "url": "https://upstox.com/news/market-news/stocks/sensex-drops-over-1-250-points-from-day-s-high-nifty-50-tests-22-400-as-crude-tops-114/article-202285/"
+  },
+  {
+   "title": "Asianet Newsable: Nifty IT jumps 1.31% as TCS, Infosys lead tech rally",
+   "url": "https://newsable.asianetnews.com/markets/nifty-it-index-jumps-tcs-infosys-lead-tech-stock-rally-articleshow-5ayx517"
+  },
+  {
+   "title": "NewsBytes: Swiggy stock plunges 12% to record low",
+   "url": "https://www.newsbytesapp.com/news/business/swiggy-stock-plunges-12-to-record-low-rs18490-on-friday/tldr"
+  }
+ ]
+}

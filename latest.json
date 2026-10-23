@@ -1,44 +1,43 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-23T11:34:25+05:30",
+ "generated_at": "2026-10-23T12:03:30+05:30",
  "date": "2026-10-23",
- "slot": "1130",
- "slot_label": "11:30",
+ "slot": "1200",
+ "slot_label": "12:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-23T11:30:00+05:30",
+ "asof": "2026-10-23T12:00:00+05:30",
  "nifty": {
-  "value": 22500,
-  "pct": -0.83,
-  "chg": -187.65,
+  "value": 22420,
+  "pct": -1.18,
+  "chg": -267.65,
   "approx": true
  },
  "mood": {
-  "label": "Off the lows",
-  "score": -0.5,
-  "summary": "The market is steadying off its lows but stays firmly in the red, with selling spread across sectors and only IT, now with smaller gains, still in positive territory.",
+  "label": "Selling resumes",
+  "score": -0.6,
+  "summary": "The recovery off the lows has faded and selling has resumed: the Nifty is down over 1% at midday, metals are hit hardest and IT remains the only sector offering support.",
   "detail": {
    "leaders": "IT: Nifty IT, TCS, Infosys",
-   "laggards": "Smallcaps; Swiggy",
-   "tone": "Slightly better than at 11:00: the Nifty fell more than 1% to around 22,448 near 11 AM but has since come back to about 22,500, with the Sensex down roughly 300 points.",
+   "laggards": "Metals: Nifty Metal, Hindalco, Tata Steel; Swiggy",
+   "tone": "Worse than at 11:30: the bounce to about 22,500 has given way and the Nifty is back near 22,420, with the Sensex down about 600 points.",
    "watch": [
-    "Brent's move above $110 and West Asia headlines",
-    "Whether the Nifty holds the 22,400 intraday low",
+    "Brent near $115 and any West Asia escalation",
+    "Whether the Nifty breaks its 22,407 intraday low",
     "Infosys Q2 after the close"
    ],
    "src": {
-    "title": "Business Standard: Stock Market Crash LIVE — Sensex down 300 pts, Nifty around 22,500; Tata Steel, Hindalco weigh",
+    "title": "Business Standard: Stock Market Crash LIVE — Sensex down 600 pts, Nifty below 22,450; Nifty Metal falls over 3%",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT is still the only sector holding up, though its gains have narrowed",
-     "why": "Indian IT services keep drawing buyers despite the global tech and AI sell-off.",
+     "summary": "IT is still the market's lone support as most sectors trade lower",
+     "why": "Indian IT services continue to attract buyers despite the global tech and AI sell-off.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "move": "+1.31%",
-       "line": "Up 421.5 points, cooler than the near-3% gain early in the session"
+       "line": "Top sector all session, extending this month's results-led rally"
       },
       {
        "name": "TCS",
@@ -48,38 +47,122 @@
       {
        "name": "Infosys",
        "dir": "up",
-       "line": "Among IT leaders ahead of its Q2 results, due after market hours today"
+       "line": "Bought ahead of its Q2 results, due after market hours today"
       }
      ],
      "src": {
-      "title": "Asianet Newsable: Nifty IT jumps 1.31% as TCS, Infosys lead tech rally despite global sell-off",
+      "title": "Asianet Newsable: Nifty IT jumps 1.31% as TCS, Infosys lead tech rally",
       "url": "https://newsable.asianetnews.com/markets/nifty-it-index-jumps-tcs-infosys-lead-tech-stock-rally-articleshow-5ayx517"
      }
     },
     "down": {
-     "summary": "Smaller stocks and Swiggy take the brunt of the oil-driven selling",
-     "why": "Fears that costlier crude will squeeze margins through higher inflation are hitting riskier stocks hardest.",
+     "summary": "Metal stocks lead the slide, with the sector index down more than 3%",
+     "why": "Metals are bearing the brunt of a sell-off driven by surging oil prices and West Asia supply fears.",
      "names": [
       {
-       "name": "Nifty Smallcap 100",
+       "name": "Nifty Metal",
        "dir": "down",
-       "line": "Was down over 3% earlier, after falling in each of the prior two sessions"
+       "move": "down over 3%",
+       "line": "Worst sector at midday; NALCO and Vedanta are its biggest losers"
+      },
+      {
+       "name": "Hindalco",
+       "dir": "down",
+       "line": "Top Nifty 50 loser as aluminium names lead the metals rout"
+      },
+      {
+       "name": "Tata Steel",
+       "dir": "down",
+       "line": "Among the top Nifty 50 and Sensex losers as metals slide"
       },
       {
        "name": "Swiggy",
        "dir": "down",
-       "line": "Near record lows as Instamart losses dominated the Q2 read"
+       "line": "Near record lows after Instamart losses dominated its Q2 numbers"
       }
      ],
      "src": {
-      "title": "Upstox: Sensex drops over 1,250 pts from day's high as crude tops $114",
-      "url": "https://upstox.com/news/market-news/stocks/sensex-drops-over-1-250-points-from-day-s-high-nifty-50-tests-22-400-as-crude-tops-114/article-202285/"
+      "title": "Business Standard: Stock Market Crash LIVE — Sensex down 600 pts, Nifty below 22,450; Nifty Metal falls over 3%",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Jio IPO crosses 6x on final day",
+   "line": "Institutions pile in at 13.56x while retail demand stays below 2x",
+   "more": [
+    "6.15x overall by 10:28 am per NSE data",
+    "NII portion 7.65x; retail 1.78x",
+    "Bidding closes today; listing set for Oct 28"
+   ],
+   "src": {
+    "title": "Upstox: Jio Platforms IPO Day 3 live — subscribed 6.15 times, QIBs 13.56x",
+    "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-day-3-live-updates-subscription-status-price-band-lot-size-allotment-date-listing-time-oct-23-2026/liveblog-202281/"
+   },
+   "date": "2026-10-23",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Oil nears $115 on Saudi attack fears",
+   "line": "Houthi attacks in Saudi Arabia keep pushing crude toward fresh highs",
+   "more": [
+    "Oil has shot up to nearly $115 a barrel, per a rupee market report",
+    "Rising crude is seen squeezing margins via higher inflation"
+   ],
+   "src": {
+    "title": "NewsBytes: Indian rupee opens at ₹94.79 against US dollar amid volatility",
+    "url": "https://www.newsbytesapp.com/news/business/indian-rupee-opens-at-rs9479-against-us-dollar-amid-volatility/tldr"
+   },
+   "date": "2026-10-23",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Rupee edges up to 94.79 at open",
+   "line": "A 3-paise gain at the open follows a 43-paise slide on Thursday",
+   "more": [
+    "Opened at 94.79 against the US dollar",
+    "Oil near $115 keeps pressure on the currency"
+   ],
+   "src": {
+    "title": "NewsBytes: Indian rupee opens at ₹94.79 against US dollar amid volatility",
+    "url": "https://www.newsbytesapp.com/news/business/indian-rupee-opens-at-rs9479-against-us-dollar-amid-volatility/tldr"
+   },
+   "date": "2026-10-23",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "0930"
+   }
+  },
   {
    "key": "adani-energy-q2",
    "tag": "Results",
@@ -99,7 +182,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1130"
@@ -123,7 +206,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1130"
@@ -148,35 +231,10 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Crude tops $114, stoking margin fears",
-   "line": "Investors worry higher oil will squeeze Indian company margins via inflation",
-   "more": [
-    "Upstox reports crude above $114 a barrel today",
-    "Brent hit its highest since May above $112 on Oct 22 after Houthi attacks on Saudi sites",
-    "Fortune had Brent at $113.21 by 8 a.m. ET on Oct 22"
-   ],
-   "src": {
-    "title": "Upstox: Sensex drops over 1,250 pts from day's high, Nifty50 tests 22,400 as crude tops $114",
-    "url": "https://upstox.com/news/market-news/stocks/sensex-drops-over-1-250-points-from-day-s-high-nifty-50-tests-22-400-as-crude-tops-114/article-202285/"
-   },
-   "date": "2026-10-23",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
-    "slot": "1030"
+    "slot": "pre"
    }
   },
   {
@@ -347,31 +405,6 @@
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Jio IPO bidding ends today",
-   "line": "India's largest IPO, ₹30,213 cr, closes with institutions far ahead of retail",
-   "more": [
-    "Trendlyne shows ~5x overall: QIB 11.91x, NII 5.24x, retail 1.45x",
-    "Price band ₹1,065–1,119; allotment expected Oct 26",
-    "Shares scheduled to list on BSE and NSE on Oct 28"
-   ],
-   "src": {
-    "title": "Trendlyne: Jio Platforms IPO subscription & listing date",
-    "url": "https://trendlyne.com/ipo/detail/2479/jio-platforms-ltd/"
-   },
-   "date": "2026-10-23",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
    }
   },
   {
@@ -858,30 +891,6 @@
    "first_seen": {
     "date": "2026-10-21",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee gains 29 paise to 94.62/$",
-   "line": "Rupee firmed in early trade; an analyst sees a 94.00–94.75 range today.",
-   "more": [
-    "Opened at 94.78, then touched 94.62",
-    "High oil prices remain a drag on the currency"
-   ],
-   "src": {
-    "title": "Business Standard: Rupee rises 29 paise to 94.62 against US dollar in early trade",
-    "url": "https://www.business-standard.com/finance/news/rupee-rises-29-paise-to-94-62-against-us-dollar-during-early-trade-126102100233_1.html"
-   },
-   "date": "2026-10-21",
-   "slot": "1200",
-   "when": "Wed · 12:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "0930"
    }
   },
   {
