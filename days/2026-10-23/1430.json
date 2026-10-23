@@ -1,0 +1,171 @@
+{
+ "asof": "2026-10-23T14:30:00+05:30",
+ "summary": "The recovery has held: the Nifty has clawed back nearly half of the day's losses on IT buying, though breadth is still poor with smaller stocks, metals and realty well in the red.",
+ "mood": {
+  "label": "Recovery holds",
+  "score": -0.3,
+  "detail": {
+   "stats": [],
+   "leaders": "IT: Nifty IT, TCS, Infosys",
+   "laggards": "Realty: Nifty Realty, Godrej Properties; Nifty Metal",
+   "movers": {
+    "up": {
+     "summary": "IT is powering the rebound from the day's lows",
+     "why": "Investors keep buying Indian IT services despite the global tech sell-off, and those gains have pulled the indices well off their lows.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "line": "Top sector all session; IT advances drove the index recovery"
+      },
+      {
+       "name": "TCS",
+       "move": "+3.05% (morning)",
+       "dir": "up",
+       "line": "Strongest IT name; its Q2 earnings beat market expectations this month"
+      },
+      {
+       "name": "Infosys",
+       "move": "+2.32% (morning)",
+       "dir": "up",
+       "line": "Bought ahead of its Q2 results, due after market hours today"
+      }
+     ],
+     "src": {
+      "title": "Asianet Newsable: Nifty IT jumps 1.31% as TCS, Infosys lead tech rally",
+      "url": "https://newsable.asianetnews.com/markets/nifty-it-index-jumps-tcs-infosys-lead-tech-stock-rally-articleshow-5ayx517"
+     }
+    },
+    "down": {
+     "summary": "Realty and metals stay the weakest sectors; Godrej Properties slides on Q2",
+     "why": "Oil-driven inflation worries keep weighing on these sectors, and weak results add to the pressure.",
+     "names": [
+      {
+       "name": "Nifty Realty",
+       "dir": "down",
+       "line": "Among the two weakest sectors; Godrej Properties slides after a 62% profit drop"
+      },
+      {
+       "name": "Godrej Properties",
+       "move": "down ~6%",
+       "dir": "down",
+       "line": "Q2 profit fell 62% to ₹154 cr as costs rose faster than revenue"
+      },
+      {
+       "name": "Nifty Metal",
+       "dir": "down",
+       "line": "Among the two weakest sectors all day; NALCO and Vedanta lead losses"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market LIVE — Sensex rebounds 600 pts from day's low; Newgen Software off lows post Q2",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+     }
+    }
+   },
+   "tone": "Better than at 14:00: the Nifty was at 22,531 at 2 PM, down 0.69% versus a 1.26% fall at 1 PM, and the Sensex has cut its loss to about 262 points.",
+   "watch": [
+    "Whether the recovery extends into the close",
+    "Brent holding near $113–114",
+    "Infosys, JSW Steel and BPCL results after hours"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex rebounds 600 pts from day's low; Newgen Software off lows post Q2",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 22531.4,
+  "pct": -0.69,
+  "chg": -156.25,
+  "approx": false
+ },
+ "top": [
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Jio IPO crosses 8x in final hours",
+   "line": "Demand accelerates on the last day, led by QIBs at 17.65x",
+   "more": [
+    "8.22x overall as of about 1:26 pm per NSE data",
+    "NII portion 11.47x; retail 2.20x",
+    "Allotment likely Oct 26; listing Oct 28"
+   ],
+   "src": {
+    "title": "Upstox: Jio Platforms IPO subscribed 8.22 times so far on Day 3",
+    "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-day-3-check-subscription-status-allotment-date-and-steps/article-202265/"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Brent heads for ~$6 weekly gain",
+   "line": "Thursday's 4% jump to $113.17 was the highest settle since May",
+   "more": [
+    "Rally followed reports of US-Israeli plans for renewed attacks on Iran",
+    "Brent traded at $114 early Friday with Houthi attacks on Saudi sites in focus"
+   ],
+   "src": {
+    "title": "OilPrice.com: Brent hits $114 as Houthi attacks threaten Saudi energy infrastructure",
+    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-114-as-Houthi-Attacks-Threaten-Saudi-Energy-Infrastructure.html"
+   }
+  },
+  {
+   "key": "newgen-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Newgen Software Q2 profit beats estimates",
+   "line": "Net profit of ₹86.9 cr tops the ₹75.6 cr consensus; stock recovers from its lows",
+   "more": [
+    "Profit up from ₹62.8 cr in Q1",
+    "EBITDA margin 25.8% vs 15.7% in the prior quarter",
+    "Earnings call scheduled for 4 pm IST"
+   ],
+   "src": {
+    "title": "Sahi: Newgen Software reports Q2 net profit of ₹86.9 cr vs ₹62.8 cr QoQ",
+    "url": "https://www.sahi.com/news/newgen-software-reports-q2-net-profit-of-86-9-crore-versus-62-8-crore-qoq"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Business Standard: Stock Market LIVE — Sensex rebounds 600 pts from day's low; Newgen Software off lows post Q2",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+  },
+  {
+   "title": "India TV News: 23 October 2026 stock market updates",
+   "url": "https://www.indiatvnews.com/business/news/23-october-2026-stock-market-updates-sensex-nifty-today-amid-weak-global-cues-brent-crude-oil-surge-gold-silver-fall-infosys-tcs-gains-2026-10-23-1057697"
+  },
+  {
+   "title": "Asianet Newsable: Nifty IT jumps 1.31% as TCS, Infosys lead tech rally",
+   "url": "https://newsable.asianetnews.com/markets/nifty-it-index-jumps-tcs-infosys-lead-tech-stock-rally-articleshow-5ayx517"
+  },
+  {
+   "title": "Upstox: Jio Platforms IPO subscribed 8.22 times so far on Day 3",
+   "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-day-3-check-subscription-status-allotment-date-and-steps/article-202265/"
+  },
+  {
+   "title": "HDFC Sky: Jio Platforms IPO 6.89x so far today",
+   "url": "https://hdfcsky.com/news/jio-platforms-ipo-subscription-status-day-3-issue-subscribed-6-89-times-so-far"
+  },
+  {
+   "title": "OilPrice.com: Brent hits $114 as Houthi attacks threaten Saudi energy infrastructure",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-114-as-Houthi-Attacks-Threaten-Saudi-Energy-Infrastructure.html"
+  },
+  {
+   "title": "CNBC: Stock futures trade mixed after tech sector sell-off",
+   "url": "https://cnbc.com/2026/10/22/stock-market-today-live-update.html"
+  },
+  {
+   "title": "Sahi: Newgen Software reports Q2 net profit of ₹86.9 cr vs ₹62.8 cr QoQ",
+   "url": "https://www.sahi.com/news/newgen-software-reports-q2-net-profit-of-86-9-crore-versus-62-8-crore-qoq"
+  },
+  {
+   "title": "Whalesbook: Godrej Properties Q2 profit slumps 62% on high costs",
+   "url": "https://www.whalesbook.com/news/English/real-estate/Godrej-Properties-Q2-Profit-Slumps-62percent-on-High-Costs/6adb161479a16deaeafb57b1"
+  }
+ ]
+}
