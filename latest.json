@@ -1,87 +1,159 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-23T11:03:22+05:30",
+ "generated_at": "2026-10-23T11:34:25+05:30",
  "date": "2026-10-23",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-23T11:00:00+05:30",
+ "asof": "2026-10-23T11:30:00+05:30",
  "nifty": {
-  "value": 22515.65,
-  "pct": -0.76,
-  "chg": -172.0,
+  "value": 22500,
+  "pct": -0.83,
+  "chg": -187.65,
   "approx": true
  },
  "mood": {
-  "label": "Broad sell-off",
-  "score": -0.6,
-  "summary": "Selling has broadened: the Nifty swung about 380 points from high to low and the broader market is hit hardest, with smallcaps down over 3% and only IT in the green.",
+  "label": "Off the lows",
+  "score": -0.5,
+  "summary": "The market is steadying off its lows but stays firmly in the red, with selling spread across sectors and only IT, now with smaller gains, still in positive territory.",
   "detail": {
-   "leaders": "IT: Nifty IT, Infosys",
-   "laggards": "Smallcaps, midcaps; Swiggy",
-   "tone": "The slide has deepened since 10:30: the Nifty touched 22,407 after a 22,787 high, the Sensex is as much as 1,279 points off its peak, and India VIX is up about 7%.",
+   "leaders": "IT: Nifty IT, TCS, Infosys",
+   "laggards": "Smallcaps; Swiggy",
+   "tone": "Slightly better than at 11:00: the Nifty fell more than 1% to around 22,448 near 11 AM but has since come back to about 22,500, with the Sensex down roughly 300 points.",
    "watch": [
-    "Brent holding above $110–114",
-    "Any US-Iran strike or Hormuz escalation",
-    "Whether smallcap selling turns into a capitulation"
+    "Brent's move above $110 and West Asia headlines",
+    "Whether the Nifty holds the 22,400 intraday low",
+    "Infosys Q2 after the close"
    ],
    "src": {
-    "title": "Upstox: Sensex drops over 1,250 pts from day's high, Nifty50 tests 22,400 as crude tops $114",
-    "url": "https://upstox.com/news/market-news/stocks/sensex-drops-over-1-250-points-from-day-s-high-nifty-50-tests-22-400-as-crude-tops-114/article-202285/"
+    "title": "Business Standard: Stock Market Crash LIVE — Sensex down 300 pts, Nifty around 22,500; Tata Steel, Hindalco weigh",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT is the lone sector in the green as the rest of the market slides",
-     "why": "Investors keep rotating into Indian IT services even as global AI stocks sell off.",
+     "summary": "IT is still the only sector holding up, though its gains have narrowed",
+     "why": "Indian IT services keep drawing buyers despite the global tech and AI sell-off.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "line": "The top-performing sector, extending this month's results-led rally"
+       "move": "+1.31%",
+       "line": "Up 421.5 points, cooler than the near-3% gain early in the session"
+      },
+      {
+       "name": "TCS",
+       "dir": "up",
+       "line": "Leads IT gains; its Q2 earnings beat market expectations this month"
       },
       {
        "name": "Infosys",
        "dir": "up",
-       "line": "Held up ahead of its Q2 results, due after market hours today"
+       "line": "Among IT leaders ahead of its Q2 results, due after market hours today"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market Crash LIVE — Sensex off 900 pts from day's high; India VIX jumps 7%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+      "title": "Asianet Newsable: Nifty IT jumps 1.31% as TCS, Infosys lead tech rally despite global sell-off",
+      "url": "https://newsable.asianetnews.com/markets/nifty-it-index-jumps-tcs-infosys-lead-tech-stock-rally-articleshow-5ayx517"
      }
     },
     "down": {
-     "summary": "Smaller companies are taking the heaviest hit, with Swiggy deep in the red",
-     "why": "Investors fear rising crude will squeeze company margins through higher inflation; smaller stocks are falling hardest.",
+     "summary": "Smaller stocks and Swiggy take the brunt of the oil-driven selling",
+     "why": "Fears that costlier crude will squeeze margins through higher inflation are hitting riskier stocks hardest.",
      "names": [
       {
        "name": "Nifty Smallcap 100",
        "dir": "down",
-       "move": "-3.45%",
-       "line": "Worst-hit gauge, extending a slide of 2.37% and 1.14% in the prior two sessions"
-      },
-      {
-       "name": "Nifty Midcap 100",
-       "dir": "down",
-       "move": "-2.54%",
-       "line": "Extends losses of 1.58% and 0.87% from the prior two sessions"
+       "line": "Was down over 3% earlier, after falling in each of the prior two sessions"
       },
       {
        "name": "Swiggy",
        "dir": "down",
-       "move": "-9.7%",
-       "line": "Near ₹191, a 52-week low, after Instamart losses dominated its Q2"
+       "line": "Near record lows as Instamart losses dominated the Q2 read"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market Crash LIVE — Sensex off 900 pts from day's high; India VIX jumps 7%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+      "title": "Upstox: Sensex drops over 1,250 pts from day's high as crude tops $114",
+      "url": "https://upstox.com/news/market-news/stocks/sensex-drops-over-1-250-points-from-day-s-high-nifty-50-tests-22-400-as-crude-tops-114/article-202285/"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "adani-energy-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Adani Energy Q2 profit up 148% on tax gain",
+   "line": "Headline profit beat estimates, but a ₹1,274 cr tax write-back did most of the work",
+   "more": [
+    "Net profit about ₹1,323 cr vs ₹534 cr a year ago",
+    "Revenue rose about 53%, while margins contracted",
+    "Stock closed down 2.2% at ₹1,295 on Oct 22"
+   ],
+   "src": {
+    "title": "BusinessToday: Adani Energy shares fall despite 148% surge in Q2 net profit",
+    "url": "https://www.businesstoday.in/markets/stocks/story/adani-energy-shares-fall-despite-148-surge-in-q2-net-profit-heres-why-563082-2026-10-22"
+   },
+   "date": "2026-10-23",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "nuvoco-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Nuvoco Vistas Q2 profit jumps 78%",
+   "line": "Cement maker's earnings rise sharply on double-digit revenue growth",
+   "more": [
+    "Consolidated profit up 77.84% to ₹64.79 cr",
+    "Revenue up 13.52% to ₹2,789.97 cr"
+   ],
+   "src": {
+    "title": "HDFC Sky: Stocks to watch Oct 23 — Swiggy, Adani Energy, Reliance, HPCL, Nuvoco",
+    "url": "https://hdfcsky.com/news/stocks-to-watch-today-friday-october-23-2026-swiggy-adani-energy-solutions-reliance-industries-hpcl-nuvoco-vistas"
+   },
+   "date": "2026-10-23",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "wall-street",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Lam Research, Meta slump after earnings",
+   "line": "Chip-equipment and big-tech results added to the AI-spending worries",
+   "more": [
+    "Lam Research fell 11.8% and Meta 7.0% after results",
+    "Meta's limited FY27 guidance raised spending and margin concerns",
+    "Asia-Pacific stocks were mostly lower after the weak US lead"
+   ],
+   "src": {
+    "title": "Newsquawk: Daily European Opening News, 23 October 2026",
+    "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---23rd-october-2026"
+   },
+   "date": "2026-10-23",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "pre"
+   }
+  },
   {
    "key": "crude",
    "tag": "Macro",
@@ -101,7 +173,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1030"
@@ -126,7 +198,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1100"
@@ -150,7 +222,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-22",
     "slot": "1200"
@@ -295,31 +367,6 @@
    "date": "2026-10-23",
    "slot": "0930",
    "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "wall-street",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Nasdaq sinks 2.6% on revived AI doubts",
-   "line": "S&P 500 fell 1.21% to 7,663; Meta dropped nearly 7% after results; Dow flat.",
-   "more": [
-    "Nasdaq closed at 26,008.86",
-    "Tesla fell 3.1% despite an earnings beat",
-    "10-year Treasury yield slipped below 5%"
-   ],
-   "src": {
-    "title": "Yahoo Finance: S&P 500, Nasdaq end sharply lower as revived AI doubts ignite tech selloff",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-drop-over-1-093849296.html"
-   },
-   "date": "2026-10-23",
-   "slot": "pre",
-   "when": "Pre-open",
    "updated": true,
    "is_new": false,
    "first_seen": {
