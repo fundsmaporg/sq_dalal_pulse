@@ -1,0 +1,169 @@
+{
+ "asof": "2026-10-23T12:30:00+05:30",
+ "summary": "The market is stuck near its lows with no sign of a rebound: the Nifty is more than 1% down, metals are leading the decline, and IT is the only pocket of buying.",
+ "mood": {
+  "label": "Pinned near lows",
+  "score": -0.6,
+  "detail": {
+   "stats": [],
+   "leaders": "IT: Nifty IT, TCS, Infosys",
+   "laggards": "Metals: Nifty Metal, Hindalco, Tata Steel; Swiggy",
+   "movers": {
+    "up": {
+     "summary": "IT remains the only sector finding buyers in a weak market",
+     "why": "Indian IT services keep attracting money despite the global tech and AI sell-off, ahead of Infosys's results.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "line": "Top sector all day, extending this month's results-led rally"
+      },
+      {
+       "name": "TCS",
+       "dir": "up",
+       "line": "Leads IT gains; its Q2 earnings beat market expectations this month"
+      },
+      {
+       "name": "Infosys",
+       "dir": "up",
+       "line": "Bought ahead of its Q2 results this evening, with guidance the key risk"
+      }
+     ],
+     "src": {
+      "title": "Asianet Newsable: Nifty IT jumps 1.31% as TCS, Infosys lead tech rally",
+      "url": "https://newsable.asianetnews.com/markets/nifty-it-index-jumps-tcs-infosys-lead-tech-stock-rally-articleshow-5ayx517"
+     }
+    },
+    "down": {
+     "summary": "Metals lead the slide, with the sector index down more than 3%",
+     "why": "Metal stocks are bearing the brunt of a sell-off driven by surging oil and West Asia supply fears.",
+     "names": [
+      {
+       "name": "Nifty Metal",
+       "move": "down over 3%",
+       "dir": "down",
+       "line": "Worst sector; NALCO and Vedanta are its biggest losers"
+      },
+      {
+       "name": "Hindalco",
+       "dir": "down",
+       "line": "Top Nifty 50 loser as aluminium names lead the metals rout"
+      },
+      {
+       "name": "Tata Steel",
+       "dir": "down",
+       "line": "Among the top Nifty 50 and Sensex losers as metals slide"
+      },
+      {
+       "name": "Swiggy",
+       "dir": "down",
+       "line": "Near record lows after Instamart losses dominated its Q2 numbers"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market Crash LIVE — Sensex down 600 pts, Nifty below 22,450; Nifty Metal falls over 3%",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+     }
+    }
+   },
+   "tone": "Little changed from 12:00: the Nifty was at 22,420 at noon, close to its 22,407 low, and the Sensex is down about 670 points with no sign of the early IT-led bounce returning.",
+   "watch": [
+    "Brent near $114–115 and West Asia headlines",
+    "A break below the 22,407 intraday low",
+    "Infosys FY27 guidance after the close"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market Crash LIVE — Sensex down 600 pts, Nifty below 22,450; Nifty Metal falls over 3%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 22420.3,
+  "pct": -1.18,
+  "chg": -267.35,
+  "approx": true
+ },
+ "top": [
+  {
+   "key": "infosys-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Infosys Q2 tonight; guidance cut feared",
+   "line": "Brokerages expect FY27 revenue guidance to be trimmed from the 1.5–3% band",
+   "more": [
+    "Bloomberg consensus: net profit ~₹7,904 cr, sales ~₹49,108 cr, margin 21.2%",
+    "Emkay sees guidance at 1.5–2.5%; Nuvama sees 1.0–2.5%",
+    "Large-deal TCV expected around $2.5–3 bn; interim dividend also on the agenda"
+   ],
+   "src": {
+    "title": "Business Standard: Infosys Q2 preview — analysts see PAT rising 10%; guidance in focus",
+    "url": "https://www.business-standard.com/markets/news/infosys-q2-results-preview-analysts-see-pat-rising-10-guidance-in-focus-126102200709_1.html"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "75 firms report Q2, from Tata Motors to BPCL",
+   "line": "A heavy results day includes JSW Steel, Dr Reddy's, Shriram Finance, Adani Power",
+   "more": [
+    "Also due: Coforge, Torrent Pharma, CG Power, Bank of India",
+    "Jindal Steel, Godrej Properties, Atul and DCB Bank on the list too"
+   ],
+   "src": {
+    "title": "Business Standard: Q2 results today — Infosys, Tata Motors, Adani Power among 75 firms",
+    "url": "https://www.business-standard.com/companies/quarterly-results/q2-results-infosys-tata-motors-adani-power-among-75-firms-on-oct-23-126102300433_1.html"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Crude worries outweigh the IT rebound",
+   "line": "Brent near $114 after Houthi attacks on Saudi Arabia keeps the losing run going",
+   "more": [
+    "Brent rose to about $114 a barrel on energy-supply concerns",
+    "Supply fears follow attacks on Saudi Arabia by Yemen's Houthis"
+   ],
+   "src": {
+    "title": "The Week: Sensex, Nifty extend losing run as crude worries overshadow IT rebound",
+    "url": "https://www.theweek.in/news/biz-tech/2026/10/23/sensex-nifty-extend-losing-streak.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Business Standard: Stock Market Crash LIVE — Sensex down 600 pts, Nifty below 22,450; Nifty Metal falls over 3%",
+   "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+  },
+  {
+   "title": "The Week: Sensex, Nifty extend losing run as crude worries overshadow IT rebound",
+   "url": "https://www.theweek.in/news/biz-tech/2026/10/23/sensex-nifty-extend-losing-streak.html"
+  },
+  {
+   "title": "Business Standard: Infosys Q2 preview — analysts see PAT rising 10%; guidance in focus",
+   "url": "https://www.business-standard.com/markets/news/infosys-q2-results-preview-analysts-see-pat-rising-10-guidance-in-focus-126102200709_1.html"
+  },
+  {
+   "title": "BusinessToday: Infosys Q2 preview — profit, deal wins, FY27 guidance",
+   "url": "https://www.businesstoday.in/markets/stocks/story/infosys-dividend-q2-results-preview-profit-sales-deal-wins-fy27-guidance-ai-led-deflation-563179-2026-10-23"
+  },
+  {
+   "title": "Upstox: Infosys Q2 — revenue and profit likely flat; focus on FY27 guidance",
+   "url": "https://upstox.com/news/market-news/earnings/infosys-q2-results-revenue-and-net-profit-likely-to-remain-flat-key-focus-on-fy-27-guidance-and-deal-wins/article-202263/"
+  },
+  {
+   "title": "Business Standard: Q2 results today — Infosys, Tata Motors, Adani Power among 75 firms",
+   "url": "https://www.business-standard.com/companies/quarterly-results/q2-results-infosys-tata-motors-adani-power-among-75-firms-on-oct-23-126102300433_1.html"
+  },
+  {
+   "title": "Upstox: Q2 results live — Infosys, Tata Motors, Coforge, JSW Steel, BPCL, Adani Power",
+   "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-infosys-tata-motors-coforge-jsw-steel-bpcl-adani-power-others-to-declare-earnings/liveblog-202280/"
+  },
+  {
+   "title": "Asianet Newsable: Nifty IT jumps 1.31% as TCS, Infosys lead tech rally",
+   "url": "https://newsable.asianetnews.com/markets/nifty-it-index-jumps-tcs-infosys-lead-tech-stock-rally-articleshow-5ayx517"
+  }
+ ]
+}

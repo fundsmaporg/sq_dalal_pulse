@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-23T12:03:30+05:30",
+ "generated_at": "2026-10-23T12:34:28+05:30",
  "date": "2026-10-23",
- "slot": "1200",
- "slot_label": "12:00",
+ "slot": "1230",
+ "slot_label": "12:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-23T12:00:00+05:30",
+ "asof": "2026-10-23T12:30:00+05:30",
  "nifty": {
-  "value": 22420,
+  "value": 22420.3,
   "pct": -1.18,
-  "chg": -267.65,
+  "chg": -267.35,
   "approx": true
  },
  "mood": {
-  "label": "Selling resumes",
+  "label": "Pinned near lows",
   "score": -0.6,
-  "summary": "The recovery off the lows has faded and selling has resumed: the Nifty is down over 1% at midday, metals are hit hardest and IT remains the only sector offering support.",
+  "summary": "The market is stuck near its lows with no sign of a rebound: the Nifty is more than 1% down, metals are leading the decline, and IT is the only pocket of buying.",
   "detail": {
    "leaders": "IT: Nifty IT, TCS, Infosys",
    "laggards": "Metals: Nifty Metal, Hindalco, Tata Steel; Swiggy",
-   "tone": "Worse than at 11:30: the bounce to about 22,500 has given way and the Nifty is back near 22,420, with the Sensex down about 600 points.",
+   "tone": "Little changed from 12:00: the Nifty was at 22,420 at noon, close to its 22,407 low, and the Sensex is down about 670 points with no sign of the early IT-led bounce returning.",
    "watch": [
-    "Brent near $115 and any West Asia escalation",
-    "Whether the Nifty breaks its 22,407 intraday low",
-    "Infosys Q2 after the close"
+    "Brent near $114–115 and West Asia headlines",
+    "A break below the 22,407 intraday low",
+    "Infosys FY27 guidance after the close"
    ],
    "src": {
     "title": "Business Standard: Stock Market Crash LIVE — Sensex down 600 pts, Nifty below 22,450; Nifty Metal falls over 3%",
@@ -31,13 +31,13 @@
    },
    "movers": {
     "up": {
-     "summary": "IT is still the market's lone support as most sectors trade lower",
-     "why": "Indian IT services continue to attract buyers despite the global tech and AI sell-off.",
+     "summary": "IT remains the only sector finding buyers in a weak market",
+     "why": "Indian IT services keep attracting money despite the global tech and AI sell-off, ahead of Infosys's results.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "line": "Top sector all session, extending this month's results-led rally"
+       "line": "Top sector all day, extending this month's results-led rally"
       },
       {
        "name": "TCS",
@@ -47,7 +47,7 @@
       {
        "name": "Infosys",
        "dir": "up",
-       "line": "Bought ahead of its Q2 results, due after market hours today"
+       "line": "Bought ahead of its Q2 results this evening, with guidance the key risk"
       }
      ],
      "src": {
@@ -56,14 +56,14 @@
      }
     },
     "down": {
-     "summary": "Metal stocks lead the slide, with the sector index down more than 3%",
-     "why": "Metals are bearing the brunt of a sell-off driven by surging oil prices and West Asia supply fears.",
+     "summary": "Metals lead the slide, with the sector index down more than 3%",
+     "why": "Metal stocks are bearing the brunt of a sell-off driven by surging oil and West Asia supply fears.",
      "names": [
       {
        "name": "Nifty Metal",
        "dir": "down",
        "move": "down over 3%",
-       "line": "Worst sector at midday; NALCO and Vedanta are its biggest losers"
+       "line": "Worst sector; NALCO and Vedanta are its biggest losers"
       },
       {
        "name": "Hindalco",
@@ -91,6 +91,79 @@
  },
  "insights": [
   {
+   "key": "infosys-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Infosys Q2 tonight; guidance cut feared",
+   "line": "Brokerages expect FY27 revenue guidance to be trimmed from the 1.5–3% band",
+   "more": [
+    "Bloomberg consensus: net profit ~₹7,904 cr, sales ~₹49,108 cr, margin 21.2%",
+    "Emkay sees guidance at 1.5–2.5%; Nuvama sees 1.0–2.5%",
+    "Large-deal TCV expected around $2.5–3 bn; interim dividend also on the agenda"
+   ],
+   "src": {
+    "title": "Business Standard: Infosys Q2 preview — analysts see PAT rising 10%; guidance in focus",
+    "url": "https://www.business-standard.com/markets/news/infosys-q2-results-preview-analysts-see-pat-rising-10-guidance-in-focus-126102200709_1.html"
+   },
+   "date": "2026-10-23",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "75 firms report Q2, from Tata Motors to BPCL",
+   "line": "A heavy results day includes JSW Steel, Dr Reddy's, Shriram Finance, Adani Power",
+   "more": [
+    "Also due: Coforge, Torrent Pharma, CG Power, Bank of India",
+    "Jindal Steel, Godrej Properties, Atul and DCB Bank on the list too"
+   ],
+   "src": {
+    "title": "Business Standard: Q2 results today — Infosys, Tata Motors, Adani Power among 75 firms",
+    "url": "https://www.business-standard.com/companies/quarterly-results/q2-results-infosys-tata-motors-adani-power-among-75-firms-on-oct-23-126102300433_1.html"
+   },
+   "date": "2026-10-23",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Crude worries outweigh the IT rebound",
+   "line": "Brent near $114 after Houthi attacks on Saudi Arabia keeps the losing run going",
+   "more": [
+    "Brent rose to about $114 a barrel on energy-supply concerns",
+    "Supply fears follow attacks on Saudi Arabia by Yemen's Houthis"
+   ],
+   "src": {
+    "title": "The Week: Sensex, Nifty extend losing run as crude worries overshadow IT rebound",
+    "url": "https://www.theweek.in/news/biz-tech/2026/10/23/sensex-nifty-extend-losing-streak.html"
+   },
+   "date": "2026-10-23",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1030"
+   }
+  },
+  {
    "key": "jio-ipo",
    "tag": "Listing",
    "impact": "watch",
@@ -109,34 +182,10 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Oil nears $115 on Saudi attack fears",
-   "line": "Houthi attacks in Saudi Arabia keep pushing crude toward fresh highs",
-   "more": [
-    "Oil has shot up to nearly $115 a barrel, per a rupee market report",
-    "Rising crude is seen squeezing margins via higher inflation"
-   ],
-   "src": {
-    "title": "NewsBytes: Indian rupee opens at ₹94.79 against US dollar amid volatility",
-    "url": "https://www.newsbytesapp.com/news/business/indian-rupee-opens-at-rs9479-against-us-dollar-amid-volatility/tldr"
-   },
-   "date": "2026-10-23",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1030"
    }
   },
   {
@@ -157,7 +206,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "0930"
@@ -308,31 +357,6 @@
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Infosys, Dr Reddy's, BPCL among today's Q2",
-   "line": "A heavy results slate after hours spans IT, pharma, oil marketers and banks",
-   "more": [
-    "Also due: Coforge, Adani Power, Bank of India, CG Power, Godrej Properties",
-    "Jindal Steel, Atul, DCB Bank and Geojit also report",
-    "Infosys is the key print for the IT rally"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex up 200 pts, Nifty tops 22,700; Swiggy drops 10%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
-   },
-   "date": "2026-10-23",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
    }
   },
   {
