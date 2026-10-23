@@ -1,44 +1,43 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-23T13:35:05+05:30",
+ "generated_at": "2026-10-23T14:04:34+05:30",
  "date": "2026-10-23",
- "slot": "1330",
- "slot_label": "13:30",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-23T13:30:00+05:30",
+ "asof": "2026-10-23T14:00:00+05:30",
  "nifty": {
-  "value": 22400,
-  "pct": -1.27,
-  "chg": -287.65,
+  "value": 22402.45,
+  "pct": -1.26,
+  "chg": -285.2,
   "approx": true
  },
  "mood": {
-  "label": "Stuck at lows",
-  "score": -0.65,
-  "summary": "The market is grinding along its lows with no rebound attempt, the Nifty hovering near 22,400 and losses spread across almost every sector except IT.",
+  "label": "Paring losses",
+  "score": -0.4,
+  "summary": "Buyers have stepped in off the lows, with IT leading a partial recovery, though the market stays in the red and metals, realty and smaller stocks remain under pressure.",
   "detail": {
-   "leaders": "IT: Nifty IT, TCS, Infosys; Steel Strips Wheels",
-   "laggards": "Metals: Nifty Metal, Hindalco; smallcaps",
-   "tone": "Little changed from 13:00: the Nifty keeps testing 22,400, close to its 22,402 reading at 1 PM, and the Sensex is still about 600–700 points lower.",
+   "leaders": "IT: Nifty IT, TCS, Infosys",
+   "laggards": "Realty: Nifty Realty, Godrej Properties; Nifty Metal",
+   "tone": "Better than at 13:30: the Sensex has rebounded about 600 points from its low as IT gains helped indices pare losses, though both indices are still lower on the day.",
    "watch": [
-    "A clean break below 22,400 into the close",
-    "Brent and any West Asia escalation",
+    "Whether the recovery extends into the close",
+    "Brent near $114 and West Asia headlines",
     "Infosys, JSW Steel and BPCL results after hours"
    ],
    "src": {
-    "title": "Business Standard: Stock Market Crash LIVE — Sensex down 600 pts, Nifty tests 22,400; Nifty Metal falls over 3%",
+    "title": "Business Standard: Stock Market LIVE — Sensex rebounds 600 pts from day's low; Godrej Properties shares fall 6%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT is still the lone sector up; Steel Strips rallies on strong Q2 numbers",
-     "why": "Indian IT services keep drawing buyers despite the global tech sell-off, while strong results lift a few individual stocks.",
+     "summary": "IT is driving the recovery from the day's lows",
+     "why": "Indian IT services keep drawing buyers despite the global tech sell-off, and their gains are now pulling the indices off the lows.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "move": "about +1%",
-       "line": "The only major sector in the green as investors stay with IT services"
+       "line": "Top sector all session; IT advances are what helped indices pare losses"
       },
       {
        "name": "TCS",
@@ -49,43 +48,37 @@
        "name": "Infosys",
        "dir": "up",
        "line": "Held up ahead of its Q2 results, due after market hours today"
-      },
-      {
-       "name": "Steel Strips Wheels",
-       "dir": "up",
-       "move": "up as much as 15%",
-       "line": "Q2 profit up 209% to ₹119 cr; hit a 52-week high of ₹449"
       }
      ],
      "src": {
-      "title": "The Week: Sensex, Nifty extend losing run as crude worries overshadow IT rebound",
-      "url": "https://www.theweek.in/news/biz-tech/2026/10/23/sensex-nifty-extend-losing-streak.html"
+      "title": "Business Standard: Stock Market LIVE — Sensex rebounds 600 pts from day's low; Godrej Properties shares fall 6%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
      }
     },
     "down": {
-     "summary": "Metals and smallcaps lead the losses as oil-driven selling persists",
-     "why": "Brent near $114 is feeding inflation and margin worries, and cyclical and smaller stocks are hit hardest.",
+     "summary": "Realty and metals stay the weakest sectors; Godrej Properties slides on Q2",
+     "why": "Oil-driven inflation worries keep weighing on these sectors, and weak results add to the pressure.",
      "names": [
+      {
+       "name": "Nifty Realty",
+       "dir": "down",
+       "line": "Among the two weakest sectors; Godrej Properties slides after a 62% profit drop"
+      },
+      {
+       "name": "Godrej Properties",
+       "dir": "down",
+       "move": "-6.2%",
+       "line": "Q2 profit fell 62% to ₹154 cr as costs rose faster than revenue"
+      },
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "move": "down over 3%",
-       "line": "Worst sector; NALCO and Vedanta are its biggest losers"
-      },
-      {
-       "name": "Hindalco",
-       "dir": "down",
-       "line": "Top Nifty 50 loser as aluminium names lead the metals rout"
-      },
-      {
-       "name": "Nifty Smallcap 100",
-       "dir": "down",
-       "move": "-3.45%",
-       "line": "Falls far more than the Nifty, extending two straight days of losses"
+       "move": "down over 3% earlier",
+       "line": "Worst sector for most of the day; NALCO and Vedanta lead losses"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market Crash LIVE — Sensex down 600 pts, Nifty tests 22,400; Nifty Metal falls over 3%",
+      "title": "Business Standard: Stock Market LIVE — Sensex rebounds 600 pts from day's low; Godrej Properties shares fall 6%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
      }
     }
@@ -93,6 +86,79 @@
   }
  },
  "insights": [
+  {
+   "key": "godrej-properties-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Godrej Properties falls 6% as Q2 profit sinks",
+   "line": "Profit dropped 62% to ₹154 cr; costs grew faster than a 161% revenue jump",
+   "more": [
+    "Stock fell as much as 6.2% to ₹1,468.40 intraday",
+    "Operating expenses up 90.4% to ₹2,477 cr; raw material costs up 32.3%",
+    "Management says demand in Mumbai, Pune, Bengaluru and NCR remains solid"
+   ],
+   "src": {
+    "title": "Whalesbook: Godrej Properties Q2 profit slumps 62% on high costs",
+    "url": "https://www.whalesbook.com/news/English/real-estate/Godrej-Properties-Q2-Profit-Slumps-62percent-on-High-Costs/6adb161479a16deaeafb57b1"
+   },
+   "date": "2026-10-23",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "bank-of-india-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Bank of India reports Q2 today",
+   "line": "State lender's results follow a strong Q1 with profit up 36%",
+   "more": [
+    "Q1 FY27 standalone profit was ₹3,068 cr, up 36.23% YoY",
+    "Year-ago Q2 profit was about ₹2,555 cr"
+   ],
+   "src": {
+    "title": "Angel One: Bank of India Q1 FY27 — net profit rises 36% to ₹3,068 cr",
+    "url": "https://www.angelone.in/news/stocks/bank-of-india-q1-fy27-results-net-profit-rises-36-percent-to-rs-3068-crore-asset-quality-improves"
+   },
+   "date": "2026-10-23",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "IndusInd, UTI AMC join a heavy results slate",
+   "line": "Banks, IT, oil marketers and steelmakers all report today",
+   "more": [
+    "IndusInd Bank and UTI AMC are among today's reporters",
+    "Adani Power, Coforge, Dr Reddy's and Tata Motors also due"
+   ],
+   "src": {
+    "title": "Business Upturn: Top Q2 results today, October 23",
+    "url": "https://businessupturn.com/finance/stock-market/quarterly-results/top-q2-results-today-october-23-infosys-coforge-tata-motors-adani-powe-bank-of-india-bpcl-among-companies-to-announce-earnings/"
+   },
+   "date": "2026-10-23",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "pre"
+   }
+  },
   {
    "key": "jsw-steel-q2",
    "tag": "Results",
@@ -112,7 +178,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1330"
@@ -137,7 +203,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1330"
@@ -161,7 +227,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1330"
@@ -263,30 +329,6 @@
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "75 firms report Q2, from Tata Motors to BPCL",
-   "line": "A heavy results day includes JSW Steel, Dr Reddy's, Shriram Finance, Adani Power",
-   "more": [
-    "Also due: Coforge, Torrent Pharma, CG Power, Bank of India",
-    "Jindal Steel, Godrej Properties, Atul and DCB Bank on the list too"
-   ],
-   "src": {
-    "title": "Business Standard: Q2 results today — Infosys, Tata Motors, Adani Power among 75 firms",
-    "url": "https://www.business-standard.com/companies/quarterly-results/q2-results-infosys-tata-motors-adani-power-among-75-firms-on-oct-23-126102300433_1.html"
-   },
-   "date": "2026-10-23",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
    }
   },
   {
