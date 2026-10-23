@@ -1,33 +1,85 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-23T09:33:48+05:30",
+ "generated_at": "2026-10-23T10:03:28+05:30",
  "date": "2026-10-23",
- "slot": "0930",
- "slot_label": "9:30",
+ "slot": "1000",
+ "slot_label": "10:00",
  "stage": "Opening mood",
- "asof": "2026-10-23T09:35:00+05:30",
+ "asof": "2026-10-23T10:00:00+05:30",
  "nifty": {
-  "value": 22763.35,
-  "pct": 0.33,
-  "chg": 75.7,
+  "value": 22733.15,
+  "pct": 0.2,
+  "chg": 45.5,
   "approx": true
  },
  "mood": {
-  "label": "Tentative bounce",
-  "score": 0.15,
-  "summary": "Indices open higher after a three-day slide, with IT stocks doing the lifting; the gains are modest and early, and whether buyers hold them into the weekend is the open question.",
+  "label": "Narrow IT-led gains",
+  "score": 0.1,
+  "summary": "Gains are narrow: IT carries the headline indices while metals and realty slip and smallcaps open in the red, leaving the Nifty only about 0.2% up after a firmer open.",
   "detail": {
-   "leaders": "IT majors TCS, Infosys, HCL Tech; Reliance, L&T",
-   "laggards": "Swiggy, down about 5% after Q2",
-   "tone": "A turn from the cautious pre-open call: the Nifty opened about 0.3% higher rather than flat, despite the Nasdaq rout overnight.",
+   "leaders": "IT: Nifty IT, TCS, Infosys, HCL Tech",
+   "laggards": "Swiggy, down sharply after Q2",
+   "tone": "The open's momentum has faded a little: Nifty gains are down to about 0.2%, metals and realty are the weakest sectors and the Nifty 500 is slightly lower.",
    "watch": [
-    "Whether the bounce survives after three straight losing sessions",
-    "Jio IPO final-day demand",
-    "Infosys Q2 results after market hours"
+    "Whether IT strength holds into the Infosys print after the close",
+    "Breadth: smallcaps opened in the red",
+    "Oil prices and the global AI-stock selloff"
    ],
    "src": {
-    "title": "Business Remedies: Sensex, Nifty open higher on Oct 23; IT up, Swiggy down 5%",
-    "url": "https://www.businessremedies.com/sensex-today-stock-market-live-october-23/"
+    "title": "Trendlyne: Market opens higher",
+    "url": "https://trendlyne.com/posts/5906949/market-opens-higher-petronet-lng-signs-rs-1200-crore-biogas-jv-deal"
+   },
+   "movers": {
+    "up": {
+     "summary": "IT majors lead, with Nifty IT up nearly 3% in early trade",
+     "why": "Indian IT services are again rising while global AI and tech stocks sell off, as investors rotate into the sector.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "move": "+2.72%",
+       "line": "Top sector early, extending a rally that began with strong Q2 prints this month"
+      },
+      {
+       "name": "TCS",
+       "dir": "up",
+       "move": "+3.73%",
+       "line": "Leads IT gains; its Q2 earnings beat market expectations earlier in October"
+      },
+      {
+       "name": "Infosys",
+       "dir": "up",
+       "move": "+3.10%",
+       "line": "Bought ahead of its Q2 results, due after market hours today"
+      },
+      {
+       "name": "HCL Tech",
+       "dir": "up",
+       "move": "+2.44%",
+       "line": "Q2 beat estimates, with EBIT margin up to 18.2% from 17.4%"
+      }
+     ],
+     "src": {
+      "title": "Daily Prabhat: Sensex jumps 373 pts at open as IT stocks rally despite global tech sell-off",
+      "url": "https://www.dailyprabhat.com/sensex-jumps-373-points-nifty-rises-0-19-pc-at-open-as-it-stocks-rally-despite-global-tech-sell-off/"
+     }
+    },
+    "down": {
+     "summary": "Swiggy is the standout loser after its September-quarter numbers",
+     "why": "Instamart quick-commerce losses overshadow a narrower overall loss.",
+     "names": [
+      {
+       "name": "Swiggy",
+       "dir": "down",
+       "move": "down 5–10%",
+       "line": "Instamart losses weigh even as the group loss narrowed to ₹922 cr"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market LIVE — Sensex up 200 pts, Nifty tops 22,700; Swiggy drops 10%",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+     }
+    }
    }
   }
  },
@@ -36,25 +88,122 @@
    "key": "swiggy-q2",
    "tag": "Results",
    "impact": "neg",
-   "title": "Swiggy slides ~5% after Q2 numbers",
-   "line": "Brokerages flag quick-commerce challenges as Instamart losses weigh on the stock",
+   "title": "Swiggy's slide deepens toward 10%",
+   "line": "Selling extends from about 5% at the open as Instamart losses dominate the read",
    "more": [
-    "Q2 net loss narrowed to ₹922 cr from ₹1,092 cr; revenue up 36.1% to ₹7,571 cr",
-    "Food delivery profitability improved while Instamart kept adding stores",
-    "BusinessToday puts the Instamart loss at ₹895 cr; other reports differ"
+    "Business Standard's live blog headline has the stock down 10%",
+    "Group Q2 loss narrowed to ₹922 cr; revenue up 36.1% to ₹7,571 cr",
+    "Reports differ on the Instamart loss: ₹764 cr vs ₹895 cr"
    ],
    "src": {
-    "title": "Inc42: Swiggy falls 5% as brokerages flag quick commerce challenges",
-    "url": "https://inc42.com/buzz/swiggy-fall-5-as-brokerages-flag-quick-commerce-challenges/"
+    "title": "Business Standard: Stock Market LIVE — Sensex up 200 pts, Nifty tops 22,700; Swiggy drops 10%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
    },
    "date": "2026-10-23",
-   "slot": "0930",
-   "when": "9:30",
+   "slot": "1000",
+   "when": "10:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-22",
     "slot": "1200"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Infosys, Dr Reddy's, BPCL among today's Q2",
+   "line": "A heavy results slate after hours spans IT, pharma, oil marketers and banks",
+   "more": [
+    "Also due: Coforge, Adani Power, Bank of India, CG Power, Godrej Properties",
+    "Jindal Steel, Atul, DCB Bank and Geojit also report",
+    "Infosys is the key print for the IT rally"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex up 200 pts, Nifty tops 22,700; Swiggy drops 10%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+   },
+   "date": "2026-10-23",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "hpcl-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "HPCL slips despite Q2 profit turnaround",
+   "line": "Stock fell about 1.9% though high refining margins drove a strong quarter",
+   "more": [
+    "Profit turned around on high refining margins",
+    "BPCL reports later today, a read-across for oil marketers"
+   ],
+   "src": {
+    "title": "ScanX: Stocks to watch today, October 23, 2026",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-23-2026-swiggy-cyient-fairchem-organics/54264697"
+   },
+   "date": "2026-10-23",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "creditaccess-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "CreditAccess Grameen down ~4.7%",
+   "line": "Investors weigh a large profit jump against updated FY27 guidance",
+   "more": [
+    "Profit rose sharply year on year in Q2",
+    "Revised FY27 guidance is the focus for the stock"
+   ],
+   "src": {
+    "title": "ScanX: Stocks to watch today, October 23, 2026",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-23-2026-swiggy-cyient-fairchem-organics/54264697"
+   },
+   "date": "2026-10-23",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "colgate-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Colgate Q2 profit misses estimates",
+   "line": "Profit grew 4.3% but margins contracted, missing consensus",
+   "more": [
+    "Net profit up 4.3% year on year",
+    "Margin contraction drove the miss versus estimates"
+   ],
+   "src": {
+    "title": "ScanX: Stocks to watch today, October 23, 2026",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-23-2026-swiggy-cyient-fairchem-organics/54264697"
+   },
+   "date": "2026-10-23",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "1000"
    }
   },
   {
@@ -76,32 +225,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Infosys reports Q2 after hours today",
-   "line": "IT stocks rallied into the print; a guidance cut is the risk previews flagged",
-   "more": [
-    "Nifty IT rose 2.88% on Wednesday ahead of Infosys results",
-    "Early-October previews said Kotak expects an Infosys guidance cut",
-    "Coforge is also among today's Q2 reporters"
-   ],
-   "src": {
-    "title": "Mugglehead: Nifty IT gains 2.88% ahead of Infosys results",
-    "url": "https://mugglehead.com/nifty-it-sensex-infosys-wipro-sector-divergence/"
-   },
-   "date": "2026-10-23",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "pre"
@@ -126,7 +250,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1030"
