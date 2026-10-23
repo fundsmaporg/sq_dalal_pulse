@@ -1,69 +1,81 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-23T10:34:05+05:30",
+ "generated_at": "2026-10-23T11:03:22+05:30",
  "date": "2026-10-23",
- "slot": "1030",
- "slot_label": "10:30",
+ "slot": "1100",
+ "slot_label": "11:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-23T10:30:00+05:30",
+ "asof": "2026-10-23T11:00:00+05:30",
  "nifty": {
-  "value": 22500,
-  "pct": -0.83,
-  "chg": -187.65,
+  "value": 22515.65,
+  "pct": -0.76,
+  "chg": -172.0,
   "approx": true
  },
  "mood": {
-  "label": "Gains unravel",
-  "score": -0.45,
-  "summary": "The early bounce has reversed: the Sensex is about 900 points off its high, the Nifty has slipped below 22,500 and volatility is rising, with only IT holding up.",
+  "label": "Broad sell-off",
+  "score": -0.6,
+  "summary": "Selling has broadened: the Nifty swung about 380 points from high to low and the broader market is hit hardest, with smallcaps down over 3% and only IT in the green.",
   "detail": {
    "leaders": "IT: Nifty IT, Infosys",
-   "laggards": "Swiggy, at a record low",
-   "tone": "A sharp turn from the 10:00 note's narrow gains: the Nifty has swung from up about 0.2% to below 22,500, metals and realty are the weakest sectors, and India VIX is up as much as 7%.",
+   "laggards": "Smallcaps, midcaps; Swiggy",
+   "tone": "The slide has deepened since 10:30: the Nifty touched 22,407 after a 22,787 high, the Sensex is as much as 1,279 points off its peak, and India VIX is up about 7%.",
    "watch": [
-    "Brent above $110 and any new West Asia escalation",
-    "Whether the Nifty holds near 22,500 into the afternoon",
-    "Infosys Q2 after the close"
+    "Brent holding above $110–114",
+    "Any US-Iran strike or Hormuz escalation",
+    "Whether smallcap selling turns into a capitulation"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex off 900 pts from day's high, Nifty below 22,500; India VIX jumps 7%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+    "title": "Upstox: Sensex drops over 1,250 pts from day's high, Nifty50 tests 22,400 as crude tops $114",
+    "url": "https://upstox.com/news/market-news/stocks/sensex-drops-over-1-250-points-from-day-s-high-nifty-50-tests-22-400-as-crude-tops-114/article-202285/"
    },
    "movers": {
     "up": {
-     "summary": "IT is the only sector still holding up as the rest of the market turns lower",
-     "why": "Indian IT services keep attracting buyers even as global AI stocks sell off.",
+     "summary": "IT is the lone sector in the green as the rest of the market slides",
+     "why": "Investors keep rotating into Indian IT services even as global AI stocks sell off.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "line": "Strongest sector at 10 AM, extending this month's results-led rally"
+       "line": "The top-performing sector, extending this month's results-led rally"
       },
       {
        "name": "Infosys",
        "dir": "up",
-       "line": "Held ahead of its Q2 results, due after market hours today"
+       "line": "Held up ahead of its Q2 results, due after market hours today"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex off 900 pts from day's high, Nifty below 22,500; India VIX jumps 7%",
+      "title": "Business Standard: Stock Market Crash LIVE — Sensex off 900 pts from day's high; India VIX jumps 7%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
      }
     },
     "down": {
-     "summary": "Swiggy is the day's standout loser, sinking to a record low after Q2",
-     "why": "Mounting Instamart losses and stiff quick-commerce competition overshadow a narrower group loss.",
+     "summary": "Smaller companies are taking the heaviest hit, with Swiggy deep in the red",
+     "why": "Investors fear rising crude will squeeze company margins through higher inflation; smaller stocks are falling hardest.",
      "names": [
+      {
+       "name": "Nifty Smallcap 100",
+       "dir": "down",
+       "move": "-3.45%",
+       "line": "Worst-hit gauge, extending a slide of 2.37% and 1.14% in the prior two sessions"
+      },
+      {
+       "name": "Nifty Midcap 100",
+       "dir": "down",
+       "move": "-2.54%",
+       "line": "Extends losses of 1.58% and 0.87% from the prior two sessions"
+      },
       {
        "name": "Swiggy",
        "dir": "down",
-       "move": "down ~12%",
-       "line": "Hit a record low of ₹184.90 as Instamart's Q2 loss widened to ₹895 cr"
+       "move": "-9.7%",
+       "line": "Near ₹191, a 52-week low, after Instamart losses dominated its Q2"
       }
      ],
      "src": {
-      "title": "NewsBytes: Swiggy stock plunges 12% to record low ₹184.90 on Friday",
-      "url": "https://www.newsbytesapp.com/news/business/swiggy-stock-plunges-12-to-record-low-rs18490-on-friday/tldr"
+      "title": "Business Standard: Stock Market Crash LIVE — Sensex off 900 pts from day's high; India VIX jumps 7%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
      }
     }
    }
@@ -74,25 +86,74 @@
    "key": "crude",
    "tag": "Macro",
    "impact": "neg",
-   "title": "Oil spike on West Asia fears hits stocks",
-   "line": "Supply-disruption fears push Brent above $111, driving today's reversal",
+   "title": "Crude tops $114, stoking margin fears",
+   "line": "Investors worry higher oil will squeeze Indian company margins via inflation",
    "more": [
-    "Brent rose 2.59% to $111.64 on Oct 22 after renewed Houthi attacks in Saudi Arabia",
-    "December Brent traded near $112 on ICE",
-    "US crude stocks fell 3.06 mn barrels, well above the expected draw"
+    "Upstox reports crude above $114 a barrel today",
+    "Brent hit its highest since May above $112 on Oct 22 after Houthi attacks on Saudi sites",
+    "Fortune had Brent at $113.21 by 8 a.m. ET on Oct 22"
    ],
    "src": {
-    "title": "Grafa: Oil prices jump $2 as Brent hits $111.64",
-    "url": "https://grafa.com/en/news/united-states/oil-prices-jump-brent-111-houthi-attacks-saudi-arabia"
+    "title": "Upstox: Sensex drops over 1,250 pts from day's high, Nifty50 tests 22,400 as crude tops $114",
+    "url": "https://upstox.com/news/market-news/stocks/sensex-drops-over-1-250-points-from-day-s-high-nifty-50-tests-22-400-as-crude-tops-114/article-202285/"
    },
    "date": "2026-10-23",
-   "slot": "1030",
-   "when": "10:30",
+   "slot": "1100",
+   "when": "11:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1030"
+   }
+  },
+  {
+   "key": "us-iran",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Reports of fresh US-Israeli strike plans",
+   "line": "Strike plans and Iran's Hormuz threats keep the oil supply risk elevated",
+   "more": [
+    "Reports say US and Israeli militaries drew up plans for new strikes on Iran",
+    "Iran has threatened to restrict Strait of Hormuz traffic",
+    "Trump denies talks with Iran; Tehran says indirect talks continue"
+   ],
+   "src": {
+    "title": "Investing.com: Brent crude oil futures",
+    "url": "https://www.investing.com/commodities/brent-oil"
+   },
+   "date": "2026-10-23",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "swiggy-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Swiggy near a 52-week low around ₹190",
+   "line": "Intraday drop reached as much as 15% as the Q2 Instamart loss weighed",
+   "more": [
+    "NSE price near ₹191 at last check, down about 9.7%",
+    "Q2 consolidated net loss ₹922 cr; Instamart loss ₹895 cr"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market Crash LIVE — Sensex off 900 pts from day's high; India VIX jumps 7%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+   },
+   "date": "2026-10-23",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-22",
+    "slot": "1200"
    }
   },
   {
@@ -113,35 +174,10 @@
    "slot": "1030",
    "when": "10:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "swiggy-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Swiggy hits a record low, down ~12%",
-   "line": "Selling deepens as quick-commerce losses and competition dominate the Q2 read",
-   "more": [
-    "Stock touched ₹184.90, about 52% down this year",
-    "Instamart loss ₹895 cr vs ₹849 cr a year ago as dark stores expand",
-    "The stock was already down 26% over a month as of Oct 22"
-   ],
-   "src": {
-    "title": "NewsBytes: Swiggy stock plunges 12% to record low ₹184.90 on Friday",
-    "url": "https://www.newsbytesapp.com/news/business/swiggy-stock-plunges-12-to-record-low-rs18490-on-friday/tldr"
-   },
-   "date": "2026-10-23",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1200"
    }
   },
   {

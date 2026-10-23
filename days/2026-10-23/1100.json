@@ -1,0 +1,170 @@
+{
+ "asof": "2026-10-23T11:00:00+05:30",
+ "summary": "Selling has broadened: the Nifty swung about 380 points from high to low and the broader market is hit hardest, with smallcaps down over 3% and only IT in the green.",
+ "mood": {
+  "label": "Broad sell-off",
+  "score": -0.6,
+  "detail": {
+   "stats": [],
+   "leaders": "IT: Nifty IT, Infosys",
+   "laggards": "Smallcaps, midcaps; Swiggy",
+   "movers": {
+    "up": {
+     "summary": "IT is the lone sector in the green as the rest of the market slides",
+     "why": "Investors keep rotating into Indian IT services even as global AI stocks sell off.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "line": "The top-performing sector, extending this month's results-led rally"
+      },
+      {
+       "name": "Infosys",
+       "dir": "up",
+       "line": "Held up ahead of its Q2 results, due after market hours today"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market Crash LIVE — Sensex off 900 pts from day's high; India VIX jumps 7%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+     }
+    },
+    "down": {
+     "summary": "Smaller companies are taking the heaviest hit, with Swiggy deep in the red",
+     "why": "Investors fear rising crude will squeeze company margins through higher inflation; smaller stocks are falling hardest.",
+     "names": [
+      {
+       "name": "Nifty Smallcap 100",
+       "move": "-3.45%",
+       "dir": "down",
+       "line": "Worst-hit gauge, extending a slide of 2.37% and 1.14% in the prior two sessions"
+      },
+      {
+       "name": "Nifty Midcap 100",
+       "move": "-2.54%",
+       "dir": "down",
+       "line": "Extends losses of 1.58% and 0.87% from the prior two sessions"
+      },
+      {
+       "name": "Swiggy",
+       "move": "-9.7%",
+       "dir": "down",
+       "line": "Near ₹191, a 52-week low, after Instamart losses dominated its Q2"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market Crash LIVE — Sensex off 900 pts from day's high; India VIX jumps 7%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+     }
+    }
+   },
+   "tone": "The slide has deepened since 10:30: the Nifty touched 22,407 after a 22,787 high, the Sensex is as much as 1,279 points off its peak, and India VIX is up about 7%.",
+   "watch": [
+    "Brent holding above $110–114",
+    "Any US-Iran strike or Hormuz escalation",
+    "Whether smallcap selling turns into a capitulation"
+   ],
+   "src": {
+    "title": "Upstox: Sensex drops over 1,250 pts from day's high, Nifty50 tests 22,400 as crude tops $114",
+    "url": "https://upstox.com/news/market-news/stocks/sensex-drops-over-1-250-points-from-day-s-high-nifty-50-tests-22-400-as-crude-tops-114/article-202285/"
+   }
+  }
+ },
+ "nifty": {
+  "value": 22515.65,
+  "pct": -0.76,
+  "chg": -172.0,
+  "approx": true
+ },
+ "top": [
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Crude tops $114, stoking margin fears",
+   "line": "Investors worry higher oil will squeeze Indian company margins via inflation",
+   "more": [
+    "Upstox reports crude above $114 a barrel today",
+    "Brent hit its highest since May above $112 on Oct 22 after Houthi attacks on Saudi sites",
+    "Fortune had Brent at $113.21 by 8 a.m. ET on Oct 22"
+   ],
+   "src": {
+    "title": "Upstox: Sensex drops over 1,250 pts from day's high, Nifty50 tests 22,400 as crude tops $114",
+    "url": "https://upstox.com/news/market-news/stocks/sensex-drops-over-1-250-points-from-day-s-high-nifty-50-tests-22-400-as-crude-tops-114/article-202285/"
+   }
+  },
+  {
+   "key": "us-iran",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Reports of fresh US-Israeli strike plans",
+   "line": "Strike plans and Iran's Hormuz threats keep the oil supply risk elevated",
+   "more": [
+    "Reports say US and Israeli militaries drew up plans for new strikes on Iran",
+    "Iran has threatened to restrict Strait of Hormuz traffic",
+    "Trump denies talks with Iran; Tehran says indirect talks continue"
+   ],
+   "src": {
+    "title": "Investing.com: Brent crude oil futures",
+    "url": "https://www.investing.com/commodities/brent-oil"
+   }
+  },
+  {
+   "key": "swiggy-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Swiggy near a 52-week low around ₹190",
+   "line": "Intraday drop reached as much as 15% as the Q2 Instamart loss weighed",
+   "more": [
+    "NSE price near ₹191 at last check, down about 9.7%",
+    "Q2 consolidated net loss ₹922 cr; Instamart loss ₹895 cr"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market Crash LIVE — Sensex off 900 pts from day's high; India VIX jumps 7%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Upstox: Sensex drops over 1,250 pts from day's high, Nifty50 tests 22,400 as crude tops $114",
+   "url": "https://upstox.com/news/market-news/stocks/sensex-drops-over-1-250-points-from-day-s-high-nifty-50-tests-22-400-as-crude-tops-114/article-202285/"
+  },
+  {
+   "title": "Business Standard: Stock Market Crash LIVE — Sensex off 900 pts from day's high; India VIX jumps 7%",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+  },
+  {
+   "title": "Sensex drops over 400 pts, Nifty below 22,500 as small, midcap indices plunge up to 3%",
+   "url": "https://fvbb.com/ns/sensex-drops-over-400-points-nifty-below-22/326246"
+  },
+  {
+   "title": "Kitco: Hormuz attacks send crude higher",
+   "url": "https://kitco.com/news/article/2026-10-22/gold-silver-pressured-despite-lower-yields-hormuz-attacks-send-crude-higher"
+  },
+  {
+   "title": "Investing.com: Brent crude oil futures",
+   "url": "https://www.investing.com/commodities/brent-oil"
+  },
+  {
+   "title": "Outlook India: Trump denies US-Iran talks as Brent tops $111",
+   "url": "https://www.outlookindia.com/international/no-talks-but-an-end-very-soon-trumps-iran-war-claims-face-tehrans-account"
+  },
+  {
+   "title": "OilPrice.com: Oil jumps as Iran steps up attacks on Hormuz tankers",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Iran-Steps-Up-Attacks-on-Hormuz-Tankers.html"
+  },
+  {
+   "title": "Fortune: Current price of oil as of Oct. 22, 2026",
+   "url": "https://fortune.com/article/price-of-oil-10-22-2026"
+  },
+  {
+   "title": "Kotak Neo: Nifty 500 top losers",
+   "url": "https://www.kotakneo.com/share-market-today/top-losers/nifty-500/"
+  },
+  {
+   "title": "ETV Bharat: Sensex, Nifty rebound after 3-day fall; IT stocks shine",
+   "url": "https://www.etvbharat.com/en/business/stock-market-on-october-23-sensex-nifty-it-stocks-enn26102301418"
+  }
+ ]
+}
