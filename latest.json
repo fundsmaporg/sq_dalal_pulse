@@ -1,44 +1,44 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-23T13:04:12+05:30",
+ "generated_at": "2026-10-23T13:35:05+05:30",
  "date": "2026-10-23",
- "slot": "1300",
- "slot_label": "13:00",
+ "slot": "1330",
+ "slot_label": "13:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-23T13:00:00+05:30",
+ "asof": "2026-10-23T13:30:00+05:30",
  "nifty": {
-  "value": 22402.45,
-  "pct": -1.26,
-  "chg": -285.2,
-  "approx": false
+  "value": 22400,
+  "pct": -1.27,
+  "chg": -287.65,
+  "approx": true
  },
  "mood": {
-  "label": "Fresh day lows",
+  "label": "Stuck at lows",
   "score": -0.65,
-  "summary": "Selling has pushed the market to fresh day's lows, with 15 of 16 major sectors in the red, smaller stocks hit hardest and only IT holding up.",
+  "summary": "The market is grinding along its lows with no rebound attempt, the Nifty hovering near 22,400 and losses spread across almost every sector except IT.",
   "detail": {
    "leaders": "IT: Nifty IT, TCS, Infosys; Steel Strips Wheels",
    "laggards": "Metals: Nifty Metal, Hindalco; smallcaps",
-   "tone": "Weaker than at 12:30: the Nifty has broken below its morning low to 22,402 at 1 PM and the Sensex is down 738 points, at its day's low.",
+   "tone": "Little changed from 13:00: the Nifty keeps testing 22,400, close to its 22,402 reading at 1 PM, and the Sensex is still about 600–700 points lower.",
    "watch": [
-    "Brent near $114 and any fresh West Asia escalation",
-    "Whether buyers defend 22,400 into the close",
-    "Infosys Q2 and FY27 guidance after hours"
+    "A clean break below 22,400 into the close",
+    "Brent and any West Asia escalation",
+    "Infosys, JSW Steel and BPCL results after hours"
    ],
    "src": {
-    "title": "Business Standard: Stock Market Crash LIVE — Sensex at day's low, down 700 pts; Steel Strips shares jump 15%",
+    "title": "Business Standard: Stock Market Crash LIVE — Sensex down 600 pts, Nifty tests 22,400; Nifty Metal falls over 3%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT is the only sector holding up; a few result stocks such as Steel Strips also rally",
-     "why": "Indian IT services keep drawing buyers despite the global tech sell-off, and strong Q2 numbers lift isolated stocks.",
+     "summary": "IT is still the lone sector up; Steel Strips rallies on strong Q2 numbers",
+     "why": "Indian IT services keep drawing buyers despite the global tech sell-off, while strong results lift a few individual stocks.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
        "move": "about +1%",
-       "line": "The lone major sector in the green as investors stay with IT services"
+       "line": "The only major sector in the green as investors stay with IT services"
       },
       {
        "name": "TCS",
@@ -63,8 +63,8 @@
      }
     },
     "down": {
-     "summary": "Metals and smallcaps lead the losses as oil-driven selling deepens",
-     "why": "Brent near $114 is fanning inflation and margin worries, and riskier, cyclical stocks are taking the worst of it.",
+     "summary": "Metals and smallcaps lead the losses as oil-driven selling persists",
+     "why": "Brent near $114 is feeding inflation and margin worries, and cyclical and smaller stocks are hit hardest.",
      "names": [
       {
        "name": "Nifty Metal",
@@ -85,7 +85,7 @@
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market Crash LIVE — Sensex at day's low, down 700 pts; Steel Strips shares jump 15%",
+      "title": "Business Standard: Stock Market Crash LIVE — Sensex down 600 pts, Nifty tests 22,400; Nifty Metal falls over 3%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
      }
     }
@@ -93,6 +93,80 @@
   }
  },
  "insights": [
+  {
+   "key": "jsw-steel-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "JSW Steel Q2 seen with profit up 60–110%",
+   "line": "Analysts expect a sharp jump in adjusted profit when the steelmaker reports today",
+   "more": [
+    "Kotak sees adjusted profit near ₹4,965.5 cr, up 110.7% YoY",
+    "Adjusted profit seen up about 7% QoQ",
+    "Result is a test for metals, today's worst sector"
+   ],
+   "src": {
+    "title": "Business Standard: JSW Steel Q2 preview — adj. PAT could grow 60–110% YoY",
+    "url": "https://business-standard.com/markets/news/jsw-steel-q2-results-preview-adj-pat-could-grow-60-110-yoy-say-analysts-126102200722_1.html"
+   },
+   "date": "2026-10-23",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "omc-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "OMCs seen swinging back to Q2 profit",
+   "line": "IOCL, BPCL, HPCL may post ₹14,470 cr combined after an ₹18,150 cr Q1 loss",
+   "more": [
+    "Petrol margin estimated at ~₹2.9/litre and diesel ~₹1.3/litre in Q2",
+    "Nuvama cut BPCL's FY27 EBITDA estimate by 23% as crude rises again",
+    "BPCL reports today; HPCL seen as more exposed to oil than BPCL"
+   ],
+   "src": {
+    "title": "PSU Connect: IOCL, BPCL, HPCL Q2 recovery — ₹14,470 cr combined profit likely",
+    "url": "https://www.psuconnect.in/market/iocl-bpcl-hpcl-q2-recovery-2026-14-470-cr-combined-profit-likely"
+   },
+   "date": "2026-10-23",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "torrent-pharma-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Torrent Pharma Q2 seen beating estimates",
+   "line": "Nomura expects a beat but stays Neutral; shares are down 8% in a month",
+   "more": [
+    "Revenue, operating profit and net profit seen ahead of consensus",
+    "Recent fall partly tied to valuation and drug price-control worries"
+   ],
+   "src": {
+    "title": "Whalesbook: Torrent Pharma Q2 seen beating estimates; Nomura keeps Neutral",
+    "url": "https://www.whalesbook.com/news/English/brokerage-reports/Torrent-Pharma-Q2-Earnings-Seen-Beating-Estimates-Nomura-Keeps-Neutral/6ad9d13b79a16deaeafa00a7"
+   },
+   "date": "2026-10-23",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "1330"
+   }
+  },
   {
    "key": "steel-strips-q2",
    "tag": "Results",
@@ -112,7 +186,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1300"
@@ -136,7 +210,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "1030"
@@ -160,7 +234,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1300"
