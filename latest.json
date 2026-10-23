@@ -1,83 +1,69 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-23T10:03:28+05:30",
+ "generated_at": "2026-10-23T10:34:05+05:30",
  "date": "2026-10-23",
- "slot": "1000",
- "slot_label": "10:00",
- "stage": "Opening mood",
- "asof": "2026-10-23T10:00:00+05:30",
+ "slot": "1030",
+ "slot_label": "10:30",
+ "stage": "Mid-market mood",
+ "asof": "2026-10-23T10:30:00+05:30",
  "nifty": {
-  "value": 22733.15,
-  "pct": 0.2,
-  "chg": 45.5,
+  "value": 22500,
+  "pct": -0.83,
+  "chg": -187.65,
   "approx": true
  },
  "mood": {
-  "label": "Narrow IT-led gains",
-  "score": 0.1,
-  "summary": "Gains are narrow: IT carries the headline indices while metals and realty slip and smallcaps open in the red, leaving the Nifty only about 0.2% up after a firmer open.",
+  "label": "Gains unravel",
+  "score": -0.45,
+  "summary": "The early bounce has reversed: the Sensex is about 900 points off its high, the Nifty has slipped below 22,500 and volatility is rising, with only IT holding up.",
   "detail": {
-   "leaders": "IT: Nifty IT, TCS, Infosys, HCL Tech",
-   "laggards": "Swiggy, down sharply after Q2",
-   "tone": "The open's momentum has faded a little: Nifty gains are down to about 0.2%, metals and realty are the weakest sectors and the Nifty 500 is slightly lower.",
+   "leaders": "IT: Nifty IT, Infosys",
+   "laggards": "Swiggy, at a record low",
+   "tone": "A sharp turn from the 10:00 note's narrow gains: the Nifty has swung from up about 0.2% to below 22,500, metals and realty are the weakest sectors, and India VIX is up as much as 7%.",
    "watch": [
-    "Whether IT strength holds into the Infosys print after the close",
-    "Breadth: smallcaps opened in the red",
-    "Oil prices and the global AI-stock selloff"
+    "Brent above $110 and any new West Asia escalation",
+    "Whether the Nifty holds near 22,500 into the afternoon",
+    "Infosys Q2 after the close"
    ],
    "src": {
-    "title": "Trendlyne: Market opens higher",
-    "url": "https://trendlyne.com/posts/5906949/market-opens-higher-petronet-lng-signs-rs-1200-crore-biogas-jv-deal"
+    "title": "Business Standard: Stock Market LIVE — Sensex off 900 pts from day's high, Nifty below 22,500; India VIX jumps 7%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT majors lead, with Nifty IT up nearly 3% in early trade",
-     "why": "Indian IT services are again rising while global AI and tech stocks sell off, as investors rotate into the sector.",
+     "summary": "IT is the only sector still holding up as the rest of the market turns lower",
+     "why": "Indian IT services keep attracting buyers even as global AI stocks sell off.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "move": "+2.72%",
-       "line": "Top sector early, extending a rally that began with strong Q2 prints this month"
-      },
-      {
-       "name": "TCS",
-       "dir": "up",
-       "move": "+3.73%",
-       "line": "Leads IT gains; its Q2 earnings beat market expectations earlier in October"
+       "line": "Strongest sector at 10 AM, extending this month's results-led rally"
       },
       {
        "name": "Infosys",
        "dir": "up",
-       "move": "+3.10%",
-       "line": "Bought ahead of its Q2 results, due after market hours today"
-      },
-      {
-       "name": "HCL Tech",
-       "dir": "up",
-       "move": "+2.44%",
-       "line": "Q2 beat estimates, with EBIT margin up to 18.2% from 17.4%"
+       "line": "Held ahead of its Q2 results, due after market hours today"
       }
      ],
      "src": {
-      "title": "Daily Prabhat: Sensex jumps 373 pts at open as IT stocks rally despite global tech sell-off",
-      "url": "https://www.dailyprabhat.com/sensex-jumps-373-points-nifty-rises-0-19-pc-at-open-as-it-stocks-rally-despite-global-tech-sell-off/"
+      "title": "Business Standard: Stock Market LIVE — Sensex off 900 pts from day's high, Nifty below 22,500; India VIX jumps 7%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
      }
     },
     "down": {
-     "summary": "Swiggy is the standout loser after its September-quarter numbers",
-     "why": "Instamart quick-commerce losses overshadow a narrower overall loss.",
+     "summary": "Swiggy is the day's standout loser, sinking to a record low after Q2",
+     "why": "Mounting Instamart losses and stiff quick-commerce competition overshadow a narrower group loss.",
      "names": [
       {
        "name": "Swiggy",
        "dir": "down",
-       "move": "down 5–10%",
-       "line": "Instamart losses weigh even as the group loss narrowed to ₹922 cr"
+       "move": "down ~12%",
+       "line": "Hit a record low of ₹184.90 as Instamart's Q2 loss widened to ₹895 cr"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex up 200 pts, Nifty tops 22,700; Swiggy drops 10%",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+      "title": "NewsBytes: Swiggy stock plunges 12% to record low ₹184.90 on Friday",
+      "url": "https://www.newsbytesapp.com/news/business/swiggy-stock-plunges-12-to-record-low-rs18490-on-friday/tldr"
      }
     }
    }
@@ -85,23 +71,72 @@
  },
  "insights": [
   {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Oil spike on West Asia fears hits stocks",
+   "line": "Supply-disruption fears push Brent above $111, driving today's reversal",
+   "more": [
+    "Brent rose 2.59% to $111.64 on Oct 22 after renewed Houthi attacks in Saudi Arabia",
+    "December Brent traded near $112 on ICE",
+    "US crude stocks fell 3.06 mn barrels, well above the expected draw"
+   ],
+   "src": {
+    "title": "Grafa: Oil prices jump $2 as Brent hits $111.64",
+    "url": "https://grafa.com/en/news/united-states/oil-prices-jump-brent-111-houthi-attacks-saudi-arabia"
+   },
+   "date": "2026-10-23",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-15",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "saudi-attacks",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Saudi attacks prompt US embassy drawdown",
+   "line": "Attacks in Saudi Arabia raise the risk to Gulf oil supply and shipping",
+   "more": [
+    "US officials ordered a partial evacuation of embassy staff",
+    "Gulf and Strait of Hormuz shipping threats have risen through October"
+   ],
+   "src": {
+    "title": "Whalesbook: Brent crude hits $111 on Saudi supply fears",
+    "url": "https://www.whalesbook.com/news/English/commodities/Brent-Crude-Hits-dollar111-On-Saudi-Supply-Fears-Impact-on-India/6ad9b5d579a16deaeaf9d63f"
+   },
+   "date": "2026-10-23",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "1030"
+   }
+  },
+  {
    "key": "swiggy-q2",
    "tag": "Results",
    "impact": "neg",
-   "title": "Swiggy's slide deepens toward 10%",
-   "line": "Selling extends from about 5% at the open as Instamart losses dominate the read",
+   "title": "Swiggy hits a record low, down ~12%",
+   "line": "Selling deepens as quick-commerce losses and competition dominate the Q2 read",
    "more": [
-    "Business Standard's live blog headline has the stock down 10%",
-    "Group Q2 loss narrowed to ₹922 cr; revenue up 36.1% to ₹7,571 cr",
-    "Reports differ on the Instamart loss: ₹764 cr vs ₹895 cr"
+    "Stock touched ₹184.90, about 52% down this year",
+    "Instamart loss ₹895 cr vs ₹849 cr a year ago as dark stores expand",
+    "The stock was already down 26% over a month as of Oct 22"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex up 200 pts, Nifty tops 22,700; Swiggy drops 10%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
+    "title": "NewsBytes: Swiggy stock plunges 12% to record low ₹184.90 on Friday",
+    "url": "https://www.newsbytesapp.com/news/business/swiggy-stock-plunges-12-to-record-low-rs18490-on-friday/tldr"
    },
    "date": "2026-10-23",
-   "slot": "1000",
-   "when": "10:00",
+   "slot": "1030",
+   "when": "10:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -128,7 +163,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-15",
     "slot": "pre"
@@ -152,7 +187,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1000"
@@ -176,7 +211,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1000"
@@ -200,7 +235,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1000"
@@ -229,31 +264,6 @@
    "first_seen": {
     "date": "2026-10-15",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Brent stays above $110 on US-Iran risk",
-   "line": "High oil remains the inflation overhang that dragged Thursday's open",
-   "more": [
-    "A live tracker showed Brent near $113 late on Oct 22 (UTC)",
-    "Brent traded above $110 on Wednesday amid US-Iran tensions",
-    "Quotes vary across trackers; treat the level as approximate"
-   ],
-   "src": {
-    "title": "OilPriceAPI: Brent crude oil price live",
-    "url": "https://www.oilpriceapi.com/live/brent-crude-oil-price"
-   },
-   "date": "2026-10-23",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1030"
    }
   },
   {
