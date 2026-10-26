@@ -1,137 +1,55 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-23T16:04:24+05:30",
- "date": "2026-10-23",
- "slot": "post",
- "slot_label": "Close",
- "stage": "Post-market mood",
- "asof": "2026-10-23T16:05:00+05:30",
+ "generated_at": "2026-10-26T09:06:25+05:30",
+ "date": "2026-10-26",
+ "slot": "pre",
+ "slot_label": "Pre-open",
+ "stage": "Pre-market mood",
+ "asof": "2026-10-26T09:08:00+05:30",
  "nifty": {
   "value": 22600.0,
   "pct": -0.39,
   "chg": -87.65,
-  "approx": false
+  "approx": true
  },
  "mood": {
-  "label": "Fourth straight loss",
-  "score": -0.35,
-  "summary": "The market closed lower for a fourth straight session but well off its lows; the headline indices dipped modestly while midcaps and smallcaps fell 2–3% and volatility jumped.",
+  "label": "Muted open seen",
+  "score": -0.2,
+  "summary": "A flat-to-soft start is indicated after four losing sessions, with oil near $115 and weaker Asia weighing against Friday's turn to net FII buying.",
   "detail": {
-   "leaders": "IT majors: TCS, Infosys",
-   "laggards": "Smallcaps, midcaps; metals, realty",
-   "tone": "A late recovery trimmed the damage versus midday, when the Sensex was down more than 700 points, but the losing streak reached four sessions and India VIX rose 6.34% to 16.76.",
+   "leaders": "Results winners: JSW Steel, Tata Motors CV arm",
+   "laggards": "Infosys and IT on guidance cut; Dr Reddy's",
+   "tone": "Follows Friday's fourth straight loss, which ended well off the lows; GIFT Nifty near 22,585–22,600 points to little change at the open.",
    "watch": [
-    "Infosys FY27 guidance and the IT reaction on Monday",
-    "Brent and West Asia headlines over the weekend",
-    "Friday's FII/DII data after Thursday's ₹3,459 cr FII sale"
+    "How IT trades after Infosys cut its FY27 guidance",
+    "Brent near $115 and Iran war headlines",
+    "Whether Friday's FII buying of ₹888 cr continues"
    ],
    "src": {
-    "title": "Business Standard: Stock Market Close — Sensex falls for 4th day, ends 126 pts lower; Nifty at 22,600; VIX rises 6%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
-   },
-   "movers": {
-    "up": {
-     "summary": "IT majors were the main support on a weak day",
-     "why": "Indian IT drew buyers after the global sell-off in AI-linked shares, partly offsetting oil-driven selling elsewhere.",
-     "names": [
-      {
-       "name": "TCS",
-       "dir": "up",
-       "move": "+2.03% at noon",
-       "line": "Top Sensex gainer at midday; its Q2 beat market expectations this month"
-      },
-      {
-       "name": "Infosys",
-       "dir": "up",
-       "line": "Among top gainers ahead of its Q2 results and FY27 guidance after the close"
-      }
-     ],
-     "src": {
-      "title": "HDFC Sky: Top gainers and losers today, 23 October 2026 at 12 PM",
-      "url": "https://hdfcsky.com/news/top-gainers-and-top-losers-today-23-october-2026-at-12-pm"
-     }
-    },
-    "down": {
-     "summary": "Broader markets took the heaviest hit; metals and realty led sector losses",
-     "why": "Brent near $114 revived inflation and margin worries, and investors cut riskier smaller stocks and cyclical sectors hardest.",
-     "names": [
-      {
-       "name": "Nifty Smallcap 100",
-       "dir": "down",
-       "move": "-2.94%",
-       "line": "Third straight fall, far steeper than the Nifty's 0.39% dip"
-      },
-      {
-       "name": "Nifty Midcap 100",
-       "dir": "down",
-       "move": "-2.21%",
-       "line": "Extends losses of 1.58% and 0.87% from the prior two sessions"
-      },
-      {
-       "name": "Nifty Metal",
-       "dir": "down",
-       "move": "-2.71%",
-       "line": "Worst sector; Tata Steel and Hindalco were the top Nifty losers"
-      },
-      {
-       "name": "Nifty Realty",
-       "dir": "down",
-       "move": "-2.38%",
-       "line": "Godrej Properties slid after its Q2 profit fell 62% to ₹154 cr"
-      }
-     ],
-     "src": {
-      "title": "Zee Business: Closing Bell — Sensex falls 126 pts, Nifty below 22,600 as oil spikes; metal, realty lead losses",
-      "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-falls-126-points-nifty-below-22600-as-oil-prices-spike-metal-realty-stocks-lead-losses-404434"
-     }
-    }
+    "title": "HDFC Sky: Gift Nifty flat; Iran war & crude near $115 hit sentiment",
+    "url": "https://hdfcsky.com/news/gift-nifty-signals-muted-open-for-sensex-nifty-on-monday-october-26-2026"
    }
   }
  },
  "insights": [
   {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Oil outweighs IT gains for a 4th day",
-   "line": "Brent near $114 on Saudi supply fears is the main overhang heading into the weekend",
-   "more": [
-    "Brent settled up 4% at $113.17 on Thursday, its highest since May",
-    "Oil was on track for a ~$6 weekly gain after Houthi attacks on Saudi sites",
-    "Reuters: oil-driven losses extended the market's slide into a 4th session"
-   ],
-   "src": {
-    "title": "MarketScreener (Reuters): Indian shares subdued as rising crude prices eclipse IT gains",
-    "url": "https://www.marketscreener.com/news/indian-shares-subdued-as-rising-crude-prices-eclipse-it-gains-ce785cdede80f426"
-   },
-   "date": "2026-10-23",
-   "slot": "post",
-   "when": "Close",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1030"
-   }
-  },
-  {
    "key": "infosys-q2",
    "tag": "Results",
-   "impact": "watch",
-   "title": "Infosys Q2 and guidance set Monday's tone",
-   "line": "Brokerages expect a trim to FY27 revenue guidance after an IT rally into the print",
+   "impact": "neg",
+   "title": "Infosys cuts FY27 guidance to 1–2%",
+   "line": "Profit rose 6.2% but came in a touch below estimates, and the revenue outlook was cut",
    "more": [
-    "Bloomberg consensus: net profit ~₹7,904 cr, sales ~₹49,108 cr",
-    "Some brokerages see guidance cut to 1–2.5% from 1.5–3%; margin guide seen at 20–22%",
-    "Board also considering an interim dividend"
+    "Q2 net profit ₹7,823 cr vs ~₹7,904 cr consensus; revenue ₹49,244 cr",
+    "FY27 constant-currency growth guidance cut from 1.5–3% to 1–2%",
+    "Large deal wins about $5.2 bn; interim dividend ₹26"
    ],
    "src": {
-    "title": "BusinessToday: Infosys Q2 results, dividend — expectations, timing, FY27 guidance",
-    "url": "https://www.businesstoday.in/markets/stocks/story/infosys-q2-results-dividend-earnings-expectations-timing-fy27-guidance-targets-563068-2026-10-22"
+    "title": "IndMoney: Infosys Q2 FY27 — AI growth, profit and guidance cut",
+    "url": "https://www.indmoney.com/blog/stocks/infosys-q2-results-fy27-ai-growth-profit-and-guidance-cut"
    },
-   "date": "2026-10-23",
-   "slot": "post",
-   "when": "Close",
+   "date": "2026-10-26",
+   "slot": "pre",
+   "when": "Pre-open",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -140,26 +58,76 @@
    }
   },
   {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Jio IPO closes 9.33x; listing on Oct 28",
-   "line": "Strong institutional demand for India's largest IPO; allotment due Monday",
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Brent at $115 as Iran war weighs",
+   "line": "Oil stays near its highs into the week, keeping inflation worries alive",
    "more": [
-    "QIB demand reached 20.63x by 1:30 pm on the final day",
-    "Allotment likely Oct 26; shares to list on BSE and NSE on Oct 28"
+    "Business Standard puts Brent at $115 this morning",
+    "WTI topped $100 on Friday amid US-Iran conflict concerns"
    ],
    "src": {
-    "title": "ScanX: Jio Platforms IPO Day 3 — subscribed 9.33x; QIB surges to 20.63x",
-    "url": "https://scanx.trade/stock-market-news/ipo/jio-platforms-ipo-day-3-subscribed-6-78x-qib-demand-leads-14-06x-check-allotment-status/54281537"
+    "title": "Business Standard: Stock Market LIVE Oct 26 — GIFT Nifty marginally down; Asia negative; Brent at $115",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-26-nse-bse-sensex-today-nifty50-gift-nifty-brent-crude-oil-prices-eaa-india-ipo-126102600053_1.html"
    },
-   "date": "2026-10-23",
-   "slot": "post",
-   "when": "Close",
+   "date": "2026-10-26",
+   "slot": "pre",
+   "when": "Pre-open",
    "updated": true,
    "is_new": true,
    "first_seen": {
-    "date": "2026-10-15",
+    "date": "2026-10-16",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "wall-street",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Wall Street fell Friday on oil",
+   "line": "Dow lost 653 points; tech held up better as chip stocks steadied",
+   "more": [
+    "Friday close: Dow -1.23% to 52,215.16; S&P 500 -0.52% to 7,623.68",
+    "Nasdaq -0.21% to 25,955.34, a second straight weekly loss",
+    "Asia markets traded lower on Monday morning"
+   ],
+   "src": {
+    "title": "Yahoo Finance: How major US stock indexes fared Friday 10/23/2026",
+    "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html"
+   },
+   "date": "2026-10-26",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs turn net buyers on Friday",
+   "line": "FIIs bought ₹887.65 cr and DIIs ₹3,235.36 cr in Friday's cash market",
+   "more": [
+    "Follows Thursday's ₹3,459 cr FII sale",
+    "DIIs have been net buyers for four sessions",
+    "Figures are provisional exchange data"
+   ],
+   "src": {
+    "title": "Groww: FII & DII data",
+    "url": "https://groww.in/fii-dii-data"
+   },
+   "date": "2026-10-26",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
     "slot": "pre"
    }
   },
@@ -167,24 +135,49 @@
    "key": "q2-results",
    "tag": "Results",
    "impact": "watch",
-   "title": "Heavy after-hours results slate",
-   "line": "JSW Steel, BPCL, Dr Reddy's, Tata Motors and Adani Power report after the close",
+   "title": "JSW Steel jumps, Dr Reddy's slips in Q2",
+   "line": "Mixed weekend read on Friday's results slate sets up stock-specific moves",
    "more": [
-    "About 75 companies were scheduled to report on Oct 23",
-    "Also due: Coforge, Shriram Finance, Torrent Pharma, IndusInd Bank"
+    "JSW Steel consolidated profit up 225.3% to ₹5,279 cr",
+    "Dr Reddy's profit down about 36% YoY; revenue down 1.5% to ₹8,670.8 cr",
+    "Tata Motors' CV business swung to ₹1,257 cr profit from an ₹867 cr loss"
    ],
    "src": {
-    "title": "Business Standard: Q2 results today — Infosys, Tata Motors, Adani Power among 75 firms",
-    "url": "https://www.business-standard.com/companies/quarterly-results/q2-results-infosys-tata-motors-adani-power-among-75-firms-on-oct-23-126102300433_1.html"
+    "title": "Business Standard: Stocks to watch Oct 26 — Infosys, Tata Motors, Paytm, IndusInd Bank, Senco Gold",
+    "url": "https://www.business-standard.com/amp/markets/news/stocks-to-watch-october-26-infosys-tata-motors-paytm-indusind-bank-senco-gold-126102600062_1.html"
    },
-   "date": "2026-10-23",
-   "slot": "post",
-   "when": "Close",
+   "date": "2026-10-26",
+   "slot": "pre",
+   "when": "Pre-open",
    "updated": true,
    "is_new": true,
    "first_seen": {
-    "date": "2026-10-15",
+    "date": "2026-10-19",
     "slot": "pre"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Jio IPO allotment due today",
+   "line": "Allotment of the 9.33x-subscribed issue is expected today, ahead of Oct 28 listing",
+   "more": [
+    "Issue closed Friday at 9.33x, per ScanX",
+    "Shares scheduled to list on BSE and NSE on Oct 28"
+   ],
+   "src": {
+    "title": "ScanX: Jio Platforms IPO Day 3 — subscribed 9.33x",
+    "url": "https://scanx.trade/stock-market-news/ipo/jio-platforms-ipo-day-3-subscribed-6-78x-qib-demand-leads-14-06x-check-allotment-status/54281537"
+   },
+   "date": "2026-10-26",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-16",
+    "slot": "1330"
    }
   },
   {
@@ -203,7 +196,7 @@
    },
    "date": "2026-10-23",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Fri · 15:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -227,7 +220,7 @@
    },
    "date": "2026-10-23",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Fri · 15:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -251,7 +244,7 @@
    },
    "date": "2026-10-23",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Fri · 15:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -276,7 +269,7 @@
    },
    "date": "2026-10-23",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Fri · 14:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -301,7 +294,7 @@
    },
    "date": "2026-10-23",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Fri · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -325,7 +318,7 @@
    },
    "date": "2026-10-23",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Fri · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -350,7 +343,7 @@
    },
    "date": "2026-10-23",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Fri · 13:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -375,7 +368,7 @@
    },
    "date": "2026-10-23",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Fri · 13:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -399,7 +392,7 @@
    },
    "date": "2026-10-23",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Fri · 13:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -424,7 +417,7 @@
    },
    "date": "2026-10-23",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Fri · 13:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -448,7 +441,7 @@
    },
    "date": "2026-10-23",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Fri · 13:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -472,12 +465,12 @@
    },
    "date": "2026-10-23",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Fri · 12:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-15",
-    "slot": "0930"
+    "date": "2026-10-16",
+    "slot": "1100"
    }
   },
   {
@@ -497,7 +490,7 @@
    },
    "date": "2026-10-23",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Fri · 11:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -521,37 +514,12 @@
    },
    "date": "2026-10-23",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Fri · 11:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "wall-street",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Lam Research, Meta slump after earnings",
-   "line": "Chip-equipment and big-tech results added to the AI-spending worries",
-   "more": [
-    "Lam Research fell 11.8% and Meta 7.0% after results",
-    "Meta's limited FY27 guidance raised spending and margin concerns",
-    "Asia-Pacific stocks were mostly lower after the weak US lead"
-   ],
-   "src": {
-    "title": "Newsquawk: Daily European Opening News, 23 October 2026",
-    "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---23rd-october-2026"
-   },
-   "date": "2026-10-23",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
    }
   },
   {
@@ -571,7 +539,7 @@
    },
    "date": "2026-10-23",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Fri · 11:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -595,7 +563,7 @@
    },
    "date": "2026-10-23",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Fri · 11:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -619,7 +587,7 @@
    },
    "date": "2026-10-23",
    "slot": "1030",
-   "when": "10:30",
+   "when": "Fri · 10:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -643,7 +611,7 @@
    },
    "date": "2026-10-23",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Fri · 10:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -667,7 +635,7 @@
    },
    "date": "2026-10-23",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Fri · 10:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -691,37 +659,12 @@
    },
    "date": "2026-10-23",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Fri · 10:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "neg",
-   "title": "FIIs sold ₹3,459 cr on Thursday",
-   "line": "Foreign investors turned net sellers again; DIIs bought ₹2,891 cr (provisional).",
-   "more": [
-    "FIIs bought ₹13,628 cr and sold ₹17,086 cr",
-    "Follows ₹1,022 cr of FII buying on Wednesday",
-    "One tracker shows a smaller ₹2,938 cr outflow"
-   ],
-   "src": {
-    "title": "OptionX: FII & DII activity today",
-    "url": "https://optionx.trade/fii-dii-activity"
-   },
-   "date": "2026-10-23",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
    }
   },
   {
@@ -741,7 +684,7 @@
    },
    "date": "2026-10-23",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Fri · Pre-open",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -1156,8 +1099,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-15",
-    "slot": "0930"
+    "date": "2026-10-16",
+    "slot": "1500"
    }
   },
   {
@@ -1604,7 +1547,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-15",
+    "date": "2026-10-19",
     "slot": "1030"
    }
   },
@@ -1854,8 +1797,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1200"
+    "date": "2026-10-16",
+    "slot": "1230"
    }
   },
   {
@@ -1879,8 +1822,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1030"
+    "date": "2026-10-16",
+    "slot": "pre"
    }
   },
   {
@@ -1926,11 +1869,11 @@
    "date": "2026-10-16",
    "slot": "1330",
    "when": "Fri · 13:30",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1100"
+    "date": "2026-10-16",
+    "slot": "1330"
    }
   },
   {
@@ -2180,8 +2123,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1130"
+    "date": "2026-10-16",
+    "slot": "pre"
    }
   },
   {
@@ -2230,8 +2173,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1400"
+    "date": "2026-10-16",
+    "slot": "pre"
    }
   },
   {
@@ -2255,151 +2198,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-10-16",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "nestle-india",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Nestle's cost warning trumps 36% profit jump",
-   "line": "Management flagged food inflation and rising commodity costs; the stock fell about 9%",
-   "more": [
-    "Q2 standalone profit up 36.3% to ₹1,026.77 cr",
-    "Revenue rose about 20% to ₹6,788 cr"
-   ],
-   "src": {
-    "title": "Whalesbook: Sensex, Nifty hit 23,000; Nestlé India falls 9% after results",
-    "url": "https://www.whalesbook.com/news/English/economy/Sensex-Nifty-Hit-23000-Nestle-India-Falls-9percent-After-Results/6ad08fb379a16deaeaf273ef"
-   },
-   "date": "2026-10-15",
-   "slot": "1500",
-   "when": "Thu · 15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "nifty-23k",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Nifty above 23,000 for first time in 12 days",
-   "line": "The benchmark trades above 23,000 for the first time in twelve sessions",
-   "more": [
-    "Sensex up about 1,527 points at 74,309",
-    "Rally came despite a sell-off across Asia"
-   ],
-   "src": {
-    "title": "Whalesbook: Sensex, Nifty hit 23,000; Nestlé India falls 9% after results",
-    "url": "https://www.whalesbook.com/news/English/economy/Sensex-Nifty-Hit-23000-Nestle-India-Falls-9percent-After-Results/6ad08fb379a16deaeaf273ef"
-   },
-   "date": "2026-10-15",
-   "slot": "1500",
-   "when": "Thu · 15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1430"
-   }
-  },
-  {
-   "key": "sector-rotation",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT, private banks and autos lead",
-   "line": "FMCG, media and PSU banks are the sectors declining at 1:36 pm",
-   "more": [
-    "Sensex up 1,270.13 points at 74,046.10 at 1:36 pm",
-    "Nifty up about 1.60% at 22,982.55"
-   ],
-   "src": {
-    "title": "Trade Brains: Sensex & Nifty 50 live updates, 15 October",
-    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-15-october-sensex-gains-035-nifty-50-rises-044-tech-mahindra-jumps-253-and-tcs-gains-217-12677093"
-   },
-   "date": "2026-10-15",
-   "slot": "1400",
-   "when": "Thu · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "polycab-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Polycab Q2 profit up ~43% to ₹977 cr",
-   "line": "Revenue jumped about 53% to ₹9,899 crore in the September quarter",
-   "more": [
-    "Profit up from ₹685.45 cr a year ago",
-    "Shares were 0.21% lower at ₹8,317.50 ahead of the numbers"
-   ],
-   "src": {
-    "title": "Upstox: Q2 results live — Polycab PAT climbs 43% to ₹977 cr",
-    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-wipro-nestle-india-tech-mahindra-polycab-jio-financial-hdfc-life-irfc-hdfc-amc-angel-one-others-to-declare-earnings-oct015/liveblog-201887/"
-   },
-   "date": "2026-10-15",
-   "slot": "1330",
-   "when": "Thu · 13:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "1330"
-   }
-  },
-  {
-   "key": "idbi-bank",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "IDBI Bank slips 6% on Fairfax deal price",
-   "line": "Approved ₹81/share undershot the ₹90.40 prior close and ₹100–110 market hopes",
-   "more": [
-    "Price still beat the ₹75.99 fair value set by independent valuers",
-    "Deal still needs regulatory steps before completion"
-   ],
-   "src": {
-    "title": "Lapaas Voice: IDBI Bank shares fall after Fairfax approval — why investors are disappointed",
-    "url": "https://lapaasvoice.com/idbi-bank-shares-fall-6-after-fairfax-deal-approval-why-investors-are-disappointed"
-   },
-   "date": "2026-10-15",
-   "slot": "1230",
-   "when": "Thu · 12:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "asia-chip-rout",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Kospi plunges 7% as chip rout deepens",
-   "line": "SK Hynix fell 11.2% and Samsung 9.4%; Nikkei dropped 4.7% after hot US inflation",
-   "more": [
-    "Kospi down 7.2%; MSCI Asia Pacific down nearly 3%",
-    "Memory makers hit by reports of progress at China's CXMT",
-    "Hotter US CPI lifted bets on further Fed hikes"
-   ],
-   "src": {
-    "title": "Investing.com: Asia stocks tumble, Kospi slumps 7% on chip rout, Fed rate fears",
-    "url": "https://www.investing.com/news/stock-market-news/asia-stocks-slump-as-chip-rout-deepens-after-hotter-us-inflation-4950421"
-   },
-   "date": "2026-10-15",
-   "slot": "0930",
-   "when": "Thu · 9:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-15",
     "slot": "0930"
    }
   }
