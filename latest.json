@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-28T13:33:39+05:30",
+ "generated_at": "2026-10-28T14:03:31+05:30",
  "date": "2026-10-28",
- "slot": "1330",
- "slot_label": "13:30",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-28T13:35:00+05:30",
+ "asof": "2026-10-28T14:05:00+05:30",
  "nifty": {
   "value": 22700.0,
   "pct": -0.22,
@@ -13,26 +13,26 @@
   "approx": true
  },
  "mood": {
-  "label": "Holding recovery",
+  "label": "Sideways, mildly red",
   "score": -0.2,
-  "summary": "The market is consolidating its recovery, holding well above the morning lows, with L&T and autos cushioning the indices while IT remains the main drag.",
+  "summary": "The market is grinding sideways in the red, holding most of its recovery from the morning lows, with results-driven heavyweights offsetting persistent IT weakness.",
   "detail": {
    "leaders": "L&T, Bajaj Auto; Jio Platforms",
    "laggards": "IT: Infosys, Tech Mahindra, HCL Tech",
-   "tone": "Little changed from 13:00: the Sensex is still down about 500 points with the Nifty near 22,700, well off the morning low around 22,497.",
+   "tone": "Unchanged from 13:30: the Nifty is still near 22,700 with the Sensex about 500 points lower, holding well above the morning low around 22,497.",
    "watch": [
-    "Whether the Nifty reclaims Tuesday's 22,750 close",
-    "US Fed decision at 2 pm ET (late tonight IST)",
+    "Late-session moves ahead of the US Fed decision",
+    "Reaction to Adani Ports, HUL and other results",
     "Brent above $115 and US-Iran headlines"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 28 — Sensex cracks 500 pts, Nifty near 22,700; IT, FMCG top laggards",
+    "title": "Business Standard: Stock Market LIVE Oct 28 — Sensex cracks 500 pts, Nifty near 22,700",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-28-nse-bse-sensex-today-nifty-gift-nifty-us-iran-tension-iran-strikes-brent-crude-ipos-jio-listing-jio-share-price-it-stocks-maruti-share-price-q1-result-today-share-market-today-126102800114_1.html"
    },
    "movers": {
     "up": {
-     "summary": "L&T's results rally leads gainers, with Bajaj Auto and Jio's debut also helping",
-     "why": "Strong September-quarter results are drawing buyers into select heavyweights despite the weak backdrop.",
+     "summary": "Results-led heavyweights and Jio's debut keep the indices off their lows",
+     "why": "Strong September-quarter numbers are drawing buyers into select large caps despite the weak backdrop.",
      "names": [
       {
        "name": "L&T",
@@ -54,7 +54,7 @@
       }
      ],
      "src": {
-      "title": "Business Standard: L&T surges 6%, sees sharpest intraday rally in 6 months on strong Q2",
+      "title": "Business Standard: L&T surges 6%, sharpest intraday rally in 6 months",
       "url": "https://www.business-standard.com/markets/news/l-t-surges-6-sees-sharpest-intraday-rally-in-6-months-on-strong-q2-show-126102800267_1.html"
      }
     },
@@ -91,28 +91,76 @@
  },
  "insights": [
   {
-   "key": "lt-q2",
+   "key": "adani-ports-q2",
    "tag": "Results",
    "impact": "pos",
-   "title": "L&T posts sharpest rally in six months",
-   "line": "Stock hit ₹3,892, up 6.05%, as record orders outweighed margin pressure",
+   "title": "Adani Ports Q2 profit up 17%; guidance raised",
+   "line": "Profit rises to ₹3,622 cr and the company lifts FY27 revenue and EBITDA guidance",
    "more": [
-    "Opened at ₹3,813.95 vs a ₹3,670 previous close; low ₹3,768",
-    "Order book ₹8,53,514 cr as of Sept 30, up 15% from March",
-    "Kotak Neo notes operating profitability stayed under pressure"
+    "Revenue from operations up 24% to ₹11,340 cr",
+    "EBITDA up 23% to about ₹6,806 cr",
+    "BusinessToday puts profit growth at 18%"
    ],
    "src": {
-    "title": "Business Standard: L&T surges 6%, sees sharpest intraday rally in 6 months on strong Q2",
-    "url": "https://www.business-standard.com/markets/news/l-t-surges-6-sees-sharpest-intraday-rally-in-6-months-on-strong-q2-show-126102800267_1.html"
+    "title": "Upstox: Adani Ports Q2 — net profit jumps 17%; FY27 revenue, EBITDA guidance raised",
+    "url": "https://upstox.com/news/market-news/earnings/adani-ports-q2-result-net-profit-jumps-17-yo-y-firm-raises-revenue-ebitda-guidance-for-fy-27/article-202540/"
    },
    "date": "2026-10-28",
-   "slot": "1330",
-   "when": "13:30",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "lt-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "L&T rally comes despite thinner margins",
+   "line": "EBITDA margin narrowed to 8.7% from 10% even as orders and profit beat",
+   "more": [
+    "EBITDA edged up 0.6% to ₹6,845 cr",
+    "Profit up 33% to ₹5,202 cr; revenue up 16% to ₹78,750 cr"
+   ],
+   "src": {
+    "title": "BusinessToday: Stock market live — Jio IPO listing; L&T gains 4.5%",
+    "url": "https://businesstoday.in/markets/stocks/story/stock-market-live-updates-jio-ipo-listing-indias-telecom-sector-gets-a-new-heavyweight-564134-2026-10-28"
+   },
+   "date": "2026-10-28",
+   "slot": "1400",
+   "when": "14:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1300"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "HUL, Vedanta, Pidilite report today",
+   "line": "A heavy Q2 slate includes HUL, Adani Enterprises, TVS Motor and Hyundai Motor India",
+   "more": [
+    "Vedanta and Pidilite also scheduled for today",
+    "HUL's numbers are a key read for weak FMCG stocks"
+   ],
+   "src": {
+    "title": "Trade Brains: Vedanta, Adani Ports, Hyundai Motor and 9 others announcing Q2 results today",
+    "url": "https://tradebrains.in/indian-markets/vedanta-adani-ports-hyundai-motor-and-9-other-stocks-announcing-q2-results-today-12757576"
+   },
+   "date": "2026-10-28",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "pre"
    }
   },
   {
@@ -133,7 +181,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1230"
@@ -157,7 +205,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1130"
@@ -466,31 +514,6 @@
    "src": {
     "title": "Yahoo Finance: How major US stock indexes fared Friday 10/23/2026",
     "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html"
-   },
-   "date": "2026-10-26",
-   "slot": "pre",
-   "when": "Mon · Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "JSW Steel jumps, Dr Reddy's slips in Q2",
-   "line": "Mixed weekend read on Friday's results slate sets up stock-specific moves",
-   "more": [
-    "JSW Steel consolidated profit up 225.3% to ₹5,279 cr",
-    "Dr Reddy's profit down about 36% YoY; revenue down 1.5% to ₹8,670.8 cr",
-    "Tata Motors' CV business swung to ₹1,257 cr profit from an ₹867 cr loss"
-   ],
-   "src": {
-    "title": "Business Standard: Stocks to watch Oct 26 — Infosys, Tata Motors, Paytm, IndusInd Bank, Senco Gold",
-    "url": "https://www.business-standard.com/amp/markets/news/stocks-to-watch-october-26-infosys-tata-motors-paytm-indusind-bank-senco-gold-126102600062_1.html"
    },
    "date": "2026-10-26",
    "slot": "pre",
