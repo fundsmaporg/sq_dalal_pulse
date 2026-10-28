@@ -1,37 +1,222 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-26T09:33:23+05:30",
- "date": "2026-10-26",
- "slot": "0930",
- "slot_label": "9:30",
- "stage": "Opening mood",
- "asof": "2026-10-26T09:35:00+05:30",
+ "generated_at": "2026-10-28T11:36:18+05:30",
+ "date": "2026-10-28",
+ "slot": "1130",
+ "slot_label": "11:30",
+ "stage": "Mid-market mood",
+ "asof": "2026-10-28T11:35:00+05:30",
  "nifty": {
-  "value": 22524.4,
-  "pct": -0.33,
-  "chg": -75.6,
+  "value": 22575.0,
+  "pct": -0.77,
+  "chg": -174.75,
   "approx": true
  },
  "mood": {
-  "label": "Soft open",
-  "score": -0.3,
-  "summary": "Indices opened lower after four losing sessions, with IT dragging after a guidance cut and elevated oil keeping buyers cautious; the dip at the open is modest so far.",
+  "label": "Heavy selling",
+  "score": -0.6,
+  "summary": "A broad sell-off has the Sensex down close to 1,000 points at its worst, with IT, FMCG and oil & gas leading losses and only autos holding up.",
   "detail": {
-   "leaders": "No clear leadership in early trade",
-   "laggards": "IT: Infosys, HCL Tech; Asian Paints",
-   "tone": "In line with the muted pre-open call: the Nifty opened 0.33% lower at 22,524 after GIFT Nifty pointed to a flat-to-soft start.",
+   "leaders": "Jio Platforms on debut",
+   "laggards": "IT: Nifty IT, Infosys",
+   "tone": "A sharp turn from Tuesday's flat close at 22,749.75: the Sensex fell as much as 995 points to 72,603 and the Nifty is near 22,575.",
    "watch": [
-    "How far Infosys and IT fall on the guidance cut",
-    "Brent above $110 and Iran war headlines",
-    "Reaction to JSW Steel, Dr Reddy's and Tata Motors results"
+    "Any confirmation of renewed US strikes on Iran",
+    "Brent above $115 and the US Fed decision",
+    "Whether Jio Platforms holds its listing gains"
    ],
    "src": {
-    "title": "India TV News: 26 October 2026 — Sensex sheds 133 points, Nifty near 22,500; IT stocks fall",
-    "url": "https://www.indiatvnews.com/business/markets/26-october-2026-stock-market-updates-sensex-sheds-133-points-nifty-near-22-500-amid-elevated-brent-crude-price-it-stocks-falls-infosys-hcl-tech-2026-10-26-1057916"
+    "title": "Business Standard: Market fall explained — Sensex dives 995 pts intraday, Nifty at 22,500",
+    "url": "https://www.business-standard.com/amp/markets/news/market-fall-explained-sensex-dives-995-points-intraday-nifty-at-22-500-126102800393_1.html"
+   },
+   "movers": {
+    "up": {
+     "summary": "Jio Platforms' strong debut is the bright spot on a weak day",
+     "why": "Heavy IPO demand carried through to a big listing premium for India's largest-ever issue.",
+     "names": [
+      {
+       "name": "Jio Platforms",
+       "dir": "up",
+       "move": "lists +21.36%",
+       "line": "Debuted at ₹1,358 vs a ₹1,119 issue price; Elara starts with Buy, ₹1,367 target"
+      }
+     ],
+     "src": {
+      "title": "The Tribune: Jio Platforms shares list at ₹1,358, 21.36% above issue price",
+      "url": "https://www.tribuneindia.com/news/business/jio-platforms-shares-list-at-rs-1358-on-bse-nse-21-36-above-issue-price/"
+     }
+    },
+    "down": {
+     "summary": "IT leads the slide, with Nifty IT down over 3%",
+     "why": "Worries over the sector's growth outlook, plus caution before the US Fed decision.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "down",
+       "move": "down ~3.5%",
+       "line": "Worst sector; about ₹77,000 cr of market value wiped off the 10 index stocks"
+      },
+      {
+       "name": "Infosys",
+       "dir": "down",
+       "move": "down ~4.5%",
+       "line": "Leads IT losses; it cut FY27 revenue guidance to 1–2% last week"
+      }
+     ],
+     "src": {
+      "title": "Zee Business: IT stocks crash — Nifty IT plunges over 1,000 points, ₹77,000 cr mcap lost",
+      "url": "https://www.zeebiz.com/market-news/news-it-stocks-crash-nifty-it-plunges-over-1000-points-rs-77000-crore-mcap-lost-why-are-infosys-tcs-mphasis-others-falling-404673"
+     }
+    }
    }
   }
  },
  "insights": [
+  {
+   "key": "us-iran",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Reports of renewed US strikes on Iran",
+   "line": "Possible strikes after the US midterms turn the market decisively weak, analysts say",
+   "more": [
+    "Geojit's VK Vijayakumar cited reports of renewed US strikes after the midterms",
+    "An attack on a Saudi refinery renewed West Asia supply worries"
+   ],
+   "src": {
+    "title": "Business Standard: Market fall explained — Sensex dives 995 pts intraday, Nifty at 22,500",
+    "url": "https://www.business-standard.com/amp/markets/news/market-fall-explained-sensex-dives-995-points-intraday-nifty-at-22-500-126102800393_1.html"
+   },
+   "date": "2026-10-28",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Brent above $115 again",
+   "line": "Oil rose 1.3% to about $115.4 a barrel after the Saudi refinery attack",
+   "more": [
+    "Higher crude raises India's import bill and inflation risk",
+    "Oil & gas stocks are among today's top sector laggards"
+   ],
+   "src": {
+    "title": "HDFC Sky: Sensex, Nifty slide as crude nears $116 and IT stocks tumble",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-october-28-2026-open-report-sensex-nifty-crash-after-lower-open-as-oil-it-drag-and-jio-fed-loom"
+   },
+   "date": "2026-10-28",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Jio Platforms lists 21% above issue price",
+   "line": "India's largest IPO debuts at ₹1,358 on BSE and NSE versus ₹1,119 issue price",
+   "more": [
+    "Allottees gained about ₹2,868 per lot at the listing price",
+    "Shares traded near ₹1,357 on NSE shortly after 10 am",
+    "Elara initiated coverage with Buy and a ₹1,367 target"
+   ],
+   "src": {
+    "title": "Upstox: Jio Platforms IPO listing live updates",
+    "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-listing-live-updates-share-price-nse-bse-reliance-industries-subsidiary-october-28-2026/liveblog-202492/"
+   },
+   "date": "2026-10-28",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "neg",
+   "title": "FIIs net sellers for 10 straight weeks",
+   "line": "About ₹51,466 cr sold in October so far, partly offset by domestic buying",
+   "more": [
+    "DIIs have bought about ₹59,110 cr this month",
+    "High US bond yields are cited as a driver of foreign selling"
+   ],
+   "src": {
+    "title": "Business Standard: Market fall explained — Sensex dives 995 pts intraday, Nifty at 22,500",
+    "url": "https://www.business-standard.com/amp/markets/news/market-fall-explained-sensex-dives-995-points-intraday-nifty-at-22-500-126102800393_1.html"
+   },
+   "date": "2026-10-28",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "maruti-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Maruti slips after 26% profit fall",
+   "line": "Record volumes, but costs and mark-to-market losses hit Q2 profit",
+   "more": [
+    "Q2 net profit ~₹2,466 cr, down 26%; revenue up 26% to ~₹53,355 cr",
+    "Shares fell as much as 1% to ₹11,335.75; analysts still see value after a 15% fall"
+   ],
+   "src": {
+    "title": "Business Standard: Maruti dips marginally post Q2 amid cost pressures; analysts remain bullish",
+    "url": "https://www.business-standard.com/markets/news/maruti-suzuki-share-price-dips-marginally-post-q2-amid-cost-pressures-analysts-remain-bullish-126102800247_1.html"
+   },
+   "date": "2026-10-28",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "fed",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "US Fed decision due Oct 28 (US time)",
+   "line": "Caution ahead of the Fed adds to selling pressure",
+   "more": [
+    "Fed policy decision scheduled for Oct 28 (US time)",
+    "Tuesday's flat Indian close was also blamed on Fed jitters"
+   ],
+   "src": {
+    "title": "Outlook Money: Why stock market is falling today — crude, US Fed meet",
+    "url": "https://www.outlookmoney.com/invest/why-stock-market-is-falling-today-sensex-nifty-crude-oil-price-us-fed-meet-ai-stocks-rally"
+   },
+   "date": "2026-10-28",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1130"
+   }
+  },
   {
    "key": "infosys-q2",
    "tag": "Results",
@@ -49,9 +234,9 @@
    },
    "date": "2026-10-26",
    "slot": "0930",
-   "when": "9:30",
+   "when": "Mon · 9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1230"
@@ -73,9 +258,9 @@
    },
    "date": "2026-10-26",
    "slot": "0930",
-   "when": "9:30",
+   "when": "Mon · 9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1330"
@@ -97,9 +282,9 @@
    },
    "date": "2026-10-26",
    "slot": "0930",
-   "when": "9:30",
+   "when": "Mon · 9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1530"
@@ -121,36 +306,12 @@
    },
    "date": "2026-10-26",
    "slot": "0930",
-   "when": "9:30",
+   "when": "Mon · 9:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-26",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Brent at $115 as Iran war weighs",
-   "line": "Oil stays near its highs into the week, keeping inflation worries alive",
-   "more": [
-    "Business Standard puts Brent at $115 this morning",
-    "WTI topped $100 on Friday amid US-Iran conflict concerns"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 26 — GIFT Nifty marginally down; Asia negative; Brent at $115",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-26-nse-bse-sensex-today-nifty50-gift-nifty-brent-crude-oil-prices-eaa-india-ipo-126102600053_1.html"
-   },
-   "date": "2026-10-26",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1100"
    }
   },
   {
@@ -170,36 +331,11 @@
    },
    "date": "2026-10-26",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Mon · Pre-open",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-16",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs turn net buyers on Friday",
-   "line": "FIIs bought ₹887.65 cr and DIIs ₹3,235.36 cr in Friday's cash market",
-   "more": [
-    "Follows Thursday's ₹3,459 cr FII sale",
-    "DIIs have been net buyers for four sessions",
-    "Figures are provisional exchange data"
-   ],
-   "src": {
-    "title": "Groww: FII & DII data",
-    "url": "https://groww.in/fii-dii-data"
-   },
-   "date": "2026-10-26",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
+    "date": "2026-10-19",
     "slot": "pre"
    }
   },
@@ -220,36 +356,12 @@
    },
    "date": "2026-10-26",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Mon · Pre-open",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Jio IPO allotment due today",
-   "line": "Allotment of the 9.33x-subscribed issue is expected today, ahead of Oct 28 listing",
-   "more": [
-    "Issue closed Friday at 9.33x, per ScanX",
-    "Shares scheduled to list on BSE and NSE on Oct 28"
-   ],
-   "src": {
-    "title": "ScanX: Jio Platforms IPO Day 3 — subscribed 9.33x",
-    "url": "https://scanx.trade/stock-market-news/ipo/jio-platforms-ipo-day-3-subscribed-6-78x-qib-demand-leads-14-06x-check-allotment-status/54281537"
-   },
-   "date": "2026-10-26",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1330"
    }
   },
   {
@@ -492,8 +604,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1100"
+    "date": "2026-10-19",
+    "slot": "1330"
    }
   },
   {
@@ -543,31 +655,6 @@
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "us-iran",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Reports of fresh US-Israeli strike plans",
-   "line": "Strike plans and Iran's Hormuz threats keep the oil supply risk elevated",
-   "more": [
-    "Reports say US and Israeli militaries drew up plans for new strikes on Iran",
-    "Iran has threatened to restrict Strait of Hormuz traffic",
-    "Trump denies talks with Iran; Tehran says indirect talks continue"
-   ],
-   "src": {
-    "title": "Investing.com: Brent crude oil futures",
-    "url": "https://www.investing.com/commodities/brent-oil"
-   },
-   "date": "2026-10-23",
-   "slot": "1100",
-   "when": "Fri · 11:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1100"
    }
   },
   {
@@ -928,8 +1015,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1330"
+    "date": "2026-10-21",
+    "slot": "1100"
    }
   },
   {
@@ -1122,8 +1209,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1500"
+    "date": "2026-10-19",
+    "slot": "1200"
    }
   },
   {
@@ -1645,8 +1732,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-16",
-    "slot": "0930"
+    "date": "2026-10-19",
+    "slot": "pre"
    }
   },
   {
@@ -1692,536 +1779,11 @@
    "date": "2026-10-19",
    "slot": "pre",
    "when": "Mon · Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "monday-setup",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Weekend results set up Monday's open",
-   "line": "HDFC Bank and Yes Bank report Saturday; Jio's IPO opens Tuesday, Oct 21",
-   "more": [
-    "HDFC Bank earnings call 4 pm IST Saturday; profit seen roughly flat",
-    "Yes Bank results follow the AT1 ruling; Citi sees ~250 bp CET1 hit",
-    "Jio IPO: ₹1,065–1,119 band, Oct 21–23"
-   ],
-   "src": {
-    "title": "Zee Business: HDFC Bank Q2 results date and earnings call",
-    "url": "https://www.zeebiz.com/markets/stocks/news-hdfc-bank-q2-results-date-private-lender-to-host-earnings-call-on-this-day-403854"
-   },
-   "date": "2026-10-16",
-   "slot": "post",
-   "when": "Fri · Close",
    "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-16",
-    "slot": "post"
-   }
-  },
-  {
-   "key": "weekend-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "HDFC Bank, Yes Bank report on Saturday",
-   "line": "Both report Q2 on Oct 17, so Monday's open will reflect the numbers",
-   "more": [
-    "HDFC Bank's earnings call is at 4 pm IST Saturday",
-    "Yes Bank's board considers results Oct 17, after the AT1 ruling",
-    "Citi sees a ~250 bp CET1 hit for Yes Bank from the verdict"
-   ],
-   "src": {
-    "title": "Zee Business: HDFC Bank Q2 results date and earnings call",
-    "url": "https://www.zeebiz.com/markets/stocks/news-hdfc-bank-q2-results-date-private-lender-to-host-earnings-call-on-this-day-403854"
-   },
-   "date": "2026-10-16",
-   "slot": "1530",
-   "when": "Fri · 15:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1530"
-   }
-  },
-  {
-   "key": "week-ahead",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Next week: Jio IPO and Infosys results",
-   "line": "Jio's ~₹30,213 cr IPO runs Oct 21–23; Infosys reports Q2 on Oct 23",
-   "more": [
-    "Jio price band ₹1,065–1,119; grey premium about ₹221",
-    "Jio allotment Oct 26, listing expected Oct 28",
-    "Infosys results will test the IT rally"
-   ],
-   "src": {
-    "title": "InvestorGain: Jio Platforms IPO details, GMP and dates",
-    "url": "https://www.investorgain.com/ipo/jio-platforms-ipo/2306/"
-   },
-   "date": "2026-10-16",
-   "slot": "1530",
-   "when": "Fri · 15:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1530"
-   }
-  },
-  {
-   "key": "tips-music-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "TIPS Music Q2 profit up 23%",
-   "line": "Revenue grew 35%, and the board declared a ₹6.50 interim dividend",
-   "more": [
-    "Net profit ~₹65.5 cr, up 23%",
-    "Interim dividend ₹6.50/share; record date Oct 22",
-    "Content costs weighed on margins"
-   ],
-   "src": {
-    "title": "Whalesbook: TIPS Music Q2 profit jumps 23%, declares ₹6.50 dividend",
-    "url": "https://www.whalesbook.com/news/Hinglish/media-and-entertainment/TIPS-Music-Q2-Profit-Jumps-23percent-Declares-indian-rupee650-Dividend/6ad1efba79a16deaeaf41c69"
-   },
-   "date": "2026-10-16",
-   "slot": "1530",
-   "when": "Fri · 15:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1530"
-   }
-  },
-  {
-   "key": "rally-drivers",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Four factors behind today's recovery",
-   "line": "IT buying, steady DII buying, better FII futures positioning and a firmer rupee",
-   "more": [
-    "DIIs have bought for 46 sessions in a row, ₹3,319 cr on Thursday",
-    "FII positioning in index futures has improved",
-    "A stronger rupee and easing yields are helping sentiment"
-   ],
-   "src": {
-    "title": "Zee Business: Why are Sensex, Nifty rising today? IT stocks, FII positions among 4 key factors",
-    "url": "https://www.zeebiz.com/market-news/news-why-are-sensex-nifty-rising-today-it-stocks-fii-positions-among-4-key-factors-404071"
-   },
-   "date": "2026-10-16",
-   "slot": "1500",
-   "when": "Fri · 15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "wipro-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Citi: Wipro Q2 slightly ahead of expectations",
-   "line": "The shares rose as much as 6.5% even though profit fell 4.5% quarter on quarter",
-   "more": [
-    "Profit ₹3,200.6 cr, down 4.5% QoQ",
-    "Citi says earnings were slightly better than expected",
-    "The BSE IT index is up about 2.5%"
-   ],
-   "src": {
-    "title": "Upstox: Sensex gains over 340 pts, Nifty above 23,100 in noon session; TechM, Wipro, IndiGo among buzzing stocks",
-    "url": "https://upstox.com/news/market-news/stocks/sensex-gains-over-340-pts-nifty-trades-above-23-100-in-noon-session-tech-m-wipro-indi-go-among-buzzing-stocks/article-201990/"
-   },
-   "date": "2026-10-16",
-   "slot": "1400",
-   "when": "Fri · 14:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
+    "date": "2026-10-19",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "asia-rebound",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Asian markets rebound after the tech selloff",
-   "line": "KOSPI rose nearly 3% and the Nikkei about 1.9% as chip stocks recovered",
-   "more": [
-    "KOSDAQ +3.18%, ending a seven-day losing streak",
-    "Samsung Electronics and SK Hynix recovered",
-    "Nikkei 225 up ~1.9% at about 65,655"
-   ],
-   "src": {
-    "title": "Sunday Guardian: KOSPI rebounds nearly 3%, KOSDAQ jumps 3.18% after seven-day losing streak",
-    "url": "https://sundayguardianlive.com/business/korea-stock-market-krx-today-october-16-why-is-the-korean-stock-market-up-today-kospi-rebounds-nearly-3-kosdaq-jumps-318-after-seven-day-losing-streak-top-gainers-losers-306647/"
-   },
-   "date": "2026-10-16",
-   "slot": "1400",
-   "when": "Fri · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "breadth",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "Rally is narrow; decliners lead on NSE",
-   "line": "Early on, 1,583 NSE stocks fell vs 1,043 rising, even as large caps pushed indices up",
-   "more": [
-    "Early breadth: 1,583 decliners vs 1,043 advancers",
-    "Profit-taking in energy, banking and consumer stocks",
-    "Nifty IT up 3.39% at 31,761 mid-morning"
-   ],
-   "src": {
-    "title": "Punjab Kesari: Sensex, Nifty trade flat to positive as IT rally offsets profit booking",
-    "url": "https://english.punjabkesari.com/india/stock-market-updates-october-16-2026-sensex-nifty-it-rally"
-   },
-   "date": "2026-10-16",
-   "slot": "1330",
-   "when": "Fri · 13:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1330"
-   }
-  },
-  {
-   "key": "pc-jeweller",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "PC Jeweller hits 52-week high on bulk deal",
-   "line": "The shares rose as much as 14% after Halwasia bought 5.10 crore shares at ₹14.43",
-   "more": [
-    "Intraday high ₹16.45 vs ₹15.06 open on NSE",
-    "Bulk purchase of 5.10 crore shares at ₹14.43 on Thursday",
-    "Jewellery stocks led the sector board at noon, per ScanX"
-   ],
-   "src": {
-    "title": "Goodreturns: PC Jeweller soars 14% to 52-week high after major bulk deal",
-    "url": "https://www.goodreturns.in/news/pc-jeweller-share-price-soars-14-to-52-week-high-after-major-bulk-deal-know-key-trigger-behind-rally-1541931.html"
-   },
-   "date": "2026-10-16",
-   "slot": "1300",
-   "when": "Fri · 13:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "europe-open",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "European stocks open higher",
-   "line": "STOXX 600 rose 0.3% early as strong earnings steadied markets after the tech selloff",
-   "more": [
-    "STOXX 600 at 641.75 by 0708 GMT, up 0.3%",
-    "Index up more than 1% for the week",
-    "FTSE 100 slipped 0.26%"
-   ],
-   "src": {
-    "title": "Reuters via Investing.com: European stocks gain as Schneider lifts sentiment",
-    "url": "https://www.investing.com/news/stock-market-news/european-stocks-gain-as-schneider-lifts-sentiment-inflation-data-awaited-4953276"
-   },
-   "date": "2026-10-16",
-   "slot": "1300",
-   "when": "Fri · 13:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "iifl-fin-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "IIFL Finance Q2 profit nearly doubles",
-   "line": "Profit beat estimates as AUM grew 38% to ₹1.24 lakh cr; asset quality improved",
-   "more": [
-    "Consolidated profit ~₹766 cr vs ₹735 cr estimate; pre-NCI PAT ₹805 cr",
-    "AUM up 38% YoY to ₹1,24,268 cr",
-    "Gross NPA 1.48% vs 1.55% QoQ; tax demands of ₹1,438.95 cr pending"
-   ],
-   "src": {
-    "title": "Free Press Journal: IIFL Finance Q2FY27 net profit climbs 93% to ₹805 crore",
-    "url": "https://www.freepressjournal.in/business/iifl-finance-q2fy27-net-profit-climbs-93-to-805-crore-aum-crosses-124-lakh-crore"
-   },
-   "date": "2026-10-16",
-   "slot": "1230",
-   "when": "Fri · 12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "lt-fin-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "L&T Finance profit up 33% to ₹975 cr",
-   "line": "Net interest income rose 32.6% and the retail book grew 29%, with asset quality improving",
-   "more": [
-    "Consolidated PAT ₹975 cr vs ₹735 cr a year ago",
-    "NII up 32.6% to ₹3,187 cr; GNPA 2.8% vs 2.9% QoQ",
-    "Rural disbursements slowed on monsoon uncertainty"
-   ],
-   "src": {
-    "title": "Free Press Journal: L&T Finance reports 33% profit jump to ₹975 crore in Q2 FY27",
-    "url": "https://www.freepressjournal.in/business/lt-finance-reports-33-profit-jump-to-975-crore-in-q2-fy27-retail-book-grows-29-to-134600-crore"
-   },
-   "date": "2026-10-16",
-   "slot": "1230",
-   "when": "Fri · 12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "persistent-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Persistent profit falls 25% despite growth",
-   "line": "Acquisition costs squeezed Q2 profit to ₹351.5 cr even as revenue rose 30%",
-   "more": [
-    "Revenue ₹4,663.9 cr; USD revenue up 20% to $487.6m",
-    "EBIT margin 15.0%; profit down ~27% QoQ",
-    "Deal wins: TCV $633.5m, ACV $481m"
-   ],
-   "src": {
-    "title": "Upstox: Persistent Systems Q2 — profit declines 27% QoQ as margins shrink; TCV at $633m",
-    "url": "https://upstox.com/news/market-news/earnings/persistent-systems-q2-results-profit-declines-27-qo-q-to-352-crore-as-margins-shrink-tcv-at-633-million/article-201927/"
-   },
-   "date": "2026-10-16",
-   "slot": "1200",
-   "when": "Fri · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "angel-one-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Angel One Q2 profit up 45% QoQ",
-   "line": "Profit jumped to ₹334.9 cr on flat revenue; the board declared a ₹1.40 interim dividend",
-   "more": [
-    "Net profit up 44.7% QoQ to ₹334.9 cr",
-    "Revenue roughly flat at ₹1,426.9 cr",
-    "Interim dividend of ₹1.40 per share"
-   ],
-   "src": {
-    "title": "Business Standard: Stocks to watch — Jio Fin, Yes Bank, Wipro, L&T Fin, Angel One, Urban Co",
-    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-jio-fin-yes-bank-wipro-l-t-fin-angel-one-urban-co-126101600086_1.html"
-   },
-   "date": "2026-10-16",
-   "slot": "1200",
-   "when": "Fri · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "mankind-cell-therapy",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Mankind buys into cancer cell therapy",
-   "line": "It will buy 70% of Belgium's Armed Cell Therapeutics for ₹511.18 cr",
-   "more": [
-    "70% stake in Armed Cell Therapeutics for ₹511.18 cr",
-    "Marks entry into next-generation cancer cell therapies",
-    "Could widen its specialty healthcare portfolio"
-   ],
-   "src": {
-    "title": "Business Standard: Stocks to watch — Jio Fin, Yes Bank, Wipro, L&T Fin, Angel One, Urban Co",
-    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-jio-fin-yes-bank-wipro-l-t-fin-angel-one-urban-co-126101600086_1.html"
-   },
-   "date": "2026-10-16",
-   "slot": "1200",
-   "when": "Fri · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "sebi-cas",
-   "tag": "Regulation",
-   "impact": "watch",
-   "title": "SEBI revises closing auction and F&O rules",
-   "line": "SEBI changed closing-auction timings and derivative settlement prices, in two phases",
-   "more": [
-    "Review covers the closing auction session (CAS) and its timings",
-    "Also changes how settlement prices of derivative contracts are set",
-    "The changes will be rolled out in two phases"
-   ],
-   "src": {
-    "title": "Zee Business: SEBI revises CAS framework — new timings and F&O settlement method",
-    "url": "https://www.zeebiz.com/market-news/news-sebi-revises-cas-framework-new-market-timings-and-fo-settlement-method-explained-for-traders-and-investors-404038"
-   },
-   "date": "2026-10-16",
-   "slot": "1130",
-   "when": "Fri · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "sebi-reforms",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "SEBI outlines listing, bond and AI plans",
-   "line": "SEBI's chairman set out reform plans; most are work in progress, not final rules",
-   "more": [
-    "Plans cover listings, the bond market and use of AI",
-    "Chairman Tuhin Kanta Pandey put market cap at ₹472 lakh crore",
-    "Mostly disclosures of work in progress"
-   ],
-   "src": {
-    "title": "5paisa: SEBI outlines capital market reforms with listing, bond and AI plans",
-    "url": "https://www.5paisa.com/blog/sebi-capital-market-reforms-listing-bonds-ai"
-   },
-   "date": "2026-10-16",
-   "slot": "1130",
-   "when": "Fri · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "techm-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "TechM deal wins up 25%; analysts raise estimates",
-   "line": "New deal wins of $1,023m back the rally; record date for the 1:1 bonus is Oct 23",
-   "more": [
-    "Q2 net profit up 33% YoY to ₹1,586 cr",
-    "New deal wins of $1,023m, up 25.4%",
-    "Antique raised FY28/29 EPS 2–3%, but its ₹1,575 target is below the share price",
-    "₹15 interim dividend; bonus record date Oct 23"
-   ],
-   "src": {
-    "title": "Business Standard: Q2 impact — TechM shares gain 5% as analysts raise estimates",
-    "url": "https://business-standard.com/amp/markets/news/q2-impact-techm-shares-gain-5-as-analysts-raise-earnings-estimate-target-126101600185_1.html"
-   },
-   "date": "2026-10-16",
-   "slot": "1030",
-   "when": "Fri · 10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "jio-fin-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Jio Fin: lending grows, dividend income gone",
-   "line": "The 51% profit drop reflects higher expenses and no dividend income this quarter",
-   "more": [
-    "Lending NII rose 116% to ₹302 cr; lending PAT up 140% to ₹120 cr",
-    "No dividend income vs ₹269 cr a year earlier",
-    "Total income rose to about ₹1,699 cr from ₹1,002 cr"
-   ],
-   "src": {
-    "title": "Inc42: Jio Financial Services Q2 profit halves YoY to ₹340 Cr",
-    "url": "https://inc42.com/buzz/jio-financial-services-q2-profit-halves-yoy-to-%E2%82%B9340-cr/"
-   },
-   "date": "2026-10-16",
-   "slot": "1030",
-   "when": "Fri · 10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "hdfc-life-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "HDFC Life Q2 profit misses estimates",
-   "line": "Profit up ~14% to ₹508 cr but below Street; VNB margin 24.7% vs 24.5% a year ago",
-   "more": [
-    "VNB at ₹2,037 cr",
-    "Net premium income up almost 16%",
-    "An earlier report had put profit at ~₹522 cr"
-   ],
-   "src": {
-    "title": "Whalesbook: HDFC Life Q2 profit grows 14% to ₹508 crore",
-    "url": "https://www.whalesbook.com/news/English/bankingfinance/HDFC-Life-Q2-Profit-Grows-14percent-to-indian-rupee508-Crore/6ad0f2d679a16deaeaf33034"
-   },
-   "date": "2026-10-16",
-   "slot": "1000",
-   "when": "Fri · 10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "auto-slump",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Autos drag; Maruti near 18-month low",
-   "line": "Maruti is down about 33% in 2026 on margin worries tied to rising commodity costs",
-   "more": [
-    "Hit an 18-month low of ₹11,126.05 earlier this week",
-    "Brokerages flag raw-material cost pressure on Maruti and Hyundai"
-   ],
-   "src": {
-    "title": "Business Standard: Maruti Suzuki tanks 33% in 2026; stock hits 18-month low",
-    "url": "https://www.business-standard.com/markets/news/maruti-suzuki-share-price-tanks-33-in-calendar-year-2026-stock-hits-18-month-low-126101300461_1.html"
-   },
-   "date": "2026-10-16",
-   "slot": "0930",
-   "when": "Fri · 9:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-16",
-    "slot": "0930"
    }
   }
  ]
