@@ -1,13 +1,13 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-28T14:03:31+05:30",
+ "generated_at": "2026-10-28T14:35:27+05:30",
  "date": "2026-10-28",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-28T14:05:00+05:30",
+ "asof": "2026-10-28T14:30:00+05:30",
  "nifty": {
-  "value": 22700.0,
+  "value": 22700,
   "pct": -0.22,
   "chg": -49.75,
   "approx": true
@@ -15,81 +15,157 @@
  "mood": {
   "label": "Sideways, mildly red",
   "score": -0.2,
-  "summary": "The market is grinding sideways in the red, holding most of its recovery from the morning lows, with results-driven heavyweights offsetting persistent IT weakness.",
+  "summary": "Benchmarks hold the afternoon recovery, about 0.2–0.3% lower after a 1% intraday slide; IT keeps dragging while banks edge up and results drive stock moves.",
   "detail": {
-   "leaders": "L&T, Bajaj Auto; Jio Platforms",
-   "laggards": "IT: Infosys, Tech Mahindra, HCL Tech",
-   "tone": "Unchanged from 13:30: the Nifty is still near 22,700 with the Sensex about 500 points lower, holding well above the morning low around 22,497.",
+   "leaders": "L&T, Bajaj Auto, Vedanta",
+   "laggards": "Nifty IT, Infosys, HUL",
+   "tone": "Little changed from 14:00: the Nifty is pinned near 22,700, well above the 22,498 low, with no fresh push either way.",
    "watch": [
-    "Late-session moves ahead of the US Fed decision",
-    "Reaction to Adani Ports, HUL and other results",
-    "Brent above $115 and US-Iran headlines"
+    "Brent holding above $115 after the Saudi refinery strike",
+    "US Fed decision tonight",
+    "Post-market results: TVS Motor, Hyundai, Pidilite"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 28 — Sensex cracks 500 pts, Nifty near 22,700",
+    "title": "Stock Market LIVE: Sensex off lows, down 300 pts; Nifty near 22,700 — Business Standard",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-28-nse-bse-sensex-today-nifty-gift-nifty-us-iran-tension-iran-strikes-brent-crude-ipos-jio-listing-jio-share-price-it-stocks-maruti-share-price-q1-result-today-share-market-today-126102800114_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Results-led heavyweights and Jio's debut keep the indices off their lows",
-     "why": "Strong September-quarter numbers are drawing buyers into select large caps despite the weak backdrop.",
+     "summary": "Results-led gainers L&T, Bajaj Auto and Vedanta keep the index off its lows",
+     "why": "Strong September-quarter numbers are drawing buyers to select heavyweights despite the risk-off backdrop.",
      "names": [
       {
-       "name": "L&T",
+       "name": "Larsen & Toubro",
        "dir": "up",
-       "move": "up as much as 6.05%",
-       "line": "Record ₹1.47 lakh cr Q2 order inflow; sharpest intraday rally in 6 months"
+       "move": "+3.8% (midday)",
+       "line": "Q2 profit up 33% with record order inflow"
       },
       {
        "name": "Bajaj Auto",
        "dir": "up",
-       "move": "+1.67% (noon)",
-       "line": "Q2 profit up 35% to ₹3,354 cr on record revenue; exports jumped 41%"
+       "move": "+1.67% (midday)",
+       "line": "Standalone Q2 profit rose 35%"
       },
       {
-       "name": "Jio Platforms",
+       "name": "Vedanta",
        "dir": "up",
-       "move": "~+21.7% vs issue",
-       "line": "Near ₹1,362 late morning after listing at ₹1,358; day's high ₹1,374.5"
+       "move": "+1.99% (2:20 pm)",
+       "line": "Record Q2 EBITDA, net debt down; ₹5 interim dividend"
       }
      ],
      "src": {
-      "title": "Business Standard: L&T surges 6%, sharpest intraday rally in 6 months",
-      "url": "https://www.business-standard.com/markets/news/l-t-surges-6-sees-sharpest-intraday-rally-in-6-months-on-strong-q2-show-126102800267_1.html"
+      "title": "Top Gainers and Losers Today, 28 October 2026 at 12:00 PM — HDFC Sky",
+      "url": "https://hdfcsky.com/news/top-gainers-and-losers-today-28-october-2026-at-12-pm"
      }
     },
     "down": {
-     "summary": "IT stocks remain the biggest losers among Nifty heavyweights",
-     "why": "Worries over the sector's growth outlook, plus caution before the US Fed decision.",
+     "summary": "IT stays the main drag, with Infosys the worst Nifty stock; HUL slips post-results",
+     "why": "IT is extending its selloff after Infosys' guidance cut, and HUL's flat reported profit disappointed.",
      "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "down",
+       "move": "−2.50% (2:06 pm)",
+       "line": "Sector led losses through the afternoon"
+      },
       {
        "name": "Infosys",
        "dir": "down",
-       "move": "-4.88% (noon)",
-       "line": "Top Nifty loser; it cut FY27 revenue guidance to 1–2% last week"
+       "move": "−4.88% (midday)",
+       "line": "Still repricing its cut FY27 revenue guidance"
       },
       {
-       "name": "Tech Mahindra",
+       "name": "HUL",
        "dir": "down",
-       "move": "-3.23% (noon)",
-       "line": "Among the sharpest IT decliners as the sector sells off"
-      },
-      {
-       "name": "HCL Tech",
-       "dir": "down",
-       "move": "down ~3.3%",
-       "line": "Falls with IT peers on growth-outlook worries"
+       "move": "down ~3% (low)",
+       "line": "Reported profit flat at ₹2,796 cr despite 15% sales growth"
       }
      ],
      "src": {
-      "title": "HDFC Sky: Top gainers and losers today, 28 October 2026 at 12 PM",
-      "url": "https://hdfcsky.com/news/top-gainers-and-losers-today-28-october-2026-at-12-pm"
+      "title": "Sensex & Nifty 50 live updates, 28 October — Trade Brains",
+      "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-28-october-gift-nifty-signals-weak-opening-fed-decision-oil-prices-and-q2-results-in-focus-12759647"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "hul-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "HUL profit flat, stock near 52-week low",
+   "line": "Volumes grew 7%, but a high base kept reported profit flat; shares fell ~3%",
+   "more": [
+    "Sales up ~15% to about ₹18,037 cr",
+    "EBITDA up 8% to ₹4,089 cr; margin 22.6%",
+    "Base quarter had ₹273 cr one-off tax gains",
+    "Shares touched ₹1,766; ₹19 interim dividend"
+   ],
+   "src": {
+    "title": "HUL shares slip 3% to hover near 52 week low after Q2 results — BusinessToday",
+    "url": "https://www.businesstoday.in/markets/stocks/story/hul-shares-slip-3-to-hover-near-52-week-low-after-q2-results-details-here-564163-2026-10-28"
+   },
+   "date": "2026-10-28",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "vedanta-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Vedanta posts record quarter",
+   "line": "Revenue up 57% and EBITDA more than doubled; stock up ~2%",
+   "more": [
+    "Revenue ₹25,812 cr; EBITDA a record ₹9,938 cr",
+    "Continuing-ops profit up 151% YoY",
+    "Net debt cut to ₹3,675 cr; ₹5 interim dividend"
+   ],
+   "src": {
+    "title": "Vedanta posts record Q2 FY27 profit — DSIJ",
+    "url": "https://insights.dsij.in/dsijarticledetail/vedanta-posts-record-q2-fy27-profit-as-zinc-strength-and-cash-generation-cut-net-debt-60194"
+   },
+   "date": "2026-10-28",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Saudi refinery strike keeps Brent above $115",
+   "line": "Houthi-claimed attack revives supply fears; Brent +1.2% to about $115.3",
+   "more": [
+    "WTI up 1.15% to about $101.1",
+    "Prices dipped the prior session on Tehran peace talks",
+    "Hormuz tanker strikes also supporting prices"
+   ],
+   "src": {
+    "title": "Brent Tops $115 After Reported Saudi Refinery Attack — HDFC Sky",
+    "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-october-28-2026-brent-above-115-after-saudi-refinery-attack-revives-supply-fears"
+   },
+   "date": "2026-10-28",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "0930"
+   }
+  },
   {
    "key": "adani-ports-q2",
    "tag": "Results",
@@ -109,7 +185,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1400"
@@ -133,7 +209,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1300"
@@ -157,7 +233,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-19",
     "slot": "pre"
@@ -329,30 +405,6 @@
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1100"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Brent above $115 again",
-   "line": "Oil rose 1.3% to about $115.4 a barrel after the Saudi refinery attack",
-   "more": [
-    "Higher crude raises India's import bill and inflation risk",
-    "Oil & gas stocks are among today's top sector laggards"
-   ],
-   "src": {
-    "title": "HDFC Sky: Sensex, Nifty slide as crude nears $116 and IT stocks tumble",
-    "url": "https://hdfcsky.com/news/bse-nse-sensex-october-28-2026-open-report-sensex-nifty-crash-after-lower-open-as-oil-it-drag-and-jio-fed-loom"
-   },
-   "date": "2026-10-28",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "0930"
    }
   },
   {
