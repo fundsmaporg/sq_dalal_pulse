@@ -1,86 +1,168 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-28T12:34:36+05:30",
+ "generated_at": "2026-10-28T13:03:02+05:30",
  "date": "2026-10-28",
- "slot": "1230",
- "slot_label": "12:30",
+ "slot": "1300",
+ "slot_label": "13:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-28T12:35:00+05:30",
+ "asof": "2026-10-28T13:05:00+05:30",
  "nifty": {
-  "value": 22600.0,
-  "pct": -0.66,
-  "chg": -149.75,
+  "value": 22700.0,
+  "pct": -0.22,
+  "chg": -49.75,
   "approx": true
  },
  "mood": {
-  "label": "Steady but red",
-  "score": -0.4,
-  "summary": "The market is holding in the red but off its worst levels, with IT and FMCG dragging while autos, led by a results beat, are the only sector in positive territory.",
+  "label": "Recovery builds",
+  "score": -0.2,
+  "summary": "The market has recovered a large part of the morning's slide, with heavyweight L&T and autos offsetting IT, leaving the Nifty only modestly lower.",
   "detail": {
-   "leaders": "Autos: Nifty Auto, Bajaj Auto; Jio Platforms",
-   "laggards": "IT: Nifty IT, Infosys",
-   "tone": "Little changed from 12:00: the Sensex is still down about 600 points with the Nifty near 22,600, holding above the morning low around 22,497.",
+   "leaders": "L&T, Bajaj Auto; Jio Platforms",
+   "laggards": "IT: Infosys, Tech Mahindra, HCL Tech",
+   "tone": "Better than at 12:30: the Sensex has cut its loss to about 500 points and the Nifty is back near 22,700, from a low around 22,497.",
    "watch": [
+    "Whether the Nifty reclaims Tuesday's 22,750 close",
     "US Fed decision at 2 pm ET (late tonight IST)",
-    "Brent above $115 and US-Iran headlines",
-    "Whether IT selling eases into the close"
+    "Brent above $115 and US-Iran headlines"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 28 — Sensex cracks 600 pts, Nifty near 22,600; IT, FMCG top laggards",
+    "title": "Business Standard: Stock Market LIVE Oct 28 — Sensex cracks 500 pts, Nifty near 22,700; IT, FMCG top laggards",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-28-nse-bse-sensex-today-nifty-gift-nifty-us-iran-tension-iran-strikes-brent-crude-ipos-jio-listing-jio-share-price-it-stocks-maruti-share-price-q1-result-today-share-market-today-126102800114_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Autos are the only green sector, helped by Bajaj Auto; Jio holds its debut gains",
-     "why": "Strong Q2 numbers are lifting select auto names, and Jio Platforms' big listing premium is holding.",
+     "summary": "L&T's results beat leads gainers, with Bajaj Auto and Jio's debut also helping",
+     "why": "Strong September-quarter results are drawing buyers into select heavyweights despite the weak backdrop.",
      "names": [
       {
-       "name": "Nifty Auto",
+       "name": "L&T",
        "dir": "up",
-       "move": "+0.3%",
-       "line": "Only sector in the green while the Nifty fell about 1% in the morning"
+       "move": "+3.82% (noon)",
+       "line": "Q2 profit up 33% to ₹5,202 cr; record order inflow of ₹1.47 lakh cr"
       },
       {
        "name": "Bajaj Auto",
        "dir": "up",
+       "move": "+1.67% (noon)",
        "line": "Q2 profit up 35% to ₹3,354 cr on record revenue; exports jumped 41%"
       },
       {
        "name": "Jio Platforms",
        "dir": "up",
        "move": "~+21.7% vs issue",
-       "line": "Near ₹1,362 at 11:52 am after listing at ₹1,358; day's high ₹1,374.5"
+       "line": "Near ₹1,362 late morning after listing at ₹1,358; day's high ₹1,374.5"
       }
      ],
      "src": {
-      "title": "MarketScreener (Reuters): Bajaj Auto gains as export strength, EV growth drive earnings beat",
-      "url": "https://www.marketscreener.com/news/india-s-bajaj-auto-gains-as-export-strength-ev-growth-drive-earnings-beat-ce785cd2d98cff26"
+      "title": "HDFC Sky: Top gainers and losers today, 28 October 2026 at 12 PM",
+      "url": "https://hdfcsky.com/news/top-gainers-and-losers-today-28-october-2026-at-12-pm"
      }
     },
     "down": {
-     "summary": "IT remains the heaviest drag on the indices",
+     "summary": "IT stocks remain the biggest losers among Nifty heavyweights",
      "why": "Worries over the sector's growth outlook, plus caution before the US Fed decision.",
      "names": [
       {
-       "name": "Nifty IT",
-       "dir": "down",
-       "line": "Fell over 3% earlier, wiping about ₹77,000 cr off the 10 index stocks"
-      },
-      {
        "name": "Infosys",
        "dir": "down",
-       "line": "Led IT losses; it cut FY27 revenue guidance to 1–2% last week"
+       "move": "-4.88% (noon)",
+       "line": "Top Nifty loser; it cut FY27 revenue guidance to 1–2% last week"
+      },
+      {
+       "name": "Tech Mahindra",
+       "dir": "down",
+       "move": "-3.23% (noon)",
+       "line": "Among the sharpest IT decliners as the sector sells off"
+      },
+      {
+       "name": "HCL Tech",
+       "dir": "down",
+       "move": "down ~3.3%",
+       "line": "Falls with IT peers on growth-outlook worries"
       }
      ],
      "src": {
-      "title": "Zee Business: IT stocks crash — Nifty IT plunges over 1,000 points, ₹77,000 cr mcap lost",
-      "url": "https://www.zeebiz.com/market-news/news-it-stocks-crash-nifty-it-plunges-over-1000-points-rs-77000-crore-mcap-lost-why-are-infosys-tcs-mphasis-others-falling-404673"
+      "title": "HDFC Sky: Top gainers and losers today, 28 October 2026 at 12 PM",
+      "url": "https://hdfcsky.com/news/top-gainers-and-losers-today-28-october-2026-at-12-pm"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "lt-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "L&T Q2 profit up 33%, record orders",
+   "line": "Record ₹1.47 lakh cr order inflow puts L&T at the top of Nifty gainers",
+   "more": [
+    "Net profit ₹5,202 cr vs ₹3,926 cr; operating revenue up 16% to ₹78,750 cr",
+    "Order inflow up 28%; order book about ₹8.54 lakh cr",
+    "Infrastructure segment inflows fell 13% YoY"
+   ],
+   "src": {
+    "title": "TradingView (Moody's): L&T Q2 profit grows 33% to ₹5,202 crore, sees record order intake",
+    "url": "https://www.tradingview.com/news/moodys:0ac20e23baaa8:0-l-t-q2-profit-grows-33-to-5-202-crore-sees-record-order-intake/"
+   },
+   "date": "2026-10-28",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1300"
+   }
+  },
+  {
+   "key": "it-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "IT losses deepen for Infosys",
+   "line": "Infosys is the top Nifty loser, near ₹1,106, with Tech Mahindra and HCL also down 3%+",
+   "more": [
+    "Infosys down 4.88% at noon; TCS off about 2.6% earlier",
+    "Growth-outlook worries and Fed caution are cited"
+   ],
+   "src": {
+    "title": "NewsDrum: Sensex crashes nearly 700 points, Nifty below 22,600; IT stocks sink",
+    "url": "https://www.newsdrum.in/business/sensex-crashes-nearly-700-points-nifty-below-22600-it-stocks-sink-12759793"
+   },
+   "date": "2026-10-28",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Jio Platforms steady after debut",
+   "line": "Shares hold near ₹1,362, about 22% above the ₹1,119 issue price",
+   "more": [
+    "Intraday range ₹1,357–1,374.5 after a ₹1,358 listing",
+    "Strong debut offers some relief on a weak day"
+   ],
+   "src": {
+    "title": "HDFC Sky: Top gainers and losers today, 28 October 2026 at 12 PM",
+    "url": "https://hdfcsky.com/news/top-gainers-and-losers-today-28-october-2026-at-12-pm"
+   },
+   "date": "2026-10-28",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1130"
+   }
+  },
   {
    "key": "bajaj-auto-q2",
    "tag": "Results",
@@ -100,55 +182,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Jio Platforms holds debut gains",
-   "line": "Shares trade near ₹1,362, about 22% above the ₹1,119 issue price",
-   "more": [
-    "Intraday range ₹1,357–1,374.5 after a ₹1,358 listing",
-    "The debut is the main bright spot on a weak day for the indices"
-   ],
-   "src": {
-    "title": "Trendlyne: Jio Platforms (JPL) live share price",
-    "url": "https://trendlyne.com/equity/3698319/JPL/jio-platforms-ltd/"
-   },
-   "date": "2026-10-28",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "it-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "IT stocks lose ~₹77,000 cr in market value",
-   "line": "The 10 Nifty IT stocks shed about ₹76,871 cr as the index fell over 3%",
-   "more": [
-    "Infosys, Tech Mahindra, HCLTech and TCS fell 3–4.5% each in early trade",
-    "Growth-outlook worries and Fed caution are cited"
-   ],
-   "src": {
-    "title": "Zee Business: IT stocks crash — Nifty IT plunges over 1,000 points, ₹77,000 cr mcap lost",
-    "url": "https://www.zeebiz.com/market-news/news-it-stocks-crash-nifty-it-plunges-over-1000-points-rs-77000-crore-mcap-lost-why-are-infosys-tcs-mphasis-others-falling-404673"
-   },
-   "date": "2026-10-28",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1230"
