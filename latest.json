@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-28T12:04:44+05:30",
+ "generated_at": "2026-10-28T12:34:36+05:30",
  "date": "2026-10-28",
- "slot": "1200",
- "slot_label": "12:00",
+ "slot": "1230",
+ "slot_label": "12:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-28T12:05:00+05:30",
+ "asof": "2026-10-28T12:35:00+05:30",
  "nifty": {
   "value": 22600.0,
   "pct": -0.66,
@@ -13,13 +13,13 @@
   "approx": true
  },
  "mood": {
-  "label": "Off the lows",
-  "score": -0.45,
-  "summary": "Indices have clawed back part of the morning's slide but remain firmly lower, with IT and FMCG still the weakest pockets and autos the only sector in the green.",
+  "label": "Steady but red",
+  "score": -0.4,
+  "summary": "The market is holding in the red but off its worst levels, with IT and FMCG dragging while autos, led by a results beat, are the only sector in positive territory.",
   "detail": {
-   "leaders": "Jio Platforms on debut",
+   "leaders": "Autos: Nifty Auto, Bajaj Auto; Jio Platforms",
    "laggards": "IT: Nifty IT, Infosys",
-   "tone": "Better than at 11:30: the Sensex has trimmed its loss to about 600 points from nearly 1,000, and the Nifty is back near 22,600 after a low around 22,497.",
+   "tone": "Little changed from 12:00: the Sensex is still down about 600 points with the Nifty near 22,600, holding above the morning low around 22,497.",
    "watch": [
     "US Fed decision at 2 pm ET (late tonight IST)",
     "Brent above $115 and US-Iran headlines",
@@ -31,9 +31,20 @@
    },
    "movers": {
     "up": {
-     "summary": "Jio Platforms is holding its strong debut gains",
-     "why": "Heavy IPO demand carried through to a big listing premium for India's largest-ever issue.",
+     "summary": "Autos are the only green sector, helped by Bajaj Auto; Jio holds its debut gains",
+     "why": "Strong Q2 numbers are lifting select auto names, and Jio Platforms' big listing premium is holding.",
      "names": [
+      {
+       "name": "Nifty Auto",
+       "dir": "up",
+       "move": "+0.3%",
+       "line": "Only sector in the green while the Nifty fell about 1% in the morning"
+      },
+      {
+       "name": "Bajaj Auto",
+       "dir": "up",
+       "line": "Q2 profit up 35% to ₹3,354 cr on record revenue; exports jumped 41%"
+      },
       {
        "name": "Jio Platforms",
        "dir": "up",
@@ -42,8 +53,8 @@
       }
      ],
      "src": {
-      "title": "Trendlyne: Jio Platforms (JPL) live share price",
-      "url": "https://trendlyne.com/equity/3698319/JPL/jio-platforms-ltd/"
+      "title": "MarketScreener (Reuters): Bajaj Auto gains as export strength, EV growth drive earnings beat",
+      "url": "https://www.marketscreener.com/news/india-s-bajaj-auto-gains-as-export-strength-ev-growth-drive-earnings-beat-ce785cd2d98cff26"
      }
     },
     "down": {
@@ -62,7 +73,7 @@
       }
      ],
      "src": {
-      "title": "Zee Business: IT stocks crash — Nifty IT plunges over 1,000 points",
+      "title": "Zee Business: IT stocks crash — Nifty IT plunges over 1,000 points, ₹77,000 cr mcap lost",
       "url": "https://www.zeebiz.com/market-news/news-it-stocks-crash-nifty-it-plunges-over-1000-points-rs-77000-crore-mcap-lost-why-are-infosys-tcs-mphasis-others-falling-404673"
      }
     }
@@ -70,6 +81,79 @@
   }
  },
  "insights": [
+  {
+   "key": "bajaj-auto-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Bajaj Auto beats on exports and EVs",
+   "line": "Record revenue and a 35% profit jump make it a rare gainer on a weak day",
+   "more": [
+    "Standalone profit ₹3,354 cr, up 35%; revenue up 34% to ₹20,003 cr",
+    "EBITDA up 37% to ₹4,172 cr; margin 20.9% vs 20.5% a year ago",
+    "Exports up 41%; domestic volumes up 16%"
+   ],
+   "src": {
+    "title": "Free Press Journal: Bajaj Auto Q2 net profit jumps 35% to ₹3,354 cr, revenue beats estimates",
+    "url": "https://www.freepressjournal.in/business/bajaj-auto-q2-results-net-profit-jumps-35-to-3354-crore-as-revenue-beats-street-estimates"
+   },
+   "date": "2026-10-28",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Jio Platforms holds debut gains",
+   "line": "Shares trade near ₹1,362, about 22% above the ₹1,119 issue price",
+   "more": [
+    "Intraday range ₹1,357–1,374.5 after a ₹1,358 listing",
+    "The debut is the main bright spot on a weak day for the indices"
+   ],
+   "src": {
+    "title": "Trendlyne: Jio Platforms (JPL) live share price",
+    "url": "https://trendlyne.com/equity/3698319/JPL/jio-platforms-ltd/"
+   },
+   "date": "2026-10-28",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "it-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "IT stocks lose ~₹77,000 cr in market value",
+   "line": "The 10 Nifty IT stocks shed about ₹76,871 cr as the index fell over 3%",
+   "more": [
+    "Infosys, Tech Mahindra, HCLTech and TCS fell 3–4.5% each in early trade",
+    "Growth-outlook worries and Fed caution are cited"
+   ],
+   "src": {
+    "title": "Zee Business: IT stocks crash — Nifty IT plunges over 1,000 points, ₹77,000 cr mcap lost",
+    "url": "https://www.zeebiz.com/market-news/news-it-stocks-crash-nifty-it-plunges-over-1000-points-rs-77000-crore-mcap-lost-why-are-infosys-tcs-mphasis-others-falling-404673"
+   },
+   "date": "2026-10-28",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1230"
+   }
+  },
   {
    "key": "asia-markets",
    "tag": "Global",
@@ -88,7 +172,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "pre"
@@ -112,7 +196,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1130"
@@ -136,7 +220,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1200"
@@ -188,31 +272,6 @@
    "first_seen": {
     "date": "2026-10-19",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Jio Platforms lists 21% above issue price",
-   "line": "India's largest IPO debuts at ₹1,358 on BSE and NSE versus ₹1,119 issue price",
-   "more": [
-    "Allottees gained about ₹2,868 per lot at the listing price",
-    "Shares traded near ₹1,357 on NSE shortly after 10 am",
-    "Elara initiated coverage with Buy and a ₹1,367 target"
-   ],
-   "src": {
-    "title": "Upstox: Jio Platforms IPO listing live updates",
-    "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-listing-live-updates-share-price-nse-bse-reliance-industries-subsidiary-october-28-2026/liveblog-202492/"
-   },
-   "date": "2026-10-28",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1130"
    }
   },
   {
