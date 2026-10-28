@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-28T15:03:10+05:30",
+ "generated_at": "2026-10-28T15:33:39+05:30",
  "date": "2026-10-28",
- "slot": "1500",
- "slot_label": "15:00",
+ "slot": "1530",
+ "slot_label": "15:30",
  "stage": "Closing mood",
- "asof": "2026-10-28T15:00:00+05:30",
+ "asof": "2026-10-28T15:30:00+05:30",
  "nifty": {
   "value": 22700,
   "pct": -0.22,
@@ -13,54 +13,54 @@
   "approx": true
  },
  "mood": {
-  "label": "Sideways, mildly red",
-  "score": -0.2,
-  "summary": "Into the last half-hour the market is range-bound and mildly red, holding well above the morning low as IT weighs and results-led stocks set the action.",
+  "label": "Recovers, still red",
+  "score": -0.15,
+  "summary": "The session ends mildly lower after a sharp morning slide and steady recovery; the Nifty finishes the day near 22,700, far above its 22,498 low, as IT weakness offsets results-led gains.",
   "detail": {
-   "leaders": "L&T, Bajaj Auto, Vedanta",
+   "leaders": "L&T, Jio Platforms, Bajaj Auto",
    "laggards": "Nifty IT, Infosys, HUL",
-   "tone": "Unchanged from 14:30: no fresh print shows a break from the ~22,700 area as traders wait for the Fed and evening results.",
+   "tone": "Steady into the close: the Sensex was about 332 points lower before the closing auction, much as at 15:00, with the afternoon recovery holding.",
    "watch": [
-    "Brent holding above $115 after the Saudi refinery strike",
-    "US Fed decision tonight",
-    "Results still due: TVS Motor, Pidilite"
+    "US Fed decision overnight",
+    "Brent staying above $115",
+    "Thursday reaction to HUL, Adani Ent, Hyundai and TVS results"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex off lows, down 300 pts; Nifty near 22,700 — Business Standard",
+    "title": "Stock Market LIVE: Sensex pre-CAS close 332 pts lower; Nifty atop 22,700 — Business Standard",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-28-nse-bse-sensex-today-nifty-gift-nifty-us-iran-tension-iran-strikes-brent-crude-ipos-jio-listing-jio-share-price-it-stocks-maruti-share-price-q1-result-today-share-market-today-126102800114_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Results-led gainers L&T, Bajaj Auto and Vedanta keep the index off its lows",
-     "why": "Strong September-quarter numbers are drawing buyers to select heavyweights despite the risk-off backdrop.",
+     "summary": "L&T led Nifty gainers, Jio Platforms extended its debut gains and Bajaj Auto held up",
+     "why": "Strong results and a well-received mega listing gave buyers reasons to step in after the morning sell-off.",
      "names": [
       {
        "name": "Larsen & Toubro",
        "dir": "up",
-       "move": "+3.8% (midday)",
-       "line": "Q2 profit up 33% with record order inflow"
+       "move": "+4.01% (1:20 pm)",
+       "line": "Top Nifty gainer at ₹3,812 after record Q2 order inflow"
+      },
+      {
+       "name": "Jio Platforms",
+       "dir": "up",
+       "move": "+4.24% vs listing (3:02 pm)",
+       "line": "Built on its 21% debut premium; m-cap above ₹13 lakh cr"
       },
       {
        "name": "Bajaj Auto",
        "dir": "up",
        "move": "+1.67% (midday)",
        "line": "Standalone Q2 profit rose 35%"
-      },
-      {
-       "name": "Vedanta",
-       "dir": "up",
-       "move": "+1.99% (2:20 pm)",
-       "line": "Record Q2 EBITDA, net debt down; ₹5 interim dividend"
       }
      ],
      "src": {
-      "title": "Top Gainers and Losers Today, 28 October 2026 at 12:00 PM — HDFC Sky",
-      "url": "https://hdfcsky.com/news/top-gainers-and-losers-today-28-october-2026-at-12-pm"
+      "title": "Sensex recovers over 700 pts; what's keeping markets on edge? — Zee Business",
+      "url": "https://www.zeebiz.com/market-news/news-sensex-recovers-over-700-pts-nifty-above-24700-whats-keeping-markets-on-edge-404702"
      }
     },
     "down": {
-     "summary": "IT stays the main drag, with Infosys the worst Nifty stock; HUL slips post-results",
-     "why": "IT is extending its selloff after Infosys' guidance cut, and HUL's flat reported profit disappointed.",
+     "summary": "IT was the main drag all session, led by Infosys; HUL slipped after results",
+     "why": "IT kept pricing in Infosys' guidance cut, and HUL's flat reported profit disappointed.",
      "names": [
       {
        "name": "Nifty IT",
@@ -91,6 +91,82 @@
  },
  "insights": [
   {
+   "key": "tvs-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "TVS Motor profit up 52%, beats estimates",
+   "line": "Q2 profit ₹1,377 cr on 44% revenue growth; board approves a demerger",
+   "more": [
+    "Revenue ₹17,103 cr vs year-ago base",
+    "Beat the ~₹1,318 cr profit estimate",
+    "Board approved demerger of consumer finance business",
+    "Another report puts profit at ₹1,194.5 cr on a different basis"
+   ],
+   "src": {
+    "title": "TVS Motor Q2 Results: PAT rises 52% to Rs 1,377 crore, beats estimates — Zee Business",
+    "url": "https://www.zeebiz.com/companies/news-tvs-motor-q2-results-pat-rises-52-to-rs-1377-crore-revenue-up-44-beats-estimates-404710"
+   },
+   "date": "2026-10-28",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1530"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Jio Platforms extends debut gains",
+   "line": "Shares up ~4% from the ₹1,358 listing price late in the session",
+   "more": [
+    "Traded at ₹1,413.80 at 3:02 pm",
+    "Market cap crossed ₹13 lakh cr",
+    "Listed at a 21.36% premium to the ₹1,119 issue price"
+   ],
+   "src": {
+    "title": "Jio Platforms IPO listing live: stock climbs 4% after 21% premium listing — Upstox",
+    "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-listing-live-updates-share-price-nse-bse-reliance-industries-subsidiary-october-28-2026/liveblog-202492/"
+   },
+   "date": "2026-10-28",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Heavy results day sets up Thursday",
+   "line": "HUL, Vedanta, Adani Ent, Hyundai and TVS are out; Pidilite yet to report",
+   "more": [
+    "HUL and Hyundai disappointed; Vedanta posted a record, TVS beat",
+    "Adani Ent profit fell 55% on a high one-off base",
+    "Full reactions to post-market numbers come Thursday"
+   ],
+   "src": {
+    "title": "Vedanta, Adani Ports, Hyundai Motor, and 9 other stocks announcing Q2 results today — Trade Brains",
+    "url": "https://tradebrains.in/indian-markets/vedanta-adani-ports-hyundai-motor-and-9-other-stocks-announcing-q2-results-today-12757576"
+   },
+   "date": "2026-10-28",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-19",
+    "slot": "pre"
+   }
+  },
+  {
    "key": "adani-ent-q2",
    "tag": "Results",
    "impact": "watch",
@@ -110,7 +186,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1500"
@@ -135,35 +211,10 @@
    "slot": "1500",
    "when": "15:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1500"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Results day: TVS Motor, Pidilite still due",
-   "line": "HUL, Vedanta, Adani Ports, Adani Ent and Hyundai are out; two heavyweights remain",
-   "more": [
-    "TVS Motor profit seen up ~45% to about ₹1,318 cr (Zee Business preview)",
-    "Pidilite closed Tuesday at ₹1,451.90",
-    "Reactions will play out in Thursday's session"
-   ],
-   "src": {
-    "title": "Vedanta, Adani Ports, Hyundai Motor, and 9 other stocks announcing Q2 results today — Trade Brains",
-    "url": "https://tradebrains.in/indian-markets/vedanta-adani-ports-hyundai-motor-and-9-other-stocks-announcing-q2-results-today-12757576"
-   },
-   "date": "2026-10-28",
-   "slot": "1500",
-   "when": "15:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "pre"
    }
   },
   {
@@ -361,30 +412,6 @@
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Jio Platforms steady after debut",
-   "line": "Shares hold near ₹1,362, about 22% above the ₹1,119 issue price",
-   "more": [
-    "Intraday range ₹1,357–1,374.5 after a ₹1,358 listing",
-    "Strong debut offers some relief on a weak day"
-   ],
-   "src": {
-    "title": "HDFC Sky: Top gainers and losers today, 28 October 2026 at 12 PM",
-    "url": "https://hdfcsky.com/news/top-gainers-and-losers-today-28-october-2026-at-12-pm"
-   },
-   "date": "2026-10-28",
-   "slot": "1300",
-   "when": "13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-19",
-    "slot": "1130"
    }
   },
   {
