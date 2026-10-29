@@ -1,28 +1,28 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-29T12:03:48+05:30",
+ "generated_at": "2026-10-29T12:35:30+05:30",
  "date": "2026-10-29",
- "slot": "1200",
- "slot_label": "12:00",
+ "slot": "1230",
+ "slot_label": "12:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-29T12:00:00+05:30",
+ "asof": "2026-10-29T12:30:00+05:30",
  "nifty": {
-  "value": 22800,
-  "pct": 0.45,
-  "chg": 101.15,
+  "value": 22863,
+  "pct": 0.71,
+  "chg": 164.15,
   "approx": true
  },
  "mood": {
-  "label": "Gains hold firm",
-  "score": 0.35,
-  "summary": "Indian equities are holding a gain of roughly 0.7% into midday, outperforming a weak Asia, with IT and PSU banks still leading and autos, cement and chemicals lagging.",
+  "label": "Rally extends",
+  "score": 0.45,
+  "summary": "The rally has extended past midday with the Sensex up about 600 points; FMCG has taken the lead alongside PSU banks and IT, while autos, cement and chemicals still lag.",
   "detail": {
-   "leaders": "Nifty IT, PSU Bank, Realty",
+   "leaders": "Nifty FMCG, PSU Bank, IT; ITC, United Spirits, Dabur",
    "laggards": "Nifty Auto, Cement, Chemicals",
-   "tone": "Little changed from 11:30: the latest reported level has the Sensex about 500 points higher near 73,750, with the Nifty above 22,800.",
+   "tone": "Firmer than 12:00: the Sensex was up about 608 points at 73,854 at 12:17 pm and the Nifty 0.71% higher at 22,863, both near the day's best.",
    "watch": [
-    "Afternoon results: Coal India, Asian Paints, IndiGo, Trent",
-    "Whether Asia's tech sell-off spreads",
+    "Coal India, Asian Paints, IndiGo results after the close",
+    "Reliance Q2 on Friday",
     "Brent moves on US-Iran talks"
    ],
    "src": {
@@ -32,6 +32,79 @@
   }
  },
  "insights": [
+  {
+   "key": "reliance-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Reliance Q2 results on Friday",
+   "line": "First numbers since the Jio listing; board will also weigh an NCD fundraise",
+   "more": [
+    "RIL shares fell ~2% after the Jio Platforms debut",
+    "Year-ago Q2 profit was ₹18,165 cr on ₹2.59 lakh cr revenue",
+    "No preliminary figures disclosed"
+   ],
+   "src": {
+    "title": "Reliance Industries sets October 30 for Q2 FY27 results; NCD fundraise on agenda — Upstox",
+    "url": "https://upstox.com/news/market-news/earnings/reliance-industries-sets-october-30-for-q2-fy-27-results-ncd-fundraise-on-board-agenda/article-202491/"
+   },
+   "date": "2026-10-29",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "coal-india-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Coal India revenue seen up ~45%",
+   "line": "Zee Business estimates Q2 revenue at ₹43,746 cr alongside a 52% profit rise",
+   "more": [
+    "Profit estimate ₹6,639 cr vs ₹4,354 cr a year ago",
+    "Year-ago second interim dividend was ₹10.25/share"
+   ],
+   "src": {
+    "title": "Coal India Q2FY27 Preview: profit may rise 52% YoY — Zee Business",
+    "url": "https://www.zeebiz.com/companies/news-coal-india-q2fy27-preview-maharatna-psus-profit-may-rise-52-yoy-board-to-consider-interim-dividend-404728"
+   },
+   "date": "2026-10-29",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "subros-maruti-order",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Subros wins ₹1,225 cr Maruti HVAC order",
+   "line": "Seven-year supply deal sent the auto-parts maker up ~10% intraday Wednesday",
+   "more": [
+    "Stock hit ₹678.80 intraday on the filing",
+    "Still down about 45% over the past year"
+   ],
+   "src": {
+    "title": "Subros shares surge 10% on Rs 1,225 crore Maruti order — Archyde",
+    "url": "https://www.archyde.com/subros-shares-surge-10-on-rs-1225-crore-maruti-order/"
+   },
+   "date": "2026-10-29",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1230"
+   }
+  },
   {
    "key": "asia-markets",
    "tag": "Global",
@@ -51,7 +124,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "pre"
@@ -76,7 +149,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1200"
@@ -101,34 +174,10 @@
    "slot": "1200",
    "when": "12:00",
    "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "coal-india-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Coal India reports today; profit seen up 52%",
-   "line": "Zee Business sees Q2 profit at ₹6,639 cr vs ₹4,354 cr; interim dividend on agenda",
-   "more": [
-    "Board to consider a second interim dividend",
-    "Estimates only; actual numbers due later today"
-   ],
-   "src": {
-    "title": "Coal India Q2FY27 Preview: profit may rise 52% YoY; board to consider interim dividend — Zee Business",
-    "url": "https://www.zeebiz.com/companies/news-coal-india-q2fy27-preview-maharatna-psus-profit-may-rise-52-yoy-board-to-consider-interim-dividend-404728"
-   },
-   "date": "2026-10-29",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
-    "slot": "1130"
+    "slot": "1200"
    }
   },
   {
