@@ -1,37 +1,156 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-29T14:03:40+05:30",
+ "generated_at": "2026-10-29T14:34:10+05:30",
  "date": "2026-10-29",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-29T14:00:00+05:30",
+ "asof": "2026-10-29T14:30:00+05:30",
  "nifty": {
-  "value": 22835,
-  "pct": 0.6,
-  "chg": 136,
+  "value": 22871,
+  "pct": 0.76,
+  "chg": 172,
   "approx": true
  },
  "mood": {
-  "label": "Gains hold firm",
-  "score": 0.35,
-  "summary": "The market is holding a gain of about 0.6–0.7% into the last ninety minutes, with FMCG and PSU banks still in front and results-day names mixed ahead of their numbers.",
+  "label": "Broad rally",
+  "score": 0.5,
+  "summary": "The rally has firmed again into mid-afternoon, with the Sensex up about 645 points and India VIX down 4%; every sector except autos is higher, led by FMCG.",
   "detail": {
-   "leaders": "Nifty FMCG, PSU Bank, IT",
-   "laggards": "Nifty Auto; Trent, Asian Paints ahead of results",
-   "tone": "No change from 13:30: the latest reported print still has the Sensex about 530 points higher near 73,777 and the Nifty near 22,835.",
+   "leaders": "Adani Ports, Hyundai",
+   "laggards": "Asian Paints, Trent",
+   "tone": "Stronger than 14:00: the Sensex has pushed to about 73,891 and the Nifty to 22,871, near the 22,874 intraday high.",
    "watch": [
-    "Results after the close: Coal India, Asian Paints, IndiGo, Trent",
-    "Whether Nifty holds 22,800 into the close",
+    "Coal India, IndiGo, Trent numbers after the bell",
+    "Whether gains hold into the close",
     "Reliance Q2 on Friday"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex surges 500 points, Nifty 50 tops 22,800; PSU Bank, FMCG lead — Business Standard",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
+    "title": "Stock Market Rally: Sensex jumps 645 points, Nifty nears 22,900, here are 6 reasons — Free Press Journal",
+    "url": "https://www.freepressjournal.in/business/stock-market-rally-sensex-jumps-645-points-nifty-nears-22900-as-investors-gain-3-lakh-crore-here-are-6-reasons"
+   },
+   "movers": {
+    "up": {
+     "summary": "Adani Ports leads Sensex gainers; Hyundai rallies as brokers back its model cycle",
+     "why": "Post-results buying in names where brokers turned or stayed bullish is adding to a broad, Fed-relief rally.",
+     "names": [
+      {
+       "name": "Adani Ports",
+       "dir": "up",
+       "move": "+3.91% (noon)",
+       "line": "Raised FY27 guidance after Q2 profit grew ~18%"
+      },
+      {
+       "name": "Hyundai Motor India",
+       "dir": "up",
+       "move": "+4.18% (9:30 am)",
+       "line": "Morgan Stanley, CLSA, Nomura stay bullish despite a 24% profit drop"
+      }
+     ],
+     "src": {
+      "title": "Top Gainers and Losers Today, 29 October 2026 at 12:00 PM IST — HDFC Sky",
+      "url": "https://hdfcsky.com/news/top-gainers-and-top-losers-today-29-october-2026-at-12-pm"
+     }
+    },
+    "down": {
+     "summary": "Asian Paints slips after a margin-hit quarter; Trent the top Nifty loser before results",
+     "why": "Results-day caution: one name disappointed on margins, another is being sold ahead of its numbers.",
+     "names": [
+      {
+       "name": "Asian Paints",
+       "dir": "down",
+       "line": "Profit up just 7.5% as raw-material inflation squeezed margins"
+      },
+      {
+       "name": "Trent",
+       "dir": "down",
+       "move": "−2.33% (noon)",
+       "line": "Steepest Nifty decline at noon, with Q2 results due today"
+      }
+     ],
+     "src": {
+      "title": "Asian Paints Q2 net profit rises 7.5% to Rs 1,067.6 cr — Whalesbook",
+      "url": "https://www.whalesbook.com/corporate-news/English/consumer-products/Asian-Paints-Q2-Net-Profit-Rises-75percent-to-Rs-10676-Cr/6ae30541c6c6dccbb90adb84"
+     }
+    }
    }
   }
  },
  "insights": [
+  {
+   "key": "ltcg-tax-relief",
+   "tag": "Policy",
+   "impact": "pos",
+   "title": "Hopes of capital gains tax relief lift mood",
+   "line": "Possible LTCG and STT changes cited as a rally driver; Jefferies sees FPI return",
+   "more": [
+    "Jefferies: LTCG relief could bring foreign investors back",
+    "Cited alongside renewed foreign buying",
+    "No official announcement yet"
+   ],
+   "src": {
+    "title": "Stock Market Rally: Sensex jumps 645 points, Nifty nears 22,900, here are 6 reasons — Free Press Journal",
+    "url": "https://www.freepressjournal.in/business/stock-market-rally-sensex-jumps-645-points-nifty-nears-22900-as-investors-gain-3-lakh-crore-here-are-6-reasons"
+   },
+   "date": "2026-10-29",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "US 10-year yield slips below 5%",
+   "line": "Treasury yields eased after the Fed hold, cited as one driver of the rally",
+   "more": [
+    "Two-year yield fell to 4.69%",
+    "Fed kept rates at 3.75–4%; India VIX down ~4%"
+   ],
+   "src": {
+    "title": "Stock Market Rally Today: why Sensex jumps 617 pts, Nifty climbs 175 pts on October 29 — Goodreturns",
+    "url": "https://www.goodreturns.in/news/stock-market-rally-today-why-sensex-jumps-617-pts-nifty-climbs-175-pts-october-29-how-fed-rates-1543837.html"
+   },
+   "date": "2026-10-29",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-22",
+    "slot": "1500"
+   }
+  },
+  {
+   "key": "asian-paints-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Asian Paints profit up 7.5%, below estimate",
+   "line": "Profit ₹1,067.6 cr vs ~₹1,115 cr expected as input costs ate into margins",
+   "more": [
+    "Consolidated sales up 16.9% to ₹9,953.9 cr",
+    "Standalone PBDIT margin 17.1%",
+    "Interim dividend ₹5.75; record date Nov 4"
+   ],
+   "src": {
+    "title": "Asian Paints Q2 net profit rises 7.5% to Rs 1,067.6 cr — Whalesbook",
+    "url": "https://www.whalesbook.com/corporate-news/English/consumer-products/Asian-Paints-Q2-Net-Profit-Rises-75percent-to-Rs-10676-Cr/6ae30541c6c6dccbb90adb84"
+   },
+   "date": "2026-10-29",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1030"
+   }
+  },
   {
    "key": "coal-india-q2",
    "tag": "Results",
@@ -52,7 +171,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1130"
@@ -76,7 +195,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1400"
@@ -101,7 +220,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "pre"
@@ -453,31 +572,6 @@
    "first_seen": {
     "date": "2026-10-21",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "asian-paints-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Asian Paints reports today; margin squeeze seen",
-   "line": "Profit seen up ~9.5% to ₹1,115 cr, but input costs may cut margin to ~17%",
-   "more": [
-    "Revenue estimate about ₹9,662 cr, up ~13%",
-    "~7% price hikes support sales",
-    "Interim dividend on agenda; record date Nov 4"
-   ],
-   "src": {
-    "title": "Asian Paints Q2 Results Preview: PAT likely to rise nearly 10% — Zee Business",
-    "url": "https://www.zeebiz.com/companies/news-asian-paints-q2-fy27-results-preview-profit-sales-margin-estimates-share-price-404207/amp"
-   },
-   "date": "2026-10-29",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1030"
    }
   },
   {
@@ -1329,30 +1423,6 @@
    "first_seen": {
     "date": "2026-10-22",
     "slot": "1530"
-   }
-  },
-  {
-   "key": "us-yields",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "High US bond yields add to pressure",
-   "line": "Analysts cite elevated US yields alongside rising oil and weak Asian markets.",
-   "more": [
-    "Asian markets fell on concerns over the AI trade",
-    "Brent remains near $110"
-   ],
-   "src": {
-    "title": "Sunday Guardian: Nifty opens below 22,700, Sensex drops 366 points — key reasons behind today's fall",
-    "url": "https://sundayguardianlive.com/business/sensex-today-nifty-50-indian-stock-market-live-nifty-opens-below-22700-sensex-drops-over-366-points-amid-rising-oil-prices-and-weak-asian-markets-know-the-key-reasons-behind-todays-market-fal-310070/"
-   },
-   "date": "2026-10-22",
-   "slot": "1500",
-   "when": "Thu · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1500"
    }
   },
   {
