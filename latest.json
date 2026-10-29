@@ -1,37 +1,111 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-29T10:33:42+05:30",
+ "generated_at": "2026-10-29T11:03:32+05:30",
  "date": "2026-10-29",
- "slot": "1030",
- "slot_label": "10:30",
+ "slot": "1100",
+ "slot_label": "11:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-29T10:30:00+05:30",
+ "asof": "2026-10-29T11:00:00+05:30",
  "nifty": {
-  "value": 22750,
-  "pct": 0.23,
-  "chg": 51.15,
+  "value": 22800,
+  "pct": 0.45,
+  "chg": 101.15,
   "approx": true
  },
  "mood": {
-  "label": "Bounce holds",
-  "score": 0.25,
-  "summary": "Gains hold through mid-morning with the Sensex up about 350 points; IT, PSU banks and realty lead while cement, auto and chemicals drag and broader markets lag.",
+  "label": "Rally builds",
+  "score": 0.4,
+  "summary": "The rally has gathered pace into late morning, with the Sensex up more than 550 points; IT, PSU banks, realty and FMCG lead while auto, cement and chemicals lag.",
   "detail": {
-   "leaders": "Nifty IT, PSU Bank, Realty; Jio Platforms, Adani Ports",
-   "laggards": "Nifty Cement, Auto, Chemicals; smallcaps flat",
-   "tone": "Firmer than 10:00: the Sensex has climbed to about 73,599, roughly erasing Wednesday's 353-point loss, while midcaps edge up and smallcaps go nowhere.",
+   "leaders": "Nifty IT, PSU Bank, Realty, FMCG",
+   "laggards": "Nifty Auto, Cement, Chemicals",
+   "tone": "Stronger than 10:30: the Sensex has moved from about +350 to over +550 points at 73,862, more than reversing Wednesday's loss.",
    "watch": [
-    "Whether the Nifty can clear 22,800",
-    "Asian Paints, Coal India, IndiGo, Trent results",
-    "US tech after Alphabet's after-hours slide"
+    "Whether gains hold above Nifty 22,800",
+    "Brent swings on US-Iran talks",
+    "Results today: Asian Paints, Coal India, IndiGo, Trent"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex up over 200 pts, Nifty 50 near 22,800; PSU Bank, FMCG stocks gain — Business Standard",
+    "title": "Stock Market LIVE: Sensex up over 550 pts, Nifty 50 over 22,800; PSU Bank, FMCG stocks gain — Business Standard",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Brent eases on US-Iran peace-talk hopes",
+   "line": "Brent fell ~0.7% to about $114.50 as Vance sought to revive Iran negotiations",
+   "more": [
+    "WTI down ~1% near $101.7–101.9",
+    "Follows Wednesday's rally on US strike reports",
+    "Houthi attacks on Saudi infrastructure continue"
+   ],
+   "src": {
+    "title": "Brent $114.50, WTI $101.90 fall amid US-Iran peace talks — NewsBytes",
+    "url": "https://www.newsbytesapp.com/news/business/brent-11450-wti-10190-fall-amid-us-iran-peace-talks/tldr"
+   },
+   "date": "2026-10-29",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-20",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee opens 5 paise stronger at 95.17",
+   "line": "Rupee firmed slightly at the open versus Wednesday's 95.22 close",
+   "more": [
+    "Reports differ on Wednesday's close (95.22 vs 95.28)",
+    "Opening level reported in Business Standard live blog at 9:03 am"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex up over 550 pts, Nifty 50 over 22,800; PSU Bank, FMCG stocks gain — Business Standard",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
+   },
+   "date": "2026-10-29",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "trent-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Trent reports Q2 today after strong update",
+   "line": "Its October update showed 22.5% revenue growth, which sent the stock up 12%",
+   "more": [
+    "Growth beat the 18.5% consensus estimate",
+    "Fastest growth in six quarters, per Bernstein",
+    "Stock closed at ₹2,900 on the update day"
+   ],
+   "src": {
+    "title": "Trent emerges Nifty superstar with 12% gain after strong Q2 update — Business Standard",
+    "url": "https://www.business-standard.com/markets/news/trent-emerges-nifty-superstar-with-12-gain-after-strong-q2-update-126100601225_1.html"
+   },
+   "date": "2026-10-29",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1100"
+   }
+  },
   {
    "key": "jio-ipo",
    "tag": "Listing",
@@ -50,7 +124,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-20",
     "slot": "pre"
@@ -75,7 +149,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1030"
@@ -99,7 +173,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "pre"
@@ -200,30 +274,6 @@
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1530"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent slips but holds near $114",
-   "line": "Oil eased below $115 overnight while West Asia tensions keep it elevated",
-   "more": [
-    "Asian markets turned mixed",
-    "Brent quoted around $114 before the open"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: GIFT Nifty down over 50 pts; Asia mixed; Brent at $114 — Business Standard",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
-   },
-   "date": "2026-10-29",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-20",
-    "slot": "pre"
    }
   },
   {
@@ -860,30 +910,6 @@
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1300"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "Rupee edges up to 94.79 at open",
-   "line": "A 3-paise gain at the open follows a 43-paise slide on Thursday",
-   "more": [
-    "Opened at 94.79 against the US dollar",
-    "Oil near $115 keeps pressure on the currency"
-   ],
-   "src": {
-    "title": "NewsBytes: Indian rupee opens at ₹94.79 against US dollar amid volatility",
-    "url": "https://www.newsbytesapp.com/news/business/indian-rupee-opens-at-rs9479-against-us-dollar-amid-volatility/tldr"
-   },
-   "date": "2026-10-23",
-   "slot": "1200",
-   "when": "Fri · 12:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1200"
    }
   },
   {
