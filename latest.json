@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-29T11:03:32+05:30",
+ "generated_at": "2026-10-29T11:33:52+05:30",
  "date": "2026-10-29",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-29T11:00:00+05:30",
+ "asof": "2026-10-29T11:30:00+05:30",
  "nifty": {
   "value": 22800,
   "pct": 0.45,
@@ -13,25 +13,98 @@
   "approx": true
  },
  "mood": {
-  "label": "Rally builds",
+  "label": "Gains hold firm",
   "score": 0.4,
-  "summary": "The rally has gathered pace into late morning, with the Sensex up more than 550 points; IT, PSU banks, realty and FMCG lead while auto, cement and chemicals lag.",
+  "summary": "Gains are holding near the day's highs, with the Sensex up around 500–600 points; broad sector participation, led by IT, PSU banks and realty, keeps the tone firm.",
   "detail": {
-   "leaders": "Nifty IT, PSU Bank, Realty, FMCG",
-   "laggards": "Nifty Auto, Cement, Chemicals",
-   "tone": "Stronger than 10:30: the Sensex has moved from about +350 to over +550 points at 73,862, more than reversing Wednesday's loss.",
+   "leaders": "Nifty IT, PSU Bank, Realty; Adani Ports",
+   "laggards": "Nifty Chemicals, Cement, Auto",
+   "tone": "Steady versus 11:00: the Sensex was about 506 points higher at 73,752 around 11 am, just below its 73,862 high, holding near the top of the range.",
    "watch": [
-    "Whether gains hold above Nifty 22,800",
-    "Brent swings on US-Iran talks",
-    "Results today: Asian Paints, Coal India, IndiGo, Trent"
+    "Coal India and Asian Paints numbers this afternoon",
+    "Whether Nifty holds above 22,800",
+    "Brent moves on US-Iran talks"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex up over 550 pts, Nifty 50 over 22,800; PSU Bank, FMCG stocks gain — Business Standard",
+    "title": "Stock Market LIVE: Sensex surges 500 points, Nifty 50 tops 22,800; PSU Bank, FMCG lead — Business Standard",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "coal-india-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Coal India reports today; profit seen up 52%",
+   "line": "Zee Business sees Q2 profit at ₹6,639 cr vs ₹4,354 cr; interim dividend on agenda",
+   "more": [
+    "Board to consider a second interim dividend",
+    "Estimates only; actual numbers due later today"
+   ],
+   "src": {
+    "title": "Coal India Q2FY27 Preview: profit may rise 52% YoY; board to consider interim dividend — Zee Business",
+    "url": "https://www.zeebiz.com/companies/news-coal-india-q2fy27-preview-maharatna-psus-profit-may-rise-52-yoy-board-to-consider-interim-dividend-404728"
+   },
+   "date": "2026-10-29",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "bccl-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Bharat Coking Coal swings to profit",
+   "line": "Coal India arm earned ₹123.7 cr vs a ₹53 cr loss; shares jumped 5%",
+   "more": [
+    "Revenue up 39% to ₹4,412.6 cr",
+    "Offtake volumes rose nearly 10% YoY",
+    "Half-year profit still lower at ₹55.7 cr"
+   ],
+   "src": {
+    "title": "Bharat Coking Coal shares jump 5% after Q2 profit rises to ₹123.7 crore — Kotak Neo",
+    "url": "https://www.kotakneo.com/news/stocks/bharat-coking-coal-shares-q2-results-profit-revenue-growth/"
+   },
+   "date": "2026-10-29",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "adani-ports-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Adani Ports tops Nifty gainers, up 2.3%",
+   "line": "Day after its ~18% Q2 profit rise and raised FY27 guidance",
+   "more": [
+    "Rose 2.31% in morning trade",
+    "Revenue grew 24% in the quarter"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex surges 500 points, Nifty 50 tops 22,800; PSU Bank, FMCG lead — Business Standard",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
+   },
+   "date": "2026-10-29",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1400"
+   }
+  },
   {
    "key": "crude",
    "tag": "Global",
@@ -51,7 +124,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-20",
     "slot": "pre"
@@ -75,7 +148,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "1200"
@@ -100,7 +173,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1100"
@@ -177,31 +250,6 @@
    "first_seen": {
     "date": "2026-10-29",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "adani-ports-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Adani Ports leads early Sensex gainers",
-   "line": "Opens as a top gainer after Q2 profit rose ~18% and FY27 guidance was raised",
-   "more": [
-    "Profit ₹3,682 cr in BS report (₹3,622 cr per Upstox)",
-    "Revenue up 24% year on year",
-    "FY27 EBITDA guidance ₹26,000–27,000 cr"
-   ],
-   "src": {
-    "title": "Adani Ports Q2 profit rises 18% to ₹3,682 crore, raises FY27 guidance — Business Standard",
-    "url": "https://www.business-standard.com/companies/quarterly-results/adani-ports-q2-profit-rises-18-to-3-682-crore-raises-fy27-guidance-126102801519_1.html"
-   },
-   "date": "2026-10-29",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1400"
    }
   },
   {
