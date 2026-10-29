@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-29T14:34:10+05:30",
+ "generated_at": "2026-10-29T15:04:05+05:30",
  "date": "2026-10-29",
- "slot": "1430",
- "slot_label": "14:30",
- "stage": "Mid-market mood",
- "asof": "2026-10-29T14:30:00+05:30",
+ "slot": "1500",
+ "slot_label": "15:00",
+ "stage": "Closing mood",
+ "asof": "2026-10-29T15:00:00+05:30",
  "nifty": {
   "value": 22871,
   "pct": 0.76,
@@ -13,16 +13,16 @@
   "approx": true
  },
  "mood": {
-  "label": "Broad rally",
-  "score": 0.5,
-  "summary": "The rally has firmed again into mid-afternoon, with the Sensex up about 645 points and India VIX down 4%; every sector except autos is higher, led by FMCG.",
+  "label": "Rally holds",
+  "score": 0.45,
+  "summary": "Gains are holding into the final half-hour, the Nifty near 22,850–22,870 with FMCG and consumer discretionary leading; autos remain the lone weak sector.",
   "detail": {
    "leaders": "Adani Ports, Hyundai",
    "laggards": "Asian Paints, Trent",
-   "tone": "Stronger than 14:00: the Sensex has pushed to about 73,891 and the Nifty to 22,871, near the 22,874 intraday high.",
+   "tone": "Little changed from 14:30: the latest prints have the Sensex around 73,820–73,890 and the Nifty around 22,850–22,870, near the 22,874 high.",
    "watch": [
+    "Closing auction: whether 22,850 holds",
     "Coal India, IndiGo, Trent numbers after the bell",
-    "Whether gains hold into the close",
     "Reliance Q2 on Friday"
    ],
    "src": {
@@ -78,6 +78,79 @@
  },
  "insights": [
   {
+   "key": "coal-india-capex",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Coal India H1 capex up 27%, beats target",
+   "line": "₹7,966 cr spent in H1, 109% of plan, ahead of tonight's Q2 numbers",
+   "more": [
+    "Annual capex target ₹16,500 cr; 48% done",
+    "Mine infrastructure ₹2,152 cr, land ₹2,033 cr",
+    "Q2 coal supplies rose 12.1% to 186.1 MT"
+   ],
+   "src": {
+    "title": "Coal India H1 FY27 capex rises 27% to Rs 7,966 crore, exceeds target — PSU Watch",
+    "url": "https://psuwatch.com/newsupdates/coal-indias-h1-fy27-capex-rises-27-to-rs-7966-crore-exceeds-target"
+   },
+   "date": "2026-10-29",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1500"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee firms 11 paise after Fed pause",
+   "line": "Rupee touched 95.17 vs Wednesday's 95.28 close as the dollar eased",
+   "more": [
+    "Forex reserves around $721 billion cushion the currency",
+    "High crude and US yields remain headwinds"
+   ],
+   "src": {
+    "title": "Rupee rises 11 paise to 95.17 against US dollar in early trade — Deccan Herald",
+    "url": "https://www.deccanherald.com/business/markets/rupee-rises-11-paise-to-9517-against-us-dollar-in-early-trade-4199334"
+   },
+   "date": "2026-10-29",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Brent slips ~1% to about $114",
+   "line": "Brent futures down 1.03% at $114.13 as US-Iran talk hopes persist",
+   "more": [
+    "Wednesday settle was $115.32",
+    "Analysts still flag high crude as a rupee headwind"
+   ],
+   "src": {
+    "title": "Rupee rises 11 paise to 95.17 against US dollar in early trade — Deccan Herald",
+    "url": "https://www.deccanherald.com/business/markets/rupee-rises-11-paise-to-9517-against-us-dollar-in-early-trade-4199334"
+   },
+   "date": "2026-10-29",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-20",
+    "slot": "pre"
+   }
+  },
+  {
    "key": "ltcg-tax-relief",
    "tag": "Policy",
    "impact": "pos",
@@ -96,7 +169,7 @@
    "slot": "1430",
    "when": "14:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1430"
@@ -120,7 +193,7 @@
    "slot": "1430",
    "when": "14:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-22",
     "slot": "1500"
@@ -145,7 +218,7 @@
    "slot": "1430",
    "when": "14:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1030"
@@ -523,55 +596,6 @@
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Brent eases on US-Iran peace-talk hopes",
-   "line": "Brent fell ~0.7% to about $114.50 as Vance sought to revive Iran negotiations",
-   "more": [
-    "WTI down ~1% near $101.7–101.9",
-    "Follows Wednesday's rally on US strike reports",
-    "Houthi attacks on Saudi infrastructure continue"
-   ],
-   "src": {
-    "title": "Brent $114.50, WTI $101.90 fall amid US-Iran peace talks — NewsBytes",
-    "url": "https://www.newsbytesapp.com/news/business/brent-11450-wti-10190-fall-amid-us-iran-peace-talks/tldr"
-   },
-   "date": "2026-10-29",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-20",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee opens 5 paise stronger at 95.17",
-   "line": "Rupee firmed slightly at the open versus Wednesday's 95.22 close",
-   "more": [
-    "Reports differ on Wednesday's close (95.22 vs 95.28)",
-    "Opening level reported in Business Standard live blog at 9:03 am"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex up over 550 pts, Nifty 50 over 22,800; PSU Bank, FMCG stocks gain — Business Standard",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
-   },
-   "date": "2026-10-29",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1200"
    }
   },
   {
