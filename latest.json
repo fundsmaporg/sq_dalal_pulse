@@ -1,32 +1,32 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-29T10:03:32+05:30",
+ "generated_at": "2026-10-29T10:33:42+05:30",
  "date": "2026-10-29",
- "slot": "1000",
- "slot_label": "10:00",
- "stage": "Opening mood",
- "asof": "2026-10-29T10:00:00+05:30",
+ "slot": "1030",
+ "slot_label": "10:30",
+ "stage": "Mid-market mood",
+ "asof": "2026-10-29T10:30:00+05:30",
  "nifty": {
-  "value": 22800,
-  "pct": 0.45,
-  "chg": 101.15,
+  "value": 22750,
+  "pct": 0.23,
+  "chg": 51.15,
   "approx": true
  },
  "mood": {
-  "label": "Early bounce",
-  "score": 0.2,
-  "summary": "Markets defied the soft pre-open cues and opened higher, extending gains through the first half-hour as IT and media stocks rebounded.",
+  "label": "Bounce holds",
+  "score": 0.25,
+  "summary": "Gains hold through mid-morning with the Sensex up about 350 points; IT, PSU banks and realty lead while cement, auto and chemicals drag and broader markets lag.",
   "detail": {
-   "leaders": "Nifty IT, Nifty Media, Adani Ports, Jio Platforms",
-   "laggards": "Trent, Maruti, HDFC Bank, Bajaj Finserv",
-   "tone": "A turn from the 09:30 read: instead of a soft open, the Sensex opened 92 points higher and later climbed over 200 points.",
+   "leaders": "Nifty IT, PSU Bank, Realty; Jio Platforms, Adani Ports",
+   "laggards": "Nifty Cement, Auto, Chemicals; smallcaps flat",
+   "tone": "Firmer than 10:00: the Sensex has climbed to about 73,599, roughly erasing Wednesday's 353-point loss, while midcaps edge up and smallcaps go nowhere.",
    "watch": [
     "Whether the Nifty can clear 22,800",
-    "Brent near $114",
-    "Results today: Coal India, Asian Paints, IndiGo, Trent"
+    "Asian Paints, Coal India, IndiGo, Trent results",
+    "US tech after Alphabet's after-hours slide"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex up over 200 pts, Nifty 50 near 22,800; Jio Platforms jumps 5% — Business Standard",
+    "title": "Stock Market LIVE: Sensex up over 200 pts, Nifty 50 near 22,800; PSU Bank, FMCG stocks gain — Business Standard",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
    }
   }
@@ -36,23 +36,72 @@
    "key": "jio-ipo",
    "tag": "Listing",
    "impact": "pos",
-   "title": "Jio Platforms up ~5% in second session",
-   "line": "Shares extend gains after Wednesday's 21% premium debut on NSE and BSE",
+   "title": "Jio Platforms hits ₹1,489, m-cap ₹13.7 trn",
+   "line": "Shares rose 5.08% intraday on day two, extending the debut rally",
    "more": [
-    "Listed at ₹1,358 vs ₹1,119 issue price",
-    "Market cap crossed ₹13 lakh cr on debut day"
+    "Listed Wednesday at ₹1,358 vs ₹1,119 issue price",
+    "Market cap now about ₹13.70 trillion"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex up over 200 pts, Nifty 50 near 22,800; Jio Platforms jumps 5% — Business Standard",
+    "title": "Stock Market LIVE: Sensex up over 200 pts, Nifty 50 near 22,800; PSU Bank, FMCG stocks gain — Business Standard",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
    },
    "date": "2026-10-29",
-   "slot": "1000",
-   "when": "10:00",
+   "slot": "1030",
+   "when": "10:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-20",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "asian-paints-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Asian Paints reports today; margin squeeze seen",
+   "line": "Profit seen up ~9.5% to ₹1,115 cr, but input costs may cut margin to ~17%",
+   "more": [
+    "Revenue estimate about ₹9,662 cr, up ~13%",
+    "~7% price hikes support sales",
+    "Interim dividend on agenda; record date Nov 4"
+   ],
+   "src": {
+    "title": "Asian Paints Q2 Results Preview: PAT likely to rise nearly 10% — Zee Business",
+    "url": "https://www.zeebiz.com/companies/news-asian-paints-q2-fy27-results-preview-profit-sales-margin-estimates-share-price-404207/amp"
+   },
+   "date": "2026-10-29",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Alphabet slumps 10% after hours",
+   "line": "Weak megacap updates revived AI-spending worries; Microsoft rose nearly 3%",
+   "more": [
+    "Samsung's profit also missed estimates",
+    "Microsoft beat on Azure cloud growth"
+   ],
+   "src": {
+    "title": "Stock Market Today: Dow, S&P live updates for Oct. 29, 2026 — Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-28/stock-market-today-dow-s-p-live-updates"
+   },
+   "date": "2026-10-29",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
     "slot": "pre"
    }
   },
@@ -75,7 +124,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1400"
@@ -99,7 +148,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1500"
@@ -200,31 +249,6 @@
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Wall Street edges higher after the Fed",
-   "line": "S&P 500 +0.28%, Nasdaq +0.27%, Dow +0.19% as the hold was digested",
-   "more": [
-    "S&P 500 closed at 7,743.98",
-    "Dow ended at 52,475.10",
-    "Alphabet and Fortinet fell after hours"
-   ],
-   "src": {
-    "title": "Stock Market Today, Oct. 28: Markets Edge Higher as Fed Holds Rates Steady — Motley Fool",
-    "url": "https://www.fool.com/coverage/stock-market-today/2026/10/28/stock-market-today-oct-28-markets-edge-higher-as-fed-holds-rates-steady/"
-   },
-   "date": "2026-10-29",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "pre"
    }
   },
   {
