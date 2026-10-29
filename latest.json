@@ -1,61 +1,73 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-29T15:04:05+05:30",
+ "generated_at": "2026-10-29T15:34:11+05:30",
  "date": "2026-10-29",
- "slot": "1500",
- "slot_label": "15:00",
+ "slot": "1530",
+ "slot_label": "15:30",
  "stage": "Closing mood",
- "asof": "2026-10-29T15:00:00+05:30",
+ "asof": "2026-10-29T15:30:00+05:30",
  "nifty": {
-  "value": 22871,
-  "pct": 0.76,
-  "chg": 172,
+  "value": 22950,
+  "pct": 1.11,
+  "chg": 251.15,
   "approx": true
  },
  "mood": {
-  "label": "Rally holds",
-  "score": 0.45,
-  "summary": "Gains are holding into the final half-hour, the Nifty near 22,850–22,870 with FMCG and consumer discretionary leading; autos remain the lone weak sector.",
+  "label": "Late surge",
+  "score": 0.6,
+  "summary": "A late surge lifted benchmarks to the day's best, with the Sensex up about 900 points into the close; FMCG led a broad advance while autos were the lone weak sector.",
   "detail": {
-   "leaders": "Adani Ports, Hyundai",
-   "laggards": "Asian Paints, Trent",
-   "tone": "Little changed from 14:30: the latest prints have the Sensex around 73,820–73,890 and the Nifty around 22,850–22,870, near the 22,874 high.",
+   "leaders": "Adani Ports, Hyundai, Nifty FMCG",
+   "laggards": "Nifty Auto, Asian Paints, Trent",
+   "tone": "Sharply stronger than 15:00: the Sensex extended from about +645 to roughly +900 points and the Nifty pushed past 22,950.",
    "watch": [
-    "Closing auction: whether 22,850 holds",
-    "Coal India, IndiGo, Trent numbers after the bell",
-    "Reliance Q2 on Friday"
+    "Coal India, IndiGo, Trent results this evening",
+    "Reliance Q2 on Friday",
+    "Rupee drift toward 95.4"
    ],
    "src": {
-    "title": "Stock Market Rally: Sensex jumps 645 points, Nifty nears 22,900, here are 6 reasons — Free Press Journal",
-    "url": "https://www.freepressjournal.in/business/stock-market-rally-sensex-jumps-645-points-nifty-nears-22900-as-investors-gain-3-lakh-crore-here-are-6-reasons"
+    "title": "Stock Market LIVE: Sensex jumps 900 points, Nifty 50 tops 22,950; FMCG top sectoral gainer — Business Standard",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Adani Ports leads Sensex gainers; Hyundai rallies as brokers back its model cycle",
-     "why": "Post-results buying in names where brokers turned or stayed bullish is adding to a broad, Fed-relief rally.",
+     "summary": "Adani Ports up over 5%, Hyundai rallies, FMCG leads sectors with a ~2% gain",
+     "why": "Post-results buying in select heavyweights joined Fed-relief and tax-relief hopes to fuel a broad rally.",
      "names": [
       {
        "name": "Adani Ports",
        "dir": "up",
-       "move": "+3.91% (noon)",
-       "line": "Raised FY27 guidance after Q2 profit grew ~18%"
+       "move": "up over 5%",
+       "line": "Q2 profit up 17% to ₹3,682 cr and FY27 guidance raised"
       },
       {
        "name": "Hyundai Motor India",
        "dir": "up",
        "move": "+4.18% (9:30 am)",
-       "line": "Morgan Stanley, CLSA, Nomura stay bullish despite a 24% profit drop"
+       "line": "Brokers stay bullish on new models despite a 24% profit drop"
+      },
+      {
+       "name": "Nifty FMCG",
+       "dir": "up",
+       "move": "~+2%",
+       "line": "Top sector; United Spirits, ITC and Dabur each gained over 2%"
       }
      ],
      "src": {
-      "title": "Top Gainers and Losers Today, 29 October 2026 at 12:00 PM IST — HDFC Sky",
-      "url": "https://hdfcsky.com/news/top-gainers-and-top-losers-today-29-october-2026-at-12-pm"
+      "title": "Nifty rises above 22,800 as FMCG stocks and Adani Ports rally after Fed holds rates, rupee slips toward 95.4 — IBTimes",
+      "url": "https://www.ibtimes.com.au/indian-shares-rise-fed-rate-pause-adani-ports-1877570"
      }
     },
     "down": {
-     "summary": "Asian Paints slips after a margin-hit quarter; Trent the top Nifty loser before results",
-     "why": "Results-day caution: one name disappointed on margins, another is being sold ahead of its numbers.",
+     "summary": "Autos slipped about 1%; Asian Paints and Trent lagged on results day",
+     "why": "Results-day caution weighed on a handful of names while the auto index was the only sector in the red.",
      "names": [
+      {
+       "name": "Nifty Auto",
+       "dir": "down",
+       "move": "down ~1%",
+       "line": "Main laggard, with Bajaj Auto and Eicher Motors trading lower"
+      },
       {
        "name": "Asian Paints",
        "dir": "down",
@@ -69,14 +81,87 @@
       }
      ],
      "src": {
-      "title": "Asian Paints Q2 net profit rises 7.5% to Rs 1,067.6 cr — Whalesbook",
-      "url": "https://www.whalesbook.com/corporate-news/English/consumer-products/Asian-Paints-Q2-Net-Profit-Rises-75percent-to-Rs-10676-Cr/6ae30541c6c6dccbb90adb84"
+      "title": "Top Gainers and Losers Today, 29 October 2026 at 12:00 PM IST — HDFC Sky",
+      "url": "https://hdfcsky.com/news/top-gainers-and-top-losers-today-29-october-2026-at-12-pm"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "indigo-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "IndiGo seen swinging to a Q2 profit",
+   "line": "Analysts expect ₹510–580 cr profit on 27–30% revenue growth from higher fares",
+   "more": [
+    "Elara sees ₹580 cr after a ~₹280 cr forex loss",
+    "Year-ago Q2 loss was ₹2,582 cr",
+    "Fuel costs jumped 86% in Q1"
+   ],
+   "src": {
+    "title": "IndiGo Q2 results: revenue likely to rise up to 30% YoY on airfare hike — Upstox",
+    "url": "https://upstox.com/news/market-news/earnings/indi-go-q2-results-revenue-likely-to-rise-up-to-30-yo-y-driven-by-airfare-hike-key-focus-on-atf-prices-rise-and-its-impact-on-profitability/article-202579/"
+   },
+   "date": "2026-10-29",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "fed",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Fed vote 10-2; analysts see limited relief",
+   "line": "Two dissenters wanted a hike; analysts say the pause offers only limited relief",
+   "more": [
+    "Rates held at 3.75–4%",
+    "December hike still widely expected"
+   ],
+   "src": {
+    "title": "Nifty rises above 22,800 as FMCG stocks and Adani Ports rally after Fed holds rates, rupee slips toward 95.4 — IBTimes",
+    "url": "https://www.ibtimes.com.au/indian-shares-rise-fed-rate-pause-adani-ports-1877570"
+   },
+   "date": "2026-10-29",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Rupee gives up gains, slips toward 95.4",
+   "line": "Currency weakened in the afternoon after firming to 95.17 in early trade",
+   "more": [
+    "Wednesday's close was 95.28",
+    "Morning gain came as the dollar eased after the Fed"
+   ],
+   "src": {
+    "title": "Nifty rises above 22,800 as FMCG stocks and Adani Ports rally after Fed holds rates, rupee slips toward 95.4 — IBTimes",
+    "url": "https://www.ibtimes.com.au/indian-shares-rise-fed-rate-pause-adani-ports-1877570"
+   },
+   "date": "2026-10-29",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "1200"
+   }
+  },
   {
    "key": "coal-india-capex",
    "tag": "Stocks",
@@ -96,34 +181,10 @@
    "slot": "1500",
    "when": "15:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1500"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee firms 11 paise after Fed pause",
-   "line": "Rupee touched 95.17 vs Wednesday's 95.28 close as the dollar eased",
-   "more": [
-    "Forex reserves around $721 billion cushion the currency",
-    "High crude and US yields remain headwinds"
-   ],
-   "src": {
-    "title": "Rupee rises 11 paise to 95.17 against US dollar in early trade — Deccan Herald",
-    "url": "https://www.deccanherald.com/business/markets/rupee-rises-11-paise-to-9517-against-us-dollar-in-early-trade-4199334"
-   },
-   "date": "2026-10-29",
-   "slot": "1500",
-   "when": "15:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1200"
    }
   },
   {
@@ -144,7 +205,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-20",
     "slot": "pre"
@@ -524,31 +585,6 @@
    }
   },
   {
-   "key": "indigo-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "IndiGo results due around 4 pm",
-   "line": "Fuel costs are the swing factor after an 86% jump drove a Q1 loss of ₹238 cr",
-   "more": [
-    "Management guided yields and PRASK up over 25%",
-    "Capacity seen broadly flat in Q2",
-    "Year-ago Q2 loss was ₹2,582 cr on forex"
-   ],
-   "src": {
-    "title": "IndiGo Q2 Results Date 2026: 29 Oct board meeting preview — Univest",
-    "url": "https://univest.in/blogs/indigo-q2-results-date-2026-interglobe-aviation-board-meeting-29-october-preview-and-what-to-expect"
-   },
-   "date": "2026-10-29",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1200"
-   }
-  },
-  {
    "key": "sebi-fpi-review",
    "tag": "Regulation",
    "impact": "pos",
@@ -644,31 +680,6 @@
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1530"
-   }
-  },
-  {
-   "key": "fed",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Fed holds, two officials vote for a hike",
-   "line": "Rates kept at 3.75–4%; Cook and Hammack dissented, December hike widely expected",
-   "more": [
-    "Statement upgraded growth to 'strong' from 'solid'",
-    "Traders price ~85% odds of a December 9 hike",
-    "Warsh plans fewer rate-setting meetings from 2027"
-   ],
-   "src": {
-    "title": "Fed keeps interest rates unchanged, but two officials dissented in favor of a rate hike — CNN",
-    "url": "https://www.cnn.com/2026/10/28/business/live-news/federal-reserve-interest-rate-october"
-   },
-   "date": "2026-10-29",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1130"
    }
   },
   {

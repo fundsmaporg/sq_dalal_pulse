@@ -1,0 +1,160 @@
+{
+ "asof": "2026-10-29T15:30:00+05:30",
+ "summary": "A late surge lifted benchmarks to the day's best, with the Sensex up about 900 points into the close; FMCG led a broad advance while autos were the lone weak sector.",
+ "mood": {
+  "label": "Late surge",
+  "score": 0.6,
+  "detail": {
+   "stats": [],
+   "leaders": "Adani Ports, Hyundai, Nifty FMCG",
+   "laggards": "Nifty Auto, Asian Paints, Trent",
+   "movers": {
+    "up": {
+     "summary": "Adani Ports up over 5%, Hyundai rallies, FMCG leads sectors with a ~2% gain",
+     "why": "Post-results buying in select heavyweights joined Fed-relief and tax-relief hopes to fuel a broad rally.",
+     "names": [
+      {
+       "name": "Adani Ports",
+       "move": "up over 5%",
+       "dir": "up",
+       "line": "Q2 profit up 17% to ₹3,682 cr and FY27 guidance raised"
+      },
+      {
+       "name": "Hyundai Motor India",
+       "move": "+4.18% (9:30 am)",
+       "dir": "up",
+       "line": "Brokers stay bullish on new models despite a 24% profit drop"
+      },
+      {
+       "name": "Nifty FMCG",
+       "move": "~+2%",
+       "dir": "up",
+       "line": "Top sector; United Spirits, ITC and Dabur each gained over 2%"
+      }
+     ],
+     "src": {
+      "title": "Nifty rises above 22,800 as FMCG stocks and Adani Ports rally after Fed holds rates, rupee slips toward 95.4 — IBTimes",
+      "url": "https://www.ibtimes.com.au/indian-shares-rise-fed-rate-pause-adani-ports-1877570"
+     }
+    },
+    "down": {
+     "summary": "Autos slipped about 1%; Asian Paints and Trent lagged on results day",
+     "why": "Results-day caution weighed on a handful of names while the auto index was the only sector in the red.",
+     "names": [
+      {
+       "name": "Nifty Auto",
+       "move": "down ~1%",
+       "dir": "down",
+       "line": "Main laggard, with Bajaj Auto and Eicher Motors trading lower"
+      },
+      {
+       "name": "Asian Paints",
+       "dir": "down",
+       "line": "Profit up just 7.5% as raw-material inflation squeezed margins"
+      },
+      {
+       "name": "Trent",
+       "move": "−2.33% (noon)",
+       "dir": "down",
+       "line": "Steepest Nifty decline at noon, with Q2 results due today"
+      }
+     ],
+     "src": {
+      "title": "Top Gainers and Losers Today, 29 October 2026 at 12:00 PM IST — HDFC Sky",
+      "url": "https://hdfcsky.com/news/top-gainers-and-top-losers-today-29-october-2026-at-12-pm"
+     }
+    }
+   },
+   "tone": "Sharply stronger than 15:00: the Sensex extended from about +645 to roughly +900 points and the Nifty pushed past 22,950.",
+   "watch": [
+    "Coal India, IndiGo, Trent results this evening",
+    "Reliance Q2 on Friday",
+    "Rupee drift toward 95.4"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex jumps 900 points, Nifty 50 tops 22,950; FMCG top sectoral gainer — Business Standard",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 22950,
+  "pct": 1.11,
+  "chg": 251.15,
+  "approx": true
+ },
+ "top": [
+  {
+   "key": "indigo-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "IndiGo seen swinging to a Q2 profit",
+   "line": "Analysts expect ₹510–580 cr profit on 27–30% revenue growth from higher fares",
+   "more": [
+    "Elara sees ₹580 cr after a ~₹280 cr forex loss",
+    "Year-ago Q2 loss was ₹2,582 cr",
+    "Fuel costs jumped 86% in Q1"
+   ],
+   "src": {
+    "title": "IndiGo Q2 results: revenue likely to rise up to 30% YoY on airfare hike — Upstox",
+    "url": "https://upstox.com/news/market-news/earnings/indi-go-q2-results-revenue-likely-to-rise-up-to-30-yo-y-driven-by-airfare-hike-key-focus-on-atf-prices-rise-and-its-impact-on-profitability/article-202579/"
+   }
+  },
+  {
+   "key": "fed",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Fed vote 10-2; analysts see limited relief",
+   "line": "Two dissenters wanted a hike; analysts say the pause offers only limited relief",
+   "more": [
+    "Rates held at 3.75–4%",
+    "December hike still widely expected"
+   ],
+   "src": {
+    "title": "Nifty rises above 22,800 as FMCG stocks and Adani Ports rally after Fed holds rates, rupee slips toward 95.4 — IBTimes",
+    "url": "https://www.ibtimes.com.au/indian-shares-rise-fed-rate-pause-adani-ports-1877570"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Rupee gives up gains, slips toward 95.4",
+   "line": "Currency weakened in the afternoon after firming to 95.17 in early trade",
+   "more": [
+    "Wednesday's close was 95.28",
+    "Morning gain came as the dollar eased after the Fed"
+   ],
+   "src": {
+    "title": "Nifty rises above 22,800 as FMCG stocks and Adani Ports rally after Fed holds rates, rupee slips toward 95.4 — IBTimes",
+    "url": "https://www.ibtimes.com.au/indian-shares-rise-fed-rate-pause-adani-ports-1877570"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market LIVE: Sensex jumps 900 points, Nifty 50 tops 22,950; FMCG top sectoral gainer — Business Standard",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
+  },
+  {
+   "title": "Nifty rises above 22,800 as FMCG stocks and Adani Ports rally after Fed holds rates, rupee slips toward 95.4 — IBTimes",
+   "url": "https://www.ibtimes.com.au/indian-shares-rise-fed-rate-pause-adani-ports-1877570"
+  },
+  {
+   "title": "Top Gainers and Losers Today, 29 October 2026 at 12:00 PM IST — HDFC Sky",
+   "url": "https://hdfcsky.com/news/top-gainers-and-top-losers-today-29-october-2026-at-12-pm"
+  },
+  {
+   "title": "Asian Paints Q2 net profit rises 7.5% to Rs 1,067.6 cr — Whalesbook",
+   "url": "https://www.whalesbook.com/corporate-news/English/consumer-products/Asian-Paints-Q2-Net-Profit-Rises-75percent-to-Rs-10676-Cr/6ae30541c6c6dccbb90adb84"
+  },
+  {
+   "title": "IndiGo Q2 results: revenue likely to rise up to 30% YoY on airfare hike — Upstox",
+   "url": "https://upstox.com/news/market-news/earnings/indi-go-q2-results-revenue-likely-to-rise-up-to-30-yo-y-driven-by-airfare-hike-key-focus-on-atf-prices-rise-and-its-impact-on-profitability/article-202579/"
+  },
+  {
+   "title": "Hyundai Motor shares jump 6% even as Q2 net profit declines 24% — inkl",
+   "url": "https://www.inkl.com/news/hyundai-motor-shares-jump-6-even-as-q2-net-profit-declines-24-why-nomura-other-brokerages-remain-bullish"
+  }
+ ]
+}
