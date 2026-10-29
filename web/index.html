@@ -100,9 +100,6 @@ header{display:flex;align-items:flex-start;gap:14px;flex-wrap:wrap;margin-bottom
   background:var(--panel);color:var(--muted)}
 .mv-n .mo.up{color:var(--green)} .mv-n .mo.down{color:var(--red)}
 .mv-n .ln{display:block;margin-top:2px;font-size:12.5px;color:var(--muted);line-height:1.45}
-.mv-src{font-size:11px;margin-top:9px}
-.mv-src a{color:var(--accent);text-decoration:none}
-.mv-src a:hover{text-decoration:underline}
 .watch{margin:6px 0 0;padding-left:17px;font-size:13.5px;line-height:1.5}
 .watch li{margin:2px 0}
 
@@ -147,9 +144,6 @@ header{display:flex;align-items:flex-start;gap:14px;flex-wrap:wrap;margin-bottom
 .tip[open] .more{display:block}
 .more ul{margin:0 0 11px;padding-left:18px;font-size:13.5px;line-height:1.6;color:var(--ink)}
 .more li{margin:3px 0}
-.src{font-size:12px;color:var(--faint);display:flex;gap:6px;flex-wrap:wrap;align-items:baseline}
-.src a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent}
-.src a:hover{border-bottom-color:currentColor}
 .first{font-size:11.5px;color:var(--faint);margin-top:7px}
 
 /* ---------- states / footer ---------- */
@@ -199,7 +193,7 @@ footer b{color:var(--muted)}
     layer needs. <span class="pill new">NEW</span> means the story appeared for the first time in
     this refresh — that is the one you push. <span class="pill upd">UPDATE</span> means it is a
     story your users already saw, carried forward with fresh information — refresh the card, do
-    not notify again. Tap any insight to open the supporting detail and its source.
+    not notify again. Tap any insight to open the supporting detail.
   </div>
 
   <div class="bar">
@@ -217,9 +211,8 @@ footer b{color:var(--muted)}
   <footer>
     <b>TIP is an information service, not investment advice.</b> Figures are drawn from public
     reporting and may be approximate where the payload flags them as such; they are not a
-    substitute for an exchange feed. Each insight names and links its source — attribute it when
-    you display it. Published weekdays: pre-open, every half hour through the session, and after
-    the close.
+    substitute for an exchange feed. Published weekdays: pre-open, every half hour through
+    the session, and after the close.
     <span id="stamp"></span>
   </footer>
 </div>
@@ -249,9 +242,6 @@ footer b{color:var(--muted)}
     if(!iso || iso.indexOf("T") < 0) return "";
     return iso.split("T")[1].slice(0,5);
   }
-  function safeUrl(u){
-    return /^https?:\/\//i.test(u || "") ? u : null;
-  }
   function ago(ms){
     var s = Math.round(ms/1000);
     if(s < 60) return s + "s ago";
@@ -273,13 +263,9 @@ footer b{color:var(--muted)}
         (n.move ? '<span class="mo' + cls + '">' + esc(n.move) + '</span>' : '') + '</span>' +
         (n.line ? '<span class="ln">' + esc(n.line) + '</span>' : '') + '</div>';
     }).join("");
-    var url = safeUrl(group.src && group.src.url);
     return '<details class="mv"><summary>' + head +
              '<span class="tap">' + names.length + ' names · tap to read</span></summary>' +
            (group.why ? '<p class="mv-why">' + esc(group.why) + '</p>' : '') + rows +
-           (url ? '<p class="mv-src"><a href="' + esc(url) + '" target="_blank" ' +
-                  'rel="noopener noreferrer">' + esc((group.src && group.src.title) || url) +
-                  '</a></p>' : '') +
            '</details>';
   }
 
@@ -332,7 +318,6 @@ footer b{color:var(--muted)}
     }
     $("tips").innerHTML = shown.map(function(t, i){
       var more = (t.more || []).map(function(b){ return "<li>" + esc(b) + "</li>"; }).join("");
-      var url = safeUrl(t.src && t.src.url);
       var badge = t.is_new ? '<span class="pill new">NEW</span>'
                 : (t.updated ? '<span class="pill upd">UPDATE</span>' : "");
       var fs = "";
@@ -357,10 +342,6 @@ footer b{color:var(--muted)}
         '</summary>' +
         '<div class="more">' +
           (more ? "<ul>" + more + "</ul>" : "") +
-          (url ? '<p class="src">Source: <a href="' + esc(url) + '" target="_blank" ' +
-                 'rel="noopener noreferrer">' + esc((t.src && t.src.title) || url) + '</a></p>'
-               : (t.src && t.src.title
-                  ? '<p class="src">Source: ' + esc(t.src.title) + '</p>' : '')) +
           fs +
         '</div>' +
       '</details>';
