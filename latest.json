@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-29T13:33:46+05:30",
+ "generated_at": "2026-10-29T14:03:40+05:30",
  "date": "2026-10-29",
- "slot": "1330",
- "slot_label": "13:30",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-29T13:30:00+05:30",
+ "asof": "2026-10-29T14:00:00+05:30",
  "nifty": {
   "value": 22835,
   "pct": 0.6,
@@ -15,23 +15,98 @@
  "mood": {
   "label": "Gains hold firm",
   "score": 0.35,
-  "summary": "Gains have eased slightly from the midday peak but remain broad, with the Nifty about 0.6% higher; FMCG and PSU banks still lead, midcaps edge up and autos lag.",
+  "summary": "The market is holding a gain of about 0.6–0.7% into the last ninety minutes, with FMCG and PSU banks still in front and results-day names mixed ahead of their numbers.",
   "detail": {
-   "leaders": "Nifty FMCG, PSU Bank, IT; Adani Ports, Hyundai, HUL",
-   "laggards": "Nifty Auto",
-   "tone": "A touch softer than 13:00: at 1:04 pm the Sensex was up 531 points at 73,777 and the Nifty up 136 at 22,835, off the 12:17 highs.",
+   "leaders": "Nifty FMCG, PSU Bank, IT",
+   "laggards": "Nifty Auto; Trent, Asian Paints ahead of results",
+   "tone": "No change from 13:30: the latest reported print still has the Sensex about 530 points higher near 73,777 and the Nifty near 22,835.",
    "watch": [
-    "Post-market results: Coal India, Asian Paints, IndiGo, Trent",
-    "Reliance Q2 on Friday",
-    "Whether Nifty holds 22,800 into the close"
+    "Results after the close: Coal India, Asian Paints, IndiGo, Trent",
+    "Whether Nifty holds 22,800 into the close",
+    "Reliance Q2 on Friday"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex spurts 500 points, Nifty steady above 22,800; Adani Ports rises 6% — Business Standard",
+    "title": "Stock Market LIVE: Sensex surges 500 points, Nifty 50 tops 22,800; PSU Bank, FMCG lead — Business Standard",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "coal-india-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Coal India estimates diverge sharply",
+   "line": "One preview sees adjusted profit down 31.6%; Zee Business sees a 52% rise",
+   "more": [
+    "Q2 coal supplies rose 12.1% to 186.1 MT",
+    "Net sales seen up ~19% in the bearish preview",
+    "Board to weigh a second interim dividend",
+    "Stock ₹394.70, +0.69% in the morning"
+   ],
+   "src": {
+    "title": "Coal India Q2 FY27 results on Oct 29: will a second payout cushion a 31.6% profit drop? — NiftyTrader",
+    "url": "https://www.niftytrader.in/markets/coal-india-q2-fy27-results-on-oct-29/"
+   },
+   "date": "2026-10-29",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "vedanta-power",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Vedanta Power Q2 power sales up 26%",
+   "line": "Provisional update shows 5,593 million units sold; full results due today",
+   "more": [
+    "Vedanta group stocks mixed on company-specific updates",
+    "Vedanta Oil and Gas also reports today"
+   ],
+   "src": {
+    "title": "Vedanta Power, Oil and Gas, Aluminium: group stocks mixed on company-specific updates — Upstox",
+    "url": "https://upstox.com/news/market-news/stocks/vedanta-group-in-focus-power-oil-and-gas-q2-results-today-parent-firm-s-earnings-bengal-investment-plan-iron-ore-ceo-quits/article-202584"
+   },
+   "date": "2026-10-29",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Long results list after the bell",
+   "line": "Suzlon, Blue Star and Motilal Oswal also report alongside the Nifty names",
+   "more": [
+    "Trent traded 2.33% lower at ₹2,846 before its numbers",
+    "Asian Paints 0.84% lower at ₹2,265.30 earlier",
+    "IndiGo results expected around 4 pm"
+   ],
+   "src": {
+    "title": "Q2 Results Live Updates: IndiGo, Asian Paints, Coal India, Trent, Vedanta Power, others — Upstox",
+    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-indi-go-asian-paints-coal-india-trent-vedanta-power-others-to-declare-earnings/liveblog-202604/"
+   },
+   "date": "2026-10-29",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "pre"
+   }
+  },
   {
    "key": "hyundai-q2",
    "tag": "Results",
@@ -52,7 +127,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1500"
@@ -77,7 +152,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1430"
@@ -102,7 +177,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1100"
@@ -205,30 +280,6 @@
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "coal-india-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Coal India revenue seen up ~45%",
-   "line": "Zee Business estimates Q2 revenue at ₹43,746 cr alongside a 52% profit rise",
-   "more": [
-    "Profit estimate ₹6,639 cr vs ₹4,354 cr a year ago",
-    "Year-ago second interim dividend was ₹10.25/share"
-   ],
-   "src": {
-    "title": "Coal India Q2FY27 Preview: profit may rise 52% YoY — Zee Business",
-    "url": "https://www.zeebiz.com/companies/news-coal-india-q2fy27-preview-maharatna-psus-profit-may-rise-52-yoy-board-to-consider-interim-dividend-404728"
-   },
-   "date": "2026-10-29",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1130"
    }
   },
   {
@@ -450,30 +501,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Coal India, Asian Paints, IndiGo report today",
-   "line": "Trent, Laurus Labs and Ambuja Cements also due with September-quarter numbers",
-   "more": [
-    "Coal India, Asian Paints, IndiGo and Trent are all Nifty 50 members",
-    "Follows Wednesday's heavy batch led by HUL and TVS"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: GIFT Nifty down over 50 pts; Asia mixed; Brent at $114 — Business Standard",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
-   },
-   "date": "2026-10-29",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
     "slot": "pre"
    }
   },
