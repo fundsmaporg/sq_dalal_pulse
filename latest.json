@@ -1,37 +1,132 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-29T08:33:26+05:30",
+ "generated_at": "2026-10-29T09:33:32+05:30",
  "date": "2026-10-29",
- "slot": "pre",
- "slot_label": "Pre-open",
- "stage": "Pre-market mood",
- "asof": "2026-10-29T08:30:00+05:30",
+ "slot": "0930",
+ "slot_label": "9:30",
+ "stage": "Opening mood",
+ "asof": "2026-10-29T09:30:00+05:30",
  "nifty": {
-  "value": 22698.85,
-  "pct": -0.22,
-  "chg": -50.9,
-  "approx": false
+  "value": 22685,
+  "pct": -0.21,
+  "approx": true
  },
  "mood": {
-  "label": "Cautious open seen",
-  "score": -0.1,
-  "summary": "A cautious, flat-to-soft start is signalled, with GIFT Nifty indications mixed after early gains faded; firm Wall Street and institutional buying offset high oil.",
+  "label": "Soft start",
+  "score": -0.15,
+  "summary": "Trade begins on a soft footing as pre-open indicators pointed, with Nifty futures about 0.2% lower and no early sign of a break from Wednesday's range.",
   "detail": {
-   "leaders": "Results beats in focus: TVS Motor, Vedanta",
-   "laggards": "Post-results pressure: HUL, Hyundai, Adani Ent",
-   "tone": "After Wednesday's recovery from a 1% slide to a mild loss, pre-open cues are mixed, with GIFT Nifty giving up early gains.",
+   "leaders": "Bank Nifty, Smallcap 100 outperformed Wednesday",
+   "laggards": "IT led Wednesday's declines; no early sector data yet",
+   "tone": "Similar to the pre-open read: GIFT Nifty gave up early gains and futures pointed to a slightly lower start after Wednesday's 0.22% fall.",
    "watch": [
-    "Brent holding near $115 on US-Iran strike reports",
-    "Reaction to Wednesday's heavy results batch",
-    "Whether FII buying extends"
+    "Hold of the 22,500–22,400 support zone",
+    "Brent near $114",
+    "Results today: Coal India, Asian Paints, IndiGo, Trent"
    ],
    "src": {
-    "title": "Early gains vanish before opening bell as GIFT Nifty signals cautious start — NewsDrum",
-    "url": "https://newsdrum.in/business/early-gains-vanish-before-opening-bell-as-gift-nifty-signals-cautious-start-for-sensex-nifty-12762834"
+    "title": "Sensex & Nifty 50 live updates, 29 October — Trade Brains",
+    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-29-october-gift-nifty-signals-weak-opening-as-crude-oil-stays-above-114-12762878"
    }
   }
  },
  "insights": [
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Coal India, Asian Paints, IndiGo report today",
+   "line": "Trent, Laurus Labs and Ambuja Cements also due with September-quarter numbers",
+   "more": [
+    "Coal India, Asian Paints, IndiGo and Trent are all Nifty 50 members",
+    "Follows Wednesday's heavy batch led by HUL and TVS"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: GIFT Nifty down over 50 pts; Asia mixed; Brent at $114 — Business Standard",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
+   },
+   "date": "2026-10-29",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "hyundai-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Hyundai India profit down 23.9%",
+   "line": "Raw material and employee costs offset an 18.5% revenue rise; profit ₹1,196 cr",
+   "more": [
+    "Consolidated profit below the ~₹1,239 cr estimate",
+    "No provision yet for end-of-life vehicle EPR norms"
+   ],
+   "src": {
+    "title": "Hyundai Motor India Q2 profit falls 23.9% as raw material costs rise — Business Standard",
+    "url": "https://business-standard.com/amp/companies/quarterly-results/hyundai-motor-india-q2-profit-falls-23-9-as-raw-material-costs-rise-126102801761_1.html"
+   },
+   "date": "2026-10-29",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1500"
+   }
+  },
+  {
+   "key": "tvs-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "TVS Motor rallied ~4% on record quarter",
+   "line": "Shares closed near ₹4,239 Wednesday after profit rose 52% to ₹1,377 cr",
+   "more": [
+    "Two- and three-wheeler sales grew 27% to 1.9 million units",
+    "Board approved demerger of the consumer finance business"
+   ],
+   "src": {
+    "title": "TVS Motor shares rise 4% as Q2 revenue hits record, profit jumps 52% — BusinessToday",
+    "url": "https://www.businesstoday.in/markets/stocks/story/tvs-motor-shares-rise-4-as-q2-revenue-hits-record-profit-jumps-52-564321-2026-10-28"
+   },
+   "date": "2026-10-29",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1530"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent slips but holds near $114",
+   "line": "Oil eased below $115 overnight while West Asia tensions keep it elevated",
+   "more": [
+    "Asian markets turned mixed",
+    "Brent quoted around $114 before the open"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: GIFT Nifty down over 50 pts; Asia mixed; Brent at $114 — Business Standard",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
+   },
+   "date": "2026-10-29",
+   "slot": "0930",
+   "when": "9:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-20",
+    "slot": "pre"
+   }
+  },
   {
    "key": "fed",
    "tag": "Global",
@@ -51,7 +146,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1130"
@@ -76,7 +171,7 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "pre"
@@ -100,87 +195,10 @@
    "slot": "pre",
    "when": "Pre-open",
    "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-20",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent stays near $115",
-   "line": "Brent settled at $115.32 (+1.3%); US reportedly readying renewed strikes on Iran",
-   "more": [
-    "WTI settled up 2.9% at $102.78",
-    "Early Thursday Brent around $114.8–115.8",
-    "Houthi attacks on Saudi Ras Tanura refinery add risk"
-   ],
-   "src": {
-    "title": "Oil price today: WTI, Brent rise — CNBC",
-    "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
-   },
-   "date": "2026-10-29",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-20",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Wednesday's results set the stock action",
-   "line": "TVS beat and Vedanta posted a record; HUL, Hyundai and Adani Ent disappointed",
-   "more": [
-    "TVS Motor profit up 52% to ₹1,377 cr; demerger approved",
-    "HUL reported profit flat at ₹2,796 cr",
-    "Hyundai consolidated profit ₹1,196 cr, below estimates",
-    "Adani Ent profit down 55% on a one-off-heavy base"
-   ],
-   "src": {
-    "title": "TVS Motor Q2 Results: PAT rises 52% to Rs 1,377 crore — Zee Business",
-    "url": "https://www.zeebiz.com/companies/news-tvs-motor-q2-results-pat-rises-52-to-rs-1377-crore-revenue-up-44-beats-estimates-404710"
-   },
-   "date": "2026-10-29",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "tvs-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "TVS Motor profit up 52%, beats estimates",
-   "line": "Q2 profit ₹1,377 cr on 44% revenue growth; board approves a demerger",
-   "more": [
-    "Revenue ₹17,103 cr vs year-ago base",
-    "Beat the ~₹1,318 cr profit estimate",
-    "Board approved demerger of consumer finance business",
-    "Another report puts profit at ₹1,194.5 cr on a different basis"
-   ],
-   "src": {
-    "title": "TVS Motor Q2 Results: PAT rises 52% to Rs 1,377 crore, beats estimates — Zee Business",
-    "url": "https://www.zeebiz.com/companies/news-tvs-motor-q2-results-pat-rises-52-to-rs-1377-crore-revenue-up-44-beats-estimates-404710"
-   },
-   "date": "2026-10-28",
-   "slot": "1530",
-   "when": "Wed · 15:30",
-   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1530"
+    "date": "2026-10-20",
+    "slot": "pre"
    }
   },
   {
@@ -223,31 +241,6 @@
    "src": {
     "title": "Adani Enterprises Q2 Results: Net profit falls 55% to ₹1,492 crore — Upstox",
     "url": "https://upstox.com/news/market-news/earnings/adani-enterprises-q2-results-net-profit-falls-55-to-1-492-crore-revenue-up-75/article-202547/"
-   },
-   "date": "2026-10-28",
-   "slot": "1500",
-   "when": "Wed · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "hyundai-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Hyundai India profit misses estimate",
-   "line": "Consolidated Q2 profit ₹1,196 cr vs ~₹1,239 cr expected; input costs weigh",
-   "more": [
-    "Standalone revenue ₹20,191 cr; standalone profit ₹883 cr",
-    "Analysts had flagged margin pressure from input costs",
-    "No provision yet for new end-of-life vehicle EPR norms"
-   ],
-   "src": {
-    "title": "Hyundai Motor India Q2 PAT at Rs 883 Crore; Revenue Rises — Whalesbook",
-    "url": "https://www.whalesbook.com/corporate-news/English/auto/Hyundai-Motor-India-Q2-PAT-at-Rs-883-Crore-Revenue-Rises/6ae1bbaec6c6dccbb9097f22"
    },
    "date": "2026-10-28",
    "slot": "1500",
