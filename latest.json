@@ -1,36 +1,110 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-29T09:33:32+05:30",
+ "generated_at": "2026-10-29T10:03:32+05:30",
  "date": "2026-10-29",
- "slot": "0930",
- "slot_label": "9:30",
+ "slot": "1000",
+ "slot_label": "10:00",
  "stage": "Opening mood",
- "asof": "2026-10-29T09:30:00+05:30",
+ "asof": "2026-10-29T10:00:00+05:30",
  "nifty": {
-  "value": 22685,
-  "pct": -0.21,
+  "value": 22800,
+  "pct": 0.45,
+  "chg": 101.15,
   "approx": true
  },
  "mood": {
-  "label": "Soft start",
-  "score": -0.15,
-  "summary": "Trade begins on a soft footing as pre-open indicators pointed, with Nifty futures about 0.2% lower and no early sign of a break from Wednesday's range.",
+  "label": "Early bounce",
+  "score": 0.2,
+  "summary": "Markets defied the soft pre-open cues and opened higher, extending gains through the first half-hour as IT and media stocks rebounded.",
   "detail": {
-   "leaders": "Bank Nifty, Smallcap 100 outperformed Wednesday",
-   "laggards": "IT led Wednesday's declines; no early sector data yet",
-   "tone": "Similar to the pre-open read: GIFT Nifty gave up early gains and futures pointed to a slightly lower start after Wednesday's 0.22% fall.",
+   "leaders": "Nifty IT, Nifty Media, Adani Ports, Jio Platforms",
+   "laggards": "Trent, Maruti, HDFC Bank, Bajaj Finserv",
+   "tone": "A turn from the 09:30 read: instead of a soft open, the Sensex opened 92 points higher and later climbed over 200 points.",
    "watch": [
-    "Hold of the 22,500–22,400 support zone",
+    "Whether the Nifty can clear 22,800",
     "Brent near $114",
     "Results today: Coal India, Asian Paints, IndiGo, Trent"
    ],
    "src": {
-    "title": "Sensex & Nifty 50 live updates, 29 October — Trade Brains",
-    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-29-october-gift-nifty-signals-weak-opening-as-crude-oil-stays-above-114-12762878"
+    "title": "Stock Market LIVE: Sensex up over 200 pts, Nifty 50 near 22,800; Jio Platforms jumps 5% — Business Standard",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Jio Platforms up ~5% in second session",
+   "line": "Shares extend gains after Wednesday's 21% premium debut on NSE and BSE",
+   "more": [
+    "Listed at ₹1,358 vs ₹1,119 issue price",
+    "Market cap crossed ₹13 lakh cr on debut day"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex up over 200 pts, Nifty 50 near 22,800; Jio Platforms jumps 5% — Business Standard",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
+   },
+   "date": "2026-10-29",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-20",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "adani-ports-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Adani Ports leads early Sensex gainers",
+   "line": "Opens as a top gainer after Q2 profit rose ~18% and FY27 guidance was raised",
+   "more": [
+    "Profit ₹3,682 cr in BS report (₹3,622 cr per Upstox)",
+    "Revenue up 24% year on year",
+    "FY27 EBITDA guidance ₹26,000–27,000 cr"
+   ],
+   "src": {
+    "title": "Adani Ports Q2 profit rises 18% to ₹3,682 crore, raises FY27 guidance — Business Standard",
+    "url": "https://www.business-standard.com/companies/quarterly-results/adani-ports-q2-profit-rises-18-to-3-682-crore-raises-fy27-guidance-126102801519_1.html"
+   },
+   "date": "2026-10-29",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "hyundai-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Hyundai profit slumps 24% on costs",
+   "line": "Raw material costs weighed; shares had traded higher Wednesday afternoon",
+   "more": [
+    "Consolidated profit ₹1,196 cr",
+    "Stock near ₹1,887 at 3 pm Wednesday per Reuters"
+   ],
+   "src": {
+    "title": "Hyundai Motor India profit slumps 24% as rising costs bite — MarketScreener/Reuters",
+    "url": "https://www.marketscreener.com/news/hyundai-motor-india-profit-slumps-24-as-rising-costs-bite-ce785cd2da8bfe21"
+   },
+   "date": "2026-10-29",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1500"
+   }
+  },
   {
    "key": "q2-results",
    "tag": "Results",
@@ -49,34 +123,10 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "hyundai-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Hyundai India profit down 23.9%",
-   "line": "Raw material and employee costs offset an 18.5% revenue rise; profit ₹1,196 cr",
-   "more": [
-    "Consolidated profit below the ~₹1,239 cr estimate",
-    "No provision yet for end-of-life vehicle EPR norms"
-   ],
-   "src": {
-    "title": "Hyundai Motor India Q2 profit falls 23.9% as raw material costs rise — Business Standard",
-    "url": "https://business-standard.com/amp/companies/quarterly-results/hyundai-motor-india-q2-profit-falls-23-9-as-raw-material-costs-rise-126102801761_1.html"
-   },
-   "date": "2026-10-29",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1500"
    }
   },
   {
@@ -97,7 +147,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1530"
@@ -121,7 +171,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-20",
     "slot": "pre"
@@ -194,31 +244,6 @@
    "date": "2026-10-29",
    "slot": "pre",
    "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-20",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Jio Platforms extends debut gains",
-   "line": "Shares up ~4% from the ₹1,358 listing price late in the session",
-   "more": [
-    "Traded at ₹1,413.80 at 3:02 pm",
-    "Market cap crossed ₹13 lakh cr",
-    "Listed at a 21.36% premium to the ₹1,119 issue price"
-   ],
-   "src": {
-    "title": "Jio Platforms IPO listing live: stock climbs 4% after 21% premium listing — Upstox",
-    "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-listing-live-updates-share-price-nse-bse-reliance-industries-subsidiary-october-28-2026/liveblog-202492/"
-   },
-   "date": "2026-10-28",
-   "slot": "1530",
-   "when": "Wed · 15:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -301,31 +326,6 @@
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1430"
-   }
-  },
-  {
-   "key": "adani-ports-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Adani Ports Q2 profit up 17%; guidance raised",
-   "line": "Profit rises to ₹3,622 cr and the company lifts FY27 revenue and EBITDA guidance",
-   "more": [
-    "Revenue from operations up 24% to ₹11,340 cr",
-    "EBITDA up 23% to about ₹6,806 cr",
-    "BusinessToday puts profit growth at 18%"
-   ],
-   "src": {
-    "title": "Upstox: Adani Ports Q2 — net profit jumps 17%; FY27 revenue, EBITDA guidance raised",
-    "url": "https://upstox.com/news/market-news/earnings/adani-ports-q2-result-net-profit-jumps-17-yo-y-firm-raises-revenue-ebitda-guidance-for-fy-27/article-202540/"
-   },
-   "date": "2026-10-28",
-   "slot": "1400",
-   "when": "Wed · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1400"
    }
   },
   {
