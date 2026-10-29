@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-29T11:33:52+05:30",
+ "generated_at": "2026-10-29T12:03:48+05:30",
  "date": "2026-10-29",
- "slot": "1130",
- "slot_label": "11:30",
+ "slot": "1200",
+ "slot_label": "12:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-29T11:30:00+05:30",
+ "asof": "2026-10-29T12:00:00+05:30",
  "nifty": {
   "value": 22800,
   "pct": 0.45,
@@ -14,15 +14,15 @@
  },
  "mood": {
   "label": "Gains hold firm",
-  "score": 0.4,
-  "summary": "Gains are holding near the day's highs, with the Sensex up around 500–600 points; broad sector participation, led by IT, PSU banks and realty, keeps the tone firm.",
+  "score": 0.35,
+  "summary": "Indian equities are holding a gain of roughly 0.7% into midday, outperforming a weak Asia, with IT and PSU banks still leading and autos, cement and chemicals lagging.",
   "detail": {
-   "leaders": "Nifty IT, PSU Bank, Realty; Adani Ports",
-   "laggards": "Nifty Chemicals, Cement, Auto",
-   "tone": "Steady versus 11:00: the Sensex was about 506 points higher at 73,752 around 11 am, just below its 73,862 high, holding near the top of the range.",
+   "leaders": "Nifty IT, PSU Bank, Realty",
+   "laggards": "Nifty Auto, Cement, Chemicals",
+   "tone": "Little changed from 11:30: the latest reported level has the Sensex about 500 points higher near 73,750, with the Nifty above 22,800.",
    "watch": [
-    "Coal India and Asian Paints numbers this afternoon",
-    "Whether Nifty holds above 22,800",
+    "Afternoon results: Coal India, Asian Paints, IndiGo, Trent",
+    "Whether Asia's tech sell-off spreads",
     "Brent moves on US-Iran talks"
    ],
    "src": {
@@ -32,6 +32,81 @@
   }
  },
  "insights": [
+  {
+   "key": "asia-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Kospi slides ~3% as Samsung drops 6.6%",
+   "line": "Samsung fell after delaying its shareholder-return plan; Shanghai down ~1%",
+   "more": [
+    "Kospi reverses part of Wednesday's 7% surge",
+    "Alphabet's after-hours slide also hit Asian tech",
+    "Reports differ on Nikkei: flat vs +0.4%"
+   ],
+   "src": {
+    "title": "investingLive Asia-Pacific market news: Oil eases on Vance's Iran outreach",
+    "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-oil-eases-on-vance-s-iran-outreach"
+   },
+   "date": "2026-10-29",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "indigo-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "IndiGo results due around 4 pm",
+   "line": "Fuel costs are the swing factor after an 86% jump drove a Q1 loss of ₹238 cr",
+   "more": [
+    "Management guided yields and PRASK up over 25%",
+    "Capacity seen broadly flat in Q2",
+    "Year-ago Q2 loss was ₹2,582 cr on forex"
+   ],
+   "src": {
+    "title": "IndiGo Q2 Results Date 2026: 29 Oct board meeting preview — Univest",
+    "url": "https://univest.in/blogs/indigo-q2-results-date-2026-interglobe-aviation-board-meeting-29-october-preview-and-what-to-expect"
+   },
+   "date": "2026-10-29",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "sebi-fpi-review",
+   "tag": "Regulation",
+   "impact": "pos",
+   "title": "Sebi to review rules deterring foreign investors",
+   "line": "Chair Pandey says a consultation paper will align FPI rules with global norms",
+   "more": [
+    "Net settlement facility to go live in December",
+    "FPI onboarding already simplified via common form",
+    "No timeline or rule list published yet"
+   ],
+   "src": {
+    "title": "Sebi to review foreign investor rules: what could change for FPIs — BusinessToday",
+    "url": "https://businesstoday.in/markets/story/sebi-to-review-foreign-investor-rules-what-could-change-for-fpis-in-indian-markets-564391-2026-10-28"
+   },
+   "date": "2026-10-29",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1200"
+   }
+  },
   {
    "key": "coal-india-q2",
    "tag": "Results",
@@ -50,7 +125,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1130"
@@ -75,7 +150,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1130"
@@ -99,7 +174,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1400"
@@ -520,30 +595,6 @@
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "asia-markets",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Asia rises on AI enthusiasm",
-   "line": "Regional stocks gain for a second day ahead of big-tech earnings and the Fed",
-   "more": [
-    "MSCI Asia Pacific index up 1.2%",
-    "SK Hynix rallied 9% on a $45 bn shareholder-return plan as profit rose sevenfold"
-   ],
-   "src": {
-    "title": "Bloomberg: Stock market today — Dow, S&P live updates for October 28",
-    "url": "https://www.bloomberg.com/news/articles/2026-10-27/stock-market-today-dow-s-p-live-updates"
-   },
-   "date": "2026-10-28",
-   "slot": "1200",
-   "when": "Wed · 12:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "pre"
    }
   },
   {
