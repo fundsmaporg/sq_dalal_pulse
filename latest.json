@@ -1,37 +1,111 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-29T12:35:30+05:30",
+ "generated_at": "2026-10-29T13:03:23+05:30",
  "date": "2026-10-29",
- "slot": "1230",
- "slot_label": "12:30",
+ "slot": "1300",
+ "slot_label": "13:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-29T12:30:00+05:30",
+ "asof": "2026-10-29T13:00:00+05:30",
  "nifty": {
-  "value": 22863,
-  "pct": 0.71,
-  "chg": 164.15,
+  "value": 22862,
+  "pct": 0.72,
+  "chg": 163,
   "approx": true
  },
  "mood": {
-  "label": "Rally extends",
-  "score": 0.45,
-  "summary": "The rally has extended past midday with the Sensex up about 600 points; FMCG has taken the lead alongside PSU banks and IT, while autos, cement and chemicals still lag.",
+  "label": "Steady gains",
+  "score": 0.4,
+  "summary": "Markets are consolidating near the day's highs into early afternoon, with the Nifty steady above 22,800; FMCG and PSU banks lead while autos are the main sector in the red.",
   "detail": {
-   "leaders": "Nifty FMCG, PSU Bank, IT; ITC, United Spirits, Dabur",
-   "laggards": "Nifty Auto, Cement, Chemicals",
-   "tone": "Firmer than 12:00: the Sensex was up about 608 points at 73,854 at 12:17 pm and the Nifty 0.71% higher at 22,863, both near the day's best.",
+   "leaders": "Nifty FMCG, PSU Bank; Adani Ports, United Spirits",
+   "laggards": "Nifty Auto",
+   "tone": "Flat versus 12:30: the Sensex is holding a 500–600 point gain and the Nifty sits around 22,860, with no fresh push higher.",
    "watch": [
-    "Coal India, Asian Paints, IndiGo results after the close",
+    "Post-market results: Coal India, Asian Paints, IndiGo, Trent",
     "Reliance Q2 on Friday",
     "Brent moves on US-Iran talks"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex surges 500 points, Nifty 50 tops 22,800; PSU Bank, FMCG lead — Business Standard",
+    "title": "Stock Market LIVE: Sensex spurts 500 points, Nifty steady above 22,800; Adani Ports rises 6% — Business Standard",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "adani-ports-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Adani Ports extends gains; brokers upbeat",
+   "line": "Stock up 4–6% after Q2; analysts reiterate 'Buy' with a ₹2,130 target",
+   "more": [
+    "Hit ₹1,823.15 on BSE in morning deals",
+    "Q2 profit up 17–18% to ₹3,682 cr",
+    "FY27 revenue and EBITDA guidance raised"
+   ],
+   "src": {
+    "title": "Adani Ports soars 4% on healthy Q2, raises FY27 guidance; brokerages upbeat — Business Standard",
+    "url": "https://www.business-standard.com/amp/markets/news/adani-ports-soars-4-on-healthy-q2-raises-fy27-guidance-brokerages-upbeat-126102900431_1.html"
+   },
+   "date": "2026-10-29",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "united-spirits",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "United Spirits up ~4% on margin gains",
+   "line": "Gross margin rose ~88 bps to 48% on mix and productivity, offsetting a volume drop",
+   "more": [
+    "'Regular' segment volumes fell about 30%",
+    "Revenue and net profit declined, per Whalesbook",
+    "One of three FMCG names up over 2% with ITC, Dabur"
+   ],
+   "src": {
+    "title": "United Spirits shares rise 4% as margin gains mask volume drop — Whalesbook",
+    "url": "https://www.whalesbook.com/news/English/brokerage-reports/United-Spirits-Shares-Rise-4percent-as-Margin-Gains-Mask-Volume-Drop/6ae2ef474fc30694db5182ed"
+   },
+   "date": "2026-10-29",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1300"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "Jio Platforms ended debut at ₹1,417.50",
+   "line": "Day-two trade ranged ₹1,442–1,489.70, up about 3.6% mid-morning",
+   "more": [
+    "Listing-day close was 26.7% above the ₹1,119 issue price",
+    "Volume about 2.14 crore shares by 10:28 am"
+   ],
+   "src": {
+    "title": "Jio Platforms share price — INDmoney",
+    "url": "https://www.indmoney.com/stocks/jio-platforms-ltd-share-price"
+   },
+   "date": "2026-10-29",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-20",
+    "slot": "pre"
+   }
+  },
   {
    "key": "reliance-q2",
    "tag": "Results",
@@ -51,7 +125,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1230"
@@ -75,7 +149,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1130"
@@ -99,7 +173,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1230"
@@ -206,30 +280,6 @@
    }
   },
   {
-   "key": "adani-ports-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Adani Ports tops Nifty gainers, up 2.3%",
-   "line": "Day after its ~18% Q2 profit rise and raised FY27 guidance",
-   "more": [
-    "Rose 2.31% in morning trade",
-    "Revenue grew 24% in the quarter"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex surges 500 points, Nifty 50 tops 22,800; PSU Bank, FMCG lead — Business Standard",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
-   },
-   "date": "2026-10-29",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1400"
-   }
-  },
-  {
    "key": "crude",
    "tag": "Global",
    "impact": "pos",
@@ -301,30 +351,6 @@
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1100"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Jio Platforms hits ₹1,489, m-cap ₹13.7 trn",
-   "line": "Shares rose 5.08% intraday on day two, extending the debut rally",
-   "more": [
-    "Listed Wednesday at ₹1,358 vs ₹1,119 issue price",
-    "Market cap now about ₹13.70 trillion"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex up over 200 pts, Nifty 50 near 22,800; PSU Bank, FMCG stocks gain — Business Standard",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-29-nse-bse-sensex-today-nifty-gift-nifty-jpl-share-price-ipo-today-126102900090_1.html"
-   },
-   "date": "2026-10-29",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-20",
-    "slot": "pre"
    }
   },
   {
