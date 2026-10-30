@@ -1,69 +1,76 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-30T11:03:18+05:30",
+ "generated_at": "2026-10-30T11:41:01+05:30",
  "date": "2026-10-30",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-30T11:00:00+05:30",
+ "asof": "2026-10-30T11:30:00+05:30",
  "nifty": {
-  "value": 22975.6,
-  "pct": 0.17,
-  "chg": 38.85,
+  "value": 23000,
+  "pct": 0.28,
+  "chg": 63.25,
   "approx": true
  },
  "mood": {
-  "label": "Range-bound",
-  "score": 0.15,
-  "summary": "The market is range-bound near Thursday's highs, the Nifty just under 23,000; IT and Trent provide support while Reliance and defence stocks weigh ahead of RIL's results.",
+  "label": "Breaks higher",
+  "score": 0.35,
+  "summary": "The market has broken out of its morning range, the Sensex at the day's high about 300 points up and the Nifty back above 23,000, with IT up 2% leading the move.",
   "detail": {
-   "leaders": "Trent, Nifty IT, Sun Pharma",
-   "laggards": "Reliance, Suzlon",
-   "tone": "Flatter than 10:30: at 10 am the Nifty was up 38.85 at 22,975.60 and the Sensex near 74,305, with the index unable to break 23,000.",
+   "leaders": "Nifty IT, Trent, IndiGo",
+   "laggards": "Reliance, Coal India, Suzlon",
+   "tone": "Firmer than 11:00: the index has moved from a tight range near 22,975 to the day's high, reclaiming 23,000 as IT accelerated.",
    "watch": [
-    "A sustained move above 23,000",
+    "Whether 23,000 holds into the close",
     "Reliance Q2 numbers after the bell",
-    "Spillover from global tech weakness"
+    "Crude price moves"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range; Nifty India Defence down 2%; RIL falls ahead of Q2 result — Business Standard",
+    "title": "Stock Market LIVE: Sensex at day's high, up 300 pts, Nifty reclaims 23,000; Nifty IT up 2% — Business Standard",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Trent tops Sensex gainers; IT led by Coforge, Wipro, Infosys; Sun Pharma firm",
-     "why": "Results and approvals are driving stock-specific buying while IT benefits from a preference for Indian tech over global AI names.",
+     "summary": "IT up 2% leads; Trent and IndiGo extend results-day gains",
+     "why": "Indian IT keeps drawing buyers despite the global tech sell-off, and better-than-feared results support Trent and IndiGo.",
      "names": [
-      {
-       "name": "Trent",
-       "dir": "up",
-       "move": "+6.9% (high)",
-       "line": "Hit ₹3,060 after EBITDA beat and ~25% profit growth"
-      },
       {
        "name": "Nifty IT",
        "dir": "up",
-       "line": "Coforge, Wipro, Infosys lead despite Wall Street tech's slide"
+       "move": "+2%",
+       "line": "Coforge, Wipro, Infosys lead as investors favour Indian tech over AI-linked names"
       },
       {
-       "name": "Sun Pharma",
+       "name": "Trent",
        "dir": "up",
-       "line": "US FDA approved ILUMYA for active psoriatic arthritis"
+       "move": "up ~6–7%",
+       "line": "EBITDA beat estimates by a wide margin; margin up to 18.2%"
+      },
+      {
+       "name": "IndiGo",
+       "dir": "up",
+       "line": "Q2 loss narrower than the ₹2,063 cr consensus"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex stuck in range; Nifty India Defence down 2%; RIL falls ahead of Q2 result — Business Standard",
+      "title": "Stock Market LIVE: Sensex at day's high, up 300 pts, Nifty reclaims 23,000; Nifty IT up 2% — Business Standard",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
      }
     },
     "down": {
-     "summary": "Reliance slips into its Q2 results; Suzlon down 8% after profit plunge",
-     "why": "Pre-results caution in the index heavyweight and a results miss weigh on select names.",
+     "summary": "Reliance slips before results; Coal India and Suzlon fall after numbers",
+     "why": "Pre-results caution and results-day reactions weigh on a few names.",
      "names": [
       {
        "name": "Reliance",
        "dir": "down",
-       "line": "Shares falling ahead of Q2 numbers due today"
+       "move": "−0.4% to −0.8%",
+       "line": "Slipping ahead of Q2 results; stock down ~26% this year"
+      },
+      {
+       "name": "Coal India",
+       "dir": "down",
+       "line": "Profit beat, but EBITDA missed analyst estimates"
       },
       {
        "name": "Suzlon Energy",
@@ -73,14 +80,87 @@
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex stuck in range; Nifty India Defence down 2%; RIL falls ahead of Q2 result — Business Standard",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
+      "title": "Sensex Today Live: Sensex, Nifty trade higher; Trent, IndiGo gain, Coal India shares fall — Sunday Guardian",
+      "url": "https://sundayguardianlive.com/business/sensex-today-live-sensex-nifty-trade-higher-trent-indigo-gain-coal-india-shares-fall-314092/"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "reliance-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Reliance profit seen up 16–20% in Q2",
+   "line": "Preview sees ₹21,100–22,110 cr profit on O2C recovery and strong refining margins",
+   "more": [
+    "Options price a ~±5.6% move by expiry",
+    "Analysts flag ₹1,152 as key support",
+    "Stock down nearly 26% in 2026"
+   ],
+   "src": {
+    "title": "Reliance Q2 results: net profit likely to see up to 20% YoY growth — Upstox",
+    "url": "https://upstox.com/news/market-news/earnings/reliance-q2-results-net-profit-likely-to-see-up-to-24-yo-y-growth-driven-by-recovery-in-o2-c-business-and-strong-refining-margins/article-202669/"
+   },
+   "date": "2026-10-30",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "coal-india-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Coal India slips despite profit beat",
+   "line": "Shares fall after results: profit rose 53% and beat, but EBITDA missed",
+   "more": [
+    "Profit ₹6,516 cr vs ₹6,418 cr poll estimate",
+    "₹10.25 dividend; record date Nov 4"
+   ],
+   "src": {
+    "title": "Sensex Today Live: Sensex, Nifty trade higher; Trent, IndiGo gain, Coal India shares fall — Sunday Guardian",
+    "url": "https://sundayguardianlive.com/business/sensex-today-live-sensex-nifty-trade-higher-trent-indigo-gain-coal-india-shares-fall-314092/"
+   },
+   "date": "2026-10-30",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Rising crude limits the rally",
+   "line": "Higher oil prices and weak global cues cited as capping gains",
+   "more": [
+    "Brent quoted around $111–113 in morning reports",
+    "US-Iran strike talk lifted oil in Asian trade"
+   ],
+   "src": {
+    "title": "Sensex Today Live: Sensex, Nifty trade higher; Trent, IndiGo gain, Coal India shares fall — Sunday Guardian",
+    "url": "https://sundayguardianlive.com/business/sensex-today-live-sensex-nifty-trade-higher-trent-indigo-gain-coal-india-shares-fall-314092/"
+   },
+   "date": "2026-10-30",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "pre"
+   }
+  },
   {
    "key": "sun-pharma-fda",
    "tag": "Stocks",
@@ -99,34 +179,10 @@
    "slot": "1100",
    "when": "11:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1100"
-   }
-  },
-  {
-   "key": "reliance-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Reliance slips ahead of Q2 numbers",
-   "line": "Index heavyweight weighs on the Sensex hours before its first post-Jio-listing results",
-   "more": [
-    "Board also to consider an NCD fundraise",
-    "Year-ago Q2 profit ₹18,165 cr"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range; Nifty India Defence down 2%; RIL falls ahead of Q2 result — Business Standard",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
-   },
-   "date": "2026-10-30",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1230"
    }
   },
   {
@@ -147,7 +203,7 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1100"
@@ -223,30 +279,6 @@
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "coal-india-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Coal India profit tops poll estimate",
-   "line": "₹6,516 cr profit beat the ₹6,418 cr poll estimate, though EBITDA missed",
-   "more": [
-    "Revenue up 21% to ₹44,179 cr",
-    "₹10.25 dividend; record date Nov 4"
-   ],
-   "src": {
-    "title": "Earnings Central: Coal India beats Street, Suzlon logs record deliveries, IndiGo's losses narrow — AeroHaber",
-    "url": "https://aerohaber.com/stocks-to-watch-on-oct-30-trent-indigo-suzlon-energy-iex-and-more/"
-   },
-   "date": "2026-10-30",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1130"
    }
   },
   {
@@ -360,30 +392,6 @@
    "src": {
     "title": "FII DII Data Today — Kotak Neo",
     "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
-   },
-   "date": "2026-10-30",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent up over 2% on US-Iran strike risk",
-   "line": "December futures near $113.3 as talk of further US military action resurfaces",
-   "more": [
-    "Reverses Thursday's easing on peace-talk hopes",
-    "Quote is for the December futures contract"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets tumble on tech shares selloff — Business Standard",
-    "url": "https://business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
    },
    "date": "2026-10-30",
    "slot": "pre",
