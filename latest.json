@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-29T16:04:32+05:30",
- "date": "2026-10-29",
- "slot": "post",
- "slot_label": "Close",
- "stage": "Post-market mood",
- "asof": "2026-10-29T16:00:00+05:30",
+ "generated_at": "2026-10-30T08:34:14+05:30",
+ "date": "2026-10-30",
+ "slot": "pre",
+ "slot_label": "Pre-open",
+ "stage": "Pre-market mood",
+ "asof": "2026-10-30T08:30:00+05:30",
  "nifty": {
   "value": 22936.75,
   "pct": 1.05,
@@ -13,70 +13,221 @@
   "approx": false
  },
  "mood": {
-  "label": "Strong rebound",
-  "score": 0.6,
-  "summary": "Benchmarks snapped a two-day losing streak with a broad 1%+ rally, closing near the day's highs; midcaps and smallcaps rose about 1% while autos and cement lagged.",
+  "label": "Weak open seen",
+  "score": -0.35,
+  "summary": "A weaker start is signalled after Thursday's 1% rally, as a global tech sell-off drags Asia sharply lower and oil firms; GIFT Nifty futures point about 60 points down.",
   "detail": {
-   "leaders": "Nifty FMCG, Adani Ports",
-   "laggards": "Asian Paints, Trent",
-   "tone": "Firmer than the 15:30 read: the Sensex closed 905 points higher at 74,151 and the Nifty at 22,936.75, above the 22,800 level it had struggled to hold.",
+   "leaders": "Coal India after 53% profit rise",
+   "laggards": "IndiGo after a surprise Q2 loss; Trent below estimates",
+   "tone": "A reversal of Thursday's mood: after a 905-point Sensex rally, overnight tech losses and firmer crude point to giving back some gains.",
    "watch": [
-    "Reaction to Coal India, IndiGo and Trent results on Friday",
-    "Reliance Q2 numbers on Friday",
-    "Brent near $114.5 and the rupee"
+    "Reliance Q2 results today",
+    "Size of the Asia tech sell-off at India's open",
+    "Brent moves on US-Iran strike reports"
    ],
    "src": {
-    "title": "Closing Bell: Sensex rebounds 905 points, Nifty 50 crosses 22,900; realty stocks lead gains — DSIJ",
-    "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-rebounds-905-points-nifty-50-crosses-22900-realty-stocks-lead-gains-60236"
-   },
-   "movers": {
-    "up": {
-     "summary": "FMCG rose 2.3% on United Spirits, HUL and ITC; Adani Ports led Sensex gainers",
-     "why": "Fed-relief buying, renewed FII inflows and post-results interest in select heavyweights powered a broad advance.",
-     "names": [
-      {
-       "name": "Nifty FMCG",
-       "dir": "up",
-       "move": "+2.34%",
-       "line": "United Spirits, Radico, Marico, HUL and ITC drove the sector higher"
-      },
-      {
-       "name": "Adani Ports",
-       "dir": "up",
-       "move": "up over 4%",
-       "line": "Q2 profit up 17% to ₹3,682 cr and FY27 guidance raised"
-      }
-     ],
-     "src": {
-      "title": "Closing Bell: Sensex rebounds 905 points, Nifty 50 crosses 22,900; realty stocks lead gains — DSIJ",
-      "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-rebounds-905-points-nifty-50-crosses-22900-realty-stocks-lead-gains-60236"
-     }
-    },
-    "down": {
-     "summary": "Asian Paints slipped after a margin-hit quarter; Trent lagged ahead of results",
-     "why": "Results-day caution hit a couple of consumer names even as the broader market rallied.",
-     "names": [
-      {
-       "name": "Asian Paints",
-       "dir": "down",
-       "line": "Profit up just 7.5% as raw-material inflation squeezed margins"
-      },
-      {
-       "name": "Trent",
-       "dir": "down",
-       "move": "−2.33% (noon)",
-       "line": "Steepest Nifty decline at noon, with Q2 results due after the close"
-      }
-     ],
-     "src": {
-      "title": "Top Gainers and Losers Today, 29 October 2026 at 12:00 PM IST — HDFC Sky",
-      "url": "https://hdfcsky.com/news/top-gainers-and-top-losers-today-29-october-2026-at-12-pm"
-     }
-    }
+    "title": "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets tumble on tech shares selloff — Business Standard",
+    "url": "https://business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "asia-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Kospi tumbles ~5.5%, Nikkei ~2.9% on tech rout",
+   "line": "Weak Alphabet and Intel results hit Asian tech; Nasdaq-100 futures down over 2%",
+   "more": [
+    "Kosdaq down about 3.7%",
+    "Binance's $5.7 bn crypto hack also weighed",
+    "GIFT Nifty quoted near 22,988, down 60 points"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets tumble on tech shares selloff — Business Standard",
+    "url": "https://business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
+   },
+   "date": "2026-10-30",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Alphabet's worst day ever drags Nasdaq",
+   "line": "Alphabet fell 12.6% on cash burn and capex worries; Nasdaq lost about 1.4%",
+   "more": [
+    "S&P 500 down about 0.3–0.5%",
+    "ServiceNow fell ~27% on weak guidance",
+    "Amazon and Intel slid after hours"
+   ],
+   "src": {
+    "title": "Alphabet falls 12.64% in its worst day ever, Amazon slides — The Wall Street Republic",
+    "url": "https://thewallstreetrepublic.substack.com/p/alphabet-falls-1264-in-its-worst"
+   },
+   "date": "2026-10-30",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "indigo-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "IndiGo posts ₹1,879 cr Q2 loss",
+   "line": "Expected swing to profit didn't happen as fuel costs jumped 67% and the rupee fell",
+   "more": [
+    "Revenue up ~26% to ₹23,364 cr",
+    "Year-ago loss was ₹2,582 cr",
+    "Yields rose 34% but passengers fell ~5%"
+   ],
+   "src": {
+    "title": "IndiGo posts ₹1,879 crore net loss in Q2 FY27 amid high fuel costs — Free Press Journal",
+    "url": "https://www.freepressjournal.in/business/indigo-posts-1879-crore-net-loss-in-q2-fy27-amid-high-fuel-costs-revenue-up-259"
+   },
+   "date": "2026-10-30",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "coal-india-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Coal India profit up 53%; ₹10.25 dividend",
+   "line": "Q2 profit ₹6,516 cr on 21% revenue growth, though one report says it missed estimates",
+   "more": [
+    "Revenue about ₹44,179 cr",
+    "Another report puts profit at ₹6,547 cr (+57%)",
+    "Auditors flagged board independence gaps"
+   ],
+   "src": {
+    "title": "Coal India Q2 results: net profit rises 53% to ₹6,516 crore; second dividend — Upstox",
+    "url": "https://upstox.com/news/market-news/earnings/coal-india-q2-results-net-profit-rises-53-to-6-516-crore-yo-y-board-declares-second-dividend-for-fy-27/article-202658/"
+   },
+   "date": "2026-10-30",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "trent-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Trent profit up 23% but misses estimate",
+   "line": "Q2 profit ₹464 cr vs ₹535 cr expected; revenue up ~22% to ₹5,873 cr",
+   "more": [
+    "Operating margin improved about 137 bps",
+    "Zudio crossed 1,000 stores"
+   ],
+   "src": {
+    "title": "Trent Q2 net profit rises 23% to ₹464 crore on strong apparel sales — Business Standard",
+    "url": "https://www.business-standard.com/companies/news/trent-q2-net-profit-rises-23-to-464-crore-on-strong-apparel-sales-126102901089_1.html"
+   },
+   "date": "2026-10-30",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "FIIs turn sellers; DIIs buy ₹1,924 cr",
+   "line": "Provisional: FIIs sold ₹943.60 cr in cash on Oct 29, ending two buying days",
+   "more": [
+    "DIIs net bought ₹1,924.40 cr",
+    "Combined net buying about ₹981 cr"
+   ],
+   "src": {
+    "title": "FII DII Data Today — Kotak Neo",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+   },
+   "date": "2026-10-30",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent up over 2% on US-Iran strike risk",
+   "line": "December futures near $113.3 as talk of further US military action resurfaces",
+   "more": [
+    "Reverses Thursday's easing on peace-talk hopes",
+    "Quote is for the December futures contract"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets tumble on tech shares selloff — Business Standard",
+    "url": "https://business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
+   },
+   "date": "2026-10-30",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "reliance-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Reliance reports Q2 today",
+   "line": "First results since the Jio listing; NCD fundraise also on the board agenda",
+   "more": [
+    "Year-ago Q2 profit ₹18,165 cr",
+    "No preliminary figures disclosed"
+   ],
+   "src": {
+    "title": "Reliance Industries sets October 30 for Q2 FY27 results — Upstox",
+    "url": "https://upstox.com/news/market-news/earnings/reliance-industries-sets-october-30-for-q2-fy-27-results-ncd-fundraise-on-board-agenda/article-202491/"
+   },
+   "date": "2026-10-30",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1230"
+   }
+  },
   {
    "key": "q2-results",
    "tag": "Results",
@@ -94,9 +245,9 @@
    },
    "date": "2026-10-29",
    "slot": "post",
-   "when": "Close",
+   "when": "Thu · Close",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "pre"
@@ -119,61 +270,12 @@
    },
    "date": "2026-10-29",
    "slot": "post",
-   "when": "Close",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1430"
-   }
-  },
-  {
-   "key": "reliance-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Reliance Q2 due Friday",
-   "line": "First results since the Jio listing; board also to consider an NCD fundraise",
-   "more": [
-    "Year-ago Q2 profit ₹18,165 cr",
-    "Jio Platforms listed at a 21% premium on Wednesday"
-   ],
-   "src": {
-    "title": "Reliance Industries sets October 30 for Q2 FY27 results — Upstox",
-    "url": "https://upstox.com/news/market-news/earnings/reliance-industries-sets-october-30-for-q2-fy-27-results-ncd-fundraise-on-board-agenda/article-202491/"
-   },
-   "date": "2026-10-29",
-   "slot": "post",
-   "when": "Close",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "indigo-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "IndiGo seen swinging to a Q2 profit",
-   "line": "Analysts expect ₹510–580 cr profit on 27–30% revenue growth from higher fares",
-   "more": [
-    "Elara sees ₹580 cr after a ~₹280 cr forex loss",
-    "Year-ago Q2 loss was ₹2,582 cr",
-    "Fuel costs jumped 86% in Q1"
-   ],
-   "src": {
-    "title": "IndiGo Q2 results: revenue likely to rise up to 30% YoY on airfare hike — Upstox",
-    "url": "https://upstox.com/news/market-news/earnings/indi-go-q2-results-revenue-likely-to-rise-up-to-30-yo-y-driven-by-airfare-hike-key-focus-on-atf-prices-rise-and-its-impact-on-profitability/article-202579/"
-   },
-   "date": "2026-10-29",
-   "slot": "1530",
-   "when": "15:30",
+   "when": "Thu · Close",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
-    "slot": "1200"
+    "slot": "1430"
    }
   },
   {
@@ -192,7 +294,7 @@
    },
    "date": "2026-10-29",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Thu · 15:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -216,7 +318,7 @@
    },
    "date": "2026-10-29",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Thu · 15:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -241,36 +343,12 @@
    },
    "date": "2026-10-29",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Thu · 15:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1500"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Brent slips ~1% to about $114",
-   "line": "Brent futures down 1.03% at $114.13 as US-Iran talk hopes persist",
-   "more": [
-    "Wednesday settle was $115.32",
-    "Analysts still flag high crude as a rupee headwind"
-   ],
-   "src": {
-    "title": "Rupee rises 11 paise to 95.17 against US dollar in early trade — Deccan Herald",
-    "url": "https://www.deccanherald.com/business/markets/rupee-rises-11-paise-to-9517-against-us-dollar-in-early-trade-4199334"
-   },
-   "date": "2026-10-29",
-   "slot": "1500",
-   "when": "15:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-20",
-    "slot": "pre"
    }
   },
   {
@@ -289,7 +367,7 @@
    },
    "date": "2026-10-29",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Thu · 14:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -314,38 +392,12 @@
    },
    "date": "2026-10-29",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Thu · 14:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "coal-india-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Coal India estimates diverge sharply",
-   "line": "One preview sees adjusted profit down 31.6%; Zee Business sees a 52% rise",
-   "more": [
-    "Q2 coal supplies rose 12.1% to 186.1 MT",
-    "Net sales seen up ~19% in the bearish preview",
-    "Board to weigh a second interim dividend",
-    "Stock ₹394.70, +0.69% in the morning"
-   ],
-   "src": {
-    "title": "Coal India Q2 FY27 results on Oct 29: will a second payout cushion a 31.6% profit drop? — NiftyTrader",
-    "url": "https://www.niftytrader.in/markets/coal-india-q2-fy27-results-on-oct-29/"
-   },
-   "date": "2026-10-29",
-   "slot": "1400",
-   "when": "14:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1130"
    }
   },
   {
@@ -364,7 +416,7 @@
    },
    "date": "2026-10-29",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Thu · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -390,7 +442,7 @@
    },
    "date": "2026-10-29",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Thu · 13:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -415,37 +467,12 @@
    },
    "date": "2026-10-29",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Thu · 13:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1430"
-   }
-  },
-  {
-   "key": "trent-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Trent results due; store count at 1,342",
-   "line": "Q2 standalone revenue already reported up 23% to ₹5,788 cr; profit not yet out",
-   "more": [
-    "Zudio crossed 1,000 stores",
-    "H1 revenue up 21% to ₹11,454 cr",
-    "Q1 profit rose 26% to ~₹532 cr"
-   ],
-   "src": {
-    "title": "Trent Q2 FY27 update: revenue jumps 23%, Zudio tops 1,000 stores — Kotak Neo",
-    "url": "https://www.kotakneo.com/news/stocks/trent-q2-fy27-revenue-zudio-crosses-1000-stores/"
-   },
-   "date": "2026-10-29",
-   "slot": "1330",
-   "when": "13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1100"
    }
   },
   {
@@ -465,7 +492,7 @@
    },
    "date": "2026-10-29",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Thu · 13:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -490,7 +517,7 @@
    },
    "date": "2026-10-29",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Thu · 13:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -514,11 +541,11 @@
    },
    "date": "2026-10-29",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Thu · 13:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "slot": "pre"
    }
   },
@@ -538,37 +565,12 @@
    },
    "date": "2026-10-29",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Thu · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "asia-markets",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Kospi slides ~3% as Samsung drops 6.6%",
-   "line": "Samsung fell after delaying its shareholder-return plan; Shanghai down ~1%",
-   "more": [
-    "Kospi reverses part of Wednesday's 7% surge",
-    "Alphabet's after-hours slide also hit Asian tech",
-    "Reports differ on Nikkei: flat vs +0.4%"
-   ],
-   "src": {
-    "title": "investingLive Asia-Pacific market news: Oil eases on Vance's Iran outreach",
-    "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-oil-eases-on-vance-s-iran-outreach"
-   },
-   "date": "2026-10-29",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "pre"
    }
   },
   {
@@ -588,7 +590,7 @@
    },
    "date": "2026-10-29",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Thu · 12:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -613,36 +615,12 @@
    },
    "date": "2026-10-29",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Thu · 11:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Alphabet slumps 10% after hours",
-   "line": "Weak megacap updates revived AI-spending worries; Microsoft rose nearly 3%",
-   "more": [
-    "Samsung's profit also missed estimates",
-    "Microsoft beat on Azure cloud growth"
-   ],
-   "src": {
-    "title": "Stock Market Today: Dow, S&P live updates for Oct. 29, 2026 — Bloomberg",
-    "url": "https://www.bloomberg.com/news/articles/2026-10-28/stock-market-today-dow-s-p-live-updates"
-   },
-   "date": "2026-10-29",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "pre"
    }
   },
   {
@@ -661,36 +639,12 @@
    },
    "date": "2026-10-29",
    "slot": "0930",
-   "when": "9:30",
+   "when": "Thu · 9:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1530"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs and DIIs both net buyers Wednesday",
-   "line": "Provisional: FIIs bought ₹871.83 cr and DIIs ₹643.35 cr in cash on Oct 28",
-   "more": [
-    "Second straight FII buying session after ₹4,240 cr on Oct 27",
-    "Combined institutional net buying about ₹1,515 cr"
-   ],
-   "src": {
-    "title": "FII DII Data Today — Kotak Neo",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
-   },
-   "date": "2026-10-29",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-20",
-    "slot": "pre"
    }
   },
   {
@@ -1006,7 +960,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "slot": "pre"
    }
   },
@@ -1881,7 +1835,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "slot": "pre"
    }
   },
@@ -1908,31 +1862,6 @@
    "first_seen": {
     "date": "2026-10-21",
     "slot": "0930"
-   }
-  },
-  {
-   "key": "market-holiday",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "NSE, BSE shut for Dussehra today",
-   "line": "Equity, F&O and currency segments closed; trading resumes Wednesday, Oct 21.",
-   "more": [
-    "Oct 20 is also an NSE clearing holiday",
-    "MCX morning session closed; evening session from 5 pm open",
-    "Banks are closed for Dussehra too"
-   ],
-   "src": {
-    "title": "Zee Business: Are NSE, BSE open or closed on Dussehra on October 20?",
-    "url": "https://www.zeebiz.com/market-news/news-market-holiday-are-nse-bse-open-or-closed-on-dussehra-on-october-20-404087"
-   },
-   "date": "2026-10-20",
-   "slot": "pre",
-   "when": "Tue · Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-20",
-    "slot": "pre"
    }
   }
  ]
