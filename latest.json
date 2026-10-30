@@ -1,25 +1,25 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-30T11:41:01+05:30",
+ "generated_at": "2026-10-30T12:03:02+05:30",
  "date": "2026-10-30",
- "slot": "1130",
- "slot_label": "11:30",
+ "slot": "1200",
+ "slot_label": "12:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-30T11:30:00+05:30",
+ "asof": "2026-10-30T12:00:00+05:30",
  "nifty": {
-  "value": 23000,
-  "pct": 0.28,
-  "chg": 63.25,
+  "value": 22975.6,
+  "pct": 0.17,
+  "chg": 38.85,
   "approx": true
  },
  "mood": {
-  "label": "Breaks higher",
-  "score": 0.35,
-  "summary": "The market has broken out of its morning range, the Sensex at the day's high about 300 points up and the Nifty back above 23,000, with IT up 2% leading the move.",
+  "label": "Holding gains",
+  "score": 0.25,
+  "summary": "Gains are holding into midday with the Nifty hovering around 22,950–23,000, IT still in front, while India VIX rises 3.6% and the rupee softens.",
   "detail": {
    "leaders": "Nifty IT, Trent, IndiGo",
    "laggards": "Reliance, Coal India, Suzlon",
-   "tone": "Firmer than 11:00: the index has moved from a tight range near 22,975 to the day's high, reclaiming 23,000 as IT accelerated.",
+   "tone": "Choppier than 11:30: live-blog updates have swung between a 300-point and a 100-point Sensex gain, with the Nifty either side of 23,000 and volatility picking up.",
    "watch": [
     "Whether 23,000 holds into the close",
     "Reliance Q2 numbers after the bell",
@@ -89,6 +89,78 @@
  },
  "insights": [
   {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Rupee weakens as oil stays elevated",
+   "line": "USD/INR up ~0.19%, raising the rupee cost of imports; Brent near $112",
+   "more": [
+    "WTI above $103 a barrel",
+    "Rupee hit a two-week low near 95.30 on Wednesday"
+   ],
+   "src": {
+    "title": "Indian stocks edge higher as oil prices climb and rupee weakens — Investing.com",
+    "url": "https://in.investing.com/news/stock-market-news/indian-stocks-edge-higher-as-oil-prices-climb-and-rupee-weakens-5666441"
+   },
+   "date": "2026-10-30",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Sun Pharma, BEL join Reliance on results slate",
+   "line": "Three index names report today; Reliance's numbers come after the bell",
+   "more": [
+    "Sun Pharma got a US FDA nod for ILUMYA in psoriatic arthritis",
+    "BEL was among early Nifty laggards"
+   ],
+   "src": {
+    "title": "Why these stocks are rising and falling 30 Oct 26 — 5paisa",
+    "url": "https://www.5paisa.com/blog/why-these-stocks-are-rising-and-falling-30-oct-26"
+   },
+   "date": "2026-10-30",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "vedanta-power",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Vedanta Power among top Nifty 500 gainers",
+   "line": "Leads broader-market gainers on Friday, per 5paisa's movers list",
+   "more": [
+    "Q2 power sales rose 26% to 5,593 million units",
+    "Trent also among top Nifty 500 gainers"
+   ],
+   "src": {
+    "title": "Why these stocks are rising and falling 30 Oct 26 — 5paisa",
+    "url": "https://www.5paisa.com/blog/why-these-stocks-are-rising-and-falling-30-oct-26"
+   },
+   "date": "2026-10-30",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1400"
+   }
+  },
+  {
    "key": "reliance-q2",
    "tag": "Results",
    "impact": "watch",
@@ -107,7 +179,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1230"
@@ -131,7 +203,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1130"
@@ -155,7 +227,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "pre"
@@ -282,30 +354,6 @@
    }
   },
   {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee opens 7 paise stronger at 95.19",
-   "line": "A softer dollar supported the rupee, though crude remains a concern",
-   "more": [
-    "Brent cited near $111–113 in morning reports",
-    "Wednesday's close was 95.28"
-   ],
-   "src": {
-    "title": "Rupee rises 7 paise to 95.19 against US dollar — Free Press Journal",
-    "url": "https://freepressjournal.in/business/rupee-rises-7-paise-to-9519-against-us-dollar-weak-greenback-supports-gains-amid-crude-oil-concerns"
-   },
-   "date": "2026-10-30",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1200"
-   }
-  },
-  {
    "key": "profit-booking",
    "tag": "Opening",
    "impact": "watch",
@@ -396,31 +444,6 @@
    "date": "2026-10-30",
    "slot": "pre",
    "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Coal India, IndiGo, Trent report after close",
-   "line": "Friday will price in tonight's numbers from three Nifty 50 companies",
-   "more": [
-    "Coal India estimates range from a 31.6% drop to a 52% rise",
-    "IndiGo seen swinging to a ₹510–580 cr profit",
-    "Trent profit expected to grow in double digits"
-   ],
-   "src": {
-    "title": "Q2 Results Live Updates: IndiGo, Asian Paints, Coal India, Trent, others — Upstox",
-    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-indi-go-asian-paints-coal-india-trent-vedanta-power-others-to-declare-earnings/liveblog-202604/"
-   },
-   "date": "2026-10-29",
-   "slot": "post",
-   "when": "Thu · Close",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -549,30 +572,6 @@
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "vedanta-power",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Vedanta Power Q2 power sales up 26%",
-   "line": "Provisional update shows 5,593 million units sold; full results due today",
-   "more": [
-    "Vedanta group stocks mixed on company-specific updates",
-    "Vedanta Oil and Gas also reports today"
-   ],
-   "src": {
-    "title": "Vedanta Power, Oil and Gas, Aluminium: group stocks mixed on company-specific updates — Upstox",
-    "url": "https://upstox.com/news/market-news/stocks/vedanta-group-in-focus-power-oil-and-gas-q2-results-today-parent-firm-s-earnings-bengal-investment-plan-iron-ore-ceo-quits/article-202584"
-   },
-   "date": "2026-10-29",
-   "slot": "1400",
-   "when": "Thu · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1400"
    }
   },
   {
