@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-30T10:03:41+05:30",
+ "generated_at": "2026-10-30T10:33:51+05:30",
  "date": "2026-10-30",
- "slot": "1000",
- "slot_label": "10:00",
- "stage": "Opening mood",
- "asof": "2026-10-30T10:00:00+05:30",
+ "slot": "1030",
+ "slot_label": "10:30",
+ "stage": "Mid-market mood",
+ "asof": "2026-10-30T10:30:00+05:30",
  "nifty": {
   "value": 22967.1,
   "pct": 0.13,
@@ -13,25 +13,142 @@
   "approx": true
  },
  "mood": {
-  "label": "Resilient start",
-  "score": 0.1,
-  "summary": "Markets shrugged off Asia's tech rout with a flat-to-firm start, the Nifty edging toward 23,000 as IT stocks rallied while consumer durables and cement slipped.",
+  "label": "Steady gains",
+  "score": 0.25,
+  "summary": "Gains are extending modestly with the Nifty testing 23,000, led by IT and results-driven buying in Trent and IndiGo, while consumer durables and cement lag.",
   "detail": {
-   "leaders": "Nifty IT, pharma and healthcare",
-   "laggards": "Nifty Consumer Durables, Cement",
-   "tone": "Better than the pre-open read: instead of a gap-down, the Sensex opened 49 points higher at 74,199.69 and the Nifty at 22,964.50, holding Thursday's gains.",
+   "leaders": "Nifty IT, Trent, IndiGo",
+   "laggards": "Suzlon",
+   "tone": "A little firmer than 10:00: the Sensex is up around 140–170 points and the Nifty near 22,967–23,000, extending Thursday's rally.",
    "watch": [
-    "Whether the Nifty can take out 23,000",
-    "Spillover from the Asian tech sell-off",
+    "A decisive close above 23,000",
+    "Global tech sell-off spillover",
     "Reliance Q2 after market hours"
    ],
    "src": {
-    "title": "Sensex opens 49 points higher as Nifty inches towards 23,000; IT stocks rally over 1% — Free Press Journal",
-    "url": "https://www.freepressjournal.in/business/sensex-opens-49-points-higher-as-nifty-inches-towards-23000-it-stocks-steal-the-show-with-over-1-rally"
+    "title": "Markets extend previous session's rally amid buying in IT firms, earnings-driven demand in Trent — Deccan Herald",
+    "url": "https://www.deccanherald.com/business/markets/markets-extend-previous-sessions-rally-amid-buying-in-it-firms-earnings-driven-demand-in-trent-4200699"
+   },
+   "movers": {
+    "up": {
+     "summary": "IT up ~1.8%; Trent jumps ~6% and IndiGo gains on results",
+     "why": "Investors appear to favour Indian tech amid weakness in global AI-linked stocks, while results drive stock-specific buying.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "move": "~+1.8%",
+       "line": "Buyers favour Indian IT services amid weakness in global AI-linked stocks"
+      },
+      {
+       "name": "Trent",
+       "dir": "up",
+       "move": "~+6%",
+       "line": "Q2 profit up ~25% and EBITDA beat estimates by a wide margin"
+      },
+      {
+       "name": "IndiGo",
+       "dir": "up",
+       "line": "Q2 loss of ₹1,879 cr was narrower than the ₹2,063 cr consensus"
+      }
+     ],
+     "src": {
+      "title": "Markets extend previous session's rally amid buying in IT firms, earnings-driven demand in Trent — Deccan Herald",
+      "url": "https://www.deccanherald.com/business/markets/markets-extend-previous-sessions-rally-amid-buying-in-it-firms-earnings-driven-demand-in-trent-4200699"
+     }
+    },
+    "down": {
+     "summary": "Suzlon slumps over 8% after a 69% fall in Q2 profit",
+     "why": "Results disappointments are being sold even as the broader market edges up.",
+     "names": [
+      {
+       "name": "Suzlon Energy",
+       "dir": "down",
+       "move": "−8%+",
+       "line": "Q2 profit fell 69% despite deliveries rising to 710 MW"
+      }
+     ],
+     "src": {
+      "title": "Stock market today: Sensex opens higher, Trent rallies; Suzlon tumbles 8% — NewsDrum",
+      "url": "https://www.newsdrum.in/business/stock-market-today-sensex-opens-higher-trent-rallies-suzlon-tumbles-8-12766877"
+     }
+    }
    }
   }
  },
  "insights": [
+  {
+   "key": "trent-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Trent jumps ~6% on results",
+   "line": "Market rewards the EBITDA beat and margin expansion despite a profit miss",
+   "more": [
+    "Top Nifty 50 gainer in early trade",
+    "Report says Noel Tata is preparing to step down as chairman"
+   ],
+   "src": {
+    "title": "Stock Market Today: Sensex and Nifty jump amid buying in IT stocks; Trent up 6% — ETV Bharat",
+    "url": "https://www.etvbharat.com/en/business/stock-market-on-october-30-sensex-nifty50-crude-oil-prices-fii-enn26103001097"
+   },
+   "date": "2026-10-30",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "suzlon-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Suzlon falls 8% as profit drops 69%",
+   "line": "Record turbine deliveries of 710 MW failed to offset a sharp profit decline",
+   "more": [
+    "Deliveries up from 565 MW a year earlier",
+    "One of the biggest decliners in early trade"
+   ],
+   "src": {
+    "title": "Stock market today: Sensex opens higher, Trent rallies; Suzlon tumbles 8% — NewsDrum",
+    "url": "https://www.newsdrum.in/business/stock-market-today-sensex-opens-higher-trent-rallies-suzlon-tumbles-8-12766877"
+   },
+   "date": "2026-10-30",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "it-rotation",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Indian IT gains as global AI stocks slide",
+   "line": "Nifty IT up ~1.8% as investors favour Indian tech amid AI-linked weakness abroad",
+   "more": [
+    "Comes a day after Alphabet's record one-day fall",
+    "Pharma and healthcare also firm"
+   ],
+   "src": {
+    "title": "Stock Market Today: Sensex gains in early trade as investors focus on earnings — Business News Week",
+    "url": "https://businessnewsweek.in/business/stock-market-today-sensex-gains-in-early-trade-as-investors-focus-on-earnings-and-global-cues/"
+   },
+   "date": "2026-10-30",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "1030"
+   }
+  },
   {
    "key": "indigo-q2",
    "tag": "Results",
@@ -50,34 +167,10 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "trent-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Trent EBITDA beats estimates by a wide margin",
-   "line": "EBITDA up 29.6% to ₹1,054 cr vs ₹896 cr expected; margin rose to 18.2%",
-   "more": [
-    "Net profit still below some estimates",
-    "Consolidated revenue up ~22%"
-   ],
-   "src": {
-    "title": "Earnings Central: Coal India beats Street, Suzlon logs record deliveries, IndiGo's losses narrow — AeroHaber",
-    "url": "https://aerohaber.com/stocks-to-watch-on-oct-30-trent-indigo-suzlon-energy-iex-and-more/"
-   },
-   "date": "2026-10-30",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1100"
    }
   },
   {
@@ -98,7 +191,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1130"
@@ -122,7 +215,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "1200"
