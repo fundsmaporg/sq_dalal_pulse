@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-30T14:03:42+05:30",
+ "generated_at": "2026-10-30T14:33:08+05:30",
  "date": "2026-10-30",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-30T14:00:00+05:30",
+ "asof": "2026-10-30T14:30:00+05:30",
  "nifty": {
   "value": 23104.75,
   "pct": 0.73,
@@ -15,11 +15,11 @@
  "mood": {
   "label": "Steady, top-heavy",
   "score": 0.3,
-  "summary": "The market is consolidating around 23,100 into the last session stretch, still led by large caps as smallcaps and midcaps lag; results-day names drive single-stock moves.",
+  "summary": "Benchmarks hold their gains around 23,100 into the final hour, large caps still in charge while the broader market lags and results drive sharp single-stock swings.",
   "detail": {
    "leaders": "Nifty IT, Trent, Sun Pharma",
-   "laggards": "Nifty Smallcap 100, Reliance, Suzlon",
-   "tone": "Unchanged from 13:30: no fresher print than 1 pm (Sensex 74,720.11, Nifty 23,104.75); the gains are holding with breadth still weak.",
+   "laggards": "Nifty Smallcap 100, Godrej Consumer, Reliance, Suzlon",
+   "tone": "Little changed from 14:00: the latest print (1 pm) had the Sensex at 74,720.11 and the Nifty at 23,104.75; gains are holding, breadth still weak.",
    "watch": [
     "Whether breadth recovers into the close",
     "Reliance, Sun Pharma, BEL results",
@@ -58,7 +58,7 @@
      }
     },
     "down": {
-     "summary": "Smallcaps slide ~1%; Reliance slips before results; Suzlon down 8%",
+     "summary": "Smallcaps slide; GCPL hits 52-week low; Reliance and Suzlon lower",
      "why": "Selling in the broader market and pre-results caution offset the large-cap gains.",
      "names": [
       {
@@ -66,6 +66,12 @@
        "dir": "down",
        "move": "−1.2% (11:41 am)",
        "line": "Welspun Corp and Redington among the weights"
+      },
+      {
+       "name": "Godrej Consumer",
+       "dir": "down",
+       "move": "−7% (low)",
+       "line": "Hit a 52-week low as Q2 EBITDA margin shrank to ~18.6% on input costs"
       },
       {
        "name": "Reliance",
@@ -89,6 +95,79 @@
  },
  "insights": [
   {
+   "key": "gcpl-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Godrej Consumer hits 52-week low on margins",
+   "line": "Profit up 13.8% and sales up 19%, but EBITDA margin fell to ~18.6% on input costs",
+   "more": [
+    "Intraday low ₹777.20, down ~7%; pared to −3.6% by 10 am",
+    "Raw material costs rose 8.5%",
+    "₹5 interim dividend declared"
+   ],
+   "src": {
+    "title": "GCPL slides 7% as Q2 margins contract; analysts flag input cost pressures — Business Standard",
+    "url": "https://www.business-standard.com/markets/news/gcpl-slides-7-as-q2-margins-contract-analysts-flags-input-cost-pressures-126103000409_1.html"
+   },
+   "date": "2026-10-30",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "bob-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Bank of Baroda profit seen up 10%",
+   "line": "Zee Business estimates ₹5,290 cr profit; NIM may dip ~5 bps and miss guidance",
+   "more": [
+    "Loan growth pegged at ~18%",
+    "Reports today alongside other PSU names"
+   ],
+   "src": {
+    "title": "Bank of Baroda Q2 results preview: PAT likely to rise 10% to Rs 5,290 crore — Zee Business",
+    "url": "https://www.zeebiz.com/companies/news-bank-of-baroda-q2-fy27-results-preview-profit-nii-nim-expectations-share-price-action-404765"
+   },
+   "date": "2026-10-30",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Heavy results slate after the bell",
+   "line": "Dixon, Max Healthcare, PB Fintech, GAIL, Delhivery and IOCL also report today",
+   "more": [
+    "Reliance, Jio Platforms, BEL and Sun Pharma headline",
+    "Zee Entertainment and LIC Housing Finance on the list"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex gains 100 pts, Nifty tops 22,900; VIX rises 3.6% — Business Standard",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
+   },
+   "date": "2026-10-30",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "pre"
+   }
+  },
+  {
    "key": "india-bond-yields",
    "tag": "Macro",
    "impact": "neg",
@@ -107,34 +186,10 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Jio Platforms reports first results today",
-   "line": "200+ companies report today, incl. Reliance, Jio, BEL, IOCL and Bank of Baroda",
-   "more": [
-    "NTPC Green and Varun Beverages also on the slate",
-    "Reliance profit seen up ~20% on O2C recovery"
-   ],
-   "src": {
-    "title": "Q2 Results, Oct 30: Reliance, Jio Platforms, BEL, IOCL, Varun Beverages, Bank of Baroda, NTPC Green, others — Upstox",
-    "url": "https://upstox.com/news/market-news/earnings/q2-results-oct-30-reliance-industries-jio-platforms-bel-iocl-varun-beverages-bank-of-baroda-ntpc-green-others-to-post-earnings/article-202668/"
-   },
-   "date": "2026-10-30",
-   "slot": "1400",
-   "when": "14:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "pre"
    }
   },
   {
@@ -155,7 +210,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1100"
