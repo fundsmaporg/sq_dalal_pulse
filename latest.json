@@ -1,25 +1,25 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-30T12:35:41+05:30",
+ "generated_at": "2026-10-30T13:03:56+05:30",
  "date": "2026-10-30",
- "slot": "1230",
- "slot_label": "12:30",
+ "slot": "1300",
+ "slot_label": "13:00",
  "stage": "Mid-market mood",
- "asof": "2026-10-30T12:30:00+05:30",
+ "asof": "2026-10-30T13:00:00+05:30",
  "nifty": {
-  "value": 23104.0,
+  "value": 23104.55,
   "pct": 0.73,
-  "chg": 167.25,
+  "chg": 167.8,
   "approx": true
  },
  "mood": {
-  "label": "Narrow rally",
+  "label": "Selective gains",
   "score": 0.35,
-  "summary": "Benchmarks have pushed to fresh highs, the Sensex up over 500 points, but breadth is narrow: midcaps and smallcaps are down about 0.5% as IT does the heavy lifting.",
+  "summary": "Benchmarks are holding a ~0.7% gain above 23,100 into the afternoon, but buying stays selective, with decliners outnumbering advancers and IT carrying the index.",
   "detail": {
    "leaders": "Nifty IT, Trent, IndiGo",
    "laggards": "Reliance, Coal India, Suzlon",
-   "tone": "Stronger than 12:00: at noon the Sensex was up 513.94 at 74,664.98 and the Nifty up 167.25, clearing 23,000, even as the broader market slipped.",
+   "tone": "Steady versus 12:30: the latest print has the Sensex up about 514 at 74,665 and the Nifty at 23,104.55; Trent, IndiGo and Infosys top Sensex gainers.",
    "watch": [
     "Whether breadth improves beyond IT",
     "Reliance and Sun Pharma Q2 numbers after the bell",
@@ -89,22 +89,71 @@
  },
  "insights": [
   {
+   "key": "bel-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "BEL reports today; margin squeeze expected",
+   "line": "Revenue seen up 14%+, but EBITDA margin may slip to ~27.8% from 29.4%",
+   "more": [
+    "EBITDA seen at ~₹1,847 cr vs ₹1,702 cr",
+    "Consensus revenue ~₹6,608 cr",
+    "DAC cleared ₹2.12 lakh cr of procurement on Oct 27"
+   ],
+   "src": {
+    "title": "BEL Q2 results preview: top line seen growing over 14% but margin may shrink — Zee Business",
+    "url": "https://www.zeebiz.com/companies/news-bel-navratna-stock-q2-fy27-results-preview-profit-sales-margin-expectations-share-price-action-404766"
+   },
+   "date": "2026-10-30",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "1300"
+   }
+  },
+  {
+   "key": "jio-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Jio Platforms steadies near ₹1,420",
+   "line": "Third session trades flat after a 27% gain over the issue price in two days",
+   "more": [
+    "Day range ₹1,386.80–1,434.90",
+    "Issue price was ₹1,119; listed at ₹1,358"
+   ],
+   "src": {
+    "title": "Jio Platforms share price today — Dhan",
+    "url": "https://dhan.co/stocks/jio-platforms-ltd-share-price/"
+   },
+   "date": "2026-10-30",
+   "slot": "1300",
+   "when": "13:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "pre"
+   }
+  },
+  {
    "key": "it-rotation",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "IT carries the market to a 500-point gain",
-   "line": "Nifty IT is the top sector, offsetting the global tech sell-off after weak US earnings",
+   "title": "Infosys among top Sensex gainers",
+   "line": "IT heavyweights lead for a second day as investors favour Indian tech",
    "more": [
-    "Coforge, Wipro and Infosys among leaders",
-    "Consumer durables the weakest sector"
+    "Infosys, TCS, HCL Tech and Tech Mahindra all rose at the open",
+    "Trent and IndiGo also top Sensex gainers"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex rises 500 pts; Nifty SmallCap down 1% as Welspun Corp, Redington weigh — Business Standard",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
+    "title": "Share Market Today: Sensex, Nifty start Friday on a positive note; IT stocks shine — Dynamite News",
+    "url": "https://www.dynamitenews.com/business/share-market-today-sensex-nifty-start-friday-on-a-positive-note-it-stocks-shine"
    },
    "date": "2026-10-30",
-   "slot": "1230",
-   "when": "12:30",
+   "slot": "1300",
+   "when": "13:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -131,7 +180,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1230"
@@ -155,7 +204,7 @@
    "slot": "1230",
    "when": "12:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1230"
@@ -722,30 +771,6 @@
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1300"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "Jio Platforms ended debut at ₹1,417.50",
-   "line": "Day-two trade ranged ₹1,442–1,489.70, up about 3.6% mid-morning",
-   "more": [
-    "Listing-day close was 26.7% above the ₹1,119 issue price",
-    "Volume about 2.14 crore shares by 10:28 am"
-   ],
-   "src": {
-    "title": "Jio Platforms share price — INDmoney",
-    "url": "https://www.indmoney.com/stocks/jio-platforms-ltd-share-price"
-   },
-   "date": "2026-10-29",
-   "slot": "1300",
-   "when": "Thu · 13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "pre"
    }
   },
   {
