@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-30T14:33:08+05:30",
+ "generated_at": "2026-10-30T15:03:27+05:30",
  "date": "2026-10-30",
- "slot": "1430",
- "slot_label": "14:30",
- "stage": "Mid-market mood",
- "asof": "2026-10-30T14:30:00+05:30",
+ "slot": "1500",
+ "slot_label": "15:00",
+ "stage": "Closing mood",
+ "asof": "2026-10-30T15:00:00+05:30",
  "nifty": {
   "value": 23104.75,
   "pct": 0.73,
@@ -15,15 +15,15 @@
  "mood": {
   "label": "Steady, top-heavy",
   "score": 0.3,
-  "summary": "Benchmarks hold their gains around 23,100 into the final hour, large caps still in charge while the broader market lags and results drive sharp single-stock swings.",
+  "summary": "Into the last half-hour the market holds onto its gains near 23,100, large caps steady while smallcaps lag and firmer crude keeps a lid on risk appetite.",
   "detail": {
    "leaders": "Nifty IT, Trent, Sun Pharma",
    "laggards": "Nifty Smallcap 100, Godrej Consumer, Reliance, Suzlon",
-   "tone": "Little changed from 14:00: the latest print (1 pm) had the Sensex at 74,720.11 and the Nifty at 23,104.75; gains are holding, breadth still weak.",
+   "tone": "Little changed from 14:30: no print fresher than 1 pm (Sensex 74,720.11, Nifty 23,104.75); oil rising on Iran headlines is the new pressure point.",
    "watch": [
-    "Whether breadth recovers into the close",
-    "Reliance, Sun Pharma, BEL results",
-    "Crude and the rupee"
+    "Closing auction and whether 23,100 holds",
+    "Reliance, Jio, BEL, IOCL results tonight",
+    "Brent moving toward $120 on Iran"
    ],
    "src": {
     "title": "Stock Market LIVE: Sensex rises 500 pts, Nifty tops 23,100; Varun Beverages fall 4% post Q2 result — Business Standard",
@@ -95,6 +95,78 @@
  },
  "insights": [
   {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent near $116 as Trump weighs Iran strikes",
+   "line": "December Brent rose to about $116 after Iran's Hormuz mine claims; January at $112",
+   "more": [
+    "Reports say Trump was briefed on military options for Iran",
+    "Diplomatic contacts with Tehran offer a counterweight"
+   ],
+   "src": {
+    "title": "Oil prices surge towards $120 as Trump weighs fresh Iran strikes — Invezz",
+    "url": "https://invezz.com/news/2026/10/30/oil-prices-today-trump-iran-strikes-brent-crude/"
+   },
+   "date": "2026-10-30",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "iocl-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "IOCL seen swinging back to profit",
+   "line": "Q2 estimates range from ₹3,300 cr to ₹7,300 cr after a ₹1,141 cr Q1 loss",
+   "more": [
+    "Zee Business sees ₹5,556 cr standalone profit",
+    "Q1 operating profit fell to ₹4,062 cr"
+   ],
+   "src": {
+    "title": "IOC Q2 results preview: Rs 5,556 crore profit likely after June-quarter loss — Zee Business",
+    "url": "https://www.zeebiz.com/companies/news-ioc-q2-results-preview-rs-5556-crore-profit-likely-after-june-quarter-loss-404786"
+   },
+   "date": "2026-10-30",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "1500"
+   }
+  },
+  {
+   "key": "max-healthcare-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Max Healthcare revenue up ~20% in Q2",
+   "line": "Reports differ on profit: ~₹448 cr (+10%) vs ₹414 cr (down from ₹491 cr)",
+   "more": [
+    "Gross revenue ~₹3,219 cr per one report",
+    "Coverage highlights a focus on expansion"
+   ],
+   "src": {
+    "title": "Max Healthcare: Q2 revenue rises 20% to ₹3,219 cr, PAT grows 10% — InvestyWise",
+    "url": "https://www.investywise.com/max-healthcare-q2-fy27-earnings-update"
+   },
+   "date": "2026-10-30",
+   "slot": "1500",
+   "when": "15:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "1500"
+   }
+  },
+  {
    "key": "gcpl-q2",
    "tag": "Results",
    "impact": "neg",
@@ -113,7 +185,7 @@
    "slot": "1430",
    "when": "14:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1430"
@@ -137,7 +209,7 @@
    "slot": "1430",
    "when": "14:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1430"
@@ -161,7 +233,7 @@
    "slot": "1430",
    "when": "14:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "pre"
@@ -482,30 +554,6 @@
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Rising crude limits the rally",
-   "line": "Higher oil prices and weak global cues cited as capping gains",
-   "more": [
-    "Brent quoted around $111–113 in morning reports",
-    "US-Iran strike talk lifted oil in Asian trade"
-   ],
-   "src": {
-    "title": "Sensex Today Live: Sensex, Nifty trade higher; Trent, IndiGo gain, Coal India shares fall — Sunday Guardian",
-    "url": "https://sundayguardianlive.com/business/sensex-today-live-sensex-nifty-trade-higher-trent-indigo-gain-coal-india-shares-fall-314092/"
-   },
-   "date": "2026-10-30",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "pre"
    }
   },
   {
