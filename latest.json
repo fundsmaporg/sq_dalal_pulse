@@ -1,82 +1,82 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-30T15:34:27+05:30",
+ "generated_at": "2026-10-30T16:03:28+05:30",
  "date": "2026-10-30",
- "slot": "1530",
- "slot_label": "15:30",
- "stage": "Closing mood",
- "asof": "2026-10-30T15:30:00+05:30",
+ "slot": "post",
+ "slot_label": "Close",
+ "stage": "Post-market mood",
+ "asof": "2026-10-30T16:00:00+05:30",
  "nifty": {
-  "value": 23053,
+  "value": 23053.1,
   "pct": 0.51,
-  "chg": 116.25,
-  "approx": true
+  "chg": 116.35,
+  "approx": false
  },
  "mood": {
-  "label": "Second day up",
+  "label": "Narrow gains",
   "score": 0.3,
-  "summary": "The session closes higher for a second day, the Nifty near 23,053, as IT props up the index while midcaps and smallcaps finish lower and consumer durables lag.",
+  "summary": "Benchmarks closed higher for a second day and above 23,000, but the gain was narrow: IT and pharma did the lifting while midcaps and smallcaps ended lower.",
   "detail": {
-   "leaders": "Nifty IT, Trent, Sun Pharma",
-   "laggards": "Nifty Smallcap 100, Godrej Consumer, Reliance, Suzlon",
-   "tone": "Gains trimmed into the close versus the 1 pm high: the Sensex ended about 308 points higher and the Nifty near 23,053, off the 23,105 seen earlier.",
+   "leaders": "Nifty IT, Nifty Pharma, Trent, IndiGo",
+   "laggards": "Nifty Smallcap 100, Godrej Consumer, Suzlon",
+   "tone": "Off the 1 pm highs but firm: the Sensex closed 308.49 higher at 74,459.53 and the Nifty at 23,053.10, about 2% above last Friday's 22,600 close.",
    "watch": [
-    "Reliance, Jio, BEL, IOCL results tonight",
-    "Brent moving toward $120 on Iran",
-    "FII flows after Thursday's selling"
+    "Reaction to Reliance, Jio, BEL and Sun Pharma results on Monday",
+    "Weekend Iran headlines and Brent near $116",
+    "Nifty support 22,823–22,915; resistance 23,123–23,175"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex rises 500 pts, Nifty tops 23,100; Varun Beverages fall 4% post Q2 result — Business Standard",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
+    "title": "Closing Bell: Sensex rises 308 points, Nifty tops 23,000; IT, pharma stocks lead recovery — Zee Business",
+    "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-rises-308-points-nifty-reclaims-23000-it-pharma-stocks-lead-recovery-anil-singhvi-advises-caution-404856"
    },
    "movers": {
     "up": {
-     "summary": "IT heavyweights lead; Trent extends gains; Sun Pharma up 3% before results",
-     "why": "Large-cap IT and results-backed names are carrying the index while the broader market weakens.",
+     "summary": "IT up 2.2% and pharma 1.7%; Trent and IndiGo among top Sensex gainers",
+     "why": "Investors favoured Indian IT despite the global tech rout, while results and approvals drove pharma and select stocks.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "line": "Infosys, HCL Tech, Tech Mahindra and TCS are among the Nifty's major gainers"
+       "move": "+2.16%",
+       "line": "Infosys and HCL Tech led as investors favoured Indian tech over AI-linked names"
+      },
+      {
+       "name": "Nifty Pharma",
+       "dir": "up",
+       "move": "+1.67%",
+       "line": "Sun Pharma rose on a US FDA nod for ILUMYA ahead of results"
       },
       {
        "name": "Trent",
        "dir": "up",
-       "move": "up ~6–7%",
-       "line": "EBITDA beat estimates; stock touched ₹3,060"
+       "line": "Top gainer after EBITDA beat estimates by a wide margin"
       },
       {
-       "name": "Sun Pharma",
+       "name": "IndiGo",
        "dir": "up",
-       "move": "+3%",
-       "line": "Gains ahead of Q2 results after a US FDA nod for ILUMYA in psoriatic arthritis"
+       "line": "Q2 loss came in narrower than the ₹2,063 cr consensus"
       }
      ],
      "src": {
-      "title": "Sensex and Nifty 50 trade higher despite weakness in broader markets and global tech stocks — Kotak Neo",
-      "url": "https://www.kotakneo.com/news/market-news/markets-trade-higher-in-afternoon-deals/"
+      "title": "Sensex, Nifty close with gain of 0.5% as IT, pharma stocks rally; weak broader market limits gains — ChiniMandi",
+      "url": "https://www.chinimandi.com/sensex-nifty-close-with-gain-of-0-5-as-it-pharma-stocks-rally-weak-broader-market-limits-gains/"
      }
     },
     "down": {
-     "summary": "Smallcaps slide; GCPL hits 52-week low; Reliance and Suzlon lower",
-     "why": "Selling in the broader market and pre-results caution offset the large-cap gains.",
+     "summary": "Smallcaps fell 0.86%; GCPL hit a 52-week low; Suzlon slumped 8%",
+     "why": "Results disappointments and broad-market selling kept the rally narrow.",
      "names": [
       {
        "name": "Nifty Smallcap 100",
        "dir": "down",
        "move": "−0.86%",
-       "line": "Welspun Corp and Redington among the weights"
+       "line": "Welspun Corp and Redington among the drags"
       },
       {
        "name": "Godrej Consumer",
        "dir": "down",
-       "move": "−7% (low)",
-       "line": "Hit a 52-week low as Q2 EBITDA margin shrank to ~18.6% on input costs"
-      },
-      {
-       "name": "Reliance",
-       "dir": "down",
-       "line": "Slipping ahead of Q2 results due after market hours"
+       "move": "down up to 7%",
+       "line": "Q2 EBITDA margin shrank to ~18.6% on rising input costs"
       },
       {
        "name": "Suzlon Energy",
@@ -86,14 +86,111 @@
       }
      ],
      "src": {
-      "title": "Sensex and Nifty 50 trade higher despite weakness in broader markets and global tech stocks — Kotak Neo",
-      "url": "https://www.kotakneo.com/news/market-news/markets-trade-higher-in-afternoon-deals/"
+      "title": "Stock Market Close: Sensex rises for 2nd day, ends 308 pts higher; Nifty at 23,053 — Business Standard",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "reliance-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Reliance results set the tone for Monday",
+   "line": "Nuvama sees profit up ~15% to ₹20,900 cr with EBITDA up 17%; retail the weak link",
+   "more": [
+    "Other previews range up to ₹22,110 cr",
+    "Q1 FY27 profit was ₹20,946 cr",
+    "Jio Platforms reports its first results too"
+   ],
+   "src": {
+    "title": "Reliance Q2 FY27 results on Oct 30: Rs 20,900 crore profit seen, retail the weak link — NiftyTrader",
+    "url": "https://www.niftytrader.in/markets/reliance-q2-fy27-results-on-oct-30/"
+   },
+   "date": "2026-10-30",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "market-outlook",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Analysts urge caution after two-day rise",
+   "line": "Zee Business's Anil Singhvi advises restraint on fresh buying given weak breadth",
+   "more": [
+    "Nifty support seen at 22,823–22,915",
+    "Resistance placed at 23,123–23,175"
+   ],
+   "src": {
+    "title": "Closing Bell: Sensex rises 308 points, Nifty tops 23,000; IT, pharma stocks lead recovery — Zee Business",
+    "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-rises-308-points-nifty-reclaims-23000-it-pharma-stocks-lead-recovery-anil-singhvi-advises-caution-404856"
+   },
+   "date": "2026-10-30",
+   "slot": "post",
+   "when": "Close",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "boj",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Bank of Japan holds at 1.25%, speeds ETF unwind",
+   "line": "BoJ kept rates steady but stepped up the sale of its ETF holdings",
+   "more": [
+    "Policy rate unchanged at 1.25%",
+    "Pace of ETF holding sales increased"
+   ],
+   "src": {
+    "title": "Bank of Japan maintains 1.25% rate, steps up unwinding of ETF holdings — Zee Business",
+    "url": "https://www.zeebiz.com/economy-infra/world-economy/news-bank-of-japan-maintains-125-rate-steps-up-unwinding-of-etf-holdings-404843"
+   },
+   "date": "2026-10-30",
+   "slot": "post",
+   "when": "Close",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "Friday's FII data still awaited",
+   "line": "FIIs sold ₹943.60 cr on Thursday while DIIs bought ₹1,924 cr",
+   "more": [
+    "Oct 30 provisional figures not yet published",
+    "FIIs had bought on Oct 27–28"
+   ],
+   "src": {
+    "title": "FII DII Data Today — Kotak Neo",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+   },
+   "date": "2026-10-30",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "pre"
+   }
+  },
   {
    "key": "it-rotation",
    "tag": "Stocks",
@@ -112,34 +209,10 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "reliance-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Reliance numbers due after the close",
-   "line": "Stock slipped through the session; preview sees profit up 16–20%",
-   "more": [
-    "Options priced a ~±5.6% move",
-    "Jio Platforms also reports its first results"
-   ],
-   "src": {
-    "title": "Reliance Q2 results: net profit likely to see up to 20% YoY growth — Upstox",
-    "url": "https://upstox.com/news/market-news/earnings/reliance-q2-results-net-profit-likely-to-see-up-to-24-yo-y-growth-driven-by-recovery-in-o2-c-business-and-strong-refining-margins/article-202669/"
-   },
-   "date": "2026-10-30",
-   "slot": "1530",
-   "when": "15:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1230"
    }
   },
   {
@@ -160,7 +233,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "pre"
@@ -674,30 +747,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "FIIs turn sellers; DIIs buy ₹1,924 cr",
-   "line": "Provisional: FIIs sold ₹943.60 cr in cash on Oct 29, ending two buying days",
-   "more": [
-    "DIIs net bought ₹1,924.40 cr",
-    "Combined net buying about ₹981 cr"
-   ],
-   "src": {
-    "title": "FII DII Data Today — Kotak Neo",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
-   },
-   "date": "2026-10-30",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
     "slot": "pre"
    }
   },
