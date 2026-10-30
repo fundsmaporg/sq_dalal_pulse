@@ -1,33 +1,33 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-30T09:33:22+05:30",
+ "generated_at": "2026-10-30T10:03:41+05:30",
  "date": "2026-10-30",
- "slot": "0930",
- "slot_label": "9:30",
+ "slot": "1000",
+ "slot_label": "10:00",
  "stage": "Opening mood",
- "asof": "2026-10-30T09:30:00+05:30",
+ "asof": "2026-10-30T10:00:00+05:30",
  "nifty": {
-  "value": 22936.75,
-  "pct": 1.05,
-  "chg": 237.9,
+  "value": 22967.1,
+  "pct": 0.13,
+  "chg": 30.35,
   "approx": true
  },
  "mood": {
-  "label": "Cautious start",
-  "score": -0.25,
-  "summary": "Trade opens amid conflicting cues: Asia's sharp tech sell-off and firmer oil point lower, while domestic brokers expect Thursday's momentum to be tested rather than reversed.",
+  "label": "Resilient start",
+  "score": 0.1,
+  "summary": "Markets shrugged off Asia's tech rout with a flat-to-firm start, the Nifty edging toward 23,000 as IT stocks rallied while consumer durables and cement slipped.",
   "detail": {
-   "leaders": "Coal India in focus after 53% profit rise and dividend",
-   "laggards": "IndiGo after a ₹1,879 cr loss; Trent below estimates",
-   "tone": "Still cautious versus the pre-open read: no confirmed opening print yet, with GIFT Nifty pointing lower and analysts flagging profit booking after Thursday's 1% rally.",
+   "leaders": "Nifty IT, pharma and healthcare",
+   "laggards": "Nifty Consumer Durables, Cement",
+   "tone": "Better than the pre-open read: instead of a gap-down, the Sensex opened 49 points higher at 74,199.69 and the Nifty at 22,964.50, holding Thursday's gains.",
    "watch": [
-    "Depth of Asia's tech sell-off",
-    "IndiGo and Trent's first reaction to results",
+    "Whether the Nifty can take out 23,000",
+    "Spillover from the Asian tech sell-off",
     "Reliance Q2 after market hours"
    ],
    "src": {
-    "title": "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets tumble on tech shares selloff — Business Standard",
-    "url": "https://business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
+    "title": "Sensex opens 49 points higher as Nifty inches towards 23,000; IT stocks rally over 1% — Free Press Journal",
+    "url": "https://www.freepressjournal.in/business/sensex-opens-49-points-higher-as-nifty-inches-towards-23000-it-stocks-steal-the-show-with-over-1-rally"
    }
   }
  },
@@ -35,22 +35,20 @@
   {
    "key": "indigo-q2",
    "tag": "Results",
-   "impact": "neg",
-   "title": "IndiGo's core loss: ₹724 cr ex-forex",
-   "line": "Excluding currency effects, the airline lost ~₹724 cr vs a ₹104 cr profit a year ago",
+   "impact": "watch",
+   "title": "IndiGo loss smaller than Street feared",
+   "line": "₹1,879 cr loss beat the ₹2,063 cr Bloomberg consensus; forex hit ₹1,333 cr",
    "more": [
-    "Reported loss ₹1,879.1 cr, narrower than ₹2,582 cr a year ago",
-    "Fuel costs up 67.2% to ₹9,966.8 cr",
-    "No interim dividend declared",
-    "Shares closed near ₹4,675–4,680 before results"
+    "Forex loss was just ₹82 cr in the June quarter",
+    "Third straight quarterly loss"
    ],
    "src": {
-    "title": "IndiGo Q2 loss narrows to Rs 1,879 crore as fuel costs jump 67% — NewsDrum",
-    "url": "https://www.newsdrum.in/business/indigo-q2-loss-narrows-to-rs-1879-crore-as-fuel-costs-jump-67-12765528"
+    "title": "Earnings Central: Coal India beats Street, Suzlon logs record deliveries, IndiGo's losses narrow — AeroHaber",
+    "url": "https://aerohaber.com/stocks-to-watch-on-oct-30-trent-indigo-suzlon-energy-iex-and-more/"
    },
    "date": "2026-10-30",
-   "slot": "0930",
-   "when": "9:30",
+   "slot": "1000",
+   "when": "10:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -59,27 +57,75 @@
    }
   },
   {
+   "key": "trent-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Trent EBITDA beats estimates by a wide margin",
+   "line": "EBITDA up 29.6% to ₹1,054 cr vs ₹896 cr expected; margin rose to 18.2%",
+   "more": [
+    "Net profit still below some estimates",
+    "Consolidated revenue up ~22%"
+   ],
+   "src": {
+    "title": "Earnings Central: Coal India beats Street, Suzlon logs record deliveries, IndiGo's losses narrow — AeroHaber",
+    "url": "https://aerohaber.com/stocks-to-watch-on-oct-30-trent-indigo-suzlon-energy-iex-and-more/"
+   },
+   "date": "2026-10-30",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1100"
+   }
+  },
+  {
    "key": "coal-india-q2",
    "tag": "Results",
    "impact": "pos",
-   "title": "Coal India record date set for Nov 4",
-   "line": "₹10.25 interim dividend; buy by Nov 3 under T+1 to qualify",
+   "title": "Coal India profit tops poll estimate",
+   "line": "₹6,516 cr profit beat the ₹6,418 cr poll estimate, though EBITDA missed",
    "more": [
-    "Dividend payable on or before Nov 27",
-    "Stock closed ₹393.10 on Thursday, before results"
+    "Revenue up 21% to ₹44,179 cr",
+    "₹10.25 dividend; record date Nov 4"
    ],
    "src": {
-    "title": "Coal India Q2 profit jumps 53%; declares ₹10.25 dividend — Indian PSU",
-    "url": "https://indianpsu.com/coal-india-q2-results-profit-dividend-fy27/"
+    "title": "Earnings Central: Coal India beats Street, Suzlon logs record deliveries, IndiGo's losses narrow — AeroHaber",
+    "url": "https://aerohaber.com/stocks-to-watch-on-oct-30-trent-indigo-suzlon-energy-iex-and-more/"
    },
    "date": "2026-10-30",
-   "slot": "0930",
-   "when": "9:30",
+   "slot": "1000",
+   "when": "10:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1130"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee opens 7 paise stronger at 95.19",
+   "line": "A softer dollar supported the rupee, though crude remains a concern",
+   "more": [
+    "Brent cited near $111–113 in morning reports",
+    "Wednesday's close was 95.28"
+   ],
+   "src": {
+    "title": "Rupee rises 7 paise to 95.19 against US dollar — Free Press Journal",
+    "url": "https://freepressjournal.in/business/rupee-rises-7-paise-to-9519-against-us-dollar-weak-greenback-supports-gains-amid-crude-oil-concerns"
+   },
+   "date": "2026-10-30",
+   "slot": "1000",
+   "when": "10:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "1200"
    }
   },
   {
@@ -100,7 +146,7 @@
    "slot": "0930",
    "when": "9:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "0930"
@@ -154,30 +200,6 @@
    "first_seen": {
     "date": "2026-10-29",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "trent-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Trent profit up 23% but misses estimate",
-   "line": "Q2 profit ₹464 cr vs ₹535 cr expected; revenue up ~22% to ₹5,873 cr",
-   "more": [
-    "Operating margin improved about 137 bps",
-    "Zudio crossed 1,000 stores"
-   ],
-   "src": {
-    "title": "Trent Q2 net profit rises 23% to ₹464 crore on strong apparel sales — Business Standard",
-    "url": "https://www.business-standard.com/companies/news/trent-q2-net-profit-rises-23-to-464-crore-on-strong-apparel-sales-126102901089_1.html"
-   },
-   "date": "2026-10-30",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1100"
    }
   },
   {
@@ -324,30 +346,6 @@
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Rupee gives up gains, slips toward 95.4",
-   "line": "Currency weakened in the afternoon after firming to 95.17 in early trade",
-   "more": [
-    "Wednesday's close was 95.28",
-    "Morning gain came as the dollar eased after the Fed"
-   ],
-   "src": {
-    "title": "Nifty rises above 22,800 as FMCG stocks and Adani Ports rally after Fed holds rates, rupee slips toward 95.4 — IBTimes",
-    "url": "https://www.ibtimes.com.au/indian-shares-rise-fed-rate-pause-adani-ports-1877570"
-   },
-   "date": "2026-10-29",
-   "slot": "1530",
-   "when": "Thu · 15:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1200"
    }
   },
   {
