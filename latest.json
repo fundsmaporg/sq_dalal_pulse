@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-30T15:03:27+05:30",
+ "generated_at": "2026-10-30T15:34:27+05:30",
  "date": "2026-10-30",
- "slot": "1500",
- "slot_label": "15:00",
+ "slot": "1530",
+ "slot_label": "15:30",
  "stage": "Closing mood",
- "asof": "2026-10-30T15:00:00+05:30",
+ "asof": "2026-10-30T15:30:00+05:30",
  "nifty": {
-  "value": 23104.75,
-  "pct": 0.73,
-  "chg": 168.0,
+  "value": 23053,
+  "pct": 0.51,
+  "chg": 116.25,
   "approx": true
  },
  "mood": {
-  "label": "Steady, top-heavy",
+  "label": "Second day up",
   "score": 0.3,
-  "summary": "Into the last half-hour the market holds onto its gains near 23,100, large caps steady while smallcaps lag and firmer crude keeps a lid on risk appetite.",
+  "summary": "The session closes higher for a second day, the Nifty near 23,053, as IT props up the index while midcaps and smallcaps finish lower and consumer durables lag.",
   "detail": {
    "leaders": "Nifty IT, Trent, Sun Pharma",
    "laggards": "Nifty Smallcap 100, Godrej Consumer, Reliance, Suzlon",
-   "tone": "Little changed from 14:30: no print fresher than 1 pm (Sensex 74,720.11, Nifty 23,104.75); oil rising on Iran headlines is the new pressure point.",
+   "tone": "Gains trimmed into the close versus the 1 pm high: the Sensex ended about 308 points higher and the Nifty near 23,053, off the 23,105 seen earlier.",
    "watch": [
-    "Closing auction and whether 23,100 holds",
     "Reliance, Jio, BEL, IOCL results tonight",
-    "Brent moving toward $120 on Iran"
+    "Brent moving toward $120 on Iran",
+    "FII flows after Thursday's selling"
    ],
    "src": {
     "title": "Stock Market LIVE: Sensex rises 500 pts, Nifty tops 23,100; Varun Beverages fall 4% post Q2 result — Business Standard",
@@ -64,7 +64,7 @@
       {
        "name": "Nifty Smallcap 100",
        "dir": "down",
-       "move": "−1.2% (11:41 am)",
+       "move": "−0.86%",
        "line": "Welspun Corp and Redington among the weights"
       },
       {
@@ -95,22 +95,70 @@
  },
  "insights": [
   {
+   "key": "it-rotation",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT ends as the day's top sector",
+   "line": "Indian IT outperformed again despite the global tech rout after weak US earnings",
+   "more": [
+    "Consumer durables the weakest sector",
+    "Midcap 100 −0.54%, Smallcap 100 −0.86%"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex rises for 2nd day, ends 308 pts higher; Nifty at 23,053; IT shares shine — Business Standard",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
+   },
+   "date": "2026-10-30",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "reliance-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Reliance numbers due after the close",
+   "line": "Stock slipped through the session; preview sees profit up 16–20%",
+   "more": [
+    "Options priced a ~±5.6% move",
+    "Jio Platforms also reports its first results"
+   ],
+   "src": {
+    "title": "Reliance Q2 results: net profit likely to see up to 20% YoY growth — Upstox",
+    "url": "https://upstox.com/news/market-news/earnings/reliance-q2-results-net-profit-likely-to-see-up-to-24-yo-y-growth-driven-by-recovery-in-o2-c-business-and-strong-refining-margins/article-202669/"
+   },
+   "date": "2026-10-30",
+   "slot": "1530",
+   "when": "15:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1230"
+   }
+  },
+  {
    "key": "crude",
    "tag": "Global",
    "impact": "neg",
-   "title": "Brent near $116 as Trump weighs Iran strikes",
-   "line": "December Brent rose to about $116 after Iran's Hormuz mine claims; January at $112",
+   "title": "Oil risk carries into the weekend",
+   "line": "Brent near $116 on the expiring contract as Iran strike talk lingers",
    "more": [
-    "Reports say Trump was briefed on military options for Iran",
-    "Diplomatic contacts with Tehran offer a counterweight"
+    "January Brent near $112",
+    "Diplomatic contacts with Tehran continue"
    ],
    "src": {
     "title": "Oil prices surge towards $120 as Trump weighs fresh Iran strikes — Invezz",
     "url": "https://invezz.com/news/2026/10/30/oil-prices-today-trump-iran-strikes-brent-crude/"
    },
    "date": "2026-10-30",
-   "slot": "1500",
-   "when": "15:00",
+   "slot": "1530",
+   "when": "15:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -136,7 +184,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1500"
@@ -160,7 +208,7 @@
    "slot": "1500",
    "when": "15:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1500"
@@ -387,30 +435,6 @@
    }
   },
   {
-   "key": "it-rotation",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Infosys among top Sensex gainers",
-   "line": "IT heavyweights lead for a second day as investors favour Indian tech",
-   "more": [
-    "Infosys, TCS, HCL Tech and Tech Mahindra all rose at the open",
-    "Trent and IndiGo also top Sensex gainers"
-   ],
-   "src": {
-    "title": "Share Market Today: Sensex, Nifty start Friday on a positive note; IT stocks shine — Dynamite News",
-    "url": "https://www.dynamitenews.com/business/share-market-today-sensex-nifty-start-friday-on-a-positive-note-it-stocks-shine"
-   },
-   "date": "2026-10-30",
-   "slot": "1300",
-   "when": "13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1030"
-   }
-  },
-  {
    "key": "welspun-corp-q2",
    "tag": "Results",
    "impact": "neg",
@@ -505,31 +529,6 @@
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "reliance-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Reliance profit seen up 16–20% in Q2",
-   "line": "Preview sees ₹21,100–22,110 cr profit on O2C recovery and strong refining margins",
-   "more": [
-    "Options price a ~±5.6% move by expiry",
-    "Analysts flag ₹1,152 as key support",
-    "Stock down nearly 26% in 2026"
-   ],
-   "src": {
-    "title": "Reliance Q2 results: net profit likely to see up to 20% YoY growth — Upstox",
-    "url": "https://upstox.com/news/market-news/earnings/reliance-q2-results-net-profit-likely-to-see-up-to-24-yo-y-growth-driven-by-recovery-in-o2-c-business-and-strong-refining-margins/article-202669/"
-   },
-   "date": "2026-10-30",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1230"
    }
   },
   {
