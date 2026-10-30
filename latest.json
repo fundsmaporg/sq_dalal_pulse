@@ -1,76 +1,76 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-30T13:03:56+05:30",
+ "generated_at": "2026-10-30T13:34:31+05:30",
  "date": "2026-10-30",
- "slot": "1300",
- "slot_label": "13:00",
+ "slot": "1330",
+ "slot_label": "13:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-30T13:00:00+05:30",
+ "asof": "2026-10-30T13:30:00+05:30",
  "nifty": {
-  "value": 23104.55,
+  "value": 23104.75,
   "pct": 0.73,
-  "chg": 167.8,
+  "chg": 168.0,
   "approx": true
  },
  "mood": {
-  "label": "Selective gains",
-  "score": 0.35,
-  "summary": "Benchmarks are holding a ~0.7% gain above 23,100 into the afternoon, but buying stays selective, with decliners outnumbering advancers and IT carrying the index.",
+  "label": "Top-heavy gains",
+  "score": 0.3,
+  "summary": "Benchmarks are holding near the day's high with the Nifty around 23,100, but the rally stays top-heavy: smallcaps are down about 1% and midcaps about 0.6%.",
   "detail": {
    "leaders": "Nifty IT, Trent, IndiGo",
-   "laggards": "Reliance, Coal India, Suzlon",
-   "tone": "Steady versus 12:30: the latest print has the Sensex up about 514 at 74,665 and the Nifty at 23,104.55; Trent, IndiGo and Infosys top Sensex gainers.",
+   "laggards": "Nifty Smallcap 100, Reliance, Suzlon",
+   "tone": "Slightly firmer than 13:00: at 1 pm the Sensex was up 569.07 at 74,720.11 and the Nifty up 168 at 23,104.75, with breadth still weak.",
    "watch": [
-    "Whether breadth improves beyond IT",
-    "Reliance and Sun Pharma Q2 numbers after the bell",
-    "Rupee and crude"
+    "Whether breadth recovers into the close",
+    "Reliance, Sun Pharma, BEL results",
+    "Crude and the rupee"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex at day's high, up 300 pts, Nifty reclaims 23,000; Nifty IT up 2% — Business Standard",
+    "title": "Stock Market LIVE: Sensex rises 500 pts, Nifty tops 23,100; Varun Beverages fall 4% post Q2 result — Business Standard",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT up 2% leads; Trent and IndiGo extend results-day gains",
-     "why": "Indian IT keeps drawing buyers despite the global tech sell-off, and better-than-feared results support Trent and IndiGo.",
+     "summary": "IT heavyweights lead; Trent and IndiGo extend results-day gains",
+     "why": "Large-cap IT and results-backed names are carrying the index while the broader market weakens.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "move": "+2%",
-       "line": "Coforge, Wipro, Infosys lead as investors favour Indian tech over AI-linked names"
+       "line": "Infosys, HCL Tech, Tech Mahindra and TCS are among the Nifty's major gainers"
       },
       {
        "name": "Trent",
        "dir": "up",
        "move": "up ~6–7%",
-       "line": "EBITDA beat estimates by a wide margin; margin up to 18.2%"
+       "line": "EBITDA beat estimates; stock touched ₹3,060"
       },
       {
        "name": "IndiGo",
        "dir": "up",
-       "line": "Q2 loss narrower than the ₹2,063 cr consensus"
+       "move": "+2%",
+       "line": "Q2 loss narrowed to ₹1,879 cr, better than the consensus"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex at day's high, up 300 pts, Nifty reclaims 23,000; Nifty IT up 2% — Business Standard",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
+      "title": "Sensex and Nifty 50 trade higher despite weakness in broader markets and global tech stocks — Kotak Neo",
+      "url": "https://www.kotakneo.com/news/market-news/markets-trade-higher-in-afternoon-deals/"
      }
     },
     "down": {
-     "summary": "Reliance slips before results; Coal India and Suzlon fall after numbers",
-     "why": "Pre-results caution and results-day reactions weigh on a few names.",
+     "summary": "Smallcaps slide ~1%; Reliance slips before results; Suzlon down 8%",
+     "why": "Selling in the broader market and pre-results caution offset the large-cap gains.",
      "names": [
+      {
+       "name": "Nifty Smallcap 100",
+       "dir": "down",
+       "move": "−1.2% (11:41 am)",
+       "line": "Welspun Corp and Redington among the weights"
+      },
       {
        "name": "Reliance",
        "dir": "down",
-       "move": "−0.4% to −0.8%",
-       "line": "Slipping ahead of Q2 results; stock down ~26% this year"
-      },
-      {
-       "name": "Coal India",
-       "dir": "down",
-       "line": "Profit beat, but EBITDA missed analyst estimates"
+       "line": "Slipping ahead of Q2 results due after market hours"
       },
       {
        "name": "Suzlon Energy",
@@ -80,14 +80,87 @@
       }
      ],
      "src": {
-      "title": "Sensex Today Live: Sensex, Nifty trade higher; Trent, IndiGo gain, Coal India shares fall — Sunday Guardian",
-      "url": "https://sundayguardianlive.com/business/sensex-today-live-sensex-nifty-trade-higher-trent-indigo-gain-coal-india-shares-fall-314092/"
+      "title": "Sensex and Nifty 50 trade higher despite weakness in broader markets and global tech stocks — Kotak Neo",
+      "url": "https://www.kotakneo.com/news/market-news/markets-trade-higher-in-afternoon-deals/"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "thyrocare-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Thyrocare slumps 12% as profit drops 68%",
+   "line": "A ₹45 cr impairment on its Nueclear unit wiped out a 25% revenue gain",
+   "more": [
+    "Q2 profit about ₹15 cr vs ₹48 cr a year ago",
+    "Revenue up 25% to ~₹271 cr",
+    "Shareholders voting on ₹141.4 cr Nueclear divestment"
+   ],
+   "src": {
+    "title": "Thyrocare Q2 profit slips 68% YoY to ₹15 cr due to ₹45 cr exceptional expense — Inc42",
+    "url": "https://inc42.com/buzz/thyrocare-q2-profit-slips-68-yoy-to-%E2%82%B915-cr-due-to-%E2%82%B945-cr-exceptional-expense/"
+   },
+   "date": "2026-10-30",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "20 companies report Q2 results today",
+   "line": "Reliance, Sun Pharma and BEL headline a heavy end-of-week slate",
+   "more": [
+    "Sun Pharma's earnings call is at 6 pm",
+    "BEL margin expected to narrow"
+   ],
+   "src": {
+    "title": "Sensex gains 514 points, Nifty 50 rises 167 points as IT stocks advance; 20 companies to announce Q2 results today — DSIJ",
+    "url": "https://insights.dsij.in/dsijarticledetail/sensex-gains-514-points-nifty-50-rises-167-points-as-it-stocks-advance-20-companies-to-announce-q2-results-today-60254"
+   },
+   "date": "2026-10-30",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-21",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "indigo-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "IndiGo rises 2% on narrower loss",
+   "line": "Shares gain a day after the airline's Q2 loss came in below estimates",
+   "more": [
+    "Loss ₹1,879 cr vs ₹2,582 cr a year ago",
+    "Forex loss ₹1,333 cr in the quarter"
+   ],
+   "src": {
+    "title": "Sensex and Nifty 50 trade higher despite weakness in broader markets and global tech stocks — Kotak Neo",
+    "url": "https://www.kotakneo.com/news/market-news/markets-trade-higher-in-afternoon-deals/"
+   },
+   "date": "2026-10-30",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1200"
+   }
+  },
   {
    "key": "bel-q2",
    "tag": "Results",
@@ -107,7 +180,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1300"
@@ -131,7 +204,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "pre"
@@ -155,7 +228,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1030"
@@ -232,30 +305,6 @@
    "first_seen": {
     "date": "2026-10-21",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Sun Pharma, BEL join Reliance on results slate",
-   "line": "Three index names report today; Reliance's numbers come after the bell",
-   "more": [
-    "Sun Pharma got a US FDA nod for ILUMYA in psoriatic arthritis",
-    "BEL was among early Nifty laggards"
-   ],
-   "src": {
-    "title": "Why these stocks are rising and falling 30 Oct 26 — 5paisa",
-    "url": "https://www.5paisa.com/blog/why-these-stocks-are-rising-and-falling-30-oct-26"
-   },
-   "date": "2026-10-30",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "pre"
    }
   },
   {
@@ -425,30 +474,6 @@
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "indigo-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "IndiGo loss smaller than Street feared",
-   "line": "₹1,879 cr loss beat the ₹2,063 cr Bloomberg consensus; forex hit ₹1,333 cr",
-   "more": [
-    "Forex loss was just ₹82 cr in the June quarter",
-    "Third straight quarterly loss"
-   ],
-   "src": {
-    "title": "Earnings Central: Coal India beats Street, Suzlon logs record deliveries, IndiGo's losses narrow — AeroHaber",
-    "url": "https://aerohaber.com/stocks-to-watch-on-oct-30-trent-indigo-suzlon-energy-iex-and-more/"
-   },
-   "date": "2026-10-30",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1200"
    }
   },
   {
