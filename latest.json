@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-30T12:03:02+05:30",
+ "generated_at": "2026-10-30T12:35:41+05:30",
  "date": "2026-10-30",
- "slot": "1200",
- "slot_label": "12:00",
+ "slot": "1230",
+ "slot_label": "12:30",
  "stage": "Mid-market mood",
- "asof": "2026-10-30T12:00:00+05:30",
+ "asof": "2026-10-30T12:30:00+05:30",
  "nifty": {
-  "value": 22975.6,
-  "pct": 0.17,
-  "chg": 38.85,
+  "value": 23104.0,
+  "pct": 0.73,
+  "chg": 167.25,
   "approx": true
  },
  "mood": {
-  "label": "Holding gains",
-  "score": 0.25,
-  "summary": "Gains are holding into midday with the Nifty hovering around 22,950–23,000, IT still in front, while India VIX rises 3.6% and the rupee softens.",
+  "label": "Narrow rally",
+  "score": 0.35,
+  "summary": "Benchmarks have pushed to fresh highs, the Sensex up over 500 points, but breadth is narrow: midcaps and smallcaps are down about 0.5% as IT does the heavy lifting.",
   "detail": {
    "leaders": "Nifty IT, Trent, IndiGo",
    "laggards": "Reliance, Coal India, Suzlon",
-   "tone": "Choppier than 11:30: live-blog updates have swung between a 300-point and a 100-point Sensex gain, with the Nifty either side of 23,000 and volatility picking up.",
+   "tone": "Stronger than 12:00: at noon the Sensex was up 513.94 at 74,664.98 and the Nifty up 167.25, clearing 23,000, even as the broader market slipped.",
    "watch": [
-    "Whether 23,000 holds into the close",
-    "Reliance Q2 numbers after the bell",
-    "Crude price moves"
+    "Whether breadth improves beyond IT",
+    "Reliance and Sun Pharma Q2 numbers after the bell",
+    "Rupee and crude"
    ],
    "src": {
     "title": "Stock Market LIVE: Sensex at day's high, up 300 pts, Nifty reclaims 23,000; Nifty IT up 2% — Business Standard",
@@ -89,6 +89,79 @@
  },
  "insights": [
   {
+   "key": "it-rotation",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT carries the market to a 500-point gain",
+   "line": "Nifty IT is the top sector, offsetting the global tech sell-off after weak US earnings",
+   "more": [
+    "Coforge, Wipro and Infosys among leaders",
+    "Consumer durables the weakest sector"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex rises 500 pts; Nifty SmallCap down 1% as Welspun Corp, Redington weigh — Business Standard",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
+   },
+   "date": "2026-10-30",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "welspun-corp-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Welspun Corp drags smallcaps despite results",
+   "line": "Stock down ~4% even as Q2 profit rose ~12% and the order book doubled",
+   "more": [
+    "EBITDA up 25% to ₹782 cr",
+    "Order book about ₹50,000 cr vs ₹25,350 cr at FY26-end",
+    "Smallcap index down about 1% at one point"
+   ],
+   "src": {
+    "title": "Welspun Corp share price in focus after Q2 FY27 results: 25% EBITDA growth, record order book — Kotak Neo",
+    "url": "https://www.kotakneo.com/news/stocks/welspun-corp-shares-in-focus-after-q2-fy27-2027-results/"
+   },
+   "date": "2026-10-30",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "sun-pharma-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Sun Pharma reports Q2 today",
+   "line": "Earnings call at 6 pm; Q1 profit had risen 27% to ₹2,895 cr",
+   "more": [
+    "Q1 adjusted profit up just 3.1%",
+    "Fresh US FDA nod for ILUMYA this week"
+   ],
+   "src": {
+    "title": "Sun Pharma Q1 profit rises 27% to ₹2,895 crore — Business Standard",
+    "url": "https://www.business-standard.com/companies/quarterly-results/quarterly-results-sun-pharma-q1fy27-profit-revenue-ebitda-results-126073100858_1.html"
+   },
+   "date": "2026-10-30",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "1230"
+   }
+  },
+  {
    "key": "rupee",
    "tag": "Macro",
    "impact": "neg",
@@ -106,7 +179,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "1200"
@@ -130,7 +203,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-21",
     "slot": "pre"
@@ -154,7 +227,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1400"
@@ -294,30 +367,6 @@
    "src": {
     "title": "Stock market today: Sensex opens higher, Trent rallies; Suzlon tumbles 8% — NewsDrum",
     "url": "https://www.newsdrum.in/business/stock-market-today-sensex-opens-higher-trent-rallies-suzlon-tumbles-8-12766877"
-   },
-   "date": "2026-10-30",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1030"
-   }
-  },
-  {
-   "key": "it-rotation",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Indian IT gains as global AI stocks slide",
-   "line": "Nifty IT up ~1.8% as investors favour Indian tech amid AI-linked weakness abroad",
-   "more": [
-    "Comes a day after Alphabet's record one-day fall",
-    "Pharma and healthcare also firm"
-   ],
-   "src": {
-    "title": "Stock Market Today: Sensex gains in early trade as investors focus on earnings — Business News Week",
-    "url": "https://businessnewsweek.in/business/stock-market-today-sensex-gains-in-early-trade-as-investors-focus-on-earnings-and-global-cues/"
    },
    "date": "2026-10-30",
    "slot": "1030",
