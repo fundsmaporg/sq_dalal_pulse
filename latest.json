@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-10-30T16:03:28+05:30",
- "date": "2026-10-30",
- "slot": "post",
- "slot_label": "Close",
- "stage": "Post-market mood",
- "asof": "2026-10-30T16:00:00+05:30",
+ "generated_at": "2026-11-01T19:54:36+05:30",
+ "date": "2026-11-01",
+ "slot": "outlook",
+ "slot_label": "Outlook",
+ "stage": "Weekend outlook",
+ "asof": "2026-11-01T19:55:00+05:30",
  "nifty": {
   "value": 23053.1,
   "pct": 0.51,
@@ -13,110 +13,244 @@
   "approx": false
  },
  "mood": {
-  "label": "Narrow gains",
-  "score": 0.3,
-  "summary": "Benchmarks closed higher for a second day and above 23,000, but the gain was narrow: IT and pharma did the lifting while midcaps and smallcaps ended lower.",
+  "label": "Cautious start likely",
+  "score": -0.15,
+  "summary": "Monday (Nov 2) opens against a heavy Wall Street sell-off and oil near $117, cushioned by strong FII buying, a firmer rupee and a big Reliance profit beat.",
   "detail": {
-   "leaders": "Nifty IT, Nifty Pharma, Trent, IndiGo",
-   "laggards": "Nifty Smallcap 100, Godrej Consumer, Suzlon",
-   "tone": "Off the 1 pm highs but firm: the Sensex closed 308.49 higher at 74,459.53 and the Nifty at 23,053.10, about 2% above last Friday's 22,600 close.",
+   "leaders": "Reliance on a strong Q2 beat; autos after robust October sales",
+   "laggards": "IT after the Nasdaq's 2.9% slide; oil-sensitive names with Brent near $117",
+   "tone": "Friday ended a second straight up day with the Nifty at 23,053.10 (+0.51%) and about 2% higher for the week, but the rally was narrow and US tech has since slumped.",
    "watch": [
-    "Reaction to Reliance, Jio, BEL and Sun Pharma results on Monday",
-    "Weekend Iran headlines and Brent near $116",
-    "Nifty support 22,823–22,915; resistance 23,123–23,175"
+    "How Indian IT reacts to Friday's Nasdaq rout after two days of outperformance",
+    "Reliance's opening move after its profit beat",
+    "Iran headlines: talks in Doha vs. renewed US strikes"
    ],
    "src": {
-    "title": "Closing Bell: Sensex rises 308 points, Nifty tops 23,000; IT, pharma stocks lead recovery — Zee Business",
-    "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-rises-308-points-nifty-reclaims-23000-it-pharma-stocks-lead-recovery-anil-singhvi-advises-caution-404856"
-   },
-   "movers": {
-    "up": {
-     "summary": "IT up 2.2% and pharma 1.7%; Trent and IndiGo among top Sensex gainers",
-     "why": "Investors favoured Indian IT despite the global tech rout, while results and approvals drove pharma and select stocks.",
-     "names": [
-      {
-       "name": "Nifty IT",
-       "dir": "up",
-       "move": "+2.16%",
-       "line": "Infosys and HCL Tech led as investors favoured Indian tech over AI-linked names"
-      },
-      {
-       "name": "Nifty Pharma",
-       "dir": "up",
-       "move": "+1.67%",
-       "line": "Sun Pharma rose on a US FDA nod for ILUMYA ahead of results"
-      },
-      {
-       "name": "Trent",
-       "dir": "up",
-       "line": "Top gainer after EBITDA beat estimates by a wide margin"
-      },
-      {
-       "name": "IndiGo",
-       "dir": "up",
-       "line": "Q2 loss came in narrower than the ₹2,063 cr consensus"
-      }
-     ],
-     "src": {
-      "title": "Sensex, Nifty close with gain of 0.5% as IT, pharma stocks rally; weak broader market limits gains — ChiniMandi",
-      "url": "https://www.chinimandi.com/sensex-nifty-close-with-gain-of-0-5-as-it-pharma-stocks-rally-weak-broader-market-limits-gains/"
-     }
-    },
-    "down": {
-     "summary": "Smallcaps fell 0.86%; GCPL hit a 52-week low; Suzlon slumped 8%",
-     "why": "Results disappointments and broad-market selling kept the rally narrow.",
-     "names": [
-      {
-       "name": "Nifty Smallcap 100",
-       "dir": "down",
-       "move": "−0.86%",
-       "line": "Welspun Corp and Redington among the drags"
-      },
-      {
-       "name": "Godrej Consumer",
-       "dir": "down",
-       "move": "down up to 7%",
-       "line": "Q2 EBITDA margin shrank to ~18.6% on rising input costs"
-      },
-      {
-       "name": "Suzlon Energy",
-       "dir": "down",
-       "move": "−8%+",
-       "line": "Q2 profit fell 69% despite record 710 MW deliveries"
-      }
-     ],
-     "src": {
-      "title": "Stock Market Close: Sensex rises for 2nd day, ends 308 pts higher; Nifty at 23,053 — Business Standard",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
-     }
-    }
+    "title": "Wall Street drops to its worst day since June after the sell-off for tech stocks deepens — Washington Times/AP",
+    "url": "https://www.washingtontimes.com/news/2026/oct/30/wall-street-falls-worst-day-since-june-sell-tech-stocks-deepens/"
    }
   }
  },
  "insights": [
   {
-   "key": "reliance-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Reliance results set the tone for Monday",
-   "line": "Nuvama sees profit up ~15% to ₹20,900 cr with EBITDA up 17%; retail the weak link",
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Wall Street's worst day since June on Friday",
+   "line": "Nasdaq fell 2.9% and S&P 500 1.8% as the tech sell-off deepened after earnings",
    "more": [
-    "Other previews range up to ₹22,110 cr",
-    "Q1 FY27 profit was ₹20,946 cr",
-    "Jio Platforms reports its first results too"
+    "Dow down 1.1% at 51,770.31 (Friday close)",
+    "Nvidia −4.2%; Intel had its worst day in decades",
+    "Nasdaq posted its worst month since March 2025"
    ],
    "src": {
-    "title": "Reliance Q2 FY27 results on Oct 30: Rs 20,900 crore profit seen, retail the weak link — NiftyTrader",
-    "url": "https://www.niftytrader.in/markets/reliance-q2-fy27-results-on-oct-30/"
+    "title": "Wall Street drops to its worst day since June after the sell-off for tech stocks deepens — Washington Times/AP",
+    "url": "https://www.washingtontimes.com/news/2026/oct/30/wall-street-falls-worst-day-since-june-sell-tech-stocks-deepens/"
    },
-   "date": "2026-10-30",
-   "slot": "post",
-   "when": "Close",
+   "date": "2026-11-01",
+   "slot": "outlook",
+   "when": "Outlook",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "reliance-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Reliance Q2 profit jumps ~41%, beating views",
+   "line": "Profit ₹25,548 cr vs ₹18,165 cr a year ago; previews had expected ~₹20,900 cr",
+   "more": [
+    "Another report cites ₹29,550 cr including associates",
+    "EBITDA reported up ~24% to ₹62,409 cr",
+    "Jio Platforms profit ~₹8,389 cr, up 13.7%"
+   ],
+   "src": {
+    "title": "Reliance Industries Q2 profit surges 40.64% to ₹25,548 crore, Jio posts strong growth — Aryan Age",
+    "url": "https://www.aryanage.com/article/49960/reliance-industries-q2-profit-surges-4064-to-%E2%82%B925548-crore-jio"
+   },
+   "date": "2026-11-01",
+   "slot": "outlook",
+   "when": "Outlook",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1230"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent settled near $117.6 after tanker attacks",
+   "line": "Iran says four tankers hit mines; Qatari mediators work to restart US-Iran talks",
+   "more": [
+    "Oil rose for a fourth straight week",
+    "Rubio: Trump has not decided on resuming strikes",
+    "Bessent says Hormuz traffic near prewar levels ex-Iran"
+   ],
+   "src": {
+    "title": "Iran claims 4 oil tankers hit mines as leader threatens wider war — Geopolitics Unplugged",
+    "url": "https://geopoliticsunplugged.substack.com/p/iran-claims-4-oil-tankers-hit-mines"
+   },
+   "date": "2026-11-01",
+   "slot": "outlook",
+   "when": "Outlook",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-22",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs bought ₹3,599 cr on Friday",
+   "line": "Provisional data: FIIs net bought ₹3,598.54 cr while DIIs sold ₹817.51 cr",
+   "more": [
+    "Reverses Thursday's ₹943.60 cr FII selling",
+    "Largest FII buying day of the week"
+   ],
+   "src": {
+    "title": "FII DII Data Today — Kotak Neo",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+   },
+   "date": "2026-11-01",
+   "slot": "outlook",
+   "when": "Outlook",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-22",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee gains 33 paise to 94.93",
+   "line": "Rupee closed Friday at 94.93 per dollar (provisional), its best level in recent sessions",
+   "more": [
+    "Had closed at 95.26 on Thursday",
+    "US 10-year yield eased to ~4.94% on Friday"
+   ],
+   "src": {
+    "title": "Indian rupee gains 33 paise to close at 94.93 against US dollar — Telangana Today/PTI",
+    "url": "https://telanganatoday.com/indian-rupee-gains-33-paise-to-close-at-94-93-against-us-dollar"
+   },
+   "date": "2026-11-01",
+   "slot": "outlook",
+   "when": "Outlook",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "auto-sales",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Strong October auto sales",
+   "line": "Maruti total up 25%, Tata Motors PVs up 23%; Mahindra hits record monthly total",
+   "more": [
+    "Maruti total 2,76,120 units",
+    "Mahindra total 1,31,109 (+9%), record domestic SUVs",
+    "Tata Motors CVs up 27% to 47,652"
+   ],
+   "src": {
+    "title": "Auto Sales October 2026: Maruti, Hyundai, Mahindra, Tata Motors — who gained, who lagged — Zee Business",
+    "url": "https://www.zeebiz.com/automobile/news-auto-sales-october-2026-maruti-hyundai-mahindra-tata-motors-eicher-force-who-gained-who-lagged-404898"
+   },
+   "date": "2026-11-01",
+   "slot": "outlook",
+   "when": "Outlook",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-01",
+    "slot": "outlook"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "SBI, ITC, Bharti, Titan report this week",
+   "line": "Heavyweight Q2 slate Nov 2–7 includes Tata Steel, Hindalco and BSE",
+   "more": [
+    "Bharti Airtel and Titan due Thursday, Nov 5",
+    "US midterm elections on Tuesday, Nov 3"
+   ],
+   "src": {
+    "title": "Top Q2 results next week, November 2-7: ITC, SBI, Bharti Airtel, Tata Steel, Titan, BSE, Hindalco — Business Upturn",
+    "url": "https://businessupturn.com/finance/stock-market/top-q2-results-next-week-november-2-7-itc-sbi-bharti-airtel-tata-steel-titan-bse-hindalco-among-companies-to-report-earnings/"
+   },
+   "date": "2026-11-01",
+   "slot": "outlook",
+   "when": "Outlook",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-22",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "noel-tata",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Noel Tata to exit six Tata company boards",
+   "line": "Leaves Trent, Titan, Tata Steel, Voltas and others around Nov 12 on turning 70",
+   "more": [
+    "Bahram Vakil to chair Trent from Nov 12",
+    "Stays on Tata Sons board as Tata Trusts nominee",
+    "Comes amid reported differences with N Chandrasekaran"
+   ],
+   "src": {
+    "title": "Noel Tata to step down from Trent, Voltas, Tata Steel and other boards on November 12 — People Matters",
+    "url": "https://www.peoplematters.in/news/leadership/noel-tata-to-step-down-from-trent-voltas-tata-steel-and-other-boards-on-november-12-53026"
+   },
+   "date": "2026-11-01",
+   "slot": "outlook",
+   "when": "Outlook",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-01",
+    "slot": "outlook"
+   }
+  },
+  {
+   "key": "holiday-calendar",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Diwali calendar: Muhurat Sun Nov 8",
+   "line": "Special Muhurat session on Sunday, Nov 8; markets shut Tuesday, Nov 10",
+   "more": [
+    "Monday, Nov 2 is a normal trading day",
+    "Nov 24 is also a market holiday"
+   ],
+   "src": {
+    "title": "Stock market holidays in November 2026: Muhurat trading date and timings — PL India",
+    "url": "https://www.plindia.com/news/stock-market-holidays-in-november-2026-muhurat-trading-date-and-timings/"
+   },
+   "date": "2026-11-01",
+   "slot": "outlook",
+   "when": "Outlook",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-01",
+    "slot": "outlook"
    }
   },
   {
@@ -135,9 +269,9 @@
    },
    "date": "2026-10-30",
    "slot": "post",
-   "when": "Close",
+   "when": "Fri · Close",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "post"
@@ -159,36 +293,12 @@
    },
    "date": "2026-10-30",
    "slot": "post",
-   "when": "Close",
+   "when": "Fri · Close",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "post"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "Friday's FII data still awaited",
-   "line": "FIIs sold ₹943.60 cr on Thursday while DIIs bought ₹1,924 cr",
-   "more": [
-    "Oct 30 provisional figures not yet published",
-    "FIIs had bought on Oct 27–28"
-   ],
-   "src": {
-    "title": "FII DII Data Today — Kotak Neo",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
-   },
-   "date": "2026-10-30",
-   "slot": "post",
-   "when": "Close",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "pre"
    }
   },
   {
@@ -207,36 +317,12 @@
    },
    "date": "2026-10-30",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Fri · 15:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Oil risk carries into the weekend",
-   "line": "Brent near $116 on the expiring contract as Iran strike talk lingers",
-   "more": [
-    "January Brent near $112",
-    "Diplomatic contacts with Tehran continue"
-   ],
-   "src": {
-    "title": "Oil prices surge towards $120 as Trump weighs fresh Iran strikes — Invezz",
-    "url": "https://invezz.com/news/2026/10/30/oil-prices-today-trump-iran-strikes-brent-crude/"
-   },
-   "date": "2026-10-30",
-   "slot": "1530",
-   "when": "15:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "pre"
    }
   },
   {
@@ -255,7 +341,7 @@
    },
    "date": "2026-10-30",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Fri · 15:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -279,7 +365,7 @@
    },
    "date": "2026-10-30",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Fri · 15:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -304,7 +390,7 @@
    },
    "date": "2026-10-30",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Fri · 14:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -328,36 +414,12 @@
    },
    "date": "2026-10-30",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Fri · 14:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1430"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Heavy results slate after the bell",
-   "line": "Dixon, Max Healthcare, PB Fintech, GAIL, Delhivery and IOCL also report today",
-   "more": [
-    "Reliance, Jio Platforms, BEL and Sun Pharma headline",
-    "Zee Entertainment and LIC Housing Finance on the list"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex gains 100 pts, Nifty tops 22,900; VIX rises 3.6% — Business Standard",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
-   },
-   "date": "2026-10-30",
-   "slot": "1430",
-   "when": "14:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "pre"
    }
   },
   {
@@ -377,7 +439,7 @@
    },
    "date": "2026-10-30",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Fri · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -401,7 +463,7 @@
    },
    "date": "2026-10-30",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Fri · 14:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -426,7 +488,7 @@
    },
    "date": "2026-10-30",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Fri · 13:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -450,7 +512,7 @@
    },
    "date": "2026-10-30",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Fri · 13:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -475,7 +537,7 @@
    },
    "date": "2026-10-30",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Fri · 13:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -499,11 +561,11 @@
    },
    "date": "2026-10-30",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Fri · 13:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "slot": "pre"
    }
   },
@@ -524,7 +586,7 @@
    },
    "date": "2026-10-30",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Fri · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -548,36 +610,12 @@
    },
    "date": "2026-10-30",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Fri · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Rupee weakens as oil stays elevated",
-   "line": "USD/INR up ~0.19%, raising the rupee cost of imports; Brent near $112",
-   "more": [
-    "WTI above $103 a barrel",
-    "Rupee hit a two-week low near 95.30 on Wednesday"
-   ],
-   "src": {
-    "title": "Indian stocks edge higher as oil prices climb and rupee weakens — Investing.com",
-    "url": "https://in.investing.com/news/stock-market-news/indian-stocks-edge-higher-as-oil-prices-climb-and-rupee-weakens-5666441"
-   },
-   "date": "2026-10-30",
-   "slot": "1200",
-   "when": "12:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1200"
    }
   },
   {
@@ -596,7 +634,7 @@
    },
    "date": "2026-10-30",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Fri · 12:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -620,7 +658,7 @@
    },
    "date": "2026-10-30",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Fri · 11:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -644,7 +682,7 @@
    },
    "date": "2026-10-30",
    "slot": "1100",
-   "when": "11:00",
+   "when": "Fri · 11:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -668,7 +706,7 @@
    },
    "date": "2026-10-30",
    "slot": "1030",
-   "when": "10:30",
+   "when": "Fri · 10:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -692,7 +730,7 @@
    },
    "date": "2026-10-30",
    "slot": "0930",
-   "when": "9:30",
+   "when": "Fri · 9:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -717,37 +755,12 @@
    },
    "date": "2026-10-30",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Fri · Pre-open",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-21",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Alphabet's worst day ever drags Nasdaq",
-   "line": "Alphabet fell 12.6% on cash burn and capex worries; Nasdaq lost about 1.4%",
-   "more": [
-    "S&P 500 down about 0.3–0.5%",
-    "ServiceNow fell ~27% on weak guidance",
-    "Amazon and Intel slid after hours"
-   ],
-   "src": {
-    "title": "Alphabet falls 12.64% in its worst day ever, Amazon slides — The Wall Street Republic",
-    "url": "https://thewallstreetrepublic.substack.com/p/alphabet-falls-1264-in-its-worst"
-   },
-   "date": "2026-10-30",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "pre"
+    "date": "2026-10-22",
+    "slot": "0930"
    }
   },
   {
@@ -1385,7 +1398,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "slot": "pre"
    }
   },
@@ -1918,8 +1931,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1400"
+    "date": "2026-10-22",
+    "slot": "1100"
    }
   },
   {
@@ -1964,11 +1977,11 @@
    "date": "2026-10-22",
    "slot": "1130",
    "when": "Thu · 11:30",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1100"
+    "date": "2026-10-22",
+    "slot": "1130"
    }
   },
   {
@@ -2041,8 +2054,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1000"
+    "date": "2026-10-22",
+    "slot": "0930"
    }
   },
   {
@@ -2086,11 +2099,11 @@
    "date": "2026-10-22",
    "slot": "1000",
    "when": "Thu · 10:00",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1100"
+    "date": "2026-10-22",
+    "slot": "1000"
    }
   },
   {
@@ -2113,8 +2126,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1330"
+    "date": "2026-10-22",
+    "slot": "pre"
    }
   },
   {
@@ -2139,154 +2152,6 @@
    "first_seen": {
     "date": "2026-10-22",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "it-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT rally defies market; Nifty IT +2.6%",
-   "line": "Q2 earnings, deal wins and upbeat commentary drive IT to an 8-month high.",
-   "more": [
-    "TCS up 23% in October; Infosys and Mphasis up 18% each",
-    "Index up 26% from its July 1 low of 25,699"
-   ],
-   "src": {
-    "title": "Upstox: Infosys, Wipro — IT stocks steal the show as Nifty IT jumps 2.6% against market trend",
-    "url": "https://upstox.com/news/market-news/stocks/infosys-wipro-it-stocks-steal-the-show-as-nifty-it-jumps-2-6-against-market-trend-what-s-driving-the-rally/article-202148/"
-   },
-   "date": "2026-10-21",
-   "slot": "1530",
-   "when": "Wed · 15:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1530"
-   }
-  },
-  {
-   "key": "mm-fin-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "M&M Financial reports Q2 today",
-   "line": "Business update showed Q2 disbursements up 22% to ~₹16,490 cr; assets up ~15%.",
-   "more": [
-    "Collection efficiency estimated at 97% vs 96% a year ago",
-    "Stage-3 assets estimated at 3.35–3.45% vs 3.94% a year ago",
-    "Q1 FY27 net profit was ₹927 cr"
-   ],
-   "src": {
-    "title": "ScanX: M&M Financial Q2FY27 disbursements up 22% YoY to ₹16,490 cr",
-    "url": "https://scanx.trade/stock-market-news/companies/m-m-financial-q2fy27-results-disbursements-rise-22-yoy-16-490-crore/52496182"
-   },
-   "date": "2026-10-21",
-   "slot": "1400",
-   "when": "Wed · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "russia-oil-tariff",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Trump waives tariffs on Russian oil buyers",
-   "line": "100% tariffs on buyers of Russian oil and gas waived a day before they were due.",
-   "more": [
-    "Offers respite to India just before the measures took effect",
-    "Announced alongside comments on the India-US deal"
-   ],
-   "src": {
-    "title": "BusinessToday: 'Pretty close' — Trump says India-US trade deal is in sight",
-    "url": "https://www.businesstoday.in/india/story/pretty-close-after-rubio-donald-trump-says-india-us-trade-deal-is-in-sight-562656-2026-10-21"
-   },
-   "date": "2026-10-21",
-   "slot": "1130",
-   "when": "Wed · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "ltts-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "LTTS jumps ~15% on strong Q2",
-   "line": "Net profit ₹548.2 cr, up 66.8% YoY, beat estimates; shares hit ₹4,143 on NSE.",
-   "more": [
-    "Growth led by sustainability segment and large-deal execution",
-    "Management expects another year of double-digit growth there",
-    "Some reports cite 53.5% profit growth; ₹548 cr is consistent"
-   ],
-   "src": {
-    "title": "Business Standard: Nifty IT index hits 10-month high; LTTS zooms 15% — here's why",
-    "url": "https://www.business-standard.com/amp/markets/news/nifty-it-index-hits-10-month-high-ltts-zooms-15-on-wednesday-here-s-why-126102100228_1.html"
-   },
-   "date": "2026-10-21",
-   "slot": "1030",
-   "when": "Wed · 10:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "1030"
-   }
-  },
-  {
-   "key": "bajaj-fin-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Brokerages cut Bajaj Finance targets",
-   "line": "Morgan Stanley, Jefferies, JPMorgan trim targets on margin worries; ratings kept positive.",
-   "more": [
-    "Morgan Stanley: ₹1,260 from ₹1,300",
-    "Jefferies: ₹1,230 from ₹1,280; JPMorgan: ₹1,260 from ₹1,310",
-    "CLSA holds Outperform with ₹1,300 target"
-   ],
-   "src": {
-    "title": "Zee Business: Bajaj Finance falls 3% despite 29% profit growth; brokerages cut targets",
-    "url": "https://www.zeebiz.com/markets/stocks/news-bajaj-finance-shares-fall-3-despite-29-profit-growth-why-are-brokerages-cutting-targets-404240"
-   },
-   "date": "2026-10-21",
-   "slot": "1030",
-   "when": "Wed · 10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "hd-fire-ipo",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "HD Fire Protect lists at ~24% premium",
-   "line": "Opened at ₹335 on NSE vs ₹271 issue price; ₹334.40 on BSE.",
-   "more": [
-    "Investors made ₹3,520 per lot at the NSE listing price",
-    "Issue was subscribed about 132 times",
-    "Entirely an offer for sale of ₹712 cr; company gets no proceeds"
-   ],
-   "src": {
-    "title": "Upstox: HD Fire Protect shares list at nearly 24% premium",
-    "url": "https://upstox.com/news/market-news/ipo/hd-fire-protect-shares-list-at-nearly-24-premium-here-s-how-much-investors-made-per-lot/article-202127/"
-   },
-   "date": "2026-10-21",
-   "slot": "1000",
-   "when": "Wed · 10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-21",
-    "slot": "0930"
    }
   }
  ]
