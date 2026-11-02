@@ -1,61 +1,67 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-02T12:03:06+05:30",
+ "generated_at": "2026-11-02T12:33:06+05:30",
  "date": "2026-11-02",
- "slot": "1200",
- "slot_label": "12:00",
+ "slot": "1230",
+ "slot_label": "12:30",
  "stage": "Mid-market mood",
- "asof": "2026-11-02T12:00:00+05:30",
+ "asof": "2026-11-02T12:30:00+05:30",
  "nifty": {
-  "value": 23318.85,
-  "pct": 1.15,
-  "chg": 265.75,
+  "value": 23300,
+  "pct": 1.07,
+  "chg": 246.9,
   "approx": true
  },
  "mood": {
-  "label": "Gains hold firm",
-  "score": 0.45,
-  "summary": "The rally is holding at about 1.2% into midday, with energy stocks still doing the heavy lifting, but a rise in India VIX shows traders are paying up for protection.",
+  "label": "Rally widens",
+  "score": 0.5,
+  "summary": "Markets are holding a gain of about 1% into early afternoon as buying spreads to state-run banks, while the energy-led advance stays intact and pharma lags.",
   "detail": {
-   "leaders": "Reliance, Oil & Gas, IOC",
+   "leaders": "Reliance, Oil & Gas, SBI, Bank of Baroda",
    "laggards": "Pharma; Sun Pharma",
-   "tone": "Steady versus 11:30: the Nifty was at 23,318.85 at 11:21, little changed from 11:00, while India VIX rose 2.42% to 15.66.",
+   "tone": "Little changed from midday: the Sensex is still about 900 points higher and the Nifty above 23,300, with PSU banks now joining energy names in the lead.",
    "watch": [
+    "UPL results due 1–3 pm; ITC, NALCO, Petronet after hours",
     "India VIX rising alongside the rally",
-    "ITC and Marico Q2 results later today",
-    "US midterms Tuesday"
+    "Brent near $110 as Hormuz talks continue"
    ],
    "src": {
-    "title": "Outlook Money: Sensex rallies 1,000 points — 5 reasons",
-    "url": "https://www.outlookmoney.com/invest/sensex-nifty-stock-market-rally-today-november-2-reasons"
+    "title": "Business Standard: Sensex rises 900 pts; SBI gains 2% ahead of Q2",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Reliance and the Oil & Gas index lead, helped by oil marketers like IOC",
-     "why": "Reliance's record Q2 and a drop in crude to about $110 keep energy stocks in front.",
+     "summary": "Reliance and Oil & Gas still lead; SBI and Bank of Baroda add support",
+     "why": "Energy stocks gain on Reliance's record quarter and cheaper crude, and PSU banks rise on results and positioning ahead of SBI's Q2.",
      "names": [
       {
        "name": "Reliance Industries",
        "dir": "up",
-       "move": "+7.97%",
-       "line": "At ₹1,256.25; m-cap back above ₹17 lakh cr; Jefferies rates it Buy"
+       "move": "~+8%",
+       "line": "Record Q2 profit; Jefferies rates it Buy"
       },
       {
        "name": "Nifty Oil & Gas",
        "dir": "up",
        "move": "+4%+",
-       "line": "Reliance plus oil marketers gain as Brent falls 2.7% to $110.37"
+       "line": "Reliance and oil marketers gain as Brent drops toward $110"
       },
       {
-       "name": "Indian Oil (IOC)",
+       "name": "SBI",
        "dir": "up",
-       "move": "~+3%",
-       "line": "Q2 standalone profit ₹21,630 cr after a loss in the June quarter"
+       "move": "+2%",
+       "line": "Gaining ahead of its Q2 results due Nov 5"
+      },
+      {
+       "name": "Bank of Baroda",
+       "dir": "up",
+       "move": "+2.8%",
+       "line": "Post-Q2; Axis Securities starts at Buy, ₹290 target"
       }
      ],
      "src": {
-      "title": "Outlook Money: Sensex rallies 1,000 points — 5 reasons",
-      "url": "https://www.outlookmoney.com/invest/sensex-nifty-stock-market-rally-today-november-2-reasons"
+      "title": "Business Standard: Sensex rises 900 pts; SBI gains 2% ahead of Q2",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
      }
     },
     "down": {
@@ -83,6 +89,80 @@
  },
  "insights": [
   {
+   "key": "bob-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Bank of Baroda rises; Axis initiates at Buy",
+   "line": "Axis Securities sets ₹290 target after Q2, citing efficiency and higher loan growth",
+   "more": [
+    "Stock +2.8% to ₹245.33, intraday high ₹250.89",
+    "FY27 credit growth guidance raised to 13–15%",
+    "Q2 reported after hours on Oct 30"
+   ],
+   "src": {
+    "title": "Investing.com: Why is Bank of Baroda stock rallying today?",
+    "url": "https://in.investing.com/news/stock-market-news/why-is-bank-of-baroda-stock-rallying-today-93CH-5670235"
+   },
+   "date": "2026-11-02",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "sbi-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "SBI up 2% ahead of Q2 on Nov 5",
+   "line": "India's largest lender gains as investors position before Thursday's numbers",
+   "more": [
+    "Q1 FY27 net profit ₹12,120 cr, +10.2%",
+    "Stock had slipped toward ₹950 in October"
+   ],
+   "src": {
+    "title": "Whalesbook: SBI ahead of Q2 results on Nov 5",
+    "url": "https://www.whalesbook.com/news/English/bankingfinance/SBI-Stock-Struggles-Ahead-of-Q2-Results-on-Nov-5/6adab02179a16deaeafae40a"
+   },
+   "date": "2026-11-02",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "itc-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "ITC profit seen down 8–11% today",
+   "line": "Experts see Q2 profit at ₹4,550–4,700 cr vs ₹5,126 cr a year ago",
+   "more": [
+    "Cigarette tax increases weigh on demand and margins",
+    "Q1 FY27 standalone profit fell 27.1% to ₹3,579 cr",
+    "NALCO and Petronet LNG report post-market; UPL 1–3 pm"
+   ],
+   "src": {
+    "title": "Upstox: ITC Q2 profit likely to see double-digit fall",
+    "url": "https://upstox.com/news/market-news/earnings/itc-q2-results-net-profit-likely-to-see-double-digit-fall-due-to-subdued-cigarette-business-growth/article-202796/"
+   },
+   "date": "2026-11-02",
+   "slot": "1230",
+   "when": "12:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1000"
+   }
+  },
+  {
    "key": "india-vix",
    "tag": "Flows",
    "impact": "watch",
@@ -100,7 +180,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1200"
@@ -125,7 +205,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1230"
@@ -149,7 +229,7 @@
    "slot": "1200",
    "when": "12:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1200"
@@ -299,31 +379,6 @@
    "first_seen": {
     "date": "2026-10-23",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "itc-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "ITC Q2 due today; profit seen down",
-   "line": "Analysts see consolidated profit falling 15–28% as cigarette taxes hit volumes",
-   "more": [
-    "Cigarette volumes seen ~8% lower YoY",
-    "FMCG expected to grow on volumes",
-    "Stock near 52-week low of ₹252.80 (Oct 28)"
-   ],
-   "src": {
-    "title": "Business Standard: ITC Q2 preview",
-    "url": "https://www.business-standard.com/markets/news/itc-q2-results-expectation-preview-pat-revenue-editda-margins-cigarette-business-volume-fmcg-agri-126110200072_1.html"
-   },
-   "date": "2026-11-02",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1000"
    }
   },
   {
@@ -707,30 +762,6 @@
    "src": {
     "title": "GCPL slides 7% as Q2 margins contract; analysts flag input cost pressures — Business Standard",
     "url": "https://www.business-standard.com/markets/news/gcpl-slides-7-as-q2-margins-contract-analysts-flags-input-cost-pressures-126103000409_1.html"
-   },
-   "date": "2026-10-30",
-   "slot": "1430",
-   "when": "Fri · 14:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1430"
-   }
-  },
-  {
-   "key": "bob-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Bank of Baroda profit seen up 10%",
-   "line": "Zee Business estimates ₹5,290 cr profit; NIM may dip ~5 bps and miss guidance",
-   "more": [
-    "Loan growth pegged at ~18%",
-    "Reports today alongside other PSU names"
-   ],
-   "src": {
-    "title": "Bank of Baroda Q2 results preview: PAT likely to rise 10% to Rs 5,290 crore — Zee Business",
-    "url": "https://www.zeebiz.com/companies/news-bank-of-baroda-q2-fy27-results-preview-profit-nii-nim-expectations-share-price-action-404765"
    },
    "date": "2026-10-30",
    "slot": "1430",
