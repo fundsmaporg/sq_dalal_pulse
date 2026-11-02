@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-02T10:03:14+05:30",
+ "generated_at": "2026-11-02T10:33:28+05:30",
  "date": "2026-11-02",
- "slot": "1000",
- "slot_label": "10:00",
- "stage": "Opening mood",
- "asof": "2026-11-02T10:00:00+05:30",
+ "slot": "1030",
+ "slot_label": "10:30",
+ "stage": "Mid-market mood",
+ "asof": "2026-11-02T10:30:00+05:30",
  "nifty": {
   "value": 23313.2,
   "pct": 1.13,
   "chg": 260.1,
-  "approx": false
+  "approx": true
  },
  "mood": {
-  "label": "Rally extends",
-  "score": 0.5,
-  "summary": "The rally has extended: Nifty is up over 1% above 23,300 and midcaps are firmer, but smallcaps slip, so breadth is narrower than the index move suggests.",
+  "label": "Gains hold steady",
+  "score": 0.45,
+  "summary": "Benchmarks are holding a gain of about 1% as heavyweights and oil-linked stocks keep buying steady, while IT and pharma names lag and smallcaps stay soft.",
   "detail": {
-   "leaders": "Oil & Gas, Reliance, Auto, NTPC",
-   "laggards": "Sun Pharma, Infosys, Tech Mahindra; smallcaps slip",
-   "tone": "Gains have widened since 09:30: the Sensex is up about 970 points from roughly 757, as heavyweights keep the index climbing.",
+   "leaders": "Reliance, NTPC, IOC, BPCL",
+   "laggards": "Sun Pharma, Infosys, Tech Mahindra; smallcaps soft",
+   "tone": "No fresh index print since 10:00; the latest reports still show gains of about 1%, with the same leaders and laggards as earlier.",
    "watch": [
-    "ITC's Q2 numbers due today",
-    "Whether smallcaps join the rally",
-    "Brent holding near $111"
+    "ITC, Marico and NALCO Q2 numbers later today",
+    "Brent after a 3% drop on diplomacy hopes",
+    "Whether smallcaps turn positive"
    ],
    "src": {
     "title": "Business Standard: Sensex surges 900 pts, Nifty tops 23,300",
@@ -31,63 +31,63 @@
    },
    "movers": {
     "up": {
-     "summary": "Oil & Gas and autos lead, with Reliance and NTPC the heavyweight gainers",
-     "why": "Lower crude, Reliance's record Q2 and strong October vehicle sales are drawing buyers into heavyweights.",
+     "summary": "Reliance and NTPC lead, with oil marketers IOC and BPCL rallying as crude drops",
+     "why": "Falling crude is lifting oil-linked stocks, and Q2 results are supporting Reliance and NTPC.",
      "names": [
-      {
-       "name": "Nifty Oil & Gas",
-       "dir": "up",
-       "move": "+3%",
-       "line": "Top sector as oil slides and Reliance, its biggest constituent, rallies"
-      },
       {
        "name": "Reliance Industries",
        "dir": "up",
-       "move": "up ~5–7%",
-       "line": "Top Sensex gainer after record Q2 profit; was near a 52-week low"
-      },
-      {
-       "name": "Nifty Auto",
-       "dir": "up",
-       "move": "+1%+",
-       "line": "Record October domestic sales at Maruti and Tata Motors PV"
+       "move": "+4.3% to +5.5%",
+       "line": "Record Q2 profit; reports put its early gain between 4.3% and 5.5%"
       },
       {
        "name": "NTPC",
        "dir": "up",
-       "move": "+3%+",
-       "line": "Q2 profit up and ₹3 interim dividend declared"
+       "move": "+3.1%",
+       "line": "Q2 profit up and a ₹3 interim dividend"
+      },
+      {
+       "name": "Indian Oil (IOC)",
+       "dir": "up",
+       "move": "+3.15%",
+       "line": "At ₹134.10 as Brent falls and fuel export duties are revised"
+      },
+      {
+       "name": "BPCL",
+       "dir": "up",
+       "move": "+2.30%",
+       "line": "At ₹290.85 on the same crude slide and duty revision"
       }
      ],
      "src": {
-      "title": "Business Standard: Sensex surges 900 pts, Nifty tops 23,300",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
+      "title": "Outlook Money: HPCL, BPCL, IOCL rally after export duty revision",
+      "url": "https://www.outlookmoney.com/invest/oil-stocks-today-hpcl-bpcl-iocl-share-price-rally-export-duty-revision"
      }
     },
     "down": {
-     "summary": "Sun Pharma and IT names trail; Nifty Smallcap 100 dips despite the rally",
-     "why": "IT is lagging after Friday's US tech sell-off, and Sun Pharma is among the few large-cap losers.",
+     "summary": "Sun Pharma, Infosys and Tech Mahindra lag; smallcaps trail midcaps",
+     "why": "IT is weighed by last week's US tech selling; Sun Pharma trails after a one-off hit to Q2 profit.",
      "names": [
       {
        "name": "Sun Pharma",
        "dir": "down",
-       "line": "Among top Sensex laggards; Q2 profit fell 36% on a ₹1,269 cr one-off"
+       "line": "Among Sensex losers; Q2 profit fell 36% on a ₹1,269 cr one-off"
       },
       {
        "name": "Infosys",
        "dir": "down",
-       "line": "Among Sensex laggards as IT tracks Wall Street's tech selling"
+       "line": "Among Sensex losers as IT tracks Wall Street's tech selling"
       },
       {
        "name": "Tech Mahindra",
        "dir": "down",
-       "line": "Also in the laggard list alongside Infosys on IT weakness"
+       "line": "Also among Sensex losers alongside Infosys"
       },
       {
        "name": "Nifty Smallcap 100",
        "dir": "down",
        "move": "−0.23%",
-       "line": "Slipped even as midcaps rose 0.47%, keeping breadth narrow"
+       "line": "Was lower in the latest read even as midcaps gained 0.47%"
       }
      ],
      "src": {
@@ -99,6 +99,78 @@
   }
  },
  "insights": [
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Brent down ~3% on US–Iran talk hopes",
+   "line": "Oil fell sharply on hopes of a breakthrough in US–Iran talks, lifting Indian markets",
+   "more": [
+    "Outlook Money cites Brent −3.20% on diplomatic efforts",
+    "Iran–Qatar talks in Doha in a third day"
+   ],
+   "src": {
+    "title": "Outlook Money: HPCL, BPCL, IOCL rally after export duty revision",
+    "url": "https://www.outlookmoney.com/invest/oil-stocks-today-hpcl-bpcl-iocl-share-price-rally-export-duty-revision"
+   },
+   "date": "2026-11-02",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "fuel-export-duty",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Fuel export duties revised from Oct 31",
+   "line": "Govt revised fortnightly export levies; ATF duty raised to ₹11/litre from ₹10.50",
+   "more": [
+    "IOC +3.15%, HPCL +2.40%, BPCL +2.30% in early trade",
+    "Levies revised every fortnight since March 27"
+   ],
+   "src": {
+    "title": "Outlook Money: HPCL, BPCL, IOCL rally after export duty revision",
+    "url": "https://www.outlookmoney.com/invest/oil-stocks-today-hpcl-bpcl-iocl-share-price-rally-export-duty-revision"
+   },
+   "date": "2026-11-02",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1030"
+   }
+  },
+  {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "200+ firms report Q2 today",
+   "line": "ITC, Marico, NALCO, UPL, Petronet LNG, Concor and Wockhardt among Nov 2 results",
+   "more": [
+    "Also Escorts Kubota, Devyani, TBO Tek, Granules",
+    "Bajaj Finserv, Apollo Hospitals, BSE, Hindalco report later this week"
+   ],
+   "src": {
+    "title": "Upstox: Q2 results Nov 2 — ITC, Marico, NALCO, UPL and others",
+    "url": "https://upstox.com/news/market-news/earnings/q2-results-nov-2-itc-marico-nalco-upl-nlc-india-tata-investment-corp-esds-software-solution-others-to-post-earnings/article-202773/"
+   },
+   "date": "2026-11-02",
+   "slot": "1030",
+   "when": "10:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "pre"
+   }
+  },
   {
    "key": "itc-q2",
    "tag": "Results",
@@ -118,7 +190,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1000"
@@ -143,7 +215,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "pre"
@@ -167,7 +239,7 @@
    "slot": "1000",
    "when": "10:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1000"
@@ -220,30 +292,6 @@
    "first_seen": {
     "date": "2026-11-01",
     "slot": "outlook"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Crude extends slide to ~$111",
-   "line": "Crude slid about $2 to $111.35 a barrel, helping the rupee at the open",
-   "more": [
-    "Iran–Qatar talks in Doha into a third day",
-    "Hormuz still effectively shut since late February"
-   ],
-   "src": {
-    "title": "NewsBytes: Rupee opens stronger at 94.89",
-    "url": "https://www.newsbytesapp.com/news/business/indian-rupee-opens-stronger-at-9489-per-1-asia-slips/tldr"
-   },
-   "date": "2026-11-02",
-   "slot": "0930",
-   "when": "9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "0930"
    }
   },
   {
@@ -384,30 +432,6 @@
    "src": {
     "title": "FII DII Data Today — Kotak Neo",
     "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
-   },
-   "date": "2026-11-01",
-   "slot": "outlook",
-   "when": "Sun · Outlook",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "SBI, ITC, Bharti, Titan report this week",
-   "line": "Heavyweight Q2 slate Nov 2–7 includes Tata Steel, Hindalco and BSE",
-   "more": [
-    "Bharti Airtel and Titan due Thursday, Nov 5",
-    "US midterm elections on Tuesday, Nov 3"
-   ],
-   "src": {
-    "title": "Top Q2 results next week, November 2-7: ITC, SBI, Bharti Airtel, Tata Steel, Titan, BSE, Hindalco — Business Upturn",
-    "url": "https://businessupturn.com/finance/stock-market/top-q2-results-next-week-november-2-7-itc-sbi-bharti-airtel-tata-steel-titan-bse-hindalco-among-companies-to-report-earnings/"
    },
    "date": "2026-11-01",
    "slot": "outlook",
