@@ -1,104 +1,190 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-02T10:33:28+05:30",
+ "generated_at": "2026-11-02T11:03:20+05:30",
  "date": "2026-11-02",
- "slot": "1030",
- "slot_label": "10:30",
+ "slot": "1100",
+ "slot_label": "11:00",
  "stage": "Mid-market mood",
- "asof": "2026-11-02T10:30:00+05:30",
+ "asof": "2026-11-02T11:00:00+05:30",
  "nifty": {
-  "value": 23313.2,
-  "pct": 1.13,
-  "chg": 260.1,
+  "value": 23350,
+  "pct": 1.29,
+  "chg": 296.9,
   "approx": true
  },
  "mood": {
-  "label": "Gains hold steady",
-  "score": 0.45,
-  "summary": "Benchmarks are holding a gain of about 1% as heavyweights and oil-linked stocks keep buying steady, while IT and pharma names lag and smallcaps stay soft.",
+  "label": "Broad-based rally",
+  "score": 0.55,
+  "summary": "Buying has broadened: the Sensex hit a day's high about 1,000 points up, and mid- and smallcaps have turned firmly positive, with pharma the only soft patch.",
   "detail": {
-   "leaders": "Reliance, NTPC, IOC, BPCL",
-   "laggards": "Sun Pharma, Infosys, Tech Mahindra; smallcaps soft",
-   "tone": "No fresh index print since 10:00; the latest reports still show gains of about 1%, with the same leaders and laggards as earlier.",
+   "leaders": "Reliance, Oil & Gas, midcaps and smallcaps",
+   "laggards": "Pharma; Sun Pharma",
+   "tone": "Stronger than at 10:30: the Sensex reached a day's high of 75,489.70 (+1,030), and mid- and smallcaps, flat to lower earlier, are now up nearly 1%.",
    "watch": [
-    "ITC, Marico and NALCO Q2 numbers later today",
-    "Brent after a 3% drop on diplomacy hopes",
-    "Whether smallcaps turn positive"
+    "ITC, Marico and NALCO Q2 later today",
+    "Whether Reliance holds a 7% gain into the close",
+    "Brent after its retreat from a six-month high"
    ],
    "src": {
-    "title": "Business Standard: Sensex surges 900 pts, Nifty tops 23,300",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
+    "title": "Business Standard: Sensex at day's high, surges 1,000 pts; SMIDs advance",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Reliance and NTPC lead, with oil marketers IOC and BPCL rallying as crude drops",
-     "why": "Falling crude is lifting oil-linked stocks, and Q2 results are supporting Reliance and NTPC.",
+     "summary": "Reliance and Oil & Gas lead, and mid- and smallcaps have joined the rally",
+     "why": "Reliance's Q2 beat and falling crude drive the heavyweights, while FII buying and firm Asian markets support breadth.",
      "names": [
       {
        "name": "Reliance Industries",
        "dir": "up",
-       "move": "+4.3% to +5.5%",
-       "line": "Record Q2 profit; reports put its early gain between 4.3% and 5.5%"
+       "move": "+7%",
+       "line": "Sharpest intraday rally in 3 years; ~400 pts, a quarter of Sensex's gain"
       },
       {
-       "name": "NTPC",
+       "name": "Nifty Oil & Gas",
        "dir": "up",
-       "move": "+3.1%",
-       "line": "Q2 profit up and a ₹3 interim dividend"
+       "move": "+3%+",
+       "line": "Oil prices retreat from a six-month high on US–Iran talks"
       },
       {
-       "name": "Indian Oil (IOC)",
+       "name": "Nifty Midcap 100",
        "dir": "up",
-       "move": "+3.15%",
-       "line": "At ₹134.10 as Brent falls and fuel export duties are revised"
+       "move": "+0.96%",
+       "line": "Up from +0.47% at 10:00 as buying spreads beyond heavyweights"
       },
       {
-       "name": "BPCL",
+       "name": "Nifty Smallcap 100",
        "dir": "up",
-       "move": "+2.30%",
-       "line": "At ₹290.85 on the same crude slide and duty revision"
+       "move": "+0.86%",
+       "line": "Turned positive from −0.23% at 10:00"
       }
      ],
      "src": {
-      "title": "Outlook Money: HPCL, BPCL, IOCL rally after export duty revision",
-      "url": "https://www.outlookmoney.com/invest/oil-stocks-today-hpcl-bpcl-iocl-share-price-rally-export-duty-revision"
+      "title": "Business Standard: Sensex at day's high, surges 1,000 pts; SMIDs advance",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
      }
     },
     "down": {
-     "summary": "Sun Pharma, Infosys and Tech Mahindra lag; smallcaps trail midcaps",
-     "why": "IT is weighed by last week's US tech selling; Sun Pharma trails after a one-off hit to Q2 profit.",
+     "summary": "Pharma is the only sector lagging, with Sun Pharma among Sensex losers",
+     "why": "Pharma has missed the rally after Friday's gain, and Sun Pharma trails following a one-off hit to Q2 profit.",
      "names": [
+      {
+       "name": "Nifty Pharma",
+       "dir": "down",
+       "move": "−0.05%",
+       "line": "Only sectoral index in the red in early trade, after +1.55% on Friday"
+      },
       {
        "name": "Sun Pharma",
        "dir": "down",
        "line": "Among Sensex losers; Q2 profit fell 36% on a ₹1,269 cr one-off"
-      },
-      {
-       "name": "Infosys",
-       "dir": "down",
-       "line": "Among Sensex losers as IT tracks Wall Street's tech selling"
-      },
-      {
-       "name": "Tech Mahindra",
-       "dir": "down",
-       "line": "Also among Sensex losers alongside Infosys"
-      },
-      {
-       "name": "Nifty Smallcap 100",
-       "dir": "down",
-       "move": "−0.23%",
-       "line": "Was lower in the latest read even as midcaps gained 0.47%"
       }
      ],
      "src": {
-      "title": "Business Standard: Sensex surges 900 pts, Nifty tops 23,300",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
+      "title": "Business Standard: Sensex jumps 1,030 pts intraday — 6 reasons",
+      "url": "https://www.business-standard.com/markets/news/why-is-the-stock-market-rising-sensex-extends-rally-jumps-1-030-pts-intraday-6-reasons-126110200234_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "reliance-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Reliance posts sharpest rally in 3 years",
+   "line": "Stock up ~7% after Q2 beat; alone adds ~400 points, a quarter of Sensex's gain",
+   "more": [
+    "Business Standard puts quarterly net profit growth at 34%",
+    "Stock had been near a 52-week low before results"
+   ],
+   "src": {
+    "title": "Business Standard: Reliance soars 7% post Q2, sharpest intraday rally in 3 years",
+    "url": "https://business-standard.com/markets/news/reliance-soars-7-post-q2-results-sees-sharpest-intraday-rally-in-3-years-126110200237_1.html"
+   },
+   "date": "2026-11-02",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Friday's FII buying lifts sentiment",
+   "line": "FII purchases on Friday cited as a driver of Monday's early buying",
+   "more": [
+    "Business Standard lists FII buying among six rally drivers",
+    "Asian markets' rally also cited"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex jumps 1,030 pts intraday — 6 reasons",
+    "url": "https://www.business-standard.com/markets/news/why-is-the-stock-market-rising-sensex-extends-rally-jumps-1-030-pts-intraday-6-reasons-126110200234_1.html"
+   },
+   "date": "2026-11-02",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "psu-results",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "IOC record profit; BEL, NTPC Green grow",
+   "line": "IOC posts record quarterly profit; BEL profit +19.7%, NTPC Green +56.2%",
+   "more": [
+    "Jio Platforms' first results as a listed company: profit +14%",
+    "All in focus on Monday"
+   ],
+   "src": {
+    "title": "HDFC Sky: Five stocks in focus — Reliance, Jio, BEL, NTPC Green, IOC",
+    "url": "https://hdfcsky.com/news/stocks-to-watch-today-monday-november-2-2026-reliance-industries-jio-platforms-bharat-electronics-ntpc-green-energy-indian-oil-corporation"
+   },
+   "date": "2026-11-02",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "dixon-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Dixon profit −45% on margin squeeze",
+   "line": "Dixon shares fell 4.25% after Q2 net profit dropped 45% YoY",
+   "more": [
+    "Margin compression cited",
+    "Shyam Metalics +1.87% on 96% profit jump and coal block approval"
+   ],
+   "src": {
+    "title": "ScanX: Stocks to watch, Nov 2 — Dixon, Borosil, Engineers India",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-november-2-2026-borosil-renewables-engineers-india/55128620"
+   },
+   "date": "2026-11-02",
+   "slot": "1100",
+   "when": "11:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1100"
+   }
+  },
   {
    "key": "crude",
    "tag": "Global",
@@ -117,7 +203,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "0930"
@@ -141,7 +227,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1030"
@@ -165,7 +251,7 @@
    "slot": "1030",
    "when": "10:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "pre"
@@ -346,31 +432,6 @@
    }
   },
   {
-   "key": "reliance-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Reliance in focus after record Q2",
-   "line": "Record consolidated PAT reported; retail arm's profit fell 24.3%",
-   "more": [
-    "Consolidated PAT ₹29,550 cr per one report; ₹25,548 cr attributable per another",
-    "Reliance Retail Ventures PAT −24.3% to ₹2,611 cr",
-    "Stock closed ₹1,163.55 (−0.44%) Friday; down ~26% in 2026"
-   ],
-   "src": {
-    "title": "TradingView/Mint: RIL, JPL Q2 results impact on Monday",
-    "url": "https://www.tradingview.com/news/moodys:e59579dfd7732:0-ril-jpl-q2-results-2026-impact-reliance-industries-jio-platforms-shares-in-focus-on-monday-2-nov-what-to-expect/"
-   },
-   "date": "2026-11-02",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1230"
-   }
-  },
-  {
    "key": "ntpc-q2",
    "tag": "Results",
    "impact": "pos",
@@ -417,30 +478,6 @@
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs bought ₹3,599 cr on Friday",
-   "line": "Provisional data: FIIs net bought ₹3,598.54 cr while DIIs sold ₹817.51 cr",
-   "more": [
-    "Reverses Thursday's ₹943.60 cr FII selling",
-    "Largest FII buying day of the week"
-   ],
-   "src": {
-    "title": "FII DII Data Today — Kotak Neo",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
-   },
-   "date": "2026-11-01",
-   "slot": "outlook",
-   "when": "Sun · Outlook",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "pre"
    }
   },
   {
