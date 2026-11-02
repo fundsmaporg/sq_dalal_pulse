@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-01T19:54:36+05:30",
- "date": "2026-11-01",
- "slot": "outlook",
- "slot_label": "Outlook",
- "stage": "Weekend outlook",
- "asof": "2026-11-01T19:55:00+05:30",
+ "generated_at": "2026-11-02T08:33:10+05:30",
+ "date": "2026-11-02",
+ "slot": "pre",
+ "slot_label": "Pre-open",
+ "stage": "Pre-market mood",
+ "asof": "2026-11-02T08:45:00+05:30",
  "nifty": {
   "value": 23053.1,
   "pct": 0.51,
@@ -13,43 +13,95 @@
   "approx": false
  },
  "mood": {
-  "label": "Cautious start likely",
-  "score": -0.15,
-  "summary": "Monday (Nov 2) opens against a heavy Wall Street sell-off and oil near $117, cushioned by strong FII buying, a firmer rupee and a big Reliance profit beat.",
+  "label": "Firm open seen",
+  "score": 0.3,
+  "summary": "Indian stocks look set for a firm start Monday as GIFT Nifty points higher, US futures recover and crude eases, though Asia is mixed and the week is packed with events.",
   "detail": {
-   "leaders": "Reliance on a strong Q2 beat; autos after robust October sales",
-   "laggards": "IT after the Nasdaq's 2.9% slide; oil-sensitive names with Brent near $117",
-   "tone": "Friday ended a second straight up day with the Nifty at 23,053.10 (+0.51%) and about 2% higher for the week, but the rally was narrow and US tech has since slumped.",
+   "leaders": "Reliance (Q2 beat), NTPC (profit up), oil-sensitive names as crude eases",
+   "laggards": "IT stocks after Friday's Nasdaq rout; Reliance Retail weak spot",
+   "tone": "Sunday's cautious outlook gave way to a firmer setup overnight: GIFT Nifty rose and Brent slipped below $112 on Iran–Qatar talks.",
    "watch": [
-    "How Indian IT reacts to Friday's Nasdaq rout after two days of outperformance",
-    "Reliance's opening move after its profit beat",
-    "Iran headlines: talks in Doha vs. renewed US strikes"
+    "Whether IT holds up at the open after Nasdaq's −2.9% Friday",
+    "Brent direction as Doha talks continue",
+    "US midterms Tuesday and Apple results"
    ],
    "src": {
-    "title": "Wall Street drops to its worst day since June after the sell-off for tech stocks deepens — Washington Times/AP",
-    "url": "https://www.washingtontimes.com/news/2026/oct/30/wall-street-falls-worst-day-since-june-sell-tech-stocks-deepens/"
+    "title": "DSIJ: Pre-market update, GIFT Nifty signals positive start",
+    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-positive-start-reliance-earnings-crude-oil-and-global-cues-in-focus-60267"
    }
   }
  },
  "insights": [
   {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Wall Street's worst day since June on Friday",
-   "line": "Nasdaq fell 2.9% and S&P 500 1.8% as the tech sell-off deepened after earnings",
+   "key": "gift-nifty",
+   "tag": "Opening",
+   "impact": "pos",
+   "title": "GIFT Nifty signals a gap-up",
+   "line": "Pre-open reads range from ~100 to ~245 points above Friday's 23,053 close",
    "more": [
-    "Dow down 1.1% at 51,770.31 (Friday close)",
-    "Nvidia −4.2%; Intel had its worst day in decades",
-    "Nasdaq posted its worst month since March 2025"
+    "DSIJ: ~23,299 around 7am IST, +245.9 pts (+1.07%)",
+    "Whalesbook: up 217 points",
+    "Business Standard live blog: up over 100 points",
+    "Reads differ by time; treat as indicative"
    ],
    "src": {
-    "title": "Wall Street drops to its worst day since June after the sell-off for tech stocks deepens — Washington Times/AP",
-    "url": "https://www.washingtontimes.com/news/2026/oct/30/wall-street-falls-worst-day-since-june-sell-tech-stocks-deepens/"
+    "title": "DSIJ: Pre-market update, GIFT Nifty signals positive start",
+    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-positive-start-reliance-earnings-crude-oil-and-global-cues-in-focus-60267"
    },
-   "date": "2026-11-01",
-   "slot": "outlook",
-   "when": "Outlook",
+   "date": "2026-11-02",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Brent slips below $112 on Doha talks",
+   "line": "Brent −1.3% to $111.92 early Asia after third day of Iran–Qatar talks",
+   "more": [
+    "WTI near $102.34",
+    "Hopes of de-escalation and Hormuz reopening",
+    "OPEC+ kept December output targets unchanged on Nov 1",
+    "Risk: reports of US strikes on Iran after midterms"
+   ],
+   "src": {
+    "title": "Global Banking & Finance: Oil slips 1% as Iran talks continue",
+    "url": "https://www.globalbankingandfinance.com/oil-slips-1-talks-continue-ending-iran-war/"
+   },
+   "date": "2026-11-02",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "US futures recover after tech rout",
+   "line": "Dow futures +156 pts, Nasdaq 100 futures +0.54% (7:45pm ET Sunday)",
+   "more": [
+    "S&P 500 futures +0.35%",
+    "Nasdaq logged worst month since March 2025 on AI capex worries",
+    "Midterms Tuesday, Apple results, October jobs data this week"
+   ],
+   "src": {
+    "title": "FX Leaders: Dow and Nasdaq futures open higher",
+    "url": "https://fxleaders.com/news/2026/11/01/dow-and-nasdaq-futures-open-higher-ahead-of-midterms-nfp-and-major-corporate-earnings"
+   },
+   "date": "2026-11-02",
+   "slot": "pre",
+   "when": "Pre-open",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -61,20 +113,20 @@
    "key": "reliance-q2",
    "tag": "Results",
    "impact": "pos",
-   "title": "Reliance Q2 profit jumps ~41%, beating views",
-   "line": "Profit ₹25,548 cr vs ₹18,165 cr a year ago; previews had expected ~₹20,900 cr",
+   "title": "Reliance in focus after record Q2",
+   "line": "Record consolidated PAT reported; retail arm's profit fell 24.3%",
    "more": [
-    "Another report cites ₹29,550 cr including associates",
-    "EBITDA reported up ~24% to ₹62,409 cr",
-    "Jio Platforms profit ~₹8,389 cr, up 13.7%"
+    "Consolidated PAT ₹29,550 cr per one report; ₹25,548 cr attributable per another",
+    "Reliance Retail Ventures PAT −24.3% to ₹2,611 cr",
+    "Stock closed ₹1,163.55 (−0.44%) Friday; down ~26% in 2026"
    ],
    "src": {
-    "title": "Reliance Industries Q2 profit surges 40.64% to ₹25,548 crore, Jio posts strong growth — Aryan Age",
-    "url": "https://www.aryanage.com/article/49960/reliance-industries-q2-profit-surges-4064-to-%E2%82%B925548-crore-jio"
+    "title": "TradingView/Mint: RIL, JPL Q2 results impact on Monday",
+    "url": "https://www.tradingview.com/news/moodys:e59579dfd7732:0-ril-jpl-q2-results-2026-impact-reliance-industries-jio-platforms-shares-in-focus-on-monday-2-nov-what-to-expect/"
    },
-   "date": "2026-11-01",
-   "slot": "outlook",
-   "when": "Outlook",
+   "date": "2026-11-02",
+   "slot": "pre",
+   "when": "Pre-open",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -83,28 +135,76 @@
    }
   },
   {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent settled near $117.6 after tanker attacks",
-   "line": "Iran says four tankers hit mines; Qatari mediators work to restart US-Iran talks",
+   "key": "ntpc-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "NTPC profit up ~39%, ₹3 dividend",
+   "line": "Consolidated profit to owners ₹7,029.56 cr; standalone ₹5,320 cr (+14%)",
    "more": [
-    "Oil rose for a fourth straight week",
-    "Rubio: Trump has not decided on resuming strikes",
-    "Bessent says Hormuz traffic near prewar levels ex-Iran"
+    "Board approved results on Oct 31",
+    "Interim dividend ₹3 per share",
+    "NTPC Green Q2 profit ₹137.5 cr, +56.2%"
    ],
    "src": {
-    "title": "Iran claims 4 oil tankers hit mines as leader threatens wider war — Geopolitics Unplugged",
-    "url": "https://geopoliticsunplugged.substack.com/p/iran-claims-4-oil-tankers-hit-mines"
+    "title": "BW Businessworld: NTPC Q2 profit rises 39%",
+    "url": "https://www.businessworld.in/article/ntpc-q2-results-net-profit-rises-39-to-rs-7-030-cr-revenue-climbs-21-631483"
    },
-   "date": "2026-11-01",
-   "slot": "outlook",
-   "when": "Outlook",
+   "date": "2026-11-02",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "sun-pharma-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Sun Pharma profit −36% on one-off",
+   "line": "Net ₹1,989 cr after ₹1,269 cr one-time loss; revenue +11.9%",
+   "more": [
+    "Revenue ₹16,198.71 cr",
+    "Stock rose ~4% Friday after the numbers"
+   ],
+   "src": {
+    "title": "TradingView/Moneycontrol: Sun Pharma Q2 profit falls 36%",
+    "url": "https://www.tradingview.com/news/moneycontrol:d4a7837e5094b:0-sun-pharma-q2-results-net-profit-falls-36-to-rs-1-989-crore-hit-by-one-time-loss-revenue-at-rs-16-199-crore/"
+   },
+   "date": "2026-11-02",
+   "slot": "pre",
+   "when": "Pre-open",
    "updated": true,
    "is_new": true,
    "first_seen": {
-    "date": "2026-10-22",
-    "slot": "0930"
+    "date": "2026-10-30",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "ipo-listings",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "EAAA lists today; BLS Polymers Tue",
+   "line": "EAAA India Alternatives debuts Monday; BLS Polymers (241x) lists Nov 3",
+   "more": [
+    "Vedant Poly Fabs IPO (₹56.68 cr) opens Monday",
+    "Johnsoncab, HGS, Vectras, Maxwell in second day of bidding"
+   ],
+   "src": {
+    "title": "Upstox: BLS Polymers IPO allotment and listing date",
+    "url": "https://upstox.com/news/market-news/ipo/bls-polymers-ipo-allotment-how-to-check-status-online-on-nse-bse-k-fin-technologies-listing-date-time-revealed/article-202679/"
+   },
+   "date": "2026-11-02",
+   "slot": "pre",
+   "when": "Pre-open",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "pre"
    }
   },
   {
@@ -123,11 +223,11 @@
    },
    "date": "2026-11-01",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "slot": "pre"
    }
   },
@@ -147,9 +247,9 @@
    },
    "date": "2026-11-01",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1200"
@@ -172,9 +272,9 @@
    },
    "date": "2026-11-01",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-01",
     "slot": "outlook"
@@ -196,11 +296,11 @@
    },
    "date": "2026-11-01",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "slot": "pre"
    }
   },
@@ -221,9 +321,9 @@
    },
    "date": "2026-11-01",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-01",
     "slot": "outlook"
@@ -245,9 +345,9 @@
    },
    "date": "2026-11-01",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-01",
     "slot": "outlook"
@@ -565,7 +665,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "slot": "pre"
    }
   },
@@ -583,30 +683,6 @@
    "src": {
     "title": "Welspun Corp share price in focus after Q2 FY27 results: 25% EBITDA growth, record order book — Kotak Neo",
     "url": "https://www.kotakneo.com/news/stocks/welspun-corp-shares-in-focus-after-q2-fy27-2027-results/"
-   },
-   "date": "2026-10-30",
-   "slot": "1230",
-   "when": "Fri · 12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "sun-pharma-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Sun Pharma reports Q2 today",
-   "line": "Earnings call at 6 pm; Q1 profit had risen 27% to ₹2,895 cr",
-   "more": [
-    "Q1 adjusted profit up just 3.1%",
-    "Fresh US FDA nod for ILUMYA this week"
-   ],
-   "src": {
-    "title": "Sun Pharma Q1 profit rises 27% to ₹2,895 crore — Business Standard",
-    "url": "https://www.business-standard.com/companies/quarterly-results/quarterly-results-sun-pharma-q1fy27-profit-revenue-ebitda-results-126073100858_1.html"
    },
    "date": "2026-10-30",
    "slot": "1230",
@@ -759,8 +835,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-22",
-    "slot": "0930"
+    "date": "2026-10-23",
+    "slot": "pre"
    }
   },
   {
@@ -854,11 +930,11 @@
    "date": "2026-10-29",
    "slot": "1430",
    "when": "Thu · 14:30",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1500"
+    "date": "2026-10-29",
+    "slot": "1430"
    }
   },
   {
@@ -1398,7 +1474,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "slot": "pre"
    }
   },
@@ -1691,8 +1767,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1200"
+    "date": "2026-10-23",
+    "slot": "pre"
    }
   },
   {
@@ -1789,369 +1865,6 @@
    "first_seen": {
     "date": "2026-10-23",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "heavyweights-drag",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "RIL, Eternal, HDFC Bank lead losers",
-   "line": "Reliance fell about 1.5%, nearing its 52-week low of ₹1,152.30, amid broad weakness.",
-   "more": [
-    "Power and metal stocks also weighed on the indices",
-    "Nestle and HDFC Life cited among top Nifty losers in another report"
-   ],
-   "src": {
-    "title": "LatestLY: Reliance Industries share price dips amid market weakness",
-    "url": "https://www.latestly.com/business/reliance-industries-stock-update-share-price-dips-amid-market-weakness-7652793.html"
-   },
-   "date": "2026-10-22",
-   "slot": "post",
-   "when": "Thu · Close",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "post"
-   }
-  },
-  {
-   "key": "power-metal-drag",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Power and metal stocks drag indices",
-   "line": "Power and metal shares were among the biggest drags on the Sensex and Nifty.",
-   "more": [
-    "Power Grid among the top Nifty losers through the day",
-    "Nifty Metal among the weakest sectors"
-   ],
-   "src": {
-    "title": "ETV Bharat: Sensex, Nifty decline as power, metal stocks drag lower",
-    "url": "https://www.etvbharat.com/en/business/stock-market-on-october-22-sensex-nifty-power-metal-stocks-enn26102201328"
-   },
-   "date": "2026-10-22",
-   "slot": "1530",
-   "when": "Thu · 15:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1530"
-   }
-  },
-  {
-   "key": "broad-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Mid, smallcaps fell ~1.4% in early trade",
-   "line": "Nifty Midcap 100 was down 1.39% and Smallcap 100 down 1.45% in morning deals.",
-   "more": [
-    "Broader indices remain about 1% lower",
-    "Power Grid, M&M and Nestle among top Nifty losers"
-   ],
-   "src": {
-    "title": "Sunday Guardian: Why is the Indian stock market falling today? Sensex drops 590 points",
-    "url": "https://sundayguardianlive.com/business/why-is-the-indian-stock-market-falling-today-sensex-drops-590-points-nifty-falls-197-points-check-4-key-reasons-behind-the-decline-309964/"
-   },
-   "date": "2026-10-22",
-   "slot": "1500",
-   "when": "Thu · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "large-cap-gainers",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "L&T, Bajaj Auto, Airtel buck the slide",
-   "line": "L&T up 1.2%, Bajaj Auto 1.17% and Bharti Airtel 1.14% at noon, per one snapshot.",
-   "more": [
-    "ICICI Bank and Cipla also in the green at midday",
-    "Gains are narrow against broad weakness"
-   ],
-   "src": {
-    "title": "HDFC Sky: Top gainers and losers today, October 22, 2026, at 12:00 PM IST",
-    "url": "https://hdfcsky.com/news/top-gainers-and-losers-today-october-22-2026-at-12-pm"
-   },
-   "date": "2026-10-22",
-   "slot": "1430",
-   "when": "Thu · 14:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1430"
-   }
-  },
-  {
-   "key": "garware-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Garware Hi-Tech holds 14% loss after Q2",
-   "line": "Shares remain sharply lower despite a 42% profit rise and higher margin guidance.",
-   "more": [
-    "Q2 revenue a record ₹695.53 cr",
-    "FY27 EBITDA margin guidance raised to 27% ± 2%"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE Oct 22 — Sensex down 500 pts, Nifty near 22,650; Garware Hi-Tech falls 14% post Q2",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-22-nse-bse-sensex-today-nifty50-gift-nifty-jio-ipo-today-126102200085_1.html"
-   },
-   "date": "2026-10-22",
-   "slot": "1400",
-   "when": "Thu · 14:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1330"
-   }
-  },
-  {
-   "key": "adani-green-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Adani Green pares fall to about 1.2%",
-   "line": "Stock traded 1.22% lower at ₹1,243.10 by midday after falling nearly 4% earlier.",
-   "more": [
-    "Down about 8% over five sessions",
-    "Q2 profit fell 24% QoQ on grid constraints"
-   ],
-   "src": {
-    "title": "Business Standard: Adani Green shares extend fall to 5th day as Q2 PAT dips 24% QoQ",
-    "url": "https://www.business-standard.com/markets/news/adani-green-shares-extend-fall-to-5th-day-down-4-as-q2-pat-dips-24-qoq-126102200476_1.html"
-   },
-   "date": "2026-10-22",
-   "slot": "1330",
-   "when": "Thu · 13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1100"
-   }
-  },
-  {
-   "key": "fmcg-weak",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "FMCG, pharma slide 1.4% each",
-   "line": "Defensive sectors weighed as West Asia tension and supply worries hit sentiment.",
-   "more": [
-    "FMCG faces input-cost pressure on margins",
-    "Nestle India among top Nifty losers"
-   ],
-   "src": {
-    "title": "Kotak Neo: Nifty FMCG falls over 1% — why are FMCG stocks falling?",
-    "url": "https://www.kotakneo.com/news/sectors/nifty-fmcg-falls-raw-material-costs-2026/"
-   },
-   "date": "2026-10-22",
-   "slot": "1300",
-   "when": "Thu · 13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "india-us-trade",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Rubio: India trade deal 99% done, weeks away",
-   "line": "Rubio says the deal could be finalised within weeks; Indian officials say talks stalled.",
-   "more": [
-    "No final terms or signing date published",
-    "February framework cut US tariff on India to 18% from 25%",
-    "Goyal met USTR Greer for talks"
-   ],
-   "src": {
-    "title": "Diya TV: Rubio says U.S.-India trade deal is weeks away, but hurdles remain",
-    "url": "https://diyatvusa.com/rubio-says-u-s-india-trade-deal-is-weeks-away-but-hurdles-remain/"
-   },
-   "date": "2026-10-22",
-   "slot": "1130",
-   "when": "Thu · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "kei-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "KEI Industries extends fall to fifth day",
-   "line": "Stock down about 8.6% after Q2 as margin compression outweighs 29% profit growth.",
-   "more": [
-    "Revenue up 38.5% to ₹3,776.42 cr",
-    "Stock was down about 9% in four sessions before results"
-   ],
-   "src": {
-    "title": "Zee Business: KEI Industries Q2 — profit rises 29% to ₹262 crore",
-    "url": "https://www.zeebiz.com/companies/news-kei-industries-q2-results-profit-rises-29-yoy-to-rs-262-crore-revenue-jumps-39-404291"
-   },
-   "date": "2026-10-22",
-   "slot": "1130",
-   "when": "Thu · 11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1100"
-   }
-  },
-  {
-   "key": "vishal-mega-mart-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Vishal Mega Mart gets target cuts after Q2 miss",
-   "line": "Profit up 3.7% to ₹157.9 cr missed estimates by 14%; consensus 'Buy' intact.",
-   "more": [
-    "Shares fell 6% on Wednesday, hitting ₹86.66 intraday",
-    "Company blamed festive-season shift to Q3",
-    "HDFC Inst. Equities keeps Buy, target ₹135"
-   ],
-   "src": {
-    "title": "BusinessToday: Vishal Mega Mart — Q2 disappoints, stock gets 'Buy' with target cuts",
-    "url": "https://www.businesstoday.in/markets/stocks/story/vishal-mega-mart-share-price-q2-disappoints-stock-gets-buy-but-with-target-cuts-562948-2026-10-22"
-   },
-   "date": "2026-10-22",
-   "slot": "1100",
-   "when": "Thu · 11:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1100"
-   }
-  },
-  {
-   "key": "eternal-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Brokerages stay bullish on Eternal",
-   "line": "Nearly all of 17 brokerages rate it Buy; stock up 1.36% to ₹316.60 despite profit miss.",
-   "more": [
-    "Consensus target ₹381, about 22% upside",
-    "CLSA highest at ₹513; Macquarie lowest at ₹225 (Underperform)",
-    "CLSA cut FY27–29 profit estimates on faster store expansion"
-   ],
-   "src": {
-    "title": "BusinessToday: Eternal — CLSA sets highest target post Q2; Macquarie has lowest",
-    "url": "https://www.businesstoday.in/markets/stocks/story/eternal-shares-clsa-sets-highest-target-post-q2-results-macquarie-has-the-lowest-562941-2026-10-22"
-   },
-   "date": "2026-10-22",
-   "slot": "1030",
-   "when": "Thu · 10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "pc-jeweller-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "PC Jeweller hits ₹20.17 session high",
-   "line": "Stock rose 8.97% from ₹18.51 after Q2 profit jumped 58% and it turned debt-free.",
-   "more": [
-    "Revenue up 28% to ₹1,054.47 cr",
-    "Plans up to 100 new showrooms over 12–18 months"
-   ],
-   "src": {
-    "title": "BusinessToday: PC Jeweller shares jump 9% on 58% surge in Q2 net profit",
-    "url": "https://www.businesstoday.in/markets/stocks/story/pc-jeweller-shares-jump-9-on-58-surge-in-q2-net-profit-debt-free-status-key-details-562959-2026-10-22"
-   },
-   "date": "2026-10-22",
-   "slot": "1030",
-   "when": "Thu · 10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "volatility",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Analysts flag 22,600 as key Nifty support",
-   "line": "A decisive break could expose 22,300–22,200; 23,000 needed to regain momentum.",
-   "more": [
-    "Support seen at 22,650–22,600",
-    "Expected range for the day: 22,500–23,150"
-   ],
-   "src": {
-    "title": "Goodreturns: Stock market outlook Oct 22 — Sensex, Nifty likely under pressure",
-    "url": "https://www.goodreturns.in/news/stock-market-outlook-today-october-22-2026-sensex-nifty-likely-to-remain-under-pressure-as-crude-oil-1542951.html"
-   },
-   "date": "2026-10-22",
-   "slot": "1000",
-   "when": "Thu · 10:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "indian-hotels-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "IHCL revenue up to ₹2,484 cr in Q2",
-   "line": "Consolidated revenue rose from ₹2,041 cr; profit at ₹379.85 cr vs ₹318.26 cr.",
-   "more": [
-    "Standalone profit was ₹392.64 cr",
-    "Results flagged Brij Hospitality buy and Oriental Hotels merger"
-   ],
-   "src": {
-    "title": "Whalesbook: Indian Hotels Company Q2 profit rises to ₹379.85 crore",
-    "url": "https://www.whalesbook.com/corporate-news/English/consumer-products/Indian-Hotels-Company-Q2-profit-rises-to-Rs-37985-crore/6ad8a2e3b2eb76fd08c78655"
-   },
-   "date": "2026-10-22",
-   "slot": "0930",
-   "when": "Thu · 9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "bel-orders",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "BEL wins ~₹770 cr radar order",
-   "line": "Defence ministry order for low-level light-weight radars; ₹1,011 cr more since Oct 13.",
-   "more": [
-    "Orders span radars, communication gear, sonars and jammers",
-    "Stock in focus at today's open"
-   ],
-   "src": {
-    "title": "Zee Business: Stocks to watch Oct 22 — BEL, Persistent, KEI, Swiggy, Colgate",
-    "url": "https://www.zeebiz.com/market-news/news-stocks-to-watch-today-oct-22-bel-persistent-systems-kei-industries-swiggy-colgate-palmolive-and-more-404317"
-   },
-   "date": "2026-10-22",
-   "slot": "pre",
-   "when": "Thu · Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-22",
-    "slot": "pre"
    }
   }
  ]
