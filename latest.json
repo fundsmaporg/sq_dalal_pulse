@@ -1,65 +1,70 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-02T15:33:20+05:30",
+ "generated_at": "2026-11-02T16:03:03+05:30",
  "date": "2026-11-02",
- "slot": "1530",
- "slot_label": "15:30",
- "stage": "Closing mood",
- "asof": "2026-11-02T15:30:00+05:30",
+ "slot": "post",
+ "slot_label": "Close",
+ "stage": "Post-market mood",
+ "asof": "2026-11-02T16:00:00+05:30",
  "nifty": {
-  "value": 23441,
+  "value": 23440.8,
   "pct": 1.68,
-  "chg": 387.9,
-  "approx": true
+  "chg": 387.7,
+  "approx": false
  },
  "mood": {
-  "label": "Strong finish",
+  "label": "Rally extends",
   "score": 0.6,
-  "summary": "A late surge took the market to its best levels of the day at the bell, a third straight gain, with Reliance powering the indices while IT and pharma lagged.",
+  "summary": "Indian stocks closed at the day's best levels for a third straight gain, led by energy heavyweights, with midcaps outperforming while IT and pharma trailed.",
   "detail": {
-   "leaders": "Reliance, Tata Steel, Nifty Midcap 100",
+   "leaders": "Reliance, Nifty Oil & Gas, Dixon Technologies, Nifty Midcap 100",
    "laggards": "Infosys, Sun Pharma, Nifty IT",
-   "tone": "A sharp turn from the 15:00 note: the Nifty went from about 23,228 to roughly 23,441 at the close as Reliance extended its gain from ~7% to ~12%.",
+   "tone": "Confirmed close: Sensex 75,692.78 (+1,233.25, +1.66%) and Nifty 23,440.80 (+387.70), a third straight gain after a late push in Reliance.",
    "watch": [
     "ITC, NALCO and Petronet results after hours",
-    "US midterms Tuesday",
-    "FII/DII provisional data this evening"
+    "US midterms on Tuesday",
+    "Whether Brent stays near $108 if Hormuz talks stall"
    ],
    "src": {
-    "title": "Business Standard: Stock Market Close — Sensex rises 1,228 pts, Nifty at 23,441; RIL jumps 12%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
+    "title": "ChiniMandi: Sensex jumps 1,230 points, Nifty above 23,400",
+    "url": "https://www.chinimandi.com/sensex-jumps-1230-points-nifty-above-23400/"
    },
    "movers": {
     "up": {
-     "summary": "Reliance's surge into the close led the Nifty; Tata Steel and midcaps also firm",
-     "why": "Reliance's earnings beat drew heavy late buying, with metals and midcaps adding to the rally.",
+     "summary": "Reliance and Oil & Gas led; Dixon rallied on results; midcaps beat the Nifty",
+     "why": "A Reliance earnings beat and a 4% drop in Brent drove energy stocks, while results-led buying lifted midcaps.",
      "names": [
       {
        "name": "Reliance Industries",
        "dir": "up",
        "move": "~+12%",
-       "line": "Biggest jump in years after Q2 beat; O2C EBITDA up 67.9%"
+       "line": "Record Q2; O2C EBITDA up 67.9%; Goldman, Nomura keep Buy"
       },
       {
-       "name": "Tata Steel",
+       "name": "Nifty Oil & Gas",
        "dir": "up",
-       "move": "~+5%",
-       "line": "Bounced from near its 52-week low on metal buying; Q2 due Nov 7"
+       "line": "Top sectoral gainer as Brent fell more than 4% to $108.30"
+      },
+      {
+       "name": "Dixon Technologies",
+       "dir": "up",
+       "move": "+11.26%",
+       "line": "Q2 beat MOFSL estimates; JPMorgan Buy with ₹16,800 target"
       },
       {
        "name": "Nifty Midcap 100",
        "dir": "up",
-       "move": "+0.96%",
-       "line": "Broader market joined the rally, smallcaps +0.86%"
+       "move": "+1.19%",
+       "line": "Outpaced the Nifty; smallcaps up 0.71%"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market Close — Sensex rises 1,228 pts, Nifty at 23,441; RIL jumps 12%",
+      "title": "Business Standard: Stock Market Close — Sensex rises 1,233 pts, Nifty at 23,441; RIL jumps 12%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
      }
     },
     "down": {
-     "summary": "Infosys and Sun Pharma were the main large-cap drags; IT lagged all day",
+     "summary": "Infosys and Sun Pharma were the main large-cap drags; IT lagged all session",
      "why": "IT stayed under pressure on Infosys's guidance cut, and pharma missed the rally.",
      "names": [
       {
@@ -90,6 +95,127 @@
  },
  "insights": [
   {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Brent ends day down over 4% near $108",
+   "line": "Oil fell more than 4% to $108.30 as Hormuz talks progressed, helping energy stocks",
+   "more": [
+    "Rupee closed little changed at 94.90/$ vs 94.95",
+    "Traders cautious ahead of the US midterms"
+   ],
+   "src": {
+    "title": "INDA News: Rupee ends little changed despite oil, dollar drop",
+    "url": "https://rallies.ai/news/rupee-ends-little-changed-as-traders-stay-cautious-despite-oil-dollar-drop-328cbf9fdd15596a"
+   },
+   "date": "2026-11-02",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "dixon-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Dixon rallies 11% as brokers back Q2",
+   "line": "Profit fell but met estimates; JPMorgan says Buy with a ₹16,800 target",
+   "more": [
+    "Closed near ₹12,238.75",
+    "MOFSL says revenue and PAT beat its estimates",
+    "Cochin Shipyard (+4.51%) also among top midcap gainers"
+   ],
+   "src": {
+    "title": "BusinessToday: Dixon Tech rallies 11% after Q2; CLSA, JPMorgan targets",
+    "url": "https://www.businesstoday.in/markets/stocks/story/dixon-tech-shares-why-stock-rallied-11-after-q2-clsa-jpmorgan-targets-565048-2026-11-02"
+   },
+   "date": "2026-11-02",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "upl-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "UPL Q2 profit down 24% to ₹421 cr",
+   "line": "Revenue dipped 1% in the September quarter",
+   "more": [
+    "Reported during market hours",
+    "Agrochemical maker's results arrive with ITC and NALCO due after hours"
+   ],
+   "src": {
+    "title": "Upstox: Q2 results live — UPL PAT declines 24% to ₹421 crore",
+    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-itc-nalco-marico-upl-tata-investment-corp-tbo-tek-esds-software-devyani-international-others-to-post-earnings-on-nov-2/liveblog-202795/"
+   },
+   "date": "2026-11-02",
+   "slot": "post",
+   "when": "Close",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "post"
+   }
+  },
+  {
+   "key": "itc-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "ITC numbers due after the close",
+   "line": "Previews see profit down 15–28% as higher cigarette taxes hit volumes",
+   "more": [
+    "Zee Business estimates PAT down 22.7% to ~₹4,005 cr",
+    "NALCO and Petronet LNG also report post-market"
+   ],
+   "src": {
+    "title": "Business Standard: ITC Q2 preview",
+    "url": "https://www.business-standard.com/markets/news/itc-q2-results-expectation-preview-pat-revenue-editda-margins-cigarette-business-volume-fmcg-agri-126110200072_1.html"
+   },
+   "date": "2026-11-02",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "FII data for today due after 5:30 pm",
+   "line": "Last print (Oct 30): FIIs bought ₹3,598.54 cr; DIIs sold ₹817.51 cr",
+   "more": [
+    "Oct 29: FIIs sold ~₹944 cr, DIIs bought ~₹1,924 cr",
+    "BLS Polymers lists Tuesday"
+   ],
+   "src": {
+    "title": "Quantsapp: FII DII data (Oct 30)",
+    "url": "https://www.quantsapp.com/fii-dii"
+   },
+   "date": "2026-11-02",
+   "slot": "post",
+   "when": "Close",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "pre"
+   }
+  },
+  {
    "key": "reliance-q2",
    "tag": "Results",
    "impact": "pos",
@@ -108,7 +234,7 @@
    "slot": "1530",
    "when": "15:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1230"
@@ -132,34 +258,10 @@
    "slot": "1530",
    "when": "15:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1530"
-   }
-  },
-  {
-   "key": "itc-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "ITC, NALCO, Petronet results after hours",
-   "line": "ITC profit seen down 8–28% across previews; numbers due after the close",
-   "more": [
-    "ITC shares were up 0.73% at ₹267.55 earlier",
-    "NALCO and Petronet LNG also report post-market"
-   ],
-   "src": {
-    "title": "Upstox: RIL, Dixon Tech, Coal India among buzzing stocks",
-    "url": "https://upstox.com/news/market-news/stocks/ril-dixon-tech-coal-india-among-buzzing-stocks-nifty-trades-over-23-200-sensex-off-day-s-high/article-202818/"
-   },
-   "date": "2026-11-02",
-   "slot": "1530",
-   "when": "15:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1000"
    }
   },
   {
@@ -208,31 +310,6 @@
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1500"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Hormuz deal hinges on US response",
-   "line": "Iran says outcome depends on US answers; Trump says he is in no hurry",
-   "more": [
-    "Iran's asks reportedly include sanctions relief and oil waivers",
-    "Brent touched $109.75, WTI $100.69 earlier",
-    "Some analysts see risk of $120 oil after the US midterms"
-   ],
-   "src": {
-    "title": "investingLive: Oil slips as Iran says Hormuz could reopen in two days",
-    "url": "https://investinglive.com/commodities/oil-slips-as-iran-says-qatar-brokered-plan-could-reopen-hormuz-in-two-days/"
-   },
-   "date": "2026-11-02",
-   "slot": "1430",
-   "when": "14:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "0930"
    }
   },
   {
@@ -592,54 +669,6 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1100"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Friday's FII buying lifts sentiment",
-   "line": "FII purchases on Friday cited as a driver of Monday's early buying",
-   "more": [
-    "Business Standard lists FII buying among six rally drivers",
-    "Asian markets' rally also cited"
-   ],
-   "src": {
-    "title": "Business Standard: Sensex jumps 1,030 pts intraday — 6 reasons",
-    "url": "https://www.business-standard.com/markets/news/why-is-the-stock-market-rising-sensex-extends-rally-jumps-1-030-pts-intraday-6-reasons-126110200234_1.html"
-   },
-   "date": "2026-11-02",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "dixon-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Dixon profit −45% on margin squeeze",
-   "line": "Dixon shares fell 4.25% after Q2 net profit dropped 45% YoY",
-   "more": [
-    "Margin compression cited",
-    "Shyam Metalics +1.87% on 96% profit jump and coal block approval"
-   ],
-   "src": {
-    "title": "ScanX: Stocks to watch, Nov 2 — Dixon, Borosil, Engineers India",
-    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-november-2-2026-borosil-renewables-engineers-india/55128620"
-   },
-   "date": "2026-11-02",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
