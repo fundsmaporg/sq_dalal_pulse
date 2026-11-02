@@ -1,71 +1,71 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-02T11:34:30+05:30",
+ "generated_at": "2026-11-02T12:03:06+05:30",
  "date": "2026-11-02",
- "slot": "1130",
- "slot_label": "11:30",
+ "slot": "1200",
+ "slot_label": "12:00",
  "stage": "Mid-market mood",
- "asof": "2026-11-02T11:30:00+05:30",
+ "asof": "2026-11-02T12:00:00+05:30",
  "nifty": {
-  "value": 23329.45,
-  "pct": 1.2,
-  "chg": 276.35,
+  "value": 23318.85,
+  "pct": 1.15,
+  "chg": 265.75,
   "approx": true
  },
  "mood": {
-  "label": "Gains consolidate",
-  "score": 0.5,
-  "summary": "The market is consolidating near the day's high, up about 1.2%, with almost every sector green and energy names still leading; pharma remains the only soft spot.",
+  "label": "Gains hold firm",
+  "score": 0.45,
+  "summary": "The rally is holding at about 1.2% into midday, with energy stocks still doing the heavy lifting, but a rise in India VIX shows traders are paying up for protection.",
   "detail": {
-   "leaders": "Reliance, IOC, GAIL",
+   "leaders": "Reliance, Oil & Gas, IOC",
    "laggards": "Pharma; Sun Pharma",
-   "tone": "Momentum has steadied rather than extended since 11:00: the Nifty was at 23,329 (+1.2%) at the last timestamped read, just below the day's high.",
+   "tone": "Steady versus 11:30: the Nifty was at 23,318.85 at 11:21, little changed from 11:00, while India VIX rose 2.42% to 15.66.",
    "watch": [
-    "ITC and Marico results later today",
-    "Whether Brent holds below $112 on the Hormuz plan",
-    "Profit-taking in Reliance after an 8% jump"
+    "India VIX rising alongside the rally",
+    "ITC and Marico Q2 results later today",
+    "US midterms Tuesday"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE, Nov 2",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
+    "title": "Outlook Money: Sensex rallies 1,000 points — 5 reasons",
+    "url": "https://www.outlookmoney.com/invest/sensex-nifty-stock-market-rally-today-november-2-reasons"
    },
    "movers": {
     "up": {
-     "summary": "Energy heavyweights Reliance, IOC and GAIL lead the gains",
-     "why": "Strong Q2 numbers from energy majors are meeting a sharp drop in crude, which helps refiners and gas distributors.",
+     "summary": "Reliance and the Oil & Gas index lead, helped by oil marketers like IOC",
+     "why": "Reliance's record Q2 and a drop in crude to about $110 keep energy stocks in front.",
      "names": [
       {
        "name": "Reliance Industries",
        "dir": "up",
-       "move": "+8.2%",
-       "line": "At ₹1,259 on record Q2: O2C strength, better refining margins, Jio growth"
+       "move": "+7.97%",
+       "line": "At ₹1,256.25; m-cap back above ₹17 lakh cr; Jefferies rates it Buy"
+      },
+      {
+       "name": "Nifty Oil & Gas",
+       "dir": "up",
+       "move": "+4%+",
+       "line": "Reliance plus oil marketers gain as Brent falls 2.7% to $110.37"
       },
       {
        "name": "Indian Oil (IOC)",
        "dir": "up",
        "move": "~+3%",
-       "line": "Q2 standalone profit ₹21,630 cr vs a ₹2,661 cr loss in June quarter"
-      },
-      {
-       "name": "GAIL",
-       "dir": "up",
-       "move": "~+3%",
-       "line": "Q2 profit up ~139%; board backs a GAIL Gas IPO"
+       "line": "Q2 standalone profit ₹21,630 cr after a loss in the June quarter"
       }
      ],
      "src": {
-      "title": "Business Standard: Sensex jumps 1,030 pts intraday — 6 reasons",
-      "url": "https://www.business-standard.com/amp/markets/news/why-is-the-stock-market-rising-sensex-extends-rally-jumps-1-030-pts-intraday-6-reasons-126110200234_1.html"
+      "title": "Outlook Money: Sensex rallies 1,000 points — 5 reasons",
+      "url": "https://www.outlookmoney.com/invest/sensex-nifty-stock-market-rally-today-november-2-reasons"
      }
     },
     "down": {
-     "summary": "Pharma is the only sector not taking part, with Sun Pharma among losers",
-     "why": "Pharma has sat out the rally after Friday's 1.55% gain; Sun Pharma trails after a one-off hit to Q2 profit.",
+     "summary": "Pharma remains the lone laggard sector, with Sun Pharma among losers",
+     "why": "Pharma is sitting out the rally after Friday's gain; Sun Pharma trails after a one-off hit to Q2 profit.",
      "names": [
       {
        "name": "Nifty Pharma",
        "dir": "down",
-       "line": "Only sectoral index lagging, per Business Standard"
+       "line": "Only sectoral index lagging in Business Standard's intraday read"
       },
       {
        "name": "Sun Pharma",
@@ -82,6 +82,79 @@
   }
  },
  "insights": [
+  {
+   "key": "india-vix",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "India VIX rises despite the rally",
+   "line": "VIX up 2.42% to 15.66 even as Nifty gains about 1.1%",
+   "more": [
+    "Volatility index usually falls in rallies",
+    "Event-heavy week: US midterms Tuesday, US jobs data"
+   ],
+   "src": {
+    "title": "HDFC Sky: India VIX jumps even as Nifty, Sensex rally",
+    "url": "https://hdfcsky.com/news/india-vix-jumps-2-42percent-to-15-66-even-as-nifty-rises-1-08percent-november-2-2026"
+   },
+   "date": "2026-11-02",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "reliance-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Reliance m-cap tops ₹17 lakh cr; Jefferies Buy",
+   "line": "Market value up ~₹1.25 lakh cr on the day; Jefferies recommends Buy",
+   "more": [
+    "Record Q2 profit ₹29,550 cr, +33.8% YoY",
+    "Intraday high ₹1,258.70",
+    "Still well below the Jan 2026 high of ₹1,611.8"
+   ],
+   "src": {
+    "title": "Goodreturns: Reliance rallies 8%, m-cap up ₹1.25 lakh cr; Jefferies says Buy",
+    "url": "https://www.goodreturns.in/news/reliance-industries-stock-rally-8-after-q2-results-m-cap-up-rs-1-25-lakh-crore-jefferies-ril-target-1544585.html"
+   },
+   "date": "2026-11-02",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "marico-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Marico Q2 due; volumes in double digits",
+   "line": "Preview sees revenue +14.9% to ₹4,000 cr and EBITDA +25.5% to ₹703 cr",
+   "more": [
+    "Company flagged double-digit India volume growth in its update",
+    "Expects to beat near-term guidance; lower copra prices help margins"
+   ],
+   "src": {
+    "title": "Zee Business: Marico Q2 preview",
+    "url": "https://www.zeebiz.com/companies/news-marico-q2-results-preview-what-to-expect-on-revenue-profit-and-margins-404274"
+   },
+   "date": "2026-11-02",
+   "slot": "1200",
+   "when": "12:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1200"
+   }
+  },
   {
    "key": "crude",
    "tag": "Global",
@@ -101,7 +174,7 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "0930"
@@ -126,34 +199,10 @@
    "slot": "1130",
    "when": "11:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1100"
-   }
-  },
-  {
-   "key": "reliance-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Brokerages upbeat after Reliance's record Q2",
-   "line": "Stock up 8.2% to ₹1,259 as brokerages turn positive after the record quarter",
-   "more": [
-    "Drivers: oil-to-chemicals strength, refining margins, Jio growth",
-    "Market cap of BSE firms up ~₹5.9 trn on the day, per Business Standard"
-   ],
-   "src": {
-    "title": "Free Press Journal: Reliance jumps over 8% after record Q2",
-    "url": "https://www.freepressjournal.in/business/reliance-stock-jumps-over-8-after-record-q2-results"
-   },
-   "date": "2026-11-02",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1230"
    }
   },
   {
