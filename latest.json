@@ -1,78 +1,71 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-02T11:03:20+05:30",
+ "generated_at": "2026-11-02T11:34:30+05:30",
  "date": "2026-11-02",
- "slot": "1100",
- "slot_label": "11:00",
+ "slot": "1130",
+ "slot_label": "11:30",
  "stage": "Mid-market mood",
- "asof": "2026-11-02T11:00:00+05:30",
+ "asof": "2026-11-02T11:30:00+05:30",
  "nifty": {
-  "value": 23350,
-  "pct": 1.29,
-  "chg": 296.9,
+  "value": 23329.45,
+  "pct": 1.2,
+  "chg": 276.35,
   "approx": true
  },
  "mood": {
-  "label": "Broad-based rally",
-  "score": 0.55,
-  "summary": "Buying has broadened: the Sensex hit a day's high about 1,000 points up, and mid- and smallcaps have turned firmly positive, with pharma the only soft patch.",
+  "label": "Gains consolidate",
+  "score": 0.5,
+  "summary": "The market is consolidating near the day's high, up about 1.2%, with almost every sector green and energy names still leading; pharma remains the only soft spot.",
   "detail": {
-   "leaders": "Reliance, Oil & Gas, midcaps and smallcaps",
+   "leaders": "Reliance, IOC, GAIL",
    "laggards": "Pharma; Sun Pharma",
-   "tone": "Stronger than at 10:30: the Sensex reached a day's high of 75,489.70 (+1,030), and mid- and smallcaps, flat to lower earlier, are now up nearly 1%.",
+   "tone": "Momentum has steadied rather than extended since 11:00: the Nifty was at 23,329 (+1.2%) at the last timestamped read, just below the day's high.",
    "watch": [
-    "ITC, Marico and NALCO Q2 later today",
-    "Whether Reliance holds a 7% gain into the close",
-    "Brent after its retreat from a six-month high"
+    "ITC and Marico results later today",
+    "Whether Brent holds below $112 on the Hormuz plan",
+    "Profit-taking in Reliance after an 8% jump"
    ],
    "src": {
-    "title": "Business Standard: Sensex at day's high, surges 1,000 pts; SMIDs advance",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
+    "title": "Business Standard: Stock Market LIVE, Nov 2",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Reliance and Oil & Gas lead, and mid- and smallcaps have joined the rally",
-     "why": "Reliance's Q2 beat and falling crude drive the heavyweights, while FII buying and firm Asian markets support breadth.",
+     "summary": "Energy heavyweights Reliance, IOC and GAIL lead the gains",
+     "why": "Strong Q2 numbers from energy majors are meeting a sharp drop in crude, which helps refiners and gas distributors.",
      "names": [
       {
        "name": "Reliance Industries",
        "dir": "up",
-       "move": "+7%",
-       "line": "Sharpest intraday rally in 3 years; ~400 pts, a quarter of Sensex's gain"
+       "move": "+8.2%",
+       "line": "At ₹1,259 on record Q2: O2C strength, better refining margins, Jio growth"
       },
       {
-       "name": "Nifty Oil & Gas",
+       "name": "Indian Oil (IOC)",
        "dir": "up",
-       "move": "+3%+",
-       "line": "Oil prices retreat from a six-month high on US–Iran talks"
+       "move": "~+3%",
+       "line": "Q2 standalone profit ₹21,630 cr vs a ₹2,661 cr loss in June quarter"
       },
       {
-       "name": "Nifty Midcap 100",
+       "name": "GAIL",
        "dir": "up",
-       "move": "+0.96%",
-       "line": "Up from +0.47% at 10:00 as buying spreads beyond heavyweights"
-      },
-      {
-       "name": "Nifty Smallcap 100",
-       "dir": "up",
-       "move": "+0.86%",
-       "line": "Turned positive from −0.23% at 10:00"
+       "move": "~+3%",
+       "line": "Q2 profit up ~139%; board backs a GAIL Gas IPO"
       }
      ],
      "src": {
-      "title": "Business Standard: Sensex at day's high, surges 1,000 pts; SMIDs advance",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
+      "title": "Business Standard: Sensex jumps 1,030 pts intraday — 6 reasons",
+      "url": "https://www.business-standard.com/amp/markets/news/why-is-the-stock-market-rising-sensex-extends-rally-jumps-1-030-pts-intraday-6-reasons-126110200234_1.html"
      }
     },
     "down": {
-     "summary": "Pharma is the only sector lagging, with Sun Pharma among Sensex losers",
-     "why": "Pharma has missed the rally after Friday's gain, and Sun Pharma trails following a one-off hit to Q2 profit.",
+     "summary": "Pharma is the only sector not taking part, with Sun Pharma among losers",
+     "why": "Pharma has sat out the rally after Friday's 1.55% gain; Sun Pharma trails after a one-off hit to Q2 profit.",
      "names": [
       {
        "name": "Nifty Pharma",
        "dir": "down",
-       "move": "−0.05%",
-       "line": "Only sectoral index in the red in early trade, after +1.55% on Friday"
+       "line": "Only sectoral index lagging, per Business Standard"
       },
       {
        "name": "Sun Pharma",
@@ -82,7 +75,7 @@
      ],
      "src": {
       "title": "Business Standard: Sensex jumps 1,030 pts intraday — 6 reasons",
-      "url": "https://www.business-standard.com/markets/news/why-is-the-stock-market-rising-sensex-extends-rally-jumps-1-030-pts-intraday-6-reasons-126110200234_1.html"
+      "url": "https://www.business-standard.com/amp/markets/news/why-is-the-stock-market-rising-sensex-extends-rally-jumps-1-030-pts-intraday-6-reasons-126110200234_1.html"
      }
     }
    }
@@ -90,22 +83,72 @@
  },
  "insights": [
   {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Iran floats two-day Hormuz reopening plan",
+   "line": "Brent fell as low as $109.75 after Iran's FM backed a Qatar-brokered plan",
+   "more": [
+    "Brent ~$111.2 later, −1.95%",
+    "Two tankers, incl. a VLCC, reported hit by mines in Hormuz on Sunday",
+    "Iran warns of retaliation against renewed attacks"
+   ],
+   "src": {
+    "title": "Mitrade: Brent slips to $111 as two-day Hormuz plan lands",
+    "url": "https://www.mitrade.com/insights/commodity-analysis/oil-news/brent-111-hormuz-two-day-plan-premium-20261102J1102"
+   },
+   "date": "2026-11-02",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "psu-results",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "IOC, GAIL post sharp Q2 profit jumps",
+   "line": "IOC standalone profit ₹21,630 cr; GAIL consolidated profit ₹4,720 cr (+139%)",
+   "more": [
+    "IOC swung from a ₹2,661 cr loss in Q1",
+    "GAIL board gives in-principle nod to GAIL Gas IPO",
+    "Both up about 3% in early trade"
+   ],
+   "src": {
+    "title": "Zee Business: Two Maharatna OMC shares jump over 3% after Q2",
+    "url": "https://www.zeebiz.com/market-news/news-oil-gas-stocks-to-buy-these-2-maharatna-omc-shares-jump-over-3-after-q2-results-up-to-30-upside-do-you-own-404918"
+   },
+   "date": "2026-11-02",
+   "slot": "1130",
+   "when": "11:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1100"
+   }
+  },
+  {
    "key": "reliance-q2",
    "tag": "Results",
    "impact": "pos",
-   "title": "Reliance posts sharpest rally in 3 years",
-   "line": "Stock up ~7% after Q2 beat; alone adds ~400 points, a quarter of Sensex's gain",
+   "title": "Brokerages upbeat after Reliance's record Q2",
+   "line": "Stock up 8.2% to ₹1,259 as brokerages turn positive after the record quarter",
    "more": [
-    "Business Standard puts quarterly net profit growth at 34%",
-    "Stock had been near a 52-week low before results"
+    "Drivers: oil-to-chemicals strength, refining margins, Jio growth",
+    "Market cap of BSE firms up ~₹5.9 trn on the day, per Business Standard"
    ],
    "src": {
-    "title": "Business Standard: Reliance soars 7% post Q2, sharpest intraday rally in 3 years",
-    "url": "https://business-standard.com/markets/news/reliance-soars-7-post-q2-results-sees-sharpest-intraday-rally-in-3-years-126110200237_1.html"
+    "title": "Free Press Journal: Reliance jumps over 8% after record Q2",
+    "url": "https://www.freepressjournal.in/business/reliance-stock-jumps-over-8-after-record-q2-results"
    },
    "date": "2026-11-02",
-   "slot": "1100",
-   "when": "11:00",
+   "slot": "1130",
+   "when": "11:30",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -131,34 +174,10 @@
    "slot": "1100",
    "when": "11:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "psu-results",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "IOC record profit; BEL, NTPC Green grow",
-   "line": "IOC posts record quarterly profit; BEL profit +19.7%, NTPC Green +56.2%",
-   "more": [
-    "Jio Platforms' first results as a listed company: profit +14%",
-    "All in focus on Monday"
-   ],
-   "src": {
-    "title": "HDFC Sky: Five stocks in focus — Reliance, Jio, BEL, NTPC Green, IOC",
-    "url": "https://hdfcsky.com/news/stocks-to-watch-today-monday-november-2-2026-reliance-industries-jio-platforms-bharat-electronics-ntpc-green-energy-indian-oil-corporation"
-   },
-   "date": "2026-11-02",
-   "slot": "1100",
-   "when": "11:00",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1100"
    }
   },
   {
@@ -179,34 +198,10 @@
    "slot": "1100",
    "when": "11:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1100"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Brent down ~3% on US–Iran talk hopes",
-   "line": "Oil fell sharply on hopes of a breakthrough in US–Iran talks, lifting Indian markets",
-   "more": [
-    "Outlook Money cites Brent −3.20% on diplomatic efforts",
-    "Iran–Qatar talks in Doha in a third day"
-   ],
-   "src": {
-    "title": "Outlook Money: HPCL, BPCL, IOCL rally after export duty revision",
-    "url": "https://www.outlookmoney.com/invest/oil-stocks-today-hpcl-bpcl-iocl-share-price-rally-export-duty-revision"
-   },
-   "date": "2026-11-02",
-   "slot": "1030",
-   "when": "10:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "0930"
    }
   },
   {
