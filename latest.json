@@ -1,84 +1,77 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-02T14:03:58+05:30",
+ "generated_at": "2026-11-02T14:34:30+05:30",
  "date": "2026-11-02",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1430",
+ "slot_label": "14:30",
  "stage": "Mid-market mood",
- "asof": "2026-11-02T14:00:00+05:30",
+ "asof": "2026-11-02T14:30:00+05:30",
  "nifty": {
-  "value": 23200,
-  "pct": 0.64,
-  "chg": 146.9,
+  "value": 23247.4,
+  "pct": 0.84,
+  "chg": 194.3,
   "approx": true
  },
  "mood": {
-  "label": "Profit-taking sets in",
-  "score": 0.25,
-  "summary": "Profit-taking is chipping away at the morning surge: the Sensex is about 500 points off its high and Nifty is near 23,200, still up roughly 0.6%, as IT selling picks up.",
+  "label": "Gains steady",
+  "score": 0.3,
+  "summary": "The market has steadied after its midday pullback, holding gains of a little under 1% with Reliance, metals and autos offsetting continued selling in IT.",
   "detail": {
-   "leaders": "Reliance, Motherson Sumi Wiring, Vedanta Power",
-   "laggards": "Nifty IT, Infosys, ITC, PC Jeweller",
-   "tone": "Weaker than at 13:30: the Sensex has slipped from about 400 to about 500 points below its 75,489.70 high, and Nifty has eased from 23,284 to near 23,200.",
+   "leaders": "Reliance, Nifty Auto, Motherson Sumi Wiring",
+   "laggards": "Nifty IT, Infosys, PC Jeweller",
+   "tone": "Slightly firmer than the 14:00 note: at 2 PM the Nifty was at 23,247.40 (+0.84%), back above 23,200 after briefly slipping toward it.",
    "watch": [
-    "Whether Nifty holds 23,200 into the close",
-    "Further IT selling",
-    "ITC, NALCO and Petronet results after hours"
+    "Whether IT selling deepens into the close",
+    "ITC, NALCO and Petronet results after hours",
+    "Any break in the Hormuz talks"
    ],
    "src": {
-    "title": "Business Standard: Sensex off 500 pts from day's high, Nifty near 23,200; Nifty IT down nearly 1%",
+    "title": "Business Standard: Stock Market LIVE, Nov 2 (2 PM update)",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Reliance still leads Nifty gainers; result-driven names like Motherson Wiring jump",
-     "why": "Strong quarterly numbers are still supporting individual stocks even as the broader index cools.",
+     "summary": "Reliance remains the biggest gainer; autos lead sectors; Motherson Wiring jumps",
+     "why": "Strong results and October sales data are supporting individual names and sectors through the afternoon.",
      "names": [
       {
        "name": "Reliance Industries",
        "dir": "up",
-       "move": "+7.7% to +7.8%",
-       "line": "Top Nifty gainer at midday on its record Q2 profit"
+       "move": "+7.91%",
+       "line": "Biggest Sensex gainer on its record Q2 profit"
+      },
+      {
+       "name": "Nifty Auto",
+       "dir": "up",
+       "line": "Among leading sectors after record October domestic sales at Maruti, Tata"
       },
       {
        "name": "Motherson Sumi Wiring",
        "dir": "up",
        "move": "+11.75%",
        "line": "Surges on strong Q2 earnings"
-      },
-      {
-       "name": "Vedanta Power",
-       "dir": "up",
-       "move": "+6.88%",
-       "line": "Rallies after returning to profit"
       }
      ],
      "src": {
-      "title": "HDFC Sky: Top gainers & losers, 2 Nov 2026, 12:00 PM",
-      "url": "https://hdfcsky.com/news/top-gainers-losers-today-2-november-2026-at-12-pm"
+      "title": "Zee Business: Sensex jumps 670 points, Nifty near 23,250; metal, auto lead",
+      "url": "https://www.zeebiz.com/market-news/news-sensex-jumps-670-points-nifty-near-23250-metal-auto-stocks-lead-gains-404940"
      }
     },
     "down": {
-     "summary": "IT drags as Infosys falls 2.6%; ITC slips before results; PC Jeweller hit",
-     "why": "IT is leading the afternoon selling as Infosys's guidance cut weighs, while stock-specific news hits ITC and PC Jeweller.",
+     "summary": "IT is the main drag, with Infosys the biggest Sensex loser",
+     "why": "IT is leading the profit-taking after a three-day market rally, and Infosys's lower guidance weighs on the pack.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
        "move": "~−1%",
-       "line": "Down nearly 1%, leading the afternoon pullback"
+       "line": "Main drag on indices as profit-taking hits tech"
       },
       {
        "name": "Infosys",
        "dir": "down",
-       "move": "−2.6%",
-       "line": "FY revenue growth guidance cut to 1–2% in constant currency"
-      },
-      {
-       "name": "ITC",
-       "dir": "down",
-       "move": "−0.4%",
-       "line": "Slips before Q2; consensus sees adjusted profit down ~20%"
+       "move": "−2.42%",
+       "line": "Biggest Sensex loser; FY revenue growth guidance cut to 1–2% CC"
       },
       {
        "name": "PC Jeweller",
@@ -88,14 +81,87 @@
       }
      ],
      "src": {
-      "title": "NewsBytes: Sensex falls 500 points from high, Nifty slips below 23,250",
-      "url": "https://www.newsbytesapp.com/news/business/on-monday-sensex-falls-500-points-nifty-slips-below-23250/tldr"
+      "title": "Whalesbook: Sensex, Nifty dip on profit booking and IT weakness",
+      "url": "https://www.whalesbook.com/news/English/sebiexchange/Sensex-Nifty-Dip-on-Profit-Booking-and-IT-Weakness-Nov-2/6ae844474fc30694db5746cb"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Hormuz deal hinges on US response",
+   "line": "Iran says outcome depends on US answers; Trump says he is in no hurry",
+   "more": [
+    "Iran's asks reportedly include sanctions relief and oil waivers",
+    "Brent touched $109.75, WTI $100.69 earlier",
+    "Some analysts see risk of $120 oil after the US midterms"
+   ],
+   "src": {
+    "title": "investingLive: Oil slips as Iran says Hormuz could reopen in two days",
+    "url": "https://investinglive.com/commodities/oil-slips-as-iran-says-qatar-brokered-plan-could-reopen-hormuz-in-two-days/"
+   },
+   "date": "2026-11-02",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "0930"
+   }
+  },
+  {
+   "key": "hormuz-attacks",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Tanker mine strikes shadow Hormuz talks",
+   "line": "IRGC says two tankers hit mines in Hormuz; Qatar condemns attack on LNG carrier",
+   "more": [
+    "Mine claim not independently verified",
+    "Pakistan mediating alongside Qatar"
+   ],
+   "src": {
+    "title": "Türkiye Today: Hormuz talks continue without final deal",
+    "url": "https://www.turkiyetoday.com/region/iran-says-qatar-mediated-hormuz-talks-continue-without-final-deal-3231501"
+   },
+   "date": "2026-11-02",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "jio-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Jio Platforms trades near ₹1,440 after Q2",
+   "line": "At ₹1,441.6 at 10:22 am; day range ₹1,436.3–1,475",
+   "more": [
+    "First quarterly results as a listed company; profit +14%",
+    "52-week range ₹1,119–1,489.70"
+   ],
+   "src": {
+    "title": "INDmoney: Jio Platforms share price",
+    "url": "https://www.indmoney.com/stocks/jio-platforms-ltd-share-price"
+   },
+   "date": "2026-11-02",
+   "slot": "1430",
+   "when": "14:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1430"
+   }
+  },
   {
    "key": "infosys-guidance",
    "tag": "Stocks",
@@ -114,7 +180,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1400"
@@ -138,7 +204,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1400"
@@ -162,7 +228,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1400"
@@ -186,7 +252,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1400"
@@ -239,30 +305,6 @@
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1330"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Brent holds near $110 on Hormuz hopes",
-   "line": "Iran says a Qatar-brokered plan could reopen Hormuz in two days; no deal yet",
-   "more": [
-    "Brent at $110.10 at 03:30 GMT",
-    "Still up more than 10% over the past month"
-   ],
-   "src": {
-    "title": "AGBI: Oil retreats as diplomacy raises hopes for Hormuz reopening",
-    "url": "https://agbi.com/oil-and-gas/2026/11/oil-retreats-as-diplomacy-raises-hopes-for-hormuz-reopening"
-   },
-   "date": "2026-11-02",
-   "slot": "1330",
-   "when": "13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "0930"
    }
   },
   {
