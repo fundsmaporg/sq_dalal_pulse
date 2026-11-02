@@ -1,50 +1,44 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-02T13:03:28+05:30",
+ "generated_at": "2026-11-02T13:37:33+05:30",
  "date": "2026-11-02",
- "slot": "1300",
- "slot_label": "13:00",
+ "slot": "1330",
+ "slot_label": "13:30",
  "stage": "Mid-market mood",
- "asof": "2026-11-02T13:00:00+05:30",
+ "asof": "2026-11-02T13:30:00+05:30",
  "nifty": {
-  "value": 23318.85,
-  "pct": 1.15,
-  "chg": 265.75,
+  "value": 23284.5,
+  "pct": 1.0,
+  "chg": 231.4,
   "approx": true
  },
  "mood": {
-  "label": "Gains hold",
-  "score": 0.45,
-  "summary": "Latest reads show the market holding gains of over 1% into the afternoon, with energy and PSU banks still in front and pharma the soft spot.",
+  "label": "Gains trimmed",
+  "score": 0.35,
+  "summary": "Gains are being trimmed in the afternoon: the Sensex has come off about 400 points from its high, and IT is now dragging, though the market is still up about 1%.",
   "detail": {
-   "leaders": "Reliance, Oil & Gas, SBI, Bank of Baroda",
-   "laggards": "Pharma; Sun Pharma",
-   "tone": "No fresh timestamped print since late morning (Nifty 23,318.85 at 11:21); reports still show the Sensex up about 900–1,000 points. Outlook Money had Nifty Private Bank as the only red sector at 11:21.",
+   "leaders": "Reliance, SBI, Bank of Baroda",
+   "laggards": "Nifty IT, ITC, Sun Pharma",
+   "tone": "Softer than the late-morning reads in the last note: at 1 PM the Sensex was up 766 points at 75,225.60, about 400 points below its high, as IT turned lower.",
    "watch": [
-    "Europe's open after a weak Euro Stoxx read",
+    "Whether the Nifty holds 23,250 into the close",
     "ITC, NALCO and Petronet results after hours",
-    "India VIX rising alongside the rally"
+    "Brent near $110 as Hormuz talks continue"
    ],
    "src": {
-    "title": "Outlook Money: Sensex rallies 1,000 points — 5 reasons",
-    "url": "https://www.outlookmoney.com/invest/sensex-nifty-stock-market-rally-today-november-2-reasons"
+    "title": "Business Standard: Sensex off 400 pts from day's high; Nifty IT down nearly 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Reliance and Oil & Gas still lead, with SBI and Bank of Baroda adding support",
-     "why": "Energy names are rising on Reliance's record quarter and cheaper crude, while PSU banks gain on results and positioning ahead of SBI's Q2.",
+     "summary": "Reliance, SBI and Bank of Baroda keep the index well in the green",
+     "why": "Reliance's record quarter is still the main support, with PSU banks adding to it on results and pre-results buying.",
      "names": [
       {
        "name": "Reliance Industries",
        "dir": "up",
-       "move": "~+8%",
-       "line": "Record Q2 profit; Jefferies rates it Buy"
-      },
-      {
-       "name": "Nifty Oil & Gas",
-       "dir": "up",
-       "move": "+4%+",
-       "line": "Reliance and oil marketers gain as Brent drops toward $110"
+       "move": "~+7%",
+       "line": "Record Q2 profit; the biggest single contributor to the Sensex rise"
       },
       {
        "name": "SBI",
@@ -60,18 +54,25 @@
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE, Nov 2",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
+      "title": "Business Standard: Sensex off 400 pts from day's high; Nifty IT down nearly 1%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
      }
     },
     "down": {
-     "summary": "Pharma is the lagging sector, with Sun Pharma among Sensex losers",
-     "why": "Pharma is sitting out the rally after Friday's gain; Sun Pharma trails after a one-off hit to Q2 profit.",
+     "summary": "IT slips nearly 1%, and ITC and Sun Pharma lag ahead of or after results",
+     "why": "IT is weighed down by AI-related worries after last week's US tech selling, while ITC lags before results expected to show a profit fall.",
      "names": [
       {
-       "name": "Nifty Pharma",
+       "name": "Nifty IT",
        "dir": "down",
-       "line": "Lone sectoral laggard in Business Standard's intraday read"
+       "move": "~−1%",
+       "line": "Down nearly 1%; sector has struggled on AI fears and is down ~29% in 2026"
+      },
+      {
+       "name": "ITC",
+       "dir": "down",
+       "move": "−0.4%",
+       "line": "At ₹264.55 before Q2; Bloomberg consensus sees adj. profit down ~20%"
       },
       {
        "name": "Sun Pharma",
@@ -80,14 +81,87 @@
       }
      ],
      "src": {
-      "title": "Business Standard: Sensex jumps 1,030 pts intraday — 6 reasons",
-      "url": "https://www.business-standard.com/amp/markets/news/why-is-the-stock-market-rising-sensex-extends-rally-jumps-1-030-pts-intraday-6-reasons-126110200234_1.html"
+      "title": "Business Standard: Sensex off 400 pts from day's high; Nifty IT down nearly 1%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "itc-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "ITC slips before Q2; consensus sees ~20% drop",
+   "line": "Bloomberg consensus: adjusted profit ₹4,136 cr, down 20.25%; sales up about 3%",
+   "more": [
+    "Stock −0.4% at ₹264.55 before results",
+    "Near 52-week low of ₹252.80 (Oct 28)",
+    "Cigarette tax hike in January 2026 weighs"
+   ],
+   "src": {
+    "title": "IndiaIPO: Can Nifty's worst performer since Diwali deliver in Q2?",
+    "url": "https://www.indiaipo.in/news/detail/itc-shares-can-niftys-worst-performer-since-diwali-deliver-healthy-q2-results-today"
+   },
+   "date": "2026-11-02",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "it-ai-worries",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "IT turns lower as AI worries linger",
+   "line": "Nifty IT slips nearly 1% in afternoon trade after leading Friday's gains",
+   "more": [
+    "Index fell over 2% on Oct 27 on AI fears and valuation worries",
+    "Down ~28.8% so far in 2026"
+   ],
+   "src": {
+    "title": "Univest: Nifty IT falls over 2% on AI fears",
+    "url": "https://univest.in/blogs/it-stocks-crash-nifty-it-index-tanks-over-2-percent-infosys-tcs-wipro-hcl-tech-slide-on-ai-fears-anthropic-ipo-valuation-and-what-lies-ahead"
+   },
+   "date": "2026-11-02",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1330"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Brent holds near $110 on Hormuz hopes",
+   "line": "Iran says a Qatar-brokered plan could reopen Hormuz in two days; no deal yet",
+   "more": [
+    "Brent at $110.10 at 03:30 GMT",
+    "Still up more than 10% over the past month"
+   ],
+   "src": {
+    "title": "AGBI: Oil retreats as diplomacy raises hopes for Hormuz reopening",
+    "url": "https://agbi.com/oil-and-gas/2026/11/oil-retreats-as-diplomacy-raises-hopes-for-hormuz-reopening"
+   },
+   "date": "2026-11-02",
+   "slot": "1330",
+   "when": "13:30",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-23",
+    "slot": "0930"
+   }
+  },
   {
    "key": "global-cues",
    "tag": "Global",
@@ -107,7 +181,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1300"
@@ -131,7 +205,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1130"
@@ -155,7 +229,7 @@
    "slot": "1300",
    "when": "13:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1300"
@@ -208,31 +282,6 @@
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "itc-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "ITC profit seen down 8–11% today",
-   "line": "Experts see Q2 profit at ₹4,550–4,700 cr vs ₹5,126 cr a year ago",
-   "more": [
-    "Cigarette tax increases weigh on demand and margins",
-    "Q1 FY27 standalone profit fell 27.1% to ₹3,579 cr",
-    "NALCO and Petronet LNG report post-market; UPL 1–3 pm"
-   ],
-   "src": {
-    "title": "Upstox: ITC Q2 profit likely to see double-digit fall",
-    "url": "https://upstox.com/news/market-news/earnings/itc-q2-results-net-profit-likely-to-see-double-digit-fall-due-to-subdued-cigarette-business-growth/article-202796/"
-   },
-   "date": "2026-11-02",
-   "slot": "1230",
-   "when": "12:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1000"
    }
   },
   {
@@ -306,31 +355,6 @@
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Iran floats two-day Hormuz reopening plan",
-   "line": "Brent fell as low as $109.75 after Iran's FM backed a Qatar-brokered plan",
-   "more": [
-    "Brent ~$111.2 later, −1.95%",
-    "Two tankers, incl. a VLCC, reported hit by mines in Hormuz on Sunday",
-    "Iran warns of retaliation against renewed attacks"
-   ],
-   "src": {
-    "title": "Mitrade: Brent slips to $111 as two-day Hormuz plan lands",
-    "url": "https://www.mitrade.com/insights/commodity-analysis/oil-news/brent-111-hormuz-two-day-plan-premium-20261102J1102"
-   },
-   "date": "2026-11-02",
-   "slot": "1130",
-   "when": "11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "0930"
    }
   },
   {
