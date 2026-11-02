@@ -1,12 +1,15 @@
 # Dalal Pulse feed
 
-Half-hourly Indian equity market notes for the Markets Now screen, written by scheduled Claude runs
-(weekdays, 08:31 pre-open → every 30 min → 16:01 post-close IST).
+Indian equity market notes for the Markets Now screen, written by scheduled Claude runs.
+
+**Weekdays (19 notes):** 07:00, 08:45, 09:25, then every 30 minutes (09:55, 10:25 … 16:25),
+then 18:00 and 21:00 IST.
+**Weekends (8 notes):** 08:00, 14:00, 18:00 and 21:00 IST on both Saturday and Sunday.
 
 | Path | What it is |
 |---|---|
 | `latest.json` | **What the app reads.** Current market mood + merged, de-duplicated insights (newest first, last 7 trading days). |
-| `days/<YYYY-MM-DD>/<slot>.json` | Raw note for each slot. Slots: `outlook`, `pre`, `0930` … `1530`, `post`. |
+| `days/<YYYY-MM-DD>/<slot>.json` | Raw note for each slot — see **Slot ids** below. |
 | `scripts/build_feed.py` | Rebuilds `latest.json` from `days/`. |
 | `.github/workflows/push.yml` | On every change to `latest.json`, POSTs it to `PULSE_ENDPOINT_URL` (repo secret), with `Authorization: Bearer PULSE_ENDPOINT_TOKEN` if set. |
 
@@ -16,7 +19,7 @@ Half-hourly Indian equity market notes for the Markets Now screen, written by sc
 {
   "schema": "dalal-pulse/v1",
   "generated_at": "2026-09-24T15:40:00+05:30",
-  "date": "2026-09-24", "slot": "1330", "slot_label": "13:30", "stage": "Mid-market mood",
+  "date": "2026-09-24", "slot": "1325", "slot_label": "13:25", "stage": "Mid-market mood",
   "asof": "2026-09-24T13:30:00+05:30",
   "nifty": { "value": 23200, "pct": -1.05, "chg": null, "approx": true },
   "mood": {
@@ -51,10 +54,10 @@ Half-hourly Indian equity market notes for the Markets Now screen, written by sc
                                      // see "Tags are an open set" below
       "impact": "neg",               // pos = tailwind, neg = headwind, watch
       "title": "…", "line": "…", "more": ["…"], "src": { "title": "…", "url": "…" },
-      "date": "2026-09-24", "slot": "1330", "when": "13:30",
+      "date": "2026-09-24", "slot": "1325", "when": "13:25",
       "is_new": true,                // first appeared in the latest note
       "updated": false,              // same story appeared in an earlier note too
-      "first_seen": { "date": "2026-09-24", "slot": "1330" }
+      "first_seen": { "date": "2026-09-24", "slot": "1325" }
     }
   ]
 }
@@ -62,24 +65,32 @@ Half-hourly Indian equity market notes for the Markets Now screen, written by sc
 
 Figures come from public news sources and can be approximate (`nifty.approx`). Use your own market feed for exact levels.
 
-### The Sunday outlook note
+### Slot ids
 
-`outlook` is a weekend slot, written on **Sunday evening** and filed under the Sunday's own
-date, looking ahead to the next trading session. It is the only note published outside
-market hours and the only one not produced by the two weekday routines — it has its own
-schedule and its own prompt in `scripts/outlook-prompt.md`.
+A slot id is the run's own clock time in IST as `HHMM` — `0700`, `0925`, `1625`, `2100` —
+plus one named slot, `outlook`, used by the Sunday 21:00 run. Ids sort chronologically on
+the minute they stand for, so the latest note of a day is simply the one with the largest id.
 
-Consumers need no special handling: it is an ordinary note. `slot_label` reads `Outlook`
-and `stage` reads `Weekend outlook` rather than `… mood`, which is the cue to present it as
-a look-ahead rather than a live reading.
+Two legacy ids appear on notes written before November 2026 and never again: `pre` (the
+08:31 pre-open note) and `post` (the 16:01 close note). They sort at 08:31 and 16:01
+respectively. **Do not switch exhaustively on slot ids** — treat an unrecognised one as an
+ordinary note and render `slot_label`.
 
-Two differences worth knowing:
+### Notes written while nothing is trading
 
-- **`nifty` carries the last close**, not a prediction — there is no live level on a Sunday.
-- **`movers` is deliberately absent.** It describes what is moving right now, and nothing
-  is. `leaders` and `laggards` are still present as forward-looking lines, so a consumer
-  that makes them tappable should fall back to plain text here, exactly as it does on any
-  other note without `movers`.
+NSE trades 09:15–15:30 IST, so the `0700`, `0845`, `1800` and `2100` weekday notes and all
+eight weekend notes are written while the market is shut. They are ordinary notes and need
+no special handling, but three things differ:
+
+- **`stage` is the cue.** It reads `Pre-market mood`, `Evening wrap` or `Weekend outlook`
+  rather than `… mood`, which is how a consumer knows to present a look-ahead rather than a
+  live reading. Weekend notes always read `Weekend outlook`, whatever the hour.
+- **`nifty` carries a close**, not a live level — the previous session's close before the
+  open, today's close in the evening, Friday's close over the weekend. It is never a
+  prediction.
+- **`movers` is deliberately absent**, because nothing is moving. `leaders` and `laggards`
+  are still present as forward-looking lines, so a consumer that makes them tappable should
+  fall back to plain text here, exactly as on any other note without `movers`.
 
 ### Tags are an open set
 

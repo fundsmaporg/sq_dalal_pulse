@@ -1,15 +1,16 @@
 <!--
-Source of truth for the prompt used by the two scheduled "Dalal Pulse" routines.
+Source of truth for the prompt used by the four scheduled "Dalal Pulse" WEEKDAY tasks.
 
-The routines are bound to a persistent worker session, and a routine's prompt can only be
-changed from the conversation it fires into. So editing this file does NOT change what runs.
+The tasks are bound to a persistent worker session, and a task's prompt can only be changed
+from the conversation it fires into. So editing this file does NOT change what runs.
 To apply a change: open the worker session ("Dalal Pulse · feed worker (repo push)") and ask
-it to pull this repo and update both routines' prompts to the exact contents of this file.
+it to pull this repo and update all four weekday tasks' prompts to the exact contents of
+this file.
 
-Keep this file and the live routines in step — if they drift, this one is the intended text.
+Keep this file and the live tasks in step — if they drift, this one is the intended text.
 -->
 
-NEW SCHEDULED RUN — refresh "Dalal Pulse", the half-hourly Indian equity market note that powers the Markets Now screen of a broking app. Work fully unattended: never ask questions, never stop for confirmation.
+NEW SCHEDULED RUN — refresh "Dalal Pulse", the Indian equity market note that powers the Markets Now screen of a broking app. Work fully unattended: never ask questions, never stop for confirmation.
 
 Treat this as a fresh run. Do not carry over market figures, mood or insights from earlier runs in this conversation — every number must come from step 3's research or step 2's database read. Only the repo setup you confirmed earlier still holds.
 
@@ -17,8 +18,16 @@ ARTIFACT: https://claude.ai/artifact/THXPnLu5tkTTPTM9yYzGpH
 Its page reads a shared database. Load the database tool first: ToolSearch "select:ArtifactData". Do NOT republish the page.
 
 1) WORK OUT THE SLOT
-Get the current time in IST (Asia/Kolkata). Slot ids: "pre" (before 09:15), then "0930","1000",…,"1530" (every 30 min; pick the latest slot whose time has passed), and "post" (16:00 or later). Date = today in IST, format YYYY-MM-DD.
-If today is an NSE trading holiday or weekend: only on the "pre" run, write one note with mood label "Market closed" and insights about what matters for the next session; on all other runs, exit without writing.
+Get the current time in IST (Asia/Kolkata). Date = today in IST, format YYYY-MM-DD.
+The weekday slots are a FIXED list. Pick the one whose time is CLOSEST to the time now:
+
+  0700  0845  0925  0955  1025  1055  1125  1155  1225  1255
+  1325  1355  1425  1455  1525  1555  1625  1800  2100
+
+Use the slot id exactly as written above. Do NOT invent a slot id from the clock: if the
+scheduler fires a few minutes late and it is 09:28, the slot is still "0925", not "0928".
+If two slots are equally close, take the earlier one.
+If today is an NSE trading holiday: only on the "0845" run, write one note with mood label "Market closed" and insights about what matters for the next session; on all other runs, exit without writing. (Saturdays and Sundays are covered by a separate weekend task — if this one somehow fires on a weekend, exit without writing.)
 
 2) READ CONTEXT (for continuity and de-duplication)
 - ArtifactData list collection "days/<date>/notes" (today's notes so far).
@@ -26,10 +35,15 @@ If today is an NSE trading holiday or weekend: only on the "pre" run, write one 
 Use these to (a) keep the mood narrative continuous, (b) reuse the SAME insight "key" whenever a story is the same story as an earlier insight (e.g. "irdai-caps", "nse-listing", "crude", "fii-flows", "us-yields"), and (c) avoid repeating stale items.
 
 3) RESEARCH (WebSearch/WebFetch; aim for 6–10 searches; figures must be dated today)
-Pre-open: Gift Nifty, overnight US/Asia, crude, rupee, previous-day FII/DII, stocks in news, IPO listings/events.
-Market hours: current Nifty/Sensex level and move, breadth (midcap/smallcap), sector leaders/laggards, what is driving the move, stock-specific news (orders, deals, upgrades/downgrades, block deals, regulatory actions, results) with % moves.
-For the leaders and for the laggards, also pin down the 2–4 names on EACH side that matter most, and for each one its move today plus the one specific reason it is where it is. These feed the tappable breakdown in step 4 — a name you cannot explain is not worth listing.
-Post-close: closing figures, sector wrap, FII/DII provisional data if out, what matters for tomorrow.
+What to cover depends on which slot you are writing. NSE trades 09:15–15:30 IST.
+
+- 0700 (nothing is trading in India; the previous session is history): how Wall Street closed overnight, Asia's early trade, crude, the rupee, US yields, and any overnight policy or geopolitical news. This is the first read of the day for someone waking up.
+- 0845 (pre-open): GIFT Nifty, the overnight global wrap, crude, rupee, the previous day's FII/DII figures, stocks in the news, IPO listings and events today.
+- 0925 through 1555 (live session): current Nifty/Sensex level and move, breadth (midcap/smallcap), sector leaders and laggards, what is driving the move, and stock-specific news (orders, deals, upgrades/downgrades, block deals, regulatory actions, results) with % moves.
+  For the leaders and for the laggards, also pin down the 2–4 names on EACH side that matter most, and for each one its move today plus the one specific reason it is where it is. These feed the tappable breakdown in step 4 — a name you cannot explain is not worth listing.
+- 1625 (the close): closing figures, the sector wrap, FII/DII provisional data if out, and what matters for tomorrow.
+- 1800 and 2100 (evening): what has developed SINCE the close — results announced after the bell, board decisions, regulatory orders, block deals reported late, management commentary — plus how the US market is trading and anything overnight that sets up tomorrow. By 2100 the US session is underway, so quote it as live, not as a close.
+
 Never invent numbers. If a figure is only approximate (e.g. from a headline), say so and set "approx": true on nifty.
 
 4) WRITE THE NOTE — JSON with EXACTLY this shape:
@@ -75,10 +89,19 @@ Never invent numbers. If a figure is only approximate (e.g. from a headline), sa
  "sources": [{"title": "...", "url": "..."}]
 }
 Rules: the mood/summary describes HOW the market is trading; "top" covers WHY (the news). Do not put index-level moves in "top". Only include an insight again (same key) if there is genuinely new information; otherwise leave it out — older notes still show it.
+
+WHAT "nifty" CARRIES, BY SLOT. Never present a stale level as a live one.
+- 0700 and 0845: the PREVIOUS session's close.
+- 0925 through 1555: the live level and the move so far today.
+- 1625, 1800, 2100: TODAY's close and today's move.
+
+WHAT "mood" MEANS, BY SLOT. On 0700, 0845, 1800 and 2100 nothing is trading, so the mood is forward-looking: the risk appetite you expect into the next session, and a label to match ("Soft start likely", "Steady into tomorrow"). From 0925 to 1625 it is a reading of a live market. Say which one you mean in "tone" rather than leaving the reader to guess.
+
 Rules for "movers": the app shows "leaders" and "laggards" collapsed and opens "movers" when the user taps them, so the two MUST agree — every name in the collapsed string should appear on the matching side, and vice versa. 2–4 names per side.
-Do BOTH sides, on every note. "movers.down" is not optional garnish, and a note that fills in "up" while leaving "down" empty is incomplete.
+ONLY the live-session and close slots (0925 through 1625) carry "movers". On 0700, 0845, 1800 and 2100 nothing is moving, so OMIT "movers" entirely — "leaders" and "laggards" stay as plain forward-looking lines and the screen falls back to them.
+On the slots that do carry it, do BOTH sides, on every note. "movers.down" is not optional garnish, and a note that fills in "up" while leaving "down" empty is incomplete.
 A SECTOR IS A PERFECTLY GOOD ENTRY — this is the case that matters most, because the laggards line is sectoral more often than not. If it reads "metals and pharma", then "movers.down" carries "Nifty Metal" and "Nifty Pharma" as names, each with its index move and why it is lagging, exactly as you would for a stock. "Smallcaps trail midcaps" means an entry for "Nifty Smallcap 100" with its move. Use individual stocks when the line names them, sector indices when it names sectors, and both when it names both.
-Omit a side ONLY when you genuinely could not source what its constituents are doing — never merely because the line is sectoral rather than stock-level. Never invent a move or a reason: omit "move" when no figure is sourced, and drop a name entirely when you cannot say why it is moving. A name may sit in "movers.up" while still down on the day if it is simply falling less than the market — set "dir" to what the name actually did. If you genuinely cannot source per-name detail this slot, omit "movers" altogether and the screen falls back to the plain lines. Do not recycle the "top" insights here: "movers" is about index constituents moving, "top" is about news.
+Omit a side ONLY when you genuinely could not source what its constituents are doing — never merely because the line is sectoral rather than stock-level. Never invent a move or a reason: omit "move" when no figure is sourced, and drop a name entirely when you cannot say why it is moving. A name may sit in "movers.up" while still down on the day if it is simply falling less than the market — set "dir" to what the name actually did. Do not recycle the "top" insights here: "movers" is about index constituents moving, "top" is about news.
 
 5) SAVE
 Save the JSON to a local file and write with ArtifactData:
@@ -91,6 +114,7 @@ The repository fundsmaporg/sq_dalal_pulse is checked out in this session at /hom
 a) cd /home/user/sq_dalal_pulse, then: git checkout main && git pull origin main
 b) Write the SAME JSON you saved in step 5 to days/<date>/<slot>.json, creating the day folder if needed.
 c) Run: python3 scripts/build_feed.py   (it rebuilds latest.json from days/)
+   Check its output names the date and slot you just wrote. If it does not, the note did not land — say so in your final message rather than pushing silently.
 d) Run git add -A, commit with the message "Pulse <date> <slot>", then git push origin main. If the push is rejected because main moved, run git pull --rebase origin main and push again. Never open a pull request.
 The GitHub Action then forwards latest.json to the app endpoint.
 If any command here fails, quote the exact command and its exact error in your final message, and still do step 7.
