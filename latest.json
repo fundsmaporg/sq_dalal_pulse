@@ -1,94 +1,197 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-02T13:37:33+05:30",
+ "generated_at": "2026-11-02T14:03:58+05:30",
  "date": "2026-11-02",
- "slot": "1330",
- "slot_label": "13:30",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Mid-market mood",
- "asof": "2026-11-02T13:30:00+05:30",
+ "asof": "2026-11-02T14:00:00+05:30",
  "nifty": {
-  "value": 23284.5,
-  "pct": 1.0,
-  "chg": 231.4,
+  "value": 23200,
+  "pct": 0.64,
+  "chg": 146.9,
   "approx": true
  },
  "mood": {
-  "label": "Gains trimmed",
-  "score": 0.35,
-  "summary": "Gains are being trimmed in the afternoon: the Sensex has come off about 400 points from its high, and IT is now dragging, though the market is still up about 1%.",
+  "label": "Profit-taking sets in",
+  "score": 0.25,
+  "summary": "Profit-taking is chipping away at the morning surge: the Sensex is about 500 points off its high and Nifty is near 23,200, still up roughly 0.6%, as IT selling picks up.",
   "detail": {
-   "leaders": "Reliance, SBI, Bank of Baroda",
-   "laggards": "Nifty IT, ITC, Sun Pharma",
-   "tone": "Softer than the late-morning reads in the last note: at 1 PM the Sensex was up 766 points at 75,225.60, about 400 points below its high, as IT turned lower.",
+   "leaders": "Reliance, Motherson Sumi Wiring, Vedanta Power",
+   "laggards": "Nifty IT, Infosys, ITC, PC Jeweller",
+   "tone": "Weaker than at 13:30: the Sensex has slipped from about 400 to about 500 points below its 75,489.70 high, and Nifty has eased from 23,284 to near 23,200.",
    "watch": [
-    "Whether the Nifty holds 23,250 into the close",
-    "ITC, NALCO and Petronet results after hours",
-    "Brent near $110 as Hormuz talks continue"
+    "Whether Nifty holds 23,200 into the close",
+    "Further IT selling",
+    "ITC, NALCO and Petronet results after hours"
    ],
    "src": {
-    "title": "Business Standard: Sensex off 400 pts from day's high; Nifty IT down nearly 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
+    "title": "Business Standard: Sensex off 500 pts from day's high, Nifty near 23,200; Nifty IT down nearly 1%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Reliance, SBI and Bank of Baroda keep the index well in the green",
-     "why": "Reliance's record quarter is still the main support, with PSU banks adding to it on results and pre-results buying.",
+     "summary": "Reliance still leads Nifty gainers; result-driven names like Motherson Wiring jump",
+     "why": "Strong quarterly numbers are still supporting individual stocks even as the broader index cools.",
      "names": [
       {
        "name": "Reliance Industries",
        "dir": "up",
-       "move": "~+7%",
-       "line": "Record Q2 profit; the biggest single contributor to the Sensex rise"
+       "move": "+7.7% to +7.8%",
+       "line": "Top Nifty gainer at midday on its record Q2 profit"
       },
       {
-       "name": "SBI",
+       "name": "Motherson Sumi Wiring",
        "dir": "up",
-       "move": "+2%",
-       "line": "Gaining ahead of its Q2 results due Nov 5"
+       "move": "+11.75%",
+       "line": "Surges on strong Q2 earnings"
       },
       {
-       "name": "Bank of Baroda",
+       "name": "Vedanta Power",
        "dir": "up",
-       "move": "+2.8%",
-       "line": "Post-Q2; Axis Securities starts at Buy, ₹290 target"
+       "move": "+6.88%",
+       "line": "Rallies after returning to profit"
       }
      ],
      "src": {
-      "title": "Business Standard: Sensex off 400 pts from day's high; Nifty IT down nearly 1%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
+      "title": "HDFC Sky: Top gainers & losers, 2 Nov 2026, 12:00 PM",
+      "url": "https://hdfcsky.com/news/top-gainers-losers-today-2-november-2026-at-12-pm"
      }
     },
     "down": {
-     "summary": "IT slips nearly 1%, and ITC and Sun Pharma lag ahead of or after results",
-     "why": "IT is weighed down by AI-related worries after last week's US tech selling, while ITC lags before results expected to show a profit fall.",
+     "summary": "IT drags as Infosys falls 2.6%; ITC slips before results; PC Jeweller hit",
+     "why": "IT is leading the afternoon selling as Infosys's guidance cut weighs, while stock-specific news hits ITC and PC Jeweller.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
        "move": "~−1%",
-       "line": "Down nearly 1%; sector has struggled on AI fears and is down ~29% in 2026"
+       "line": "Down nearly 1%, leading the afternoon pullback"
+      },
+      {
+       "name": "Infosys",
+       "dir": "down",
+       "move": "−2.6%",
+       "line": "FY revenue growth guidance cut to 1–2% in constant currency"
       },
       {
        "name": "ITC",
        "dir": "down",
        "move": "−0.4%",
-       "line": "At ₹264.55 before Q2; Bloomberg consensus sees adj. profit down ~20%"
+       "line": "Slips before Q2; consensus sees adjusted profit down ~20%"
       },
       {
-       "name": "Sun Pharma",
+       "name": "PC Jeweller",
        "dir": "down",
-       "line": "Among Sensex losers; Q2 profit fell 36% on a ₹1,269 cr one-off"
+       "move": "−2.65%",
+       "line": "Falls after SEBI warning letters"
       }
      ],
      "src": {
-      "title": "Business Standard: Sensex off 400 pts from day's high; Nifty IT down nearly 1%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
+      "title": "NewsBytes: Sensex falls 500 points from high, Nifty slips below 23,250",
+      "url": "https://www.newsbytesapp.com/news/business/on-monday-sensex-falls-500-points-nifty-slips-below-23250/tldr"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "infosys-guidance",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Infosys falls 2.6% on lowered guidance",
+   "line": "FY revenue growth guidance now 1–2% in constant currency, weighing on IT",
+   "more": [
+    "Comes despite a new 1.1 mn sq ft Hyderabad campus",
+    "Nifty IT down nearly 1% in afternoon trade"
+   ],
+   "src": {
+    "title": "Whalesbook: Infosys dips 2.6% as market focuses on guidance cut",
+    "url": "https://whalesbook.com/news/English/technology/Infosys-Shares-Dip-26percent-as-Market-Focuses-on-Guidance-Cut/6ae8475e4fc30694db5750a3"
+   },
+   "date": "2026-11-02",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "vi-cci",
+   "tag": "Regulation",
+   "impact": "pos",
+   "title": "Vodafone Idea gains on CCI approval",
+   "line": "Vi among the day's volume movers after the competition regulator's nod",
+   "more": [
+    "Listed among trending stocks in HDFC Sky's midday report",
+    "No percentage move given in the report"
+   ],
+   "src": {
+    "title": "HDFC Sky: Motherson Sumi up 12%, Vedanta Power 7%, Vi gains; PCJ slips",
+    "url": "https://hdfcsky.com/news/trending-stocks-today-november-2-2026-motherson-sumi-wiring-vedanta-power-vodafone-idea-gain-pc-jeweller-falls"
+   },
+   "date": "2026-11-02",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "pcj-sebi",
+   "tag": "Regulation",
+   "impact": "neg",
+   "title": "PC Jeweller slips on SEBI warning letters",
+   "line": "Stock down 2.65% after receiving warning letters from SEBI",
+   "more": [
+    "Among the day's most-traded stocks",
+    "Reported in HDFC Sky's trending-stocks round-up"
+   ],
+   "src": {
+    "title": "HDFC Sky: Motherson Sumi up 12%, Vedanta Power 7%, Vi gains; PCJ slips",
+    "url": "https://hdfcsky.com/news/trending-stocks-today-november-2-2026-motherson-sumi-wiring-vedanta-power-vodafone-idea-gain-pc-jeweller-falls"
+   },
+   "date": "2026-11-02",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "motherson-wiring-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Motherson Sumi Wiring jumps ~12% on Q2",
+   "line": "Shares up 11.75% after strong September-quarter earnings",
+   "more": [
+    "Among the day's top volume movers",
+    "Vedanta Power +6.88% after returning to profit"
+   ],
+   "src": {
+    "title": "HDFC Sky: Motherson Sumi up 12%, Vedanta Power 7%, Vi gains; PCJ slips",
+    "url": "https://hdfcsky.com/news/trending-stocks-today-november-2-2026-motherson-sumi-wiring-vedanta-power-vodafone-idea-gain-pc-jeweller-falls"
+   },
+   "date": "2026-11-02",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1400"
+   }
+  },
   {
    "key": "itc-q2",
    "tag": "Results",
@@ -108,7 +211,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1000"
@@ -132,7 +235,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1330"
@@ -156,7 +259,7 @@
    "slot": "1330",
    "when": "13:30",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-23",
     "slot": "0930"
