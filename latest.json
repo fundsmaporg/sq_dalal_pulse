@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-03T02:40:47+05:30",
- "date": "2026-11-02",
- "slot": "post",
- "slot_label": "Close",
- "stage": "Post-market mood",
- "asof": "2026-11-02T16:00:00+05:30",
+ "generated_at": "2026-11-03T07:00:32+05:30",
+ "date": "2026-11-03",
+ "slot": "0700",
+ "slot_label": "7:00",
+ "stage": "Pre-market mood",
+ "asof": "2026-11-03T07:00:00+05:30",
  "nifty": {
   "value": 23440.8,
   "pct": 1.68,
@@ -13,83 +13,21 @@
   "approx": false
  },
  "mood": {
-  "label": "Rally extends",
-  "score": 0.6,
-  "summary": "Indian stocks closed at the day's best levels for a third straight gain, led by energy heavyweights, with midcaps outperforming while IT and pharma trailed.",
+  "label": "Steady start likely",
+  "score": 0.3,
+  "summary": "Into Tuesday, a sharp overnight drop in oil and steady foreign buying favour Indian stocks, while weak US tech and US midterm-election uncertainty argue for a measured start.",
   "detail": {
-   "leaders": "Reliance, Nifty Oil & Gas, Dixon Technologies, Nifty Midcap 100",
-   "laggards": "Infosys, Sun Pharma, Nifty IT",
-   "tone": "Confirmed close: Sensex 75,692.78 (+1,233.25, +1.66%) and Nifty 23,440.80 (+387.70), a third straight gain after a late push in Reliance.",
+   "leaders": "Oil-sensitive stocks on cheaper crude; Petronet LNG after its Q2",
+   "laggards": "IT on Nasdaq's fall; ITC after an 18–20% profit drop",
+   "tone": "Forward-looking read before the open. Monday's 1.7% rally sets a high bar, but crude's slide to about $105 and Monday's FII buying support the open.",
    "watch": [
-    "ITC, NALCO and Petronet results after hours",
-    "US midterms on Tuesday",
-    "Whether Brent stays near $108 if Hormuz talks stall"
+    "Brent near $105 if US–Iran diplomacy falters",
+    "US midterm results through the day",
+    "IT reaction to Nasdaq's 1.1% drop"
    ],
    "src": {
-    "title": "ChiniMandi: Sensex jumps 1,230 points, Nifty above 23,400",
-    "url": "https://www.chinimandi.com/sensex-jumps-1230-points-nifty-above-23400/"
-   },
-   "movers": {
-    "up": {
-     "summary": "Reliance and Oil & Gas led; Dixon rallied on results; midcaps beat the Nifty",
-     "why": "A Reliance earnings beat and a 4% drop in Brent drove energy stocks, while results-led buying lifted midcaps.",
-     "names": [
-      {
-       "name": "Reliance Industries",
-       "dir": "up",
-       "move": "~+12%",
-       "line": "Record Q2; O2C EBITDA up 67.9%; Goldman, Nomura keep Buy"
-      },
-      {
-       "name": "Nifty Oil & Gas",
-       "dir": "up",
-       "line": "Top sectoral gainer as Brent fell more than 4% to $108.30"
-      },
-      {
-       "name": "Dixon Technologies",
-       "dir": "up",
-       "move": "+11.26%",
-       "line": "Q2 beat MOFSL estimates; JPMorgan Buy with ₹16,800 target"
-      },
-      {
-       "name": "Nifty Midcap 100",
-       "dir": "up",
-       "move": "+1.19%",
-       "line": "Outpaced the Nifty; smallcaps up 0.71%"
-      }
-     ],
-     "src": {
-      "title": "Business Standard: Stock Market Close — Sensex rises 1,233 pts, Nifty at 23,441; RIL jumps 12%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
-     }
-    },
-    "down": {
-     "summary": "Infosys and Sun Pharma were the main large-cap drags; IT lagged all session",
-     "why": "IT stayed under pressure on Infosys's guidance cut, and pharma missed the rally.",
-     "names": [
-      {
-       "name": "Infosys",
-       "dir": "down",
-       "move": "−2.64%",
-       "line": "FY revenue growth guidance cut to 1–2% in constant currency"
-      },
-      {
-       "name": "Sun Pharma",
-       "dir": "down",
-       "move": "−1.53%",
-       "line": "Lagged after Q2 profit fell 36% on a ₹1,269 cr one-off"
-      },
-      {
-       "name": "Nifty IT",
-       "dir": "down",
-       "line": "Main sector drag through the afternoon"
-      }
-     ],
-     "src": {
-      "title": "Angel One: Nifty 50 climbs above 23,200 in intraday trade",
-      "url": "https://www.angelone.in/news/market-updates/nifty-50-index-climbs-above-23-200-mark-in-intraday-trade-on-november-2-2026"
-     }
-    }
+    "title": "CNBC: Crude sells off more than 7% on Iran peace talk hopes",
+    "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
    }
   }
  },
@@ -98,24 +36,170 @@
    "key": "crude",
    "tag": "Global",
    "impact": "pos",
-   "title": "Brent ends day down over 4% near $108",
-   "line": "Oil fell more than 4% to $108.30 as Hormuz talks progressed, helping energy stocks",
+   "title": "Brent settles 7.6% lower at $104.77",
+   "line": "Oil sold off as US and Iranian presidents signalled openness to a diplomatic solution",
    "more": [
-    "Rupee closed little changed at 94.90/$ vs 94.95",
-    "Traders cautious ahead of the US midterms"
+    "WTI near $96.30, down ~7.5% (Trading Economics)",
+    "Analysts said much of the recent gain was risk premium"
    ],
    "src": {
-    "title": "INDA News: Rupee ends little changed despite oil, dollar drop",
-    "url": "https://rallies.ai/news/rupee-ends-little-changed-as-traders-stay-cautious-despite-oil-dollar-drop-328cbf9fdd15596a"
+    "title": "CNBC: Crude sells off more than 7% on Iran peace talk hopes",
+    "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
    },
-   "date": "2026-11-02",
-   "slot": "post",
-   "when": "Close",
+   "date": "2026-11-03",
+   "slot": "0700",
+   "when": "7:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
-    "date": "2026-10-23",
-    "slot": "0930"
+    "date": "2026-10-26",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Wall St mixed; Nasdaq falls 1.1%",
+   "line": "Dow +0.41% to 51,983.98; S&P 500 −0.51% to 7,541.40; Nasdaq −1.07% to 25,164.36",
+   "more": [
+    "Third straight loss for the S&P 500 as AI stocks slid",
+    "US 10-year yield eased to 4.92%",
+    "Americans vote in the midterms today"
+   ],
+   "src": {
+    "title": "Yahoo Finance: How major US stock indexes fared Monday 11/2/2026",
+    "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-212103580.html"
+   },
+   "date": "2026-11-03",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs buy ₹3,115 cr; second straight day",
+   "line": "Provisional data: FIIs net bought ₹3,115 cr on Monday; DIIs sold ₹392 cr",
+   "more": [
+    "Follows ₹3,598.54 cr FII buying on Oct 30",
+    "Figures are provisional"
+   ],
+   "src": {
+    "title": "Tapetide: FII DII data today",
+    "url": "https://tapetide.com/fii-dii-data"
+   },
+   "date": "2026-11-03",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-26",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "itc-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "ITC Q2 profit falls ~19% on cigarette tax",
+   "line": "Consolidated profit ₹4,168 cr, down 18.7% YoY; reports differ on the revenue figure",
+   "more": [
+    "Standalone profit ~₹4,137 cr, down ~20%",
+    "Paperboards segment PBIT up 48%",
+    "Figures vary across reports; check the filing"
+   ],
+   "src": {
+    "title": "Business Standard: ITC Q2 net profit declines 18.7% as cigarette taxes bite",
+    "url": "https://www.business-standard.com/companies/quarterly-results/itc-q2-results-net-profit-declines-18-45-to-4-229-crore-revenue-up-44-126110201234_1.html"
+   },
+   "date": "2026-11-03",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "petronet-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Petronet LNG profit up ~53%; ₹7 dividend",
+   "line": "Standalone PAT ₹1,235 cr vs ₹806 cr; LNG throughput 231 TBTU",
+   "more": [
+    "Dahej utilisation 73% vs 92% a year ago",
+    "Stock closed ₹300.95 (+3.96%) before results"
+   ],
+   "src": {
+    "title": "BW Businessworld: Petronet LNG Q2 profit soars 51% amid Hormuz crisis",
+    "url": "https://www.businessworld.in/article/petronet-lng-q2-net-profit-soars-51-to-rs-1-256-cr-amid-hormuz-crisis-631734"
+   },
+   "date": "2026-11-03",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "nalco-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "NALCO profit dips 8% QoQ; margin narrows",
+   "line": "Consolidated profit ₹1,835 cr vs ₹2,003 cr in Q1; EBITDA margin down ~660 bps",
+   "more": [
+    "Interim dividend ₹4.50; record date Nov 6",
+    "Single-source figures; check the filing"
+   ],
+   "src": {
+    "title": "10bmnews: NALCO Q2 — ₹4.5 dividend, profit slips, margin shrinks",
+    "url": "https://10bmnews.com/nalco-q2-results-rs-4-5-dividend-declared-but-profit-slip-660-bps-margin-shrink-may-alarm-investors/"
+   },
+   "date": "2026-11-03",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "ipo-listings",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "BLS Polymers lists today",
+   "line": "Issue was subscribed 241 times; shares debut on NSE and BSE at 10 am",
+   "more": [
+    "Subscribed 241.22 times by the Oct 29 close",
+    "Listing date Nov 3"
+   ],
+   "src": {
+    "title": "Upstox: BLS Polymers IPO listing date",
+    "url": "https://upstox.com/news/market-news/ipo/bls-polymers-ipo-allotment-how-to-check-status-online-on-nse-bse-k-fin-technologies-listing-date-time-revealed/article-202679/"
+   },
+   "date": "2026-11-03",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "pre"
    }
   },
   {
@@ -135,9 +219,9 @@
    },
    "date": "2026-11-02",
    "slot": "post",
-   "when": "Close",
+   "when": "Mon · Close",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1100"
@@ -159,60 +243,12 @@
    },
    "date": "2026-11-02",
    "slot": "post",
-   "when": "Close",
+   "when": "Mon · Close",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "post"
-   }
-  },
-  {
-   "key": "itc-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "ITC numbers due after the close",
-   "line": "Previews see profit down 15–28% as higher cigarette taxes hit volumes",
-   "more": [
-    "Zee Business estimates PAT down 22.7% to ~₹4,005 cr",
-    "NALCO and Petronet LNG also report post-market"
-   ],
-   "src": {
-    "title": "Business Standard: ITC Q2 preview",
-    "url": "https://www.business-standard.com/markets/news/itc-q2-results-expectation-preview-pat-revenue-editda-margins-cigarette-business-volume-fmcg-agri-126110200072_1.html"
-   },
-   "date": "2026-11-02",
-   "slot": "post",
-   "when": "Close",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "FII data for today due after 5:30 pm",
-   "line": "Last print (Oct 30): FIIs bought ₹3,598.54 cr; DIIs sold ₹817.51 cr",
-   "more": [
-    "Oct 29: FIIs sold ~₹944 cr, DIIs bought ~₹1,924 cr",
-    "BLS Polymers lists Tuesday"
-   ],
-   "src": {
-    "title": "Quantsapp: FII DII data (Oct 30)",
-    "url": "https://www.quantsapp.com/fii-dii"
-   },
-   "date": "2026-11-02",
-   "slot": "post",
-   "when": "Close",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "pre"
    }
   },
   {
@@ -232,7 +268,7 @@
    },
    "date": "2026-11-02",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Mon · 15:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -256,7 +292,7 @@
    },
    "date": "2026-11-02",
    "slot": "1530",
-   "when": "15:30",
+   "when": "Mon · 15:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -280,7 +316,7 @@
    },
    "date": "2026-11-02",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Mon · 15:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -304,7 +340,7 @@
    },
    "date": "2026-11-02",
    "slot": "1500",
-   "when": "15:00",
+   "when": "Mon · 15:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -328,7 +364,7 @@
    },
    "date": "2026-11-02",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Mon · 14:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -352,7 +388,7 @@
    },
    "date": "2026-11-02",
    "slot": "1430",
-   "when": "14:30",
+   "when": "Mon · 14:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -376,7 +412,7 @@
    },
    "date": "2026-11-02",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Mon · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -400,7 +436,7 @@
    },
    "date": "2026-11-02",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Mon · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -424,7 +460,7 @@
    },
    "date": "2026-11-02",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Mon · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -448,7 +484,7 @@
    },
    "date": "2026-11-02",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Mon · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -472,7 +508,7 @@
    },
    "date": "2026-11-02",
    "slot": "1330",
-   "when": "13:30",
+   "when": "Mon · 13:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -497,7 +533,7 @@
    },
    "date": "2026-11-02",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Mon · 13:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -521,7 +557,7 @@
    },
    "date": "2026-11-02",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Mon · 13:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -545,7 +581,7 @@
    },
    "date": "2026-11-02",
    "slot": "1300",
-   "when": "13:00",
+   "when": "Mon · 13:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -570,7 +606,7 @@
    },
    "date": "2026-11-02",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Mon · 12:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -594,7 +630,7 @@
    },
    "date": "2026-11-02",
    "slot": "1230",
-   "when": "12:30",
+   "when": "Mon · 12:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -618,7 +654,7 @@
    },
    "date": "2026-11-02",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Mon · 12:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -642,7 +678,7 @@
    },
    "date": "2026-11-02",
    "slot": "1200",
-   "when": "12:00",
+   "when": "Mon · 12:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -667,7 +703,7 @@
    },
    "date": "2026-11-02",
    "slot": "1130",
-   "when": "11:30",
+   "when": "Mon · 11:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -691,7 +727,7 @@
    },
    "date": "2026-11-02",
    "slot": "1030",
-   "when": "10:30",
+   "when": "Mon · 10:30",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -715,36 +751,11 @@
    },
    "date": "2026-11-02",
    "slot": "1030",
-   "when": "10:30",
+   "when": "Mon · 10:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-23",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "ipo-listings",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "EAAA India Alternatives lists flat",
-   "line": "Debuted at ₹1,675.50 on NSE, 0.63% above the ₹1,665 issue price",
-   "more": [
-    "BSE listing at ₹1,673 (+0.48%)",
-    "IPO subscribed 5.25 times",
-    "Debut well below grey-market hopes"
-   ],
-   "src": {
-    "title": "Upstox: EAAA India Alternatives lists at 0.6% premium",
-    "url": "https://upstox.com/news/market-news/ipo/eaaa-india-alternatives-shares-list-at-0-6-premium-on-nse-here-s-how-much-investors-made-per-lot/article-202788/"
-   },
-   "date": "2026-11-02",
-   "slot": "1000",
-   "when": "10:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
+    "date": "2026-10-26",
     "slot": "pre"
    }
   },
@@ -764,7 +775,7 @@
    },
    "date": "2026-11-02",
    "slot": "1000",
-   "when": "10:00",
+   "when": "Mon · 10:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -788,12 +799,12 @@
    },
    "date": "2026-11-02",
    "slot": "0930",
-   "when": "9:30",
+   "when": "Mon · 9:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1200"
+    "date": "2026-10-29",
+    "slot": "1100"
    }
   },
   {
@@ -813,7 +824,7 @@
    },
    "date": "2026-11-02",
    "slot": "0930",
-   "when": "9:30",
+   "when": "Mon · 9:30",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -839,36 +850,11 @@
    },
    "date": "2026-11-02",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Mon · Pre-open",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "US futures recover after tech rout",
-   "line": "Dow futures +156 pts, Nasdaq 100 futures +0.54% (7:45pm ET Sunday)",
-   "more": [
-    "S&P 500 futures +0.35%",
-    "Nasdaq logged worst month since March 2025 on AI capex worries",
-    "Midterms Tuesday, Apple results, October jobs data this week"
-   ],
-   "src": {
-    "title": "FX Leaders: Dow and Nasdaq futures open higher",
-    "url": "https://fxleaders.com/news/2026/11/01/dow-and-nasdaq-futures-open-higher-ahead-of-midterms-nfp-and-major-corporate-earnings"
-   },
-   "date": "2026-11-02",
-   "slot": "pre",
-   "when": "Pre-open",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
     "slot": "pre"
    }
   },
@@ -889,7 +875,7 @@
    },
    "date": "2026-11-02",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Mon · Pre-open",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -913,7 +899,7 @@
    },
    "date": "2026-11-02",
    "slot": "pre",
-   "when": "Pre-open",
+   "when": "Mon · Pre-open",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -1258,7 +1244,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "slot": "pre"
    }
   },
@@ -1404,8 +1390,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-23",
-    "slot": "pre"
+    "date": "2026-10-28",
+    "slot": "1200"
    }
   },
   {
@@ -1894,11 +1880,11 @@
    "date": "2026-10-28",
    "slot": "1130",
    "when": "Wed · 11:30",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1100"
+    "date": "2026-10-28",
+    "slot": "1130"
    }
   },
   {
@@ -1946,8 +1932,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1230"
+    "date": "2026-10-26",
+    "slot": "pre"
    }
   },
   {
@@ -1967,11 +1953,11 @@
    "date": "2026-10-26",
    "slot": "0930",
    "when": "Mon · 9:30",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1330"
+    "date": "2026-10-26",
+    "slot": "0930"
    }
   },
   {
@@ -1991,11 +1977,11 @@
    "date": "2026-10-26",
    "slot": "0930",
    "when": "Mon · 9:30",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1530"
+    "date": "2026-10-26",
+    "slot": "0930"
    }
   },
   {
@@ -2040,400 +2026,11 @@
    "date": "2026-10-26",
    "slot": "pre",
    "when": "Mon · Pre-open",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "coforge-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Coforge slips 2.6% ahead of Q2 results",
-   "line": "Mid-tier IT name trades lower into its print even as larger IT peers rally",
-   "more": [
-    "Last traded around ₹1,903, down 2.61%, per a results preview",
-    "Market cap about ₹84,310 cr"
-   ],
-   "src": {
-    "title": "Trade Brains: Infosys, Adani Power and 8 other stocks set to announce Q2 results today",
-    "url": "https://tradebrains.in/indian-markets/infosys-adani-power-and-8-other-stocks-set-to-announce-q2-results-today-12719157"
-   },
-   "date": "2026-10-23",
-   "slot": "1500",
-   "when": "Fri · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "adani-power-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Adani Power reports Q2 today",
-   "line": "Stock eases about 1.2% to ₹185 ahead of the numbers",
-   "more": [
-    "June-quarter net profit was ₹4,105.43 cr on ₹16,427 cr total income",
-    "Year-ago Q2 profit after tax was ₹2,906 cr"
-   ],
-   "src": {
-    "title": "Kotak Neo: Adani Power announces Q2 FY27 results on 23 October",
-    "url": "https://www.kotakneo.com/news/stocks/adani-power-share-price-in-focus-company-announces-q2-fy27-results-on-23-october/"
-   },
-   "date": "2026-10-23",
-   "slot": "1500",
-   "when": "Fri · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "newgen-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Newgen Software Q2 profit beats estimates",
-   "line": "Net profit of ₹86.9 cr tops the ₹75.6 cr consensus; stock recovers from its lows",
-   "more": [
-    "Profit up from ₹62.8 cr in Q1",
-    "EBITDA margin 25.8% vs 15.7% in the prior quarter",
-    "Earnings call scheduled for 4 pm IST"
-   ],
-   "src": {
-    "title": "Sahi: Newgen Software reports Q2 net profit of ₹86.9 cr vs ₹62.8 cr QoQ",
-    "url": "https://www.sahi.com/news/newgen-software-reports-q2-net-profit-of-86-9-crore-versus-62-8-crore-qoq"
-   },
-   "date": "2026-10-23",
-   "slot": "1430",
-   "when": "Fri · 14:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1430"
-   }
-  },
-  {
-   "key": "godrej-properties-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Godrej Properties falls 6% as Q2 profit sinks",
-   "line": "Profit dropped 62% to ₹154 cr; costs grew faster than a 161% revenue jump",
-   "more": [
-    "Stock fell as much as 6.2% to ₹1,468.40 intraday",
-    "Operating expenses up 90.4% to ₹2,477 cr; raw material costs up 32.3%",
-    "Management says demand in Mumbai, Pune, Bengaluru and NCR remains solid"
-   ],
-   "src": {
-    "title": "Whalesbook: Godrej Properties Q2 profit slumps 62% on high costs",
-    "url": "https://www.whalesbook.com/news/English/real-estate/Godrej-Properties-Q2-Profit-Slumps-62percent-on-High-Costs/6adb161479a16deaeafb57b1"
-   },
-   "date": "2026-10-23",
-   "slot": "1400",
-   "when": "Fri · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "bank-of-india-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Bank of India reports Q2 today",
-   "line": "State lender's results follow a strong Q1 with profit up 36%",
-   "more": [
-    "Q1 FY27 standalone profit was ₹3,068 cr, up 36.23% YoY",
-    "Year-ago Q2 profit was about ₹2,555 cr"
-   ],
-   "src": {
-    "title": "Angel One: Bank of India Q1 FY27 — net profit rises 36% to ₹3,068 cr",
-    "url": "https://www.angelone.in/news/stocks/bank-of-india-q1-fy27-results-net-profit-rises-36-percent-to-rs-3068-crore-asset-quality-improves"
-   },
-   "date": "2026-10-23",
-   "slot": "1400",
-   "when": "Fri · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "omc-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "OMCs seen swinging back to Q2 profit",
-   "line": "IOCL, BPCL, HPCL may post ₹14,470 cr combined after an ₹18,150 cr Q1 loss",
-   "more": [
-    "Petrol margin estimated at ~₹2.9/litre and diesel ~₹1.3/litre in Q2",
-    "Nuvama cut BPCL's FY27 EBITDA estimate by 23% as crude rises again",
-    "BPCL reports today; HPCL seen as more exposed to oil than BPCL"
-   ],
-   "src": {
-    "title": "PSU Connect: IOCL, BPCL, HPCL Q2 recovery — ₹14,470 cr combined profit likely",
-    "url": "https://www.psuconnect.in/market/iocl-bpcl-hpcl-q2-recovery-2026-14-470-cr-combined-profit-likely"
-   },
-   "date": "2026-10-23",
-   "slot": "1330",
-   "when": "Fri · 13:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1330"
-   }
-  },
-  {
-   "key": "torrent-pharma-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Torrent Pharma Q2 seen beating estimates",
-   "line": "Nomura expects a beat but stays Neutral; shares are down 8% in a month",
-   "more": [
-    "Revenue, operating profit and net profit seen ahead of consensus",
-    "Recent fall partly tied to valuation and drug price-control worries"
-   ],
-   "src": {
-    "title": "Whalesbook: Torrent Pharma Q2 seen beating estimates; Nomura keeps Neutral",
-    "url": "https://www.whalesbook.com/news/English/brokerage-reports/Torrent-Pharma-Q2-Earnings-Seen-Beating-Estimates-Nomura-Keeps-Neutral/6ad9d13b79a16deaeafa00a7"
-   },
-   "date": "2026-10-23",
-   "slot": "1330",
-   "when": "Fri · 13:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1330"
-   }
-  },
-  {
-   "key": "steel-strips-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Steel Strips Wheels jumps up to 15% on Q2",
-   "line": "Profit roughly triples and revenue rises 61%, lifting the stock to a 52-week high",
-   "more": [
-    "Standalone net profit ₹119 cr vs ₹39 cr a year ago",
-    "Revenue up 61% to ₹1,930 cr",
-    "Board approves ₹1,400 cr greenfield plant in Maharashtra; ₹1.50 interim dividend"
-   ],
-   "src": {
-    "title": "Upstox: Steel Strips Wheels shares hit 52-week high after Q2 profit surges 209%",
-    "url": "https://upstox.com/news/market-news/stocks/steel-strips-wheels-shares-surge-most-in-over-a-month-hit-52-week-high-after-profit-surges-209-in-q2/article-202293/"
-   },
-   "date": "2026-10-23",
-   "slot": "1300",
-   "when": "Fri · 13:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "psu-bank-stakes",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Govt plans to cut stake in four PSU banks",
-   "line": "Holdings would be cut to 75%, signalling share sales in four state-run lenders",
-   "more": [
-    "Plan reported to bring government stake down to 75%",
-    "Reported alongside tighter liquidity: banking surplus shrank to ₹542 cr"
-   ],
-   "src": {
-    "title": "EquityBrew: India's October crude basket avg surges to $120; govt plans PSU bank stake cuts",
-    "url": "https://equitybrew.substack.com/p/banking-liquidity-surplus-shrinks"
-   },
-   "date": "2026-10-23",
-   "slot": "1300",
-   "when": "Fri · 13:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "adani-energy-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Adani Energy Q2 profit up 148% on tax gain",
-   "line": "Headline profit beat estimates, but a ₹1,274 cr tax write-back did most of the work",
-   "more": [
-    "Net profit about ₹1,323 cr vs ₹534 cr a year ago",
-    "Revenue rose about 53%, while margins contracted",
-    "Stock closed down 2.2% at ₹1,295 on Oct 22"
-   ],
-   "src": {
-    "title": "BusinessToday: Adani Energy shares fall despite 148% surge in Q2 net profit",
-    "url": "https://www.businesstoday.in/markets/stocks/story/adani-energy-shares-fall-despite-148-surge-in-q2-net-profit-heres-why-563082-2026-10-22"
-   },
-   "date": "2026-10-23",
-   "slot": "1130",
-   "when": "Fri · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "nuvoco-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Nuvoco Vistas Q2 profit jumps 78%",
-   "line": "Cement maker's earnings rise sharply on double-digit revenue growth",
-   "more": [
-    "Consolidated profit up 77.84% to ₹64.79 cr",
-    "Revenue up 13.52% to ₹2,789.97 cr"
-   ],
-   "src": {
-    "title": "HDFC Sky: Stocks to watch Oct 23 — Swiggy, Adani Energy, Reliance, HPCL, Nuvoco",
-    "url": "https://hdfcsky.com/news/stocks-to-watch-today-friday-october-23-2026-swiggy-adani-energy-solutions-reliance-industries-hpcl-nuvoco-vistas"
-   },
-   "date": "2026-10-23",
-   "slot": "1130",
-   "when": "Fri · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "swiggy-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Swiggy near a 52-week low around ₹190",
-   "line": "Intraday drop reached as much as 15% as the Q2 Instamart loss weighed",
-   "more": [
-    "NSE price near ₹191 at last check, down about 9.7%",
-    "Q2 consolidated net loss ₹922 cr; Instamart loss ₹895 cr"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market Crash LIVE — Sensex off 900 pts from day's high; India VIX jumps 7%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
-   },
-   "date": "2026-10-23",
-   "slot": "1100",
-   "when": "Fri · 11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "saudi-attacks",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Saudi attacks prompt US embassy drawdown",
-   "line": "Attacks in Saudi Arabia raise the risk to Gulf oil supply and shipping",
-   "more": [
-    "US officials ordered a partial evacuation of embassy staff",
-    "Gulf and Strait of Hormuz shipping threats have risen through October"
-   ],
-   "src": {
-    "title": "Whalesbook: Brent crude hits $111 on Saudi supply fears",
-    "url": "https://www.whalesbook.com/news/English/commodities/Brent-Crude-Hits-dollar111-On-Saudi-Supply-Fears-Impact-on-India/6ad9b5d579a16deaeaf9d63f"
-   },
-   "date": "2026-10-23",
-   "slot": "1030",
-   "when": "Fri · 10:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1030"
-   }
-  },
-  {
-   "key": "hpcl-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "HPCL slips despite Q2 profit turnaround",
-   "line": "Stock fell about 1.9% though high refining margins drove a strong quarter",
-   "more": [
-    "Profit turned around on high refining margins",
-    "BPCL reports later today, a read-across for oil marketers"
-   ],
-   "src": {
-    "title": "ScanX: Stocks to watch today, October 23, 2026",
-    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-23-2026-swiggy-cyient-fairchem-organics/54264697"
-   },
-   "date": "2026-10-23",
-   "slot": "1000",
-   "when": "Fri · 10:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "creditaccess-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "CreditAccess Grameen down ~4.7%",
-   "line": "Investors weigh a large profit jump against updated FY27 guidance",
-   "more": [
-    "Profit rose sharply year on year in Q2",
-    "Revised FY27 guidance is the focus for the stock"
-   ],
-   "src": {
-    "title": "ScanX: Stocks to watch today, October 23, 2026",
-    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-23-2026-swiggy-cyient-fairchem-organics/54264697"
-   },
-   "date": "2026-10-23",
-   "slot": "1000",
-   "when": "Fri · 10:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "colgate-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Colgate Q2 profit misses estimates",
-   "line": "Profit grew 4.3% but margins contracted, missing consensus",
-   "more": [
-    "Net profit up 4.3% year on year",
-    "Margin contraction drove the miss versus estimates"
-   ],
-   "src": {
-    "title": "ScanX: Stocks to watch today, October 23, 2026",
-    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-23-2026-swiggy-cyient-fairchem-organics/54264697"
-   },
-   "date": "2026-10-23",
-   "slot": "1000",
-   "when": "Fri · 10:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-23",
-    "slot": "1000"
    }
   }
  ]
