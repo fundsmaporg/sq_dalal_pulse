@@ -1,39 +1,45 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-03T11:26:44+05:30",
+ "generated_at": "2026-11-03T11:56:34+05:30",
  "date": "2026-11-03",
- "slot": "1125",
- "slot_label": "11:25",
+ "slot": "1155",
+ "slot_label": "11:55",
  "stage": "Mid-market mood",
- "asof": "2026-11-03T11:25:00+05:30",
+ "asof": "2026-11-03T11:55:00+05:30",
  "nifty": {
   "value": 23667.5,
   "pct": 0.97,
   "chg": 226.7,
-  "approx": false
+  "approx": true
  },
  "mood": {
-  "label": "Gains extend",
+  "label": "Holding the highs",
   "score": 0.5,
-  "summary": "The rally is holding near the day's high, with the Nifty up close to 1% and FMCG and consumer names leading while upstream oil and IT lag.",
+  "summary": "The market is holding near the day's high with the Sensex up about 800 points, as FMCG stocks extend their run and upstream oil and IT lag.",
   "detail": {
-   "leaders": "Marico, IndiGo, Asian Paints",
+   "leaders": "Nifty FMCG, Marico, IndiGo, Asian Paints",
    "laggards": "ONGC, Infosys",
-   "tone": "Live read: slightly firmer than 10:55. At 11 am the Sensex was at 76,511.34 (+818.56) and the Nifty at 23,667.50, a new intraday reading above the 10 am level.",
+   "tone": "Live read: little changed from 11:25. The 11:30 update still had the indices near the day's high, with the Sensex up about 800 points.",
    "watch": [
     "US midterm results after Indian hours",
     "Asia tech selling (Korea down sharply)",
     "India VIX after its early 4% jump"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE, Nov 3 — 11 AM update",
+    "title": "Business Standard: Sensex gains 800 pts; Nifty FMCG extends rally, rises 2%",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Marico extends its results rally; IndiGo and Asian Paints gain on cheaper oil",
+     "summary": "FMCG leads, up 2%, with Marico; IndiGo and Asian Paints gain on cheaper oil",
      "why": "Strong Q2 numbers and Brent's slide below $105 keep consumer-facing names in demand.",
      "names": [
+      {
+       "name": "Nifty FMCG",
+       "dir": "up",
+       "move": "+2%",
+       "line": "Extends its rally to a second day; Marico's Q2 beat in the lead"
+      },
       {
        "name": "Marico",
        "dir": "up",
@@ -84,6 +90,78 @@
  },
  "insights": [
   {
+   "key": "fmcg-lead",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Nifty FMCG up 2%, rally into a 2nd day",
+   "line": "FMCG shares extend Monday's gains as Marico's results and guidance lift the sector",
+   "more": [
+    "Nifty FMCG closed Monday at 43,974.65, up 0.84%",
+    "HUL among Tuesday's top gainers"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex gains 800 pts; Nifty FMCG extends rally, rises 2%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+   },
+   "date": "2026-11-03",
+   "slot": "1155",
+   "when": "11:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1055"
+   }
+  },
+  {
+   "key": "vrl-krbl",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "VRL Logistics, KRBL rally on Q2",
+   "line": "VRL up ~7.3% on a 106% profit jump and buyback; KRBL ~5.2% on 51% profit growth",
+   "more": [
+    "Per ScanX's results round-up",
+    "Timing of the moves not stated"
+   ],
+   "src": {
+    "title": "ScanX: Stocks to watch, Nov 3 — Marico, Petronet LNG, KRBL, VRL",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-november-3-2026-marico-petronet-lng-krbl-wockhardt/55215394"
+   },
+   "date": "2026-11-03",
+   "slot": "1155",
+   "when": "11:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1155"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "US votes; results due after India closes",
+   "line": "Prediction markets price a 74–78% chance of a Democratic sweep of Congress",
+   "more": [
+    "US futures mixed earlier",
+    "Friday's jobs report also ahead"
+   ],
+   "src": {
+    "title": "TipRanks: Futures rise as investors focus on midterms; oil falls",
+    "url": "https://www.tipranks.com/news/futures-rise-as-investors-focus-on-midterm-elections-and-key-earnings-oil-prices-fall"
+   },
+   "date": "2026-11-03",
+   "slot": "1155",
+   "when": "11:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "pre"
+   }
+  },
+  {
    "key": "marico-q2",
    "tag": "Results",
    "impact": "pos",
@@ -101,34 +179,10 @@
    "slot": "1125",
    "when": "11:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "US futures mixed on midterm day",
-   "line": "Investors hold positions until results; prediction markets price a 74–78% Democratic sweep",
-   "more": [
-    "Friday's US jobs report also ahead",
-    "Brent near $104.73, WTI near $96.55 early Tuesday"
-   ],
-   "src": {
-    "title": "TipRanks: Futures rise as investors focus on midterms; oil falls",
-    "url": "https://www.tipranks.com/news/futures-rise-as-investors-focus-on-midterm-elections-and-key-earnings-oil-prices-fall"
-   },
-   "date": "2026-11-03",
-   "slot": "1125",
-   "when": "11:25",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "pre"
    }
   },
   {
@@ -149,7 +203,7 @@
    "slot": "1125",
    "when": "11:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "0845"
@@ -192,30 +246,6 @@
    "src": {
     "title": "Zee Business: Sensex jumps 500 points at open; IndiGo, HDFC Bank lead",
     "url": "https://www.zeebiz.com/market-news/news-stock-market-opening-sensex-jumps-450-points-nifty-crosses-23550-indigo-hdfc-bank-lead-gains-404986"
-   },
-   "date": "2026-11-03",
-   "slot": "1055",
-   "when": "10:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1055"
-   }
-  },
-  {
-   "key": "fmcg-lead",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "FMCG shares lead the rally",
-   "line": "HUL among top gainers as FMCG shines; Marico's guidance upgrade adds to the theme",
-   "more": [
-    "Business Standard headline: FMCG shares shine",
-    "Equitymaster lists HUL as a top gainer"
-   ],
-   "src": {
-    "title": "Business Standard: Sensex at day's high, jumps 800 pts, Nifty tops 23,600; FMCG shines",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
    },
    "date": "2026-11-03",
    "slot": "1055",
