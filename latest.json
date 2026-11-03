@@ -1,90 +1,87 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-03T14:26:24+05:30",
+ "generated_at": "2026-11-03T14:56:13+05:30",
  "date": "2026-11-03",
- "slot": "1425",
- "slot_label": "14:25",
+ "slot": "1455",
+ "slot_label": "14:55",
  "stage": "Mid-market mood",
- "asof": "2026-11-03T14:25:00+05:30",
+ "asof": "2026-11-03T14:55:00+05:30",
  "nifty": {
-  "value": 23725.55,
-  "pct": 1.21,
-  "chg": 284.75,
-  "approx": true,
-  "asof_quote": "13:30"
+  "value": 23708.3,
+  "pct": 1.14,
+  "chg": 267.5,
+  "approx": false,
+  "asof_quote": "14:00"
  },
  "mood": {
-  "label": "Holding the highs",
-  "score": 0.5,
-  "summary": "The market is holding close to the day's high into the last hour, with FMCG and realty leading and SBI's results landing during trade.",
+  "label": "Steady into close",
+  "score": 0.45,
+  "summary": "Into the final half hour the market is holding a solid gain, with FMCG and realty leading, mid- and smallcaps higher, and IT and metals the weak spots.",
   "detail": {
-   "leaders": "SBI, Asian Paints, IndiGo, Nestle India",
-   "laggards": "Infosys, ONGC",
-   "tone": "Live read: steady versus 13:55, still holding near the day's high; no newer index print than about 1:30 pm was available.",
+   "leaders": "Nifty FMCG, MCX, Asian Paints",
+   "laggards": "Nifty IT, Nifty Metal, SBI",
+   "tone": "Live read: little changed from 14:25. The market is still holding most of its gain, a little below the early-afternoon high.",
    "watch": [
-    "SBI share reaction to its results",
-    "Profit-taking into the close after a four-day run",
-    "US midterm results after Indian hours"
+    "Closing strength after a four-day rally",
+    "NSE, MCX and Lupin results after hours",
+    "US midterm results overnight"
    ],
    "src": {
-    "title": "Business Standard: Sensex surges 1,000 pts, Nifty reclaims 23,700; SBI's Q2 PAT rises 14%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+    "title": "Business Standard: Sensex surges 900 pts, Nifty above 23,600; MCX shares jump 9% ahead of Q2",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
    },
    "movers": {
     "up": {
-     "summary": "SBI firm around its results; Asian Paints, IndiGo and Nestle lead consumer names",
-     "why": "Bank results and cheaper crude support the leaders, while staples keep drawing money as the global AI trade unwinds.",
+     "summary": "FMCG leads sectors; MCX jumps ahead of results; Asian Paints firm",
+     "why": "Staples keep drawing money as the global AI trade unwinds, and results anticipation is lifting individual names.",
      "names": [
       {
-       "name": "SBI",
+       "name": "Nifty FMCG",
        "dir": "up",
-       "move": "~+1%",
-       "line": "Up ~1% near ₹1,000 before Q2; profit then rose 14.3% to ₹23,038 cr"
+       "line": "Top sector at 2 pm; rally into a second day led by Marico's Q2 beat"
+      },
+      {
+       "name": "MCX",
+       "dir": "up",
+       "move": "+9%",
+       "line": "Jumps ahead of its Q2 results due today"
       },
       {
        "name": "Asian Paints",
        "dir": "up",
        "move": "~+4%",
        "line": "Top gainer at noon; crude, a key raw-material input, is down"
-      },
-      {
-       "name": "IndiGo (InterGlobe Aviation)",
-       "dir": "up",
-       "move": "~+3%",
-       "line": "Q2 beat and cheaper jet-fuel prospects (12 pm read)"
-      },
-      {
-       "name": "Nestle India",
-       "dir": "up",
-       "move": "+2.69%",
-       "line": "Staples in demand; FMCG rally in a second day (12 pm read)"
       }
      ],
      "src": {
-      "title": "Business Standard: Sensex surges 1,000 pts, Nifty reclaims 23,700; SBI's Q2 PAT rises 14%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+      "title": "Business Standard: Sensex surges 900 pts, Nifty above 23,600; MCX shares jump 9% ahead of Q2",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
      }
     },
     "down": {
-     "summary": "Infosys and ONGC remain the main large-cap drags",
-     "why": "IT stays weak on Infosys's guidance cut, and upstream producers lose from cheaper oil.",
+     "summary": "IT and metals are the weakest sectors; SBI flat after its results",
+     "why": "IT stays weighed by Infosys's guidance cut, metals give back part of Monday's jump, and SBI's numbers drew a muted response.",
      "names": [
       {
-       "name": "Infosys",
+       "name": "Nifty IT",
        "dir": "down",
-       "move": "−1.77%",
-       "line": "FY growth guidance cut to 1–2% CC still weighs (12 pm read)"
+       "line": "Among the two weakest sectors at 2 pm; Infosys's guidance cut weighs"
       },
       {
-       "name": "ONGC",
+       "name": "Nifty Metal",
        "dir": "down",
-       "move": "−1.53%",
-       "line": "Lower crude prices hit upstream realisations (12 pm read)"
+       "line": "Among the weakest sectors after Monday's 2.7% rise"
+      },
+      {
+       "name": "SBI",
+       "dir": "flat",
+       "move": "+0.05%",
+       "line": "Flat at ₹987.50 after Q2; had been up ~1% before the numbers"
       }
      ],
      "src": {
-      "title": "HDFC Sky: Top gainers & losers, 3 Nov 2026, 12:00 PM",
-      "url": "https://hdfcsky.com/news/top-gainers-losers-today-3-november-2026-at-12-pm"
+      "title": "Business Standard: Sensex surges 900 pts, Nifty above 23,600; MCX shares jump 9% ahead of Q2",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
      }
     }
    }
@@ -94,26 +91,73 @@
   {
    "key": "sbi-q2",
    "tag": "Results",
-   "impact": "pos",
-   "title": "SBI Q2 profit up 14.3% to ₹23,038 cr",
-   "line": "NII up 14.7% to ₹49,143 cr; provisions fall 21.9% to ₹4,217 cr",
+   "impact": "watch",
+   "title": "SBI shares flat after Q2 numbers",
+   "line": "Stock at ₹987.50 (+0.05%) at 2:24 pm after giving up a pre-results gain of ~1%",
    "more": [
-    "Zee Business says it missed its ₹25,250 cr estimate",
-    "Sahi says it beat a ₹22,860 cr consensus",
-    "Shares were up ~1% near ₹1,000 before the release"
+    "Profit up 14.3% to ₹23,038 cr",
+    "Estimates disagree on whether it beat"
    ],
    "src": {
-    "title": "Business Standard: SBI Q2 net profit rises 14.3% to ₹23,038 crore as provisions fall",
-    "url": "https://www.business-standard.com/companies/quarterly-results/sbi-q2-fy27-net-profit-nii-provisions-asset-quality-126110300887_1.html"
+    "title": "Upstox: Q2 results live — SBI profit climbs 14% to ₹23,038 crore",
+    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-nse-sbi-mcx-lupin-bajaj-finserv-solar-industries-others-to-report-earnings/liveblog-202868/"
    },
    "date": "2026-11-03",
-   "slot": "1425",
-   "when": "14:25",
+   "slot": "1455",
+   "when": "14:55",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1230"
+   }
+  },
+  {
+   "key": "mcx-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "MCX jumps 9% before its Q2",
+   "line": "Commodity exchange shares surge ahead of September-quarter results",
+   "more": [
+    "Results due today",
+    "Flagged in Business Standard's live blog"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex surges 900 pts, Nifty above 23,600; MCX shares jump 9% ahead of Q2",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+   },
+   "date": "2026-11-03",
+   "slot": "1455",
+   "when": "14:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1455"
+   }
+  },
+  {
+   "key": "sector-split",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "FMCG, realty lead; IT, metals lag",
+   "line": "Sector rotation into staples and property continues while tech and metals slip",
+   "more": [
+    "Mid- and smallcap indices also higher",
+    "Per Business Standard's 2 pm update"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex surges 900 pts, Nifty above 23,600; MCX shares jump 9% ahead of Q2",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+   },
+   "date": "2026-11-03",
+   "slot": "1455",
+   "when": "14:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1455"
    }
   },
   {
@@ -134,7 +178,7 @@
    "slot": "1425",
    "when": "14:25",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1425"
@@ -158,7 +202,7 @@
    "slot": "1425",
    "when": "14:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1325"
