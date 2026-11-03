@@ -1,44 +1,50 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-03T13:26:21+05:30",
+ "generated_at": "2026-11-03T13:56:36+05:30",
  "date": "2026-11-03",
- "slot": "1325",
- "slot_label": "13:25",
+ "slot": "1355",
+ "slot_label": "13:55",
  "stage": "Mid-market mood",
- "asof": "2026-11-03T13:25:00+05:30",
+ "asof": "2026-11-03T13:55:00+05:30",
  "nifty": {
-  "value": 23678.5,
-  "pct": 1.01,
-  "chg": 237.7,
+  "value": 23725.55,
+  "pct": 1.21,
+  "chg": 284.75,
   "approx": false,
-  "asof_quote": "13:00"
+  "asof_quote": "13:30"
  },
  "mood": {
-  "label": "Firm afternoon",
-  "score": 0.45,
-  "summary": "The rally is holding firm into the afternoon, led by financials and consumer names, while healthcare and energy see some profit-taking after a four-day run.",
+  "label": "Fresh highs",
+  "score": 0.55,
+  "summary": "The market has pushed to a fresh day's high in early afternoon, with FMCG and realty leading, mid- and smallcaps higher, and only a handful of large caps in the red.",
   "detail": {
-   "leaders": "IndiGo, Nestle India, NSE",
-   "laggards": "Infosys, ONGC, healthcare",
-   "tone": "Live read: little changed from 12:55, with the market slightly off its midday best but still holding a gain of about 1%.",
+   "leaders": "Asian Paints, IndiGo, Nestle India",
+   "laggards": "Infosys, ONGC",
+   "tone": "Live read: stronger than 13:25. The Sensex hit a new day's high around 1:30 pm and the Nifty reclaimed a key round level, with broader indices also up.",
    "watch": [
-    "Analysts flag profit-taking near 23,800–23,900 on the Nifty",
-    "US midterm results after Indian hours",
-    "NSE's Q2 numbers"
+    "SBI's Q2 numbers due between 1:30 and 3:30 pm",
+    "Profit-taking after a four-day run",
+    "US midterm results after Indian hours"
    ],
    "src": {
-    "title": "Business Standard: Sensex surges 800 pts, Nifty tops 23,650; NSE shares up 1% ahead of Q2",
+    "title": "Business Standard: Sensex extends gains, surges 1,000 pts, Nifty reclaims 23,700; FMCG, realty shine",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IndiGo and Nestle lead; NSE shares rise ahead of their Q2 results",
-     "why": "Cheaper crude and the global AI-trade unwind are pushing money into consumer and financial names.",
+     "summary": "Asian Paints, IndiGo and Nestle lead as cheaper oil and staples buying help",
+     "why": "Lower crude is easing input and fuel costs, and consumer staples keep drawing money as the global AI trade unwinds.",
      "names": [
+      {
+       "name": "Asian Paints",
+       "dir": "up",
+       "move": "~+4%",
+       "line": "Top gainer at noon; crude, a key raw-material input, is down"
+      },
       {
        "name": "IndiGo (InterGlobe Aviation)",
        "dir": "up",
-       "move": "+2.94%",
+       "move": "~+3%",
        "line": "Q2 beat and cheaper jet-fuel prospects (12 pm read)"
       },
       {
@@ -46,22 +52,16 @@
        "dir": "up",
        "move": "+2.69%",
        "line": "Staples in demand; FMCG rally in a second day (12 pm read)"
-      },
-      {
-       "name": "NSE",
-       "dir": "up",
-       "move": "+1%",
-       "line": "Shares up ahead of its Q2 results"
       }
      ],
      "src": {
-      "title": "Business Standard: Sensex surges 800 pts, Nifty tops 23,650; NSE shares up 1% ahead of Q2",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+      "title": "HDFC Sky: Top gainers & losers, 3 Nov 2026, 12:00 PM",
+      "url": "https://hdfcsky.com/news/top-gainers-losers-today-3-november-2026-at-12-pm"
      }
     },
     "down": {
-     "summary": "Infosys and ONGC drag; healthcare sees profit-taking",
-     "why": "IT stays weak on Infosys's guidance cut, upstream producers lose from cheaper oil, and healthcare is being trimmed.",
+     "summary": "Infosys and ONGC remain the main large-cap drags",
+     "why": "IT stays weak on Infosys's guidance cut, and upstream producers lose from cheaper oil.",
      "names": [
       {
        "name": "Infosys",
@@ -74,22 +74,89 @@
        "dir": "down",
        "move": "−1.53%",
        "line": "Lower crude prices hit upstream realisations (12 pm read)"
-      },
-      {
-       "name": "Nifty Healthcare",
-       "dir": "down",
-       "line": "Profit-taking in healthcare and energy shares, per Free Press Journal"
       }
      ],
      "src": {
-      "title": "Free Press Journal: Sensex zooms over 600 points as Q2 earnings, cheaper crude lift markets",
-      "url": "https://www.freepressjournal.in/business/bulls-tighten-their-grip-on-d-street-sensex-zooms-over-600-points-to-76358-and-nifty-crosses-23600-as-strong-q2-earnings-and-cheaper-crude-lift-markets"
+      "title": "HDFC Sky: Top gainers & losers, 3 Nov 2026, 12:00 PM",
+      "url": "https://hdfcsky.com/news/top-gainers-losers-today-3-november-2026-at-12-pm"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "sbi-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "SBI Q2 due this afternoon",
+   "line": "Preview sees profit up ~12% to ₹22,619 cr; results expected between 1:30 and 3:30 pm",
+   "more": [
+    "Q1 FY27 profit was a record ₹21,121 cr",
+    "Year-ago Q2 profit ₹20,160 cr"
+   ],
+   "src": {
+    "title": "NiftyTrader: SBI Q2 FY27 results Tuesday",
+    "url": "https://www.niftytrader.in/markets/sbi-q2-fy27-results/"
+   },
+   "date": "2026-11-03",
+   "slot": "1355",
+   "when": "13:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1230"
+   }
+  },
+  {
+   "key": "bajaj-finserv-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Bajaj Finserv Q2 profit up 23%",
+   "line": "Consolidated PAT ₹2,757.66 cr, up 22.88%; revenue +16.66% to ₹43,415.65 cr",
+   "more": [
+    "Bajaj Finance PAT up 29% to ₹6,367 cr",
+    "AUM up 26% to ₹5.84 lakh cr"
+   ],
+   "src": {
+    "title": "Upstox: Bajaj Finserv Q2 profit rises 23% to ₹2,758 crore",
+    "url": "https://upstox.com/news/market-news/earnings/bajaj-finserv-q2-profit-rises-23-to-2-758-crore-revenue-climbs-17/article-202882/"
+   },
+   "date": "2026-11-03",
+   "slot": "1355",
+   "when": "13:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1355"
+   }
+  },
+  {
+   "key": "nse-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "NSE's first results as a listed firm due",
+   "line": "Board meets after hours; shares were up 0.85% at ₹1,794.90 ahead of numbers",
+   "more": [
+    "Solar Industries, Lupin, MCX also report today",
+    "Results for the quarter to Sept 30"
+   ],
+   "src": {
+    "title": "Upstox: NSE Q2 results live — shares rise ahead of earnings",
+    "url": "https://upstox.com/news/market-news/earnings/nse-q2-results-live-updates-national-stock-exchange-to-to-release-first-earnings-after-listing-on-nov-3-check-share-price/liveblog-202874/"
+   },
+   "date": "2026-11-03",
+   "slot": "1355",
+   "when": "13:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1325"
+   }
+  },
   {
    "key": "rally-run",
    "tag": "Flows",
@@ -108,34 +175,10 @@
    "slot": "1325",
    "when": "13:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1255"
-   }
-  },
-  {
-   "key": "nse-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "NSE shares up 1% ahead of Q2",
-   "line": "Exchange operator's stock gains before its September-quarter results",
-   "more": [
-    "Results due this week",
-    "Flagged in Business Standard's live blog"
-   ],
-   "src": {
-    "title": "Business Standard: Sensex surges 800 pts, Nifty tops 23,650; NSE shares up 1% ahead of Q2",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
-   },
-   "date": "2026-11-03",
-   "slot": "1325",
-   "when": "13:25",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1325"
    }
   },
   {
@@ -156,7 +199,7 @@
    "slot": "1325",
    "when": "13:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-26",
     "slot": "pre"
@@ -1005,30 +1048,6 @@
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1430"
-   }
-  },
-  {
-   "key": "sbi-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "SBI up 2% ahead of Q2 on Nov 5",
-   "line": "India's largest lender gains as investors position before Thursday's numbers",
-   "more": [
-    "Q1 FY27 net profit ₹12,120 cr, +10.2%",
-    "Stock had slipped toward ₹950 in October"
-   ],
-   "src": {
-    "title": "Whalesbook: SBI ahead of Q2 results on Nov 5",
-    "url": "https://www.whalesbook.com/news/English/bankingfinance/SBI-Stock-Struggles-Ahead-of-Q2-Results-on-Nov-5/6adab02179a16deaeafae40a"
-   },
-   "date": "2026-11-02",
-   "slot": "1230",
-   "when": "Mon · 12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1230"
    }
   },
   {
