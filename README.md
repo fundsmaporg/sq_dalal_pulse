@@ -21,7 +21,10 @@ then 18:00 and 21:00 IST.
   "generated_at": "2026-09-24T15:40:00+05:30",
   "date": "2026-09-24", "slot": "1325", "slot_label": "13:25", "stage": "Mid-market mood",
   "asof": "2026-09-24T13:30:00+05:30",
-  "nifty": { "value": 23200, "pct": -1.05, "chg": null, "approx": true },
+  "nifty": {                       // OPTIONAL — may be absent, see "Index figures" below
+    "value": 23200, "pct": -1.05, "chg": null, "approx": true,
+    "asof_quote": "13:00"          // the time this PRINT refers to, not when the note was
+  },                               // written; live-session slots only
   "mood": {
     "label": "Selling deepens",
     "score": -0.7,                 // -1 risk-off … +1 risk-on (red ≤ -0.25, amber, green ≥ 0.25)
@@ -63,7 +66,27 @@ then 18:00 and 21:00 IST.
 }
 ```
 
-Figures come from public news sources and can be approximate (`nifty.approx`). Use your own market feed for exact levels.
+### Index figures
+
+The runs read public news copy, not a price feed. Index snapshots in news copy are published
+at round times and are typically **20–30 minutes old** by the time a run finds them. Two
+consequences, both deliberate:
+
+- **No index levels appear in the prose.** `mood.summary`, `detail.tone`, `leaders`,
+  `laggards` and `watch` describe the market in words — "holding near the day's high",
+  "paring the early gain" — and never carry an index level or an index point/% move. Show
+  your own live level alongside them; a figure sourced 25 minutes ago next to a live ticker
+  reads as a contradiction. Figures inside `insights` are news facts (deal sizes, results,
+  crude, flows), not index readings, and are unaffected.
+- **`nifty` is optional and may be absent.** On a live-session slot, a run that cannot
+  source a print newer than the previous note's omits the key rather than carrying a stale
+  level forward — so the key's absence means "no fresh print", not "no note". Treat it as
+  progressive enhancement exactly like `movers`, and fall back to your own feed.
+
+When present on a live-session slot, `nifty.asof_quote` is the time the print refers to,
+which is **not** the note's `asof`. Label it with that time or not at all.
+`nifty.approx` still flags a figure taken from a headline. Use your own market feed for
+exact levels in every case.
 
 ### Slot ids
 

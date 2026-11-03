@@ -44,12 +44,13 @@ What to cover depends on which slot you are writing. NSE trades 09:15–15:30 IS
 - 1625 (the close): closing figures, the sector wrap, FII/DII provisional data if out, and what matters for tomorrow.
 - 1800 and 2100 (evening): what has developed SINCE the close — results announced after the bell, board decisions, regulatory orders, block deals reported late, management commentary — plus how the US market is trading and anything overnight that sets up tomorrow. By 2100 the US session is underway, so quote it as live, not as a close.
 
+HOW FRESH YOUR FIGURES REALLY ARE. You are reading news copy, not a price feed. Index levels in news copy are snapshots published at round times (10 am, 11 am) and are typically 20–30 minutes old by the time you find them. Note the TIME each figure refers to, not just the figure. This matters for step 4: it is why index levels do not go in the prose.
 Never invent numbers. If a figure is only approximate (e.g. from a headline), say so and set "approx": true on nifty.
 
 4) WRITE THE NOTE — JSON with EXACTLY this shape:
 {
  "asof": "<ISO 8601 with +05:30>",
- "summary": "<ONE sentence, ≤ 200 chars, about how the MARKET is trading — tone, breadth, direction. Must NOT restate the insight headlines.>",
+ "summary": "<ONE sentence, ≤ 200 chars, about how the MARKET is trading — tone, breadth, direction. Must NOT restate the insight headlines, and must contain NO index levels or index point/% moves — see the prose rule below.>",
  "mood": {
    "label": "<2–3 words, e.g. 'Selling deepens', 'Cautious bounce'>",
    "score": <number from -1 (risk-off) to 1 (risk-on)>,
@@ -71,12 +72,15 @@ Never invent numbers. If a figure is only approximate (e.g. from a headline), sa
        },
        "down": { <same shape, for the names under pressure> }
      },
-     "tone": "<1–2 sentences on market behaviour vs the previous note>",
+     "tone": "<1–2 sentences on market behaviour vs the previous note. NO index levels or index point/% moves — see the prose rule below.>",
      "watch": ["<2–3 things that would change the mood>"],
      "src": {"title": "...", "url": "..."}
    }
  },
- "nifty": {"value": <number>, "pct": <number>, "chg": <number, optional>, "approx": <true if approximate>},
+ "nifty": {"value": <number>, "pct": <number>, "chg": <number, optional>, "approx": <true if approximate>,
+            "asof_quote": "<HH:MM IST that this PRINT refers to; live-session slots only>"},
+       // OPTIONAL on live-session slots — see "WHAT nifty CARRIES" below. Omit the whole
+       // key rather than carrying a stale level forward.
  "top": [   // as many as are genuinely relevant, MINIMUM 3; most important first
    {"key": "<stable kebab-case story id; reuse earlier key for the same story>",
     "tag": "<one of: Regulation, Global, Macro, Flows, Listing, Stocks, Opening, Results, Policy>",
@@ -90,10 +94,17 @@ Never invent numbers. If a figure is only approximate (e.g. from a headline), sa
 }
 Rules: the mood/summary describes HOW the market is trading; "top" covers WHY (the news). Do not put index-level moves in "top". Only include an insight again (same key) if there is genuinely new information; otherwise leave it out — older notes still show it.
 
+NO INDEX LEVELS IN THE PROSE. This is the most important rule in this step.
+"summary", "tone", "leaders", "laggards", "watch" and the "movers" summary/why lines must contain NO index levels and NO index point or percentage moves — no "the Sensex is up 818 points", no "Nifty at 23,667", no "up about 1%", no "+0.8%" for an index. The app shows a live, exact index level in its own header from its own market feed; a number you sourced 25 minutes ago sitting next to it reads as a contradiction, and carrying one forward reads as a lie.
+Describe the market in words instead, which does not go stale the way a figure does: "holding near the day's high", "paring the early gain", "rangebound since the open", "broad, with midcaps joining in". Say WHERE the market is and WHICH WAY it is moving, never AT WHAT LEVEL.
+This ban is on INDEX figures in prose only. It does not touch: the "nifty" block (structured, and the app can label it); per-name moves in "movers" (the "move" key is the right place for a stock's % change); or figures inside "top" insights, which are news facts (a deal size, a results number, a crude price) and not index readings.
+Never compare against a previous note by quoting two clock times. "Firmer than the 10:55 note" next to "at 11 am the Sensex was…" mixes a slot label with a print time and reads as a contradiction. Say "firmer than the previous note" and leave it at that.
+
 WHAT "nifty" CARRIES, BY SLOT. Never present a stale level as a live one.
-- 0700 and 0845: the PREVIOUS session's close.
-- 0925 through 1555: the live level and the move so far today.
-- 1625, 1800, 2100: TODAY's close and today's move.
+- 0700 and 0845: the PREVIOUS session's close. Stable; always include it.
+- 1625, 1800, 2100: TODAY's close and today's move. Stable; always include it.
+- 0925 through 1555 (live session): the freshest index print you actually sourced, with its own time in "asof_quote" (e.g. "11:00" when you are writing the 1125 note — the time the PRINT refers to, not the time you are writing).
+  If you cannot find a print NEWER than the one in the previous note, OMIT the entire "nifty" key from this note. Do not copy the previous note's figures forward. Still write and publish the note — the narrative is what the screen needs, and the app has its own live level. Say in "tone" that this is a read on market behaviour rather than a fresh print, in words and without numbers.
 
 WHAT "mood" MEANS, BY SLOT. On 0700, 0845, 1800 and 2100 nothing is trading, so the mood is forward-looking: the risk appetite you expect into the next session, and a label to match ("Soft start likely", "Steady into tomorrow"). From 0925 to 1625 it is a reading of a live market. Say which one you mean in "tone" rather than leaving the reader to guess.
 

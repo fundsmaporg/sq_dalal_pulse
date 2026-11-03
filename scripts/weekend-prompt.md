@@ -57,7 +57,7 @@ Never invent numbers. If a figure is approximate (e.g. from a headline), say so 
 4) WRITE THE NOTE — JSON with EXACTLY this shape:
 {
  "asof": "<ISO 8601 with +05:30 — the time you are writing>",
- "summary": "<ONE sentence, ≤ 200 chars, on how the coming session sets up — the balance of what helps and what weighs. Must NOT restate the insight headlines.>",
+ "summary": "<ONE sentence, ≤ 200 chars, on how the coming session sets up — the balance of what helps and what weighs. Must NOT restate the insight headlines, and must contain NO index levels or index point/% moves — see the prose rule below.>",
  "mood": {
    "label": "<2–3 words, forward-looking, e.g. 'Constructive into Monday', 'Cautious start likely'>",
    "score": <number from -1 (risk-off) to 1 (risk-on) — the risk appetite you expect into the open, not a reading of a live market>,
@@ -82,6 +82,9 @@ Never invent numbers. If a figure is approximate (e.g. from a headline), say so 
  ],
  "sources": [{"title": "...", "url": "..."}]
 }
+
+NO INDEX LEVELS IN THE PROSE. "summary", "tone", "leaders", "laggards" and "watch" must contain NO index levels and NO index point or percentage moves — no "the Nifty closed at 23,441", no "ended the week up 1.7%". The app shows an exact level in its own header from its own market feed, and the closing level already sits in the "nifty" block where it can be labelled properly. Describe the week in words: "closed the week on its highs", "gave back most of Thursday's gain", "a narrow week with breadth improving late".
+This ban is on INDEX figures in prose only. Figures inside "top" insights are news facts (a deal size, a results number, a crude price, an FII flow) and are fine.
 
 Rules specific to the weekend notes:
 - "nifty" carries the LAST CLOSE, not a prediction. The app labels every weekend note "Weekend outlook", so a closing level is the honest number to show.

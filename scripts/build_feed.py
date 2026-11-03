@@ -145,12 +145,17 @@ def main():
     detail.pop("movers", None)
     if movers:
         detail["movers"] = movers
+    # nifty is optional: a live-session run that could not source a print newer than the
+    # previous note's omits it rather than carrying a stale level forward. Drop the key
+    # entirely in that case, the same way movers is dropped, so consumers fall back to
+    # their own market feed instead of rendering a null.
+    nifty = cur.get("nifty") or None
     out = {
         "schema": "dalal-pulse/v1",
         "generated_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=5, minutes=30))).isoformat(timespec="seconds"),
         "date": ld, "slot": ls, "slot_label": LABEL(ls), "stage": STAGE(ls, ld),
         "asof": cur.get("asof"),
-        "nifty": cur.get("nifty"),
+        **({"nifty": nifty} if nifty else {}),
         "mood": {"label": cur["mood"]["label"], "score": cur["mood"]["score"],
                  "summary": cur.get("summary"), "detail": detail},
         "insights": insights,
