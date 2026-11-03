@@ -1,61 +1,133 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-03T09:57:33+05:30",
+ "generated_at": "2026-11-03T10:26:52+05:30",
  "date": "2026-11-03",
- "slot": "0955",
- "slot_label": "9:55",
+ "slot": "1025",
+ "slot_label": "10:25",
  "stage": "Opening mood",
- "asof": "2026-11-03T09:55:00+05:30",
+ "asof": "2026-11-03T10:25:00+05:30",
  "nifty": {
-  "value": 23550,
-  "pct": 0.47,
-  "chg": 109.2,
-  "approx": true
+  "value": 23629.85,
+  "pct": 0.81,
+  "chg": 189.05,
+  "approx": false
  },
  "mood": {
-  "label": "Gains trimmed",
-  "score": 0.25,
-  "summary": "Early gains have halved: the Sensex is up about 300 points after a 600-point pre-open jump, with the Nifty near 23,550 as results-driven stocks lead.",
+  "label": "Rally resumes",
+  "score": 0.45,
+  "summary": "Buyers returned after an early dip: the Nifty is back above 23,600, up about 0.8%, with FMCG, chemicals and IT leading and mid- and smallcaps modestly higher.",
   "detail": {
-   "leaders": "Marico, Lupin",
-   "laggards": "Broader losers not yet reported",
-   "tone": "Live read: softer than the 09:25 note's pre-open level, with the Sensex's gain roughly halved with Asia's tech selling and the Qeshm strikes in the background.",
+   "leaders": "IndiGo, Marico; FMCG, IT",
+   "laggards": "Pharma among weaker sectors",
+   "tone": "Live read: firmer than the 09:55 note. The Sensex is up about 718 points at 76,410.81 after paring to roughly 300 earlier, though India VIX is up more than 4%.",
    "watch": [
-    "Whether Nifty holds 23,500",
-    "Oil after the US strikes on Qeshm Island",
-    "BLS Polymers' debut price"
+    "India VIX rising alongside the rally",
+    "US midterm results",
+    "Oil after the US strikes on Qeshm Island"
    ],
    "src": {
-    "title": "Business Standard: Sensex gains 300 pts, Nifty near 23,550; Marico gains post Q2",
+    "title": "Business Standard: Sensex jumps 700 pts, Nifty tops 23,600; VIX rises over 4%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Results and approvals lift Marico and Lupin as the index pares its open",
-     "why": "Stock-specific news is driving the gainers while the broader index gives back some of its early jump.",
+     "summary": "IndiGo and Marico lead on results; FMCG and IT shares advance",
+     "why": "Results-driven buying and softer oil are supporting gainers as the global AI trade unwinds.",
      "names": [
+      {
+       "name": "IndiGo (InterGlobe Aviation)",
+       "dir": "up",
+       "move": "~+3.6%",
+       "line": "Q2 beat and softer crude extend a two-session rally"
+      },
       {
        "name": "Marico",
        "dir": "up",
        "move": "+6%",
-       "line": "Q2 profit up 29% to ₹558 cr; FY27 guidance raised; 10% India volume growth"
-      },
-      {
-       "name": "Lupin",
-       "dir": "up",
-       "move": "+2%+",
-       "line": "USFDA nod for Risperidone long-acting injectable"
+       "line": "Q2 profit up 29%; FY27 guidance raised"
       }
      ],
      "src": {
-      "title": "Business Standard: Marico shares spurt 6% on robust Q2, guidance revision",
-      "url": "https://www.business-standard.com/markets/news/marico-shares-spurt-6-on-robust-q2-earnings-positive-revision-in-guidance-126110300266_1.html"
+      "title": "Business Standard: Sensex jumps 700 pts, Nifty tops 23,600; VIX rises over 4%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "ipo-listings",
+   "tag": "Listing",
+   "impact": "pos",
+   "title": "BLS Polymers lists at 65% premium",
+   "line": "Opened at ₹248 on NSE vs ₹150 issue price; extended to ₹258.60 on BSE",
+   "more": [
+    "BSE listing at ₹244.10 (+62.73%)",
+    "₹255 cr issue was subscribed 241.22 times"
+   ],
+   "src": {
+    "title": "Business Standard: BLS Polymers IPO investors gain 65% on debut",
+    "url": "https://www.business-standard.com/amp/markets/news/bls-polymers-ipo-investors-gain-65-as-shares-make-strong-debut-on-bourses-126110300366_1.html"
+   },
+   "date": "2026-11-03",
+   "slot": "1025",
+   "when": "10:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "india-vix",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "India VIX jumps over 4% with markets up",
+   "line": "Volatility gauge rises even as the Sensex climbs about 700 points",
+   "more": [
+    "Comes on US midterm election day",
+    "VIX also rose on Monday's rally"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex jumps 700 pts, Nifty tops 23,600; VIX rises over 4%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+   },
+   "date": "2026-11-03",
+   "slot": "1025",
+   "when": "10:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "indigo-q2",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IndiGo extends gains on Q2 and oil",
+   "line": "Up ~5% over two sessions after a Q2 beat; new aviation rules also in focus",
+   "more": [
+    "Crude's 7% fall on Monday helps airline margins",
+    "Bharatiya Vayuyan Niyam, 2026 rules start in 2027"
+   ],
+   "src": {
+    "title": "Business Standard: IndiGo up 5% in 2 sessions on Q2, softer oil, new aviation rules",
+    "url": "https://business-standard.com/markets/news/indigo-up-5-in-2-sessions-on-q2-softer-oil-new-aviation-rules-in-focus-126110200347_1.html"
+   },
+   "date": "2026-11-03",
+   "slot": "1025",
+   "when": "10:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1200"
+   }
+  },
   {
    "key": "marico-q2",
    "tag": "Results",
@@ -75,7 +147,7 @@
    "slot": "0955",
    "when": "9:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1200"
@@ -99,34 +171,10 @@
    "slot": "0955",
    "when": "9:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "0955"
-   }
-  },
-  {
-   "key": "ipo-listings",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "BLS Polymers debut awaited",
-   "line": "Issue at ₹150; grey-market estimates ranged ₹185–218 before listing",
-   "more": [
-    "Subscribed 241.22 times",
-    "Listing on BSE and NSE today"
-   ],
-   "src": {
-    "title": "Chittorgarh: BLS Polymers IPO details",
-    "url": "https://www.chittorgarh.com/ipo/bls-polymers-ipo/2559/"
-   },
-   "date": "2026-11-03",
-   "slot": "0955",
-   "when": "9:55",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "pre"
    }
   },
   {
@@ -784,30 +832,6 @@
    }
   },
   {
-   "key": "india-vix",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "India VIX rises despite the rally",
-   "line": "VIX up 2.42% to 15.66 even as Nifty gains about 1.1%",
-   "more": [
-    "Volatility index usually falls in rallies",
-    "Event-heavy week: US midterms Tuesday, US jobs data"
-   ],
-   "src": {
-    "title": "HDFC Sky: India VIX jumps even as Nifty, Sensex rally",
-    "url": "https://hdfcsky.com/news/india-vix-jumps-2-42percent-to-15-66-even-as-nifty-rises-1-08percent-november-2-2026"
-   },
-   "date": "2026-11-02",
-   "slot": "1200",
-   "when": "Mon · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1200"
-   }
-  },
-  {
    "key": "psu-results",
    "tag": "Results",
    "impact": "pos",
@@ -1268,30 +1292,6 @@
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1330"
-   }
-  },
-  {
-   "key": "indigo-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "IndiGo rises 2% on narrower loss",
-   "line": "Shares gain a day after the airline's Q2 loss came in below estimates",
-   "more": [
-    "Loss ₹1,879 cr vs ₹2,582 cr a year ago",
-    "Forex loss ₹1,333 cr in the quarter"
-   ],
-   "src": {
-    "title": "Sensex and Nifty 50 trade higher despite weakness in broader markets and global tech stocks — Kotak Neo",
-    "url": "https://www.kotakneo.com/news/market-news/markets-trade-higher-in-afternoon-deals/"
-   },
-   "date": "2026-10-30",
-   "slot": "1330",
-   "when": "Fri · 13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1200"
    }
   },
   {
