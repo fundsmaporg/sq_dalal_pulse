@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-03T16:26:36+05:30",
+ "generated_at": "2026-11-03T18:00:16+05:30",
  "date": "2026-11-03",
- "slot": "1625",
- "slot_label": "16:25",
- "stage": "Post-market mood",
- "asof": "2026-11-03T16:25:00+05:30",
+ "slot": "1800",
+ "slot_label": "18:00",
+ "stage": "Evening wrap",
+ "asof": "2026-11-03T18:00:00+05:30",
  "nifty": {
   "value": 23810.85,
   "pct": 1.58,
@@ -13,78 +13,123 @@
   "approx": false
  },
  "mood": {
-  "label": "Fourth-day rally",
-  "score": 0.55,
-  "summary": "Indian stocks closed firmly higher for a fourth straight session, with consumer staples doing the heavy lifting while PSU banks, power and oil producers slipped.",
+  "label": "Cautious into Wednesday",
+  "score": 0.15,
+  "summary": "After a fourth straight gain, the set-up for Wednesday looks mixed: firmer oil and soft US tech futures temper momentum while domestic results and foreign buying stay supportive.",
   "detail": {
-   "leaders": "Nifty FMCG, Nestle India, Tata Consumer",
-   "laggards": "Nifty PSU Bank, SBI, ONGC",
-   "tone": "Close: the market finished at its best levels of the day, a fourth straight gain built on the earlier rally in staples and a late push higher.",
+   "leaders": "Exchange and staples names could stay in focus after NSE's results and the FMCG rally",
+   "laggards": "IT and oil-sensitive names exposed if US tech and crude move against them",
+   "tone": "Forward-looking evening read: Indian stocks closed firmly higher, but overnight cues have turned less friendly, with US futures soft and crude rebounding on the Qeshm strikes.",
    "watch": [
-    "NSE, MCX and Lupin results after hours",
     "US midterm results overnight",
-    "FII/DII provisional data this evening"
+    "Brent after the rebound toward $106",
+    "Nasdaq-100 after entering a correction"
    ],
    "src": {
-    "title": "Business Standard: Stock Market Close — Sensex rises for 4th day, up 1,225 pts, Nifty at 23,811",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
-   },
-   "movers": {
-    "up": {
-     "summary": "FMCG jumped 3% as Nestle and Tata Consumer led the staples rally",
-     "why": "Money rotated into consumer staples as the global AI trade unwound and crude stayed near $105, with Marico's beat setting the tone.",
-     "names": [
-      {
-       "name": "Nifty FMCG",
-       "dir": "up",
-       "move": "+3%",
-       "line": "Top sector for a second straight day"
-      },
-      {
-       "name": "Nestle India",
-       "dir": "up",
-       "line": "Among top Nifty gainers as staples drew buying all session"
-      },
-      {
-       "name": "Tata Consumer Products",
-       "dir": "up",
-       "line": "Among top Nifty gainers in the FMCG rally"
-      }
-     ],
-     "src": {
-      "title": "Business Standard: Stock Market Close — Sensex rises for 4th day, up 1,225 pts, Nifty at 23,811",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
-     }
-    },
-    "down": {
-     "summary": "PSU banks the weakest sector; SBI and ONGC among Nifty losers",
-     "why": "SBI's results failed to spark buying in state-run banks, and cheaper crude kept upstream oil producers under pressure.",
-     "names": [
-      {
-       "name": "Nifty PSU Bank",
-       "dir": "down",
-       "line": "Weakest sector of the day"
-      },
-      {
-       "name": "SBI",
-       "dir": "down",
-       "line": "Slipped after Q2 despite a 14% profit rise to ₹23,038 cr"
-      },
-      {
-       "name": "ONGC",
-       "dir": "down",
-       "line": "Cheaper crude weighs on upstream realisations"
-      }
-     ],
-     "src": {
-      "title": "Daily Prabhat: Market rally continues on FII inflows; Sensex closes 1,225 higher",
-      "url": "https://www.dailyprabhat.com/market-rally-continues-on-fii-inflows-sensex-closes-1225-points-higher-nifty-gains-1-58/"
-     }
-    }
+    "title": "Yahoo Finance: Dow, S&P 500, Nasdaq futures waver ahead of midterm results, AMD earnings",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-090846378.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "nse-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "NSE Q2 profit up 23% to ₹2,578 cr",
+   "line": "First results since listing; consolidated total income up ~9% to ₹4,554 cr",
+   "more": [
+    "Standalone PAT up 16% to ₹2,164 cr",
+    "H1 profit up 13% to ₹5,698 cr",
+    "Year-ago base was hit by a ₹1,297 cr SEBI settlement provision"
+   ],
+   "src": {
+    "title": "Investywise: NSE reports 23% profit growth in Q2 FY27 to ₹2,578 crore",
+    "url": "https://www.investywise.com/nse-reports-strong-financial-results-for-q2fy27"
+   },
+   "date": "2026-11-03",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1325"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US futures soft as Apple slides pre-market",
+   "line": "Dow futures down ~0.5–0.9%; Nasdaq-100 closed Monday >10% below its record",
+   "more": [
+    "Apple fell ~4.5% pre-market on memory-chip cost warning",
+    "AMD reports after the US close",
+    "Americans vote in the midterms today"
+   ],
+   "src": {
+    "title": "Yahoo Finance: Dow, S&P 500, Nasdaq futures waver ahead of midterm results, AMD earnings",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-090846378.html"
+   },
+   "date": "2026-11-03",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent rebounds to ~$106 on Qeshm strike",
+   "line": "Oil up ~1.75% on Tuesday after Monday's 7.6% slide as talks show no breakthrough",
+   "more": [
+    "Monday settle $104.77",
+    "Tehran says contacts with the US continue"
+   ],
+   "src": {
+    "title": "CNBC: Oil prices climb after US strikes Iran's Qeshm Island",
+    "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+   },
+   "date": "2026-11-03",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-26",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "powergrid-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Power Grid Q2 profit up 8%; ₹3 dividend",
+   "line": "Consolidated profit ₹3,866.16 cr; record date for interim dividend Nov 6",
+   "more": [
+    "Stock was among Tuesday's Nifty losers",
+    "First interim dividend for FY27"
+   ],
+   "src": {
+    "title": "IndiaIPO: Power Grid Q2 profit up 8%; ₹3 interim dividend",
+    "url": "https://www.indiaipo.in/news/detail/power-grid-corporation-of-india-q2-results-net-profit-up-8-approves-3-interim-dividend"
+   },
+   "date": "2026-11-03",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1800"
+   }
+  },
   {
    "key": "fii-flows",
    "tag": "Flows",
@@ -103,7 +148,7 @@
    "slot": "1625",
    "when": "16:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-26",
     "slot": "pre"
@@ -127,58 +172,10 @@
    "slot": "1625",
    "when": "16:25",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1625"
-   }
-  },
-  {
-   "key": "nse-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "NSE, MCX, Lupin numbers due tonight",
-   "line": "Exchange operators and Lupin report Q2 after market hours",
-   "more": [
-    "MCX jumped 9% before results",
-    "Solar Industries and Lloyds Metals also report"
-   ],
-   "src": {
-    "title": "Business Today Bazaar: Q2 results today — SBI, Bajaj Finserv, NSE, Lupin and others",
-    "url": "https://bazaar.businesstoday.in/share-market/story/q2fy27-results-today-3rd-november-sbi-bajaj-finserv-nse-lupin-and-40-other-companies-to-announce-september-quarter-earnings-1470766-2026-11-03"
-   },
-   "date": "2026-11-03",
-   "slot": "1625",
-   "when": "16:25",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1325"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "US midterm results overnight",
-   "line": "Prediction markets price a 74–78% chance of a Democratic sweep of Congress",
-   "more": [
-    "Results land before India's next open",
-    "US 10-year near 4.92%"
-   ],
-   "src": {
-    "title": "TipRanks: Futures rise as investors focus on midterms; oil falls",
-    "url": "https://www.tipranks.com/news/futures-rise-as-investors-focus-on-midterm-elections-and-key-earnings-oil-prices-fall"
-   },
-   "date": "2026-11-03",
-   "slot": "1625",
-   "when": "16:25",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "pre"
    }
   },
   {
@@ -395,30 +392,6 @@
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1255"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Brent edges up to ~$106",
-   "line": "Brent up about 1.1% on Tuesday after Monday's 7.6% plunge",
-   "more": [
-    "Analysts warn of 'false dawns' in the talks",
-    "Qeshm strike reports added early-session support"
-   ],
-   "src": {
-    "title": "FinanceFeeds: Brent $106 after 7.6% plunge",
-    "url": "https://financefeeds.com/brent-crude-oil-price-106-tuesday-after-7-6-percent-plunge-qeshm-strike-report-midterms-bull-113-bear-100/"
-   },
-   "date": "2026-11-03",
-   "slot": "1255",
-   "when": "12:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-26",
-    "slot": "pre"
    }
   },
   {
