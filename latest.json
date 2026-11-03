@@ -1,94 +1,160 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-03T11:59:33+05:30",
+ "generated_at": "2026-11-03T12:26:58+05:30",
  "date": "2026-11-03",
- "slot": "1155",
- "slot_label": "11:55",
+ "slot": "1225",
+ "slot_label": "12:25",
  "stage": "Mid-market mood",
- "asof": "2026-11-03T11:55:00+05:30",
+ "asof": "2026-11-03T12:25:00+05:30",
  "nifty": {
-  "value": 23667.5,
-  "pct": 0.97,
-  "chg": 226.7,
-  "approx": true
+  "value": 23692.1,
+  "pct": 1.07,
+  "chg": 251.3,
+  "approx": false
  },
  "mood": {
-  "label": "Holding the highs",
-  "score": 0.5,
-  "summary": "The market is holding near the day's high with the Sensex up about 800 points, as FMCG stocks extend their run and upstream oil and IT lag.",
+  "label": "Rally broadens",
+  "score": 0.55,
+  "summary": "Gains have widened past 1% into midday, with consumer staples, chemicals and IT leading and only a few large caps such as Infosys and ONGC in the red.",
   "detail": {
-   "leaders": "Nifty FMCG, Marico, IndiGo, Asian Paints",
-   "laggards": "ONGC, Infosys",
-   "tone": "Live read: little changed from 11:25. The 11:30 update still had the indices near the day's high, with the Sensex up about 800 points.",
+   "leaders": "IndiGo, Nestle India, Asian Paints",
+   "laggards": "Infosys, ONGC",
+   "tone": "Live read: stronger than 11:55. At 12 pm the Sensex was up 952.83 points at 76,645.61, its best level of the day so far.",
    "watch": [
+    "Whether the Sensex holds a 900-point gain into the close",
     "US midterm results after Indian hours",
-    "Asia tech selling (Korea down sharply)",
-    "India VIX after its early 4% jump"
+    "India VIX"
    ],
    "src": {
-    "title": "Business Standard: Sensex gains 800 pts; Nifty FMCG extends rally, rises 2%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+    "title": "Business Standard: Sensex surges 900 pts, Nifty tops 23,650; Asian Paints, HDFC Bank top gainers",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
    },
    "movers": {
     "up": {
-     "summary": "FMCG leads, up 2%, with Marico; IndiGo and Asian Paints gain on cheaper oil",
-     "why": "Strong Q2 numbers and Brent's slide below $105 keep consumer-facing names in demand.",
+     "summary": "IndiGo, Nestle and Asian Paints lead as staples and oil-sensitive names gain",
+     "why": "Consumer staples are drawing money as the global AI trade unwinds, and cheaper crude helps airlines and paint makers.",
      "names": [
-      {
-       "name": "Nifty FMCG",
-       "dir": "up",
-       "move": "+2%",
-       "line": "Extends its rally to a second day; Marico's Q2 beat in the lead"
-      },
-      {
-       "name": "Marico",
-       "dir": "up",
-       "move": "up to +8.4%",
-       "line": "Hit ₹865 after Q2; CLSA, Morgan Stanley, Jefferies weigh in on targets"
-      },
       {
        "name": "IndiGo (InterGlobe Aviation)",
        "dir": "up",
-       "move": "+2.8% to +3.6%",
-       "line": "Q2 beat and cheaper jet-fuel prospects"
+       "move": "+2.94%",
+       "line": "At ₹5,064.40; Q2 beat and cheaper jet-fuel prospects"
+      },
+      {
+       "name": "Nestle India",
+       "dir": "up",
+       "move": "+2.69%",
+       "line": "At ₹1,227.20 as staples lead; FMCG rally in a second day"
       },
       {
        "name": "Asian Paints",
        "dir": "up",
-       "move": "+1.15%",
-       "line": "Paint stocks gain as crude, a key raw-material input, falls"
+       "line": "Among top Sensex gainers; crude, a key input cost, is down"
       }
      ],
      "src": {
-      "title": "BusinessToday: Marico shares jump 8% after Q2; CLSA, Morgan Stanley, Jefferies targets",
-      "url": "https://www.businesstoday.in/markets/stocks/story/marico-shares-jump-8-after-q2-results-clsa-morgan-stanley-jefferies-share-targets-565297-2026-11-03"
+      "title": "HDFC Sky: Top gainers & losers, 3 Nov 2026, 12:00 PM",
+      "url": "https://hdfcsky.com/news/top-gainers-losers-today-3-november-2026-at-12-pm"
      }
     },
     "down": {
-     "summary": "ONGC and Infosys trail as lower oil and IT worries weigh",
-     "why": "Upstream oil producers lose out from the slide in crude, and IT stays weak after Infosys's guidance cut.",
+     "summary": "Infosys and ONGC are the main large-cap drags",
+     "why": "IT stays weak after Infosys's guidance cut, and upstream producers lose from cheaper oil.",
      "names": [
-      {
-       "name": "ONGC",
-       "dir": "down",
-       "move": "−1.19%",
-       "line": "Upstream producer; lower crude prices hit realisations"
-      },
       {
        "name": "Infosys",
        "dir": "down",
-       "line": "Among early top losers after cutting FY growth guidance to 1–2% CC"
+       "move": "−1.77%",
+       "line": "At ₹1,140.50; FY growth guidance cut to 1–2% CC still weighs"
+      },
+      {
+       "name": "ONGC",
+       "dir": "down",
+       "move": "−1.53%",
+       "line": "At ₹231.23; lower crude prices hit upstream realisations"
       }
      ],
      "src": {
-      "title": "Equitymaster: Sensex rallies 700 points; HUL, HDFC Bank top gainers",
-      "url": "https://equitymaster.com/indian-share-markets/11/3/2026/Sensex-Today-Rallies-700-Points--Nifty-Above-23600--HUL--HDFC-Bank-Top-Gainers"
+      "title": "HDFC Sky: Top gainers & losers, 3 Nov 2026, 12:00 PM",
+      "url": "https://hdfcsky.com/news/top-gainers-losers-today-3-november-2026-at-12-pm"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "ai-trade-unwind",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "AI-trade unwind favours Indian staples",
+   "line": "Staples, chemicals and IT lead as the global AI trade unwinds, per Business Standard",
+   "more": [
+    "Asia tech fell; India rallied",
+    "Shriram Finance also among top Nifty gainers"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex surges 900 pts, Nifty tops 23,650; Asian Paints, HDFC Bank top gainers",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+   },
+   "date": "2026-11-03",
+   "slot": "1225",
+   "when": "12:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1225"
+   }
+  },
+  {
+   "key": "hdfc-bank-gains",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "HDFC Bank among top Sensex gainers",
+   "line": "Asian Paints and HDFC Bank named top gainers in the midday update",
+   "more": [
+    "HDFC Bank was up 1.61% at the open",
+    "No specific trigger reported"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex surges 900 pts, Nifty tops 23,650; Asian Paints, HDFC Bank top gainers",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+   },
+   "date": "2026-11-03",
+   "slot": "1225",
+   "when": "12:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1055"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Brent stays near $105",
+   "line": "Cheaper crude is helping airlines and paint makers and weighing on upstream producers",
+   "more": [
+    "Brent settled at $104.77 on Monday after a 7.6% fall",
+    "Early Tuesday quote near $104.73"
+   ],
+   "src": {
+    "title": "TipRanks: Futures rise as investors focus on midterms; oil falls",
+    "url": "https://www.tipranks.com/news/futures-rise-as-investors-focus-on-midterm-elections-and-key-earnings-oil-prices-fall"
+   },
+   "date": "2026-11-03",
+   "slot": "1225",
+   "when": "12:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-26",
+    "slot": "pre"
+   }
+  },
   {
    "key": "fmcg-lead",
    "tag": "Stocks",
@@ -107,7 +173,7 @@
    "slot": "1155",
    "when": "11:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1055"
@@ -131,7 +197,7 @@
    "slot": "1155",
    "when": "11:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1155"
@@ -155,7 +221,7 @@
    "slot": "1155",
    "when": "11:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "pre"
@@ -207,54 +273,6 @@
    "first_seen": {
     "date": "2026-11-03",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Brent holds below $105 after 7% crash",
-   "line": "Cheaper crude is lifting airlines and paint makers and weighing on upstream producers",
-   "more": [
-    "Brent settled at $104.77 on Monday, down 7.6%",
-    "US–Iran diplomacy hopes drove the slide"
-   ],
-   "src": {
-    "title": "CNBC: Crude sells off more than 7% on Iran peace talk hopes",
-    "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
-   },
-   "date": "2026-11-03",
-   "slot": "1055",
-   "when": "10:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-26",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "hdfc-bank-gains",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "HDFC Bank among top Sensex gainers",
-   "line": "Up 1.61% early; listed among top gainers by Zee Business and Equitymaster",
-   "more": [
-    "Bajaj Finance +1.34% early",
-    "Trent and BEL among early decliners"
-   ],
-   "src": {
-    "title": "Zee Business: Sensex jumps 500 points at open; IndiGo, HDFC Bank lead",
-    "url": "https://www.zeebiz.com/market-news/news-stock-market-opening-sensex-jumps-450-points-nifty-crosses-23550-indigo-hdfc-bank-lead-gains-404986"
-   },
-   "date": "2026-11-03",
-   "slot": "1055",
-   "when": "10:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1055"
    }
   },
   {
