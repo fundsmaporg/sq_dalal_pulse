@@ -1,33 +1,57 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-03T09:26:07+05:30",
+ "generated_at": "2026-11-03T09:57:33+05:30",
  "date": "2026-11-03",
- "slot": "0925",
- "slot_label": "9:25",
+ "slot": "0955",
+ "slot_label": "9:55",
  "stage": "Opening mood",
- "asof": "2026-11-03T09:25:00+05:30",
+ "asof": "2026-11-03T09:55:00+05:30",
  "nifty": {
-  "value": 23579,
-  "pct": 0.6,
-  "chg": 142,
+  "value": 23550,
+  "pct": 0.47,
+  "chg": 109.2,
   "approx": true
  },
  "mood": {
-  "label": "Higher open",
-  "score": 0.4,
-  "summary": "Stocks opened higher, extending Monday's rally, with the Sensex up about 600 points in pre-open trade even as Asian markets slipped on tech selling.",
+  "label": "Gains trimmed",
+  "score": 0.25,
+  "summary": "Early gains have halved: the Sensex is up about 300 points after a 600-point pre-open jump, with the Nifty near 23,550 as results-driven stocks lead.",
   "detail": {
-   "leaders": "Early broad gains; per-stock leaders not yet reported",
-   "laggards": "Per-stock laggards not yet reported",
-   "tone": "Live read ten minutes into trade: India is ignoring Asia's tech-led weakness for now, building on Monday's 1.7% gain, as cheaper oil and steady US yields help.",
+   "leaders": "Marico, Lupin",
+   "laggards": "Broader losers not yet reported",
+   "tone": "Live read: softer than the 09:25 note's pre-open level, with the Sensex's gain roughly halved with Asia's tech selling and the Qeshm strikes in the background.",
    "watch": [
-    "Whether gains hold as Asia's tech selling continues",
-    "Oil reaction to the US strikes on Qeshm Island",
-    "BLS Polymers' 10 am debut"
+    "Whether Nifty holds 23,500",
+    "Oil after the US strikes on Qeshm Island",
+    "BLS Polymers' debut price"
    ],
    "src": {
-    "title": "Business Standard: Sensex gains 600 pts at pre-open, Nifty near 23,600; Asia declines",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+    "title": "Business Standard: Sensex gains 300 pts, Nifty near 23,550; Marico gains post Q2",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+   },
+   "movers": {
+    "up": {
+     "summary": "Results and approvals lift Marico and Lupin as the index pares its open",
+     "why": "Stock-specific news is driving the gainers while the broader index gives back some of its early jump.",
+     "names": [
+      {
+       "name": "Marico",
+       "dir": "up",
+       "move": "+6%",
+       "line": "Q2 profit up 29% to ₹558 cr; FY27 guidance raised; 10% India volume growth"
+      },
+      {
+       "name": "Lupin",
+       "dir": "up",
+       "move": "+2%+",
+       "line": "USFDA nod for Risperidone long-acting injectable"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Marico shares spurt 6% on robust Q2, guidance revision",
+      "url": "https://www.business-standard.com/markets/news/marico-shares-spurt-6-on-robust-q2-earnings-positive-revision-in-guidance-126110300266_1.html"
+     }
+    }
    }
   }
  },
@@ -36,24 +60,73 @@
    "key": "marico-q2",
    "tag": "Results",
    "impact": "pos",
-   "title": "Marico Q2 profit up 31% to ₹550 cr",
-   "line": "FMCG maker's profit rose 31% YoY in the September quarter",
+   "title": "Marico raises FY27 guidance after Q2 beat",
+   "line": "Profit up 29.2% to ₹558 cr on 10% India volume growth; revenue +13% to ₹3,897 cr",
    "more": [
-    "Reported after Monday's close",
-    "Earlier flagged double-digit India volume growth"
+    "Gross margin expanded ~600 bps as copra prices eased",
+    "A brokerage raised FY27–29 EPS estimates by 2–3%",
+    "Corrects the earlier ₹550 cr / 31% figure"
    ],
    "src": {
-    "title": "Upstox: Q2 results highlights — Marico profit jumps 31% to ₹550 crore",
-    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-itc-nalco-marico-upl-tata-investment-corp-tbo-tek-esds-software-devyani-international-others-to-post-earnings-on-nov-2/liveblog-202795/"
+    "title": "Business Standard: Marico Q2 net profit rises 29% to ₹558 cr",
+    "url": "https://www.business-standard.com/amp/companies/quarterly-results/marico-q2-net-profit-rises-29-to-558-cr-on-strong-volume-growth-126110201070_1.html"
    },
    "date": "2026-11-03",
-   "slot": "0925",
-   "when": "9:25",
+   "slot": "0955",
+   "when": "9:55",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1200"
+   }
+  },
+  {
+   "key": "lupin-usfda",
+   "tag": "Regulation",
+   "impact": "pos",
+   "title": "Lupin gets USFDA nod for Risperidone LAI",
+   "line": "Approval for long-acting injectable Risperidone lifts the stock over 2%",
+   "more": [
+    "Reported by HDFC Sky",
+    "In focus on Tuesday's watch lists"
+   ],
+   "src": {
+    "title": "HDFC Sky: Lupin secures USFDA nod for Risperidone long-acting injectable",
+    "url": "https://hdfcsky.com/news/lupin-secures-usfda-nod-for-risperidone-long-acting-injectable"
+   },
+   "date": "2026-11-03",
+   "slot": "0955",
+   "when": "9:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "0955"
+   }
+  },
+  {
+   "key": "ipo-listings",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "BLS Polymers debut awaited",
+   "line": "Issue at ₹150; grey-market estimates ranged ₹185–218 before listing",
+   "more": [
+    "Subscribed 241.22 times",
+    "Listing on BSE and NSE today"
+   ],
+   "src": {
+    "title": "Chittorgarh: BLS Polymers IPO details",
+    "url": "https://www.chittorgarh.com/ipo/bls-polymers-ipo/2559/"
+   },
+   "date": "2026-11-03",
+   "slot": "0955",
+   "when": "9:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "pre"
    }
   },
   {
@@ -74,34 +147,10 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "ipo-listings",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "BLS Polymers lists at 10 am; GMP ~₹63",
-   "line": "Issue price ₹150; grey market pointed to about ₹213 listing as of Nov 2",
-   "more": [
-    "SFC Environmental also lists today",
-    "GMP is unofficial and indicative only"
-   ],
-   "src": {
-    "title": "IIFL: BLS Polymers allotment, GMP and listing expectations",
-    "url": "https://www.indiainfoline.com/news/ipo/bls-polymers-allotment-status-check-online-steps-gmp-listing-expectations-and-key-details"
-   },
-   "date": "2026-11-03",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "pre"
    }
   },
   {
