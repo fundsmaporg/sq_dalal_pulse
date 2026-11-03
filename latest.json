@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-03T18:00:16+05:30",
+ "generated_at": "2026-11-03T21:00:35+05:30",
  "date": "2026-11-03",
- "slot": "1800",
- "slot_label": "18:00",
+ "slot": "2100",
+ "slot_label": "21:00",
  "stage": "Evening wrap",
- "asof": "2026-11-03T18:00:00+05:30",
+ "asof": "2026-11-03T21:00:00+05:30",
  "nifty": {
   "value": 23810.85,
   "pct": 1.58,
@@ -13,25 +13,99 @@
   "approx": false
  },
  "mood": {
-  "label": "Cautious into Wednesday",
-  "score": 0.15,
-  "summary": "After a fourth straight gain, the set-up for Wednesday looks mixed: firmer oil and soft US tech futures temper momentum while domestic results and foreign buying stay supportive.",
+  "label": "Steady into Wednesday",
+  "score": 0.2,
+  "summary": "Heading into Wednesday, Wall Street is mixed on US election day with tech steadying, while firmer oil and the vote outcome keep caution in place after India's four-day run.",
   "detail": {
-   "leaders": "Exchange and staples names could stay in focus after NSE's results and the FMCG rally",
-   "laggards": "IT and oil-sensitive names exposed if US tech and crude move against them",
-   "tone": "Forward-looking evening read: Indian stocks closed firmly higher, but overnight cues have turned less friendly, with US futures soft and crude rebounding on the Qeshm strikes.",
+   "leaders": "Exchange stocks after strong MCX and NSE results; staples momentum",
+   "laggards": "Oil-sensitive names if crude extends its rebound; IT if US tech wobbles",
+   "tone": "Forward-looking evening read: a touch better than at 18:00, as US tech opened higher, but the midterm result and Iran-linked oil moves can still swing the open.",
    "watch": [
     "US midterm results overnight",
-    "Brent after the rebound toward $106",
-    "Nasdaq-100 after entering a correction"
+    "AMD results after the US close",
+    "Brent after the Qeshm-strike rebound"
    ],
    "src": {
-    "title": "Yahoo Finance: Dow, S&P 500, Nasdaq futures waver ahead of midterm results, AMD earnings",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-090846378.html"
+    "title": "TheStreet: Stock market today Nov 3 — Nasdaq edges higher as midterm voting begins",
+    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-03-2026"
    }
   }
  },
  "insights": [
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Wall St mixed as midterm voting begins",
+   "line": "Early trade: Nasdaq +0.81%, S&P 500 +0.28%, Dow −0.49% as Apple drags",
+   "more": [
+    "Apple fell on a disappointing margin forecast",
+    "Nasdaq-100 entered a correction on Monday",
+    "JPMorgan sees S&P −0.5% on a Democratic sweep"
+   ],
+   "src": {
+    "title": "TheStreet: Stock market today Nov 3 — Nasdaq edges higher as midterm voting begins",
+    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-03-2026"
+   },
+   "date": "2026-11-03",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "mcx-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "MCX Q2 profit more than doubles",
+   "line": "Consolidated profit ₹454.57 cr vs ₹197.47 cr; operating income ₹799.66 cr",
+   "more": [
+    "Standalone profit ₹405.35 cr vs ₹156.43 cr",
+    "Profit up ~10% on Q1 FY27",
+    "Shares jumped 9% before results"
+   ],
+   "src": {
+    "title": "Whalesbook: MCX Q2 net profit jumps to ₹454 crore; revenue doubles",
+    "url": "https://www.whalesbook.com/corporate-news/English/other/MCX-Q2-Net-Profit-Jumps-to-Rs-454-Crore-Revenue-Doubles/6ae9ec17c6c6dccbb91139ae"
+   },
+   "date": "2026-11-03",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1455"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Oil holds gains after Qeshm strike",
+   "line": "Brent rebounded toward $106 on Tuesday after Monday's 7.6% slide",
+   "more": [
+    "Iran says contacts with the US continue",
+    "No breakthrough in Qatari-mediated talks"
+   ],
+   "src": {
+    "title": "CNBC: Oil prices climb after US strikes Iran's Qeshm Island",
+    "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+   },
+   "date": "2026-11-03",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-26",
+    "slot": "pre"
+   }
+  },
   {
    "key": "nse-q2",
    "tag": "Results",
@@ -51,59 +125,10 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1325"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "US futures soft as Apple slides pre-market",
-   "line": "Dow futures down ~0.5–0.9%; Nasdaq-100 closed Monday >10% below its record",
-   "more": [
-    "Apple fell ~4.5% pre-market on memory-chip cost warning",
-    "AMD reports after the US close",
-    "Americans vote in the midterms today"
-   ],
-   "src": {
-    "title": "Yahoo Finance: Dow, S&P 500, Nasdaq futures waver ahead of midterm results, AMD earnings",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-090846378.html"
-   },
-   "date": "2026-11-03",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent rebounds to ~$106 on Qeshm strike",
-   "line": "Oil up ~1.75% on Tuesday after Monday's 7.6% slide as talks show no breakthrough",
-   "more": [
-    "Monday settle $104.77",
-    "Tehran says contacts with the US continue"
-   ],
-   "src": {
-    "title": "CNBC: Oil prices climb after US strikes Iran's Qeshm Island",
-    "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
-   },
-   "date": "2026-11-03",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-26",
-    "slot": "pre"
    }
   },
   {
@@ -124,7 +149,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1800"
@@ -272,30 +297,6 @@
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1230"
-   }
-  },
-  {
-   "key": "mcx-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "MCX jumps 9% before its Q2",
-   "line": "Commodity exchange shares surge ahead of September-quarter results",
-   "more": [
-    "Results due today",
-    "Flagged in Business Standard's live blog"
-   ],
-   "src": {
-    "title": "Business Standard: Sensex surges 900 pts, Nifty above 23,600; MCX shares jump 9% ahead of Q2",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
-   },
-   "date": "2026-11-03",
-   "slot": "1455",
-   "when": "14:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1455"
    }
   },
   {
