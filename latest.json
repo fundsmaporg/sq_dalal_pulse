@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-03T15:56:52+05:30",
+ "generated_at": "2026-11-03T16:26:36+05:30",
  "date": "2026-11-03",
- "slot": "1555",
- "slot_label": "15:55",
+ "slot": "1625",
+ "slot_label": "16:25",
  "stage": "Post-market mood",
- "asof": "2026-11-03T15:55:00+05:30",
+ "asof": "2026-11-03T16:25:00+05:30",
  "nifty": {
   "value": 23810.85,
   "pct": 1.58,
@@ -15,79 +15,172 @@
  "mood": {
   "label": "Fourth-day rally",
   "score": 0.55,
-  "summary": "The market closed at the day's best levels for a fourth straight gain, with FMCG leading strongly and midcaps outpacing smallcaps, while PSU banks and IT lagged.",
+  "summary": "Indian stocks closed firmly higher for a fourth straight session, with consumer staples doing the heavy lifting while PSU banks, power and oil producers slipped.",
   "detail": {
-   "leaders": "Nifty FMCG, Marico, Nifty Midcap 100",
-   "laggards": "Nifty PSU Bank, Nifty IT, Nifty Smallcap 100",
-   "tone": "Session read: firmer than 15:25, finishing at the day's best after the closing push. A fourth straight up day.",
+   "leaders": "Nifty FMCG, Nestle India, Tata Consumer",
+   "laggards": "Nifty PSU Bank, SBI, ONGC",
+   "tone": "Close: the market finished at its best levels of the day, a fourth straight gain built on the earlier rally in staples and a late push higher.",
    "watch": [
     "NSE, MCX and Lupin results after hours",
     "US midterm results overnight",
     "FII/DII provisional data this evening"
    ],
    "src": {
-    "title": "Business Standard: Stock Market Close — Sensex rises for 4th day, up 1,225 pts, Nifty at 23,811; FMCG top gainer",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+    "title": "Business Standard: Stock Market Close — Sensex rises for 4th day, up 1,225 pts, Nifty at 23,811",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
    },
    "movers": {
     "up": {
-     "summary": "FMCG led with a 3% jump; Marico starred and midcaps beat the Nifty",
-     "why": "Staples drew steady buying as the global AI trade unwound and crude stayed near $105, with strong Q2 numbers adding fuel.",
+     "summary": "FMCG jumped 3% as Nestle and Tata Consumer led the staples rally",
+     "why": "Money rotated into consumer staples as the global AI trade unwound and crude stayed near $105, with Marico's beat setting the tone.",
      "names": [
       {
        "name": "Nifty FMCG",
        "dir": "up",
        "move": "+3%",
-       "line": "Top sector for a second straight day; Marico's beat led the charge"
+       "line": "Top sector for a second straight day"
       },
       {
-       "name": "Marico",
+       "name": "Nestle India",
        "dir": "up",
-       "move": "up to +8.4%",
-       "line": "Q2 profit up 29%, FY27 guidance raised; brokers revised targets"
+       "line": "Among top Nifty gainers as staples drew buying all session"
       },
       {
-       "name": "Nifty Midcap 100",
+       "name": "Tata Consumer Products",
        "dir": "up",
-       "move": "+1.06%",
-       "line": "Broad buying beyond the large caps"
+       "line": "Among top Nifty gainers in the FMCG rally"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market Close — Sensex rises for 4th day, up 1,225 pts, Nifty at 23,811; FMCG top gainer",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+      "title": "Business Standard: Stock Market Close — Sensex rises for 4th day, up 1,225 pts, Nifty at 23,811",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
      }
     },
     "down": {
-     "summary": "PSU banks were the weakest sector; IT lagged and smallcaps trailed",
-     "why": "PSU banks lost steam as SBI's results drew a muted response, IT stayed weighed by Infosys's guidance cut, and smallcaps rose far less than midcaps.",
+     "summary": "PSU banks the weakest sector; SBI and ONGC among Nifty losers",
+     "why": "SBI's results failed to spark buying in state-run banks, and cheaper crude kept upstream oil producers under pressure.",
      "names": [
       {
        "name": "Nifty PSU Bank",
        "dir": "down",
-       "line": "Weakest sector; SBI flat after Q2 despite 14% profit growth"
+       "line": "Weakest sector of the day"
       },
       {
-       "name": "Nifty IT",
+       "name": "SBI",
        "dir": "down",
-       "line": "Among the weakest sectors through the afternoon on Infosys's guidance cut"
+       "line": "Slipped after Q2 despite a 14% profit rise to ₹23,038 cr"
       },
       {
-       "name": "Nifty Smallcap 100",
-       "dir": "up",
-       "move": "+0.31%",
-       "line": "Rose but trailed midcaps by a wide margin"
+       "name": "ONGC",
+       "dir": "down",
+       "line": "Cheaper crude weighs on upstream realisations"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market Close — Sensex rises for 4th day, up 1,225 pts, Nifty at 23,811; FMCG top gainer",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+      "title": "Daily Prabhat: Market rally continues on FII inflows; Sensex closes 1,225 higher",
+      "url": "https://www.dailyprabhat.com/market-rally-continues-on-fii-inflows-sensex-closes-1225-points-higher-nifty-gains-1-58/"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FII inflows credited for the rally",
+   "line": "Reports tie the fourth straight gain to foreign buying and cheaper crude",
+   "more": [
+    "FIIs bought ₹3,115 cr on Monday (provisional)",
+    "Rupee strengthened 12 paise to 94.72 early in the day"
+   ],
+   "src": {
+    "title": "Daily Prabhat: Market rally continues on FII inflows; Sensex closes 1,225 higher",
+    "url": "https://www.dailyprabhat.com/market-rally-continues-on-fii-inflows-sensex-closes-1225-points-higher-nifty-gains-1-58/"
+   },
+   "date": "2026-11-03",
+   "slot": "1625",
+   "when": "16:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-26",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "broader-market",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Mid- and smallcaps close higher",
+   "line": "Nifty Midcap rose ~0.8–1.1% and Smallcap ~0.3–0.6%, per differing reports",
+   "more": [
+    "BSE among top Nifty-linked gainers",
+    "Power Grid, Adani Enterprises, Tata Steel, NTPC among losers"
+   ],
+   "src": {
+    "title": "DSIJ: Closing Bell — Sensex surges 1,200 points as FMCG and banking stocks rally",
+    "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-surges-1200-points-nifty-50-closes-above-23800-as-fmcg-and-banking-stocks-rally-60291"
+   },
+   "date": "2026-11-03",
+   "slot": "1625",
+   "when": "16:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1625"
+   }
+  },
+  {
+   "key": "nse-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "NSE, MCX, Lupin numbers due tonight",
+   "line": "Exchange operators and Lupin report Q2 after market hours",
+   "more": [
+    "MCX jumped 9% before results",
+    "Solar Industries and Lloyds Metals also report"
+   ],
+   "src": {
+    "title": "Business Today Bazaar: Q2 results today — SBI, Bajaj Finserv, NSE, Lupin and others",
+    "url": "https://bazaar.businesstoday.in/share-market/story/q2fy27-results-today-3rd-november-sbi-bajaj-finserv-nse-lupin-and-40-other-companies-to-announce-september-quarter-earnings-1470766-2026-11-03"
+   },
+   "date": "2026-11-03",
+   "slot": "1625",
+   "when": "16:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1325"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "US midterm results overnight",
+   "line": "Prediction markets price a 74–78% chance of a Democratic sweep of Congress",
+   "more": [
+    "Results land before India's next open",
+    "US 10-year near 4.92%"
+   ],
+   "src": {
+    "title": "TipRanks: Futures rise as investors focus on midterms; oil falls",
+    "url": "https://www.tipranks.com/news/futures-rise-as-investors-focus-on-midterm-elections-and-key-earnings-oil-prices-fall"
+   },
+   "date": "2026-11-03",
+   "slot": "1625",
+   "when": "16:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "pre"
+   }
+  },
   {
    "key": "fmcg-lead",
    "tag": "Stocks",
@@ -106,7 +199,7 @@
    "slot": "1555",
    "when": "15:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1055"
@@ -130,34 +223,10 @@
    "slot": "1555",
    "when": "15:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1555"
-   }
-  },
-  {
-   "key": "nse-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "NSE, MCX, Lupin results after the bell",
-   "line": "Exchange operators and Lupin report Q2 after market hours",
-   "more": [
-    "MCX shares jumped 9% before results",
-    "Solar Industries, Lloyds Metals also report"
-   ],
-   "src": {
-    "title": "Business Today Bazaar: Q2 results today — SBI, Bajaj Finserv, NSE, Lupin and others",
-    "url": "https://bazaar.businesstoday.in/share-market/story/q2fy27-results-today-3rd-november-sbi-bajaj-finserv-nse-lupin-and-40-other-companies-to-announce-september-quarter-earnings-1470766-2026-11-03"
-   },
-   "date": "2026-11-03",
-   "slot": "1555",
-   "when": "15:55",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1325"
    }
   },
   {
@@ -182,30 +251,6 @@
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1255"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "US midterm results due overnight",
-   "line": "Prediction markets price a 74–78% chance of a Democratic sweep of Congress",
-   "more": [
-    "US 10-year near 4.92%",
-    "Friday's US jobs data also ahead"
-   ],
-   "src": {
-    "title": "TipRanks: Futures rise as investors focus on midterms; oil falls",
-    "url": "https://www.tipranks.com/news/futures-rise-as-investors-focus-on-midterm-elections-and-key-earnings-oil-prices-fall"
-   },
-   "date": "2026-11-03",
-   "slot": "1525",
-   "when": "15:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "pre"
    }
   },
   {
@@ -326,30 +371,6 @@
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1355"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Foreign inflows back the four-day rally",
-   "line": "Reports credit cheaper crude and FII buying for the fourth straight gain",
-   "more": [
-    "FIIs bought ₹3,115 cr on Monday (provisional)",
-    "Financial services led early gains"
-   ],
-   "src": {
-    "title": "Free Press Journal: Sensex zooms over 600 points as Q2 earnings, cheaper crude lift markets",
-    "url": "https://www.freepressjournal.in/business/bulls-tighten-their-grip-on-d-street-sensex-zooms-over-600-points-to-76358-and-nifty-crosses-23600-as-strong-q2-earnings-and-cheaper-crude-lift-markets"
-   },
-   "date": "2026-11-03",
-   "slot": "1325",
-   "when": "13:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-26",
-    "slot": "pre"
    }
   },
   {
