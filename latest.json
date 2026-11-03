@@ -1,37 +1,109 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-03T08:46:40+05:30",
+ "generated_at": "2026-11-03T09:26:07+05:30",
  "date": "2026-11-03",
- "slot": "0845",
- "slot_label": "8:45",
- "stage": "Pre-market mood",
- "asof": "2026-11-03T08:45:00+05:30",
+ "slot": "0925",
+ "slot_label": "9:25",
+ "stage": "Opening mood",
+ "asof": "2026-11-03T09:25:00+05:30",
  "nifty": {
-  "value": 23440.8,
-  "pct": 1.68,
-  "chg": 387.7,
-  "approx": false
+  "value": 23579,
+  "pct": 0.6,
+  "chg": 142,
+  "approx": true
  },
  "mood": {
-  "label": "Gap-up seen",
-  "score": 0.3,
-  "summary": "GIFT Nifty points to a higher open after Monday's 1.7% rally, though a weak Asia on AI-related tech selling and fresh US strikes on Iran temper the setup.",
+  "label": "Higher open",
+  "score": 0.4,
+  "summary": "Stocks opened higher, extending Monday's rally, with the Sensex up about 600 points in pre-open trade even as Asian markets slipped on tech selling.",
   "detail": {
-   "leaders": "Oil-sensitive stocks if crude stays near $104; order winners GRSE, NBCC; Petronet LNG",
-   "laggards": "IT on AI-capex worries in Asia; ITC after its Q2 margin squeeze",
-   "tone": "Forward-looking pre-open read. Early cues are positive for the open, but the overnight Qeshm strikes add a fresh oil risk on US election day.",
+   "leaders": "Early broad gains; per-stock leaders not yet reported",
+   "laggards": "Per-stock laggards not yet reported",
+   "tone": "Live read ten minutes into trade: India is ignoring Asia's tech-led weakness for now, building on Monday's 1.7% gain, as cheaper oil and steady US yields help.",
    "watch": [
-    "Brent reaction to US strikes on Qeshm Island",
-    "Asia tech selling (Kospi −2.4%)",
-    "BLS Polymers' 10 am listing"
+    "Whether gains hold as Asia's tech selling continues",
+    "Oil reaction to the US strikes on Qeshm Island",
+    "BLS Polymers' 10 am debut"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE, Nov 3 — GIFT Nifty signals gap-up open",
+    "title": "Business Standard: Sensex gains 600 pts at pre-open, Nifty near 23,600; Asia declines",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "marico-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Marico Q2 profit up 31% to ₹550 cr",
+   "line": "FMCG maker's profit rose 31% YoY in the September quarter",
+   "more": [
+    "Reported after Monday's close",
+    "Earlier flagged double-digit India volume growth"
+   ],
+   "src": {
+    "title": "Upstox: Q2 results highlights — Marico profit jumps 31% to ₹550 crore",
+    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-itc-nalco-marico-upl-tata-investment-corp-tbo-tek-esds-software-devyani-international-others-to-post-earnings-on-nov-2/liveblog-202795/"
+   },
+   "date": "2026-11-03",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "itc-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "ITC reacts to ~19% profit fall",
+   "line": "First session after Q2: consolidated profit ₹4,229 cr, down 18.45%; revenue up sharply",
+   "more": [
+    "Shares settled at ₹266 (+0.15%) on Monday before results",
+    "Down ~35% since last Diwali"
+   ],
+   "src": {
+    "title": "ETV Bharat: ITC Q2 net profit down 18.45% to ₹4,229.33 cr",
+    "url": "https://www.etvbharat.com/en/business/itc-second-quarter-results-net-profit-down-and-revenue-climbs-enn26110206164"
+   },
+   "date": "2026-11-03",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "ipo-listings",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "BLS Polymers lists at 10 am; GMP ~₹63",
+   "line": "Issue price ₹150; grey market pointed to about ₹213 listing as of Nov 2",
+   "more": [
+    "SFC Environmental also lists today",
+    "GMP is unofficial and indicative only"
+   ],
+   "src": {
+    "title": "IIFL: BLS Polymers allotment, GMP and listing expectations",
+    "url": "https://www.indiainfoline.com/news/ipo/bls-polymers-allotment-status-check-online-steps-gmp-listing-expectations-and-key-details"
+   },
+   "date": "2026-11-03",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "pre"
+   }
+  },
   {
    "key": "gift-nifty",
    "tag": "Opening",
@@ -50,7 +122,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "pre"
@@ -75,7 +147,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1430"
@@ -99,7 +171,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-26",
     "slot": "pre"
@@ -123,7 +195,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "0845"
@@ -147,34 +219,10 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "ipo-listings",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "BLS Polymers debuts at 10 am",
-   "line": "Issue drew 241 times subscription; lists on NSE and BSE today",
-   "more": [
-    "Subscribed 241.22 times by the Oct 29 close",
-    "Listing time 10 am"
-   ],
-   "src": {
-    "title": "Upstox: BLS Polymers IPO listing date",
-    "url": "https://upstox.com/news/market-news/ipo/bls-polymers-ipo-allotment-how-to-check-status-online-on-nse-bse-k-fin-technologies-listing-date-time-revealed/article-202679/"
-   },
-   "date": "2026-11-03",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "pre"
    }
   },
   {
@@ -224,31 +272,6 @@
    "first_seen": {
     "date": "2026-10-26",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "itc-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "ITC Q2 profit falls ~19% on cigarette tax",
-   "line": "Consolidated profit ₹4,168 cr, down 18.7% YoY; reports differ on the revenue figure",
-   "more": [
-    "Standalone profit ~₹4,137 cr, down ~20%",
-    "Paperboards segment PBIT up 48%",
-    "Figures vary across reports; check the filing"
-   ],
-   "src": {
-    "title": "Business Standard: ITC Q2 net profit declines 18.7% as cigarette taxes bite",
-    "url": "https://www.business-standard.com/companies/quarterly-results/itc-q2-results-net-profit-declines-18-45-to-4-229-crore-revenue-up-44-126110201234_1.html"
-   },
-   "date": "2026-11-03",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1000"
    }
   },
   {
@@ -724,30 +747,6 @@
    "src": {
     "title": "HDFC Sky: India VIX jumps even as Nifty, Sensex rally",
     "url": "https://hdfcsky.com/news/india-vix-jumps-2-42percent-to-15-66-even-as-nifty-rises-1-08percent-november-2-2026"
-   },
-   "date": "2026-11-02",
-   "slot": "1200",
-   "when": "Mon · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "marico-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Marico Q2 due; volumes in double digits",
-   "line": "Preview sees revenue +14.9% to ₹4,000 cr and EBITDA +25.5% to ₹703 cr",
-   "more": [
-    "Company flagged double-digit India volume growth in its update",
-    "Expects to beat near-term guidance; lower copra prices help margins"
-   ],
-   "src": {
-    "title": "Zee Business: Marico Q2 preview",
-    "url": "https://www.zeebiz.com/companies/news-marico-q2-results-preview-what-to-expect-on-revenue-profit-and-margins-404274"
    },
    "date": "2026-11-02",
    "slot": "1200",
