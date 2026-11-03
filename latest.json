@@ -1,50 +1,50 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-03T10:57:22+05:30",
+ "generated_at": "2026-11-03T11:26:44+05:30",
  "date": "2026-11-03",
- "slot": "1055",
- "slot_label": "10:55",
+ "slot": "1125",
+ "slot_label": "11:25",
  "stage": "Mid-market mood",
- "asof": "2026-11-03T10:55:00+05:30",
+ "asof": "2026-11-03T11:25:00+05:30",
  "nifty": {
-  "value": 23629.85,
-  "pct": 0.81,
-  "chg": 189.05,
-  "approx": true
+  "value": 23667.5,
+  "pct": 0.97,
+  "chg": 226.7,
+  "approx": false
  },
  "mood": {
-  "label": "At day's high",
+  "label": "Gains extend",
   "score": 0.5,
-  "summary": "The market has pushed to the day's high, with the Sensex up about 800 points as FMCG and consumer names lead and oil-producer and IT shares lag.",
+  "summary": "The rally is holding near the day's high, with the Nifty up close to 1% and FMCG and consumer names leading while upstream oil and IT lag.",
   "detail": {
-   "leaders": "IndiGo, Marico, Asian Paints",
+   "leaders": "Marico, IndiGo, Asian Paints",
    "laggards": "ONGC, Infosys",
-   "tone": "Live read: a little firmer than 10:25. The Sensex is at its day's high, up about 800 points, after the 10 am read of +718 points.",
+   "tone": "Live read: slightly firmer than 10:55. At 11 am the Sensex was at 76,511.34 (+818.56) and the Nifty at 23,667.50, a new intraday reading above the 10 am level.",
    "watch": [
-    "India VIX, up more than 4% earlier",
-    "US midterm results tonight",
-    "Oil after the Qeshm strikes"
+    "US midterm results after Indian hours",
+    "Asia tech selling (Korea down sharply)",
+    "India VIX after its early 4% jump"
    ],
    "src": {
-    "title": "Business Standard: Sensex at day's high, jumps 800 pts, Nifty tops 23,600; FMCG shines",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+    "title": "Business Standard: Stock Market LIVE, Nov 3 — 11 AM update",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IndiGo, Marico and Asian Paints lead as cheaper oil and results lift consumer names",
-     "why": "Brent's 7% slide on Monday eases input and fuel costs, and strong Q2 numbers add stock-specific buying.",
+     "summary": "Marico extends its results rally; IndiGo and Asian Paints gain on cheaper oil",
+     "why": "Strong Q2 numbers and Brent's slide below $105 keep consumer-facing names in demand.",
      "names": [
+      {
+       "name": "Marico",
+       "dir": "up",
+       "move": "up to +8.4%",
+       "line": "Hit ₹865 after Q2; CLSA, Morgan Stanley, Jefferies weigh in on targets"
+      },
       {
        "name": "IndiGo (InterGlobe Aviation)",
        "dir": "up",
        "move": "+2.8% to +3.6%",
-       "line": "Q2 beat and cheaper jet-fuel prospects; up ~5% over two sessions"
-      },
-      {
-       "name": "Marico",
-       "dir": "up",
-       "move": "+6%",
-       "line": "Q2 profit up 29%; FY27 guidance raised"
+       "line": "Q2 beat and cheaper jet-fuel prospects"
       },
       {
        "name": "Asian Paints",
@@ -54,8 +54,8 @@
       }
      ],
      "src": {
-      "title": "Business Standard: Sensex at day's high, jumps 800 pts, Nifty tops 23,600; FMCG shines",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+      "title": "BusinessToday: Marico shares jump 8% after Q2; CLSA, Morgan Stanley, Jefferies targets",
+      "url": "https://www.businesstoday.in/markets/stocks/story/marico-shares-jump-8-after-q2-results-clsa-morgan-stanley-jefferies-share-targets-565297-2026-11-03"
      }
     },
     "down": {
@@ -71,7 +71,7 @@
       {
        "name": "Infosys",
        "dir": "down",
-       "line": "Among top losers again after cutting FY growth guidance to 1–2% CC"
+       "line": "Among early top losers after cutting FY growth guidance to 1–2% CC"
       }
      ],
      "src": {
@@ -83,6 +83,78 @@
   }
  },
  "insights": [
+  {
+   "key": "marico-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Marico jumps up to 8% as brokers revise targets",
+   "line": "Shares hit ₹865 (+8.4%); Q2 EBITDA up 27% to ₹709 cr on 13% revenue growth",
+   "more": [
+    "CLSA, Morgan Stanley and Jefferies updated targets after results",
+    "Previous close ₹797.90"
+   ],
+   "src": {
+    "title": "BusinessToday: Marico shares jump 8% after Q2; CLSA, Morgan Stanley, Jefferies targets",
+    "url": "https://www.businesstoday.in/markets/stocks/story/marico-shares-jump-8-after-q2-results-clsa-morgan-stanley-jefferies-share-targets-565297-2026-11-03"
+   },
+   "date": "2026-11-03",
+   "slot": "1125",
+   "when": "11:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "US futures mixed on midterm day",
+   "line": "Investors hold positions until results; prediction markets price a 74–78% Democratic sweep",
+   "more": [
+    "Friday's US jobs report also ahead",
+    "Brent near $104.73, WTI near $96.55 early Tuesday"
+   ],
+   "src": {
+    "title": "TipRanks: Futures rise as investors focus on midterms; oil falls",
+    "url": "https://www.tipranks.com/news/futures-rise-as-investors-focus-on-midterm-elections-and-key-earnings-oil-prices-fall"
+   },
+   "date": "2026-11-03",
+   "slot": "1125",
+   "when": "11:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "asia-tech",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Korea leads Asian losses before US vote",
+   "line": "Korean stocks fell nearly 3.8% in one account as Asia slipped ahead of the midterms",
+   "more": [
+    "Tech and Mideast tensions in focus",
+    "Oil prices stabilised in Asia"
+   ],
+   "src": {
+    "title": "Global Banking & Finance: Asian stocks fall ahead of US midterms",
+    "url": "https://www.globalbankingandfinance.com/asian-stocks-retreat-ahead-us-midterms-oil-steadies/"
+   },
+   "date": "2026-11-03",
+   "slot": "1125",
+   "when": "11:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "0845"
+   }
+  },
   {
    "key": "crude",
    "tag": "Global",
@@ -101,7 +173,7 @@
    "slot": "1055",
    "when": "10:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-26",
     "slot": "pre"
@@ -125,7 +197,7 @@
    "slot": "1055",
    "when": "10:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1055"
@@ -149,7 +221,7 @@
    "slot": "1055",
    "when": "10:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1055"
@@ -224,31 +296,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "marico-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Marico raises FY27 guidance after Q2 beat",
-   "line": "Profit up 29.2% to ₹558 cr on 10% India volume growth; revenue +13% to ₹3,897 cr",
-   "more": [
-    "Gross margin expanded ~600 bps as copra prices eased",
-    "A brokerage raised FY27–29 EPS estimates by 2–3%",
-    "Corrects the earlier ₹550 cr / 31% figure"
-   ],
-   "src": {
-    "title": "Business Standard: Marico Q2 net profit rises 29% to ₹558 cr",
-    "url": "https://www.business-standard.com/amp/companies/quarterly-results/marico-q2-net-profit-rises-29-to-558-cr-on-strong-volume-growth-126110201070_1.html"
-   },
-   "date": "2026-11-03",
-   "slot": "0955",
-   "when": "9:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
     "slot": "1200"
    }
   },
@@ -350,30 +397,6 @@
    }
   },
   {
-   "key": "asia-tech",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Asia falls on AI-capex worries",
-   "line": "Nikkei −0.33%, Kospi −2.4% as investors keep selling tech shares",
-   "more": [
-    "Follows Nasdaq's 1.07% fall on Monday",
-    "Investors worried about heavy AI capital spending"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE, Nov 3 — GIFT Nifty signals gap-up open",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
-   },
-   "date": "2026-11-03",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0845"
-   }
-  },
-  {
    "key": "order-wins",
    "tag": "Stocks",
    "impact": "pos",
@@ -395,31 +418,6 @@
    "first_seen": {
     "date": "2026-11-03",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Wall St mixed; Nasdaq falls 1.1%",
-   "line": "Dow +0.41% to 51,983.98; S&P 500 −0.51% to 7,541.40; Nasdaq −1.07% to 25,164.36",
-   "more": [
-    "Third straight loss for the S&P 500 as AI stocks slid",
-    "US 10-year yield eased to 4.92%",
-    "Americans vote in the midterms today"
-   ],
-   "src": {
-    "title": "Yahoo Finance: How major US stock indexes fared Monday 11/2/2026",
-    "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-212103580.html"
-   },
-   "date": "2026-11-03",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "pre"
    }
   },
   {
