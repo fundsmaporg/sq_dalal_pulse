@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-03T07:00:32+05:30",
+ "generated_at": "2026-11-03T08:46:40+05:30",
  "date": "2026-11-03",
- "slot": "0700",
- "slot_label": "7:00",
+ "slot": "0845",
+ "slot_label": "8:45",
  "stage": "Pre-market mood",
- "asof": "2026-11-03T07:00:00+05:30",
+ "asof": "2026-11-03T08:45:00+05:30",
  "nifty": {
   "value": 23440.8,
   "pct": 1.68,
@@ -13,46 +13,167 @@
   "approx": false
  },
  "mood": {
-  "label": "Steady start likely",
+  "label": "Gap-up seen",
   "score": 0.3,
-  "summary": "Into Tuesday, a sharp overnight drop in oil and steady foreign buying favour Indian stocks, while weak US tech and US midterm-election uncertainty argue for a measured start.",
+  "summary": "GIFT Nifty points to a higher open after Monday's 1.7% rally, though a weak Asia on AI-related tech selling and fresh US strikes on Iran temper the setup.",
   "detail": {
-   "leaders": "Oil-sensitive stocks on cheaper crude; Petronet LNG after its Q2",
-   "laggards": "IT on Nasdaq's fall; ITC after an 18–20% profit drop",
-   "tone": "Forward-looking read before the open. Monday's 1.7% rally sets a high bar, but crude's slide to about $105 and Monday's FII buying support the open.",
+   "leaders": "Oil-sensitive stocks if crude stays near $104; order winners GRSE, NBCC; Petronet LNG",
+   "laggards": "IT on AI-capex worries in Asia; ITC after its Q2 margin squeeze",
+   "tone": "Forward-looking pre-open read. Early cues are positive for the open, but the overnight Qeshm strikes add a fresh oil risk on US election day.",
    "watch": [
-    "Brent near $105 if US–Iran diplomacy falters",
-    "US midterm results through the day",
-    "IT reaction to Nasdaq's 1.1% drop"
+    "Brent reaction to US strikes on Qeshm Island",
+    "Asia tech selling (Kospi −2.4%)",
+    "BLS Polymers' 10 am listing"
    ],
    "src": {
-    "title": "CNBC: Crude sells off more than 7% on Iran peace talk hopes",
-    "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+    "title": "Business Standard: Stock Market LIVE, Nov 3 — GIFT Nifty signals gap-up open",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
    }
   }
  },
  "insights": [
   {
-   "key": "crude",
-   "tag": "Global",
+   "key": "gift-nifty",
+   "tag": "Opening",
    "impact": "pos",
-   "title": "Brent settles 7.6% lower at $104.77",
-   "line": "Oil sold off as US and Iranian presidents signalled openness to a diplomatic solution",
+   "title": "GIFT Nifty points to a gap-up",
+   "line": "GIFT Nifty at 23,523 at 8:37 am, ~108 points above Nifty futures",
    "more": [
-    "WTI near $96.30, down ~7.5% (Trading Economics)",
-    "Analysts said much of the recent gain was risk premium"
+    "Business Standard puts it up about 111 points",
+    "Snapshots vary by time; treat as indicative"
    ],
    "src": {
-    "title": "CNBC: Crude sells off more than 7% on Iran peace talk hopes",
-    "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+    "title": "Stockezee: GIFT Nifty live",
+    "url": "https://www.stockezee.com/gift-nifty-live"
    },
    "date": "2026-11-03",
-   "slot": "0700",
-   "when": "7:00",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "hormuz-attacks",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US strikes Iran's Qeshm Island",
+   "line": "US hit radar and missile launchers in what officials called 'defensive' strikes",
+   "more": [
+    "Comes as Qatar-led peace talks continue",
+    "Iran has not confirmed the source of reported explosions",
+    "Oil rose in early Asian trade on the reports"
+   ],
+   "src": {
+    "title": "The Hill: US military launches 'defensive' attacks on Iran's Qeshm Island",
+    "url": "https://thehill.com/policy/defense/6190947-us-strikes-iranian-radar-missiles/"
+   },
+   "date": "2026-11-03",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Brent steady near $104 after 7% drop",
+   "line": "January Brent at $104.41, up 0.12%, after Monday's sharp slide",
+   "more": [
+    "Early-Asia rise linked to Qeshm strike reports",
+    "Monday's fall was on US–Iran diplomacy hopes"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE, Nov 3 — GIFT Nifty signals gap-up open",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+   },
+   "date": "2026-11-03",
+   "slot": "0845",
+   "when": "8:45",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-26",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "asia-tech",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Asia falls on AI-capex worries",
+   "line": "Nikkei −0.33%, Kospi −2.4% as investors keep selling tech shares",
+   "more": [
+    "Follows Nasdaq's 1.07% fall on Monday",
+    "Investors worried about heavy AI capital spending"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE, Nov 3 — GIFT Nifty signals gap-up open",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+   },
+   "date": "2026-11-03",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "order-wins",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "GRSE, NBCC win orders; Lupin gets USFDA nod",
+   "line": "GRSE gets ₹320 cr Navy corvette order; NBCC bags ₹71 cr of EPC work",
+   "more": [
+    "Lupin in focus after a USFDA approval",
+    "NMDC in focus on October production data"
+   ],
+   "src": {
+    "title": "Zee Business: Stocks to watch, Nov 3 — ITC, Marico, Lupin, GRSE, NBCC, NMDC",
+    "url": "https://www.zeebiz.com/market-news/news-stocks-to-watch-today-november-3-itc-marico-lupin-garden-reach-nbcc-nmdc-and-others-in-focus-404979"
+   },
+   "date": "2026-11-03",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "ipo-listings",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "BLS Polymers debuts at 10 am",
+   "line": "Issue drew 241 times subscription; lists on NSE and BSE today",
+   "more": [
+    "Subscribed 241.22 times by the Oct 29 close",
+    "Listing time 10 am"
+   ],
+   "src": {
+    "title": "Upstox: BLS Polymers IPO listing date",
+    "url": "https://upstox.com/news/market-news/ipo/bls-polymers-ipo-allotment-how-to-check-status-online-on-nse-bse-k-fin-technologies-listing-date-time-revealed/article-202679/"
+   },
+   "date": "2026-11-03",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
     "slot": "pre"
    }
   },
@@ -75,7 +196,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "pre"
@@ -99,7 +220,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-26",
     "slot": "pre"
@@ -124,7 +245,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1000"
@@ -148,7 +269,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "0700"
@@ -172,34 +293,10 @@
    "slot": "0700",
    "when": "7:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "ipo-listings",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "BLS Polymers lists today",
-   "line": "Issue was subscribed 241 times; shares debut on NSE and BSE at 10 am",
-   "more": [
-    "Subscribed 241.22 times by the Oct 29 close",
-    "Listing date Nov 3"
-   ],
-   "src": {
-    "title": "Upstox: BLS Polymers IPO listing date",
-    "url": "https://upstox.com/news/market-news/ipo/bls-polymers-ipo-allotment-how-to-check-status-online-on-nse-bse-k-fin-technologies-listing-date-time-revealed/article-202679/"
-   },
-   "date": "2026-11-03",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "pre"
    }
   },
   {
@@ -346,30 +443,6 @@
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1500"
-   }
-  },
-  {
-   "key": "hormuz-attacks",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Tanker mine strikes shadow Hormuz talks",
-   "line": "IRGC says two tankers hit mines in Hormuz; Qatar condemns attack on LNG carrier",
-   "more": [
-    "Mine claim not independently verified",
-    "Pakistan mediating alongside Qatar"
-   ],
-   "src": {
-    "title": "Türkiye Today: Hormuz talks continue without final deal",
-    "url": "https://www.turkiyetoday.com/region/iran-says-qatar-mediated-hormuz-talks-continue-without-final-deal-3231501"
-   },
-   "date": "2026-11-02",
-   "slot": "1430",
-   "when": "Mon · 14:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1430"
    }
   },
   {
@@ -830,32 +903,6 @@
    "first_seen": {
     "date": "2026-11-01",
     "slot": "outlook"
-   }
-  },
-  {
-   "key": "gift-nifty",
-   "tag": "Opening",
-   "impact": "pos",
-   "title": "GIFT Nifty signals a gap-up",
-   "line": "Pre-open reads range from ~100 to ~245 points above Friday's 23,053 close",
-   "more": [
-    "DSIJ: ~23,299 around 7am IST, +245.9 pts (+1.07%)",
-    "Whalesbook: up 217 points",
-    "Business Standard live blog: up over 100 points",
-    "Reads differ by time; treat as indicative"
-   ],
-   "src": {
-    "title": "DSIJ: Pre-market update, GIFT Nifty signals positive start",
-    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-positive-start-reliance-earnings-crude-oil-and-global-cues-in-focus-60267"
-   },
-   "date": "2026-11-02",
-   "slot": "pre",
-   "when": "Mon · Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "pre"
    }
   },
   {
