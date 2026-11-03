@@ -1,46 +1,40 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-03T12:56:48+05:30",
+ "generated_at": "2026-11-03T13:26:21+05:30",
  "date": "2026-11-03",
- "slot": "1255",
- "slot_label": "12:55",
+ "slot": "1325",
+ "slot_label": "13:25",
  "stage": "Mid-market mood",
- "asof": "2026-11-03T12:55:00+05:30",
+ "asof": "2026-11-03T13:25:00+05:30",
  "nifty": {
-  "value": 23692.1,
-  "pct": 1.07,
-  "chg": 251.3,
-  "approx": true,
-  "asof_quote": "12:00"
+  "value": 23678.5,
+  "pct": 1.01,
+  "chg": 237.7,
+  "approx": false,
+  "asof_quote": "13:00"
  },
  "mood": {
-  "label": "Steady gains",
+  "label": "Firm afternoon",
   "score": 0.45,
-  "summary": "The market is holding most of its gains into the afternoon after a midday high, with defence joining staples among the leaders and IT and oil producers still lagging.",
+  "summary": "The rally is holding firm into the afternoon, led by financials and consumer names, while healthcare and energy see some profit-taking after a four-day run.",
   "detail": {
-   "leaders": "Nifty India Defence, IndiGo, Nestle India",
-   "laggards": "Infosys, ONGC",
-   "tone": "Live read: a touch off the midday high but still firmly higher, with the latest headline describing a smaller Sensex gain than at noon.",
+   "leaders": "IndiGo, Nestle India, NSE",
+   "laggards": "Infosys, ONGC, healthcare",
+   "tone": "Live read: little changed from 12:55, with the market slightly off its midday best but still holding a gain of about 1%.",
    "watch": [
-    "Profit-taking after a four-day run",
+    "Analysts flag profit-taking near 23,800–23,900 on the Nifty",
     "US midterm results after Indian hours",
-    "Brent if Hormuz talks stall"
+    "NSE's Q2 numbers"
    ],
    "src": {
-    "title": "Business Standard: Sensex surges 700 pts, Nifty tops 23,650; Nifty India Defence gains 2%",
+    "title": "Business Standard: Sensex surges 800 pts, Nifty tops 23,650; NSE shares up 1% ahead of Q2",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Defence stocks join staples and airlines among the leaders",
-     "why": "Rotation into defence and consumer names continues as the AI trade unwinds globally and crude stays well below last week's levels.",
+     "summary": "IndiGo and Nestle lead; NSE shares rise ahead of their Q2 results",
+     "why": "Cheaper crude and the global AI-trade unwind are pushing money into consumer and financial names.",
      "names": [
-      {
-       "name": "Nifty India Defence",
-       "dir": "up",
-       "move": "+2%",
-       "line": "HAL and Solar Industries lead the defence pack"
-      },
       {
        "name": "IndiGo (InterGlobe Aviation)",
        "dir": "up",
@@ -52,16 +46,22 @@
        "dir": "up",
        "move": "+2.69%",
        "line": "Staples in demand; FMCG rally in a second day (12 pm read)"
+      },
+      {
+       "name": "NSE",
+       "dir": "up",
+       "move": "+1%",
+       "line": "Shares up ahead of its Q2 results"
       }
      ],
      "src": {
-      "title": "Business Standard: Sensex surges 700 pts, Nifty tops 23,650; Nifty India Defence gains 2%",
+      "title": "Business Standard: Sensex surges 800 pts, Nifty tops 23,650; NSE shares up 1% ahead of Q2",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
      }
     },
     "down": {
-     "summary": "Infosys and ONGC remain the main large-cap drags",
-     "why": "IT stays weak after Infosys's guidance cut, and upstream producers lose from cheaper oil.",
+     "summary": "Infosys and ONGC drag; healthcare sees profit-taking",
+     "why": "IT stays weak on Infosys's guidance cut, upstream producers lose from cheaper oil, and healthcare is being trimmed.",
      "names": [
       {
        "name": "Infosys",
@@ -74,11 +74,16 @@
        "dir": "down",
        "move": "−1.53%",
        "line": "Lower crude prices hit upstream realisations (12 pm read)"
+      },
+      {
+       "name": "Nifty Healthcare",
+       "dir": "down",
+       "line": "Profit-taking in healthcare and energy shares, per Free Press Journal"
       }
      ],
      "src": {
-      "title": "HDFC Sky: Top gainers & losers, 3 Nov 2026, 12:00 PM",
-      "url": "https://hdfcsky.com/news/top-gainers-losers-today-3-november-2026-at-12-pm"
+      "title": "Free Press Journal: Sensex zooms over 600 points as Q2 earnings, cheaper crude lift markets",
+      "url": "https://www.freepressjournal.in/business/bulls-tighten-their-grip-on-d-street-sensex-zooms-over-600-points-to-76358-and-nifty-crosses-23600-as-strong-q2-earnings-and-cheaper-crude-lift-markets"
      }
     }
    }
@@ -89,24 +94,72 @@
    "key": "rally-run",
    "tag": "Flows",
    "impact": "watch",
-   "title": "Sensex up 3,300 pts in four days",
-   "line": "Business Standard asks whether it is time to book profits after the four-session surge",
+   "title": "Analyst: 'a rebound, not a reversal yet'",
+   "line": "Sensex up ~3,325 pts (4.5%) in four sessions; short-term traders advised to book gains",
    "more": [
-    "Rally driven by Reliance's results, cheaper oil and FII buying",
-    "India VIX has risen alongside the gains"
+    "Suggested profit-taking zone: 23,800–23,900 on the Nifty",
+    "Rally on cheaper oil and returning foreign inflows"
    ],
    "src": {
     "title": "Business Standard: Sensex soars 3,300 pts in 4 days — time to sell the rally?",
-    "url": "https://business-standard.com/markets/news/sensex-soars-3-300-pts-in-4-days-as-bulls-rejoice-time-to-sell-the-rally-126110300598_1.html"
+    "url": "https://www.business-standard.com/markets/news/sensex-soars-3-300-pts-in-4-days-as-bulls-rejoice-time-to-sell-the-rally-126110300598_1.html"
    },
    "date": "2026-11-03",
-   "slot": "1255",
-   "when": "12:55",
-   "updated": false,
+   "slot": "1325",
+   "when": "13:25",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1255"
+   }
+  },
+  {
+   "key": "nse-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "NSE shares up 1% ahead of Q2",
+   "line": "Exchange operator's stock gains before its September-quarter results",
+   "more": [
+    "Results due this week",
+    "Flagged in Business Standard's live blog"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex surges 800 pts, Nifty tops 23,650; NSE shares up 1% ahead of Q2",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+   },
+   "date": "2026-11-03",
+   "slot": "1325",
+   "when": "13:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1325"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Foreign inflows back the four-day rally",
+   "line": "Reports credit cheaper crude and FII buying for the fourth straight gain",
+   "more": [
+    "FIIs bought ₹3,115 cr on Monday (provisional)",
+    "Financial services led early gains"
+   ],
+   "src": {
+    "title": "Free Press Journal: Sensex zooms over 600 points as Q2 earnings, cheaper crude lift markets",
+    "url": "https://www.freepressjournal.in/business/bulls-tighten-their-grip-on-d-street-sensex-zooms-over-600-points-to-76358-and-nifty-crosses-23600-as-strong-q2-earnings-and-cheaper-crude-lift-markets"
+   },
+   "date": "2026-11-03",
+   "slot": "1325",
+   "when": "13:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-26",
+    "slot": "pre"
    }
   },
   {
@@ -127,7 +180,7 @@
    "slot": "1255",
    "when": "12:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1255"
@@ -151,7 +204,7 @@
    "slot": "1255",
    "when": "12:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-26",
     "slot": "pre"
@@ -516,30 +569,6 @@
    "first_seen": {
     "date": "2026-11-03",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs buy ₹3,115 cr; second straight day",
-   "line": "Provisional data: FIIs net bought ₹3,115 cr on Monday; DIIs sold ₹392 cr",
-   "more": [
-    "Follows ₹3,598.54 cr FII buying on Oct 30",
-    "Figures are provisional"
-   ],
-   "src": {
-    "title": "Tapetide: FII DII data today",
-    "url": "https://tapetide.com/fii-dii-data"
-   },
-   "date": "2026-11-03",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-26",
-    "slot": "pre"
    }
   },
   {
