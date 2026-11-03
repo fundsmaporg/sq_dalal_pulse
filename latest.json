@@ -1,34 +1,34 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-03T14:56:13+05:30",
+ "generated_at": "2026-11-03T15:26:14+05:30",
  "date": "2026-11-03",
- "slot": "1455",
- "slot_label": "14:55",
- "stage": "Mid-market mood",
- "asof": "2026-11-03T14:55:00+05:30",
+ "slot": "1525",
+ "slot_label": "15:25",
+ "stage": "Closing mood",
+ "asof": "2026-11-03T15:25:00+05:30",
  "nifty": {
-  "value": 23708.3,
-  "pct": 1.14,
-  "chg": 267.5,
+  "value": 23697.65,
+  "pct": 1.09,
+  "chg": 256.6,
   "approx": false,
-  "asof_quote": "14:00"
+  "asof_quote": "15:00"
  },
  "mood": {
-  "label": "Steady into close",
-  "score": 0.45,
-  "summary": "Into the final half hour the market is holding a solid gain, with FMCG and realty leading, mid- and smallcaps higher, and IT and metals the weak spots.",
+  "label": "Strong finish",
+  "score": 0.5,
+  "summary": "The market is finishing near the day's best levels for a fourth straight gain, with FMCG and realty leading and IT and metals the weak spots.",
   "detail": {
    "leaders": "Nifty FMCG, MCX, Asian Paints",
    "laggards": "Nifty IT, Nifty Metal, SBI",
-   "tone": "Live read: little changed from 14:25. The market is still holding most of its gain, a little below the early-afternoon high.",
+   "tone": "Live read: firmer than 14:55, with the closing-auction headline showing the Sensex's gain widening again into the bell.",
    "watch": [
-    "Closing strength after a four-day rally",
     "NSE, MCX and Lupin results after hours",
-    "US midterm results overnight"
+    "US midterm results overnight",
+    "FII/DII provisional data this evening"
    ],
    "src": {
-    "title": "Business Standard: Sensex surges 900 pts, Nifty above 23,600; MCX shares jump 9% ahead of Q2",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+    "title": "Business Standard: Sensex gains 1,024 pts, Nifty at 23,732 in closing auction session",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
    },
    "movers": {
     "up": {
@@ -54,8 +54,8 @@
       }
      ],
      "src": {
-      "title": "Business Standard: Sensex surges 900 pts, Nifty above 23,600; MCX shares jump 9% ahead of Q2",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+      "title": "Business Standard: Sensex gains 1,024 pts, Nifty at 23,732 in closing auction session",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
      }
     },
     "down": {
@@ -80,14 +80,86 @@
       }
      ],
      "src": {
-      "title": "Business Standard: Sensex surges 900 pts, Nifty above 23,600; MCX shares jump 9% ahead of Q2",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+      "title": "Business Standard: Sensex gains 1,024 pts, Nifty at 23,732 in closing auction session",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "rally-run",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "Fourth straight gain for the market",
+   "line": "Rally rests on cheaper crude, Q2 beats and FII buying; analysts flag profit-taking risk",
+   "more": [
+    "Sensex had gained ~3,325 pts over the prior four sessions",
+    "Some analysts call it a rebound, not yet a reversal"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex gains 1,024 pts, Nifty at 23,732 in closing auction session",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+   },
+   "date": "2026-11-03",
+   "slot": "1525",
+   "when": "15:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1255"
+   }
+  },
+  {
+   "key": "nse-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "NSE, MCX, Lupin report after the bell",
+   "line": "Exchange operators' and Lupin's Q2 numbers land after market hours",
+   "more": [
+    "MCX shares jumped 9% before results",
+    "NSE's first results as a listed company"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex gains 1,024 pts, Nifty at 23,732 in closing auction session",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
+   },
+   "date": "2026-11-03",
+   "slot": "1525",
+   "when": "15:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1325"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "US midterm results due overnight",
+   "line": "Prediction markets price a 74–78% chance of a Democratic sweep of Congress",
+   "more": [
+    "US 10-year near 4.92%",
+    "Friday's US jobs data also ahead"
+   ],
+   "src": {
+    "title": "TipRanks: Futures rise as investors focus on midterms; oil falls",
+    "url": "https://www.tipranks.com/news/futures-rise-as-investors-focus-on-midterm-elections-and-key-earnings-oil-prices-fall"
+   },
+   "date": "2026-11-03",
+   "slot": "1525",
+   "when": "15:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "pre"
+   }
+  },
   {
    "key": "sbi-q2",
    "tag": "Results",
@@ -106,7 +178,7 @@
    "slot": "1455",
    "when": "14:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1230"
@@ -130,7 +202,7 @@
    "slot": "1455",
    "when": "14:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1455"
@@ -154,7 +226,7 @@
    "slot": "1455",
    "when": "14:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1455"
@@ -185,30 +257,6 @@
    }
   },
   {
-   "key": "nse-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "NSE results due after the close",
-   "line": "First quarterly numbers since listing; Lupin and MCX also report today",
-   "more": [
-    "NSE shares rose ahead of results",
-    "Bajaj Finserv already reported a 23% profit rise"
-   ],
-   "src": {
-    "title": "Business Standard: Sensex surges 1,000 pts, Nifty reclaims 23,700; SBI's Q2 PAT rises 14%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
-   },
-   "date": "2026-11-03",
-   "slot": "1425",
-   "when": "14:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1325"
-   }
-  },
-  {
    "key": "bajaj-finserv-q2",
    "tag": "Results",
    "impact": "pos",
@@ -230,30 +278,6 @@
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1355"
-   }
-  },
-  {
-   "key": "rally-run",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "Analyst: 'a rebound, not a reversal yet'",
-   "line": "Sensex up ~3,325 pts (4.5%) in four sessions; short-term traders advised to book gains",
-   "more": [
-    "Suggested profit-taking zone: 23,800–23,900 on the Nifty",
-    "Rally on cheaper oil and returning foreign inflows"
-   ],
-   "src": {
-    "title": "Business Standard: Sensex soars 3,300 pts in 4 days — time to sell the rally?",
-    "url": "https://www.business-standard.com/markets/news/sensex-soars-3-300-pts-in-4-days-as-bulls-rejoice-time-to-sell-the-rally-126110300598_1.html"
-   },
-   "date": "2026-11-03",
-   "slot": "1325",
-   "when": "13:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1255"
    }
   },
   {
@@ -422,30 +446,6 @@
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1155"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "US votes; results due after India closes",
-   "line": "Prediction markets price a 74–78% chance of a Democratic sweep of Congress",
-   "more": [
-    "US futures mixed earlier",
-    "Friday's jobs report also ahead"
-   ],
-   "src": {
-    "title": "TipRanks: Futures rise as investors focus on midterms; oil falls",
-    "url": "https://www.tipranks.com/news/futures-rise-as-investors-focus-on-midterm-elections-and-key-earnings-oil-prices-fall"
-   },
-   "date": "2026-11-03",
-   "slot": "1155",
-   "when": "11:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "pre"
    }
   },
   {
