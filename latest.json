@@ -1,77 +1,79 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-03T12:26:58+05:30",
+ "generated_at": "2026-11-03T12:56:48+05:30",
  "date": "2026-11-03",
- "slot": "1225",
- "slot_label": "12:25",
+ "slot": "1255",
+ "slot_label": "12:55",
  "stage": "Mid-market mood",
- "asof": "2026-11-03T12:25:00+05:30",
+ "asof": "2026-11-03T12:55:00+05:30",
  "nifty": {
   "value": 23692.1,
   "pct": 1.07,
   "chg": 251.3,
-  "approx": false
+  "approx": true,
+  "asof_quote": "12:00"
  },
  "mood": {
-  "label": "Rally broadens",
-  "score": 0.55,
-  "summary": "Gains have widened past 1% into midday, with consumer staples, chemicals and IT leading and only a few large caps such as Infosys and ONGC in the red.",
+  "label": "Steady gains",
+  "score": 0.45,
+  "summary": "The market is holding most of its gains into the afternoon after a midday high, with defence joining staples among the leaders and IT and oil producers still lagging.",
   "detail": {
-   "leaders": "IndiGo, Nestle India, Asian Paints",
+   "leaders": "Nifty India Defence, IndiGo, Nestle India",
    "laggards": "Infosys, ONGC",
-   "tone": "Live read: stronger than 11:55. At 12 pm the Sensex was up 952.83 points at 76,645.61, its best level of the day so far.",
+   "tone": "Live read: a touch off the midday high but still firmly higher, with the latest headline describing a smaller Sensex gain than at noon.",
    "watch": [
-    "Whether the Sensex holds a 900-point gain into the close",
+    "Profit-taking after a four-day run",
     "US midterm results after Indian hours",
-    "India VIX"
+    "Brent if Hormuz talks stall"
    ],
    "src": {
-    "title": "Business Standard: Sensex surges 900 pts, Nifty tops 23,650; Asian Paints, HDFC Bank top gainers",
+    "title": "Business Standard: Sensex surges 700 pts, Nifty tops 23,650; Nifty India Defence gains 2%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IndiGo, Nestle and Asian Paints lead as staples and oil-sensitive names gain",
-     "why": "Consumer staples are drawing money as the global AI trade unwinds, and cheaper crude helps airlines and paint makers.",
+     "summary": "Defence stocks join staples and airlines among the leaders",
+     "why": "Rotation into defence and consumer names continues as the AI trade unwinds globally and crude stays well below last week's levels.",
      "names": [
+      {
+       "name": "Nifty India Defence",
+       "dir": "up",
+       "move": "+2%",
+       "line": "HAL and Solar Industries lead the defence pack"
+      },
       {
        "name": "IndiGo (InterGlobe Aviation)",
        "dir": "up",
        "move": "+2.94%",
-       "line": "At ₹5,064.40; Q2 beat and cheaper jet-fuel prospects"
+       "line": "Q2 beat and cheaper jet-fuel prospects (12 pm read)"
       },
       {
        "name": "Nestle India",
        "dir": "up",
        "move": "+2.69%",
-       "line": "At ₹1,227.20 as staples lead; FMCG rally in a second day"
-      },
-      {
-       "name": "Asian Paints",
-       "dir": "up",
-       "line": "Among top Sensex gainers; crude, a key input cost, is down"
+       "line": "Staples in demand; FMCG rally in a second day (12 pm read)"
       }
      ],
      "src": {
-      "title": "HDFC Sky: Top gainers & losers, 3 Nov 2026, 12:00 PM",
-      "url": "https://hdfcsky.com/news/top-gainers-losers-today-3-november-2026-at-12-pm"
+      "title": "Business Standard: Sensex surges 700 pts, Nifty tops 23,650; Nifty India Defence gains 2%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
      }
     },
     "down": {
-     "summary": "Infosys and ONGC are the main large-cap drags",
+     "summary": "Infosys and ONGC remain the main large-cap drags",
      "why": "IT stays weak after Infosys's guidance cut, and upstream producers lose from cheaper oil.",
      "names": [
       {
        "name": "Infosys",
        "dir": "down",
        "move": "−1.77%",
-       "line": "At ₹1,140.50; FY growth guidance cut to 1–2% CC still weighs"
+       "line": "FY growth guidance cut to 1–2% CC still weighs (12 pm read)"
       },
       {
        "name": "ONGC",
        "dir": "down",
        "move": "−1.53%",
-       "line": "At ₹231.23; lower crude prices hit upstream realisations"
+       "line": "Lower crude prices hit upstream realisations (12 pm read)"
       }
      ],
      "src": {
@@ -83,6 +85,78 @@
   }
  },
  "insights": [
+  {
+   "key": "rally-run",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "Sensex up 3,300 pts in four days",
+   "line": "Business Standard asks whether it is time to book profits after the four-session surge",
+   "more": [
+    "Rally driven by Reliance's results, cheaper oil and FII buying",
+    "India VIX has risen alongside the gains"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex soars 3,300 pts in 4 days — time to sell the rally?",
+    "url": "https://business-standard.com/markets/news/sensex-soars-3-300-pts-in-4-days-as-bulls-rejoice-time-to-sell-the-rally-126110300598_1.html"
+   },
+   "date": "2026-11-03",
+   "slot": "1255",
+   "when": "12:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1255"
+   }
+  },
+  {
+   "key": "hormuz-talks",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Iran sets conditions for Hormuz reopening",
+   "line": "Asks include ending the war, unfreezing assets and lifting oil sanctions",
+   "more": [
+    "Talks run through Qatar and Pakistan",
+    "Trump says he is not considering strikes on Iran after the midterms"
+   ],
+   "src": {
+    "title": "24/7 Wall St: Iran attaches conditions to Hormuz reopening",
+    "url": "https://247wallst.com/cards/xpost-01m6earsf82khtrnw4tzn4eabb"
+   },
+   "date": "2026-11-03",
+   "slot": "1255",
+   "when": "12:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1255"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Brent edges up to ~$106",
+   "line": "Brent up about 1.1% on Tuesday after Monday's 7.6% plunge",
+   "more": [
+    "Analysts warn of 'false dawns' in the talks",
+    "Qeshm strike reports added early-session support"
+   ],
+   "src": {
+    "title": "FinanceFeeds: Brent $106 after 7.6% plunge",
+    "url": "https://financefeeds.com/brent-crude-oil-price-106-tuesday-after-7-6-percent-plunge-qeshm-strike-report-midterms-bull-113-bear-100/"
+   },
+   "date": "2026-11-03",
+   "slot": "1255",
+   "when": "12:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-26",
+    "slot": "pre"
+   }
+  },
   {
    "key": "ai-trade-unwind",
    "tag": "Global",
@@ -101,7 +175,7 @@
    "slot": "1225",
    "when": "12:25",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1225"
@@ -125,34 +199,10 @@
    "slot": "1225",
    "when": "12:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1055"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Brent stays near $105",
-   "line": "Cheaper crude is helping airlines and paint makers and weighing on upstream producers",
-   "more": [
-    "Brent settled at $104.77 on Monday after a 7.6% fall",
-    "Early Tuesday quote near $104.73"
-   ],
-   "src": {
-    "title": "TipRanks: Futures rise as investors focus on midterms; oil falls",
-    "url": "https://www.tipranks.com/news/futures-rise-as-investors-focus-on-midterm-elections-and-key-earnings-oil-prices-fall"
-   },
-   "date": "2026-11-03",
-   "slot": "1225",
-   "when": "12:25",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-26",
-    "slot": "pre"
    }
   },
   {
