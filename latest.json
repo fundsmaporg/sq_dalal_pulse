@@ -1,45 +1,45 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T12:26:28+05:30",
+ "generated_at": "2026-11-04T12:56:57+05:30",
  "date": "2026-11-04",
- "slot": "1225",
- "slot_label": "12:25",
+ "slot": "1255",
+ "slot_label": "12:55",
  "stage": "Mid-market mood",
- "asof": "2026-11-04T12:25:00+05:30",
+ "asof": "2026-11-04T12:55:00+05:30",
  "nifty": {
   "value": 23771.7,
   "pct": -0.16,
   "chg": -39.15,
-  "approx": false,
-  "asof_quote": "12:00 IST, Business Standard live blog"
+  "approx": true,
+  "asof_quote": "12:00 IST, Business Standard live blog; no later print found"
  },
  "mood": {
-  "label": "Narrow dip",
+  "label": "Range-bound",
   "score": -0.05,
-  "summary": "Benchmarks have slipped just below Tuesday's close by midday, but midcaps and small caps are still higher, so the dip is narrow and led by a handful of heavyweights.",
+  "summary": "Benchmarks are stuck in a tight range around Tuesday's close into early afternoon, with mid and small caps still ahead and tech the clear soft spot.",
   "detail": {
    "leaders": "FMCG led by ITC",
    "laggards": "IT, with TCS and HCL Tech among Sensex losers",
-   "tone": "Live read, a shade weaker than 11:55: the benchmarks have tipped just into the red, but the broader market is holding its gains, so the tone is mixed rather than risk-off.",
+   "tone": "Live read, unchanged from 12:25: the Nifty is still pinned near the flat line with no fresh push either way, and the broader market keeps its edge.",
    "watch": [
-    "Whether IT selling deepens after lunch",
-    "Nearly 400 companies' results through the day",
-    "Whether midcaps keep outperforming"
+    "US futures before Wall Street opens",
+    "Dabur and other results due this afternoon",
+    "Whether the Nifty closes above Tuesday's level"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty below 23,800; SMIDs outperform",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+    "title": "Business Standard: Stock Market LIVE — Sensex stuck in range, Nifty near 23,800; SMIDs advance",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
    },
    "movers": {
     "up": {
      "summary": "Consumer stocks lead, with ITC the standout gainer",
-     "why": "Buyers are sticking with consumer names after Tuesday's sector rally, helped by ITC's well-received FMCG numbers.",
+     "why": "Buyers are sticking with consumer names, which are less exposed to US tech and policy risk than IT.",
      "names": [
       {
        "name": "Nifty FMCG",
        "dir": "up",
        "move": "+1%",
-       "line": "Best-performing sector at noon, extending Tuesday's sharp rally"
+       "line": "Best sector at noon, extending Tuesday's rally; latest sourced reading"
       },
       {
        "name": "ITC",
@@ -49,23 +49,23 @@
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty below 23,800; SMIDs outperform",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+      "title": "Business Standard: Stock Market LIVE — Sensex stuck in range, Nifty near 23,800; SMIDs advance",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
      }
     },
     "down": {
      "summary": "IT is the weakest sector, with TCS and HCL Tech among Sensex losers",
-     "why": "IT has been sold since the open, tracking Asia's tech weakness on AI-spending worries.",
+     "why": "US Nasdaq futures fell more than 2% overnight on worries about tighter tech oversight under a Democratic Congress, and Indian IT is following.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "Biggest sectoral decliner at noon; index move not given in the report"
+       "line": "Weakest sector at noon; index move not given in the report"
       },
       {
        "name": "TCS",
        "dir": "down",
-       "line": "Among the Sensex losers as IT stays under pressure"
+       "line": "Among the Sensex losers as US tech sentiment sours"
       },
       {
        "name": "HCL Tech",
@@ -74,14 +74,88 @@
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty below 23,800; SMIDs outperform",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+      "title": "Business Standard: Stock Market LIVE — Sensex stuck in range, Nifty near 23,800; SMIDs advance",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "us-midterms",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US futures slide as Democrats take Congress",
+   "line": "Nasdaq futures fell over 2% and S&P futures about 1.2% on a likely blue sweep",
+   "more": [
+    "Worries over tighter oversight of AI and tech firms",
+    "Gridlock could complicate US fiscal policy",
+    "Some called it early positioning in thin trade"
+   ],
+   "src": {
+    "title": "Reuters via Yahoo Finance: U.S. stock futures slide, Nasdaq down over 2% with Dems poised to take Congress",
+    "url": "https://sg.finance.yahoo.com/news/u-stock-futures-steady-midterms-010643358.html"
+   },
+   "date": "2026-11-04",
+   "slot": "1255",
+   "when": "12:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "US 10-year yield eases to about 4.91%",
+   "line": "Treasury yields fell as investors priced the midterm outcome",
+   "more": [
+    "Down from about 4.96% on Tuesday",
+    "Move came in overnight trade as results arrived"
+   ],
+   "src": {
+    "title": "Reuters via Yahoo Finance: U.S. stock futures slide, Nasdaq down over 2% with Dems poised to take Congress",
+    "url": "https://sg.finance.yahoo.com/news/u-stock-futures-steady-midterms-010643358.html"
+   },
+   "date": "2026-11-04",
+   "slot": "1255",
+   "when": "12:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "dabur-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Dabur reports Q2 today",
+   "line": "Company had guided to double-digit revenue and profit growth for the quarter",
+   "more": [
+    "Year-ago consolidated profit was ₹452 cr",
+    "Input-cost pressure weighed on margins, it said",
+    "Results due this afternoon"
+   ],
+   "src": {
+    "title": "BW Businessworld: Dabur expects double-digit Q2 growth despite cost pressure",
+    "url": "https://www.businessworld.in/article/dabur-expects-double-digit-q2-growth-despite-cost-pressure-627180"
+   },
+   "date": "2026-11-04",
+   "slot": "1255",
+   "when": "12:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1255"
+   }
+  },
   {
    "key": "q2-today",
    "tag": "Results",
@@ -100,7 +174,7 @@
    "slot": "1225",
    "when": "12:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0845"
@@ -124,7 +198,7 @@
    "slot": "1225",
    "when": "12:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0925"
@@ -148,7 +222,7 @@
    "slot": "1225",
    "when": "12:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1155"
@@ -201,31 +275,6 @@
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "us-midterms",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Democrats regain control of Congress",
-   "line": "Projections now show Democrats taking both the House and the Senate",
-   "more": [
-    "NBC projects Democratic control of both chambers",
-    "Key flips include Texas, Ohio and North Carolina",
-    "Some outlets had the Senate undecided earlier today"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex off 500 pts from day's high; Democrats regain control of Congress",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
-   },
-   "date": "2026-11-04",
-   "slot": "1125",
-   "when": "11:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0700"
    }
   },
   {
@@ -298,30 +347,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1055"
-   }
-  },
-  {
-   "key": "us-yields",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Midterms put US long yields in focus",
-   "line": "Expectations of more US borrowing could push 10- and 30-year yields higher",
-   "more": [
-    "Higher yields usually lift the dollar",
-    "Pre-election analysis, not a measured market move"
-   ],
-   "src": {
-    "title": "FXStreet: What the midterm elections mean for Treasury yields, the dollar and gold",
-    "url": "https://www.fxstreet.com/analysis/what-the-midterm-elections-mean-for-treasury-yields-the-dollar-and-gold-202610211734"
-   },
-   "date": "2026-11-04",
-   "slot": "1055",
-   "when": "10:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1430"
    }
   },
   {
