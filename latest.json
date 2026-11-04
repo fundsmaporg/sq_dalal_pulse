@@ -1,81 +1,80 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T11:56:16+05:30",
+ "generated_at": "2026-11-04T12:26:28+05:30",
  "date": "2026-11-04",
- "slot": "1155",
- "slot_label": "11:55",
+ "slot": "1225",
+ "slot_label": "12:25",
  "stage": "Mid-market mood",
- "asof": "2026-11-04T11:55:00+05:30",
+ "asof": "2026-11-04T12:25:00+05:30",
  "nifty": {
-  "value": 23831.85,
-  "pct": 0.09,
-  "chg": 21,
-  "approx": true,
-  "asof_quote": "around 11 am, Business Standard live blog; no later print found"
+  "value": 23771.7,
+  "pct": -0.16,
+  "chg": -39.15,
+  "approx": false,
+  "asof_quote": "12:00 IST, Business Standard live blog"
  },
  "mood": {
-  "label": "Range-bound",
-  "score": 0.05,
-  "summary": "Benchmarks idle just above Tuesday's close after giving back the morning rally, while midcaps and small caps keep firmer gains and consumer names do the heavy lifting.",
+  "label": "Narrow dip",
+  "score": -0.05,
+  "summary": "Benchmarks have slipped just below Tuesday's close by midday, but midcaps and small caps are still higher, so the dip is narrow and led by a handful of heavyweights.",
   "detail": {
-   "leaders": "ITC; midcaps and small caps ahead of the benchmarks",
-   "laggards": "IT heavyweights TCS and HCL Tech",
-   "tone": "Live read, little changed from 11:25: no fresh push either way, with the benchmarks parked near flat and the broader market still in the green.",
+   "leaders": "FMCG led by ITC",
+   "laggards": "IT, with TCS and HCL Tech among Sensex losers",
+   "tone": "Live read, a shade weaker than 11:55: the benchmarks have tipped just into the red, but the broader market is holding its gains, so the tone is mixed rather than risk-off.",
    "watch": [
-    "Whether the Nifty holds above Tuesday's close",
-    "IT stocks into the afternoon",
-    "BSE and Nykaa results after hours"
+    "Whether IT selling deepens after lunch",
+    "Nearly 400 companies' results through the day",
+    "Whether midcaps keep outperforming"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex off 500 pts from day's high; Democrats regain control of Congress",
+    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty below 23,800; SMIDs outperform",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
    },
    "movers": {
     "up": {
-     "summary": "ITC tops the Nifty while the broader market holds firmer gains",
-     "why": "Buyers favour consumer names and the broader market over index heavyweights after the four-day run.",
+     "summary": "Consumer stocks lead, with ITC the standout gainer",
+     "why": "Buyers are sticking with consumer names after Tuesday's sector rally, helped by ITC's well-received FMCG numbers.",
      "names": [
+      {
+       "name": "Nifty FMCG",
+       "dir": "up",
+       "move": "+1%",
+       "line": "Best-performing sector at noon, extending Tuesday's sharp rally"
+      },
       {
        "name": "ITC",
        "dir": "up",
        "move": "+3%",
-       "line": "Top Nifty gainer as strong FMCG growth offset worries over its cigarette business"
-      },
-      {
-       "name": "Nifty Smallcap 100",
-       "dir": "up",
-       "move": "+0.67%",
-       "line": "Outpacing the Nifty as of about 11 am, the latest sourced reading"
-      },
-      {
-       "name": "Nifty Midcap 100",
-       "dir": "up",
-       "move": "+0.65%",
-       "line": "Holding gains as of about 11 am while benchmarks hover near flat"
+       "line": "Strong FMCG growth in Q2 offset worries over the cigarette business"
       }
      ],
      "src": {
-      "title": "Moneycontrol via TradingView: ITC shares jump 3%, top Nifty gainer; strong FMCG growth offsets cigarette concerns",
-      "url": "https://www.tradingview.com/news/moneycontrol:564eea179094b:0-itc-shares-jump-3-top-nifty-gainer-today-strong-fmcg-growth-offsets-cigarette-business-concerns/"
+      "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty below 23,800; SMIDs outperform",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
      }
     },
     "down": {
-     "summary": "IT heavyweights TCS and HCL Tech weigh on the Sensex",
-     "why": "IT has been weak since the open, tracking Asia's tech selling on AI-spending worries.",
+     "summary": "IT is the weakest sector, with TCS and HCL Tech among Sensex losers",
+     "why": "IT has been sold since the open, tracking Asia's tech weakness on AI-spending worries.",
      "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "down",
+       "line": "Biggest sectoral decliner at noon; index move not given in the report"
+      },
       {
        "name": "TCS",
        "dir": "down",
-       "line": "Among the Sensex losers with IT under pressure; move size not sourced"
+       "line": "Among the Sensex losers as IT stays under pressure"
       },
       {
        "name": "HCL Tech",
        "dir": "down",
-       "line": "Also among the Sensex losers alongside other IT names; move size not sourced"
+       "line": "Also among the Sensex losers alongside TCS"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex off 500 pts from day's high; Democrats regain control of Congress",
+      "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty below 23,800; SMIDs outperform",
       "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
      }
     }
@@ -83,6 +82,78 @@
   }
  },
  "insights": [
+  {
+   "key": "q2-today",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Nearly 400 companies report Q2 today",
+   "line": "Dabur, Nykaa, Lenskart, Apollo Tyres and Torrent Pharma among those due",
+   "more": [
+    "Most numbers are expected after market hours",
+    "BSE and Biocon also report today"
+   ],
+   "src": {
+    "title": "Upstox: Q2 results live updates — Nykaa, Lenskart, Dabur, Torrent Pharma, Apollo Tyres and others",
+    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-nykaa-lenskart-dabur-torent-pharma-apollo-tyres-others-to-report-earnings/liveblog-202942/"
+   },
+   "date": "2026-11-04",
+   "slot": "1225",
+   "when": "12:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "smallcap-outlook",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Mid and small caps hold gains at noon",
+   "line": "Nifty Midcap 100 up 0.65% and Smallcap 100 up 0.67% as the benchmarks dip",
+   "more": [
+    "Broader market has outperformed all morning",
+    "Analysts flagged smallcap strength on Tuesday"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty below 23,800; SMIDs outperform",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+   },
+   "date": "2026-11-04",
+   "slot": "1225",
+   "when": "12:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "fmcg-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Consumer stocks lead for a second day",
+   "line": "Nifty FMCG tops sectors again after Tuesday's 1,000-point jump",
+   "more": [
+    "Lower crude cuts input costs for consumer firms",
+    "Marico and HUL led Tuesday's rally"
+   ],
+   "src": {
+    "title": "Zee Business: Nifty FMCG bulls return — index jumps 1,000 points, adds ₹41,000 crore in m-cap",
+    "url": "https://www.zeebiz.com/market-news/news-nifty-fmcg-bulls-return-index-jumps-1000-points-adds-rs-41000-crore-in-mcap-hul-marico-lead-gains-whats-fuelling-rally-405000"
+   },
+   "date": "2026-11-04",
+   "slot": "1225",
+   "when": "12:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1155"
+   }
+  },
   {
    "key": "itc-q2",
    "tag": "Results",
@@ -102,7 +173,7 @@
    "slot": "1155",
    "when": "11:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1000"
@@ -126,35 +197,10 @@
    "slot": "1155",
    "when": "11:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "fmcg-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "FMCG momentum carries into Wednesday",
-   "line": "Nifty FMCG led Tuesday with a gain of about 1,000 points; consumer names lead again",
-   "more": [
-    "Marico surged 10% after its results on Tuesday",
-    "Lower crude cuts input costs for consumer companies",
-    "HUL also among Tuesday's leaders"
-   ],
-   "src": {
-    "title": "Zee Business: Nifty FMCG bulls return — index jumps 1,000 points, adds ₹41,000 crore in m-cap",
-    "url": "https://www.zeebiz.com/market-news/news-nifty-fmcg-bulls-return-index-jumps-1000-points-adds-rs-41000-crore-in-mcap-hul-marico-lead-gains-whats-fuelling-rally-405000"
-   },
-   "date": "2026-11-04",
-   "slot": "1155",
-   "when": "11:55",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1155"
    }
   },
   {
@@ -180,30 +226,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "smallcap-outlook",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Small caps outpace benchmarks today",
-   "line": "Nifty Smallcap 100 and Midcap 100 are up about 0.65% as the benchmarks fade",
-   "more": [
-    "Analysts flagged smallcap strength on Tuesday",
-    "Broad-market buying is outlasting the headline rally"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex off 500 pts from day's high; Democrats regain control of Congress",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
-   },
-   "date": "2026-11-04",
-   "slot": "1125",
-   "when": "11:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0925"
    }
   },
   {
@@ -348,30 +370,6 @@
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "q2-today",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Lenskart, BSE, Dabur among today's results",
-   "line": "Apollo Tyres, GRSE, Redington, Torrent Power and Physicswallah also report",
-   "more": [
-    "Nykaa and Biocon also on the slate",
-    "Most numbers due after market hours"
-   ],
-   "src": {
-    "title": "Upstox: Q2 results Nov 4 — Lenskart, Nykaa, BSE, Apollo Tyres, Dabur India, GRSE, Redington, Torrent Power, Physicswallah",
-    "url": "https://upstox.com/news/market-news/earnings/q2-results-nov-4-lenskart-nykaa-bse-apollo-tyres-dabur-india-grse-redington-torrent-power-physicswallah-others-to-post-earnings/article-202932/"
-   },
-   "date": "2026-11-04",
-   "slot": "1025",
-   "when": "10:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0845"
    }
   },
   {
