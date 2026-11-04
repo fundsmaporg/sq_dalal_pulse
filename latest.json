@@ -1,129 +1,160 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T16:26:38+05:30",
+ "generated_at": "2026-11-04T18:00:53+05:30",
  "date": "2026-11-04",
- "slot": "1625",
- "slot_label": "16:25",
- "stage": "Post-market mood",
- "asof": "2026-11-04T16:25:00+05:30",
+ "slot": "1800",
+ "slot_label": "18:00",
+ "stage": "Evening wrap",
+ "asof": "2026-11-04T18:00:00+05:30",
  "nifty": {
   "value": 23960.6,
   "pct": 0.63,
   "chg": 149.75,
   "approx": false,
-  "asof_quote": "Nov 4 close, Business Standard and Upstox"
+  "asof_quote": "Nov 4 close, Business Standard"
  },
  "mood": {
-  "label": "Fifth straight gain",
-  "score": 0.45,
-  "summary": "Indian shares closed higher for a fifth straight session after a weak start, with small and midcaps leading a broad advance and only IT finishing in the red.",
+  "label": "Firm start likely",
+  "score": 0.4,
+  "summary": "Heading into Thursday, the backdrop looks supportive after a fifth straight gain, with firmer US futures and strong consumer-internet results offset only by continued pressure on tech.",
   "detail": {
-   "leaders": "Small and midcaps; Emcure and Redington on results",
-   "laggards": "IT, with TCS, Infosys and HCL Tech the biggest drags",
-   "tone": "Close read, firmer than at noon: what looked like a pause after four up days turned into a fifth straight gain, with breadth strong and only IT lagging.",
+   "leaders": "Nykaa and Lenskart after strong Q2 numbers; consumer names",
+   "laggards": "IT if US tech stays weak; Biocon after a profit drop",
+   "tone": "Forward-looking evening read: a touch more upbeat than at the close, as US futures recovered from the overnight slump, though Nasdaq remains the soft spot.",
    "watch": [
+    "Wall Street's open and Nasdaq's direction",
     "Provisional FII/DII data for today",
-    "Wall Street's open after the midterm sweep",
-    "Nykaa, BSE and Cummins results"
+    "Apollo Hospitals, Cummins and BSE results"
    ],
    "src": {
-    "title": "Business Standard: Stock Market Close — Sensex rises for 5th day, gains 384 pts; Nifty at 23,961; IT only sectoral loser",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
-   },
-   "movers": {
-    "up": {
-     "summary": "Small caps jump about 2% and results winners rally as buying broadens",
-     "why": "Steady foreign inflows, softer oil and a strong run of quarterly results drew buyers across the market after the morning dip.",
-     "names": [
-      {
-       "name": "Nifty Smallcap 100",
-       "dir": "up",
-       "move": "about +1.6% to +2%",
-       "line": "Small caps more than doubled the Nifty's gain as buying broadened"
-      },
-      {
-       "name": "Nifty Midcap 100",
-       "dir": "up",
-       "move": "+1.2% to +1.55%",
-       "line": "Midcaps also beat the benchmarks on the broad afternoon rally"
-      },
-      {
-       "name": "Emcure Pharma",
-       "dir": "up",
-       "move": "up to +10%",
-       "line": "Record high after Q2 results that Elara called in line with estimates"
-      },
-      {
-       "name": "Redington",
-       "dir": "up",
-       "move": "+6.9%",
-       "line": "Q2 profit rose 39.6% to ₹541.32 cr"
-      }
-     ],
-     "src": {
-      "title": "Upstox: Market wrap, Nov 4 — Sensex rises 383 pts, Nifty 50 ends at 23,960; Nifty Smallcap 100 jumps 2%, BEL top gainer",
-      "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-4-sensex-rises-383-pts-nifty-50-ends-at-23-960-nifty-smallcap-100-jumps-2-bel-top-gainer/article-202977/"
-     }
-    },
-    "down": {
-     "summary": "IT ends as the only losing sector, with TCS down over 2%",
-     "why": "Fears that a Democratic Congress will tighten oversight of AI and tech hit US tech futures overnight, and Indian IT stayed under pressure all day.",
-     "names": [
-      {
-       "name": "Nifty IT",
-       "dir": "down",
-       "move": "−1.94%",
-       "line": "Only sector in the red as US tech-regulation worries weighed"
-      },
-      {
-       "name": "TCS",
-       "dir": "down",
-       "move": "over −2%",
-       "line": "Among the biggest Nifty losers, leading the IT decline"
-      },
-      {
-       "name": "Infosys",
-       "dir": "down",
-       "line": "Among the top Nifty losers alongside TCS; move not sourced"
-      },
-      {
-       "name": "HCL Tech",
-       "dir": "down",
-       "line": "Also among the top Nifty losers in the IT selloff; move not sourced"
-      }
-     ],
-     "src": {
-      "title": "Angel One: Top gainers and losers on November 4, 2026 — BEL and Adani Enterprises gain, TCS drops over 2%",
-      "url": "https://angelone.in/news/market-updates/top-gainers-and-losers-on-november-4-2026-bharat-electronics-and-adani-enterprises-gain-while-tcs-drops-over-2"
-     }
-    }
+    "title": "CNBC: Dow futures surge 800 points after decisive win by Democrats in US midterms — live updates",
+    "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
    }
   }
  },
  "insights": [
   {
+   "key": "nykaa-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Nykaa Q2 profit triples to ₹101 cr",
+   "line": "Revenue rose 28% to about ₹3,006 cr; EBITDA margin widened to 11.9%",
+   "more": [
+    "Year-ago profit was about ₹33 cr",
+    "GMV grew 30% to ₹6,151 cr",
+    "Beauty segment profit rose to ₹180 cr"
+   ],
+   "src": {
+    "title": "Upstox: Nykaa Q2 FY27 results — net profit jumps three-fold to ₹101 crore; GMV grows 30%",
+    "url": "https://upstox.com/news/market-news/earnings/nykaa-q2-fy-27-results-net-profit-jumps-three-fold-to-101-crore-yo-y-gmv-grew-30/article-202981/"
+   },
+   "date": "2026-11-04",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1555"
+   }
+  },
+  {
+   "key": "lenskart-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Lenskart revenue up 36%; profit doubles",
+   "line": "Revenue about ₹2,845 cr; PAT ₹232 cr vs ₹103 cr a year ago",
+   "more": [
+    "Owners' profit ₹227 cr, up 122%",
+    "India revenue up about 35%, international up about 30%",
+    "Beat Motilal's estimate of about ₹205 cr"
+   ],
+   "src": {
+    "title": "Storyboard18: Lenskart posts 125% profit growth in Q2 as revenue hits ₹2,845 crore",
+    "url": "https://www.storyboard18.com/brand-marketing/lenskart-q2-profit-more-than-doubles-ws-l-114044.htm"
+   },
+   "date": "2026-11-04",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1525"
+   }
+  },
+  {
    "key": "us-midterms",
    "tag": "Global",
    "impact": "pos",
-   "title": "US futures recover after Democratic sweep",
-   "line": "Dow futures rose about 700 points, reversing the overnight slump",
+   "title": "Dow futures up about 800 points",
+   "line": "US futures recovered from the overnight slump after the Democratic sweep",
    "more": [
-    "Nasdaq-100 futures had fallen as much as 2.4% early",
-    "S&P 500 and Nasdaq futures later traded about 1% higher",
-    "Investors weighing tougher tech, AI and crypto oversight"
+    "S&P futures up about 0.2–0.9% depending on time",
+    "Nasdaq still weaker on AI-oversight worries",
+    "AMD up 6–7% premarket after its beat"
    ],
    "src": {
-    "title": "CNBC: Dow futures rally 700 points as Democrats win big in midterms — live updates",
+    "title": "CNBC: Dow futures surge 800 points after decisive win by Democrats in US midterms — live updates",
     "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
    },
    "date": "2026-11-04",
-   "slot": "1625",
-   "when": "16:25",
+   "slot": "1800",
+   "when": "18:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0700"
+   }
+  },
+  {
+   "key": "biocon-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Biocon Q2 profit falls by more than half",
+   "line": "Profit dropped 51–57% depending on the report",
+   "more": [
+    "PTI: ₹56.7 cr vs ₹132.8 cr a year ago",
+    "Owners' profit ₹41 cr vs ₹85 cr",
+    "Material costs rose 22%"
+   ],
+   "src": {
+    "title": "HDFC Sky (PTI): Biocon Q2 profit falls 57% to ₹56.7 cr",
+    "url": "https://hdfcsky.com/news/biocon-q2-net-profit-falls-57-3-pc-to-rs-56-7-cr"
+   },
+   "date": "2026-11-04",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1800"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Brent eases toward $103",
+   "line": "Brent fell about 0.9% to near $103.40; WTI near $95.90",
+   "more": [
+    "Reports conflict on direction during the day",
+    "Iran developments still drive oil"
+   ],
+   "src": {
+    "title": "The Globe and Mail: Premarket — US stock futures rise as investors assess Democrats' midterm sweep",
+    "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-us-stock-futures-rise-as-investors-assess-democrats-midterm/"
+   },
+   "date": "2026-11-04",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1130"
    }
   },
   {
@@ -144,7 +175,7 @@
    "slot": "1625",
    "when": "16:25",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1625"
@@ -168,35 +199,10 @@
    "slot": "1625",
    "when": "16:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "lenskart-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Lenskart Q2 profit roughly doubles",
-   "line": "One report puts profit at ₹232 cr vs ₹103 cr; another cites ₹168 cr",
-   "more": [
-    "Results came out on Nov 4",
-    "The two figures may be different profit measures",
-    "Motilal had estimated about ₹205 cr"
-   ],
-   "src": {
-    "title": "Whalesbook: Lenskart Solutions Q2 profit doubles to ₹232 crore on revenue surge",
-    "url": "https://www.whalesbook.com/corporate-news/English/consumer-products/Lenskart-Solutions-Q2-Profit-Doubles-to-Rs-232-Crore-on-Revenue-Surge/6aeb057cc6c6dccbb9125ff3"
-   },
-   "date": "2026-11-04",
-   "slot": "1555",
-   "when": "15:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1525"
    }
   },
   {
@@ -221,30 +227,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0925"
-   }
-  },
-  {
-   "key": "nykaa-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Nykaa Q2 due; Jefferies sees profit +158%",
-   "line": "Jefferies estimated Q2 profit near ₹91.5 cr, up 158% year on year",
-   "more": [
-    "Year-ago profit was about ₹34 cr",
-    "Results due after market hours"
-   ],
-   "src": {
-    "title": "Business Today: Swiggy, Eternal, Meesho, Nykaa, Lenskart, Honasa — Jefferies Q2 results preview",
-    "url": "https://www.businesstoday.in/markets/stocks/story/swiggy-eternal-meesho-nykaa-lenskart-honasa-jefferies-shares-q2-results-preview-560050-2026-10-07"
-   },
-   "date": "2026-11-04",
-   "slot": "1555",
-   "when": "15:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1555"
    }
   },
   {
@@ -682,30 +664,6 @@
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1455"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Softer oil eases inflation worries",
-   "line": "Lower crude is helping sentiment as the US midterm results come in",
-   "more": [
-    "Brent eased in Asian trade this morning",
-    "Oil remains sensitive to US–Iran headlines"
-   ],
-   "src": {
-    "title": "RTTNews: Indian shares edge higher in cautious trade; US election results in focus",
-    "url": "https://www.rttnews.com/story.aspx?Id=3709062"
-   },
-   "date": "2026-11-04",
-   "slot": "1025",
-   "when": "10:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1130"
    }
   },
   {
