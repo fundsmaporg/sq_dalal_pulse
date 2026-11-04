@@ -1,38 +1,151 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T09:27:25+05:30",
+ "generated_at": "2026-11-04T09:57:02+05:30",
  "date": "2026-11-04",
- "slot": "0925",
- "slot_label": "9:25",
+ "slot": "0955",
+ "slot_label": "9:55",
  "stage": "Opening mood",
- "asof": "2026-11-04T09:25:00+05:30",
+ "asof": "2026-11-04T09:55:00+05:30",
  "nifty": {
-  "value": 23713.35,
-  "pct": -0.41,
-  "chg": -97.5,
+  "value": 23876,
+  "pct": 0.28,
+  "chg": 65.15,
   "approx": true,
-  "asof_quote": "early trade, as reported by Zee Business"
+  "asof_quote": "09:19 IST print, as reported by Upstox"
  },
  "mood": {
-  "label": "Mild early dip",
-  "score": -0.15,
-  "summary": "Indian shares open a shade lower and drift down in early trade, ending a four-session winning run as Asia's midterm jitters weigh, though selling so far is mild.",
+  "label": "Dip bought early",
+  "score": 0.15,
+  "summary": "The early dip was bought within minutes and the indices turned modestly higher, with defensives holding up and tech the main drag as markets absorb the US midterm outcome.",
   "detail": {
-   "leaders": "No clear leadership yet in the first minutes of trade",
-   "laggards": "Broad, light profit-taking after the four-day run",
-   "tone": "Live read: the open matched the soft pre-open signal, with selling slightly heavier after the first few minutes but no sign of panic.",
+   "leaders": "Healthcare and pharma, holding up as defensives",
+   "laggards": "IT, tracking Asia's tech selling",
+   "tone": "Live read, firmer than 09:25: the opening slide reversed within minutes and the indices moved into the green, though gains are small and the rally is pausing rather than extending.",
    "watch": [
-    "Whether the early low holds into 10 am",
-    "US midterm calls and the dollar",
+    "Whether the indices hold above the previous close",
+    "Final US Senate call",
     "Cabinet meeting at 11 am"
    ],
    "src": {
-    "title": "Zee Business: Sensex falls over 60 points, Nifty slips below 23,750; 4-day rally ends",
-    "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-falls-over-60-points-nifty-slips-below-23750-4-day-rally-ends-405045"
+    "title": "Upstox: NIFTY50, SENSEX recover after opening lower; SBI, ITC, Max Healthcare among top gainers",
+    "url": "https://upstox.com/news/market-news/stocks/nifty-50-sensex-recover-after-opening-lower-amid-mixed-global-cues-sbi-itc-max-healthcare-among-top-gainers/article-202938/"
+   },
+   "movers": {
+    "up": {
+     "summary": "Healthcare and pharma indices edge up while the rest of the market wobbles",
+     "why": "Investors leaned on defensive sectors as the four-day rally paused and global tech sold off.",
+     "names": [
+      {
+       "name": "Nifty Healthcare",
+       "dir": "up",
+       "move": "up to +0.23%",
+       "line": "Named among the resilient sectors at the open as defensives drew buying"
+      },
+      {
+       "name": "Nifty Pharma",
+       "dir": "up",
+       "move": "up to +0.23%",
+       "line": "Pharma held firm at the open while IT and realty slipped"
+      }
+     ],
+     "src": {
+      "title": "IANS: Sensex, Nifty open subdued after 4-day winning run; healthcare shares resilient",
+      "url": "https://ianslive.in/sensex-nifty-open-subdued-after-4-day-winning-run-healthcare-shares-resilient--20261104093036"
+     }
+    },
+    "down": {
+     "summary": "IT drags at the open as Asian tech stocks sell off",
+     "why": "Asian markets were pressured by tech stocks on AI-spending concerns, and Indian IT followed.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "down",
+       "move": "−0.8% to −1%",
+       "line": "Tracked Asia's tech selloff on AI-spending worries; drop size differs by source"
+      }
+     ],
+     "src": {
+      "title": "IANS: Sensex, Nifty open subdued after 4-day winning run; healthcare shares resilient",
+      "url": "https://ianslive.in/sensex-nifty-open-subdued-after-4-day-winning-run-healthcare-shares-resilient--20261104093036"
+     }
+    }
    }
   }
  },
  "insights": [
+  {
+   "key": "us-midterms",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Democrats win the House; Senate in play",
+   "line": "NBC and CBS project a Democratic House; NBC also projects the Senate",
+   "more": [
+    "Talarico flips Texas; Brown beats Husted in Ohio",
+    "Cooper's North Carolina win confirmed by CBS",
+    "Some outlets still call the Senate undecided"
+   ],
+   "src": {
+    "title": "NBC News: Election results 2026 live — Democrats win House and Senate in midterms",
+    "url": "https://www.nbcnews.com/politics/2026-election/live-blog/midterm-election-results-2026-news-trump-live-updates-rcna605763"
+   },
+   "date": "2026-11-04",
+   "slot": "0955",
+   "when": "9:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs net buyers in 5 of the last 6 days",
+   "line": "Foreign investors bought about ₹18,661 cr of Indian shares over that stretch",
+   "more": [
+    "The buying underpinned the four-day rally",
+    "A firmer rupee was also cited as support"
+   ],
+   "src": {
+    "title": "IANS: Sensex, Nifty open subdued after 4-day winning run; healthcare shares resilient",
+    "url": "https://ianslive.in/sensex-nifty-open-subdued-after-4-day-winning-run-healthcare-shares-resilient--20261104093036"
+   },
+   "date": "2026-11-04",
+   "slot": "0955",
+   "when": "9:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "sector-rotation",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Consumer durables and realty slip at open",
+   "line": "Nifty Consumer Durables and Realty fell alongside IT in the first minutes",
+   "more": [
+    "Declines ranged up to about 0.8% at the open",
+    "Healthcare indices rose up to 0.23%"
+   ],
+   "src": {
+    "title": "IANS: Sensex, Nifty open subdued after 4-day winning run; healthcare shares resilient",
+    "url": "https://ianslive.in/sensex-nifty-open-subdued-after-4-day-winning-run-healthcare-shares-resilient--20261104093036"
+   },
+   "date": "2026-11-04",
+   "slot": "0955",
+   "when": "9:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0955"
+   }
+  },
   {
    "key": "mcx-q2",
    "tag": "Stocks",
@@ -52,7 +165,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1455"
@@ -76,7 +189,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1130"
@@ -100,35 +213,10 @@
    "slot": "0925",
    "when": "9:25",
    "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0925"
-   }
-  },
-  {
-   "key": "us-midterms",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Dollar, Asia slip on Democratic gains",
-   "line": "Dollar index fell to about 101.25 in early Asia as Democrats posted early wins",
-   "more": [
-    "AFP: Tokyo lost more than 3% as a yen spike hit exporters",
-    "SK Hynix fell as much as 3% in Seoul",
-    "Analysts expect a short-lived dollar reaction"
-   ],
-   "src": {
-    "title": "France 24 (AFP): Stocks and dollar drop as Democrats enjoy big early wins",
-    "url": "https://www.france24.com/en/live-news/20261104-stocks-and-dollar-drop-as-democrats-enjoy-big-early-wins"
-   },
-   "date": "2026-11-04",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
-    "slot": "0700"
+    "slot": "0925"
    }
   },
   {
@@ -202,31 +290,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs buy for a third straight day",
-   "line": "Provisional Nov 3: FIIs +₹6,837 cr, DIIs −₹3,679 cr in the cash market",
-   "more": [
-    "About ₹13,550 cr of FII buying over three sessions",
-    "DIIs turned net sellers as foreigners returned",
-    "Final NSDL figures due later"
-   ],
-   "src": {
-    "title": "Quantsapp: FII DII data today (3 Nov)",
-    "url": "https://www.quantsapp.com/fii-dii"
-   },
-   "date": "2026-11-04",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1130"
    }
   },
   {
