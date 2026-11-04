@@ -1,26 +1,26 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T11:26:35+05:30",
+ "generated_at": "2026-11-04T11:56:16+05:30",
  "date": "2026-11-04",
- "slot": "1125",
- "slot_label": "11:25",
+ "slot": "1155",
+ "slot_label": "11:55",
  "stage": "Mid-market mood",
- "asof": "2026-11-04T11:25:00+05:30",
+ "asof": "2026-11-04T11:55:00+05:30",
  "nifty": {
   "value": 23831.85,
   "pct": 0.09,
   "chg": 21,
   "approx": true,
-  "asof_quote": "around 11 am, Business Standard live blog"
+  "asof_quote": "around 11 am, Business Standard live blog; no later print found"
  },
  "mood": {
-  "label": "Gains fade",
+  "label": "Range-bound",
   "score": 0.05,
-  "summary": "The morning rally has largely faded, leaving the benchmarks barely higher, but midcaps and small caps are holding firmer gains, so breadth is better than the headline suggests.",
+  "summary": "Benchmarks idle just above Tuesday's close after giving back the morning rally, while midcaps and small caps keep firmer gains and consumer names do the heavy lifting.",
   "detail": {
-   "leaders": "ITC; midcaps and small caps outpacing the benchmarks",
+   "leaders": "ITC; midcaps and small caps ahead of the benchmarks",
    "laggards": "IT heavyweights TCS and HCL Tech",
-   "tone": "Live read, softer than 10:55: the benchmarks have slipped back from the morning high to near flat, though steady gains in midcaps and small caps keep the tone constructive rather than weak.",
+   "tone": "Live read, little changed from 11:25: no fresh push either way, with the benchmarks parked near flat and the broader market still in the green.",
    "watch": [
     "Whether the Nifty holds above Tuesday's close",
     "IT stocks into the afternoon",
@@ -32,41 +32,41 @@
    },
    "movers": {
     "up": {
-     "summary": "ITC leads the Sensex while the broader market holds firmer gains",
-     "why": "Buying has rotated from the benchmarks into the broader market and select large caps even as the headline indices gave back most of their gains.",
+     "summary": "ITC tops the Nifty while the broader market holds firmer gains",
+     "why": "Buyers favour consumer names and the broader market over index heavyweights after the four-day run.",
      "names": [
       {
        "name": "ITC",
        "dir": "up",
-       "move": "up to +3.2%",
-       "line": "Hit a day's high of ₹282.45, beating FMCG peers; no specific trigger reported"
+       "move": "+3%",
+       "line": "Top Nifty gainer as strong FMCG growth offset worries over its cigarette business"
       },
       {
        "name": "Nifty Smallcap 100",
        "dir": "up",
        "move": "+0.67%",
-       "line": "Outpacing the Nifty around 11 am, in line with analysts' call for smallcap strength"
+       "line": "Outpacing the Nifty as of about 11 am, the latest sourced reading"
       },
       {
        "name": "Nifty Midcap 100",
        "dir": "up",
        "move": "+0.65%",
-       "line": "Midcaps holding gains while the benchmarks hover near flat"
+       "line": "Holding gains as of about 11 am while benchmarks hover near flat"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex off 500 pts from day's high; Democrats regain control of Congress",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+      "title": "Moneycontrol via TradingView: ITC shares jump 3%, top Nifty gainer; strong FMCG growth offsets cigarette concerns",
+      "url": "https://www.tradingview.com/news/moneycontrol:564eea179094b:0-itc-shares-jump-3-top-nifty-gainer-today-strong-fmcg-growth-offsets-cigarette-business-concerns/"
      }
     },
     "down": {
-     "summary": "IT heavyweights TCS and HCL Tech are among the Sensex losers",
+     "summary": "IT heavyweights TCS and HCL Tech weigh on the Sensex",
      "why": "IT has been weak since the open, tracking Asia's tech selling on AI-spending worries.",
      "names": [
       {
        "name": "TCS",
        "dir": "down",
-       "line": "Among the Sensex losers as IT stays under pressure; move size not sourced"
+       "line": "Among the Sensex losers with IT under pressure; move size not sourced"
       },
       {
        "name": "HCL Tech",
@@ -83,6 +83,80 @@
   }
  },
  "insights": [
+  {
+   "key": "itc-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "ITC jumps 3% as FMCG growth offsets profit dip",
+   "line": "Shares hit about ₹282 on Wednesday, the top Nifty gainer, after Q2 results",
+   "more": [
+    "Standalone Q2 net profit fell about 20% year on year",
+    "Strong FMCG growth eased cigarette-business worries",
+    "Stock is still down about 24% in 2026"
+   ],
+   "src": {
+    "title": "Moneycontrol via TradingView: ITC shares jump 3%, top Nifty gainer; strong FMCG growth offsets cigarette concerns",
+    "url": "https://www.tradingview.com/news/moneycontrol:564eea179094b:0-itc-shares-jump-3-top-nifty-gainer-today-strong-fmcg-growth-offsets-cigarette-business-concerns/"
+   },
+   "date": "2026-11-04",
+   "slot": "1155",
+   "when": "11:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Tuesday's FPI buying the highest in a year",
+   "line": "Foreign portfolio inflows on Nov 3 were the largest single-day buy in a year",
+   "more": [
+    "Markets extended gains for a fourth straight day",
+    "FPIs have now bought for three sessions running"
+   ],
+   "src": {
+    "title": "Business Standard: Markets extend gains for fourth day; FPI buying highest in a year",
+    "url": "https://www.business-standard.com/amp/markets/news/markets-extend-gains-for-fourth-day-fpi-buying-highest-in-a-year-126110301699_1.html"
+   },
+   "date": "2026-11-04",
+   "slot": "1155",
+   "when": "11:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "fmcg-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "FMCG momentum carries into Wednesday",
+   "line": "Nifty FMCG led Tuesday with a gain of about 1,000 points; consumer names lead again",
+   "more": [
+    "Marico surged 10% after its results on Tuesday",
+    "Lower crude cuts input costs for consumer companies",
+    "HUL also among Tuesday's leaders"
+   ],
+   "src": {
+    "title": "Zee Business: Nifty FMCG bulls return — index jumps 1,000 points, adds ₹41,000 crore in m-cap",
+    "url": "https://www.zeebiz.com/market-news/news-nifty-fmcg-bulls-return-index-jumps-1000-points-adds-rs-41000-crore-in-mcap-hul-marico-lead-gains-whats-fuelling-rally-405000"
+   },
+   "date": "2026-11-04",
+   "slot": "1155",
+   "when": "11:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1155"
+   }
+  },
   {
    "key": "us-midterms",
    "tag": "Global",
@@ -102,7 +176,7 @@
    "slot": "1125",
    "when": "11:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0700"
@@ -126,7 +200,7 @@
    "slot": "1125",
    "when": "11:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0925"
@@ -150,7 +224,7 @@
    "slot": "1125",
    "when": "11:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0845"
@@ -298,30 +372,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs net buyers in 5 of the last 6 days",
-   "line": "Foreign investors bought about ₹18,661 cr of Indian shares over that stretch",
-   "more": [
-    "The buying underpinned the four-day rally",
-    "A firmer rupee was also cited as support"
-   ],
-   "src": {
-    "title": "IANS: Sensex, Nifty open subdued after 4-day winning run; healthcare shares resilient",
-    "url": "https://ianslive.in/sensex-nifty-open-subdued-after-4-day-winning-run-healthcare-shares-resilient--20261104093036"
-   },
-   "date": "2026-11-04",
-   "slot": "0955",
-   "when": "9:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1130"
    }
   },
   {
@@ -876,30 +926,6 @@
    "first_seen": {
     "date": "2026-11-03",
     "slot": "0955"
-   }
-  },
-  {
-   "key": "itc-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "ITC reacts to ~19% profit fall",
-   "line": "First session after Q2: consolidated profit ₹4,229 cr, down 18.45%; revenue up sharply",
-   "more": [
-    "Shares settled at ₹266 (+0.15%) on Monday before results",
-    "Down ~35% since last Diwali"
-   ],
-   "src": {
-    "title": "ETV Bharat: ITC Q2 net profit down 18.45% to ₹4,229.33 cr",
-    "url": "https://www.etvbharat.com/en/business/itc-second-quarter-results-net-profit-down-and-revenue-climbs-enn26110206164"
-   },
-   "date": "2026-11-03",
-   "slot": "0925",
-   "when": "Tue · 9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1000"
    }
   },
   {
