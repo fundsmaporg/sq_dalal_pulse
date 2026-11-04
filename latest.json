@@ -1,51 +1,51 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T10:27:38+05:30",
+ "generated_at": "2026-11-04T10:57:03+05:30",
  "date": "2026-11-04",
- "slot": "1025",
- "slot_label": "10:25",
- "stage": "Opening mood",
- "asof": "2026-11-04T10:25:00+05:30",
+ "slot": "1055",
+ "slot_label": "10:55",
+ "stage": "Mid-market mood",
+ "asof": "2026-11-04T10:55:00+05:30",
  "nifty": {
-  "value": 23923,
-  "pct": 0.47,
-  "chg": 113,
+  "value": 23933.85,
+  "pct": 0.51,
+  "chg": 123.0,
   "approx": true,
-  "asof_quote": "mid-morning, as reported by RTTNews"
+  "asof_quote": "latest print in Investing.com report; exact time not stated"
  },
  "mood": {
-  "label": "Gains extend",
+  "label": "Steady gains",
   "score": 0.3,
-  "summary": "Indian shares push further into the green by mid-morning, led by heavyweight banks and ports, while profit-taking hits recent winners and broader breadth stays thin.",
+  "summary": "Benchmarks hold around half a percent higher into late morning, with large-cap financials still doing the lifting while breadth beneath the headline stays narrow.",
   "detail": {
-   "leaders": "HDFC Bank and Adani Ports among the Sensex leaders",
-   "laggards": "MCX on profit-taking; IT weak from the open",
-   "tone": "Live read, firmer than 09:55: the indices have extended the early recovery to about half a percent, though Reuters notes most sectors and small caps were marginally lower at the open.",
+   "leaders": "HDFC Bank and Adani Ports still leading the Sensex",
+   "laggards": "MCX on profit-taking; IT soft from the open",
+   "tone": "Live read, little changed from 10:25: the indices are holding their half-percent gain rather than building on it, so the rally is steady but not broadening.",
    "watch": [
-    "Final US Senate call",
-    "Biocon, Nykaa and BSE results later today",
-    "Whether banks keep leading into the afternoon"
+    "Whether midcaps and small caps join in",
+    "US Senate final call and the dollar",
+    "Results from BSE, Nykaa and Biocon later"
    ],
    "src": {
-    "title": "RTTNews: Indian shares edge higher in cautious trade; US election results in focus",
-    "url": "https://www.rttnews.com/story.aspx?Id=3709062"
+    "title": "Investing.com: Indian stocks open higher as oil prices ease and gold gains",
+    "url": "https://in.investing.com/news/stock-market-news/indian-stocks-open-higher-as-oil-prices-ease-and-gold-gains-5677030"
    },
    "movers": {
     "up": {
-     "summary": "Heavyweights HDFC Bank and Adani Ports lead the Sensex higher",
-     "why": "Softer oil eased inflation worries and early US midterm results were taken in stride, drawing buyers back into large caps.",
+     "summary": "HDFC Bank and Adani Ports keep the Sensex in positive territory",
+     "why": "Softer oil and a firmer rupee are drawing buyers back into large-cap financials and infrastructure names.",
      "names": [
       {
        "name": "HDFC Bank",
        "dir": "up",
        "move": "+1.8% to +3%",
-       "line": "Top-weighted Sensex gainer, doing the most to lift the index; size varies by source"
+       "line": "Biggest index-weight gainer; latest sourced move is from mid-morning"
       },
       {
        "name": "Adani Ports",
        "dir": "up",
        "move": "about +2%",
-       "line": "Among the leading Sensex gainers in mid-morning trade"
+       "line": "Among the top Sensex gainers in mid-morning trade"
       }
      ],
      "src": {
@@ -54,20 +54,20 @@
      }
     },
     "down": {
-     "summary": "MCX slides on profit-taking; IT soft since the open",
-     "why": "Traders booked profits in names that ran up before results, and IT has tracked Asia's tech selling.",
+     "summary": "MCX hit by profit-taking; IT soft since the open",
+     "why": "Traders are cashing in on names that ran up into results, and IT has followed Asia's tech weakness.",
      "names": [
       {
        "name": "MCX",
        "dir": "down",
        "move": "−6%",
-       "line": "Sold despite more than doubling Q2 profit, after a 52-week high on Tuesday"
+       "line": "Sold despite more than doubling Q2 profit, after Tuesday's 52-week high"
       },
       {
        "name": "Nifty IT",
        "dir": "down",
        "move": "−0.8% to −1% at open",
-       "line": "Fell with Asian tech stocks on AI-spending worries; latest move not sourced"
+       "line": "Fell with Asian tech on AI-spending worries; no later move sourced"
       }
      ],
      "src": {
@@ -79,6 +79,78 @@
   }
  },
  "insights": [
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee firms, easing import-cost worries",
+   "line": "Modest rupee appreciation is offering relief on import costs today",
+   "more": [
+    "Brent is still above $100 a barrel",
+    "A firmer rupee helps oil marketers and importers"
+   ],
+   "src": {
+    "title": "Investing.com: Indian stocks open higher as oil prices ease and gold gains",
+    "url": "https://in.investing.com/news/stock-market-news/indian-stocks-open-higher-as-oil-prices-ease-and-gold-gains-5677030"
+   },
+   "date": "2026-11-04",
+   "slot": "1055",
+   "when": "10:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "gold",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Gold edges up 0.5% as dollar softens",
+   "line": "Gold traded near $3,960 an ounce as the dollar eased on midterm results",
+   "more": [
+    "Gold gained 0.50% in early trade",
+    "A weaker dollar tends to support bullion"
+   ],
+   "src": {
+    "title": "Investing.com: Indian stocks open higher as oil prices ease and gold gains",
+    "url": "https://in.investing.com/news/stock-market-news/indian-stocks-open-higher-as-oil-prices-ease-and-gold-gains-5677030"
+   },
+   "date": "2026-11-04",
+   "slot": "1055",
+   "when": "10:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1055"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Midterms put US long yields in focus",
+   "line": "Expectations of more US borrowing could push 10- and 30-year yields higher",
+   "more": [
+    "Higher yields usually lift the dollar",
+    "Pre-election analysis, not a measured market move"
+   ],
+   "src": {
+    "title": "FXStreet: What the midterm elections mean for Treasury yields, the dollar and gold",
+    "url": "https://www.fxstreet.com/analysis/what-the-midterm-elections-mean-for-treasury-yields-the-dollar-and-gold-202610211734"
+   },
+   "date": "2026-11-04",
+   "slot": "1055",
+   "when": "10:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1430"
+   }
+  },
   {
    "key": "mcx-q2",
    "tag": "Stocks",
@@ -97,7 +169,7 @@
    "slot": "1025",
    "when": "10:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1455"
@@ -121,7 +193,7 @@
    "slot": "1025",
    "when": "10:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1130"
@@ -145,7 +217,7 @@
    "slot": "1025",
    "when": "10:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0845"
@@ -319,30 +391,6 @@
    "first_seen": {
     "date": "2026-10-29",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "us-yields",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "US 10-year yield nears 5%",
-   "line": "10-year rose about 6 bp to 4.958% after a firm JOLTS print",
-   "more": [
-    "Job openings 7.52M vs 7.13M expected",
-    "Higher US yields can slow foreign flows to EMs"
-   ],
-   "src": {
-    "title": "CNBC: Treasury yields rise as investors weigh midterm vote, jobs data and Iran tensions",
-    "url": "https://www.cnbc.com/2026/11/03/us-treasury-yields-bonds.html"
-   },
-   "date": "2026-11-04",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1430"
    }
   },
   {
@@ -1454,30 +1502,6 @@
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee opens firmer at 94.89/$",
-   "line": "Up 7 paise from Friday's 94.96 close as oil eases, while Asian peers weaken",
-   "more": [
-    "Rupee hit 95.28 Friday before a late reversal on dollar sales by a foreign bank",
-    "Traders had expected a flat 94.94–94.98 open"
-   ],
-   "src": {
-    "title": "NewsBytes: Rupee opens stronger at 94.89",
-    "url": "https://www.newsbytesapp.com/news/business/indian-rupee-opens-stronger-at-9489-per-1-asia-slips/tldr"
-   },
-   "date": "2026-11-02",
-   "slot": "0930",
-   "when": "Mon · 9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1100"
    }
   },
   {
