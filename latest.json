@@ -1,45 +1,45 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T12:56:57+05:30",
+ "generated_at": "2026-11-04T13:26:45+05:30",
  "date": "2026-11-04",
- "slot": "1255",
- "slot_label": "12:55",
+ "slot": "1325",
+ "slot_label": "13:25",
  "stage": "Mid-market mood",
- "asof": "2026-11-04T12:55:00+05:30",
+ "asof": "2026-11-04T13:25:00+05:30",
  "nifty": {
-  "value": 23771.7,
-  "pct": -0.16,
-  "chg": -39.15,
-  "approx": true,
-  "asof_quote": "12:00 IST, Business Standard live blog; no later print found"
+  "value": 23827.65,
+  "pct": 0.07,
+  "chg": 16.8,
+  "approx": false,
+  "asof_quote": "13:00 IST, Business Standard live blog"
  },
  "mood": {
-  "label": "Range-bound",
-  "score": -0.05,
-  "summary": "Benchmarks are stuck in a tight range around Tuesday's close into early afternoon, with mid and small caps still ahead and tech the clear soft spot.",
+  "label": "Flat, two-way",
+  "score": 0.0,
+  "summary": "Benchmarks have edged back above Tuesday's close in early afternoon trade, with realty and consumer names offsetting a sharp slide in IT; the market remains in a narrow range.",
   "detail": {
-   "leaders": "FMCG led by ITC",
-   "laggards": "IT, with TCS and HCL Tech among Sensex losers",
-   "tone": "Live read, unchanged from 12:25: the Nifty is still pinned near the flat line with no fresh push either way, and the broader market keeps its edge.",
+   "leaders": "Realty; ITC",
+   "laggards": "IT, with TCS and HCL Tech among losers",
+   "tone": "Live read, a touch firmer than 12:55: the benchmarks have crept back into the green, but gains in realty and FMCG are only just covering the IT slide, so the session stays range-bound.",
    "watch": [
-    "US futures before Wall Street opens",
-    "Dabur and other results due this afternoon",
-    "Whether the Nifty closes above Tuesday's level"
+    "Whether IT selling deepens before Wall Street opens",
+    "Dabur and other results this afternoon",
+    "Rupee and bond yields into the close"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex stuck in range, Nifty near 23,800; SMIDs advance",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+    "title": "Business Standard: Stock Market LIVE — Sensex up 100 pts, Nifty tops 23,800; Nifty Realty gains over 2%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Consumer stocks lead, with ITC the standout gainer",
-     "why": "Buyers are sticking with consumer names, which are less exposed to US tech and policy risk than IT.",
+     "summary": "Realty jumps and ITC holds gains as rate-sensitive and consumer names attract buyers",
+     "why": "Easing Indian bond yields and softer oil are helping rate-sensitive and consumer stocks.",
      "names": [
       {
-       "name": "Nifty FMCG",
+       "name": "Nifty Realty",
        "dir": "up",
-       "move": "+1%",
-       "line": "Best sector at noon, extending Tuesday's rally; latest sourced reading"
+       "move": "+1.8% to +2%",
+       "line": "Top sector as India's 10-year bond yield eases to about 7.26%"
       },
       {
        "name": "ITC",
@@ -49,39 +49,113 @@
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex stuck in range, Nifty near 23,800; SMIDs advance",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+      "title": "Business Standard: Stock Market LIVE — Sensex up 100 pts, Nifty tops 23,800; Nifty Realty gains over 2%",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
      }
     },
     "down": {
-     "summary": "IT is the weakest sector, with TCS and HCL Tech among Sensex losers",
-     "why": "US Nasdaq futures fell more than 2% overnight on worries about tighter tech oversight under a Democratic Congress, and Indian IT is following.",
+     "summary": "IT slides over 2%, the biggest drag on the benchmarks",
+     "why": "Nasdaq futures fell more than 2% on fears a Democratic Congress will tighten tech and AI oversight, and Indian IT is tracking that.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "Weakest sector at noon; index move not given in the report"
+       "move": "−2.43%",
+       "line": "Worst sector at midday as US tech sentiment sours after the midterms"
       },
       {
        "name": "TCS",
        "dir": "down",
-       "line": "Among the Sensex losers as US tech sentiment sours"
+       "line": "Among the Sensex losers with IT under pressure; move not sourced"
       },
       {
        "name": "HCL Tech",
        "dir": "down",
-       "line": "Also among the Sensex losers alongside TCS"
+       "line": "Also among the Sensex losers alongside TCS; move not sourced"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex stuck in range, Nifty near 23,800; SMIDs advance",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+      "title": "Trade Brains: Sensex & Nifty 50 live updates — 4 November",
+      "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-4-november-gift-nifty-signals-a-weak-opening-crude-oil-and-global-cues-in-focus-12781548"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "india-bonds",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "India 10-year yield eases to about 7.26%",
+   "line": "Bond yields fell on lower oil and the shifting US political outlook",
+   "more": [
+    "Reported shortly before 1 pm",
+    "Report attributes it to improved market sentiment"
+   ],
+   "src": {
+    "title": "Whalesbook: Indian bond yields dip to 7.26% on lower oil and US political outlook",
+    "url": "https://www.whalesbook.com/news/English/economy/Indian-Bond-Yields-Dip-to-726percent-on-Lower-Oil-and-US-Political-Outlook/6aeaded94fc30694db5baae1"
+   },
+   "date": "2026-11-04",
+   "slot": "1325",
+   "when": "13:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1325"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee firms toward 94.75 per dollar",
+   "line": "Foreign fund inflows and equity gains are supporting the currency",
+   "more": [
+    "Rupee had closed at 94.74 after a third straight gain",
+    "FPIs bought heavily on Tuesday"
+   ],
+   "src": {
+    "title": "HDFC Sky: Most active stocks today, 4 November 2026 at 12:00 PM IST",
+    "url": "https://hdfcsky.com/news/most-active-stocks-today-4-november-2026-at-12-pm"
+   },
+   "date": "2026-11-04",
+   "slot": "1325",
+   "when": "13:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "dabur-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Dabur Q2 expected to show 9% profit growth",
+   "line": "Analysts see about 11% revenue growth and 9% adjusted profit growth",
+   "more": [
+    "Company guided to double-digit growth in October",
+    "Year-ago profit was about ₹453 cr",
+    "Results due today"
+   ],
+   "src": {
+    "title": "IndiaIPO: Emami vs Dabur Q2 results preview — profit, revenue expectations",
+    "url": "https://www.indiaipo.in/news/detail/emami-vs-dabur-fmcg-shares-q2-results-preview-profit-revenue-expectations-dividend-announcements-in-focus"
+   },
+   "date": "2026-11-04",
+   "slot": "1325",
+   "when": "13:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1255"
+   }
+  },
   {
    "key": "us-midterms",
    "tag": "Global",
@@ -101,7 +175,7 @@
    "slot": "1255",
    "when": "12:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0700"
@@ -125,35 +199,10 @@
    "slot": "1255",
    "when": "12:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1430"
-   }
-  },
-  {
-   "key": "dabur-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Dabur reports Q2 today",
-   "line": "Company had guided to double-digit revenue and profit growth for the quarter",
-   "more": [
-    "Year-ago consolidated profit was ₹452 cr",
-    "Input-cost pressure weighed on margins, it said",
-    "Results due this afternoon"
-   ],
-   "src": {
-    "title": "BW Businessworld: Dabur expects double-digit Q2 growth despite cost pressure",
-    "url": "https://www.businessworld.in/article/dabur-expects-double-digit-q2-growth-despite-cost-pressure-627180"
-   },
-   "date": "2026-11-04",
-   "slot": "1255",
-   "when": "12:55",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1255"
    }
   },
   {
@@ -299,30 +348,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee firms, easing import-cost worries",
-   "line": "Modest rupee appreciation is offering relief on import costs today",
-   "more": [
-    "Brent is still above $100 a barrel",
-    "A firmer rupee helps oil marketers and importers"
-   ],
-   "src": {
-    "title": "Investing.com: Indian stocks open higher as oil prices ease and gold gains",
-    "url": "https://in.investing.com/news/stock-market-news/indian-stocks-open-higher-as-oil-prices-ease-and-gold-gains-5677030"
-   },
-   "date": "2026-11-04",
-   "slot": "1055",
-   "when": "10:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1100"
    }
   },
   {
