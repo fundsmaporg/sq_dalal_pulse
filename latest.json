@@ -1,56 +1,56 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T13:57:00+05:30",
+ "generated_at": "2026-11-04T14:26:50+05:30",
  "date": "2026-11-04",
- "slot": "1355",
- "slot_label": "13:55",
+ "slot": "1425",
+ "slot_label": "14:25",
  "stage": "Mid-market mood",
- "asof": "2026-11-04T13:55:00+05:30",
+ "asof": "2026-11-04T14:25:00+05:30",
  "nifty": {
-  "value": 23827.65,
-  "pct": 0.07,
-  "chg": 16.8,
-  "approx": true,
-  "asof_quote": "13:00 IST, Business Standard live blog; no later print found"
+  "value": 23893.4,
+  "pct": 0.35,
+  "chg": 82.55,
+  "approx": false,
+  "asof_quote": "14:00 IST, Business Standard live blog"
  },
  "mood": {
-  "label": "Range-bound",
-  "score": 0.0,
-  "summary": "The market is stuck near Tuesday's close into mid-afternoon, with realty and consumer gains offset by IT and results-driven selling in Zydus Lifesciences.",
+  "label": "Afternoon lift",
+  "score": 0.2,
+  "summary": "Indian shares have pushed higher in the afternoon, with the benchmarks up about a third of a percent as strong quarterly numbers lift individual stocks despite weak IT.",
   "detail": {
-   "leaders": "Realty; ITC",
+   "leaders": "Redington and NLC India on results",
    "laggards": "IT; Zydus Lifesciences after results",
-   "tone": "Live read, little changed from 13:25: the Nifty is still hugging the flat line, and sector rotation rather than direction is the story of the afternoon.",
+   "tone": "Live read, firmer than 13:55: the benchmarks have broken out of the flat range to gain about a third of a percent, led by results-driven buying rather than a broad sector move.",
    "watch": [
-    "IT stocks ahead of the US open",
-    "Cummins, Dabur and other results due today",
-    "Whether the Nifty holds above Tuesday's close"
+    "Whether the gains hold into the 3:30 close",
+    "IT stocks once Wall Street opens",
+    "Cummins, Dabur and Lenskart results"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex up 100 pts, Nifty tops 23,800; Nifty Realty gains over 2%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+    "title": "Business Standard: Stock Market LIVE — Sensex up 200 pts, Nifty tops 23,800; NLC India shares jump 7% post Q2 result",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Realty climbs and ITC holds gains, keeping the benchmarks afloat",
-     "why": "Easing bond yields and softer oil are drawing buyers into rate-sensitive and consumer stocks.",
+     "summary": "Redington and NLC India jump about 7% on strong September-quarter results",
+     "why": "Results-driven buying is lifting individual stocks as the Q2 season peaks today.",
      "names": [
       {
-       "name": "Nifty Realty",
+       "name": "Redington",
        "dir": "up",
-       "move": "up over 2%",
-       "line": "Top sector at 1 pm as India's 10-year bond yield eased"
+       "move": "+6.9%",
+       "line": "Q2 profit rose 39.6% to ₹541.32 cr; shares hit ₹358.50"
       },
       {
-       "name": "ITC",
+       "name": "NLC India",
        "dir": "up",
-       "move": "+3%",
-       "line": "Strong FMCG growth in Q2 offset worries over the cigarette business"
+       "move": "about +7%",
+       "line": "Q2 profit about ₹1,328 cr vs ₹725 cr; also approved a dividend and expansion"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex up 100 pts, Nifty tops 23,800; Nifty Realty gains over 2%",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+      "title": "Business Standard: Stock Market LIVE — Sensex up 200 pts, Nifty tops 23,800; NLC India shares jump 7% post Q2 result",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
      }
     },
     "down": {
@@ -60,25 +60,98 @@
       {
        "name": "Nifty IT",
        "dir": "down",
-       "move": "−2.43%",
-       "line": "Worst sector at midday as US tech sentiment sours after the midterms"
+       "move": "−2.43% at midday",
+       "line": "Worst sector at midday as US tech sentiment sours; no later figure sourced"
       },
       {
        "name": "Zydus Lifesciences",
        "dir": "down",
-       "move": "−3.84%",
+       "move": "−3.84% at 1 pm",
        "line": "Q2 profit fell 27%; shares reversed from a 52-week high"
       }
      ],
      "src": {
-      "title": "Zee Business: Zydus Lifesciences Q2 — profit falls 27%; shares decline after hitting 52-week high",
-      "url": "https://www.zeebiz.com/market-news/news-zydus-lifesciences-q2-results-profit-falls-27-shares-decline-over-3-after-hitting-52-week-high-405064"
+      "title": "Trade Brains: Sensex & Nifty 50 live updates — 4 November",
+      "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-4-november-gift-nifty-signals-a-weak-opening-crude-oil-and-global-cues-in-focus-12781548"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "redington-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Redington Q2 profit up 40%",
+   "line": "Consolidated profit rose 39.6% to ₹541.32 cr in the September quarter",
+   "more": [
+    "Shares jumped 6.9% to ₹358.50",
+    "Figures are for the September quarter, Q2 FY27"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex up 100 pts, Nifty tops 23,800; Redington shares jump 7% post Q2 result",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+   },
+   "date": "2026-11-04",
+   "slot": "1425",
+   "when": "14:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1425"
+   }
+  },
+  {
+   "key": "nlc-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "NLC India profit nearly doubles in Q2",
+   "line": "Consolidated profit about ₹1,328 cr vs ₹725 cr; revenue ₹4,732 cr",
+   "more": [
+    "Interim dividend of ₹1.50 per share",
+    "Approved a 660 MW thermal expansion",
+    "₹2,500 cr bond issue cleared"
+   ],
+   "src": {
+    "title": "Whalesbook: NLC India Q2 profit hits ₹1,328 crore; declares dividend and expansion",
+    "url": "https://www.whalesbook.com/corporate-news/English/energy/NLC-India-Q2-Profit-Hits-Rs-1328-Crore-Declares-Dividend-and-Expansion/6aeaebfdc6c6dccbb9120635"
+   },
+   "date": "2026-11-04",
+   "slot": "1425",
+   "when": "14:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1425"
+   }
+  },
+  {
+   "key": "q2-today",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Cummins, Lenskart, Nykaa still to report",
+   "line": "Dabur, Apollo Tyres, BSE and Biocon also due as the results day peaks",
+   "more": [
+    "SBI, Emcure and Awfis rose after their results",
+    "Most numbers are due after market hours"
+   ],
+   "src": {
+    "title": "BusinessLine on X: Q2 results today live — BSE, Cummins, Zydus, Apollo, Lenskart, Nykaa and others",
+    "url": "https://x.com/businessline/status/2117837456267727103"
+   },
+   "date": "2026-11-04",
+   "slot": "1425",
+   "when": "14:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0845"
+   }
+  },
   {
    "key": "zydus-q2",
    "tag": "Results",
@@ -98,7 +171,7 @@
    "slot": "1355",
    "when": "13:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1355"
@@ -123,7 +196,7 @@
    "slot": "1355",
    "when": "13:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1355"
@@ -147,7 +220,7 @@
    "slot": "1355",
    "when": "13:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1355"
@@ -273,30 +346,6 @@
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1430"
-   }
-  },
-  {
-   "key": "q2-today",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Nearly 400 companies report Q2 today",
-   "line": "Dabur, Nykaa, Lenskart, Apollo Tyres and Torrent Pharma among those due",
-   "more": [
-    "Most numbers are expected after market hours",
-    "BSE and Biocon also report today"
-   ],
-   "src": {
-    "title": "Upstox: Q2 results live updates — Nykaa, Lenskart, Dabur, Torrent Pharma, Apollo Tyres and others",
-    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-nykaa-lenskart-dabur-torent-pharma-apollo-tyres-others-to-report-earnings/liveblog-202942/"
-   },
-   "date": "2026-11-04",
-   "slot": "1225",
-   "when": "12:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0845"
    }
   },
   {
