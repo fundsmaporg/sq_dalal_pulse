@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T07:01:54+05:30",
+ "generated_at": "2026-11-04T08:47:27+05:30",
  "date": "2026-11-04",
- "slot": "0700",
- "slot_label": "7:00",
+ "slot": "0845",
+ "slot_label": "8:45",
  "stage": "Pre-market mood",
- "asof": "2026-11-04T07:00:00+05:30",
+ "asof": "2026-11-04T08:45:00+05:30",
  "nifty": {
   "value": 23810.85,
   "pct": 1.58,
@@ -14,25 +14,147 @@
   "asof_quote": "Nov 3 close (Business Standard)"
  },
  "mood": {
-  "label": "Firm start likely",
-  "score": 0.35,
-  "summary": "Wednesday set-up: steady foreign buying and a firmer Nasdaq support India after its four-day run, while midterm counting, US yields near 5% and Kospi's chip slide temper it.",
+  "label": "Soft start likely",
+  "score": -0.1,
+  "summary": "Pre-open: GIFT Nifty points to a slightly lower start as Asia slips on early Democratic midterm gains, cooling the firmer tone seen at 07:00 after four up sessions.",
   "detail": {
-   "leaders": "Exchange stocks after strong MCX and NSE numbers; chip-linked IT on AMD's beat",
-   "laggards": "Rate-sensitives if US yields keep rising; oil users if Brent rebounds",
-   "tone": "Forward-looking pre-open read: FII buying for a third day and a softer oil settle lean positive, but midterm counts and Kospi's selloff argue for a measured open.",
+   "leaders": "Exchange stocks after MCX's strong quarter; Kotak Mahindra Bank on the CCI nod",
+   "laggards": "IT and exporters if the dollar slide extends; chip-linked names after Asia's tech selling",
+   "tone": "Forward-looking pre-open read, a notch weaker than 07:00: GIFT Nifty is mildly negative and Asian markets are lower, though steady FII buying should cushion the dip.",
    "watch": [
-    "Final US House and Senate calls",
-    "GIFT Nifty and FII flows at 08:45",
-    "US 10-year near 5%"
+    "Final House and Senate calls",
+    "Tokyo and Seoul through the morning",
+    "Cabinet meeting at 11 am"
    ],
    "src": {
-    "title": "Quantsapp: FII DII data today (3 Nov)",
-    "url": "https://www.quantsapp.com/fii-dii"
+    "title": "Business Standard: Stock Market LIVE — GIFT Nifty signals negative open; Asia declines; Brent near $103",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "us-midterms",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Dollar, Asia slip on Democratic gains",
+   "line": "Dollar index fell to about 101.25 in early Asia as Democrats posted early wins",
+   "more": [
+    "AFP: Tokyo lost more than 3% as a yen spike hit exporters",
+    "SK Hynix fell as much as 3% in Seoul",
+    "Analysts expect a short-lived dollar reaction"
+   ],
+   "src": {
+    "title": "France 24 (AFP): Stocks and dollar drop as Democrats enjoy big early wins",
+    "url": "https://www.france24.com/en/live-news/20261104-stocks-and-dollar-drop-as-democrats-enjoy-big-early-wins"
+   },
+   "date": "2026-11-04",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "kotak-db",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Kotak gets CCI nod for Deutsche unit buy",
+   "line": "CCI cleared Kotak's purchase of Deutsche Bank's India retail and wealth arms",
+   "more": [
+    "Covers retail, private banking and wealth businesses",
+    "Approval was granted on Nov 3"
+   ],
+   "src": {
+    "title": "Zee Business: Stocks to watch today (Nov 4) — MCX, BSE, Kotak Mahindra Bank, Sri Lotus Developers",
+    "url": "https://www.zeebiz.com/markets/stocks/news-stocks-to-watch-today-nov-4-mcx-bse-kotak-mahindra-bank-sri-lotus-developers-and-more-405040"
+   },
+   "date": "2026-11-04",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "q2-today",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Biocon, Aurobindo, Nykaa report today",
+   "line": "F&O names Dabur, Cummins, Zydus, NHPC and Nykaa also post Q2 numbers",
+   "more": [
+    "BSE reports after market hours",
+    "Apollo Hospitals and Metropolis also on the list",
+    "Dabur due in the early afternoon"
+   ],
+   "src": {
+    "title": "Zee Business: Stocks to watch today (Nov 4) — MCX, BSE, Kotak Mahindra Bank, Sri Lotus Developers",
+    "url": "https://www.zeebiz.com/markets/stocks/news-stocks-to-watch-today-nov-4-mcx-bse-kotak-mahindra-bank-sri-lotus-developers-and-more-405040"
+   },
+   "date": "2026-11-04",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "mcx-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "MCX in focus after record quarter",
+   "line": "Consolidated Q2 profit ₹454.57 cr vs ₹197.47 cr; first trade after results",
+   "more": [
+    "Revenue roughly doubled year on year",
+    "Shares jumped 9% on Nov 3 ahead of results"
+   ],
+   "src": {
+    "title": "Whalesbook: MCX Q2 net profit jumps to ₹454 crore; revenue doubles",
+    "url": "https://www.whalesbook.com/corporate-news/English/other/MCX-Q2-Net-Profit-Jumps-to-Rs-454-Crore-Revenue-Doubles/6ae9ec17c6c6dccbb91139ae"
+   },
+   "date": "2026-11-04",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1455"
+   }
+  },
+  {
+   "key": "cabinet-meet",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Cabinet meets at 11 am",
+   "line": "Union Cabinet meeting flagged as a possible trigger for policy-linked stocks",
+   "more": [
+    "No agenda confirmed in the preview",
+    "Decisions are usually briefed after the meeting"
+   ],
+   "src": {
+    "title": "Zee Business: Stocks to watch today (Nov 4) — MCX, BSE, Kotak Mahindra Bank, Sri Lotus Developers",
+    "url": "https://www.zeebiz.com/markets/stocks/news-stocks-to-watch-today-nov-4-mcx-bse-kotak-mahindra-bank-sri-lotus-developers-and-more-405040"
+   },
+   "date": "2026-11-04",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0845"
+   }
+  },
   {
    "key": "fii-flows",
    "tag": "Flows",
@@ -52,7 +174,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1130"
@@ -77,35 +199,10 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "us-midterms",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Midterms: Democrats gain, count continues",
-   "line": "Cooper flips North Carolina; Ossoff holds Georgia; House leans Democratic",
-   "more": [
-    "Pappas wins the New Hampshire Senate seat",
-    "CBS projects about 229 House seats for Democrats",
-    "Florida Senate race too close to call"
-   ],
-   "src": {
-    "title": "CNBC: Midterm elections 2026 live updates — Ossoff wins Georgia, House leans Dem",
-    "url": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html"
-   },
-   "date": "2026-11-04",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0700"
    }
   },
   {
@@ -126,7 +223,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1430"
@@ -150,7 +247,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1130"
@@ -174,35 +271,10 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "mcx-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "MCX Q2 profit more than doubles",
-   "line": "Consolidated profit ₹454.57 cr vs ₹197.47 cr; operating income ₹799.66 cr",
-   "more": [
-    "Standalone profit ₹405.35 cr vs ₹156.43 cr",
-    "Profit up ~10% on Q1 FY27",
-    "Shares jumped 9% before results"
-   ],
-   "src": {
-    "title": "Whalesbook: MCX Q2 net profit jumps to ₹454 crore; revenue doubles",
-    "url": "https://www.whalesbook.com/corporate-news/English/other/MCX-Q2-Net-Profit-Jumps-to-Rs-454-Crore-Revenue-Doubles/6ae9ec17c6c6dccbb91139ae"
-   },
-   "date": "2026-11-03",
-   "slot": "2100",
-   "when": "Tue · 21:00",
-   "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
-    "slot": "1455"
+    "slot": "0845"
    }
   },
   {
