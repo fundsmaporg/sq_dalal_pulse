@@ -1,78 +1,156 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T09:57:02+05:30",
+ "generated_at": "2026-11-04T10:27:38+05:30",
  "date": "2026-11-04",
- "slot": "0955",
- "slot_label": "9:55",
+ "slot": "1025",
+ "slot_label": "10:25",
  "stage": "Opening mood",
- "asof": "2026-11-04T09:55:00+05:30",
+ "asof": "2026-11-04T10:25:00+05:30",
  "nifty": {
-  "value": 23876,
-  "pct": 0.28,
-  "chg": 65.15,
+  "value": 23923,
+  "pct": 0.47,
+  "chg": 113,
   "approx": true,
-  "asof_quote": "09:19 IST print, as reported by Upstox"
+  "asof_quote": "mid-morning, as reported by RTTNews"
  },
  "mood": {
-  "label": "Dip bought early",
-  "score": 0.15,
-  "summary": "The early dip was bought within minutes and the indices turned modestly higher, with defensives holding up and tech the main drag as markets absorb the US midterm outcome.",
+  "label": "Gains extend",
+  "score": 0.3,
+  "summary": "Indian shares push further into the green by mid-morning, led by heavyweight banks and ports, while profit-taking hits recent winners and broader breadth stays thin.",
   "detail": {
-   "leaders": "Healthcare and pharma, holding up as defensives",
-   "laggards": "IT, tracking Asia's tech selling",
-   "tone": "Live read, firmer than 09:25: the opening slide reversed within minutes and the indices moved into the green, though gains are small and the rally is pausing rather than extending.",
+   "leaders": "HDFC Bank and Adani Ports among the Sensex leaders",
+   "laggards": "MCX on profit-taking; IT weak from the open",
+   "tone": "Live read, firmer than 09:55: the indices have extended the early recovery to about half a percent, though Reuters notes most sectors and small caps were marginally lower at the open.",
    "watch": [
-    "Whether the indices hold above the previous close",
     "Final US Senate call",
-    "Cabinet meeting at 11 am"
+    "Biocon, Nykaa and BSE results later today",
+    "Whether banks keep leading into the afternoon"
    ],
    "src": {
-    "title": "Upstox: NIFTY50, SENSEX recover after opening lower; SBI, ITC, Max Healthcare among top gainers",
-    "url": "https://upstox.com/news/market-news/stocks/nifty-50-sensex-recover-after-opening-lower-amid-mixed-global-cues-sbi-itc-max-healthcare-among-top-gainers/article-202938/"
+    "title": "RTTNews: Indian shares edge higher in cautious trade; US election results in focus",
+    "url": "https://www.rttnews.com/story.aspx?Id=3709062"
    },
    "movers": {
     "up": {
-     "summary": "Healthcare and pharma indices edge up while the rest of the market wobbles",
-     "why": "Investors leaned on defensive sectors as the four-day rally paused and global tech sold off.",
+     "summary": "Heavyweights HDFC Bank and Adani Ports lead the Sensex higher",
+     "why": "Softer oil eased inflation worries and early US midterm results were taken in stride, drawing buyers back into large caps.",
      "names": [
       {
-       "name": "Nifty Healthcare",
+       "name": "HDFC Bank",
        "dir": "up",
-       "move": "up to +0.23%",
-       "line": "Named among the resilient sectors at the open as defensives drew buying"
+       "move": "+1.8% to +3%",
+       "line": "Top-weighted Sensex gainer, doing the most to lift the index; size varies by source"
       },
       {
-       "name": "Nifty Pharma",
+       "name": "Adani Ports",
        "dir": "up",
-       "move": "up to +0.23%",
-       "line": "Pharma held firm at the open while IT and realty slipped"
+       "move": "about +2%",
+       "line": "Among the leading Sensex gainers in mid-morning trade"
       }
      ],
      "src": {
-      "title": "IANS: Sensex, Nifty open subdued after 4-day winning run; healthcare shares resilient",
-      "url": "https://ianslive.in/sensex-nifty-open-subdued-after-4-day-winning-run-healthcare-shares-resilient--20261104093036"
+      "title": "RTTNews: Indian shares edge higher in cautious trade; US election results in focus",
+      "url": "https://www.rttnews.com/story.aspx?Id=3709062"
      }
     },
     "down": {
-     "summary": "IT drags at the open as Asian tech stocks sell off",
-     "why": "Asian markets were pressured by tech stocks on AI-spending concerns, and Indian IT followed.",
+     "summary": "MCX slides on profit-taking; IT soft since the open",
+     "why": "Traders booked profits in names that ran up before results, and IT has tracked Asia's tech selling.",
      "names": [
+      {
+       "name": "MCX",
+       "dir": "down",
+       "move": "−6%",
+       "line": "Sold despite more than doubling Q2 profit, after a 52-week high on Tuesday"
+      },
       {
        "name": "Nifty IT",
        "dir": "down",
-       "move": "−0.8% to −1%",
-       "line": "Tracked Asia's tech selloff on AI-spending worries; drop size differs by source"
+       "move": "−0.8% to −1% at open",
+       "line": "Fell with Asian tech stocks on AI-spending worries; latest move not sourced"
       }
      ],
      "src": {
-      "title": "IANS: Sensex, Nifty open subdued after 4-day winning run; healthcare shares resilient",
-      "url": "https://ianslive.in/sensex-nifty-open-subdued-after-4-day-winning-run-healthcare-shares-resilient--20261104093036"
+      "title": "RTTNews: Indian shares edge higher in cautious trade; US election results in focus",
+      "url": "https://www.rttnews.com/story.aspx?Id=3709062"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "mcx-q2",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "MCX slumps 6% despite doubled profit",
+   "line": "Traders booked gains after Tuesday's jump to a 52-week high",
+   "more": [
+    "Q2 profit more than doubled year on year",
+    "Stock had risen about 7–8% on Tuesday"
+   ],
+   "src": {
+    "title": "RTTNews: Indian shares edge higher in cautious trade; US election results in focus",
+    "url": "https://www.rttnews.com/story.aspx?Id=3709062"
+   },
+   "date": "2026-11-04",
+   "slot": "1025",
+   "when": "10:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1455"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Softer oil eases inflation worries",
+   "line": "Lower crude is helping sentiment as the US midterm results come in",
+   "more": [
+    "Brent eased in Asian trade this morning",
+    "Oil remains sensitive to US–Iran headlines"
+   ],
+   "src": {
+    "title": "RTTNews: Indian shares edge higher in cautious trade; US election results in focus",
+    "url": "https://www.rttnews.com/story.aspx?Id=3709062"
+   },
+   "date": "2026-11-04",
+   "slot": "1025",
+   "when": "10:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "q2-today",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Lenskart, BSE, Dabur among today's results",
+   "line": "Apollo Tyres, GRSE, Redington, Torrent Power and Physicswallah also report",
+   "more": [
+    "Nykaa and Biocon also on the slate",
+    "Most numbers due after market hours"
+   ],
+   "src": {
+    "title": "Upstox: Q2 results Nov 4 — Lenskart, Nykaa, BSE, Apollo Tyres, Dabur India, GRSE, Redington, Torrent Power, Physicswallah",
+    "url": "https://upstox.com/news/market-news/earnings/q2-results-nov-4-lenskart-nykaa-bse-apollo-tyres-dabur-india-grse-redington-torrent-power-physicswallah-others-to-post-earnings/article-202932/"
+   },
+   "date": "2026-11-04",
+   "slot": "1025",
+   "when": "10:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0845"
+   }
+  },
   {
    "key": "us-midterms",
    "tag": "Global",
@@ -92,7 +170,7 @@
    "slot": "0955",
    "when": "9:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0700"
@@ -116,7 +194,7 @@
    "slot": "0955",
    "when": "9:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1130"
@@ -140,59 +218,10 @@
    "slot": "0955",
    "when": "9:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0955"
-   }
-  },
-  {
-   "key": "mcx-q2",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "MCX at a 52-week high after results",
-   "line": "Shares closed about 7.8% higher at ₹3,493 on Nov 3, after touching ₹3,537",
-   "more": [
-    "Q2 revenue about ₹800 cr vs ₹374 cr a year earlier",
-    "Options turnover rose about 21% on the quarter",
-    "Reported closing figures vary slightly by source"
-   ],
-   "src": {
-    "title": "inkl: MCX Q2 results — profit rockets 130% YoY to ₹455 crore, revenue jumps 114%",
-    "url": "https://www.inkl.com/news/mcx-q2-results-profit-rockets-130-yoy-to-rs-455-crore-revenue-jumps-114"
-   },
-   "date": "2026-11-04",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1455"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Brent slips about 1% in Asian trade",
-   "line": "Softer oil is a tailwind for importers and oil-marketing companies",
-   "more": [
-    "Brent had already settled lower on Tuesday",
-    "Diplomacy hopes on Iran keep a lid on prices"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex flat at pre-open; Brent crude falls 1%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
-   },
-   "date": "2026-11-04",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1130"
    }
   },
   {
@@ -228,31 +257,6 @@
    "more": [
     "Covers retail, private banking and wealth businesses",
     "Approval was granted on Nov 3"
-   ],
-   "src": {
-    "title": "Zee Business: Stocks to watch today (Nov 4) — MCX, BSE, Kotak Mahindra Bank, Sri Lotus Developers",
-    "url": "https://www.zeebiz.com/markets/stocks/news-stocks-to-watch-today-nov-4-mcx-bse-kotak-mahindra-bank-sri-lotus-developers-and-more-405040"
-   },
-   "date": "2026-11-04",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "q2-today",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Biocon, Aurobindo, Nykaa report today",
-   "line": "F&O names Dabur, Cummins, Zydus, NHPC and Nykaa also post Q2 numbers",
-   "more": [
-    "BSE reports after market hours",
-    "Apollo Hospitals and Metropolis also on the list",
-    "Dabur due in the early afternoon"
    ],
    "src": {
     "title": "Zee Business: Stocks to watch today (Nov 4) — MCX, BSE, Kotak Mahindra Bank, Sri Lotus Developers",
