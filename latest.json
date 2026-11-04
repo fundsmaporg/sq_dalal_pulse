@@ -1,38 +1,111 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T08:47:27+05:30",
+ "generated_at": "2026-11-04T09:27:25+05:30",
  "date": "2026-11-04",
- "slot": "0845",
- "slot_label": "8:45",
- "stage": "Pre-market mood",
- "asof": "2026-11-04T08:45:00+05:30",
+ "slot": "0925",
+ "slot_label": "9:25",
+ "stage": "Opening mood",
+ "asof": "2026-11-04T09:25:00+05:30",
  "nifty": {
-  "value": 23810.85,
-  "pct": 1.58,
-  "chg": 370.05,
-  "approx": false,
-  "asof_quote": "Nov 3 close (Business Standard)"
+  "value": 23713.35,
+  "pct": -0.41,
+  "chg": -97.5,
+  "approx": true,
+  "asof_quote": "early trade, as reported by Zee Business"
  },
  "mood": {
-  "label": "Soft start likely",
-  "score": -0.1,
-  "summary": "Pre-open: GIFT Nifty points to a slightly lower start as Asia slips on early Democratic midterm gains, cooling the firmer tone seen at 07:00 after four up sessions.",
+  "label": "Mild early dip",
+  "score": -0.15,
+  "summary": "Indian shares open a shade lower and drift down in early trade, ending a four-session winning run as Asia's midterm jitters weigh, though selling so far is mild.",
   "detail": {
-   "leaders": "Exchange stocks after MCX's strong quarter; Kotak Mahindra Bank on the CCI nod",
-   "laggards": "IT and exporters if the dollar slide extends; chip-linked names after Asia's tech selling",
-   "tone": "Forward-looking pre-open read, a notch weaker than 07:00: GIFT Nifty is mildly negative and Asian markets are lower, though steady FII buying should cushion the dip.",
+   "leaders": "No clear leadership yet in the first minutes of trade",
+   "laggards": "Broad, light profit-taking after the four-day run",
+   "tone": "Live read: the open matched the soft pre-open signal, with selling slightly heavier after the first few minutes but no sign of panic.",
    "watch": [
-    "Final House and Senate calls",
-    "Tokyo and Seoul through the morning",
+    "Whether the early low holds into 10 am",
+    "US midterm calls and the dollar",
     "Cabinet meeting at 11 am"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — GIFT Nifty signals negative open; Asia declines; Brent near $103",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+    "title": "Zee Business: Sensex falls over 60 points, Nifty slips below 23,750; 4-day rally ends",
+    "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-falls-over-60-points-nifty-slips-below-23750-4-day-rally-ends-405045"
    }
   }
  },
  "insights": [
+  {
+   "key": "mcx-q2",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "MCX at a 52-week high after results",
+   "line": "Shares closed about 7.8% higher at ₹3,493 on Nov 3, after touching ₹3,537",
+   "more": [
+    "Q2 revenue about ₹800 cr vs ₹374 cr a year earlier",
+    "Options turnover rose about 21% on the quarter",
+    "Reported closing figures vary slightly by source"
+   ],
+   "src": {
+    "title": "inkl: MCX Q2 results — profit rockets 130% YoY to ₹455 crore, revenue jumps 114%",
+    "url": "https://www.inkl.com/news/mcx-q2-results-profit-rockets-130-yoy-to-rs-455-crore-revenue-jumps-114"
+   },
+   "date": "2026-11-04",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "1455"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Brent slips about 1% in Asian trade",
+   "line": "Softer oil is a tailwind for importers and oil-marketing companies",
+   "more": [
+    "Brent had already settled lower on Tuesday",
+    "Diplomacy hopes on Iran keep a lid on prices"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex flat at pre-open; Brent crude falls 1%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+   },
+   "date": "2026-11-04",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "smallcap-outlook",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Analysts see smallcaps outpacing midcaps",
+   "line": "Chartists say the Nifty Smallcap index looks stronger than the midcap gauge",
+   "more": [
+    "Both indices remain below their 2026 highs",
+    "Both gained on Nov 3 in the broad rally"
+   ],
+   "src": {
+    "title": "Business Standard: Nifty Smallcap looks stronger vs Midcap index, can hit new high — analysts",
+    "url": "https://www.business-standard.com/markets/news/nifty-smallcap-index-looks-stronger-on-charts-vs-midcap-can-hit-new-high-say-tech-analysts-126110300454_1.html"
+   },
+   "date": "2026-11-04",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0925"
+   }
+  },
   {
    "key": "us-midterms",
    "tag": "Global",
@@ -52,7 +125,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0700"
@@ -76,7 +149,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0845"
@@ -101,34 +174,10 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "mcx-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "MCX in focus after record quarter",
-   "line": "Consolidated Q2 profit ₹454.57 cr vs ₹197.47 cr; first trade after results",
-   "more": [
-    "Revenue roughly doubled year on year",
-    "Shares jumped 9% on Nov 3 ahead of results"
-   ],
-   "src": {
-    "title": "Whalesbook: MCX Q2 net profit jumps to ₹454 crore; revenue doubles",
-    "url": "https://www.whalesbook.com/corporate-news/English/other/MCX-Q2-Net-Profit-Jumps-to-Rs-454-Crore-Revenue-Doubles/6ae9ec17c6c6dccbb91139ae"
-   },
-   "date": "2026-11-04",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1455"
    }
   },
   {
@@ -149,7 +198,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0845"
@@ -227,30 +276,6 @@
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1430"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Brent settles lower near $104",
-   "line": "Brent settled at $103.60, down $1.17; WTI at $96.09",
-   "more": [
-    "Iran rejects diplomacy based on coercion",
-    "Oil still volatile after the Qeshm strike"
-   ],
-   "src": {
-    "title": "Fortune: Current price of oil as of Nov. 3, 2026",
-    "url": "https://fortune.com/article/price-of-oil-11-03-2026/"
-   },
-   "date": "2026-11-04",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1130"
    }
   },
   {
