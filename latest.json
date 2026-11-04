@@ -1,30 +1,30 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T15:57:00+05:30",
+ "generated_at": "2026-11-04T16:26:38+05:30",
  "date": "2026-11-04",
- "slot": "1555",
- "slot_label": "15:55",
+ "slot": "1625",
+ "slot_label": "16:25",
  "stage": "Post-market mood",
- "asof": "2026-11-04T15:55:00+05:30",
+ "asof": "2026-11-04T16:25:00+05:30",
  "nifty": {
   "value": 23960.6,
   "pct": 0.63,
   "chg": 149.75,
   "approx": false,
-  "asof_quote": "Nov 4 close, Business Standard and ChiniMandi"
+  "asof_quote": "Nov 4 close, Business Standard and Upstox"
  },
  "mood": {
-  "label": "Broad late rally",
+  "label": "Fifth straight gain",
   "score": 0.45,
-  "summary": "Indian shares finished near the day's highs for a fifth straight gain, with broad buying across sectors and mid and small caps far outpacing the benchmarks; only IT ended lower.",
+  "summary": "Indian shares closed higher for a fifth straight session after a weak start, with small and midcaps leading a broad advance and only IT finishing in the red.",
   "detail": {
-   "leaders": "Midcaps and small caps; Emcure and Redington on results",
-   "laggards": "IT, led lower by TCS and Infosys",
-   "tone": "Live read at the bell, firmer than 15:25: the benchmarks closed near the day's best with a much broader advance than the morning's, so the session turned from range-bound to clearly positive.",
+   "leaders": "Small and midcaps; Emcure and Redington on results",
+   "laggards": "IT, with TCS, Infosys and HCL Tech the biggest drags",
+   "tone": "Close read, firmer than at noon: what looked like a pause after four up days turned into a fifth straight gain, with breadth strong and only IT lagging.",
    "watch": [
-    "Provisional FII/DII data",
-    "Nykaa, BSE and Cummins results after hours",
-    "Wall Street's open tonight"
+    "Provisional FII/DII data for today",
+    "Wall Street's open after the midterm sweep",
+    "Nykaa, BSE and Cummins results"
    ],
    "src": {
     "title": "Business Standard: Stock Market Close — Sensex rises for 5th day, gains 384 pts; Nifty at 23,961; IT only sectoral loser",
@@ -32,13 +32,13 @@
    },
    "movers": {
     "up": {
-     "summary": "Mid and small caps rally well ahead of the Nifty; results winners lead stocks",
-     "why": "Broad buying spread across sectors in the afternoon, and strong quarterly numbers drew money into individual names.",
+     "summary": "Small caps jump about 2% and results winners rally as buying broadens",
+     "why": "Steady foreign inflows, softer oil and a strong run of quarterly results drew buyers across the market after the morning dip.",
      "names": [
       {
        "name": "Nifty Smallcap 100",
        "dir": "up",
-       "move": "+1.55% to +1.8%",
+       "move": "about +1.6% to +2%",
        "line": "Small caps more than doubled the Nifty's gain as buying broadened"
       },
       {
@@ -61,40 +61,119 @@
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market Close — Sensex rises for 5th day, gains 384 pts; Nifty at 23,961; IT only sectoral loser",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+      "title": "Upstox: Market wrap, Nov 4 — Sensex rises 383 pts, Nifty 50 ends at 23,960; Nifty Smallcap 100 jumps 2%, BEL top gainer",
+      "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-4-sensex-rises-383-pts-nifty-50-ends-at-23-960-nifty-smallcap-100-jumps-2-bel-top-gainer/article-202977/"
      }
     },
     "down": {
-     "summary": "IT is the only sector to fall, with TCS and Infosys the biggest drags",
-     "why": "Nasdaq futures fell more than 2% on fears a Democratic Congress will tighten tech and AI oversight, weighing on Indian IT all day.",
+     "summary": "IT ends as the only losing sector, with TCS down over 2%",
+     "why": "Fears that a Democratic Congress will tighten oversight of AI and tech hit US tech futures overnight, and Indian IT stayed under pressure all day.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "move": "about −2%",
-       "line": "Only sector in the red as US tech sentiment soured after the midterms"
+       "move": "−1.94%",
+       "line": "Only sector in the red as US tech-regulation worries weighed"
       },
       {
        "name": "TCS",
        "dir": "down",
-       "line": "Among the top Nifty losers with the IT selloff; move not sourced"
+       "move": "over −2%",
+       "line": "Among the biggest Nifty losers, leading the IT decline"
       },
       {
        "name": "Infosys",
        "dir": "down",
-       "line": "Also among the top Nifty losers alongside TCS; move not sourced"
+       "line": "Among the top Nifty losers alongside TCS; move not sourced"
+      },
+      {
+       "name": "HCL Tech",
+       "dir": "down",
+       "line": "Also among the top Nifty losers in the IT selloff; move not sourced"
       }
      ],
      "src": {
-      "title": "ChiniMandi: Sensex jumps 380 points, Nifty above 23,950",
-      "url": "https://www.chinimandi.com/sensex-jumps-380-points-nifty-above-23950/"
+      "title": "Angel One: Top gainers and losers on November 4, 2026 — BEL and Adani Enterprises gain, TCS drops over 2%",
+      "url": "https://angelone.in/news/market-updates/top-gainers-and-losers-on-november-4-2026-bharat-electronics-and-adani-enterprises-gain-while-tcs-drops-over-2"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "us-midterms",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "US futures recover after Democratic sweep",
+   "line": "Dow futures rose about 700 points, reversing the overnight slump",
+   "more": [
+    "Nasdaq-100 futures had fallen as much as 2.4% early",
+    "S&P 500 and Nasdaq futures later traded about 1% higher",
+    "Investors weighing tougher tech, AI and crypto oversight"
+   ],
+   "src": {
+    "title": "CNBC: Dow futures rally 700 points as Democrats win big in midterms — live updates",
+    "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
+   },
+   "date": "2026-11-04",
+   "slot": "1625",
+   "when": "16:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "it-pressure",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "IT the only losing sector on regulation fears",
+   "line": "TCS, Infosys and HCL Tech led the decline as US tech worries spread",
+   "more": [
+    "IT fell about 2% while every other sector rose",
+    "Fears centre on tighter AI and tech oversight in the US"
+   ],
+   "src": {
+    "title": "Angel One: Top gainers and losers on November 4, 2026 — BEL and Adani Enterprises gain, TCS drops over 2%",
+    "url": "https://angelone.in/news/market-updates/top-gainers-and-losers-on-november-4-2026-bharat-electronics-and-adani-enterprises-gain-while-tcs-drops-over-2"
+   },
+   "date": "2026-11-04",
+   "slot": "1625",
+   "when": "16:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1625"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "Today's FII data not yet out",
+   "line": "Nov 3 figures are disputed: one source shows ₹6,837 cr of buying, another ₹3,115 cr",
+   "more": [
+    "Exchange provisional data usually lands in the evening",
+    "FIIs have been net buyers for several sessions"
+   ],
+   "src": {
+    "title": "Quantsapp: FII DII data today",
+    "url": "https://www.quantsapp.com/fii-dii"
+   },
+   "date": "2026-11-04",
+   "slot": "1625",
+   "when": "16:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1130"
+   }
+  },
   {
    "key": "lenskart-q2",
    "tag": "Results",
@@ -114,7 +193,7 @@
    "slot": "1555",
    "when": "15:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1525"
@@ -138,7 +217,7 @@
    "slot": "1555",
    "when": "15:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0925"
@@ -162,7 +241,7 @@
    "slot": "1555",
    "when": "15:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1555"
@@ -461,31 +540,6 @@
    }
   },
   {
-   "key": "us-midterms",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "US futures slide as Democrats take Congress",
-   "line": "Nasdaq futures fell over 2% and S&P futures about 1.2% on a likely blue sweep",
-   "more": [
-    "Worries over tighter oversight of AI and tech firms",
-    "Gridlock could complicate US fiscal policy",
-    "Some called it early positioning in thin trade"
-   ],
-   "src": {
-    "title": "Reuters via Yahoo Finance: U.S. stock futures slide, Nasdaq down over 2% with Dems poised to take Congress",
-    "url": "https://sg.finance.yahoo.com/news/u-stock-futures-steady-midterms-010643358.html"
-   },
-   "date": "2026-11-04",
-   "slot": "1255",
-   "when": "12:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0700"
-   }
-  },
-  {
    "key": "us-yields",
    "tag": "Global",
    "impact": "pos",
@@ -556,30 +610,6 @@
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1000"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Tuesday's FPI buying the highest in a year",
-   "line": "Foreign portfolio inflows on Nov 3 were the largest single-day buy in a year",
-   "more": [
-    "Markets extended gains for a fourth straight day",
-    "FPIs have now bought for three sessions running"
-   ],
-   "src": {
-    "title": "Business Standard: Markets extend gains for fourth day; FPI buying highest in a year",
-    "url": "https://www.business-standard.com/amp/markets/news/markets-extend-gains-for-fourth-day-fpi-buying-highest-in-a-year-126110301699_1.html"
-   },
-   "date": "2026-11-04",
-   "slot": "1155",
-   "when": "11:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1130"
    }
   },
   {
