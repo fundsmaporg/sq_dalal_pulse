@@ -1,30 +1,30 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T13:26:45+05:30",
+ "generated_at": "2026-11-04T13:57:00+05:30",
  "date": "2026-11-04",
- "slot": "1325",
- "slot_label": "13:25",
+ "slot": "1355",
+ "slot_label": "13:55",
  "stage": "Mid-market mood",
- "asof": "2026-11-04T13:25:00+05:30",
+ "asof": "2026-11-04T13:55:00+05:30",
  "nifty": {
   "value": 23827.65,
   "pct": 0.07,
   "chg": 16.8,
-  "approx": false,
-  "asof_quote": "13:00 IST, Business Standard live blog"
+  "approx": true,
+  "asof_quote": "13:00 IST, Business Standard live blog; no later print found"
  },
  "mood": {
-  "label": "Flat, two-way",
+  "label": "Range-bound",
   "score": 0.0,
-  "summary": "Benchmarks have edged back above Tuesday's close in early afternoon trade, with realty and consumer names offsetting a sharp slide in IT; the market remains in a narrow range.",
+  "summary": "The market is stuck near Tuesday's close into mid-afternoon, with realty and consumer gains offset by IT and results-driven selling in Zydus Lifesciences.",
   "detail": {
    "leaders": "Realty; ITC",
-   "laggards": "IT, with TCS and HCL Tech among losers",
-   "tone": "Live read, a touch firmer than 12:55: the benchmarks have crept back into the green, but gains in realty and FMCG are only just covering the IT slide, so the session stays range-bound.",
+   "laggards": "IT; Zydus Lifesciences after results",
+   "tone": "Live read, little changed from 13:25: the Nifty is still hugging the flat line, and sector rotation rather than direction is the story of the afternoon.",
    "watch": [
-    "Whether IT selling deepens before Wall Street opens",
-    "Dabur and other results this afternoon",
-    "Rupee and bond yields into the close"
+    "IT stocks ahead of the US open",
+    "Cummins, Dabur and other results due today",
+    "Whether the Nifty holds above Tuesday's close"
    ],
    "src": {
     "title": "Business Standard: Stock Market LIVE — Sensex up 100 pts, Nifty tops 23,800; Nifty Realty gains over 2%",
@@ -32,14 +32,14 @@
    },
    "movers": {
     "up": {
-     "summary": "Realty jumps and ITC holds gains as rate-sensitive and consumer names attract buyers",
-     "why": "Easing Indian bond yields and softer oil are helping rate-sensitive and consumer stocks.",
+     "summary": "Realty climbs and ITC holds gains, keeping the benchmarks afloat",
+     "why": "Easing bond yields and softer oil are drawing buyers into rate-sensitive and consumer stocks.",
      "names": [
       {
        "name": "Nifty Realty",
        "dir": "up",
-       "move": "+1.8% to +2%",
-       "line": "Top sector as India's 10-year bond yield eases to about 7.26%"
+       "move": "up over 2%",
+       "line": "Top sector at 1 pm as India's 10-year bond yield eased"
       },
       {
        "name": "ITC",
@@ -54,8 +54,8 @@
      }
     },
     "down": {
-     "summary": "IT slides over 2%, the biggest drag on the benchmarks",
-     "why": "Nasdaq futures fell more than 2% on fears a Democratic Congress will tighten tech and AI oversight, and Indian IT is tracking that.",
+     "summary": "IT slides on US tech worries; Zydus Lifesciences drops after results",
+     "why": "US tech futures fell on fears of tighter oversight under a Democratic Congress, and a weak quarter hit Zydus.",
      "names": [
       {
        "name": "Nifty IT",
@@ -64,25 +64,95 @@
        "line": "Worst sector at midday as US tech sentiment sours after the midterms"
       },
       {
-       "name": "TCS",
+       "name": "Zydus Lifesciences",
        "dir": "down",
-       "line": "Among the Sensex losers with IT under pressure; move not sourced"
-      },
-      {
-       "name": "HCL Tech",
-       "dir": "down",
-       "line": "Also among the Sensex losers alongside TCS; move not sourced"
+       "move": "−3.84%",
+       "line": "Q2 profit fell 27%; shares reversed from a 52-week high"
       }
      ],
      "src": {
-      "title": "Trade Brains: Sensex & Nifty 50 live updates — 4 November",
-      "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-4-november-gift-nifty-signals-a-weak-opening-crude-oil-and-global-cues-in-focus-12781548"
+      "title": "Zee Business: Zydus Lifesciences Q2 — profit falls 27%; shares decline after hitting 52-week high",
+      "url": "https://www.zeebiz.com/market-news/news-zydus-lifesciences-q2-results-profit-falls-27-shares-decline-over-3-after-hitting-52-week-high-405064"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "zydus-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Zydus Q2 profit falls 27%; stock slides",
+   "line": "Profit ₹926 cr vs ₹1,261 cr; shares down about 3.8% at 1 pm",
+   "more": [
+    "Operating profit slipped 6% to ₹1,895 cr",
+    "North America formulations revenue rose 21% to ₹3,315 cr",
+    "Stock had touched a 52-week high earlier"
+   ],
+   "src": {
+    "title": "Upstox: Zydus Lifesciences Q2 results — net profit declines 27% YoY; US business revenue grows to ₹3,315 crore",
+    "url": "https://upstox.com/news/market-news/earnings/zydus-lifesciences-q2-results-net-profit-declines-27-yo-y-us-business-revenue-grows-to-3-315-crore/article-202959/"
+   },
+   "date": "2026-11-04",
+   "slot": "1355",
+   "when": "13:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1355"
+   }
+  },
+  {
+   "key": "bayer-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Bayer CropScience profit up 9%, sales down 19%",
+   "line": "Q2 profit ₹166.2 cr vs ₹152.7 cr despite a 19% revenue drop",
+   "more": [
+    "Revenue fell to about ₹1,251 cr",
+    "Declared a ₹90 per share interim dividend",
+    "Results were released on Nov 3"
+   ],
+   "src": {
+    "title": "Moody's via TradingView: Bayer CropScience Q2 net up 9% at ₹166.2 cr despite drop in revenues",
+    "url": "https://www.tradingview.com/news/moodys:ba5e52428a27a:0-bayer-cropscience-q2-net-up-9-at-166-2-cr-despite-drop-in-revenues/"
+   },
+   "date": "2026-11-04",
+   "slot": "1355",
+   "when": "13:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1355"
+   }
+  },
+  {
+   "key": "cummins-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Cummins India board meets on Q2 today",
+   "line": "Board to approve September-quarter results on Nov 4",
+   "more": [
+    "Q1 FY27 consolidated profit was ₹609 cr",
+    "An F&O stock in today's results list"
+   ],
+   "src": {
+    "title": "Stockport: Cummins India Q2 results date 2026 (FY27) — 4 November",
+    "url": "https://stockport.app/results-calendar/cummins-india/"
+   },
+   "date": "2026-11-04",
+   "slot": "1355",
+   "when": "13:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1355"
+   }
+  },
   {
    "key": "india-bonds",
    "tag": "Macro",
@@ -101,7 +171,7 @@
    "slot": "1325",
    "when": "13:25",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1325"
@@ -125,7 +195,7 @@
    "slot": "1325",
    "when": "13:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1100"
@@ -150,7 +220,7 @@
    "slot": "1325",
    "when": "13:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1255"
