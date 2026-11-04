@@ -1,84 +1,161 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T10:57:03+05:30",
+ "generated_at": "2026-11-04T11:26:35+05:30",
  "date": "2026-11-04",
- "slot": "1055",
- "slot_label": "10:55",
+ "slot": "1125",
+ "slot_label": "11:25",
  "stage": "Mid-market mood",
- "asof": "2026-11-04T10:55:00+05:30",
+ "asof": "2026-11-04T11:25:00+05:30",
  "nifty": {
-  "value": 23933.85,
-  "pct": 0.51,
-  "chg": 123.0,
+  "value": 23831.85,
+  "pct": 0.09,
+  "chg": 21,
   "approx": true,
-  "asof_quote": "latest print in Investing.com report; exact time not stated"
+  "asof_quote": "around 11 am, Business Standard live blog"
  },
  "mood": {
-  "label": "Steady gains",
-  "score": 0.3,
-  "summary": "Benchmarks hold around half a percent higher into late morning, with large-cap financials still doing the lifting while breadth beneath the headline stays narrow.",
+  "label": "Gains fade",
+  "score": 0.05,
+  "summary": "The morning rally has largely faded, leaving the benchmarks barely higher, but midcaps and small caps are holding firmer gains, so breadth is better than the headline suggests.",
   "detail": {
-   "leaders": "HDFC Bank and Adani Ports still leading the Sensex",
-   "laggards": "MCX on profit-taking; IT soft from the open",
-   "tone": "Live read, little changed from 10:25: the indices are holding their half-percent gain rather than building on it, so the rally is steady but not broadening.",
+   "leaders": "ITC; midcaps and small caps outpacing the benchmarks",
+   "laggards": "IT heavyweights TCS and HCL Tech",
+   "tone": "Live read, softer than 10:55: the benchmarks have slipped back from the morning high to near flat, though steady gains in midcaps and small caps keep the tone constructive rather than weak.",
    "watch": [
-    "Whether midcaps and small caps join in",
-    "US Senate final call and the dollar",
-    "Results from BSE, Nykaa and Biocon later"
+    "Whether the Nifty holds above Tuesday's close",
+    "IT stocks into the afternoon",
+    "BSE and Nykaa results after hours"
    ],
    "src": {
-    "title": "Investing.com: Indian stocks open higher as oil prices ease and gold gains",
-    "url": "https://in.investing.com/news/stock-market-news/indian-stocks-open-higher-as-oil-prices-ease-and-gold-gains-5677030"
+    "title": "Business Standard: Stock Market LIVE — Sensex off 500 pts from day's high; Democrats regain control of Congress",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
    },
    "movers": {
     "up": {
-     "summary": "HDFC Bank and Adani Ports keep the Sensex in positive territory",
-     "why": "Softer oil and a firmer rupee are drawing buyers back into large-cap financials and infrastructure names.",
+     "summary": "ITC leads the Sensex while the broader market holds firmer gains",
+     "why": "Buying has rotated from the benchmarks into the broader market and select large caps even as the headline indices gave back most of their gains.",
      "names": [
       {
-       "name": "HDFC Bank",
+       "name": "ITC",
        "dir": "up",
-       "move": "+1.8% to +3%",
-       "line": "Biggest index-weight gainer; latest sourced move is from mid-morning"
+       "move": "up to +3.2%",
+       "line": "Hit a day's high of ₹282.45, beating FMCG peers; no specific trigger reported"
       },
       {
-       "name": "Adani Ports",
+       "name": "Nifty Smallcap 100",
        "dir": "up",
-       "move": "about +2%",
-       "line": "Among the top Sensex gainers in mid-morning trade"
+       "move": "+0.67%",
+       "line": "Outpacing the Nifty around 11 am, in line with analysts' call for smallcap strength"
+      },
+      {
+       "name": "Nifty Midcap 100",
+       "dir": "up",
+       "move": "+0.65%",
+       "line": "Midcaps holding gains while the benchmarks hover near flat"
       }
      ],
      "src": {
-      "title": "RTTNews: Indian shares edge higher in cautious trade; US election results in focus",
-      "url": "https://www.rttnews.com/story.aspx?Id=3709062"
+      "title": "Business Standard: Stock Market LIVE — Sensex off 500 pts from day's high; Democrats regain control of Congress",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
      }
     },
     "down": {
-     "summary": "MCX hit by profit-taking; IT soft since the open",
-     "why": "Traders are cashing in on names that ran up into results, and IT has followed Asia's tech weakness.",
+     "summary": "IT heavyweights TCS and HCL Tech are among the Sensex losers",
+     "why": "IT has been weak since the open, tracking Asia's tech selling on AI-spending worries.",
      "names": [
       {
-       "name": "MCX",
+       "name": "TCS",
        "dir": "down",
-       "move": "−6%",
-       "line": "Sold despite more than doubling Q2 profit, after Tuesday's 52-week high"
+       "line": "Among the Sensex losers as IT stays under pressure; move size not sourced"
       },
       {
-       "name": "Nifty IT",
+       "name": "HCL Tech",
        "dir": "down",
-       "move": "−0.8% to −1% at open",
-       "line": "Fell with Asian tech on AI-spending worries; no later move sourced"
+       "line": "Also among the Sensex losers alongside other IT names; move size not sourced"
       }
      ],
      "src": {
-      "title": "RTTNews: Indian shares edge higher in cautious trade; US election results in focus",
-      "url": "https://www.rttnews.com/story.aspx?Id=3709062"
+      "title": "Business Standard: Stock Market LIVE — Sensex off 500 pts from day's high; Democrats regain control of Congress",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "us-midterms",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Democrats regain control of Congress",
+   "line": "Projections now show Democrats taking both the House and the Senate",
+   "more": [
+    "NBC projects Democratic control of both chambers",
+    "Key flips include Texas, Ohio and North Carolina",
+    "Some outlets had the Senate undecided earlier today"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex off 500 pts from day's high; Democrats regain control of Congress",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+   },
+   "date": "2026-11-04",
+   "slot": "1125",
+   "when": "11:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "smallcap-outlook",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Small caps outpace benchmarks today",
+   "line": "Nifty Smallcap 100 and Midcap 100 are up about 0.65% as the benchmarks fade",
+   "more": [
+    "Analysts flagged smallcap strength on Tuesday",
+    "Broad-market buying is outlasting the headline rally"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex off 500 pts from day's high; Democrats regain control of Congress",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+   },
+   "date": "2026-11-04",
+   "slot": "1125",
+   "when": "11:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "kotak-db",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Kotak slips despite Deutsche deal nod",
+   "line": "Kotak Mahindra Bank was among the early losers after CCI cleared its deal",
+   "more": [
+    "BSE Ltd, Power Grid and Eternal were also early laggards",
+    "The CCI approval for the Deutsche Bank unit came on Nov 3"
+   ],
+   "src": {
+    "title": "NewsBytes: Sensex up 352.20, Nifty rises as FIIs buy, crude drops",
+    "url": "https://www.newsbytesapp.com/news/business/sensex-up-35220-nifty-rises-as-fiis-buy-crude-drops/tldr"
+   },
+   "date": "2026-11-04",
+   "slot": "1125",
+   "when": "11:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0845"
+   }
+  },
   {
    "key": "rupee",
    "tag": "Macro",
@@ -97,7 +174,7 @@
    "slot": "1055",
    "when": "10:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1100"
@@ -121,7 +198,7 @@
    "slot": "1055",
    "when": "10:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1055"
@@ -145,7 +222,7 @@
    "slot": "1055",
    "when": "10:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1430"
@@ -224,31 +301,6 @@
    }
   },
   {
-   "key": "us-midterms",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Democrats win the House; Senate in play",
-   "line": "NBC and CBS project a Democratic House; NBC also projects the Senate",
-   "more": [
-    "Talarico flips Texas; Brown beats Husted in Ohio",
-    "Cooper's North Carolina win confirmed by CBS",
-    "Some outlets still call the Senate undecided"
-   ],
-   "src": {
-    "title": "NBC News: Election results 2026 live — Democrats win House and Senate in midterms",
-    "url": "https://www.nbcnews.com/politics/2026-election/live-blog/midterm-election-results-2026-news-trump-live-updates-rcna605763"
-   },
-   "date": "2026-11-04",
-   "slot": "0955",
-   "when": "9:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0700"
-   }
-  },
-  {
    "key": "fii-flows",
    "tag": "Flows",
    "impact": "pos",
@@ -294,54 +346,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0955"
-   }
-  },
-  {
-   "key": "smallcap-outlook",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Analysts see smallcaps outpacing midcaps",
-   "line": "Chartists say the Nifty Smallcap index looks stronger than the midcap gauge",
-   "more": [
-    "Both indices remain below their 2026 highs",
-    "Both gained on Nov 3 in the broad rally"
-   ],
-   "src": {
-    "title": "Business Standard: Nifty Smallcap looks stronger vs Midcap index, can hit new high — analysts",
-    "url": "https://www.business-standard.com/markets/news/nifty-smallcap-index-looks-stronger-on-charts-vs-midcap-can-hit-new-high-say-tech-analysts-126110300454_1.html"
-   },
-   "date": "2026-11-04",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0925"
-   }
-  },
-  {
-   "key": "kotak-db",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Kotak gets CCI nod for Deutsche unit buy",
-   "line": "CCI cleared Kotak's purchase of Deutsche Bank's India retail and wealth arms",
-   "more": [
-    "Covers retail, private banking and wealth businesses",
-    "Approval was granted on Nov 3"
-   ],
-   "src": {
-    "title": "Zee Business: Stocks to watch today (Nov 4) — MCX, BSE, Kotak Mahindra Bank, Sri Lotus Developers",
-    "url": "https://www.zeebiz.com/markets/stocks/news-stocks-to-watch-today-nov-4-mcx-bse-kotak-mahindra-bank-sri-lotus-developers-and-more-405040"
-   },
-   "date": "2026-11-04",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0845"
    }
   },
   {
