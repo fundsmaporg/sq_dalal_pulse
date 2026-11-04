@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T18:00:53+05:30",
+ "generated_at": "2026-11-04T21:00:15+05:30",
  "date": "2026-11-04",
- "slot": "1800",
- "slot_label": "18:00",
+ "slot": "2100",
+ "slot_label": "21:00",
  "stage": "Evening wrap",
- "asof": "2026-11-04T18:00:00+05:30",
+ "asof": "2026-11-04T21:00:00+05:30",
  "nifty": {
   "value": 23960.6,
   "pct": 0.63,
@@ -14,43 +14,92 @@
   "asof_quote": "Nov 4 close, Business Standard"
  },
  "mood": {
-  "label": "Firm start likely",
-  "score": 0.4,
-  "summary": "Heading into Thursday, the backdrop looks supportive after a fifth straight gain, with firmer US futures and strong consumer-internet results offset only by continued pressure on tech.",
+  "label": "Strong start likely",
+  "score": 0.55,
+  "summary": "Into Thursday, the set-up has brightened: Wall Street is rallying hard as US political risk fades, foreign buying looks set to have continued, and strong results support consumer names.",
   "detail": {
-   "leaders": "Nykaa and Lenskart after strong Q2 numbers; consumer names",
-   "laggards": "IT if US tech stays weak; Biocon after a profit drop",
-   "tone": "Forward-looking evening read: a touch more upbeat than at the close, as US futures recovered from the overnight slump, though Nasdaq remains the soft spot.",
+   "leaders": "Consumer-internet names after Nykaa and Lenskart results; broad market on global risk-on",
+   "laggards": "IT may stay volatile on US tech-regulation worries despite Wall Street's bounce",
+   "tone": "Forward-looking evening read, more upbeat than at 18:00: Wall Street has turned a feared midterm shock into a sharp relief rally, which should help Thursday's open.",
    "watch": [
-    "Wall Street's open and Nasdaq's direction",
-    "Provisional FII/DII data for today",
+    "Where Wall Street closes tonight",
+    "Confirmation of today's FII flows",
     "Apollo Hospitals, Cummins and BSE results"
    ],
    "src": {
-    "title": "CNBC: Dow futures surge 800 points after decisive win by Democrats in US midterms — live updates",
-    "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
+    "title": "CNBC: Dow rallies 1,100 points as political risk eases after resounding Democratic victory in US midterms — live updates",
+    "url": "https://www.cnbc.com/amp/2026/11/03/stock-market-today-live-updates.html"
    }
   }
  },
  "insights": [
   {
+   "key": "us-midterms",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Dow jumps over 1,000 points on Dem sweep",
+   "line": "Dow up about 2.2%; S&P 500 and Nasdaq up about 1.1% in early US trade",
+   "more": [
+    "Trump's acceptance of the results eased political risk",
+    "Overnight futures had slumped before reversing",
+    "Figures are intraday; US session still live"
+   ],
+   "src": {
+    "title": "CNBC: Dow rallies 1,100 points as political risk eases after resounding Democratic victory in US midterms — live updates",
+    "url": "https://www.cnbc.com/amp/2026/11/03/stock-market-today-live-updates.html"
+   },
+   "date": "2026-11-04",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs bought about ₹7,284 cr on Nov 4",
+   "line": "Trendlyne shows FII net buying of ₹7,284 cr and DII net selling of ₹3,712 cr",
+   "more": [
+    "Would be a fourth straight day of FII buying",
+    "Single source so far; awaiting confirmation",
+    "Tuesday's figure was about ₹6,837 cr"
+   ],
+   "src": {
+    "title": "Trendlyne: FII DII activity — cash provisional, past month",
+    "url": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/"
+   },
+   "date": "2026-11-04",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1130"
+   }
+  },
+  {
    "key": "nykaa-q2",
    "tag": "Results",
    "impact": "pos",
-   "title": "Nykaa Q2 profit triples to ₹101 cr",
-   "line": "Revenue rose 28% to about ₹3,006 cr; EBITDA margin widened to 11.9%",
+   "title": "Nykaa's fashion arm turns profitable",
+   "line": "Investor slides show profit up 207% as the fashion business moved into profit",
    "more": [
-    "Year-ago profit was about ₹33 cr",
-    "GMV grew 30% to ₹6,151 cr",
-    "Beauty segment profit rose to ₹180 cr"
+    "Q2 profit about ₹101 cr",
+    "Beauty remained the main profit driver"
    ],
    "src": {
-    "title": "Upstox: Nykaa Q2 FY27 results — net profit jumps three-fold to ₹101 crore; GMV grows 30%",
-    "url": "https://upstox.com/news/market-news/earnings/nykaa-q2-fy-27-results-net-profit-jumps-three-fold-to-101-crore-yo-y-gmv-grew-30/article-202981/"
+    "title": "Investing.com: Nykaa Q2 FY27 slides — profit surges 207% as fashion turns profitable",
+    "url": "https://www.investing.com/news/company-news/nykaa-q2-fy27-slides-profit-surges-207-as-fashion-turns-profitable-93CH-4999350"
    },
    "date": "2026-11-04",
-   "slot": "1800",
-   "when": "18:00",
+   "slot": "2100",
+   "when": "21:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -77,35 +126,10 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1525"
-   }
-  },
-  {
-   "key": "us-midterms",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Dow futures up about 800 points",
-   "line": "US futures recovered from the overnight slump after the Democratic sweep",
-   "more": [
-    "S&P futures up about 0.2–0.9% depending on time",
-    "Nasdaq still weaker on AI-oversight worries",
-    "AMD up 6–7% premarket after its beat"
-   ],
-   "src": {
-    "title": "CNBC: Dow futures surge 800 points after decisive win by Democrats in US midterms — live updates",
-    "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
-   },
-   "date": "2026-11-04",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0700"
    }
   },
   {
@@ -127,7 +151,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1800"
@@ -151,7 +175,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1130"
@@ -179,30 +203,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1625"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "Today's FII data not yet out",
-   "line": "Nov 3 figures are disputed: one source shows ₹6,837 cr of buying, another ₹3,115 cr",
-   "more": [
-    "Exchange provisional data usually lands in the evening",
-    "FIIs have been net buyers for several sessions"
-   ],
-   "src": {
-    "title": "Quantsapp: FII DII data today",
-    "url": "https://www.quantsapp.com/fii-dii"
-   },
-   "date": "2026-11-04",
-   "slot": "1625",
-   "when": "16:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1130"
    }
   },
   {
