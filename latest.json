@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T14:26:50+05:30",
+ "generated_at": "2026-11-04T14:56:33+05:30",
  "date": "2026-11-04",
- "slot": "1425",
- "slot_label": "14:25",
+ "slot": "1455",
+ "slot_label": "14:55",
  "stage": "Mid-market mood",
- "asof": "2026-11-04T14:25:00+05:30",
+ "asof": "2026-11-04T14:55:00+05:30",
  "nifty": {
   "value": 23893.4,
   "pct": 0.35,
   "chg": 82.55,
-  "approx": false,
-  "asof_quote": "14:00 IST, Business Standard live blog"
+  "approx": true,
+  "asof_quote": "14:00 IST, Business Standard live blog; no later print found"
  },
  "mood": {
-  "label": "Afternoon lift",
+  "label": "Results-led gains",
   "score": 0.2,
-  "summary": "Indian shares have pushed higher in the afternoon, with the benchmarks up about a third of a percent as strong quarterly numbers lift individual stocks despite weak IT.",
+  "summary": "The market is holding modest afternoon gains with about half an hour of trade left, as stock-specific buying on quarterly results outweighs persistent weakness in IT.",
   "detail": {
-   "leaders": "Redington and NLC India on results",
+   "leaders": "Emcure Pharma, Redington and NLC India on results",
    "laggards": "IT; Zydus Lifesciences after results",
-   "tone": "Live read, firmer than 13:55: the benchmarks have broken out of the flat range to gain about a third of a percent, led by results-driven buying rather than a broad sector move.",
+   "tone": "Live read, steady versus 14:25: the benchmarks are keeping the afternoon gains, with the action concentrated in results-driven stock moves.",
    "watch": [
-    "Whether the gains hold into the 3:30 close",
-    "IT stocks once Wall Street opens",
+    "Whether gains hold into the 3:30 close",
+    "Provisional FII/DII data after the close",
     "Cummins, Dabur and Lenskart results"
    ],
    "src": {
@@ -32,25 +32,31 @@
    },
    "movers": {
     "up": {
-     "summary": "Redington and NLC India jump about 7% on strong September-quarter results",
-     "why": "Results-driven buying is lifting individual stocks as the Q2 season peaks today.",
+     "summary": "Emcure, Redington and NLC India rally on strong September-quarter numbers",
+     "why": "Buyers are rewarding companies that beat on Q2 earnings as the results season peaks.",
      "names": [
+      {
+       "name": "Emcure Pharma",
+       "dir": "up",
+       "move": "up to +10%",
+       "line": "Hit a record high after Q2 results that Elara called in line with estimates"
+      },
       {
        "name": "Redington",
        "dir": "up",
        "move": "+6.9%",
-       "line": "Q2 profit rose 39.6% to ₹541.32 cr; shares hit ₹358.50"
+       "line": "Q2 profit rose 39.6% to ₹541.32 cr"
       },
       {
        "name": "NLC India",
        "dir": "up",
        "move": "about +7%",
-       "line": "Q2 profit about ₹1,328 cr vs ₹725 cr; also approved a dividend and expansion"
+       "line": "Q2 profit about ₹1,328 cr vs ₹725 cr, plus a dividend and expansion plan"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex up 200 pts, Nifty tops 23,800; NLC India shares jump 7% post Q2 result",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+      "title": "Upstox: Emcure Pharma, BHEL, Fractal Analytics among buzzing stocks; Sensex recovers 400 pts, Nifty above 23,850",
+      "url": "https://upstox.com/news/market-news/stocks/emcure-pharma-bhel-fractal-analytics-among-buzzing-stocks-sensex-recovers-400-pts-nifty-above-23-850/article-202962/"
      }
     },
     "down": {
@@ -80,6 +86,78 @@
  },
  "insights": [
   {
+   "key": "emcure-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Emcure Pharma hits record high after Q2",
+   "line": "Shares rose as much as 10% to about ₹2,180 on September-quarter earnings",
+   "more": [
+    "Elara Securities said Q2 was broadly in line",
+    "Stock touched a fresh 52-week high on the NSE"
+   ],
+   "src": {
+    "title": "Business Today: Emcure Pharma shares soar 10% after Q2 results",
+    "url": "https://www.businesstoday.in/markets/stocks/story/emcure-pharma-shares-soar-10-after-q2-results-check-what-brokerages-recommend-565561-2026-11-04"
+   },
+   "date": "2026-11-04",
+   "slot": "1455",
+   "when": "14:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1455"
+   }
+  },
+  {
+   "key": "aarti-drugs-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Aarti Drugs jumps 7% on Q2 profit",
+   "line": "Shares rose 7% after September-quarter net profit surged 83%",
+   "more": [
+    "One of several pharma names moving on results today",
+    "Zydus Lifesciences fell on a weaker quarter"
+   ],
+   "src": {
+    "title": "Business Today: Emcure Pharma shares soar 10% after Q2 results",
+    "url": "https://www.businesstoday.in/markets/stocks/story/emcure-pharma-shares-soar-10-after-q2-results-check-what-brokerages-recommend-565561-2026-11-04"
+   },
+   "date": "2026-11-04",
+   "slot": "1455",
+   "when": "14:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1455"
+   }
+  },
+  {
+   "key": "bhel-orders",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "BHEL rises 3.5% on project wins",
+   "line": "Shares touched ₹413.45 after new project wins",
+   "more": [
+    "Move tied to orders, not quarterly results",
+    "Listed among the day's buzzing stocks"
+   ],
+   "src": {
+    "title": "Upstox: Emcure Pharma, BHEL, Fractal Analytics among buzzing stocks; Sensex recovers 400 pts, Nifty above 23,850",
+    "url": "https://upstox.com/news/market-news/stocks/emcure-pharma-bhel-fractal-analytics-among-buzzing-stocks-sensex-recovers-400-pts-nifty-above-23-850/article-202962/"
+   },
+   "date": "2026-11-04",
+   "slot": "1455",
+   "when": "14:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1455"
+   }
+  },
+  {
    "key": "redington-q2",
    "tag": "Results",
    "impact": "pos",
@@ -97,7 +175,7 @@
    "slot": "1425",
    "when": "14:25",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1425"
@@ -122,7 +200,7 @@
    "slot": "1425",
    "when": "14:25",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1425"
@@ -146,7 +224,7 @@
    "slot": "1425",
    "when": "14:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0845"
