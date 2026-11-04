@@ -1,73 +1,72 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T14:56:33+05:30",
+ "generated_at": "2026-11-04T15:26:42+05:30",
  "date": "2026-11-04",
- "slot": "1455",
- "slot_label": "14:55",
- "stage": "Mid-market mood",
- "asof": "2026-11-04T14:55:00+05:30",
+ "slot": "1525",
+ "slot_label": "15:25",
+ "stage": "Closing mood",
+ "asof": "2026-11-04T15:25:00+05:30",
  "nifty": {
-  "value": 23893.4,
-  "pct": 0.35,
-  "chg": 82.55,
+  "value": 23912,
+  "pct": 0.42,
+  "chg": 101.15,
   "approx": true,
-  "asof_quote": "14:00 IST, Business Standard live blog; no later print found"
+  "asof_quote": "closing auction session, Business Standard live blog"
  },
  "mood": {
-  "label": "Results-led gains",
-  "score": 0.2,
-  "summary": "The market is holding modest afternoon gains with about half an hour of trade left, as stock-specific buying on quarterly results outweighs persistent weakness in IT.",
+  "label": "Firm into close",
+  "score": 0.25,
+  "summary": "Indian shares head into the close near the day's best levels, up about 0.4%, as results-driven buying and consumer stocks outweigh a weak IT pack.",
   "detail": {
-   "leaders": "Emcure Pharma, Redington and NLC India on results",
+   "leaders": "FMCG; Emcure Pharma and Redington on results",
    "laggards": "IT; Zydus Lifesciences after results",
-   "tone": "Live read, steady versus 14:25: the benchmarks are keeping the afternoon gains, with the action concentrated in results-driven stock moves.",
+   "tone": "Live read, slightly firmer than 14:55: the benchmarks have edged to the session's better levels into the closing auction, ending the day's range-bound phase on a positive note.",
    "watch": [
-    "Whether gains hold into the 3:30 close",
-    "Provisional FII/DII data after the close",
-    "Cummins, Dabur and Lenskart results"
+    "Final close and provisional FII/DII data",
+    "Lenskart, Nykaa and BSE results after hours",
+    "Wall Street's reaction to the midterms tonight"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex up 200 pts, Nifty tops 23,800; NLC India shares jump 7% post Q2 result",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+    "title": "Business Standard: Stock Market LIVE — Sensex gains 302 points, Nifty at 23,912 in closing auction session",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Emcure, Redington and NLC India rally on strong September-quarter numbers",
-     "why": "Buyers are rewarding companies that beat on Q2 earnings as the results season peaks.",
+     "summary": "FMCG leads sectors while Emcure and Redington rally on results",
+     "why": "Consumer stocks and companies with strong Q2 numbers are drawing steady buying into the close.",
      "names": [
+      {
+       "name": "Nifty FMCG",
+       "dir": "up",
+       "move": "+1%",
+       "line": "Best-performing sector in the late session, extending Tuesday's rally"
+      },
       {
        "name": "Emcure Pharma",
        "dir": "up",
        "move": "up to +10%",
-       "line": "Hit a record high after Q2 results that Elara called in line with estimates"
+       "line": "Record high after Q2 results that Elara called in line with estimates"
       },
       {
        "name": "Redington",
        "dir": "up",
        "move": "+6.9%",
        "line": "Q2 profit rose 39.6% to ₹541.32 cr"
-      },
-      {
-       "name": "NLC India",
-       "dir": "up",
-       "move": "about +7%",
-       "line": "Q2 profit about ₹1,328 cr vs ₹725 cr, plus a dividend and expansion plan"
       }
      ],
      "src": {
-      "title": "Upstox: Emcure Pharma, BHEL, Fractal Analytics among buzzing stocks; Sensex recovers 400 pts, Nifty above 23,850",
-      "url": "https://upstox.com/news/market-news/stocks/emcure-pharma-bhel-fractal-analytics-among-buzzing-stocks-sensex-recovers-400-pts-nifty-above-23-850/article-202962/"
+      "title": "Business Standard: Stock Market LIVE — Sensex gains 302 points, Nifty at 23,912 in closing auction session",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
      }
     },
     "down": {
-     "summary": "IT slides on US tech worries; Zydus Lifesciences drops after results",
+     "summary": "IT is the weakest sector; Zydus Lifesciences down after results",
      "why": "US tech futures fell on fears of tighter oversight under a Democratic Congress, and a weak quarter hit Zydus.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "move": "−2.43% at midday",
-       "line": "Worst sector at midday as US tech sentiment sours; no later figure sourced"
+       "line": "Biggest sectoral decliner into the close; latest move not given"
       },
       {
        "name": "Zydus Lifesciences",
@@ -77,14 +76,86 @@
       }
      ],
      "src": {
-      "title": "Trade Brains: Sensex & Nifty 50 live updates — 4 November",
-      "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-4-november-gift-nifty-signals-a-weak-opening-crude-oil-and-global-cues-in-focus-12781548"
+      "title": "Business Standard: Stock Market LIVE — Sensex gains 302 points, Nifty at 23,912 in closing auction session",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee rises 14 paise to 94.61",
+   "line": "Rupee strengthened in early trade after three straight gains, helped by inflows",
+   "more": [
+    "Tuesday's close was about 94.75 per dollar",
+    "Foreign fund inflows are supporting the currency"
+   ],
+   "src": {
+    "title": "Business Standard: Rupee rises 14 paise to 94.61 against US dollar during early trade",
+    "url": "https://www.business-standard.com/amp/finance/news/rupee-rises-14-paise-to-94-61-against-us-dollar-during-early-trade-126110400403_1.html"
+   },
+   "date": "2026-11-04",
+   "slot": "1525",
+   "when": "15:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "lenskart-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Lenskart Q2 due; valuation in focus",
+   "line": "Motilal Oswal sees adjusted profit near ₹205 cr vs ₹110 cr a year ago",
+   "more": [
+    "Stock trades at about 178 times earnings",
+    "Store growth and same-store sales are the watch points"
+   ],
+   "src": {
+    "title": "Trade Brains: Lenskart Q2 expectations — can its results justify a 178x P/E?",
+    "url": "https://tradebrains.in/indian-markets/lenskart-q2-expectations-can-its-results-justify-a-178x-pe-12776578"
+   },
+   "date": "2026-11-04",
+   "slot": "1525",
+   "when": "15:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1525"
+   }
+  },
+  {
+   "key": "q2-today",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Nykaa, BSE, Cummins numbers after hours",
+   "line": "Biggest batch of Q2 results lands after the close today",
+   "more": [
+    "Nykaa's year-ago profit was about ₹34 cr",
+    "Apollo Tyres and Torrent Power also due"
+   ],
+   "src": {
+    "title": "Upstox: Q2 results, Nov 4 — Lenskart, Nykaa, BSE, Apollo Tyres, Dabur India, GRSE, Redington and others",
+    "url": "https://upstox.com/news/market-news/earnings/q2-results-nov-4-lenskart-nykaa-bse-apollo-tyres-dabur-india-grse-redington-torrent-power-physicswallah-others-to-post-earnings/article-202932/"
+   },
+   "date": "2026-11-04",
+   "slot": "1525",
+   "when": "15:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0845"
+   }
+  },
   {
    "key": "emcure-q2",
    "tag": "Results",
@@ -103,7 +174,7 @@
    "slot": "1455",
    "when": "14:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1455"
@@ -127,7 +198,7 @@
    "slot": "1455",
    "when": "14:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1455"
@@ -151,7 +222,7 @@
    "slot": "1455",
    "when": "14:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1455"
@@ -204,30 +275,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1425"
-   }
-  },
-  {
-   "key": "q2-today",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Cummins, Lenskart, Nykaa still to report",
-   "line": "Dabur, Apollo Tyres, BSE and Biocon also due as the results day peaks",
-   "more": [
-    "SBI, Emcure and Awfis rose after their results",
-    "Most numbers are due after market hours"
-   ],
-   "src": {
-    "title": "BusinessLine on X: Q2 results today live — BSE, Cummins, Zydus, Apollo, Lenskart, Nykaa and others",
-    "url": "https://x.com/businessline/status/2117837456267727103"
-   },
-   "date": "2026-11-04",
-   "slot": "1425",
-   "when": "14:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0845"
    }
   },
   {
@@ -326,30 +373,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1325"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee firms toward 94.75 per dollar",
-   "line": "Foreign fund inflows and equity gains are supporting the currency",
-   "more": [
-    "Rupee had closed at 94.74 after a third straight gain",
-    "FPIs bought heavily on Tuesday"
-   ],
-   "src": {
-    "title": "HDFC Sky: Most active stocks today, 4 November 2026 at 12:00 PM IST",
-    "url": "https://hdfcsky.com/news/most-active-stocks-today-4-november-2026-at-12-pm"
-   },
-   "date": "2026-11-04",
-   "slot": "1325",
-   "when": "13:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1100"
    }
   },
   {
