@@ -1,45 +1,51 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T15:26:42+05:30",
+ "generated_at": "2026-11-04T15:57:00+05:30",
  "date": "2026-11-04",
- "slot": "1525",
- "slot_label": "15:25",
- "stage": "Closing mood",
- "asof": "2026-11-04T15:25:00+05:30",
+ "slot": "1555",
+ "slot_label": "15:55",
+ "stage": "Post-market mood",
+ "asof": "2026-11-04T15:55:00+05:30",
  "nifty": {
-  "value": 23912,
-  "pct": 0.42,
-  "chg": 101.15,
-  "approx": true,
-  "asof_quote": "closing auction session, Business Standard live blog"
+  "value": 23960.6,
+  "pct": 0.63,
+  "chg": 149.75,
+  "approx": false,
+  "asof_quote": "Nov 4 close, Business Standard and ChiniMandi"
  },
  "mood": {
-  "label": "Firm into close",
-  "score": 0.25,
-  "summary": "Indian shares head into the close near the day's best levels, up about 0.4%, as results-driven buying and consumer stocks outweigh a weak IT pack.",
+  "label": "Broad late rally",
+  "score": 0.45,
+  "summary": "Indian shares finished near the day's highs for a fifth straight gain, with broad buying across sectors and mid and small caps far outpacing the benchmarks; only IT ended lower.",
   "detail": {
-   "leaders": "FMCG; Emcure Pharma and Redington on results",
-   "laggards": "IT; Zydus Lifesciences after results",
-   "tone": "Live read, slightly firmer than 14:55: the benchmarks have edged to the session's better levels into the closing auction, ending the day's range-bound phase on a positive note.",
+   "leaders": "Midcaps and small caps; Emcure and Redington on results",
+   "laggards": "IT, led lower by TCS and Infosys",
+   "tone": "Live read at the bell, firmer than 15:25: the benchmarks closed near the day's best with a much broader advance than the morning's, so the session turned from range-bound to clearly positive.",
    "watch": [
-    "Final close and provisional FII/DII data",
-    "Lenskart, Nykaa and BSE results after hours",
-    "Wall Street's reaction to the midterms tonight"
+    "Provisional FII/DII data",
+    "Nykaa, BSE and Cummins results after hours",
+    "Wall Street's open tonight"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex gains 302 points, Nifty at 23,912 in closing auction session",
+    "title": "Business Standard: Stock Market Close — Sensex rises for 5th day, gains 384 pts; Nifty at 23,961; IT only sectoral loser",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
    },
    "movers": {
     "up": {
-     "summary": "FMCG leads sectors while Emcure and Redington rally on results",
-     "why": "Consumer stocks and companies with strong Q2 numbers are drawing steady buying into the close.",
+     "summary": "Mid and small caps rally well ahead of the Nifty; results winners lead stocks",
+     "why": "Broad buying spread across sectors in the afternoon, and strong quarterly numbers drew money into individual names.",
      "names": [
       {
-       "name": "Nifty FMCG",
+       "name": "Nifty Smallcap 100",
        "dir": "up",
-       "move": "+1%",
-       "line": "Best-performing sector in the late session, extending Tuesday's rally"
+       "move": "+1.55% to +1.8%",
+       "line": "Small caps more than doubled the Nifty's gain as buying broadened"
+      },
+      {
+       "name": "Nifty Midcap 100",
+       "dir": "up",
+       "move": "+1.2% to +1.55%",
+       "line": "Midcaps also beat the benchmarks on the broad afternoon rally"
       },
       {
        "name": "Emcure Pharma",
@@ -55,35 +61,113 @@
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex gains 302 points, Nifty at 23,912 in closing auction session",
+      "title": "Business Standard: Stock Market Close — Sensex rises for 5th day, gains 384 pts; Nifty at 23,961; IT only sectoral loser",
       "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
      }
     },
     "down": {
-     "summary": "IT is the weakest sector; Zydus Lifesciences down after results",
-     "why": "US tech futures fell on fears of tighter oversight under a Democratic Congress, and a weak quarter hit Zydus.",
+     "summary": "IT is the only sector to fall, with TCS and Infosys the biggest drags",
+     "why": "Nasdaq futures fell more than 2% on fears a Democratic Congress will tighten tech and AI oversight, weighing on Indian IT all day.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "Biggest sectoral decliner into the close; latest move not given"
+       "move": "about −2%",
+       "line": "Only sector in the red as US tech sentiment soured after the midterms"
       },
       {
-       "name": "Zydus Lifesciences",
+       "name": "TCS",
        "dir": "down",
-       "move": "−3.84% at 1 pm",
-       "line": "Q2 profit fell 27%; shares reversed from a 52-week high"
+       "line": "Among the top Nifty losers with the IT selloff; move not sourced"
+      },
+      {
+       "name": "Infosys",
+       "dir": "down",
+       "line": "Also among the top Nifty losers alongside TCS; move not sourced"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex gains 302 points, Nifty at 23,912 in closing auction session",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+      "title": "ChiniMandi: Sensex jumps 380 points, Nifty above 23,950",
+      "url": "https://www.chinimandi.com/sensex-jumps-380-points-nifty-above-23950/"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "lenskart-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Lenskart Q2 profit roughly doubles",
+   "line": "One report puts profit at ₹232 cr vs ₹103 cr; another cites ₹168 cr",
+   "more": [
+    "Results came out on Nov 4",
+    "The two figures may be different profit measures",
+    "Motilal had estimated about ₹205 cr"
+   ],
+   "src": {
+    "title": "Whalesbook: Lenskart Solutions Q2 profit doubles to ₹232 crore on revenue surge",
+    "url": "https://www.whalesbook.com/corporate-news/English/consumer-products/Lenskart-Solutions-Q2-Profit-Doubles-to-Rs-232-Crore-on-Revenue-Surge/6aeb057cc6c6dccbb9125ff3"
+   },
+   "date": "2026-11-04",
+   "slot": "1555",
+   "when": "15:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1525"
+   }
+  },
+  {
+   "key": "smallcap-outlook",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Small caps lead a broad rally at the close",
+   "line": "Smallcap and midcap indices ended well ahead of the benchmarks",
+   "more": [
+    "Media, metal and realty indices among the best",
+    "Analysts had flagged smallcap strength on Tuesday"
+   ],
+   "src": {
+    "title": "ChiniMandi: Sensex jumps 380 points, Nifty above 23,950",
+    "url": "https://www.chinimandi.com/sensex-jumps-380-points-nifty-above-23950/"
+   },
+   "date": "2026-11-04",
+   "slot": "1555",
+   "when": "15:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "nykaa-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Nykaa Q2 due; Jefferies sees profit +158%",
+   "line": "Jefferies estimated Q2 profit near ₹91.5 cr, up 158% year on year",
+   "more": [
+    "Year-ago profit was about ₹34 cr",
+    "Results due after market hours"
+   ],
+   "src": {
+    "title": "Business Today: Swiggy, Eternal, Meesho, Nykaa, Lenskart, Honasa — Jefferies Q2 results preview",
+    "url": "https://www.businesstoday.in/markets/stocks/story/swiggy-eternal-meesho-nykaa-lenskart-honasa-jefferies-shares-q2-results-preview-560050-2026-10-07"
+   },
+   "date": "2026-11-04",
+   "slot": "1555",
+   "when": "15:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1555"
+   }
+  },
   {
    "key": "rupee",
    "tag": "Macro",
@@ -102,34 +186,10 @@
    "slot": "1525",
    "when": "15:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1100"
-   }
-  },
-  {
-   "key": "lenskart-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Lenskart Q2 due; valuation in focus",
-   "line": "Motilal Oswal sees adjusted profit near ₹205 cr vs ₹110 cr a year ago",
-   "more": [
-    "Stock trades at about 178 times earnings",
-    "Store growth and same-store sales are the watch points"
-   ],
-   "src": {
-    "title": "Trade Brains: Lenskart Q2 expectations — can its results justify a 178x P/E?",
-    "url": "https://tradebrains.in/indian-markets/lenskart-q2-expectations-can-its-results-justify-a-178x-pe-12776578"
-   },
-   "date": "2026-11-04",
-   "slot": "1525",
-   "when": "15:25",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1525"
    }
   },
   {
@@ -150,7 +210,7 @@
    "slot": "1525",
    "when": "15:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0845"
@@ -447,30 +507,6 @@
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1430"
-   }
-  },
-  {
-   "key": "smallcap-outlook",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Mid and small caps hold gains at noon",
-   "line": "Nifty Midcap 100 up 0.65% and Smallcap 100 up 0.67% as the benchmarks dip",
-   "more": [
-    "Broader market has outperformed all morning",
-    "Analysts flagged smallcap strength on Tuesday"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty below 23,800; SMIDs outperform",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
-   },
-   "date": "2026-11-04",
-   "slot": "1225",
-   "when": "12:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0925"
    }
   },
   {
