@@ -1,60 +1,183 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-03T21:00:35+05:30",
- "date": "2026-11-03",
- "slot": "2100",
- "slot_label": "21:00",
- "stage": "Evening wrap",
- "asof": "2026-11-03T21:00:00+05:30",
+ "generated_at": "2026-11-04T07:01:54+05:30",
+ "date": "2026-11-04",
+ "slot": "0700",
+ "slot_label": "7:00",
+ "stage": "Pre-market mood",
+ "asof": "2026-11-04T07:00:00+05:30",
  "nifty": {
   "value": 23810.85,
   "pct": 1.58,
   "chg": 370.05,
-  "approx": false
+  "approx": false,
+  "asof_quote": "Nov 3 close (Business Standard)"
  },
  "mood": {
-  "label": "Steady into Wednesday",
-  "score": 0.2,
-  "summary": "Heading into Wednesday, Wall Street is mixed on US election day with tech steadying, while firmer oil and the vote outcome keep caution in place after India's four-day run.",
+  "label": "Firm start likely",
+  "score": 0.35,
+  "summary": "Wednesday set-up: steady foreign buying and a firmer Nasdaq support India after its four-day run, while midterm counting, US yields near 5% and Kospi's chip slide temper it.",
   "detail": {
-   "leaders": "Exchange stocks after strong MCX and NSE results; staples momentum",
-   "laggards": "Oil-sensitive names if crude extends its rebound; IT if US tech wobbles",
-   "tone": "Forward-looking evening read: a touch better than at 18:00, as US tech opened higher, but the midterm result and Iran-linked oil moves can still swing the open.",
+   "leaders": "Exchange stocks after strong MCX and NSE numbers; chip-linked IT on AMD's beat",
+   "laggards": "Rate-sensitives if US yields keep rising; oil users if Brent rebounds",
+   "tone": "Forward-looking pre-open read: FII buying for a third day and a softer oil settle lean positive, but midterm counts and Kospi's selloff argue for a measured open.",
    "watch": [
-    "US midterm results overnight",
-    "AMD results after the US close",
-    "Brent after the Qeshm-strike rebound"
+    "Final US House and Senate calls",
+    "GIFT Nifty and FII flows at 08:45",
+    "US 10-year near 5%"
    ],
    "src": {
-    "title": "TheStreet: Stock market today Nov 3 — Nasdaq edges higher as midterm voting begins",
-    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-03-2026"
+    "title": "Quantsapp: FII DII data today (3 Nov)",
+    "url": "https://www.quantsapp.com/fii-dii"
    }
   }
  },
  "insights": [
   {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Wall St mixed as midterm voting begins",
-   "line": "Early trade: Nasdaq +0.81%, S&P 500 +0.28%, Dow −0.49% as Apple drags",
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs buy for a third straight day",
+   "line": "Provisional Nov 3: FIIs +₹6,837 cr, DIIs −₹3,679 cr in the cash market",
    "more": [
-    "Apple fell on a disappointing margin forecast",
-    "Nasdaq-100 entered a correction on Monday",
-    "JPMorgan sees S&P −0.5% on a Democratic sweep"
+    "About ₹13,550 cr of FII buying over three sessions",
+    "DIIs turned net sellers as foreigners returned",
+    "Final NSDL figures due later"
    ],
    "src": {
-    "title": "TheStreet: Stock market today Nov 3 — Nasdaq edges higher as midterm voting begins",
-    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-03-2026"
+    "title": "Quantsapp: FII DII data today (3 Nov)",
+    "url": "https://www.quantsapp.com/fii-dii"
    },
-   "date": "2026-11-03",
-   "slot": "2100",
-   "when": "21:00",
+   "date": "2026-11-04",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Nasdaq up as chips rebound; Dow slips",
+   "line": "Nasdaq +0.83%, S&P 500 +0.36%, Dow −0.38% as Apple weighed",
+   "more": [
+    "AMD revenue $13.4B vs $13.1B estimate",
+    "AMD shares up about 7–9% after hours",
+    "Apple fell on a weak margin forecast"
+   ],
+   "src": {
+    "title": "StockTitan: Stock market today Nov 3, 2026 ended mixed as chip stocks lifted the Nasdaq",
+    "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-3-2026"
+   },
+   "date": "2026-11-04",
+   "slot": "0700",
+   "when": "7:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "pre"
+   }
+  },
+  {
+   "key": "us-midterms",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Midterms: Democrats gain, count continues",
+   "line": "Cooper flips North Carolina; Ossoff holds Georgia; House leans Democratic",
+   "more": [
+    "Pappas wins the New Hampshire Senate seat",
+    "CBS projects about 229 House seats for Democrats",
+    "Florida Senate race too close to call"
+   ],
+   "src": {
+    "title": "CNBC: Midterm elections 2026 live updates — Ossoff wins Georgia, House leans Dem",
+    "url": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html"
+   },
+   "date": "2026-11-04",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US 10-year yield nears 5%",
+   "line": "10-year rose about 6 bp to 4.958% after a firm JOLTS print",
+   "more": [
+    "Job openings 7.52M vs 7.13M expected",
+    "Higher US yields can slow foreign flows to EMs"
+   ],
+   "src": {
+    "title": "CNBC: Treasury yields rise as investors weigh midterm vote, jobs data and Iran tensions",
+    "url": "https://www.cnbc.com/2026/11/03/us-treasury-yields-bonds.html"
+   },
+   "date": "2026-11-04",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Brent settles lower near $104",
+   "line": "Brent settled at $103.60, down $1.17; WTI at $96.09",
+   "more": [
+    "Iran rejects diplomacy based on coercion",
+    "Oil still volatile after the Qeshm strike"
+   ],
+   "src": {
+    "title": "Fortune: Current price of oil as of Nov. 3, 2026",
+    "url": "https://fortune.com/article/price-of-oil-11-03-2026/"
+   },
+   "date": "2026-11-04",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-28",
+    "slot": "1130"
+   }
+  },
+  {
+   "key": "asia-tech",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Kospi slid 3.6% on chip selling",
+   "line": "Kospi fell 3.59% on Nov 3 as SK Hynix lost 5.7%; Japan was shut",
+   "more": [
+    "Samsung Electronics also dropped about 5%",
+    "Topix futures +0.43% ahead of Japan's reopen"
+   ],
+   "src": {
+    "title": "TradingKey: Japan closed, Kospi tumbles over 3% as SK Hynix and Samsung plunge",
+    "url": "https://www.tradingkey.com/analysis/stocks/more/262266138-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-tradingkey"
+   },
+   "date": "2026-11-04",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "0845"
    }
   },
   {
@@ -74,36 +197,12 @@
    },
    "date": "2026-11-03",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Tue · 21:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1455"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Oil holds gains after Qeshm strike",
-   "line": "Brent rebounded toward $106 on Tuesday after Monday's 7.6% slide",
-   "more": [
-    "Iran says contacts with the US continue",
-    "No breakthrough in Qatari-mediated talks"
-   ],
-   "src": {
-    "title": "CNBC: Oil prices climb after US strikes Iran's Qeshm Island",
-    "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
-   },
-   "date": "2026-11-03",
-   "slot": "2100",
-   "when": "21:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-26",
-    "slot": "pre"
    }
   },
   {
@@ -123,7 +222,7 @@
    },
    "date": "2026-11-03",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Tue · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -147,36 +246,12 @@
    },
    "date": "2026-11-03",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Tue · 18:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FII inflows credited for the rally",
-   "line": "Reports tie the fourth straight gain to foreign buying and cheaper crude",
-   "more": [
-    "FIIs bought ₹3,115 cr on Monday (provisional)",
-    "Rupee strengthened 12 paise to 94.72 early in the day"
-   ],
-   "src": {
-    "title": "Daily Prabhat: Market rally continues on FII inflows; Sensex closes 1,225 higher",
-    "url": "https://www.dailyprabhat.com/market-rally-continues-on-fii-inflows-sensex-closes-1225-points-higher-nifty-gains-1-58/"
-   },
-   "date": "2026-11-03",
-   "slot": "1625",
-   "when": "16:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-26",
-    "slot": "pre"
    }
   },
   {
@@ -195,7 +270,7 @@
    },
    "date": "2026-11-03",
    "slot": "1625",
-   "when": "16:25",
+   "when": "Tue · 16:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -219,7 +294,7 @@
    },
    "date": "2026-11-03",
    "slot": "1555",
-   "when": "15:55",
+   "when": "Tue · 15:55",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -243,7 +318,7 @@
    },
    "date": "2026-11-03",
    "slot": "1555",
-   "when": "15:55",
+   "when": "Tue · 15:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -267,7 +342,7 @@
    },
    "date": "2026-11-03",
    "slot": "1525",
-   "when": "15:25",
+   "when": "Tue · 15:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -291,7 +366,7 @@
    },
    "date": "2026-11-03",
    "slot": "1455",
-   "when": "14:55",
+   "when": "Tue · 14:55",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -315,7 +390,7 @@
    },
    "date": "2026-11-03",
    "slot": "1455",
-   "when": "14:55",
+   "when": "Tue · 14:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -339,7 +414,7 @@
    },
    "date": "2026-11-03",
    "slot": "1425",
-   "when": "14:25",
+   "when": "Tue · 14:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -363,7 +438,7 @@
    },
    "date": "2026-11-03",
    "slot": "1355",
-   "when": "13:55",
+   "when": "Tue · 13:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -387,7 +462,7 @@
    },
    "date": "2026-11-03",
    "slot": "1255",
-   "when": "12:55",
+   "when": "Tue · 12:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -411,7 +486,7 @@
    },
    "date": "2026-11-03",
    "slot": "1225",
-   "when": "12:25",
+   "when": "Tue · 12:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -435,7 +510,7 @@
    },
    "date": "2026-11-03",
    "slot": "1225",
-   "when": "12:25",
+   "when": "Tue · 12:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -459,7 +534,7 @@
    },
    "date": "2026-11-03",
    "slot": "1155",
-   "when": "11:55",
+   "when": "Tue · 11:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -483,36 +558,12 @@
    },
    "date": "2026-11-03",
    "slot": "1125",
-   "when": "11:25",
+   "when": "Tue · 11:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "asia-tech",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Korea leads Asian losses before US vote",
-   "line": "Korean stocks fell nearly 3.8% in one account as Asia slipped ahead of the midterms",
-   "more": [
-    "Tech and Mideast tensions in focus",
-    "Oil prices stabilised in Asia"
-   ],
-   "src": {
-    "title": "Global Banking & Finance: Asian stocks fall ahead of US midterms",
-    "url": "https://www.globalbankingandfinance.com/asian-stocks-retreat-ahead-us-midterms-oil-steadies/"
-   },
-   "date": "2026-11-03",
-   "slot": "1125",
-   "when": "11:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0845"
    }
   },
   {
@@ -531,7 +582,7 @@
    },
    "date": "2026-11-03",
    "slot": "1025",
-   "when": "10:25",
+   "when": "Tue · 10:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -555,7 +606,7 @@
    },
    "date": "2026-11-03",
    "slot": "1025",
-   "when": "10:25",
+   "when": "Tue · 10:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -579,7 +630,7 @@
    },
    "date": "2026-11-03",
    "slot": "1025",
-   "when": "10:25",
+   "when": "Tue · 10:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -603,7 +654,7 @@
    },
    "date": "2026-11-03",
    "slot": "0955",
-   "when": "9:55",
+   "when": "Tue · 9:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -627,7 +678,7 @@
    },
    "date": "2026-11-03",
    "slot": "0925",
-   "when": "9:25",
+   "when": "Tue · 9:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -651,7 +702,7 @@
    },
    "date": "2026-11-03",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Tue · 8:45",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -676,7 +727,7 @@
    },
    "date": "2026-11-03",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Tue · 8:45",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -700,7 +751,7 @@
    },
    "date": "2026-11-03",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Tue · 8:45",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -724,7 +775,7 @@
    },
    "date": "2026-11-03",
    "slot": "0700",
-   "when": "7:00",
+   "when": "Tue · 7:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -748,7 +799,7 @@
    },
    "date": "2026-11-03",
    "slot": "0700",
-   "when": "7:00",
+   "when": "Tue · 7:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -1213,8 +1264,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-26",
-    "slot": "pre"
+    "date": "2026-10-28",
+    "slot": "1400"
    }
   },
   {
@@ -1652,8 +1703,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-26",
-    "slot": "pre"
+    "date": "2026-10-28",
+    "slot": "1130"
    }
   },
   {
@@ -1874,30 +1925,6 @@
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1500"
-   }
-  },
-  {
-   "key": "us-yields",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "US 10-year yield slips below 5%",
-   "line": "Treasury yields eased after the Fed hold, cited as one driver of the rally",
-   "more": [
-    "Two-year yield fell to 4.69%",
-    "Fed kept rates at 3.75–4%; India VIX down ~4%"
-   ],
-   "src": {
-    "title": "Stock Market Rally Today: why Sensex jumps 617 pts, Nifty climbs 175 pts on October 29 — Goodreturns",
-    "url": "https://www.goodreturns.in/news/stock-market-rally-today-why-sensex-jumps-617-pts-nifty-climbs-175-pts-october-29-how-fed-rates-1543837.html"
-   },
-   "date": "2026-10-29",
-   "slot": "1430",
-   "when": "Thu · 14:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1430"
    }
   },
   {
@@ -2317,128 +2344,6 @@
    "first_seen": {
     "date": "2026-10-28",
     "slot": "1130"
-   }
-  },
-  {
-   "key": "infosys-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Infosys leads losers on guidance cut",
-   "line": "The FY27 cut is tied to a North American slowdown and AI disruption of IT services",
-   "more": [
-    "Infosys ADRs fell 4.7% in the US on Friday after the results",
-    "Q2 revenue missed estimates; FY27 guidance cut to 1–2% from 1.5–3%",
-    "Infosys and Asian Paints were the top losers in early trade"
-   ],
-   "src": {
-    "title": "HDFC Sky: Pre-open — Nifty down 0.5% as oil, earnings shape sentiment",
-    "url": "https://hdfcsky.com/news/pre-open-points-to-mixed-start-as-oil-remains-elevated-october-26-2026"
-   },
-   "date": "2026-10-26",
-   "slot": "0930",
-   "when": "Mon · 9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-26",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "jsw-steel-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "JSW Steel Q2 beats estimates",
-   "line": "Profit tripled as volumes, prices and costs all improved; board approved expansion",
-   "more": [
-    "Consolidated profit about ₹5,279–5,359 cr vs ₹1,646 cr a year ago",
-    "Revenue up about 21% YoY; results beat CNBC-TV18 poll estimates"
-   ],
-   "src": {
-    "title": "BusinessToday: JSW Steel, Jindal Steel Q2 — revenue, profit rise; margins tell different stories",
-    "url": "https://www.businesstoday.in/markets/stocks/story/2-jsw-steel-jindal-steel-q2-results-revenue-profit-rise-margins-tell-different-stories-563334-2026-10-23"
-   },
-   "date": "2026-10-26",
-   "slot": "0930",
-   "when": "Mon · 9:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-26",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "dr-reddys-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Dr Reddy's profit falls 36%",
-   "line": "Lower Revlimid sales in North America dragged the pharma major's quarter",
-   "more": [
-    "Net profit about ₹913–925 cr, down roughly 36% YoY",
-    "Revenue fell 1.5% to ₹8,670.8 cr"
-   ],
-   "src": {
-    "title": "Business Standard: Stocks to watch Oct 26 — Infosys, Tata Motors, Paytm, IndusInd Bank, Senco Gold",
-    "url": "https://www.business-standard.com/amp/markets/news/stocks-to-watch-october-26-infosys-tata-motors-paytm-indusind-bank-senco-gold-126102600062_1.html"
-   },
-   "date": "2026-10-26",
-   "slot": "0930",
-   "when": "Mon · 9:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-26",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "tata-motors-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Tata Motors CV unit swings to profit",
-   "line": "Commercial vehicle business posts ₹1,257 cr profit on 36% revenue growth",
-   "more": [
-    "Swing from a loss of ₹867 cr in Q2 FY26",
-    "Revenue rose 36% year on year"
-   ],
-   "src": {
-    "title": "Business Standard: Stocks to watch Oct 26 — Infosys, Tata Motors, Paytm, IndusInd Bank, Senco Gold",
-    "url": "https://www.business-standard.com/amp/markets/news/stocks-to-watch-october-26-infosys-tata-motors-paytm-indusind-bank-senco-gold-126102600062_1.html"
-   },
-   "date": "2026-10-26",
-   "slot": "0930",
-   "when": "Mon · 9:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-26",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "wall-street",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Wall Street fell Friday on oil",
-   "line": "Dow lost 653 points; tech held up better as chip stocks steadied",
-   "more": [
-    "Friday close: Dow -1.23% to 52,215.16; S&P 500 -0.52% to 7,623.68",
-    "Nasdaq -0.21% to 25,955.34, a second straight weekly loss",
-    "Asia markets traded lower on Monday morning"
-   ],
-   "src": {
-    "title": "Yahoo Finance: How major US stock indexes fared Friday 10/23/2026",
-    "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html"
-   },
-   "date": "2026-10-26",
-   "slot": "pre",
-   "when": "Mon · Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-26",
-    "slot": "pre"
    }
   }
  ]
