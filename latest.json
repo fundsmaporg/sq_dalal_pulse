@@ -1,74 +1,156 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-05T09:57:19+05:30",
+ "generated_at": "2026-11-05T10:26:32+05:30",
  "date": "2026-11-05",
- "slot": "0955",
- "slot_label": "9:55",
+ "slot": "1025",
+ "slot_label": "10:25",
  "stage": "Opening mood",
- "asof": "2026-11-05T09:55:00+05:30",
+ "asof": "2026-11-05T10:25:00+05:30",
  "nifty": {
-  "value": 24378.05,
-  "pct": 1.74,
-  "chg": 417.45,
-  "approx": true,
-  "asof_quote": "early trade, IANS/ANI reports (Nifty at 24,378.05)"
+  "value": 24388.4,
+  "pct": 1.79,
+  "chg": 427.8,
+  "approx": false,
+  "asof_quote": "10:00 IST, Business Standard live blog (Nifty +427.80)"
  },
  "mood": {
-  "label": "Broad rally",
-  "score": 0.65,
-  "summary": "The rally is broad and holding, with the benchmarks up about 1.7–2% and mid and small caps up around 1.5%, as almost every sector trades higher.",
+  "label": "Rally extends",
+  "score": 0.7,
+  "summary": "The rally is extending through mid-morning, with nearly every sector in the green and oil-sensitive stocks leading as crude's slump flows through to India's biggest import.",
   "detail": {
-   "leaders": "Private banks and realty; mid and small caps",
-   "laggards": "No clear laggards; most sectors trading higher",
-   "tone": "Live read, steady versus 09:25: the gap-up has held rather than faded, and breadth is broad, with even IT trading higher.",
+   "leaders": "IndiGo, Asian Paints and BPCL on cheaper crude",
+   "laggards": "Oil India as crude slides",
+   "tone": "Live read, firmer than 09:55: the Nifty has added to its opening gain, and the rally is broad, with only pharma and healthcare out of the green.",
    "watch": [
     "Profit-taking after six straight up days",
-    "Oil's next move after the slump",
-    "FII flows into the afternoon"
+    "Crude's next move",
+    "Whether pharma's weakness spreads"
    ],
    "src": {
-    "title": "IANS: Sensex, Nifty open up to 2 pc higher after US election outcome, falling crude oil",
-    "url": "https://ianslive.in/sensex-nifty-open-up-to-2-pc-higher-after-us-election-outcome-falling-crude-oil--20261105092732"
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,500, Nifty tops 24,350; India reclaims ₹500-trillion market-cap",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Private banks lead a rally that spans nearly every sector",
-     "why": "The oil slump, Wall Street's surge and continued foreign buying are lifting financials and rate-sensitive stocks most.",
+     "summary": "Oil-consuming stocks jump as crude's slump cuts their input costs",
+     "why": "Airlines, paint makers and fuel retailers gain most when crude falls, and oil is at a two-month low.",
      "names": [
       {
-       "name": "Nifty Private Bank",
+       "name": "IndiGo",
        "dir": "up",
-       "move": "+2.55%",
-       "line": "Top sector in early trade as financial stocks led the rally"
+       "move": "+5.58%",
+       "line": "Jet fuel is its biggest cost, so the oil slump lifts margins"
       },
       {
-       "name": "Nifty Realty",
+       "name": "BPCL",
        "dir": "up",
-       "move": "about +1.9%",
-       "line": "Rate-sensitive realty gained after India's bond yields fell 11 bps on Wednesday"
+       "move": "+4.55%",
+       "line": "Fuel retailer's marketing margins widen as crude falls; IOC also up over 3%"
       },
       {
-       "name": "Nifty Smallcap 100",
+       "name": "Asian Paints",
        "dir": "up",
-       "move": "+1.49%",
-       "line": "Small caps kept pace with the benchmarks, a sign of broad buying"
-      },
-      {
-       "name": "Nifty Midcap 100",
-       "dir": "up",
-       "move": "+1.46%",
-       "line": "Midcaps rose almost in line with the Nifty"
+       "move": "+4.26%",
+       "line": "Crude-linked raw materials get cheaper; shares hit ₹2,521.40"
       }
      ],
      "src": {
-      "title": "The Tribune (ANI): Sensex soars 1,610 points, Nifty jumps 1.74% as crude below $100",
-      "url": "https://www.tribuneindia.com/news/business/diwali-fireworks-on-dalal-street-sensex-soars-1610-points-nifty-jumps-1-74-as-crude-below-100"
+      "title": "NewsDrum (PTI): Nifty reclaims 24,000, Sensex surges 1,583 pts; IndiGo, Shriram Finance lead gains",
+      "url": "https://www.newsdrum.in/business/nifty-reclaims-24000-sensex-surges-1583-pts-indigo-shriram-finance-lead-gains-12784944"
+     }
+    },
+    "down": {
+     "summary": "Oil India slips as lower crude hits upstream producers",
+     "why": "Oil producers earn less when crude falls, the reverse of the trade lifting oil consumers.",
+     "names": [
+      {
+       "name": "Oil India",
+       "dir": "down",
+       "move": "over −2%",
+       "line": "Upstream producer hit directly by the slump in crude prices"
+      }
+     ],
+     "src": {
+      "title": "NewsDrum (PTI): Nifty reclaims 24,000, Sensex surges 1,583 pts; IndiGo, Shriram Finance lead gains",
+      "url": "https://www.newsdrum.in/business/nifty-reclaims-24000-sensex-surges-1583-pts-indigo-shriram-finance-lead-gains-12784944"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "mcap-500",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "India's market cap reclaims ₹500 trillion",
+   "line": "Total listed market value crossed the ₹500-trillion mark again in today's rally",
+   "more": [
+    "Sensex up about 1,550 points at 10 am",
+    "Only Bharti Airtel was red among Sensex stocks early"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,500, Nifty tops 24,350; India reclaims ₹500-trillion market-cap",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
+   },
+   "date": "2026-11-05",
+   "slot": "1025",
+   "when": "10:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1025"
+   }
+  },
+  {
+   "key": "biocon-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Biocon profit halves on delayed shipments",
+   "line": "Q2 profit fell to ₹41 cr as about $20m of delayed shipments hit margins",
+   "more": [
+    "Revenue rose 2% to ₹4,389 cr",
+    "Pharma is the only sector in the red this morning"
+   ],
+   "src": {
+    "title": "Business Standard: Biocon Q2 profit halves to ₹41 crore as delayed shipments weigh on margins",
+    "url": "https://business-standard.com/companies/quarterly-results/biocon-q2-profit-halves-to-41-crore-as-delayed-shipments-weigh-on-margins-126110401735_1.html"
+   },
+   "date": "2026-11-05",
+   "slot": "1025",
+   "when": "10:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1800"
+   }
+  },
+  {
+   "key": "lenskart-q2",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Lenskart shares rise about 3.4% after Q2",
+   "line": "Shares traded near ₹713 after profit more than doubled",
+   "more": [
+    "Revenue grew about 32–36% depending on the measure",
+    "Nykaa also in focus after its profit tripled"
+   ],
+   "src": {
+    "title": "HDFC Sky: RITES profit down, Nykaa & Lenskart surge; BSE, Aurobindo shine",
+    "url": "https://hdfcsky.com/news/stocks-to-watch-today-thursday-november-5-2026-rites-nykaa-bse-aurobindo-pharma-lenskart"
+   },
+   "date": "2026-11-05",
+   "slot": "1025",
+   "when": "10:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1525"
+   }
+  },
   {
    "key": "crude",
    "tag": "Global",
@@ -87,7 +169,7 @@
    "slot": "0955",
    "when": "9:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "pre"
@@ -111,7 +193,7 @@
    "slot": "0955",
    "when": "9:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "0955"
@@ -135,7 +217,7 @@
    "slot": "0955",
    "when": "9:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1625"
@@ -357,56 +439,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "lenskart-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Lenskart revenue up 36%; profit doubles",
-   "line": "Revenue about ₹2,845 cr; PAT ₹232 cr vs ₹103 cr a year ago",
-   "more": [
-    "Owners' profit ₹227 cr, up 122%",
-    "India revenue up about 35%, international up about 30%",
-    "Beat Motilal's estimate of about ₹205 cr"
-   ],
-   "src": {
-    "title": "Storyboard18: Lenskart posts 125% profit growth in Q2 as revenue hits ₹2,845 crore",
-    "url": "https://www.storyboard18.com/brand-marketing/lenskart-q2-profit-more-than-doubles-ws-l-114044.htm"
-   },
-   "date": "2026-11-04",
-   "slot": "1800",
-   "when": "Wed · 18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1525"
-   }
-  },
-  {
-   "key": "biocon-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Biocon Q2 profit falls by more than half",
-   "line": "Profit dropped 51–57% depending on the report",
-   "more": [
-    "PTI: ₹56.7 cr vs ₹132.8 cr a year ago",
-    "Owners' profit ₹41 cr vs ₹85 cr",
-    "Material costs rose 22%"
-   ],
-   "src": {
-    "title": "HDFC Sky (PTI): Biocon Q2 profit falls 57% to ₹56.7 cr",
-    "url": "https://hdfcsky.com/news/biocon-q2-net-profit-falls-57-3-pc-to-rs-56-7-cr"
-   },
-   "date": "2026-11-04",
-   "slot": "1800",
-   "when": "Wed · 18:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1800"
    }
   },
   {
