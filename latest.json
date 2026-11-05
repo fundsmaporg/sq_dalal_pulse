@@ -1,34 +1,70 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-05T09:27:00+05:30",
+ "generated_at": "2026-11-05T09:57:19+05:30",
  "date": "2026-11-05",
- "slot": "0925",
- "slot_label": "9:25",
+ "slot": "0955",
+ "slot_label": "9:55",
  "stage": "Opening mood",
- "asof": "2026-11-05T09:25:00+05:30",
+ "asof": "2026-11-05T09:55:00+05:30",
  "nifty": {
-  "value": 24363.6,
-  "pct": 1.68,
-  "chg": 403,
+  "value": 24378.05,
+  "pct": 1.74,
+  "chg": 417.45,
   "approx": true,
-  "asof_quote": "opening deals, Business Standard live blog (Nifty above 24,350, +403 pts)"
+  "asof_quote": "early trade, IANS/ANI reports (Nifty at 24,378.05)"
  },
  "mood": {
-  "label": "Strong gap-up",
+  "label": "Broad rally",
   "score": 0.65,
-  "summary": "Indian shares gapped up sharply at the open, with the benchmarks up about 1.7% as the oil slump and Wall Street's rally drew broad buying.",
+  "summary": "The rally is broad and holding, with the benchmarks up about 1.7–2% and mid and small caps up around 1.5%, as almost every sector trades higher.",
   "detail": {
-   "leaders": "Broad buying across the market at the open",
-   "laggards": "No clear laggards reported in the first minutes",
-   "tone": "Live read, in line with the 08:45 pre-open call: the gap-up has come through in full, with the Nifty opening well above the level GIFT Nifty pointed to.",
+   "leaders": "Private banks and realty; mid and small caps",
+   "laggards": "No clear laggards; most sectors trading higher",
+   "tone": "Live read, steady versus 09:25: the gap-up has held rather than faded, and breadth is broad, with even IT trading higher.",
    "watch": [
-    "Whether the open holds through the first hour",
-    "IT stocks against Asia's chip selling",
-    "Oil's next move below $95"
+    "Profit-taking after six straight up days",
+    "Oil's next move after the slump",
+    "FII flows into the afternoon"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex jumps 1,400 pts, Nifty tops 24,300 as bulls rejoice slump in oil prices",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
+    "title": "IANS: Sensex, Nifty open up to 2 pc higher after US election outcome, falling crude oil",
+    "url": "https://ianslive.in/sensex-nifty-open-up-to-2-pc-higher-after-us-election-outcome-falling-crude-oil--20261105092732"
+   },
+   "movers": {
+    "up": {
+     "summary": "Private banks lead a rally that spans nearly every sector",
+     "why": "The oil slump, Wall Street's surge and continued foreign buying are lifting financials and rate-sensitive stocks most.",
+     "names": [
+      {
+       "name": "Nifty Private Bank",
+       "dir": "up",
+       "move": "+2.55%",
+       "line": "Top sector in early trade as financial stocks led the rally"
+      },
+      {
+       "name": "Nifty Realty",
+       "dir": "up",
+       "move": "about +1.9%",
+       "line": "Rate-sensitive realty gained after India's bond yields fell 11 bps on Wednesday"
+      },
+      {
+       "name": "Nifty Smallcap 100",
+       "dir": "up",
+       "move": "+1.49%",
+       "line": "Small caps kept pace with the benchmarks, a sign of broad buying"
+      },
+      {
+       "name": "Nifty Midcap 100",
+       "dir": "up",
+       "move": "+1.46%",
+       "line": "Midcaps rose almost in line with the Nifty"
+      }
+     ],
+     "src": {
+      "title": "The Tribune (ANI): Sensex soars 1,610 points, Nifty jumps 1.74% as crude below $100",
+      "url": "https://www.tribuneindia.com/news/business/diwali-fireworks-on-dalal-street-sensex-soars-1610-points-nifty-jumps-1-74-as-crude-below-100"
+     }
+    }
    }
   }
  },
@@ -37,24 +73,72 @@
    "key": "crude",
    "tag": "Global",
    "impact": "pos",
-   "title": "Oil cracks below $95 a barrel",
-   "line": "The slump in crude is the main trigger for this morning's rally",
+   "title": "Oil at a two-month low on Iran-end hopes",
+   "line": "Traders bet the Democratic win will press Washington to end the Iran conflict",
    "more": [
-    "Oil fell sharply after the US midterm sweep",
-    "Brent had traded near $103 on Wednesday"
+    "WTI fell more than 8% to around $88",
+    "Brent eased toward $94–95 per reports"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex jumps 1,400 pts, Nifty tops 24,300 as bulls rejoice slump in oil prices",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
+    "title": "Business Recorder: Indian shares set to open higher as oil hits 2-month low after US Democratic win",
+    "url": "https://www.brecorder.com/news/40447522/indian-shares-set-to-open-higher-as-oil-hits-2-month-low-after-us-democratic-win"
    },
    "date": "2026-11-05",
-   "slot": "0925",
-   "when": "9:25",
+   "slot": "0955",
+   "when": "9:55",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "pre"
+   }
+  },
+  {
+   "key": "winning-streak",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Longest winning streak in nearly 5 months",
+   "line": "Benchmarks rose about 5.6% over the last five sessions before today's gain",
+   "more": [
+    "Driven by foreign buying, easing oil and strong earnings",
+    "Analysts flag near-term profit-booking risk"
+   ],
+   "src": {
+    "title": "Business Recorder: Indian shares set to open higher as oil hits 2-month low after US Democratic win",
+    "url": "https://www.brecorder.com/news/40447522/indian-shares-set-to-open-higher-as-oil-hits-2-month-low-after-us-democratic-win"
+   },
+   "date": "2026-11-05",
+   "slot": "0955",
+   "when": "9:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "0955"
+   }
+  },
+  {
+   "key": "it-pressure",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT joins the rally after Wednesday's slide",
+   "line": "Nifty IT was among the sectors trading higher in early deals",
+   "more": [
+    "IT was the only losing sector on Wednesday",
+    "Cement, auto and PSU banks also gained up to 1.8%"
+   ],
+   "src": {
+    "title": "IANS: Sensex, Nifty open up to 2 pc higher after US election outcome, falling crude oil",
+    "url": "https://ianslive.in/sensex-nifty-open-up-to-2-pc-higher-after-us-election-outcome-falling-crude-oil--20261105092732"
+   },
+   "date": "2026-11-05",
+   "slot": "0955",
+   "when": "9:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1625"
    }
   },
   {
@@ -76,7 +160,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "0845"
@@ -100,7 +184,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "pre"
@@ -323,30 +407,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "it-pressure",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "IT the only losing sector on regulation fears",
-   "line": "TCS, Infosys and HCL Tech led the decline as US tech worries spread",
-   "more": [
-    "IT fell about 2% while every other sector rose",
-    "Fears centre on tighter AI and tech oversight in the US"
-   ],
-   "src": {
-    "title": "Angel One: Top gainers and losers on November 4, 2026 — BEL and Adani Enterprises gain, TCS drops over 2%",
-    "url": "https://angelone.in/news/market-updates/top-gainers-and-losers-on-november-4-2026-bharat-electronics-and-adani-enterprises-gain-while-tcs-drops-over-2"
-   },
-   "date": "2026-11-04",
-   "slot": "1625",
-   "when": "Wed · 16:25",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1625"
    }
   },
   {
