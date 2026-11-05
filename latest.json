@@ -1,38 +1,38 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-05T13:56:56+05:30",
+ "generated_at": "2026-11-05T14:26:42+05:30",
  "date": "2026-11-05",
- "slot": "1355",
- "slot_label": "13:55",
+ "slot": "1425",
+ "slot_label": "14:25",
  "stage": "Mid-market mood",
- "asof": "2026-11-05T13:55:00+05:30",
+ "asof": "2026-11-05T14:25:00+05:30",
  "nifty": {
-  "value": 24500,
-  "pct": 2.25,
-  "chg": 539.4,
-  "approx": true,
-  "asof_quote": "~13:53 IST, Business Standard headline: Nifty reclaims 24,500"
+  "value": 24553.4,
+  "pct": 2.47,
+  "chg": 592.8,
+  "approx": false,
+  "asof_quote": "14:00 IST, Business Standard live blog (Nifty +592.80)"
  },
  "mood": {
-  "label": "Rally accelerates",
+  "label": "Session highs",
   "score": 0.75,
-  "summary": "The rally has gathered pace in the afternoon, with the benchmarks up well over 2% and financials joining autos at the front as the advance broadens further.",
+  "summary": "Gains have stretched to around 2.5% in the afternoon, the strongest point of the day, with financials and autos still leading and no sign yet of profit-taking.",
   "detail": {
    "leaders": "Bajaj Finance and NBFCs; autos led by Ashok Leyland and Maruti; BSE on results",
    "laggards": "Apollo Hospitals and Nykaa after results; Oil India as crude slides",
-   "tone": "Live read, stronger than 13:25: the Sensex stretched its gain to a fresh session high by about 1:53 pm.",
+   "tone": "Live read, firmer than 13:55: the benchmarks set new highs for the day by 2 pm and are heading for a sixth straight gain.",
    "watch": [
-    "Profit-taking in the last 90 minutes",
+    "Profit-taking into the 3:30 close",
     "Froth in mid and small caps",
-    "Crude and the rupee into the close"
+    "FII provisional data after the close"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex surges 2,100 pts, Nifty reclaims 24,500; Bajaj Fin, Tata Motors top gainers",
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 2,000 pts, Nifty reclaims 24,500; Bajaj Fin, Tata Motors top gainers",
     "url": "https://business-standard.com/amp/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
    },
    "movers": {
     "up": {
-     "summary": "NBFCs and autos lead as the rally broadens into the afternoon",
+     "summary": "NBFCs and autos lead as the rally pushes to new highs for the day",
      "why": "Four sessions of foreign buying are lifting financials, and cheaper crude is boosting vehicle makers.",
      "names": [
       {
@@ -98,24 +98,71 @@
  },
  "insights": [
   {
+   "key": "rajesh-power",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Rajesh Power jumps 35% on ₹1,629 cr order",
+   "line": "Turnkey order from Dakshin Gujarat Vij takes its order book to about ₹5,400 cr",
+   "more": [
+    "Shares hit an intraday high about 35% above Wednesday's close",
+    "Order disclosed in an exchange filing"
+   ],
+   "src": {
+    "title": "Daily Jagran: Order book jumps 35% — how ₹1,600 cr order brings uptick in Rajesh Power's shares today",
+    "url": "https://www.thedailyjagran.com/business/news/order-book-jumps-35pc-how-rs-1600-cr-order-brings-uptick-in-rajesh-power-services-shares-today-10335244"
+   },
+   "date": "2026-11-05",
+   "slot": "1425",
+   "when": "14:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1425"
+   }
+  },
+  {
+   "key": "winning-streak",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Sixth straight up session for benchmarks",
+   "line": "Oil's slide, renewed FII buying and US midterm relief cited as the drivers",
+   "more": [
+    "Longest winning run in nearly five months",
+    "Analysts flag profit-booking risk after the run"
+   ],
+   "src": {
+    "title": "Sunday Guardian: Sensex surges 1,433 points, Nifty jumps 383 points as markets extend winning streak to six sessions",
+    "url": "https://sundayguardianlive.com/business/sensex-today-nifty-50-indian-stock-market-live-sensex-surges-1433-points-nifty-jumps-383-points-as-markets-extend-winning-streak-to-six-sessions-check-3-key-reasons-behind-thursdays-rally-317620/"
+   },
+   "date": "2026-11-05",
+   "slot": "1425",
+   "when": "14:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "0955"
+   }
+  },
+  {
    "key": "nbfc-rally",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "NBFCs rise up to 7% on foreign buying",
-   "line": "Bajaj Finance, Shriram Finance, Tata Capital and L&T Finance led the gains",
+   "title": "Bajaj Finance, Tata Motors top Sensex gainers",
+   "line": "Financials and autos are leading the Sensex higher this afternoon",
    "more": [
-    "Bajaj Finance rose about 5% to ₹1,049.65",
-    "Shriram Finance gained about 6.8% early",
-    "Comes after four sessions of FII buying"
+    "NBFCs rose up to 7% earlier",
+    "Autos rallied on cheaper crude"
    ],
    "src": {
-    "title": "Business Today: Bajaj Finance, Shriram Finance, Tata Capital, L&T Finance — NBFCs rise up to 7% amid market rally",
-    "url": "https://www.businesstoday.in/markets/stocks/story/bajaj-finance-shriram-finance-tata-capital-lt-finance-nbfc-shares-rise-up-to-7-amid-market-rally-key-details-565850-2026-11-05"
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 2,000 pts, Nifty reclaims 24,500; Bajaj Fin, Tata Motors top gainers",
+    "url": "https://business-standard.com/amp/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
    },
    "date": "2026-11-05",
-   "slot": "1355",
-   "when": "13:55",
-   "updated": false,
+   "slot": "1425",
+   "when": "14:25",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-05",
@@ -140,7 +187,7 @@
    "slot": "1355",
    "when": "13:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1100"
@@ -164,7 +211,7 @@
    "slot": "1355",
    "when": "13:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1055"
@@ -530,30 +577,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "winning-streak",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Longest winning streak in nearly 5 months",
-   "line": "Benchmarks rose about 5.6% over the last five sessions before today's gain",
-   "more": [
-    "Driven by foreign buying, easing oil and strong earnings",
-    "Analysts flag near-term profit-booking risk"
-   ],
-   "src": {
-    "title": "Business Recorder: Indian shares set to open higher as oil hits 2-month low after US Democratic win",
-    "url": "https://www.brecorder.com/news/40447522/indian-shares-set-to-open-higher-as-oil-hits-2-month-low-after-us-democratic-win"
-   },
-   "date": "2026-11-05",
-   "slot": "0955",
-   "when": "9:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "0955"
    }
   },
   {
