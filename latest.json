@@ -1,39 +1,39 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-05T14:56:23+05:30",
+ "generated_at": "2026-11-05T15:26:59+05:30",
  "date": "2026-11-05",
- "slot": "1455",
- "slot_label": "14:55",
- "stage": "Mid-market mood",
- "asof": "2026-11-05T14:55:00+05:30",
+ "slot": "1525",
+ "slot_label": "15:25",
+ "stage": "Closing mood",
+ "asof": "2026-11-05T15:25:00+05:30",
  "nifty": {
-  "value": 24553.4,
-  "pct": 2.47,
-  "chg": 592.8,
-  "approx": true,
-  "asof_quote": "14:00 IST, Business Standard; no later print found"
+  "value": 24566.9,
+  "pct": 2.53,
+  "chg": 606.3,
+  "approx": false,
+  "asof_quote": "around 15:00 IST, Upstox afternoon report"
  },
  "mood": {
-  "label": "Holding highs",
-  "score": 0.75,
-  "summary": "The market is holding near its best levels of the day with about half an hour to go, with autos, financials and oil-marketing stocks still leading a broad advance.",
+  "label": "Strong finish",
+  "score": 0.8,
+  "summary": "The benchmarks are heading into the close near their best levels of the day, up about 2.5%, as buying spans banks, autos, financials and even IT.",
   "detail": {
    "leaders": "Autos led by Ashok Leyland and Tata Motors CV; Bajaj Finance; BSE on results",
-   "laggards": "Apollo Hospitals and Nykaa after results; Oil India as crude slides",
-   "tone": "Live read, steady versus 14:25: no fresh push higher, but no profit-taking either; the benchmarks are set for a sixth straight gain.",
+   "laggards": "Apollo Hospitals, Nykaa and BEML after results; Oil India as crude slides",
+   "tone": "Live read, firmer than 14:55: the benchmarks made fresh highs around 3 pm, setting up the biggest gain of this six-day run.",
    "watch": [
-    "Profit-taking into the 3:30 close",
+    "The closing print and any late profit-taking",
     "FII provisional data after the bell",
-    "Crude overnight"
+    "Wall Street and crude overnight"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex surges 2,000 pts, Nifty reclaims 24,500; Bajaj Fin, Tata Motors top gainers",
-    "url": "https://business-standard.com/amp/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
+    "title": "Upstox: NIFTY crosses 24,550, SENSEX rallies over 2,100 pts; BSE, Lenskart, LG Electronics among buzzing stocks",
+    "url": "https://upstox.com/news/market-news/stocks/nifty-crosses-24-500-sensex-rallies-over-2-000-pts-bse-lenskart-lg-electronics-among-buzzing-stocks/article-203053/"
    },
    "movers": {
     "up": {
      "summary": "Vehicle makers and NBFCs lead, with BSE strong on results",
-     "why": "Cheaper crude is boosting vehicle makers and fuel retailers, and four sessions of foreign buying are lifting financials.",
+     "why": "Cheaper crude is boosting vehicle makers, and four sessions of foreign buying are lifting financials.",
      "names": [
       {
        "name": "Ashok Leyland",
@@ -45,7 +45,7 @@
        "name": "Tata Motors CV",
        "dir": "up",
        "move": "about +7.2%",
-       "line": "Commercial-vehicle arm rallies on the fuel-cost relief; ₹431.90"
+       "line": "Commercial-vehicle arm rallies on the fuel-cost relief"
       },
       {
        "name": "Bajaj Finance",
@@ -61,19 +61,25 @@
       }
      ],
      "src": {
-      "title": "Kotak Neo: Auto stocks rally — Ashok Leyland jumps 9%, Nifty Auto gains nearly 3% in morning trade",
-      "url": "https://www.kotakneo.com/news/stocks/auto-stocks-rally-ashok-leyland-maruti-tata-motors-m-m/"
+      "title": "Upstox: NIFTY crosses 24,550, SENSEX rallies over 2,100 pts; BSE, Lenskart, LG Electronics among buzzing stocks",
+      "url": "https://upstox.com/news/market-news/stocks/nifty-crosses-24-500-sensex-rallies-over-2-000-pts-bse-lenskart-lg-electronics-among-buzzing-stocks/article-203053/"
      }
     },
     "down": {
-     "summary": "Apollo Hospitals and Nykaa slip after results; Oil India falls with crude",
-     "why": "Some post-results names are being sold despite strong profit growth, and producers lose out when crude slides.",
+     "summary": "Post-results selling in Apollo, Nykaa and BEML; Oil India falls with crude",
+     "why": "Some companies are being sold after their results despite the broad rally, and producers lose out when crude slides.",
      "names": [
       {
        "name": "Apollo Hospitals",
        "dir": "down",
        "move": "about −3.5%",
        "line": "Top Nifty loser despite 32% Q2 profit growth; CEO exit also announced"
+      },
+      {
+       "name": "BEML",
+       "dir": "down",
+       "move": "about −4%",
+       "line": "Fell after its September-quarter results"
       },
       {
        "name": "Nykaa",
@@ -89,14 +95,86 @@
       }
      ],
      "src": {
-      "title": "HDFC Sky: Top gainers & losers today, 5 November 2026 at 12:00 PM IST",
-      "url": "https://hdfcsky.com/news/top-gainers-losers-today-5-november-2026-at-12-pm"
+      "title": "Business Standard: Stock Market LIVE — Sensex surges 2,000 pts, Nifty above 24,500; BEML shares drop 4% post Q2 result",
+      "url": "https://business-standard.com/amp/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "beml-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "BEML falls about 4% after Q2 results",
+   "line": "The defence and rail equipment maker slipped after its September-quarter numbers",
+   "more": [
+    "Flagged in the afternoon live blog",
+    "Broader market stayed firmly higher"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 2,000 pts, Nifty above 24,500; BEML shares drop 4% post Q2 result",
+    "url": "https://business-standard.com/amp/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
+   },
+   "date": "2026-11-05",
+   "slot": "1525",
+   "when": "15:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1525"
+   }
+  },
+  {
+   "key": "buzzing-stocks",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "BSE, Lenskart, LG Electronics in focus",
+   "line": "These were among the most actively traded names in the afternoon rally",
+   "more": [
+    "BSE up on a 45% profit jump",
+    "Lenskart up after its profit doubled"
+   ],
+   "src": {
+    "title": "Upstox: NIFTY crosses 24,550, SENSEX rallies over 2,100 pts; BSE, Lenskart, LG Electronics among buzzing stocks",
+    "url": "https://upstox.com/news/market-news/stocks/nifty-crosses-24-500-sensex-rallies-over-2-000-pts-bse-lenskart-lg-electronics-among-buzzing-stocks/article-203053/"
+   },
+   "date": "2026-11-05",
+   "slot": "1525",
+   "when": "15:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1525"
+   }
+  },
+  {
+   "key": "it-pressure",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT joins the rally after Wednesday's slide",
+   "line": "Banking, auto, financial services and IT all supported the afternoon gains",
+   "more": [
+    "IT was the only losing sector on Wednesday",
+    "US tech recovered overnight after the midterm sweep"
+   ],
+   "src": {
+    "title": "Upstox: NIFTY crosses 24,550, SENSEX rallies over 2,100 pts; BSE, Lenskart, LG Electronics among buzzing stocks",
+    "url": "https://upstox.com/news/market-news/stocks/nifty-crosses-24-500-sensex-rallies-over-2-000-pts-bse-lenskart-lg-electronics-among-buzzing-stocks/article-203053/"
+   },
+   "date": "2026-11-05",
+   "slot": "1525",
+   "when": "15:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1625"
+   }
+  },
   {
    "key": "omc-rally",
    "tag": "Stocks",
@@ -115,7 +193,7 @@
    "slot": "1455",
    "when": "14:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1455"
@@ -139,7 +217,7 @@
    "slot": "1455",
    "when": "14:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1055"
@@ -163,7 +241,7 @@
    "slot": "1455",
    "when": "14:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1355"
@@ -601,30 +679,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "it-pressure",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT joins the rally after Wednesday's slide",
-   "line": "Nifty IT was among the sectors trading higher in early deals",
-   "more": [
-    "IT was the only losing sector on Wednesday",
-    "Cement, auto and PSU banks also gained up to 1.8%"
-   ],
-   "src": {
-    "title": "IANS: Sensex, Nifty open up to 2 pc higher after US election outcome, falling crude oil",
-    "url": "https://ianslive.in/sensex-nifty-open-up-to-2-pc-higher-after-us-election-outcome-falling-crude-oil--20261105092732"
-   },
-   "date": "2026-11-05",
-   "slot": "0955",
-   "when": "9:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1625"
    }
   },
   {
