@@ -1,38 +1,38 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-05T10:56:46+05:30",
+ "generated_at": "2026-11-05T11:27:18+05:30",
  "date": "2026-11-05",
- "slot": "1055",
- "slot_label": "10:55",
+ "slot": "1125",
+ "slot_label": "11:25",
  "stage": "Mid-market mood",
- "asof": "2026-11-05T10:55:00+05:30",
+ "asof": "2026-11-05T11:25:00+05:30",
  "nifty": {
-  "value": 24388.4,
-  "pct": 1.79,
-  "chg": 427.8,
-  "approx": true,
-  "asof_quote": "10:00 IST, Business Standard; intraday high 24,442.20 by 10:40"
+  "value": 24369.1,
+  "pct": 1.7,
+  "chg": 408.5,
+  "approx": false,
+  "asof_quote": "11:00 IST, Business Standard live blog"
  },
  "mood": {
-  "label": "Rally holds",
-  "score": 0.65,
-  "summary": "The rally is holding near its morning highs, with gains spread across autos, financials and oil-consuming sectors; pharma and healthcare are the only pockets of weakness.",
+  "label": "Rally steady",
+  "score": 0.6,
+  "summary": "The rally is steady into late morning, with benchmarks holding gains of about 1.7%; oil consumers and autos lead, while a few post-results names lag.",
   "detail": {
    "leaders": "IndiGo, BPCL and Asian Paints on cheaper crude; Lenskart on results",
-   "laggards": "Oil India as crude slides",
-   "tone": "Live read, steady versus 10:25: the benchmarks are holding close to the session high, with no sign yet of profit-taking after six straight gains.",
+   "laggards": "Nykaa despite strong Q2; Oil India as crude slides",
+   "tone": "Live read, a touch off the morning high but holding steady versus 10:55; there is no meaningful profit-taking yet.",
    "watch": [
-    "Profit-taking near the day's high",
+    "Profit-taking after six straight gains",
     "Crude's next move",
-    "Pharma and healthcare weakness"
+    "FII flows into the close"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,500 pts; Nifty reclaims 24,000 mark for first time since Sept 4",
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,400, Nifty tops 24,300; Nifty Auto gains over 3%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Oil consumers lead, and Lenskart extends its post-results rally",
+     "summary": "Oil consumers lead, and Lenskart holds its post-results gain",
      "why": "Crude at a two-month low cuts costs for airlines, paint makers and fuel retailers, while strong results keep buyers in Lenskart.",
      "names": [
       {
@@ -66,9 +66,15 @@
      }
     },
     "down": {
-     "summary": "Oil India slips as lower crude hits upstream producers",
-     "why": "Oil producers earn less when crude falls, the reverse of the trade lifting oil consumers.",
+     "summary": "Nykaa slips despite tripled profit; Oil India falls with crude",
+     "why": "Brokerages were split on Nykaa's valuation after the results, and producers lose out when crude slides.",
      "names": [
+      {
+       "name": "Nykaa",
+       "dir": "down",
+       "move": "−3.11%",
+       "line": "Fell to ₹344.45 as Citi kept a Sell call despite profit tripling"
+      },
       {
        "name": "Oil India",
        "dir": "down",
@@ -77,14 +83,87 @@
       }
      ],
      "src": {
-      "title": "NewsDrum (PTI): Nifty reclaims 24,000, Sensex surges 1,583 pts; IndiGo, Shriram Finance lead gains",
-      "url": "https://www.newsdrum.in/business/nifty-reclaims-24000-sensex-surges-1583-pts-indigo-shriram-finance-lead-gains-12784944"
+      "title": "Zee Business: Nykaa's 3-fold profit growth fails to impress D-Street; what Jefferies, JP Morgan and others say",
+      "url": "https://www.zeebiz.com/market-news/news-nykaas-3-fold-profit-growth-fails-to-impress-d-street-check-what-jefferies-jp-morgan-and-others-say-405119"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "nykaa-q2",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Nykaa falls 3% despite profit tripling",
+   "line": "Shares slipped to ₹344.45 as brokerages split on the stock after Q2",
+   "more": [
+    "Jefferies: Buy, target raised to ₹415",
+    "JP Morgan: Neutral, target ₹340",
+    "Citi: Sell, target cut to ₹260"
+   ],
+   "src": {
+    "title": "Zee Business: Nykaa's 3-fold profit growth fails to impress D-Street; what Jefferies, JP Morgan and others say",
+    "url": "https://www.zeebiz.com/market-news/news-nykaas-3-fold-profit-growth-fails-to-impress-d-street-check-what-jefferies-jp-morgan-and-others-say-405119"
+   },
+   "date": "2026-11-05",
+   "slot": "1125",
+   "when": "11:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1555"
+   }
+  },
+  {
+   "key": "auto-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Autos stay among the top sectors",
+   "line": "Nifty Auto was up nearly 3% by late morning",
+   "more": [
+    "Maruti and M&M were among early Sensex gainers",
+    "Financial services also among the top sectors"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,400, Nifty tops 24,300; Nifty Auto gains over 3%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
+   },
+   "date": "2026-11-05",
+   "slot": "1125",
+   "when": "11:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1055"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "WTI down more than 8% near $88",
+   "line": "Oil's slide after the US midterm result is the day's main tailwind",
+   "more": [
+    "Bets on a faster end to the West Asia conflict",
+    "India imports most of its crude needs"
+   ],
+   "src": {
+    "title": "India TV: 5 November 2026 stock market updates — Sensex surges 1,600 points, Nifty above 24,350",
+    "url": "https://www.indiatvnews.com/business/news/5-november-2026-stock-market-updates-sensex-surges-1-600-points-nifty-above-24-350-post-us-midterm-election-outcome-global-market-2026-11-05-1058714"
+   },
+   "date": "2026-11-05",
+   "slot": "1125",
+   "when": "11:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "pre"
+   }
+  },
   {
    "key": "mcap-500",
    "tag": "Stocks",
@@ -103,7 +182,7 @@
    "slot": "1055",
    "when": "10:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1025"
@@ -127,34 +206,10 @@
    "slot": "1055",
    "when": "10:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1525"
-   }
-  },
-  {
-   "key": "auto-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Nifty Auto gains over 3%",
-   "line": "Maruti and M&M rose 3–4% as autos led the sector board",
-   "more": [
-    "Autos and financials were the top sectors early",
-    "Only pharma and healthcare were in the red"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,300, Nifty tops 24,300; Nifty Auto gains over 3%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
-   },
-   "date": "2026-11-05",
-   "slot": "1055",
-   "when": "10:55",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "1055"
    }
   },
   {
@@ -179,30 +234,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Oil at a two-month low on Iran-end hopes",
-   "line": "Traders bet the Democratic win will press Washington to end the Iran conflict",
-   "more": [
-    "WTI fell more than 8% to around $88",
-    "Brent eased toward $94–95 per reports"
-   ],
-   "src": {
-    "title": "Business Recorder: Indian shares set to open higher as oil hits 2-month low after US Democratic win",
-    "url": "https://www.brecorder.com/news/40447522/indian-shares-set-to-open-higher-as-oil-hits-2-month-low-after-us-democratic-win"
-   },
-   "date": "2026-11-05",
-   "slot": "0955",
-   "when": "9:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "pre"
    }
   },
   {
@@ -324,30 +355,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1325"
-   }
-  },
-  {
-   "key": "nykaa-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Nykaa, Lenskart in focus after strong Q2",
-   "line": "Nykaa profit tripled to ₹101 cr; Lenskart owners' profit rose 123% to ₹227 cr",
-   "more": [
-    "Lenskart shares rallied about 2.8% on the results",
-    "Nykaa revenue up 28% to ₹3,006 cr"
-   ],
-   "src": {
-    "title": "ScanX: Stocks to watch today, November 5, 2026 — Lenskart, Nykaa, Apollo Tyres, Dabur India, Kirloskar Oil Engines",
-    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-november-5-2026-lenskart-solutions-nykaa-apollo/55387880"
-   },
-   "date": "2026-11-05",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1555"
    }
   },
   {
