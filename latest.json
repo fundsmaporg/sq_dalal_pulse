@@ -1,26 +1,26 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-05T11:27:18+05:30",
+ "generated_at": "2026-11-05T11:57:01+05:30",
  "date": "2026-11-05",
- "slot": "1125",
- "slot_label": "11:25",
+ "slot": "1155",
+ "slot_label": "11:55",
  "stage": "Mid-market mood",
- "asof": "2026-11-05T11:25:00+05:30",
+ "asof": "2026-11-05T11:55:00+05:30",
  "nifty": {
   "value": 24369.1,
   "pct": 1.7,
   "chg": 408.5,
-  "approx": false,
-  "asof_quote": "11:00 IST, Business Standard live blog"
+  "approx": true,
+  "asof_quote": "11:00 IST, Business Standard; no later print found"
  },
  "mood": {
   "label": "Rally steady",
   "score": 0.6,
-  "summary": "The rally is steady into late morning, with benchmarks holding gains of about 1.7%; oil consumers and autos lead, while a few post-results names lag.",
+  "summary": "The market is holding a gain of about 1.7% into midday after a broad open in which advancing stocks outnumbered decliners by more than two to one.",
   "detail": {
    "leaders": "IndiGo, BPCL and Asian Paints on cheaper crude; Lenskart on results",
    "laggards": "Nykaa despite strong Q2; Oil India as crude slides",
-   "tone": "Live read, a touch off the morning high but holding steady versus 10:55; there is no meaningful profit-taking yet.",
+   "tone": "Live read, unchanged from 11:25: the benchmarks are consolidating their big morning gain rather than extending or giving it back.",
    "watch": [
     "Profit-taking after six straight gains",
     "Crude's next move",
@@ -67,13 +67,13 @@
     },
     "down": {
      "summary": "Nykaa slips despite tripled profit; Oil India falls with crude",
-     "why": "Brokerages were split on Nykaa's valuation after the results, and producers lose out when crude slides.",
+     "why": "Brokerages were split on Nykaa after the results, and producers lose out when crude slides.",
      "names": [
       {
        "name": "Nykaa",
        "dir": "down",
        "move": "−3.11%",
-       "line": "Fell to ₹344.45 as Citi kept a Sell call despite profit tripling"
+       "line": "Fell to ₹344.45 as brokerages split; Citi kept a Sell call"
       },
       {
        "name": "Oil India",
@@ -83,7 +83,7 @@
       }
      ],
      "src": {
-      "title": "Zee Business: Nykaa's 3-fold profit growth fails to impress D-Street; what Jefferies, JP Morgan and others say",
+      "title": "Zee Business: Nykaa's 3-fold profit growth fails to impress D-Street",
       "url": "https://www.zeebiz.com/market-news/news-nykaas-3-fold-profit-growth-fails-to-impress-d-street-check-what-jefferies-jp-morgan-and-others-say-405119"
      }
     }
@@ -92,23 +92,70 @@
  },
  "insights": [
   {
+   "key": "breadth",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Advancers beat decliners more than 2 to 1",
+   "line": "About 2,948 stocks rose against 1,260 decliners in early trade",
+   "more": [
+    "No broad market index was in the red",
+    "Small caps rose about 2% early, midcaps about 1.3%"
+   ],
+   "src": {
+    "title": "HDFC Sky: Sensex surges 1,268 points; Nifty tops 24,300 on strong global cues",
+    "url": "https://hdfcsky.com/news/stock-market-open-report-november-5-2026-sensex-nifty-soar-as-oil-plunges-on-democratic-win"
+   },
+   "date": "2026-11-05",
+   "slot": "1155",
+   "when": "11:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1155"
+   }
+  },
+  {
+   "key": "analyst-calls",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Religare sees room for further Nifty gains",
+   "line": "Ajit Mishra says the rally can extend and backs GAIL and HAL",
+   "more": [
+    "Call published this morning amid the oil-led rally",
+    "Earlier, analysts flagged near-term profit-booking risk"
+   ],
+   "src": {
+    "title": "Business Standard: Religare's Ajit Mishra says 24,700 in sight for Nifty; bets on GAIL, HAL",
+    "url": "https://business-standard.com/markets/news/religare-s-ajit-mishra-says-24-700-in-sight-for-nifty-bets-on-gail-hal-126110500087_1.html"
+   },
+   "date": "2026-11-05",
+   "slot": "1155",
+   "when": "11:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1155"
+   }
+  },
+  {
    "key": "nykaa-q2",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "Nykaa falls 3% despite profit tripling",
-   "line": "Shares slipped to ₹344.45 as brokerages split on the stock after Q2",
+   "title": "Brokerages split on Nykaa after Q2",
+   "line": "Jefferies targets ₹415, JP Morgan ₹340 and Citi ₹260 after the results",
    "more": [
-    "Jefferies: Buy, target raised to ₹415",
-    "JP Morgan: Neutral, target ₹340",
-    "Citi: Sell, target cut to ₹260"
+    "Shares fell about 3% this morning",
+    "Profit tripled to about ₹101 cr"
    ],
    "src": {
-    "title": "Zee Business: Nykaa's 3-fold profit growth fails to impress D-Street; what Jefferies, JP Morgan and others say",
+    "title": "Zee Business: Nykaa's 3-fold profit growth fails to impress D-Street",
     "url": "https://www.zeebiz.com/market-news/news-nykaas-3-fold-profit-growth-fails-to-impress-d-street-check-what-jefferies-jp-morgan-and-others-say-405119"
    },
    "date": "2026-11-05",
-   "slot": "1125",
-   "when": "11:25",
+   "slot": "1155",
+   "when": "11:55",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -134,7 +181,7 @@
    "slot": "1125",
    "when": "11:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1055"
@@ -158,7 +205,7 @@
    "slot": "1125",
    "when": "11:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "pre"
