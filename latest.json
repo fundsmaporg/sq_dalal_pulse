@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-05T07:00:31+05:30",
+ "generated_at": "2026-11-05T08:46:22+05:30",
  "date": "2026-11-05",
- "slot": "0700",
- "slot_label": "7:00",
+ "slot": "0845",
+ "slot_label": "8:45",
  "stage": "Pre-market mood",
- "asof": "2026-11-05T07:00:00+05:30",
+ "asof": "2026-11-05T08:45:00+05:30",
  "nifty": {
   "value": 23960.6,
   "pct": 0.63,
@@ -14,25 +14,121 @@
   "asof_quote": "Nov 4 close, Business Standard"
  },
  "mood": {
-  "label": "Strong start likely",
-  "score": 0.55,
-  "summary": "Thursday's set-up is strongly positive: Wall Street posted its biggest post-midterm rally in decades, oil tumbled and foreign buying continued, though Asian chip stocks are under pressure.",
+  "label": "Gap-up likely",
+  "score": 0.6,
+  "summary": "Pre-open: GIFT Nifty points to a strong gap-up after Wall Street's big rally and the slide in oil, with volatility easing and foreign buyers still active.",
   "detail": {
-   "leaders": "Oil-sensitive sectors on the crude slide; banks and consumer names on foreign inflows",
-   "laggards": "IT and chip-linked names if Korea's tech selling spreads",
-   "tone": "Forward-looking morning read, firmer than last night: the US rally held into the close and oil fell further, but Kospi's sharp chip-led drop is a reminder that tech remains fragile.",
+   "leaders": "Oil-sensitive and rate-sensitive stocks; Nykaa and Lenskart after results",
+   "laggards": "Hospital stocks on the medicine margin-cap proposal; IT if chip selling in Asia spreads",
+   "tone": "Forward-looking pre-open read, firmer than 07:00: GIFT Nifty is pointing to a gain of over 1% and India VIX fell, so a broad, strong open looks likely.",
    "watch": [
-    "GIFT Nifty at 08:45",
-    "Whether Kospi's chip selloff spreads to Indian IT",
-    "Brent's direction after the slide"
+    "Whether the gap-up holds after the first hour",
+    "IT stocks against Kospi's chip selloff",
+    "Hospital stocks on the Supreme Court margin-cap suggestion"
    ],
    "src": {
-    "title": "Motley Fool: Stock Market Today, Nov. 4 — Dow surges 3% in biggest post-midterm rally in 44 years",
-    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/04/stock-market-today-nov-4-dow-surges-3-in-biggest-post-midterm-rally-in-44-years/"
+    "title": "DSIJ: Pre-market update — GIFT Nifty surges over 300 points, signals strong opening",
+    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-surges-over-300-points-signals-strong-opening-lower-crude-and-global-rally-lift-sentiment-60314"
    }
   }
  },
  "insights": [
+  {
+   "key": "apollo-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Apollo Hospitals Q2 profit up 32% to ₹630 cr",
+   "line": "Strong quarter, but a Supreme Court margin-cap suggestion clouds the sector",
+   "more": [
+    "Court suggested a 16% margin cap on medicines",
+    "Hits operators with in-house pharmacies like Apollo"
+   ],
+   "src": {
+    "title": "ScanX: Stocks to watch today, November 5, 2026 — Lenskart, Nykaa, Apollo Tyres, Dabur India, Kirloskar Oil Engines",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-november-5-2026-lenskart-solutions-nykaa-apollo/55387880"
+   },
+   "date": "2026-11-05",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "india-bonds",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Bond yields fall 11 bps as oil slides",
+   "line": "India's bond yields dropped sharply on Wednesday after the US midterm result",
+   "more": [
+    "Rupee settled at 94.65 per dollar",
+    "Brent fell to about $103 on Wednesday"
+   ],
+   "src": {
+    "title": "Business Standard: Bond yields fall 11 bps, rupee gains as oil prices slide after US midterms",
+    "url": "https://www.business-standard.com/markets/news/bond-yields-fall-11-bps-rupee-gains-as-oil-prices-slide-after-us-midterms-126110401818_1.html"
+   },
+   "date": "2026-11-05",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1325"
+   }
+  },
+  {
+   "key": "nykaa-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Nykaa, Lenskart in focus after strong Q2",
+   "line": "Nykaa profit tripled to ₹101 cr; Lenskart owners' profit rose 123% to ₹227 cr",
+   "more": [
+    "Lenskart shares rallied about 2.8% on the results",
+    "Nykaa revenue up 28% to ₹3,006 cr"
+   ],
+   "src": {
+    "title": "ScanX: Stocks to watch today, November 5, 2026 — Lenskart, Nykaa, Apollo Tyres, Dabur India, Kirloskar Oil Engines",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-november-5-2026-lenskart-solutions-nykaa-apollo/55387880"
+   },
+   "date": "2026-11-05",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1555"
+   }
+  },
+  {
+   "key": "india-vix",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "India VIX eases 3.4% to 15.18",
+   "line": "Lower volatility expectations ahead of the session",
+   "more": [
+    "Follows five straight Nifty gains",
+    "Global risk appetite improved overnight"
+   ],
+   "src": {
+    "title": "DSIJ: Pre-market update — GIFT Nifty surges over 300 points, signals strong opening",
+    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-surges-over-300-points-signals-strong-opening-lower-crude-and-global-rally-lift-sentiment-60314"
+   },
+   "date": "2026-11-05",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1200"
+   }
+  },
   {
    "key": "us-markets",
    "tag": "Global",
@@ -51,7 +147,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "pre"
@@ -75,7 +171,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "pre"
@@ -99,7 +195,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "pre"
@@ -123,7 +219,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "1430"
@@ -147,7 +243,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "0845"
@@ -176,30 +272,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "nykaa-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Nykaa's fashion arm turns profitable",
-   "line": "Investor slides show profit up 207% as the fashion business moved into profit",
-   "more": [
-    "Q2 profit about ₹101 cr",
-    "Beauty remained the main profit driver"
-   ],
-   "src": {
-    "title": "Investing.com: Nykaa Q2 FY27 slides — profit surges 207% as fashion turns profitable",
-    "url": "https://www.investing.com/news/company-news/nykaa-q2-fy27-slides-profit-surges-207-as-fashion-turns-profitable-93CH-4999350"
-   },
-   "date": "2026-11-04",
-   "slot": "2100",
-   "when": "Wed · 21:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1555"
    }
   },
   {
@@ -541,30 +613,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1355"
-   }
-  },
-  {
-   "key": "india-bonds",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "India 10-year yield eases to about 7.26%",
-   "line": "Bond yields fell on lower oil and the shifting US political outlook",
-   "more": [
-    "Reported shortly before 1 pm",
-    "Report attributes it to improved market sentiment"
-   ],
-   "src": {
-    "title": "Whalesbook: Indian bond yields dip to 7.26% on lower oil and US political outlook",
-    "url": "https://www.whalesbook.com/news/English/economy/Indian-Bond-Yields-Dip-to-726percent-on-Lower-Oil-and-US-Political-Outlook/6aeaded94fc30694db5baae1"
-   },
-   "date": "2026-11-04",
-   "slot": "1325",
-   "when": "Wed · 13:25",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1325"
    }
   },
   {
@@ -1144,30 +1192,6 @@
    "first_seen": {
     "date": "2026-11-02",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "india-vix",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "India VIX jumps over 4% with markets up",
-   "line": "Volatility gauge rises even as the Sensex climbs about 700 points",
-   "more": [
-    "Comes on US midterm election day",
-    "VIX also rose on Monday's rally"
-   ],
-   "src": {
-    "title": "Business Standard: Sensex jumps 700 pts, Nifty tops 23,600; VIX rises over 4%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
-   },
-   "date": "2026-11-03",
-   "slot": "1025",
-   "when": "Tue · 10:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1200"
    }
   },
   {
