@@ -1,68 +1,68 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-05T12:56:11+05:30",
+ "generated_at": "2026-11-05T13:26:14+05:30",
  "date": "2026-11-05",
- "slot": "1255",
- "slot_label": "12:55",
+ "slot": "1325",
+ "slot_label": "13:25",
  "stage": "Mid-market mood",
- "asof": "2026-11-05T12:55:00+05:30",
+ "asof": "2026-11-05T13:25:00+05:30",
  "nifty": {
-  "value": 24407.9,
-  "pct": 1.87,
-  "chg": 447.3,
-  "approx": true,
-  "asof_quote": "12:00 IST, Business Standard; Sensex at day's high by 12:41"
+  "value": 24431.3,
+  "pct": 1.96,
+  "chg": 470.7,
+  "approx": false,
+  "asof_quote": "13:00 IST, Business Standard live blog (Nifty +470.70)"
  },
  "mood": {
-  "label": "At day's high",
+  "label": "Rally extends",
   "score": 0.7,
-  "summary": "The benchmarks pushed to the session high in early afternoon, with capital-market stocks joining the oil-led rally and only a few post-results names lagging.",
+  "summary": "The rally has extended into the afternoon, with the benchmarks up close to 2% and autos now the standout sector as cheaper oil feeds through to cyclical stocks.",
   "detail": {
-   "leaders": "BSE and capital-market stocks; IndiGo and BPCL on cheaper crude",
+   "leaders": "Autos led by Ashok Leyland and Maruti; BSE on results",
    "laggards": "Apollo Hospitals and Nykaa after results; Oil India as crude slides",
-   "tone": "Live read, firmer than 12:25: the Sensex touched its high of the day around 12:40, and buying is broadening into financials and capital-market names.",
+   "tone": "Live read, firmer again than 12:55: the benchmarks are near the session high at 1 pm, with autos taking over leadership from oil-marketing stocks.",
    "watch": [
-    "Profit-taking in the final 2.5 hours",
-    "Crude's next move",
-    "FII flows into the close"
+    "Profit-taking in the final two hours",
+    "Frothy action in mid and small caps",
+    "Crude's next move"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex at day's high 1,600, Nifty tops 24,400; Adani Ports shares hits 52-wk high",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
+    "title": "Business Standard: Stock Market LIVE — Sensex at day's high, up 1,800 pts, Nifty tops 24,400; Nifty Auto rises 4%",
+    "url": "https://business-standard.com/amp/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
    },
    "movers": {
     "up": {
-     "summary": "BSE leads a capital-markets rally while oil consumers stay strong",
-     "why": "BSE's strong earnings are lifting capital-market stocks, and cheaper crude helps oil users.",
+     "summary": "Auto makers surge on cheaper fuel, and BSE rallies on strong results",
+     "why": "Brent's slide to a two-month low cuts fuel and input costs for vehicle makers, and BSE's 45% profit jump lifted capital-market stocks.",
      "names": [
+      {
+       "name": "Ashok Leyland",
+       "dir": "up",
+       "move": "up 9–10%",
+       "line": "Truck maker gains most from lower diesel and input costs"
+      },
+      {
+       "name": "Maruti Suzuki",
+       "dir": "up",
+       "move": "+4.7%",
+       "line": "Cheaper fuel and inputs seen improving carmakers' margins"
+      },
+      {
+       "name": "Nifty Auto",
+       "dir": "up",
+       "move": "about +3.3% to +4%",
+       "line": "Top sector as crude's slump lifts the whole vehicle pack"
+      },
       {
        "name": "BSE",
        "dir": "up",
        "move": "+6.48%",
-       "line": "Q2 profit jumped 45% to about ₹808 cr; top Nifty gainer at noon"
-      },
-      {
-       "name": "Nifty Capital Markets",
-       "dir": "up",
-       "move": "about +4%",
-       "line": "MOFSL, Groww and 360 ONE rose with BSE, up to 7%"
-      },
-      {
-       "name": "IndiGo",
-       "dir": "up",
-       "move": "+5.58%",
-       "line": "Jet fuel is its biggest cost, so the oil slump lifts margins"
-      },
-      {
-       "name": "BPCL",
-       "dir": "up",
-       "move": "+4.55%",
-       "line": "Fuel retailer's margins widen as crude falls"
+       "line": "Q2 profit jumped 45% to about ₹808 cr"
       }
      ],
      "src": {
-      "title": "HDFC Sky: Top gainers & losers today, 5 November 2026 at 12:00 PM IST",
-      "url": "https://hdfcsky.com/news/top-gainers-losers-today-5-november-2026-at-12-pm"
+      "title": "Business Standard: TaMo CV, Ashok Leyland, Maruti rally up to 8% as crude oil price tumbles",
+      "url": "https://www.business-standard.com/markets/news/tamo-cv-ashok-leyland-maruti-rally-up-to-8-as-crude-oil-price-tumbles-126110500463_1.html"
      }
     },
     "down": {
@@ -98,6 +98,78 @@
  },
  "insights": [
   {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Brent near $93.50, lowest in two months",
+   "line": "Brent fell 8.7% on Wednesday and slipped further on Thursday",
+   "more": [
+    "Lower oil eases India's import bill and inflation",
+    "Driving the day's sector leadership in autos and OMCs"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex zooms 1,600 pts intraday; India m-cap tops ₹500 trn — key reasons",
+    "url": "https://www.business-standard.com/markets/news/sensex-zooms-1600-pts-intraday-india-m-cap-tops-500-trn-key-reasons-126110500454_1.html"
+   },
+   "date": "2026-11-05",
+   "slot": "1325",
+   "when": "13:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "ltcg-hopes",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Budget LTCG relief hopes add to sentiment",
+   "line": "An analyst cited hopes of a cut or removal of long-term capital gains tax",
+   "more": [
+    "Speculation ahead of the next Union Budget",
+    "No official signal from the government"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex zooms 1,600 pts intraday; India m-cap tops ₹500 trn — key reasons",
+    "url": "https://www.business-standard.com/markets/news/sensex-zooms-1600-pts-intraday-india-m-cap-tops-500-trn-key-reasons-126110500454_1.html"
+   },
+   "date": "2026-11-05",
+   "slot": "1325",
+   "when": "13:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1325"
+   }
+  },
+  {
+   "key": "smid-froth",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Observers flag froth in mid and small caps",
+   "line": "A market observer warned of extreme enthusiasm in the broader market",
+   "more": [
+    "Broader indices have outpaced the benchmarks this week",
+    "Warning came in a rally explainer published today"
+   ],
+   "src": {
+    "title": "Business Standard: Sensex zooms 1,600 pts intraday; India m-cap tops ₹500 trn — key reasons",
+    "url": "https://www.business-standard.com/markets/news/sensex-zooms-1600-pts-intraday-india-m-cap-tops-500-trn-key-reasons-126110500454_1.html"
+   },
+   "date": "2026-11-05",
+   "slot": "1325",
+   "when": "13:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1325"
+   }
+  },
+  {
    "key": "bse-q2",
    "tag": "Results",
    "impact": "pos",
@@ -116,7 +188,7 @@
    "slot": "1255",
    "when": "12:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1255"
@@ -140,7 +212,7 @@
    "slot": "1255",
    "when": "12:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1255"
@@ -164,7 +236,7 @@
    "slot": "1255",
    "when": "12:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1255"
@@ -337,30 +409,6 @@
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1055"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "WTI down more than 8% near $88",
-   "line": "Oil's slide after the US midterm result is the day's main tailwind",
-   "more": [
-    "Bets on a faster end to the West Asia conflict",
-    "India imports most of its crude needs"
-   ],
-   "src": {
-    "title": "India TV: 5 November 2026 stock market updates — Sensex surges 1,600 points, Nifty above 24,350",
-    "url": "https://www.indiatvnews.com/business/news/5-november-2026-stock-market-updates-sensex-surges-1-600-points-nifty-above-24-350-post-us-midterm-election-outcome-global-market-2026-11-05-1058714"
-   },
-   "date": "2026-11-05",
-   "slot": "1125",
-   "when": "11:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "pre"
    }
   },
   {
