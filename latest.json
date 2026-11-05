@@ -1,40 +1,52 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-05T12:26:50+05:30",
+ "generated_at": "2026-11-05T12:56:11+05:30",
  "date": "2026-11-05",
- "slot": "1225",
- "slot_label": "12:25",
+ "slot": "1255",
+ "slot_label": "12:55",
  "stage": "Mid-market mood",
- "asof": "2026-11-05T12:25:00+05:30",
+ "asof": "2026-11-05T12:55:00+05:30",
  "nifty": {
   "value": 24407.9,
   "pct": 1.87,
   "chg": 447.3,
-  "approx": false,
-  "asof_quote": "12:00 IST, Business Standard live blog"
+  "approx": true,
+  "asof_quote": "12:00 IST, Business Standard; Sensex at day's high by 12:41"
  },
  "mood": {
-  "label": "Rally firms",
-  "score": 0.65,
-  "summary": "The rally has firmed into midday, with the benchmarks near their best levels of the session and banks adding to gains, while only a handful of post-results names lag.",
+  "label": "At day's high",
+  "score": 0.7,
+  "summary": "The benchmarks pushed to the session high in early afternoon, with capital-market stocks joining the oil-led rally and only a few post-results names lagging.",
   "detail": {
-   "leaders": "IndiGo, BPCL and Asian Paints on cheaper crude; Lenskart on results",
+   "leaders": "BSE and capital-market stocks; IndiGo and BPCL on cheaper crude",
    "laggards": "Apollo Hospitals and Nykaa after results; Oil India as crude slides",
-   "tone": "Live read, slightly firmer than 11:55: the benchmarks have edged up to near the session's best, helped by banks, with no sign of profit-taking.",
+   "tone": "Live read, firmer than 12:25: the Sensex touched its high of the day around 12:40, and buying is broadening into financials and capital-market names.",
    "watch": [
-    "Profit-taking in the last two hours",
+    "Profit-taking in the final 2.5 hours",
     "Crude's next move",
     "FII flows into the close"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,300, Nifty tops 24,300; auto, financial services shares shine",
+    "title": "Business Standard: Stock Market LIVE — Sensex at day's high 1,600, Nifty tops 24,400; Adani Ports shares hits 52-wk high",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Oil consumers lead, and Lenskart holds its post-results gain",
-     "why": "Crude at a two-month low cuts costs for airlines, paint makers and fuel retailers, while strong results keep buyers in Lenskart.",
+     "summary": "BSE leads a capital-markets rally while oil consumers stay strong",
+     "why": "BSE's strong earnings are lifting capital-market stocks, and cheaper crude helps oil users.",
      "names": [
+      {
+       "name": "BSE",
+       "dir": "up",
+       "move": "+6.48%",
+       "line": "Q2 profit jumped 45% to about ₹808 cr; top Nifty gainer at noon"
+      },
+      {
+       "name": "Nifty Capital Markets",
+       "dir": "up",
+       "move": "about +4%",
+       "line": "MOFSL, Groww and 360 ONE rose with BSE, up to 7%"
+      },
       {
        "name": "IndiGo",
        "dir": "up",
@@ -45,24 +57,12 @@
        "name": "BPCL",
        "dir": "up",
        "move": "+4.55%",
-       "line": "Fuel retailer's margins widen as crude falls; IOC also up over 3%"
-      },
-      {
-       "name": "Asian Paints",
-       "dir": "up",
-       "move": "+4.26%",
-       "line": "Crude-linked raw materials get cheaper"
-      },
-      {
-       "name": "Lenskart",
-       "dir": "up",
-       "move": "about +6%",
-       "line": "Q2 profit more than doubled to ₹232 cr"
+       "line": "Fuel retailer's margins widen as crude falls"
       }
      ],
      "src": {
-      "title": "NewsDrum (PTI): Nifty reclaims 24,000, Sensex surges 1,583 pts; IndiGo, Shriram Finance lead gains",
-      "url": "https://www.newsdrum.in/business/nifty-reclaims-24000-sensex-surges-1583-pts-indigo-shriram-finance-lead-gains-12784944"
+      "title": "HDFC Sky: Top gainers & losers today, 5 November 2026 at 12:00 PM IST",
+      "url": "https://hdfcsky.com/news/top-gainers-losers-today-5-november-2026-at-12-pm"
      }
     },
     "down": {
@@ -98,6 +98,79 @@
  },
  "insights": [
   {
+   "key": "bse-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "BSE Q2 profit jumps 45% to ₹808 cr",
+   "line": "Revenue up 34% to ₹1,433 cr; shares rose as much as 6.5% today",
+   "more": [
+    "Profit fell 7.4% from the June quarter",
+    "Sequential dip tied to SEBI's new CAS system",
+    "Analysts flag regulatory risk"
+   ],
+   "src": {
+    "title": "Upstox: BSE Q2 results — net profit jumps 45% YoY to ₹809 crore, EBITDA margin expands",
+    "url": "https://upstox.com/news/market-news/earnings/bse-ltd-q2-results-net-profit-jumps-45-yo-y-to-809-crore-ebitda-margin-expands/article-202995/"
+   },
+   "date": "2026-11-05",
+   "slot": "1255",
+   "when": "12:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1255"
+   }
+  },
+  {
+   "key": "capmkt-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Capital-market stocks rally up to 7%",
+   "line": "Nifty Capital Markets index up about 4% led by BSE, MOFSL, Groww and 360 ONE",
+   "more": [
+    "Follows BSE's strong quarterly numbers",
+    "Part of a broad financials rally today"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex at day's high 1,600, Nifty tops 24,400; Adani Ports shares hits 52-wk high",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
+   },
+   "date": "2026-11-05",
+   "slot": "1255",
+   "when": "12:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1255"
+   }
+  },
+  {
+   "key": "adani-ports",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Adani Ports hits a 52-week high",
+   "line": "Shares touched a 52-week high as the rally broadened in early afternoon",
+   "more": [
+    "Sensex hit its day's high around the same time",
+    "Adani Ports was among Wednesday's leading gainers too"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex at day's high 1,600, Nifty tops 24,400; Adani Ports shares hits 52-wk high",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
+   },
+   "date": "2026-11-05",
+   "slot": "1255",
+   "when": "12:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1255"
+   }
+  },
+  {
    "key": "apollo-q2",
    "tag": "Results",
    "impact": "neg",
@@ -116,7 +189,7 @@
    "slot": "1225",
    "when": "12:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "0845"
@@ -140,7 +213,7 @@
    "slot": "1225",
    "when": "12:25",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1225"
@@ -164,7 +237,7 @@
    "slot": "1225",
    "when": "12:25",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1225"
