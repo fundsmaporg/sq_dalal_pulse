@@ -1,33 +1,33 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-05T11:57:01+05:30",
+ "generated_at": "2026-11-05T12:26:50+05:30",
  "date": "2026-11-05",
- "slot": "1155",
- "slot_label": "11:55",
+ "slot": "1225",
+ "slot_label": "12:25",
  "stage": "Mid-market mood",
- "asof": "2026-11-05T11:55:00+05:30",
+ "asof": "2026-11-05T12:25:00+05:30",
  "nifty": {
-  "value": 24369.1,
-  "pct": 1.7,
-  "chg": 408.5,
-  "approx": true,
-  "asof_quote": "11:00 IST, Business Standard; no later print found"
+  "value": 24407.9,
+  "pct": 1.87,
+  "chg": 447.3,
+  "approx": false,
+  "asof_quote": "12:00 IST, Business Standard live blog"
  },
  "mood": {
-  "label": "Rally steady",
-  "score": 0.6,
-  "summary": "The market is holding a gain of about 1.7% into midday after a broad open in which advancing stocks outnumbered decliners by more than two to one.",
+  "label": "Rally firms",
+  "score": 0.65,
+  "summary": "The rally has firmed into midday, with the benchmarks near their best levels of the session and banks adding to gains, while only a handful of post-results names lag.",
   "detail": {
    "leaders": "IndiGo, BPCL and Asian Paints on cheaper crude; Lenskart on results",
-   "laggards": "Nykaa despite strong Q2; Oil India as crude slides",
-   "tone": "Live read, unchanged from 11:25: the benchmarks are consolidating their big morning gain rather than extending or giving it back.",
+   "laggards": "Apollo Hospitals and Nykaa after results; Oil India as crude slides",
+   "tone": "Live read, slightly firmer than 11:55: the benchmarks have edged up to near the session's best, helped by banks, with no sign of profit-taking.",
    "watch": [
-    "Profit-taking after six straight gains",
+    "Profit-taking in the last two hours",
     "Crude's next move",
     "FII flows into the close"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,400, Nifty tops 24,300; Nifty Auto gains over 3%",
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,300, Nifty tops 24,300; auto, financial services shares shine",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
    },
    "movers": {
@@ -66,9 +66,15 @@
      }
     },
     "down": {
-     "summary": "Nykaa slips despite tripled profit; Oil India falls with crude",
-     "why": "Brokerages were split on Nykaa after the results, and producers lose out when crude slides.",
+     "summary": "Apollo Hospitals and Nykaa slip after results; Oil India falls with crude",
+     "why": "Some post-results names are being sold despite strong profit growth, and producers lose out when crude slides.",
      "names": [
+      {
+       "name": "Apollo Hospitals",
+       "dir": "down",
+       "move": "about −3.5%",
+       "line": "Top Nifty loser despite 32% Q2 profit growth; CEO exit also announced"
+      },
       {
        "name": "Nykaa",
        "dir": "down",
@@ -83,14 +89,87 @@
       }
      ],
      "src": {
-      "title": "Zee Business: Nykaa's 3-fold profit growth fails to impress D-Street",
-      "url": "https://www.zeebiz.com/market-news/news-nykaas-3-fold-profit-growth-fails-to-impress-d-street-check-what-jefferies-jp-morgan-and-others-say-405119"
+      "title": "HDFC Sky: Top gainers & losers today, 5 November 2026 at 12:00 PM IST",
+      "url": "https://hdfcsky.com/news/top-gainers-losers-today-5-november-2026-at-12-pm"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "apollo-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Apollo slips despite 32% profit rise",
+   "line": "Revenue grew 23% to ₹7,615 cr, but shares fell about 3.5% by noon",
+   "more": [
+    "Plans to add 5,800 beds over five years",
+    "CEO Madhu Sasidhar exits on Nov 14",
+    "Citi keeps Buy with ₹10,770 target"
+   ],
+   "src": {
+    "title": "Upstox: Apollo Hospitals Q2 FY27 results — net profit rises 32% YoY; revenue grows to ₹7,615 crore",
+    "url": "https://upstox.com/news/market-news/earnings/apollo-hospitals-q2-fy-27-results-net-profit-rises-32-yo-y-revenue-grows-to-7-615-crore/article-202996/"
+   },
+   "date": "2026-11-05",
+   "slot": "1225",
+   "when": "12:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Bank Nifty up about 2.5% at midday",
+   "line": "Financials are adding to the rally alongside autos",
+   "more": [
+    "Financial services among top sectors since the open",
+    "Shriram Finance among the leading gainers"
+   ],
+   "src": {
+    "title": "Trade Brains: Sensex & Nifty 50 live updates — 5 November",
+    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-5-november-gift-nifty-signals-gap-up-opening-gold-crude-oil-and-stocks-in-focus-12784801"
+   },
+   "date": "2026-11-05",
+   "slot": "1225",
+   "when": "12:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1225"
+   }
+  },
+  {
+   "key": "asia-rally",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Australia set for best day since mid-June",
+   "line": "Australian shares rallied after the Democratic sweep in the US",
+   "more": [
+    "Rally mirrors Wall Street's overnight surge",
+    "Kospi was the exception early, on chip selling"
+   ],
+   "src": {
+    "title": "Business Recorder: Australian shares set for best day since mid-June as Democrats' win sparks rally",
+    "url": "https://www.brecorder.com/news/40447535/australian-shares-set-for-best-day-since-mid-june-as-democrats-win-sparks-rally"
+   },
+   "date": "2026-11-05",
+   "slot": "1225",
+   "when": "12:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1225"
+   }
+  },
   {
    "key": "breadth",
    "tag": "Stocks",
@@ -109,7 +188,7 @@
    "slot": "1155",
    "when": "11:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1155"
@@ -133,7 +212,7 @@
    "slot": "1155",
    "when": "11:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1155"
@@ -157,7 +236,7 @@
    "slot": "1155",
    "when": "11:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1555"
@@ -329,31 +408,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1625"
-   }
-  },
-  {
-   "key": "apollo-q2",
-   "tag": "Regulation",
-   "impact": "watch",
-   "title": "Hospital margin-cap issue dates from October",
-   "line": "The Supreme Court's 16% drug-margin question was first raised in October",
-   "more": [
-    "Apollo fell 6.6% when the court first raised it",
-    "Analysts called it sentiment-driven; nothing finalised",
-    "Apollo's Q2 profit still rose 32% to ₹630 cr"
-   ],
-   "src": {
-    "title": "Moneycontrol via TradingView: Hospital stocks extend losses as drug-pricing regulation concerns linger",
-    "url": "https://www.tradingview.com/news/moneycontrol:2e6de2801094b:0-hospital-stocks-extend-losses-as-drug-pricing-regulation-concerns-linger-apollo-max-among-top-nifty-losers/"
-   },
-   "date": "2026-11-05",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "0845"
    }
   },
   {
