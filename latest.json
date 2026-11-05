@@ -1,97 +1,111 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-05T16:26:04+05:30",
+ "generated_at": "2026-11-05T18:00:37+05:30",
  "date": "2026-11-05",
- "slot": "1625",
- "slot_label": "16:25",
- "stage": "Post-market mood",
- "asof": "2026-11-05T16:25:00+05:30",
+ "slot": "1800",
+ "slot_label": "18:00",
+ "stage": "Evening wrap",
+ "asof": "2026-11-05T18:00:00+05:30",
  "nifty": {
   "value": 24536.6,
   "pct": 2.4,
   "chg": 576,
   "approx": false,
-  "asof_quote": "Nov 5 close, Upstox, Business Standard and ChiniMandi"
+  "asof_quote": "Nov 5 close, Upstox and Business Standard"
  },
  "mood": {
-  "label": "Biggest rally",
-  "score": 0.8,
-  "summary": "Indian shares posted their biggest one-day rally in about seven months, with 39 of the 50 Nifty stocks higher and all but two sectors in the green.",
+  "label": "Steady into Friday",
+  "score": 0.35,
+  "summary": "Heading into Friday after the biggest rally in seven months, the set-up is steady rather than euphoric: US futures are mixed and the post-election bounce is cooling.",
   "detail": {
-   "leaders": "Bajaj Finance and Shriram Finance; IndiGo and Maruti on cheaper crude",
-   "laggards": "ONGC and the energy index on lower crude; Apollo Hospitals after results",
-   "tone": "Close read: the rally held into the final bell, turning a strong morning into the best session in about seven months and a sixth straight gain.",
+   "leaders": "Financials and autos may hold gains if oil stays low",
+   "laggards": "Cummins India after its results; IT if Nasdaq weakness carries over",
+   "tone": "Forward-looking evening read, calmer than the close: after a six-day run, mixed US futures and a cooling relief rally point to consolidation rather than another big leg up.",
    "watch": [
     "Today's FII provisional data",
-    "Wall Street and crude overnight",
-    "Profit-taking after a six-day run"
+    "Wall Street's open and US jobs data",
+    "Crude after its two-month low"
    ],
    "src": {
-    "title": "Upstox: Market wrap, Nov 5 — indices post biggest rally in 7 months; Nifty 50 ends at 24,536, m-cap surges ₹8 lakh crore",
-    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-5-indices-post-biggest-rally-in-7-months-nifty-50-ends-at-24-536-m-cap-surges-8-lakh-crore-to-497-l-crore/article-203065/"
-   },
-   "movers": {
-    "up": {
-     "summary": "NBFCs led the rally, with oil consumers close behind",
-     "why": "Four sessions of foreign buying lifted financials, and crude's slump to a two-month low helped oil consumers.",
-     "names": [
-      {
-       "name": "Bajaj Finance",
-       "dir": "up",
-       "move": "+7.65%",
-       "line": "Top Nifty gainer at the close as NBFCs rallied on foreign buying"
-      },
-      {
-       "name": "Shriram Finance",
-       "dir": "up",
-       "line": "Among the top Nifty gainers in the NBFC rally"
-      },
-      {
-       "name": "IndiGo",
-       "dir": "up",
-       "line": "Jet fuel is its biggest cost, so the oil slump lifts margins"
-      },
-      {
-       "name": "Maruti Suzuki",
-       "dir": "up",
-       "line": "Cheaper fuel and inputs seen improving carmakers' margins"
-      }
-     ],
-     "src": {
-      "title": "HDFC Sky: Top gainers & losers today, 5 November 2026 at 3:30 PM IST",
-      "url": "https://hdfcsky.com/news/top-gainers-losers-today-5-november-2026-at-3-30-pm"
-     }
-    },
-    "down": {
-     "summary": "Oil producers and Apollo Hospitals lagged as crude slid",
-     "why": "Upstream oil companies earn less when crude falls, and Apollo was sold after its results.",
-     "names": [
-      {
-       "name": "ONGC",
-       "dir": "down",
-       "line": "Upstream producer hit directly by the slide in crude prices"
-      },
-      {
-       "name": "Nifty Energy",
-       "dir": "down",
-       "move": "−0.5%",
-       "line": "One of only two sectors in the red, weighed by oil producers"
-      },
-      {
-       "name": "Apollo Hospitals",
-       "dir": "down",
-       "line": "Top Nifty loser despite 32% Q2 profit growth; CEO exit also announced"
-      }
-     ],
-     "src": {
-      "title": "ChiniMandi: Sensex climbs 2,000 points, Nifty above 24,500",
-      "url": "https://www.chinimandi.com/sensex-climbs-2000-points-nifty-above-24500/"
-     }
-    }
+    "title": "Yahoo Finance: Dow, S&P 500, Nasdaq trade mixed as post-election relief rally cools, oil falls",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-falls-090519607.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "cummins-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Cummins India crashes over 10% on Q2",
+   "line": "Consolidated profit fell 18.5% year on year; revenue grew just 4.1%",
+   "more": [
+    "Results came after hours on Nov 4",
+    "Stock fell sharply in today's otherwise strong market"
+   ],
+   "src": {
+    "title": "Zee Business: Cummins India share price crashes over 10% after Q2 results",
+    "url": "https://www.zeebiz.com/market-news/news-cummins-india-share-price-crashes-over-10-after-q2-results-check-pat-revenue-other-key-details-405127"
+   },
+   "date": "2026-11-05",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1355"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "US futures mixed as relief rally cools",
+   "line": "Dow futures modestly higher, Nasdaq-100 futures down about 0.7%",
+   "more": [
+    "Follows the Dow's 3% jump on Wednesday",
+    "Tech under pressure in premarket trade",
+    "US jobs data in focus"
+   ],
+   "src": {
+    "title": "Benzinga: Dow Jones, S&P 500 futures trade mixed after post-midterm rally",
+    "url": "https://www.benzinga.com/markets/equities/26/11/62906643/stock-market-today-dow-jones-sp-500-futures-trade-mixed-after-post-midterm-rally-tm-arm-qcom-in-focus"
+   },
+   "date": "2026-11-05",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "gold",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Gold back above $4,000 an ounce",
+   "line": "Gold reclaimed $4,000 ahead of US ADP jobs data",
+   "more": [
+    "Oil continued to fall",
+    "Futures rebounded in early US trading"
+   ],
+   "src": {
+    "title": "TradingKey: US pre-market — index futures rebound; gold reclaims $4,000 ahead of ADP data",
+    "url": "https://tradingkey.com/analysis/stocks/us-stocks/262274202-us-premarket-futures-rebound-tesla-spacex-drop-gold-tradingkey"
+   },
+   "date": "2026-11-05",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1055"
+   }
+  },
   {
    "key": "mcap-500",
    "tag": "Stocks",
@@ -110,7 +124,7 @@
    "slot": "1625",
    "when": "16:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1025"
@@ -134,7 +148,7 @@
    "slot": "1625",
    "when": "16:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1155"
@@ -158,7 +172,7 @@
    "slot": "1625",
    "when": "16:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "pre"
@@ -719,30 +733,6 @@
    }
   },
   {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Wall St rally sets the tone",
-   "line": "Dow +3.03%, S&P 500 +1.58% overnight after the Democratic sweep",
-   "more": [
-    "Investors priced in gridlock as a policy check",
-    "Nasdaq rose 1.44% despite tech-regulation fears"
-   ],
-   "src": {
-    "title": "KRMG (AP): How major US stock indexes fared Wednesday 11/4/2026",
-    "url": "https://krmg.com/2026/11/04/how-major-us-stock-indexes-fared-wednesday-11-4-2026/"
-   },
-   "date": "2026-11-05",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "pre"
-   }
-  },
-  {
    "key": "india-bonds",
    "tag": "Macro",
    "impact": "pos",
@@ -1059,30 +1049,6 @@
    }
   },
   {
-   "key": "cummins-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Cummins India board meets on Q2 today",
-   "line": "Board to approve September-quarter results on Nov 4",
-   "more": [
-    "Q1 FY27 consolidated profit was ₹609 cr",
-    "An F&O stock in today's results list"
-   ],
-   "src": {
-    "title": "Stockport: Cummins India Q2 results date 2026 (FY27) — 4 November",
-    "url": "https://stockport.app/results-calendar/cummins-india/"
-   },
-   "date": "2026-11-04",
-   "slot": "1355",
-   "when": "Wed · 13:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1355"
-   }
-  },
-  {
    "key": "dabur-q2",
    "tag": "Results",
    "impact": "watch",
@@ -1178,30 +1144,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "gold",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Gold edges up 0.5% as dollar softens",
-   "line": "Gold traded near $3,960 an ounce as the dollar eased on midterm results",
-   "more": [
-    "Gold gained 0.50% in early trade",
-    "A weaker dollar tends to support bullion"
-   ],
-   "src": {
-    "title": "Investing.com: Indian stocks open higher as oil prices ease and gold gains",
-    "url": "https://in.investing.com/news/stock-market-news/indian-stocks-open-higher-as-oil-prices-ease-and-gold-gains-5677030"
-   },
-   "date": "2026-11-04",
-   "slot": "1055",
-   "when": "Wed · 10:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1055"
    }
   },
   {
