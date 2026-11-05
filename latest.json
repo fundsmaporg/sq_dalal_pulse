@@ -1,108 +1,168 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-05T15:26:59+05:30",
+ "generated_at": "2026-11-05T15:56:27+05:30",
  "date": "2026-11-05",
- "slot": "1525",
- "slot_label": "15:25",
- "stage": "Closing mood",
- "asof": "2026-11-05T15:25:00+05:30",
+ "slot": "1555",
+ "slot_label": "15:55",
+ "stage": "Post-market mood",
+ "asof": "2026-11-05T15:55:00+05:30",
  "nifty": {
-  "value": 24566.9,
-  "pct": 2.53,
-  "chg": 606.3,
+  "value": 24536.6,
+  "pct": 2.4,
+  "chg": 576,
   "approx": false,
-  "asof_quote": "around 15:00 IST, Upstox afternoon report"
+  "asof_quote": "Nov 5 close, Business Standard and ChiniMandi"
  },
  "mood": {
-  "label": "Strong finish",
+  "label": "Big close",
   "score": 0.8,
-  "summary": "The benchmarks are heading into the close near their best levels of the day, up about 2.5%, as buying spans banks, autos, financials and even IT.",
+  "summary": "Indian shares closed with their biggest gain of the six-day run, up about 2.4%, with almost every sector higher; only energy and media slipped.",
   "detail": {
-   "leaders": "Autos led by Ashok Leyland and Tata Motors CV; Bajaj Finance; BSE on results",
-   "laggards": "Apollo Hospitals, Nykaa and BEML after results; Oil India as crude slides",
-   "tone": "Live read, firmer than 14:55: the benchmarks made fresh highs around 3 pm, setting up the biggest gain of this six-day run.",
+   "leaders": "Bajaj Finance and Shriram Finance; IndiGo and Maruti on cheaper crude",
+   "laggards": "ONGC and the energy index on lower crude; Apollo Hospitals after results",
+   "tone": "Live read at the bell, firmer than 15:25: the benchmarks closed near their highs with broad gains, the strongest session of this six-day streak.",
    "watch": [
-    "The closing print and any late profit-taking",
-    "FII provisional data after the bell",
-    "Wall Street and crude overnight"
+    "FII provisional data after the close",
+    "Wall Street and crude overnight",
+    "Rising India VIX despite the rally"
    ],
    "src": {
-    "title": "Upstox: NIFTY crosses 24,550, SENSEX rallies over 2,100 pts; BSE, Lenskart, LG Electronics among buzzing stocks",
-    "url": "https://upstox.com/news/market-news/stocks/nifty-crosses-24-500-sensex-rallies-over-2-000-pts-bse-lenskart-lg-electronics-among-buzzing-stocks/article-203053/"
+    "title": "Business Standard: Stock Market Close — Sensex surges 2,009 pts, Nifty ends at 24,537; investors add ₹7 trn to wealth",
+    "url": "https://business-standard.com/amp/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Vehicle makers and NBFCs lead, with BSE strong on results",
-     "why": "Cheaper crude is boosting vehicle makers, and four sessions of foreign buying are lifting financials.",
+     "summary": "NBFCs, autos and IndiGo led a near-universal rally into the close",
+     "why": "Four sessions of foreign buying lifted financials, and crude's slump to a two-month low helped oil consumers.",
      "names": [
-      {
-       "name": "Ashok Leyland",
-       "dir": "up",
-       "move": "+9% to +10.6%",
-       "line": "Truck maker gains most from lower diesel and input costs"
-      },
-      {
-       "name": "Tata Motors CV",
-       "dir": "up",
-       "move": "about +7.2%",
-       "line": "Commercial-vehicle arm rallies on the fuel-cost relief"
-      },
       {
        "name": "Bajaj Finance",
        "dir": "up",
-       "move": "about +5%",
-       "line": "Among the top Sensex gainers as NBFCs rally on foreign buying"
+       "line": "Top Nifty gainer at the close as NBFCs rallied on foreign buying"
       },
       {
-       "name": "BSE",
+       "name": "Shriram Finance",
        "dir": "up",
-       "move": "+6.48%",
-       "line": "Q2 profit jumped 45% to about ₹808 cr"
+       "line": "Among the top Nifty gainers in the NBFC rally"
+      },
+      {
+       "name": "IndiGo",
+       "dir": "up",
+       "line": "Jet fuel is its biggest cost, so the oil slump lifts margins"
+      },
+      {
+       "name": "Maruti Suzuki",
+       "dir": "up",
+       "line": "Cheaper fuel and inputs seen improving carmakers' margins"
       }
      ],
      "src": {
-      "title": "Upstox: NIFTY crosses 24,550, SENSEX rallies over 2,100 pts; BSE, Lenskart, LG Electronics among buzzing stocks",
-      "url": "https://upstox.com/news/market-news/stocks/nifty-crosses-24-500-sensex-rallies-over-2-000-pts-bse-lenskart-lg-electronics-among-buzzing-stocks/article-203053/"
+      "title": "ChiniMandi: Sensex climbs 2,000 points, Nifty above 24,500",
+      "url": "https://www.chinimandi.com/sensex-climbs-2000-points-nifty-above-24500/"
      }
     },
     "down": {
-     "summary": "Post-results selling in Apollo, Nykaa and BEML; Oil India falls with crude",
-     "why": "Some companies are being sold after their results despite the broad rally, and producers lose out when crude slides.",
+     "summary": "Oil producers and Apollo Hospitals lagged as crude slid",
+     "why": "Upstream oil companies earn less when crude falls, and Apollo was sold after its results.",
      "names": [
+      {
+       "name": "ONGC",
+       "dir": "down",
+       "line": "Upstream producer hit directly by the slide in crude prices"
+      },
+      {
+       "name": "Nifty Energy",
+       "dir": "down",
+       "move": "−0.5%",
+       "line": "One of only two sectors in the red, weighed by oil producers"
+      },
       {
        "name": "Apollo Hospitals",
        "dir": "down",
-       "move": "about −3.5%",
        "line": "Top Nifty loser despite 32% Q2 profit growth; CEO exit also announced"
-      },
-      {
-       "name": "BEML",
-       "dir": "down",
-       "move": "about −4%",
-       "line": "Fell after its September-quarter results"
-      },
-      {
-       "name": "Nykaa",
-       "dir": "down",
-       "move": "−3.11%",
-       "line": "Fell to ₹344.45 as brokerages split; Citi kept a Sell call"
-      },
-      {
-       "name": "Oil India",
-       "dir": "down",
-       "move": "over −2%",
-       "line": "Upstream producer hit directly by the slump in crude prices"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex surges 2,000 pts, Nifty above 24,500; BEML shares drop 4% post Q2 result",
-      "url": "https://business-standard.com/amp/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
+      "title": "ChiniMandi: Sensex climbs 2,000 points, Nifty above 24,500",
+      "url": "https://www.chinimandi.com/sensex-climbs-2000-points-nifty-above-24500/"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "mcap-500",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Investors add about ₹7 trillion in a day",
+   "line": "Listed companies' market value jumped in today's broad rally",
+   "more": [
+    "Auto, PSU Bank, Bank and Private Bank indices up about 3% each",
+    "IT and consumer durables rose more than 2%"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market Close — Sensex surges 2,009 pts, Nifty ends at 24,537; investors add ₹7 trn to wealth",
+    "url": "https://business-standard.com/amp/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
+   },
+   "date": "2026-11-05",
+   "slot": "1555",
+   "when": "15:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1025"
+   }
+  },
+  {
+   "key": "india-vix",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "India VIX rises to 15.62 despite rally",
+   "line": "Volatility expectations edged up even as the market surged",
+   "more": [
+    "VIX had fallen to 15.18 on Wednesday",
+    "Midcap index +1.8%; smallcaps lagged at +0.6%"
+   ],
+   "src": {
+    "title": "ChiniMandi: Sensex climbs 2,000 points, Nifty above 24,500",
+    "url": "https://www.chinimandi.com/sensex-climbs-2000-points-nifty-above-24500/"
+   },
+   "date": "2026-11-05",
+   "slot": "1555",
+   "when": "15:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee closes at 94.47 per dollar",
+   "line": "The rupee firmed with oil's slide and continued foreign inflows",
+   "more": [
+    "Opened near 94.35 this morning",
+    "Wednesday's close was about 94.58–94.64"
+   ],
+   "src": {
+    "title": "ChiniMandi: Sensex climbs 2,000 points, Nifty above 24,500",
+    "url": "https://www.chinimandi.com/sensex-climbs-2000-points-nifty-above-24500/"
+   },
+   "date": "2026-11-05",
+   "slot": "1555",
+   "when": "15:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1100"
+   }
+  },
   {
    "key": "beml-q2",
    "tag": "Results",
@@ -121,7 +181,7 @@
    "slot": "1525",
    "when": "15:25",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1525"
@@ -145,7 +205,7 @@
    "slot": "1525",
    "when": "15:25",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1525"
@@ -169,7 +229,7 @@
    "slot": "1525",
    "when": "15:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1625"
@@ -293,30 +353,6 @@
    "first_seen": {
     "date": "2026-11-05",
     "slot": "0955"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee at a two-week high near 94.35",
-   "line": "Rupee gained 29 paise at the open as crude tumbled",
-   "more": [
-    "Dollar demand from banks capped the gains",
-    "Brent near $94, down from about $120 in late October"
-   ],
-   "src": {
-    "title": "Kotak Neo: Rupee hits two-week high as crude oil falls below $95",
-    "url": "https://www.kotakneo.com/news/global-markets/rupee-hits-two-week-high-as-crude-oil-falls-below-95/"
-   },
-   "date": "2026-11-05",
-   "slot": "1355",
-   "when": "13:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1100"
    }
   },
   {
@@ -610,30 +646,6 @@
    }
   },
   {
-   "key": "mcap-500",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "BSE market cap hits ₹500.82 trillion",
-   "line": "Up from ₹494.42 trillion at Wednesday's close as the rally lifts listed stocks",
-   "more": [
-    "Nifty back above 24,000 for the first time since Sept 4",
-    "Rally tied to oil's slump and the US midterm result"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,500 pts; Nifty reclaims 24,000 mark for first time since Sept 4",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
-   },
-   "date": "2026-11-05",
-   "slot": "1055",
-   "when": "10:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "1025"
-   }
-  },
-  {
    "key": "lenskart-q2",
    "tag": "Results",
    "impact": "pos",
@@ -727,30 +739,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1325"
-   }
-  },
-  {
-   "key": "india-vix",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "India VIX eases 3.4% to 15.18",
-   "line": "Lower volatility expectations ahead of the session",
-   "more": [
-    "Follows five straight Nifty gains",
-    "Global risk appetite improved overnight"
-   ],
-   "src": {
-    "title": "DSIJ: Pre-market update — GIFT Nifty surges over 300 points, signals strong opening",
-    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-surges-over-300-points-signals-strong-opening-lower-crude-and-global-rally-lift-sentiment-60314"
-   },
-   "date": "2026-11-05",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1200"
    }
   },
   {
