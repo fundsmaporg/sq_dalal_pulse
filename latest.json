@@ -1,40 +1,46 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-05T13:26:14+05:30",
+ "generated_at": "2026-11-05T13:56:56+05:30",
  "date": "2026-11-05",
- "slot": "1325",
- "slot_label": "13:25",
+ "slot": "1355",
+ "slot_label": "13:55",
  "stage": "Mid-market mood",
- "asof": "2026-11-05T13:25:00+05:30",
+ "asof": "2026-11-05T13:55:00+05:30",
  "nifty": {
-  "value": 24431.3,
-  "pct": 1.96,
-  "chg": 470.7,
-  "approx": false,
-  "asof_quote": "13:00 IST, Business Standard live blog (Nifty +470.70)"
+  "value": 24500,
+  "pct": 2.25,
+  "chg": 539.4,
+  "approx": true,
+  "asof_quote": "~13:53 IST, Business Standard headline: Nifty reclaims 24,500"
  },
  "mood": {
-  "label": "Rally extends",
-  "score": 0.7,
-  "summary": "The rally has extended into the afternoon, with the benchmarks up close to 2% and autos now the standout sector as cheaper oil feeds through to cyclical stocks.",
+  "label": "Rally accelerates",
+  "score": 0.75,
+  "summary": "The rally has gathered pace in the afternoon, with the benchmarks up well over 2% and financials joining autos at the front as the advance broadens further.",
   "detail": {
-   "leaders": "Autos led by Ashok Leyland and Maruti; BSE on results",
+   "leaders": "Bajaj Finance and NBFCs; autos led by Ashok Leyland and Maruti; BSE on results",
    "laggards": "Apollo Hospitals and Nykaa after results; Oil India as crude slides",
-   "tone": "Live read, firmer again than 12:55: the benchmarks are near the session high at 1 pm, with autos taking over leadership from oil-marketing stocks.",
+   "tone": "Live read, stronger than 13:25: the Sensex stretched its gain to a fresh session high by about 1:53 pm.",
    "watch": [
-    "Profit-taking in the final two hours",
-    "Frothy action in mid and small caps",
-    "Crude's next move"
+    "Profit-taking in the last 90 minutes",
+    "Froth in mid and small caps",
+    "Crude and the rupee into the close"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex at day's high, up 1,800 pts, Nifty tops 24,400; Nifty Auto rises 4%",
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 2,100 pts, Nifty reclaims 24,500; Bajaj Fin, Tata Motors top gainers",
     "url": "https://business-standard.com/amp/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Auto makers surge on cheaper fuel, and BSE rallies on strong results",
-     "why": "Brent's slide to a two-month low cuts fuel and input costs for vehicle makers, and BSE's 45% profit jump lifted capital-market stocks.",
+     "summary": "NBFCs and autos lead as the rally broadens into the afternoon",
+     "why": "Four sessions of foreign buying are lifting financials, and cheaper crude is boosting vehicle makers.",
      "names": [
+      {
+       "name": "Bajaj Finance",
+       "dir": "up",
+       "move": "about +5%",
+       "line": "Top Sensex gainer as NBFCs rise up to 7% on continued foreign buying"
+      },
       {
        "name": "Ashok Leyland",
        "dir": "up",
@@ -48,12 +54,6 @@
        "line": "Cheaper fuel and inputs seen improving carmakers' margins"
       },
       {
-       "name": "Nifty Auto",
-       "dir": "up",
-       "move": "about +3.3% to +4%",
-       "line": "Top sector as crude's slump lifts the whole vehicle pack"
-      },
-      {
        "name": "BSE",
        "dir": "up",
        "move": "+6.48%",
@@ -61,8 +61,8 @@
       }
      ],
      "src": {
-      "title": "Business Standard: TaMo CV, Ashok Leyland, Maruti rally up to 8% as crude oil price tumbles",
-      "url": "https://www.business-standard.com/markets/news/tamo-cv-ashok-leyland-maruti-rally-up-to-8-as-crude-oil-price-tumbles-126110500463_1.html"
+      "title": "Business Today: Bajaj Finance, Shriram Finance, Tata Capital, L&T Finance — NBFCs rise up to 7% amid market rally",
+      "url": "https://www.businesstoday.in/markets/stocks/story/bajaj-finance-shriram-finance-tata-capital-lt-finance-nbfc-shares-rise-up-to-7-amid-market-rally-key-details-565850-2026-11-05"
      }
     },
     "down": {
@@ -98,6 +98,79 @@
  },
  "insights": [
   {
+   "key": "nbfc-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "NBFCs rise up to 7% on foreign buying",
+   "line": "Bajaj Finance, Shriram Finance, Tata Capital and L&T Finance led the gains",
+   "more": [
+    "Bajaj Finance rose about 5% to ₹1,049.65",
+    "Shriram Finance gained about 6.8% early",
+    "Comes after four sessions of FII buying"
+   ],
+   "src": {
+    "title": "Business Today: Bajaj Finance, Shriram Finance, Tata Capital, L&T Finance — NBFCs rise up to 7% amid market rally",
+    "url": "https://www.businesstoday.in/markets/stocks/story/bajaj-finance-shriram-finance-tata-capital-lt-finance-nbfc-shares-rise-up-to-7-amid-market-rally-key-details-565850-2026-11-05"
+   },
+   "date": "2026-11-05",
+   "slot": "1355",
+   "when": "13:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1355"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee at a two-week high near 94.35",
+   "line": "Rupee gained 29 paise at the open as crude tumbled",
+   "more": [
+    "Dollar demand from banks capped the gains",
+    "Brent near $94, down from about $120 in late October"
+   ],
+   "src": {
+    "title": "Kotak Neo: Rupee hits two-week high as crude oil falls below $95",
+    "url": "https://www.kotakneo.com/news/global-markets/rupee-hits-two-week-high-as-crude-oil-falls-below-95/"
+   },
+   "date": "2026-11-05",
+   "slot": "1355",
+   "when": "13:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1100"
+   }
+  },
+  {
+   "key": "auto-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Tata Motors among top Sensex gainers",
+   "line": "Auto makers extend gains as cheaper crude improves the margin outlook",
+   "more": [
+    "Tata Motors PV rose about 4.5% earlier",
+    "Analysts expect lower energy costs to lift margins"
+   ],
+   "src": {
+    "title": "Business Standard: TaMo CV, Ashok Leyland, Maruti rally up to 8% as crude oil price tumbles",
+    "url": "https://www.business-standard.com/markets/news/tamo-cv-ashok-leyland-maruti-rally-up-to-8-as-crude-oil-price-tumbles-126110500463_1.html"
+   },
+   "date": "2026-11-05",
+   "slot": "1355",
+   "when": "13:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1055"
+   }
+  },
+  {
    "key": "crude",
    "tag": "Global",
    "impact": "pos",
@@ -115,7 +188,7 @@
    "slot": "1325",
    "when": "13:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-29",
     "slot": "pre"
@@ -139,7 +212,7 @@
    "slot": "1325",
    "when": "13:25",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1325"
@@ -163,7 +236,7 @@
    "slot": "1325",
    "when": "13:25",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1325"
@@ -385,30 +458,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1555"
-   }
-  },
-  {
-   "key": "auto-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Autos stay among the top sectors",
-   "line": "Nifty Auto was up nearly 3% by late morning",
-   "more": [
-    "Maruti and M&M were among early Sensex gainers",
-    "Financial services also among the top sectors"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,400, Nifty tops 24,300; Nifty Auto gains over 3%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
-   },
-   "date": "2026-11-05",
-   "slot": "1125",
-   "when": "11:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "1055"
    }
   },
   {
@@ -722,30 +771,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0925"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee rises 14 paise to 94.61",
-   "line": "Rupee strengthened in early trade after three straight gains, helped by inflows",
-   "more": [
-    "Tuesday's close was about 94.75 per dollar",
-    "Foreign fund inflows are supporting the currency"
-   ],
-   "src": {
-    "title": "Business Standard: Rupee rises 14 paise to 94.61 against US dollar during early trade",
-    "url": "https://www.business-standard.com/amp/finance/news/rupee-rises-14-paise-to-94-61-against-us-dollar-during-early-trade-126110400403_1.html"
-   },
-   "date": "2026-11-04",
-   "slot": "1525",
-   "when": "Wed · 15:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1100"
    }
   },
   {
