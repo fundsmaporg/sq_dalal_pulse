@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-04T21:00:15+05:30",
- "date": "2026-11-04",
- "slot": "2100",
- "slot_label": "21:00",
- "stage": "Evening wrap",
- "asof": "2026-11-04T21:00:00+05:30",
+ "generated_at": "2026-11-05T07:00:31+05:30",
+ "date": "2026-11-05",
+ "slot": "0700",
+ "slot_label": "7:00",
+ "stage": "Pre-market mood",
+ "asof": "2026-11-05T07:00:00+05:30",
  "nifty": {
   "value": 23960.6,
   "pct": 0.63,
@@ -16,23 +16,143 @@
  "mood": {
   "label": "Strong start likely",
   "score": 0.55,
-  "summary": "Into Thursday, the set-up has brightened: Wall Street is rallying hard as US political risk fades, foreign buying looks set to have continued, and strong results support consumer names.",
+  "summary": "Thursday's set-up is strongly positive: Wall Street posted its biggest post-midterm rally in decades, oil tumbled and foreign buying continued, though Asian chip stocks are under pressure.",
   "detail": {
-   "leaders": "Consumer-internet names after Nykaa and Lenskart results; broad market on global risk-on",
-   "laggards": "IT may stay volatile on US tech-regulation worries despite Wall Street's bounce",
-   "tone": "Forward-looking evening read, more upbeat than at 18:00: Wall Street has turned a feared midterm shock into a sharp relief rally, which should help Thursday's open.",
+   "leaders": "Oil-sensitive sectors on the crude slide; banks and consumer names on foreign inflows",
+   "laggards": "IT and chip-linked names if Korea's tech selling spreads",
+   "tone": "Forward-looking morning read, firmer than last night: the US rally held into the close and oil fell further, but Kospi's sharp chip-led drop is a reminder that tech remains fragile.",
    "watch": [
-    "Where Wall Street closes tonight",
-    "Confirmation of today's FII flows",
-    "Apollo Hospitals, Cummins and BSE results"
+    "GIFT Nifty at 08:45",
+    "Whether Kospi's chip selloff spreads to Indian IT",
+    "Brent's direction after the slide"
    ],
    "src": {
-    "title": "CNBC: Dow rallies 1,100 points as political risk eases after resounding Democratic victory in US midterms — live updates",
-    "url": "https://www.cnbc.com/amp/2026/11/03/stock-market-today-live-updates.html"
+    "title": "Motley Fool: Stock Market Today, Nov. 4 — Dow surges 3% in biggest post-midterm rally in 44 years",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/04/stock-market-today-nov-4-dow-surges-3-in-biggest-post-midterm-rally-in-44-years/"
    }
   }
  },
  "insights": [
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Dow jumps 3% after Democrats win Congress",
+   "line": "Dow +3.03% to 53,356; S&P 500 +1.58%; Nasdaq +1.44%",
+   "more": [
+    "Biggest post-midterm rally in 44 years per Motley Fool",
+    "Investors priced in gridlock as a check on policy swings"
+   ],
+   "src": {
+    "title": "KRMG (AP): How major US stock indexes fared Wednesday 11/4/2026",
+    "url": "https://krmg.com/2026/11/04/how-major-us-stock-indexes-fared-wednesday-11-4-2026/"
+   },
+   "date": "2026-11-05",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Oil tumbles after the midterm sweep",
+   "line": "WTI fell about 8% to near $88; Brent quotes range from $99 to $103",
+   "more": [
+    "US–Iran talks still in focus",
+    "Settlement figures differ across sources"
+   ],
+   "src": {
+    "title": "Yahoo Finance: Markets News, Nov. 4, 2026 — Dow jumps nearly 1,600 points; WTI oil slides 8%",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-dow-futures-135650348.html"
+   },
+   "date": "2026-11-05",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs buy ₹7,284 cr for a fourth day",
+   "line": "Provisional Nov 4: FIIs +₹7,284 cr, DIIs −₹3,712 cr in the cash market",
+   "more": [
+    "Gross FII purchases about ₹21,607 cr",
+    "Follows about ₹6,837 cr of buying on Nov 3"
+   ],
+   "src": {
+    "title": "5paisa: FII DII data today",
+    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
+   },
+   "date": "2026-11-05",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "US 10-year yield eases to about 4.9%",
+   "line": "10-year fell around 5 bp to roughly 4.90–4.92% after the vote",
+   "more": [
+    "Down from about 4.95% on Tuesday",
+    "Treasury set to outline auction sizes"
+   ],
+   "src": {
+    "title": "Trading Economics: US 10-year Treasury note yield",
+    "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+   },
+   "date": "2026-11-05",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "1430"
+   }
+  },
+  {
+   "key": "asia-tech",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Kospi slumps on chip selling; Nikkei up",
+   "line": "Kospi fell about 2.4–2.7% at the open as foreigners sold Samsung and SK Hynix",
+   "more": [
+    "Nikkei 225 opened 0.34% higher on US gains",
+    "SK Hynix and SoftBank fell about 6%"
+   ],
+   "src": {
+    "title": "TradingKey: Nikkei 225 bucks trend to gain as Kospi slumps; SK Hynix and SoftBank drop",
+    "url": "https://www.tradingkey.com/analysis/stocks/more/262278885-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-googl-amzn-tradingkey"
+   },
+   "date": "2026-11-05",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "0845"
+   }
+  },
   {
    "key": "us-midterms",
    "tag": "Global",
@@ -50,37 +170,12 @@
    },
    "date": "2026-11-04",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Wed · 21:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs bought about ₹7,284 cr on Nov 4",
-   "line": "Trendlyne shows FII net buying of ₹7,284 cr and DII net selling of ₹3,712 cr",
-   "more": [
-    "Would be a fourth straight day of FII buying",
-    "Single source so far; awaiting confirmation",
-    "Tuesday's figure was about ₹6,837 cr"
-   ],
-   "src": {
-    "title": "Trendlyne: FII DII activity — cash provisional, past month",
-    "url": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/"
-   },
-   "date": "2026-11-04",
-   "slot": "2100",
-   "when": "21:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1130"
    }
   },
   {
@@ -99,9 +194,9 @@
    },
    "date": "2026-11-04",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Wed · 21:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1555"
@@ -124,7 +219,7 @@
    },
    "date": "2026-11-04",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Wed · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -149,36 +244,12 @@
    },
    "date": "2026-11-04",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Wed · 18:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Brent eases toward $103",
-   "line": "Brent fell about 0.9% to near $103.40; WTI near $95.90",
-   "more": [
-    "Reports conflict on direction during the day",
-    "Iran developments still drive oil"
-   ],
-   "src": {
-    "title": "The Globe and Mail: Premarket — US stock futures rise as investors assess Democrats' midterm sweep",
-    "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-us-stock-futures-rise-as-investors-assess-democrats-midterm/"
-   },
-   "date": "2026-11-04",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1130"
    }
   },
   {
@@ -197,7 +268,7 @@
    },
    "date": "2026-11-04",
    "slot": "1625",
-   "when": "16:25",
+   "when": "Wed · 16:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -221,7 +292,7 @@
    },
    "date": "2026-11-04",
    "slot": "1555",
-   "when": "15:55",
+   "when": "Wed · 15:55",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -245,7 +316,7 @@
    },
    "date": "2026-11-04",
    "slot": "1525",
-   "when": "15:25",
+   "when": "Wed · 15:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -269,7 +340,7 @@
    },
    "date": "2026-11-04",
    "slot": "1525",
-   "when": "15:25",
+   "when": "Wed · 15:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -293,7 +364,7 @@
    },
    "date": "2026-11-04",
    "slot": "1455",
-   "when": "14:55",
+   "when": "Wed · 14:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -317,7 +388,7 @@
    },
    "date": "2026-11-04",
    "slot": "1455",
-   "when": "14:55",
+   "when": "Wed · 14:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -341,7 +412,7 @@
    },
    "date": "2026-11-04",
    "slot": "1455",
-   "when": "14:55",
+   "when": "Wed · 14:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -365,7 +436,7 @@
    },
    "date": "2026-11-04",
    "slot": "1425",
-   "when": "14:25",
+   "when": "Wed · 14:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -390,7 +461,7 @@
    },
    "date": "2026-11-04",
    "slot": "1425",
-   "when": "14:25",
+   "when": "Wed · 14:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -415,7 +486,7 @@
    },
    "date": "2026-11-04",
    "slot": "1355",
-   "when": "13:55",
+   "when": "Wed · 13:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -440,7 +511,7 @@
    },
    "date": "2026-11-04",
    "slot": "1355",
-   "when": "13:55",
+   "when": "Wed · 13:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -464,7 +535,7 @@
    },
    "date": "2026-11-04",
    "slot": "1355",
-   "when": "13:55",
+   "when": "Wed · 13:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -488,7 +559,7 @@
    },
    "date": "2026-11-04",
    "slot": "1325",
-   "when": "13:25",
+   "when": "Wed · 13:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -513,36 +584,12 @@
    },
    "date": "2026-11-04",
    "slot": "1325",
-   "when": "13:25",
+   "when": "Wed · 13:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1255"
-   }
-  },
-  {
-   "key": "us-yields",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "US 10-year yield eases to about 4.91%",
-   "line": "Treasury yields fell as investors priced the midterm outcome",
-   "more": [
-    "Down from about 4.96% on Tuesday",
-    "Move came in overnight trade as results arrived"
-   ],
-   "src": {
-    "title": "Reuters via Yahoo Finance: U.S. stock futures slide, Nasdaq down over 2% with Dems poised to take Congress",
-    "url": "https://sg.finance.yahoo.com/news/u-stock-futures-steady-midterms-010643358.html"
-   },
-   "date": "2026-11-04",
-   "slot": "1255",
-   "when": "12:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1430"
    }
   },
   {
@@ -561,7 +608,7 @@
    },
    "date": "2026-11-04",
    "slot": "1225",
-   "when": "12:25",
+   "when": "Wed · 12:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -586,7 +633,7 @@
    },
    "date": "2026-11-04",
    "slot": "1155",
-   "when": "11:55",
+   "when": "Wed · 11:55",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -610,7 +657,7 @@
    },
    "date": "2026-11-04",
    "slot": "1125",
-   "when": "11:25",
+   "when": "Wed · 11:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -634,7 +681,7 @@
    },
    "date": "2026-11-04",
    "slot": "1055",
-   "when": "10:55",
+   "when": "Wed · 10:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -658,7 +705,7 @@
    },
    "date": "2026-11-04",
    "slot": "1025",
-   "when": "10:25",
+   "when": "Wed · 10:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -682,7 +729,7 @@
    },
    "date": "2026-11-04",
    "slot": "0955",
-   "when": "9:55",
+   "when": "Wed · 9:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -706,60 +753,11 @@
    },
    "date": "2026-11-04",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Wed · 8:45",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Nasdaq up as chips rebound; Dow slips",
-   "line": "Nasdaq +0.83%, S&P 500 +0.36%, Dow −0.38% as Apple weighed",
-   "more": [
-    "AMD revenue $13.4B vs $13.1B estimate",
-    "AMD shares up about 7–9% after hours",
-    "Apple fell on a weak margin forecast"
-   ],
-   "src": {
-    "title": "StockTitan: Stock market today Nov 3, 2026 ended mixed as chip stocks lifted the Nasdaq",
-    "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-3-2026"
-   },
-   "date": "2026-11-04",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "asia-tech",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Kospi slid 3.6% on chip selling",
-   "line": "Kospi fell 3.59% on Nov 3 as SK Hynix lost 5.7%; Japan was shut",
-   "more": [
-    "Samsung Electronics also dropped about 5%",
-    "Topix futures +0.43% ahead of Japan's reopen"
-   ],
-   "src": {
-    "title": "TradingKey: Japan closed, Kospi tumbles over 3% as SK Hynix and Samsung plunge",
-    "url": "https://www.tradingkey.com/analysis/stocks/more/262266138-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-tradingkey"
-   },
-   "date": "2026-11-04",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
     "slot": "0845"
    }
   },
@@ -1798,8 +1796,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1400"
+    "date": "2026-10-29",
+    "slot": "pre"
    }
   },
   {
@@ -2213,8 +2211,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1130"
+    "date": "2026-10-29",
+    "slot": "1000"
    }
   },
   {
@@ -2359,7 +2357,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "slot": "1200"
    }
   },
@@ -2408,8 +2406,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1130"
+    "date": "2026-10-29",
+    "slot": "pre"
    }
   },
   {
@@ -2484,8 +2482,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1500"
+    "date": "2026-10-29",
+    "slot": "0930"
    }
   },
   {
@@ -2506,11 +2504,11 @@
    "date": "2026-10-29",
    "slot": "1330",
    "when": "Thu · 13:30",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1430"
+    "date": "2026-10-29",
+    "slot": "1330"
    }
   },
   {
@@ -2534,8 +2532,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1400"
+    "date": "2026-10-29",
+    "slot": "1000"
    }
   },
   {
@@ -2654,206 +2652,11 @@
    "date": "2026-10-29",
    "slot": "0930",
    "when": "Thu · 9:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1530"
-   }
-  },
-  {
-   "key": "adani-ent-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Adani Enterprises profit falls 55%",
-   "line": "Q2 profit ₹1,492 cr vs ₹3,304 cr; revenue up 75% on a high exceptional-gain base",
-   "more": [
-    "Revenue from operations ~₹37,216 cr",
-    "Year-ago profit had ₹3,583 cr exceptional gains",
-    "EBITDA about ₹5,509 cr, 14.8% margin",
-    "Auditor qualification on Mumbai airport unit (one report)"
-   ],
-   "src": {
-    "title": "Adani Enterprises Q2 Results: Net profit falls 55% to ₹1,492 crore — Upstox",
-    "url": "https://upstox.com/news/market-news/earnings/adani-enterprises-q2-results-net-profit-falls-55-to-1-492-crore-revenue-up-75/article-202547/"
-   },
-   "date": "2026-10-28",
-   "slot": "1500",
-   "when": "Wed · 15:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "vedanta-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Vedanta posts record quarter",
-   "line": "Revenue up 57% and EBITDA more than doubled; stock up ~2%",
-   "more": [
-    "Revenue ₹25,812 cr; EBITDA a record ₹9,938 cr",
-    "Continuing-ops profit up 151% YoY",
-    "Net debt cut to ₹3,675 cr; ₹5 interim dividend"
-   ],
-   "src": {
-    "title": "Vedanta posts record Q2 FY27 profit — DSIJ",
-    "url": "https://insights.dsij.in/dsijarticledetail/vedanta-posts-record-q2-fy27-profit-as-zinc-strength-and-cash-generation-cut-net-debt-60194"
-   },
-   "date": "2026-10-28",
-   "slot": "1430",
-   "when": "Wed · 14:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1430"
-   }
-  },
-  {
-   "key": "lt-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "L&T rally comes despite thinner margins",
-   "line": "EBITDA margin narrowed to 8.7% from 10% even as orders and profit beat",
-   "more": [
-    "EBITDA edged up 0.6% to ₹6,845 cr",
-    "Profit up 33% to ₹5,202 cr; revenue up 16% to ₹78,750 cr"
-   ],
-   "src": {
-    "title": "BusinessToday: Stock market live — Jio IPO listing; L&T gains 4.5%",
-    "url": "https://businesstoday.in/markets/stocks/story/stock-market-live-updates-jio-ipo-listing-indias-telecom-sector-gets-a-new-heavyweight-564134-2026-10-28"
-   },
-   "date": "2026-10-28",
-   "slot": "1400",
-   "when": "Wed · 14:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "bajaj-auto-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Bajaj Auto extends post-results gains",
-   "line": "Shares up 1.67% to about ₹10,564 at noon after a 35% Q2 profit jump",
-   "more": [
-    "Stock closed up 2.58% at ₹10,331 on Tuesday ahead of results",
-    "EBITDA margin 20.9% vs 20.5% a year ago"
-   ],
-   "src": {
-    "title": "HDFC Sky: Top gainers and losers today, 28 October 2026 at 12 PM",
-    "url": "https://hdfcsky.com/news/top-gainers-and-losers-today-28-october-2026-at-12-pm"
-   },
-   "date": "2026-10-28",
-   "slot": "1330",
-   "when": "Wed · 13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "it-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "IT losses deepen for Infosys",
-   "line": "Infosys is the top Nifty loser, near ₹1,106, with Tech Mahindra and HCL also down 3%+",
-   "more": [
-    "Infosys down 4.88% at noon; TCS off about 2.6% earlier",
-    "Growth-outlook worries and Fed caution are cited"
-   ],
-   "src": {
-    "title": "NewsDrum: Sensex crashes nearly 700 points, Nifty below 22,600; IT stocks sink",
-    "url": "https://www.newsdrum.in/business/sensex-crashes-nearly-700-points-nifty-below-22600-it-stocks-sink-12759793"
-   },
-   "date": "2026-10-28",
-   "slot": "1300",
-   "when": "Wed · 13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "raymond-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Raymond Q2 profit jumps 131%",
-   "line": "Net profit rises to ₹320.6 cr; the stock rallied about 2.45% on the numbers",
-   "more": [
-    "Q2 FY27 net profit ₹320.6 cr, up 131% year on year",
-    "Flagged in ScanX's Oct 28 stocks-to-watch list"
-   ],
-   "src": {
-    "title": "ScanX: Stocks to watch today, October 28, 2026 — Raymond, TBZ, SG Mart, JSW Infrastructure",
-    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-october-28-2026-raymond-tbz-sg-mart-jsw/54696706"
-   },
-   "date": "2026-10-28",
-   "slot": "1200",
-   "when": "Wed · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "us-iran",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Reports of renewed US strikes on Iran",
-   "line": "Possible strikes after the US midterms turn the market decisively weak, analysts say",
-   "more": [
-    "Geojit's VK Vijayakumar cited reports of renewed US strikes after the midterms",
-    "An attack on a Saudi refinery renewed West Asia supply worries"
-   ],
-   "src": {
-    "title": "Business Standard: Market fall explained — Sensex dives 995 pts intraday, Nifty at 22,500",
-    "url": "https://www.business-standard.com/amp/markets/news/market-fall-explained-sensex-dives-995-points-intraday-nifty-at-22-500-126102800393_1.html"
-   },
-   "date": "2026-10-28",
-   "slot": "1130",
-   "when": "Wed · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "maruti-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Maruti slips after 26% profit fall",
-   "line": "Record volumes, but costs and mark-to-market losses hit Q2 profit",
-   "more": [
-    "Q2 net profit ~₹2,466 cr, down 26%; revenue up 26% to ~₹53,355 cr",
-    "Shares fell as much as 1% to ₹11,335.75; analysts still see value after a 15% fall"
-   ],
-   "src": {
-    "title": "Business Standard: Maruti dips marginally post Q2 amid cost pressures; analysts remain bullish",
-    "url": "https://www.business-standard.com/markets/news/maruti-suzuki-share-price-dips-marginally-post-q2-amid-cost-pressures-analysts-remain-bullish-126102800247_1.html"
-   },
-   "date": "2026-10-28",
-   "slot": "1130",
-   "when": "Wed · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-28",
-    "slot": "1130"
+    "date": "2026-10-29",
+    "slot": "0930"
    }
   }
  ]
