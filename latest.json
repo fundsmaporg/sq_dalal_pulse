@@ -1,38 +1,161 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-05T18:00:37+05:30",
+ "generated_at": "2026-11-05T21:01:35+05:30",
  "date": "2026-11-05",
- "slot": "1800",
- "slot_label": "18:00",
+ "slot": "2100",
+ "slot_label": "21:00",
  "stage": "Evening wrap",
- "asof": "2026-11-05T18:00:00+05:30",
+ "asof": "2026-11-05T21:00:00+05:30",
  "nifty": {
   "value": 24536.6,
   "pct": 2.4,
   "chg": 576,
   "approx": false,
-  "asof_quote": "Nov 5 close, Upstox and Business Standard"
+  "asof_quote": "Nov 5 close, Upstox market wrap"
  },
  "mood": {
-  "label": "Steady into Friday",
-  "score": 0.35,
-  "summary": "Heading into Friday after the biggest rally in seven months, the set-up is steady rather than euphoric: US futures are mixed and the post-election bounce is cooling.",
+  "label": "Softer start likely",
+  "score": -0.15,
+  "summary": "After Thursday's broad, sharp rally, a steep tech sell-off on Wall Street makes a softer, more selective Friday open likely, with results stocks set to drive the action.",
   "detail": {
-   "leaders": "Financials and autos may hold gains if oil stays low",
-   "laggards": "Cummins India after its results; IT if Nasdaq weakness carries over",
-   "tone": "Forward-looking evening read, calmer than the close: after a six-day run, mixed US futures and a cooling relief rally point to consolidation rather than another big leg up.",
+   "leaders": "Results names: ONGC, Titan and LIC after Q2 beats",
+   "laggards": "IT and chip-linked stocks after the US tech slide",
+   "tone": "Forward-looking read for Friday: the mood is weaker than at 1800 because the US sell-off deepened after the open, leaving India's rally exposed to a pullback.",
    "watch": [
-    "Today's FII provisional data",
-    "Wall Street's open and US jobs data",
-    "Crude after its two-month low"
+    "Whether Wall Street recovers from its lows before the US close",
+    "Nov 5 FII figures, after four straight days of heavy foreign buying",
+    "How Airtel trades on a profit miss despite higher ARPU"
    ],
    "src": {
-    "title": "Yahoo Finance: Dow, S&P 500, Nasdaq trade mixed as post-election relief rally cools, oil falls",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-falls-090519607.html"
+    "title": "Yahoo Finance: Dow, S&P 500, Nasdaq plunge in dramatic reversal, giving back post-election rally gains",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Wall Street tech slump erases election rally",
+   "line": "Chip stocks lead a sharp US reversal, setting a cautious tone for Friday's open",
+   "more": [
+    "AP: S&P 500 down 1.8% and Nasdaq down 3% in Thursday trade",
+    "Nvidia fell about 4% and AMD about 11%, per AP",
+    "The drop gives back Wednesday's post-midterm gains"
+   ],
+   "src": {
+    "title": "AP: More drops for Nvidia and other AI chip stocks erase Wall Street's rally from the day before",
+    "url": "https://www.whio.com/news/business/asian-shares-mostly/35HQTD66QE2AJNC4GIP7NODRV4/"
+   },
+   "date": "2026-11-05",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-29",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "ongc-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "ONGC profit jumps 57%, ₹8 dividend",
+   "line": "Record Q2 standalone profit of ₹15,489 cr; interim dividend record date Nov 12",
+   "more": [
+    "Standalone profit up 57.3% year on year",
+    "Interim dividend of ₹8 a share, about ₹10,064 cr in total",
+    "Highest-ever H1 profit of ₹32,522 cr"
+   ],
+   "src": {
+    "title": "Indian Masterminds: ONGC Q2 FY27 net profit jumps 57.3% to ₹15,489 crore, record ₹8 dividend",
+    "url": "https://indianmasterminds.com/news/ongc-q2-fy27-results-net-profit-8-dividend-offshore-projects-248604/"
+   },
+   "date": "2026-11-05",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "airtel-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Airtel Q2 profit up 31% but misses estimate",
+   "line": "Profit of ₹8,888 cr trails the ₹9,209 cr estimate; ARPU rises to ₹271",
+   "more": [
+    "Revenue up 16.7% to ₹60,878 cr",
+    "ARPU of ₹271, up from ₹256 a year earlier",
+    "Higher network costs offset subscriber gains"
+   ],
+   "src": {
+    "title": "BusinessToday: Bharti Airtel Q2 net profit rises 31% to Rs 8,888 crore; ARPU climbs to Rs 271",
+    "url": "https://www.businesstoday.in/markets/stocks/story/bharti-airtel-q2-net-profit-rises-31-to-rs-8888-crore-arpu-climbs-to-rs-271-565993-2026-11-05"
+   },
+   "date": "2026-11-05",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "lic-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "LIC Q2 profit rises 20% to ₹12,076 cr",
+   "line": "Insurer's September-quarter profit grows about 20% year on year",
+   "more": [
+    "Net profit of ₹12,076 cr in Q2 FY27",
+    "Reported after market hours on Thursday"
+   ],
+   "src": {
+    "title": "Business Standard: LIC Q2FY27 results — net profit increases 20% to ₹12,076 crore",
+    "url": "https://www.business-standard.com/amp/companies/quarterly-results/lic-q2fy27-results-net-profit-increases-20-to-12-076-crore-126110501463_1.html"
+   },
+   "date": "2026-11-05",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "titan-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Titan Q2 standalone profit more than doubles",
+   "line": "Standalone profit reported at about ₹2,393 cr, up about 114% year on year",
+   "more": [
+    "Second interim dividend of ₹0.05 a share",
+    "Reported on Thursday along with ONGC and LIC"
+   ],
+   "src": {
+    "title": "Upstox: Q2 Results Highlights — LIC profit climbs 20% YoY; ONGC declares dividend",
+    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-bharti-airtel-lic-m-and-m-titan-ongc-britannia-lg-bharat-forge-others-to-declare-earnings/liveblog-203021/"
+   },
+   "date": "2026-11-05",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "2100"
+   }
+  },
   {
    "key": "cummins-q2",
    "tag": "Results",
@@ -51,35 +174,10 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1355"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "US futures mixed as relief rally cools",
-   "line": "Dow futures modestly higher, Nasdaq-100 futures down about 0.7%",
-   "more": [
-    "Follows the Dow's 3% jump on Wednesday",
-    "Tech under pressure in premarket trade",
-    "US jobs data in focus"
-   ],
-   "src": {
-    "title": "Benzinga: Dow Jones, S&P 500 futures trade mixed after post-midterm rally",
-    "url": "https://www.benzinga.com/markets/equities/26/11/62906643/stock-market-today-dow-jones-sp-500-futures-trade-mixed-after-post-midterm-rally-tm-arm-qcom-in-focus"
-   },
-   "date": "2026-11-05",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "pre"
    }
   },
   {
@@ -100,7 +198,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1055"
