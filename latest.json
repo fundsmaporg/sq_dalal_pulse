@@ -1,39 +1,39 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-05T10:26:32+05:30",
+ "generated_at": "2026-11-05T10:56:46+05:30",
  "date": "2026-11-05",
- "slot": "1025",
- "slot_label": "10:25",
- "stage": "Opening mood",
- "asof": "2026-11-05T10:25:00+05:30",
+ "slot": "1055",
+ "slot_label": "10:55",
+ "stage": "Mid-market mood",
+ "asof": "2026-11-05T10:55:00+05:30",
  "nifty": {
   "value": 24388.4,
   "pct": 1.79,
   "chg": 427.8,
-  "approx": false,
-  "asof_quote": "10:00 IST, Business Standard live blog (Nifty +427.80)"
+  "approx": true,
+  "asof_quote": "10:00 IST, Business Standard; intraday high 24,442.20 by 10:40"
  },
  "mood": {
-  "label": "Rally extends",
-  "score": 0.7,
-  "summary": "The rally is extending through mid-morning, with nearly every sector in the green and oil-sensitive stocks leading as crude's slump flows through to India's biggest import.",
+  "label": "Rally holds",
+  "score": 0.65,
+  "summary": "The rally is holding near its morning highs, with gains spread across autos, financials and oil-consuming sectors; pharma and healthcare are the only pockets of weakness.",
   "detail": {
-   "leaders": "IndiGo, Asian Paints and BPCL on cheaper crude",
+   "leaders": "IndiGo, BPCL and Asian Paints on cheaper crude; Lenskart on results",
    "laggards": "Oil India as crude slides",
-   "tone": "Live read, firmer than 09:55: the Nifty has added to its opening gain, and the rally is broad, with only pharma and healthcare out of the green.",
+   "tone": "Live read, steady versus 10:25: the benchmarks are holding close to the session high, with no sign yet of profit-taking after six straight gains.",
    "watch": [
-    "Profit-taking after six straight up days",
+    "Profit-taking near the day's high",
     "Crude's next move",
-    "Whether pharma's weakness spreads"
+    "Pharma and healthcare weakness"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,500, Nifty tops 24,350; India reclaims ₹500-trillion market-cap",
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,500 pts; Nifty reclaims 24,000 mark for first time since Sept 4",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Oil-consuming stocks jump as crude's slump cuts their input costs",
-     "why": "Airlines, paint makers and fuel retailers gain most when crude falls, and oil is at a two-month low.",
+     "summary": "Oil consumers lead, and Lenskart extends its post-results rally",
+     "why": "Crude at a two-month low cuts costs for airlines, paint makers and fuel retailers, while strong results keep buyers in Lenskart.",
      "names": [
       {
        "name": "IndiGo",
@@ -45,13 +45,19 @@
        "name": "BPCL",
        "dir": "up",
        "move": "+4.55%",
-       "line": "Fuel retailer's marketing margins widen as crude falls; IOC also up over 3%"
+       "line": "Fuel retailer's margins widen as crude falls; IOC also up over 3%"
       },
       {
        "name": "Asian Paints",
        "dir": "up",
        "move": "+4.26%",
-       "line": "Crude-linked raw materials get cheaper; shares hit ₹2,521.40"
+       "line": "Crude-linked raw materials get cheaper"
+      },
+      {
+       "name": "Lenskart",
+       "dir": "up",
+       "move": "about +6%",
+       "line": "Q2 profit more than doubled to ₹232 cr"
       }
      ],
      "src": {
@@ -83,24 +89,72 @@
    "key": "mcap-500",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "India's market cap reclaims ₹500 trillion",
-   "line": "Total listed market value crossed the ₹500-trillion mark again in today's rally",
+   "title": "BSE market cap hits ₹500.82 trillion",
+   "line": "Up from ₹494.42 trillion at Wednesday's close as the rally lifts listed stocks",
    "more": [
-    "Sensex up about 1,550 points at 10 am",
-    "Only Bharti Airtel was red among Sensex stocks early"
+    "Nifty back above 24,000 for the first time since Sept 4",
+    "Rally tied to oil's slump and the US midterm result"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,500, Nifty tops 24,350; India reclaims ₹500-trillion market-cap",
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,500 pts; Nifty reclaims 24,000 mark for first time since Sept 4",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
    },
    "date": "2026-11-05",
-   "slot": "1025",
-   "when": "10:25",
-   "updated": false,
+   "slot": "1055",
+   "when": "10:55",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1025"
+   }
+  },
+  {
+   "key": "lenskart-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Lenskart shares rise 6% after Q2",
+   "line": "Profit more than doubled to ₹232 cr in the September quarter",
+   "more": [
+    "Revenue grew about a third",
+    "Owners' profit rose about 122%"
+   ],
+   "src": {
+    "title": "HDFC Sky: Lenskart Q2 results — profit more than doubles to ₹232 crore; shares up 6%",
+    "url": "https://hdfcsky.com/news/lenskart-more-than-doubles-profit-shares-up-6-percent"
+   },
+   "date": "2026-11-05",
+   "slot": "1055",
+   "when": "10:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1525"
+   }
+  },
+  {
+   "key": "auto-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Nifty Auto gains over 3%",
+   "line": "Maruti and M&M rose 3–4% as autos led the sector board",
+   "more": [
+    "Autos and financials were the top sectors early",
+    "Only pharma and healthcare were in the red"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,300, Nifty tops 24,300; Nifty Auto gains over 3%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html"
+   },
+   "date": "2026-11-05",
+   "slot": "1055",
+   "when": "10:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1055"
    }
   },
   {
@@ -121,34 +175,10 @@
    "slot": "1025",
    "when": "10:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "lenskart-q2",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Lenskart shares rise about 3.4% after Q2",
-   "line": "Shares traded near ₹713 after profit more than doubled",
-   "more": [
-    "Revenue grew about 32–36% depending on the measure",
-    "Nykaa also in focus after its profit tripled"
-   ],
-   "src": {
-    "title": "HDFC Sky: RITES profit down, Nykaa & Lenskart surge; BSE, Aurobindo shine",
-    "url": "https://hdfcsky.com/news/stocks-to-watch-today-thursday-november-5-2026-rites-nykaa-bse-aurobindo-pharma-lenskart"
-   },
-   "date": "2026-11-05",
-   "slot": "1025",
-   "when": "10:25",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1525"
    }
   },
   {
