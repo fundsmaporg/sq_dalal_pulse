@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-05T21:01:35+05:30",
- "date": "2026-11-05",
- "slot": "2100",
- "slot_label": "21:00",
- "stage": "Evening wrap",
- "asof": "2026-11-05T21:00:00+05:30",
+ "generated_at": "2026-11-06T07:00:35+05:30",
+ "date": "2026-11-06",
+ "slot": "0700",
+ "slot_label": "7:00",
+ "stage": "Pre-market mood",
+ "asof": "2026-11-06T07:00:00+05:30",
  "nifty": {
   "value": 24536.6,
   "pct": 2.4,
@@ -14,21 +14,21 @@
   "asof_quote": "Nov 5 close, Upstox market wrap"
  },
  "mood": {
-  "label": "Softer start likely",
-  "score": -0.15,
-  "summary": "After Thursday's broad, sharp rally, a steep tech sell-off on Wall Street makes a softer, more selective Friday open likely, with results stocks set to drive the action.",
+  "label": "Risk-off open likely",
+  "score": -0.55,
+  "summary": "A global tech rout overnight and steep falls across Asia this morning point to a risk-off Friday open that could test Thursday's broad rally, with heavy foreign buying the main cushion.",
   "detail": {
-   "leaders": "Results names: ONGC, Titan and LIC after Q2 beats",
-   "laggards": "IT and chip-linked stocks after the US tech slide",
-   "tone": "Forward-looking read for Friday: the mood is weaker than at 1800 because the US sell-off deepened after the open, leaving India's rally exposed to a pullback.",
+   "leaders": "Domestic banks and financials, backed by heavy FII buying",
+   "laggards": "IT and tech-linked names exposed to the global AI sell-off",
+   "tone": "Forward-looking read for Friday's session: risk appetite has turned sharply weaker since last night's note as the US sell-off deepened into the close and spread to Asia.",
    "watch": [
-    "Whether Wall Street recovers from its lows before the US close",
-    "Nov 5 FII figures, after four straight days of heavy foreign buying",
-    "How Airtel trades on a profit miss despite higher ARPU"
+    "Whether foreign buyers keep supporting Indian stocks through a global sell-off",
+    "How far Korea and Japan recover after this morning's circuit-breaker halt",
+    "The US jobs report, which could reset rate and risk views"
    ],
    "src": {
-    "title": "Yahoo Finance: Dow, S&P 500, Nasdaq plunge in dramatic reversal, giving back post-election rally gains",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"
+    "title": "Yahoo Finance: Dow plunges 1,800 points, Nasdaq enters correction in AI trade meltdown",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"
    }
   }
  },
@@ -37,24 +37,122 @@
    "key": "us-markets",
    "tag": "Global",
    "impact": "neg",
-   "title": "Wall Street tech slump erases election rally",
-   "line": "Chip stocks lead a sharp US reversal, setting a cautious tone for Friday's open",
+   "title": "Wall Street's worst day since April 2025",
+   "line": "AI and chip sell-off sends the Nasdaq into a correction and erases the election rally",
    "more": [
-    "AP: S&P 500 down 1.8% and Nasdaq down 3% in Thursday trade",
-    "Nvidia fell about 4% and AMD about 11%, per AP",
-    "The drop gives back Wednesday's post-midterm gains"
+    "S&P 500 fell about 4.4% and the Nasdaq about 5.5%",
+    "Nvidia closed down about 9% and AMD about 17%",
+    "Worry that a Democratic Congress could slow AI data-centre spending"
    ],
    "src": {
-    "title": "AP: More drops for Nvidia and other AI chip stocks erase Wall Street's rally from the day before",
-    "url": "https://www.whio.com/news/business/asian-shares-mostly/35HQTD66QE2AJNC4GIP7NODRV4/"
+    "title": "Yahoo Finance: Dow plunges 1,800 points, Nasdaq enters correction in AI trade meltdown",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"
    },
-   "date": "2026-11-05",
-   "slot": "2100",
-   "when": "21:00",
+   "date": "2026-11-06",
+   "slot": "0700",
+   "when": "7:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
-    "date": "2026-10-29",
+    "date": "2026-10-30",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "asia-tech",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Kospi crashes 8.5%, trading halted",
+   "line": "Korea triggers a circuit breaker at the open; Japan's Nikkei slides about 6%",
+   "more": [
+    "Kospi fell below 5,000 for the first time in about 10 months",
+    "Samsung down about 10%, SK Hynix nearly 12%",
+    "Trading was paused for 20 minutes"
+   ],
+   "src": {
+    "title": "Korea JoongAng Daily: Kospi plunges 8.5% as AI fears trigger circuit breaker",
+    "url": "https://www.koreajoongangdaily.com/business/kospi-tracks-us-stocks-to-tank-nearly-9-after-opening-triggering-circuit-breaker/12959005"
+   },
+   "date": "2026-11-06",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs bought about ₹15,000 cr on Thursday",
+   "line": "Provisional data show FIIs net bought ₹14,975 cr while DIIs net sold ₹10,445 cr",
+   "more": [
+    "FIIs bought ₹31,798 cr and sold ₹16,823 cr",
+    "Follows net FII buying of about ₹7,284 cr on Nov 4",
+    "Single-source provisional figure; check exchange data"
+   ],
+   "src": {
+    "title": "ScanX: FII DII data",
+    "url": "https://scanx.trade/insight/fii-dii-data"
+   },
+   "date": "2026-11-06",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "US yields slip as money seeks safety",
+   "line": "10-year Treasury yield dipped toward 4.84% intraday as investors fled tech",
+   "more": [
+    "Reports put Thursday's 10-year close at about 4.88–4.90%",
+    "Investors are looking ahead to the US jobs report"
+   ],
+   "src": {
+    "title": "CNBC: 10-year Treasury yield falls as traders exit tech stocks, look ahead to jobs data",
+    "url": "https://www.cnbc.com/2026/11/05/treasury-yields-bonds-interest-rates.html"
+   },
+   "date": "2026-11-06",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Brent rebounds after midweek rout",
+   "line": "Brent climbed back toward $98 on Thursday after an 8.7% plunge on Wednesday",
+   "more": [
+    "Settled at $94.62 on Nov 4, lowest since late August",
+    "Traders weigh whether the midterms speed an end to the Iran war"
+   ],
+   "src": {
+    "title": "OilPrice.com: Oil prices rebound sharply after brutal midweek rout",
+    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-Sharply-After-Brutal-Midweek-Rout.html"
+   },
+   "date": "2026-11-06",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
     "slot": "pre"
    }
   },
@@ -75,9 +173,9 @@
    },
    "date": "2026-11-05",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Thu · 21:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "2100"
@@ -100,9 +198,9 @@
    },
    "date": "2026-11-05",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Thu · 21:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "2100"
@@ -124,9 +222,9 @@
    },
    "date": "2026-11-05",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Thu · 21:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "2100"
@@ -148,9 +246,9 @@
    },
    "date": "2026-11-05",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Thu · 21:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "2100"
@@ -172,7 +270,7 @@
    },
    "date": "2026-11-05",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Thu · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -196,7 +294,7 @@
    },
    "date": "2026-11-05",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Thu · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -220,7 +318,7 @@
    },
    "date": "2026-11-05",
    "slot": "1625",
-   "when": "16:25",
+   "when": "Thu · 16:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -244,36 +342,12 @@
    },
    "date": "2026-11-05",
    "slot": "1625",
-   "when": "16:25",
+   "when": "Thu · 16:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1155"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "Today's FII data not yet out",
-   "line": "FIIs bought about ₹7,284 cr on Wednesday, a fourth straight day of buying",
-   "more": [
-    "DIIs sold about ₹3,712 cr on Wednesday",
-    "Provisional data usually lands in the evening"
-   ],
-   "src": {
-    "title": "NiftyTrader: FII DII data today",
-    "url": "https://www.niftytrader.in/fii-dii-data"
-   },
-   "date": "2026-11-05",
-   "slot": "1625",
-   "when": "16:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "pre"
    }
   },
   {
@@ -292,7 +366,7 @@
    },
    "date": "2026-11-05",
    "slot": "1555",
-   "when": "15:55",
+   "when": "Thu · 15:55",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -316,12 +390,12 @@
    },
    "date": "2026-11-05",
    "slot": "1555",
-   "when": "15:55",
+   "when": "Thu · 15:55",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1100"
+    "date": "2026-10-30",
+    "slot": "1000"
    }
   },
   {
@@ -340,7 +414,7 @@
    },
    "date": "2026-11-05",
    "slot": "1525",
-   "when": "15:25",
+   "when": "Thu · 15:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -364,7 +438,7 @@
    },
    "date": "2026-11-05",
    "slot": "1525",
-   "when": "15:25",
+   "when": "Thu · 15:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -388,7 +462,7 @@
    },
    "date": "2026-11-05",
    "slot": "1525",
-   "when": "15:25",
+   "when": "Thu · 15:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -412,7 +486,7 @@
    },
    "date": "2026-11-05",
    "slot": "1455",
-   "when": "14:55",
+   "when": "Thu · 14:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -436,7 +510,7 @@
    },
    "date": "2026-11-05",
    "slot": "1455",
-   "when": "14:55",
+   "when": "Thu · 14:55",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -460,7 +534,7 @@
    },
    "date": "2026-11-05",
    "slot": "1455",
-   "when": "14:55",
+   "when": "Thu · 14:55",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -484,7 +558,7 @@
    },
    "date": "2026-11-05",
    "slot": "1425",
-   "when": "14:25",
+   "when": "Thu · 14:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -508,36 +582,12 @@
    },
    "date": "2026-11-05",
    "slot": "1425",
-   "when": "14:25",
+   "when": "Thu · 14:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "0955"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Brent near $93.50, lowest in two months",
-   "line": "Brent fell 8.7% on Wednesday and slipped further on Thursday",
-   "more": [
-    "Lower oil eases India's import bill and inflation",
-    "Driving the day's sector leadership in autos and OMCs"
-   ],
-   "src": {
-    "title": "Business Standard: Sensex zooms 1,600 pts intraday; India m-cap tops ₹500 trn — key reasons",
-    "url": "https://www.business-standard.com/markets/news/sensex-zooms-1600-pts-intraday-india-m-cap-tops-500-trn-key-reasons-126110500454_1.html"
-   },
-   "date": "2026-11-05",
-   "slot": "1325",
-   "when": "13:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "pre"
    }
   },
   {
@@ -556,7 +606,7 @@
    },
    "date": "2026-11-05",
    "slot": "1325",
-   "when": "13:25",
+   "when": "Thu · 13:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -580,7 +630,7 @@
    },
    "date": "2026-11-05",
    "slot": "1325",
-   "when": "13:25",
+   "when": "Thu · 13:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -605,7 +655,7 @@
    },
    "date": "2026-11-05",
    "slot": "1255",
-   "when": "12:55",
+   "when": "Thu · 12:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -629,7 +679,7 @@
    },
    "date": "2026-11-05",
    "slot": "1255",
-   "when": "12:55",
+   "when": "Thu · 12:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -653,7 +703,7 @@
    },
    "date": "2026-11-05",
    "slot": "1255",
-   "when": "12:55",
+   "when": "Thu · 12:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -678,7 +728,7 @@
    },
    "date": "2026-11-05",
    "slot": "1225",
-   "when": "12:25",
+   "when": "Thu · 12:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -702,7 +752,7 @@
    },
    "date": "2026-11-05",
    "slot": "1225",
-   "when": "12:25",
+   "when": "Thu · 12:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -726,7 +776,7 @@
    },
    "date": "2026-11-05",
    "slot": "1225",
-   "when": "12:25",
+   "when": "Thu · 12:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -750,7 +800,7 @@
    },
    "date": "2026-11-05",
    "slot": "1155",
-   "when": "11:55",
+   "when": "Thu · 11:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -774,7 +824,7 @@
    },
    "date": "2026-11-05",
    "slot": "1155",
-   "when": "11:55",
+   "when": "Thu · 11:55",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -798,7 +848,7 @@
    },
    "date": "2026-11-05",
    "slot": "1055",
-   "when": "10:55",
+   "when": "Thu · 10:55",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -822,7 +872,7 @@
    },
    "date": "2026-11-05",
    "slot": "1025",
-   "when": "10:25",
+   "when": "Thu · 10:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -846,60 +896,12 @@
    },
    "date": "2026-11-05",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Thu · 8:45",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1325"
-   }
-  },
-  {
-   "key": "us-yields",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "US 10-year yield eases to about 4.9%",
-   "line": "10-year fell around 5 bp to roughly 4.90–4.92% after the vote",
-   "more": [
-    "Down from about 4.95% on Tuesday",
-    "Treasury set to outline auction sizes"
-   ],
-   "src": {
-    "title": "Trading Economics: US 10-year Treasury note yield",
-    "url": "https://tradingeconomics.com/united-states/government-bond-yield"
-   },
-   "date": "2026-11-05",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1430"
-   }
-  },
-  {
-   "key": "asia-tech",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Kospi slumps on chip selling; Nikkei up",
-   "line": "Kospi fell about 2.4–2.7% at the open as foreigners sold Samsung and SK Hynix",
-   "more": [
-    "Nikkei 225 opened 0.34% higher on US gains",
-    "SK Hynix and SoftBank fell about 6%"
-   ],
-   "src": {
-    "title": "TradingKey: Nikkei 225 bucks trend to gain as Kospi slumps; SK Hynix and SoftBank drop",
-    "url": "https://www.tradingkey.com/analysis/stocks/more/262278885-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-googl-amzn-tradingkey"
-   },
-   "date": "2026-11-05",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0845"
    }
   },
   {
@@ -1721,8 +1723,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1200"
+    "date": "2026-10-30",
+    "slot": "pre"
    }
   },
   {
@@ -1940,8 +1942,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1230"
+    "date": "2026-10-30",
+    "slot": "pre"
    }
   },
   {
@@ -2205,8 +2207,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1130"
+    "date": "2026-10-30",
+    "slot": "pre"
    }
   },
   {
@@ -2327,8 +2329,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-29",
-    "slot": "pre"
+    "date": "2026-10-30",
+    "slot": "1200"
    }
   },
   {
@@ -2739,11 +2741,11 @@
    "date": "2026-10-30",
    "slot": "1300",
    "when": "Fri · 13:00",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1000"
+    "date": "2026-10-30",
+    "slot": "1300"
    }
   },
   {
@@ -2788,11 +2790,11 @@
    "date": "2026-10-30",
    "slot": "1200",
    "when": "Fri · 12:00",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1400"
+    "date": "2026-10-30",
+    "slot": "1200"
    }
   },
   {
@@ -2815,8 +2817,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1100"
+    "date": "2026-10-30",
+    "slot": "pre"
    }
   },
   {
@@ -2885,309 +2887,11 @@
    "date": "2026-10-30",
    "slot": "pre",
    "when": "Fri · Pre-open",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "ltcg-tax-relief",
-   "tag": "Policy",
-   "impact": "pos",
-   "title": "Capital gains tax review hopes build",
-   "line": "Multiple reports cite expectations of an LTCG/STT review as a driver of the rally",
-   "more": [
-    "Cited alongside FII buying and a firmer rupee",
-    "Analysts cautious on rally durability given crude and rates",
-    "No official announcement yet"
-   ],
-   "src": {
-    "title": "Sensex jumps over 600 points as Fed holds rates; 6 key factors driving the rally — Sunday Guardian",
-    "url": "https://sundayguardianlive.com/business/sensex-today-nifty-50-indian-stock-market-live-sensex-jumps-over-600-points-nifty-nears-22875-as-fed-holds-rates-check-6-key-factors-driving-the-rally-313599/"
-   },
-   "date": "2026-10-29",
-   "slot": "post",
-   "when": "Thu · Close",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1430"
-   }
-  },
-  {
-   "key": "fed",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Fed vote 10-2; analysts see limited relief",
-   "line": "Two dissenters wanted a hike; analysts say the pause offers only limited relief",
-   "more": [
-    "Rates held at 3.75–4%",
-    "December hike still widely expected"
-   ],
-   "src": {
-    "title": "Nifty rises above 22,800 as FMCG stocks and Adani Ports rally after Fed holds rates, rupee slips toward 95.4 — IBTimes",
-    "url": "https://www.ibtimes.com.au/indian-shares-rise-fed-rate-pause-adani-ports-1877570"
-   },
-   "date": "2026-10-29",
-   "slot": "1530",
-   "when": "Thu · 15:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "coal-india-capex",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Coal India H1 capex up 27%, beats target",
-   "line": "₹7,966 cr spent in H1, 109% of plan, ahead of tonight's Q2 numbers",
-   "more": [
-    "Annual capex target ₹16,500 cr; 48% done",
-    "Mine infrastructure ₹2,152 cr, land ₹2,033 cr",
-    "Q2 coal supplies rose 12.1% to 186.1 MT"
-   ],
-   "src": {
-    "title": "Coal India H1 FY27 capex rises 27% to Rs 7,966 crore, exceeds target — PSU Watch",
-    "url": "https://psuwatch.com/newsupdates/coal-indias-h1-fy27-capex-rises-27-to-rs-7966-crore-exceeds-target"
-   },
-   "date": "2026-10-29",
-   "slot": "1500",
-   "when": "Thu · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "asian-paints-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Asian Paints profit up 7.5%, below estimate",
-   "line": "Profit ₹1,067.6 cr vs ~₹1,115 cr expected as input costs ate into margins",
-   "more": [
-    "Consolidated sales up 16.9% to ₹9,953.9 cr",
-    "Standalone PBDIT margin 17.1%",
-    "Interim dividend ₹5.75; record date Nov 4"
-   ],
-   "src": {
-    "title": "Asian Paints Q2 net profit rises 7.5% to Rs 1,067.6 cr — Whalesbook",
-    "url": "https://www.whalesbook.com/corporate-news/English/consumer-products/Asian-Paints-Q2-Net-Profit-Rises-75percent-to-Rs-10676-Cr/6ae30541c6c6dccbb90adb84"
-   },
-   "date": "2026-10-29",
-   "slot": "1430",
-   "when": "Thu · 14:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1030"
-   }
-  },
-  {
-   "key": "hyundai-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Hyundai rallies 4–6% despite profit slump",
-   "line": "Brokers stay bullish on new models; Morgan Stanley targets ₹2,438",
-   "more": [
-    "Traded at ₹1,945, +4.18% at 9:30 am",
-    "CLSA Outperform, ₹2,300 target; Nomura up to ₹2,442",
-    "Management still sees 8–10% FY27 domestic growth",
-    "Citi cut target; Jefferies stays Underperform"
-   ],
-   "src": {
-    "title": "Hyundai Motor shares jump 6% even as Q2 net profit declines 24%; why brokerages remain bullish — inkl",
-    "url": "https://www.inkl.com/news/hyundai-motor-shares-jump-6-even-as-q2-net-profit-declines-24-why-nomura-other-brokerages-remain-bullish"
-   },
-   "date": "2026-10-29",
-   "slot": "1330",
-   "when": "Thu · 13:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "hul-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "HUL rebounds ~1.8% as brokers back volumes",
-   "line": "Stock at ₹1,848 a day after Q2; targets trimmed on margin pressure",
-   "more": [
-    "UBS Buy, target cut to ₹2,600 from ₹2,700",
-    "Jefferies cut target to ₹2,350 on inflation",
-    "Morgan Stanley Equal-weight, ₹2,480 target"
-   ],
-   "src": {
-    "title": "HUL share price: why analysts remain bullish after Q2 results — Zee Business",
-    "url": "https://www.zeebiz.com/markets/stocks/news-hul-share-price-why-analysts-remain-bullish-after-q2-results-despite-inflation-and-margin-pressure-404762"
-   },
-   "date": "2026-10-29",
-   "slot": "1330",
-   "when": "Thu · 13:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1330"
-   }
-  },
-  {
-   "key": "adani-ports-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Adani Ports extends gains; brokers upbeat",
-   "line": "Stock up 4–6% after Q2; analysts reiterate 'Buy' with a ₹2,130 target",
-   "more": [
-    "Hit ₹1,823.15 on BSE in morning deals",
-    "Q2 profit up 17–18% to ₹3,682 cr",
-    "FY27 revenue and EBITDA guidance raised"
-   ],
-   "src": {
-    "title": "Adani Ports soars 4% on healthy Q2, raises FY27 guidance; brokerages upbeat — Business Standard",
-    "url": "https://www.business-standard.com/amp/markets/news/adani-ports-soars-4-on-healthy-q2-raises-fy27-guidance-brokerages-upbeat-126102900431_1.html"
-   },
-   "date": "2026-10-29",
-   "slot": "1300",
-   "when": "Thu · 13:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "united-spirits",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "United Spirits up ~4% on margin gains",
-   "line": "Gross margin rose ~88 bps to 48% on mix and productivity, offsetting a volume drop",
-   "more": [
-    "'Regular' segment volumes fell about 30%",
-    "Revenue and net profit declined, per Whalesbook",
-    "One of three FMCG names up over 2% with ITC, Dabur"
-   ],
-   "src": {
-    "title": "United Spirits shares rise 4% as margin gains mask volume drop — Whalesbook",
-    "url": "https://www.whalesbook.com/news/English/brokerage-reports/United-Spirits-Shares-Rise-4percent-as-Margin-Gains-Mask-Volume-Drop/6ae2ef474fc30694db5182ed"
-   },
-   "date": "2026-10-29",
-   "slot": "1300",
-   "when": "Thu · 13:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "subros-maruti-order",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Subros wins ₹1,225 cr Maruti HVAC order",
-   "line": "Seven-year supply deal sent the auto-parts maker up ~10% intraday Wednesday",
-   "more": [
-    "Stock hit ₹678.80 intraday on the filing",
-    "Still down about 45% over the past year"
-   ],
-   "src": {
-    "title": "Subros shares surge 10% on Rs 1,225 crore Maruti order — Archyde",
-    "url": "https://www.archyde.com/subros-shares-surge-10-on-rs-1225-crore-maruti-order/"
-   },
-   "date": "2026-10-29",
-   "slot": "1230",
-   "when": "Thu · 12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "sebi-fpi-review",
-   "tag": "Regulation",
-   "impact": "pos",
-   "title": "Sebi to review rules deterring foreign investors",
-   "line": "Chair Pandey says a consultation paper will align FPI rules with global norms",
-   "more": [
-    "Net settlement facility to go live in December",
-    "FPI onboarding already simplified via common form",
-    "No timeline or rule list published yet"
-   ],
-   "src": {
-    "title": "Sebi to review foreign investor rules: what could change for FPIs — BusinessToday",
-    "url": "https://businesstoday.in/markets/story/sebi-to-review-foreign-investor-rules-what-could-change-for-fpis-in-indian-markets-564391-2026-10-28"
-   },
-   "date": "2026-10-29",
-   "slot": "1200",
-   "when": "Thu · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "bccl-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Bharat Coking Coal swings to profit",
-   "line": "Coal India arm earned ₹123.7 cr vs a ₹53 cr loss; shares jumped 5%",
-   "more": [
-    "Revenue up 39% to ₹4,412.6 cr",
-    "Offtake volumes rose nearly 10% YoY",
-    "Half-year profit still lower at ₹55.7 cr"
-   ],
-   "src": {
-    "title": "Bharat Coking Coal shares jump 5% after Q2 profit rises to ₹123.7 crore — Kotak Neo",
-    "url": "https://www.kotakneo.com/news/stocks/bharat-coking-coal-shares-q2-results-profit-revenue-growth/"
-   },
-   "date": "2026-10-29",
-   "slot": "1130",
-   "when": "Thu · 11:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "1130"
-   }
-  },
-  {
-   "key": "tvs-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "TVS Motor rallied ~4% on record quarter",
-   "line": "Shares closed near ₹4,239 Wednesday after profit rose 52% to ₹1,377 cr",
-   "more": [
-    "Two- and three-wheeler sales grew 27% to 1.9 million units",
-    "Board approved demerger of the consumer finance business"
-   ],
-   "src": {
-    "title": "TVS Motor shares rise 4% as Q2 revenue hits record, profit jumps 52% — BusinessToday",
-    "url": "https://www.businesstoday.in/markets/stocks/story/tvs-motor-shares-rise-4-as-q2-revenue-hits-record-profit-jumps-52-564321-2026-10-28"
-   },
-   "date": "2026-10-29",
-   "slot": "0930",
-   "when": "Thu · 9:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-29",
-    "slot": "0930"
    }
   }
  ]
