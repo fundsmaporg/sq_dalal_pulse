@@ -1,101 +1,112 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-06T16:27:10+05:30",
+ "generated_at": "2026-11-06T17:59:50+05:30",
  "date": "2026-11-06",
- "slot": "1625",
- "slot_label": "16:25",
- "stage": "Post-market mood",
- "asof": "2026-11-06T16:25:00+05:30",
+ "slot": "1800",
+ "slot_label": "18:00",
+ "stage": "Evening wrap",
+ "asof": "2026-11-06T18:00:00+05:30",
  "nifty": {
   "value": 25030.35,
   "pct": 2.01,
   "chg": 493.75,
   "approx": false,
-  "asof_quote": "Nov 6 close per The Tribune/ANI; Sensex 81,028.02 (+1,718.01); Zee Business has the Sensex at 81,024.13"
+  "asof_quote": "Nov 6 close per The Tribune/ANI"
  },
  "mood": {
-  "label": "Strong, narrow close",
-  "score": 0.55,
-  "summary": "Large caps closed sharply higher for a seventh straight session, shrugging off the global AI rout, while midcaps ended flat and smallcaps slipped, so the rally was narrow.",
+  "label": "Firm but stretched",
+  "score": 0.3,
+  "summary": "After a seventh straight gain led by large caps, the setup for Monday looks firm, though tonight's US jobs data and talk of a stretched rally could temper follow-through.",
   "detail": {
-   "leaders": "M&M, ICICI Bank, HDFC Bank; private banks",
-   "laggards": "Smallcaps; Astral and LIC after Q2",
-   "tone": "Reading of the close: firmer than the 1555 read on breadth, as midcaps recovered to flat, but gains stayed concentrated in banks and a few large caps.",
+   "leaders": "Private banks and large caps with strong results look set to stay in favour",
+   "laggards": "Mid and small caps may keep lagging; watch results losers like Astral",
+   "tone": "Forward-looking read for Monday: still positive, but a little more cautious than the close, as analysts flag the risk of profit-taking after seven straight gains.",
    "watch": [
-    "Today's FII and DII figures, due this evening",
-    "US October jobs report at 7 pm IST",
-    "Analysts expect some profit-taking after seven straight gains"
+    "US October jobs report at 7 pm IST and Wall Street's reaction",
+    "Friday's FII figures, due later this evening",
+    "Sunday's Diwali Muhurat session and the Tuesday market holiday"
    ],
    "src": {
-    "title": "The Tribune: Dhanteras bonanza on D-Street! Sensex jumps 1,718 points, Nifty tops 25,000",
+    "title": "The Tribune: Sensex jumps 1,718 points, Nifty tops 25,000",
     "url": "https://www.tribuneindia.com/news/business/dhanteras-bonanza-on-d-street-sensex-jumps-1718-points-nifty-tops-25000"
-   },
-   "movers": {
-    "up": {
-     "summary": "Private banks and M&M drove the benchmarks' big finish",
-     "why": "Foreign buying poured into heavyweight lenders late in the day, and M&M rallied on its results.",
-     "names": [
-      {
-       "name": "M&M",
-       "dir": "up",
-       "move": "+6.15%",
-       "line": "Top Sensex gainer as Q2 auto profit jumped 55%"
-      },
-      {
-       "name": "ICICI Bank",
-       "dir": "up",
-       "move": "+4.65%",
-       "line": "Led the late private-bank surge"
-      },
-      {
-       "name": "HDFC Bank",
-       "dir": "up",
-       "move": "+3.56%",
-       "line": "Heavyweight lender drew foreign buying alongside ICICI"
-      },
-      {
-       "name": "Nifty Private Bank",
-       "dir": "up",
-       "line": "Best-performing sector of the day"
-      }
-     ],
-     "src": {
-      "title": "The Tribune: Dhanteras bonanza on D-Street! Sensex jumps 1,718 points, Nifty tops 25,000",
-      "url": "https://www.tribuneindia.com/news/business/dhanteras-bonanza-on-d-street-sensex-jumps-1718-points-nifty-tops-25000"
-     }
-    },
-    "down": {
-     "summary": "Smallcaps slipped and weak results hit Astral and LIC",
-     "why": "Investors favoured large caps and sold stocks with disappointing quarters.",
-     "names": [
-      {
-       "name": "Nifty Smallcap 100",
-       "dir": "down",
-       "move": "-0.82%",
-       "line": "Riskier stocks missed out as buying stayed in large caps"
-      },
-      {
-       "name": "Astral",
-       "dir": "down",
-       "move": "down ~12%",
-       "line": "Q2 margin shrank to 13.1%; stock hit a 52-week low"
-      },
-      {
-       "name": "LIC",
-       "dir": "down",
-       "move": "down ~4%",
-       "line": "Value of new business missed estimates; premium growth weak"
-      }
-     ],
-     "src": {
-      "title": "Business Standard: Stock Market Close — Nifty reclaims 25K as rally extends to 7th day; Sensex up 1,718 pts; banks shine",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
-     }
-    }
    }
   }
  },
  "insights": [
+  {
+   "key": "bosch-bonus",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Bosch approves 1:5 split and 3:1 bonus",
+   "line": "Each share becomes 20 after both actions; Q2 consolidated profit about ₹840 cr",
+   "more": [
+    "Standalone Q2 profit up about 21.7% to ₹674.6 cr",
+    "Needs shareholder approval; record date not yet set",
+    "Stock slipped 4.3% from its day's high of ₹52,650"
+   ],
+   "src": {
+    "title": "Business Standard: Bosch slips 4% from day's high; announces 1:5 stock split, 3:1 bonus issue",
+    "url": "https://www.business-standard.com/markets/news/bosch-slips-4-from-day-s-high-announces-1-5-stock-split-3-1-bonus-issue-126110601033_1.html"
+   },
+   "date": "2026-11-06",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "1155"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "US futures mixed ahead of payrolls",
+   "line": "Nasdaq-100 futures bounce 1–1.7% while Dow futures slip 0.7–1% before jobs data",
+   "more": [
+    "Thursday's Nasdaq drop was its worst in 19 months",
+    "Consensus sees roughly 59,000–65,000 jobs added",
+    "Unemployment expected to hold at 4.2%"
+   ],
+   "src": {
+    "title": "Yahoo Finance: Dow, S&P 500, Nasdaq futures wobble after brutal sell-off, with key jobs report on deck",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-091927729.html"
+   },
+   "date": "2026-11-06",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Thursday's FII buying was a six-year high",
+   "line": "Net purchases of about ₹14,975 cr were the largest single day in nearly six years",
+   "more": [
+    "DIIs net sold about ₹10,445 cr that day",
+    "Friday's provisional figures are not out yet"
+   ],
+   "src": {
+    "title": "Quantsapp: FII DII data",
+    "url": "https://www.quantsapp.com/fii-dii"
+   },
+   "date": "2026-11-06",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "pre"
+   }
+  },
   {
    "key": "bank-rally",
    "tag": "Flows",
@@ -115,7 +126,7 @@
    "slot": "1625",
    "when": "16:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1225"
@@ -139,7 +150,7 @@
    "slot": "1625",
    "when": "16:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1000"
@@ -163,34 +174,10 @@
    "slot": "1625",
    "when": "16:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-01",
     "slot": "outlook"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "Friday's FII data still awaited",
-   "line": "FIIs net bought about ₹14,975 cr on Thursday; Friday's figures are not out yet",
-   "more": [
-    "DIIs net sold about ₹10,445 cr on Thursday",
-    "Heavy foreign buying drove the late bank rally"
-   ],
-   "src": {
-    "title": "Quantsapp: FII DII data",
-    "url": "https://www.quantsapp.com/fii-dii"
-   },
-   "date": "2026-11-06",
-   "slot": "1625",
-   "when": "16:25",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "pre"
    }
   },
   {
@@ -363,30 +350,6 @@
    }
   },
   {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "US futures split: Nasdaq up, Dow down",
-   "line": "Nasdaq 100 futures up about 0.7–0.9% while Dow futures fall about 0.9–1%",
-   "more": [
-    "Follows Thursday's 5.5% Nasdaq plunge",
-    "Snapshots from early European hours"
-   ],
-   "src": {
-    "title": "TMGM: Dow Jones futures fall following steep Wall Street sell-off, NFP data awaited",
-    "url": "https://tmgm.com/en/analysis/market-news/article/dow-jones-futures-fall-following-steep-wall-street-sell-off-nfp-data-awaited-202611060720"
-   },
-   "date": "2026-11-06",
-   "slot": "1355",
-   "when": "13:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "pre"
-   }
-  },
-  {
    "key": "us-jobs",
    "tag": "Macro",
    "impact": "watch",
@@ -531,31 +494,6 @@
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1255"
-   }
-  },
-  {
-   "key": "bosch-bonus",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Bosch weighs first bonus issue in ~40 years",
-   "line": "Board meets today on a bonus issue and share split; the stock is near record levels",
-   "more": [
-    "Last bonus was in 1986; last split in 2004",
-    "Shares rose about 9% over three sessions on the plan",
-    "Ratios and record date not yet disclosed"
-   ],
-   "src": {
-    "title": "Zee Business: First-ever bonus issue + stock split — Bosch shares hit 52-week high as board considers proposals",
-    "url": "https://www.zeebiz.com/market-news/news-first-ever-bonus-issue-stock-split-bosch-shares-zoom-3-hit-52-week-high-as-board-to-consider-proposals-405004"
-   },
-   "date": "2026-11-06",
-   "slot": "1225",
-   "when": "12:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1155"
    }
   },
   {
