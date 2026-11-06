@@ -1,90 +1,101 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-06T15:26:44+05:30",
+ "generated_at": "2026-11-06T15:56:49+05:30",
  "date": "2026-11-06",
- "slot": "1525",
- "slot_label": "15:25",
- "stage": "Closing mood",
- "asof": "2026-11-06T15:25:00+05:30",
+ "slot": "1555",
+ "slot_label": "15:55",
+ "stage": "Post-market mood",
+ "asof": "2026-11-06T15:55:00+05:30",
  "nifty": {
-  "value": 24877.05,
-  "pct": 1.39,
-  "chg": 339.95,
-  "approx": true,
-  "asof_quote": "3 PM entry, Business Standard live blog: Nifty 24,877.05 (+339.95), Sensex 80,649.50 (+1,339.49)"
+  "value": 25030.35,
+  "pct": 2.01,
+  "chg": 493.75,
+  "approx": false,
+  "asof_quote": "Nov 6 close per The Tribune/ANI; Sensex 81,028.02 (+1,718.01); Zee Business has the Sensex at 81,024.13"
  },
  "mood": {
-  "label": "Late surge",
-  "score": 0.5,
-  "summary": "Benchmarks are heading into the close near the day's highs after a strong afternoon surge led by IT and private banks, while mid and small caps stay in the red, leaving breadth weak.",
+  "label": "Large-cap rally",
+  "score": 0.55,
+  "summary": "Large caps closed with a powerful rally, extending the winning streak to seven sessions despite the global AI rout, but mid and small caps fell, so breadth stayed poor.",
   "detail": {
-   "leaders": "Nifty IT and Nifty Bank; M&M",
-   "laggards": "Smallcaps, midcaps and Astral",
-   "tone": "Live read: stronger than 1455, with the Sensex up about 1,340 points by 3 PM, though smaller stocks did not join in.",
+   "leaders": "M&M, ICICI Bank, HDFC Bank and Nifty IT",
+   "laggards": "Smallcaps, midcaps, Nifty Realty and Astral",
+   "tone": "Live read of the finished session: much stronger than 1525, as heavy late buying in banks powered a much bigger finish, though the advance was confined to large caps.",
    "watch": [
-    "Final closing figures and today's FII data",
+    "Today's FII and DII figures due this evening",
     "US October jobs report at 7 pm IST",
-    "Whether mid and small caps recover next week"
+    "Analysts expect some profit-taking next week"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE, Nov 6 (3 PM update)",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+    "title": "The Tribune: Dhanteras bonanza on D-Street! Sensex jumps 1,718 points, Nifty tops 25,000",
+    "url": "https://www.tribuneindia.com/news/business/dhanteras-bonanza-on-d-street-sensex-jumps-1718-points-nifty-tops-25000"
    },
    "movers": {
     "up": {
-     "summary": "IT and private banks are powering the benchmarks to the day's highs",
-     "why": "Investors are rotating into Indian IT from global AI stocks, and foreign inflows are going into heavyweight private banks.",
+     "summary": "Private banks, M&M and IT carried the benchmarks to a big gain",
+     "why": "Foreign buying went into heavyweight banks, and IT gained as money rotated out of global AI stocks.",
      "names": [
-      {
-       "name": "Nifty IT",
-       "dir": "up",
-       "move": "+1.9%",
-       "line": "Top sector as money shifts from global AI stocks to Indian IT services"
-      },
-      {
-       "name": "Nifty Bank",
-       "dir": "up",
-       "move": "up ~1–1.7%",
-       "line": "FII buying concentrated in heavyweight private banks"
-      },
       {
        "name": "M&M",
        "dir": "up",
-       "move": "up ~5%",
-       "line": "Auto profit up 55% in Q2; Jefferies keeps Buy"
+       "move": "+6.15%",
+       "line": "Top Sensex gainer after Q2 auto profit jumped 55%"
+      },
+      {
+       "name": "ICICI Bank",
+       "dir": "up",
+       "move": "+4.65%",
+       "line": "Led the private-bank surge that drove the late rally"
+      },
+      {
+       "name": "HDFC Bank",
+       "dir": "up",
+       "move": "+3.56%",
+       "line": "Heavyweight lender drew FII buying alongside ICICI"
+      },
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "move": "up ~1.9%",
+       "line": "Gained as investors moved from global AI stocks to Indian IT"
       }
      ],
      "src": {
-      "title": "DSIJ: Sensex surges 1,230 points, Nifty nears 24,900; banks lead 7-day rally",
-      "url": "https://insights.dsij.in/dsijarticledetail/sensex-surges-1230-points-nifty-nears-24900-banks-lead-7-day-rally-60347"
+      "title": "The Tribune: Dhanteras bonanza on D-Street! Sensex jumps 1,718 points, Nifty tops 25,000",
+      "url": "https://www.tribuneindia.com/news/business/dhanteras-bonanza-on-d-street-sensex-jumps-1718-points-nifty-tops-25000"
      }
     },
     "down": {
-     "summary": "Smaller stocks are still falling even as the large-cap indices surge",
-     "why": "Investors are trimming riskier stocks after Thursday's broad rally even as the large-cap indices climb.",
+     "summary": "Smaller stocks and realty fell even as the benchmarks surged",
+     "why": "Investors trimmed riskier stocks and punished weak results while buying large caps.",
      "names": [
       {
        "name": "Nifty Smallcap 100",
        "dir": "down",
        "move": "-1.54%",
-       "line": "Riskiest pocket hit hardest as traders cut exposure"
+       "line": "Riskiest pocket sold as traders cut exposure; afternoon figure"
       },
       {
        "name": "Nifty Midcap 100",
        "dir": "down",
        "move": "-0.93%",
-       "line": "Gives back part of Thursday's gains"
+       "line": "Gave back part of Thursday's gains; afternoon figure"
+      },
+      {
+       "name": "Nifty Realty",
+       "dir": "down",
+       "line": "Worst-performing sector after a sharp gain on Thursday"
       },
       {
        "name": "Astral",
        "dir": "down",
        "move": "down ~12%",
-       "line": "Q2 margin shrank to 13.1%; stock at a 52-week low"
+       "line": "Q2 margin shrank to 13.1%; stock hit a 52-week low"
       }
      ],
      "src": {
-      "title": "DSIJ: Sensex rises 450 points, Nifty 50 gains 0.32% as IT shares rally; mid and small caps underperform",
-      "url": "https://insights.dsij.in/dsijarticledetail/sensex-rises-450-points-nifty-50-gains-032-as-it-shares-rally-mid-and-small-caps-underperform-60342"
+      "title": "Business Standard: Stock Market Close — Nifty reclaims 25K as rally extends to 7th day; Sensex up 1,718 pts; banks shine",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
      }
     }
    }
@@ -95,24 +106,72 @@
    "key": "bank-rally",
    "tag": "Flows",
    "impact": "pos",
-   "title": "Private banks lead late surge on FII buying",
-   "line": "Nifty Bank rose up to about 1.7% as foreign money went into heavyweight lenders",
+   "title": "Private banks power the late rally",
+   "line": "ICICI Bank rose 4.65% and HDFC Bank 3.56% as FII money poured into lenders",
    "more": [
-    "Builds on a 3.3% jump in Nifty Bank on Thursday",
-    "Buying is concentrated in private banks, autos and consumer names"
+    "Nifty Private Bank was the best sector of the day",
+    "Foreign buying has supported markets for several sessions"
    ],
    "src": {
-    "title": "DSIJ: Sensex surges 1,230 points, Nifty nears 24,900; banks lead 7-day rally",
-    "url": "https://insights.dsij.in/dsijarticledetail/sensex-surges-1230-points-nifty-nears-24900-banks-lead-7-day-rally-60347"
+    "title": "The Tribune: Dhanteras bonanza on D-Street! Sensex jumps 1,718 points, Nifty tops 25,000",
+    "url": "https://www.tribuneindia.com/news/business/dhanteras-bonanza-on-d-street-sensex-jumps-1718-points-nifty-tops-25000"
    },
    "date": "2026-11-06",
-   "slot": "1525",
-   "when": "15:25",
+   "slot": "1555",
+   "when": "15:55",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1225"
+   }
+  },
+  {
+   "key": "m-m-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "M&M ends as top Sensex gainer, up 6.15%",
+   "line": "Auto strength in Q2 outweighed a cut to its tractor outlook",
+   "more": [
+    "Consolidated Q2 profit rose 25% to ₹4,588 cr",
+    "Jefferies kept Buy with a ₹4,000 target"
+   ],
+   "src": {
+    "title": "The Tribune: Dhanteras bonanza on D-Street! Sensex jumps 1,718 points, Nifty tops 25,000",
+    "url": "https://www.tribuneindia.com/news/business/dhanteras-bonanza-on-d-street-sensex-jumps-1718-points-nifty-tops-25000"
+   },
+   "date": "2026-11-06",
+   "slot": "1555",
+   "when": "15:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "profit-booking",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Analysts warn the rally looks stretched",
+   "line": "After seven straight gains, some expect profit-taking next week",
+   "more": [
+    "Gains were narrow: mid and small caps fell",
+    "India VIX rose about 10% during the day"
+   ],
+   "src": {
+    "title": "The Tribune: Dhanteras bonanza on D-Street! Sensex jumps 1,718 points, Nifty tops 25,000",
+    "url": "https://www.tribuneindia.com/news/business/dhanteras-bonanza-on-d-street-sensex-jumps-1718-points-nifty-tops-25000"
+   },
+   "date": "2026-11-06",
+   "slot": "1555",
+   "when": "15:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "0930"
    }
   },
   {
@@ -133,7 +192,7 @@
    "slot": "1525",
    "when": "15:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1200"
@@ -157,7 +216,7 @@
    "slot": "1525",
    "when": "15:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "0955"
@@ -480,30 +539,6 @@
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1155"
-   }
-  },
-  {
-   "key": "m-m-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "M&M jumps 5% despite a cut to its tractor outlook",
-   "line": "Strong auto profit outweighs a cut to its tractor guidance; Jefferies keeps Buy at ₹4,000",
-   "more": [
-    "Consolidated Q2 profit up 25% to ₹4,588 cr",
-    "Another broker reiterated Buy with a ₹3,850 target"
-   ],
-   "src": {
-    "title": "Business Standard: M&M jumps 5% even as firm cuts tractor outlook; what's behind the rise?",
-    "url": "https://business-standard.com/markets/news/m-m-jumps-5-even-as-firm-cuts-tractor-outlook-what-s-behind-the-rise-126110600504_1.html"
-   },
-   "date": "2026-11-06",
-   "slot": "1125",
-   "when": "11:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "0925"
    }
   },
   {
@@ -3196,30 +3231,6 @@
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "profit-booking",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Brokers flag profit booking after rally",
-   "line": "Kotak expects a cautiously positive start, but warns profit taking may cap gains",
-   "more": [
-    "Sensex and Nifty each gained over 1% on Thursday",
-    "Realty and FMCG led that rally"
-   ],
-   "src": {
-    "title": "Sensex and Nifty 50 look to extend gains after previous day's rally — Kotak Neo",
-    "url": "https://www.kotakneo.com/news/market-news/pre-market-30-october-2026-markets-look-to-maintain-momentum/"
-   },
-   "date": "2026-10-30",
-   "slot": "0930",
-   "when": "Fri · 9:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "0930"
    }
   },
   {
