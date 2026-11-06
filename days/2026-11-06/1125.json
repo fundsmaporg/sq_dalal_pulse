@@ -1,0 +1,170 @@
+{
+ "asof": "2026-11-06T11:25:00+05:30",
+ "summary": "Indian stocks have extended their gains through late morning in defiance of the global sell-off, with IT and autos leading, while metals and realty remain the weak spots.",
+ "mood": {
+  "label": "Gains broaden slightly",
+  "score": 0.25,
+  "detail": {
+   "stats": [],
+   "leaders": "IT stocks led by Mphasis and TCS; M&M",
+   "laggards": "Hindalco, Nifty Realty and Groww",
+   "movers": {
+    "up": {
+     "summary": "IT stocks and M&M are driving the benchmarks higher",
+     "why": "Investors are rotating out of global AI hardware names into Indian IT services, and M&M is extending its post-results rally.",
+     "names": [
+      {
+       "name": "Mphasis",
+       "move": "+3.55%",
+       "dir": "up",
+       "line": "Top Nifty IT gainer as investors buy IT services"
+      },
+      {
+       "name": "TCS",
+       "move": "up ~1.6–1.8%",
+       "dir": "up",
+       "line": "Seen as a beneficiary if AI hardware spending slows"
+      },
+      {
+       "name": "Infosys",
+       "move": "up ~1.4–1.6%",
+       "dir": "up",
+       "line": "Joins broad-based buying across the IT pack"
+      },
+      {
+       "name": "M&M",
+       "move": "up ~5%",
+       "dir": "up",
+       "line": "Strong auto profit outweighs a cut to its tractor outlook; Jefferies says Buy"
+      }
+     ],
+     "src": {
+      "title": "Zee Business: IT stocks rally — Nifty IT hits 9-month high; why are Mphasis, HCLTech, TCS rising?",
+      "url": "https://www.zeebiz.com/market-news/news-it-stocks-rally-nifty-it-hits-9-month-high-why-are-mphasis-hcltech-tcs-others-rising-405209"
+     }
+    },
+    "down": {
+     "summary": "Hindalco, realty stocks and Groww are the main drags",
+     "why": "Selling is concentrated in names with weak results, heavy block-deal supply, or big gains on Thursday.",
+     "names": [
+      {
+       "name": "Hindalco",
+       "move": "down up to ~5%",
+       "dir": "down",
+       "line": "Novelis Q2 hit by lower shipments, US tariffs and disruptions"
+      },
+      {
+       "name": "Nifty Realty",
+       "move": "-2%",
+       "dir": "down",
+       "line": "Gives back part of Thursday's sharp gain"
+      },
+      {
+       "name": "Groww",
+       "move": "about -5% to -7%",
+       "dir": "down",
+       "line": "Large block deals add supply; worst fall since May"
+      }
+     ],
+     "src": {
+      "title": "Trade Brains: Why did Hindalco shares fall 5% in today's trading session?",
+      "url": "https://tradebrains.in/indian-markets/why-did-hindalco-shares-fall-5-in-todays-trading-session-12787888"
+     }
+    }
+   },
+   "tone": "Live read: a touch stronger than 1055, as gains spread from IT to autos, though metals and realty are still lagging.",
+   "watch": [
+    "Whether IT can hold its gains if US tech futures slip",
+    "Further block-deal selling in recently listed stocks",
+    "US jobs data this evening"
+   ],
+   "src": {
+    "title": "Business Standard Hindi: Stock Market LIVE — Sensex up 400 points on Dhanteras, M&M up 5%",
+    "url": "https://hindi.business-standard.com/markets/stock-market/stock-market-live-6-november-2026-sensex-nifty-crude-oil-prices-gift-nifty-dhanteras-id-565713"
+   }
+  }
+ },
+ "nifty": {
+  "value": 24640,
+  "pct": 0.42,
+  "approx": true,
+  "asof_quote": "Ticker on Business Standard Hindi live blog shows about 24,648.70 (Sensex 79,813); timestamp not confirmed"
+ },
+ "top": [
+  {
+   "key": "m-m-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "M&M jumps 5% despite a cut to its tractor outlook",
+   "line": "Strong auto profit outweighs a cut to its tractor guidance; Jefferies keeps Buy at ₹4,000",
+   "more": [
+    "Consolidated Q2 profit up 25% to ₹4,588 cr",
+    "Another broker reiterated Buy with a ₹3,850 target"
+   ],
+   "src": {
+    "title": "Business Standard: M&M jumps 5% even as firm cuts tractor outlook; what's behind the rise?",
+    "url": "https://business-standard.com/markets/news/m-m-jumps-5-even-as-firm-cuts-tractor-outlook-what-s-behind-the-rise-126110600504_1.html"
+   }
+  },
+  {
+   "key": "it-rotation",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Nifty IT reaches a nine-month high",
+   "line": "Broad buying across IT services as money leaves global AI hardware stocks",
+   "more": [
+    "Mphasis, HCLTech, TCS and Infosys all up 1–4%",
+    "IT is the main support for the benchmarks today"
+   ],
+   "src": {
+    "title": "Zee Business: IT stocks rally — Nifty IT hits 9-month high; why are Mphasis, HCLTech, TCS rising?",
+    "url": "https://www.zeebiz.com/market-news/news-it-stocks-rally-nifty-it-hits-9-month-high-why-are-mphasis-hcltech-tcs-others-rising-405209"
+   }
+  },
+  {
+   "key": "hindalco-novelis",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Brokers split on Hindalco after Novelis miss",
+   "line": "Shares fell up to 5% intraday on weak Novelis shipments and higher US tariffs",
+   "more": [
+    "Citi Neutral, Jefferies Hold, HSBC Buy",
+    "Rising debt adds to concerns"
+   ],
+   "src": {
+    "title": "Trade Brains: Why did Hindalco shares fall 5% in today's trading session?",
+    "url": "https://tradebrains.in/indian-markets/why-did-hindalco-shares-fall-5-in-todays-trading-session-12787888"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Business Standard Hindi: Stock Market LIVE — Sensex up 400 points on Dhanteras, M&M up 5%",
+   "url": "https://hindi.business-standard.com/markets/stock-market/stock-market-live-6-november-2026-sensex-nifty-crude-oil-prices-gift-nifty-dhanteras-id-565713"
+  },
+  {
+   "title": "Business Standard: M&M jumps 5% even as firm cuts tractor outlook; what's behind the rise?",
+   "url": "https://business-standard.com/markets/news/m-m-jumps-5-even-as-firm-cuts-tractor-outlook-what-s-behind-the-rise-126110600504_1.html"
+  },
+  {
+   "title": "Zee Business: IT stocks rally — Nifty IT hits 9-month high; why are Mphasis, HCLTech, TCS rising?",
+   "url": "https://www.zeebiz.com/market-news/news-it-stocks-rally-nifty-it-hits-9-month-high-why-are-mphasis-hcltech-tcs-others-rising-405209"
+  },
+  {
+   "title": "Upstox: Indian IT stocks shrug off Wall Street rout; NIFTY IT rises 2%",
+   "url": "https://upstox.com/news/market-news/stocks/indian-it-stocks-shrug-off-wall-street-rout-nifty-it-rises-2-infosys-and-tcs-in-the-green/article-203104/"
+  },
+  {
+   "title": "BusinessToday: Nifty, Sensex escape Wall Street, Asia rout; IT stocks rally; here's why",
+   "url": "https://www.businesstoday.in/markets/stocks/story/nifty-sensex-escape-wall-street-asia-rout-that-wipes-out-over-2-trillion-it-stocks-rally-heres-why-566095-2026-11-06"
+  },
+  {
+   "title": "Trade Brains: Why did Hindalco shares fall 5% in today's trading session?",
+   "url": "https://tradebrains.in/indian-markets/why-did-hindalco-shares-fall-5-in-todays-trading-session-12787888"
+  },
+  {
+   "title": "Business Standard: Stock Market LIVE — Nifty near 24,600; Nifty Realty down 2%",
+   "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+  }
+ ]
+}
