@@ -1,38 +1,155 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-06T08:46:37+05:30",
+ "generated_at": "2026-11-06T09:27:17+05:30",
  "date": "2026-11-06",
- "slot": "0845",
- "slot_label": "8:45",
- "stage": "Pre-market mood",
- "asof": "2026-11-06T08:45:00+05:30",
+ "slot": "0925",
+ "slot_label": "9:25",
+ "stage": "Opening mood",
+ "asof": "2026-11-06T09:25:00+05:30",
  "nifty": {
-  "value": 24536.6,
-  "pct": 2.4,
-  "chg": 576,
-  "approx": false,
-  "asof_quote": "Nov 5 close, Upstox"
+  "value": 24500,
+  "pct": -0.15,
+  "approx": true,
+  "asof_quote": "Near 24,500 in early trade, Business Standard live blog; opened about 24,514"
  },
  "mood": {
-  "label": "Weak open likely",
-  "score": -0.45,
-  "summary": "Indian stocks look set to open lower as a global tech rout weighs, though heavy foreign buying and Thursday's broad rally leave room for domestic names to cushion the fall.",
+  "label": "Flat, fragile breadth",
+  "score": -0.2,
+  "summary": "Frontline indices are holding near flat after a cautious open, but selling is broad underneath as mid and small caps slide while IT and a few results names hold up.",
   "detail": {
-   "leaders": "Results names such as ONGC and Titan; domestic financials on FII buying",
-   "laggards": "IT and tech-linked stocks exposed to the global AI sell-off",
-   "tone": "Forward-looking pre-open read: slightly less bleak than the 0700 note, as GIFT Nifty points to a modest dip rather than the steep falls seen in Korea and Japan.",
+   "leaders": "M&M after its Q2 beat; Nifty IT edges higher",
+   "laggards": "Midcaps and smallcaps slide in a broad sell-off",
+   "tone": "Live read: better than the weak open feared at 0845, as the Nifty is barely lower, but the broad market is clearly under pressure.",
    "watch": [
-    "Whether FIIs keep buying after about ₹15,000 cr of net purchases on Thursday",
-    "Whether Asian markets steady after Korea's circuit-breaker halt",
-    "The US October jobs report due this evening"
+    "Whether the broad-market selling spreads to large caps",
+    "Asian markets after Korea's circuit-breaker halt",
+    "Whether FIIs keep buying through the global sell-off"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — GIFT Nifty falls; Kospi drops 9%, triggers circuit breaker",
+    "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty near 24,500; Nifty IT rises 1%",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+   },
+   "movers": {
+    "up": {
+     "summary": "M&M and IT stocks are holding up the frontline indices",
+     "why": "Results-driven buying and firm IT shares are offsetting losses elsewhere among large caps.",
+     "names": [
+      {
+       "name": "M&M",
+       "dir": "up",
+       "line": "Among top Sensex gainers after Q2 profit beat; auto profit up 55%"
+      },
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "move": "up ~1%",
+       "line": "Infosys and TCS among top gainers; no specific trigger reported yet"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty near 24,500; Nifty IT rises 1%",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+     }
+    },
+    "down": {
+     "summary": "Midcaps and smallcaps fall more than 1% as risk appetite cools",
+     "why": "Higher-beta stocks bear the brunt as investors cut risk after the global tech rout.",
+     "names": [
+      {
+       "name": "Nifty Midcap 100",
+       "dir": "down",
+       "move": "-1.16%",
+       "line": "Profit-taking after Thursday's broad rally as global markets sell off"
+      },
+      {
+       "name": "Nifty Smallcap 100",
+       "dir": "down",
+       "move": "-1.57%",
+       "line": "Falls hardest, the riskiest pocket hit first in a risk-off session"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty near 24,500; Nifty IT rises 1%",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+     }
+    }
    }
   }
  },
  "insights": [
+  {
+   "key": "m-m-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "M&M Q2 profit up 25% on auto strength",
+   "line": "Consolidated profit of ₹4,588 cr; standalone profit beat estimates",
+   "more": [
+    "Auto business profit up 55% on 39% revenue growth",
+    "Farm business saw lower sales and margins",
+    "Shares jumped about 5–6.5% on Thursday"
+   ],
+   "src": {
+    "title": "BusinessToday: M&M Q2 results — profit jumps 25% to Rs 4,588 crore; shares rally 6.5%",
+    "url": "https://www.businesstoday.in/markets/stocks/story/mm-q2-results-profit-jumps-25-to-rs-4588-crore-shares-rally-6-5-565874-2026-11-05"
+   },
+   "date": "2026-11-06",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "titan-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Titan's profit jump includes one-off gain",
+   "line": "Q2 profit of ₹2,393 cr includes a ₹671 cr one-time accounting gain",
+   "more": [
+    "Headline profit up about 114% year on year",
+    "Underlying growth is much lower without the one-off"
+   ],
+   "src": {
+    "title": "Whalesbook: ONGC, Bharti Airtel, Titan post strong Q2 earnings",
+    "url": "https://www.whalesbook.com/news/English/economy/ONGC-Bharti-Airtel-Titan-Post-Strong-Q2-Earnings/6aed39374fc30694db604fe3"
+   },
+   "date": "2026-11-06",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "airtel-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Airtel profit settles at ₹8,888 cr",
+   "line": "Consolidated profit rose 8.8% quarter on quarter; shares slipped 0.7% on Thursday",
+   "more": [
+    "Higher ₹10,700 cr figures in some reports don't match",
+    "Profit missed the ₹9,209 cr estimate"
+   ],
+   "src": {
+    "title": "Upstox: Q2 Results Highlights — LIC profit climbs 20% YoY; ONGC declares dividend",
+    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-bharti-airtel-lic-m-and-m-titan-ongc-britannia-lg-bharat-forge-others-to-declare-earnings/liveblog-203021/"
+   },
+   "date": "2026-11-06",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "2100"
+   }
+  },
   {
    "key": "gift-nifty",
    "tag": "Opening",
@@ -52,7 +169,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "pre"
@@ -77,7 +194,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "0845"
@@ -102,7 +219,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "pre"
@@ -127,7 +244,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "0845"
@@ -151,7 +268,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "pre"
@@ -175,7 +292,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "0845"
@@ -255,31 +372,6 @@
    }
   },
   {
-   "key": "airtel-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Airtel Q2 profit up 31% but misses estimate",
-   "line": "Profit of ₹8,888 cr trails the ₹9,209 cr estimate; ARPU rises to ₹271",
-   "more": [
-    "Revenue up 16.7% to ₹60,878 cr",
-    "ARPU of ₹271, up from ₹256 a year earlier",
-    "Higher network costs offset subscriber gains"
-   ],
-   "src": {
-    "title": "BusinessToday: Bharti Airtel Q2 net profit rises 31% to Rs 8,888 crore; ARPU climbs to Rs 271",
-    "url": "https://www.businesstoday.in/markets/stocks/story/bharti-airtel-q2-net-profit-rises-31-to-rs-8888-crore-arpu-climbs-to-rs-271-565993-2026-11-05"
-   },
-   "date": "2026-11-05",
-   "slot": "2100",
-   "when": "Thu · 21:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "2100"
-   }
-  },
-  {
    "key": "lic-q2",
    "tag": "Results",
    "impact": "pos",
@@ -292,30 +384,6 @@
    "src": {
     "title": "Business Standard: LIC Q2FY27 results — net profit increases 20% to ₹12,076 crore",
     "url": "https://www.business-standard.com/amp/companies/quarterly-results/lic-q2fy27-results-net-profit-increases-20-to-12-076-crore-126110501463_1.html"
-   },
-   "date": "2026-11-05",
-   "slot": "2100",
-   "when": "Thu · 21:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "2100"
-   }
-  },
-  {
-   "key": "titan-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Titan Q2 standalone profit more than doubles",
-   "line": "Standalone profit reported at about ₹2,393 cr, up about 114% year on year",
-   "more": [
-    "Second interim dividend of ₹0.05 a share",
-    "Reported on Thursday along with ONGC and LIC"
-   ],
-   "src": {
-    "title": "Upstox: Q2 Results Highlights — LIC profit climbs 20% YoY; ONGC declares dividend",
-    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-bharti-airtel-lic-m-and-m-titan-ongc-britannia-lg-bharat-forge-others-to-declare-earnings/liveblog-203021/"
    },
    "date": "2026-11-05",
    "slot": "2100",
