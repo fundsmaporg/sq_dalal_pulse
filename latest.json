@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-06T17:59:50+05:30",
+ "generated_at": "2026-11-06T21:00:02+05:30",
  "date": "2026-11-06",
- "slot": "1800",
- "slot_label": "18:00",
+ "slot": "2100",
+ "slot_label": "21:00",
  "stage": "Evening wrap",
- "asof": "2026-11-06T18:00:00+05:30",
+ "asof": "2026-11-06T21:00:00+05:30",
  "nifty": {
   "value": 25030.35,
   "pct": 2.01,
@@ -14,25 +14,99 @@
   "asof_quote": "Nov 6 close per The Tribune/ANI"
  },
  "mood": {
-  "label": "Firm but stretched",
-  "score": 0.3,
-  "summary": "After a seventh straight gain led by large caps, the setup for Monday looks firm, though tonight's US jobs data and talk of a stretched rally could temper follow-through.",
+  "label": "Upbeat into Monday",
+  "score": 0.35,
+  "summary": "With US stocks rebounding after a strong jobs report, the setup for Monday looks supportive after India's seventh straight gain, though higher US yields could cap foreign buying.",
   "detail": {
-   "leaders": "Private banks and large caps with strong results look set to stay in favour",
-   "laggards": "Mid and small caps may keep lagging; watch results losers like Astral",
-   "tone": "Forward-looking read for Monday: still positive, but a little more cautious than the close, as analysts flag the risk of profit-taking after seven straight gains.",
+   "leaders": "Large-cap banks and IT could benefit if the US tech rebound holds",
+   "laggards": "Rate-sensitive stocks may feel pressure if US yields keep rising",
+   "tone": "Forward-looking read for Monday: slightly firmer than at 1800 as Wall Street bounces back, but rising Fed rate-hike bets add a new risk.",
    "watch": [
-    "US October jobs report at 7 pm IST and Wall Street's reaction",
-    "Friday's FII figures, due later this evening",
-    "Sunday's Diwali Muhurat session and the Tuesday market holiday"
+    "How Wall Street closes after the jobs-led rebound",
+    "Sunday's Diwali Muhurat session",
+    "Friday's FII figures, still awaited"
    ],
    "src": {
-    "title": "The Tribune: Sensex jumps 1,718 points, Nifty tops 25,000",
-    "url": "https://www.tribuneindia.com/news/business/dhanteras-bonanza-on-d-street-sensex-jumps-1718-points-nifty-tops-25000"
+    "title": "Yahoo Finance: Nasdaq, S&P 500 rebound after brutal sell-off as US adds 165K jobs",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "us-jobs",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "US adds 165,000 jobs, far above forecasts",
+   "line": "Payrolls beat the ~65,000 estimate; unemployment fell to 4.1% from 4.2%",
+   "more": [
+    "Wages rose 0.4% on the month, above forecasts",
+    "August and September revised up by 84,000",
+    "Odds of a Fed rate hike next month rose to 78%"
+   ],
+   "src": {
+    "title": "Reuters via Investing.com: US job growth beats expectations in October; unemployment rate falls to 4.1%",
+    "url": "https://www.investing.com/news/economic-indicators/us-job-growth-beats-expectations-in-october-unemployment-rate-falls-to-41-5008194"
+   },
+   "date": "2026-11-06",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "1355"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Wall Street rebounds after Thursday's rout",
+   "line": "S&P 500 up about 1% in early trade as chip stocks lead the Nasdaq higher",
+   "more": [
+    "Nvidia, AMD and Micron among the leaders",
+    "Dow direction mixed across early reports",
+    "Live figures; the US session is still underway"
+   ],
+   "src": {
+    "title": "Yahoo Finance: Nasdaq, S&P 500 rebound after brutal sell-off as US adds 165K jobs",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
+   },
+   "date": "2026-11-06",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "US yields climb after strong payrolls",
+   "line": "2-year yield up 6 bp to 4.52%; 10-year up 3 bp to 4.87%",
+   "more": [
+    "Higher US yields can weigh on foreign flows into India",
+    "Fed hike bets rose from 70% to 78%"
+   ],
+   "src": {
+    "title": "Strong October jobs report sends yields higher",
+    "url": "https://srnnews.com/strong-october-jobs-report-sends-yields-higher"
+   },
+   "date": "2026-11-06",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0700"
+   }
+  },
   {
    "key": "bosch-bonus",
    "tag": "Stocks",
@@ -52,35 +126,10 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1155"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "US futures mixed ahead of payrolls",
-   "line": "Nasdaq-100 futures bounce 1–1.7% while Dow futures slip 0.7–1% before jobs data",
-   "more": [
-    "Thursday's Nasdaq drop was its worst in 19 months",
-    "Consensus sees roughly 59,000–65,000 jobs added",
-    "Unemployment expected to hold at 4.2%"
-   ],
-   "src": {
-    "title": "Yahoo Finance: Dow, S&P 500, Nasdaq futures wobble after brutal sell-off, with key jobs report on deck",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-091927729.html"
-   },
-   "date": "2026-11-06",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "pre"
    }
   },
   {
@@ -101,7 +150,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "pre"
@@ -338,30 +387,6 @@
    "src": {
     "title": "investingLive: European stock market open — stocks stumble as AI fears spook markets",
     "url": "https://investinglive.com/stocks/european-stock-market-open-stocks-stumble-as-ai-fears-spook-markets-italy-and-spain-lead-losses/"
-   },
-   "date": "2026-11-06",
-   "slot": "1355",
-   "when": "13:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1355"
-   }
-  },
-  {
-   "key": "us-jobs",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "US jobs report due at 7 pm IST",
-   "line": "Consensus sees about 59,000 jobs added in October and unemployment steady at 4.2%",
-   "more": [
-    "Private ADP data beat forecasts earlier in the week",
-    "A strong number could revive Fed rate-hike bets"
-   ],
-   "src": {
-    "title": "FXStreet: Risk-off puts all eyes on US jobs report",
-    "url": "https://www.fxstreet.com/analysis/risk-off-puts-all-eyes-on-us-jobs-report-202611060646"
    },
    "date": "2026-11-06",
    "slot": "1355",
@@ -692,30 +717,6 @@
    "first_seen": {
     "date": "2026-11-06",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "us-yields",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "US yields slip as money seeks safety",
-   "line": "10-year Treasury yield dipped toward 4.84% intraday as investors fled tech",
-   "more": [
-    "Reports put Thursday's 10-year close at about 4.88–4.90%",
-    "Investors are looking ahead to the US jobs report"
-   ],
-   "src": {
-    "title": "CNBC: 10-year Treasury yield falls as traders exit tech stocks, look ahead to jobs data",
-    "url": "https://www.cnbc.com/2026/11/05/treasury-yields-bonds-interest-rates.html"
-   },
-   "date": "2026-11-06",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0700"
    }
   },
   {
