@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-06T15:56:49+05:30",
+ "generated_at": "2026-11-06T16:27:10+05:30",
  "date": "2026-11-06",
- "slot": "1555",
- "slot_label": "15:55",
+ "slot": "1625",
+ "slot_label": "16:25",
  "stage": "Post-market mood",
- "asof": "2026-11-06T15:55:00+05:30",
+ "asof": "2026-11-06T16:25:00+05:30",
  "nifty": {
   "value": 25030.35,
   "pct": 2.01,
@@ -14,17 +14,17 @@
   "asof_quote": "Nov 6 close per The Tribune/ANI; Sensex 81,028.02 (+1,718.01); Zee Business has the Sensex at 81,024.13"
  },
  "mood": {
-  "label": "Large-cap rally",
+  "label": "Strong, narrow close",
   "score": 0.55,
-  "summary": "Large caps closed with a powerful rally, extending the winning streak to seven sessions despite the global AI rout, but mid and small caps fell, so breadth stayed poor.",
+  "summary": "Large caps closed sharply higher for a seventh straight session, shrugging off the global AI rout, while midcaps ended flat and smallcaps slipped, so the rally was narrow.",
   "detail": {
-   "leaders": "M&M, ICICI Bank, HDFC Bank and Nifty IT",
-   "laggards": "Smallcaps, midcaps, Nifty Realty and Astral",
-   "tone": "Live read of the finished session: much stronger than 1525, as heavy late buying in banks powered a much bigger finish, though the advance was confined to large caps.",
+   "leaders": "M&M, ICICI Bank, HDFC Bank; private banks",
+   "laggards": "Smallcaps; Astral and LIC after Q2",
+   "tone": "Reading of the close: firmer than the 1555 read on breadth, as midcaps recovered to flat, but gains stayed concentrated in banks and a few large caps.",
    "watch": [
-    "Today's FII and DII figures due this evening",
+    "Today's FII and DII figures, due this evening",
     "US October jobs report at 7 pm IST",
-    "Analysts expect some profit-taking next week"
+    "Analysts expect some profit-taking after seven straight gains"
    ],
    "src": {
     "title": "The Tribune: Dhanteras bonanza on D-Street! Sensex jumps 1,718 points, Nifty tops 25,000",
@@ -32,32 +32,31 @@
    },
    "movers": {
     "up": {
-     "summary": "Private banks, M&M and IT carried the benchmarks to a big gain",
-     "why": "Foreign buying went into heavyweight banks, and IT gained as money rotated out of global AI stocks.",
+     "summary": "Private banks and M&M drove the benchmarks' big finish",
+     "why": "Foreign buying poured into heavyweight lenders late in the day, and M&M rallied on its results.",
      "names": [
       {
        "name": "M&M",
        "dir": "up",
        "move": "+6.15%",
-       "line": "Top Sensex gainer after Q2 auto profit jumped 55%"
+       "line": "Top Sensex gainer as Q2 auto profit jumped 55%"
       },
       {
        "name": "ICICI Bank",
        "dir": "up",
        "move": "+4.65%",
-       "line": "Led the private-bank surge that drove the late rally"
+       "line": "Led the late private-bank surge"
       },
       {
        "name": "HDFC Bank",
        "dir": "up",
        "move": "+3.56%",
-       "line": "Heavyweight lender drew FII buying alongside ICICI"
+       "line": "Heavyweight lender drew foreign buying alongside ICICI"
       },
       {
-       "name": "Nifty IT",
+       "name": "Nifty Private Bank",
        "dir": "up",
-       "move": "up ~1.9%",
-       "line": "Gained as investors moved from global AI stocks to Indian IT"
+       "line": "Best-performing sector of the day"
       }
      ],
      "src": {
@@ -66,36 +65,31 @@
      }
     },
     "down": {
-     "summary": "Smaller stocks and realty fell even as the benchmarks surged",
-     "why": "Investors trimmed riskier stocks and punished weak results while buying large caps.",
+     "summary": "Smallcaps slipped and weak results hit Astral and LIC",
+     "why": "Investors favoured large caps and sold stocks with disappointing quarters.",
      "names": [
       {
        "name": "Nifty Smallcap 100",
        "dir": "down",
-       "move": "-1.54%",
-       "line": "Riskiest pocket sold as traders cut exposure; afternoon figure"
-      },
-      {
-       "name": "Nifty Midcap 100",
-       "dir": "down",
-       "move": "-0.93%",
-       "line": "Gave back part of Thursday's gains; afternoon figure"
-      },
-      {
-       "name": "Nifty Realty",
-       "dir": "down",
-       "line": "Worst-performing sector after a sharp gain on Thursday"
+       "move": "-0.82%",
+       "line": "Riskier stocks missed out as buying stayed in large caps"
       },
       {
        "name": "Astral",
        "dir": "down",
        "move": "down ~12%",
        "line": "Q2 margin shrank to 13.1%; stock hit a 52-week low"
+      },
+      {
+       "name": "LIC",
+       "dir": "down",
+       "move": "down ~4%",
+       "line": "Value of new business missed estimates; premium growth weak"
       }
      ],
      "src": {
       "title": "Business Standard: Stock Market Close — Nifty reclaims 25K as rally extends to 7th day; Sensex up 1,718 pts; banks shine",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
      }
     }
    }
@@ -106,24 +100,97 @@
    "key": "bank-rally",
    "tag": "Flows",
    "impact": "pos",
-   "title": "Private banks power the late rally",
-   "line": "ICICI Bank rose 4.65% and HDFC Bank 3.56% as FII money poured into lenders",
+   "title": "Private banks were the day's best sector",
+   "line": "ICICI Bank and HDFC Bank led a late surge on foreign buying",
    "more": [
-    "Nifty Private Bank was the best sector of the day",
-    "Foreign buying has supported markets for several sessions"
+    "ICICI Bank up 4.65%, HDFC Bank up 3.56%",
+    "Midcaps ended flat; smallcaps fell 0.82%",
+    "Media was the worst-performing sector"
    ],
    "src": {
-    "title": "The Tribune: Dhanteras bonanza on D-Street! Sensex jumps 1,718 points, Nifty tops 25,000",
-    "url": "https://www.tribuneindia.com/news/business/dhanteras-bonanza-on-d-street-sensex-jumps-1718-points-nifty-tops-25000"
+    "title": "Business Standard: Stock Market Close — Nifty reclaims 25K as rally extends to 7th day; Sensex up 1,718 pts; banks shine",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
    },
    "date": "2026-11-06",
-   "slot": "1555",
-   "when": "15:55",
+   "slot": "1625",
+   "when": "16:25",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1225"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee strengthens to a six-month high",
+   "line": "Rupee touched about 94.06 per dollar as the dollar softened after the US midterms",
+   "more": [
+    "Previous high was 93.99 on April 23",
+    "Sector rotation out of AI stocks also helped"
+   ],
+   "src": {
+    "title": "Business Standard: Rupee hits over 6-month high of 94.06 as US dollar softens post midterms",
+    "url": "https://www.business-standard.com/amp/markets/news/rupee-hits-over-6-month-high-of-94-06-as-us-dollar-softens-post-midterms-126110600788_1.html"
+   },
+   "date": "2026-11-06",
+   "slot": "1625",
+   "when": "16:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "holiday-calendar",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Muhurat session Sunday; market shut Tuesday",
+   "line": "Diwali special session on Sunday, Nov 8; NSE closed Tuesday, Nov 10",
+   "more": [
+    "Monday, Nov 9 is a normal trading day",
+    "NSE will confirm Muhurat timings by circular"
+   ],
+   "src": {
+    "title": "NSE: Market timings and holidays",
+    "url": "https://www.nseindia.com/resources/exchange-communication-holidays"
+   },
+   "date": "2026-11-06",
+   "slot": "1625",
+   "when": "16:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-01",
+    "slot": "outlook"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "Friday's FII data still awaited",
+   "line": "FIIs net bought about ₹14,975 cr on Thursday; Friday's figures are not out yet",
+   "more": [
+    "DIIs net sold about ₹10,445 cr on Thursday",
+    "Heavy foreign buying drove the late bank rally"
+   ],
+   "src": {
+    "title": "Quantsapp: FII DII data",
+    "url": "https://www.quantsapp.com/fii-dii"
+   },
+   "date": "2026-11-06",
+   "slot": "1625",
+   "when": "16:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "pre"
    }
   },
   {
@@ -144,7 +211,7 @@
    "slot": "1555",
    "when": "15:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "0925"
@@ -168,7 +235,7 @@
    "slot": "1555",
    "when": "15:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "0930"
@@ -467,31 +534,6 @@
    }
   },
   {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee hits a seven-month high",
-   "line": "Rupee firms about 40 paise to near 94.07 per dollar from Thursday's 94.47 close",
-   "more": [
-    "Lower crude prices ease India's import bill",
-    "Foreign portfolio inflows add support",
-    "Thursday's close was already a one-month high"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex jumps 600 pts, Nifty near 24,600; Rupee hits over 7-month high against $",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
-   },
-   "date": "2026-11-06",
-   "slot": "1225",
-   "when": "12:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1000"
-   }
-  },
-  {
    "key": "bosch-bonus",
    "tag": "Stocks",
    "impact": "watch",
@@ -564,30 +606,6 @@
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1025"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs invest ₹35,781 cr in five sessions",
-   "line": "Foreign buying keeps supporting Indian stocks as global markets sell off",
-   "more": [
-    "Thursday alone saw about ₹15,000 cr of net buying",
-    "Analysts say large caps had become attractively valued"
-   ],
-   "src": {
-    "title": "BusinessToday: Nifty, Sensex escape Wall Street, Asia rout; IT stocks rally; here's why",
-    "url": "https://www.businesstoday.in/markets/stocks/story/nifty-sensex-escape-wall-street-asia-rout-that-wipes-out-over-2-trillion-it-stocks-rally-heres-why-566095-2026-11-06"
-   },
-   "date": "2026-11-06",
-   "slot": "1025",
-   "when": "10:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "pre"
    }
   },
   {
@@ -2857,30 +2875,6 @@
    "src": {
     "title": "Noel Tata to step down from Trent, Voltas, Tata Steel and other boards on November 12 — People Matters",
     "url": "https://www.peoplematters.in/news/leadership/noel-tata-to-step-down-from-trent-voltas-tata-steel-and-other-boards-on-november-12-53026"
-   },
-   "date": "2026-11-01",
-   "slot": "outlook",
-   "when": "Sun · Outlook",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-01",
-    "slot": "outlook"
-   }
-  },
-  {
-   "key": "holiday-calendar",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Diwali calendar: Muhurat Sun Nov 8",
-   "line": "Special Muhurat session on Sunday, Nov 8; markets shut Tuesday, Nov 10",
-   "more": [
-    "Monday, Nov 2 is a normal trading day",
-    "Nov 24 is also a market holiday"
-   ],
-   "src": {
-    "title": "Stock market holidays in November 2026: Muhurat trading date and timings — PL India",
-    "url": "https://www.plindia.com/news/stock-market-holidays-in-november-2026-muhurat-trading-date-and-timings/"
    },
    "date": "2026-11-01",
    "slot": "outlook",
