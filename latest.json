@@ -1,29 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-06T13:26:21+05:30",
+ "generated_at": "2026-11-06T13:56:30+05:30",
  "date": "2026-11-06",
- "slot": "1325",
- "slot_label": "13:25",
+ "slot": "1355",
+ "slot_label": "13:55",
  "stage": "Mid-market mood",
- "asof": "2026-11-06T13:25:00+05:30",
+ "asof": "2026-11-06T13:55:00+05:30",
  "nifty": {
-  "value": 24649,
+  "value": 24650,
   "pct": 0.46,
   "approx": true,
-  "asof_quote": "About 24,649 on the Business Standard Hindi live-blog ticker; timestamp not confirmed"
+  "asof_quote": "No fresh afternoon print found; Nifty was up about 0.5% at 10:20 AM (Business Standard) and near 24,650 per live-blog ticker"
  },
  "mood": {
-  "label": "Stock-specific churn",
+  "label": "Holding up, cautiously",
   "score": 0.25,
-  "summary": "Indian stocks are holding modest gains in the afternoon as IT steadies the benchmarks, while a run of disappointing results drags individual names sharply lower.",
+  "summary": "Indian stocks are holding modest gains into the final 90 minutes even as Europe opens lower, with IT the anchor and heavy selling confined to results losers.",
   "detail": {
    "leaders": "Nifty IT; Titan and M&M after Q2",
    "laggards": "Astral, LIC, Glenmark and Hindalco after Q2",
-   "tone": "Live read: steady versus 1255, with headline gains intact and selling still concentrated in individual results losers.",
+   "tone": "Live read: little changed since 1325; gains are intact, but a weak European open and tonight's US jobs data keep the mood guarded.",
    "watch": [
-    "Hindalco's own Q2 results due today",
-    "Whether IT keeps leading into the close",
-    "US jobs data this evening"
+    "US October jobs report at 7 pm IST",
+    "Whether Europe's AI-led selling deepens",
+    "Hindalco's own Q2 results due today"
    ],
    "src": {
     "title": "Business Standard Hindi: Stock Market LIVE — Sensex up 400 points on Dhanteras, M&M up 5%",
@@ -97,6 +97,78 @@
  },
  "insights": [
   {
+   "key": "europe-open",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Europe opens lower as AI fears spread",
+   "line": "Euro Stoxx 50 futures fell about 0.9% in Asian hours; Italy and Spain lead early losses",
+   "more": [
+    "STOXX 600 closed 0.38% lower on Thursday",
+    "Chipmakers Infineon and Soitec led Thursday's drop"
+   ],
+   "src": {
+    "title": "investingLive: European stock market open — stocks stumble as AI fears spook markets",
+    "url": "https://investinglive.com/stocks/european-stock-market-open-stocks-stumble-as-ai-fears-spook-markets-italy-and-spain-lead-losses/"
+   },
+   "date": "2026-11-06",
+   "slot": "1355",
+   "when": "13:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "1355"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "US futures split: Nasdaq up, Dow down",
+   "line": "Nasdaq 100 futures up about 0.7–0.9% while Dow futures fall about 0.9–1%",
+   "more": [
+    "Follows Thursday's 5.5% Nasdaq plunge",
+    "Snapshots from early European hours"
+   ],
+   "src": {
+    "title": "TMGM: Dow Jones futures fall following steep Wall Street sell-off, NFP data awaited",
+    "url": "https://tmgm.com/en/analysis/market-news/article/dow-jones-futures-fall-following-steep-wall-street-sell-off-nfp-data-awaited-202611060720"
+   },
+   "date": "2026-11-06",
+   "slot": "1355",
+   "when": "13:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "us-jobs",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "US jobs report due at 7 pm IST",
+   "line": "Consensus sees about 59,000 jobs added in October and unemployment steady at 4.2%",
+   "more": [
+    "Private ADP data beat forecasts earlier in the week",
+    "A strong number could revive Fed rate-hike bets"
+   ],
+   "src": {
+    "title": "FXStreet: Risk-off puts all eyes on US jobs report",
+    "url": "https://www.fxstreet.com/analysis/risk-off-puts-all-eyes-on-us-jobs-report-202611060646"
+   },
+   "date": "2026-11-06",
+   "slot": "1355",
+   "when": "13:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "1355"
+   }
+  },
+  {
    "key": "lic-q2",
    "tag": "Results",
    "impact": "neg",
@@ -115,7 +187,7 @@
    "slot": "1325",
    "when": "13:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "2100"
@@ -139,7 +211,7 @@
    "slot": "1325",
    "when": "13:25",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1325"
@@ -163,7 +235,7 @@
    "slot": "1325",
    "when": "13:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1055"
@@ -404,30 +476,6 @@
    "src": {
     "title": "BusinessToday: Nifty, Sensex escape Wall Street, Asia rout; IT stocks rally; here's why",
     "url": "https://www.businesstoday.in/markets/stocks/story/nifty-sensex-escape-wall-street-asia-rout-that-wipes-out-over-2-trillion-it-stocks-rally-heres-why-566095-2026-11-06"
-   },
-   "date": "2026-11-06",
-   "slot": "1025",
-   "when": "10:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Nasdaq futures bounce about 1%",
-   "line": "US tech futures recovered after Thursday's rout, while Tokyo and Seoul stayed lower",
-   "more": [
-    "Snapshot from late Thursday US time",
-    "US October jobs report due this evening"
-   ],
-   "src": {
-    "title": "Seeking Alpha: Nasdaq futures rebound as Asian markets come off sharp lows",
-    "url": "https://seekingalpha.com/news/4667718-nasdaq-futures-asia-markets"
    },
    "date": "2026-11-06",
    "slot": "1025",
