@@ -1,0 +1,178 @@
+{
+ "asof": "2026-11-06T14:25:00+05:30",
+ "summary": "Benchmarks have pushed to the day's highs in afternoon trade, defying the global rout, but the advance is narrow, with mid and small caps still in the red and volatility rising.",
+ "mood": {
+  "label": "Rally, narrow breadth",
+  "score": 0.35,
+  "detail": {
+   "stats": [],
+   "leaders": "Nifty IT; M&M and Titan after Q2",
+   "laggards": "Smallcaps, midcaps, Nifty Realty and Astral",
+   "movers": {
+    "up": {
+     "summary": "IT and results winners are lifting the benchmarks to the day's highs",
+     "why": "Investors are rotating from global AI-linked stocks into Indian IT, while strong quarters draw buying in select large caps.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "move": "+1.9%",
+       "dir": "up",
+       "line": "Top sector as money shifts from global AI stocks to Indian IT services"
+      },
+      {
+       "name": "M&M",
+       "move": "up ~5%",
+       "dir": "up",
+       "line": "Auto profit up 55% in Q2; Jefferies keeps Buy"
+      },
+      {
+       "name": "Titan",
+       "move": "up ~2–4%",
+       "dir": "up",
+       "line": "Underlying profit up 54%; Jefferies upgraded it to Buy"
+      }
+     ],
+     "src": {
+      "title": "DSIJ: Sensex rises 450 points, Nifty 50 gains 0.32% as IT shares rally; mid and small caps underperform",
+      "url": "https://insights.dsij.in/dsijarticledetail/sensex-rises-450-points-nifty-50-gains-032-as-it-shares-rally-mid-and-small-caps-underperform-60342"
+     }
+    },
+    "down": {
+     "summary": "Smaller stocks and realty are lagging the benchmarks badly",
+     "why": "Investors are trimming riskier stocks after Thursday's broad rally even as the large-cap indices climb.",
+     "names": [
+      {
+       "name": "Nifty Smallcap 100",
+       "move": "-1.54%",
+       "dir": "down",
+       "line": "Riskiest pocket hit hardest as traders cut exposure"
+      },
+      {
+       "name": "Nifty Midcap 100",
+       "move": "-0.93%",
+       "dir": "down",
+       "line": "Gives back part of Thursday's gains"
+      },
+      {
+       "name": "Nifty Realty",
+       "dir": "down",
+       "line": "Weakest sector of the day after a sharp gain on Thursday"
+      },
+      {
+       "name": "Astral",
+       "move": "down ~12%",
+       "dir": "down",
+       "line": "Q2 margin shrank to 13.1%; stock at a 52-week low"
+      }
+     ],
+     "src": {
+      "title": "DSIJ: Sensex rises 450 points, Nifty 50 gains 0.32% as IT shares rally; mid and small caps underperform",
+      "url": "https://insights.dsij.in/dsijarticledetail/sensex-rises-450-points-nifty-50-gains-032-as-it-shares-rally-mid-and-small-caps-underperform-60342"
+     }
+    }
+   },
+   "tone": "Live read: stronger than 1355, with the Sensex hitting the day's high on a 1,000-point rally, but India VIX up about 10% signals nervousness under the surface.",
+   "watch": [
+    "Whether the gains hold into the close",
+    "US October jobs report at 7 pm IST",
+    "Whether the rally broadens to mid and small caps"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex hits day's high with 1,000-pt rally; Nifty near 24,800; VIX jumps 10%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 24800,
+  "pct": 1.07,
+  "approx": true,
+  "asof_quote": "Near 24,800 at the day's high per Business Standard live-blog headline; 1 PM entry was 24,678.55 (+141.95)"
+ },
+ "top": [
+  {
+   "key": "hindalco-novelis",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Hindalco posts record Q2, profit up 59%",
+   "line": "Consolidated profit of ₹7,533 cr beat estimates; revenue rose 39% to ₹91,708 cr",
+   "more": [
+    "Novelis profit up 29% to $210 mn on a 25% sales rise",
+    "Net debt to EBITDA rose to 1.80x from 1.23x",
+    "Results came after the stock fell up to 5% intraday"
+   ],
+   "src": {
+    "title": "Zee Business: Hindalco Q2 results — profit rises 59% to Rs 7,533 crore, revenue jumps 39%; beats estimates",
+    "url": "https://www.zeebiz.com/companies/news-hindalco-q2-results-profit-rises-59-to-rs-7533-crore-revenue-jumps-39-beats-estimates-405227"
+   }
+  },
+  {
+   "key": "india-vix",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "India VIX jumps about 10%",
+   "line": "The volatility gauge is rising even as the benchmarks climb to the day's highs",
+   "more": [
+    "Global markets remain volatile after the US tech rout",
+    "US jobs data due this evening"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex hits day's high with 1,000-pt rally; Nifty near 24,800; VIX jumps 10%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+   }
+  },
+  {
+   "key": "it-rotation",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT tops sector gains for the day",
+   "line": "Nifty IT up about 1.9% as investors move from global AI stocks to Indian tech",
+   "more": [
+    "Private bank stocks also strong in the afternoon",
+    "Mid and small caps continue to lag"
+   ],
+   "src": {
+    "title": "DSIJ: Sensex rises 450 points, Nifty 50 gains 0.32% as IT shares rally; mid and small caps underperform",
+    "url": "https://insights.dsij.in/dsijarticledetail/sensex-rises-450-points-nifty-50-gains-032-as-it-shares-rally-mid-and-small-caps-underperform-60342"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Business Standard: Stock Market LIVE — Sensex hits day's high with 1,000-pt rally; Nifty near 24,800; VIX jumps 10%",
+   "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+  },
+  {
+   "title": "Business Standard: Stock Market LIVE — Sensex surges 1,000 pts, Nifty near 24,700; Hindalco Q2 profit rises 59%",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+  },
+  {
+   "title": "DSIJ: Sensex rises 450 points, Nifty 50 gains 0.32% as IT shares rally; mid and small caps underperform",
+   "url": "https://insights.dsij.in/dsijarticledetail/sensex-rises-450-points-nifty-50-gains-032-as-it-shares-rally-mid-and-small-caps-underperform-60342"
+  },
+  {
+   "title": "Zee Business: Hindalco Q2 results — profit rises 59% to Rs 7,533 crore, revenue jumps 39%; beats estimates",
+   "url": "https://www.zeebiz.com/companies/news-hindalco-q2-results-profit-rises-59-to-rs-7533-crore-revenue-jumps-39-beats-estimates-405227"
+  },
+  {
+   "title": "DSIJ: Hindalco posts record Q2 FY27 profit as India business and Novelis recovery lift earnings",
+   "url": "https://insights.dsij.in/dsijarticledetail/hindalco-posts-record-q2-fy27-profit-as-india-business-and-novelis-recovery-lift-earnings-60345"
+  },
+  {
+   "title": "Zee Business: IT stocks rally — Nifty IT hits 9-month high",
+   "url": "https://www.zeebiz.com/market-news/news-it-stocks-rally-nifty-it-hits-9-month-high-why-are-mphasis-hcltech-tcs-others-rising-405209"
+  },
+  {
+   "title": "Moneycontrol via TradingView: Titan rallies after Q2; Jefferies, Citi say Buy",
+   "url": "https://www.tradingview.com/news/moneycontrol:007e64228094b:0-titan-shares-rally-4-after-q2-results-beat-estimates-jefferies-citi-say-buy/"
+  },
+  {
+   "title": "Business Standard: M&M jumps 5% even as firm cuts tractor outlook",
+   "url": "https://business-standard.com/markets/news/m-m-jumps-5-even-as-firm-cuts-tractor-outlook-what-s-behind-the-rise-126110600504_1.html"
+  },
+  {
+   "title": "Business Standard: Astral share price tumbles over 12% post Q2 earnings",
+   "url": "https://www.business-standard.com/markets/news/astral-share-price-tumbles-over-12-post-q2-earnings-126110600517_1.html"
+  }
+ ]
+}

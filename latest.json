@@ -1,101 +1,173 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-06T13:56:30+05:30",
+ "generated_at": "2026-11-06T14:27:13+05:30",
  "date": "2026-11-06",
- "slot": "1355",
- "slot_label": "13:55",
+ "slot": "1425",
+ "slot_label": "14:25",
  "stage": "Mid-market mood",
- "asof": "2026-11-06T13:55:00+05:30",
+ "asof": "2026-11-06T14:25:00+05:30",
  "nifty": {
-  "value": 24650,
-  "pct": 0.46,
+  "value": 24800,
+  "pct": 1.07,
   "approx": true,
-  "asof_quote": "No fresh afternoon print found; Nifty was up about 0.5% at 10:20 AM (Business Standard) and near 24,650 per live-blog ticker"
+  "asof_quote": "Near 24,800 at the day's high per Business Standard live-blog headline; 1 PM entry was 24,678.55 (+141.95)"
  },
  "mood": {
-  "label": "Holding up, cautiously",
-  "score": 0.25,
-  "summary": "Indian stocks are holding modest gains into the final 90 minutes even as Europe opens lower, with IT the anchor and heavy selling confined to results losers.",
+  "label": "Rally, narrow breadth",
+  "score": 0.35,
+  "summary": "Benchmarks have pushed to the day's highs in afternoon trade, defying the global rout, but the advance is narrow, with mid and small caps still in the red and volatility rising.",
   "detail": {
-   "leaders": "Nifty IT; Titan and M&M after Q2",
-   "laggards": "Astral, LIC, Glenmark and Hindalco after Q2",
-   "tone": "Live read: little changed since 1325; gains are intact, but a weak European open and tonight's US jobs data keep the mood guarded.",
+   "leaders": "Nifty IT; M&M and Titan after Q2",
+   "laggards": "Smallcaps, midcaps, Nifty Realty and Astral",
+   "tone": "Live read: stronger than 1355, with the Sensex hitting the day's high on a 1,000-point rally, but India VIX up about 10% signals nervousness under the surface.",
    "watch": [
+    "Whether the gains hold into the close",
     "US October jobs report at 7 pm IST",
-    "Whether Europe's AI-led selling deepens",
-    "Hindalco's own Q2 results due today"
+    "Whether the rally broadens to mid and small caps"
    ],
    "src": {
-    "title": "Business Standard Hindi: Stock Market LIVE — Sensex up 400 points on Dhanteras, M&M up 5%",
-    "url": "https://hindi.business-standard.com/markets/stock-market/stock-market-live-6-november-2026-sensex-nifty-crude-oil-prices-gift-nifty-dhanteras-id-565713"
+    "title": "Business Standard: Stock Market LIVE — Sensex hits day's high with 1,000-pt rally; Nifty near 24,800; VIX jumps 10%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT stocks and results winners Titan and M&M are leading the gains",
-     "why": "IT services draw safe-haven buying amid the AI-hardware rout, and strong quarters are attracting brokerage upgrades.",
+     "summary": "IT and results winners are lifting the benchmarks to the day's highs",
+     "why": "Investors are rotating from global AI-linked stocks into Indian IT, while strong quarters draw buying in select large caps.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "move": "up ~2%",
-       "line": "Seen as having little direct AI-hardware exposure"
+       "move": "+1.9%",
+       "line": "Top sector as money shifts from global AI stocks to Indian IT services"
+      },
+      {
+       "name": "M&M",
+       "dir": "up",
+       "move": "up ~5%",
+       "line": "Auto profit up 55% in Q2; Jefferies keeps Buy"
       },
       {
        "name": "Titan",
        "dir": "up",
        "move": "up ~2–4%",
        "line": "Underlying profit up 54%; Jefferies upgraded it to Buy"
-      },
-      {
-       "name": "M&M",
-       "dir": "up",
-       "move": "up ~5%",
-       "line": "Auto profit up 55% in Q2 outweighs a cut to its tractor outlook"
       }
      ],
      "src": {
-      "title": "Moneycontrol via TradingView: Titan shares rally 4% after Q2 beat; Jefferies, Citi say Buy",
-      "url": "https://www.tradingview.com/news/moneycontrol:007e64228094b:0-titan-shares-rally-4-after-q2-results-beat-estimates-jefferies-citi-say-buy/"
+      "title": "DSIJ: Sensex rises 450 points, Nifty 50 gains 0.32% as IT shares rally; mid and small caps underperform",
+      "url": "https://insights.dsij.in/dsijarticledetail/sensex-rises-450-points-nifty-50-gains-032-as-it-shares-rally-mid-and-small-caps-underperform-60342"
      }
     },
     "down": {
-     "summary": "Weak quarters are hitting Astral, LIC, Glenmark and Hindalco",
-     "why": "Investors are dumping companies whose margins or revenue disappointed.",
+     "summary": "Smaller stocks and realty are lagging the benchmarks badly",
+     "why": "Investors are trimming riskier stocks after Thursday's broad rally even as the large-cap indices climb.",
      "names": [
+      {
+       "name": "Nifty Smallcap 100",
+       "dir": "down",
+       "move": "-1.54%",
+       "line": "Riskiest pocket hit hardest as traders cut exposure"
+      },
+      {
+       "name": "Nifty Midcap 100",
+       "dir": "down",
+       "move": "-0.93%",
+       "line": "Gives back part of Thursday's gains"
+      },
+      {
+       "name": "Nifty Realty",
+       "dir": "down",
+       "line": "Weakest sector of the day after a sharp gain on Thursday"
+      },
       {
        "name": "Astral",
        "dir": "down",
        "move": "down ~12%",
-       "line": "EBITDA margin fell to 13.1% from 16.3%; hit a 52-week low"
-      },
-      {
-       "name": "LIC",
-       "dir": "down",
-       "move": "down ~4%",
-       "line": "Value of new business missed estimates and premium growth stayed weak"
-      },
-      {
-       "name": "Glenmark Pharma",
-       "dir": "down",
-       "move": "down up to 4%",
-       "line": "Q2 revenue fell about 30% and profit 57% on year"
-      },
-      {
-       "name": "Hindalco",
-       "dir": "down",
-       "move": "down up to ~5%",
-       "line": "Novelis Q2 hit by lower shipments, US tariffs and disruptions"
+       "line": "Q2 margin shrank to 13.1%; stock at a 52-week low"
       }
      ],
      "src": {
-      "title": "Business Standard: Astral share price tumbles over 12% post Q2 earnings",
-      "url": "https://www.business-standard.com/amp/markets/news/astral-share-price-tumbles-over-12-post-q2-earnings-126110600517_1.html"
+      "title": "DSIJ: Sensex rises 450 points, Nifty 50 gains 0.32% as IT shares rally; mid and small caps underperform",
+      "url": "https://insights.dsij.in/dsijarticledetail/sensex-rises-450-points-nifty-50-gains-032-as-it-shares-rally-mid-and-small-caps-underperform-60342"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "hindalco-novelis",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Hindalco posts record Q2, profit up 59%",
+   "line": "Consolidated profit of ₹7,533 cr beat estimates; revenue rose 39% to ₹91,708 cr",
+   "more": [
+    "Novelis profit up 29% to $210 mn on a 25% sales rise",
+    "Net debt to EBITDA rose to 1.80x from 1.23x",
+    "Results came after the stock fell up to 5% intraday"
+   ],
+   "src": {
+    "title": "Zee Business: Hindalco Q2 results — profit rises 59% to Rs 7,533 crore, revenue jumps 39%; beats estimates",
+    "url": "https://www.zeebiz.com/companies/news-hindalco-q2-results-profit-rises-59-to-rs-7533-crore-revenue-jumps-39-beats-estimates-405227"
+   },
+   "date": "2026-11-06",
+   "slot": "1425",
+   "when": "14:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "1055"
+   }
+  },
+  {
+   "key": "india-vix",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "India VIX jumps about 10%",
+   "line": "The volatility gauge is rising even as the benchmarks climb to the day's highs",
+   "more": [
+    "Global markets remain volatile after the US tech rout",
+    "US jobs data due this evening"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex hits day's high with 1,000-pt rally; Nifty near 24,800; VIX jumps 10%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+   },
+   "date": "2026-11-06",
+   "slot": "1425",
+   "when": "14:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "it-rotation",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT tops sector gains for the day",
+   "line": "Nifty IT up about 1.9% as investors move from global AI stocks to Indian tech",
+   "more": [
+    "Private bank stocks also strong in the afternoon",
+    "Mid and small caps continue to lag"
+   ],
+   "src": {
+    "title": "DSIJ: Sensex rises 450 points, Nifty 50 gains 0.32% as IT shares rally; mid and small caps underperform",
+    "url": "https://insights.dsij.in/dsijarticledetail/sensex-rises-450-points-nifty-50-gains-032-as-it-shares-rally-mid-and-small-caps-underperform-60342"
+   },
+   "date": "2026-11-06",
+   "slot": "1425",
+   "when": "14:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "1030"
+   }
+  },
   {
    "key": "europe-open",
    "tag": "Global",
@@ -114,7 +186,7 @@
    "slot": "1355",
    "when": "13:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1355"
@@ -138,7 +210,7 @@
    "slot": "1355",
    "when": "13:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "pre"
@@ -162,7 +234,7 @@
    "slot": "1355",
    "when": "13:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1355"
@@ -215,30 +287,6 @@
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1325"
-   }
-  },
-  {
-   "key": "hindalco-novelis",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Novelis profit up, but shipments slip",
-   "line": "One report says Novelis profit rose 29% to $210 mn while shipments fell about 2%",
-   "more": [
-    "Single-source figures; check Novelis's own release",
-    "Hindalco's consolidated Q2 is due today"
-   ],
-   "src": {
-    "title": "Whalesbook: Hindalco subsidiary Novelis Q2 net income jumps 29% to $210 million",
-    "url": "https://www.whalesbook.com/corporate-news/Hinglish/industrial-goodsservices/Hindalco-Subsidiary-Novelis-Q2-Net-Income-Jumps-29percent-to-dollar210-Million/6aec6ecac6c6dccbb9150b87"
-   },
-   "date": "2026-11-06",
-   "slot": "1325",
-   "when": "13:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1055"
    }
   },
   {
@@ -388,30 +436,6 @@
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1155"
-   }
-  },
-  {
-   "key": "it-rotation",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT seen as a haven from the AI rout",
-   "line": "Analysts point to Indian IT's low direct exposure to AI hardware spending",
-   "more": [
-    "Nifty IT bucked the early weakness to rise about 2%",
-    "Steady FII buying is also cushioning the market"
-   ],
-   "src": {
-    "title": "The Week: Nifty, Sensex trade steady as Indian IT stocks defend global bloodbath",
-    "url": "https://www.theweek.in/news/biz-tech/2026/11/06/walking-the-line-nifty-sensex-trade-steady-as-indian-it-stocks-defend-global-bloodbath.html"
-   },
-   "date": "2026-11-06",
-   "slot": "1155",
-   "when": "11:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1030"
    }
   },
   {
@@ -777,30 +801,6 @@
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1155"
-   }
-  },
-  {
-   "key": "india-vix",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "India VIX rises to 15.62 despite rally",
-   "line": "Volatility expectations edged up even as the market surged",
-   "more": [
-    "VIX had fallen to 15.18 on Wednesday",
-    "Midcap index +1.8%; smallcaps lagged at +0.6%"
-   ],
-   "src": {
-    "title": "ChiniMandi: Sensex climbs 2,000 points, Nifty above 24,500",
-    "url": "https://www.chinimandi.com/sensex-climbs-2000-points-nifty-above-24500/"
-   },
-   "date": "2026-11-05",
-   "slot": "1555",
-   "when": "Thu · 15:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1200"
    }
   },
   {
