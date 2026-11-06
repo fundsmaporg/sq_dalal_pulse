@@ -1,33 +1,34 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-06T11:56:27+05:30",
+ "generated_at": "2026-11-06T12:26:44+05:30",
  "date": "2026-11-06",
- "slot": "1155",
- "slot_label": "11:55",
+ "slot": "1225",
+ "slot_label": "12:25",
  "stage": "Mid-market mood",
- "asof": "2026-11-06T11:55:00+05:30",
+ "asof": "2026-11-06T12:25:00+05:30",
  "nifty": {
-  "value": 24650,
-  "pct": 0.46,
+  "value": 24614.5,
+  "pct": 0.32,
+  "chg": 77.9,
   "approx": true,
-  "asof_quote": "Nifty above 24,650 and Sensex up 500+ points per Aaj Samaaj; timestamp not confirmed"
+  "asof_quote": "Business Standard live blog 12 PM entry: Nifty 24,614.50 (+77.90); Sensex 79,760.39 (+450.38)"
  },
  "mood": {
-  "label": "Steady, IT-anchored",
+  "label": "Gains hold steady",
   "score": 0.25,
-  "summary": "The benchmarks are holding firm gains around midday as IT and select large caps offset a global rout, though selling persists in metals, consumer and realty names.",
+  "summary": "Indian stocks are holding steady gains into the afternoon, shrugging off the global tech rout, with IT and autos leading while metals, consumer and realty names lag.",
   "detail": {
    "leaders": "Nifty IT and Mphasis; M&M",
    "laggards": "Hindalco, Britannia, Groww and Nifty Realty",
-   "tone": "Live read: much like 1125, with gains holding steady and stock-specific results driving most of the action.",
+   "tone": "Live read: little changed from 1155, with modest gains intact and a firmer rupee adding support.",
    "watch": [
-    "Whether IT keeps leading through the afternoon",
-    "Weakness in midcaps and smallcaps spreading",
+    "Hindalco's own Q2 results due today",
+    "Whether the rupee holds its gains",
     "US jobs data this evening"
    ],
    "src": {
-    "title": "The Week: Nifty, Sensex trade steady as Indian IT stocks defend global bloodbath",
-    "url": "https://www.theweek.in/news/biz-tech/2026/11/06/walking-the-line-nifty-sensex-trade-steady-as-indian-it-stocks-defend-global-bloodbath.html"
+    "title": "Business Standard: Stock Market LIVE — Sensex jumps 600 pts, Nifty near 24,600; Rupee hits over 7-month high against $",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
    },
    "movers": {
     "up": {
@@ -97,6 +98,80 @@
  },
  "insights": [
   {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee hits a seven-month high",
+   "line": "Rupee firms about 40 paise to near 94.07 per dollar from Thursday's 94.47 close",
+   "more": [
+    "Lower crude prices ease India's import bill",
+    "Foreign portfolio inflows add support",
+    "Thursday's close was already a one-month high"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex jumps 600 pts, Nifty near 24,600; Rupee hits over 7-month high against $",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+   },
+   "date": "2026-11-06",
+   "slot": "1225",
+   "when": "12:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "1000"
+   }
+  },
+  {
+   "key": "bosch-bonus",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Bosch weighs first bonus issue in ~40 years",
+   "line": "Board meets today on a bonus issue and share split; the stock is near record levels",
+   "more": [
+    "Last bonus was in 1986; last split in 2004",
+    "Shares rose about 9% over three sessions on the plan",
+    "Ratios and record date not yet disclosed"
+   ],
+   "src": {
+    "title": "Zee Business: First-ever bonus issue + stock split — Bosch shares hit 52-week high as board considers proposals",
+    "url": "https://www.zeebiz.com/market-news/news-first-ever-bonus-issue-stock-split-bosch-shares-zoom-3-hit-52-week-high-as-board-to-consider-proposals-405004"
+   },
+   "date": "2026-11-06",
+   "slot": "1225",
+   "when": "12:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "1155"
+   }
+  },
+  {
+   "key": "hindalco-novelis",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Hindalco's own Q2 results due today",
+   "line": "After Novelis's weak quarter hit the stock, the parent reports its September quarter",
+   "more": [
+    "Q1 FY27 profit was a record ₹7,013 cr",
+    "Motilal Oswal expects adjusted profit of ₹5,430 cr"
+   ],
+   "src": {
+    "title": "NiftyTrader: Hindalco Q2 results on Nov 6",
+    "url": "https://www.niftytrader.in/markets/hindalco-q2-results-on-nov-6/"
+   },
+   "date": "2026-11-06",
+   "slot": "1225",
+   "when": "12:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "1055"
+   }
+  },
+  {
    "key": "britannia-q2",
    "tag": "Results",
    "impact": "neg",
@@ -115,7 +190,7 @@
    "slot": "1155",
    "when": "11:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1155"
@@ -139,34 +214,10 @@
    "slot": "1155",
    "when": "11:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1030"
-   }
-  },
-  {
-   "key": "bosch-bonus",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Bosch board to weigh bonus and split",
-   "line": "Board to consider a bonus issue and stock split along with its quarterly results",
-   "more": [
-    "The decision is on the same board agenda as results",
-    "Exact ratios not yet announced"
-   ],
-   "src": {
-    "title": "Zee Business: Stocks to watch today (Nov 6) — Airtel, ONGC, Titan, Hindalco, Britannia, Bosch",
-    "url": "https://www.zeebiz.com/market-news/news-stocks-to-watch-today-nov-6-bharti-airtel-ongc-titan-hindalco-britannia-bosch-and-more-405197"
-   },
-   "date": "2026-11-06",
-   "slot": "1155",
-   "when": "11:55",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1155"
    }
   },
   {
@@ -191,30 +242,6 @@
    "first_seen": {
     "date": "2026-11-06",
     "slot": "0925"
-   }
-  },
-  {
-   "key": "hindalco-novelis",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Brokers split on Hindalco after Novelis miss",
-   "line": "Shares fell up to 5% intraday on weak Novelis shipments and higher US tariffs",
-   "more": [
-    "Citi Neutral, Jefferies Hold, HSBC Buy",
-    "Rising debt adds to concerns"
-   ],
-   "src": {
-    "title": "Trade Brains: Why did Hindalco shares fall 5% in today's trading session?",
-    "url": "https://tradebrains.in/indian-markets/why-did-hindalco-shares-fall-5-in-todays-trading-session-12787888"
-   },
-   "date": "2026-11-06",
-   "slot": "1125",
-   "when": "11:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1055"
    }
   },
   {
@@ -652,30 +679,6 @@
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1200"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee closes at 94.47 per dollar",
-   "line": "The rupee firmed with oil's slide and continued foreign inflows",
-   "more": [
-    "Opened near 94.35 this morning",
-    "Wednesday's close was about 94.58–94.64"
-   ],
-   "src": {
-    "title": "ChiniMandi: Sensex climbs 2,000 points, Nifty above 24,500",
-    "url": "https://www.chinimandi.com/sensex-climbs-2000-points-nifty-above-24500/"
-   },
-   "date": "2026-11-05",
-   "slot": "1555",
-   "when": "Thu · 15:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1000"
    }
   },
   {
