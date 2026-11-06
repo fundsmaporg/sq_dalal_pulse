@@ -1,87 +1,88 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-06T10:27:38+05:30",
+ "generated_at": "2026-11-06T10:57:02+05:30",
  "date": "2026-11-06",
- "slot": "1025",
- "slot_label": "10:25",
- "stage": "Opening mood",
- "asof": "2026-11-06T10:25:00+05:30",
+ "slot": "1055",
+ "slot_label": "10:55",
+ "stage": "Mid-market mood",
+ "asof": "2026-11-06T10:55:00+05:30",
  "nifty": {
   "value": 24600,
   "pct": 0.26,
   "approx": true,
-  "asof_quote": "Near 24,600 per Business Standard live blog (10:00 entry 24,623.75, +0.36%); Trade Brains had 24,524 earlier"
+  "asof_quote": "Near 24,600 per Business Standard live blog headline; exact level not timestamped"
  },
  "mood": {
-  "label": "Defying global rout",
+  "label": "Narrow, IT-led gains",
   "score": 0.15,
-  "summary": "Indian stocks have shaken off a shaky start to trade modestly higher, defying the global rout, as IT leads the gains while banks and the broader market lag.",
+  "summary": "Indian benchmarks are holding modest gains against a global tech rout, led by IT, though the advance is narrow, with metals, realty and some financials sliding.",
   "detail": {
-   "leaders": "IT stocks led by Infosys and TCS; Bharti Airtel",
-   "laggards": "Bank Nifty cools after Thursday's surge; midcaps trail",
-   "tone": "Live read: firmer than 0955 after an early dip, with the Nifty turning positive on IT buying, though breadth is still weak.",
+   "leaders": "Nifty IT and Infosys; Bharti Airtel",
+   "laggards": "Hindalco, Nifty Realty and Groww",
+   "tone": "Live read: similar to 1025, with modest gains holding, but more stock-specific selling has appeared beneath the surface.",
    "watch": [
-    "Whether IT buying can hold if global tech selling deepens",
-    "Whether the broad market recovers or keeps lagging",
+    "Whether IT keeps leading if US tech futures turn lower",
+    "Further block-deal selling in recently listed stocks",
     "US jobs data this evening"
    ],
    "src": {
-    "title": "BusinessToday: Nifty, Sensex escape Wall Street, Asia rout; IT stocks rally; here's why",
-    "url": "https://www.businesstoday.in/markets/stocks/story/nifty-sensex-escape-wall-street-asia-rout-that-wipes-out-over-2-trillion-it-stocks-rally-heres-why-566095-2026-11-06"
+    "title": "Business Standard: Stock Market LIVE — Sensex jumps 400 pts, Nifty near 24,600; Nifty Realty down 2%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT services and Airtel are carrying the frontline indices higher",
-     "why": "Money is rotating out of costly AI-linked global names into Indian IT services, and results winners are attracting buying.",
+     "summary": "IT stocks and Airtel are doing the heavy lifting for the indices",
+     "why": "Investors are moving money out of global AI hardware stocks into Indian IT services, while Airtel draws buying after its results.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "move": "up ~1.5–2%",
-       "line": "Seen as a winner if AI hardware spending slows; rotation into IT services"
+       "move": "up ~1.9%",
+       "line": "Gains as the global AI trade unwinds and investors rotate into IT services"
       },
       {
        "name": "Infosys",
        "dir": "up",
-       "line": "Among the top gainers as investors buy traditional IT services"
-      },
-      {
-       "name": "TCS",
-       "dir": "up",
-       "line": "In the green alongside Infosys as IT shrugs off the US tech rout"
+       "line": "A key gainer in the IT pack, seen as a beneficiary of the rotation"
       },
       {
        "name": "Bharti Airtel",
        "dir": "up",
        "move": "up over 2%",
-       "line": "Q2 profit up 31%; CLSA raised its target"
+       "line": "Q2 profit up 31%; CLSA raised its target and HSBC kept Buy"
       }
      ],
      "src": {
-      "title": "Upstox: Indian IT stocks shrug off Wall Street rout; NIFTY IT rises 2%, Infosys and TCS in the green",
+      "title": "Upstox: Indian IT stocks shrug off Wall Street rout; NIFTY IT rises 2%",
       "url": "https://upstox.com/news/market-news/stocks/indian-it-stocks-shrug-off-wall-street-rout-nifty-it-rises-2-infosys-and-tcs-in-the-green/article-203104/"
      }
     },
     "down": {
-     "summary": "Banks are taking a breather and midcaps remain under pressure",
-     "why": "Rate-sensitive and higher-risk stocks are giving back part of Thursday's sharp gains.",
+     "summary": "Hindalco, realty stocks and Groww are the main drags",
+     "why": "Selling is concentrated in names with weak results, heavy block-deal supply, or sharp gains on Thursday.",
      "names": [
       {
-       "name": "Bank Nifty",
+       "name": "Hindalco",
        "dir": "down",
-       "move": "-0.39%",
-       "line": "Cools after a 3.3% jump on Thursday"
+       "move": "-4.4% to -5.1%",
+       "line": "Novelis Q2 hit by lower shipments, US tariffs and production disruptions"
       },
       {
-       "name": "Nifty Midcap 100",
+       "name": "Nifty Realty",
        "dir": "down",
-       "move": "-1.2%",
-       "line": "Profit-taking after Thursday's broad rally; figure from earlier in the session"
+       "move": "-2%",
+       "line": "Gives back part of Thursday's roughly 3.5% jump"
+      },
+      {
+       "name": "Groww",
+       "dir": "down",
+       "move": "about -5% to -7%",
+       "line": "Large block deals add supply; worst fall since May"
       }
      ],
      "src": {
-      "title": "Trade Brains: Sensex & Nifty 50 live updates, 6 November",
-      "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-6-november-gift-nifty-signals-weak-opening-amid-global-market-pressure-12787789"
+      "title": "Business Standard: Stock Market LIVE — Sensex jumps 400 pts, Nifty near 24,600; Nifty Realty down 2%",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
      }
     }
    }
@@ -89,23 +90,72 @@
  },
  "insights": [
   {
+   "key": "hindalco-novelis",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Hindalco slides on weak Novelis quarter",
+   "line": "Novelis Q2 hurt by lower shipments, higher US tariffs and production disruptions",
+   "more": [
+    "Shares fell up to about 5% intraday",
+    "Rising debt is adding to concerns",
+    "Citi Neutral, Jefferies Hold, HSBC Buy"
+   ],
+   "src": {
+    "title": "Trade Brains: Why did Hindalco shares fall 5% in today's trading session?",
+    "url": "https://tradebrains.in/indian-markets/why-did-hindalco-shares-fall-5-in-todays-trading-session-12787888"
+   },
+   "date": "2026-11-06",
+   "slot": "1055",
+   "when": "10:55",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "1055"
+   }
+  },
+  {
+   "key": "groww-slide",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Block deals weigh on Groww shares",
+   "line": "About 1.41% of equity changed hands at ₹211–216 in multiple block deals",
+   "more": [
+    "Stock fell about 7% to ₹208.55 at the low",
+    "Its worst fall since May 12, per Bloomberg",
+    "Another report puts the deal at 2.8% of equity; figures differ"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex jumps 400 pts, Nifty near 24,600; Nifty Realty down 2%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+   },
+   "date": "2026-11-06",
+   "slot": "1055",
+   "when": "10:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "1025"
+   }
+  },
+  {
    "key": "it-rotation",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "Indian IT gains from global AI rotation",
-   "line": "IT services seen as winners if spending on AI hardware slows, unlike chipmakers",
+   "title": "IT gains as global AI trade unwinds",
+   "line": "Indian IT is benefiting as investors pull back from AI chip and data-centre stocks",
    "more": [
-    "Nifty IT rose about 2% at the open",
-    "Infosys and TCS among the gainers",
-    "Analysts point to a rotation away from costly AI stocks"
+    "Nifty IT was up about 1.9% earlier",
+    "IT is the main support for the benchmarks today"
    ],
    "src": {
-    "title": "Upstox: Indian IT stocks shrug off Wall Street rout; NIFTY IT rises 2%, Infosys and TCS in the green",
-    "url": "https://upstox.com/news/market-news/stocks/indian-it-stocks-shrug-off-wall-street-rout-nifty-it-rises-2-infosys-and-tcs-in-the-green/article-203104/"
+    "title": "Business Standard: Stock Market LIVE — Sensex jumps 400 pts, Nifty near 24,600; Nifty Realty down 2%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
    },
    "date": "2026-11-06",
-   "slot": "1025",
-   "when": "10:25",
+   "slot": "1055",
+   "when": "10:55",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -131,7 +181,7 @@
    "slot": "1025",
    "when": "10:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "pre"
@@ -155,34 +205,10 @@
    "slot": "1025",
    "when": "10:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "groww-slide",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Groww shares drop nearly 7%",
-   "line": "The broking platform's parent is among the day's sharpest decliners",
-   "more": [
-    "No specific trigger reported yet",
-    "Earlier slides in Aug and Sept followed large block deals"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex gains 500 pts, Nifty near 24,600; Groww shares drop nearly 7%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
-   },
-   "date": "2026-11-06",
-   "slot": "1025",
-   "when": "10:25",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1025"
    }
   },
   {
