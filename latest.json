@@ -1,60 +1,60 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-06T07:00:35+05:30",
+ "generated_at": "2026-11-06T08:46:37+05:30",
  "date": "2026-11-06",
- "slot": "0700",
- "slot_label": "7:00",
+ "slot": "0845",
+ "slot_label": "8:45",
  "stage": "Pre-market mood",
- "asof": "2026-11-06T07:00:00+05:30",
+ "asof": "2026-11-06T08:45:00+05:30",
  "nifty": {
   "value": 24536.6,
   "pct": 2.4,
   "chg": 576,
   "approx": false,
-  "asof_quote": "Nov 5 close, Upstox market wrap"
+  "asof_quote": "Nov 5 close, Upstox"
  },
  "mood": {
-  "label": "Risk-off open likely",
-  "score": -0.55,
-  "summary": "A global tech rout overnight and steep falls across Asia this morning point to a risk-off Friday open that could test Thursday's broad rally, with heavy foreign buying the main cushion.",
+  "label": "Weak open likely",
+  "score": -0.45,
+  "summary": "Indian stocks look set to open lower as a global tech rout weighs, though heavy foreign buying and Thursday's broad rally leave room for domestic names to cushion the fall.",
   "detail": {
-   "leaders": "Domestic banks and financials, backed by heavy FII buying",
-   "laggards": "IT and tech-linked names exposed to the global AI sell-off",
-   "tone": "Forward-looking read for Friday's session: risk appetite has turned sharply weaker since last night's note as the US sell-off deepened into the close and spread to Asia.",
+   "leaders": "Results names such as ONGC and Titan; domestic financials on FII buying",
+   "laggards": "IT and tech-linked stocks exposed to the global AI sell-off",
+   "tone": "Forward-looking pre-open read: slightly less bleak than the 0700 note, as GIFT Nifty points to a modest dip rather than the steep falls seen in Korea and Japan.",
    "watch": [
-    "Whether foreign buyers keep supporting Indian stocks through a global sell-off",
-    "How far Korea and Japan recover after this morning's circuit-breaker halt",
-    "The US jobs report, which could reset rate and risk views"
+    "Whether FIIs keep buying after about ₹15,000 cr of net purchases on Thursday",
+    "Whether Asian markets steady after Korea's circuit-breaker halt",
+    "The US October jobs report due this evening"
    ],
    "src": {
-    "title": "Yahoo Finance: Dow plunges 1,800 points, Nasdaq enters correction in AI trade meltdown",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"
+    "title": "Business Standard: Stock Market LIVE — GIFT Nifty falls; Kospi drops 9%, triggers circuit breaker",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
    }
   }
  },
  "insights": [
   {
-   "key": "us-markets",
-   "tag": "Global",
+   "key": "gift-nifty",
+   "tag": "Opening",
    "impact": "neg",
-   "title": "Wall Street's worst day since April 2025",
-   "line": "AI and chip sell-off sends the Nasdaq into a correction and erases the election rally",
+   "title": "GIFT Nifty signals a lower start",
+   "line": "Futures point to a dip of well under 1% for the Nifty, milder than the falls across Asia",
    "more": [
-    "S&P 500 fell about 4.4% and the Nasdaq about 5.5%",
-    "Nvidia closed down about 9% and AMD about 17%",
-    "Worry that a Democratic Congress could slow AI data-centre spending"
+    "Early quotes differ by time and source",
+    "Weakness tracks the US tech rout and Asia's slide",
+    "Follows Thursday's biggest rally in about seven months"
    ],
    "src": {
-    "title": "Yahoo Finance: Dow plunges 1,800 points, Nasdaq enters correction in AI trade meltdown",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"
+    "title": "Upstox: GIFT NIFTY futures hint weak opening on Nov 6 as oil rebounds to near $100/bbl",
+    "url": "https://upstox.com/news/market-news/stocks/gift-nifty-futures-hint-weak-opening-on-nov-6-as-oil-rebounds-to-near-100-bbl-key-things-to-know-before-market-opens/article-203087"
    },
    "date": "2026-11-06",
-   "slot": "0700",
-   "when": "7:00",
+   "slot": "0845",
+   "when": "8:45",
    "updated": true,
    "is_new": true,
    "first_seen": {
-    "date": "2026-10-30",
+    "date": "2026-11-02",
     "slot": "pre"
    }
   },
@@ -62,20 +62,20 @@
    "key": "asia-tech",
    "tag": "Global",
    "impact": "neg",
-   "title": "Kospi crashes 8.5%, trading halted",
-   "line": "Korea triggers a circuit breaker at the open; Japan's Nikkei slides about 6%",
+   "title": "Nikkei enters bear market as Asia slides",
+   "line": "Japan's Nikkei enters a bear market and Korea's Kospi falls about 9%",
    "more": [
-    "Kospi fell below 5,000 for the first time in about 10 months",
-    "Samsung down about 10%, SK Hynix nearly 12%",
-    "Trading was paused for 20 minutes"
+    "Kospi's circuit breaker paused trading for 20 minutes",
+    "Chipmakers Samsung and SK Hynix lead the losses",
+    "The selling tracks Wall Street's AI-stock rout"
    ],
    "src": {
-    "title": "Korea JoongAng Daily: Kospi plunges 8.5% as AI fears trigger circuit breaker",
-    "url": "https://www.koreajoongangdaily.com/business/kospi-tracks-us-stocks-to-tank-nearly-9-after-opening-triggering-circuit-breaker/12959005"
+    "title": "CNBC: Stock futures fall after Nasdaq correction; Japan's Nikkei 225 enters bear market",
+    "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
    },
    "date": "2026-11-06",
-   "slot": "0700",
-   "when": "7:00",
+   "slot": "0845",
+   "when": "8:45",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -84,28 +84,101 @@
    }
   },
   {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs bought about ₹15,000 cr on Thursday",
-   "line": "Provisional data show FIIs net bought ₹14,975 cr while DIIs net sold ₹10,445 cr",
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US futures slip again before payrolls",
+   "line": "S&P 500 and Nasdaq-100 futures fell 0.3–0.8% in evening trade after Thursday's rout",
    "more": [
-    "FIIs bought ₹31,798 cr and sold ₹16,823 cr",
-    "Follows net FII buying of about ₹7,284 cr on Nov 4",
-    "Single-source provisional figure; check exchange data"
+    "Micron and AMD fell about 17% each on Thursday",
+    "October payrolls due Friday; consensus about 59,000 jobs",
+    "ADP showed 86,000 private jobs, above forecasts"
    ],
    "src": {
-    "title": "ScanX: FII DII data",
-    "url": "https://scanx.trade/insight/fii-dii-data"
+    "title": "CNBC: Stock futures fall after Nasdaq correction; Japan's Nikkei 225 enters bear market",
+    "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
    },
    "date": "2026-11-06",
-   "slot": "0700",
-   "when": "7:00",
+   "slot": "0845",
+   "when": "8:45",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "pre"
+   }
+  },
+  {
+   "key": "results-focus",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Airtel, Titan, ONGC, LIC in focus",
+   "line": "Q2 results announced on Thursday put the four large caps in focus today",
+   "more": [
+    "ONGC: profit up 57%, ₹8 interim dividend",
+    "Titan and LIC reported higher profits",
+    "Reports of Airtel's profit differ; check the filing"
+   ],
+   "src": {
+    "title": "ScanX: Stocks to watch today, November 6, 2026",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-november-6-2026-rubicon-astral-bharti-airtel/55474236"
+   },
+   "date": "2026-11-06",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Second source confirms big FII buying",
+   "line": "5paisa also shows FIIs net bought about ₹14,975 cr on Nov 5; DIIs sold ₹10,445 cr",
+   "more": [
+    "Matches the ScanX figure cited at 0700",
+    "Extends a multi-session run of heavy FII buying"
+   ],
+   "src": {
+    "title": "5paisa: FII DII data today",
+    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
+   },
+   "date": "2026-11-06",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-10-30",
+    "slot": "pre"
+   }
+  },
+  {
+   "key": "sme-listings",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Four SME IPOs list today",
+   "line": "Johnsoncab Electricals, HGS (India), Maxwell Engineering and Vectras Enprocon debut",
+   "more": [
+    "HGS and Maxwell on NSE SME",
+    "Vectras and Johnsoncab on BSE SME"
+   ],
+   "src": {
+    "title": "IPO Watch: New IPO listings today",
+    "url": "https://ipowatch.in/new-ipo-listing-today-ipo-listing-date/"
+   },
+   "date": "2026-11-06",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "0845"
    }
   },
   {
@@ -126,7 +199,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0700"
@@ -150,7 +223,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "pre"
@@ -1749,30 +1822,6 @@
    "first_seen": {
     "date": "2026-11-03",
     "slot": "0955"
-   }
-  },
-  {
-   "key": "gift-nifty",
-   "tag": "Opening",
-   "impact": "pos",
-   "title": "GIFT Nifty points to a gap-up",
-   "line": "GIFT Nifty at 23,523 at 8:37 am, ~108 points above Nifty futures",
-   "more": [
-    "Business Standard puts it up about 111 points",
-    "Snapshots vary by time; treat as indicative"
-   ],
-   "src": {
-    "title": "Stockezee: GIFT Nifty live",
-    "url": "https://www.stockezee.com/gift-nifty-live"
-   },
-   "date": "2026-11-03",
-   "slot": "0845",
-   "when": "Tue · 8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "pre"
    }
   },
   {
