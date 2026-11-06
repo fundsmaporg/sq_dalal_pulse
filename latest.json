@@ -1,38 +1,38 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-06T14:27:13+05:30",
+ "generated_at": "2026-11-06T14:56:59+05:30",
  "date": "2026-11-06",
- "slot": "1425",
- "slot_label": "14:25",
+ "slot": "1455",
+ "slot_label": "14:55",
  "stage": "Mid-market mood",
- "asof": "2026-11-06T14:25:00+05:30",
+ "asof": "2026-11-06T14:55:00+05:30",
  "nifty": {
-  "value": 24800,
-  "pct": 1.07,
+  "value": 24880,
+  "pct": 1.4,
   "approx": true,
-  "asof_quote": "Near 24,800 at the day's high per Business Standard live-blog headline; 1 PM entry was 24,678.55 (+141.95)"
+  "asof_quote": "Nifty nearing 24,900 around 2:36 PM per DSIJ; Business Standard headline has it above 24,800"
  },
  "mood": {
-  "label": "Rally, narrow breadth",
-  "score": 0.35,
-  "summary": "Benchmarks have pushed to the day's highs in afternoon trade, defying the global rout, but the advance is narrow, with mid and small caps still in the red and volatility rising.",
+  "label": "Large caps surge",
+  "score": 0.45,
+  "summary": "The rally has gathered pace into the last hour, with the benchmarks near the day's highs on IT and bank buying, though smaller stocks remain under pressure and volatility is up.",
   "detail": {
-   "leaders": "Nifty IT; M&M and Titan after Q2",
-   "laggards": "Smallcaps, midcaps, Nifty Realty and Astral",
-   "tone": "Live read: stronger than 1355, with the Sensex hitting the day's high on a 1,000-point rally, but India VIX up about 10% signals nervousness under the surface.",
+   "leaders": "Nifty IT and Nifty Bank; M&M",
+   "laggards": "Smallcaps, midcaps and Astral",
+   "tone": "Live read: stronger again than 1425, with the Sensex up about 1,200–1,300 points, but breadth is still poor and India VIX is up more than 10%.",
    "watch": [
     "Whether the gains hold into the close",
     "US October jobs report at 7 pm IST",
     "Whether the rally broadens to mid and small caps"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex hits day's high with 1,000-pt rally; Nifty near 24,800; VIX jumps 10%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+    "title": "DSIJ: Sensex surges 1,230 points, Nifty nears 24,900; banks lead 7-day rally",
+    "url": "https://insights.dsij.in/dsijarticledetail/sensex-surges-1230-points-nifty-nears-24900-banks-lead-7-day-rally-60347"
    },
    "movers": {
     "up": {
-     "summary": "IT and results winners are lifting the benchmarks to the day's highs",
-     "why": "Investors are rotating from global AI-linked stocks into Indian IT, while strong quarters draw buying in select large caps.",
+     "summary": "IT and private banks are powering the benchmarks to the day's highs",
+     "why": "Investors are rotating into Indian IT from global AI stocks, and foreign inflows are going into heavyweight private banks.",
      "names": [
       {
        "name": "Nifty IT",
@@ -41,25 +41,25 @@
        "line": "Top sector as money shifts from global AI stocks to Indian IT services"
       },
       {
+       "name": "Nifty Bank",
+       "dir": "up",
+       "move": "up ~1–1.7%",
+       "line": "FII buying concentrated in heavyweight private banks"
+      },
+      {
        "name": "M&M",
        "dir": "up",
        "move": "up ~5%",
        "line": "Auto profit up 55% in Q2; Jefferies keeps Buy"
-      },
-      {
-       "name": "Titan",
-       "dir": "up",
-       "move": "up ~2–4%",
-       "line": "Underlying profit up 54%; Jefferies upgraded it to Buy"
       }
      ],
      "src": {
-      "title": "DSIJ: Sensex rises 450 points, Nifty 50 gains 0.32% as IT shares rally; mid and small caps underperform",
-      "url": "https://insights.dsij.in/dsijarticledetail/sensex-rises-450-points-nifty-50-gains-032-as-it-shares-rally-mid-and-small-caps-underperform-60342"
+      "title": "DSIJ: Sensex surges 1,230 points, Nifty nears 24,900; banks lead 7-day rally",
+      "url": "https://insights.dsij.in/dsijarticledetail/sensex-surges-1230-points-nifty-nears-24900-banks-lead-7-day-rally-60347"
      }
     },
     "down": {
-     "summary": "Smaller stocks and realty are lagging the benchmarks badly",
+     "summary": "Smaller stocks are still falling even as the large-cap indices surge",
      "why": "Investors are trimming riskier stocks after Thursday's broad rally even as the large-cap indices climb.",
      "names": [
       {
@@ -73,11 +73,6 @@
        "dir": "down",
        "move": "-0.93%",
        "line": "Gives back part of Thursday's gains"
-      },
-      {
-       "name": "Nifty Realty",
-       "dir": "down",
-       "line": "Weakest sector of the day after a sharp gain on Thursday"
       },
       {
        "name": "Astral",
@@ -95,6 +90,78 @@
   }
  },
  "insights": [
+  {
+   "key": "bank-rally",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Private banks lead late surge on FII buying",
+   "line": "Nifty Bank rose up to about 1.7% as foreign money went into heavyweight lenders",
+   "more": [
+    "Builds on a 3.3% jump in Nifty Bank on Thursday",
+    "Buying is concentrated in private banks, autos and consumer names"
+   ],
+   "src": {
+    "title": "DSIJ: Sensex surges 1,230 points, Nifty nears 24,900; banks lead 7-day rally",
+    "url": "https://insights.dsij.in/dsijarticledetail/sensex-surges-1230-points-nifty-nears-24900-banks-lead-7-day-rally-60347"
+   },
+   "date": "2026-11-06",
+   "slot": "1455",
+   "when": "14:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1225"
+   }
+  },
+  {
+   "key": "india-vix",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "India VIX jumps 10.5% to 17.22",
+   "line": "The fear gauge is rising alongside the rally, a sign of nervousness",
+   "more": [
+    "Global markets remain volatile after the US tech rout",
+    "US jobs data due at 7 pm IST"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,300 pts, Nifty above 24,800; Nifty Bank rises 1%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+   },
+   "date": "2026-11-06",
+   "slot": "1455",
+   "when": "14:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1200"
+   }
+  },
+  {
+   "key": "winning-streak",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Sensex on course for a seventh straight gain",
+   "line": "Large caps extend the run despite the global AI-led sell-off",
+   "more": [
+    "Gains are narrow; mid and small caps are lower",
+    "FII inflows are a key support, analysts say"
+   ],
+   "src": {
+    "title": "DSIJ: Sensex surges 1,230 points, Nifty nears 24,900; banks lead 7-day rally",
+    "url": "https://insights.dsij.in/dsijarticledetail/sensex-surges-1230-points-nifty-nears-24900-banks-lead-7-day-rally-60347"
+   },
+   "date": "2026-11-06",
+   "slot": "1455",
+   "when": "14:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "0955"
+   }
+  },
   {
    "key": "hindalco-novelis",
    "tag": "Results",
@@ -114,34 +181,10 @@
    "slot": "1425",
    "when": "14:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1055"
-   }
-  },
-  {
-   "key": "india-vix",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "India VIX jumps about 10%",
-   "line": "The volatility gauge is rising even as the benchmarks climb to the day's highs",
-   "more": [
-    "Global markets remain volatile after the US tech rout",
-    "US jobs data due this evening"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex hits day's high with 1,000-pt rally; Nifty near 24,800; VIX jumps 10%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
-   },
-   "date": "2026-11-06",
-   "slot": "1425",
-   "when": "14:25",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1200"
    }
   },
   {
@@ -162,7 +205,7 @@
    "slot": "1425",
    "when": "14:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-10-30",
     "slot": "1030"
@@ -972,30 +1015,6 @@
    }
   },
   {
-   "key": "winning-streak",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Sixth straight up session for benchmarks",
-   "line": "Oil's slide, renewed FII buying and US midterm relief cited as the drivers",
-   "more": [
-    "Longest winning run in nearly five months",
-    "Analysts flag profit-booking risk after the run"
-   ],
-   "src": {
-    "title": "Sunday Guardian: Sensex surges 1,433 points, Nifty jumps 383 points as markets extend winning streak to six sessions",
-    "url": "https://sundayguardianlive.com/business/sensex-today-nifty-50-indian-stock-market-live-sensex-surges-1433-points-nifty-jumps-383-points-as-markets-extend-winning-streak-to-six-sessions-check-3-key-reasons-behind-thursdays-rally-317620/"
-   },
-   "date": "2026-11-05",
-   "slot": "1425",
-   "when": "Thu · 14:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "0955"
-   }
-  },
-  {
    "key": "ltcg-hopes",
    "tag": "Policy",
    "impact": "watch",
@@ -1139,30 +1158,6 @@
    "first_seen": {
     "date": "2026-11-05",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Bank Nifty up about 2.5% at midday",
-   "line": "Financials are adding to the rally alongside autos",
-   "more": [
-    "Financial services among top sectors since the open",
-    "Shriram Finance among the leading gainers"
-   ],
-   "src": {
-    "title": "Trade Brains: Sensex & Nifty 50 live updates — 5 November",
-    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-5-november-gift-nifty-signals-gap-up-opening-gold-crude-oil-and-stocks-in-focus-12784801"
-   },
-   "date": "2026-11-05",
-   "slot": "1225",
-   "when": "Thu · 12:25",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "1225"
    }
   },
   {
