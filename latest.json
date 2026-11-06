@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-06T12:56:46+05:30",
+ "generated_at": "2026-11-06T13:26:21+05:30",
  "date": "2026-11-06",
- "slot": "1255",
- "slot_label": "12:55",
+ "slot": "1325",
+ "slot_label": "13:25",
  "stage": "Mid-market mood",
- "asof": "2026-11-06T12:55:00+05:30",
+ "asof": "2026-11-06T13:25:00+05:30",
  "nifty": {
   "value": 24649,
   "pct": 0.46,
@@ -13,13 +13,13 @@
   "asof_quote": "About 24,649 on the Business Standard Hindi live-blog ticker; timestamp not confirmed"
  },
  "mood": {
-  "label": "Results drive action",
+  "label": "Stock-specific churn",
   "score": 0.25,
-  "summary": "The benchmarks are holding modest gains into early afternoon as IT and results winners offset the global sell-off, while disappointing quarters are punished hard.",
+  "summary": "Indian stocks are holding modest gains in the afternoon as IT steadies the benchmarks, while a run of disappointing results drags individual names sharply lower.",
   "detail": {
    "leaders": "Nifty IT; Titan and M&M after Q2",
-   "laggards": "Astral, Glenmark and Hindalco after weak quarters",
-   "tone": "Live read: steady versus 1225, with index gains intact and the action shifting to sharp stock-specific moves on results.",
+   "laggards": "Astral, LIC, Glenmark and Hindalco after Q2",
+   "tone": "Live read: steady versus 1255, with headline gains intact and selling still concentrated in individual results losers.",
    "watch": [
     "Hindalco's own Q2 results due today",
     "Whether IT keeps leading into the close",
@@ -59,7 +59,7 @@
      }
     },
     "down": {
-     "summary": "Stocks with weak September quarters are being sold hard",
+     "summary": "Weak quarters are hitting Astral, LIC, Glenmark and Hindalco",
      "why": "Investors are dumping companies whose margins or revenue disappointed.",
      "names": [
       {
@@ -67,6 +67,12 @@
        "dir": "down",
        "move": "down ~12%",
        "line": "EBITDA margin fell to 13.1% from 16.3%; hit a 52-week low"
+      },
+      {
+       "name": "LIC",
+       "dir": "down",
+       "move": "down ~4%",
+       "line": "Value of new business missed estimates and premium growth stayed weak"
       },
       {
        "name": "Glenmark Pharma",
@@ -91,6 +97,79 @@
  },
  "insights": [
   {
+   "key": "lic-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "LIC falls 4% as new-business value misses",
+   "line": "Profit rose about 20%, but value of new business (VNB) missed and premium growth was weak",
+   "more": [
+    "Annualised premium (APE) grew only 3.8% to ₹17,004 cr",
+    "Stock fell to a day's low of ₹391.6",
+    "Net premium income rose about 16%"
+   ],
+   "src": {
+    "title": "Business Standard: LIC shares fall 4% as Q2 VNB misses estimates; APE growth remains weak",
+    "url": "https://www.business-standard.com/markets/news/lic-shares-fall-4-as-q2-vnb-misses-estimates-ape-growth-remains-weak-126110600611_1.html"
+   },
+   "date": "2026-11-06",
+   "slot": "1325",
+   "when": "13:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "hexacom-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Bharti Hexacom Q2 profit up 34%",
+   "line": "Profit rose to ₹566 cr from ₹421 cr; revenue up 11.4% to ₹2,582 cr",
+   "more": [
+    "Board approved the results on Nov 5",
+    "Airtel's listed unit for Rajasthan and the Northeast"
+   ],
+   "src": {
+    "title": "Indian Television: Bharti Hexacom Q2 profit rises 34% to Rs 566 crore",
+    "url": "https://indiantelevision.com/iworld/bharti-hexacom-q2-profit-rises-34-per-cent-to-rs-566-crore"
+   },
+   "date": "2026-11-06",
+   "slot": "1325",
+   "when": "13:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "1325"
+   }
+  },
+  {
+   "key": "hindalco-novelis",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Novelis profit up, but shipments slip",
+   "line": "One report says Novelis profit rose 29% to $210 mn while shipments fell about 2%",
+   "more": [
+    "Single-source figures; check Novelis's own release",
+    "Hindalco's consolidated Q2 is due today"
+   ],
+   "src": {
+    "title": "Whalesbook: Hindalco subsidiary Novelis Q2 net income jumps 29% to $210 million",
+    "url": "https://www.whalesbook.com/corporate-news/Hinglish/industrial-goodsservices/Hindalco-Subsidiary-Novelis-Q2-Net-Income-Jumps-29percent-to-dollar210-Million/6aec6ecac6c6dccbb9150b87"
+   },
+   "date": "2026-11-06",
+   "slot": "1325",
+   "when": "13:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "1055"
+   }
+  },
+  {
    "key": "astral-q2",
    "tag": "Results",
    "impact": "neg",
@@ -109,7 +188,7 @@
    "slot": "1255",
    "when": "12:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1255"
@@ -134,7 +213,7 @@
    "slot": "1255",
    "when": "12:55",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "2100"
@@ -158,7 +237,7 @@
    "slot": "1255",
    "when": "12:55",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1255"
@@ -212,30 +291,6 @@
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1155"
-   }
-  },
-  {
-   "key": "hindalco-novelis",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Hindalco's own Q2 results due today",
-   "line": "After Novelis's weak quarter hit the stock, the parent reports its September quarter",
-   "more": [
-    "Q1 FY27 profit was a record ₹7,013 cr",
-    "Motilal Oswal expects adjusted profit of ₹5,430 cr"
-   ],
-   "src": {
-    "title": "NiftyTrader: Hindalco Q2 results on Nov 6",
-    "url": "https://www.niftytrader.in/markets/hindalco-q2-results-on-nov-6/"
-   },
-   "date": "2026-11-06",
-   "slot": "1225",
-   "when": "12:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1055"
    }
   },
   {
@@ -578,30 +633,6 @@
    "first_seen": {
     "date": "2026-10-30",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "lic-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "LIC Q2 profit rises 20% to ₹12,076 cr",
-   "line": "Insurer's September-quarter profit grows about 20% year on year",
-   "more": [
-    "Net profit of ₹12,076 cr in Q2 FY27",
-    "Reported after market hours on Thursday"
-   ],
-   "src": {
-    "title": "Business Standard: LIC Q2FY27 results — net profit increases 20% to ₹12,076 crore",
-    "url": "https://www.business-standard.com/amp/companies/quarterly-results/lic-q2fy27-results-net-profit-increases-20-to-12-076-crore-126110501463_1.html"
-   },
-   "date": "2026-11-05",
-   "slot": "2100",
-   "when": "Thu · 21:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "2100"
    }
   },
   {
