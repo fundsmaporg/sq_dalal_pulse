@@ -1,0 +1,189 @@
+{
+ "asof": "2026-11-06T15:25:00+05:30",
+ "summary": "Benchmarks are heading into the close near the day's highs after a strong afternoon surge led by IT and private banks, while mid and small caps stay in the red, leaving breadth weak.",
+ "mood": {
+  "label": "Late surge",
+  "score": 0.5,
+  "detail": {
+   "stats": [],
+   "leaders": "Nifty IT and Nifty Bank; M&M",
+   "laggards": "Smallcaps, midcaps and Astral",
+   "movers": {
+    "up": {
+     "summary": "IT and private banks are powering the benchmarks to the day's highs",
+     "why": "Investors are rotating into Indian IT from global AI stocks, and foreign inflows are going into heavyweight private banks.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "move": "+1.9%",
+       "dir": "up",
+       "line": "Top sector as money shifts from global AI stocks to Indian IT services"
+      },
+      {
+       "name": "Nifty Bank",
+       "move": "up ~1–1.7%",
+       "dir": "up",
+       "line": "FII buying concentrated in heavyweight private banks"
+      },
+      {
+       "name": "M&M",
+       "move": "up ~5%",
+       "dir": "up",
+       "line": "Auto profit up 55% in Q2; Jefferies keeps Buy"
+      }
+     ],
+     "src": {
+      "title": "DSIJ: Sensex surges 1,230 points, Nifty nears 24,900; banks lead 7-day rally",
+      "url": "https://insights.dsij.in/dsijarticledetail/sensex-surges-1230-points-nifty-nears-24900-banks-lead-7-day-rally-60347"
+     }
+    },
+    "down": {
+     "summary": "Smaller stocks are still falling even as the large-cap indices surge",
+     "why": "Investors are trimming riskier stocks after Thursday's broad rally even as the large-cap indices climb.",
+     "names": [
+      {
+       "name": "Nifty Smallcap 100",
+       "move": "-1.54%",
+       "dir": "down",
+       "line": "Riskiest pocket hit hardest as traders cut exposure"
+      },
+      {
+       "name": "Nifty Midcap 100",
+       "move": "-0.93%",
+       "dir": "down",
+       "line": "Gives back part of Thursday's gains"
+      },
+      {
+       "name": "Astral",
+       "move": "down ~12%",
+       "dir": "down",
+       "line": "Q2 margin shrank to 13.1%; stock at a 52-week low"
+      }
+     ],
+     "src": {
+      "title": "DSIJ: Sensex rises 450 points, Nifty 50 gains 0.32% as IT shares rally; mid and small caps underperform",
+      "url": "https://insights.dsij.in/dsijarticledetail/sensex-rises-450-points-nifty-50-gains-032-as-it-shares-rally-mid-and-small-caps-underperform-60342"
+     }
+    }
+   },
+   "tone": "Live read: stronger than 1455, with the Sensex up about 1,340 points by 3 PM, though smaller stocks did not join in.",
+   "watch": [
+    "Final closing figures and today's FII data",
+    "US October jobs report at 7 pm IST",
+    "Whether mid and small caps recover next week"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE, Nov 6 (3 PM update)",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 24877.05,
+  "pct": 1.39,
+  "chg": 339.95,
+  "approx": true,
+  "asof_quote": "3 PM entry, Business Standard live blog: Nifty 24,877.05 (+339.95), Sensex 80,649.50 (+1,339.49)"
+ },
+ "top": [
+  {
+   "key": "bank-rally",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Private banks lead late surge on FII buying",
+   "line": "Nifty Bank rose up to about 1.7% as foreign money went into heavyweight lenders",
+   "more": [
+    "Builds on a 3.3% jump in Nifty Bank on Thursday",
+    "Buying is concentrated in private banks, autos and consumer names"
+   ],
+   "src": {
+    "title": "DSIJ: Sensex surges 1,230 points, Nifty nears 24,900; banks lead 7-day rally",
+    "url": "https://insights.dsij.in/dsijarticledetail/sensex-surges-1230-points-nifty-nears-24900-banks-lead-7-day-rally-60347"
+   }
+  },
+  {
+   "key": "india-vix",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "India VIX jumps 10.5% to 17.22",
+   "line": "The fear gauge is rising alongside the rally, a sign of nervousness",
+   "more": [
+    "Global markets remain volatile after the US tech rout",
+    "US jobs data due at 7 pm IST"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,300 pts, Nifty above 24,800; Nifty Bank rises 1%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+   }
+  },
+  {
+   "key": "winning-streak",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Large caps extend their winning run",
+   "line": "Large caps extend the run despite the global AI-led sell-off",
+   "more": [
+    "Private banks and IT led the afternoon buying",
+    "Mid and small caps still ended lower"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE, Nov 6 (3 PM update)",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Business Standard: Stock Market LIVE, Nov 6 (3 PM update)",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+  },
+  {
+   "title": "DSIJ: Sensex surges 1,230 points, Nifty nears 24,900; banks lead 7-day rally",
+   "url": "https://insights.dsij.in/dsijarticledetail/sensex-surges-1230-points-nifty-nears-24900-banks-lead-7-day-rally-60347"
+  },
+  {
+   "title": "Business Standard: Stock Market LIVE — Sensex surges 1,300 pts, Nifty above 24,800; Nifty Bank rises 1%",
+   "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+  },
+  {
+   "title": "Whalesbook: Nifty Bank climbs 3.3% as cooling oil prices boost sentiment (Nov 5)",
+   "url": "https://www.whalesbook.com/news/English/bankingfinance/Nifty-Bank-Climbs-33percent-As-Cooling-Oil-Prices-Boost-Sentiment/6aece8cf4fc30694db6011dd"
+  },
+  {
+   "title": "Business Standard: Stock Market LIVE — Sensex hits day's high with 1,000-pt rally; Nifty near 24,800; VIX jumps 10%",
+   "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+  },
+  {
+   "title": "Business Standard: Stock Market LIVE — Sensex surges 1,000 pts, Nifty near 24,700; Hindalco Q2 profit rises 59%",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+  },
+  {
+   "title": "DSIJ: Sensex rises 450 points, Nifty 50 gains 0.32% as IT shares rally; mid and small caps underperform",
+   "url": "https://insights.dsij.in/dsijarticledetail/sensex-rises-450-points-nifty-50-gains-032-as-it-shares-rally-mid-and-small-caps-underperform-60342"
+  },
+  {
+   "title": "Zee Business: Hindalco Q2 results — profit rises 59% to Rs 7,533 crore, revenue jumps 39%; beats estimates",
+   "url": "https://www.zeebiz.com/companies/news-hindalco-q2-results-profit-rises-59-to-rs-7533-crore-revenue-jumps-39-beats-estimates-405227"
+  },
+  {
+   "title": "DSIJ: Hindalco posts record Q2 FY27 profit as India business and Novelis recovery lift earnings",
+   "url": "https://insights.dsij.in/dsijarticledetail/hindalco-posts-record-q2-fy27-profit-as-india-business-and-novelis-recovery-lift-earnings-60345"
+  },
+  {
+   "title": "Zee Business: IT stocks rally — Nifty IT hits 9-month high",
+   "url": "https://www.zeebiz.com/market-news/news-it-stocks-rally-nifty-it-hits-9-month-high-why-are-mphasis-hcltech-tcs-others-rising-405209"
+  },
+  {
+   "title": "Moneycontrol via TradingView: Titan rallies after Q2; Jefferies, Citi say Buy",
+   "url": "https://www.tradingview.com/news/moneycontrol:007e64228094b:0-titan-shares-rally-4-after-q2-results-beat-estimates-jefferies-citi-say-buy/"
+  },
+  {
+   "title": "Business Standard: M&M jumps 5% even as firm cuts tractor outlook",
+   "url": "https://business-standard.com/markets/news/m-m-jumps-5-even-as-firm-cuts-tractor-outlook-what-s-behind-the-rise-126110600504_1.html"
+  },
+  {
+   "title": "Business Standard: Astral share price tumbles over 12% post Q2 earnings",
+   "url": "https://www.business-standard.com/markets/news/astral-share-price-tumbles-over-12-post-q2-earnings-126110600517_1.html"
+  }
+ ]
+}
