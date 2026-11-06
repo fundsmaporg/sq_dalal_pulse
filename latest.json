@@ -1,82 +1,156 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-06T09:27:17+05:30",
+ "generated_at": "2026-11-06T09:56:43+05:30",
  "date": "2026-11-06",
- "slot": "0925",
- "slot_label": "9:25",
+ "slot": "0955",
+ "slot_label": "9:55",
  "stage": "Opening mood",
- "asof": "2026-11-06T09:25:00+05:30",
+ "asof": "2026-11-06T09:55:00+05:30",
  "nifty": {
-  "value": 24500,
-  "pct": -0.15,
+  "value": 24520,
+  "pct": -0.07,
   "approx": true,
-  "asof_quote": "Near 24,500 in early trade, Business Standard live blog; opened about 24,514"
+  "asof_quote": "Near 24,500–24,540 in early trade; opened at 24,538.20 (Asianet, Business Standard live blog)"
  },
  "mood": {
-  "label": "Flat, fragile breadth",
-  "score": -0.2,
-  "summary": "Frontline indices are holding near flat after a cautious open, but selling is broad underneath as mid and small caps slide while IT and a few results names hold up.",
+  "label": "Resilient but narrow",
+  "score": -0.1,
+  "summary": "Frontline indices are hovering near flat against a global rout, with IT firm, but the broader market is weak as midcaps and smallcaps extend their slide.",
   "detail": {
-   "leaders": "M&M after its Q2 beat; Nifty IT edges higher",
-   "laggards": "Midcaps and smallcaps slide in a broad sell-off",
-   "tone": "Live read: better than the weak open feared at 0845, as the Nifty is barely lower, but the broad market is clearly under pressure.",
+   "leaders": "Bharti Airtel and M&M after Q2 beats",
+   "laggards": "Midcaps and smallcaps in a broad sell-off",
+   "tone": "Live read: much like 0925, with the Nifty steady while selling continues in the broader market; Asia's partial recovery is helping.",
    "watch": [
-    "Whether the broad-market selling spreads to large caps",
-    "Asian markets after Korea's circuit-breaker halt",
-    "Whether FIIs keep buying through the global sell-off"
+    "Whether broad-market weakness spreads to the large caps",
+    "Whether Korea and Taiwan keep recovering from their lows",
+    "US jobs data this evening"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty near 24,500; Nifty IT rises 1%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+    "title": "Business Standard: Stock Market LIVE — Sensex rises 100 pts, Nifty near 24,500; Nifty IT rises 1%",
+    "url": "https://business-standard.com/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
    },
    "movers": {
     "up": {
-     "summary": "M&M and IT stocks are holding up the frontline indices",
-     "why": "Results-driven buying and firm IT shares are offsetting losses elsewhere among large caps.",
+     "summary": "Results winners Airtel and M&M are propping up the frontline indices",
+     "why": "Buying in large caps with strong September-quarter numbers is offsetting the global risk-off mood.",
      "names": [
+      {
+       "name": "Bharti Airtel",
+       "dir": "up",
+       "move": "up over 2%",
+       "line": "Profit up 31% on year; CLSA raised its target and HSBC kept Buy"
+      },
       {
        "name": "M&M",
        "dir": "up",
-       "line": "Among top Sensex gainers after Q2 profit beat; auto profit up 55%"
-      },
-      {
-       "name": "Nifty IT",
-       "dir": "up",
-       "move": "up ~1%",
-       "line": "Infosys and TCS among top gainers; no specific trigger reported yet"
+       "line": "Among top Sensex gainers after auto profit jumped 55% in Q2"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty near 24,500; Nifty IT rises 1%",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+      "title": "Zee Business: Bharti Airtel shares jump after Q2 show; CLSA hikes target, HSBC maintains Buy",
+      "url": "https://www.zeebiz.com/markets/stocks/news-bharti-airtel-shares-rises-after-q2-show-clsa-hikes-target-hsbc-maintains-buy-check-fresh-targets-405204"
      }
     },
     "down": {
-     "summary": "Midcaps and smallcaps fall more than 1% as risk appetite cools",
-     "why": "Higher-beta stocks bear the brunt as investors cut risk after the global tech rout.",
+     "summary": "Midcap and smallcap indices are down more than 1% as risk appetite fades",
+     "why": "Investors are trimming higher-risk stocks after Thursday's broad rally as global markets sell off.",
      "names": [
       {
        "name": "Nifty Midcap 100",
        "dir": "down",
-       "move": "-1.16%",
-       "line": "Profit-taking after Thursday's broad rally as global markets sell off"
+       "move": "-1.2%",
+       "line": "Gives back part of Thursday's gains as global risk-off mood weighs"
       },
       {
        "name": "Nifty Smallcap 100",
        "dir": "down",
-       "move": "-1.57%",
-       "line": "Falls hardest, the riskiest pocket hit first in a risk-off session"
+       "move": "-1.67%",
+       "line": "The weakest pocket, hit hardest as traders cut risk"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty near 24,500; Nifty IT rises 1%",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+      "title": "Business Standard: Stock Market LIVE — Sensex rises 100 pts, Nifty near 24,500; Nifty IT rises 1%",
+      "url": "https://business-standard.com/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "asia-tech",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Asia pares losses after early crash",
+   "line": "Kospi recovers to about −4% and Taiwan to −3% after earlier drops of over 8%",
+   "more": [
+    "Nikkei was still down about 5.3%",
+    "Worries over tighter US scrutiny of AI data centres drove the sell-off",
+    "Korea's circuit breaker paused trading early"
+   ],
+   "src": {
+    "title": "Asianet Newsable: Indian markets open marginally higher despite global tech sell-off",
+    "url": "https://newsable.asianetnews.com/business/indian-markets-open-marginally-higher-despite-global-tech-sell-off-articleshow-1agkvsk"
+   },
+   "date": "2026-11-06",
+   "slot": "0955",
+   "when": "9:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "airtel-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Airtel rises as brokers back Q2",
+   "line": "Shares rise over 2% as CLSA raises its target and HSBC keeps Buy at ₹2,500",
+   "more": [
+    "Q2 profit up 31% on year",
+    "Brokers cite gains in ARPU, or revenue per user"
+   ],
+   "src": {
+    "title": "Zee Business: Bharti Airtel shares jump after Q2 show; CLSA hikes target, HSBC maintains Buy",
+    "url": "https://www.zeebiz.com/markets/stocks/news-bharti-airtel-shares-rises-after-q2-show-clsa-hikes-target-hsbc-maintains-buy-check-fresh-targets-405204"
+   },
+   "date": "2026-11-06",
+   "slot": "0955",
+   "when": "9:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "ongc-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "ONGC's profit fell from the June quarter",
+   "line": "Standalone profit fell 9% from Q1 and revenue fell 5.6%, despite the 57% annual jump",
+   "more": [
+    "Shares closed 2.1% lower at ₹230 on Thursday",
+    "Production challenges were also cited",
+    "Record date for the ₹8 dividend is Nov 12"
+   ],
+   "src": {
+    "title": "Whalesbook: ONGC Q2 profit jumps 57% to ₹15,489 crore; dividend announced",
+    "url": "https://www.whalesbook.com/news/English/energy/ONGC-Q2-Profit-Jumps-57percent-to-indian-rupee15489-Crore-Dividend-Announced/6aeca3ab4fc30694db5f6f7e"
+   },
+   "date": "2026-11-06",
+   "slot": "0955",
+   "when": "9:55",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "2100"
+   }
+  },
   {
    "key": "m-m-q2",
    "tag": "Results",
@@ -96,7 +170,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "0925"
@@ -120,31 +194,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "2100"
-   }
-  },
-  {
-   "key": "airtel-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Airtel profit settles at ₹8,888 cr",
-   "line": "Consolidated profit rose 8.8% quarter on quarter; shares slipped 0.7% on Thursday",
-   "more": [
-    "Higher ₹10,700 cr figures in some reports don't match",
-    "Profit missed the ₹9,209 cr estimate"
-   ],
-   "src": {
-    "title": "Upstox: Q2 Results Highlights — LIC profit climbs 20% YoY; ONGC declares dividend",
-    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-bharti-airtel-lic-m-and-m-titan-ongc-britannia-lg-bharat-forge-others-to-declare-earnings/liveblog-203021/"
-   },
-   "date": "2026-11-06",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "2100"
@@ -173,31 +223,6 @@
    "first_seen": {
     "date": "2026-11-02",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "asia-tech",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Nikkei enters bear market as Asia slides",
-   "line": "Japan's Nikkei enters a bear market and Korea's Kospi falls about 9%",
-   "more": [
-    "Kospi's circuit breaker paused trading for 20 minutes",
-    "Chipmakers Samsung and SK Hynix lead the losses",
-    "The selling tracks Wall Street's AI-stock rout"
-   ],
-   "src": {
-    "title": "CNBC: Stock futures fall after Nasdaq correction; Japan's Nikkei 225 enters bear market",
-    "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
-   },
-   "date": "2026-11-06",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0845"
    }
   },
   {
@@ -344,31 +369,6 @@
    "first_seen": {
     "date": "2026-10-30",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "ongc-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "ONGC profit jumps 57%, ₹8 dividend",
-   "line": "Record Q2 standalone profit of ₹15,489 cr; interim dividend record date Nov 12",
-   "more": [
-    "Standalone profit up 57.3% year on year",
-    "Interim dividend of ₹8 a share, about ₹10,064 cr in total",
-    "Highest-ever H1 profit of ₹32,522 cr"
-   ],
-   "src": {
-    "title": "Indian Masterminds: ONGC Q2 FY27 net profit jumps 57.3% to ₹15,489 crore, record ₹8 dividend",
-    "url": "https://indianmasterminds.com/news/ongc-q2-fy27-results-net-profit-8-dividend-offshore-projects-248604/"
-   },
-   "date": "2026-11-05",
-   "slot": "2100",
-   "when": "Thu · 21:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "2100"
    }
   },
   {
