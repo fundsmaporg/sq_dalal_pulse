@@ -7,7 +7,7 @@
  "keys": [
   {
    "key": "crude",
-   "title": "Gulf shipping risk still hangs over oil",
+   "title": "Brent ends week near $98 after steep fall",
    "first_seen": {
     "date": "2026-09-23",
     "slot": "1230"
@@ -20,7 +20,7 @@
   },
   {
    "key": "iran-talks",
-   "title": "No US answer yet to Iran's proposal",
+   "title": "Qatar offers a two-day US-Iran bridge deal",
    "first_seen": {
     "date": "2026-09-30",
     "slot": "1200"
@@ -31,5 +31,20 @@
    },
    "count": 7
   }
- ]
+ ],
+ "metrics": {
+  "brent_usd": [
+   {
+    "date": "2026-11-07",
+    "slot": "2100",
+    "value": 98.32,
+    "asof": "Fri 6 Nov settle",
+    "approx": false,
+    "src": {
+     "title": "FinanceFeeds: Brent crude oil price $98.32 after 16% weekly drop",
+     "url": "https://financefeeds.com/brent-crude-oil-price-98-32-saturday-week-ahead-us-iran-deal-bets-cpi-10-november-bull-105-bear-93/"
+    }
+   }
+  ]
+ }
 }

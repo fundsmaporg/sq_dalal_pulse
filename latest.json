@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-07T21:00:59+05:30",
+ "generated_at": "2026-11-07T22:00:55+05:30",
  "date": "2026-11-07",
  "slot": "2100",
  "slot_label": "21:00",
  "stage": "Weekend outlook",
- "asof": "2026-11-07T21:05:00+05:30",
+ "asof": "2026-11-07T21:10:00+05:30",
  "nifty": {
   "value": 25030.35,
   "pct": 2.01,
@@ -13,18 +13,47 @@
   "approx": false,
   "asof_quote": "Fri 6 Nov close"
  },
+ "metrics": {
+  "brent_usd": {
+   "value": 98.32,
+   "asof": "Fri 6 Nov settle",
+   "approx": false,
+   "src": {
+    "title": "FinanceFeeds: Brent crude oil price $98.32 after 16% weekly drop",
+    "url": "https://financefeeds.com/brent-crude-oil-price-98-32-saturday-week-ahead-us-iran-deal-bets-cpi-10-november-bull-105-bear-93/"
+   }
+  },
+  "fii_net_cr": {
+   "value": 13749.82,
+   "asof": "Fri 6 Nov provisional",
+   "approx": false,
+   "src": {
+    "title": "Groww: FII & DII data",
+    "url": "https://groww.in/fii-dii-data"
+   }
+  },
+  "dii_net_cr": {
+   "value": -5968.7,
+   "asof": "Fri 6 Nov provisional",
+   "approx": false,
+   "src": {
+    "title": "Groww: FII & DII data",
+    "url": "https://groww.in/fii-dii-data"
+   }
+  }
+ },
  "mood": {
   "label": "Constructive but stretched",
   "score": 0.35,
-  "summary": "Nothing new since the evening note: strong foreign buying and softer crude still favour Sunday's Muhurat hour, while a stretched rally and unresolved Gulf risks keep the setup cautious.",
+  "summary": "Heavy foreign buying and sharply cheaper oil give the Diwali sessions a firm footing, but a market at multi-year-best weekly gains and unresolved Gulf risk argue against chasing it.",
   "detail": {
-   "leaders": "Large caps that foreign investors have been buying, if the inflows carry on",
-   "laggards": "Consumer names that posted weak quarters, such as Jubilant FoodWorks",
-   "tone": "A quiet Saturday evening, with no new market-moving news since the 1800 note. Next up is Sunday's Muhurat hour, a thin, symbolic session, then a full session on Monday Nov 9. Tuesday Nov 10 is a holiday.",
+   "leaders": "Large caps that foreign investors bought heavily all week, and oil-sensitive sectors helped by cheaper crude",
+   "laggards": "Consumer names with weak quarters, such as Jubilant FoodWorks",
+   "tone": "A quiet Saturday after Friday's strong close, with no market-moving news beyond Qatar's new US-Iran proposal. Next up: Sunday's one-hour Muhurat session, then a full session on Monday Nov 9; Tuesday Nov 10 is a holiday.",
    "watch": [
-    "Any US reply to Iran's proposal, or new attacks on Gulf shipping",
-    "Whether foreign buying shows up again in the Muhurat hour and on Monday",
-    "Profit-taking after the strongest week in over five years"
+    "Whether Iran and the US take up Qatar's two-day bridge deal, or Gulf attacks resume",
+    "Whether foreign buying continues in the Muhurat hour and on Monday",
+    "Profit-taking after the strongest week since February 2021"
    ],
    "src": {
     "title": "The Tribune: Sensex jumps 1,718 points, Nifty tops 25,000",
@@ -34,44 +63,19 @@
  },
  "insights": [
   {
-   "key": "holiday-calendar",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Muhurat hour Sunday 2:20–3:30 pm",
-   "line": "NSE has set a rare afternoon Diwali session; Tuesday Nov 10 is a market holiday",
-   "more": [
-    "Normal trading runs 2:20 pm to 3:30 pm IST, per most reports",
-    "One broker gives 3:40 pm as the end time",
-    "Trades settle like any other session"
-   ],
-   "src": {
-    "title": "Outlook Money: Diwali Muhurat trading 2026, NSE schedules rare afternoon session on November 8",
-    "url": "https://www.outlookmoney.com/invest/diwali-muhurat-trading-2026-nse-schedules-rare-afternoon-session-on-november-8-check-full-schedule"
-   },
-   "date": "2026-11-07",
-   "slot": "2100",
-   "when": "21:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-01",
-    "slot": "outlook"
-   }
-  },
-  {
    "key": "iran-talks",
    "tag": "Global",
    "impact": "watch",
-   "title": "No US answer yet to Iran's proposal",
-   "line": "Iran's Qatar-brokered offer asks for sanctions relief and an end to the blockade",
+   "title": "Qatar offers a two-day US-Iran bridge deal",
+   "line": "Plan would reopen Hormuz on day two in exchange for easing the US blockade",
    "more": [
-    "We found no new reports on the talks this evening",
-    "US is reviewing the proposal",
-    "A deal would likely weigh on crude; a breakdown would lift it"
+    "Iran is reviewing it but says sanctions relief and an end to the blockade come first",
+    "Reports say it includes releasing part of $8 bn in frozen Iranian assets",
+    "Trump confirmed a 'minor' US strike on Friday even as talks continue"
    ],
    "src": {
-    "title": "WLT Report: Iran sends Trump a nuclear proposal, with a seven-demand catch",
-    "url": "https://wltreport.com/2026/11/06/iran-president-trump-nuclear-proposal-seven-demands-qatar"
+    "title": "24NewsHD: Qatar proposes US-Iran deal to reopen Strait of Hormuz",
+    "url": "https://www.24newshd.tv/07-Nov-2026/qatar-proposal-end-us-iran-conflict"
    },
    "thread": "crude-iran-war",
    "date": "2026-11-07",
@@ -87,18 +91,69 @@
   {
    "key": "crude",
    "tag": "Macro",
-   "impact": "watch",
-   "title": "Gulf shipping risk still hangs over oil",
-   "line": "Late-week attacks on ships kept a floor under crude after a steep weekly fall",
+   "impact": "pos",
+   "title": "Brent ends week near $98 after steep fall",
+   "line": "Oil settled at $98.32 on Friday, down about 13% on the week",
    "more": [
-    "Oil markets are shut until Monday morning in Asia",
-    "Any Hormuz disruption could reverse the slide"
+    "Biggest weekly drop since 2022, on hopes of a US-Iran deal",
+    "Attacks on tankers kept a floor under prices late in the week",
+    "Cheaper crude helps India's import bill and the rupee"
    ],
    "src": {
-    "title": "CBS News: More ships attacked in Persian Gulf, oil prices rebound slightly after post-midterm plunge",
-    "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+    "title": "EnergyNow: Oil prices plunge 13% in one week — Brent below $99",
+    "url": "https://energynow.com/2026/11/oil-prices-plunge-13-in-one-week-as-u-s-election-results-raise-hopes-of-iran-peace-deal-wti-closes-below-91-brent-below-99/"
    },
    "thread": "crude-iran-war",
+   "date": "2026-11-07",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-01",
+    "slot": "outlook"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Foreign investors buy ₹13,750 cr on Friday",
+   "line": "FIIs net bought for another session while domestic funds booked profits",
+   "more": [
+    "FII net buying: ₹13,749.82 cr (provisional)",
+    "DII net selling: ₹5,968.70 cr",
+    "Thursday's FII buying was even larger, at ₹14,974.68 cr"
+   ],
+   "src": {
+    "title": "Groww: FII & DII data",
+    "url": "https://groww.in/fii-dii-data"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-07",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-01",
+    "slot": "outlook"
+   }
+  },
+  {
+   "key": "holiday-calendar",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Muhurat hour Sunday; market shut Tuesday",
+   "line": "Diwali session runs 2:20–3:30 pm Sunday; Monday is a full day, Tuesday a holiday",
+   "more": [
+    "Most reports give 3:30 pm as the end; one broker says 3:40 pm",
+    "Muhurat trades settle like any other session"
+   ],
+   "src": {
+    "title": "Outlook Money: Diwali Muhurat trading 2026, NSE schedules rare afternoon session on November 8",
+    "url": "https://www.outlookmoney.com/invest/diwali-muhurat-trading-2026-nse-schedules-rare-afternoon-session-on-november-8-check-full-schedule"
+   },
    "date": "2026-11-07",
    "slot": "2100",
    "when": "21:00",
@@ -181,30 +236,6 @@
    "first_seen": {
     "date": "2026-11-07",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs bought ₹13,750 cr more on Friday",
-   "line": "Provisional data: FIIs net bought ₹13,750 cr; DIIs net sold ₹5,969 cr",
-   "more": [
-    "Follows about ₹14,975 cr of FII buying on Thursday",
-    "Foreign money drove last week's large-cap rally"
-   ],
-   "src": {
-    "title": "Tapetide: FII DII data — daily and monthly net flows",
-    "url": "https://tapetide.com/fii-dii-data"
-   },
-   "date": "2026-11-07",
-   "slot": "0800",
-   "when": "8:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-01",
-    "slot": "outlook"
    }
   },
   {
