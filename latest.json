@@ -1,30 +1,30 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-07T18:00:10+05:30",
+ "generated_at": "2026-11-07T21:00:59+05:30",
  "date": "2026-11-07",
- "slot": "1800",
- "slot_label": "18:00",
+ "slot": "2100",
+ "slot_label": "21:00",
  "stage": "Weekend outlook",
- "asof": "2026-11-07T18:00:00+05:30",
+ "asof": "2026-11-07T21:05:00+05:30",
  "nifty": {
   "value": 25030.35,
   "pct": 2.01,
   "chg": 493.75,
   "approx": false,
-  "asof_quote": "Friday Nov 6 close per The Tribune/ANI"
+  "asof_quote": "Fri 6 Nov close"
  },
  "mood": {
   "label": "Constructive but stretched",
   "score": 0.35,
-  "summary": "A quiet Saturday leaves the setup unchanged: strong foreign buying and cheaper crude support the next session, while a stretched rally and Gulf shipping risks argue for caution.",
+  "summary": "Nothing new since the evening note: strong foreign buying and softer crude still favour Sunday's Muhurat hour, while a stretched rally and unresolved Gulf risks keep the setup cautious.",
   "detail": {
-   "leaders": "Large caps favoured by foreign investors, if the flows continue",
-   "laggards": "Consumer names with weak quarters, such as Jubilant FoodWorks",
-   "tone": "A quiet afternoon: little has changed since the 1400 note beyond more results detail and mixed Iran headlines. Next sessions: Sunday's Diwali Muhurat hour, then Monday Nov 9; Tuesday Nov 10 is a holiday.",
+   "leaders": "Large caps that foreign investors have been buying, if the inflows carry on",
+   "laggards": "Consumer names that posted weak quarters, such as Jubilant FoodWorks",
+   "tone": "A quiet Saturday evening, with no new market-moving news since the 1800 note. Next up is Sunday's Muhurat hour, a thin, symbolic session, then a full session on Monday Nov 9. Tuesday Nov 10 is a holiday.",
    "watch": [
-    "Any concrete US-Iran deal, or new attacks on Gulf shipping",
-    "Whether foreign buying continues in the Muhurat session and on Monday",
-    "Profit-taking after the best week since February 2021"
+    "Any US reply to Iran's proposal, or new attacks on Gulf shipping",
+    "Whether foreign buying shows up again in the Muhurat hour and on Monday",
+    "Profit-taking after the strongest week in over five years"
    ],
    "src": {
     "title": "The Tribune: Sensex jumps 1,718 points, Nifty tops 25,000",
@@ -33,6 +33,82 @@
   }
  },
  "insights": [
+  {
+   "key": "holiday-calendar",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Muhurat hour Sunday 2:20–3:30 pm",
+   "line": "NSE has set a rare afternoon Diwali session; Tuesday Nov 10 is a market holiday",
+   "more": [
+    "Normal trading runs 2:20 pm to 3:30 pm IST, per most reports",
+    "One broker gives 3:40 pm as the end time",
+    "Trades settle like any other session"
+   ],
+   "src": {
+    "title": "Outlook Money: Diwali Muhurat trading 2026, NSE schedules rare afternoon session on November 8",
+    "url": "https://www.outlookmoney.com/invest/diwali-muhurat-trading-2026-nse-schedules-rare-afternoon-session-on-november-8-check-full-schedule"
+   },
+   "date": "2026-11-07",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-01",
+    "slot": "outlook"
+   }
+  },
+  {
+   "key": "iran-talks",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "No US answer yet to Iran's proposal",
+   "line": "Iran's Qatar-brokered offer asks for sanctions relief and an end to the blockade",
+   "more": [
+    "We found no new reports on the talks this evening",
+    "US is reviewing the proposal",
+    "A deal would likely weigh on crude; a breakdown would lift it"
+   ],
+   "src": {
+    "title": "WLT Report: Iran sends Trump a nuclear proposal, with a seven-demand catch",
+    "url": "https://wltreport.com/2026/11/06/iran-president-trump-nuclear-proposal-seven-demands-qatar"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-07",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-07",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Gulf shipping risk still hangs over oil",
+   "line": "Late-week attacks on ships kept a floor under crude after a steep weekly fall",
+   "more": [
+    "Oil markets are shut until Monday morning in Asia",
+    "Any Hormuz disruption could reverse the slide"
+   ],
+   "src": {
+    "title": "CBS News: More ships attacked in Persian Gulf, oil prices rebound slightly after post-midterm plunge",
+    "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-07",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-01",
+    "slot": "outlook"
+   }
+  },
   {
    "key": "jubfood-q2",
    "tag": "Results",
@@ -52,59 +128,10 @@
    "slot": "1800",
    "when": "18:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-07",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "iran-talks",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Iran's offer to the US comes with conditions",
-   "line": "Tehran sent a proposal via Qatar; it wants sanctions lifted and the naval blockade ended",
-   "more": [
-    "US is reviewing the proposal",
-    "Iran earlier called a US reply on Hormuz 'unconvincing'",
-    "No deal yet; talks continue"
-   ],
-   "src": {
-    "title": "WLT Report: Iran sends Trump a nuclear proposal, with a seven-demand catch",
-    "url": "https://wltreport.com/2026/11/06/iran-president-trump-nuclear-proposal-seven-demands-qatar"
-   },
-   "date": "2026-11-07",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-07",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "Gulf shipping attacks keep oil risk alive",
-   "line": "Reports of more ships attacked in the Gulf late in the week as oil steadied",
-   "more": [
-    "Brent still ended the week sharply lower",
-    "Any disruption at Hormuz could reverse the slide"
-   ],
-   "src": {
-    "title": "CBS News: More ships attacked in Persian Gulf, oil prices rebound slightly after post-midterm plunge",
-    "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
-   },
-   "date": "2026-11-07",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-01",
-    "slot": "outlook"
    }
   },
   {
@@ -169,30 +196,6 @@
    "src": {
     "title": "Tapetide: FII DII data — daily and monthly net flows",
     "url": "https://tapetide.com/fii-dii-data"
-   },
-   "date": "2026-11-07",
-   "slot": "0800",
-   "when": "8:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-01",
-    "slot": "outlook"
-   }
-  },
-  {
-   "key": "holiday-calendar",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Muhurat session Sunday; Tuesday is a holiday",
-   "line": "One-hour Diwali session Sunday Nov 8; full trading Monday Nov 9; NSE shut Tuesday Nov 10",
-   "more": [
-    "Muhurat equity trading widely reported from 2:20 pm to 3:30 pm",
-    "Check NSE's circular for exact timings"
-   ],
-   "src": {
-    "title": "Bajaj Broking: Muhurat Trading 2026 — date, timings and details",
-    "url": "https://www.bajajbroking.in/share-market-news/muhurat-trading-2026-date-timings-and-details"
    },
    "date": "2026-11-07",
    "slot": "0800",
