@@ -16,6 +16,10 @@ time and so formed every judgement from data roughly 25 minutes stale.
 | `latest.json` | **What the app reads.** Current market mood + merged, de-duplicated insights (newest first, last 7 trading days). |
 | `days/<YYYY-MM-DD>/<slot>.json` | Raw note for each slot — see **Slot ids** below. |
 | `scripts/build_feed.py` | Rebuilds `latest.json` from `days/`. |
+| `stories/<key>.json` | **New, optional.** One file per story: its whole timeline across notes, oldest first, plus an optional written-up `dossier`. |
+| `threads/<slug>.json` | **New, optional.** One file per long-running theme: the stories in it and any metric series that bear on it. |
+| `threads/index.json` | **New.** The registry of thread slugs, so runs reuse a theme name rather than coining a new one. |
+| `scripts/build_stories.py` | Rebuilds `stories/` and `threads/` from `days/`. Run it wherever `build_feed.py` is run. |
 | `.github/workflows/push.yml` | On every change to `latest.json`, POSTs it to `PULSE_ENDPOINT_URL` (repo secret), with `Authorization: Bearer PULSE_ENDPOINT_TOKEN` if set. |
 
 ## latest.json (schema `dalal-pulse/v1`)
@@ -70,6 +74,70 @@ time and so formed every judgement from data roughly 25 minutes stale.
   ]
 }
 ```
+
+## What is new, and what is unchanged
+
+Everything added in November 2026 — `thread`, `metrics`, `results`, and the `stories/` and
+`threads/` directories — is **optional and additive**. The schema is still
+`dalal-pulse/v1`. No existing field has been renamed, removed, retyped or reordered, and
+nothing changed about how stories are keyed, de-duplicated, merged, ordered or windowed.
+A consumer that ignores the new fields sees exactly the payload it saw before.
+
+Each new field is absent when the run could not source it. **Treat every one as optional**
+and fall back to what you render today.
+
+| New field | Where | What it is |
+|---|---|---|
+| `thread` | on a story, in a note's `top` and in `insights` | Lowercase slug for the long-running theme the story belongs to (`crude-iran-war`, `fii-flows`). Absent when the story has no wider theme. |
+| `results` | on a story tagged `Results` | The reported figures behind it — company, quarter, revenue, profit, year-on-year moves. Any figure the source did not give is left out. `vs_estimate` is only ever present when a source actually said beat / miss / inline. |
+
+In `latest.json` only, `results.src` is dropped when it is the same source as the story's
+own `src`, which it usually is — it would otherwise be the largest thing these fields add
+to the payload. The complete block, source included, is always in `days/` and `stories/`.
+| `metrics` | top level of a note, and of `latest.json` | The market figures the note's own sources stated: `brent_usd`, `usd_inr`, `fii_net_cr`, `dii_net_cr`, `india_vix`. |
+
+`metrics` entries carry `value`, plus optional `asof` (the time **that figure** refers to,
+not the note's), `approx`, and `src`. `fii_net_cr` and `dii_net_cr` are provisional net
+figures in ₹ crore, where **negative means net selling**. A metric the run could not source
+is omitted rather than carried forward from an earlier note, so a missing metric means
+"not sourced this run", never "unchanged".
+
+### Stories and threads
+
+`stories/<key>.json` collects every appearance of one story, oldest first:
+
+```jsonc
+{ "key": "crude", "title": "…", "tag": "Macro", "thread": "crude-iran-war",
+  "first_seen": {"date": "2026-09-23", "slot": "1230"},
+  "last_seen":  {"date": "2026-11-07", "slot": "1800"},
+  "count": 113,
+  "timeline": [ {"date": "…", "slot": "…", "when": "Tue · 12:30",
+                 "title": "…", "line": "…", "more": ["…"],
+                 "impact": "pos", "tag": "Macro", "thread": "…", "src": {…}} ],
+  "dossier": { "headline": "…", "summary": "…",
+               "status": "developing | tracking | resolved",
+               "why_it_matters": ["…"], "moved": [{"name":"…","dir":"up","line":"…"}],
+               "watch": ["…"], "questions": ["…"], "conflicts": ["…"],
+               "written_at": "…+05:30", "based_on_slots": ["2026-11-07/1800"] }
+}
+```
+
+`dossier` is **optional** and written by a scheduled run, not by the build script — a story
+qualifies once it has appeared in 3+ notes, or when it is tagged Results/Policy/Regulation
+with a `pos` or `neg` impact. It says only what that story's own notes and their sources
+said; where those sources disagreed, both figures are kept in `conflicts`. It carries no
+view on whether to buy or sell anything, and quotes a broker call with attribution only.
+A story goes `resolved` after five trading days without an appearance.
+
+`threads/<slug>.json` lists the stories in a theme and, where relevant, the metric series
+for it (`brent_usd` on a crude thread, `fii_net_cr` and `dii_net_cr` on a flows thread).
+`threads/index.json` is the registry of slugs.
+
+`build_stories.py` is safe to re-run: it rebuilds from `days/`, writes only files whose
+content actually changed, and never overwrites a `dossier` already on disk.
+
+**Long text never goes in `latest.json`.** Dossiers and timelines live in `stories/`, so
+`latest.json` stays the small payload the app polls.
 
 ### Index figures
 

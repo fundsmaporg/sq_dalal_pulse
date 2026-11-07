@@ -5,7 +5,7 @@ latest.json = the current market mood (newest note) + one merged "insights" list
 last 7 trading days: newest first, older ones in published order, duplicates (same "key")
 collapsed to their most recent version.
 """
-import json, os, glob, datetime
+import json, os, glob, datetime, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -118,6 +118,93 @@ def norm_movers(detail):
             out[side] = g
     return out or None
 
+METRIC_KEYS = ("brent_usd", "usd_inr", "fii_net_cr", "dii_net_cr", "india_vix")
+
+
+def norm_metric(v):
+    """One metric reading. Returns None unless it carries a real number."""
+    if not isinstance(v, dict) or not isinstance(v.get("value"), (int, float)) \
+            or isinstance(v.get("value"), bool):
+        return None
+    out = {"value": v["value"]}
+    if _text(v.get("asof")):
+        out["asof"] = _text(v["asof"])
+    if isinstance(v.get("approx"), bool):
+        out["approx"] = v["approx"]
+    if _src(v.get("src")):
+        out["src"] = _src(v["src"])
+    return out
+
+
+def norm_metrics(note):
+    """OPTIONAL. The market figures a note's own sources stated, as {name: reading}.
+
+    A metric is dropped unless it has a numeric value, so a consumer never sees a
+    reading it cannot plot. Returns None when nothing usable is present, and the
+    key is then left out of the payload entirely.
+    """
+    raw = note.get("metrics")
+    if not isinstance(raw, dict):
+        return None
+    out = {}
+    for k in METRIC_KEYS:
+        m = norm_metric(raw.get(k))
+        if m:
+            out[k] = m
+    return out or None
+
+
+def norm_thread(v):
+    """OPTIONAL. Lowercase slug for the long-running theme a story belongs to."""
+    t = _text(v)
+    return t.lower() if t and re.fullmatch(r"[a-z0-9][a-z0-9-]{0,63}", t.lower()) else None
+
+
+RESULT_NUMS = ("revenue_cr", "revenue_yoy_pct", "profit_cr", "profit_yoy_pct", "reaction_pct")
+RESULT_TEXT = ("company", "quarter", "reaction_asof")
+
+
+def norm_results(v):
+    """OPTIONAL. Reported figures behind a Results story. Unknown values stay out.
+
+    Only numbers are kept as numbers; vs_estimate is kept only when it is one of the
+    three words a source can actually support. Returns None when nothing is left.
+    """
+    if not isinstance(v, dict):
+        return None
+    out = {}
+    for k in RESULT_TEXT:
+        if _text(v.get(k)):
+            out[k] = _text(v[k])
+    for k in RESULT_NUMS:
+        n = v.get(k)
+        if isinstance(n, (int, float)) and not isinstance(n, bool):
+            out[k] = n
+    if v.get("vs_estimate") in ("beat", "miss", "inline"):
+        out["vs_estimate"] = v["vs_estimate"]
+    if _src(v.get("src")):
+        out["src"] = _src(v["src"])
+    return out or None
+
+
+def norm_story_extras(t):
+    """The optional story-level additions, normalised. Existing keys are untouched."""
+    extra = {}
+    th = norm_thread(t.get("thread"))
+    if th:
+        extra["thread"] = th
+    rs = norm_results(t.get("results"))
+    if rs:
+        # The figures usually come from the same article as the story itself. Repeating
+        # that source inside every results block is the single largest thing the new
+        # fields add to latest.json, so drop it when it is the story's own source. The
+        # full block, src included, is still in days/ and in stories/.
+        if rs.get("src") and rs["src"] == _src(t.get("src")):
+            rs = {k: v for k, v in rs.items() if k != "src"}
+        extra["results"] = rs
+    return extra
+
+
 def main():
     days = load()
     dates = sorted(days, reverse=True)[:7]
@@ -136,7 +223,9 @@ def main():
                     seen[k]["updated"] = True
                     seen[k]["first_seen"] = {"date": d, "slot": s}
                     continue
-                item = {**t, "date": d, "slot": s, "when": when, "updated": False,
+                item = {**{k: v for k, v in t.items() if k not in ("thread", "results")},
+                        **norm_story_extras(t),
+                        "date": d, "slot": s, "when": when, "updated": False,
                         "is_new": d == ld and s == ls, "first_seen": {"date": d, "slot": s}}
                 seen[k] = item
                 insights.append(item)
@@ -150,12 +239,17 @@ def main():
     # entirely in that case, the same way movers is dropped, so consumers fall back to
     # their own market feed instead of rendering a null.
     nifty = cur.get("nifty") or None
+    # metrics is optional in exactly the same way: the newest note's sourced market
+    # figures, or the key is absent. It is a handful of small numbers, so it belongs
+    # in latest.json; the per-note history lives in days/ and threads/.
+    metrics = norm_metrics(cur)
     out = {
         "schema": "dalal-pulse/v1",
         "generated_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=5, minutes=30))).isoformat(timespec="seconds"),
         "date": ld, "slot": ls, "slot_label": LABEL(ls), "stage": STAGE(ls, ld),
         "asof": cur.get("asof"),
         **({"nifty": nifty} if nifty else {}),
+        **({"metrics": metrics} if metrics else {}),
         "mood": {"label": cur["mood"]["label"], "score": cur["mood"]["score"],
                  "summary": cur.get("summary"), "detail": detail},
         "insights": insights,
