@@ -1,38 +1,112 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-07T08:00:38+05:30",
+ "generated_at": "2026-11-07T14:00:14+05:30",
  "date": "2026-11-07",
- "slot": "0800",
- "slot_label": "8:00",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Weekend outlook",
- "asof": "2026-11-07T08:00:00+05:30",
+ "asof": "2026-11-07T14:00:00+05:30",
  "nifty": {
   "value": 25030.35,
   "pct": 2.01,
   "chg": 493.75,
   "approx": false,
-  "asof_quote": "Friday Nov 6 close per The Tribune/ANI; Nifty up 8.58% on the week"
+  "asof_quote": "Friday Nov 6 close per The Tribune/ANI"
  },
  "mood": {
   "label": "Constructive but stretched",
   "score": 0.35,
-  "summary": "Heavy foreign buying, softer crude, a firmer rupee and a Friday tech rebound on Wall Street support the next session, but a near-9% weekly surge leaves the market stretched.",
+  "summary": "Signs of progress in US-Iran talks add to support from foreign buying and cheaper crude, but a stretched rally and a busy results week ahead keep the next session finely balanced.",
   "detail": {
-   "leaders": "Private banks and large caps, which drew record foreign buying last week",
-   "laggards": "Mid and small caps, which lagged the rally; stretched gains invite profit-taking",
-   "tone": "First weekend read: it follows Friday's seventh straight gain and the best week since February 2021. The next session is Sunday's one-hour Diwali Muhurat trade, then Monday Nov 9; markets shut Tuesday Nov 10.",
+   "leaders": "Oil-sensitive sectors and large caps, if US-Iran talks keep crude in check",
+   "laggards": "Stocks that ran hardest last week look most exposed to profit-taking",
+   "tone": "Little has changed since the 0800 note; the main addition is mixed but hopeful news on US-Iran talks. Next sessions: Sunday's Diwali Muhurat hour, then Monday Nov 9; Tuesday Nov 10 is a holiday.",
    "watch": [
-    "Whether foreign buying continues in the Muhurat session and on Monday",
-    "Rising US yields and Fed rate-hike bets after the strong jobs report",
-    "Profit-taking after a near-9% weekly rally"
+    "Any concrete US-Iran deal, or renewed US strikes",
+    "Whether FIIs keep buying in the Muhurat session and on Monday",
+    "A heavy results week ending with the Nov 14 filing deadline"
    ],
    "src": {
-    "title": "Zee Business: Sensex, Nifty surge nearly 9% in best weekly rally since Feb 2021; Muhurat trading in focus",
-    "url": "https://www.zeebiz.com/market-news/news-weekly-market-wrap-sensex-nifty-surge-nearly-9-best-weekly-rally-since-feb-2021-rs-2870-lakh-crore-added-muhurat-trading-in-focus-405246"
+    "title": "Times of Israel: US-Iran talks show signs of progress even as Trump weighs renewed strikes",
+    "url": "https://www.timesofisrael.com/us-iran-talks-show-signs-of-progress-even-as-trump-weighs-renewed-strikes/"
    }
   }
  },
  "insights": [
+  {
+   "key": "iran-talks",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "US-Iran talks show progress, no deal yet",
+   "line": "Qatar-mediated draft would reopen the Strait of Hormuz in exchange for sanctions relief",
+   "more": [
+    "Trump says talks are going 'very well'",
+    "US still imposed fresh Iran-related sanctions on Friday",
+    "Iran wants practical steps, not 'paper commitments'"
+   ],
+   "src": {
+    "title": "Times of Israel: US-Iran talks show signs of progress even as Trump weighs renewed strikes",
+    "url": "https://www.timesofisrael.com/us-iran-talks-show-signs-of-progress-even-as-trump-weighs-renewed-strikes/"
+   },
+   "date": "2026-11-07",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-07",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "results-week",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Busy results week before Nov 14 deadline",
+   "line": "Tata Power, HAL, BDL, Alkem and ABB India are among those due next week",
+   "more": [
+    "Kalyan Jewellers board meets Nov 10; Cochin Shipyard too",
+    "HAL, BDL, Alkem, Manappuram listed for Nov 12",
+    "ABB India reports Nov 13"
+   ],
+   "src": {
+    "title": "MyAlgoMate: Kalyan Jewellers Q2 results date 2026",
+    "url": "https://myalgomate.com/tools/results-calendar/kalyankjil"
+   },
+   "date": "2026-11-07",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-07",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "voltas-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Voltas Q2 profit jumps 51%",
+   "line": "Profit rose to ₹47.71 cr and revenue grew 15.3% to ₹2,707 cr",
+   "more": [
+    "Reported on Friday, Nov 6",
+    "Revenue grew 15.3% year on year"
+   ],
+   "src": {
+    "title": "Business Standard: Voltas Q2 profit rises 51.4% to ₹47.71 cr; revenue up 15.3%",
+    "url": "https://www.business-standard.com/companies/quarterly-results/voltas-q2-profit-rises-51-4-to-47-71-cr-revenue-up-15-3-to-2-707-cr-126110601657_1.html"
+   },
+   "date": "2026-11-07",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-07",
+    "slot": "1400"
+   }
+  },
   {
    "key": "fii-flows",
    "tag": "Flows",
@@ -51,7 +125,7 @@
    "slot": "0800",
    "when": "8:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-01",
     "slot": "outlook"
@@ -75,7 +149,7 @@
    "slot": "0800",
    "when": "8:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-01",
     "slot": "outlook"
@@ -99,7 +173,7 @@
    "slot": "0800",
    "when": "8:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-01",
     "slot": "outlook"
@@ -123,7 +197,7 @@
    "slot": "0800",
    "when": "8:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-01",
     "slot": "outlook"
@@ -147,7 +221,7 @@
    "slot": "0800",
    "when": "8:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0700"
@@ -171,7 +245,7 @@
    "slot": "0800",
    "when": "8:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-01",
     "slot": "outlook"
