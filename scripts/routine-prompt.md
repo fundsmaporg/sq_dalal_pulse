@@ -110,6 +110,15 @@ Never invent numbers. If a figure is only approximate (e.g. from a headline), sa
 }
 Rules: the mood/summary describes HOW the market is trading; "top" covers WHY (the news). Do not put index-level moves in "top". Only include an insight again (same key) if there is genuinely new information; otherwise leave it out — older notes still show it.
 
+THE SUMMARY MUST STAND ALONE. Almost every reader sees ONLY the newest note — they never saw
+the 08:00 or the 18:00 one. So the summary is never a comparison with an earlier note. Do not
+open it with "Nothing new since…", "Unchanged since the evening note", "As in the 14:00 note",
+or anything that assumes the reader has been following along. Describe the setup ITSELF, every
+time, in plain words, as if this were the only note they will ever read.
+If genuinely nothing has changed, that does not make the summary shorter or more meta — it
+just means you write the same setup again in fresh words. The observation that it has been a
+quiet stretch belongs in "tone", and nowhere else.
+
 NO INDEX LEVELS IN THE PROSE. This is the most important rule in this step.
 "summary", "tone", "leaders", "laggards", "watch" and the "movers" summary/why lines must contain NO index levels and NO index point or percentage moves — no "the Sensex is up 818 points", no "Nifty at 23,667", no "up about 1%", no "+0.8%" for an index. The app shows a live, exact index level in its own header from its own market feed; a number you sourced 25 minutes ago sitting next to it reads as a contradiction, and carrying one forward reads as a lie.
 Describe the market in words instead, which does not go stale the way a figure does: "holding near the day's high", "paring the early gain", "rangebound since the open", "broad, with midcaps joining in". Say WHERE the market is and WHICH WAY it is moving, never AT WHAT LEVEL.

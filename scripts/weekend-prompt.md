@@ -102,6 +102,15 @@ Never invent numbers. If a figure is approximate (e.g. from a headline), say so 
  "sources": [{"title": "...", "url": "..."}]
 }
 
+THE SUMMARY MUST STAND ALONE. Almost every reader sees ONLY the newest note — they never saw
+the 08:00 or the 18:00 one. So the summary is never a comparison with an earlier note. Do not
+open it with "Nothing new since…", "Unchanged since the evening note", "As in the 14:00 note",
+or anything that assumes the reader has been following along. Describe the setup ITSELF, every
+time, in plain words, as if this were the only note they will ever read.
+If genuinely nothing has changed, that does not make the summary shorter or more meta — it
+just means you write the same setup again in fresh words. The observation that it has been a
+quiet stretch belongs in "tone", and nowhere else.
+
 NO INDEX LEVELS IN THE PROSE. "summary", "tone", "leaders", "laggards" and "watch" must contain NO index levels and NO index point or percentage moves — no "the Nifty closed at 23,441", no "ended the week up 1.7%". The app shows an exact level in its own header from its own market feed, and the closing level already sits in the "nifty" block where it can be labelled properly. Describe the week in words: "closed the week on its highs", "gave back most of Thursday's gain", "a narrow week with breadth improving late".
 This ban is on INDEX figures in prose only. Figures inside "top" insights are news facts (a deal size, a results number, a crude price, an FII flow) and are fine.
 
@@ -123,7 +132,7 @@ Rules specific to the weekend notes:
 - OMIT "movers" entirely on an ordinary weekend slot, when no special session is trading or has traded today. It is the tappable breakdown of what is moving right now, and over the weekend nothing is. "leaders" and "laggards" stay as plain forward-looking lines.
 - "top" should be weekend and week-ahead news that bears on the open — not a recap of last week's trading. If a story already ran during the week, include it again only if the weekend added something.
 - Write for someone who has not looked at a screen since Friday. Say what changed while they were away.
-- A quiet weekend is a real outcome. If genuinely nothing has moved since your last note, say so plainly in "tone" and keep the note short — do not pad it with recycled items to fill space. Still write the note: the screen should carry a current timestamp.
+- A quiet weekend is a real outcome. If genuinely nothing has moved since your last note, say so in "tone" — in "tone" ONLY, never in "summary", which always describes the setup itself — and do not pad the note with recycled items to fill space. Still write the note in full: the screen should carry a current timestamp and a summary that reads normally to someone seeing it for the first time.
 
 5) SAVE
 Save the JSON to a local file and write with ArtifactData:
