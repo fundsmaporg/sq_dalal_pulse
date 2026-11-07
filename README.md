@@ -2,9 +2,14 @@
 
 Indian equity market notes for the Markets Now screen, written by scheduled Claude runs.
 
-**Weekdays (19 notes):** 07:00, 08:45, 09:25, then every 30 minutes (09:55, 10:25 … 16:25),
-then 18:00 and 21:00 IST.
+**Weekdays (19 notes):** 07:00, 08:45, 09:25, then every 30 minutes on the `:05`/`:35`
+grid (10:05, 10:35 … 16:35), then 18:00 and 21:00 IST.
 **Weekends (8 notes):** 08:00, 14:00, 18:00 and 21:00 IST on both Saturday and Sunday.
+
+The intraday runs sit a few minutes **past** the hour and half hour on purpose. News sites
+publish their market snapshots at round times, so a run at 10:35 reads a 10:30 update that
+is about five minutes old; the earlier `:25`/`:55` grid could only reach the previous round
+time and so formed every judgement from data roughly 25 minutes stale.
 
 | Path | What it is |
 |---|---|

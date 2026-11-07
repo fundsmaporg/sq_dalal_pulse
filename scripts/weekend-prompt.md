@@ -14,7 +14,7 @@ Sunday 21:00 slot of this task.
 
 WEEKEND RUN — write the "Dalal Pulse" note that looks ahead to the next trading session on the Markets Now screen of a broking app. Work fully unattended: never ask questions, never stop for confirmation.
 
-This is NOT an intraday note. Indian markets are closed and nothing is trading. You are writing the weekend read on how the next session sets up.
+This is normally NOT an intraday note: on an ordinary weekend Indian markets are closed and nothing is trading, and you are writing the read on how the next session sets up. The exception is a SPECIAL TRADING SESSION — see step 1 — which does happen on a weekend and which you must not describe as a closed market.
 
 Treat this as a fresh run. Do not carry over figures or insights from earlier runs in this conversation — everything must come from step 3's research or step 2's database read.
 
@@ -33,6 +33,13 @@ late and it is 08:04, the slot is still "0800". The Sunday 21:00 run is the week
 look-ahead, so it takes the id "outlook" — the app reads that as the cue to present the note
 as a look-ahead rather than a live reading. The Saturday 21:00 run is an ordinary "2100".
 If this task somehow fires on a weekday, exit without writing.
+
+CHECK FOR A SPECIAL TRADING SESSION TODAY. The exchanges occasionally hold a session on a weekend day — the Diwali Muhurat hour is the usual one, and there are rare live risk-drill sessions. Search for it; do not assume the weekend is shut. If there is one today, find its exact window from the exchange circular as reported.
+When a special session is happening today, this note is NOT a "nothing is trading" note, and the rules below change for the runs that fall around it:
+- A run BEFORE the session opens: write it as a preview. Say when the session opens and closes, and what to watch in it. "nifty" still carries the last ordinary close.
+- A run DURING the session: this is a LIVE note. Write it as one. "nifty" carries the live level with "asof_quote", and "movers" is allowed if you can source per-name detail — the usual weekend ban on "movers" does not apply to a live special session.
+- A run AFTER the session closes: this is a real session that happened, and ITS CLOSE is now the last close. "nifty" carries the special session's closing level and its move, NOT the previous weekday close. Say plainly that it was the special session, since it is a short, thin, often ceremonial hour and a reader should not read it as a normal day. "movers" is allowed if sourced.
+Never report a special session as if the market had been shut, and never skip over one because the day is a Saturday or Sunday.
 
 Work out the NEXT TRADING DAY: normally the coming Monday, but if that is an NSE holiday, the next session after it. Say which day you mean in the note rather than assuming the reader knows. If the week opens on a holiday, state it plainly — "the next session is Tuesday" — do not gloss over it.
 
@@ -87,8 +94,8 @@ NO INDEX LEVELS IN THE PROSE. "summary", "tone", "leaders", "laggards" and "watc
 This ban is on INDEX figures in prose only. Figures inside "top" insights are news facts (a deal size, a results number, a crude price, an FII flow) and are fine.
 
 Rules specific to the weekend notes:
-- "nifty" carries the LAST CLOSE, not a prediction. The app labels every weekend note "Weekend outlook", so a closing level is the honest number to show.
-- OMIT "movers" entirely, on every weekend slot. It is the tappable breakdown of what is moving right now, and over the weekend nothing is. "leaders" and "laggards" stay as plain forward-looking lines.
+- "nifty" carries the LAST CLOSE, not a prediction — and after a special session today, that means THAT session's close, not the previous weekday's. Add "asof_quote" naming which close it is, as HH:MM for a live print, or the session it belongs to otherwise (e.g. "Fri 6 Nov close", "Muhurat close"). The app labels every weekend note "Weekend outlook", so a closing level is the honest number to show.
+- OMIT "movers" entirely on an ordinary weekend slot, when no special session is trading or has traded today. It is the tappable breakdown of what is moving right now, and over the weekend nothing is. "leaders" and "laggards" stay as plain forward-looking lines.
 - "top" should be weekend and week-ahead news that bears on the open — not a recap of last week's trading. If a story already ran during the week, include it again only if the weekend added something.
 - Write for someone who has not looked at a screen since Friday. Say what changed while they were away.
 - A quiet weekend is a real outcome. If genuinely nothing has moved since your last note, say so plainly in "tone" and keep the note short — do not pad it with recycled items to fill space. Still write the note: the screen should carry a current timestamp.

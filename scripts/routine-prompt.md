@@ -21,11 +21,11 @@ Its page reads a shared database. Load the database tool first: ToolSearch "sele
 Get the current time in IST (Asia/Kolkata). Date = today in IST, format YYYY-MM-DD.
 The weekday slots are a FIXED list. Pick the one whose time is CLOSEST to the time now:
 
-  0700  0845  0925  0955  1025  1055  1125  1155  1225  1255
-  1325  1355  1425  1455  1525  1555  1625  1800  2100
+  0700  0845  0925  1005  1035  1105  1135  1205  1235  1305
+  1335  1405  1435  1505  1535  1605  1635  1800  2100
 
 Use the slot id exactly as written above. Do NOT invent a slot id from the clock: if the
-scheduler fires a few minutes late and it is 09:28, the slot is still "0925", not "0928".
+scheduler fires a few minutes late and it is 10:08, the slot is still "1005", not "1008".
 If two slots are equally close, take the earlier one.
 If today is an NSE trading holiday: only on the "0845" run, write one note with mood label "Market closed" and insights about what matters for the next session; on all other runs, exit without writing. (Saturdays and Sundays are covered by a separate weekend task — if this one somehow fires on a weekend, exit without writing.)
 
@@ -39,12 +39,15 @@ What to cover depends on which slot you are writing. NSE trades 09:15–15:30 IS
 
 - 0700 (nothing is trading in India; the previous session is history): how Wall Street closed overnight, Asia's early trade, crude, the rupee, US yields, and any overnight policy or geopolitical news. This is the first read of the day for someone waking up.
 - 0845 (pre-open): GIFT Nifty, the overnight global wrap, crude, rupee, the previous day's FII/DII figures, stocks in the news, IPO listings and events today.
-- 0925 through 1555 (live session): current Nifty/Sensex level and move, breadth (midcap/smallcap), sector leaders and laggards, what is driving the move, and stock-specific news (orders, deals, upgrades/downgrades, block deals, regulatory actions, results) with % moves.
+- 0925 (just after the open): how the market opened against the pre-open cues, the early direction and breadth, and which way the first trades went.
+- 1005 through 1535 (live session): current Nifty/Sensex level and move, breadth (midcap/smallcap), sector leaders and laggards, what is driving the move, and stock-specific news (orders, deals, upgrades/downgrades, block deals, regulatory actions, results) with % moves.
   For the leaders and for the laggards, also pin down the 2–4 names on EACH side that matter most, and for each one its move today plus the one specific reason it is where it is. These feed the tappable breakdown in step 4 — a name you cannot explain is not worth listing.
-- 1625 (the close): closing figures, the sector wrap, FII/DII provisional data if out, and what matters for tomorrow.
+- 1605 and 1635 (the close): closing figures, the sector wrap, FII/DII provisional data if out, and what matters for tomorrow. By 1635 the provisional flow data is more often published than at 1605, so look again rather than repeating the 1605 note.
 - 1800 and 2100 (evening): what has developed SINCE the close — results announced after the bell, board decisions, regulatory orders, block deals reported late, management commentary — plus how the US market is trading and anything overnight that sets up tomorrow. By 2100 the US session is underway, so quote it as live, not as a close.
 
-HOW FRESH YOUR FIGURES REALLY ARE. You are reading news copy, not a price feed. Index levels in news copy are snapshots published at round times (10 am, 11 am) and are typically 20–30 minutes old by the time you find them. Note the TIME each figure refers to, not just the figure. This matters for step 4: it is why index levels do not go in the prose.
+HOW FRESH YOUR FIGURES REALLY ARE. You are reading news copy, not a price feed. Index levels in news copy are snapshots published at round times — 10:00, 10:30, 11:00 — and carry that time, not the time you read them.
+The live-session slots deliberately sit a few minutes PAST each round time (1005, 1035, 1105 …) so that the most recent such update is only about five minutes old when you run. Go and find that update: at 1035 you are looking for the 10:30 one, not the 10:00 one. If the freshest you can find is a full round time older than the one you expect, that is worth knowing — it decides whether you carry a figure at all (see "WHAT nifty CARRIES" in step 4).
+Note the TIME each figure refers to, not just the figure. This matters for step 4: it is why index levels do not go in the prose.
 Never invent numbers. If a figure is only approximate (e.g. from a headline), say so and set "approx": true on nifty.
 
 4) WRITE THE NOTE — JSON with EXACTLY this shape:
@@ -102,14 +105,14 @@ Never compare against a previous note by quoting two clock times. "Firmer than t
 
 WHAT "nifty" CARRIES, BY SLOT. Never present a stale level as a live one.
 - 0700 and 0845: the PREVIOUS session's close. Stable; always include it.
-- 1625, 1800, 2100: TODAY's close and today's move. Stable; always include it.
-- 0925 through 1555 (live session): the freshest index print you actually sourced, with its own time in "asof_quote" (e.g. "11:00" when you are writing the 1125 note — the time the PRINT refers to, not the time you are writing).
+- 1605, 1635, 1800, 2100: TODAY's close and today's move. Stable; always include it.
+- 0925 through 1535 (live session): the freshest index print you actually sourced, with its own time in "asof_quote" as HH:MM (e.g. "10:30" when you are writing the 1035 note — the time the PRINT refers to, not the time you are writing).
   If you cannot find a print NEWER than the one in the previous note, OMIT the entire "nifty" key from this note. Do not copy the previous note's figures forward. Still write and publish the note — the narrative is what the screen needs, and the app has its own live level. Say in "tone" that this is a read on market behaviour rather than a fresh print, in words and without numbers.
 
-WHAT "mood" MEANS, BY SLOT. On 0700, 0845, 1800 and 2100 nothing is trading, so the mood is forward-looking: the risk appetite you expect into the next session, and a label to match ("Soft start likely", "Steady into tomorrow"). From 0925 to 1625 it is a reading of a live market. Say which one you mean in "tone" rather than leaving the reader to guess.
+WHAT "mood" MEANS, BY SLOT. On 0700, 0845, 1800 and 2100 nothing is trading, so the mood is forward-looking: the risk appetite you expect into the next session, and a label to match ("Soft start likely", "Steady into tomorrow"). From 0925 to 1635 it is a reading of a live market (1605 and 1635 read the finished session). Say which one you mean in "tone" rather than leaving the reader to guess.
 
 Rules for "movers": the app shows "leaders" and "laggards" collapsed and opens "movers" when the user taps them, so the two MUST agree — every name in the collapsed string should appear on the matching side, and vice versa. 2–4 names per side.
-ONLY the live-session and close slots (0925 through 1625) carry "movers". On 0700, 0845, 1800 and 2100 nothing is moving, so OMIT "movers" entirely — "leaders" and "laggards" stay as plain forward-looking lines and the screen falls back to them.
+ONLY the live-session and close slots (0925 through 1635) carry "movers". On 0700, 0845, 1800 and 2100 nothing is moving, so OMIT "movers" entirely — "leaders" and "laggards" stay as plain forward-looking lines and the screen falls back to them.
 On the slots that do carry it, do BOTH sides, on every note. "movers.down" is not optional garnish, and a note that fills in "up" while leaving "down" empty is incomplete.
 A SECTOR IS A PERFECTLY GOOD ENTRY — this is the case that matters most, because the laggards line is sectoral more often than not. If it reads "metals and pharma", then "movers.down" carries "Nifty Metal" and "Nifty Pharma" as names, each with its index move and why it is lagging, exactly as you would for a stock. "Smallcaps trail midcaps" means an entry for "Nifty Smallcap 100" with its move. Use individual stocks when the line names them, sector indices when it names sectors, and both when it names both.
 Omit a side ONLY when you genuinely could not source what its constituents are doing — never merely because the line is sectoral rather than stock-level. Never invent a move or a reason: omit "move" when no figure is sourced, and drop a name entirely when you cannot say why it is moving. A name may sit in "movers.up" while still down on the day if it is simply falling less than the market — set "dir" to what the name actually did. Do not recycle the "top" insights here: "movers" is about index constituents moving, "top" is about news.
