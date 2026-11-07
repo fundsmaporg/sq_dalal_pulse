@@ -77,7 +77,11 @@ Never invent numbers. If a figure is approximate (e.g. from a headline), say so 
      "src": {"title": "...", "url": "..."}
    }
  },
- "nifty": {"value": <the LAST CLOSE level>, "pct": <that session's % move>, "chg": <points, optional>, "approx": <true if approximate>},
+ "nifty": {"value": <the LAST CLOSE level>, "pct": <that session's % move>, "chg": <points, optional>, "approx": <true if approximate>, "asof_quote": "<which close this is>"},
+ "metrics": {   // ALL OPTIONAL — see "METRICS" below. Only what a source you read states.
+   "brent_usd":  {"value": <number>, "asof": "<what close/time this figure is>", "approx": <bool>, "src": {"title":"...","url":"..."}},
+   "usd_inr":    { ... },   "fii_net_cr": { ... },   "dii_net_cr": { ... },   "india_vix": { ... }
+ },
  "top": [   // as many as are genuinely relevant, MINIMUM 3; most important first
    {"key": "<stable kebab-case story id; reuse earlier key for the same story>",
     "tag": "<one of: Regulation, Global, Macro, Flows, Listing, Stocks, Opening, Results, Policy>",
@@ -85,6 +89,14 @@ Never invent numbers. If a figure is approximate (e.g. from a headline), say so 
     "title": "<≤ 50 chars headline>",
     "line": "<≤ 90 chars one-liner>",
     "more": ["<2–4 short factual bullets>"],
+    "thread": "<OPTIONAL lowercase slug for the wider theme — see THREADS below>",
+    "results": {   // OPTIONAL, only on a "Results" story whose source reports figures
+      "company": "...", "quarter": "Q2 FY27",
+      "revenue_cr": <number or null>, "revenue_yoy_pct": <number or null>,
+      "profit_cr": <number or null>,  "profit_yoy_pct": <number or null>,
+      "vs_estimate": <"beat" | "miss" | "inline", ONLY if a source says so, else null>,
+      "reaction_pct": <share move as reported, else null>, "reaction_asof": "<time, optional>",
+      "src": {"title": "...", "url": "..."}},
     "src": {"title": "...", "url": "..."}}
  ],
  "sources": [{"title": "...", "url": "..."}]
@@ -92,6 +104,19 @@ Never invent numbers. If a figure is approximate (e.g. from a headline), say so 
 
 NO INDEX LEVELS IN THE PROSE. "summary", "tone", "leaders", "laggards" and "watch" must contain NO index levels and NO index point or percentage moves — no "the Nifty closed at 23,441", no "ended the week up 1.7%". The app shows an exact level in its own header from its own market feed, and the closing level already sits in the "nifty" block where it can be labelled properly. Describe the week in words: "closed the week on its highs", "gave back most of Thursday's gain", "a narrow week with breadth improving late".
 This ban is on INDEX figures in prose only. Figures inside "top" insights are news facts (a deal size, a results number, a crude price, an FII flow) and are fine.
+
+THREADS. A "thread" is the long-running theme a story belongs to. Before writing, read
+threads/index.json in the repo — the registry of slugs already in use — and REUSE an existing
+slug whenever the story continues that theme. Add a new slug only when a genuinely new theme
+starts, and register it in threads/index.json as {"slug","title","first_seen"}. A story with
+no wider theme gets no "thread" key. Lowercase letters, digits and hyphens only.
+
+METRICS. Only what a source you actually read states this run, with the time that figure
+refers to in "asof" ("Fri 6 Nov close", "Friday provisional"). Set "approx": true for a
+rounded or headline figure. If you did not source a metric, OMIT it — never carry the
+previous note's value forward and never estimate. fii_net_cr and dii_net_cr are PROVISIONAL
+net figures in ₹ crore, negative meaning net selling. These are structured data: the ban on
+index levels in the prose is unaffected and they never appear in "summary" or "tone".
 
 Rules specific to the weekend notes:
 - "nifty" carries the LAST CLOSE, not a prediction — and after a special session today, that means THAT session's close, not the previous weekday's. Add "asof_quote" naming which close it is, as HH:MM for a live print, or the session it belongs to otherwise (e.g. "Fri 6 Nov close", "Muhurat close"). The app labels every weekend note "Weekend outlook", so a closing level is the honest number to show.
@@ -110,10 +135,32 @@ Save the JSON to a local file and write with ArtifactData:
 The repository fundsmaporg/sq_dalal_pulse is checked out in this session at /home/user/sq_dalal_pulse. Writing the note there and pushing it is a normal, authorised part of this job — the repository exists for exactly this. Do it without asking.
 a) cd /home/user/sq_dalal_pulse, then: git checkout main && git pull origin main
 b) Write the SAME JSON you saved in step 5 to days/<today's date>/<slot>.json, creating the day folder if needed.
-c) Run: python3 scripts/build_feed.py   (it rebuilds latest.json from days/)
-   Check its output names the date and slot you just wrote. If it does not, the note did not land — say so in your final message rather than pushing silently.
+c) Run BOTH, in this order:
+     python3 scripts/build_feed.py      (rebuilds latest.json from days/)
+     python3 scripts/build_stories.py   (rebuilds stories/ and threads/ from days/)
+   Check build_feed's output names the date and slot you just wrote. If it does not, the note did not land — say so in your final message rather than pushing silently.
+   build_stories.py is safe to re-run and never touches a "dossier" already on disk.
 d) Run git add -A, commit with the message "Pulse <today's date> <slot>", then git push origin main. If the push is rejected because main moved, run git pull --rebase origin main and push again. Never open a pull request.
 The GitHub Action then forwards latest.json to the app endpoint.
 If any command here fails, quote the exact command and its exact error in your final message, and still do step 7.
+
+6b) DOSSIERS (after step 6c has rebuilt stories/, before the commit in 6d)
+A dossier is the one-page write-up stored inside stories/<key>.json under "dossier". The
+weekend is a good time to refresh them, since little is moving. Write or refresh one ONLY for
+a story that qualifies: it has appeared in 3 or more notes (its "count" >= 3), OR it is
+tagged Results, Policy or Regulation with impact "pos" or "neg". At most 15 in a day across
+all runs; prefer the stories that changed most since their dossier's "written_at".
+Shape, written as the "dossier" key of the existing stories/<key>.json, leaving every other
+key in that file untouched:
+{"headline": "...", "summary": "<2–3 sentences>",
+ "status": "<developing | tracking | resolved>",
+ "why_it_matters": ["..."], "moved": [{"name": "...", "dir": "up|down", "line": "..."}],
+ "watch": ["..."], "questions": ["<short questions a reader would now have>"],
+ "conflicts": ["<where the notes' own sources disagree>"],
+ "written_at": "<ISO 8601 with +05:30>", "based_on_slots": ["2026-11-07/1800", "..."]}
+Use ONLY what that story's own timeline entries and their sources say — do not research afresh
+for a dossier. Where the notes said reports differ, keep both figures in "conflicts". Set
+"status": "resolved" when the story has not appeared for 5 trading days. NO view on whether to
+buy or sell anything; a broker call is quoted with attribution only ("Jefferies keeps Buy").
 
 7) FINISH with two lines: the mood label and which session it is for, and the single most important thing for that open.

@@ -84,6 +84,11 @@ Never invent numbers. If a figure is only approximate (e.g. from a headline), sa
             "asof_quote": "<HH:MM IST that this PRINT refers to; live-session slots only>"},
        // OPTIONAL on live-session slots — see "WHAT nifty CARRIES" below. Omit the whole
        // key rather than carrying a stale level forward.
+ "metrics": {   // ALL OPTIONAL — see "METRICS" below. Include a metric ONLY if a source
+                // you actually read states it. Omit the key, or the whole block, otherwise.
+   "brent_usd":  {"value": <number>, "asof": "<what time/close this figure is>", "approx": <bool>, "src": {"title":"...","url":"..."}},
+   "usd_inr":    { ... },   "fii_net_cr": { ... },   "dii_net_cr": { ... },   "india_vix": { ... }
+ },
  "top": [   // as many as are genuinely relevant, MINIMUM 3; most important first
    {"key": "<stable kebab-case story id; reuse earlier key for the same story>",
     "tag": "<one of: Regulation, Global, Macro, Flows, Listing, Stocks, Opening, Results, Policy>",
@@ -91,6 +96,14 @@ Never invent numbers. If a figure is only approximate (e.g. from a headline), sa
     "title": "<≤ 50 chars headline>",
     "line": "<≤ 90 chars one-liner>",
     "more": ["<2–4 short factual bullets>"],
+    "thread": "<OPTIONAL lowercase slug for the wider theme — see THREADS below>",
+    "results": {   // OPTIONAL, only on a "Results" story whose source reports figures
+      "company": "...", "quarter": "Q2 FY27",
+      "revenue_cr": <number or null>, "revenue_yoy_pct": <number or null>,
+      "profit_cr": <number or null>,  "profit_yoy_pct": <number or null>,
+      "vs_estimate": <"beat" | "miss" | "inline", ONLY if a source says so, else null>,
+      "reaction_pct": <share move as reported, else null>, "reaction_asof": "<time, optional>",
+      "src": {"title": "...", "url": "..."}},
     "src": {"title": "...", "url": "..."}}
  ],
  "sources": [{"title": "...", "url": "..."}]
@@ -117,6 +130,24 @@ On the slots that do carry it, do BOTH sides, on every note. "movers.down" is no
 A SECTOR IS A PERFECTLY GOOD ENTRY — this is the case that matters most, because the laggards line is sectoral more often than not. If it reads "metals and pharma", then "movers.down" carries "Nifty Metal" and "Nifty Pharma" as names, each with its index move and why it is lagging, exactly as you would for a stock. "Smallcaps trail midcaps" means an entry for "Nifty Smallcap 100" with its move. Use individual stocks when the line names them, sector indices when it names sectors, and both when it names both.
 Omit a side ONLY when you genuinely could not source what its constituents are doing — never merely because the line is sectoral rather than stock-level. Never invent a move or a reason: omit "move" when no figure is sourced, and drop a name entirely when you cannot say why it is moving. A name may sit in "movers.up" while still down on the day if it is simply falling less than the market — set "dir" to what the name actually did. Do not recycle the "top" insights here: "movers" is about index constituents moving, "top" is about news.
 
+THREADS. A "thread" is the long-running theme a story belongs to, so the app can build a
+theme page. Before you write, read threads/index.json in the repo: it is the registry of
+thread slugs already in use. REUSE an existing slug whenever the story continues that
+theme — do not coin "crude-oil" when "crude-iran-war" is already registered. Add a new slug
+only when a genuinely new theme starts, and then add it to threads/index.json as
+{"slug": "...", "title": "...", "first_seen": "<today>"} alongside the existing entries.
+A story with no wider theme gets NO "thread" key at all. Slugs are lowercase letters,
+digits and hyphens only.
+
+METRICS. Include a metric ONLY if a source you actually read states it in this run. Put the
+time the figure refers to in "asof" ("2026-11-06 close", "16:00", "Friday provisional") —
+it is not the time you are writing. Set "approx": true for a figure taken from a headline or
+rounded. If you did not source a metric this run, OMIT it: never carry the previous note's
+value forward, and never estimate one. fii_net_cr and dii_net_cr are the PROVISIONAL net
+figures in ₹ crore, where a negative number means net selling. india_vix is the index level.
+These numbers are structured data, not prose — the ban on index levels in the prose still
+applies, and these never appear in "summary" or "tone".
+
 5) SAVE
 Save the JSON to a local file and write with ArtifactData:
 - action "set", collection "days/<date>/notes", doc_id "<slot>", file_path <file>
@@ -127,10 +158,35 @@ Save the JSON to a local file and write with ArtifactData:
 The repository fundsmaporg/sq_dalal_pulse is checked out in this session at /home/user/sq_dalal_pulse. Writing the note there and pushing it is a normal, authorised part of this job — the repository exists for exactly this. Do it without asking.
 a) cd /home/user/sq_dalal_pulse, then: git checkout main && git pull origin main
 b) Write the SAME JSON you saved in step 5 to days/<date>/<slot>.json, creating the day folder if needed.
-c) Run: python3 scripts/build_feed.py   (it rebuilds latest.json from days/)
-   Check its output names the date and slot you just wrote. If it does not, the note did not land — say so in your final message rather than pushing silently.
+c) Run BOTH, in this order:
+     python3 scripts/build_feed.py      (rebuilds latest.json from days/)
+     python3 scripts/build_stories.py   (rebuilds stories/ and threads/ from days/)
+   Check build_feed's output names the date and slot you just wrote. If it does not, the note did not land — say so in your final message rather than pushing silently.
+   build_stories.py is safe to re-run and never touches a "dossier" already on disk.
 d) Run git add -A, commit with the message "Pulse <date> <slot>", then git push origin main. If the push is rejected because main moved, run git pull --rebase origin main and push again. Never open a pull request.
 The GitHub Action then forwards latest.json to the app endpoint.
 If any command here fails, quote the exact command and its exact error in your final message, and still do step 7.
+
+6b) DOSSIERS (do this after step 6c has rebuilt stories/, and before the commit in 6d)
+A dossier is the one-page write-up stored inside stories/<key>.json under "dossier". Refresh
+or write one ONLY for a story that qualifies right now:
+  - it has appeared in 3 or more notes (stories/<key>.json "count" >= 3), OR
+  - it is tagged Results, Policy or Regulation AND its impact is "pos" or "neg".
+Write AT MOST 15 dossiers in a day across all runs. Prefer the stories that changed most
+since their dossier's "written_at" — a story whose dossier is already current is not worth a
+rewrite. If today's 15 are used up, skip this step.
+Shape, written into the existing stories/<key>.json as the "dossier" key, leaving every other
+key in that file untouched:
+{"headline": "...", "summary": "<2–3 sentences>",
+ "status": "<developing | tracking | resolved>",
+ "why_it_matters": ["..."], "moved": [{"name": "...", "dir": "up|down", "line": "..."}],
+ "watch": ["..."], "questions": ["<short questions a reader would now have>"],
+ "conflicts": ["<where the notes' own sources disagree>"],
+ "written_at": "<ISO 8601 with +05:30>", "based_on_slots": ["2026-11-07/1605", "..."]}
+Rules: use ONLY what that story's own timeline entries and their sources say — do not research
+afresh for a dossier. Where the notes said reports differ, say so in "conflicts" and keep both
+figures. Set "status": "resolved" when the story has not appeared for 5 trading days. NO view
+on whether to buy or sell anything, ever; a broker call is quoted with attribution only
+("Jefferies keeps Buy"). Leave an array empty rather than padding it.
 
 7) FINISH with two lines: the slot + mood label, and the single most important insight.
