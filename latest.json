@@ -1,38 +1,182 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-06T21:00:02+05:30",
- "date": "2026-11-06",
- "slot": "2100",
- "slot_label": "21:00",
- "stage": "Evening wrap",
- "asof": "2026-11-06T21:00:00+05:30",
+ "generated_at": "2026-11-07T08:00:38+05:30",
+ "date": "2026-11-07",
+ "slot": "0800",
+ "slot_label": "8:00",
+ "stage": "Weekend outlook",
+ "asof": "2026-11-07T08:00:00+05:30",
  "nifty": {
   "value": 25030.35,
   "pct": 2.01,
   "chg": 493.75,
   "approx": false,
-  "asof_quote": "Nov 6 close per The Tribune/ANI"
+  "asof_quote": "Friday Nov 6 close per The Tribune/ANI; Nifty up 8.58% on the week"
  },
  "mood": {
-  "label": "Upbeat into Monday",
+  "label": "Constructive but stretched",
   "score": 0.35,
-  "summary": "With US stocks rebounding after a strong jobs report, the setup for Monday looks supportive after India's seventh straight gain, though higher US yields could cap foreign buying.",
+  "summary": "Heavy foreign buying, softer crude, a firmer rupee and a Friday tech rebound on Wall Street support the next session, but a near-9% weekly surge leaves the market stretched.",
   "detail": {
-   "leaders": "Large-cap banks and IT could benefit if the US tech rebound holds",
-   "laggards": "Rate-sensitive stocks may feel pressure if US yields keep rising",
-   "tone": "Forward-looking read for Monday: slightly firmer than at 1800 as Wall Street bounces back, but rising Fed rate-hike bets add a new risk.",
+   "leaders": "Private banks and large caps, which drew record foreign buying last week",
+   "laggards": "Mid and small caps, which lagged the rally; stretched gains invite profit-taking",
+   "tone": "First weekend read: it follows Friday's seventh straight gain and the best week since February 2021. The next session is Sunday's one-hour Diwali Muhurat trade, then Monday Nov 9; markets shut Tuesday Nov 10.",
    "watch": [
-    "How Wall Street closes after the jobs-led rebound",
-    "Sunday's Diwali Muhurat session",
-    "Friday's FII figures, still awaited"
+    "Whether foreign buying continues in the Muhurat session and on Monday",
+    "Rising US yields and Fed rate-hike bets after the strong jobs report",
+    "Profit-taking after a near-9% weekly rally"
    ],
    "src": {
-    "title": "Yahoo Finance: Nasdaq, S&P 500 rebound after brutal sell-off as US adds 165K jobs",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
+    "title": "Zee Business: Sensex, Nifty surge nearly 9% in best weekly rally since Feb 2021; Muhurat trading in focus",
+    "url": "https://www.zeebiz.com/market-news/news-weekly-market-wrap-sensex-nifty-surge-nearly-9-best-weekly-rally-since-feb-2021-rs-2870-lakh-crore-added-muhurat-trading-in-focus-405246"
    }
   }
  },
  "insights": [
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs bought ₹13,750 cr more on Friday",
+   "line": "Provisional data: FIIs net bought ₹13,750 cr; DIIs net sold ₹5,969 cr",
+   "more": [
+    "Follows about ₹14,975 cr of FII buying on Thursday",
+    "Foreign money drove last week's large-cap rally"
+   ],
+   "src": {
+    "title": "Tapetide: FII DII data — daily and monthly net flows",
+    "url": "https://tapetide.com/fii-dii-data"
+   },
+   "date": "2026-11-07",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-01",
+    "slot": "outlook"
+   }
+  },
+  {
+   "key": "holiday-calendar",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Muhurat session Sunday; Tuesday is a holiday",
+   "line": "One-hour Diwali session Sunday Nov 8; full trading Monday Nov 9; NSE shut Tuesday Nov 10",
+   "more": [
+    "Muhurat equity trading widely reported from 2:20 pm to 3:30 pm",
+    "Check NSE's circular for exact timings"
+   ],
+   "src": {
+    "title": "Bajaj Broking: Muhurat Trading 2026 — date, timings and details",
+    "url": "https://www.bajajbroking.in/share-market-news/muhurat-trading-2026-date-timings-and-details"
+   },
+   "date": "2026-11-07",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-01",
+    "slot": "outlook"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Wall Street ended Friday mixed, tech rebounding",
+   "line": "Friday close: Nasdaq up 1.09%, S&P 500 up 0.31%, Dow down 0.46%",
+   "more": [
+    "Rebound after Thursday's AI-led rout",
+    "US markets reopen Monday"
+   ],
+   "src": {
+    "title": "TheStreet: Stock market today (Nov 6, 2026) — Nasdaq, S&P 500 rise after midterms AI rout",
+    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-06-2026"
+   },
+   "date": "2026-11-07",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-01",
+    "slot": "outlook"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Oil posts its biggest weekly drop since 2022",
+   "line": "Brent settled flat at $98.32 on Friday after falling about 13% over the week",
+   "more": [
+    "Hopes of de-escalation in the Iran war drove the slide",
+    "Lower crude helps India's import bill and the rupee"
+   ],
+   "src": {
+    "title": "Rigzone/Bloomberg: Oil posts biggest weekly drop since 2022",
+    "url": "https://www.rigzone.com/news/wire/oil_posts_biggest_weekly_drop_since_2022-06-nov-2026-185035-article/"
+   },
+   "date": "2026-11-07",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-01",
+    "slot": "outlook"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Strong US jobs data lifts Fed hike bets",
+   "line": "October payrolls rose 165,000 against about 65,000 expected; unemployment fell to 4.1%",
+   "more": [
+    "Odds of a Fed rate hike next month rose to about 78%",
+    "Higher US yields could temper foreign flows"
+   ],
+   "src": {
+    "title": "Reuters via Investing.com: US job growth beats expectations in October; unemployment rate falls to 4.1%",
+    "url": "https://www.investing.com/news/economic-indicators/us-job-growth-beats-expectations-in-october-unemployment-rate-falls-to-41-5008194"
+   },
+   "date": "2026-11-07",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee closes stronger on inflows",
+   "line": "One report has the rupee closing at 93.91 per dollar on Friday, up 56 paise",
+   "more": [
+    "RBI reportedly bought dollars near 93.88 to cap gains",
+    "Lower crude also supported the currency"
+   ],
+   "src": {
+    "title": "NewsBytes: Indian rupee closes at 93.91 per US dollar after inflows",
+    "url": "https://www.newsbytesapp.com/news/business/indian-rupee-closes-9391-per-us-dollar-after-inflows/tldr"
+   },
+   "date": "2026-11-07",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-01",
+    "slot": "outlook"
+   }
+  },
   {
    "key": "us-jobs",
    "tag": "Macro",
@@ -50,61 +194,12 @@
    },
    "date": "2026-11-06",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Fri · 21:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1355"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Wall Street rebounds after Thursday's rout",
-   "line": "S&P 500 up about 1% in early trade as chip stocks lead the Nasdaq higher",
-   "more": [
-    "Nvidia, AMD and Micron among the leaders",
-    "Dow direction mixed across early reports",
-    "Live figures; the US session is still underway"
-   ],
-   "src": {
-    "title": "Yahoo Finance: Nasdaq, S&P 500 rebound after brutal sell-off as US adds 165K jobs",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
-   },
-   "date": "2026-11-06",
-   "slot": "2100",
-   "when": "21:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "us-yields",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "US yields climb after strong payrolls",
-   "line": "2-year yield up 6 bp to 4.52%; 10-year up 3 bp to 4.87%",
-   "more": [
-    "Higher US yields can weigh on foreign flows into India",
-    "Fed hike bets rose from 70% to 78%"
-   ],
-   "src": {
-    "title": "Strong October jobs report sends yields higher",
-    "url": "https://srnnews.com/strong-october-jobs-report-sends-yields-higher"
-   },
-   "date": "2026-11-06",
-   "slot": "2100",
-   "when": "21:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0700"
    }
   },
   {
@@ -124,36 +219,12 @@
    },
    "date": "2026-11-06",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Fri · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1155"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Thursday's FII buying was a six-year high",
-   "line": "Net purchases of about ₹14,975 cr were the largest single day in nearly six years",
-   "more": [
-    "DIIs net sold about ₹10,445 cr that day",
-    "Friday's provisional figures are not out yet"
-   ],
-   "src": {
-    "title": "Quantsapp: FII DII data",
-    "url": "https://www.quantsapp.com/fii-dii"
-   },
-   "date": "2026-11-06",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "pre"
    }
   },
   {
@@ -173,60 +244,12 @@
    },
    "date": "2026-11-06",
    "slot": "1625",
-   "when": "16:25",
+   "when": "Fri · 16:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1225"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee strengthens to a six-month high",
-   "line": "Rupee touched about 94.06 per dollar as the dollar softened after the US midterms",
-   "more": [
-    "Previous high was 93.99 on April 23",
-    "Sector rotation out of AI stocks also helped"
-   ],
-   "src": {
-    "title": "Business Standard: Rupee hits over 6-month high of 94.06 as US dollar softens post midterms",
-    "url": "https://www.business-standard.com/amp/markets/news/rupee-hits-over-6-month-high-of-94-06-as-us-dollar-softens-post-midterms-126110600788_1.html"
-   },
-   "date": "2026-11-06",
-   "slot": "1625",
-   "when": "16:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "holiday-calendar",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Muhurat session Sunday; market shut Tuesday",
-   "line": "Diwali special session on Sunday, Nov 8; NSE closed Tuesday, Nov 10",
-   "more": [
-    "Monday, Nov 9 is a normal trading day",
-    "NSE will confirm Muhurat timings by circular"
-   ],
-   "src": {
-    "title": "NSE: Market timings and holidays",
-    "url": "https://www.nseindia.com/resources/exchange-communication-holidays"
-   },
-   "date": "2026-11-06",
-   "slot": "1625",
-   "when": "16:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-01",
-    "slot": "outlook"
    }
   },
   {
@@ -245,7 +268,7 @@
    },
    "date": "2026-11-06",
    "slot": "1555",
-   "when": "15:55",
+   "when": "Fri · 15:55",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -269,12 +292,12 @@
    },
    "date": "2026-11-06",
    "slot": "1555",
-   "when": "15:55",
-   "updated": true,
+   "when": "Fri · 15:55",
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-30",
-    "slot": "0930"
+    "date": "2026-11-06",
+    "slot": "1555"
    }
   },
   {
@@ -293,7 +316,7 @@
    },
    "date": "2026-11-06",
    "slot": "1525",
-   "when": "15:25",
+   "when": "Fri · 15:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -317,7 +340,7 @@
    },
    "date": "2026-11-06",
    "slot": "1525",
-   "when": "15:25",
+   "when": "Fri · 15:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -342,7 +365,7 @@
    },
    "date": "2026-11-06",
    "slot": "1425",
-   "when": "14:25",
+   "when": "Fri · 14:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -366,12 +389,12 @@
    },
    "date": "2026-11-06",
    "slot": "1425",
-   "when": "14:25",
+   "when": "Fri · 14:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1030"
+    "date": "2026-11-06",
+    "slot": "1025"
    }
   },
   {
@@ -390,7 +413,7 @@
    },
    "date": "2026-11-06",
    "slot": "1355",
-   "when": "13:55",
+   "when": "Fri · 13:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -415,7 +438,7 @@
    },
    "date": "2026-11-06",
    "slot": "1325",
-   "when": "13:25",
+   "when": "Fri · 13:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -439,7 +462,7 @@
    },
    "date": "2026-11-06",
    "slot": "1325",
-   "when": "13:25",
+   "when": "Fri · 13:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -464,7 +487,7 @@
    },
    "date": "2026-11-06",
    "slot": "1255",
-   "when": "12:55",
+   "when": "Fri · 12:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -489,7 +512,7 @@
    },
    "date": "2026-11-06",
    "slot": "1255",
-   "when": "12:55",
+   "when": "Fri · 12:55",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -513,7 +536,7 @@
    },
    "date": "2026-11-06",
    "slot": "1255",
-   "when": "12:55",
+   "when": "Fri · 12:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -538,7 +561,7 @@
    },
    "date": "2026-11-06",
    "slot": "1155",
-   "when": "11:55",
+   "when": "Fri · 11:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -563,7 +586,7 @@
    },
    "date": "2026-11-06",
    "slot": "1055",
-   "when": "10:55",
+   "when": "Fri · 10:55",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -588,7 +611,7 @@
    },
    "date": "2026-11-06",
    "slot": "0955",
-   "when": "9:55",
+   "when": "Fri · 9:55",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -612,7 +635,7 @@
    },
    "date": "2026-11-06",
    "slot": "0955",
-   "when": "9:55",
+   "when": "Fri · 9:55",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -637,7 +660,7 @@
    },
    "date": "2026-11-06",
    "slot": "0955",
-   "when": "9:55",
+   "when": "Fri · 9:55",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -662,7 +685,7 @@
    },
    "date": "2026-11-06",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Fri · 8:45",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -687,7 +710,7 @@
    },
    "date": "2026-11-06",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Fri · 8:45",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -711,36 +734,12 @@
    },
    "date": "2026-11-06",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Fri · 8:45",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "Brent rebounds after midweek rout",
-   "line": "Brent climbed back toward $98 on Thursday after an 8.7% plunge on Wednesday",
-   "more": [
-    "Settled at $94.62 on Nov 4, lowest since late August",
-    "Traders weigh whether the midterms speed an end to the Iran war"
-   ],
-   "src": {
-    "title": "OilPrice.com: Oil prices rebound sharply after brutal midweek rout",
-    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-Sharply-After-Brutal-Midweek-Rout.html"
-   },
-   "date": "2026-11-06",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "pre"
    }
   },
   {
@@ -2113,11 +2112,11 @@
    "date": "2026-11-03",
    "slot": "1025",
    "when": "Tue · 10:25",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-30",
-    "slot": "pre"
+    "date": "2026-11-03",
+    "slot": "1025"
    }
   },
   {
@@ -2311,8 +2310,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-30",
-    "slot": "pre"
+    "date": "2026-11-01",
+    "slot": "outlook"
    }
   },
   {
@@ -2573,11 +2572,11 @@
    "date": "2026-11-02",
    "slot": "1300",
    "when": "Mon · 13:00",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-30",
-    "slot": "pre"
+    "date": "2026-11-02",
+    "slot": "1300"
    }
   },
   {
@@ -2622,11 +2621,11 @@
    "date": "2026-11-02",
    "slot": "1230",
    "when": "Mon · 12:30",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1430"
+    "date": "2026-11-02",
+    "slot": "1230"
    }
   },
   {
@@ -2698,8 +2697,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1200"
+    "date": "2026-11-01",
+    "slot": "outlook"
    }
   },
   {
@@ -2793,11 +2792,11 @@
    "date": "2026-11-02",
    "slot": "pre",
    "when": "Mon · Pre-open",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1230"
+    "date": "2026-11-02",
+    "slot": "pre"
    }
   },
   {
@@ -2823,372 +2822,6 @@
    "first_seen": {
     "date": "2026-11-01",
     "slot": "outlook"
-   }
-  },
-  {
-   "key": "market-outlook",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Analysts urge caution after two-day rise",
-   "line": "Zee Business's Anil Singhvi advises restraint on fresh buying given weak breadth",
-   "more": [
-    "Nifty support seen at 22,823–22,915",
-    "Resistance placed at 23,123–23,175"
-   ],
-   "src": {
-    "title": "Closing Bell: Sensex rises 308 points, Nifty tops 23,000; IT, pharma stocks lead recovery — Zee Business",
-    "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-rises-308-points-nifty-reclaims-23000-it-pharma-stocks-lead-recovery-anil-singhvi-advises-caution-404856"
-   },
-   "date": "2026-10-30",
-   "slot": "post",
-   "when": "Fri · Close",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "post"
-   }
-  },
-  {
-   "key": "boj",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Bank of Japan holds at 1.25%, speeds ETF unwind",
-   "line": "BoJ kept rates steady but stepped up the sale of its ETF holdings",
-   "more": [
-    "Policy rate unchanged at 1.25%",
-    "Pace of ETF holding sales increased"
-   ],
-   "src": {
-    "title": "Bank of Japan maintains 1.25% rate, steps up unwinding of ETF holdings — Zee Business",
-    "url": "https://www.zeebiz.com/economy-infra/world-economy/news-bank-of-japan-maintains-125-rate-steps-up-unwinding-of-etf-holdings-404843"
-   },
-   "date": "2026-10-30",
-   "slot": "post",
-   "when": "Fri · Close",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "post"
-   }
-  },
-  {
-   "key": "iocl-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "IOCL seen swinging back to profit",
-   "line": "Q2 estimates range from ₹3,300 cr to ₹7,300 cr after a ₹1,141 cr Q1 loss",
-   "more": [
-    "Zee Business sees ₹5,556 cr standalone profit",
-    "Q1 operating profit fell to ₹4,062 cr"
-   ],
-   "src": {
-    "title": "IOC Q2 results preview: Rs 5,556 crore profit likely after June-quarter loss — Zee Business",
-    "url": "https://www.zeebiz.com/companies/news-ioc-q2-results-preview-rs-5556-crore-profit-likely-after-june-quarter-loss-404786"
-   },
-   "date": "2026-10-30",
-   "slot": "1500",
-   "when": "Fri · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "max-healthcare-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Max Healthcare revenue up ~20% in Q2",
-   "line": "Reports differ on profit: ~₹448 cr (+10%) vs ₹414 cr (down from ₹491 cr)",
-   "more": [
-    "Gross revenue ~₹3,219 cr per one report",
-    "Coverage highlights a focus on expansion"
-   ],
-   "src": {
-    "title": "Max Healthcare: Q2 revenue rises 20% to ₹3,219 cr, PAT grows 10% — InvestyWise",
-    "url": "https://www.investywise.com/max-healthcare-q2-fy27-earnings-update"
-   },
-   "date": "2026-10-30",
-   "slot": "1500",
-   "when": "Fri · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "gcpl-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Godrej Consumer hits 52-week low on margins",
-   "line": "Profit up 13.8% and sales up 19%, but EBITDA margin fell to ~18.6% on input costs",
-   "more": [
-    "Intraday low ₹777.20, down ~7%; pared to −3.6% by 10 am",
-    "Raw material costs rose 8.5%",
-    "₹5 interim dividend declared"
-   ],
-   "src": {
-    "title": "GCPL slides 7% as Q2 margins contract; analysts flag input cost pressures — Business Standard",
-    "url": "https://www.business-standard.com/markets/news/gcpl-slides-7-as-q2-margins-contract-analysts-flags-input-cost-pressures-126103000409_1.html"
-   },
-   "date": "2026-10-30",
-   "slot": "1430",
-   "when": "Fri · 14:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1430"
-   }
-  },
-  {
-   "key": "india-bond-yields",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "10-year bond yield near 7.5%, a 2022 high",
-   "line": "Yields rose 11 straight weeks on high oil and bets on a December RBI hike",
-   "more": [
-    "Touched 7.498% on Tuesday; eased to ~7.39% Thursday",
-    "Some see 7.70–7.75% by December",
-    "Investors eye 7.5% as an entry point"
-   ],
-   "src": {
-    "title": "India bonds seen attracting buyers as 10-year yield nears 2022 levels — Business Standard",
-    "url": "https://business-standard.com/amp/markets/news/india-bonds-seen-attracting-buyers-as-10-year-yield-nears-2022-levels-126102900690_1.html"
-   },
-   "date": "2026-10-30",
-   "slot": "1400",
-   "when": "Fri · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "sun-pharma-fda",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Sun Pharma up 3% ahead of Q2 numbers",
-   "line": "Gains build on this week's US FDA approval of ILUMYA for psoriatic arthritis",
-   "more": [
-    "Q1 profit had risen 27% to ₹2,895 cr",
-    "One calendar lists the report for Nov 3, not today"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex rises 500 pts, Nifty tops 23,100; Sun Pharma gains 3% ahead of Q2 result — Business Standard",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
-   },
-   "date": "2026-10-30",
-   "slot": "1400",
-   "when": "Fri · 14:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1100"
-   }
-  },
-  {
-   "key": "thyrocare-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Thyrocare slumps 12% as profit drops 68%",
-   "line": "A ₹45 cr impairment on its Nueclear unit wiped out a 25% revenue gain",
-   "more": [
-    "Q2 profit about ₹15 cr vs ₹48 cr a year ago",
-    "Revenue up 25% to ~₹271 cr",
-    "Shareholders voting on ₹141.4 cr Nueclear divestment"
-   ],
-   "src": {
-    "title": "Thyrocare Q2 profit slips 68% YoY to ₹15 cr due to ₹45 cr exceptional expense — Inc42",
-    "url": "https://inc42.com/buzz/thyrocare-q2-profit-slips-68-yoy-to-%E2%82%B915-cr-due-to-%E2%82%B945-cr-exceptional-expense/"
-   },
-   "date": "2026-10-30",
-   "slot": "1330",
-   "when": "Fri · 13:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1330"
-   }
-  },
-  {
-   "key": "bel-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "BEL reports today; margin squeeze expected",
-   "line": "Revenue seen up 14%+, but EBITDA margin may slip to ~27.8% from 29.4%",
-   "more": [
-    "EBITDA seen at ~₹1,847 cr vs ₹1,702 cr",
-    "Consensus revenue ~₹6,608 cr",
-    "DAC cleared ₹2.12 lakh cr of procurement on Oct 27"
-   ],
-   "src": {
-    "title": "BEL Q2 results preview: top line seen growing over 14% but margin may shrink — Zee Business",
-    "url": "https://www.zeebiz.com/companies/news-bel-navratna-stock-q2-fy27-results-preview-profit-sales-margin-expectations-share-price-action-404766"
-   },
-   "date": "2026-10-30",
-   "slot": "1300",
-   "when": "Fri · 13:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "jio-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Jio Platforms steadies near ₹1,420",
-   "line": "Third session trades flat after a 27% gain over the issue price in two days",
-   "more": [
-    "Day range ₹1,386.80–1,434.90",
-    "Issue price was ₹1,119; listed at ₹1,358"
-   ],
-   "src": {
-    "title": "Jio Platforms share price today — Dhan",
-    "url": "https://dhan.co/stocks/jio-platforms-ltd-share-price/"
-   },
-   "date": "2026-10-30",
-   "slot": "1300",
-   "when": "Fri · 13:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "welspun-corp-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Welspun Corp drags smallcaps despite results",
-   "line": "Stock down ~4% even as Q2 profit rose ~12% and the order book doubled",
-   "more": [
-    "EBITDA up 25% to ₹782 cr",
-    "Order book about ₹50,000 cr vs ₹25,350 cr at FY26-end",
-    "Smallcap index down about 1% at one point"
-   ],
-   "src": {
-    "title": "Welspun Corp share price in focus after Q2 FY27 results: 25% EBITDA growth, record order book — Kotak Neo",
-    "url": "https://www.kotakneo.com/news/stocks/welspun-corp-shares-in-focus-after-q2-fy27-2027-results/"
-   },
-   "date": "2026-10-30",
-   "slot": "1230",
-   "when": "Fri · 12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "vedanta-power",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Vedanta Power among top Nifty 500 gainers",
-   "line": "Leads broader-market gainers on Friday, per 5paisa's movers list",
-   "more": [
-    "Q2 power sales rose 26% to 5,593 million units",
-    "Trent also among top Nifty 500 gainers"
-   ],
-   "src": {
-    "title": "Why these stocks are rising and falling 30 Oct 26 — 5paisa",
-    "url": "https://www.5paisa.com/blog/why-these-stocks-are-rising-and-falling-30-oct-26"
-   },
-   "date": "2026-10-30",
-   "slot": "1200",
-   "when": "Fri · 12:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1200"
-   }
-  },
-  {
-   "key": "trent-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Trent extends rally to ₹3,060",
-   "line": "Up as much as 6.9% intraday, the top Sensex gainer on results",
-   "more": [
-    "EBITDA ₹1,054 cr vs ₹896 cr estimate",
-    "Margin widened to 18.2%"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range; Nifty India Defence down 2%; RIL falls ahead of Q2 result — Business Standard",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
-   },
-   "date": "2026-10-30",
-   "slot": "1100",
-   "when": "Fri · 11:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "suzlon-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Suzlon falls 8% as profit drops 69%",
-   "line": "Record turbine deliveries of 710 MW failed to offset a sharp profit decline",
-   "more": [
-    "Deliveries up from 565 MW a year earlier",
-    "One of the biggest decliners in early trade"
-   ],
-   "src": {
-    "title": "Stock market today: Sensex opens higher, Trent rallies; Suzlon tumbles 8% — NewsDrum",
-    "url": "https://www.newsdrum.in/business/stock-market-today-sensex-opens-higher-trent-rallies-suzlon-tumbles-8-12766877"
-   },
-   "date": "2026-10-30",
-   "slot": "1030",
-   "when": "Fri · 10:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "1030"
-   }
-  },
-  {
-   "key": "asia-markets",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Kospi tumbles ~5.5%, Nikkei ~2.9% on tech rout",
-   "line": "Weak Alphabet and Intel results hit Asian tech; Nasdaq-100 futures down over 2%",
-   "more": [
-    "Kosdaq down about 3.7%",
-    "Binance's $5.7 bn crypto hack also weighed",
-    "GIFT Nifty quoted near 22,988, down 60 points"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets tumble on tech shares selloff — Business Standard",
-    "url": "https://business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
-   },
-   "date": "2026-10-30",
-   "slot": "pre",
-   "when": "Fri · Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-10-30",
-    "slot": "pre"
    }
   }
  ]
