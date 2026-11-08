@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-08T08:00:50+05:30",
+ "generated_at": "2026-11-08T14:00:09+05:30",
  "date": "2026-11-08",
- "slot": "0800",
- "slot_label": "8:00",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Weekend outlook",
- "asof": "2026-11-08T08:10:00+05:30",
+ "asof": "2026-11-08T14:02:00+05:30",
  "nifty": {
   "value": 25030.35,
   "pct": 2.01,
@@ -13,42 +13,22 @@
   "approx": false,
   "asof_quote": "Fri 6 Nov close"
  },
- "metrics": {
-  "fii_net_cr": {
-   "value": 13750,
-   "asof": "Fri 6 Nov provisional",
-   "approx": true,
-   "src": {
-    "title": "Quantsapp: FII DII data, 6 Nov 2026",
-    "url": "https://www.quantsapp.com/fii-dii"
-   }
-  },
-  "dii_net_cr": {
-   "value": -5969,
-   "asof": "Fri 6 Nov provisional",
-   "approx": true,
-   "src": {
-    "title": "Quantsapp: FII DII data, 6 Nov 2026",
-    "url": "https://www.quantsapp.com/fii-dii"
-   }
-  }
- },
  "mood": {
   "label": "Upbeat into Muhurat",
-  "score": 0.4,
-  "summary": "Today's one-hour Diwali session opens on the back of heavy foreign buying and a strong week, but thin festive volumes and an unresolved Gulf standoff make it a poor guide to Monday.",
+  "score": 0.35,
+  "summary": "The Diwali hour opens with festive optimism and strong foreign flows behind it, but thin volumes and fresh US-Iran friction mean any move today says little about Monday.",
   "detail": {
-   "leaders": "Large caps foreign investors bought heavily last week",
-   "laggards": "Consumer names with weak quarters, such as Jubilant FoodWorks, and any stock hit by renewed oil worries",
-   "tone": "Markets ended a strong week with a big Friday rally, and Saturday brought no new market-moving news beyond Qatar's US-Iran proposal. Today's session is short and ceremonial; Monday Nov 9 is the next full session, and Tuesday Nov 10 is a holiday.",
+   "leaders": "Large caps that foreign investors bought heavily last week",
+   "laggards": "Stocks exposed to oil, if Gulf tensions lift crude when trading resumes Monday",
+   "tone": "This is a preview: the special session has not opened yet, so the level shown is Friday's close. Since this morning's note, reports confirm limited US strikes on Iran and both sides remain far apart on Qatar's plan.",
    "watch": [
-    "Whether foreign buying shows up again in the thin Muhurat hour",
-    "Any US or Iranian answer to Qatar's two-day Hormuz plan",
-    "Reports of strikes in the Gulf that could lift oil before Monday"
+    "Whether the Muhurat hour holds an early gain or fades into the close",
+    "Any Iranian response to the US strikes before Monday's open",
+    "Profit-taking after the biggest pre-Diwali rally in decades"
    ],
    "src": {
-    "title": "BusinessToday: Diwali Muhurat trading 2026 — NSE, BSE timings, Monday market schedule",
-    "url": "https://www.businesstoday.in/markets/stocks/story/diwali-muhurat-trading-2026-nse-bse-timings-monday-market-schedule-what-investors-should-know-566348-2026-11-08"
+    "title": "Business Standard: Will bulls stay in control during Muhurat trading? Experts decode outlook",
+    "url": "https://www.business-standard.com/markets/news/will-bulls-stay-in-control-during-muhurat-trading-experts-decode-outlook-126110600925_1.html"
    }
   }
  },
@@ -57,20 +37,20 @@
    "key": "holiday-calendar",
    "tag": "Policy",
    "impact": "watch",
-   "title": "Muhurat session today, 2:20 pm start",
-   "line": "Pre-open 2:05–2:20 pm; equities trade to about 3:30 pm; Tuesday is a market holiday",
+   "title": "Muhurat session opens at 2:20 pm",
+   "line": "Pre-open from 2:05 pm; equities trade to about 3:30 pm; Monday is a full session",
    "more": [
-    "Block-deal window 1:50–2:05 pm, per one report",
-    "Reports differ on the close: 3:30 pm for equities, 3:40 pm cited for derivatives",
-    "Trades settle like any normal session; Monday Nov 9 is a full day"
+    "Reports cite 3:40 pm as the close for derivatives",
+    "Market shut on Tuesday Nov 10 for Diwali Balipratipada",
+    "Muhurat trades settle like a normal session"
    ],
    "src": {
     "title": "BusinessToday: Diwali Muhurat trading 2026 — NSE, BSE timings, Monday market schedule",
     "url": "https://www.businesstoday.in/markets/stocks/story/diwali-muhurat-trading-2026-nse-bse-timings-monday-market-schedule-what-investors-should-know-566348-2026-11-08"
    },
    "date": "2026-11-08",
-   "slot": "0800",
-   "when": "8:00",
+   "slot": "1400",
+   "when": "14:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -79,24 +59,49 @@
    }
   },
   {
-   "key": "iran-talks",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Qatar's Hormuz plan awaits both sides' answer",
-   "line": "Two-day bridge deal would reopen the strait on day two; the White House has not commented",
+   "key": "muhurat-outlook",
+   "tag": "Opening",
+   "impact": "pos",
+   "title": "Analysts lean positive for the Diwali hour",
+   "line": "Sensex and Nifty rose in eight of the last 10 Muhurat sessions, per Business Standard",
    "more": [
-    "Plan includes lifting the US naval blockade and releasing part of $8 bn in frozen assets",
-    "Iran says sanctions relief and an end to the blockade must come first",
-    "Iranian media reported fresh strikes on Qeshm Island; the US has announced none"
+    "One analyst expects a gap-up open, then a narrow range into the close",
+    "Master Capital's Ravi Singh: the hour should not be read as confirming a sustained rally",
+    "Comes after what reports call the biggest pre-Diwali rally in 35 years"
    ],
    "src": {
-    "title": "National Security Journal: The Strait of Hormuz could open in 2 days under a new Qatar deal",
-    "url": "https://nationalsecurityjournal.org/the-strait-of-hormuz-could-open-in-2-days-if-donald-trump-and-iran-would-support-a-new-deal-to-end-the-war-by-qatar/"
+    "title": "Business Standard: Will bulls stay in control during Muhurat trading? Experts decode outlook",
+    "url": "https://www.business-standard.com/markets/news/will-bulls-stay-in-control-during-muhurat-trading-experts-decode-outlook-126110600925_1.html"
+   },
+   "date": "2026-11-08",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-08",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "iran-talks",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US strikes Iran as Qatar plan stalls",
+   "line": "Trump confirmed limited strikes on Iranian air defences; both sides still far apart",
+   "more": [
+    "Strikes reportedly hit Qeshm Island; an official called them limited",
+    "Iran's security council chief called the US reply 'not convincing'",
+    "Qatar's 48-hour plan would reopen Hormuz on day two; neither side has accepted"
+   ],
+   "src": {
+    "title": "Union Leader (Reuters): Iran, US still far apart on deal to end war as Qatar pushes mediation",
+    "url": "https://www.unionleader.com/news/nation-world/update-7-iran-us-still-far-apart-on-deal-to-end-war-as-qatar-pushes-mediation-66dd5074"
    },
    "thread": "crude-iran-war",
    "date": "2026-11-08",
-   "slot": "0800",
-   "when": "8:00",
+   "slot": "1400",
+   "when": "14:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -124,7 +129,7 @@
    "slot": "0800",
    "when": "8:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-02",
     "slot": "1100"
