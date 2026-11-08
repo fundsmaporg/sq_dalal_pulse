@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-07T22:00:55+05:30",
- "date": "2026-11-07",
- "slot": "2100",
- "slot_label": "21:00",
+ "generated_at": "2026-11-08T08:00:50+05:30",
+ "date": "2026-11-08",
+ "slot": "0800",
+ "slot_label": "8:00",
  "stage": "Weekend outlook",
- "asof": "2026-11-07T21:10:00+05:30",
+ "asof": "2026-11-08T08:10:00+05:30",
  "nifty": {
   "value": 25030.35,
   "pct": 2.01,
@@ -14,78 +14,120 @@
   "asof_quote": "Fri 6 Nov close"
  },
  "metrics": {
-  "brent_usd": {
-   "value": 98.32,
-   "asof": "Fri 6 Nov settle",
-   "approx": false,
-   "src": {
-    "title": "FinanceFeeds: Brent crude oil price $98.32 after 16% weekly drop",
-    "url": "https://financefeeds.com/brent-crude-oil-price-98-32-saturday-week-ahead-us-iran-deal-bets-cpi-10-november-bull-105-bear-93/"
-   }
-  },
   "fii_net_cr": {
-   "value": 13749.82,
+   "value": 13750,
    "asof": "Fri 6 Nov provisional",
-   "approx": false,
+   "approx": true,
    "src": {
-    "title": "Groww: FII & DII data",
-    "url": "https://groww.in/fii-dii-data"
+    "title": "Quantsapp: FII DII data, 6 Nov 2026",
+    "url": "https://www.quantsapp.com/fii-dii"
    }
   },
   "dii_net_cr": {
-   "value": -5968.7,
+   "value": -5969,
    "asof": "Fri 6 Nov provisional",
-   "approx": false,
+   "approx": true,
    "src": {
-    "title": "Groww: FII & DII data",
-    "url": "https://groww.in/fii-dii-data"
+    "title": "Quantsapp: FII DII data, 6 Nov 2026",
+    "url": "https://www.quantsapp.com/fii-dii"
    }
   }
  },
  "mood": {
-  "label": "Constructive but stretched",
-  "score": 0.35,
-  "summary": "Heavy foreign buying and sharply cheaper oil give the Diwali sessions a firm footing, but a market at multi-year-best weekly gains and unresolved Gulf risk argue against chasing it.",
+  "label": "Upbeat into Muhurat",
+  "score": 0.4,
+  "summary": "Today's one-hour Diwali session opens on the back of heavy foreign buying and a strong week, but thin festive volumes and an unresolved Gulf standoff make it a poor guide to Monday.",
   "detail": {
-   "leaders": "Large caps that foreign investors bought heavily all week, and oil-sensitive sectors helped by cheaper crude",
-   "laggards": "Consumer names with weak quarters, such as Jubilant FoodWorks",
-   "tone": "A quiet Saturday after Friday's strong close, with no market-moving news beyond Qatar's new US-Iran proposal. Next up: Sunday's one-hour Muhurat session, then a full session on Monday Nov 9; Tuesday Nov 10 is a holiday.",
+   "leaders": "Large caps foreign investors bought heavily last week",
+   "laggards": "Consumer names with weak quarters, such as Jubilant FoodWorks, and any stock hit by renewed oil worries",
+   "tone": "Markets ended a strong week with a big Friday rally, and Saturday brought no new market-moving news beyond Qatar's US-Iran proposal. Today's session is short and ceremonial; Monday Nov 9 is the next full session, and Tuesday Nov 10 is a holiday.",
    "watch": [
-    "Whether Iran and the US take up Qatar's two-day bridge deal, or Gulf attacks resume",
-    "Whether foreign buying continues in the Muhurat hour and on Monday",
-    "Profit-taking after the strongest week since February 2021"
+    "Whether foreign buying shows up again in the thin Muhurat hour",
+    "Any US or Iranian answer to Qatar's two-day Hormuz plan",
+    "Reports of strikes in the Gulf that could lift oil before Monday"
    ],
    "src": {
-    "title": "The Tribune: Sensex jumps 1,718 points, Nifty tops 25,000",
-    "url": "https://www.tribuneindia.com/news/business/dhanteras-bonanza-on-d-street-sensex-jumps-1718-points-nifty-tops-25000"
+    "title": "BusinessToday: Diwali Muhurat trading 2026 — NSE, BSE timings, Monday market schedule",
+    "url": "https://www.businesstoday.in/markets/stocks/story/diwali-muhurat-trading-2026-nse-bse-timings-monday-market-schedule-what-investors-should-know-566348-2026-11-08"
    }
   }
  },
  "insights": [
   {
+   "key": "holiday-calendar",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Muhurat session today, 2:20 pm start",
+   "line": "Pre-open 2:05–2:20 pm; equities trade to about 3:30 pm; Tuesday is a market holiday",
+   "more": [
+    "Block-deal window 1:50–2:05 pm, per one report",
+    "Reports differ on the close: 3:30 pm for equities, 3:40 pm cited for derivatives",
+    "Trades settle like any normal session; Monday Nov 9 is a full day"
+   ],
+   "src": {
+    "title": "BusinessToday: Diwali Muhurat trading 2026 — NSE, BSE timings, Monday market schedule",
+    "url": "https://www.businesstoday.in/markets/stocks/story/diwali-muhurat-trading-2026-nse-bse-timings-monday-market-schedule-what-investors-should-know-566348-2026-11-08"
+   },
+   "date": "2026-11-08",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "1625"
+   }
+  },
+  {
    "key": "iran-talks",
    "tag": "Global",
    "impact": "watch",
-   "title": "Qatar offers a two-day US-Iran bridge deal",
-   "line": "Plan would reopen Hormuz on day two in exchange for easing the US blockade",
+   "title": "Qatar's Hormuz plan awaits both sides' answer",
+   "line": "Two-day bridge deal would reopen the strait on day two; the White House has not commented",
    "more": [
-    "Iran is reviewing it but says sanctions relief and an end to the blockade come first",
-    "Reports say it includes releasing part of $8 bn in frozen Iranian assets",
-    "Trump confirmed a 'minor' US strike on Friday even as talks continue"
+    "Plan includes lifting the US naval blockade and releasing part of $8 bn in frozen assets",
+    "Iran says sanctions relief and an end to the blockade must come first",
+    "Iranian media reported fresh strikes on Qeshm Island; the US has announced none"
    ],
    "src": {
-    "title": "24NewsHD: Qatar proposes US-Iran deal to reopen Strait of Hormuz",
-    "url": "https://www.24newshd.tv/07-Nov-2026/qatar-proposal-end-us-iran-conflict"
+    "title": "National Security Journal: The Strait of Hormuz could open in 2 days under a new Qatar deal",
+    "url": "https://nationalsecurityjournal.org/the-strait-of-hormuz-could-open-in-2-days-if-donald-trump-and-iran-would-support-a-new-deal-to-end-the-war-by-qatar/"
    },
    "thread": "crude-iran-war",
-   "date": "2026-11-07",
-   "slot": "2100",
-   "when": "21:00",
+   "date": "2026-11-08",
+   "slot": "0800",
+   "when": "8:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-07",
     "slot": "1400"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Foreign buyers carry a six-session streak in",
+   "line": "FIIs net bought about ₹13,750 cr on Friday while domestic funds sold about ₹5,969 cr",
+   "more": [
+    "Sixth straight session of net FII buying, per Quantsapp",
+    "Friday's gross FII buying was about ₹30,456 cr",
+    "Provisional figures; final data can differ"
+   ],
+   "src": {
+    "title": "Quantsapp: FII DII data, 6 Nov 2026",
+    "url": "https://www.quantsapp.com/fii-dii"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-08",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-02",
+    "slot": "1100"
    }
   },
   {
@@ -106,62 +148,12 @@
    "thread": "crude-iran-war",
    "date": "2026-11-07",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Sat · 21:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
-    "date": "2026-11-01",
-    "slot": "outlook"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Foreign investors buy ₹13,750 cr on Friday",
-   "line": "FIIs net bought for another session while domestic funds booked profits",
-   "more": [
-    "FII net buying: ₹13,749.82 cr (provisional)",
-    "DII net selling: ₹5,968.70 cr",
-    "Thursday's FII buying was even larger, at ₹14,974.68 cr"
-   ],
-   "src": {
-    "title": "Groww: FII & DII data",
-    "url": "https://groww.in/fii-dii-data"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-07",
-   "slot": "2100",
-   "when": "21:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-01",
-    "slot": "outlook"
-   }
-  },
-  {
-   "key": "holiday-calendar",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Muhurat hour Sunday; market shut Tuesday",
-   "line": "Diwali session runs 2:20–3:30 pm Sunday; Monday is a full day, Tuesday a holiday",
-   "more": [
-    "Most reports give 3:30 pm as the end; one broker says 3:40 pm",
-    "Muhurat trades settle like any other session"
-   ],
-   "src": {
-    "title": "Outlook Money: Diwali Muhurat trading 2026, NSE schedules rare afternoon session on November 8",
-    "url": "https://www.outlookmoney.com/invest/diwali-muhurat-trading-2026-nse-schedules-rare-afternoon-session-on-november-8-check-full-schedule"
-   },
-   "date": "2026-11-07",
-   "slot": "2100",
-   "when": "21:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-01",
-    "slot": "outlook"
+    "date": "2026-11-02",
+    "slot": "pre"
    }
   },
   {
@@ -181,7 +173,7 @@
    },
    "date": "2026-11-07",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Sat · 18:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -206,7 +198,7 @@
    },
    "date": "2026-11-07",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Sat · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -230,7 +222,7 @@
    },
    "date": "2026-11-07",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Sat · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -254,12 +246,12 @@
    },
    "date": "2026-11-07",
    "slot": "0800",
-   "when": "8:00",
+   "when": "Sat · 8:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-01",
-    "slot": "outlook"
+    "date": "2026-11-02",
+    "slot": "pre"
    }
   },
   {
@@ -278,7 +270,7 @@
    },
    "date": "2026-11-07",
    "slot": "0800",
-   "when": "8:00",
+   "when": "Sat · 8:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -302,12 +294,12 @@
    },
    "date": "2026-11-07",
    "slot": "0800",
-   "when": "8:00",
+   "when": "Sat · 8:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-01",
-    "slot": "outlook"
+    "date": "2026-11-02",
+    "slot": "0930"
    }
   },
   {
@@ -2443,8 +2435,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-01",
-    "slot": "outlook"
+    "date": "2026-11-02",
+    "slot": "pre"
    }
   },
   {
@@ -2827,11 +2819,11 @@
    "date": "2026-11-02",
    "slot": "1030",
    "when": "Mon · 10:30",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-01",
-    "slot": "outlook"
+    "date": "2026-11-02",
+    "slot": "1030"
    }
   },
   {
@@ -2876,11 +2868,11 @@
    "date": "2026-11-02",
    "slot": "0930",
    "when": "Mon · 9:30",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-01",
-    "slot": "outlook"
+    "date": "2026-11-02",
+    "slot": "0930"
    }
   },
   {
@@ -2930,31 +2922,6 @@
    "first_seen": {
     "date": "2026-11-02",
     "slot": "pre"
-   }
-  },
-  {
-   "key": "noel-tata",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Noel Tata to exit six Tata company boards",
-   "line": "Leaves Trent, Titan, Tata Steel, Voltas and others around Nov 12 on turning 70",
-   "more": [
-    "Bahram Vakil to chair Trent from Nov 12",
-    "Stays on Tata Sons board as Tata Trusts nominee",
-    "Comes amid reported differences with N Chandrasekaran"
-   ],
-   "src": {
-    "title": "Noel Tata to step down from Trent, Voltas, Tata Steel and other boards on November 12 — People Matters",
-    "url": "https://www.peoplematters.in/news/leadership/noel-tata-to-step-down-from-trent-voltas-tata-steel-and-other-boards-on-november-12-53026"
-   },
-   "date": "2026-11-01",
-   "slot": "outlook",
-   "when": "Sun · Outlook",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-01",
-    "slot": "outlook"
    }
   }
  ]
