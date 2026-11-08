@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-08T18:00:40+05:30",
+ "generated_at": "2026-11-08T21:03:09+05:30",
  "date": "2026-11-08",
- "slot": "1800",
- "slot_label": "18:00",
+ "slot": "outlook",
+ "slot_label": "Outlook",
  "stage": "Weekend outlook",
- "asof": "2026-11-08T18:05:00+05:30",
+ "asof": "2026-11-08T21:10:00+05:30",
  "nifty": {
   "value": 24986.4,
   "pct": -0.18,
@@ -13,49 +13,169 @@
   "approx": false,
   "asof_quote": "Muhurat close, Sun 8 Nov"
  },
+ "metrics": {
+  "fii_net_cr": {
+   "value": 13750,
+   "asof": "Fri 6 Nov provisional",
+   "approx": true,
+   "src": {
+    "title": "Multibagg: Foreign institutional investors lead ₹13,802 crore flow shift",
+    "url": "https://www.multibagg.ai/market-pulse/articles/fii-dii-flow-shift-november-cmw55vnkb000h2hp934qli9du"
+   }
+  },
+  "dii_net_cr": {
+   "value": -5969,
+   "asof": "Fri 6 Nov provisional",
+   "approx": true,
+   "src": {
+    "title": "Multibagg: Foreign institutional investors lead ₹13,802 crore flow shift",
+    "url": "https://www.multibagg.ai/market-pulse/articles/fii-dii-flow-shift-november-cmw55vnkb000h2hp934qli9du"
+   }
+  }
+ },
  "mood": {
-  "label": "Cautious into Monday",
-  "score": 0.15,
-  "summary": "A huge pre-Diwali rally meets its first sign of fatigue: early festive buying was sold into, leaving Monday to show whether foreign demand can outlast profit-taking and Gulf risk.",
+  "label": "Cautious start likely",
+  "score": 0.05,
+  "summary": "A short week opens with strong foreign buying still in place, but a stretched market, inflation data in India and the US, and widening Gulf attacks on oil sites argue for a cautious start.",
   "detail": {
-   "leaders": "Metals and pharma, where Tata Steel and Sun Pharma led the early Muhurat gains",
-   "laggards": "Infosys, IndiGo, Trent and L&T, which lagged from the start of the Muhurat session",
-   "tone": "Today's one-hour Muhurat session was a real but thin, ceremonial trade: it opened firmly, then gave back its gains to close slightly lower, ending a long run of Diwali-session gains. The next full session is Monday Nov 9; Tuesday Nov 10 is a holiday.",
+   "leaders": "Large caps foreign investors have been buying, if those flows carry on after Diwali",
+   "laggards": "Oil-importing sectors, if the Saudi attacks push crude back up",
+   "tone": "The Diwali Muhurat hour opened firmly but slipped to a small loss, a first sign of fatigue after the strongest pre-Diwali run in decades. Tonight brought new Gulf risk: Houthi attacks on Saudi Aramco and Riyadh. The next session is Monday Nov 9; markets are shut Tuesday Nov 10 and reopen Wednesday.",
    "watch": [
-    "Whether Monday's full session confirms the Muhurat fade or shrugs it off",
-    "Foreign flows after six straight sessions of heavy buying",
-    "Any Iranian response to the latest US strikes near Hormuz"
+    "How crude reacts when it reopens to the Houthi strikes on Saudi Aramco sites",
+    "India's October CPI on Thursday Nov 12, expected to jump",
+    "US October CPI on Tuesday Nov 10, for its read on a December Fed hike"
    ],
    "src": {
-    "title": "Goodreturns: Diwali Muhurat trading 2026 — Nifty erases 25,000 mark to close 44 pts lower, Sensex ends below 81,000",
-    "url": "https://www.goodreturns.in/news/diwali-muhurat-trading-2026-live-special-trading-session-live-stock-market-live-sensex-nifty-stocks-1545951.html"
+    "title": "Upstox: Week ahead — Muhurat trading, India-US inflation, crude oil prices, FII activity among key triggers",
+    "url": "https://upstox.com/news/market-news/trading/week-ahead-muhurat-trading-india-us-inflation-crude-oil-prices-fi-is-activity-among-key-market-triggers-to-watch/article-203165/"
    }
   }
  },
  "insights": [
   {
+   "key": "gulf-attacks",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Houthis claim strikes on Saudi Aramco, Riyadh",
+   "line": "Saudi ministry confirms an attempted strike on an Aramco building with minor damage",
+   "more": [
+    "Houthis claimed six operations, including Aramco sites in Khurais and Riyadh airport",
+    "Saudi authorities had not confirmed the airport claim",
+    "Adds to supply risk just as oil had fallen sharply last week"
+   ],
+   "src": {
+    "title": "ANI: Saudi Energy Ministry confirms attempted strike on Aramco facility in Riyadh after Houthis claim operations",
+    "url": "https://www.aninews.in/news/world/middle-east/saudi-energy-ministry-confirms-attempted-strike-on-aramco-facility-in-riyadh-after-houthis-claim-operations-against-kingdom20261108151231/"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-08",
+   "slot": "outlook",
+   "when": "Outlook",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-08",
+    "slot": "outlook"
+   }
+  },
+  {
+   "key": "iran-talks",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "US-Iran deal still out of reach",
+   "line": "Trump says a deal 'could happen'; US sets up a task force on Iran's land routes",
+   "more": [
+    "Iran downplayed the new US task force on its ground shipping routes",
+    "Iran's Revolutionary Guard said two tankers hit mines near Hormuz",
+    "Qatar's plan to reopen the strait has not been accepted by either side"
+   ],
+   "src": {
+    "title": "CBS News live updates: Iran downplays new U.S. task force aimed at disrupting ground transport routes",
+    "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-08",
+   "slot": "outlook",
+   "when": "Outlook",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-07",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "india-cpi",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "India's October CPI due Thursday",
+   "line": "Inflation is expected to rise above 6.1%, with food prices above 8%, per Paterson",
+   "more": [
+    "Released on Thursday Nov 12",
+    "US October CPI comes earlier, on Tuesday Nov 10"
+   ],
+   "src": {
+    "title": "Paterson Capital: Nifty triggers for the week — CPI data, crude rebound and Q2 results in focus",
+    "url": "https://patersoncapital.com/nifty-triggers-for-the-week-cpi-data-crude-rebound-and-q2-results-in-focus/"
+   },
+   "thread": "rbi-policy",
+   "date": "2026-11-08",
+   "slot": "outlook",
+   "when": "Outlook",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-08",
+    "slot": "outlook"
+   }
+  },
+  {
    "key": "muhurat-outlook",
    "tag": "Opening",
-   "impact": "neg",
-   "title": "Muhurat session fades to a small loss",
-   "line": "Both indices opened firmly, then gave back the early gain to close slightly lower",
+   "impact": "watch",
+   "title": "Diwali session ends with a small loss",
+   "line": "Indices opened firmly, then gave back the gain, ending a nine-year Muhurat winning run",
    "more": [
-    "The Sensex snapped an eight-session winning streak",
-    "Ends a nine-year run of Diwali-session gains, per Oneindia",
-    "Thin, ceremonial session; not a normal day's trade"
+    "Thin, ceremonial one-hour session",
+    "Comes after the strongest week for Indian equities in about six years"
    ],
    "src": {
     "title": "Goodreturns: Diwali Muhurat trading 2026 — Nifty erases 25,000 mark to close 44 pts lower, Sensex ends below 81,000",
     "url": "https://www.goodreturns.in/news/diwali-muhurat-trading-2026-live-special-trading-session-live-stock-market-live-sensex-nifty-stocks-1545951.html"
    },
    "date": "2026-11-08",
-   "slot": "1800",
-   "when": "18:00",
+   "slot": "outlook",
+   "when": "Outlook",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-08",
     "slot": "1400"
+   }
+  },
+  {
+   "key": "holiday-calendar",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Four-day week: Tuesday is a holiday",
+   "line": "Markets trade Monday Nov 9, close Tuesday Nov 10, and reopen Wednesday Nov 11",
+   "more": [
+    "Holiday for Diwali Balipratipada",
+    "Applies to both NSE and BSE"
+   ],
+   "src": {
+    "title": "BusinessToday: Diwali Muhurat trading 2026 — NSE, BSE timings, Monday market schedule",
+    "url": "https://www.businesstoday.in/markets/stocks/story/diwali-muhurat-trading-2026-nse-bse-timings-monday-market-schedule-what-investors-should-know-566348-2026-11-08"
+   },
+   "date": "2026-11-08",
+   "slot": "outlook",
+   "when": "Outlook",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "1625"
    }
   },
   {
@@ -77,60 +197,10 @@
    "slot": "1800",
    "when": "18:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-08",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "iran-talks",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "US strikes near Hormuz cloud Qatar talks",
-   "line": "Trump called them 'minor'; Iran says the strait stays shut until its terms are met",
-   "more": [
-    "Strikes hit an air-defence site on Qeshm Island, per reports",
-    "Qatar's plan would lift the US blockade and reopen Hormuz; no side has signed on",
-    "No new developments reported on Sunday"
-   ],
-   "src": {
-    "title": "CNBC: Trump says U.S. carried out 'minor strikes' on Iran as missiles hit Qeshm Island",
-    "url": "https://cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-08",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-07",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "holiday-calendar",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Full session Monday; market shut Tuesday",
-   "line": "Monday Nov 9 trades normally; NSE and BSE close Tuesday Nov 10 for Balipratipada",
-   "more": [
-    "Trading resumes Wednesday Nov 11 after the holiday",
-    "Muhurat trades settle as a normal session"
-   ],
-   "src": {
-    "title": "BusinessToday: Diwali Muhurat trading 2026 — NSE, BSE timings, Monday market schedule",
-    "url": "https://www.businesstoday.in/markets/stocks/story/diwali-muhurat-trading-2026-nse-bse-timings-monday-market-schedule-what-investors-should-know-566348-2026-11-08"
-   },
-   "date": "2026-11-08",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1625"
    }
   },
   {
