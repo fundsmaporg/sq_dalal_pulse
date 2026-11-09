@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-09T18:00:27+05:30",
+ "generated_at": "2026-11-09T21:00:37+05:30",
  "date": "2026-11-09",
- "slot": "1800",
- "slot_label": "18:00",
+ "slot": "2100",
+ "slot_label": "21:00",
  "stage": "Evening wrap",
- "asof": "2026-11-09T18:05:00+05:30",
+ "asof": "2026-11-09T21:05:00+05:30",
  "nifty": {
   "value": 25044.65,
   "pct": 0.23,
@@ -13,36 +13,122 @@
   "approx": false
  },
  "metrics": {
-  "brent_usd": {
-   "value": 98.2,
-   "asof": "Nov 9, Indian trading hours",
-   "approx": true,
+  "fii_net_cr": {
+   "value": 7212.22,
+   "asof": "Nov 9 provisional",
+   "approx": false,
    "src": {
-    "title": "HDFCSky: Crude oil trades mixed as Iran peace hopes ease risks (Nov 9)",
-    "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-november-9-2026-brent-slips-to-98-wti-rises-to-91-supply-outlook-in-focus-amid-trump-peace-remarks"
+    "title": "Kotak Neo: FII DII data — today's FII & DII activities on NSE & BSE",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+   }
+  },
+  "dii_net_cr": {
+   "value": -7172.53,
+   "asof": "Nov 9 provisional",
+   "approx": false,
+   "src": {
+    "title": "Kotak Neo: FII DII data — today's FII & DII activities on NSE & BSE",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
    }
   }
  },
  "mood": {
-  "label": "Steady into Wednesday",
-  "score": 0.15,
-  "summary": "The market heads into a one-day holiday on a firm note after banks rescued a volatile session, with softer oil helping but a heavy results day and US inflation data ahead.",
+  "label": "Constructive into Wednesday",
+  "score": 0.35,
+  "summary": "The setup for Wednesday's reopening is supportive: foreign investors kept buying, Wall Street is rallying and oil is sliding, though US inflation data on Tuesday is a hurdle.",
   "detail": {
-   "leaders": "State-run banks and pharma, which led today's late recovery",
-   "laggards": "IT, after a day of profit-taking, and Whirlpool of India after its weak quarter",
-   "tone": "A forward-looking read: today closed modestly higher after a volatile day. Markets are shut on Tuesday, so the next session is Wednesday Nov 11, after US CPI data on Tuesday.",
+   "leaders": "Banks, after today's rally, and oil importers if crude stays lower",
+   "laggards": "IT, after today's profit-taking, and Whirlpool of India after its weak quarter",
+   "tone": "A forward-looking read: the market closed modestly higher today, and the evening has brought firmer global cues. Indian markets are shut on Tuesday, so the next session is Wednesday Nov 11.",
    "watch": [
-    "US October CPI on Tuesday, for its read on a December Fed hike",
-    "Progress in US-Iran talks and its effect on oil",
-    "About 110 Q2 results when trading resumes on Wednesday"
+    "US October CPI on Tuesday, while Indian markets are shut",
+    "Whether oil's slide holds as US-Iran talks continue",
+    "About 110 Q2 results on Wednesday"
    ],
    "src": {
-    "title": "Upstox: Market wrap, Nov 9 — Sensex rises 107 pts, Nifty 50 ends at 25,044 as PSU bank, pharma stocks rally",
-    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-9-sensex-rises-107-pts-nifty-50-ends-at-25-044-as-psu-bank-pharma-stocks-rally-sbi-leads-gains/article-203225/"
+    "title": "JournalArta: Stock Market Today — S&P 500 +1.3%, Nasdaq +1.6% as oil falls (Nov 9)",
+    "url": "https://journalarta.com/en/2026/11/09/stock-market-today-sp-500-rises-1-3-and-nasdaq-1-6-at-the-open-as-oil-slides-and-amd-jumps/"
    }
   }
  },
  "insights": [
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs buy ₹7,212 cr; DIIs sell about as much",
+   "line": "Foreign investors kept buying today while domestic funds booked profits",
+   "more": [
+    "FII gross buys ₹20,311 cr, sales ₹13,099 cr",
+    "DII net selling about ₹7,173 cr; combined flow roughly flat",
+    "FIIs hold a net short index-futures position, per NiftyTrader"
+   ],
+   "src": {
+    "title": "Kotak Neo: FII DII data — today's FII & DII activities on NSE & BSE",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-09",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Wall Street rallies as oil falls",
+   "line": "S&P 500 up about 1.3% and Nasdaq about 1.6% in early trade; Dow up about 640 points",
+   "more": [
+    "AMD jumped about 11%; Nvidia fell on reports about its CEO",
+    "Oil dropped on US-Iran peace hopes",
+    "US October CPI is due on Tuesday"
+   ],
+   "src": {
+    "title": "JournalArta: Stock Market Today — S&P 500 +1.3%, Nasdaq +1.6% as oil falls (Nov 9)",
+    "url": "https://journalarta.com/en/2026/11/09/stock-market-today-sp-500-rises-1-3-and-nasdaq-1-6-at-the-open-as-oil-slides-and-amd-jumps/"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-09",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Oil slides on Iran peace hopes",
+   "line": "Crude fell sharply on Monday as traders bet on a US-Iran deal",
+   "more": [
+    "One report put the drop at about 5%",
+    "Cheaper oil helps India's import bill"
+   ],
+   "src": {
+    "title": "Coinpaper: Stock Market Today — Dow jumps 540 points, S&P 500 rallies as oil crashes 5%",
+    "url": "https://coinpaper.com/38565/stock-market-today-dow-jumps-540-points-s-and-p-500-rallies-as-oil-crashes-5"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-09",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "0700"
+   }
+  },
   {
    "key": "whirlpool-q2",
    "tag": "Results",
@@ -71,7 +157,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1305"
@@ -96,7 +182,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-07",
     "slot": "1400"
@@ -121,7 +207,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-07",
     "slot": "1400"
@@ -395,31 +481,6 @@
    }
   },
   {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Foreign inflows near ₹39,000 cr this month",
-   "line": "FPIs have put about ₹38,971 cr into Indian equities so far in November, per NSDL data",
-   "more": [
-    "Reverses a two-month selling streak",
-    "Upstox ties the shift to a global AI trade reversal"
-   ],
-   "src": {
-    "title": "Upstox: Market wrap, Nov 8 — Nifty 50 ends below 25,000, Sensex snaps 7-day winning streak after Muhurat trading",
-    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-8-nifty-50-ends-below-25-000-sensex-snaps-7-day-winning-streak-after-muhurat-trading/article-203180"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-09",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0700"
-   }
-  },
-  {
    "key": "gift-nifty",
    "tag": "Opening",
    "impact": "watch",
@@ -526,32 +587,6 @@
    }
   },
   {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "S&P 500 ends a rough week slightly higher",
-   "line": "S&P 500 rose about 0.3% on Friday but lost about 2.7% for the week",
-   "more": [
-    "Nasdaq outperformed as chip stocks bounced",
-    "US October jobs beat forecasts: about 165,000 added, unemployment 4.1%",
-    "Strong jobs data raised bets on a Fed hike"
-   ],
-   "src": {
-    "title": "CappNotes: Closing Look — Friday, November 6, 2026",
-    "url": "https://cappnotes.substack.com/p/closing-look-friday-november-6-2026"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-09",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0700"
-   }
-  },
-  {
    "key": "rupee",
    "tag": "Macro",
    "impact": "pos",
@@ -648,32 +683,6 @@
    "first_seen": {
     "date": "2026-11-08",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Brent ends week near $98 after steep fall",
-   "line": "Oil settled at $98.32 on Friday, down about 13% on the week",
-   "more": [
-    "Biggest weekly drop since 2022, on hopes of a US-Iran deal",
-    "Attacks on tankers kept a floor under prices late in the week",
-    "Cheaper crude helps India's import bill and the rupee"
-   ],
-   "src": {
-    "title": "EnergyNow: Oil prices plunge 13% in one week — Brent below $99",
-    "url": "https://energynow.com/2026/11/oil-prices-plunge-13-in-one-week-as-u-s-election-results-raise-hopes-of-iran-peace-deal-wti-closes-below-91-brent-below-99/"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-07",
-   "slot": "2100",
-   "when": "Sat · 21:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0700"
    }
   },
   {
