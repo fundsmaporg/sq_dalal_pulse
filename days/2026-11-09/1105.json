@@ -1,0 +1,160 @@
+{
+ "asof": "2026-11-09T11:08:00+05:30",
+ "summary": "Selling is slowly widening: the market has slipped further with IT still the main drag and most large caps in the red, while PSU banks and pharma hold up.",
+ "mood": {
+  "label": "Selling widens",
+  "score": -0.3,
+  "detail": {
+   "stats": [],
+   "leaders": "PSU banks and pharma",
+   "laggards": "IT heavyweights HCLTech and Infosys, with Nifty IT the weakest sector",
+   "movers": {
+    "up": {
+     "summary": "PSU banks and pharma are the only clear pockets of strength",
+     "why": "State-run banks and drugmakers are attracting buyers while most of the market is sold.",
+     "names": [
+      {
+       "name": "Nifty PSU Bank",
+       "move": "+2.11%",
+       "dir": "up",
+       "line": "The strongest sector gauge in early trade, per HDFCSky"
+      },
+      {
+       "name": "Nifty Pharma",
+       "move": "+0.7% to +2.1%",
+       "dir": "up",
+       "line": "Reports differ on the size of the gain, but pharma stays firmly higher"
+      }
+     ],
+     "src": {
+      "title": "HDFCSky: Sensex, Nifty slip as profit-booking caps recent rally",
+      "url": "https://hdfcsky.com/news/bse-nse-sensex-november-9-2026-open-report-sensex-nifty-slip-in-morning-trade-as-profit-booking-hits-it-stocks-investors-stay-cautious"
+     }
+    },
+    "down": {
+     "summary": "IT heavyweights drive the decline as most large caps slip",
+     "why": "Blue-chip IT is being sold through the morning, and only a minority of Nifty stocks are in the green.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "move": "-1.7%",
+       "dir": "down",
+       "line": "The worst-performing sector this morning"
+      },
+      {
+       "name": "HCLTech",
+       "move": "-1.9%",
+       "dir": "down",
+       "line": "The biggest drag among Nifty 50 stocks"
+      },
+      {
+       "name": "Infosys",
+       "move": "-1.5%",
+       "dir": "down",
+       "line": "Among the top four Sensex losers with HCLTech, TCS and Tech Mahindra"
+      }
+     ],
+     "src": {
+      "title": "HDFCSky: Sensex, Nifty slip as profit-booking caps recent rally",
+      "url": "https://hdfcsky.com/news/bse-nse-sensex-november-9-2026-open-report-sensex-nifty-slip-in-morning-trade-as-profit-booking-hits-it-stocks-investors-stay-cautious"
+     }
+    }
+   },
+   "tone": "A live reading, weaker than the previous note: the dip has deepened steadily through the morning, though volatility remains well below Friday's level.",
+   "watch": [
+    "Whether IT selling eases or pulls the market lower into the afternoon",
+    "Whether PSU banks can keep up their strength",
+    "Any Gulf headline moving oil before Tuesday's holiday"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex down 300 pts, Nifty below 24,900; VIX drops 9%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 24888.15,
+  "pct": -0.39,
+  "chg": -98.25,
+  "approx": false,
+  "asof_quote": "11:00"
+ },
+ "metrics": {
+  "india_vix": {
+   "value": 16.77,
+   "asof": "11:00",
+   "approx": false,
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex down 300 pts, Nifty below 24,900; VIX drops 9%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   }
+  }
+ },
+ "top": [
+  {
+   "key": "it-stocks",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "IT selling deepens through the morning",
+   "line": "HCLTech, Tech Mahindra, Infosys and TCS are the top four Sensex losers",
+   "more": [
+    "HCLTech fell about 1.9% to ₹1,415.20 in early trade",
+    "Only about 15 of 50 Nifty stocks were in the green early on, per HDFCSky"
+   ],
+   "thread": "it-sector",
+   "src": {
+    "title": "HDFCSky: Sensex, Nifty slip as profit-booking caps recent rally",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-9-2026-open-report-sensex-nifty-slip-in-morning-trade-as-profit-booking-hits-it-stocks-investors-stay-cautious"
+   }
+  },
+  {
+   "key": "psu-banks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PSU banks buck the selloff",
+   "line": "The PSU bank index rose about 2% as most other sectors fell",
+   "more": [
+    "Banks have led Sensex gainers since the open",
+    "Pharma is the other sector holding gains"
+   ],
+   "src": {
+    "title": "HDFCSky: Sensex, Nifty slip as profit-booking caps recent rally",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-9-2026-open-report-sensex-nifty-slip-in-morning-trade-as-profit-booking-hits-it-stocks-investors-stay-cautious"
+   }
+  },
+  {
+   "key": "volatility",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Volatility still low despite the dip",
+   "line": "India VIX was 16.77 at 11 am, down 9% from Friday's 18.43",
+   "more": [
+    "The fall in VIX came even as the market slipped",
+    "Traders are weighing US-Iran talks, per Business Standard"
+   ],
+   "thread": "volatility",
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex down 300 pts, Nifty below 24,900; VIX drops 9%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Business Standard: Stock Market LIVE — Sensex down 300 pts, Nifty below 24,900; VIX drops 9%",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+  },
+  {
+   "title": "HDFCSky: Sensex, Nifty slip as profit-booking caps recent rally",
+   "url": "https://hdfcsky.com/news/bse-nse-sensex-november-9-2026-open-report-sensex-nifty-slip-in-morning-trade-as-profit-booking-hits-it-stocks-investors-stay-cautious"
+  },
+  {
+   "title": "Zee Business: Stock Market Today — Sensex, Nifty trade lower; IT stocks drag, banking shares offer support",
+   "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-nifty-trade-lower-it-stocks-drag-banking-shares-offer-support-405303"
+  },
+  {
+   "title": "ETV Bharat: Sensex, Nifty decline amid selling in blue-chip IT firms",
+   "url": "https://www.etvbharat.com/en/business/stock-market-on-november-9-2026-sensex-nifty50-crude-oil-prices-us-iran-enn26110900927"
+  }
+ ]
+}

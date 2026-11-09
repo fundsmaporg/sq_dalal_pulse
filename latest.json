@@ -1,93 +1,95 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-09T10:37:02+05:30",
+ "generated_at": "2026-11-09T11:06:13+05:30",
  "date": "2026-11-09",
- "slot": "1035",
- "slot_label": "10:35",
+ "slot": "1105",
+ "slot_label": "11:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-09T10:38:00+05:30",
+ "asof": "2026-11-09T11:08:00+05:30",
+ "nifty": {
+  "value": 24888.15,
+  "pct": -0.39,
+  "chg": -98.25,
+  "approx": false,
+  "asof_quote": "11:00"
+ },
  "metrics": {
   "india_vix": {
    "value": 16.77,
-   "asof": "10:00",
+   "asof": "11:00",
    "approx": false,
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; VIX drops 9%",
+    "title": "Business Standard: Stock Market LIVE — Sensex down 300 pts, Nifty below 24,900; VIX drops 9%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
    }
   }
  },
  "mood": {
-  "label": "IT drags, banks steady",
-  "score": -0.2,
-  "summary": "Mildly lower and broad-based: IT selling leads the decline, midcaps and smallcaps trail the large caps, while banks and pharma limit the damage and volatility eases.",
+  "label": "Selling widens",
+  "score": -0.3,
+  "summary": "Selling is slowly widening: the market has slipped further with IT still the main drag and most large caps in the red, while PSU banks and pharma hold up.",
   "detail": {
-   "leaders": "Pharma and bank stocks",
-   "laggards": "IT, led by HCLTech and Infosys, plus realty and smallcaps",
-   "tone": "A live read on market behaviour rather than a fresh print: similar to the previous note, with the market holding a small loss in a narrow range. Volatility has eased sharply despite the dip.",
+   "leaders": "PSU banks and pharma",
+   "laggards": "IT heavyweights HCLTech and Infosys, with Nifty IT the weakest sector",
+   "tone": "A live reading, weaker than the previous note: the dip has deepened steadily through the morning, though volatility remains well below Friday's level.",
    "watch": [
-    "Whether IT selling spreads or stabilises",
-    "Whether banks keep supporting the market into the afternoon",
-    "Any Gulf headline moving crude before Tuesday's holiday"
+    "Whether IT selling eases or pulls the market lower into the afternoon",
+    "Whether PSU banks can keep up their strength",
+    "Any Gulf headline moving oil before Tuesday's holiday"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; VIX drops 9%",
+    "title": "Business Standard: Stock Market LIVE — Sensex down 300 pts, Nifty below 24,900; VIX drops 9%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Pharma and banks are the market's support this morning",
-     "why": "Pharma is the strongest sector and bank stocks lead the Sensex gainers, offsetting part of the IT selling.",
+     "summary": "PSU banks and pharma are the only clear pockets of strength",
+     "why": "State-run banks and drugmakers are attracting buyers while most of the market is sold.",
      "names": [
+      {
+       "name": "Nifty PSU Bank",
+       "dir": "up",
+       "move": "+2.11%",
+       "line": "The strongest sector gauge in early trade, per HDFCSky"
+      },
       {
        "name": "Nifty Pharma",
        "dir": "up",
-       "move": "+0.69%",
-       "line": "Among the few sectors in the green, per Zee Business"
-      },
-      {
-       "name": "Bank stocks",
-       "dir": "up",
-       "line": "Led the Sensex gainers and are offering support, per Business Standard"
+       "move": "+0.7% to +2.1%",
+       "line": "Reports differ on the size of the gain, but pharma stays firmly higher"
       }
      ],
      "src": {
-      "title": "Zee Business: Stock Market Today — Sensex, Nifty trade lower; IT stocks drag, banking shares offer support",
-      "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-nifty-trade-lower-it-stocks-drag-banking-shares-offer-support-405303"
+      "title": "HDFCSky: Sensex, Nifty slip as profit-booking caps recent rally",
+      "url": "https://hdfcsky.com/news/bse-nse-sensex-november-9-2026-open-report-sensex-nifty-slip-in-morning-trade-as-profit-booking-hits-it-stocks-investors-stay-cautious"
      }
     },
     "down": {
-     "summary": "IT leads the fall, with realty and smallcaps also weak",
-     "why": "Blue-chip IT names are being sold most heavily, and the selling extends to realty and the smaller-cap indices.",
+     "summary": "IT heavyweights drive the decline as most large caps slip",
+     "why": "Blue-chip IT is being sold through the morning, and only a minority of Nifty stocks are in the green.",
      "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "down",
+       "move": "-1.7%",
+       "line": "The worst-performing sector this morning"
+      },
       {
        "name": "HCLTech",
        "dir": "down",
-       "move": "-2.08%",
-       "line": "The biggest laggard in the Nifty 50 this morning"
+       "move": "-1.9%",
+       "line": "The biggest drag among Nifty 50 stocks"
       },
       {
        "name": "Infosys",
        "dir": "down",
-       "move": "-1.46%",
-       "line": "Weighs on the index; one later snapshot had it down about 2.8%"
-      },
-      {
-       "name": "Nifty IT",
-       "dir": "down",
-       "move": "-1.47%",
-       "line": "The weakest major sector as blue-chip IT is sold"
-      },
-      {
-       "name": "Nifty Smallcap 100",
-       "dir": "down",
-       "move": "-0.64%",
-       "line": "Underperforms the large caps, per Business Standard's 10 am update"
+       "move": "-1.5%",
+       "line": "Among the top four Sensex losers with HCLTech, TCS and Tech Mahindra"
       }
      ],
      "src": {
-      "title": "Zee Business: Stock Market Today — Sensex, Nifty trade lower; IT stocks drag, banking shares offer support",
-      "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-nifty-trade-lower-it-stocks-drag-banking-shares-offer-support-405303"
+      "title": "HDFCSky: Sensex, Nifty slip as profit-booking caps recent rally",
+      "url": "https://hdfcsky.com/news/bse-nse-sensex-november-9-2026-open-report-sensex-nifty-slip-in-morning-trade-as-profit-booking-hits-it-stocks-investors-stay-cautious"
      }
     }
    }
@@ -98,21 +100,20 @@
    "key": "it-stocks",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "Blue-chip IT leads the selling",
-   "line": "HCLTech fell about 2% and Infosys about 1.5%, the heaviest drags on the index",
+   "title": "IT selling deepens through the morning",
+   "line": "HCLTech, Tech Mahindra, Infosys and TCS are the top four Sensex losers",
    "more": [
-    "HCLTech is the biggest Nifty 50 laggard",
-    "Bharti Airtel is also among the top losers",
-    "Follows weakness in global tech stocks last week"
+    "HCLTech fell about 1.9% to ₹1,415.20 in early trade",
+    "Only about 15 of 50 Nifty stocks were in the green early on, per HDFCSky"
    ],
    "src": {
-    "title": "Zee Business: Stock Market Today — Sensex, Nifty trade lower; IT stocks drag, banking shares offer support",
-    "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-nifty-trade-lower-it-stocks-drag-banking-shares-offer-support-405303"
+    "title": "HDFCSky: Sensex, Nifty slip as profit-booking caps recent rally",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-9-2026-open-report-sensex-nifty-slip-in-morning-trade-as-profit-booking-hits-it-stocks-investors-stay-cautious"
    },
    "thread": "it-sector",
    "date": "2026-11-09",
-   "slot": "1035",
-   "when": "10:35",
+   "slot": "1105",
+   "when": "11:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -121,24 +122,48 @@
    }
   },
   {
-   "key": "volatility",
-   "tag": "Macro",
+   "key": "psu-banks",
+   "tag": "Stocks",
    "impact": "pos",
-   "title": "India VIX falls 9% to 16.77",
-   "line": "The volatility index eased sharply at 10 am even as stocks dipped",
+   "title": "PSU banks buck the selloff",
+   "line": "The PSU bank index rose about 2% as most other sectors fell",
    "more": [
-    "The reading is from Business Standard's 10 am update",
-    "Comes after a sharp pre-Diwali rally and Sunday's Muhurat fade"
+    "Banks have led Sensex gainers since the open",
+    "Pharma is the other sector holding gains"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; VIX drops 9%",
+    "title": "HDFCSky: Sensex, Nifty slip as profit-booking caps recent rally",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-9-2026-open-report-sensex-nifty-slip-in-morning-trade-as-profit-booking-hits-it-stocks-investors-stay-cautious"
+   },
+   "date": "2026-11-09",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "volatility",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Volatility still low despite the dip",
+   "line": "India VIX was 16.77 at 11 am, down 9% from Friday's 18.43",
+   "more": [
+    "The fall in VIX came even as the market slipped",
+    "Traders are weighing US-Iran talks, per Business Standard"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex down 300 pts, Nifty below 24,900; VIX drops 9%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
    },
    "thread": "volatility",
    "date": "2026-11-09",
-   "slot": "1035",
-   "when": "10:35",
-   "updated": false,
+   "slot": "1105",
+   "when": "11:05",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-09",
@@ -163,7 +188,7 @@
    "slot": "1035",
    "when": "10:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1035"
