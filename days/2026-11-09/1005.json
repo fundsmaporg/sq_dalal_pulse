@@ -1,0 +1,150 @@
+{
+ "asof": "2026-11-09T10:08:00+05:30",
+ "summary": "The market is drifting slightly lower in a narrow range, with IT heavyweights leading the losses while pharma provides some support.",
+ "mood": {
+  "label": "Mild drift lower",
+  "score": -0.15,
+  "detail": {
+   "stats": [],
+   "leaders": "Pharma, led by Divi's Labs at a 52-week high",
+   "laggards": "IT heavyweights HCLTech, Infosys and TCS, plus Bharti Airtel",
+   "movers": {
+    "up": {
+     "summary": "Pharma is the main support, with Divi's Labs at a 52-week high",
+     "why": "Pharma stocks are holding up while most large caps drift, giving the market some defensive support.",
+     "names": [
+      {
+       "name": "Divi's Labs",
+       "dir": "up",
+       "line": "Hit a 52-week high this morning"
+      },
+      {
+       "name": "Nifty Pharma",
+       "move": "+0.93%",
+       "dir": "up",
+       "line": "The strongest sector in early trade, per Trade Brains' live blog"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; Divi's Labs shares hit 52-week high",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+     }
+    },
+    "down": {
+     "summary": "IT heavyweights and Bharti Airtel lead the losers",
+     "why": "Large IT names are the biggest drag, extending the weakness in tech seen in global markets last week.",
+     "names": [
+      {
+       "name": "HCLTech",
+       "dir": "down",
+       "line": "Among the top Nifty 50 losers this morning"
+      },
+      {
+       "name": "Infosys",
+       "dir": "down",
+       "line": "Among the top Sensex losers as IT stays weak"
+      },
+      {
+       "name": "TCS",
+       "dir": "down",
+       "line": "Among the four IT names topping Sensex losers early"
+      },
+      {
+       "name": "Bharti Airtel",
+       "dir": "down",
+       "line": "Among the top Nifty 50 losers this morning"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; Divi's Labs shares hit 52-week high",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+     }
+    }
+   },
+   "tone": "A live reading: weaker than the previous note, with the market slipping into a narrow, slightly negative range as traders weigh the US-Iran situation. IT is the clear drag.",
+   "watch": [
+    "Whether IT selling deepens or stabilises",
+    "Whether metals pick up after strong Hindalco and Tata Steel results",
+    "Any Gulf headline moving crude before Tuesday's holiday"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; Divi's Labs shares hit 52-week high",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 24950,
+  "pct": -0.15,
+  "chg": -36,
+  "approx": true,
+  "asof_quote": "~10:00"
+ },
+ "top": [
+  {
+   "key": "it-stocks",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "IT majors top the losers' list",
+   "line": "HCLTech, Tech Mahindra, Infosys and TCS were the top four Sensex losers early",
+   "more": [
+    "Bharti Airtel also among the top Nifty 50 losers",
+    "Follows last week's global tech selloff"
+   ],
+   "thread": "it-sector",
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; Divi's Labs shares hit 52-week high",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   }
+  },
+  {
+   "key": "divis-high",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Divi's Labs hits a 52-week high",
+   "line": "Pharma is the strongest sector this morning as the broader market drifts",
+   "more": [
+    "Nifty Pharma was up about 0.9% in early trade, per Trade Brains",
+    "Realty was the weakest sector early, down about 0.9%"
+   ],
+   "src": {
+    "title": "Trade Brains: Sensex & Nifty 50 live updates, 9 November",
+    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-9-november-gift-nifty-signals-positive-start-q2-earnings-and-fii-flows-in-focus-12794917"
+   }
+  },
+  {
+   "key": "results-week",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Results due today: Whirlpool, Olectra",
+   "line": "Thirteen companies report today; HAL and Eicher Motors report later this week",
+   "more": [
+    "About 110 companies report on Wednesday Nov 11",
+    "Markets are shut on Tuesday Nov 10"
+   ],
+   "thread": "q2-results-2026",
+   "src": {
+    "title": "Upstox: Upcoming Q2 FY27 results this week — Tata Motors PV, Vi, HAL, Eicher Motors, Ashok Leyland and more",
+    "url": "https://upstox.com/news/market-news/earnings/upcoming-q2-fy-27-results-this-week-tata-motors-pv-vi-hal-eicher-motors-ashok-leyland-and-more-check-full-list/article-203166/"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; Divi's Labs shares hit 52-week high",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+  },
+  {
+   "title": "Trade Brains: Sensex & Nifty 50 live updates, 9 November",
+   "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-9-november-gift-nifty-signals-positive-start-q2-earnings-and-fii-flows-in-focus-12794917"
+  },
+  {
+   "title": "HDFCSky: Hindalco Q2 profit jumps 58.8% to ₹7,533 crore",
+   "url": "https://hdfcsky.com/news/hindalco-q2-profit-rises-59-pc-to-rs-7533-cr"
+  },
+  {
+   "title": "Upstox: Upcoming Q2 FY27 results this week — Tata Motors PV, Vi, HAL, Eicher Motors, Ashok Leyland and more",
+   "url": "https://upstox.com/news/market-news/earnings/upcoming-q2-fy-27-results-this-week-tata-motors-pv-vi-hal-eicher-motors-ashok-leyland-and-more-check-full-list/article-203166/"
+  }
+ ]
+}
