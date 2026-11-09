@@ -1,77 +1,79 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-09T14:08:46+05:30",
+ "generated_at": "2026-11-09T14:37:09+05:30",
  "date": "2026-11-09",
- "slot": "1405",
- "slot_label": "14:05",
+ "slot": "1435",
+ "slot_label": "14:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-09T14:10:00+05:30",
+ "asof": "2026-11-09T14:40:00+05:30",
+ "nifty": {
+  "value": 24945.55,
+  "pct": -0.22,
+  "chg": -54.8,
+  "approx": true,
+  "asof_quote": "14:00"
+ },
  "mood": {
-  "label": "Choppy, slightly lower",
-  "score": -0.2,
-  "summary": "The market is choppy and slightly lower into the final hour and a half, with IT still the heaviest weight and pharma, media and state-run banks holding up.",
+  "label": "Off the lows",
+  "score": -0.1,
+  "summary": "The market is recovering from its afternoon lows as banks strengthen, leaving the benchmarks only modestly lower with IT still the clear drag.",
   "detail": {
-   "leaders": "Pharma, media and PSU banks",
-   "laggards": "IT, led by HCLTech and Infosys",
-   "tone": "A live read on market behaviour rather than a fresh print: the latest headline suggests the Sensex has trimmed part of its loss from the afternoon low, though IT is still down sharply. Choppier than the previous note, without a clear trend.",
+   "leaders": "Banks, led by state-run lenders, plus pharma",
+   "laggards": "IT, still the weakest sector",
+   "tone": "A live reading, firmer than the previous note: the market has climbed off its afternoon lows as banks pick up, though it is still slightly in the red.",
    "watch": [
-    "Whether the market closes near its lows or recovers into the bell",
-    "Whether IT selling eases before the holiday",
-    "Whirlpool of India and Olectra results later today"
+    "Whether banks can lift the market back to the flat line by the close",
+    "Whether IT selling eases in the final hour",
+    "Position-squaring ahead of Tuesday's holiday"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex falls 100 pts, Nifty below 24,900; Nifty IT down 2%",
+    "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty near 24,900; Nifty Bank rises 1%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Pharma, media and state-run banks are holding their gains",
-     "why": "These three pockets have drawn steady buying through the session while most sectors drift lower.",
+     "summary": "Banks lead the afternoon recovery",
+     "why": "Bank stocks have strengthened in the afternoon, building on the morning rally in state-run lenders.",
      "names": [
       {
-       "name": "Nifty Pharma",
+       "name": "Nifty Bank",
        "dir": "up",
-       "line": "Gaining on buying in drug stocks, per Trade Brains"
-      },
-      {
-       "name": "Nifty Media",
-       "dir": "up",
-       "line": "One of the few sectors in the green this afternoon"
+       "move": "+1%",
+       "line": "Rose about 1% in the afternoon, helping the market off its lows"
       },
       {
        "name": "Nifty PSU Bank",
        "dir": "up",
-       "line": "SBI, PNB and Canara were among state lenders up about 3% earlier"
+       "line": "SBI, PNB and Canara led a broad state-lender rally earlier"
+      },
+      {
+       "name": "Nifty Pharma",
+       "dir": "up",
+       "line": "Has held gains through the session, per Trade Brains"
       }
      ],
      "src": {
-      "title": "Trade Brains: Sensex & Nifty 50 live updates, 9 November",
-      "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-9-november-gift-nifty-signals-positive-start-q2-earnings-and-fii-flows-in-focus-12794917"
+      "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty near 24,900; Nifty Bank rises 1%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
      }
     },
     "down": {
-     "summary": "IT remains the day's heaviest drag",
-     "why": "Profit-taking in IT after a sharp month-long rally has continued all session.",
+     "summary": "IT is still the main weight on the benchmarks",
+     "why": "Profit-taking in IT after a strong month continues to cap the recovery.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "move": "about -2%",
-       "line": "The weakest sector, per Business Standard's afternoon headline"
+       "line": "IT shares are still weighing on the index, per Business Standard"
       },
       {
        "name": "HCLTech",
        "dir": "down",
        "line": "The biggest Nifty 50 drag through the session"
-      },
-      {
-       "name": "Infosys",
-       "dir": "down",
-       "line": "Among the top Sensex losers with TCS and Tech Mahindra"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex falls 100 pts, Nifty below 24,900; Nifty IT down 2%",
+      "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty near 24,900; Nifty Bank rises 1%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
      }
     }
@@ -80,28 +82,77 @@
  },
  "insights": [
   {
+   "key": "banks-rebound",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Banks pull the market off its lows",
+   "line": "Bank stocks rose in the afternoon, extending the morning's state-lender rally",
+   "more": [
+    "SBI, PNB and Canara Bank were among state lenders up about 3% earlier",
+    "Banks have led Sensex gainers since the open"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty near 24,900; Nifty Bank rises 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   },
+   "date": "2026-11-09",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "1435"
+   }
+  },
+  {
    "key": "it-stocks",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "IT stays deep in the red",
-   "line": "IT is the weakest sector into the afternoon as profit-taking continues",
+   "title": "IT still caps the recovery",
+   "line": "IT shares remain the main drag as the market recovers elsewhere",
    "more": [
-    "HCLTech, Infosys, TCS and Tech Mahindra are the main drags",
-    "Follows a sharp month-long rally in IT stocks"
+    "HCLTech, Infosys, TCS and Tech Mahindra have led losses all day",
+    "Profit-taking follows a sharp month-long IT rally"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex falls 100 pts, Nifty below 24,900; Nifty IT down 2%",
+    "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty near 24,900; Nifty Bank rises 1%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
    },
    "thread": "it-sector",
    "date": "2026-11-09",
-   "slot": "1405",
-   "when": "14:05",
+   "slot": "1435",
+   "when": "14:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1005"
+   }
+  },
+  {
+   "key": "results-week",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Whirlpool, Olectra results due today",
+   "line": "Both report Q2 FY27 numbers today; about 110 companies report Wednesday",
+   "more": [
+    "Markets are shut on Tuesday Nov 10",
+    "HAL and Eicher Motors report later in the week"
+   ],
+   "src": {
+    "title": "Upstox: Upcoming Q2 FY27 results this week",
+    "url": "https://upstox.com/news/market-news/earnings/upcoming-q2-fy-27-results-this-week-tata-motors-pv-vi-hal-eicher-motors-ashok-leyland-and-more-check-full-list/article-203166/"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-09",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-07",
+    "slot": "1400"
    }
   },
   {
@@ -122,35 +173,10 @@
    "slot": "1405",
    "when": "14:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0955"
-   }
-  },
-  {
-   "key": "results-week",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Short week: holiday Tuesday, results Wednesday",
-   "line": "About 110 companies report on Nov 11 when markets reopen after the holiday",
-   "more": [
-    "Tata Power and Garden Reach Shipbuilders report on Nov 11",
-    "HAL and Eicher Motors report later in the week"
-   ],
-   "src": {
-    "title": "Upstox: Upcoming Q2 FY27 results this week",
-    "url": "https://upstox.com/news/market-news/earnings/upcoming-q2-fy-27-results-this-week-tata-motors-pv-vi-hal-eicher-motors-ashok-leyland-and-more-check-full-list/article-203166/"
-   },
-   "thread": "q2-results-2026",
-   "date": "2026-11-09",
-   "slot": "1405",
-   "when": "14:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-07",
-    "slot": "1400"
    }
   },
   {
