@@ -1,70 +1,58 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-09T14:37:09+05:30",
+ "generated_at": "2026-11-09T15:06:54+05:30",
  "date": "2026-11-09",
- "slot": "1435",
- "slot_label": "14:35",
- "stage": "Mid-market mood",
- "asof": "2026-11-09T14:40:00+05:30",
- "nifty": {
-  "value": 24945.55,
-  "pct": -0.22,
-  "chg": -54.8,
-  "approx": true,
-  "asof_quote": "14:00"
- },
+ "slot": "1505",
+ "slot_label": "15:05",
+ "stage": "Closing mood",
+ "asof": "2026-11-09T15:08:00+05:30",
  "mood": {
-  "label": "Off the lows",
+  "label": "Steady into close",
   "score": -0.1,
-  "summary": "The market is recovering from its afternoon lows as banks strengthen, leaving the benchmarks only modestly lower with IT still the clear drag.",
+  "summary": "Into the final half-hour the market sits a little below the flat line, with bank buying offsetting most of the IT selling ahead of Tuesday's holiday.",
   "detail": {
-   "leaders": "Banks, led by state-run lenders, plus pharma",
-   "laggards": "IT, still the weakest sector",
-   "tone": "A live reading, firmer than the previous note: the market has climbed off its afternoon lows as banks pick up, though it is still slightly in the red.",
+   "leaders": "Banks and pharma",
+   "laggards": "IT",
+   "tone": "A live read on market behaviour rather than a fresh print: much as in the previous note, the market is holding above its afternoon lows with a small loss, and no new trigger has emerged.",
    "watch": [
-    "Whether banks can lift the market back to the flat line by the close",
-    "Whether IT selling eases in the final hour",
-    "Position-squaring ahead of Tuesday's holiday"
+    "Whether the market closes near the flat line or slips in the final minutes",
+    "Position-squaring before Tuesday's holiday",
+    "Whirlpool of India and Olectra results later today"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty near 24,900; Nifty Bank rises 1%",
+    "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty above 24,900; Nifty Bank rises 1%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Banks lead the afternoon recovery",
-     "why": "Bank stocks have strengthened in the afternoon, building on the morning rally in state-run lenders.",
+     "summary": "Banks and pharma keep the market close to flat",
+     "why": "Bank stocks have firmed through the afternoon after a morning rally in state-run lenders, and pharma has held gains all day.",
      "names": [
       {
        "name": "Nifty Bank",
        "dir": "up",
        "move": "+1%",
-       "line": "Rose about 1% in the afternoon, helping the market off its lows"
-      },
-      {
-       "name": "Nifty PSU Bank",
-       "dir": "up",
-       "line": "SBI, PNB and Canara led a broad state-lender rally earlier"
+       "line": "Up about 1% in the afternoon, per Business Standard"
       },
       {
        "name": "Nifty Pharma",
        "dir": "up",
-       "line": "Has held gains through the session, per Trade Brains"
+       "line": "Has held gains through the session"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty near 24,900; Nifty Bank rises 1%",
+      "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty above 24,900; Nifty Bank rises 1%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
      }
     },
     "down": {
-     "summary": "IT is still the main weight on the benchmarks",
-     "why": "Profit-taking in IT after a strong month continues to cap the recovery.",
+     "summary": "IT is still the day's heaviest drag",
+     "why": "Profit-taking in IT after a strong month has weighed on the benchmarks all session.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "IT shares are still weighing on the index, per Business Standard"
+       "line": "The weakest sector of the day"
       },
       {
        "name": "HCLTech",
@@ -73,7 +61,7 @@
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty near 24,900; Nifty Bank rises 1%",
+      "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty above 24,900; Nifty Bank rises 1%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
      }
     }
@@ -85,20 +73,20 @@
    "key": "banks-rebound",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "Banks pull the market off its lows",
-   "line": "Bank stocks rose in the afternoon, extending the morning's state-lender rally",
+   "title": "Banks hold the market above its lows",
+   "line": "Bank stocks are firm into the last half-hour after a morning rally in state lenders",
    "more": [
     "SBI, PNB and Canara Bank were among state lenders up about 3% earlier",
-    "Banks have led Sensex gainers since the open"
+    "Pharma and media have also gained"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty near 24,900; Nifty Bank rises 1%",
+    "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty above 24,900; Nifty Bank rises 1%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
    },
    "date": "2026-11-09",
-   "slot": "1435",
-   "when": "14:35",
-   "updated": false,
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-09",
@@ -109,25 +97,49 @@
    "key": "it-stocks",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "IT still caps the recovery",
-   "line": "IT shares remain the main drag as the market recovers elsewhere",
+   "title": "IT set to end as the day's weakest sector",
+   "line": "IT profit-taking has weighed on the market from the open",
    "more": [
-    "HCLTech, Infosys, TCS and Tech Mahindra have led losses all day",
-    "Profit-taking follows a sharp month-long IT rally"
+    "HCLTech, Infosys, TCS and Tech Mahindra led the losses",
+    "Follows a sharp month-long IT rally"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty near 24,900; Nifty Bank rises 1%",
+    "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty above 24,900; Nifty Bank rises 1%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
    },
    "thread": "it-sector",
    "date": "2026-11-09",
-   "slot": "1435",
-   "when": "14:35",
+   "slot": "1505",
+   "when": "15:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1005"
+   }
+  },
+  {
+   "key": "holiday-calendar",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Market shut Tuesday; trading resumes Wednesday",
+   "line": "NSE and BSE are closed on Tuesday Nov 10; about 110 firms report results on Wednesday",
+   "more": [
+    "Holiday for Diwali Balipratipada",
+    "Tata Power and Garden Reach Shipbuilders report on Nov 11"
+   ],
+   "src": {
+    "title": "Upstox: Upcoming Q2 FY27 results this week",
+    "url": "https://upstox.com/news/market-news/earnings/upcoming-q2-fy-27-results-this-week-tata-motors-pv-vi-hal-eicher-motors-ashok-leyland-and-more-check-full-list/article-203166/"
+   },
+   "date": "2026-11-09",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "1625"
    }
   },
   {
@@ -149,7 +161,7 @@
    "slot": "1435",
    "when": "14:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-07",
     "slot": "1400"
@@ -605,30 +617,6 @@
    "first_seen": {
     "date": "2026-11-08",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "holiday-calendar",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Four-day week: Tuesday is a holiday",
-   "line": "Markets trade Monday Nov 9, close Tuesday Nov 10, and reopen Wednesday Nov 11",
-   "more": [
-    "Holiday for Diwali Balipratipada",
-    "Applies to both NSE and BSE"
-   ],
-   "src": {
-    "title": "BusinessToday: Diwali Muhurat trading 2026 — NSE, BSE timings, Monday market schedule",
-    "url": "https://www.businesstoday.in/markets/stocks/story/diwali-muhurat-trading-2026-nse-bse-timings-monday-market-schedule-what-investors-should-know-566348-2026-11-08"
-   },
-   "date": "2026-11-08",
-   "slot": "outlook",
-   "when": "Sun · Outlook",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1625"
    }
   },
   {
