@@ -1,37 +1,150 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-09T08:46:20+05:30",
+ "generated_at": "2026-11-09T09:26:24+05:30",
  "date": "2026-11-09",
- "slot": "0845",
- "slot_label": "8:45",
- "stage": "Pre-market mood",
- "asof": "2026-11-09T08:50:00+05:30",
+ "slot": "0925",
+ "slot_label": "9:25",
+ "stage": "Opening mood",
+ "asof": "2026-11-09T09:30:00+05:30",
  "nifty": {
-  "value": 24986.4,
-  "pct": -0.18,
-  "chg": -43.95,
-  "approx": false
+  "value": 24999.4,
+  "pct": 0.05,
+  "chg": 13,
+  "approx": true,
+  "asof_quote": "09:16"
  },
  "mood": {
-  "label": "Flat to firm open",
-  "score": 0.2,
-  "summary": "A flat-to-firm start is in prospect as Asia rebounds and metals carry strong results, but fresh Gulf supply risk and a tired rally into a holiday keep buyers selective.",
+  "label": "Hesitant open",
+  "score": 0.0,
+  "summary": "A hesitant open: early pre-open strength faded quickly and the market is hovering around the flat line, with banks holding up while IT and realty drag.",
   "detail": {
-   "leaders": "Metals, after strong Q2 numbers from Hindalco and Tata Steel and Nuvama upgrades",
-   "laggards": "Tech-linked names after last week's AI-driven selloff abroad, and oil users if Gulf risk lifts crude",
-   "tone": "A forward-looking read before the open: GIFT Nifty points to a flat-to-slightly-higher start after Sunday's Muhurat hour gave back its gains. Today is the only session before Tuesday's holiday.",
+   "leaders": "Bank stocks, which led the Sensex gainers early",
+   "laggards": "IT and realty shares, which weighed on the index early",
+   "tone": "A live reading of the first minutes: the market opened near the flat line, gave up its pre-open strength and slipped back below a round number, with no clear direction yet. It is pausing after Sunday's Muhurat fade and a sharp pre-Diwali rally.",
    "watch": [
-    "Whether metals lead after the Hindalco and Tata Steel results",
-    "Brent's move on reports of attacks on Saudi energy sites",
-    "Whether foreign buying resumes after the Diwali break"
+    "Whether banks can hold the market up as IT stays weak",
+    "How metals trade after strong Hindalco and Tata Steel results",
+    "Brent's direction after weekend attacks on Saudi energy sites"
    ],
    "src": {
-    "title": "Upstox: GIFT NIFTY futures hint positive opening on November 9",
-    "url": "https://upstox.com/news/market-news/stocks/gift-nifty-futures-hint-positive-opening-on-november-9-what-investors-should-know-before-stock-market-opens/article-203187/"
+    "title": "Business Standard: Stock Market LIVE — Sensex off high, Nifty below 25,000; IT, realty shares weigh",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   },
+   "movers": {
+    "up": {
+     "summary": "Banks lead the early gainers as the market takes a breather",
+     "why": "Bank stocks were the main support in the first minutes of trade while the rest of the market paused after its sharp rally.",
+     "names": [
+      {
+       "name": "Nifty Bank",
+       "dir": "up",
+       "line": "Bank stocks led Sensex gainers in opening trade, per Business Standard"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market LIVE — Sensex off high, Nifty below 25,000; IT, realty shares weigh",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+     }
+    },
+    "down": {
+     "summary": "IT and realty weigh on the indices in early trade",
+     "why": "Technology and property shares were the main drag as the market gave up its pre-open gains.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "down",
+       "line": "Weighed early after last week's global tech selloff"
+      },
+      {
+       "name": "Nifty Realty",
+       "dir": "down",
+       "line": "Named among the sectors dragging the index in early trade"
+      }
+     ],
+     "src": {
+      "title": "Business Standard: Stock Market LIVE — Sensex off high, Nifty below 25,000; IT, realty shares weigh",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+     }
+    }
    }
   }
  },
  "insights": [
+  {
+   "key": "opening-bell",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Markets open flat as rally pauses",
+   "line": "Indices opened near flat after strong pre-open trade; banks led, IT and realty lagged",
+   "more": [
+    "Pre-open indications were firmly higher",
+    "The market is taking a breather after a sharp pre-Diwali rally",
+    "Sunday's Muhurat session snapped a seven-session winning run"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex off high, Nifty below 25,000; IT, realty shares weigh",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   },
+   "date": "2026-11-09",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "hindalco-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Hindalco in focus after 59% profit jump",
+   "line": "Q2 profit rose to ₹7,533 cr; EBITDA up 42% to ₹13,757 cr",
+   "more": [
+    "Nuvama upgraded the stock to Buy with a ₹1,184 target",
+    "India business EBITDA of ₹8,450 cr beat Nuvama's estimate"
+   ],
+   "src": {
+    "title": "HDFCSky: Hindalco Q2 profit jumps 58.8% to ₹7,533 crore",
+    "url": "https://hdfcsky.com/news/hindalco-q2-profit-rises-59-pc-to-rs-7533-cr"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-09",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Foreign inflows near ₹39,000 cr this month",
+   "line": "FPIs have put about ₹38,971 cr into Indian equities so far in November, per NSDL data",
+   "more": [
+    "Reverses a two-month selling streak",
+    "Upstox ties the shift to a global AI trade reversal"
+   ],
+   "src": {
+    "title": "Upstox: Market wrap, Nov 8 — Nifty 50 ends below 25,000, Sensex snaps 7-day winning streak after Muhurat trading",
+    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-8-nifty-50-ends-below-25-000-sensex-snaps-7-day-winning-streak-after-muhurat-trading/article-203180"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-09",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "0700"
+   }
+  },
   {
    "key": "gift-nifty",
    "tag": "Opening",
@@ -51,41 +164,9 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "hindalco-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Hindalco Q2 profit up 59% to ₹7,533 cr",
-   "line": "Consolidated EBITDA rose 42% to ₹13,757 cr; Nuvama upgraded the stock to Buy",
-   "more": [
-    "Nuvama raised its target to ₹1,184 from ₹1,108",
-    "India business EBITDA of ₹8,450 cr beat Nuvama's ₹7,080 cr estimate",
-    "Higher aluminium volumes and acid prices helped"
-   ],
-   "src": {
-    "title": "HDFCSky: Hindalco Q2 profit jumps 58.8% to ₹7,533 crore",
-    "url": "https://hdfcsky.com/news/hindalco-q2-profit-rises-59-pc-to-rs-7533-cr"
-   },
-   "thread": "q2-results-2026",
-   "results": {
-    "company": "Hindalco Industries",
-    "quarter": "Q2 FY27",
-    "profit_cr": 7533,
-    "profit_yoy_pct": 58.8
-   },
-   "date": "2026-11-09",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-09",
     "slot": "0845"
    }
   },
@@ -115,7 +196,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "0845"
@@ -140,7 +221,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-08",
     "slot": "outlook"
@@ -368,32 +449,6 @@
    "first_seen": {
     "date": "2026-11-08",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Foreign buyers carry a six-session streak in",
-   "line": "FIIs net bought about ₹13,750 cr on Friday while domestic funds sold about ₹5,969 cr",
-   "more": [
-    "Sixth straight session of net FII buying, per Quantsapp",
-    "Friday's gross FII buying was about ₹30,456 cr",
-    "Provisional figures; final data can differ"
-   ],
-   "src": {
-    "title": "Quantsapp: FII DII data, 6 Nov 2026",
-    "url": "https://www.quantsapp.com/fii-dii"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-08",
-   "slot": "0800",
-   "when": "Sun · 8:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0700"
    }
   },
   {
