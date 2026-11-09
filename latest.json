@@ -1,90 +1,65 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-09T11:06:13+05:30",
+ "generated_at": "2026-11-09T11:41:22+05:30",
  "date": "2026-11-09",
- "slot": "1105",
- "slot_label": "11:05",
+ "slot": "1135",
+ "slot_label": "11:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-09T11:08:00+05:30",
- "nifty": {
-  "value": 24888.15,
-  "pct": -0.39,
-  "chg": -98.25,
-  "approx": false,
-  "asof_quote": "11:00"
- },
- "metrics": {
-  "india_vix": {
-   "value": 16.77,
-   "asof": "11:00",
-   "approx": false,
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex down 300 pts, Nifty below 24,900; VIX drops 9%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
-   }
-  }
- },
+ "asof": "2026-11-09T11:42:00+05:30",
  "mood": {
-  "label": "Selling widens",
-  "score": -0.3,
-  "summary": "Selling is slowly widening: the market has slipped further with IT still the main drag and most large caps in the red, while PSU banks and pharma hold up.",
+  "label": "Range-bound, lower",
+  "score": -0.25,
+  "summary": "A lower, range-bound market: profit-taking in IT keeps the benchmarks in the red and breadth weak, while state-run banks provide the main buying interest.",
   "detail": {
    "leaders": "PSU banks and pharma",
-   "laggards": "IT heavyweights HCLTech and Infosys, with Nifty IT the weakest sector",
-   "tone": "A live reading, weaker than the previous note: the dip has deepened steadily through the morning, though volatility remains well below Friday's level.",
+   "laggards": "IT, led by HCLTech, after a sharp month-long run",
+   "tone": "A live read on market behaviour rather than a fresh print: the market is holding in a narrow band below the flat line, much as in the previous note, and the latest headline suggests the Sensex has trimmed part of its loss.",
    "watch": [
-    "Whether IT selling eases or pulls the market lower into the afternoon",
-    "Whether PSU banks can keep up their strength",
-    "Any Gulf headline moving oil before Tuesday's holiday"
+    "Whether PSU banks can pull the market back toward the flat line",
+    "Whether IT profit-taking eases in the afternoon",
+    "Any Gulf or US-Iran headline before Tuesday's holiday"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex down 300 pts, Nifty below 24,900; VIX drops 9%",
+    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty near 24,900; Nifty PSU Bank gains nearly 2%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
    },
    "movers": {
     "up": {
-     "summary": "PSU banks and pharma are the only clear pockets of strength",
-     "why": "State-run banks and drugmakers are attracting buyers while most of the market is sold.",
+     "summary": "State-run banks are the market's main source of strength",
+     "why": "PSU bank stocks are attracting buyers through the morning while most sectors drift lower.",
      "names": [
       {
        "name": "Nifty PSU Bank",
        "dir": "up",
-       "move": "+2.11%",
-       "line": "The strongest sector gauge in early trade, per HDFCSky"
+       "move": "+~2%",
+       "line": "Gaining nearly 2% at midday, per Business Standard"
       },
       {
        "name": "Nifty Pharma",
        "dir": "up",
-       "move": "+0.7% to +2.1%",
-       "line": "Reports differ on the size of the gain, but pharma stays firmly higher"
+       "line": "The other sector holding gains this morning"
       }
      ],
      "src": {
-      "title": "HDFCSky: Sensex, Nifty slip as profit-booking caps recent rally",
-      "url": "https://hdfcsky.com/news/bse-nse-sensex-november-9-2026-open-report-sensex-nifty-slip-in-morning-trade-as-profit-booking-hits-it-stocks-investors-stay-cautious"
+      "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty near 24,900; Nifty PSU Bank gains nearly 2%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
      }
     },
     "down": {
-     "summary": "IT heavyweights drive the decline as most large caps slip",
-     "why": "Blue-chip IT is being sold through the morning, and only a minority of Nifty stocks are in the green.",
+     "summary": "IT is being sold for profit after a strong month",
+     "why": "IT stocks had rallied sharply over the past month, and traders are booking profits.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "move": "-1.7%",
-       "line": "The worst-performing sector this morning"
+       "move": "-1.5% to -1.7%",
+       "line": "The weakest sector, after a sharp month-long rally"
       },
       {
        "name": "HCLTech",
        "dir": "down",
-       "move": "-1.9%",
+       "move": "-1.9% to -2.1%",
        "line": "The biggest drag among Nifty 50 stocks"
-      },
-      {
-       "name": "Infosys",
-       "dir": "down",
-       "move": "-1.5%",
-       "line": "Among the top four Sensex losers with HCLTech, TCS and Tech Mahindra"
       }
      ],
      "src": {
@@ -100,11 +75,11 @@
    "key": "it-stocks",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "IT selling deepens through the morning",
-   "line": "HCLTech, Tech Mahindra, Infosys and TCS are the top four Sensex losers",
+   "title": "IT profit-taking after a strong month",
+   "line": "IT stocks rallied sharply over the past month; HCLTech and Infosys lead today's selling",
    "more": [
-    "HCLTech fell about 1.9% to ₹1,415.20 in early trade",
-    "Only about 15 of 50 Nifty stocks were in the green early on, per HDFCSky"
+    "HCLTech, Tech Mahindra, Infosys and TCS were the top four Sensex losers",
+    "Breadth is weak, with only about 15 of 50 Nifty stocks in the green early"
    ],
    "src": {
     "title": "HDFCSky: Sensex, Nifty slip as profit-booking caps recent rally",
@@ -112,8 +87,8 @@
    },
    "thread": "it-sector",
    "date": "2026-11-09",
-   "slot": "1105",
-   "when": "11:05",
+   "slot": "1135",
+   "when": "11:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -125,24 +100,49 @@
    "key": "psu-banks",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "PSU banks buck the selloff",
-   "line": "The PSU bank index rose about 2% as most other sectors fell",
+   "title": "PSU banks gain nearly 2% at midday",
+   "line": "State-run lenders are the strongest pocket as the broader market slips",
    "more": [
-    "Banks have led Sensex gainers since the open",
-    "Pharma is the other sector holding gains"
+    "Reports of the size of the gain differ by time of day",
+    "Banks have led Sensex gainers since the open"
    ],
    "src": {
-    "title": "HDFCSky: Sensex, Nifty slip as profit-booking caps recent rally",
-    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-9-2026-open-report-sensex-nifty-slip-in-morning-trade-as-profit-booking-hits-it-stocks-investors-stay-cautious"
+    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty near 24,900; Nifty PSU Bank gains nearly 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
    },
    "date": "2026-11-09",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": false,
+   "slot": "1135",
+   "when": "11:35",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1105"
+   }
+  },
+  {
+   "key": "results-week",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Results today: Whirlpool, Olectra",
+   "line": "Thirteen companies report today; about 110 report on Wednesday after the holiday",
+   "more": [
+    "HAL, Eicher Motors and Tata Motors PV report later this week",
+    "Markets are shut on Tuesday Nov 10"
+   ],
+   "src": {
+    "title": "Upstox: Upcoming Q2 FY27 results this week",
+    "url": "https://upstox.com/news/market-news/earnings/upcoming-q2-fy-27-results-this-week-tata-motors-pv-vi-hal-eicher-motors-ashok-leyland-and-more-check-full-list/article-203166/"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-09",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-07",
+    "slot": "1400"
    }
   },
   {
@@ -164,7 +164,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1035"
@@ -216,31 +216,6 @@
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "results-week",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Results due today: Whirlpool, Olectra",
-   "line": "Thirteen companies report today; HAL and Eicher Motors report later this week",
-   "more": [
-    "About 110 companies report on Wednesday Nov 11",
-    "Markets are shut on Tuesday Nov 10"
-   ],
-   "src": {
-    "title": "Upstox: Upcoming Q2 FY27 results this week — Tata Motors PV, Vi, HAL, Eicher Motors, Ashok Leyland and more",
-    "url": "https://upstox.com/news/market-news/earnings/upcoming-q2-fy-27-results-this-week-tata-motors-pv-vi-hal-eicher-motors-ashok-leyland-and-more-check-full-list/article-203166/"
-   },
-   "thread": "q2-results-2026",
-   "date": "2026-11-09",
-   "slot": "1005",
-   "when": "10:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-07",
-    "slot": "1400"
    }
   },
   {
