@@ -1,48 +1,151 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-09T07:00:40+05:30",
+ "generated_at": "2026-11-09T08:46:20+05:30",
  "date": "2026-11-09",
- "slot": "0700",
- "slot_label": "7:00",
+ "slot": "0845",
+ "slot_label": "8:45",
  "stage": "Pre-market mood",
- "asof": "2026-11-09T07:05:00+05:30",
+ "asof": "2026-11-09T08:50:00+05:30",
  "nifty": {
   "value": 24986.4,
   "pct": -0.18,
   "chg": -43.95,
   "approx": false
  },
- "metrics": {
-  "usd_inr": {
-   "value": 93.91,
-   "asof": "Fri 6 Nov close",
-   "approx": true,
-   "src": {
-    "title": "HDFCSky: Rupee rallies 1.2% to 93.91, biggest weekly gain in 2026",
-    "url": "https://hdfcsky.com/news/rupee-surges-1-2percent-to-93-91-as-3-billion-fpi-flood-and-16percent-crude-crash-break-six-month-barrier"
-   }
-  }
- },
  "mood": {
-  "label": "Steady start likely",
-  "score": 0.15,
-  "summary": "Mixed cues greet the last session before Tuesday's holiday: Tokyo is rebounding and US futures edge up, but Seoul is weak, Gulf attacks hang over oil and the rally looks tired.",
+  "label": "Flat to firm open",
+  "score": 0.2,
+  "summary": "A flat-to-firm start is in prospect as Asia rebounds and metals carry strong results, but fresh Gulf supply risk and a tired rally into a holiday keep buyers selective.",
   "detail": {
-   "leaders": "Large caps backed by heavy foreign buying",
-   "laggards": "IT and other tech-linked names after last week's AI-driven selloff on Wall Street and in Seoul",
-   "tone": "A forward-looking read: Sunday's thin Muhurat hour slipped after the biggest pre-Diwali rally in decades, and the weekend added Houthi strikes on Saudi Aramco sites. Today is the only session before Tuesday's market holiday.",
+   "leaders": "Metals, after strong Q2 numbers from Hindalco and Tata Steel and Nuvama upgrades",
+   "laggards": "Tech-linked names after last week's AI-driven selloff abroad, and oil users if Gulf risk lifts crude",
+   "tone": "A forward-looking read before the open: GIFT Nifty points to a flat-to-slightly-higher start after Sunday's Muhurat hour gave back its gains. Today is the only session before Tuesday's holiday.",
    "watch": [
-    "How Brent reacts in Asian trade to the Aramco attacks",
-    "Whether foreign buying resumes after a 14-session streak",
-    "US October CPI on Tuesday, while Indian markets are shut"
+    "Whether metals lead after the Hindalco and Tata Steel results",
+    "Brent's move on reports of attacks on Saudi energy sites",
+    "Whether foreign buying resumes after the Diwali break"
    ],
    "src": {
-    "title": "CNBC: Stock futures rise slightly as investors eye AI trade, brace for more data and earnings",
-    "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
+    "title": "Upstox: GIFT NIFTY futures hint positive opening on November 9",
+    "url": "https://upstox.com/news/market-news/stocks/gift-nifty-futures-hint-positive-opening-on-november-9-what-investors-should-know-before-stock-market-opens/article-203187/"
    }
   }
  },
  "insights": [
+  {
+   "key": "gift-nifty",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "GIFT Nifty signals a flat to firm start",
+   "line": "Most early quotes had GIFT Nifty futures modestly higher; one live blog showed a small dip",
+   "more": [
+    "Upstox and ScanX pointed to a positive start",
+    "Business Standard's live blog headlined a negative open",
+    "Quotes were taken at different times this morning"
+   ],
+   "src": {
+    "title": "Upstox: GIFT NIFTY futures hint positive opening on November 9",
+    "url": "https://upstox.com/news/market-news/stocks/gift-nifty-futures-hint-positive-opening-on-november-9-what-investors-should-know-before-stock-market-opens/article-203187/"
+   },
+   "date": "2026-11-09",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "hindalco-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Hindalco Q2 profit up 59% to ₹7,533 cr",
+   "line": "Consolidated EBITDA rose 42% to ₹13,757 cr; Nuvama upgraded the stock to Buy",
+   "more": [
+    "Nuvama raised its target to ₹1,184 from ₹1,108",
+    "India business EBITDA of ₹8,450 cr beat Nuvama's ₹7,080 cr estimate",
+    "Higher aluminium volumes and acid prices helped"
+   ],
+   "src": {
+    "title": "HDFCSky: Hindalco Q2 profit jumps 58.8% to ₹7,533 crore",
+    "url": "https://hdfcsky.com/news/hindalco-q2-profit-rises-59-pc-to-rs-7533-cr"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Hindalco Industries",
+    "quarter": "Q2 FY27",
+    "profit_cr": 7533,
+    "profit_yoy_pct": 58.8
+   },
+   "date": "2026-11-09",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "tata-steel-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Tata Steel Q2 profit up 18%, led by India",
+   "line": "Profit attributable to owners rose to ₹3,666 cr; EBITDA up 14% on the quarter",
+   "more": [
+    "Consolidated EBITDA of ₹10,665 cr",
+    "Nuvama upgraded Tata Steel to Buy",
+    "Was among early gainers in Sunday's Muhurat session"
+   ],
+   "src": {
+    "title": "Business Standard: Tata Steel Q2 net profit up 18.2% Y-o-Y, led by India operations",
+    "url": "https://www.business-standard.com/amp/companies/quarterly-results/tata-steel-q2-fy27-results-net-profit-india-operations-uk-netherlands-126110700767_1.html"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Tata Steel",
+    "quarter": "Q2 FY27",
+    "profit_cr": 3666.41,
+    "profit_yoy_pct": 18.2
+   },
+   "date": "2026-11-09",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "gulf-attacks",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Saudi energy attacks keep oil risk in view",
+   "line": "Brent trades just below $98 after Houthi strikes on Saudi energy sites",
+   "more": [
+    "Saudi ministry confirmed an attempted strike on an Aramco building",
+    "Asian markets mostly rebounded this morning"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — GIFT Nifty indicates negative open; most Asian markets rebound; Brent below $98",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-09",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-08",
+    "slot": "outlook"
+   }
+  },
   {
    "key": "asia-open",
    "tag": "Global",
@@ -61,7 +164,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "0700"
@@ -87,36 +190,10 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-03",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "gulf-attacks",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Aramco attack adds to Gulf oil risk",
-   "line": "Saudi ministry confirmed an attempted Houthi strike on an Aramco building in Riyadh",
-   "more": [
-    "Damage was described as minor",
-    "Brent ended last week near $98 after a roughly 13% weekly fall",
-    "Saudi and UAE shipments had recovered to pre-war levels, per Market Index"
-   ],
-   "src": {
-    "title": "ANI: Saudi Energy Ministry confirms attempted strike on Aramco facility in Riyadh",
-    "url": "https://www.aninews.in/news/world/middle-east/saudi-energy-ministry-confirms-attempted-strike-on-aramco-facility-in-riyadh-after-houthis-claim-operations-against-kingdom20261108151231/"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-09",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-08",
-    "slot": "outlook"
    }
   },
   {
@@ -138,7 +215,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1055"
@@ -163,7 +240,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-07",
     "slot": "1400"
@@ -907,31 +984,6 @@
    "first_seen": {
     "date": "2026-11-05",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "gift-nifty",
-   "tag": "Opening",
-   "impact": "neg",
-   "title": "GIFT Nifty signals a lower start",
-   "line": "Futures point to a dip of well under 1% for the Nifty, milder than the falls across Asia",
-   "more": [
-    "Early quotes differ by time and source",
-    "Weakness tracks the US tech rout and Asia's slide",
-    "Follows Thursday's biggest rally in about seven months"
-   ],
-   "src": {
-    "title": "Upstox: GIFT NIFTY futures hint weak opening on Nov 6 as oil rebounds to near $100/bbl",
-    "url": "https://upstox.com/news/market-news/stocks/gift-nifty-futures-hint-weak-opening-on-nov-6-as-oil-rebounds-to-near-100-bbl-key-things-to-know-before-market-opens/article-203087"
-   },
-   "date": "2026-11-06",
-   "slot": "0845",
-   "when": "Fri · 8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0845"
    }
   },
   {
