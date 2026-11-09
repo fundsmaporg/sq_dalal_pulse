@@ -1,23 +1,23 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-09T15:06:54+05:30",
+ "generated_at": "2026-11-09T15:36:52+05:30",
  "date": "2026-11-09",
- "slot": "1505",
- "slot_label": "15:05",
+ "slot": "1535",
+ "slot_label": "15:35",
  "stage": "Closing mood",
- "asof": "2026-11-09T15:08:00+05:30",
+ "asof": "2026-11-09T15:38:00+05:30",
  "mood": {
-  "label": "Steady into close",
+  "label": "Slight loss at the bell",
   "score": -0.1,
-  "summary": "Into the final half-hour the market sits a little below the flat line, with bank buying offsetting most of the IT selling ahead of Tuesday's holiday.",
+  "summary": "The session has just ended with the market a little below the flat line: IT profit-taking set the tone all day, while banks and pharma limited the damage before Tuesday's holiday.",
   "detail": {
    "leaders": "Banks and pharma",
    "laggards": "IT",
-   "tone": "A live read on market behaviour rather than a fresh print: much as in the previous note, the market is holding above its afternoon lows with a small loss, and no new trigger has emerged.",
+   "tone": "A read on market behaviour rather than a fresh print: the session has closed, but no closing figures were published yet when this was written. The market spent the afternoon above its lows with a small loss.",
    "watch": [
-    "Whether the market closes near the flat line or slips in the final minutes",
-    "Position-squaring before Tuesday's holiday",
-    "Whirlpool of India and Olectra results later today"
+    "The official closing figures and FII/DII flow data",
+    "Whirlpool of India and Olectra results after the bell",
+    "US October CPI on Tuesday, while Indian markets are shut"
    ],
    "src": {
     "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty above 24,900; Nifty Bank rises 1%",
@@ -70,30 +70,6 @@
  },
  "insights": [
   {
-   "key": "banks-rebound",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Banks hold the market above its lows",
-   "line": "Bank stocks are firm into the last half-hour after a morning rally in state lenders",
-   "more": [
-    "SBI, PNB and Canara Bank were among state lenders up about 3% earlier",
-    "Pharma and media have also gained"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty above 24,900; Nifty Bank rises 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
-   },
-   "date": "2026-11-09",
-   "slot": "1505",
-   "when": "15:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "1435"
-   }
-  },
-  {
    "key": "it-stocks",
    "tag": "Stocks",
    "impact": "neg",
@@ -109,13 +85,37 @@
    },
    "thread": "it-sector",
    "date": "2026-11-09",
-   "slot": "1505",
-   "when": "15:05",
+   "slot": "1535",
+   "when": "15:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1005"
+   }
+  },
+  {
+   "key": "banks-rebound",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Banks were the day's main support",
+   "line": "State-run lenders rallied in the morning and bank stocks firmed again in the afternoon",
+   "more": [
+    "SBI, PNB and Canara Bank were among state lenders up about 3% earlier",
+    "Pharma and media also gained"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty above 24,900; Nifty Bank rises 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   },
+   "date": "2026-11-09",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "1435"
    }
   },
   {
@@ -133,8 +133,8 @@
     "url": "https://upstox.com/news/market-news/earnings/upcoming-q2-fy-27-results-this-week-tata-motors-pv-vi-hal-eicher-motors-ashok-leyland-and-more-check-full-list/article-203166/"
    },
    "date": "2026-11-09",
-   "slot": "1505",
-   "when": "15:05",
+   "slot": "1535",
+   "when": "15:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
