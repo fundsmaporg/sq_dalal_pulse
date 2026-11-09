@@ -1,82 +1,172 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-08T21:03:09+05:30",
- "date": "2026-11-08",
- "slot": "outlook",
- "slot_label": "Outlook",
- "stage": "Weekend outlook",
- "asof": "2026-11-08T21:10:00+05:30",
+ "generated_at": "2026-11-09T07:00:40+05:30",
+ "date": "2026-11-09",
+ "slot": "0700",
+ "slot_label": "7:00",
+ "stage": "Pre-market mood",
+ "asof": "2026-11-09T07:05:00+05:30",
  "nifty": {
   "value": 24986.4,
   "pct": -0.18,
   "chg": -43.95,
-  "approx": false,
-  "asof_quote": "Muhurat close, Sun 8 Nov"
+  "approx": false
  },
  "metrics": {
-  "fii_net_cr": {
-   "value": 13750,
-   "asof": "Fri 6 Nov provisional",
+  "usd_inr": {
+   "value": 93.91,
+   "asof": "Fri 6 Nov close",
    "approx": true,
    "src": {
-    "title": "Multibagg: Foreign institutional investors lead ₹13,802 crore flow shift",
-    "url": "https://www.multibagg.ai/market-pulse/articles/fii-dii-flow-shift-november-cmw55vnkb000h2hp934qli9du"
-   }
-  },
-  "dii_net_cr": {
-   "value": -5969,
-   "asof": "Fri 6 Nov provisional",
-   "approx": true,
-   "src": {
-    "title": "Multibagg: Foreign institutional investors lead ₹13,802 crore flow shift",
-    "url": "https://www.multibagg.ai/market-pulse/articles/fii-dii-flow-shift-november-cmw55vnkb000h2hp934qli9du"
+    "title": "HDFCSky: Rupee rallies 1.2% to 93.91, biggest weekly gain in 2026",
+    "url": "https://hdfcsky.com/news/rupee-surges-1-2percent-to-93-91-as-3-billion-fpi-flood-and-16percent-crude-crash-break-six-month-barrier"
    }
   }
  },
  "mood": {
-  "label": "Cautious start likely",
-  "score": 0.05,
-  "summary": "A short week opens with strong foreign buying still in place, but a stretched market, inflation data in India and the US, and widening Gulf attacks on oil sites argue for a cautious start.",
+  "label": "Steady start likely",
+  "score": 0.15,
+  "summary": "Mixed cues greet the last session before Tuesday's holiday: Tokyo is rebounding and US futures edge up, but Seoul is weak, Gulf attacks hang over oil and the rally looks tired.",
   "detail": {
-   "leaders": "Large caps foreign investors have been buying, if those flows carry on after Diwali",
-   "laggards": "Oil-importing sectors, if the Saudi attacks push crude back up",
-   "tone": "The Diwali Muhurat hour opened firmly but slipped to a small loss, a first sign of fatigue after the strongest pre-Diwali run in decades. Tonight brought new Gulf risk: Houthi attacks on Saudi Aramco and Riyadh. The next session is Monday Nov 9; markets are shut Tuesday Nov 10 and reopen Wednesday.",
+   "leaders": "Large caps backed by heavy foreign buying",
+   "laggards": "IT and other tech-linked names after last week's AI-driven selloff on Wall Street and in Seoul",
+   "tone": "A forward-looking read: Sunday's thin Muhurat hour slipped after the biggest pre-Diwali rally in decades, and the weekend added Houthi strikes on Saudi Aramco sites. Today is the only session before Tuesday's market holiday.",
    "watch": [
-    "How crude reacts when it reopens to the Houthi strikes on Saudi Aramco sites",
-    "India's October CPI on Thursday Nov 12, expected to jump",
-    "US October CPI on Tuesday Nov 10, for its read on a December Fed hike"
+    "How Brent reacts in Asian trade to the Aramco attacks",
+    "Whether foreign buying resumes after a 14-session streak",
+    "US October CPI on Tuesday, while Indian markets are shut"
    ],
    "src": {
-    "title": "Upstox: Week ahead — Muhurat trading, India-US inflation, crude oil prices, FII activity among key triggers",
-    "url": "https://upstox.com/news/market-news/trading/week-ahead-muhurat-trading-india-us-inflation-crude-oil-prices-fi-is-activity-among-key-market-triggers-to-watch/article-203165/"
+    "title": "CNBC: Stock futures rise slightly as investors eye AI trade, brace for more data and earnings",
+    "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
    }
   }
  },
  "insights": [
   {
+   "key": "asia-open",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Tokyo rebounds, Seoul slips in early trade",
+   "line": "Nikkei up about 2% on dip-buying; Kospi opened lower after Friday's sharp selloff",
+   "more": [
+    "Reports differ on the size of the early moves",
+    "US stock futures rose slightly on Sunday evening"
+   ],
+   "src": {
+    "title": "TradingKey: Nikkei 225 surges 2%, Kospi opens lower",
+    "url": "https://www.tradingkey.com/analysis/stocks/more/262295111-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-nvda-sox-tradingkey"
+   },
+   "date": "2026-11-09",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "S&P 500 ends a rough week slightly higher",
+   "line": "S&P 500 rose about 0.3% on Friday but lost about 2.7% for the week",
+   "more": [
+    "Nasdaq outperformed as chip stocks bounced",
+    "US October jobs beat forecasts: about 165,000 added, unemployment 4.1%",
+    "Strong jobs data raised bets on a Fed hike"
+   ],
+   "src": {
+    "title": "CappNotes: Closing Look — Friday, November 6, 2026",
+    "url": "https://cappnotes.substack.com/p/closing-look-friday-november-6-2026"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-09",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-03",
+    "slot": "0700"
+   }
+  },
+  {
    "key": "gulf-attacks",
    "tag": "Global",
    "impact": "neg",
-   "title": "Houthis claim strikes on Saudi Aramco, Riyadh",
-   "line": "Saudi ministry confirms an attempted strike on an Aramco building with minor damage",
+   "title": "Aramco attack adds to Gulf oil risk",
+   "line": "Saudi ministry confirmed an attempted Houthi strike on an Aramco building in Riyadh",
    "more": [
-    "Houthis claimed six operations, including Aramco sites in Khurais and Riyadh airport",
-    "Saudi authorities had not confirmed the airport claim",
-    "Adds to supply risk just as oil had fallen sharply last week"
+    "Damage was described as minor",
+    "Brent ended last week near $98 after a roughly 13% weekly fall",
+    "Saudi and UAE shipments had recovered to pre-war levels, per Market Index"
    ],
    "src": {
-    "title": "ANI: Saudi Energy Ministry confirms attempted strike on Aramco facility in Riyadh after Houthis claim operations",
+    "title": "ANI: Saudi Energy Ministry confirms attempted strike on Aramco facility in Riyadh",
     "url": "https://www.aninews.in/news/world/middle-east/saudi-energy-ministry-confirms-attempted-strike-on-aramco-facility-in-riyadh-after-houthis-claim-operations-against-kingdom20261108151231/"
    },
    "thread": "crude-iran-war",
-   "date": "2026-11-08",
-   "slot": "outlook",
-   "when": "Outlook",
-   "updated": false,
+   "date": "2026-11-09",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-08",
     "slot": "outlook"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee posts its best week of 2026",
+   "line": "Rupee closed Friday near 93.91 per dollar, up 1.2% on the week, on inflows and cheaper oil",
+   "more": [
+    "One report puts the provisional close at 93.89",
+    "FIIs bought about ₹45,960 crore in the week to Nov 6, per exchange data"
+   ],
+   "src": {
+    "title": "HDFCSky: Rupee rallies 1.2% to 93.91, biggest weekly gain in 2026",
+    "url": "https://hdfcsky.com/news/rupee-surges-1-2percent-to-93-91-as-3-billion-fpi-flood-and-16percent-crude-crash-break-six-month-barrier"
+   },
+   "thread": "rupee",
+   "date": "2026-11-09",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "1055"
+   }
+  },
+  {
+   "key": "results-week",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Short results week: HAL, Eicher, Vi due",
+   "line": "Whirlpool of India and Olectra report today; about 110 firms report on Wednesday",
+   "more": [
+    "Tata Motors PV and Ashok Leyland also report this week",
+    "Tata Power and Garden Reach report on Nov 11"
+   ],
+   "src": {
+    "title": "Upstox: Upcoming Q2 FY27 results this week — Tata Motors PV, Vi, HAL, Eicher Motors, Ashok Leyland and more",
+    "url": "https://upstox.com/news/market-news/earnings/upcoming-q2-fy-27-results-this-week-tata-motors-pv-vi-hal-eicher-motors-ashok-leyland-and-more-check-full-list/article-203166/"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-09",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-07",
+    "slot": "1400"
    }
   },
   {
@@ -97,9 +187,9 @@
    "thread": "crude-iran-war",
    "date": "2026-11-08",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-07",
     "slot": "1400"
@@ -122,9 +212,9 @@
    "thread": "rbi-policy",
    "date": "2026-11-08",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-08",
     "slot": "outlook"
@@ -146,9 +236,9 @@
    },
    "date": "2026-11-08",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-08",
     "slot": "1400"
@@ -170,9 +260,9 @@
    },
    "date": "2026-11-08",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1625"
@@ -195,7 +285,7 @@
    },
    "date": "2026-11-08",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Sun · 18:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -221,12 +311,12 @@
    "thread": "fii-flows",
    "date": "2026-11-08",
    "slot": "0800",
-   "when": "8:00",
+   "when": "Sun · 8:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1100"
+    "date": "2026-11-03",
+    "slot": "0700"
    }
   },
   {
@@ -251,8 +341,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-02",
-    "slot": "pre"
+    "date": "2026-11-03",
+    "slot": "0700"
    }
   },
   {
@@ -281,31 +371,6 @@
    }
   },
   {
-   "key": "results-week",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Busy results week before Nov 14 deadline",
-   "line": "Tata Power, HAL, BDL, Alkem and ABB India are among those due next week",
-   "more": [
-    "Kalyan Jewellers board meets Nov 10; Cochin Shipyard too",
-    "HAL, BDL, Alkem, Manappuram listed for Nov 12",
-    "ABB India reports Nov 13"
-   ],
-   "src": {
-    "title": "MyAlgoMate: Kalyan Jewellers Q2 results date 2026",
-    "url": "https://myalgomate.com/tools/results-calendar/kalyankjil"
-   },
-   "date": "2026-11-07",
-   "slot": "1400",
-   "when": "Sat · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-07",
-    "slot": "1400"
-   }
-  },
-  {
    "key": "voltas-q2",
    "tag": "Results",
    "impact": "pos",
@@ -330,30 +395,6 @@
    }
   },
   {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Wall Street ended Friday mixed, tech rebounding",
-   "line": "Friday close: Nasdaq up 1.09%, S&P 500 up 0.31%, Dow down 0.46%",
-   "more": [
-    "Rebound after Thursday's AI-led rout",
-    "US markets reopen Monday"
-   ],
-   "src": {
-    "title": "TheStreet: Stock market today (Nov 6, 2026) — Nasdaq, S&P 500 rise after midterms AI rout",
-    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-06-2026"
-   },
-   "date": "2026-11-07",
-   "slot": "0800",
-   "when": "Sat · 8:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "pre"
-   }
-  },
-  {
    "key": "us-yields",
    "tag": "Macro",
    "impact": "watch",
@@ -375,30 +416,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee closes stronger on inflows",
-   "line": "One report has the rupee closing at 93.91 per dollar on Friday, up 56 paise",
-   "more": [
-    "RBI reportedly bought dollars near 93.88 to cap gains",
-    "Lower crude also supported the currency"
-   ],
-   "src": {
-    "title": "NewsBytes: Indian rupee closes at 93.91 per US dollar after inflows",
-    "url": "https://www.newsbytesapp.com/news/business/indian-rupee-closes-9391-per-us-dollar-after-inflows/tldr"
-   },
-   "date": "2026-11-07",
-   "slot": "0800",
-   "when": "Sat · 8:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "0930"
    }
   },
   {
@@ -544,8 +561,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1200"
+    "date": "2026-11-03",
+    "slot": "1025"
    }
   },
   {
@@ -913,8 +930,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-02",
-    "slot": "pre"
+    "date": "2026-11-03",
+    "slot": "0845"
    }
   },
   {
@@ -1834,8 +1851,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1000"
+    "date": "2026-11-03",
+    "slot": "0700"
    }
   },
   {
@@ -2099,8 +2116,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1230"
+    "date": "2026-11-03",
+    "slot": "1355"
    }
   },
   {
@@ -2291,8 +2308,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1200"
+    "date": "2026-11-03",
+    "slot": "0925"
    }
   },
   {
@@ -2315,8 +2332,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-02",
-    "slot": "pre"
+    "date": "2026-11-03",
+    "slot": "0700"
    }
   },
   {
@@ -2385,11 +2402,11 @@
    "date": "2026-11-03",
    "slot": "0845",
    "when": "Tue · 8:45",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1430"
+    "date": "2026-11-03",
+    "slot": "0845"
    }
   },
   {
@@ -2462,565 +2479,6 @@
    "first_seen": {
     "date": "2026-11-03",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "dixon-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Dixon rallies 11% as brokers back Q2",
-   "line": "Profit fell but met estimates; JPMorgan says Buy with a ₹16,800 target",
-   "more": [
-    "Closed near ₹12,238.75",
-    "MOFSL says revenue and PAT beat its estimates",
-    "Cochin Shipyard (+4.51%) also among top midcap gainers"
-   ],
-   "src": {
-    "title": "BusinessToday: Dixon Tech rallies 11% after Q2; CLSA, JPMorgan targets",
-    "url": "https://www.businesstoday.in/markets/stocks/story/dixon-tech-shares-why-stock-rallied-11-after-q2-clsa-jpmorgan-targets-565048-2026-11-02"
-   },
-   "date": "2026-11-02",
-   "slot": "post",
-   "when": "Mon · Close",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1100"
-   }
-  },
-  {
-   "key": "upl-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "UPL Q2 profit down 24% to ₹421 cr",
-   "line": "Revenue dipped 1% in the September quarter",
-   "more": [
-    "Reported during market hours",
-    "Agrochemical maker's results arrive with ITC and NALCO due after hours"
-   ],
-   "src": {
-    "title": "Upstox: Q2 results live — UPL PAT declines 24% to ₹421 crore",
-    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-itc-nalco-marico-upl-tata-investment-corp-tbo-tek-esds-software-devyani-international-others-to-post-earnings-on-nov-2/liveblog-202795/"
-   },
-   "date": "2026-11-02",
-   "slot": "post",
-   "when": "Mon · Close",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "post"
-   }
-  },
-  {
-   "key": "reliance-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Reliance ends ~12% up; brokers stay bullish",
-   "line": "Goldman and Nomura keep Buy; Citi warns retail weakness could cap further gains",
-   "more": [
-    "O2C EBITDA up 67.9% to ₹25,203 cr",
-    "Consolidated EBITDA beat estimates by 9%",
-    "Bloomberg: biggest jump in more than six years"
-   ],
-   "src": {
-    "title": "Finimize: Reliance O2C and Jio earnings beat lifted shares",
-    "url": "https://finimize.com/content/reliance-industries-o2c-and-jio-earnings-beat-lifted-shares"
-   },
-   "date": "2026-11-02",
-   "slot": "1530",
-   "when": "Mon · 15:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "week-ahead",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "US midterms, Apple and jobs data ahead",
-   "line": "US votes Tuesday; Apple results and October payrolls due later in the week",
-   "more": [
-    "US futures edged higher Sunday after the tech sell-off",
-    "BLS Polymers (241x subscribed) lists Tuesday"
-   ],
-   "src": {
-    "title": "CNBC: Stock futures tick higher ahead of busy week",
-    "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
-   },
-   "date": "2026-11-02",
-   "slot": "1530",
-   "when": "Mon · 15:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1530"
-   }
-  },
-  {
-   "key": "tata-steel",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Tata Steel up ~5% from near 52-week low",
-   "line": "Metal buying lifts the stock ahead of Nov 7 results; analysts call it a bounce",
-   "more": [
-    "Hit ₹174.36 (+4.03%) around 9:56 am",
-    "Still below several key moving averages"
-   ],
-   "src": {
-    "title": "BusinessToday: Tata Steel shares rise 5%, attempt recovery from 52-week low",
-    "url": "https://www.businesstoday.in/markets/stocks/story/tata-steel-shares-rise-5-attempt-recovery-from-52-week-low-price-targets-and-more-565075-2026-11-02"
-   },
-   "date": "2026-11-02",
-   "slot": "1500",
-   "when": "Mon · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "jtl-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "JTL Industries jumps 6% after Q2",
-   "line": "Shares rally after the company's September-quarter results",
-   "more": [
-    "Flagged in Business Standard's live blog",
-    "One of several results-driven movers today"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE, Nov 2 — JTL Ind jumps 6% post Q2",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
-   },
-   "date": "2026-11-02",
-   "slot": "1500",
-   "when": "Mon · 15:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1500"
-   }
-  },
-  {
-   "key": "jio-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Jio Platforms trades near ₹1,440 after Q2",
-   "line": "At ₹1,441.6 at 10:22 am; day range ₹1,436.3–1,475",
-   "more": [
-    "First quarterly results as a listed company; profit +14%",
-    "52-week range ₹1,119–1,489.70"
-   ],
-   "src": {
-    "title": "INDmoney: Jio Platforms share price",
-    "url": "https://www.indmoney.com/stocks/jio-platforms-ltd-share-price"
-   },
-   "date": "2026-11-02",
-   "slot": "1430",
-   "when": "Mon · 14:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1430"
-   }
-  },
-  {
-   "key": "infosys-guidance",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Infosys falls 2.6% on lowered guidance",
-   "line": "FY revenue growth guidance now 1–2% in constant currency, weighing on IT",
-   "more": [
-    "Comes despite a new 1.1 mn sq ft Hyderabad campus",
-    "Nifty IT down nearly 1% in afternoon trade"
-   ],
-   "src": {
-    "title": "Whalesbook: Infosys dips 2.6% as market focuses on guidance cut",
-    "url": "https://whalesbook.com/news/English/technology/Infosys-Shares-Dip-26percent-as-Market-Focuses-on-Guidance-Cut/6ae8475e4fc30694db5750a3"
-   },
-   "date": "2026-11-02",
-   "slot": "1400",
-   "when": "Mon · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "vi-cci",
-   "tag": "Regulation",
-   "impact": "pos",
-   "title": "Vodafone Idea gains on CCI approval",
-   "line": "Vi among the day's volume movers after the competition regulator's nod",
-   "more": [
-    "Listed among trending stocks in HDFC Sky's midday report",
-    "No percentage move given in the report"
-   ],
-   "src": {
-    "title": "HDFC Sky: Motherson Sumi up 12%, Vedanta Power 7%, Vi gains; PCJ slips",
-    "url": "https://hdfcsky.com/news/trending-stocks-today-november-2-2026-motherson-sumi-wiring-vedanta-power-vodafone-idea-gain-pc-jeweller-falls"
-   },
-   "date": "2026-11-02",
-   "slot": "1400",
-   "when": "Mon · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "pcj-sebi",
-   "tag": "Regulation",
-   "impact": "neg",
-   "title": "PC Jeweller slips on SEBI warning letters",
-   "line": "Stock down 2.65% after receiving warning letters from SEBI",
-   "more": [
-    "Among the day's most-traded stocks",
-    "Reported in HDFC Sky's trending-stocks round-up"
-   ],
-   "src": {
-    "title": "HDFC Sky: Motherson Sumi up 12%, Vedanta Power 7%, Vi gains; PCJ slips",
-    "url": "https://hdfcsky.com/news/trending-stocks-today-november-2-2026-motherson-sumi-wiring-vedanta-power-vodafone-idea-gain-pc-jeweller-falls"
-   },
-   "date": "2026-11-02",
-   "slot": "1400",
-   "when": "Mon · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "motherson-wiring-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Motherson Sumi Wiring jumps ~12% on Q2",
-   "line": "Shares up 11.75% after strong September-quarter earnings",
-   "more": [
-    "Among the day's top volume movers",
-    "Vedanta Power +6.88% after returning to profit"
-   ],
-   "src": {
-    "title": "HDFC Sky: Motherson Sumi up 12%, Vedanta Power 7%, Vi gains; PCJ slips",
-    "url": "https://hdfcsky.com/news/trending-stocks-today-november-2-2026-motherson-sumi-wiring-vedanta-power-vodafone-idea-gain-pc-jeweller-falls"
-   },
-   "date": "2026-11-02",
-   "slot": "1400",
-   "when": "Mon · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "it-ai-worries",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "IT turns lower as AI worries linger",
-   "line": "Nifty IT slips nearly 1% in afternoon trade after leading Friday's gains",
-   "more": [
-    "Index fell over 2% on Oct 27 on AI fears and valuation worries",
-    "Down ~28.8% so far in 2026"
-   ],
-   "src": {
-    "title": "Univest: Nifty IT falls over 2% on AI fears",
-    "url": "https://univest.in/blogs/it-stocks-crash-nifty-it-index-tanks-over-2-percent-infosys-tcs-wipro-hcl-tech-slide-on-ai-fears-anthropic-ipo-valuation-and-what-lies-ahead"
-   },
-   "date": "2026-11-02",
-   "slot": "1330",
-   "when": "Mon · 13:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1330"
-   }
-  },
-  {
-   "key": "global-cues",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Europe soft; US futures edge up",
-   "line": "Newsquawk lists Euro Stoxx 50 −1.23%, DAX −0.85%; US futures marginally higher",
-   "more": [
-    "FTSE 100 +0.07%, CAC 40 flat in the digest",
-    "US futures rebound ahead of Apple results and Tuesday's midterms",
-    "Reports say Qatar-mediated Iran talks are progressing"
-   ],
-   "src": {
-    "title": "Newsquawk: Daily European equity opening news, 2 Nov 2026",
-    "url": "https://newsquawk.com/headlines/newsquawk-daily-european-equity-opening-news---2nd-november-2026"
-   },
-   "date": "2026-11-02",
-   "slot": "1300",
-   "when": "Mon · 13:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "coal-india-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Coal India Q2 profit +53%; ₹10.25 dividend",
-   "line": "Consolidated profit ₹6,516 cr; revenue up 21% to ₹44,179 cr",
-   "more": [
-    "Second interim dividend for FY27",
-    "On Monday's stocks-to-watch lists"
-   ],
-   "src": {
-    "title": "Upstox: Coal India Q2 profit rises 53%",
-    "url": "https://upstox.com/news/market-news/earnings/coal-india-q2-results-net-profit-rises-53-to-6-516-crore-yo-y-board-declares-second-dividend-for-fy-27/article-202658/"
-   },
-   "date": "2026-11-02",
-   "slot": "1300",
-   "when": "Mon · 13:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "sagility-block",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Sagility promoter may sell 12% stake",
-   "line": "Block deal of about ₹2,377 cr at a ₹42.45 floor, up to 4.9% below last close",
-   "more": [
-    "Promoter Sagility B.V. is the likely seller",
-    "Reported as likely, not confirmed"
-   ],
-   "src": {
-    "title": "inkl: Sagility block deal, promoter may sell 12%",
-    "url": "https://www.inkl.com/news/sagility-block-deal-promoter-sagility-bv-likely-to-sell-12-stake-for-rs-2-377-crore"
-   },
-   "date": "2026-11-02",
-   "slot": "1300",
-   "when": "Mon · 13:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1300"
-   }
-  },
-  {
-   "key": "bob-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Bank of Baroda rises; Axis initiates at Buy",
-   "line": "Axis Securities sets ₹290 target after Q2, citing efficiency and higher loan growth",
-   "more": [
-    "Stock +2.8% to ₹245.33, intraday high ₹250.89",
-    "FY27 credit growth guidance raised to 13–15%",
-    "Q2 reported after hours on Oct 30"
-   ],
-   "src": {
-    "title": "Investing.com: Why is Bank of Baroda stock rallying today?",
-    "url": "https://in.investing.com/news/stock-market-news/why-is-bank-of-baroda-stock-rallying-today-93CH-5670235"
-   },
-   "date": "2026-11-02",
-   "slot": "1230",
-   "when": "Mon · 12:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1230"
-   }
-  },
-  {
-   "key": "psu-results",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "IOC, GAIL post sharp Q2 profit jumps",
-   "line": "IOC standalone profit ₹21,630 cr; GAIL consolidated profit ₹4,720 cr (+139%)",
-   "more": [
-    "IOC swung from a ₹2,661 cr loss in Q1",
-    "GAIL board gives in-principle nod to GAIL Gas IPO",
-    "Both up about 3% in early trade"
-   ],
-   "src": {
-    "title": "Zee Business: Two Maharatna OMC shares jump over 3% after Q2",
-    "url": "https://www.zeebiz.com/market-news/news-oil-gas-stocks-to-buy-these-2-maharatna-omc-shares-jump-over-3-after-q2-results-up-to-30-upside-do-you-own-404918"
-   },
-   "date": "2026-11-02",
-   "slot": "1130",
-   "when": "Mon · 11:30",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1100"
-   }
-  },
-  {
-   "key": "fuel-export-duty",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Fuel export duties revised from Oct 31",
-   "line": "Govt revised fortnightly export levies; ATF duty raised to ₹11/litre from ₹10.50",
-   "more": [
-    "IOC +3.15%, HPCL +2.40%, BPCL +2.30% in early trade",
-    "Levies revised every fortnight since March 27"
-   ],
-   "src": {
-    "title": "Outlook Money: HPCL, BPCL, IOCL rally after export duty revision",
-    "url": "https://www.outlookmoney.com/invest/oil-stocks-today-hpcl-bpcl-iocl-share-price-rally-export-duty-revision"
-   },
-   "date": "2026-11-02",
-   "slot": "1030",
-   "when": "Mon · 10:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1030"
-   }
-  },
-  {
-   "key": "q2-results",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "200+ firms report Q2 today",
-   "line": "ITC, Marico, NALCO, UPL, Petronet LNG, Concor and Wockhardt among Nov 2 results",
-   "more": [
-    "Also Escorts Kubota, Devyani, TBO Tek, Granules",
-    "Bajaj Finserv, Apollo Hospitals, BSE, Hindalco report later this week"
-   ],
-   "src": {
-    "title": "Upstox: Q2 results Nov 2 — ITC, Marico, NALCO, UPL and others",
-    "url": "https://upstox.com/news/market-news/earnings/q2-results-nov-2-itc-marico-nalco-upl-nlc-india-tata-investment-corp-esds-software-solution-others-to-post-earnings/article-202773/"
-   },
-   "date": "2026-11-02",
-   "slot": "1030",
-   "when": "Mon · 10:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1030"
-   }
-  },
-  {
-   "key": "afcons-orders",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Afcons adds ₹3,469 cr UP orders",
-   "line": "Jewar Link Expressway and Lucknow Metro underground section won",
-   "more": [
-    "Announced Oct 29",
-    "FY27 fresh orders now ₹19,438 cr"
-   ],
-   "src": {
-    "title": "Investywise: Afcons wins ₹3,469 cr EPC orders",
-    "url": "https://www.investywise.com/afcons-secures-major-infrastructure-contracts-worth-3469-crores"
-   },
-   "date": "2026-11-02",
-   "slot": "1000",
-   "when": "Mon · 10:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "1000"
-   }
-  },
-  {
-   "key": "auto-sales",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Record October domestic car sales",
-   "line": "Maruti domestic sales hit a record 2,16,789, up 20%; Tata PV domestic +23%",
-   "more": [
-    "Tata Motors PV domestic 75,426 units vs 61,295",
-    "Mahindra auto sales ~1.31 lakh, up 8–9% (reports differ)",
-    "Festive-season demand cited"
-   ],
-   "src": {
-    "title": "BusinessToday: Record domestic auto sales in October",
-    "url": "https://www.businesstoday.in/auto/story/festive-boom-maruti-mahindra-tata-motors-hyundai-post-record-domestic-sales-in-october-565002-2026-11-01"
-   },
-   "date": "2026-11-02",
-   "slot": "0930",
-   "when": "Mon · 9:30",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "0930"
-   }
-  },
-  {
-   "key": "ntpc-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "NTPC profit up ~39%, ₹3 dividend",
-   "line": "Consolidated profit to owners ₹7,029.56 cr; standalone ₹5,320 cr (+14%)",
-   "more": [
-    "Board approved results on Oct 31",
-    "Interim dividend ₹3 per share",
-    "NTPC Green Q2 profit ₹137.5 cr, +56.2%"
-   ],
-   "src": {
-    "title": "BW Businessworld: NTPC Q2 profit rises 39%",
-    "url": "https://www.businessworld.in/article/ntpc-q2-results-net-profit-rises-39-to-rs-7-030-cr-revenue-climbs-21-631483"
-   },
-   "date": "2026-11-02",
-   "slot": "pre",
-   "when": "Mon · Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "pre"
-   }
-  },
-  {
-   "key": "sun-pharma-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Sun Pharma profit −36% on one-off",
-   "line": "Net ₹1,989 cr after ₹1,269 cr one-time loss; revenue +11.9%",
-   "more": [
-    "Revenue ₹16,198.71 cr",
-    "Stock rose ~4% Friday after the numbers"
-   ],
-   "src": {
-    "title": "TradingView/Moneycontrol: Sun Pharma Q2 profit falls 36%",
-    "url": "https://www.tradingview.com/news/moneycontrol:d4a7837e5094b:0-sun-pharma-q2-results-net-profit-falls-36-to-rs-1-989-crore-hit-by-one-time-loss-revenue-at-rs-16-199-crore/"
-   },
-   "date": "2026-11-02",
-   "slot": "pre",
-   "when": "Mon · Pre-open",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-02",
-    "slot": "pre"
    }
   }
  ]
