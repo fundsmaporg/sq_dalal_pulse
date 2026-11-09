@@ -1,92 +1,132 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-09T16:41:08+05:30",
+ "generated_at": "2026-11-09T18:00:27+05:30",
  "date": "2026-11-09",
- "slot": "1635",
- "slot_label": "16:35",
- "stage": "Post-market mood",
- "asof": "2026-11-09T16:42:00+05:30",
+ "slot": "1800",
+ "slot_label": "18:00",
+ "stage": "Evening wrap",
+ "asof": "2026-11-09T18:05:00+05:30",
  "nifty": {
   "value": 25044.65,
   "pct": 0.23,
   "chg": 58.25,
   "approx": false
  },
+ "metrics": {
+  "brent_usd": {
+   "value": 98.2,
+   "asof": "Nov 9, Indian trading hours",
+   "approx": true,
+   "src": {
+    "title": "HDFCSky: Crude oil trades mixed as Iran peace hopes ease risks (Nov 9)",
+    "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-november-9-2026-brent-slips-to-98-wti-rises-to-91-supply-outlook-in-focus-amid-trump-peace-remarks"
+   }
+  }
+ },
  "mood": {
-  "label": "Volatile, ends higher",
-  "score": 0.2,
-  "summary": "The session ended modestly higher after a volatile day: state-run banks and pharma outweighed sustained IT selling, sending the market into Tuesday's holiday on a firm footing.",
+  "label": "Steady into Wednesday",
+  "score": 0.15,
+  "summary": "The market heads into a one-day holiday on a firm note after banks rescued a volatile session, with softer oil helping but a heavy results day and US inflation data ahead.",
   "detail": {
-   "leaders": "SBI and state-run banks, plus pharma",
-   "laggards": "HCLTech, Tata Steel and UltraTech Cement",
-   "tone": "A reading of the finished session, consistent with the previous note: the market recovered from an afternoon low to close modestly higher. Today's FII/DII provisional figures were not yet published when this was written.",
+   "leaders": "State-run banks and pharma, which led today's late recovery",
+   "laggards": "IT, after a day of profit-taking, and Whirlpool of India after its weak quarter",
+   "tone": "A forward-looking read: today closed modestly higher after a volatile day. Markets are shut on Tuesday, so the next session is Wednesday Nov 11, after US CPI data on Tuesday.",
    "watch": [
-    "Today's FII/DII provisional flows",
-    "US October CPI on Tuesday, while Indian markets are shut",
+    "US October CPI on Tuesday, for its read on a December Fed hike",
+    "Progress in US-Iran talks and its effect on oil",
     "About 110 Q2 results when trading resumes on Wednesday"
    ],
    "src": {
-    "title": "Upstox: Market wrap, Nov 9 — Sensex rises 107 pts, Nifty 50 ends at 25,044 as PSU bank, pharma stocks rally; SBI leads gains",
+    "title": "Upstox: Market wrap, Nov 9 — Sensex rises 107 pts, Nifty 50 ends at 25,044 as PSU bank, pharma stocks rally",
     "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-9-sensex-rises-107-pts-nifty-50-ends-at-25-044-as-psu-bank-pharma-stocks-rally-sbi-leads-gains/article-203225/"
-   },
-   "movers": {
-    "up": {
-     "summary": "SBI and other state-run banks led the day's gains, with pharma close behind",
-     "why": "A broad rally in public-sector lenders lasted all day, and pharma and the wider bank index joined in later to lift the market.",
-     "names": [
-      {
-       "name": "SBI",
-       "dir": "up",
-       "line": "Led the gains among large caps, per Upstox's market wrap"
-      },
-      {
-       "name": "Nifty PSU Bank",
-       "dir": "up",
-       "move": "+3.65% to +3.73%",
-       "line": "The top sector of the day; reports differ slightly on the exact gain"
-      },
-      {
-       "name": "Nifty Pharma",
-       "dir": "up",
-       "move": "+1.65%",
-       "line": "Steady buying in drug stocks all session"
-      }
-     ],
-     "src": {
-      "title": "Upstox: Market wrap, Nov 9 — Sensex rises 107 pts, Nifty 50 ends at 25,044 as PSU bank, pharma stocks rally; SBI leads gains",
-      "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-9-sensex-rises-107-pts-nifty-50-ends-at-25-044-as-psu-bank-pharma-stocks-rally-sbi-leads-gains/article-203225/"
-     }
-    },
-    "down": {
-     "summary": "HCLTech, Tata Steel and UltraTech Cement were among the main losers",
-     "why": "IT profit-taking hit HCLTech hardest, and a few metal and cement names also closed lower.",
-     "names": [
-      {
-       "name": "HCLTech",
-       "dir": "down",
-       "move": "-2.4% to -2.7%",
-       "line": "The biggest Sensex laggard as IT profit-taking continued"
-      },
-      {
-       "name": "Tata Steel",
-       "dir": "down",
-       "line": "Among the Nifty losers at the close"
-      },
-      {
-       "name": "UltraTech Cement",
-       "dir": "down",
-       "line": "Among the Nifty 50's losers at the close"
-      }
-     ],
-     "src": {
-      "title": "The Hans India: Sensex, Nifty end higher in volatile trade as PSU banks, pharma stocks lead gains",
-      "url": "https://www.thehansindia.com/business/sensex-nifty-end-higher-in-volatile-trade-as-psu-banks-pharma-stocks-lead-gains-1140483"
-     }
-    }
    }
   }
  },
  "insights": [
+  {
+   "key": "whirlpool-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Whirlpool Q2 profit falls 39% to ₹25 cr",
+   "line": "Revenue rose about 14% to ₹1,873 cr, but higher costs squeezed margins",
+   "more": [
+    "Profit fell from about ₹41 cr a year ago",
+    "Reports cite higher operating costs and margin compression",
+    "One filing summary gives a different prior-year base and a smaller decline"
+   ],
+   "src": {
+    "title": "Punjab Kesari: Whirlpool of India clocks 39 pc drop in Q2 net profit",
+    "url": "https://english.punjabkesari.com/business/whirlpool-of-india-clocks-39-pc-drop-in-q2-net-profit"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Whirlpool of India",
+    "quarter": "Q2 FY27",
+    "revenue_cr": 1873,
+    "revenue_yoy_pct": 13.7,
+    "profit_cr": 25,
+    "profit_yoy_pct": -39
+   },
+   "date": "2026-11-09",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "1305"
+   }
+  },
+  {
+   "key": "iran-talks",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Trump says new Iran strikes 'highly unlikely'",
+   "line": "Trump would hold off if talks on Hormuz and the nuclear programme make progress",
+   "more": [
+    "Secretary of State Rubio called Iran's demands so far unacceptable",
+    "Brent traded near $98 during Indian hours"
+   ],
+   "src": {
+    "title": "Newswav: Oil prices extend losses on hopes of US-Iran breakthrough",
+    "url": "https://newswav.com/article/oil-prices-extend-losses-on-hopes-of-us-iran-breakthrough-A2611_qX5DEg"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-09",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-07",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "results-week",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "About 110 companies report on Wednesday",
+   "line": "Tata Power and Garden Reach Shipbuilders report when markets reopen on Nov 11",
+   "more": [
+    "HAL, Eicher Motors and Tata Motors PV report later in the week",
+    "Markets are shut on Tuesday Nov 10"
+   ],
+   "src": {
+    "title": "Upstox: Upcoming Q2 FY27 results this week",
+    "url": "https://upstox.com/news/market-news/earnings/upcoming-q2-fy-27-results-this-week-tata-motors-pv-vi-hal-eicher-motors-ashok-leyland-and-more-check-full-list/article-203166/"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-09",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-07",
+    "slot": "1400"
+   }
+  },
   {
    "key": "psu-banks",
    "tag": "Stocks",
@@ -105,7 +145,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1105"
@@ -129,7 +169,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1635"
@@ -154,7 +194,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1005"
@@ -233,31 +273,6 @@
    }
   },
   {
-   "key": "results-week",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Whirlpool, Olectra results due today",
-   "line": "Both report Q2 FY27 numbers today; about 110 companies report Wednesday",
-   "more": [
-    "Markets are shut on Tuesday Nov 10",
-    "HAL and Eicher Motors report later in the week"
-   ],
-   "src": {
-    "title": "Upstox: Upcoming Q2 FY27 results this week",
-    "url": "https://upstox.com/news/market-news/earnings/upcoming-q2-fy-27-results-this-week-tata-motors-pv-vi-hal-eicher-motors-ashok-leyland-and-more-check-full-list/article-203166/"
-   },
-   "thread": "q2-results-2026",
-   "date": "2026-11-09",
-   "slot": "1435",
-   "when": "14:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-07",
-    "slot": "1400"
-   }
-  },
-  {
    "key": "sector-rotation",
    "tag": "Stocks",
    "impact": "watch",
@@ -279,31 +294,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0955"
-   }
-  },
-  {
-   "key": "whirlpool-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Whirlpool of India reports Q2 today",
-   "line": "Q1 FY27 profit fell about 30% to ₹102.9 cr on higher costs; shares traded lower ahead",
-   "more": [
-    "A year ago, Q2 FY26 profit fell about 21% to about ₹41 cr",
-    "Q1 FY27 revenue rose about 12%"
-   ],
-   "src": {
-    "title": "Kotak Neo: Whirlpool India Q1 FY27 results — PAT falls 30% to ₹102.9 crore",
-    "url": "https://www.kotakneo.com/news/stocks/whirlpool-of-india-q1-fy-27-results-pat-down-30-percent/"
-   },
-   "thread": "q2-results-2026",
-   "date": "2026-11-09",
-   "slot": "1305",
-   "when": "13:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "1305"
    }
   },
   {
@@ -584,32 +574,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "1055"
-   }
-  },
-  {
-   "key": "iran-talks",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "US-Iran deal still out of reach",
-   "line": "Trump says a deal 'could happen'; US sets up a task force on Iran's land routes",
-   "more": [
-    "Iran downplayed the new US task force on its ground shipping routes",
-    "Iran's Revolutionary Guard said two tankers hit mines near Hormuz",
-    "Qatar's plan to reopen the strait has not been accepted by either side"
-   ],
-   "src": {
-    "title": "CBS News live updates: Iran downplays new U.S. task force aimed at disrupting ground transport routes",
-    "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-08",
-   "slot": "outlook",
-   "when": "Sun · Outlook",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-07",
-    "slot": "1400"
    }
   },
   {
