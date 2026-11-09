@@ -1,0 +1,163 @@
+{
+ "asof": "2026-11-09T10:38:00+05:30",
+ "summary": "Mildly lower and broad-based: IT selling leads the decline, midcaps and smallcaps trail the large caps, while banks and pharma limit the damage and volatility eases.",
+ "mood": {
+  "label": "IT drags, banks steady",
+  "score": -0.2,
+  "detail": {
+   "stats": [],
+   "leaders": "Pharma and bank stocks",
+   "laggards": "IT, led by HCLTech and Infosys, plus realty and smallcaps",
+   "movers": {
+    "up": {
+     "summary": "Pharma and banks are the market's support this morning",
+     "why": "Pharma is the strongest sector and bank stocks lead the Sensex gainers, offsetting part of the IT selling.",
+     "names": [
+      {
+       "name": "Nifty Pharma",
+       "move": "+0.69%",
+       "dir": "up",
+       "line": "Among the few sectors in the green, per Zee Business"
+      },
+      {
+       "name": "Bank stocks",
+       "dir": "up",
+       "line": "Led the Sensex gainers and are offering support, per Business Standard"
+      }
+     ],
+     "src": {
+      "title": "Zee Business: Stock Market Today — Sensex, Nifty trade lower; IT stocks drag, banking shares offer support",
+      "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-nifty-trade-lower-it-stocks-drag-banking-shares-offer-support-405303"
+     }
+    },
+    "down": {
+     "summary": "IT leads the fall, with realty and smallcaps also weak",
+     "why": "Blue-chip IT names are being sold most heavily, and the selling extends to realty and the smaller-cap indices.",
+     "names": [
+      {
+       "name": "HCLTech",
+       "move": "-2.08%",
+       "dir": "down",
+       "line": "The biggest laggard in the Nifty 50 this morning"
+      },
+      {
+       "name": "Infosys",
+       "move": "-1.46%",
+       "dir": "down",
+       "line": "Weighs on the index; one later snapshot had it down about 2.8%"
+      },
+      {
+       "name": "Nifty IT",
+       "move": "-1.47%",
+       "dir": "down",
+       "line": "The weakest major sector as blue-chip IT is sold"
+      },
+      {
+       "name": "Nifty Smallcap 100",
+       "move": "-0.64%",
+       "dir": "down",
+       "line": "Underperforms the large caps, per Business Standard's 10 am update"
+      }
+     ],
+     "src": {
+      "title": "Zee Business: Stock Market Today — Sensex, Nifty trade lower; IT stocks drag, banking shares offer support",
+      "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-nifty-trade-lower-it-stocks-drag-banking-shares-offer-support-405303"
+     }
+    }
+   },
+   "tone": "A live read on market behaviour rather than a fresh print: similar to the previous note, with the market holding a small loss in a narrow range. Volatility has eased sharply, which points to a calm, orderly dip rather than panic.",
+   "watch": [
+    "Whether IT selling spreads or stabilises",
+    "Whether banks keep supporting the market into the afternoon",
+    "Any Gulf headline moving crude before Tuesday's holiday"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; VIX drops 9%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   }
+  }
+ },
+ "metrics": {
+  "india_vix": {
+   "value": 16.77,
+   "asof": "10:00",
+   "approx": false,
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; VIX drops 9%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   }
+  }
+ },
+ "top": [
+  {
+   "key": "it-stocks",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Blue-chip IT sold for a second session",
+   "line": "HCLTech fell about 2% and Infosys about 1.5%; Nifty IT down about 1.5%",
+   "more": [
+    "HCLTech is the biggest Nifty 50 laggard",
+    "Bharti Airtel is also among the top losers",
+    "Follows weakness in global tech stocks last week"
+   ],
+   "thread": "it-sector",
+   "src": {
+    "title": "Zee Business: Stock Market Today — Sensex, Nifty trade lower; IT stocks drag, banking shares offer support",
+    "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-nifty-trade-lower-it-stocks-drag-banking-shares-offer-support-405303"
+   }
+  },
+  {
+   "key": "volatility",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "India VIX falls 9% to 16.77",
+   "line": "The volatility index eased sharply at 10 am even as stocks dipped",
+   "more": [
+    "Suggests an orderly pullback rather than panic",
+    "Comes after a sharp pre-Diwali rally and Sunday's Muhurat fade"
+   ],
+   "thread": "volatility",
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; VIX drops 9%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   }
+  },
+  {
+   "key": "broad-market",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Midcaps and smallcaps trail large caps",
+   "line": "Nifty Midcap 100 fell 0.4% and Smallcap 100 0.64% at 10 am",
+   "more": [
+    "Realty was the weakest sector early, down about 0.9%, per Trade Brains",
+    "FMCG, auto and metals also slipped in early trade"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; VIX drops 9%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; VIX drops 9%",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+  },
+  {
+   "title": "Zee Business: Stock Market Today — Sensex, Nifty trade lower; IT stocks drag, banking shares offer support",
+   "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-nifty-trade-lower-it-stocks-drag-banking-shares-offer-support-405303"
+  },
+  {
+   "title": "Equitymaster: Sensex today trades lower; HCL Tech, Bharti Airtel top losers",
+   "url": "https://equitymaster.com/indian-share-markets/11/09/2026/Sensex-Today-Trades-Lower--Nifty-Below-24500--HCL-Tech--Bharti-Airtel-Top-Losers"
+  },
+  {
+   "title": "ETV Bharat: Sensex, Nifty decline amid selling in blue-chip IT firms",
+   "url": "https://www.etvbharat.com/en/business/stock-market-on-november-9-2026-sensex-nifty50-crude-oil-prices-us-iran-enn26110900927"
+  },
+  {
+   "title": "Trade Brains: Sensex & Nifty 50 live updates, 9 November",
+   "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-9-november-gift-nifty-signals-positive-start-q2-earnings-and-fii-flows-in-focus-12794917"
+  }
+ ]
+}

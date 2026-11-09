@@ -1,85 +1,93 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-09T10:06:17+05:30",
+ "generated_at": "2026-11-09T10:36:45+05:30",
  "date": "2026-11-09",
- "slot": "1005",
- "slot_label": "10:05",
- "stage": "Opening mood",
- "asof": "2026-11-09T10:08:00+05:30",
- "nifty": {
-  "value": 24950,
-  "pct": -0.15,
-  "chg": -36,
-  "approx": true,
-  "asof_quote": "~10:00"
+ "slot": "1035",
+ "slot_label": "10:35",
+ "stage": "Mid-market mood",
+ "asof": "2026-11-09T10:38:00+05:30",
+ "metrics": {
+  "india_vix": {
+   "value": 16.77,
+   "asof": "10:00",
+   "approx": false,
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; VIX drops 9%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   }
+  }
  },
  "mood": {
-  "label": "Mild drift lower",
-  "score": -0.15,
-  "summary": "The market is drifting slightly lower in a narrow range, with IT heavyweights leading the losses while pharma provides some support.",
+  "label": "IT drags, banks steady",
+  "score": -0.2,
+  "summary": "Mildly lower and broad-based: IT selling leads the decline, midcaps and smallcaps trail the large caps, while banks and pharma limit the damage and volatility eases.",
   "detail": {
-   "leaders": "Pharma, led by Divi's Labs at a 52-week high",
-   "laggards": "IT heavyweights HCLTech, Infosys and TCS, plus Bharti Airtel",
-   "tone": "A live reading: weaker than the previous note, with the market slipping into a narrow, slightly negative range as traders weigh the US-Iran situation. IT is the clear drag.",
+   "leaders": "Pharma and bank stocks",
+   "laggards": "IT, led by HCLTech and Infosys, plus realty and smallcaps",
+   "tone": "A live read on market behaviour rather than a fresh print: similar to the previous note, with the market holding a small loss in a narrow range. Volatility has eased sharply, which points to a calm, orderly dip rather than panic.",
    "watch": [
-    "Whether IT selling deepens or stabilises",
-    "Whether metals pick up after strong Hindalco and Tata Steel results",
+    "Whether IT selling spreads or stabilises",
+    "Whether banks keep supporting the market into the afternoon",
     "Any Gulf headline moving crude before Tuesday's holiday"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; Divi's Labs shares hit 52-week high",
+    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; VIX drops 9%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Pharma is the main support, with Divi's Labs at a 52-week high",
-     "why": "Pharma stocks are holding up while most large caps drift, giving the market some defensive support.",
+     "summary": "Pharma and banks are the market's support this morning",
+     "why": "Pharma is the strongest sector and bank stocks lead the Sensex gainers, offsetting part of the IT selling.",
      "names": [
-      {
-       "name": "Divi's Labs",
-       "dir": "up",
-       "line": "Hit a 52-week high this morning"
-      },
       {
        "name": "Nifty Pharma",
        "dir": "up",
-       "move": "+0.93%",
-       "line": "The strongest sector in early trade, per Trade Brains' live blog"
+       "move": "+0.69%",
+       "line": "Among the few sectors in the green, per Zee Business"
+      },
+      {
+       "name": "Bank stocks",
+       "dir": "up",
+       "line": "Led the Sensex gainers and are offering support, per Business Standard"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; Divi's Labs shares hit 52-week high",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+      "title": "Zee Business: Stock Market Today — Sensex, Nifty trade lower; IT stocks drag, banking shares offer support",
+      "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-nifty-trade-lower-it-stocks-drag-banking-shares-offer-support-405303"
      }
     },
     "down": {
-     "summary": "IT heavyweights and Bharti Airtel lead the losers",
-     "why": "Large IT names are the biggest drag, extending the weakness in tech seen in global markets last week.",
+     "summary": "IT leads the fall, with realty and smallcaps also weak",
+     "why": "Blue-chip IT names are being sold most heavily, and the selling extends to realty and the smaller-cap indices.",
      "names": [
       {
        "name": "HCLTech",
        "dir": "down",
-       "line": "Among the top Nifty 50 losers this morning"
+       "move": "-2.08%",
+       "line": "The biggest laggard in the Nifty 50 this morning"
       },
       {
        "name": "Infosys",
        "dir": "down",
-       "line": "Among the top Sensex losers as IT stays weak"
+       "move": "-1.46%",
+       "line": "Weighs on the index; one later snapshot had it down about 2.8%"
       },
       {
-       "name": "TCS",
+       "name": "Nifty IT",
        "dir": "down",
-       "line": "Among the four IT names topping Sensex losers early"
+       "move": "-1.47%",
+       "line": "The weakest major sector as blue-chip IT is sold"
       },
       {
-       "name": "Bharti Airtel",
+       "name": "Nifty Smallcap 100",
        "dir": "down",
-       "line": "Among the top Nifty 50 losers this morning"
+       "move": "-0.64%",
+       "line": "Underperforms the large caps, per Business Standard's 10 am update"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; Divi's Labs shares hit 52-week high",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+      "title": "Zee Business: Stock Market Today — Sensex, Nifty trade lower; IT stocks drag, banking shares offer support",
+      "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-nifty-trade-lower-it-stocks-drag-banking-shares-offer-support-405303"
      }
     }
    }
@@ -90,25 +98,75 @@
    "key": "it-stocks",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "IT majors top the losers' list",
-   "line": "HCLTech, Tech Mahindra, Infosys and TCS were the top four Sensex losers early",
+   "title": "Blue-chip IT sold for a second session",
+   "line": "HCLTech fell about 2% and Infosys about 1.5%; Nifty IT down about 1.5%",
    "more": [
-    "Bharti Airtel also among the top Nifty 50 losers",
-    "Follows last week's global tech selloff"
+    "HCLTech is the biggest Nifty 50 laggard",
+    "Bharti Airtel is also among the top losers",
+    "Follows weakness in global tech stocks last week"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; Divi's Labs shares hit 52-week high",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+    "title": "Zee Business: Stock Market Today — Sensex, Nifty trade lower; IT stocks drag, banking shares offer support",
+    "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-nifty-trade-lower-it-stocks-drag-banking-shares-offer-support-405303"
    },
    "thread": "it-sector",
    "date": "2026-11-09",
-   "slot": "1005",
-   "when": "10:05",
-   "updated": false,
+   "slot": "1035",
+   "when": "10:35",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1005"
+   }
+  },
+  {
+   "key": "volatility",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "India VIX falls 9% to 16.77",
+   "line": "The volatility index eased sharply at 10 am even as stocks dipped",
+   "more": [
+    "Suggests an orderly pullback rather than panic",
+    "Comes after a sharp pre-Diwali rally and Sunday's Muhurat fade"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; VIX drops 9%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   },
+   "thread": "volatility",
+   "date": "2026-11-09",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "broad-market",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Midcaps and smallcaps trail large caps",
+   "line": "Nifty Midcap 100 fell 0.4% and Smallcap 100 0.64% at 10 am",
+   "more": [
+    "Realty was the weakest sector early, down about 0.9%, per Trade Brains",
+    "FMCG, auto and metals also slipped in early trade"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; VIX drops 9%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   },
+   "date": "2026-11-09",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "1035"
    }
   },
   {
@@ -129,7 +187,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1005"
@@ -154,7 +212,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-07",
     "slot": "1400"
