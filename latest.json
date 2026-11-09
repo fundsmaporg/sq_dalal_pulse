@@ -1,67 +1,81 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-09T15:36:52+05:30",
+ "generated_at": "2026-11-09T16:06:22+05:30",
  "date": "2026-11-09",
- "slot": "1535",
- "slot_label": "15:35",
- "stage": "Closing mood",
- "asof": "2026-11-09T15:38:00+05:30",
+ "slot": "1605",
+ "slot_label": "16:05",
+ "stage": "Post-market mood",
+ "asof": "2026-11-09T16:08:00+05:30",
+ "nifty": {
+  "value": 25044.65,
+  "pct": 0.23,
+  "chg": 58.25,
+  "approx": false
+ },
  "mood": {
-  "label": "Slight loss at the bell",
-  "score": -0.1,
-  "summary": "The session has just ended with the market a little below the flat line: IT profit-taking set the tone all day, while banks and pharma limited the damage before Tuesday's holiday.",
+  "label": "Banks rescue the day",
+  "score": 0.15,
+  "summary": "A late recovery lifted the market to a small gain at the close: banks and pharma rallied strongly enough to outweigh a day of heavy IT selling before Tuesday's holiday.",
   "detail": {
-   "leaders": "Banks and pharma",
-   "laggards": "IT",
-   "tone": "A read on market behaviour rather than a fresh print: the session has closed, but no closing figures were published yet when this was written. The market spent the afternoon above its lows with a small loss.",
+   "leaders": "PSU banks, pharma and banks broadly",
+   "laggards": "IT, led by HCLTech",
+   "tone": "A reading of the finished session: the market spent most of the day slightly lower but recovered later in the session to close modestly higher, unlike the previous note's reading, which expected a small loss before closing figures were out.",
    "watch": [
-    "The official closing figures and FII/DII flow data",
-    "Whirlpool of India and Olectra results after the bell",
-    "US October CPI on Tuesday, while Indian markets are shut"
+    "FII/DII provisional flow data for today",
+    "US October CPI on Tuesday, while Indian markets are shut",
+    "About 110 Q2 results when trading resumes on Wednesday"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty above 24,900; Nifty Bank rises 1%",
+    "title": "Business Standard: Stock Market Close — Sensex ends volatile trade 107 pts higher, Nifty at 25,045; PSU Bank index up 3%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Banks and pharma keep the market close to flat",
-     "why": "Bank stocks have firmed through the afternoon after a morning rally in state-run lenders, and pharma has held gains all day.",
+     "summary": "State-run banks, pharma and the wider bank index led the finish",
+     "why": "A broad rally in public-sector lenders, joined by pharma and the wider bank index, carried the market into positive territory.",
      "names": [
       {
-       "name": "Nifty Bank",
+       "name": "Nifty PSU Bank",
        "dir": "up",
-       "move": "+1%",
-       "line": "Up about 1% in the afternoon, per Business Standard"
+       "move": "+3.73%",
+       "line": "The day's top sector, with SBI, PNB and Canara among state lenders rallying"
       },
       {
        "name": "Nifty Pharma",
        "dir": "up",
-       "line": "Has held gains through the session"
+       "move": "+1.65%",
+       "line": "Steady buying in drug stocks through the session"
+      },
+      {
+       "name": "Nifty Bank",
+       "dir": "up",
+       "move": "+1.51%",
+       "line": "Bank stocks firmed in the afternoon and powered the late recovery"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty above 24,900; Nifty Bank rises 1%",
+      "title": "Business Standard: Stock Market Close — Sensex ends volatile trade 107 pts higher, Nifty at 25,045; PSU Bank index up 3%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
      }
     },
     "down": {
-     "summary": "IT is still the day's heaviest drag",
-     "why": "Profit-taking in IT after a strong month has weighed on the benchmarks all session.",
+     "summary": "IT was the main drag all day, with HCLTech the worst Sensex stock",
+     "why": "Profit-taking in IT after a sharp month-long rally weighed on the benchmarks from the open.",
      "names": [
-      {
-       "name": "Nifty IT",
-       "dir": "down",
-       "line": "The weakest sector of the day"
-      },
       {
        "name": "HCLTech",
        "dir": "down",
-       "line": "The biggest Nifty 50 drag through the session"
+       "move": "-2.74%",
+       "line": "The biggest Sensex laggard of the day"
+      },
+      {
+       "name": "Nifty IT",
+       "dir": "down",
+       "line": "The main drag on the indices, per Zee Business"
       }
      ],
      "src": {
-      "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty above 24,900; Nifty Bank rises 1%",
+      "title": "Business Standard: Stock Market Close — Sensex ends volatile trade 107 pts higher, Nifty at 25,045; PSU Bank index up 3%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
      }
     }
@@ -70,28 +84,100 @@
  },
  "insights": [
   {
+   "key": "psu-banks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PSU banks lead with the day's best gain",
+   "line": "State-run lenders rallied all day and carried the market to a positive close",
+   "more": [
+    "SBI, PNB, Canara, Bank of India, Indian Bank and Union Bank each rose about 3% intraday",
+    "Pharma and the broader bank index also closed strongly higher"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market Close — Sensex ends volatile trade 107 pts higher, Nifty at 25,045; PSU Bank index up 3%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   },
+   "date": "2026-11-09",
+   "slot": "1605",
+   "when": "16:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "1105"
+   }
+  },
+  {
    "key": "it-stocks",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "IT set to end as the day's weakest sector",
-   "line": "IT profit-taking has weighed on the market from the open",
+   "title": "IT ends as the main drag; HCLTech down 2.7%",
+   "line": "HCLTech was the biggest Sensex laggard as IT profit-taking continued all day",
    "more": [
-    "HCLTech, Infosys, TCS and Tech Mahindra led the losses",
-    "Follows a sharp month-long IT rally"
+    "Infosys, TCS and Tech Mahindra were among the top losers earlier in the day",
+    "Follows a sharp month-long rally in IT stocks"
    ],
    "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty above 24,900; Nifty Bank rises 1%",
+    "title": "Business Standard: Stock Market Close — Sensex ends volatile trade 107 pts higher, Nifty at 25,045; PSU Bank index up 3%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
    },
    "thread": "it-sector",
    "date": "2026-11-09",
-   "slot": "1535",
-   "when": "15:35",
+   "slot": "1605",
+   "when": "16:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1005"
+   }
+  },
+  {
+   "key": "broad-market",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Nifty Next 50 outperforms the benchmarks",
+   "line": "The Nifty Next 50 gained more than the main indices; midcaps and smallcaps were mixed",
+   "more": [
+    "The Nifty 500 also closed higher",
+    "The benchmarks themselves closed with smaller gains"
+   ],
+   "src": {
+    "title": "Business Standard: Stock Market Close — Sensex ends volatile trade 107 pts higher, Nifty at 25,045; PSU Bank index up 3%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
+   },
+   "date": "2026-11-09",
+   "slot": "1605",
+   "when": "16:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "holiday-calendar",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Market shut Tuesday; reopens Wednesday",
+   "line": "NSE and BSE close on Tuesday Nov 10; about 110 companies report on Wednesday",
+   "more": [
+    "Holiday for Diwali Balipratipada",
+    "Tata Power and Garden Reach Shipbuilders report on Nov 11"
+   ],
+   "src": {
+    "title": "Upstox: Upcoming Q2 FY27 results this week",
+    "url": "https://upstox.com/news/market-news/earnings/upcoming-q2-fy-27-results-this-week-tata-motors-pv-vi-hal-eicher-motors-ashok-leyland-and-more-check-full-list/article-203166/"
+   },
+   "date": "2026-11-09",
+   "slot": "1605",
+   "when": "16:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "1625"
    }
   },
   {
@@ -112,34 +198,10 @@
    "slot": "1535",
    "when": "15:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1435"
-   }
-  },
-  {
-   "key": "holiday-calendar",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Market shut Tuesday; trading resumes Wednesday",
-   "line": "NSE and BSE are closed on Tuesday Nov 10; about 110 firms report results on Wednesday",
-   "more": [
-    "Holiday for Diwali Balipratipada",
-    "Tata Power and Garden Reach Shipbuilders report on Nov 11"
-   ],
-   "src": {
-    "title": "Upstox: Upcoming Q2 FY27 results this week",
-    "url": "https://upstox.com/news/market-news/earnings/upcoming-q2-fy-27-results-this-week-tata-motors-pv-vi-hal-eicher-motors-ashok-leyland-and-more-check-full-list/article-203166/"
-   },
-   "date": "2026-11-09",
-   "slot": "1535",
-   "when": "15:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1625"
    }
   },
   {
@@ -241,30 +303,6 @@
    }
   },
   {
-   "key": "psu-banks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "PSU bank rally holds into midday",
-   "line": "SBI, PNB, Canara, Bank of India, Indian Bank and Union Bank each up about 3%",
-   "more": [
-    "The PSU Bank index was the top sector gainer through the morning",
-    "Provides the main offset to IT selling"
-   ],
-   "src": {
-    "title": "Business Standard: PSU banks in focus; SBI, BOI, PNB, Indian Bank, Canara, UBI gain up to 3%",
-    "url": "https://www.business-standard.com/markets/news/psu-banks-in-focus-sbi-boi-pnb-indian-bank-canara-ubi-gain-up-to-3-126110900233_1.html"
-   },
-   "date": "2026-11-09",
-   "slot": "1235",
-   "when": "12:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "1105"
-   }
-  },
-  {
    "key": "volatility",
    "tag": "Macro",
    "impact": "watch",
@@ -283,30 +321,6 @@
    "slot": "1105",
    "when": "11:05",
    "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "1035"
-   }
-  },
-  {
-   "key": "broad-market",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Midcaps and smallcaps trail large caps",
-   "line": "Broader indices are falling more than the benchmarks, with smallcaps weakest",
-   "more": [
-    "Realty was the weakest sector early, down about 0.9%, per Trade Brains",
-    "FMCG, auto and metals also slipped in early trade"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex down 100 pts, Nifty around 24,950; VIX drops 9%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
-   },
-   "date": "2026-11-09",
-   "slot": "1035",
-   "when": "10:35",
-   "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
