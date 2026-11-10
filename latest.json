@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-09T21:00:37+05:30",
- "date": "2026-11-09",
- "slot": "2100",
- "slot_label": "21:00",
- "stage": "Evening wrap",
- "asof": "2026-11-09T21:05:00+05:30",
+ "generated_at": "2026-11-10T08:46:20+05:30",
+ "date": "2026-11-10",
+ "slot": "0845",
+ "slot_label": "8:45",
+ "stage": "Pre-market mood",
+ "asof": "2026-11-10T08:50:00+05:30",
  "nifty": {
   "value": 25044.65,
   "pct": 0.23,
@@ -13,45 +13,138 @@
   "approx": false
  },
  "metrics": {
-  "fii_net_cr": {
-   "value": 7212.22,
-   "asof": "Nov 9 provisional",
+  "brent_usd": {
+   "value": 92.33,
+   "asof": "Tue Nov 10, Asian trade",
    "approx": false,
    "src": {
-    "title": "Kotak Neo: FII DII data — today's FII & DII activities on NSE & BSE",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
-   }
-  },
-  "dii_net_cr": {
-   "value": -7172.53,
-   "asof": "Nov 9 provisional",
-   "approx": false,
-   "src": {
-    "title": "Kotak Neo: FII DII data — today's FII & DII activities on NSE & BSE",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+    "title": "Business Recorder: Oil falls as Trump downplays prospect of escalation with Iran",
+    "url": "https://www.brecorder.com/news/40448220/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran"
    }
   }
  },
  "mood": {
-  "label": "Constructive into Wednesday",
-  "score": 0.35,
-  "summary": "The setup for Wednesday's reopening is supportive: foreign investors kept buying, Wall Street is rallying and oil is sliding, though US inflation data on Tuesday is a hurdle.",
+  "label": "Market closed",
+  "score": 0.4,
+  "summary": "Indian markets are shut today; when they reopen on Wednesday, a strong Wall Street rally and sharply cheaper oil point to a supportive start, with US inflation data the key test overnight.",
   "detail": {
-   "leaders": "Banks, after today's rally, and oil importers if crude stays lower",
-   "laggards": "IT, after today's profit-taking, and Whirlpool of India after its weak quarter",
-   "tone": "A forward-looking read: the market closed modestly higher today, and the evening has brought firmer global cues. Indian markets are shut on Tuesday, so the next session is Wednesday Nov 11.",
+   "leaders": "Oil importers and banks, if cheaper crude and foreign buying carry over",
+   "laggards": "IT, which was sold heavily before the holiday",
+   "tone": "A forward-looking read: NSE and BSE are closed today for Diwali Balipratipada. The next session is Wednesday Nov 11, which follows a firm global night and today's US October CPI release.",
    "watch": [
-    "US October CPI on Tuesday, while Indian markets are shut",
+    "US October CPI, due tonight India time, for its read on a December Fed hike",
     "Whether oil's slide holds as US-Iran talks continue",
-    "About 110 Q2 results on Wednesday"
+    "About 110 Q2 results when trading resumes on Wednesday"
    ],
    "src": {
-    "title": "JournalArta: Stock Market Today — S&P 500 +1.3%, Nasdaq +1.6% as oil falls (Nov 9)",
-    "url": "https://journalarta.com/en/2026/11/09/stock-market-today-sp-500-rises-1-3-and-nasdaq-1-6-at-the-open-as-oil-slides-and-amd-jumps/"
+    "title": "Washington Post (AP): How major US stock indexes fared Monday 11/9/2026",
+    "url": "https://www.washingtonpost.com/business/2026/11/09/wall-street-stocks-dow-nasdaq/d2094ae0-dc83-11f1-912c-4fbb80d73f7f_story.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "S&P 500 has its best day since April",
+   "line": "S&P 500 closed up 2.35% and the Nasdaq 2.74% as oil prices tumbled",
+   "more": [
+    "The Dow rose 2.15%",
+    "Nvidia fell even as the broader market rallied",
+    "Rebound follows the S&P 500's worst week since April 2025"
+   ],
+   "src": {
+    "title": "Washington Post (AP): How major US stock indexes fared Monday 11/9/2026",
+    "url": "https://www.washingtonpost.com/business/2026/11/09/wall-street-stocks-dow-nasdaq/d2094ae0-dc83-11f1-912c-4fbb80d73f7f_story.html"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-10",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Brent falls to about $92 on Iran hopes",
+   "line": "Brent dropped about 5% on Monday and eased further in Asia on Tuesday",
+   "more": [
+    "Brent was at $92.33 in Asian trade on Tuesday",
+    "Trump said US military action against Iran was not needed for now",
+    "Deutsche Bank warns oil could rebound if talks stall"
+   ],
+   "src": {
+    "title": "Business Recorder: Oil falls as Trump downplays prospect of escalation with Iran",
+    "url": "https://www.brecorder.com/news/40448220/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-10",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-04",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "us-cpi",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "US October CPI due tonight",
+   "line": "Forecasters see energy lifting headline inflation; core seen near 0.2% a month",
+   "more": [
+    "September CPI came in at 3.7%",
+    "A firm core reading could revive bets on a December Fed hike",
+    "Release is at 8:30 am New York time"
+   ],
+   "src": {
+    "title": "investingLive: US CPI preview — 14 investment bank forecasters see energy lifting headline to 3.6%",
+    "url": "https://investinglive.com/news/us-cpi-preview-14-investment-bank-forecasters-see-energy-lifting-headline-to-3-6-core-held-near-0-2/"
+   },
+   "thread": "us-rates",
+   "date": "2026-11-10",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-10",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "holiday-calendar",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Markets shut today; reopen Wednesday",
+   "line": "NSE and BSE are closed for Diwali Balipratipada; about 110 firms report on Wednesday",
+   "more": [
+    "Tata Power and Garden Reach Shipbuilders report on Nov 11",
+    "HAL and Eicher Motors report later in the week"
+   ],
+   "src": {
+    "title": "Upstox: Upcoming Q2 FY27 results this week",
+    "url": "https://upstox.com/news/market-news/earnings/upcoming-q2-fy-27-results-this-week-tata-motors-pv-vi-hal-eicher-motors-ashok-leyland-and-more-check-full-list/article-203166/"
+   },
+   "date": "2026-11-10",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "1625"
+   }
+  },
   {
    "key": "fii-flows",
    "tag": "Flows",
@@ -70,62 +163,11 @@
    "thread": "fii-flows",
    "date": "2026-11-09",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Mon · 21:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Wall Street rallies as oil falls",
-   "line": "S&P 500 up about 1.3% and Nasdaq about 1.6% in early trade; Dow up about 640 points",
-   "more": [
-    "AMD jumped about 11%; Nvidia fell on reports about its CEO",
-    "Oil dropped on US-Iran peace hopes",
-    "US October CPI is due on Tuesday"
-   ],
-   "src": {
-    "title": "JournalArta: Stock Market Today — S&P 500 +1.3%, Nasdaq +1.6% as oil falls (Nov 9)",
-    "url": "https://journalarta.com/en/2026/11/09/stock-market-today-sp-500-rises-1-3-and-nasdaq-1-6-at-the-open-as-oil-slides-and-amd-jumps/"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-09",
-   "slot": "2100",
-   "when": "21:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Oil slides on Iran peace hopes",
-   "line": "Crude fell sharply on Monday as traders bet on a US-Iran deal",
-   "more": [
-    "One report put the drop at about 5%",
-    "Cheaper oil helps India's import bill"
-   ],
-   "src": {
-    "title": "Coinpaper: Stock Market Today — Dow jumps 540 points, S&P 500 rallies as oil crashes 5%",
-    "url": "https://coinpaper.com/38565/stock-market-today-dow-jumps-540-points-s-and-p-500-rallies-as-oil-crashes-5"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-09",
-   "slot": "2100",
-   "when": "21:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "slot": "0700"
    }
   },
@@ -155,7 +197,7 @@
    },
    "date": "2026-11-09",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Mon · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -180,7 +222,7 @@
    "thread": "crude-iran-war",
    "date": "2026-11-09",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Mon · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -205,7 +247,7 @@
    "thread": "q2-results-2026",
    "date": "2026-11-09",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Mon · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -229,7 +271,7 @@
    },
    "date": "2026-11-09",
    "slot": "1635",
-   "when": "16:35",
+   "when": "Mon · 16:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -253,7 +295,7 @@
    },
    "date": "2026-11-09",
    "slot": "1635",
-   "when": "16:35",
+   "when": "Mon · 16:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -278,7 +320,7 @@
    "thread": "it-sector",
    "date": "2026-11-09",
    "slot": "1635",
-   "when": "16:35",
+   "when": "Mon · 16:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -302,36 +344,12 @@
    },
    "date": "2026-11-09",
    "slot": "1605",
-   "when": "16:05",
+   "when": "Mon · 16:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1035"
-   }
-  },
-  {
-   "key": "holiday-calendar",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Market shut Tuesday; reopens Wednesday",
-   "line": "NSE and BSE close on Tuesday Nov 10; about 110 companies report on Wednesday",
-   "more": [
-    "Holiday for Diwali Balipratipada",
-    "Tata Power and Garden Reach Shipbuilders report on Nov 11"
-   ],
-   "src": {
-    "title": "Upstox: Upcoming Q2 FY27 results this week",
-    "url": "https://upstox.com/news/market-news/earnings/upcoming-q2-fy-27-results-this-week-tata-motors-pv-vi-hal-eicher-motors-ashok-leyland-and-more-check-full-list/article-203166/"
-   },
-   "date": "2026-11-09",
-   "slot": "1605",
-   "when": "16:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1625"
    }
   },
   {
@@ -350,7 +368,7 @@
    },
    "date": "2026-11-09",
    "slot": "1535",
-   "when": "15:35",
+   "when": "Mon · 15:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -374,7 +392,7 @@
    },
    "date": "2026-11-09",
    "slot": "1405",
-   "when": "14:05",
+   "when": "Mon · 14:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -398,7 +416,7 @@
    },
    "date": "2026-11-09",
    "slot": "1305",
-   "when": "13:05",
+   "when": "Mon · 13:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -423,7 +441,7 @@
    "thread": "volatility",
    "date": "2026-11-09",
    "slot": "1105",
-   "when": "11:05",
+   "when": "Mon · 11:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -447,7 +465,7 @@
    },
    "date": "2026-11-09",
    "slot": "1005",
-   "when": "10:05",
+   "when": "Mon · 10:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -472,7 +490,7 @@
    "thread": "q2-results-2026",
    "date": "2026-11-09",
    "slot": "0925",
-   "when": "9:25",
+   "when": "Mon · 9:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -497,11 +515,11 @@
    },
    "date": "2026-11-09",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Mon · 8:45",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-03",
+    "date": "2026-11-06",
     "slot": "0845"
    }
   },
@@ -529,7 +547,7 @@
    },
    "date": "2026-11-09",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Mon · 8:45",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -554,7 +572,7 @@
    "thread": "crude-iran-war",
    "date": "2026-11-09",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Mon · 8:45",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -578,7 +596,7 @@
    },
    "date": "2026-11-09",
    "slot": "0700",
-   "when": "7:00",
+   "when": "Mon · 7:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -603,7 +621,7 @@
    "thread": "rupee",
    "date": "2026-11-09",
    "slot": "0700",
-   "when": "7:00",
+   "when": "Mon · 7:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -901,8 +919,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1025"
+    "date": "2026-11-05",
+    "slot": "0845"
    }
   },
   {
@@ -1196,8 +1214,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0845"
+    "date": "2026-11-04",
+    "slot": "0700"
    }
   },
   {
@@ -2163,11 +2181,11 @@
    "date": "2026-11-04",
    "slot": "1155",
    "when": "Wed · 11:55",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0700"
+    "date": "2026-11-04",
+    "slot": "1155"
    }
   },
   {
@@ -2214,8 +2232,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1455"
+    "date": "2026-11-04",
+    "slot": "0845"
    }
   },
   {
@@ -2240,536 +2258,6 @@
    "first_seen": {
     "date": "2026-11-04",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "nse-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "NSE Q2 profit up 23% to ₹2,578 cr",
-   "line": "First results since listing; consolidated total income up ~9% to ₹4,554 cr",
-   "more": [
-    "Standalone PAT up 16% to ₹2,164 cr",
-    "H1 profit up 13% to ₹5,698 cr",
-    "Year-ago base was hit by a ₹1,297 cr SEBI settlement provision"
-   ],
-   "src": {
-    "title": "Investywise: NSE reports 23% profit growth in Q2 FY27 to ₹2,578 crore",
-    "url": "https://www.investywise.com/nse-reports-strong-financial-results-for-q2fy27"
-   },
-   "date": "2026-11-03",
-   "slot": "1800",
-   "when": "Tue · 18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1325"
-   }
-  },
-  {
-   "key": "powergrid-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Power Grid Q2 profit up 8%; ₹3 dividend",
-   "line": "Consolidated profit ₹3,866.16 cr; record date for interim dividend Nov 6",
-   "more": [
-    "Stock was among Tuesday's Nifty losers",
-    "First interim dividend for FY27"
-   ],
-   "src": {
-    "title": "IndiaIPO: Power Grid Q2 profit up 8%; ₹3 interim dividend",
-    "url": "https://www.indiaipo.in/news/detail/power-grid-corporation-of-india-q2-results-net-profit-up-8-approves-3-interim-dividend"
-   },
-   "date": "2026-11-03",
-   "slot": "1800",
-   "when": "Tue · 18:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1800"
-   }
-  },
-  {
-   "key": "broader-market",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Mid- and smallcaps close higher",
-   "line": "Nifty Midcap rose ~0.8–1.1% and Smallcap ~0.3–0.6%, per differing reports",
-   "more": [
-    "BSE among top Nifty-linked gainers",
-    "Power Grid, Adani Enterprises, Tata Steel, NTPC among losers"
-   ],
-   "src": {
-    "title": "DSIJ: Closing Bell — Sensex surges 1,200 points as FMCG and banking stocks rally",
-    "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-surges-1200-points-nifty-50-closes-above-23800-as-fmcg-and-banking-stocks-rally-60291"
-   },
-   "date": "2026-11-03",
-   "slot": "1625",
-   "when": "Tue · 16:25",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1625"
-   }
-  },
-  {
-   "key": "fmcg-lead",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "FMCG jumps 3%, top sector for the day",
-   "line": "Staples led the fourth straight gain as money rotated away from the global AI trade",
-   "more": [
-    "Marico's Q2 beat and guidance upgrade set the tone",
-    "Nestle India also among leaders"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market Close — Sensex rises for 4th day, up 1,225 pts, Nifty at 23,811; FMCG top gainer",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
-   },
-   "date": "2026-11-03",
-   "slot": "1555",
-   "when": "Tue · 15:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1055"
-   }
-  },
-  {
-   "key": "psu-bank-lag",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "PSU banks the weakest sector",
-   "line": "Nifty PSU Bank declined the most as SBI's results failed to spark buying",
-   "more": [
-    "SBI Q2 profit +14.3% to ₹23,038 cr",
-    "Stock was flat at ₹987.50 after the numbers"
-   ],
-   "src": {
-    "title": "Upstox: Q2 results live — SBI profit climbs 14% to ₹23,038 crore",
-    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-nse-sbi-mcx-lupin-bajaj-finserv-solar-industries-others-to-report-earnings/liveblog-202868/"
-   },
-   "date": "2026-11-03",
-   "slot": "1555",
-   "when": "Tue · 15:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1555"
-   }
-  },
-  {
-   "key": "rally-run",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "Fourth straight gain for the market",
-   "line": "Rally rests on cheaper crude, Q2 beats and FII buying; analysts flag profit-taking risk",
-   "more": [
-    "Sensex had gained ~3,325 pts over the prior four sessions",
-    "Some analysts call it a rebound, not yet a reversal"
-   ],
-   "src": {
-    "title": "Business Standard: Sensex gains 1,024 pts, Nifty at 23,732 in closing auction session",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
-   },
-   "date": "2026-11-03",
-   "slot": "1525",
-   "when": "Tue · 15:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1255"
-   }
-  },
-  {
-   "key": "sbi-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "SBI shares flat after Q2 numbers",
-   "line": "Stock at ₹987.50 (+0.05%) at 2:24 pm after giving up a pre-results gain of ~1%",
-   "more": [
-    "Profit up 14.3% to ₹23,038 cr",
-    "Estimates disagree on whether it beat"
-   ],
-   "src": {
-    "title": "Upstox: Q2 results live — SBI profit climbs 14% to ₹23,038 crore",
-    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-nse-sbi-mcx-lupin-bajaj-finserv-solar-industries-others-to-report-earnings/liveblog-202868/"
-   },
-   "date": "2026-11-03",
-   "slot": "1455",
-   "when": "Tue · 14:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1355"
-   }
-  },
-  {
-   "key": "sector-split",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "FMCG, realty lead; IT, metals lag",
-   "line": "Sector rotation into staples and property continues while tech and metals slip",
-   "more": [
-    "Mid- and smallcap indices also higher",
-    "Per Business Standard's 2 pm update"
-   ],
-   "src": {
-    "title": "Business Standard: Sensex surges 900 pts, Nifty above 23,600; MCX shares jump 9% ahead of Q2",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
-   },
-   "date": "2026-11-03",
-   "slot": "1455",
-   "when": "Tue · 14:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1455"
-   }
-  },
-  {
-   "key": "solar-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Solar Industries Q2 profit ₹617 cr; Omnia deal",
-   "line": "Revenue ₹3,518.82 cr; announces $1.35 bn acquisition of South Africa's Omnia",
-   "more": [
-    "Single-source figures; check the filing",
-    "Defence explosives maker is a Nifty Defence constituent"
-   ],
-   "src": {
-    "title": "Whalesbook: Solar Industries Q2 profit ₹617 crore; acquires Omnia Holdings",
-    "url": "https://www.whalesbook.com/corporate-news/English/industrial-goodsservices/Solar-Industries-Q2-Profit-Rises-to-Rs-617-Crore-Acquires-Omnia-Holdings/6ae99c1fc6c6dccbb91031d1"
-   },
-   "date": "2026-11-03",
-   "slot": "1425",
-   "when": "Tue · 14:25",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1425"
-   }
-  },
-  {
-   "key": "bajaj-finserv-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Bajaj Finserv Q2 profit up 23%",
-   "line": "Consolidated PAT ₹2,757.66 cr, up 22.88%; revenue +16.66% to ₹43,415.65 cr",
-   "more": [
-    "Bajaj Finance PAT up 29% to ₹6,367 cr",
-    "AUM up 26% to ₹5.84 lakh cr"
-   ],
-   "src": {
-    "title": "Upstox: Bajaj Finserv Q2 profit rises 23% to ₹2,758 crore",
-    "url": "https://upstox.com/news/market-news/earnings/bajaj-finserv-q2-profit-rises-23-to-2-758-crore-revenue-climbs-17/article-202882/"
-   },
-   "date": "2026-11-03",
-   "slot": "1355",
-   "when": "Tue · 13:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1355"
-   }
-  },
-  {
-   "key": "hormuz-talks",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Iran sets conditions for Hormuz reopening",
-   "line": "Asks include ending the war, unfreezing assets and lifting oil sanctions",
-   "more": [
-    "Talks run through Qatar and Pakistan",
-    "Trump says he is not considering strikes on Iran after the midterms"
-   ],
-   "src": {
-    "title": "24/7 Wall St: Iran attaches conditions to Hormuz reopening",
-    "url": "https://247wallst.com/cards/xpost-01m6earsf82khtrnw4tzn4eabb"
-   },
-   "date": "2026-11-03",
-   "slot": "1255",
-   "when": "Tue · 12:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1255"
-   }
-  },
-  {
-   "key": "ai-trade-unwind",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "AI-trade unwind favours Indian staples",
-   "line": "Staples, chemicals and IT lead as the global AI trade unwinds, per Business Standard",
-   "more": [
-    "Asia tech fell; India rallied",
-    "Shriram Finance also among top Nifty gainers"
-   ],
-   "src": {
-    "title": "Business Standard: Sensex surges 900 pts, Nifty tops 23,650; Asian Paints, HDFC Bank top gainers",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
-   },
-   "date": "2026-11-03",
-   "slot": "1225",
-   "when": "Tue · 12:25",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1225"
-   }
-  },
-  {
-   "key": "hdfc-bank-gains",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "HDFC Bank among top Sensex gainers",
-   "line": "Asian Paints and HDFC Bank named top gainers in the midday update",
-   "more": [
-    "HDFC Bank was up 1.61% at the open",
-    "No specific trigger reported"
-   ],
-   "src": {
-    "title": "Business Standard: Sensex surges 900 pts, Nifty tops 23,650; Asian Paints, HDFC Bank top gainers",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html"
-   },
-   "date": "2026-11-03",
-   "slot": "1225",
-   "when": "Tue · 12:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1055"
-   }
-  },
-  {
-   "key": "vrl-krbl",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "VRL Logistics, KRBL rally on Q2",
-   "line": "VRL up ~7.3% on a 106% profit jump and buyback; KRBL ~5.2% on 51% profit growth",
-   "more": [
-    "Per ScanX's results round-up",
-    "Timing of the moves not stated"
-   ],
-   "src": {
-    "title": "ScanX: Stocks to watch, Nov 3 — Marico, Petronet LNG, KRBL, VRL",
-    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-november-3-2026-marico-petronet-lng-krbl-wockhardt/55215394"
-   },
-   "date": "2026-11-03",
-   "slot": "1155",
-   "when": "Tue · 11:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1155"
-   }
-  },
-  {
-   "key": "marico-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Marico jumps up to 8% as brokers revise targets",
-   "line": "Shares hit ₹865 (+8.4%); Q2 EBITDA up 27% to ₹709 cr on 13% revenue growth",
-   "more": [
-    "CLSA, Morgan Stanley and Jefferies updated targets after results",
-    "Previous close ₹797.90"
-   ],
-   "src": {
-    "title": "BusinessToday: Marico shares jump 8% after Q2; CLSA, Morgan Stanley, Jefferies targets",
-    "url": "https://www.businesstoday.in/markets/stocks/story/marico-shares-jump-8-after-q2-results-clsa-morgan-stanley-jefferies-share-targets-565297-2026-11-03"
-   },
-   "date": "2026-11-03",
-   "slot": "1125",
-   "when": "Tue · 11:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0925"
-   }
-  },
-  {
-   "key": "ipo-listings",
-   "tag": "Listing",
-   "impact": "pos",
-   "title": "BLS Polymers lists at 65% premium",
-   "line": "Opened at ₹248 on NSE vs ₹150 issue price; extended to ₹258.60 on BSE",
-   "more": [
-    "BSE listing at ₹244.10 (+62.73%)",
-    "₹255 cr issue was subscribed 241.22 times"
-   ],
-   "src": {
-    "title": "Business Standard: BLS Polymers IPO investors gain 65% on debut",
-    "url": "https://www.business-standard.com/amp/markets/news/bls-polymers-ipo-investors-gain-65-as-shares-make-strong-debut-on-bourses-126110300366_1.html"
-   },
-   "date": "2026-11-03",
-   "slot": "1025",
-   "when": "Tue · 10:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "indigo-q2",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IndiGo extends gains on Q2 and oil",
-   "line": "Up ~5% over two sessions after a Q2 beat; new aviation rules also in focus",
-   "more": [
-    "Crude's 7% fall on Monday helps airline margins",
-    "Bharatiya Vayuyan Niyam, 2026 rules start in 2027"
-   ],
-   "src": {
-    "title": "Business Standard: IndiGo up 5% in 2 sessions on Q2, softer oil, new aviation rules",
-    "url": "https://business-standard.com/markets/news/indigo-up-5-in-2-sessions-on-q2-softer-oil-new-aviation-rules-in-focus-126110200347_1.html"
-   },
-   "date": "2026-11-03",
-   "slot": "1025",
-   "when": "Tue · 10:25",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "1025"
-   }
-  },
-  {
-   "key": "lupin-usfda",
-   "tag": "Regulation",
-   "impact": "pos",
-   "title": "Lupin gets USFDA nod for Risperidone LAI",
-   "line": "Approval for long-acting injectable Risperidone lifts the stock over 2%",
-   "more": [
-    "Reported by HDFC Sky",
-    "In focus on Tuesday's watch lists"
-   ],
-   "src": {
-    "title": "HDFC Sky: Lupin secures USFDA nod for Risperidone long-acting injectable",
-    "url": "https://hdfcsky.com/news/lupin-secures-usfda-nod-for-risperidone-long-acting-injectable"
-   },
-   "date": "2026-11-03",
-   "slot": "0955",
-   "when": "Tue · 9:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0955"
-   }
-  },
-  {
-   "key": "hormuz-attacks",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "US strikes Iran's Qeshm Island",
-   "line": "US hit radar and missile launchers in what officials called 'defensive' strikes",
-   "more": [
-    "Comes as Qatar-led peace talks continue",
-    "Iran has not confirmed the source of reported explosions",
-    "Oil rose in early Asian trade on the reports"
-   ],
-   "src": {
-    "title": "The Hill: US military launches 'defensive' attacks on Iran's Qeshm Island",
-    "url": "https://thehill.com/policy/defense/6190947-us-strikes-iranian-radar-missiles/"
-   },
-   "date": "2026-11-03",
-   "slot": "0845",
-   "when": "Tue · 8:45",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "order-wins",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "GRSE, NBCC win orders; Lupin gets USFDA nod",
-   "line": "GRSE gets ₹320 cr Navy corvette order; NBCC bags ₹71 cr of EPC work",
-   "more": [
-    "Lupin in focus after a USFDA approval",
-    "NMDC in focus on October production data"
-   ],
-   "src": {
-    "title": "Zee Business: Stocks to watch, Nov 3 — ITC, Marico, Lupin, GRSE, NBCC, NMDC",
-    "url": "https://www.zeebiz.com/market-news/news-stocks-to-watch-today-november-3-itc-marico-lupin-garden-reach-nbcc-nmdc-and-others-in-focus-404979"
-   },
-   "date": "2026-11-03",
-   "slot": "0845",
-   "when": "Tue · 8:45",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "petronet-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Petronet LNG profit up ~53%; ₹7 dividend",
-   "line": "Standalone PAT ₹1,235 cr vs ₹806 cr; LNG throughput 231 TBTU",
-   "more": [
-    "Dahej utilisation 73% vs 92% a year ago",
-    "Stock closed ₹300.95 (+3.96%) before results"
-   ],
-   "src": {
-    "title": "BW Businessworld: Petronet LNG Q2 profit soars 51% amid Hormuz crisis",
-    "url": "https://www.businessworld.in/article/petronet-lng-q2-net-profit-soars-51-to-rs-1-256-cr-amid-hormuz-crisis-631734"
-   },
-   "date": "2026-11-03",
-   "slot": "0700",
-   "when": "Tue · 7:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "nalco-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "NALCO profit dips 8% QoQ; margin narrows",
-   "line": "Consolidated profit ₹1,835 cr vs ₹2,003 cr in Q1; EBITDA margin down ~660 bps",
-   "more": [
-    "Interim dividend ₹4.50; record date Nov 6",
-    "Single-source figures; check the filing"
-   ],
-   "src": {
-    "title": "10bmnews: NALCO Q2 — ₹4.5 dividend, profit slips, margin shrinks",
-    "url": "https://10bmnews.com/nalco-q2-results-rs-4-5-dividend-declared-but-profit-slip-660-bps-margin-shrink-may-alarm-investors/"
-   },
-   "date": "2026-11-03",
-   "slot": "0700",
-   "when": "Tue · 7:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-03",
-    "slot": "0700"
    }
   }
  ]
