@@ -1,70 +1,186 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-11T13:06:21+05:30",
+ "generated_at": "2026-11-11T13:37:22+05:30",
  "date": "2026-11-11",
- "slot": "1305",
- "slot_label": "13:05",
+ "slot": "1335",
+ "slot_label": "13:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-11T13:05:00+05:30",
+ "asof": "2026-11-11T13:35:00+05:30",
+ "nifty": {
+  "value": 25311.05,
+  "pct": 1.06,
+  "chg": 266.4,
+  "approx": false,
+  "asof_quote": "12:57"
+ },
  "mood": {
-  "label": "Banks carry rally",
-  "score": 0.6,
-  "summary": "Indian stocks are holding firmly higher into the afternoon, with banks doing the heavy lifting, autos and financials close behind, and selling limited to a few results laggards.",
+  "label": "Off the highs",
+  "score": 0.5,
+  "summary": "Indian stocks remain solidly higher in the afternoon but have eased off the day's peak, with banks still leading while IT and pharma weigh on the gains.",
   "detail": {
-   "leaders": "Bank Nifty, with autos and financials",
+   "leaders": "Banks; IndiGo; IIFL Finance and Titagarh Rail",
    "laggards": "Cochin Shipyard after weak Q2",
-   "tone": "A live read in early afternoon. Without a timestamped index print newer than the previous notes, this is a read on behaviour: the market is holding its gains, with banks pulling further ahead.",
+   "tone": "A live read in mid-afternoon. The market has slipped back from its morning peak since the previous note, though the bulk of the gain is intact.",
    "watch": [
-    "Whether banks keep leading into the close",
-    "Any late profit-taking after the gap-up",
+    "Whether the pullback from the highs deepens into the close",
+    "IT and pharma weakness",
     "Tata Power results after hours"
    ],
    "src": {
-    "title": "Sensex & Nifty 50 live updates today, 11 November",
-    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-11-november-gift-nifty-signals-gap-up-opening-global-cues-crude-oil-and-us-inflation-in-focus-12800000"
+    "title": "Stock Market LIVE: Sensex off day's high, still up 900 pts; Nifty holds 25,200; IndiGo leads",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Banks lead the market, with auto and financial stocks close behind",
-     "why": "Foreign buying and cheaper crude are flowing mostly into lenders and cyclicals such as autos.",
+     "summary": "Banks and IndiGo lead, with IIFL Finance and Titagarh Rail on news",
+     "why": "Cheaper crude and foreign buying continue to favour lenders and fuel-sensitive names, while two stocks add gains on corporate news.",
      "names": [
       {
        "name": "Nifty Bank",
        "dir": "up",
-       "move": "+2.29%",
-       "line": "The strongest of the major indices as foreign buyers favour lenders"
+       "line": "Banks are still the main source of the index gain"
       },
       {
-       "name": "Nifty Auto",
+       "name": "InterGlobe Aviation (IndiGo)",
        "dir": "up",
-       "line": "Autos are among the leading sectors as fuel costs ease"
+       "line": "Still leading Sensex gainers as crude stays near two-month lows"
+      },
+      {
+       "name": "IIFL Finance",
+       "dir": "up",
+       "move": "up to 10.7%",
+       "line": "Hit ₹694.40 after its board approved the Blackstone-led raise"
+      },
+      {
+       "name": "Titagarh Rail Systems",
+       "dir": "up",
+       "move": "up to 5.04%",
+       "line": "Hit ₹737.85 after reporting higher quarterly profit"
       }
      ],
      "src": {
-      "title": "Sensex & Nifty 50 live updates today, 11 November",
-      "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-11-november-gift-nifty-signals-gap-up-opening-global-cues-crude-oil-and-us-inflation-in-focus-12800000"
+      "title": "NIFTY50 above 25,250, SENSEX gains over 1,000 pts; IIFL Fin, Kalyan Jewellers among buzzing stocks",
+      "url": "https://upstox.com/news/market-news/stocks/nifty-50-above-24-250-sensex-gains-over-1-000-pts-iifl-fin-kalyan-jewellers-among-buzzing-stocks/article-203284"
      }
     },
     "down": {
-     "summary": "Losses are narrow, led by Cochin Shipyard on weak results",
-     "why": "Selling is tied to results disappointments rather than any broad sector weakness.",
+     "summary": "Cochin Shipyard is the standout loser on weak results",
+     "why": "Stock-specific selling on results; the IT and pharma drag has no single cited trigger.",
      "names": [
       {
        "name": "Cochin Shipyard",
        "dir": "down",
        "move": "down 6–8%",
-       "line": "Q2 profit fell nearly 50%; the stock is down about 26% in 2026"
+       "line": "Q2 profit fell nearly 50%"
       }
      ],
      "src": {
-      "title": "Cochin Shipyard Share Price: Defence stock falls 6% after Q2 results, down 26% in 2026",
-      "url": "https://www.zeebiz.com/market-news/news-cochin-shipyard-share-price-defence-stock-falls-6-after-q2-results-down-26-in-2026-why-are-shares-declining-405403"
+      "title": "Stock Market LIVE: Sensex off day's high, still up 900 pts; Nifty holds 25,200; IndiGo leads",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "opening-bell",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Market eases off the day's high",
+   "line": "The benchmarks have given back part of the morning gain but stay firmly higher",
+   "more": [
+    "IT and pharma are weighing while banks lead",
+    "Microcaps were outperforming around 1 pm"
+   ],
+   "src": {
+    "title": "NIFTY50 above 25,250, SENSEX gains over 1,000 pts; IIFL Fin, Kalyan Jewellers among buzzing stocks",
+    "url": "https://upstox.com/news/market-news/stocks/nifty-50-above-24-250-sensex-gains-over-1-000-pts-iifl-fin-kalyan-jewellers-among-buzzing-stocks/article-203284"
+   },
+   "date": "2026-11-11",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "iifl-blackstone",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IIFL Finance up as much as 10.7%",
+   "line": "Shares touched ₹694.40 on NSE after the board cleared the Blackstone-led raise",
+   "more": [
+    "Blackstone is to invest ₹5,000 crore for about a 16% stake",
+    "The total raise is ₹6,414 crore"
+   ],
+   "src": {
+    "title": "NIFTY50 above 25,250, SENSEX gains over 1,000 pts; IIFL Fin, Kalyan Jewellers among buzzing stocks",
+    "url": "https://upstox.com/news/market-news/stocks/nifty-50-above-24-250-sensex-gains-over-1-000-pts-iifl-fin-kalyan-jewellers-among-buzzing-stocks/article-203284"
+   },
+   "date": "2026-11-11",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "titagarh-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Titagarh Rail rises 5% on profit growth",
+   "line": "Shares hit an intraday high of ₹737.85 after the company reported higher profit",
+   "more": [
+    "The stock gained as much as 5.04% on NSE",
+    "It is among the day's buzzing results stocks"
+   ],
+   "src": {
+    "title": "NIFTY50 above 25,250, SENSEX gains over 1,000 pts; IIFL Fin, Kalyan Jewellers among buzzing stocks",
+    "url": "https://upstox.com/news/market-news/stocks/nifty-50-above-24-250-sensex-gains-over-1-000-pts-iifl-fin-kalyan-jewellers-among-buzzing-stocks/article-203284"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-11",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1335"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FPIs invest ₹53,739 crore in nine days",
+   "line": "NSDL data show foreign investors bought ₹53,739 crore in November's first nine days",
+   "more": [
+    "Foreign buying is cited as a key driver of today's rally",
+    "Today's provisional figures come after the close"
+   ],
+   "src": {
+    "title": "NIFTY50 above 25,250, SENSEX gains over 1,000 pts; IIFL Fin, Kalyan Jewellers among buzzing stocks",
+    "url": "https://upstox.com/news/market-news/stocks/nifty-50-above-24-250-sensex-gains-over-1-000-pts-iifl-fin-kalyan-jewellers-among-buzzing-stocks/article-203284"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-11",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "0700"
+   }
+  },
   {
    "key": "bank-rally",
    "tag": "Stocks",
@@ -83,7 +199,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1225"
@@ -108,35 +224,10 @@
    "slot": "1305",
    "when": "13:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Foreign buying lifts large caps",
-   "line": "Reports say FII support is lifting the Sensex and Nifty to notable highs",
-   "more": [
-    "Buyers have returned to large caps, Good Returns reports",
-    "Today's provisional flow figures come after the close"
-   ],
-   "src": {
-    "title": "Indian equities rally as FIIs support lifts Sensex and Nifty to notable highs",
-    "url": "https://www.goodreturns.in/world-finance/indian-equities-rally-sensex-nifty-fii-inflows-011-1546331.html"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-11",
-   "slot": "1305",
-   "when": "13:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "0700"
    }
   },
   {
@@ -209,30 +300,6 @@
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1205"
-   }
-  },
-  {
-   "key": "opening-bell",
-   "tag": "Opening",
-   "impact": "pos",
-   "title": "Rally holds at midday",
-   "line": "Live coverage credits lower energy prices and a return of foreign buying",
-   "more": [
-    "Smallcaps are up more than midcaps",
-    "Nifty PSU Bank is the top sector; Nifty Pharma the weakest"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex jumps 1,200 pts, Nifty tops 25,350; IndiGo, M&M top gainers",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
-   },
-   "date": "2026-11-11",
-   "slot": "1205",
-   "when": "12:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "0925"
    }
   },
   {
@@ -341,31 +408,6 @@
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "iifl-blackstone",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IIFL Finance jumps on Blackstone stake deal",
-   "line": "Shares rose 5.6% to ₹662 in one report and later 8.6% to ₹680.95",
-   "more": [
-    "Blackstone to invest ₹5,000 crore for about a 16% stake",
-    "Part of a ₹6,414 crore capital raise approved on November 10",
-    "Figures differ because reports captured different times"
-   ],
-   "src": {
-    "title": "Why is IIFL Finance stock surging today?",
-    "url": "https://in.investing.com/news/stock-market-news/why-is-iifl-finance-stock-surging-today-93CH-5695815"
-   },
-   "date": "2026-11-11",
-   "slot": "1035",
-   "when": "10:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "0845"
    }
   },
   {
