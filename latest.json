@@ -1,92 +1,130 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-11T16:44:41+05:30",
+ "generated_at": "2026-11-11T18:00:37+05:30",
  "date": "2026-11-11",
- "slot": "1635",
- "slot_label": "16:35",
- "stage": "Post-market mood",
- "asof": "2026-11-11T16:35:00+05:30",
+ "slot": "1800",
+ "slot_label": "18:00",
+ "stage": "Evening wrap",
+ "asof": "2026-11-11T18:00:00+05:30",
  "nifty": {
   "value": 25255.05,
   "pct": 0.84,
   "chg": 210.4,
   "approx": false
  },
+ "metrics": {
+  "brent_usd": {
+   "value": 92.2,
+   "asof": "2026-11-11 US pre-market (04:30 ET)",
+   "approx": true,
+   "src": {
+    "title": "S&P 500, Nasdaq Futures Rise Premarket — CRWV, GPRO, SPCX, NVDA, NLST Stocks In Focus",
+    "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-futures-rise-premarket-crwv-gpro-spcx-nvda-nlst-stocks-in-focus/cNGDlb9R9B7"
+   }
+  }
+ },
  "mood": {
-  "label": "Strong close",
-  "score": 0.55,
-  "summary": "Indian stocks finished the first session after Diwali solidly higher, led by state-run banks, though well below the morning peak after profit-taking in IT and healthcare.",
+  "label": "Steady into Thursday",
+  "score": 0.35,
+  "summary": "Indian stocks head into Thursday on a firm footing after a strong post-holiday session, with strong after-hours results, an MSCI index review overnight and US rate worries in the mix.",
   "detail": {
-   "leaders": "Nifty PSU Bank; Nifty Bank; GRSE",
-   "laggards": "Nifty IT and Nifty Healthcare on profit-taking; Cochin Shipyard",
-   "tone": "A read of the finished session. Nothing has changed on the market since the previous note; the after-hours news is results, while today's provisional flow figures are still not out.",
+   "leaders": "Banks after a strong session; Tata Power on its results",
+   "laggards": "IT and healthcare, which lagged into the close",
+   "tone": "A forward-looking read: nothing is trading in India. The setup is a little less buoyant than at the close as US rate-hike bets firm, but supportive results and foreign buying keep the bias positive.",
    "watch": [
-    "Today's provisional FII and DII figures, still awaited",
-    "Tata Power's Q2 results, due this evening",
-    "Overnight moves in crude and US yields"
+    "MSCI's India index changes, due after 03:30 IST",
+    "How Wall Street trades with December Fed hike bets near certain",
+    "Today's provisional FII and DII figures, still awaited"
    ],
    "src": {
-    "title": "Stock Market Close: Sensex pares gains but ends 773 pts up, Nifty at 25,255; PSU Bank rises 3%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
-   },
-   "movers": {
-    "up": {
-     "summary": "State-run banks led the session; GRSE rose on results",
-     "why": "Cheaper energy and heavy foreign buying lifted sentiment, with lenders taking most of the money.",
-     "names": [
-      {
-       "name": "Nifty PSU Bank",
-       "dir": "up",
-       "move": "up nearly 3%",
-       "line": "The day's best sector, led by SBI and Bank of Baroda"
-      },
-      {
-       "name": "Nifty Bank",
-       "dir": "up",
-       "line": "Touched a nine-month high in the afternoon, near its 52-week peak"
-      },
-      {
-       "name": "Garden Reach Shipbuilders",
-       "dir": "up",
-       "move": "up over 3%",
-       "line": "Q2 profit rose about 12% to ₹172 crore with margins expanding"
-      }
-     ],
-     "src": {
-      "title": "Stock Market Close: Sensex pares gains but ends 773 pts up, Nifty at 25,255; PSU Bank rises 3%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
-     }
-    },
-    "down": {
-     "summary": "IT and healthcare lagged on profit-taking; Cochin Shipyard fell on results",
-     "why": "After the benchmarks touched multi-month highs in the morning, traders booked profits in IT and pharma.",
-     "names": [
-      {
-       "name": "Nifty IT",
-       "dir": "down",
-       "line": "Underperformed as traders booked profits after the morning high"
-      },
-      {
-       "name": "Nifty Healthcare",
-       "dir": "down",
-       "line": "Pharma names lagged as gains were booked in the afternoon"
-      },
-      {
-       "name": "Cochin Shipyard",
-       "dir": "down",
-       "move": "down 6–8%",
-       "line": "Q2 profit fell nearly 50%"
-      }
-     ],
-     "src": {
-      "title": "Stock Market Close: Sensex pares gains but ends 773 pts up, Nifty at 25,255; PSU Bank rises 3%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
-     }
-    }
+    "title": "Nasdaq futures jump on CoreWeave earnings; hot CPI reinforces Fed hike bets",
+    "url": "https://investing.com/news/stock-market-news/us-stock-futures-tick-higher-after-wall-st-slips-on-hot-cpi-nvidia-losses-5017417"
    }
   }
  },
  "insights": [
+  {
+   "key": "tata-power-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Tata Power Q2 profit jumps after hours",
+   "line": "Consolidated profit rose to ₹1,366 crore, up 49%, per Upstox; margin dipped to 18.7%",
+   "more": [
+    "EBITDA rose 11% to ₹3,668 crore",
+    "Another report puts profit at ₹1,652 crore, up 33%, on revenue of ₹19,886 crore",
+    "The reports use different year-ago bases (₹919 crore vs ₹1,245 crore)"
+   ],
+   "src": {
+    "title": "Tata Power Q2 FY27 results: Net profit increases to ₹1,366 crore YoY; margin dips to 18.7%",
+    "url": "https://upstox.com/news/market-news/earnings/tata-power-q2-fy-27-results-net-profit-increases-to-1-366-crore-yo-y-margin-dips-to-18-7/article-203311/"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Tata Power",
+    "quarter": "Q2 FY27",
+    "profit_cr": 1366,
+    "profit_yoy_pct": 49
+   },
+   "date": "2026-11-11",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1405"
+   }
+  },
+  {
+   "key": "msci-nov-review",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "MSCI India changes due overnight",
+   "line": "MSCI publishes its November review after 03:30 IST; changes take effect Nov 30",
+   "more": [
+    "JM Financial sees LIC, Meesho and Coforge as likely additions",
+    "OFSS and Siemens Energy India face possible exclusion",
+    "JM estimates net passive inflows of about $1.4 billion"
+   ],
+   "src": {
+    "title": "MSCI November 2026 review: Coforge, LIC and Meesho may see inflows of up to $1.93 billion; OFSS and Siemens Energy face exclusion risk",
+    "url": "https://businessupturn.com/finance/stock-market/msci-november-2026-review-coforge-lic-and-meesho-may-see-inflows-of-up-to-1-93-billion-ofss-and-siemens-energy-face-exclusion-risk/"
+   },
+   "date": "2026-11-11",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1800"
+   }
+  },
+  {
+   "key": "us-cpi",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "December Fed hike now fully priced",
+   "line": "Hot October CPI pushed December rate-hike odds to 100%, one report says",
+   "more": [
+    "US stock futures were higher pre-market, led by Nasdaq on CoreWeave earnings",
+    "Brent was near $92 a barrel in early US trade"
+   ],
+   "src": {
+    "title": "Nasdaq futures jump on CoreWeave earnings; hot CPI reinforces Fed hike bets",
+    "url": "https://investing.com/news/stock-market-news/us-stock-futures-tick-higher-after-wall-st-slips-on-hot-cpi-nvidia-losses-5017417"
+   },
+   "thread": "us-rates",
+   "date": "2026-11-11",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-10",
+    "slot": "0845"
+   }
+  },
   {
    "key": "grse-q2",
    "tag": "Results",
@@ -116,7 +154,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1635"
@@ -149,35 +187,10 @@
    "slot": "1635",
    "when": "16:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1635"
-   }
-  },
-  {
-   "key": "tata-power-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Tata Power results still awaited",
-   "line": "Zee Business research sees Q2 profit near ₹1,263 crore, up from ₹919 crore a year ago",
-   "more": [
-    "JM Financial expects adjusted PAT of about ₹1,305 crore",
-    "Motilal Oswal sees revenue near ₹20,100 crore"
-   ],
-   "src": {
-    "title": "Tata Power Q2 Results Preview: PAT seen rising 37% to Rs 1,263 crore",
-    "url": "https://www.zeebiz.com/companies/news-tata-power-q2-fy27-results-preview-profit-sales-margin-estimates-share-price-market-news-405316"
-   },
-   "thread": "q2-results-2026",
-   "date": "2026-11-11",
-   "slot": "1635",
-   "when": "16:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "1405"
    }
   },
   {
@@ -684,33 +697,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "us-cpi",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "US inflation runs hotter than expected",
-   "line": "October CPI rose 0.4% vs 0.3% forecast; core rose 0.3% vs 0.2%",
-   "more": [
-    "Headline CPI cooled from September's 0.6% gain but beat forecasts",
-    "No year-on-year figure: last year's shutdown halted October 2025 data",
-    "Markets raised bets on a December Fed rate hike",
-    "One report put the US 10-year yield near 5.00% after the data"
-   ],
-   "src": {
-    "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds",
-    "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
-   },
-   "thread": "us-rates",
-   "date": "2026-11-11",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-10",
     "slot": "0845"
    }
   },
