@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-11T07:01:02+05:30",
+ "generated_at": "2026-11-11T08:46:38+05:30",
  "date": "2026-11-11",
- "slot": "0700",
- "slot_label": "7:00",
+ "slot": "0845",
+ "slot_label": "8:45",
  "stage": "Pre-market mood",
- "asof": "2026-11-11T07:00:00+05:30",
+ "asof": "2026-11-11T08:45:00+05:30",
  "nifty": {
   "value": 25044.65,
   "pct": 0.23,
@@ -13,36 +13,181 @@
   "approx": false
  },
  "metrics": {
-  "brent_usd": {
-   "value": 91.49,
-   "asof": "2026-11-10 settlement",
-   "approx": false,
+  "fii_net_cr": {
+   "value": 7212,
+   "asof": "2026-11-09 provisional",
+   "approx": true,
    "src": {
-    "title": "Brent crude briefly dips below $90 for first time since August on Iran hopes",
-    "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
+    "title": "FII DII Data Today",
+    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
+   }
+  },
+  "dii_net_cr": {
+   "value": -7173,
+   "asof": "2026-11-09 provisional",
+   "approx": true,
+   "src": {
+    "title": "FII DII Data Today",
+    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
    }
   }
  },
  "mood": {
-  "label": "Mixed start likely",
-  "score": 0.0,
-  "summary": "Indian stocks reopen after a holiday with mixed overnight cues: hotter US inflation knocked Wall Street lower and lifted rate-hike bets, while cheaper oil offers a cushion.",
+  "label": "Gap-up likely",
+  "score": 0.4,
+  "summary": "Indian stocks look set for a gap-up open after the holiday, as cheaper oil and steady foreign buying outweigh a hotter US inflation print that dragged Wall Street lower.",
   "detail": {
-   "leaders": "Oil-sensitive names such as paints, airlines and OMCs could find support as crude eases",
-   "laggards": "IT and other rate-sensitive, US-linked names face pressure from higher US yields",
-   "tone": "A forward-looking read for the first session after Tuesday's holiday. The cues are less supportive than on Monday night, when a strong US rally pointed to a firm start; the inflation surprise has since tempered that.",
+   "leaders": "Oil-sensitive names such as OMCs, paints, tyres and airlines; IIFL Finance on its Blackstone-led raise",
+   "laggards": "MRF and Cochin Shipyard after weak quarterly profits; US-linked tech on rate-hike worries",
+   "tone": "A forward-looking pre-open read. GIFT Nifty points to a firmer start than the overnight Wall Street dip alone would suggest, with lower crude and foreign inflows doing the lifting.",
    "watch": [
-    "Whether US yields keep climbing on December Fed hike bets",
-    "Brent holding below the low $90s on Iran de-escalation",
-    "How foreign investors trade after two days away"
+    "Whether the gap-up holds once cash trading opens",
+    "Tata Power and other results due today",
+    "Any further climb in US yields on Fed hike bets"
    ],
    "src": {
-    "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds",
-    "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    "title": "GIFT NIFTY futures indicate gap-up open on November 11",
+    "url": "https://upstox.com/news/market-news/stocks/gift-nifty-futures-indicate-gap-up-open-on-november-11-what-investors-need-to-track-before-market-opens/article-203250/"
    }
   }
  },
  "insights": [
+  {
+   "key": "gift-nifty",
+   "tag": "Opening",
+   "impact": "pos",
+   "title": "GIFT Nifty points to a gap-up open",
+   "line": "GIFT Nifty futures traded about 275–300 points above Monday's Nifty close",
+   "more": [
+    "Quotes ranged from about 25,309 to 25,337 depending on the time",
+    "Asian markets were trading higher, one live blog reported",
+    "Reports cite cooler crude and returning foreign inflows"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: GIFT Nifty jumps 300 pts; Asia markets advance; Brent below $92",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+   },
+   "date": "2026-11-11",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs net buyers for a seventh straight session",
+   "line": "Foreign investors bought a net ~₹7,212 crore on Monday; DIIs sold ~₹7,173 crore",
+   "more": [
+    "FII gross buying was about ₹20,311 crore against ₹13,099 crore of sales",
+    "Figures are provisional and come from aggregators of NSE data",
+    "Quantsapp says FIIs remain net short index futures"
+   ],
+   "src": {
+    "title": "FII DII Data: FII DII Activity Cash Provisional Today and Monthly",
+    "url": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-11",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "iifl-blackstone",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Blackstone leads ₹6,414 crore IIFL Finance raise",
+   "line": "Blackstone funds to invest ₹5,000 crore via convertible preference shares at ₹602",
+   "more": [
+    "Promoters add ₹1,264 crore via warrants; Anchorage Capital ₹150 crore",
+    "Board approved the preferential issue on November 10",
+    "Conversion into equity is due within 18 months of allotment"
+   ],
+   "src": {
+    "title": "IIFL Finance to Raise ₹6,414 Crores Led by Blackstone and the Promoters",
+    "url": "https://www.equitybulls.com/news/378783/iifl-finance-to-raise-6-414-crores-led-by-blackstone-and-the-promoters"
+   },
+   "date": "2026-11-11",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "mrf-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "MRF profit falls on higher material costs",
+   "line": "Q2 net profit fell about 27% to ₹387 crore even as revenue rose about 17%",
+   "more": [
+    "Margins compressed to around 11%, one report said",
+    "Business Standard cites a 22.8% fall to ₹417.19 crore instead",
+    "Interim dividend of ₹3 a share declared"
+   ],
+   "src": {
+    "title": "MRF Q2 Results: Net Profit Down 27% to ₹387 Cr, Revenue Up 17%",
+    "url": "https://businessupturn.com/business/mrf-q2-results-net-profit-falls-27-to-rs387-crore-as-margins-shrink-on-higher-material-costs/"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "MRF",
+    "quarter": "Q2 FY27",
+    "revenue_cr": 8660,
+    "revenue_yoy_pct": 17,
+    "profit_cr": 386.99,
+    "profit_yoy_pct": -26.6
+   },
+   "date": "2026-11-11",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "q2-results-nov11",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Tata Power, GRSE among results due today",
+   "line": "Tata Power, Hindustan Copper, Garden Reach Shipbuilders and Cupid report Q2 today",
+   "more": [
+    "Nuvama sees Tata Power adjusted profit up about 27% to ₹1,168 crore",
+    "Kalyan Jewellers' profit rose 64% to ₹427 crore, reported Tuesday",
+    "Cochin Shipyard's Q2 profit fell about 50%, Zee Business reported"
+   ],
+   "src": {
+    "title": "Top Q2 results today, November 11: Tata Power, Hindustan Copper, Garden Reach, Cupid",
+    "url": "https://businessupturn.com/finance/stock-market/quarterly-results/top-q2-results-today-november-11-tata-power-hindustan-copper-garden-reach-cupid-among-companies-to-announce-earnings/"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-11",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0845"
+   }
+  },
   {
    "key": "us-cpi",
    "tag": "Macro",
@@ -64,7 +209,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-10",
     "slot": "0845"
@@ -90,7 +235,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "0700"
@@ -116,7 +261,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "0700"
@@ -144,32 +289,6 @@
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1625"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs buy ₹7,212 cr; DIIs sell about as much",
-   "line": "Foreign investors kept buying today while domestic funds booked profits",
-   "more": [
-    "FII gross buys ₹20,311 cr, sales ₹13,099 cr",
-    "DII net selling about ₹7,173 cr; combined flow roughly flat",
-    "FIIs hold a net short index-futures position, per NiftyTrader"
-   ],
-   "src": {
-    "title": "Kotak Neo: FII DII data — today's FII & DII activities on NSE & BSE",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-09",
-   "slot": "2100",
-   "when": "Mon · 21:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "0700"
    }
   },
   {
@@ -496,31 +615,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "gift-nifty",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "GIFT Nifty signals a flat to firm start",
-   "line": "Most early quotes had GIFT Nifty futures modestly higher; one live blog showed a small dip",
-   "more": [
-    "Upstox and ScanX pointed to a positive start",
-    "Business Standard's live blog headlined a negative open",
-    "Quotes were taken at different times this morning"
-   ],
-   "src": {
-    "title": "Upstox: GIFT NIFTY futures hint positive opening on November 9",
-    "url": "https://upstox.com/news/market-news/stocks/gift-nifty-futures-hint-positive-opening-on-november-9-what-investors-should-know-before-stock-market-opens/article-203187/"
-   },
-   "date": "2026-11-09",
-   "slot": "0845",
-   "when": "Mon · 8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
     "slot": "0845"
    }
   },

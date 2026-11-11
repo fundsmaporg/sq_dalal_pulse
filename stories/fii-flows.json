@@ -1,6 +1,6 @@
 {
  "key": "fii-flows",
- "title": "FIIs buy ₹7,212 cr; DIIs sell about as much",
+ "title": "FIIs net buyers for a seventh straight session",
  "tag": "Flows",
  "thread": "fii-flows",
  "first_seen": {
@@ -8,10 +8,10 @@
   "slot": "1230"
  },
  "last_seen": {
-  "date": "2026-11-09",
-  "slot": "2100"
+  "date": "2026-11-11",
+  "slot": "0845"
  },
- "count": 69,
+ "count": 70,
  "timeline": [
   {
    "date": "2026-09-23",
@@ -1213,40 +1213,54 @@
     "title": "Kotak Neo: FII DII data — today's FII & DII activities on NSE & BSE",
     "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
    }
+  },
+  {
+   "date": "2026-11-11",
+   "slot": "0845",
+   "when": "Wed · 8:45",
+   "title": "FIIs net buyers for a seventh straight session",
+   "line": "Foreign investors bought a net ~₹7,212 crore on Monday; DIIs sold ~₹7,173 crore",
+   "impact": "pos",
+   "tag": "Flows",
+   "more": [
+    "FII gross buying was about ₹20,311 crore against ₹13,099 crore of sales",
+    "Figures are provisional and come from aggregators of NSE data",
+    "Quantsapp says FIIs remain net short index futures"
+   ],
+   "thread": "fii-flows",
+   "src": {
+    "title": "FII DII Data: FII DII Activity Cash Provisional Today and Monthly",
+    "url": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/"
+   }
   }
  ],
  "dossier": {
-  "headline": "Foreign money turned buyer after a heavy September of selling",
-  "summary": "FIIs sold through late September, with about ₹44,000 cr of net selling in that month alone, and kept selling on some rally days in October. The pattern turned in early November: foreign investors bought for a third straight day, and on Friday net bought ₹13,750 cr after about ₹14,975 cr on Thursday, while DIIs net sold ₹5,969 cr.",
-  "status": "tracking",
+  "headline": "Foreign investors extend a record-setting buying run",
+  "summary": "Foreign institutional investors have been net buyers of Indian shares for seven straight sessions, including a near six-year single-day high of about ₹14,975 crore on November 5. Domestic institutions have sold into the buying, roughly matching Monday's ₹7,212 crore FII inflow with about ₹7,173 crore of net sales.",
+  "status": "developing",
   "why_it_matters": [
-   "FII flows are the clearest single driver the notes attach to large-cap moves; the recent rally is attributed to foreign money.",
-   "FII and DII flows often run opposite each other, so one can absorb the other and mute the index move.",
-   "Figures are provisional on the day and can be revised."
+   "Sustained foreign buying has been the main support for large caps this month",
+   "Domestic funds taking profits offsets much of the inflow"
   ],
-  "moved": [
-   {
-    "name": "Large caps",
-    "dir": "up",
-    "line": "Notes credit foreign buying for last week's large-cap rally."
-   }
-  ],
+  "moved": [],
   "watch": [
-   "Whether the buying streak continues or was positioning around the US election.",
-   "Whether DII selling keeps offsetting it.",
-   "Higher US yields, which the notes flag as able to temper foreign flows."
+   "Whether the streak survives hotter US inflation and higher US yields",
+   "Domestic fund selling pace"
   ],
   "questions": [
-   "Is the November buying a genuine reallocation to India or a short-term unwind?",
-   "Who are DIIs selling to, and does that change the market's character?"
+   "How long can foreign buying continue at this pace?",
+   "Why are domestic funds selling into the rally?"
   ],
-  "conflicts": [],
-  "written_at": "2026-11-07T19:18:21+05:30",
+  "conflicts": [
+   "NSDL data showed about ₹38,971 crore of November FPI inflows by Nov 9, a different measure from the exchange provisional figures"
+  ],
+  "written_at": "2026-11-11T08:50:00+05:30",
   "based_on_slots": [
-   "2026-11-07/1800",
-   "2026-11-04/0700",
-   "2026-10-23/pre",
-   "2026-10-01/1500"
+   "2026-11-06/1800",
+   "2026-11-07/0800",
+   "2026-11-09/0925",
+   "2026-11-09/2100",
+   "2026-11-11/0845"
   ]
  }
 }
