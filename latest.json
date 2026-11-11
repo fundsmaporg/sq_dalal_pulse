@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-11T16:07:03+05:30",
+ "generated_at": "2026-11-11T16:44:41+05:30",
  "date": "2026-11-11",
- "slot": "1605",
- "slot_label": "16:05",
+ "slot": "1635",
+ "slot_label": "16:35",
  "stage": "Post-market mood",
- "asof": "2026-11-11T16:05:00+05:30",
+ "asof": "2026-11-11T16:35:00+05:30",
  "nifty": {
   "value": 25255.05,
   "pct": 0.84,
@@ -15,24 +15,24 @@
  "mood": {
   "label": "Strong close",
   "score": 0.55,
-  "summary": "Indian stocks closed solidly higher after the Diwali break, extending their winning streak, with state-run banks leading and IT and healthcare lagging after a morning surge was partly given back.",
+  "summary": "Indian stocks finished the first session after Diwali solidly higher, led by state-run banks, though well below the morning peak after profit-taking in IT and healthcare.",
   "detail": {
-   "leaders": "Nifty PSU Bank; Nifty Bank; autos",
+   "leaders": "Nifty PSU Bank; Nifty Bank; GRSE",
    "laggards": "Nifty IT and Nifty Healthcare on profit-taking; Cochin Shipyard",
-   "tone": "A read of the finished session. The market firmed in the last half hour to close stronger than it looked mid-afternoon, though still well below the morning peak.",
+   "tone": "A read of the finished session. Nothing has changed on the market since the previous note; the after-hours news is results, while today's provisional flow figures are still not out.",
    "watch": [
-    "Today's provisional FII and DII figures",
-    "Tata Power and other results due this evening",
+    "Today's provisional FII and DII figures, still awaited",
+    "Tata Power's Q2 results, due this evening",
     "Overnight moves in crude and US yields"
    ],
    "src": {
-    "title": "Sensex climbs 773 points, Nifty tops 25,250 as lower oil prices boost sentiment",
-    "url": "https://www.socialnews.xyz/2026/11/11/sensex-climbs-773-points-nifty-tops-25250-as-lower-oil-prices-boost-sentiment/"
+    "title": "Stock Market Close: Sensex pares gains but ends 773 pts up, Nifty at 25,255; PSU Bank rises 3%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
    },
    "movers": {
     "up": {
-     "summary": "State-run banks led the session, with private banks and autos also bought",
-     "why": "Cheaper energy and a sharp return of foreign buying lifted sentiment, with most of the money going into lenders.",
+     "summary": "State-run banks led the session; GRSE rose on results",
+     "why": "Cheaper energy and heavy foreign buying lifted sentiment, with lenders taking most of the money.",
      "names": [
       {
        "name": "Nifty PSU Bank",
@@ -46,9 +46,10 @@
        "line": "Touched a nine-month high in the afternoon, near its 52-week peak"
       },
       {
-       "name": "Nifty Auto",
+       "name": "Garden Reach Shipbuilders",
        "dir": "up",
-       "line": "Among the sectors bought most as cheaper energy lifted sentiment"
+       "move": "up over 3%",
+       "line": "Q2 profit rose about 12% to ₹172 crore with margins expanding"
       }
      ],
      "src": {
@@ -57,7 +58,7 @@
      }
     },
     "down": {
-     "summary": "IT and pharma lagged on profit-taking; Cochin Shipyard fell on results",
+     "summary": "IT and healthcare lagged on profit-taking; Cochin Shipyard fell on results",
      "why": "After the benchmarks touched multi-month highs in the morning, traders booked profits in IT and pharma.",
      "names": [
       {
@@ -87,6 +88,99 @@
  },
  "insights": [
   {
+   "key": "grse-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "GRSE Q2 profit up 12% to ₹172 crore",
+   "line": "Garden Reach Shipbuilders' revenue was about ₹1,827 crore; shares rose over 3%",
+   "more": [
+    "Net profit was ₹171.98 crore against ₹153.79 crore a year ago",
+    "EBITDA rose about 25% as margins expanded",
+    "Half-year profit grew about 26%, one report said"
+   ],
+   "src": {
+    "title": "GRSE Q2 results: Profit rises 12% YoY to ₹172 crore despite material cost overhang; stock jumps over 3%",
+    "url": "https://upstox.com/news/market-news/earnings/grse-q2-results-profit-rises-12-yo-y-to-172-crore-despite-material-cost-overhang-stock-jumps-over-3/article-203297/"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Garden Reach Shipbuilders",
+    "quarter": "Q2 FY27",
+    "reaction_asof": "11 Nov",
+    "revenue_cr": 1827,
+    "profit_cr": 171.98,
+    "profit_yoy_pct": 11.8,
+    "reaction_pct": 3
+   },
+   "date": "2026-11-11",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1635"
+   }
+  },
+  {
+   "key": "power-mech-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Power Mech Q2 profit up 12%, revenue up 30%",
+   "line": "Net profit rose to ₹83.8 crore and revenue to ₹1,609.3 crore",
+   "more": [
+    "EBITDA was about ₹179 crore",
+    "EBITDA margin narrowed to 11.1% from 11.8%"
+   ],
+   "src": {
+    "title": "Power Mech Projects Q2 results: Net profit rises 12% YoY to Rs 84 crore, revenue jumps 30% YoY",
+    "url": "https://businessupturn.com/finance/stock-market/quarterly-results/power-mech-projects-q2-results-net-profit-rises-12-yoy-to-rs-84-crore-revenue-jumps-30-yoy/"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Power Mech Projects",
+    "quarter": "Q2 FY27",
+    "revenue_cr": 1609.3,
+    "revenue_yoy_pct": 30,
+    "profit_cr": 83.84,
+    "profit_yoy_pct": 12
+   },
+   "date": "2026-11-11",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1635"
+   }
+  },
+  {
+   "key": "tata-power-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Tata Power results still awaited",
+   "line": "Zee Business research sees Q2 profit near ₹1,263 crore, up from ₹919 crore a year ago",
+   "more": [
+    "JM Financial expects adjusted PAT of about ₹1,305 crore",
+    "Motilal Oswal sees revenue near ₹20,100 crore"
+   ],
+   "src": {
+    "title": "Tata Power Q2 Results Preview: PAT seen rising 37% to Rs 1,263 crore",
+    "url": "https://www.zeebiz.com/companies/news-tata-power-q2-fy27-results-preview-profit-sales-margin-estimates-share-price-market-news-405316"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-11",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1405"
+   }
+  },
+  {
    "key": "fii-flows",
    "tag": "Flows",
    "impact": "pos",
@@ -106,7 +200,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "0700"
@@ -130,7 +224,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1225"
@@ -154,7 +248,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1435"
@@ -270,32 +364,6 @@
     "title": "Stock Market LIVE: Sensex rises 700 pts, Nifty tops 25,200; Silver ETF inflows jump 56% M-o-M",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
    },
-   "date": "2026-11-11",
-   "slot": "1405",
-   "when": "14:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "1405"
-   }
-  },
-  {
-   "key": "tata-power-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Tata Power results due; profit seen higher",
-   "line": "Estimates range from ₹1,010 crore to ₹1,420 crore for Q2 profit",
-   "more": [
-    "Motilal Oswal sees adjusted profit up 54.3% to ₹1,420 crore",
-    "JM Financial sees adjusted PAT up 81% to ₹1,305.3 crore",
-    "Mundra losses are seen narrowing to about ₹150 crore"
-   ],
-   "src": {
-    "title": "Tata Power to report Q2 earnings on November 11, here's what to expect",
-    "url": "https://www.businesstoday.in/markets/trending-stocks/story/tata-power-to-report-q2-earnings-on-november-11-heres-what-to-expect-566722-2026-11-10"
-   },
-   "thread": "q2-results-2026",
    "date": "2026-11-11",
    "slot": "1405",
    "when": "14:05",
