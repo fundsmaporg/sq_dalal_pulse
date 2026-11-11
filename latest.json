@@ -1,48 +1,112 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-11T18:00:37+05:30",
+ "generated_at": "2026-11-11T21:01:16+05:30",
  "date": "2026-11-11",
- "slot": "1800",
- "slot_label": "18:00",
+ "slot": "2100",
+ "slot_label": "21:00",
  "stage": "Evening wrap",
- "asof": "2026-11-11T18:00:00+05:30",
+ "asof": "2026-11-11T21:00:00+05:30",
  "nifty": {
   "value": 25255.05,
   "pct": 0.84,
   "chg": 210.4,
   "approx": false
  },
- "metrics": {
-  "brent_usd": {
-   "value": 92.2,
-   "asof": "2026-11-11 US pre-market (04:30 ET)",
-   "approx": true,
-   "src": {
-    "title": "S&P 500, Nasdaq Futures Rise Premarket — CRWV, GPRO, SPCX, NVDA, NLST Stocks In Focus",
-    "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-futures-rise-premarket-crwv-gpro-spcx-nvda-nlst-stocks-in-focus/cNGDlb9R9B7"
-   }
-  }
- },
  "mood": {
-  "label": "Steady into Thursday",
-  "score": 0.35,
-  "summary": "Indian stocks head into Thursday on a firm footing after a strong post-holiday session, with strong after-hours results, an MSCI index review overnight and US rate worries in the mix.",
+  "label": "Firm into Thursday",
+  "score": 0.45,
+  "summary": "Indian stocks look set for a steady-to-firm Thursday after a strong post-holiday session, with a tech-led rebound on Wall Street offering support and an MSCI index review landing overnight.",
   "detail": {
-   "leaders": "Banks after a strong session; Tata Power on its results",
-   "laggards": "IT and healthcare, which lagged into the close",
-   "tone": "A forward-looking read: nothing is trading in India. The setup is a little less buoyant than at the close as US rate-hike bets firm, but supportive results and foreign buying keep the bias positive.",
+   "leaders": "Banks after a strong session; tech sentiment helped by the US chip rebound",
+   "laggards": "Rate-sensitive names if US hike bets keep firming",
+   "tone": "A forward-looking read: nothing is trading in India. The overnight setup is a little firmer than earlier this evening as US tech stocks recover, though rate-hike worries have not gone away.",
    "watch": [
     "MSCI's India index changes, due after 03:30 IST",
-    "How Wall Street trades with December Fed hike bets near certain",
-    "Today's provisional FII and DII figures, still awaited"
+    "Whether the Nasdaq holds its gains into the US close",
+    "Tata Power's share reaction to its results"
    ],
    "src": {
-    "title": "Nasdaq futures jump on CoreWeave earnings; hot CPI reinforces Fed hike bets",
-    "url": "https://investing.com/news/stock-market-news/us-stock-futures-tick-higher-after-wall-st-slips-on-hot-cpi-nvidia-losses-5017417"
+    "title": "Stock market today: S&P 500, Nasdaq rise as Nvidia stock recovers, chip stocks rally after CoreWeave earnings",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Wall Street rebounds, led by tech",
+   "line": "The S&P 500 was up about 0.9–1% and the Nasdaq about 1.6% in early US trade",
+   "more": [
+    "The Dow was roughly flat to slightly lower",
+    "Figures are live and differ by source and time",
+    "The rebound follows Tuesday's slide on hot inflation data"
+   ],
+   "src": {
+    "title": "US Indices Mixed at Open: Nasdaq Climbs as Dow Edges Lower",
+    "url": "https://businessupturn.com/usa/money/us-markets/us-indices-mixed-at-open-nasdaq-climbs-as-dow-edges-lower/"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-11",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "ai-chip-rebound",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "CoreWeave jumps 20%; Nvidia recovers",
+   "line": "CoreWeave's revenue beat set off a chip rally; Nvidia rose after two days of losses",
+   "more": [
+    "CoreWeave's third-quarter revenue beat analyst expectations",
+    "Chip stocks rallied broadly in early US trade"
+   ],
+   "src": {
+    "title": "Stock market today: S&P 500, Nasdaq rise as Nvidia stock recovers, chip stocks rally after CoreWeave earnings",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
+   },
+   "date": "2026-11-11",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "US 10-year yield near 5% after hot CPI",
+   "line": "The 10-year closed Tuesday at 4.98%; bond markets are shut today for Veterans Day",
+   "more": [
+    "Hotter inflation data raised expectations of a Fed rate hike",
+    "US stock markets are trading normally despite the holiday"
+   ],
+   "src": {
+    "title": "Stock market today: S&P 500, Nasdaq rise as Nvidia stock recovers, chip stocks rally after CoreWeave earnings",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
+   },
+   "thread": "us-rates",
+   "date": "2026-11-11",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "0700"
+   }
+  },
   {
    "key": "tata-power-q2",
    "tag": "Results",
@@ -69,7 +133,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1405"
@@ -94,7 +158,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1800"
@@ -119,7 +183,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-10",
     "slot": "0845"
@@ -701,32 +765,6 @@
    }
   },
   {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Wall Street gives back some of Monday's rally",
-   "line": "S&P 500 fell about 0.4% and the Nasdaq about 0.7% after the CPI print",
-   "more": [
-    "Dow slipped about 0.3%; exact closing figures vary by source",
-    "Tech led the decline as rate-hike odds rose",
-    "Monday's session had been the S&P 500's best day since April"
-   ],
-   "src": {
-    "title": "U.S. Stocks Close Lower as Hotter Inflation Strengthens Fed Rate Hike Expectations",
-    "url": "https://yournews.com/2026/11/10/7261422/u-s-stocks-close-lower-as-hotter-inflation-strengthens-fed-rate/"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-11",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "0700"
-   }
-  },
-  {
    "key": "crude",
    "tag": "Global",
    "impact": "pos",
@@ -1282,30 +1320,6 @@
    "first_seen": {
     "date": "2026-11-07",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "us-yields",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "Strong US jobs data lifts Fed hike bets",
-   "line": "October payrolls rose 165,000 against about 65,000 expected; unemployment fell to 4.1%",
-   "more": [
-    "Odds of a Fed rate hike next month rose to about 78%",
-    "Higher US yields could temper foreign flows"
-   ],
-   "src": {
-    "title": "Reuters via Investing.com: US job growth beats expectations in October; unemployment rate falls to 4.1%",
-    "url": "https://www.investing.com/news/economic-indicators/us-job-growth-beats-expectations-in-october-unemployment-rate-falls-to-41-5008194"
-   },
-   "date": "2026-11-07",
-   "slot": "0800",
-   "when": "Sat · 8:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "0700"
    }
   },
   {
