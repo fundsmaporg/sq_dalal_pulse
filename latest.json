@@ -1,71 +1,63 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-11T15:06:18+05:30",
+ "generated_at": "2026-11-11T15:37:30+05:30",
  "date": "2026-11-11",
- "slot": "1505",
- "slot_label": "15:05",
+ "slot": "1535",
+ "slot_label": "15:35",
  "stage": "Closing mood",
- "asof": "2026-11-11T15:05:00+05:30",
- "nifty": {
-  "value": 25175.75,
-  "pct": 0.52,
-  "chg": 131.1,
-  "approx": false,
-  "asof_quote": "15:00"
- },
+ "asof": "2026-11-11T15:35:00+05:30",
  "mood": {
-  "label": "Steadying late",
-  "score": 0.35,
-  "summary": "Indian stocks are steady in the final half hour, holding a modest gain well below the morning peak, with banks near multi-month highs and mid and small caps outpacing large caps.",
+  "label": "Higher, pared",
+  "score": 0.4,
+  "summary": "Indian stocks closed higher for an eighth straight session after the Diwali break, ending well below the morning peak as profit-taking hit IT and realty while state-run banks kept rising.",
   "detail": {
-   "leaders": "Nifty Bank at a nine-month high; Bank of Baroda",
+   "leaders": "Nifty PSU Bank; Nifty Bank at a nine-month high",
    "laggards": "Nifty Realty and Nifty IT on profit-taking; Cochin Shipyard",
-   "tone": "A live read in the last half hour of trade. The market is steadier than in the previous note, with the afternoon slide having levelled off rather than deepened.",
+   "tone": "A read of the session just finished. Early reports of the closing figures disagree, so this note describes the close in words: the market ended higher but well off its morning high.",
    "watch": [
-    "Where the market settles at the close",
-    "Banks holding their multi-month highs",
-    "Tata Power results after the bell"
+    "Today's provisional FII and DII figures",
+    "Tata Power and other results after the bell",
+    "Wall Street's reaction to Tuesday's hot inflation print"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex rises 400 pts, Nifty tops 25,100; Nifty Realty down 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+    "title": "Sensex, Nifty Surge As FIIs Boost Indian Equities Amid Positive Q2 Results",
+    "url": "https://www.etvbharat.com/en/business/sensex-nifty-surge-as-fiis-boost-indian-equities-amid-positive-q2-results-enn26111101254"
    },
    "movers": {
     "up": {
-     "summary": "Banks lead, with the bank index at a nine-month high",
-     "why": "Every stock in the Nifty Bank index is higher, and lenders are carrying the benchmarks as other sectors are sold.",
+     "summary": "State-run banks finish as the day's strongest group",
+     "why": "Foreign money returned to Indian shares and flowed mostly into lenders, which held the benchmarks up as other sectors faded.",
      "names": [
+      {
+       "name": "Nifty PSU Bank",
+       "dir": "up",
+       "move": "+3%",
+       "line": "The top sector at the close, led by SBI and Bank of Baroda"
+      },
       {
        "name": "Nifty Bank",
        "dir": "up",
-       "move": "up over 2%",
-       "line": "Hit a nine-month high, near its 52-week peak; all 14 constituents are up"
-      },
-      {
-       "name": "Bank of Baroda",
-       "dir": "up",
-       "line": "Top gainer in the bank index as state-run lenders lead the sector"
+       "line": "Touched a nine-month high in the afternoon with all 14 stocks higher"
       }
      ],
      "src": {
-      "title": "Bank Stocks Rally! Nifty Bank hits 9-month high, nears 52-week high",
-      "url": "https://zeebiz.com/market-news/news-bank-stocks-rally-nifty-bank-hits-9-month-high-nears-52-week-peak-why-are-hdfc-bob-icici-pnb-others-rising-405410"
+      "title": "Stock Market Close: Sensex pares gains but ends 773 pts up, Nifty at 25,255; PSU Bank rises 3%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
      }
     },
     "down": {
-     "summary": "Realty and IT give up gains; Cochin Shipyard falls on results",
-     "why": "After the morning run to multi-month highs, traders are booking profits in real estate and IT.",
+     "summary": "Realty and IT give back gains; Cochin Shipyard falls on results",
+     "why": "After the benchmarks hit multi-month highs in the morning, traders booked profits in real estate and IT.",
      "names": [
       {
        "name": "Nifty Realty",
        "dir": "down",
-       "move": "-1%",
-       "line": "The weakest sector as traders book profits after the morning surge"
+       "line": "The weakest sector in the afternoon as traders locked in gains"
       },
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "Weighing on the indices through the afternoon on profit-taking"
+       "line": "Weighed on the indices through the afternoon on profit-taking"
       },
       {
        "name": "Cochin Shipyard",
@@ -75,7 +67,7 @@
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex rises 400 pts, Nifty tops 25,100; Nifty Realty down 1%",
+      "title": "Stock Market Close: Sensex pares gains but ends 773 pts up, Nifty at 25,255; PSU Bank rises 3%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
      }
     }
@@ -84,27 +76,76 @@
  },
  "insights": [
   {
+   "key": "winning-streak",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Eighth straight gain adds about ₹30.6 trillion",
+   "line": "Investor wealth rose about ₹30.6 trillion over eight sessions of gains, Goodreturns says",
+   "more": [
+    "The seven-day pre-Diwali run was the longest since 1992, it says",
+    "Gains were pared in the afternoon as profit-taking set in"
+   ],
+   "src": {
+    "title": "Rs 3,05,65,12,78,00,000 Wealth Created In 8 Sessions: Sensex, Nifty Rally 11%, Log Multi-Month Winning Streaks",
+    "url": "https://www.goodreturns.in/news/rs-30565127800000-wealth-created-in-8-sessions-sensex-nifty-rally-11-multi-month-winning-streak-1546337.html"
+   },
+   "date": "2026-11-11",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "0955"
+   }
+  },
+  {
    "key": "bank-rally",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "Nifty Bank hits a nine-month high",
-   "line": "All 14 bank-index stocks are higher, with Bank of Baroda the top gainer",
+   "title": "PSU Bank index ends up about 3%",
+   "line": "State-run lenders were the strongest sector at the close",
    "more": [
-    "The bank index is trading near its 52-week high",
-    "An analyst quoted said profit booking cannot be ruled out after the sharp rally"
+    "Nifty Bank touched a nine-month high in the afternoon",
+    "Reports credit a return of foreign fund inflows"
    ],
    "src": {
-    "title": "Bank Stocks Rally! Nifty Bank hits 9-month high, nears 52-week high",
-    "url": "https://zeebiz.com/market-news/news-bank-stocks-rally-nifty-bank-hits-9-month-high-nears-52-week-peak-why-are-hdfc-bob-icici-pnb-others-rising-405410"
+    "title": "Stock Market Close: Sensex pares gains but ends 773 pts up, Nifty at 25,255; PSU Bank rises 3%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
    },
    "date": "2026-11-11",
-   "slot": "1505",
-   "when": "15:05",
+   "slot": "1535",
+   "when": "15:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "1225"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Foreign buying behind the session's gains",
+   "line": "Reports credit FII buying and positive Q2 results for today's advance",
+   "more": [
+    "Foreign investors have been net buyers for several straight sessions",
+    "Today's provisional flow figures are due after the close"
+   ],
+   "src": {
+    "title": "Sensex, Nifty Surge As FIIs Boost Indian Equities Amid Positive Q2 Results",
+    "url": "https://www.etvbharat.com/en/business/sensex-nifty-surge-as-fiis-boost-indian-equities-amid-positive-q2-results-enn26111101254"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-11",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "0700"
    }
   },
   {
@@ -125,7 +166,7 @@
    "slot": "1505",
    "when": "15:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1435"
@@ -149,7 +190,7 @@
    "slot": "1505",
    "when": "15:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1105"
@@ -300,31 +341,6 @@
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1335"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FPIs invest ₹53,739 crore in nine days",
-   "line": "NSDL data show foreign investors bought ₹53,739 crore in November's first nine days",
-   "more": [
-    "Foreign buying is cited as a key driver of today's rally",
-    "Today's provisional figures come after the close"
-   ],
-   "src": {
-    "title": "NIFTY50 above 25,250, SENSEX gains over 1,000 pts; IIFL Fin, Kalyan Jewellers among buzzing stocks",
-    "url": "https://upstox.com/news/market-news/stocks/nifty-50-above-24-250-sensex-gains-over-1-000-pts-iifl-fin-kalyan-jewellers-among-buzzing-stocks/article-203284"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-11",
-   "slot": "1335",
-   "when": "13:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "0700"
    }
   },
   {
@@ -1346,30 +1362,6 @@
    "first_seen": {
     "date": "2026-11-05",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "winning-streak",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Large caps extend their winning run",
-   "line": "Large caps extend the run despite the global AI-led sell-off",
-   "more": [
-    "Private banks and IT led the afternoon buying",
-    "Mid and small caps still ended lower"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE, Nov 6 (3 PM update)",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
-   },
-   "date": "2026-11-06",
-   "slot": "1525",
-   "when": "Fri · 15:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "0955"
    }
   },
   {
