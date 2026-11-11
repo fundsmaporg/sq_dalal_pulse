@@ -1,93 +1,169 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-11T10:06:47+05:30",
+ "generated_at": "2026-11-11T10:36:42+05:30",
  "date": "2026-11-11",
- "slot": "1005",
- "slot_label": "10:05",
- "stage": "Opening mood",
- "asof": "2026-11-11T10:05:00+05:30",
- "nifty": {
-  "value": 25361.4,
-  "pct": 1.26,
-  "chg": 316.75,
-  "approx": false,
-  "asof_quote": "10:00"
- },
+ "slot": "1035",
+ "slot_label": "10:35",
+ "stage": "Mid-market mood",
+ "asof": "2026-11-11T10:35:00+05:30",
  "mood": {
-  "label": "Broad rally holds",
-  "score": 0.65,
-  "summary": "Indian stocks are holding a broad, strong rally in the first hour, with banks and autos leading, smallcaps joining in and very few large names in the red.",
+  "label": "Rally steady",
+  "score": 0.6,
+  "summary": "Indian stocks are trading firmly higher mid-morning, with state-run banks out in front, smallcaps keeping pace and selling confined to a handful of weak results.",
   "detail": {
-   "leaders": "PSU banks and Nifty Bank; IndiGo, M&M and SBI among the top Nifty gainers",
-   "laggards": "Cochin Shipyard after weak results; midcaps trailing smallcaps",
-   "tone": "A live read in the first hour. The gap-up has held rather than faded, and the gains have widened to smallcaps.",
+   "leaders": "Nifty PSU Bank with SBI and Bank of Baroda; IIFL Finance on its Blackstone deal",
+   "laggards": "Cochin Shipyard after weak Q2; Nifty Midcap lagging smallcaps",
+   "tone": "A live read of mid-morning trade. Without a fresh index print since the previous note, this is a read on behaviour: the rally has held its ground, with leadership narrowing toward state-run banks.",
    "watch": [
-    "Whether the rally holds through midday or meets profit-taking",
-    "Crude staying near its two-month lows",
-    "Tata Power and other results due later today"
+    "Whether PSU banks keep leading into midday",
+    "Any fade in the gap-up as profit-taking sets in",
+    "Tata Power results later today"
    ],
    "src": {
-    "title": "Sensex surges over 1,100 points, Nifty crosses 25,350 as oil prices decline",
-    "url": "https://www.thehawk.in/news/science/sensex-surges-over-1100-points-nifty-crosses-25350-as-oil-prices-decline"
+    "title": "Stock Market LIVE: IndiGo, M&M lead 1,100-pt surge in Sensex, Nifty PSU Bank up 2% as SBI, BoB lead",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Banks lead, with airlines and autos close behind",
-     "why": "Cheaper oil and steady foreign buying are lifting large caps across sectors, with banks carrying the most weight.",
+     "summary": "State-run banks lead, with IIFL Finance surging on a Blackstone deal",
+     "why": "Cheaper oil and foreign buying are lifting financials most, as lenders carry the heaviest index weight.",
      "names": [
       {
        "name": "Nifty PSU Bank",
        "dir": "up",
-       "line": "The biggest gainer among sector indices in morning trade"
+       "move": "+2%",
+       "line": "The strongest sector index, led by SBI and Bank of Baroda"
       },
       {
-       "name": "Nifty Bank",
+       "name": "State Bank of India",
        "dir": "up",
-       "move": "+1.5%",
-       "line": "Bank and financial services indices up about 1.5% each"
+       "line": "A top Nifty gainer and the main driver of the PSU bank index"
       },
       {
-       "name": "InterGlobe Aviation (IndiGo)",
+       "name": "Bank of Baroda",
        "dir": "up",
-       "line": "Top Nifty gainer as falling crude cuts the airline's fuel bill"
+       "line": "Co-leading the PSU bank rally alongside SBI"
       },
       {
-       "name": "Mahindra & Mahindra",
+       "name": "IIFL Finance",
        "dir": "up",
-       "line": "Among top Nifty gainers as the auto index rises about 1.2%"
+       "move": "up 5.6–8.6%",
+       "line": "Blackstone is to take about 16% via a ₹5,000 crore investment"
       }
      ],
      "src": {
-      "title": "Sensex surges over 1,100 points, Nifty crosses 25,350 as oil prices decline",
-      "url": "https://www.thehawk.in/news/science/sensex-surges-over-1100-points-nifty-crosses-25350-as-oil-prices-decline"
+      "title": "Stock Market LIVE: IndiGo, M&M lead 1,100-pt surge in Sensex, Nifty PSU Bank up 2% as SBI, BoB lead",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
      }
     },
     "down": {
-     "summary": "Few laggards; Cochin Shipyard slides and midcaps lag",
-     "why": "Selling is limited to stock-specific results disappointments, while midcaps rise less than the rest of the market.",
+     "summary": "Few losers: Cochin Shipyard slumps on results; midcaps lag",
+     "why": "Selling is stock-specific, tied to disappointing quarterly numbers, while midcaps rise less than the wider market.",
      "names": [
       {
        "name": "Cochin Shipyard",
        "dir": "down",
-       "move": "down over 6%",
-       "line": "Q2 profit fell sharply even as revenue grew about 12%"
+       "move": "-8%",
+       "line": "Q2 net profit halved to ₹54 crore despite higher revenue"
       },
       {
        "name": "Nifty Midcap 100",
        "dir": "up",
        "move": "+0.68%",
-       "line": "Rising, but trailing both large caps and smallcaps"
+       "line": "Up, but trailing large caps and smallcaps"
       }
      ],
      "src": {
-      "title": "Why are Cochin Shipyard shares falling over 6% today? Explained",
-      "url": "https://businessupturn.com/finance/stock-market/why-are-cochin-shipyard-share-falling-over-6-today-explained/"
+      "title": "Why is IIFL Finance stock surging today?",
+      "url": "https://in.investing.com/news/stock-market-news/why-is-iifl-finance-stock-surging-today-93CH-5695815"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "iifl-blackstone",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IIFL Finance jumps on Blackstone stake deal",
+   "line": "Shares rose 5.6% to ₹662 in one report and later 8.6% to ₹680.95",
+   "more": [
+    "Blackstone to invest ₹5,000 crore for about a 16% stake",
+    "Part of a ₹6,414 crore capital raise approved on November 10",
+    "Figures differ because reports captured different times"
+   ],
+   "src": {
+    "title": "Why is IIFL Finance stock surging today?",
+    "url": "https://in.investing.com/news/stock-market-news/why-is-iifl-finance-stock-surging-today-93CH-5695815"
+   },
+   "date": "2026-11-11",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "cochin-shipyard-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Cochin Shipyard down 8% after profit halves",
+   "line": "Shares fell to ₹1,186.50 on NSE after Q2 net profit fell 50% to ₹54 crore",
+   "more": [
+    "Revenue rose even as profit fell",
+    "Earlier reports put the early fall at over 6%"
+   ],
+   "src": {
+    "title": "Why is IIFL Finance stock surging today?",
+    "url": "https://in.investing.com/news/stock-market-news/why-is-iifl-finance-stock-surging-today-93CH-5695815"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Cochin Shipyard",
+    "quarter": "Q2 FY27",
+    "reaction_asof": "morning",
+    "profit_cr": 54,
+    "profit_yoy_pct": -50,
+    "reaction_pct": -8
+   },
+   "date": "2026-11-11",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "psu-banks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PSU banks lead the rally",
+   "line": "Nifty PSU Bank is up about 2%, with SBI and Bank of Baroda in front",
+   "more": [
+    "SBI is among the top three Nifty gainers",
+    "Nifty Bank and financial services indices are also firmly higher"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: IndiGo, M&M lead 1,100-pt surge in Sensex, Nifty PSU Bank up 2% as SBI, BoB lead",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+   },
+   "date": "2026-11-11",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "1105"
+   }
+  },
   {
    "key": "opening-bell",
    "tag": "Opening",
@@ -107,43 +183,10 @@
    "slot": "1005",
    "when": "10:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "0925"
-   }
-  },
-  {
-   "key": "cochin-shipyard-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Cochin Shipyard falls after weak Q2",
-   "line": "Shares fell over 6% in early trade after September-quarter profit dropped",
-   "more": [
-    "Consolidated revenue rose about 11.7% year on year",
-    "Another live blog put the fall at about 8%",
-    "The Q2 profit fell roughly 50%, earlier reports said"
-   ],
-   "src": {
-    "title": "Why are Cochin Shipyard shares falling over 6% today? Explained",
-    "url": "https://businessupturn.com/finance/stock-market/why-are-cochin-shipyard-share-falling-over-6-today-explained/"
-   },
-   "thread": "q2-results-2026",
-   "results": {
-    "company": "Cochin Shipyard",
-    "quarter": "Q2 FY27",
-    "reaction_asof": "early trade",
-    "revenue_yoy_pct": 11.7,
-    "reaction_pct": -6
-   },
-   "date": "2026-11-11",
-   "slot": "1005",
-   "when": "10:05",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "1005"
    }
   },
   {
@@ -165,35 +208,10 @@
    "slot": "1005",
    "when": "10:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "iifl-blackstone",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Blackstone to own about 16% of IIFL Finance",
-   "line": "The ₹5,000 crore Blackstone investment does not change control, the company says",
-   "more": [
-    "The capital raise is expected to lift capital adequacy from about 17% to 30% pro forma",
-    "The stake is about 15.57%, per a Quartz report",
-    "IIFL Finance shares are among the morning's stocks in focus"
-   ],
-   "src": {
-    "title": "IIFL Finance shares in focus as Blackstone to buy 16% stake",
-    "url": "https://www.businesstoday.in/markets/stocks/story/iifl-finance-shares-in-focus-as-blackstone-to-buy-16-stake-566761-2026-11-11"
-   },
-   "date": "2026-11-11",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "0845"
    }
   },
   {
@@ -465,30 +483,6 @@
    "first_seen": {
     "date": "2026-11-07",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "psu-banks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "SBI leads a broad PSU bank rally",
-   "line": "State lenders were the day's best sector; SBI led gains among large caps",
-   "more": [
-    "SBI, PNB and Canara were among lenders up about 3% intraday",
-    "Pharma was the next-best sector"
-   ],
-   "src": {
-    "title": "Upstox: Market wrap, Nov 9 — Sensex rises 107 pts, Nifty 50 ends at 25,044 as PSU bank, pharma stocks rally; SBI leads gains",
-    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-9-sensex-rises-107-pts-nifty-50-ends-at-25-044-as-psu-bank-pharma-stocks-rally-sbi-leads-gains/article-203225/"
-   },
-   "date": "2026-11-09",
-   "slot": "1635",
-   "when": "Mon · 16:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "1105"
    }
   },
   {
