@@ -1,65 +1,64 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-11T11:37:21+05:30",
+ "generated_at": "2026-11-11T12:06:32+05:30",
  "date": "2026-11-11",
- "slot": "1135",
- "slot_label": "11:35",
+ "slot": "1205",
+ "slot_label": "12:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-11T11:35:00+05:30",
+ "asof": "2026-11-11T12:05:00+05:30",
+ "nifty": {
+  "value": 25377.6,
+  "pct": 1.33,
+  "chg": 332.95,
+  "approx": false,
+  "asof_quote": "12:00"
+ },
  "mood": {
-  "label": "Broad rally holds",
-  "score": 0.65,
-  "summary": "Indian stocks are holding a broad rally near the day's highs, with every Sensex stock in the green, banks out in front and selling confined to a few small, stock-specific names.",
+  "label": "Holding firm",
+  "score": 0.6,
+  "summary": "Indian stocks are steady near the day's highs at midday, with the strong gains from the open intact, banks still leading and smallcaps outpacing midcaps.",
   "detail": {
-   "leaders": "Banks via the BSE Bankex; IndiGo, M&M, SBI, Axis Bank, Eternal and Asian Paints",
+   "leaders": "Nifty PSU Bank; IndiGo and M&M",
    "laggards": "Cochin Shipyard after weak Q2",
-   "tone": "A live read of late-morning trade. Without a fresh index print since the previous note, this is a read on behaviour: the market has held its gains, with breadth still strong.",
+   "tone": "A live read at midday. The market has barely moved since late morning, holding its gains rather than adding to them.",
    "watch": [
-    "Any profit-taking into the afternoon after the sharp gap-up",
-    "Moves in crude and US yields",
-    "Tata Power and Hindustan Copper results due today"
+    "Any afternoon profit-taking after the sharp gap-up",
+    "Crude and US yields",
+    "Tata Power results due today"
    ],
    "src": {
-    "title": "Sensex zooms 1,100 pts, Nifty crosses 25,300 mark on positive global cues",
-    "url": "https://www.businesstoday.in/markets/stocks/story/sensex-zooms-1100-pts-nifty-crosses-25300-mark-on-positive-global-cues-566767-2026-11-11"
+    "title": "Stock Market LIVE: Sensex jumps 1,200 pts, Nifty tops 25,350; IndiGo, M&M top gainers",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Banks lead, with IndiGo, M&M and Asian Paints among top gainers",
-     "why": "Cheaper crude helps fuel-sensitive names like airlines and paints, while banks carry the index on foreign buying.",
+     "summary": "PSU banks lead, with IndiGo and M&M the top index gainers",
+     "why": "Lower energy prices and a return of foreign buying are behind a risk-on mood that is favouring banks and fuel-sensitive names.",
      "names": [
       {
-       "name": "BSE Bankex",
+       "name": "Nifty PSU Bank",
        "dir": "up",
-       "line": "Banking is the strongest sector, the Bankex up about 1,294 points"
+       "line": "The best-performing sector index, led by SBI and Bank of Baroda"
       },
       {
        "name": "InterGlobe Aviation (IndiGo)",
        "dir": "up",
-       "move": "up to 5%",
-       "line": "A top gainer as lower crude cuts the airline's fuel bill"
+       "line": "A top gainer; cheaper crude lowers the airline's biggest cost"
       },
       {
-       "name": "Axis Bank",
+       "name": "Mahindra & Mahindra",
        "dir": "up",
-       "move": "up to 5%",
-       "line": "Among the top Sensex gainers alongside SBI in a bank-led rally"
-      },
-      {
-       "name": "Asian Paints",
-       "dir": "up",
-       "move": "up to 5%",
-       "line": "Crude-linked raw materials make it a beneficiary of cheaper oil"
+       "line": "Among the top gainers, named in midday live coverage"
       }
      ],
      "src": {
-      "title": "Sensex zooms 1,100 pts, Nifty crosses 25,300 mark on positive global cues",
-      "url": "https://www.businesstoday.in/markets/stocks/story/sensex-zooms-1100-pts-nifty-crosses-25300-mark-on-positive-global-cues-566767-2026-11-11"
+      "title": "Stock Market LIVE: Sensex jumps 1,200 pts, Nifty tops 25,350; IndiGo, M&M top gainers",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
      }
     },
     "down": {
-     "summary": "Losses are stock-specific, led by Cochin Shipyard on weak results",
-     "why": "With every Sensex stock higher, selling is confined to results disappointments and thinly traded small caps.",
+     "summary": "Cochin Shipyard is the clearest loser after weak results",
+     "why": "Selling is narrow and tied to results disappointments in an otherwise broad up-day.",
      "names": [
       {
        "name": "Cochin Shipyard",
@@ -69,8 +68,8 @@
       }
      ],
      "src": {
-      "title": "Indian Stocks Rally as Nifty and Sensex Surge on Broad-Based Buying",
-      "url": "https://in.investing.com/news/stock-market-news/indian-stocks-rally-as-nifty-and-sensex-surge-on-broadbased-buying-5695788"
+      "title": "Why Stock Market Rising Today (Nov 11, 2026)? Sensex Jumps 1,204 Points, Nifty Above 25,300",
+      "url": "https://www.angelone.in/news/market-updates/why-stock-market-rising-today-nov-11-2026-sensex-jumps-1-204-points-nifty-above-25-300"
      }
     }
    }
@@ -81,24 +80,73 @@
    "key": "opening-bell",
    "tag": "Opening",
    "impact": "pos",
-   "title": "All 30 Sensex stocks in the green",
-   "line": "IndiGo, M&M, SBI, Axis Bank, Eternal and Asian Paints lead with gains of up to 5%",
+   "title": "Rally holds at midday",
+   "line": "Live coverage credits lower energy prices and a return of foreign buying",
    "more": [
-    "The BSE Bankex is up about 1,294 points, leading sectors",
-    "Reports credit cheaper oil and returning foreign buying"
+    "Smallcaps are up more than midcaps",
+    "Nifty PSU Bank is the top sector; Nifty Pharma the weakest"
    ],
    "src": {
-    "title": "Sensex zooms 1,100 pts, Nifty crosses 25,300 mark on positive global cues",
-    "url": "https://www.businesstoday.in/markets/stocks/story/sensex-zooms-1100-pts-nifty-crosses-25300-mark-on-positive-global-cues-566767-2026-11-11"
+    "title": "Stock Market LIVE: Sensex jumps 1,200 pts, Nifty tops 25,350; IndiGo, M&M top gainers",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
    },
    "date": "2026-11-11",
-   "slot": "1135",
-   "when": "11:35",
+   "slot": "1205",
+   "when": "12:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "0925"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FII inflows near ₹54,000 crore",
+   "line": "Angel One cites about ₹53,739 crore of FII inflows behind the rally",
+   "more": [
+    "Foreign buying has been a key support this month",
+    "Daily provisional data for today will come after the close"
+   ],
+   "src": {
+    "title": "Why Stock Market Rising Today (Nov 11, 2026)? Sensex Jumps 1,204 Points, Nifty Above 25,300",
+    "url": "https://www.angelone.in/news/market-updates/why-stock-market-rising-today-nov-11-2026-sensex-jumps-1-204-points-nifty-above-25-300"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-11",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "pharma-lags",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Pharma is the day's weakest sector",
+   "line": "Nifty Pharma is down the most among sector indices in a broad up-day",
+   "more": [
+    "The index was also among Monday's movers, up 1.65% then",
+    "No single trigger was cited for today's decline"
+   ],
+   "src": {
+    "title": "Why Stock Market Rising Today (Nov 11, 2026)? Sensex Jumps 1,204 Points, Nifty Above 25,300",
+    "url": "https://www.angelone.in/news/market-updates/why-stock-market-rising-today-nov-11-2026-sensex-jumps-1-204-points-nifty-above-25-300"
+   },
+   "date": "2026-11-11",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1205"
    }
   },
   {
@@ -120,7 +168,7 @@
    "slot": "1135",
    "when": "11:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "0845"
@@ -144,7 +192,7 @@
    "slot": "1135",
    "when": "11:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1135"
@@ -289,31 +337,6 @@
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Foreign buying cited behind the rally",
-   "line": "Market reports credit continued FII buying alongside cooler crude",
-   "more": [
-    "FIIs have been net buyers for seven straight sessions",
-    "Market value rose by about ₹4 trillion at the open"
-   ],
-   "src": {
-    "title": "Sensex and Nifty Surge Amid Strong FII Buying and Positive Q2 Earnings",
-    "url": "https://newsable.asianetnews.com/business/sensex-and-nifty-surge-amid-strong-fii-buying-and-positive-q2-earnings-articleshow-xmcn18g"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-11",
-   "slot": "1005",
-   "when": "10:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "0700"
    }
   },
   {
