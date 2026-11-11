@@ -1,17 +1,17 @@
 {
  "key": "crude",
- "title": "Brent falls to about $92 on Iran hopes",
- "tag": "Macro",
+ "title": "Brent settles near $91.5 on Iran hopes",
+ "tag": "Global",
  "thread": "crude-iran-war",
  "first_seen": {
   "date": "2026-09-23",
   "slot": "1230"
  },
  "last_seen": {
-  "date": "2026-11-10",
-  "slot": "0845"
+  "date": "2026-11-11",
+  "slot": "0700"
  },
- "count": 116,
+ "count": 117,
  "timeline": [
   {
    "date": "2026-09-23",
@@ -2022,11 +2022,30 @@
     "title": "Business Recorder: Oil falls as Trump downplays prospect of escalation with Iran",
     "url": "https://www.brecorder.com/news/40448220/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran"
    }
+  },
+  {
+   "date": "2026-11-11",
+   "slot": "0700",
+   "when": "Wed · 7:00",
+   "title": "Brent settles near $91.5 on Iran hopes",
+   "line": "Brent fell 1.2% on Tuesday after briefly dipping below $90 for the first time since August",
+   "impact": "pos",
+   "tag": "Global",
+   "more": [
+    "WTI settled down 0.9% at $86.04",
+    "Trump said further strikes on Iran would not be necessary",
+    "Brent is about 23% below its October 30 high of $118"
+   ],
+   "thread": "crude-iran-war",
+   "src": {
+    "title": "Brent crude briefly dips below $90 for first time since August on Iran hopes",
+    "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
+   }
   }
  ],
  "dossier": {
-  "headline": "Crude swings on the Iran conflict, and India's market swings with it",
-  "summary": "Brent has driven the market's mood since late September, moving on each turn in the West Asia conflict — easing on talks, spiking on Gulf shipping attacks. It climbed above $107 in late September and again on the 23 October spike, then slid through early November as traders bet the US election result would press Washington toward ending the conflict. It ended last week sharply lower, with reports of fresh attacks on ships late in the week.",
+  "headline": "Oil's war premium drains as Iran de-escalation hopes grow",
+  "summary": "Brent has set the tone for Indian equities since late September, moving with each turn in the West Asia conflict. After a near-13% weekly fall to about $98.32 in the first week of November, it slid again on Monday and Tuesday as traders bet on a US-Iran deal, briefly dipping below $90 for the first time since August before settling near $91.5.",
   "status": "developing",
   "why_it_matters": [
    "India imports most of its crude, so the oil price feeds straight into inflation, the rupee and the current account.",
@@ -2046,24 +2065,25 @@
    }
   ],
   "watch": [
-   "Any disruption at the Strait of Hormuz, which the notes flag as able to reverse the slide.",
-   "Whether the reported attacks on Gulf shipping continue.",
-   "Whether talk of an end to the conflict turns into anything concrete."
+   "Whether Brent holds below the low $90s",
+   "Any fresh attacks on Gulf shipping",
+   "Signs of a formal US-Iran settlement"
   ],
   "questions": [
-   "Does cheaper crude show up in inflation data, or is the rupee offsetting it?",
-   "How much of the recent slide is the conflict easing, and how much is demand?"
+   "Is the war premium now fully priced out?",
+   "Could a Gulf incident reverse the slide quickly?"
   ],
   "conflicts": [
-   "Settlement figures differ across sources (note of 2026-11-05 0700), so levels quoted on a given day may not agree."
+   "One report put Tuesday's Brent settlement at $91.49; another said only that it settled below $92"
   ],
-  "written_at": "2026-11-07T19:18:21+05:30",
+  "written_at": "2026-11-11T07:05:00+05:30",
   "based_on_slots": [
+   "2026-11-07/0800",
    "2026-11-07/1800",
-   "2026-11-05/1125",
-   "2026-11-05/0700",
-   "2026-11-02/0930",
-   "2026-10-23/1030"
+   "2026-11-07/2100",
+   "2026-11-09/2100",
+   "2026-11-10/0845",
+   "2026-11-11/0700"
   ]
  }
 }

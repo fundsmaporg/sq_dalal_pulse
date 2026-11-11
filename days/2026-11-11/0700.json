@@ -1,0 +1,116 @@
+{
+ "asof": "2026-11-11T07:00:00+05:30",
+ "summary": "Indian stocks reopen after a holiday with mixed overnight cues: hotter US inflation knocked Wall Street lower and lifted rate-hike bets, while cheaper oil offers a cushion.",
+ "mood": {
+  "label": "Mixed start likely",
+  "score": 0.0,
+  "detail": {
+   "stats": [],
+   "leaders": "Oil-sensitive names such as paints, airlines and OMCs could find support as crude eases",
+   "laggards": "IT and other rate-sensitive, US-linked names face pressure from higher US yields",
+   "tone": "A forward-looking read for the first session after Tuesday's holiday. The cues are less supportive than on Monday night, when a strong US rally pointed to a firm start; the inflation surprise has since tempered that.",
+   "watch": [
+    "Whether US yields keep climbing on December Fed hike bets",
+    "Brent holding below the low $90s on Iran de-escalation",
+    "How foreign investors trade after two days away"
+   ],
+   "src": {
+    "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds",
+    "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25044.65,
+  "pct": 0.23,
+  "chg": 58.25,
+  "approx": false
+ },
+ "metrics": {
+  "brent_usd": {
+   "value": 91.49,
+   "asof": "2026-11-10 settlement",
+   "approx": false,
+   "src": {
+    "title": "Brent crude briefly dips below $90 for first time since August on Iran hopes",
+    "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
+   }
+  }
+ },
+ "top": [
+  {
+   "key": "us-cpi",
+   "tag": "Macro",
+   "impact": "neg",
+   "thread": "us-rates",
+   "title": "US inflation runs hotter than expected",
+   "line": "October CPI rose 0.4% vs 0.3% forecast; core rose 0.3% vs 0.2%",
+   "more": [
+    "Headline CPI cooled from September's 0.6% gain but beat forecasts",
+    "No year-on-year figure: last year's shutdown halted October 2025 data",
+    "Markets raised bets on a December Fed rate hike",
+    "One report put the US 10-year yield near 5.00% after the data"
+   ],
+   "src": {
+    "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds",
+    "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "thread": "global-markets",
+   "title": "Wall Street gives back some of Monday's rally",
+   "line": "S&P 500 fell about 0.4% and the Nasdaq about 0.7% after the CPI print",
+   "more": [
+    "Dow slipped about 0.3%; exact closing figures vary by source",
+    "Tech led the decline as rate-hike odds rose",
+    "Monday's session had been the S&P 500's best day since April"
+   ],
+   "src": {
+    "title": "U.S. Stocks Close Lower as Hotter Inflation Strengthens Fed Rate Hike Expectations",
+    "url": "https://yournews.com/2026/11/10/7261422/u-s-stocks-close-lower-as-hotter-inflation-strengthens-fed-rate/"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "thread": "crude-iran-war",
+   "title": "Brent settles near $91.5 on Iran hopes",
+   "line": "Brent fell 1.2% on Tuesday after briefly dipping below $90 for the first time since August",
+   "more": [
+    "WTI settled down 0.9% at $86.04",
+    "Trump said further strikes on Iran would not be necessary",
+    "Brent is about 23% below its October 30 high of $118"
+   ],
+   "src": {
+    "title": "Brent crude briefly dips below $90 for first time since August on Iran hopes",
+    "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds",
+   "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+  },
+  {
+   "title": "U.S. Stocks Close Lower as Hotter Inflation Strengthens Fed Rate Hike Expectations",
+   "url": "https://yournews.com/2026/11/10/7261422/u-s-stocks-close-lower-as-hotter-inflation-strengthens-fed-rate/"
+  },
+  {
+   "title": "The Stock Market Just Got Bad News on Inflation.",
+   "url": "https://www.fool.com/investing/2026/11/10/the-stock-market-just-got-bad-news-on-inflation/"
+  },
+  {
+   "title": "Brent crude briefly dips below $90 for first time since August on Iran hopes",
+   "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
+  },
+  {
+   "title": "Oil Extends Drop as Trump Says Further Iran Strikes Unnecessary",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-09/latest-oil-market-news-and-analysis-for-nov-10"
+  }
+ ]
+}

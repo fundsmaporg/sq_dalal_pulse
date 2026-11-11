@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-10T08:46:20+05:30",
- "date": "2026-11-10",
- "slot": "0845",
- "slot_label": "8:45",
+ "generated_at": "2026-11-11T07:01:02+05:30",
+ "date": "2026-11-11",
+ "slot": "0700",
+ "slot_label": "7:00",
  "stage": "Pre-market mood",
- "asof": "2026-11-10T08:50:00+05:30",
+ "asof": "2026-11-11T07:00:00+05:30",
  "nifty": {
   "value": 25044.65,
   "pct": 0.23,
@@ -14,111 +14,112 @@
  },
  "metrics": {
   "brent_usd": {
-   "value": 92.33,
-   "asof": "Tue Nov 10, Asian trade",
+   "value": 91.49,
+   "asof": "2026-11-10 settlement",
    "approx": false,
    "src": {
-    "title": "Business Recorder: Oil falls as Trump downplays prospect of escalation with Iran",
-    "url": "https://www.brecorder.com/news/40448220/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran"
+    "title": "Brent crude briefly dips below $90 for first time since August on Iran hopes",
+    "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
    }
   }
  },
  "mood": {
-  "label": "Market closed",
-  "score": 0.4,
-  "summary": "Indian markets are shut today; when they reopen on Wednesday, a strong Wall Street rally and sharply cheaper oil point to a supportive start, with US inflation data the key test overnight.",
+  "label": "Mixed start likely",
+  "score": 0.0,
+  "summary": "Indian stocks reopen after a holiday with mixed overnight cues: hotter US inflation knocked Wall Street lower and lifted rate-hike bets, while cheaper oil offers a cushion.",
   "detail": {
-   "leaders": "Oil importers and banks, if cheaper crude and foreign buying carry over",
-   "laggards": "IT, which was sold heavily before the holiday",
-   "tone": "A forward-looking read: NSE and BSE are closed today for Diwali Balipratipada. The next session is Wednesday Nov 11, which follows a firm global night and today's US October CPI release.",
+   "leaders": "Oil-sensitive names such as paints, airlines and OMCs could find support as crude eases",
+   "laggards": "IT and other rate-sensitive, US-linked names face pressure from higher US yields",
+   "tone": "A forward-looking read for the first session after Tuesday's holiday. The cues are less supportive than on Monday night, when a strong US rally pointed to a firm start; the inflation surprise has since tempered that.",
    "watch": [
-    "US October CPI, due tonight India time, for its read on a December Fed hike",
-    "Whether oil's slide holds as US-Iran talks continue",
-    "About 110 Q2 results when trading resumes on Wednesday"
+    "Whether US yields keep climbing on December Fed hike bets",
+    "Brent holding below the low $90s on Iran de-escalation",
+    "How foreign investors trade after two days away"
    ],
    "src": {
-    "title": "Washington Post (AP): How major US stock indexes fared Monday 11/9/2026",
-    "url": "https://www.washingtonpost.com/business/2026/11/09/wall-street-stocks-dow-nasdaq/d2094ae0-dc83-11f1-912c-4fbb80d73f7f_story.html"
+    "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds",
+    "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
    }
   }
  },
  "insights": [
   {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "S&P 500 has its best day since April",
-   "line": "S&P 500 closed up 2.35% and the Nasdaq 2.74% as oil prices tumbled",
+   "key": "us-cpi",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "US inflation runs hotter than expected",
+   "line": "October CPI rose 0.4% vs 0.3% forecast; core rose 0.3% vs 0.2%",
    "more": [
-    "The Dow rose 2.15%",
-    "Nvidia fell even as the broader market rallied",
-    "Rebound follows the S&P 500's worst week since April 2025"
+    "Headline CPI cooled from September's 0.6% gain but beat forecasts",
+    "No year-on-year figure: last year's shutdown halted October 2025 data",
+    "Markets raised bets on a December Fed rate hike",
+    "One report put the US 10-year yield near 5.00% after the data"
    ],
    "src": {
-    "title": "Washington Post (AP): How major US stock indexes fared Monday 11/9/2026",
-    "url": "https://www.washingtonpost.com/business/2026/11/09/wall-street-stocks-dow-nasdaq/d2094ae0-dc83-11f1-912c-4fbb80d73f7f_story.html"
+    "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds",
+    "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
    },
-   "thread": "global-markets",
-   "date": "2026-11-10",
-   "slot": "0845",
-   "when": "8:45",
+   "thread": "us-rates",
+   "date": "2026-11-11",
+   "slot": "0700",
+   "when": "7:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
-    "date": "2026-11-04",
+    "date": "2026-11-10",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Wall Street gives back some of Monday's rally",
+   "line": "S&P 500 fell about 0.4% and the Nasdaq about 0.7% after the CPI print",
+   "more": [
+    "Dow slipped about 0.3%; exact closing figures vary by source",
+    "Tech led the decline as rate-hike odds rose",
+    "Monday's session had been the S&P 500's best day since April"
+   ],
+   "src": {
+    "title": "U.S. Stocks Close Lower as Hotter Inflation Strengthens Fed Rate Hike Expectations",
+    "url": "https://yournews.com/2026/11/10/7261422/u-s-stocks-close-lower-as-hotter-inflation-strengthens-fed-rate/"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-11",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
     "slot": "0700"
    }
   },
   {
    "key": "crude",
-   "tag": "Macro",
+   "tag": "Global",
    "impact": "pos",
-   "title": "Brent falls to about $92 on Iran hopes",
-   "line": "Brent dropped about 5% on Monday and eased further in Asia on Tuesday",
+   "title": "Brent settles near $91.5 on Iran hopes",
+   "line": "Brent fell 1.2% on Tuesday after briefly dipping below $90 for the first time since August",
    "more": [
-    "Brent was at $92.33 in Asian trade on Tuesday",
-    "Trump said US military action against Iran was not needed for now",
-    "Deutsche Bank warns oil could rebound if talks stall"
+    "WTI settled down 0.9% at $86.04",
+    "Trump said further strikes on Iran would not be necessary",
+    "Brent is about 23% below its October 30 high of $118"
    ],
    "src": {
-    "title": "Business Recorder: Oil falls as Trump downplays prospect of escalation with Iran",
-    "url": "https://www.brecorder.com/news/40448220/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran"
+    "title": "Brent crude briefly dips below $90 for first time since August on Iran hopes",
+    "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
    },
    "thread": "crude-iran-war",
-   "date": "2026-11-10",
-   "slot": "0845",
-   "when": "8:45",
+   "date": "2026-11-11",
+   "slot": "0700",
+   "when": "7:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "us-cpi",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "US October CPI due tonight",
-   "line": "Forecasters see energy lifting headline inflation; core seen near 0.2% a month",
-   "more": [
-    "September CPI came in at 3.7%",
-    "A firm core reading could revive bets on a December Fed hike",
-    "Release is at 8:30 am New York time"
-   ],
-   "src": {
-    "title": "investingLive: US CPI preview — 14 investment bank forecasters see energy lifting headline to 3.6%",
-    "url": "https://investinglive.com/news/us-cpi-preview-14-investment-bank-forecasters-see-energy-lifting-headline-to-3-6-core-held-near-0-2/"
-   },
-   "thread": "us-rates",
-   "date": "2026-11-10",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-10",
-    "slot": "0845"
    }
   },
   {
@@ -137,9 +138,9 @@
    },
    "date": "2026-11-10",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Tue · 8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1625"
@@ -167,7 +168,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "slot": "0700"
    }
   },
@@ -396,8 +397,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0955"
+    "date": "2026-11-09",
+    "slot": "1235"
    }
   },
   {
@@ -625,8 +626,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1055"
+    "date": "2026-11-05",
+    "slot": "1355"
    }
   },
   {
@@ -772,7 +773,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "slot": "0700"
    }
   },
@@ -1214,7 +1215,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "slot": "0700"
    }
   },
@@ -1333,11 +1334,11 @@
    "date": "2026-11-05",
    "slot": "1800",
    "when": "Thu · 18:00",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1355"
+    "date": "2026-11-05",
+    "slot": "1800"
    }
   },
   {
@@ -1357,11 +1358,11 @@
    "date": "2026-11-05",
    "slot": "1800",
    "when": "Thu · 18:00",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1055"
+    "date": "2026-11-05",
+    "slot": "1800"
    }
   },
   {
@@ -1480,8 +1481,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1625"
+    "date": "2026-11-05",
+    "slot": "0955"
    }
   },
   {
@@ -1794,8 +1795,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1555"
+    "date": "2026-11-05",
+    "slot": "0845"
    }
   },
   {
@@ -1818,8 +1819,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1525"
+    "date": "2026-11-05",
+    "slot": "1025"
    }
   },
   {
@@ -1839,11 +1840,11 @@
    "date": "2026-11-05",
    "slot": "1025",
    "when": "Thu · 10:25",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1800"
+    "date": "2026-11-05",
+    "slot": "1025"
    }
   },
   {
@@ -1863,400 +1864,10 @@
    "date": "2026-11-05",
    "slot": "0845",
    "when": "Thu · 8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1325"
-   }
-  },
-  {
-   "key": "us-midterms",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Dow jumps over 1,000 points on Dem sweep",
-   "line": "Dow up about 2.2%; S&P 500 and Nasdaq up about 1.1% in early US trade",
-   "more": [
-    "Trump's acceptance of the results eased political risk",
-    "Overnight futures had slumped before reversing",
-    "Figures are intraday; US session still live"
-   ],
-   "src": {
-    "title": "CNBC: Dow rallies 1,100 points as political risk eases after resounding Democratic victory in US midterms — live updates",
-    "url": "https://www.cnbc.com/amp/2026/11/03/stock-market-today-live-updates.html"
-   },
-   "date": "2026-11-04",
-   "slot": "2100",
-   "when": "Wed · 21:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "smallcap-outlook",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Small caps lead a broad rally at the close",
-   "line": "Smallcap and midcap indices ended well ahead of the benchmarks",
-   "more": [
-    "Media, metal and realty indices among the best",
-    "Analysts had flagged smallcap strength on Tuesday"
-   ],
-   "src": {
-    "title": "ChiniMandi: Sensex jumps 380 points, Nifty above 23,950",
-    "url": "https://www.chinimandi.com/sensex-jumps-380-points-nifty-above-23950/"
-   },
-   "date": "2026-11-04",
-   "slot": "1555",
-   "when": "Wed · 15:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0925"
-   }
-  },
-  {
-   "key": "q2-today",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Nykaa, BSE, Cummins numbers after hours",
-   "line": "Biggest batch of Q2 results lands after the close today",
-   "more": [
-    "Nykaa's year-ago profit was about ₹34 cr",
-    "Apollo Tyres and Torrent Power also due"
-   ],
-   "src": {
-    "title": "Upstox: Q2 results, Nov 4 — Lenskart, Nykaa, BSE, Apollo Tyres, Dabur India, GRSE, Redington and others",
-    "url": "https://upstox.com/news/market-news/earnings/q2-results-nov-4-lenskart-nykaa-bse-apollo-tyres-dabur-india-grse-redington-torrent-power-physicswallah-others-to-post-earnings/article-202932/"
-   },
-   "date": "2026-11-04",
-   "slot": "1525",
-   "when": "Wed · 15:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "emcure-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Emcure Pharma hits record high after Q2",
-   "line": "Shares rose as much as 10% to about ₹2,180 on September-quarter earnings",
-   "more": [
-    "Elara Securities said Q2 was broadly in line",
-    "Stock touched a fresh 52-week high on the NSE"
-   ],
-   "src": {
-    "title": "Business Today: Emcure Pharma shares soar 10% after Q2 results",
-    "url": "https://www.businesstoday.in/markets/stocks/story/emcure-pharma-shares-soar-10-after-q2-results-check-what-brokerages-recommend-565561-2026-11-04"
-   },
-   "date": "2026-11-04",
-   "slot": "1455",
-   "when": "Wed · 14:55",
    "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1455"
-   }
-  },
-  {
-   "key": "aarti-drugs-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Aarti Drugs jumps 7% on Q2 profit",
-   "line": "Shares rose 7% after September-quarter net profit surged 83%",
-   "more": [
-    "One of several pharma names moving on results today",
-    "Zydus Lifesciences fell on a weaker quarter"
-   ],
-   "src": {
-    "title": "Business Today: Emcure Pharma shares soar 10% after Q2 results",
-    "url": "https://www.businesstoday.in/markets/stocks/story/emcure-pharma-shares-soar-10-after-q2-results-check-what-brokerages-recommend-565561-2026-11-04"
-   },
-   "date": "2026-11-04",
-   "slot": "1455",
-   "when": "Wed · 14:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1455"
-   }
-  },
-  {
-   "key": "bhel-orders",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "BHEL rises 3.5% on project wins",
-   "line": "Shares touched ₹413.45 after new project wins",
-   "more": [
-    "Move tied to orders, not quarterly results",
-    "Listed among the day's buzzing stocks"
-   ],
-   "src": {
-    "title": "Upstox: Emcure Pharma, BHEL, Fractal Analytics among buzzing stocks; Sensex recovers 400 pts, Nifty above 23,850",
-    "url": "https://upstox.com/news/market-news/stocks/emcure-pharma-bhel-fractal-analytics-among-buzzing-stocks-sensex-recovers-400-pts-nifty-above-23-850/article-202962/"
-   },
-   "date": "2026-11-04",
-   "slot": "1455",
-   "when": "Wed · 14:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1455"
-   }
-  },
-  {
-   "key": "redington-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Redington Q2 profit up 40%",
-   "line": "Consolidated profit rose 39.6% to ₹541.32 cr in the September quarter",
-   "more": [
-    "Shares jumped 6.9% to ₹358.50",
-    "Figures are for the September quarter, Q2 FY27"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex up 100 pts, Nifty tops 23,800; Redington shares jump 7% post Q2 result",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
-   },
-   "date": "2026-11-04",
-   "slot": "1425",
-   "when": "Wed · 14:25",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1425"
-   }
-  },
-  {
-   "key": "nlc-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "NLC India profit nearly doubles in Q2",
-   "line": "Consolidated profit about ₹1,328 cr vs ₹725 cr; revenue ₹4,732 cr",
-   "more": [
-    "Interim dividend of ₹1.50 per share",
-    "Approved a 660 MW thermal expansion",
-    "₹2,500 cr bond issue cleared"
-   ],
-   "src": {
-    "title": "Whalesbook: NLC India Q2 profit hits ₹1,328 crore; declares dividend and expansion",
-    "url": "https://www.whalesbook.com/corporate-news/English/energy/NLC-India-Q2-Profit-Hits-Rs-1328-Crore-Declares-Dividend-and-Expansion/6aeaebfdc6c6dccbb9120635"
-   },
-   "date": "2026-11-04",
-   "slot": "1425",
-   "when": "Wed · 14:25",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1425"
-   }
-  },
-  {
-   "key": "zydus-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Zydus Q2 profit falls 27%; stock slides",
-   "line": "Profit ₹926 cr vs ₹1,261 cr; shares down about 3.8% at 1 pm",
-   "more": [
-    "Operating profit slipped 6% to ₹1,895 cr",
-    "North America formulations revenue rose 21% to ₹3,315 cr",
-    "Stock had touched a 52-week high earlier"
-   ],
-   "src": {
-    "title": "Upstox: Zydus Lifesciences Q2 results — net profit declines 27% YoY; US business revenue grows to ₹3,315 crore",
-    "url": "https://upstox.com/news/market-news/earnings/zydus-lifesciences-q2-results-net-profit-declines-27-yo-y-us-business-revenue-grows-to-3-315-crore/article-202959/"
-   },
-   "date": "2026-11-04",
-   "slot": "1355",
-   "when": "Wed · 13:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1355"
-   }
-  },
-  {
-   "key": "bayer-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Bayer CropScience profit up 9%, sales down 19%",
-   "line": "Q2 profit ₹166.2 cr vs ₹152.7 cr despite a 19% revenue drop",
-   "more": [
-    "Revenue fell to about ₹1,251 cr",
-    "Declared a ₹90 per share interim dividend",
-    "Results were released on Nov 3"
-   ],
-   "src": {
-    "title": "Moody's via TradingView: Bayer CropScience Q2 net up 9% at ₹166.2 cr despite drop in revenues",
-    "url": "https://www.tradingview.com/news/moodys:ba5e52428a27a:0-bayer-cropscience-q2-net-up-9-at-166-2-cr-despite-drop-in-revenues/"
-   },
-   "date": "2026-11-04",
-   "slot": "1355",
-   "when": "Wed · 13:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1355"
-   }
-  },
-  {
-   "key": "dabur-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Dabur Q2 expected to show 9% profit growth",
-   "line": "Analysts see about 11% revenue growth and 9% adjusted profit growth",
-   "more": [
-    "Company guided to double-digit growth in October",
-    "Year-ago profit was about ₹453 cr",
-    "Results due today"
-   ],
-   "src": {
-    "title": "IndiaIPO: Emami vs Dabur Q2 results preview — profit, revenue expectations",
-    "url": "https://www.indiaipo.in/news/detail/emami-vs-dabur-fmcg-shares-q2-results-preview-profit-revenue-expectations-dividend-announcements-in-focus"
-   },
-   "date": "2026-11-04",
-   "slot": "1325",
-   "when": "Wed · 13:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1255"
-   }
-  },
-  {
-   "key": "fmcg-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Consumer stocks lead for a second day",
-   "line": "Nifty FMCG tops sectors again after Tuesday's 1,000-point jump",
-   "more": [
-    "Lower crude cuts input costs for consumer firms",
-    "Marico and HUL led Tuesday's rally"
-   ],
-   "src": {
-    "title": "Zee Business: Nifty FMCG bulls return — index jumps 1,000 points, adds ₹41,000 crore in m-cap",
-    "url": "https://www.zeebiz.com/market-news/news-nifty-fmcg-bulls-return-index-jumps-1000-points-adds-rs-41000-crore-in-mcap-hul-marico-lead-gains-whats-fuelling-rally-405000"
-   },
-   "date": "2026-11-04",
-   "slot": "1225",
-   "when": "Wed · 12:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1155"
-   }
-  },
-  {
-   "key": "itc-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "ITC jumps 3% as FMCG growth offsets profit dip",
-   "line": "Shares hit about ₹282 on Wednesday, the top Nifty gainer, after Q2 results",
-   "more": [
-    "Standalone Q2 net profit fell about 20% year on year",
-    "Strong FMCG growth eased cigarette-business worries",
-    "Stock is still down about 24% in 2026"
-   ],
-   "src": {
-    "title": "Moneycontrol via TradingView: ITC shares jump 3%, top Nifty gainer; strong FMCG growth offsets cigarette concerns",
-    "url": "https://www.tradingview.com/news/moneycontrol:564eea179094b:0-itc-shares-jump-3-top-nifty-gainer-today-strong-fmcg-growth-offsets-cigarette-business-concerns/"
-   },
-   "date": "2026-11-04",
-   "slot": "1155",
-   "when": "Wed · 11:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "1155"
-   }
-  },
-  {
-   "key": "kotak-db",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Kotak slips despite Deutsche deal nod",
-   "line": "Kotak Mahindra Bank was among the early losers after CCI cleared its deal",
-   "more": [
-    "BSE Ltd, Power Grid and Eternal were also early laggards",
-    "The CCI approval for the Deutsche Bank unit came on Nov 3"
-   ],
-   "src": {
-    "title": "NewsBytes: Sensex up 352.20, Nifty rises as FIIs buy, crude drops",
-    "url": "https://www.newsbytesapp.com/news/business/sensex-up-35220-nifty-rises-as-fiis-buy-crude-drops/tldr"
-   },
-   "date": "2026-11-04",
-   "slot": "1125",
-   "when": "Wed · 11:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "mcx-q2",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "MCX slumps 6% despite doubled profit",
-   "line": "Traders booked gains after Tuesday's jump to a 52-week high",
-   "more": [
-    "Q2 profit more than doubled year on year",
-    "Stock had risen about 7–8% on Tuesday"
-   ],
-   "src": {
-    "title": "RTTNews: Indian shares edge higher in cautious trade; US election results in focus",
-    "url": "https://www.rttnews.com/story.aspx?Id=3709062"
-   },
-   "date": "2026-11-04",
-   "slot": "1025",
-   "when": "Wed · 10:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "cabinet-meet",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Cabinet meets at 11 am",
-   "line": "Union Cabinet meeting flagged as a possible trigger for policy-linked stocks",
-   "more": [
-    "No agenda confirmed in the preview",
-    "Decisions are usually briefed after the meeting"
-   ],
-   "src": {
-    "title": "Zee Business: Stocks to watch today (Nov 4) — MCX, BSE, Kotak Mahindra Bank, Sri Lotus Developers",
-    "url": "https://www.zeebiz.com/markets/stocks/news-stocks-to-watch-today-nov-4-mcx-bse-kotak-mahindra-bank-sri-lotus-developers-and-more-405040"
-   },
-   "date": "2026-11-04",
-   "slot": "0845",
-   "when": "Wed · 8:45",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "slot": "0845"
    }
   }
