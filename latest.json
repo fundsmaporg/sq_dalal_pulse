@@ -1,34 +1,89 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-11T09:26:25+05:30",
+ "generated_at": "2026-11-11T10:06:47+05:30",
  "date": "2026-11-11",
- "slot": "0925",
- "slot_label": "9:25",
+ "slot": "1005",
+ "slot_label": "10:05",
  "stage": "Opening mood",
- "asof": "2026-11-11T09:25:00+05:30",
+ "asof": "2026-11-11T10:05:00+05:30",
  "nifty": {
-  "value": 25351,
-  "pct": 1.22,
-  "chg": 306.35,
-  "approx": true,
-  "asof_quote": "09:15"
+  "value": 25361.4,
+  "pct": 1.26,
+  "chg": 316.75,
+  "approx": false,
+  "asof_quote": "10:00"
  },
  "mood": {
-  "label": "Strong gap-up",
-  "score": 0.6,
-  "summary": "Indian stocks opened sharply higher after the holiday, delivering the gap-up the pre-open cues pointed to, as cheaper oil lifted sentiment and added broadly to market value.",
+  "label": "Broad rally holds",
+  "score": 0.65,
+  "summary": "Indian stocks are holding a broad, strong rally in the first hour, with banks and autos leading, smallcaps joining in and very few large names in the red.",
   "detail": {
-   "leaders": "Broad buying at the open, led by cheaper oil",
-   "laggards": "No clear laggard group reported in the first minutes",
-   "tone": "A read of the live market just after the open. The start matched the strong pre-open signal rather than the softer Wall Street lead, though no sector or stock breakdown was out yet.",
+   "leaders": "PSU banks and Nifty Bank; IndiGo, M&M and SBI among the top Nifty gainers",
+   "laggards": "Cochin Shipyard after weak results; midcaps trailing smallcaps",
+   "tone": "A live read in the first hour. The gap-up has held rather than faded, and the gains have widened to smallcaps.",
    "watch": [
-    "Whether the opening gain holds or fades into mid-morning",
+    "Whether the rally holds through midday or meets profit-taking",
     "Crude staying near its two-month lows",
-    "Reaction to Tata Power and other results due today"
+    "Tata Power and other results due later today"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex surges 1,100 pts, Nifty near 25,300; m-cap increases ₹4.01 trillion",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+    "title": "Sensex surges over 1,100 points, Nifty crosses 25,350 as oil prices decline",
+    "url": "https://www.thehawk.in/news/science/sensex-surges-over-1100-points-nifty-crosses-25350-as-oil-prices-decline"
+   },
+   "movers": {
+    "up": {
+     "summary": "Banks lead, with airlines and autos close behind",
+     "why": "Cheaper oil and steady foreign buying are lifting large caps across sectors, with banks carrying the most weight.",
+     "names": [
+      {
+       "name": "Nifty PSU Bank",
+       "dir": "up",
+       "line": "The biggest gainer among sector indices in morning trade"
+      },
+      {
+       "name": "Nifty Bank",
+       "dir": "up",
+       "move": "+1.5%",
+       "line": "Bank and financial services indices up about 1.5% each"
+      },
+      {
+       "name": "InterGlobe Aviation (IndiGo)",
+       "dir": "up",
+       "line": "Top Nifty gainer as falling crude cuts the airline's fuel bill"
+      },
+      {
+       "name": "Mahindra & Mahindra",
+       "dir": "up",
+       "line": "Among top Nifty gainers as the auto index rises about 1.2%"
+      }
+     ],
+     "src": {
+      "title": "Sensex surges over 1,100 points, Nifty crosses 25,350 as oil prices decline",
+      "url": "https://www.thehawk.in/news/science/sensex-surges-over-1100-points-nifty-crosses-25350-as-oil-prices-decline"
+     }
+    },
+    "down": {
+     "summary": "Few laggards; Cochin Shipyard slides and midcaps lag",
+     "why": "Selling is limited to stock-specific results disappointments, while midcaps rise less than the rest of the market.",
+     "names": [
+      {
+       "name": "Cochin Shipyard",
+       "dir": "down",
+       "move": "down over 6%",
+       "line": "Q2 profit fell sharply even as revenue grew about 12%"
+      },
+      {
+       "name": "Nifty Midcap 100",
+       "dir": "up",
+       "move": "+0.68%",
+       "line": "Rising, but trailing both large caps and smallcaps"
+      }
+     ],
+     "src": {
+      "title": "Why are Cochin Shipyard shares falling over 6% today? Explained",
+      "url": "https://businessupturn.com/finance/stock-market/why-are-cochin-shipyard-share-falling-over-6-today-explained/"
+     }
+    }
    }
   }
  },
@@ -37,25 +92,83 @@
    "key": "opening-bell",
    "tag": "Opening",
    "impact": "pos",
-   "title": "Sensex opens over 1,000 points higher",
-   "line": "Market value rose about ₹4 trillion at the open as buyers returned after the holiday",
+   "title": "Gains broaden after the gap-up open",
+   "line": "Banks, autos, IT and FMCG are all higher; smallcaps up more than midcaps",
    "more": [
-    "The BSE Sensex rose 1,094 points at the open, Business Standard reported",
-    "The live blog attributed the early gains to lower oil prices",
-    "The open matched the gap-up GIFT Nifty had signalled"
+    "Nifty Auto up about 1.15%, Nifty FMCG about 0.9%",
+    "Nifty IT up about 0.8–0.9% as global chip stocks steadied",
+    "Reports cite cooler crude, FII buying and better-than-expected Q2 earnings"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex surges 1,100 pts, Nifty near 25,300; m-cap increases ₹4.01 trillion",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+    "title": "Sensex & Nifty 50 live updates today, 11 November",
+    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-11-november-gift-nifty-signals-gap-up-opening-global-cues-crude-oil-and-us-inflation-in-focus-12800000"
    },
    "date": "2026-11-11",
-   "slot": "0925",
-   "when": "9:25",
+   "slot": "1005",
+   "when": "10:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "0925"
+   }
+  },
+  {
+   "key": "cochin-shipyard-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Cochin Shipyard falls after weak Q2",
+   "line": "Shares fell over 6% in early trade after September-quarter profit dropped",
+   "more": [
+    "Consolidated revenue rose about 11.7% year on year",
+    "Another live blog put the fall at about 8%",
+    "The Q2 profit fell roughly 50%, earlier reports said"
+   ],
+   "src": {
+    "title": "Why are Cochin Shipyard shares falling over 6% today? Explained",
+    "url": "https://businessupturn.com/finance/stock-market/why-are-cochin-shipyard-share-falling-over-6-today-explained/"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Cochin Shipyard",
+    "quarter": "Q2 FY27",
+    "reaction_asof": "early trade",
+    "revenue_yoy_pct": 11.7,
+    "reaction_pct": -6
+   },
+   "date": "2026-11-11",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Foreign buying cited behind the rally",
+   "line": "Market reports credit continued FII buying alongside cooler crude",
+   "more": [
+    "FIIs have been net buyers for seven straight sessions",
+    "Market value rose by about ₹4 trillion at the open"
+   ],
+   "src": {
+    "title": "Sensex and Nifty Surge Amid Strong FII Buying and Positive Q2 Earnings",
+    "url": "https://newsable.asianetnews.com/business/sensex-and-nifty-surge-amid-strong-fii-buying-and-positive-q2-earnings-articleshow-xmcn18g"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-11",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "0700"
    }
   },
   {
@@ -77,7 +190,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "0845"
@@ -102,7 +215,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "0845"
@@ -131,32 +244,6 @@
    "first_seen": {
     "date": "2026-11-06",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs net buyers for a seventh straight session",
-   "line": "Foreign investors bought a net ~₹7,212 crore on Monday; DIIs sold ~₹7,173 crore",
-   "more": [
-    "FII gross buying was about ₹20,311 crore against ₹13,099 crore of sales",
-    "Figures are provisional and come from aggregators of NSE data",
-    "Quantsapp says FIIs remain net short index futures"
-   ],
-   "src": {
-    "title": "FII DII Data: FII DII Activity Cash Provisional Today and Monthly",
-    "url": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-11",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "0700"
    }
   },
   {
