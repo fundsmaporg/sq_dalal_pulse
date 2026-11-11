@@ -1,81 +1,144 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-11T12:37:37+05:30",
+ "generated_at": "2026-11-11T13:06:21+05:30",
  "date": "2026-11-11",
- "slot": "1235",
- "slot_label": "12:35",
+ "slot": "1305",
+ "slot_label": "13:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-11T12:35:00+05:30",
+ "asof": "2026-11-11T13:05:00+05:30",
  "mood": {
-  "label": "Rally broadens",
-  "score": 0.65,
-  "summary": "Indian stocks are holding a strong, broad rally into the afternoon, with banks in front, a clutch of large caps at record highs and infrastructure names jumping on orders.",
+  "label": "Banks carry rally",
+  "score": 0.6,
+  "summary": "Indian stocks are holding firmly higher into the afternoon, with banks doing the heavy lifting, autos and financials close behind, and selling limited to a few results laggards.",
   "detail": {
-   "leaders": "Nifty Bank; Ashoka Buildcon and RVNL on order and midcap strength; ICICI Bank at a record high",
+   "leaders": "Bank Nifty, with autos and financials",
    "laggards": "Cochin Shipyard after weak Q2",
-   "tone": "A live read into early afternoon. With no fresh index print since the previous note, this is a read on behaviour: gains are steady and breadth has widened, with more stocks at new highs.",
+   "tone": "A live read in early afternoon. Without a timestamped index print newer than the previous notes, this is a read on behaviour: the market is holding its gains, with banks pulling further ahead.",
    "watch": [
-    "Any afternoon profit-taking after the gap-up",
-    "Pharma, realty and IT, the weakest sectors today",
-    "Tata Power results due later"
+    "Whether banks keep leading into the close",
+    "Any late profit-taking after the gap-up",
+    "Tata Power results after hours"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex jumps 1,200 pts, Nifty tops 25,350; IndiGo, M&M top gainers",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+    "title": "Sensex & Nifty 50 live updates today, 11 November",
+    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-11-november-gift-nifty-signals-gap-up-opening-global-cues-crude-oil-and-us-inflation-in-focus-12800000"
    },
    "movers": {
     "up": {
-     "summary": "Banks lead; order wins lift Ashoka Buildcon and RVNL",
-     "why": "Cheaper crude and returning foreign money are lifting lenders, while infrastructure names add stock-specific gains on contracts.",
+     "summary": "Banks lead the market, with auto and financial stocks close behind",
+     "why": "Foreign buying and cheaper crude are flowing mostly into lenders and cyclicals such as autos.",
      "names": [
       {
        "name": "Nifty Bank",
        "dir": "up",
-       "line": "Bank, PSU bank and private bank indices are the day's top sectors"
+       "move": "+2.29%",
+       "line": "The strongest of the major indices as foreign buyers favour lenders"
       },
       {
-       "name": "Ashoka Buildcon",
+       "name": "Nifty Auto",
        "dir": "up",
-       "move": "+15%",
-       "line": "Won an ₹866 crore NHAI expressway contract"
-      },
-      {
-       "name": "RVNL",
-       "dir": "up",
-       "move": "up ~9%",
-       "line": "Hit a day's high, among the leaders of the midcap rally"
-      },
-      {
-       "name": "ICICI Bank",
-       "dir": "up",
-       "line": "Hit a record high as private banks join the rally"
+       "line": "Autos are among the leading sectors as fuel costs ease"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex jumps 1,200 pts, Nifty tops 25,350; IndiGo, M&M top gainers",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+      "title": "Sensex & Nifty 50 live updates today, 11 November",
+      "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-11-november-gift-nifty-signals-gap-up-opening-global-cues-crude-oil-and-us-inflation-in-focus-12800000"
      }
     },
     "down": {
      "summary": "Losses are narrow, led by Cochin Shipyard on weak results",
-     "why": "Selling is confined to results disappointments on an otherwise broad up-day.",
+     "why": "Selling is tied to results disappointments rather than any broad sector weakness.",
      "names": [
       {
        "name": "Cochin Shipyard",
        "dir": "down",
-       "move": "-8%",
-       "line": "Q2 profit halved to ₹54 crore despite higher revenue"
+       "move": "down 6–8%",
+       "line": "Q2 profit fell nearly 50%; the stock is down about 26% in 2026"
       }
      ],
      "src": {
-      "title": "Why is IIFL Finance stock surging today?",
-      "url": "https://in.investing.com/news/stock-market-news/why-is-iifl-finance-stock-surging-today-93CH-5695815"
+      "title": "Cochin Shipyard Share Price: Defence stock falls 6% after Q2 results, down 26% in 2026",
+      "url": "https://www.zeebiz.com/market-news/news-cochin-shipyard-share-price-defence-stock-falls-6-after-q2-results-down-26-in-2026-why-are-shares-declining-405403"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Bank Nifty up over 2%, leading the market",
+   "line": "Banks are outpacing the wider market, with autos and financials also leading",
+   "more": [
+    "PSU and private bank indices are among the day's top sectors",
+    "Reports credit foreign buyers returning to large caps"
+   ],
+   "src": {
+    "title": "Sensex & Nifty 50 live updates today, 11 November",
+    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-11-november-gift-nifty-signals-gap-up-opening-global-cues-crude-oil-and-us-inflation-in-focus-12800000"
+   },
+   "date": "2026-11-11",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1225"
+   }
+  },
+  {
+   "key": "cochin-shipyard-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Cochin Shipyard down 26% so far in 2026",
+   "line": "The defence stock's post-results fall adds to a steep slide this year",
+   "more": [
+    "It traded at ₹1,204.30, down 6.64%, at 9:51 am",
+    "Q2 consolidated profit fell nearly 50% year on year"
+   ],
+   "src": {
+    "title": "Cochin Shipyard Share Price: Defence stock falls 6% after Q2 results, down 26% in 2026",
+    "url": "https://www.zeebiz.com/market-news/news-cochin-shipyard-share-price-defence-stock-falls-6-after-q2-results-down-26-in-2026-why-are-shares-declining-405403"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-11",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Foreign buying lifts large caps",
+   "line": "Reports say FII support is lifting the Sensex and Nifty to notable highs",
+   "more": [
+    "Buyers have returned to large caps, Good Returns reports",
+    "Today's provisional flow figures come after the close"
+   ],
+   "src": {
+    "title": "Indian equities rally as FIIs support lifts Sensex and Nifty to notable highs",
+    "url": "https://www.goodreturns.in/world-finance/indian-equities-rally-sensex-nifty-fii-inflows-011-1546331.html"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-11",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "0700"
+   }
+  },
   {
    "key": "ashoka-buildcon-nhai",
    "tag": "Stocks",
@@ -94,7 +157,7 @@
    "slot": "1235",
    "when": "12:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1235"
@@ -118,7 +181,7 @@
    "slot": "1235",
    "when": "12:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1235"
@@ -142,7 +205,7 @@
    "slot": "1235",
    "when": "12:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1205"
@@ -170,31 +233,6 @@
    "first_seen": {
     "date": "2026-11-09",
     "slot": "0925"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FII inflows near ₹54,000 crore",
-   "line": "Angel One cites about ₹53,739 crore of FII inflows behind the rally",
-   "more": [
-    "Foreign buying has been a key support this month",
-    "Daily provisional data for today will come after the close"
-   ],
-   "src": {
-    "title": "Why Stock Market Rising Today (Nov 11, 2026)? Sensex Jumps 1,204 Points, Nifty Above 25,300",
-    "url": "https://www.angelone.in/news/market-updates/why-stock-market-rising-today-nov-11-2026-sensex-jumps-1-204-points-nifty-above-25-300"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-11",
-   "slot": "1205",
-   "when": "12:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "0700"
    }
   },
   {
@@ -328,39 +366,6 @@
    "first_seen": {
     "date": "2026-11-11",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "cochin-shipyard-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Cochin Shipyard down 8% after profit halves",
-   "line": "Shares fell to ₹1,186.50 on NSE after Q2 net profit fell 50% to ₹54 crore",
-   "more": [
-    "Revenue rose even as profit fell",
-    "Earlier reports put the early fall at over 6%"
-   ],
-   "src": {
-    "title": "Why is IIFL Finance stock surging today?",
-    "url": "https://in.investing.com/news/stock-market-news/why-is-iifl-finance-stock-surging-today-93CH-5695815"
-   },
-   "thread": "q2-results-2026",
-   "results": {
-    "company": "Cochin Shipyard",
-    "quarter": "Q2 FY27",
-    "reaction_asof": "morning",
-    "profit_cr": 54,
-    "profit_yoy_pct": -50,
-    "reaction_pct": -8
-   },
-   "date": "2026-11-11",
-   "slot": "1035",
-   "when": "10:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "1005"
    }
   },
   {
@@ -1129,31 +1134,6 @@
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1155"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Private banks were the day's best sector",
-   "line": "ICICI Bank and HDFC Bank led a late surge on foreign buying",
-   "more": [
-    "ICICI Bank up 4.65%, HDFC Bank up 3.56%",
-    "Midcaps ended flat; smallcaps fell 0.82%",
-    "Media was the worst-performing sector"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market Close — Nifty reclaims 25K as rally extends to 7th day; Sensex up 1,718 pts; banks shine",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
-   },
-   "date": "2026-11-06",
-   "slot": "1625",
-   "when": "Fri · 16:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "1225"
    }
   },
   {
