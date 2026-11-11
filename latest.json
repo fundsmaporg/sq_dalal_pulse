@@ -1,43 +1,54 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-11T15:37:30+05:30",
+ "generated_at": "2026-11-11T16:07:03+05:30",
  "date": "2026-11-11",
- "slot": "1535",
- "slot_label": "15:35",
- "stage": "Closing mood",
- "asof": "2026-11-11T15:35:00+05:30",
+ "slot": "1605",
+ "slot_label": "16:05",
+ "stage": "Post-market mood",
+ "asof": "2026-11-11T16:05:00+05:30",
+ "nifty": {
+  "value": 25255.05,
+  "pct": 0.84,
+  "chg": 210.4,
+  "approx": false
+ },
  "mood": {
-  "label": "Higher, pared",
-  "score": 0.4,
-  "summary": "Indian stocks closed higher for an eighth straight session after the Diwali break, ending well below the morning peak as profit-taking hit IT and realty while state-run banks kept rising.",
+  "label": "Strong close",
+  "score": 0.55,
+  "summary": "Indian stocks closed solidly higher after the Diwali break, extending their winning streak, with state-run banks leading and IT and healthcare lagging after a morning surge was partly given back.",
   "detail": {
-   "leaders": "Nifty PSU Bank; Nifty Bank at a nine-month high",
-   "laggards": "Nifty Realty and Nifty IT on profit-taking; Cochin Shipyard",
-   "tone": "A read of the session just finished. Early reports of the closing figures disagree, so this note describes the close in words: the market ended higher but well off its morning high.",
+   "leaders": "Nifty PSU Bank; Nifty Bank; autos",
+   "laggards": "Nifty IT and Nifty Healthcare on profit-taking; Cochin Shipyard",
+   "tone": "A read of the finished session. The market firmed in the last half hour to close stronger than it looked mid-afternoon, though still well below the morning peak.",
    "watch": [
     "Today's provisional FII and DII figures",
-    "Tata Power and other results after the bell",
-    "Wall Street's reaction to Tuesday's hot inflation print"
+    "Tata Power and other results due this evening",
+    "Overnight moves in crude and US yields"
    ],
    "src": {
-    "title": "Sensex, Nifty Surge As FIIs Boost Indian Equities Amid Positive Q2 Results",
-    "url": "https://www.etvbharat.com/en/business/sensex-nifty-surge-as-fiis-boost-indian-equities-amid-positive-q2-results-enn26111101254"
+    "title": "Sensex climbs 773 points, Nifty tops 25,250 as lower oil prices boost sentiment",
+    "url": "https://www.socialnews.xyz/2026/11/11/sensex-climbs-773-points-nifty-tops-25250-as-lower-oil-prices-boost-sentiment/"
    },
    "movers": {
     "up": {
-     "summary": "State-run banks finish as the day's strongest group",
-     "why": "Foreign money returned to Indian shares and flowed mostly into lenders, which held the benchmarks up as other sectors faded.",
+     "summary": "State-run banks led the session, with private banks and autos also bought",
+     "why": "Cheaper energy and a sharp return of foreign buying lifted sentiment, with most of the money going into lenders.",
      "names": [
       {
        "name": "Nifty PSU Bank",
        "dir": "up",
-       "move": "+3%",
-       "line": "The top sector at the close, led by SBI and Bank of Baroda"
+       "move": "up nearly 3%",
+       "line": "The day's best sector, led by SBI and Bank of Baroda"
       },
       {
        "name": "Nifty Bank",
        "dir": "up",
-       "line": "Touched a nine-month high in the afternoon with all 14 stocks higher"
+       "line": "Touched a nine-month high in the afternoon, near its 52-week peak"
+      },
+      {
+       "name": "Nifty Auto",
+       "dir": "up",
+       "line": "Among the sectors bought most as cheaper energy lifted sentiment"
       }
      ],
      "src": {
@@ -46,18 +57,18 @@
      }
     },
     "down": {
-     "summary": "Realty and IT give back gains; Cochin Shipyard falls on results",
-     "why": "After the benchmarks hit multi-month highs in the morning, traders booked profits in real estate and IT.",
+     "summary": "IT and pharma lagged on profit-taking; Cochin Shipyard fell on results",
+     "why": "After the benchmarks touched multi-month highs in the morning, traders booked profits in IT and pharma.",
      "names": [
-      {
-       "name": "Nifty Realty",
-       "dir": "down",
-       "line": "The weakest sector in the afternoon as traders locked in gains"
-      },
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "Weighed on the indices through the afternoon on profit-taking"
+       "line": "Underperformed as traders booked profits after the morning high"
+      },
+      {
+       "name": "Nifty Healthcare",
+       "dir": "down",
+       "line": "Pharma names lagged as gains were booked in the afternoon"
       },
       {
        "name": "Cochin Shipyard",
@@ -76,6 +87,80 @@
  },
  "insights": [
   {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FPIs invest ₹56,771 crore in eight sessions",
+   "line": "The biggest foreign inflow over such a stretch since December 2020",
+   "more": [
+    "The inflows ran from October 30 to November 9",
+    "Domestic institutions were net sellers in all six November sessions to Nov 9",
+    "DII net sales totalled about ₹31,369 crore over that period"
+   ],
+   "src": {
+    "title": "FPIs pump ₹56,771 cr into equities in 8 days; biggest inflow since Dec 2020",
+    "url": "https://business-standard.com/markets/news/fpis-pump-56-771-cr-into-equities-in-8-days-biggest-inflow-since-dec-2020-126111100201_1.html"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-11",
+   "slot": "1605",
+   "when": "16:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PSU banks lead the close, up nearly 3%",
+   "line": "State-run lenders were the strongest sector as the benchmarks closed higher",
+   "more": [
+    "Banking, auto and PSU bank stocks saw the most buying",
+    "Nifty Bank touched a nine-month high in the afternoon"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex pares gains but ends 773 pts up, Nifty at 25,255; PSU Bank rises 3%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+   },
+   "date": "2026-11-11",
+   "slot": "1605",
+   "when": "16:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1225"
+   }
+  },
+  {
+   "key": "it-realty-selling",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "IT and healthcare end as the laggards",
+   "line": "Both sectors underperformed as profits were booked after the morning surge",
+   "more": [
+    "Realty was the weakest sector during the afternoon",
+    "No company-specific trigger was cited"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex pares gains but ends 773 pts up, Nifty at 25,255; PSU Bank rises 3%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+   },
+   "date": "2026-11-11",
+   "slot": "1605",
+   "when": "16:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1435"
+   }
+  },
+  {
    "key": "winning-streak",
    "tag": "Stocks",
    "impact": "pos",
@@ -93,83 +178,10 @@
    "slot": "1535",
    "when": "15:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "0955"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "PSU Bank index ends up about 3%",
-   "line": "State-run lenders were the strongest sector at the close",
-   "more": [
-    "Nifty Bank touched a nine-month high in the afternoon",
-    "Reports credit a return of foreign fund inflows"
-   ],
-   "src": {
-    "title": "Stock Market Close: Sensex pares gains but ends 773 pts up, Nifty at 25,255; PSU Bank rises 3%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
-   },
-   "date": "2026-11-11",
-   "slot": "1535",
-   "when": "15:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "1225"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Foreign buying behind the session's gains",
-   "line": "Reports credit FII buying and positive Q2 results for today's advance",
-   "more": [
-    "Foreign investors have been net buyers for several straight sessions",
-    "Today's provisional flow figures are due after the close"
-   ],
-   "src": {
-    "title": "Sensex, Nifty Surge As FIIs Boost Indian Equities Amid Positive Q2 Results",
-    "url": "https://www.etvbharat.com/en/business/sensex-nifty-surge-as-fiis-boost-indian-equities-amid-positive-q2-results-enn26111101254"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-11",
-   "slot": "1535",
-   "when": "15:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "it-realty-selling",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Realty index falls 1% as profit-taking spreads",
-   "line": "Nifty Realty is down about 1%, the day's weakest sector; IT and pharma also weigh",
-   "more": [
-    "Selling picked up after the benchmarks touched eight-month highs",
-    "No company-specific trigger has been cited"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex rises 400 pts, Nifty tops 25,100; Nifty Realty down 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
-   },
-   "date": "2026-11-11",
-   "slot": "1505",
-   "when": "15:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "1435"
    }
   },
   {
