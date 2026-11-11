@@ -1,71 +1,60 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-11T13:37:22+05:30",
+ "generated_at": "2026-11-11T14:11:05+05:30",
  "date": "2026-11-11",
- "slot": "1335",
- "slot_label": "13:35",
+ "slot": "1405",
+ "slot_label": "14:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-11T13:35:00+05:30",
+ "asof": "2026-11-11T14:05:00+05:30",
  "nifty": {
-  "value": 25311.05,
-  "pct": 1.06,
-  "chg": 266.4,
+  "value": 25172.05,
+  "pct": 0.51,
+  "chg": 127.4,
   "approx": false,
-  "asof_quote": "12:57"
+  "asof_quote": "14:00"
  },
  "mood": {
-  "label": "Off the highs",
-  "score": 0.5,
-  "summary": "Indian stocks remain solidly higher in the afternoon but have eased off the day's peak, with banks still leading while IT and pharma weigh on the gains.",
+  "label": "Gains fading",
+  "score": 0.3,
+  "summary": "Indian stocks are still higher but have given back a large part of the morning surge, as selling in IT, pharma and realty pulls the benchmarks well off the day's highs.",
   "detail": {
-   "leaders": "Banks; IndiGo; IIFL Finance and Titagarh Rail",
+   "leaders": "Bank indices; IIFL Finance",
    "laggards": "Cochin Shipyard after weak Q2",
-   "tone": "A live read in mid-afternoon. The market has slipped back from its morning peak since the previous note, though the bulk of the gain is intact.",
+   "tone": "A live read in the afternoon. The market is noticeably weaker than in the previous note, with roughly half the morning gain gone, though it is still in positive territory.",
    "watch": [
-    "Whether the pullback from the highs deepens into the close",
-    "IT and pharma weakness",
-    "Tata Power results after hours"
+    "Whether the slide from the highs continues into the close",
+    "Selling pressure in IT and pharma",
+    "Tata Power results due later today"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex off day's high, still up 900 pts; Nifty holds 25,200; IndiGo leads",
+    "title": "Stock Market LIVE: Sensex rises 700 pts, Nifty tops 25,200; Silver ETF inflows jump 56% M-o-M",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Banks and IndiGo lead, with IIFL Finance and Titagarh Rail on news",
-     "why": "Cheaper crude and foreign buying continue to favour lenders and fuel-sensitive names, while two stocks add gains on corporate news.",
+     "summary": "Banks are still the strongest group as the wider market cools",
+     "why": "Foreign buying into lenders is still holding up the index even as other sectors are sold.",
      "names": [
       {
        "name": "Nifty Bank",
        "dir": "up",
-       "line": "Banks are still the main source of the index gain"
-      },
-      {
-       "name": "InterGlobe Aviation (IndiGo)",
-       "dir": "up",
-       "line": "Still leading Sensex gainers as crude stays near two-month lows"
+       "line": "Bank indices remain the day's top sectors in the afternoon"
       },
       {
        "name": "IIFL Finance",
        "dir": "up",
        "move": "up to 10.7%",
-       "line": "Hit ₹694.40 after its board approved the Blackstone-led raise"
-      },
-      {
-       "name": "Titagarh Rail Systems",
-       "dir": "up",
-       "move": "up to 5.04%",
-       "line": "Hit ₹737.85 after reporting higher quarterly profit"
+       "line": "Blackstone-led ₹6,414 crore raise keeps the stock in demand"
       }
      ],
      "src": {
-      "title": "NIFTY50 above 25,250, SENSEX gains over 1,000 pts; IIFL Fin, Kalyan Jewellers among buzzing stocks",
-      "url": "https://upstox.com/news/market-news/stocks/nifty-50-above-24-250-sensex-gains-over-1-000-pts-iifl-fin-kalyan-jewellers-among-buzzing-stocks/article-203284"
+      "title": "Stock Market LIVE: Sensex rises 700 pts, Nifty tops 25,200; Silver ETF inflows jump 56% M-o-M",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
      }
     },
     "down": {
-     "summary": "Cochin Shipyard is the standout loser on weak results",
-     "why": "Stock-specific selling on results; the IT and pharma drag has no single cited trigger.",
+     "summary": "Cochin Shipyard is the clearest stock-level loser",
+     "why": "Its fall is tied to weak results; the wider IT, pharma and realty selling has no single cited trigger.",
      "names": [
       {
        "name": "Cochin Shipyard",
@@ -75,8 +64,8 @@
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex off day's high, still up 900 pts; Nifty holds 25,200; IndiGo leads",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+      "title": "Cochin Shipyard Share Price: Defence stock falls 6% after Q2 results",
+      "url": "https://www.zeebiz.com/market-news/news-cochin-shipyard-share-price-defence-stock-falls-6-after-q2-results-down-26-in-2026-why-are-shares-declining-405403"
      }
     }
    }
@@ -86,25 +75,75 @@
   {
    "key": "opening-bell",
    "tag": "Opening",
-   "impact": "watch",
-   "title": "Market eases off the day's high",
-   "line": "The benchmarks have given back part of the morning gain but stay firmly higher",
+   "impact": "neg",
+   "title": "Market gives back a chunk of the morning rally",
+   "line": "IT, pharma and realty are the weakest sectors as the benchmarks pare gains",
    "more": [
-    "IT and pharma are weighing while banks lead",
-    "Microcaps were outperforming around 1 pm"
+    "Bank indices are still the top sectors",
+    "No specific trigger for the afternoon selling was cited"
    ],
    "src": {
-    "title": "NIFTY50 above 25,250, SENSEX gains over 1,000 pts; IIFL Fin, Kalyan Jewellers among buzzing stocks",
-    "url": "https://upstox.com/news/market-news/stocks/nifty-50-above-24-250-sensex-gains-over-1-000-pts-iifl-fin-kalyan-jewellers-among-buzzing-stocks/article-203284"
+    "title": "Stock Market LIVE: Sensex rises 700 pts, Nifty tops 25,200; Silver ETF inflows jump 56% M-o-M",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
    },
    "date": "2026-11-11",
-   "slot": "1335",
-   "when": "13:35",
+   "slot": "1405",
+   "when": "14:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "0925"
+   }
+  },
+  {
+   "key": "silver-etf-inflows",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "Silver ETF inflows jump 56% month on month",
+   "line": "Inflows into silver ETFs rose 56% from the previous month, the live blog reports",
+   "more": [
+    "The 56% rise is measured against the previous month's inflows",
+    "The data was highlighted in Business Standard's live coverage today"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex rises 700 pts, Nifty tops 25,200; Silver ETF inflows jump 56% M-o-M",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+   },
+   "date": "2026-11-11",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1405"
+   }
+  },
+  {
+   "key": "tata-power-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Tata Power results due; profit seen higher",
+   "line": "Estimates range from ₹1,010 crore to ₹1,420 crore for Q2 profit",
+   "more": [
+    "Motilal Oswal sees adjusted profit up 54.3% to ₹1,420 crore",
+    "JM Financial sees adjusted PAT up 81% to ₹1,305.3 crore",
+    "Mundra losses are seen narrowing to about ₹150 crore"
+   ],
+   "src": {
+    "title": "Tata Power to report Q2 earnings on November 11, here's what to expect",
+    "url": "https://www.businesstoday.in/markets/trending-stocks/story/tata-power-to-report-q2-earnings-on-november-11-heres-what-to-expect-566722-2026-11-10"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-11",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1405"
    }
   },
   {
@@ -125,7 +164,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "0845"
@@ -150,7 +189,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1335"
@@ -175,7 +214,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "0700"
