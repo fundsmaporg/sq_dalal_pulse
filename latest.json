@@ -1,61 +1,64 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-11T14:11:05+05:30",
+ "generated_at": "2026-11-11T14:37:13+05:30",
  "date": "2026-11-11",
- "slot": "1405",
- "slot_label": "14:05",
+ "slot": "1435",
+ "slot_label": "14:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-11T14:05:00+05:30",
- "nifty": {
-  "value": 25172.05,
-  "pct": 0.51,
-  "chg": 127.4,
-  "approx": false,
-  "asof_quote": "14:00"
- },
+ "asof": "2026-11-11T14:35:00+05:30",
  "mood": {
-  "label": "Gains fading",
+  "label": "Profit-taking",
   "score": 0.3,
-  "summary": "Indian stocks are still higher but have given back a large part of the morning surge, as selling in IT, pharma and realty pulls the benchmarks well off the day's highs.",
+  "summary": "Indian stocks are still in the green but well below the morning's eight-month highs, as profit-taking in IT and realty trims a rally that banks continue to hold up.",
   "detail": {
-   "leaders": "Bank indices; IIFL Finance",
-   "laggards": "Cochin Shipyard after weak Q2",
-   "tone": "A live read in the afternoon. The market is noticeably weaker than in the previous note, with roughly half the morning gain gone, though it is still in positive territory.",
+   "leaders": "Nifty Bank; IIFL Finance",
+   "laggards": "Nifty IT and Nifty Realty on profit-taking; Cochin Shipyard",
+   "tone": "A live read in mid-afternoon. With no reliable index print newer than the previous note, this is a read on behaviour: the market is weaker than at midday as profit-taking sets in, though still positive.",
    "watch": [
-    "Whether the slide from the highs continues into the close",
-    "Selling pressure in IT and pharma",
-    "Tata Power results due later today"
+    "Whether profit-taking deepens or buyers return before the close",
+    "Banks keeping up their lead",
+    "Tata Power results due after hours"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex rises 700 pts, Nifty tops 25,200; Silver ETF inflows jump 56% M-o-M",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+    "title": "Sensex falls 550 points as Nifty slips below 25,300",
+    "url": "https://www.newsbytesapp.com/news/business/sensex-falls-550-points-as-nifty-slips-below-25300/tldr"
    },
    "movers": {
     "up": {
-     "summary": "Banks are still the strongest group as the wider market cools",
-     "why": "Foreign buying into lenders is still holding up the index even as other sectors are sold.",
+     "summary": "Banks are still holding the market up as other sectors are sold",
+     "why": "Lenders remain the day's strongest group, keeping the indices positive while gains elsewhere are booked.",
      "names": [
       {
        "name": "Nifty Bank",
        "dir": "up",
-       "line": "Bank indices remain the day's top sectors in the afternoon"
+       "line": "Still the top sector group as the rest of the market cools"
       },
       {
        "name": "IIFL Finance",
        "dir": "up",
        "move": "up to 10.7%",
-       "line": "Blackstone-led ₹6,414 crore raise keeps the stock in demand"
+       "line": "Blackstone-led ₹6,414 crore raise keeps buyers interested"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex rises 700 pts, Nifty tops 25,200; Silver ETF inflows jump 56% M-o-M",
+      "title": "Stock Market LIVE: Sensex rises 700 pts, Nifty tops 25,200",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
      }
     },
     "down": {
-     "summary": "Cochin Shipyard is the clearest stock-level loser",
-     "why": "Its fall is tied to weak results; the wider IT, pharma and realty selling has no single cited trigger.",
+     "summary": "IT and realty see profit-taking; Cochin Shipyard falls on results",
+     "why": "With the indices having touched eight-month highs, traders are locking in gains in IT and real estate.",
      "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "down",
+       "line": "Sold as traders book profits after the morning's eight-month high"
+      },
+      {
+       "name": "Nifty Realty",
+       "dir": "down",
+       "line": "Real estate stocks face profit-taking alongside IT"
+      },
       {
        "name": "Cochin Shipyard",
        "dir": "down",
@@ -64,14 +67,86 @@
       }
      ],
      "src": {
-      "title": "Cochin Shipyard Share Price: Defence stock falls 6% after Q2 results",
-      "url": "https://www.zeebiz.com/market-news/news-cochin-shipyard-share-price-defence-stock-falls-6-after-q2-results-down-26-in-2026-why-are-shares-declining-405403"
+      "title": "Sensex falls 550 points as Nifty slips below 25,300",
+      "url": "https://www.newsbytesapp.com/news/business/sensex-falls-550-points-as-nifty-slips-below-25300/tldr"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "eight-month-high",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Indices hit eight-month highs, then profit-taking",
+   "line": "The Sensex and Nifty touched eight-month highs before sellers stepped in",
+   "more": [
+    "NewsBytes describes the afternoon slide as profit-taking",
+    "Analysts quoted say the uptrend can resume if the Nifty holds its recent range"
+   ],
+   "src": {
+    "title": "Sensex falls 550 points as Nifty slips below 25,300",
+    "url": "https://www.newsbytesapp.com/news/business/sensex-falls-550-points-as-nifty-slips-below-25300/tldr"
+   },
+   "date": "2026-11-11",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1435"
+   }
+  },
+  {
+   "key": "it-realty-selling",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "IT and real estate stocks under selling pressure",
+   "line": "IT and realty are the main targets of afternoon profit-taking; some pharma names lag too",
+   "more": [
+    "Business Standard also lists pharma, realty and IT as the day's weakest sectors",
+    "No company-specific trigger was cited"
+   ],
+   "src": {
+    "title": "Sensex falls 550 points as Nifty slips below 25,300",
+    "url": "https://www.newsbytesapp.com/news/business/sensex-falls-550-points-as-nifty-slips-below-25300/tldr"
+   },
+   "date": "2026-11-11",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1435"
+   }
+  },
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Banks still lead as the market cools",
+   "line": "Bank indices remain the strongest sectors through the afternoon pullback",
+   "more": [
+    "PSU and private bank indices were the top sectors earlier",
+    "Banks are the main reason the benchmarks are still positive"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex rises 700 pts, Nifty tops 25,200",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+   },
+   "date": "2026-11-11",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-05",
+    "slot": "1225"
+   }
+  },
   {
    "key": "opening-bell",
    "tag": "Opening",
@@ -90,7 +165,7 @@
    "slot": "1405",
    "when": "14:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "0925"
@@ -114,7 +189,7 @@
    "slot": "1405",
    "when": "14:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1405"
@@ -140,7 +215,7 @@
    "slot": "1405",
    "when": "14:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1405"
@@ -218,30 +293,6 @@
    "first_seen": {
     "date": "2026-11-05",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Bank Nifty up over 2%, leading the market",
-   "line": "Banks are outpacing the wider market, with autos and financials also leading",
-   "more": [
-    "PSU and private bank indices are among the day's top sectors",
-    "Reports credit foreign buyers returning to large caps"
-   ],
-   "src": {
-    "title": "Sensex & Nifty 50 live updates today, 11 November",
-    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-11-november-gift-nifty-signals-gap-up-opening-global-cues-crude-oil-and-us-inflation-in-focus-12800000"
-   },
-   "date": "2026-11-11",
-   "slot": "1305",
-   "when": "13:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-05",
-    "slot": "1225"
    }
   },
   {
