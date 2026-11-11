@@ -1,57 +1,113 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-11T08:46:38+05:30",
+ "generated_at": "2026-11-11T09:26:25+05:30",
  "date": "2026-11-11",
- "slot": "0845",
- "slot_label": "8:45",
- "stage": "Pre-market mood",
- "asof": "2026-11-11T08:45:00+05:30",
+ "slot": "0925",
+ "slot_label": "9:25",
+ "stage": "Opening mood",
+ "asof": "2026-11-11T09:25:00+05:30",
  "nifty": {
-  "value": 25044.65,
-  "pct": 0.23,
-  "chg": 58.25,
-  "approx": false
- },
- "metrics": {
-  "fii_net_cr": {
-   "value": 7212,
-   "asof": "2026-11-09 provisional",
-   "approx": true,
-   "src": {
-    "title": "FII DII Data Today",
-    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
-   }
-  },
-  "dii_net_cr": {
-   "value": -7173,
-   "asof": "2026-11-09 provisional",
-   "approx": true,
-   "src": {
-    "title": "FII DII Data Today",
-    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
-   }
-  }
+  "value": 25351,
+  "pct": 1.22,
+  "chg": 306.35,
+  "approx": true,
+  "asof_quote": "09:15"
  },
  "mood": {
-  "label": "Gap-up likely",
-  "score": 0.4,
-  "summary": "Indian stocks look set for a gap-up open after the holiday, as cheaper oil and steady foreign buying outweigh a hotter US inflation print that dragged Wall Street lower.",
+  "label": "Strong gap-up",
+  "score": 0.6,
+  "summary": "Indian stocks opened sharply higher after the holiday, delivering the gap-up the pre-open cues pointed to, as cheaper oil lifted sentiment and added broadly to market value.",
   "detail": {
-   "leaders": "Oil-sensitive names such as OMCs, paints, tyres and airlines; IIFL Finance on its Blackstone-led raise",
-   "laggards": "MRF and Cochin Shipyard after weak quarterly profits; US-linked tech on rate-hike worries",
-   "tone": "A forward-looking pre-open read. GIFT Nifty points to a firmer start than the overnight Wall Street dip alone would suggest, with lower crude and foreign inflows doing the lifting.",
+   "leaders": "Broad buying at the open, led by cheaper oil",
+   "laggards": "No clear laggard group reported in the first minutes",
+   "tone": "A read of the live market just after the open. The start matched the strong pre-open signal rather than the softer Wall Street lead, though no sector or stock breakdown was out yet.",
    "watch": [
-    "Whether the gap-up holds once cash trading opens",
-    "Tata Power and other results due today",
-    "Any further climb in US yields on Fed hike bets"
+    "Whether the opening gain holds or fades into mid-morning",
+    "Crude staying near its two-month lows",
+    "Reaction to Tata Power and other results due today"
    ],
    "src": {
-    "title": "GIFT NIFTY futures indicate gap-up open on November 11",
-    "url": "https://upstox.com/news/market-news/stocks/gift-nifty-futures-indicate-gap-up-open-on-november-11-what-investors-need-to-track-before-market-opens/article-203250/"
+    "title": "Stock Market LIVE: Sensex surges 1,100 pts, Nifty near 25,300; m-cap increases ₹4.01 trillion",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "opening-bell",
+   "tag": "Opening",
+   "impact": "pos",
+   "title": "Sensex opens over 1,000 points higher",
+   "line": "Market value rose about ₹4 trillion at the open as buyers returned after the holiday",
+   "more": [
+    "The BSE Sensex rose 1,094 points at the open, Business Standard reported",
+    "The live blog attributed the early gains to lower oil prices",
+    "The open matched the gap-up GIFT Nifty had signalled"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex surges 1,100 pts, Nifty near 25,300; m-cap increases ₹4.01 trillion",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+   },
+   "date": "2026-11-11",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "iifl-blackstone",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Blackstone to own about 16% of IIFL Finance",
+   "line": "The ₹5,000 crore Blackstone investment does not change control, the company says",
+   "more": [
+    "The capital raise is expected to lift capital adequacy from about 17% to 30% pro forma",
+    "The stake is about 15.57%, per a Quartz report",
+    "IIFL Finance shares are among the morning's stocks in focus"
+   ],
+   "src": {
+    "title": "IIFL Finance shares in focus as Blackstone to buy 16% stake",
+    "url": "https://www.businesstoday.in/markets/stocks/story/iifl-finance-shares-in-focus-as-blackstone-to-buy-16-stake-566761-2026-11-11"
+   },
+   "date": "2026-11-11",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "q2-results-nov11",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Results day: Tata Power, GRSE due",
+   "line": "Tata Power, Garden Reach Shipbuilders and Hindustan Copper report later today",
+   "more": [
+    "Pre-market reports flagged the September-quarter earnings calendar as a key watch item",
+    "Most of these companies file after market hours, so share reactions come later"
+   ],
+   "src": {
+    "title": "Pre-Market 11 November 2026: GIFT Nifty Hints At Gap-Up Opening As Indian Markets Resume Trade",
+    "url": "https://www.kotakneo.com/news/market-news/pre-market-11-november-2026-gift-nifty-hints-at-gap-up-opening/"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-11",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0845"
+   }
+  },
   {
    "key": "gift-nifty",
    "tag": "Opening",
@@ -71,7 +127,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "0845"
@@ -97,35 +153,10 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "iifl-blackstone",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Blackstone leads ₹6,414 crore IIFL Finance raise",
-   "line": "Blackstone funds to invest ₹5,000 crore via convertible preference shares at ₹602",
-   "more": [
-    "Promoters add ₹1,264 crore via warrants; Anchorage Capital ₹150 crore",
-    "Board approved the preferential issue on November 10",
-    "Conversion into equity is due within 18 months of allotment"
-   ],
-   "src": {
-    "title": "IIFL Finance to Raise ₹6,414 Crores Led by Blackstone and the Promoters",
-    "url": "https://www.equitybulls.com/news/378783/iifl-finance-to-raise-6-414-crores-led-by-blackstone-and-the-promoters"
-   },
-   "date": "2026-11-11",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "0845"
    }
   },
   {
@@ -156,33 +187,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "q2-results-nov11",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Tata Power, GRSE among results due today",
-   "line": "Tata Power, Hindustan Copper, Garden Reach Shipbuilders and Cupid report Q2 today",
-   "more": [
-    "Nuvama sees Tata Power adjusted profit up about 27% to ₹1,168 crore",
-    "Kalyan Jewellers' profit rose 64% to ₹427 crore, reported Tuesday",
-    "Cochin Shipyard's Q2 profit fell about 50%, Zee Business reported"
-   ],
-   "src": {
-    "title": "Top Q2 results today, November 11: Tata Power, Hindustan Copper, Garden Reach, Cupid",
-    "url": "https://businessupturn.com/finance/stock-market/quarterly-results/top-q2-results-today-november-11-tata-power-hindustan-copper-garden-reach-cupid-among-companies-to-announce-earnings/"
-   },
-   "thread": "q2-results-2026",
-   "date": "2026-11-11",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "0845"
@@ -518,30 +523,6 @@
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1235"
-   }
-  },
-  {
-   "key": "opening-bell",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Opening gains have fully faded",
-   "line": "Banking and financial stocks led a firm open before IT selling pulled the market lower",
-   "more": [
-    "The market opened higher on positive global cues",
-    "IT and realty turned the market lower within the first hour"
-   ],
-   "src": {
-    "title": "Telangana Today: Sensex, Nifty open higher amid positive global cues",
-    "url": "https://telanganatoday.com/sensex-nifty-open-higher-amid-positive-global-cues"
-   },
-   "date": "2026-11-09",
-   "slot": "1305",
-   "when": "Mon · 13:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "0925"
    }
   },
   {
