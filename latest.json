@@ -1,67 +1,65 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-11T11:06:59+05:30",
+ "generated_at": "2026-11-11T11:37:21+05:30",
  "date": "2026-11-11",
- "slot": "1105",
- "slot_label": "11:05",
+ "slot": "1135",
+ "slot_label": "11:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-11T11:05:00+05:30",
- "nifty": {
-  "value": 25378.6,
-  "pct": 1.33,
-  "chg": 333.95,
-  "approx": false,
-  "asof_quote": "11:00"
- },
+ "asof": "2026-11-11T11:35:00+05:30",
  "mood": {
-  "label": "Gains extend",
+  "label": "Broad rally holds",
   "score": 0.65,
-  "summary": "Indian stocks are extending gains into late morning, near the day's highs, with buying broad across large, mid and small caps and losses limited to a few weak results.",
+  "summary": "Indian stocks are holding a broad rally near the day's highs, with every Sensex stock in the green, banks out in front and selling confined to a few small, stock-specific names.",
   "detail": {
-   "leaders": "Kalyan Jewellers at upper circuit; PSU banks; IIFL Finance",
+   "leaders": "Banks via the BSE Bankex; IndiGo, M&M, SBI, Axis Bank, Eternal and Asian Paints",
    "laggards": "Cochin Shipyard after weak Q2",
-   "tone": "A live read of late-morning trade. The market is a touch firmer than in the previous note, with midcaps now joining the rally more fully.",
+   "tone": "A live read of late-morning trade. Without a fresh index print since the previous note, this is a read on behaviour: the market has held its gains, with breadth still strong.",
    "watch": [
-    "Whether the rally holds into the afternoon or meets profit-taking",
-    "Crude and US yield moves",
-    "Tata Power and other results due after hours"
+    "Any profit-taking into the afternoon after the sharp gap-up",
+    "Moves in crude and US yields",
+    "Tata Power and Hindustan Copper results due today"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex jumps 1,200 pts; Kalyan Jewellers, RVNL shares lead MidCap gains",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+    "title": "Sensex zooms 1,100 pts, Nifty crosses 25,300 mark on positive global cues",
+    "url": "https://www.businesstoday.in/markets/stocks/story/sensex-zooms-1100-pts-nifty-crosses-25300-mark-on-positive-global-cues-566767-2026-11-11"
    },
    "movers": {
     "up": {
-     "summary": "Results winners and state-run banks lead the advance",
-     "why": "Strong quarterly numbers and deal news are adding stock-specific gains on top of a broad, oil-led rally.",
+     "summary": "Banks lead, with IndiGo, M&M and Asian Paints among top gainers",
+     "why": "Cheaper crude helps fuel-sensitive names like airlines and paints, while banks carry the index on foreign buying.",
      "names": [
       {
-       "name": "Kalyan Jewellers",
+       "name": "BSE Bankex",
        "dir": "up",
-       "move": "+10%",
-       "line": "Hit upper circuit after Q2 profit rose about 64% on 31% revenue growth"
+       "line": "Banking is the strongest sector, the Bankex up about 1,294 points"
       },
       {
-       "name": "Nifty PSU Bank",
+       "name": "InterGlobe Aviation (IndiGo)",
        "dir": "up",
-       "move": "+2%",
-       "line": "Top sector index this morning, led by SBI and Bank of Baroda"
+       "move": "up to 5%",
+       "line": "A top gainer as lower crude cuts the airline's fuel bill"
       },
       {
-       "name": "IIFL Finance",
+       "name": "Axis Bank",
        "dir": "up",
-       "move": "up 5.6–8.6%",
-       "line": "Blackstone to buy about 16% via a ₹5,000 crore investment"
+       "move": "up to 5%",
+       "line": "Among the top Sensex gainers alongside SBI in a bank-led rally"
+      },
+      {
+       "name": "Asian Paints",
+       "dir": "up",
+       "move": "up to 5%",
+       "line": "Crude-linked raw materials make it a beneficiary of cheaper oil"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex jumps 1,200 pts; Kalyan Jewellers, RVNL shares lead MidCap gains",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+      "title": "Sensex zooms 1,100 pts, Nifty crosses 25,300 mark on positive global cues",
+      "url": "https://www.businesstoday.in/markets/stocks/story/sensex-zooms-1100-pts-nifty-crosses-25300-mark-on-positive-global-cues-566767-2026-11-11"
      }
     },
     "down": {
-     "summary": "Cochin Shipyard is the standout loser on weak results",
-     "why": "Selling is confined to results disappointments; the broad market is rising.",
+     "summary": "Losses are stock-specific, led by Cochin Shipyard on weak results",
+     "why": "With every Sensex stock higher, selling is confined to results disappointments and thinly traded small caps.",
      "names": [
       {
        "name": "Cochin Shipyard",
@@ -71,14 +69,87 @@
       }
      ],
      "src": {
-      "title": "Why is IIFL Finance stock surging today?",
-      "url": "https://in.investing.com/news/stock-market-news/why-is-iifl-finance-stock-surging-today-93CH-5695815"
+      "title": "Indian Stocks Rally as Nifty and Sensex Surge on Broad-Based Buying",
+      "url": "https://in.investing.com/news/stock-market-news/indian-stocks-rally-as-nifty-and-sensex-surge-on-broadbased-buying-5695788"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "opening-bell",
+   "tag": "Opening",
+   "impact": "pos",
+   "title": "All 30 Sensex stocks in the green",
+   "line": "IndiGo, M&M, SBI, Axis Bank, Eternal and Asian Paints lead with gains of up to 5%",
+   "more": [
+    "The BSE Bankex is up about 1,294 points, leading sectors",
+    "Reports credit cheaper oil and returning foreign buying"
+   ],
+   "src": {
+    "title": "Sensex zooms 1,100 pts, Nifty crosses 25,300 mark on positive global cues",
+    "url": "https://www.businesstoday.in/markets/stocks/story/sensex-zooms-1100-pts-nifty-crosses-25300-mark-on-positive-global-cues-566767-2026-11-11"
+   },
+   "date": "2026-11-11",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "q2-results-nov11",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Tata Power, Hindustan Copper report today",
+   "line": "Tata Power closed at ₹359.50 on Monday ahead of its Q2 FY27 results",
+   "more": [
+    "Hindustan Copper's last close was ₹429.85",
+    "GRSE and Cupid also report today"
+   ],
+   "src": {
+    "title": "Tata Power, Cupid, Hindustan Copper, GRSE and 6 Other Top Stocks Announcing Q2 Results Today",
+    "url": "https://tradebrains.in/indian-markets/tata-power-cupid-hindustan-copper-grse-and-6-other-top-stocks-announcing-q2-results-today-12798155"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-11",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "smallcap-losers",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "A few small caps buck the rally",
+   "line": "Nile fell 12.74%, Prag Bosimi 11.48% and Madhusudan Industries 10.22%",
+   "more": [
+    "These are among the steepest broader-market losers",
+    "No company-specific news was cited for the falls"
+   ],
+   "src": {
+    "title": "Indian Stocks Rally as Nifty and Sensex Surge on Broad-Based Buying",
+    "url": "https://in.investing.com/news/stock-market-news/indian-stocks-rally-as-nifty-and-sensex-surge-on-broadbased-buying-5695788"
+   },
+   "date": "2026-11-11",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1135"
+   }
+  },
   {
    "key": "kalyan-jewellers",
    "tag": "Results",
@@ -108,7 +179,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1105"
@@ -132,34 +203,10 @@
    "slot": "1105",
    "when": "11:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "opening-bell",
-   "tag": "Opening",
-   "impact": "pos",
-   "title": "Oil and IT recovery behind the rally",
-   "line": "Live blogs credit cheaper oil and easing losses in global chip stocks",
-   "more": [
-    "Weaker chip stocks overseas had weighed on IT; that pressure has eased",
-    "A pick-up in foreign investor buying is also cited"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex jumps 1,200 pts; Kalyan Jewellers, RVNL shares lead MidCap gains",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
-   },
-   "date": "2026-11-11",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "0925"
    }
   },
   {
@@ -267,31 +314,6 @@
    "first_seen": {
     "date": "2026-11-05",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "q2-results-nov11",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Results day: Tata Power, GRSE due",
-   "line": "Tata Power, Garden Reach Shipbuilders and Hindustan Copper report later today",
-   "more": [
-    "Pre-market reports flagged the September-quarter earnings calendar as a key watch item",
-    "Most of these companies file after market hours, so share reactions come later"
-   ],
-   "src": {
-    "title": "Pre-Market 11 November 2026: GIFT Nifty Hints At Gap-Up Opening As Indian Markets Resume Trade",
-    "url": "https://www.kotakneo.com/news/market-news/pre-market-11-november-2026-gift-nifty-hints-at-gap-up-opening/"
-   },
-   "thread": "q2-results-2026",
-   "date": "2026-11-11",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "0845"
    }
   },
   {
