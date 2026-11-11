@@ -1,30 +1,23 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-11T12:06:32+05:30",
+ "generated_at": "2026-11-11T12:37:37+05:30",
  "date": "2026-11-11",
- "slot": "1205",
- "slot_label": "12:05",
+ "slot": "1235",
+ "slot_label": "12:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-11T12:05:00+05:30",
- "nifty": {
-  "value": 25377.6,
-  "pct": 1.33,
-  "chg": 332.95,
-  "approx": false,
-  "asof_quote": "12:00"
- },
+ "asof": "2026-11-11T12:35:00+05:30",
  "mood": {
-  "label": "Holding firm",
-  "score": 0.6,
-  "summary": "Indian stocks are steady near the day's highs at midday, with the strong gains from the open intact, banks still leading and smallcaps outpacing midcaps.",
+  "label": "Rally broadens",
+  "score": 0.65,
+  "summary": "Indian stocks are holding a strong, broad rally into the afternoon, with banks in front, a clutch of large caps at record highs and infrastructure names jumping on orders.",
   "detail": {
-   "leaders": "Nifty PSU Bank; IndiGo and M&M",
+   "leaders": "Nifty Bank; Ashoka Buildcon and RVNL on order and midcap strength; ICICI Bank at a record high",
    "laggards": "Cochin Shipyard after weak Q2",
-   "tone": "A live read at midday. The market has barely moved since late morning, holding its gains rather than adding to them.",
+   "tone": "A live read into early afternoon. With no fresh index print since the previous note, this is a read on behaviour: gains are steady and breadth has widened, with more stocks at new highs.",
    "watch": [
-    "Any afternoon profit-taking after the sharp gap-up",
-    "Crude and US yields",
-    "Tata Power results due today"
+    "Any afternoon profit-taking after the gap-up",
+    "Pharma, realty and IT, the weakest sectors today",
+    "Tata Power results due later"
    ],
    "src": {
     "title": "Stock Market LIVE: Sensex jumps 1,200 pts, Nifty tops 25,350; IndiGo, M&M top gainers",
@@ -32,23 +25,30 @@
    },
    "movers": {
     "up": {
-     "summary": "PSU banks lead, with IndiGo and M&M the top index gainers",
-     "why": "Lower energy prices and a return of foreign buying are behind a risk-on mood that is favouring banks and fuel-sensitive names.",
+     "summary": "Banks lead; order wins lift Ashoka Buildcon and RVNL",
+     "why": "Cheaper crude and returning foreign money are lifting lenders, while infrastructure names add stock-specific gains on contracts.",
      "names": [
       {
-       "name": "Nifty PSU Bank",
+       "name": "Nifty Bank",
        "dir": "up",
-       "line": "The best-performing sector index, led by SBI and Bank of Baroda"
+       "line": "Bank, PSU bank and private bank indices are the day's top sectors"
       },
       {
-       "name": "InterGlobe Aviation (IndiGo)",
+       "name": "Ashoka Buildcon",
        "dir": "up",
-       "line": "A top gainer; cheaper crude lowers the airline's biggest cost"
+       "move": "+15%",
+       "line": "Won an ₹866 crore NHAI expressway contract"
       },
       {
-       "name": "Mahindra & Mahindra",
+       "name": "RVNL",
        "dir": "up",
-       "line": "Among the top gainers, named in midday live coverage"
+       "move": "up ~9%",
+       "line": "Hit a day's high, among the leaders of the midcap rally"
+      },
+      {
+       "name": "ICICI Bank",
+       "dir": "up",
+       "line": "Hit a record high as private banks join the rally"
       }
      ],
      "src": {
@@ -57,8 +57,8 @@
      }
     },
     "down": {
-     "summary": "Cochin Shipyard is the clearest loser after weak results",
-     "why": "Selling is narrow and tied to results disappointments in an otherwise broad up-day.",
+     "summary": "Losses are narrow, led by Cochin Shipyard on weak results",
+     "why": "Selling is confined to results disappointments on an otherwise broad up-day.",
      "names": [
       {
        "name": "Cochin Shipyard",
@@ -68,14 +68,86 @@
       }
      ],
      "src": {
-      "title": "Why Stock Market Rising Today (Nov 11, 2026)? Sensex Jumps 1,204 Points, Nifty Above 25,300",
-      "url": "https://www.angelone.in/news/market-updates/why-stock-market-rising-today-nov-11-2026-sensex-jumps-1-204-points-nifty-above-25-300"
+      "title": "Why is IIFL Finance stock surging today?",
+      "url": "https://in.investing.com/news/stock-market-news/why-is-iifl-finance-stock-surging-today-93CH-5695815"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "ashoka-buildcon-nhai",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Ashoka Buildcon jumps 15% on NHAI order",
+   "line": "The ₹866 crore NHAI expressway contract sent shares sharply higher",
+   "more": [
+    "Engineers India also rose about 8% intraday",
+    "RVNL jumped about 9% to a day's high"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex jumps 1,200 pts, Nifty tops 25,350; IndiGo, M&M top gainers",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+   },
+   "date": "2026-11-11",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1235"
+   }
+  },
+  {
+   "key": "record-highs",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "20 NSE 500 stocks hit new highs",
+   "line": "Eternal, Groww, Adani Ports, Ather and ICICI Bank are among those at record highs",
+   "more": [
+    "The new highs come as the market rallies after the holiday",
+    "Brent hit a two-month low, supporting the mood"
+   ],
+   "src": {
+    "title": "At new highs! Eternal, Groww, Adani Ports, Ather, 16 more NSE 500 stocks",
+    "url": "https://business-standard.com/markets/news/at-new-highs-eternal-groww-adani-ports-ather-16-more-nse-500-stocks-126111100312_1.html"
+   },
+   "date": "2026-11-11",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1235"
+   }
+  },
+  {
+   "key": "pharma-lags",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Pharma, realty and IT trail the market",
+   "line": "These are the weakest sector indices while banks lead",
+   "more": [
+    "Bank, PSU bank and private bank indices are the top sectors",
+    "No single trigger was cited for the laggards"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex jumps 1,200 pts, Nifty tops 25,350; IndiGo, M&M top gainers",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+   },
+   "date": "2026-11-11",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1205"
+   }
+  },
   {
    "key": "opening-bell",
    "tag": "Opening",
@@ -94,7 +166,7 @@
    "slot": "1205",
    "when": "12:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "0925"
@@ -119,34 +191,10 @@
    "slot": "1205",
    "when": "12:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-05",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "pharma-lags",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Pharma is the day's weakest sector",
-   "line": "Nifty Pharma is down the most among sector indices in a broad up-day",
-   "more": [
-    "The index was also among Monday's movers, up 1.65% then",
-    "No single trigger was cited for today's decline"
-   ],
-   "src": {
-    "title": "Why Stock Market Rising Today (Nov 11, 2026)? Sensex Jumps 1,204 Points, Nifty Above 25,300",
-    "url": "https://www.angelone.in/news/market-updates/why-stock-market-rising-today-nov-11-2026-sensex-jumps-1-204-points-nifty-above-25-300"
-   },
-   "date": "2026-11-11",
-   "slot": "1205",
-   "when": "12:05",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "1205"
    }
   },
   {
