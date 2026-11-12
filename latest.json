@@ -1,55 +1,62 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-12T14:37:07+05:30",
+ "generated_at": "2026-11-12T15:07:06+05:30",
  "date": "2026-11-12",
- "slot": "1435",
- "slot_label": "14:35",
- "stage": "Mid-market mood",
- "asof": "2026-11-12T14:35:00+05:30",
+ "slot": "1505",
+ "slot_label": "15:05",
+ "stage": "Closing mood",
+ "asof": "2026-11-12T15:05:00+05:30",
+ "nifty": {
+  "value": 25251.55,
+  "pct": 0.01,
+  "chg": 3.5,
+  "approx": false,
+  "asof_quote": "15:00"
+ },
  "mood": {
-  "label": "Flat, breadth firm",
-  "score": 0.15,
-  "summary": "The benchmarks are stuck near unchanged in a narrow afternoon range, but the broader market is doing better, with midcaps and smallcaps firmly higher.",
+  "label": "Stalled near flat",
+  "score": 0.05,
+  "summary": "Indian stocks are flat heading into the final half hour after a choppy, directionless afternoon, with realty firm and results-hit names like HAL lower as traders wait for inflation data.",
   "detail": {
-   "leaders": "Ola Electric; realty: Nifty Realty, Oberoi Realty",
+   "leaders": "Realty: Nifty Realty, Oberoi Realty; Ola Electric",
    "laggards": "HAL after its Q2 results",
-   "tone": "A live read of the afternoon market. Much like the previous note at the top end, with the benchmarks rangebound, but breadth is better than the headline indices suggest. No print newer than the previous note's was found, so this is a read on behaviour.",
+   "tone": "A live read of the market late in the session. A little softer than the previous note: the small afternoon gain has all but vanished and the market is trading essentially unchanged on the day.",
    "watch": [
-    "October CPI data due today, expected near 6%",
-    "Ola Electric's Q2 results due today",
-    "Whether the broader-market buying lifts the benchmarks into the close"
+    "October CPI data due at 4 PM, with consensus near 5.93%",
+    "Ola Electric's Q2 results after its board meeting today",
+    "Whether the last half hour breaks the narrow range"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex choppy in volatile session; Nifty below 25,300; HAL down 4% post Q2 result",
+    "title": "Stock Market LIVE: Sensex choppy in volatile session; Nifty below 25,300; Nifty Realty rises 4%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Ola Electric and realty stocks lead on results hopes and strong pre-sales",
-     "why": "Ola Electric is rising ahead of its Q2 results, and developers are rallying after Jefferies said pre-sales beat estimates.",
+     "summary": "Realty extends its rally; Ola Electric rises ahead of its results",
+     "why": "Developers are rallying after Jefferies said September-quarter pre-sales beat estimates, while Ola Electric is being bought ahead of its Q2 numbers.",
      "names": [
-      {
-       "name": "Ola Electric",
-       "dir": "up",
-       "move": "up 7.4% at day high",
-       "line": "Bought ahead of its Q2 results and on the government's EV procurement push"
-      },
       {
        "name": "Nifty Realty",
        "dir": "up",
-       "move": "+3.4% at 12:02",
-       "line": "Top sectoral gainer at midday as developers rally on pre-sales"
+       "move": "up ~4%",
+       "line": "Top sector of the day as developers rally on pre-sales"
       },
       {
        "name": "Oberoi Realty",
        "dir": "up",
        "move": "up ~5%",
        "line": "Its September-quarter pre-sales beat Jefferies' estimates"
+      },
+      {
+       "name": "Ola Electric",
+       "dir": "up",
+       "move": "up 7.4% at day high",
+       "line": "Bought ahead of its Q2 results and on the government's EV procurement push"
       }
      ],
      "src": {
-      "title": "Ola Electric shares zoom 7% ahead of Q2 results; here's what to expect",
-      "url": "https://www.business-standard.com/amp/markets/news/ola-electric-shares-zoom-7-ahead-of-q2-results-here-s-what-to-expect-126111200302_1.html"
+      "title": "Stock Market LIVE: Sensex choppy in volatile session; Nifty below 25,300; Nifty Realty rises 4%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
      }
     },
     "down": {
@@ -64,8 +71,8 @@
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex choppy in volatile session; Nifty below 25,300; HAL down 4% post Q2 result",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
+      "title": "Why are HAL shares falling over 3% today despite 10.6% YoY rise in Q2 net profit? Explained",
+      "url": "https://businessupturn.com/finance/stock-market/why-are-hal-shares-falling-over-3-today-despite-10-6-yoy-rise-in-q2-net-profit-explained/"
      }
     }
    }
@@ -73,28 +80,77 @@
  },
  "insights": [
   {
+   "key": "india-cpi",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "October CPI due at 4 PM; seen near 6%",
+   "line": "Consensus is about 5.93% versus 5.54% in September, the highest since October 2024",
+   "more": [
+    "Trading Economics' own forecast is 6.2%",
+    "ICRA expects core inflation to rise to 4.6% from 4.3%",
+    "A Mint poll put October at 6.0%"
+   ],
+   "src": {
+    "title": "India Inflation Rate",
+    "url": "https://tradingeconomics.com/india/inflation-cpi"
+   },
+   "thread": "rbi-policy",
+   "date": "2026-11-12",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-08",
+    "slot": "outlook"
+   }
+  },
+  {
    "key": "ola-electric",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "Ola Electric jumps 7% ahead of Q2 results",
-   "line": "Hit a day high of ₹37 on the BSE, up 7.4%, on heavier-than-usual volume",
+   "title": "Ola Electric Q2 due; smaller loss expected",
+   "line": "Kotak sees net sales down 26.5% year on year to ₹507 crore and a ₹315.3 crore loss",
    "more": [
-    "The board meets today to approve Q2 FY27 results",
-    "Government staff cars must now default to EVs, per the Finance Ministry",
-    "The stock is up about 9% over two sessions"
+    "The loss is expected to narrow both year on year and quarter on quarter",
+    "The stock hit a day high of ₹37, up 7.4%, ahead of the numbers"
    ],
    "src": {
     "title": "Ola Electric shares zoom 7% ahead of Q2 results; here's what to expect",
-    "url": "https://www.business-standard.com/amp/markets/news/ola-electric-shares-zoom-7-ahead-of-q2-results-here-s-what-to-expect-126111200302_1.html"
+    "url": "https://www.business-standard.com/markets/news/ola-electric-shares-zoom-7-ahead-of-q2-results-here-s-what-to-expect-126111200302_1.html"
    },
    "date": "2026-11-12",
-   "slot": "1435",
-   "when": "14:35",
-   "updated": false,
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1435"
+   }
+  },
+  {
+   "key": "realty-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Realty rally extends to about 4%",
+   "line": "Nifty Realty is the day's standout sector, up about 4% late in the session",
+   "more": [
+    "It was up 3.4% at midday",
+    "Jefferies said Q2 pre-sales beat its estimates for DLF, Oberoi, Godrej Properties and Prestige"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex choppy in volatile session; Nifty below 25,300; Nifty Realty rises 4%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
+   },
+   "date": "2026-11-12",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1335"
    }
   },
   {
@@ -115,7 +171,7 @@
    "slot": "1435",
    "when": "14:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1105"
@@ -140,35 +196,10 @@
    "slot": "1435",
    "when": "14:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1405"
-   }
-  },
-  {
-   "key": "india-cpi",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "Markets await October CPI later today",
-   "line": "Forecasts range from about 5.93% to 6.1%, up from 5.54% in September",
-   "more": [
-    "The RBI raised rates in October, which raises the stakes for this print",
-    "An Informist poll of 12 economists expects 6%"
-   ],
-   "src": {
-    "title": "Gift Nifty at 25,240 as Indian markets await October inflation",
-    "url": "https://www.newsbytesapp.com/news/business/gift-nifty-at-25240-as-indian-markets-await-october-inflation/tldr"
-   },
-   "thread": "rbi-policy",
-   "date": "2026-11-12",
-   "slot": "1405",
-   "when": "14:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-08",
-    "slot": "outlook"
    }
   },
   {
@@ -193,31 +224,6 @@
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1455"
-   }
-  },
-  {
-   "key": "realty-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Realty stocks jump; DLF nears 52-week high",
-   "line": "Oberoi, Sobha and Lodha rose about 5%; Prestige, Phoenix Mills, Godrej Properties 4%",
-   "more": [
-    "Nifty Realty was the top sector at 12:02, up 3.4%",
-    "Jefferies said Q2 pre-sales beat its estimates for DLF, Oberoi, Godrej Properties and Prestige",
-    "The realty index is up 14% so far in November"
-   ],
-   "src": {
-    "title": "Realty index surges 4%; Oberoi, Sobha, Lodha up 5%; DLF nears 52-week high",
-    "url": "https://www.business-standard.com/amp/markets/news/realty-index-surges-4-oberoi-sobha-lodha-up-5-dlf-nears-52-week-high-126111200602_1.html"
-   },
-   "date": "2026-11-12",
-   "slot": "1335",
-   "when": "13:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "1335"
    }
   },
   {
