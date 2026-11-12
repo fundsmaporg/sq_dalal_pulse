@@ -1,6 +1,6 @@
 {
  "key": "us-markets",
- "title": "Wall Street rebounds, led by tech",
+ "title": "Wall Street rallies on AI rebound",
  "tag": "Global",
  "thread": "global-markets",
  "first_seen": {
@@ -8,10 +8,10 @@
   "slot": "pre"
  },
  "last_seen": {
-  "date": "2026-11-11",
-  "slot": "2100"
+  "date": "2026-11-12",
+  "slot": "0700"
  },
- "count": 29,
+ "count": 30,
  "timeline": [
   {
    "date": "2026-10-29",
@@ -529,45 +529,53 @@
     "title": "US Indices Mixed at Open: Nasdaq Climbs as Dow Edges Lower",
     "url": "https://businessupturn.com/usa/money/us-markets/us-indices-mixed-at-open-nasdaq-climbs-as-dow-edges-lower/"
    }
+  },
+  {
+   "date": "2026-11-12",
+   "slot": "0700",
+   "when": "Thu · 7:00",
+   "title": "Wall Street rallies on AI rebound",
+   "line": "S&P 500 rose 1.31% and the Nasdaq 1.60% as CoreWeave's beat revived the AI trade",
+   "impact": "pos",
+   "tag": "Global",
+   "more": [
+    "The Dow added about 0.5%",
+    "CoreWeave shares surged as much as about 25%",
+    "Apple hit a record high, TheStreet reported"
+   ],
+   "thread": "global-markets",
+   "src": {
+    "title": "How major US stock indexes fared Wednesday 11/11/2026",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-211834867.html"
+   }
   }
  ],
  "dossier": {
-  "headline": "Wall Street has swung on AI and the midterms, setting the overnight tone for India",
-  "summary": "US markets rose after the Fed in late October, fell in an AI-led tech rout, then recovered. Election week saw a tech slump erase the post-election rally. Friday's close was mixed, with the Nasdaq up 1.09% and the S&P 500 up 0.31% while the Dow fell 0.46%, a rebound after Thursday's rout.",
-  "status": "tracking",
+  "headline": "Wall Street swings between oil relief, hot inflation and an AI rebound",
+  "summary": "US stocks have whipsawed this week: the S&P 500 jumped 2.35% on Monday as oil tumbled, its best day since April, then fell about 0.4% on Tuesday after a hotter-than-expected October CPI. On Wednesday it rose 1.31%, with the Nasdaq up 1.60%, as CoreWeave's earnings beat revived the AI trade.",
+  "status": "developing",
   "why_it_matters": [
-   "The overnight US close is the first cue the pre-open notes read each morning.",
-   "Indian IT tracks US tech sentiment closely.",
-   "US markets reopen Monday, so Friday's close carries into the next Indian session."
+   "Wall Street's direction sets the overnight tone for Indian stocks",
+   "Tech moves in the US feed into Indian IT sentiment"
   ],
-  "moved": [
-   {
-    "name": "Nasdaq",
-    "dir": "up",
-    "line": "Up 1.09% on Friday, rebounding after Thursday's AI-led rout."
-   },
-   {
-    "name": "Dow Jones",
-    "dir": "down",
-    "line": "Down 0.46% on Friday against gains elsewhere."
-   }
-  ],
+  "moved": [],
   "watch": [
-   "Whether the AI trade steadies or sells off again.",
-   "The read-through to Indian IT at the open."
+   "Whether the AI rebound holds",
+   "Fed rate-hike expectations after the CPI print"
   ],
   "questions": [
-   "Is the AI rout a repricing or a pause?",
-   "How much does the midterm result actually change US policy for markets?"
+   "Is the AI-led rally durable with a December Fed hike priced in?"
   ],
-  "conflicts": [],
-  "written_at": "2026-11-07T19:18:21+05:30",
+  "conflicts": [
+   "Early-trade figures quoted in the evening differ from the final closes"
+  ],
+  "written_at": "2026-11-12T07:05:00+05:30",
   "based_on_slots": [
-   "2026-11-07/1800",
-   "2026-11-05/2100",
-   "2026-11-04/0700",
-   "2026-11-03/1525",
-   "2026-10-29/pre"
+   "2026-11-09/2100",
+   "2026-11-10/0845",
+   "2026-11-11/0700",
+   "2026-11-11/2100",
+   "2026-11-12/0700"
   ]
  }
 }

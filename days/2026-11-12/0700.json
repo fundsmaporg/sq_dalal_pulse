@@ -1,0 +1,164 @@
+{
+ "asof": "2026-11-12T07:00:00+05:30",
+ "summary": "Indian stocks look set for a firm start on Thursday after Wall Street's tech-led rally and another day of heavy foreign buying, though oil turned higher on stalled Iran talks.",
+ "mood": {
+  "label": "Firm start likely",
+  "score": 0.5,
+  "detail": {
+   "stats": [],
+   "leaders": "IT and chip-linked names after the US tech rally; LIC on its MSCI inclusion",
+   "laggards": "Oil-sensitive names if crude extends its rebound",
+   "tone": "A forward-looking read: nothing is trading in India yet. The overnight cues are supportive, with US stocks rallying hard and foreign investors still buying in size.",
+   "watch": [
+    "GIFT Nifty and Asia's open",
+    "Whether Brent keeps rising on the Iran standoff",
+    "Tata Power's share reaction to its results"
+   ],
+   "src": {
+    "title": "Stock Market Today (Nov. 11, 2026): Nasdaq, S&P 500 gain after CoreWeave earnings beat; Apple hits new record",
+    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25255.05,
+  "pct": 0.84,
+  "chg": 210.4,
+  "approx": false
+ },
+ "metrics": {
+  "fii_net_cr": {
+   "value": 12563,
+   "asof": "2026-11-11 provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data · 11 Nov 2026",
+    "url": "https://www.quantsapp.com/fii-dii"
+   }
+  },
+  "dii_net_cr": {
+   "value": -8435,
+   "asof": "2026-11-11 provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data · 11 Nov 2026",
+    "url": "https://www.quantsapp.com/fii-dii"
+   }
+  },
+  "brent_usd": {
+   "value": 92.76,
+   "asof": "2026-11-11 settlement",
+   "approx": true,
+   "src": {
+    "title": "Global Oil Prices Rise Amid Fading Expectations for U.S.-Iran Talks; Brent Up 1.4%",
+    "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008842078"
+   }
+  }
+ },
+ "top": [
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "pos",
+   "thread": "global-markets",
+   "title": "Wall Street rallies on AI rebound",
+   "line": "S&P 500 rose 1.31% and the Nasdaq 1.60% as CoreWeave's beat revived the AI trade",
+   "more": [
+    "The Dow added about 0.5%",
+    "CoreWeave shares surged as much as about 25%",
+    "Apple hit a record high, TheStreet reported"
+   ],
+   "src": {
+    "title": "How major US stock indexes fared Wednesday 11/11/2026",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-211834867.html"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "thread": "fii-flows",
+   "title": "FIIs buy ₹12,563 crore on Wednesday",
+   "line": "Foreign investors were big buyers again while domestic funds sold about ₹8,435 crore",
+   "more": [
+    "FII gross purchases were about ₹30,087 crore against ₹17,524 crore of sales",
+    "November FPI inflows now total about ₹66,302 crore, one tracker says",
+    "Figures are provisional exchange data via aggregators"
+   ],
+   "src": {
+    "title": "FII DII Data · 11 Nov 2026",
+    "url": "https://www.quantsapp.com/fii-dii"
+   }
+  },
+  {
+   "key": "msci-nov-review",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "LIC added to MSCI Emerging Markets index",
+   "line": "LIC is among the three largest additions in MSCI's November review",
+   "more": [
+    "Changes take effect at the close of November 30",
+    "MSCI ACWI gets 13 additions and 100 deletions overall",
+    "The full India list, including Meesho and Coforge, was not in the reports found"
+   ],
+   "src": {
+    "title": "MSCI Equity Indexes November 2026 Index Review",
+    "url": "https://ir.msci.com/news-releases/news-release-details/msci-equity-indexes-november-2026-index-review"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "thread": "crude-iran-war",
+   "title": "Brent rebounds as Iran talks stall",
+   "line": "Brent settled up about 1.4% near $92.76 after Iran ruled out sending out enriched material",
+   "more": [
+    "Bloomberg says US-Iran talks made little progress",
+    "Oil had hit 11-week lows earlier in the week"
+   ],
+   "src": {
+    "title": "Global Oil Prices Rise Amid Fading Expectations for U.S.-Iran Talks; Brent Up 1.4%",
+    "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008842078"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "How major US stock indexes fared Wednesday 11/11/2026",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-211834867.html"
+  },
+  {
+   "title": "Stock Market Today (Nov. 11, 2026): Nasdaq, S&P 500 gain after CoreWeave earnings beat; Apple hits new record",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"
+  },
+  {
+   "title": "S&P 500 Closes Up 1.3% as Tech Pulls the Market Higher",
+   "url": "https://247wallst.com/cards/tech-did-the-heavy-lifting-again-the-nasdaq-s-1-55-close-m-gspc-market-bell-01m766s5wqxj8egm37q8ks13gp"
+  },
+  {
+   "title": "MSCI Equity Indexes November 2026 Index Review",
+   "url": "https://ir.msci.com/news-releases/news-release-details/msci-equity-indexes-november-2026-index-review"
+  },
+  {
+   "title": "MSCI announces November 2026 index review changes",
+   "url": "https://www.investing.com/news/company-news/msci-announces-november-2026-index-review-changes-93CH-5020072"
+  },
+  {
+   "title": "FII DII Data · 11 Nov 2026",
+   "url": "https://www.quantsapp.com/fii-dii"
+  },
+  {
+   "title": "Foreign Portfolio Investors Take November Inflows to ₹66,302 Crore",
+   "url": "https://www.multibagg.ai/market-pulse/articles/foreign-portfolio-investor-inflows-november-cmwcd8vqn00hk2rpblhdhrnlk"
+  },
+  {
+   "title": "Global Oil Prices Rise Amid Fading Expectations for U.S.-Iran Talks; Brent Up 1.4%",
+   "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008842078"
+  },
+  {
+   "title": "Oil Steadies After Slump as Iran War Talks Make Little Progress",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-11/latest-oil-market-news-and-analysis-for-nov-12"
+  }
+ ]
+}
