@@ -1,30 +1,23 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-12T14:07:28+05:30",
+ "generated_at": "2026-11-12T14:37:07+05:30",
  "date": "2026-11-12",
- "slot": "1405",
- "slot_label": "14:05",
+ "slot": "1435",
+ "slot_label": "14:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-12T14:05:00+05:30",
- "nifty": {
-  "value": 25272,
-  "pct": 0.07,
-  "chg": 16.95,
-  "approx": false,
-  "asof_quote": "14:00"
- },
+ "asof": "2026-11-12T14:35:00+05:30",
  "mood": {
-  "label": "Choppy, flat",
-  "score": 0.0,
-  "summary": "Indian stocks are choppy and essentially flat in the afternoon, swinging either side of unchanged as realty and banks offset results-led selling in HAL ahead of inflation data.",
+  "label": "Flat, breadth firm",
+  "score": 0.15,
+  "summary": "The benchmarks are stuck near unchanged in a narrow afternoon range, but the broader market is doing better, with midcaps and smallcaps firmly higher.",
   "detail": {
-   "leaders": "Realty: Nifty Realty, Oberoi Realty, Prestige Estates",
+   "leaders": "Ola Electric; realty: Nifty Realty, Oberoi Realty",
    "laggards": "HAL after its Q2 results",
-   "tone": "A live read of the afternoon market. Steadier than the previous note: after briefly dipping below unchanged, the market has edged back to a marginal gain in a choppy session.",
+   "tone": "A live read of the afternoon market. Much like the previous note at the top end, with the benchmarks rangebound, but breadth is better than the headline indices suggest. No print newer than the previous note's was found, so this is a read on behaviour.",
    "watch": [
     "October CPI data due today, expected near 6%",
-    "Whether banks keep supporting the market into the close",
-    "Further results-day selling like HAL's"
+    "Ola Electric's Q2 results due today",
+    "Whether the broader-market buying lifts the benchmarks into the close"
    ],
    "src": {
     "title": "Stock Market LIVE: Sensex choppy in volatile session; Nifty below 25,300; HAL down 4% post Q2 result",
@@ -32,9 +25,15 @@
    },
    "movers": {
     "up": {
-     "summary": "Realty leads after developers' strong September-quarter pre-sales",
-     "why": "Jefferies said pre-sales beat its estimates for DLF, Oberoi, Godrej Properties and Prestige.",
+     "summary": "Ola Electric and realty stocks lead on results hopes and strong pre-sales",
+     "why": "Ola Electric is rising ahead of its Q2 results, and developers are rallying after Jefferies said pre-sales beat estimates.",
      "names": [
+      {
+       "name": "Ola Electric",
+       "dir": "up",
+       "move": "up 7.4% at day high",
+       "line": "Bought ahead of its Q2 results and on the government's EV procurement push"
+      },
       {
        "name": "Nifty Realty",
        "dir": "up",
@@ -46,17 +45,11 @@
        "dir": "up",
        "move": "up ~5%",
        "line": "Its September-quarter pre-sales beat Jefferies' estimates"
-      },
-      {
-       "name": "Prestige Estates",
-       "dir": "up",
-       "move": "up ~4%",
-       "line": "Also named by Jefferies as beating its pre-sales estimates"
       }
      ],
      "src": {
-      "title": "Realty index surges 4%; Oberoi, Sobha, Lodha up 5%; DLF nears 52-week high",
-      "url": "https://www.business-standard.com/amp/markets/news/realty-index-surges-4-oberoi-sobha-lodha-up-5-dlf-nears-52-week-high-126111200602_1.html"
+      "title": "Ola Electric shares zoom 7% ahead of Q2 results; here's what to expect",
+      "url": "https://www.business-standard.com/amp/markets/news/ola-electric-shares-zoom-7-ahead-of-q2-results-here-s-what-to-expect-126111200302_1.html"
      }
     },
     "down": {
@@ -66,13 +59,13 @@
       {
        "name": "HAL",
        "dir": "down",
-       "move": "-2.3% at 13:40",
+       "move": "down ~4%",
        "line": "Margin slipped in Q2 even as net profit rose"
       }
      ],
      "src": {
-      "title": "Why are HAL shares falling over 3% today despite 10.6% YoY rise in Q2 net profit? Explained",
-      "url": "https://businessupturn.com/finance/stock-market/why-are-hal-shares-falling-over-3-today-despite-10-6-yoy-rise-in-q2-net-profit-explained/"
+      "title": "Stock Market LIVE: Sensex choppy in volatile session; Nifty below 25,300; HAL down 4% post Q2 result",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
      }
     }
    }
@@ -80,33 +73,73 @@
  },
  "insights": [
   {
+   "key": "ola-electric",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Ola Electric jumps 7% ahead of Q2 results",
+   "line": "Hit a day high of ₹37 on the BSE, up 7.4%, on heavier-than-usual volume",
+   "more": [
+    "The board meets today to approve Q2 FY27 results",
+    "Government staff cars must now default to EVs, per the Finance Ministry",
+    "The stock is up about 9% over two sessions"
+   ],
+   "src": {
+    "title": "Ola Electric shares zoom 7% ahead of Q2 results; here's what to expect",
+    "url": "https://www.business-standard.com/amp/markets/news/ola-electric-shares-zoom-7-ahead-of-q2-results-here-s-what-to-expect-126111200302_1.html"
+   },
+   "date": "2026-11-12",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1435"
+   }
+  },
+  {
+   "key": "midcap-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Midcaps and smallcaps outpace the benchmarks",
+   "line": "Nifty Midcap 100 is up 0.66% and Smallcap 100 up 1.01% while large caps stay flat",
+   "more": [
+    "The benchmark indices are trading in a narrow range",
+    "Broader-market strength points to wider buying than the headline indices show"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex choppy in volatile session; Nifty below 25,300; HAL down 4% post Q2 result",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
+   },
+   "date": "2026-11-12",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1105"
+   }
+  },
+  {
    "key": "hal-q2",
    "tag": "Results",
    "impact": "neg",
-   "title": "HAL slips after Q2 as margin narrows",
-   "line": "Consolidated profit rose 16% to ₹1,936 crore, but EBITDA lagged revenue growth",
+   "title": "HAL's post-results fall deepens to about 4%",
+   "line": "The decline has widened since lunchtime as margin concerns weigh",
    "more": [
-    "Shares were down 2.3% at ₹4,835.1 at 1:40 PM; other reports say over 3%",
-    "Another report puts profit at ₹1,839 crore, up 10.6%",
-    "EBITDA grew 11.6%, slower than revenue"
+    "The fall was 2.3% at 1:40 PM",
+    "EBITDA grew 11.6%, slower than revenue, so margins slipped"
    ],
    "src": {
-    "title": "HAL Q2 FY27 results: Net profit jumps 16% YoY; revenue grows to ₹7,613 crore, margin slips",
-    "url": "https://upstox.com/news/market-news/earnings/hindustan-aeronautics-hal-q2-fy-27-results-net-profit-jumps-16-yo-y-revenue-grows-to-7-613-crore-margin-slips/article-203360/"
+    "title": "Stock Market LIVE: Sensex choppy in volatile session; Nifty below 25,300; HAL down 4% post Q2 result",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
    },
    "thread": "q2-results-2026",
-   "results": {
-    "company": "HAL",
-    "quarter": "Q2 FY27",
-    "reaction_asof": "13:40",
-    "profit_cr": 1936,
-    "profit_yoy_pct": 16,
-    "reaction_pct": -2.3
-   },
    "date": "2026-11-12",
-   "slot": "1405",
-   "when": "14:05",
-   "updated": false,
+   "slot": "1435",
+   "when": "14:35",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-12",
@@ -132,7 +165,7 @@
    "slot": "1405",
    "when": "14:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-08",
     "slot": "outlook"
@@ -156,7 +189,7 @@
    "slot": "1405",
    "when": "14:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1455"
@@ -410,30 +443,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1135"
-   }
-  },
-  {
-   "key": "midcap-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Avanti Feeds and Cupid lead midcap gains",
-   "line": "Midcaps are outperforming as the benchmarks stay rangebound",
-   "more": [
-    "Cupid hit a 52-week high on Q2 profit growth",
-    "Media is the strongest sector so far"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range, up 200 pts; Avanti Feeds, Cupid lead MidCap gains",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
-   },
-   "date": "2026-11-12",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "1105"
    }
   },
   {
