@@ -1,55 +1,105 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-12T08:46:45+05:30",
+ "generated_at": "2026-11-12T09:26:09+05:30",
  "date": "2026-11-12",
- "slot": "0845",
- "slot_label": "8:45",
- "stage": "Pre-market mood",
- "asof": "2026-11-12T08:45:00+05:30",
+ "slot": "0925",
+ "slot_label": "9:25",
+ "stage": "Opening mood",
+ "asof": "2026-11-12T09:25:00+05:30",
  "nifty": {
-  "value": 25255.05,
-  "pct": 0.84,
-  "chg": 210.4,
-  "approx": false
+  "value": 25261.1,
+  "pct": 0.02,
+  "chg": 6.05,
+  "approx": false,
+  "asof_quote": "09:15"
  },
  "mood": {
-  "label": "Flat start likely",
-  "score": 0.2,
-  "summary": "Indian stocks look set for a flat-to-muted open on Thursday after a strong post-holiday rally, with action likely to centre on results winners and stocks joining MSCI's index.",
+  "label": "Flat open",
+  "score": 0.1,
+  "summary": "Indian stocks opened flat on Thursday after a long winning run, with banks and consumer names steady, smallcaps doing better and IT shares under pressure despite the US tech rally.",
   "detail": {
-   "leaders": "MSCI additions LIC, Coforge, Adani Green and Meesho; Tata Power and Hindustan Copper on results",
-   "laggards": "PI Industries after its MSCI exit",
-   "tone": "A forward-looking pre-open read. The signals point to a quieter start than Wednesday's surge, with the market likely to consolidate rather than extend sharply, despite the overnight US tech rally.",
+   "leaders": "Banks, financials and consumer names; Bajaj Finance and ITC among top Sensex gainers",
+   "laggards": "IT, autos and FMCG",
+   "tone": "A live read just after the open. The start matched the muted pre-open signals: no follow-through from Wednesday's rally, but no sharp selling either.",
    "watch": [
-    "Whether the market holds its gains after the eight-session run",
-    "Reaction in MSCI additions and in Tata Power",
-    "The Bajaj Finance share sale"
+    "Whether IT selling deepens or eases",
+    "Reaction in MSCI additions LIC, Coforge, Adani Green and Meesho",
+    "Holding the recent swing high as resistance"
    ],
    "src": {
-    "title": "GIFT NIFTY futures hint flat opening on November 12",
-    "url": "https://upstox.com/news/market-news/stocks/gift-nifty-futures-hint-flat-opening-on-november-12-what-investors-need-to-track-before-stock-market-open/article-203319/"
+    "title": "Sensex, Nifty Today: Markets open flat amid mixed global cues; smallcaps outperform, IT stocks drag",
+    "url": "https://www.zeebiz.com/market-news/news-sensex-nifty-today-markets-open-flat-amid-mixed-global-cues-smallcaps-outperform-it-stocks-drag-405453"
    }
   }
  },
  "insights": [
   {
-   "key": "msci-nov-review",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "MSCI adds LIC, Coforge, Adani Green, Meesho",
-   "line": "Four Indian stocks join MSCI's Global Standard index; PI Industries is removed",
+   "key": "opening-bell",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Markets open flat after a nine-session run",
+   "line": "IT, auto and FMCG selling offsets buying in banks, financials and consumer names",
    "more": [
-    "Nuvama sees inflows of about $630m into Coforge and $468m into LIC",
-    "India's weight in MSCI EM is set to rise to 11.7% from 11.5%",
-    "Changes take effect from November 30"
+    "Bajaj Finance and ITC were the leading Sensex gainers at the open",
+    "Smallcaps are outperforming the benchmarks",
+    "The Nifty's winning streak reached nine sessions on Wednesday, excluding Muhurat trading"
    ],
    "src": {
-    "title": "MSCI Nov rejig: LIC, Adani Green, Meesho among 4 additions; PI Inds exits",
-    "url": "https://www.business-standard.com/amp/markets/news/msci-november-2026-rejig-lic-adani-green-meesho-among-4-additions-pi-inds-exits-126111200074_1.html"
+    "title": "Sensex, Nifty Today: Markets open flat amid mixed global cues; smallcaps outperform, IT stocks drag",
+    "url": "https://www.zeebiz.com/market-news/news-sensex-nifty-today-markets-open-flat-amid-mixed-global-cues-smallcaps-outperform-it-stocks-drag-405453"
    },
    "date": "2026-11-12",
-   "slot": "0845",
-   "when": "8:45",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "it-sector-dip",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Nifty IT falls about 1% at the open",
+   "line": "IT is the weakest sector early on, even after Wall Street's tech-led rally",
+   "more": [
+    "No specific trigger was cited in early coverage",
+    "IT also lagged in Wednesday's session"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex flat, Nifty tests 25,200; Nifty IT declines 1%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-12",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "msci-nov-review",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "MSCI adds 15 Indian stocks across indices",
+   "line": "Upstox counts 15 additions across large, mid and small-cap indices",
+   "more": [
+    "Sources differ on the effective date: November 30 vs November 20",
+    "BusinessToday sees about $2 billion of passive inflows"
+   ],
+   "src": {
+    "title": "LIC, Adani Green, Meesho, Coforge: MSCI adds 15 stocks as part of November rejig; here's how this impacts investors",
+    "url": "https://upstox.com/news/market-news/stocks/lic-adani-green-meesho-coforge-msci-adds-15-stocks-as-part-of-november-rejig-here-s-how-this-impacts-investors/article-203327/"
+   },
+   "date": "2026-11-12",
+   "slot": "0925",
+   "when": "9:25",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -84,7 +134,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1405"
@@ -117,7 +167,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "0845"
@@ -141,7 +191,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "0845"
@@ -165,7 +215,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "0845"
@@ -508,30 +558,6 @@
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1435"
-   }
-  },
-  {
-   "key": "opening-bell",
-   "tag": "Opening",
-   "impact": "neg",
-   "title": "Market gives back a chunk of the morning rally",
-   "line": "IT, pharma and realty are the weakest sectors as the benchmarks pare gains",
-   "more": [
-    "Bank indices are still the top sectors",
-    "No specific trigger for the afternoon selling was cited"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex rises 700 pts, Nifty tops 25,200; Silver ETF inflows jump 56% M-o-M",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
-   },
-   "date": "2026-11-11",
-   "slot": "1405",
-   "when": "Wed · 14:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "0925"
    }
   },
   {
