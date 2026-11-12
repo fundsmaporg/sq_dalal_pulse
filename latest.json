@@ -1,26 +1,33 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-12T12:07:24+05:30",
+ "generated_at": "2026-11-12T12:37:38+05:30",
  "date": "2026-11-12",
- "slot": "1205",
- "slot_label": "12:05",
+ "slot": "1235",
+ "slot_label": "12:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-12T12:05:00+05:30",
+ "asof": "2026-11-12T12:35:00+05:30",
+ "nifty": {
+  "value": 25269.6,
+  "pct": 0.06,
+  "chg": 14.55,
+  "approx": false,
+  "asof_quote": "12:00"
+ },
  "mood": {
-  "label": "Gains pared",
-  "score": 0.1,
-  "summary": "Indian stocks have given back much of their late-morning gain by midday, with IT, FMCG and auto shares weighing; the market is still slightly higher.",
+  "label": "Gains fade",
+  "score": 0.05,
+  "summary": "Indian stocks have slipped well off the day's high by midday and are clinging to a marginal gain, as heavyweights such as M&M and TCS weigh while results-led names hold up.",
   "detail": {
-   "leaders": "Financials and select midcaps",
-   "laggards": "IT, FMCG and autos",
-   "tone": "A midday read. The latest live update shows the earlier advance has narrowed; no fresh timestamped index print was available, so no level is given.",
+   "leaders": "Results-driven names such as Cupid and Tata Power",
+   "laggards": "M&M and TCS, the top Sensex losers",
+   "tone": "A live read of the market at midday. Softer than the previous note: the late-morning advance has largely been given back, though the market has not turned negative.",
    "watch": [
-    "Whether the market holds in positive territory",
-    "IT and FMCG selling into the afternoon",
+    "Whether the market slips into the red in the afternoon",
+    "Further selling in index heavyweights like M&M and TCS",
     "Foreign flows, which have backed the market this week"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex up 100 pts, Nifty below 25,300; IT, FMCG, auto shares weigh",
+    "title": "Stock Market LIVE: Sensex pares 400 pts from day's high, Nifty below 25,300; M&M, TCS top losers",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
    }
   }
@@ -30,24 +37,91 @@
    "key": "sector-drag",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "IT, FMCG and autos weigh at midday",
-   "line": "Selling in these sectors has trimmed most of the late-morning gain",
+   "title": "M&M and TCS lead the midday losers",
+   "line": "The two heavyweights are the biggest drags as the market's gain fades",
    "more": [
-    "The market is still marginally higher, per the latest live update",
-    "No single trigger has been cited for the selling"
+    "Both are named as top Sensex losers in the midday update",
+    "No company-specific news has been reported for either today"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex up 100 pts, Nifty below 25,300; IT, FMCG, auto shares weigh",
+    "title": "Stock Market LIVE: Sensex pares 400 pts from day's high, Nifty below 25,300; M&M, TCS top losers",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
    },
    "date": "2026-11-12",
-   "slot": "1205",
-   "when": "12:05",
+   "slot": "1235",
+   "when": "12:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1105"
+   }
+  },
+  {
+   "key": "cupid-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Cupid Q2 profit up 133%; guidance raised",
+   "line": "Shares rose as much as 9.88% to ₹389 after the results",
+   "more": [
+    "Q2 FY27 net profit rose 133% to ₹56.22 crore",
+    "FY27 revenue guidance raised to at least ₹880 crore"
+   ],
+   "src": {
+    "title": "Cupid Q2 FY27 Results: Profit Jumps 133% And FY27 Guidance Rises; Share Price Soared Up To 9.88%",
+    "url": "https://www.kotakneo.com/news/stocks/cupid-share-price-in-focus-after-q2-fy27-results/"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Cupid",
+    "quarter": "Q2 FY27",
+    "reaction_asof": "intraday high",
+    "profit_cr": 56.22,
+    "profit_yoy_pct": 133,
+    "reaction_pct": 9.88
+   },
+   "date": "2026-11-12",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "tata-power-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Brokers stay bullish on Tata Power after Q2",
+   "line": "Buy ratings kept despite target cuts; shares up 2% to ₹367.40",
+   "more": [
+    "Q2 FY27 net profit rose 33% to ₹1,652 crore",
+    "Revenue grew 26% to ₹19,886 crore"
+   ],
+   "src": {
+    "title": "Tata Power shares rise 2% after Q2 results. Why brokerages are bullish despite target price cuts",
+    "url": "https://www.inkl.com/news/tata-power-shares-in-focus-after-q2-results-why-brokerages-are-bullish-despite-target-price-cuts"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Tata Power",
+    "quarter": "Q2 FY27",
+    "revenue_cr": 19886,
+    "revenue_yoy_pct": 26,
+    "profit_cr": 1652,
+    "profit_yoy_pct": 33,
+    "reaction_pct": 2
+   },
+   "date": "2026-11-12",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1405"
    }
   },
   {
@@ -68,7 +142,7 @@
    "slot": "1205",
    "when": "12:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1135"
@@ -289,56 +363,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "tata-power-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Tata Power up 2% after record profit",
-   "line": "Shares gained up to 2% and traded about 1.3% higher at ₹364 at 9:34 am",
-   "more": [
-    "Analysts are upbeat after the results, Business Standard reports",
-    "Profit is reported as ₹1,652 crore by some outlets and ₹1,366 crore by others"
-   ],
-   "src": {
-    "title": "Tata Power shares gain 2% after Q2 profit rises 33%; analysts upbeat",
-    "url": "https://business-standard.com/amp/markets/news/tata-power-shares-gain-2-after-q2-profit-rises-33-analysts-upbeat-126111200194_1.html"
-   },
-   "thread": "q2-results-2026",
-   "date": "2026-11-12",
-   "slot": "1005",
-   "when": "10:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "1405"
-   }
-  },
-  {
-   "key": "cupid-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Cupid hits 52-week high on Q2 profit growth",
-   "line": "The stock reached a 52-week high after reporting higher quarterly profit",
-   "more": [
-    "It was among the morning's notable results movers",
-    "The move follows its September-quarter results"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex up 200 pts, Nifty tops 25,300; Cupid hits 52-wk high on Q2 profit growth",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
-   },
-   "thread": "q2-results-2026",
-   "date": "2026-11-12",
-   "slot": "1005",
-   "when": "10:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "1005"
    }
   },
   {
