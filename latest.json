@@ -1,31 +1,103 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-12T10:37:05+05:30",
+ "generated_at": "2026-11-12T11:08:54+05:30",
  "date": "2026-11-12",
- "slot": "1035",
- "slot_label": "10:35",
+ "slot": "1105",
+ "slot_label": "11:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-12T10:35:00+05:30",
+ "asof": "2026-11-12T11:05:00+05:30",
  "mood": {
-  "label": "Modest recovery",
+  "label": "Rangebound, firm",
   "score": 0.25,
-  "summary": "Indian stocks have recovered from a subdued start to trade modestly higher mid-morning, helped by foreign buying and strong earnings, with Bajaj group stocks firm and autos and pharma soft.",
+  "summary": "Indian stocks are stuck in a narrow range but holding modest gains late in the morning, with midcaps doing the work and pharma, IT and autos dragging.",
   "detail": {
-   "leaders": "Bajaj Finance and Bajaj Finserv; results winners Hindustan Copper and Tata Power",
-   "laggards": "M&M and Sun Pharma; IT",
-   "tone": "A live read mid-morning. Without a timestamped index print newer than the previous note, this is a read on behaviour: the market is a little firmer than earlier, having climbed out of its opening range.",
+   "leaders": "Midcaps led by Avanti Feeds and Cupid; media stocks",
+   "laggards": "Pharma, IT and autos",
+   "tone": "A live read late in the morning. Without a fresh timestamped index print, this is a read on behaviour: the market has held its small gain but has not broken out of the morning range.",
    "watch": [
-    "Whether the recovery extends past the morning's range",
-    "Asian market weakness",
-    "IT and pharma direction"
+    "A break from the narrow range",
+    "Whether pharma and IT selling spreads",
+    "Foreign buying, which has supported the market all week"
    ],
    "src": {
-    "title": "Sensex rebounds over 280 points, Nifty tops 25,300; Bajaj twins gain, M&M, Sun Pharma fall",
-    "url": "https://www.newsdrum.in/business/sensex-rebounds-over-280-points-nifty-tops-25300-bajaj-twins-gain-mm-sun-pharma-fall-12802625"
+    "title": "Stock Market LIVE: Sensex stuck in range, up 200 pts; Avanti Feeds, Cupid lead MidCap gains",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "midcap-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Avanti Feeds and Cupid lead midcap gains",
+   "line": "Midcaps are outperforming as the benchmarks stay rangebound",
+   "more": [
+    "Cupid hit a 52-week high on Q2 profit growth",
+    "Media is the strongest sector so far"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex stuck in range, up 200 pts; Avanti Feeds, Cupid lead MidCap gains",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
+   },
+   "date": "2026-11-12",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "sector-drag",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Pharma, IT and autos weigh on the indices",
+   "line": "These are the weakest sectors in morning trade",
+   "more": [
+    "No single trigger has been cited for the selling",
+    "Sustained FII buying and lower crude are supporting the wider market"
+   ],
+   "src": {
+    "title": "Stock Market Today: Sensex, Nifty Rise Amid Sustained FII Buying, Lower Crude Oil Prices",
+    "url": "https://www.etvbharat.com/en/business/stock-market-on-november-12-sensex-nifty-crude-oil-prices-enn26111201012"
+   },
+   "date": "2026-11-12",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "sbi-broker-calls",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Citi keeps Buy on SBI with ₹1,300 target",
+   "line": "Jefferies names SBI, ICICI Bank and Axis Bank among its top financial picks",
+   "more": [
+    "The calls were listed in a roundup of brokerage views today",
+    "Banks have led much of this month's rally"
+   ],
+   "src": {
+    "title": "Brokerage calls today, November 12: Garden Reach split, Citi calls two rate hikes",
+    "url": "https://businessupturn.com/finance/stock-market/brokerages/stocks-to-watch-on-brokerages-november-12-2026-tata-power-sbi-grse-bharat-electronics-nse/"
+   },
+   "date": "2026-11-12",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1105"
+   }
+  },
   {
    "key": "opening-bell",
    "tag": "Opening",
@@ -45,7 +117,7 @@
    "slot": "1035",
    "when": "10:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "0925"
@@ -69,7 +141,7 @@
    "slot": "1035",
    "when": "10:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1035"
@@ -93,7 +165,7 @@
    "slot": "1035",
    "when": "10:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "0845"
@@ -546,30 +618,6 @@
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1455"
-   }
-  },
-  {
-   "key": "midcap-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Mid and small caps outpace large caps",
-   "line": "The broader market is holding up better than the benchmarks in the afternoon",
-   "more": [
-    "The Nifty Midcap and Smallcap indices are stronger than the large caps",
-    "IT and pharma are the main drag on the large-cap benchmarks"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex rises 400 pts, Nifty tops 25,100; Nifty Realty down 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
-   },
-   "date": "2026-11-11",
-   "slot": "1505",
-   "when": "Wed · 15:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "1105"
    }
   },
   {
