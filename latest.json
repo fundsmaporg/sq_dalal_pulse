@@ -1,61 +1,134 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-12T13:06:51+05:30",
+ "generated_at": "2026-11-12T13:37:39+05:30",
  "date": "2026-11-12",
- "slot": "1305",
- "slot_label": "13:05",
+ "slot": "1335",
+ "slot_label": "13:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-12T13:05:00+05:30",
+ "asof": "2026-11-12T13:35:00+05:30",
  "mood": {
-  "label": "Rangebound, flat",
-  "score": 0.05,
-  "summary": "Indian stocks are drifting in a narrow range in early afternoon with only a slender gain, as life insurers rally while M&M and Nestle India lead the losers.",
+  "label": "Morning gains erased",
+  "score": -0.05,
+  "summary": "Indian stocks have slipped into slight losses in afternoon trade after a firm morning, with IT weighing while realty and banks keep the damage contained.",
   "detail": {
-   "leaders": "Life insurers: ICICI Life, HDFC Life, SBI Life",
-   "laggards": "M&M, Nestle India",
-   "tone": "A live read of the early-afternoon market. It is flatter than the previous note: the market is holding a small gain without direction. No fresh timestamped index print was found, so this is a read on behaviour.",
+   "leaders": "Realty: Nifty Realty, Oberoi Realty, Prestige Estates",
+   "laggards": "IT stocks",
+   "tone": "A live read of the afternoon market. Weaker than the previous note: after a firm morning the market has slipped into slight losses since noon. No exact timestamped index print was found, so this is a read on behaviour.",
    "watch": [
     "October CPI data due today, with economists expecting a rise",
-    "Whether heavyweight losers like M&M drag the market into the red",
-    "Foreign flows, which have backed the market this week"
+    "Whether banks can keep supporting the market",
+    "Further selling in IT stocks"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range; M&M, Nestle India lead losses Nifty50; VIX drops 13%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
+    "title": "Stock Market Today: सुबह तेजी, दोपहर को ब्रेक; निफ्टी 25300 के नीचे, सेंसेक्स 86 अंक फिसला, बैंक निफ्टी 400 अंक उछला",
+    "url": "https://etvbharat.com/hi/business/stock-market-today-nifty-sensex-down-afternoon-trading-session-bank-nifty-400-point-up-realty-stocks-rally-hin26111202273"
    },
    "movers": {
     "up": {
-     "summary": "Life insurers lead after strong October premium data",
-     "why": "Industry new business premium grew 26.2% year on year in October, and HSBC expects the positive trend to continue.",
+     "summary": "Realty is the top sector as developers rally on strong pre-sales",
+     "why": "Jefferies said September-quarter pre-sales beat its estimates for DLF, Oberoi, Godrej Properties and Prestige.",
      "names": [
       {
-       "name": "ICICI Life",
+       "name": "Nifty Realty",
        "dir": "up",
-       "move": "+4.25%",
-       "line": "Among the biggest gainers on the October premium numbers"
+       "move": "+3.4% at 12:02",
+       "line": "Top sectoral gainer at midday as developers rally on pre-sales"
       },
       {
-       "name": "HDFC Life",
+       "name": "Oberoi Realty",
        "dir": "up",
-       "move": "+4.08%",
-       "line": "Reported 16% growth in individual APE in October"
+       "move": "up ~5%",
+       "line": "Its September-quarter pre-sales beat Jefferies' estimates"
       },
       {
-       "name": "SBI Life",
+       "name": "Prestige Estates",
        "dir": "up",
-       "move": "+3.05%",
-       "line": "Rose with the sector despite broadly flat individual APE growth"
+       "move": "up ~4%",
+       "line": "Also named by Jefferies as beating its pre-sales estimates"
       }
      ],
      "src": {
-      "title": "ICICI Life, HDFC Life, SBI Life, Max Financial shares climb; here's what HSBC says - BusinessToday",
-      "url": "https://www.businesstoday.in/markets/stocks/story/icici-life-hdfc-life-sbi-life-max-financial-shares-climb-heres-what-hsbc-says-566990-2026-11-12"
+      "title": "Realty index surges 4%; Oberoi, Sobha, Lodha up 5%; DLF nears 52-week high",
+      "url": "https://www.business-standard.com/amp/markets/news/realty-index-surges-4-oberoi-sobha-lodha-up-5-dlf-nears-52-week-high-126111200602_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "realty-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Realty stocks jump; DLF nears 52-week high",
+   "line": "Oberoi, Sobha and Lodha rose about 5%; Prestige, Phoenix Mills, Godrej Properties 4%",
+   "more": [
+    "Nifty Realty was the top sector at 12:02, up 3.4%",
+    "Jefferies said Q2 pre-sales beat its estimates for DLF, Oberoi, Godrej Properties and Prestige",
+    "The realty index is up 14% so far in November"
+   ],
+   "src": {
+    "title": "Realty index surges 4%; Oberoi, Sobha, Lodha up 5%; DLF nears 52-week high",
+    "url": "https://www.business-standard.com/amp/markets/news/realty-index-surges-4-oberoi-sobha-lodha-up-5-dlf-nears-52-week-high-126111200602_1.html"
+   },
+   "date": "2026-11-12",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1335"
+   }
+  },
+  {
+   "key": "sector-drag",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Market slips lower after noon",
+   "line": "IT stocks under pressure while banks hold firm",
+   "more": [
+    "Both benchmarks turned slightly negative after a positive morning",
+    "Bank Nifty is holding gains even as the wider market eases"
+   ],
+   "src": {
+    "title": "Stock Market Today: सुबह तेजी, दोपहर को ब्रेक; निफ्टी 25300 के नीचे, सेंसेक्स 86 अंक फिसला, बैंक निफ्टी 400 अंक उछला",
+    "url": "https://etvbharat.com/hi/business/stock-market-today-nifty-sensex-down-afternoon-trading-session-bank-nifty-400-point-up-realty-stocks-rally-hin26111202273"
+   },
+   "date": "2026-11-12",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "bel-ubs-target",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "UBS raises Bharat Electronics target to ₹550",
+   "line": "UBS cites a ₹2.5 trillion FY27–FY30 order pipeline and 18% earnings growth",
+   "more": [
+    "The target was raised from ₹500",
+    "UBS sees 37.8% upside from the reference price"
+   ],
+   "src": {
+    "title": "Brokerage calls today, November 12: Garden Reach split, Citi calls two rate hikes",
+    "url": "https://businessupturn.com/finance/stock-market/brokerages/stocks-to-watch-on-brokerages-november-12-2026-tata-power-sbi-grse-bharat-electronics-nse/"
+   },
+   "date": "2026-11-12",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1335"
+   }
+  },
   {
    "key": "life-insurers-rally",
    "tag": "Stocks",
@@ -75,7 +148,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1305"
@@ -101,34 +174,10 @@
    "slot": "1305",
    "when": "13:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-08",
     "slot": "outlook"
-   }
-  },
-  {
-   "key": "sector-drag",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "M&M and Nestle India lead Nifty losers",
-   "line": "Heavyweight losses are keeping the market stuck in a range",
-   "more": [
-    "The midday update names M&M and Nestle India as the top Nifty 50 losers",
-    "No company-specific news has been reported for either today"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range; M&M, Nestle India lead losses Nifty50; VIX drops 13%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
-   },
-   "date": "2026-11-12",
-   "slot": "1305",
-   "when": "13:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "1105"
    }
   },
   {
