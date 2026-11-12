@@ -1,66 +1,176 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-12T07:00:18+05:30",
+ "generated_at": "2026-11-12T08:46:45+05:30",
  "date": "2026-11-12",
- "slot": "0700",
- "slot_label": "7:00",
+ "slot": "0845",
+ "slot_label": "8:45",
  "stage": "Pre-market mood",
- "asof": "2026-11-12T07:00:00+05:30",
+ "asof": "2026-11-12T08:45:00+05:30",
  "nifty": {
   "value": 25255.05,
   "pct": 0.84,
   "chg": 210.4,
   "approx": false
  },
- "metrics": {
-  "brent_usd": {
-   "value": 92.76,
-   "asof": "2026-11-11 settlement",
-   "approx": true,
-   "src": {
-    "title": "Global Oil Prices Rise Amid Fading Expectations for U.S.-Iran Talks; Brent Up 1.4%",
-    "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008842078"
-   }
-  },
-  "fii_net_cr": {
-   "value": 12563,
-   "asof": "2026-11-11 provisional",
-   "approx": false,
-   "src": {
-    "title": "FII DII Data · 11 Nov 2026",
-    "url": "https://www.quantsapp.com/fii-dii"
-   }
-  },
-  "dii_net_cr": {
-   "value": -8435,
-   "asof": "2026-11-11 provisional",
-   "approx": false,
-   "src": {
-    "title": "FII DII Data · 11 Nov 2026",
-    "url": "https://www.quantsapp.com/fii-dii"
-   }
-  }
- },
  "mood": {
-  "label": "Firm start likely",
-  "score": 0.5,
-  "summary": "Indian stocks look set for a firm start on Thursday after Wall Street's tech-led rally and another day of heavy foreign buying, though oil turned higher on stalled Iran talks.",
+  "label": "Flat start likely",
+  "score": 0.2,
+  "summary": "Indian stocks look set for a flat-to-muted open on Thursday after a strong post-holiday rally, with action likely to centre on results winners and stocks joining MSCI's index.",
   "detail": {
-   "leaders": "IT and chip-linked names after the US tech rally; LIC on its MSCI inclusion",
-   "laggards": "Oil-sensitive names if crude extends its rebound",
-   "tone": "A forward-looking read: nothing is trading in India yet. The overnight cues are supportive, with US stocks rallying hard and foreign investors still buying in size.",
+   "leaders": "MSCI additions LIC, Coforge, Adani Green and Meesho; Tata Power and Hindustan Copper on results",
+   "laggards": "PI Industries after its MSCI exit",
+   "tone": "A forward-looking pre-open read. The signals point to a quieter start than Wednesday's surge, with the market likely to consolidate rather than extend sharply, despite the overnight US tech rally.",
    "watch": [
-    "GIFT Nifty and Asia's open",
-    "Whether Brent keeps rising on the Iran standoff",
-    "Tata Power's share reaction to its results"
+    "Whether the market holds its gains after the eight-session run",
+    "Reaction in MSCI additions and in Tata Power",
+    "The Bajaj Finance share sale"
    ],
    "src": {
-    "title": "Stock Market Today (Nov. 11, 2026): Nasdaq, S&P 500 gain after CoreWeave earnings beat; Apple hits new record",
-    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"
+    "title": "GIFT NIFTY futures hint flat opening on November 12",
+    "url": "https://upstox.com/news/market-news/stocks/gift-nifty-futures-hint-flat-opening-on-november-12-what-investors-need-to-track-before-stock-market-open/article-203319/"
    }
   }
  },
  "insights": [
+  {
+   "key": "msci-nov-review",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "MSCI adds LIC, Coforge, Adani Green, Meesho",
+   "line": "Four Indian stocks join MSCI's Global Standard index; PI Industries is removed",
+   "more": [
+    "Nuvama sees inflows of about $630m into Coforge and $468m into LIC",
+    "India's weight in MSCI EM is set to rise to 11.7% from 11.5%",
+    "Changes take effect from November 30"
+   ],
+   "src": {
+    "title": "MSCI Nov rejig: LIC, Adani Green, Meesho among 4 additions; PI Inds exits",
+    "url": "https://www.business-standard.com/amp/markets/news/msci-november-2026-rejig-lic-adani-green-meesho-among-4-additions-pi-inds-exits-126111200074_1.html"
+   },
+   "date": "2026-11-12",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1800"
+   }
+  },
+  {
+   "key": "tata-power-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Tata Power posts its highest quarterly profit",
+   "line": "Q2 profit rose about 33% to ₹1,652 crore on revenue up 26% to ₹19,886 crore",
+   "more": [
+    "Another report puts profit at ₹1,366 crore, up 49% on a lower base",
+    "The stock is among today's key names in focus"
+   ],
+   "src": {
+    "title": "Stocks to watch: Bajaj Finance, GRSE, LIC, Meesho, ITC, Tata Investment",
+    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-bajaj-finance-grse-lic-meesho-itc-tata-investment-126111200073_1.html"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Tata Power",
+    "quarter": "Q2 FY27",
+    "revenue_cr": 19886,
+    "revenue_yoy_pct": 26,
+    "profit_cr": 1652,
+    "profit_yoy_pct": 33
+   },
+   "date": "2026-11-12",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1405"
+   }
+  },
+  {
+   "key": "hindustan-copper-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Hindustan Copper profit nearly triples",
+   "line": "Standalone Q2 profit rose 179% to ₹519.54 crore; revenue up 64% to ₹1,175.24 crore",
+   "more": [
+    "First-half profit rose 172% to ₹872.15 crore",
+    "The company credits higher volumes, stronger copper prices and productivity"
+   ],
+   "src": {
+    "title": "Top stocks to watch today, November 12: Hindustan Copper, Tata Power, ITC, Aurobindo Pharma, LIC, Premier Energies, Cupid and more in focus",
+    "url": "https://businessupturn.com/finance/stock-market/quarterly-results/top-stocks-to-watch-today-november-12-hindustan-copper-tata-power-itc-aurobindo-pharma-lic-premier-energies-cupid-and-more-in-focus/"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Hindustan Copper",
+    "quarter": "Q2 FY27",
+    "revenue_cr": 1175.24,
+    "revenue_yoy_pct": 64,
+    "profit_cr": 519.54,
+    "profit_yoy_pct": 179
+   },
+   "date": "2026-11-12",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "bajaj-finance-qip",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Bajaj Finance launches ₹11,700 crore QIP",
+   "line": "Indicative price is ₹1,025 a share, against a floor price of ₹992.25",
+   "more": [
+    "Part of a ₹17,500 crore plan that includes ₹5,800 crore of warrants to Bajaj Finserv",
+    "Reports differ on the discount: about 5% vs about 8%"
+   ],
+   "src": {
+    "title": "Bajaj Finance shares in focus as QIP kicks off; floor price, other details",
+    "url": "https://www.businesstoday.in/markets/stocks/story/bajaj-finance-shares-in-focus-as-qip-kicks-off-floor-price-other-details-566950-2026-11-12"
+   },
+   "date": "2026-11-12",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "gift-nifty",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "GIFT Nifty points to a flat open",
+   "line": "Early pre-market quotes sat close to Wednesday's Nifty close",
+   "more": [
+    "One report had GIFT Nifty 0.05% lower at 7:38 am",
+    "Another source suggested a small gain, so signals are mixed"
+   ],
+   "src": {
+    "title": "GIFT NIFTY futures hint flat opening on November 12",
+    "url": "https://upstox.com/news/market-news/stocks/gift-nifty-futures-hint-flat-opening-on-november-12-what-investors-need-to-track-before-stock-market-open/article-203319/"
+   },
+   "date": "2026-11-12",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "0845"
+   }
+  },
   {
    "key": "us-markets",
    "tag": "Global",
@@ -81,7 +191,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "0700"
@@ -107,35 +217,10 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "msci-nov-review",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "LIC added to MSCI Emerging Markets index",
-   "line": "LIC is among the three largest additions in MSCI's November review",
-   "more": [
-    "Changes take effect at the close of November 30",
-    "MSCI ACWI gets 13 additions and 100 deletions overall",
-    "The full India list, including Meesho and Coforge, was not in the reports found"
-   ],
-   "src": {
-    "title": "MSCI Equity Indexes November 2026 Index Review",
-    "url": "https://ir.msci.com/news-releases/news-release-details/msci-equity-indexes-november-2026-index-review"
-   },
-   "date": "2026-11-12",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "1800"
    }
   },
   {
@@ -157,7 +242,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "0700"
@@ -210,38 +295,6 @@
    "first_seen": {
     "date": "2026-11-06",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "tata-power-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Tata Power Q2 profit jumps after hours",
-   "line": "Consolidated profit rose to ₹1,366 crore, up 49%, per Upstox; margin dipped to 18.7%",
-   "more": [
-    "EBITDA rose 11% to ₹3,668 crore",
-    "Another report puts profit at ₹1,652 crore, up 33%, on revenue of ₹19,886 crore",
-    "The reports use different year-ago bases (₹919 crore vs ₹1,245 crore)"
-   ],
-   "src": {
-    "title": "Tata Power Q2 FY27 results: Net profit increases to ₹1,366 crore YoY; margin dips to 18.7%",
-    "url": "https://upstox.com/news/market-news/earnings/tata-power-q2-fy-27-results-net-profit-increases-to-1-366-crore-yo-y-margin-dips-to-18-7/article-203311/"
-   },
-   "thread": "q2-results-2026",
-   "results": {
-    "company": "Tata Power",
-    "quarter": "Q2 FY27",
-    "profit_cr": 1366,
-    "profit_yoy_pct": 49
-   },
-   "date": "2026-11-11",
-   "slot": "1800",
-   "when": "Wed · 18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "1405"
    }
   },
   {
@@ -757,31 +810,6 @@
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "gift-nifty",
-   "tag": "Opening",
-   "impact": "pos",
-   "title": "GIFT Nifty points to a gap-up open",
-   "line": "GIFT Nifty futures traded about 275–300 points above Monday's Nifty close",
-   "more": [
-    "Quotes ranged from about 25,309 to 25,337 depending on the time",
-    "Asian markets were trading higher, one live blog reported",
-    "Reports cite cooler crude and returning foreign inflows"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: GIFT Nifty jumps 300 pts; Asia markets advance; Brent below $92",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
-   },
-   "date": "2026-11-11",
-   "slot": "0845",
-   "when": "Wed · 8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "0845"
    }
   },
   {
