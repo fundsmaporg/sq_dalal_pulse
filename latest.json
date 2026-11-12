@@ -1,32 +1,39 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-12T13:37:39+05:30",
+ "generated_at": "2026-11-12T14:07:28+05:30",
  "date": "2026-11-12",
- "slot": "1335",
- "slot_label": "13:35",
+ "slot": "1405",
+ "slot_label": "14:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-12T13:35:00+05:30",
+ "asof": "2026-11-12T14:05:00+05:30",
+ "nifty": {
+  "value": 25272,
+  "pct": 0.07,
+  "chg": 16.95,
+  "approx": false,
+  "asof_quote": "14:00"
+ },
  "mood": {
-  "label": "Morning gains erased",
-  "score": -0.05,
-  "summary": "Indian stocks have slipped into slight losses in afternoon trade after a firm morning, with IT weighing while realty and banks keep the damage contained.",
+  "label": "Choppy, flat",
+  "score": 0.0,
+  "summary": "Indian stocks are choppy and essentially flat in the afternoon, swinging either side of unchanged as realty and banks offset results-led selling in HAL ahead of inflation data.",
   "detail": {
    "leaders": "Realty: Nifty Realty, Oberoi Realty, Prestige Estates",
-   "laggards": "IT stocks",
-   "tone": "A live read of the afternoon market. Weaker than the previous note: after a firm morning the market has slipped into slight losses since noon. No exact timestamped index print was found, so this is a read on behaviour.",
+   "laggards": "HAL after its Q2 results",
+   "tone": "A live read of the afternoon market. Steadier than the previous note: after briefly dipping below unchanged, the market has edged back to a marginal gain in a choppy session.",
    "watch": [
-    "October CPI data due today, with economists expecting a rise",
-    "Whether banks can keep supporting the market",
-    "Further selling in IT stocks"
+    "October CPI data due today, expected near 6%",
+    "Whether banks keep supporting the market into the close",
+    "Further results-day selling like HAL's"
    ],
    "src": {
-    "title": "Stock Market Today: सुबह तेजी, दोपहर को ब्रेक; निफ्टी 25300 के नीचे, सेंसेक्स 86 अंक फिसला, बैंक निफ्टी 400 अंक उछला",
-    "url": "https://etvbharat.com/hi/business/stock-market-today-nifty-sensex-down-afternoon-trading-session-bank-nifty-400-point-up-realty-stocks-rally-hin26111202273"
+    "title": "Stock Market LIVE: Sensex choppy in volatile session; Nifty below 25,300; HAL down 4% post Q2 result",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Realty is the top sector as developers rally on strong pre-sales",
-     "why": "Jefferies said September-quarter pre-sales beat its estimates for DLF, Oberoi, Godrej Properties and Prestige.",
+     "summary": "Realty leads after developers' strong September-quarter pre-sales",
+     "why": "Jefferies said pre-sales beat its estimates for DLF, Oberoi, Godrej Properties and Prestige.",
      "names": [
       {
        "name": "Nifty Realty",
@@ -51,11 +58,110 @@
       "title": "Realty index surges 4%; Oberoi, Sobha, Lodha up 5%; DLF nears 52-week high",
       "url": "https://www.business-standard.com/amp/markets/news/realty-index-surges-4-oberoi-sobha-lodha-up-5-dlf-nears-52-week-high-126111200602_1.html"
      }
+    },
+    "down": {
+     "summary": "HAL falls after its Q2 results despite higher profit",
+     "why": "Profit rose but EBITDA grew more slowly than revenue, so margins slipped.",
+     "names": [
+      {
+       "name": "HAL",
+       "dir": "down",
+       "move": "-2.3% at 13:40",
+       "line": "Margin slipped in Q2 even as net profit rose"
+      }
+     ],
+     "src": {
+      "title": "Why are HAL shares falling over 3% today despite 10.6% YoY rise in Q2 net profit? Explained",
+      "url": "https://businessupturn.com/finance/stock-market/why-are-hal-shares-falling-over-3-today-despite-10-6-yoy-rise-in-q2-net-profit-explained/"
+     }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "hal-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "HAL slips after Q2 as margin narrows",
+   "line": "Consolidated profit rose 16% to ₹1,936 crore, but EBITDA lagged revenue growth",
+   "more": [
+    "Shares were down 2.3% at ₹4,835.1 at 1:40 PM; other reports say over 3%",
+    "Another report puts profit at ₹1,839 crore, up 10.6%",
+    "EBITDA grew 11.6%, slower than revenue"
+   ],
+   "src": {
+    "title": "HAL Q2 FY27 results: Net profit jumps 16% YoY; revenue grows to ₹7,613 crore, margin slips",
+    "url": "https://upstox.com/news/market-news/earnings/hindustan-aeronautics-hal-q2-fy-27-results-net-profit-jumps-16-yo-y-revenue-grows-to-7-613-crore-margin-slips/article-203360/"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "HAL",
+    "quarter": "Q2 FY27",
+    "reaction_asof": "13:40",
+    "profit_cr": 1936,
+    "profit_yoy_pct": 16,
+    "reaction_pct": -2.3
+   },
+   "date": "2026-11-12",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1405"
+   }
+  },
+  {
+   "key": "india-cpi",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Markets await October CPI later today",
+   "line": "Forecasts range from about 5.93% to 6.1%, up from 5.54% in September",
+   "more": [
+    "The RBI raised rates in October, which raises the stakes for this print",
+    "An Informist poll of 12 economists expects 6%"
+   ],
+   "src": {
+    "title": "Gift Nifty at 25,240 as Indian markets await October inflation",
+    "url": "https://www.newsbytesapp.com/news/business/gift-nifty-at-25240-as-indian-markets-await-october-inflation/tldr"
+   },
+   "thread": "rbi-policy",
+   "date": "2026-11-12",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-08",
+    "slot": "outlook"
+   }
+  },
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Banks hold firm near 52-week highs",
+   "line": "Bank Nifty is trading close to its 52-week high",
+   "more": [
+    "Trendlyne shows Bank Nifty up about 0.6% on the day",
+    "The index is within about 1% of its 52-week high"
+   ],
+   "src": {
+    "title": "Bank Nifty Share Price, Bank Nifty PE Ratio, Chart",
+    "url": "https://trendlyne.com/equity/1898/BANKNIFTY/bank-nifty/"
+   },
+   "date": "2026-11-12",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "1455"
+   }
+  },
   {
    "key": "realty-rally",
    "tag": "Stocks",
@@ -75,7 +181,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1335"
@@ -99,7 +205,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1105"
@@ -123,7 +229,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1335"
@@ -152,32 +258,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1305"
-   }
-  },
-  {
-   "key": "india-cpi",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "October CPI due today; 6% expected",
-   "line": "An Informist poll of 12 economists sees inflation rising to 6% from 5.54% in September",
-   "more": [
-    "Bloomberg Economics expects 6.1%",
-    "Rising food prices could push inflation to a two-year high",
-    "A breach of the RBI's comfort zone would raise the prospect of rate hikes"
-   ],
-   "src": {
-    "title": "Will October inflation breach 6%? What it means for interest rates, EMIs and GDP growth - BusinessToday",
-    "url": "https://www.businesstoday.in/latest/economy/story/will-inflation-breach-6-in-october-what-it-means-for-interest-rates-emis-and-gdp-growth-566855-2026-11-11"
-   },
-   "thread": "rbi-policy",
-   "date": "2026-11-12",
-   "slot": "1305",
-   "when": "13:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-08",
-    "slot": "outlook"
    }
   },
   {
@@ -486,30 +566,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Banks firm on foreign buying",
-   "line": "Bank Nifty is up about 0.4%, supported by FII buying near multi-month highs",
-   "more": [
-    "Banks are helping the benchmarks hold above the flat line",
-    "IT and healthcare are the main drags"
-   ],
-   "src": {
-    "title": "Sensex & Nifty 50 live updates today, 12 November",
-    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-12-november-gift-nifty-signals-green-opening-nvidia-ai-stocks-and-us-inflation-in-focus-12802422"
-   },
-   "date": "2026-11-12",
-   "slot": "1005",
-   "when": "10:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1455"
    }
   },
   {

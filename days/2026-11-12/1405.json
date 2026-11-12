@@ -1,0 +1,171 @@
+{
+ "asof": "2026-11-12T14:05:00+05:30",
+ "summary": "Indian stocks are choppy and essentially flat in the afternoon, swinging either side of unchanged as realty and banks offset results-led selling in HAL ahead of inflation data.",
+ "mood": {
+  "label": "Choppy, flat",
+  "score": 0.0,
+  "detail": {
+   "stats": [],
+   "leaders": "Realty: Nifty Realty, Oberoi Realty, Prestige Estates",
+   "laggards": "HAL after its Q2 results",
+   "movers": {
+    "up": {
+     "summary": "Realty leads after developers' strong September-quarter pre-sales",
+     "why": "Jefferies said pre-sales beat its estimates for DLF, Oberoi, Godrej Properties and Prestige.",
+     "names": [
+      {
+       "name": "Nifty Realty",
+       "move": "+3.4% at 12:02",
+       "dir": "up",
+       "line": "Top sectoral gainer at midday as developers rally on pre-sales"
+      },
+      {
+       "name": "Oberoi Realty",
+       "move": "up ~5%",
+       "dir": "up",
+       "line": "Its September-quarter pre-sales beat Jefferies' estimates"
+      },
+      {
+       "name": "Prestige Estates",
+       "move": "up ~4%",
+       "dir": "up",
+       "line": "Also named by Jefferies as beating its pre-sales estimates"
+      }
+     ],
+     "src": {
+      "title": "Realty index surges 4%; Oberoi, Sobha, Lodha up 5%; DLF nears 52-week high",
+      "url": "https://www.business-standard.com/amp/markets/news/realty-index-surges-4-oberoi-sobha-lodha-up-5-dlf-nears-52-week-high-126111200602_1.html"
+     }
+    },
+    "down": {
+     "summary": "HAL falls after its Q2 results despite higher profit",
+     "why": "Profit rose but EBITDA grew more slowly than revenue, so margins slipped.",
+     "names": [
+      {
+       "name": "HAL",
+       "move": "-2.3% at 13:40",
+       "dir": "down",
+       "line": "Margin slipped in Q2 even as net profit rose"
+      }
+     ],
+     "src": {
+      "title": "Why are HAL shares falling over 3% today despite 10.6% YoY rise in Q2 net profit? Explained",
+      "url": "https://businessupturn.com/finance/stock-market/why-are-hal-shares-falling-over-3-today-despite-10-6-yoy-rise-in-q2-net-profit-explained/"
+     }
+    }
+   },
+   "tone": "A live read of the afternoon market. Steadier than the previous note: after briefly dipping below unchanged, the market has edged back to a marginal gain in a choppy session.",
+   "watch": [
+    "October CPI data due today, expected near 6%",
+    "Whether banks keep supporting the market into the close",
+    "Further results-day selling like HAL's"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex choppy in volatile session; Nifty below 25,300; HAL down 4% post Q2 result",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25272,
+  "pct": 0.07,
+  "chg": 16.95,
+  "approx": false,
+  "asof_quote": "14:00"
+ },
+ "top": [
+  {
+   "key": "hal-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "thread": "q2-results-2026",
+   "title": "HAL slips after Q2 as margin narrows",
+   "line": "Consolidated profit rose 16% to ₹1,936 crore, but EBITDA lagged revenue growth",
+   "more": [
+    "Shares were down 2.3% at ₹4,835.1 at 1:40 PM; other reports say over 3%",
+    "Another report puts profit at ₹1,839 crore, up 10.6%",
+    "EBITDA grew 11.6%, slower than revenue"
+   ],
+   "results": {
+    "company": "HAL",
+    "quarter": "Q2 FY27",
+    "revenue_cr": null,
+    "revenue_yoy_pct": null,
+    "profit_cr": 1936,
+    "profit_yoy_pct": 16,
+    "vs_estimate": null,
+    "reaction_pct": -2.3,
+    "reaction_asof": "13:40",
+    "src": {
+     "title": "HAL Q2 FY27 results: Net profit jumps 16% YoY; revenue grows to ₹7,613 crore, margin slips",
+     "url": "https://upstox.com/news/market-news/earnings/hindustan-aeronautics-hal-q2-fy-27-results-net-profit-jumps-16-yo-y-revenue-grows-to-7-613-crore-margin-slips/article-203360/"
+    }
+   },
+   "src": {
+    "title": "HAL Q2 FY27 results: Net profit jumps 16% YoY; revenue grows to ₹7,613 crore, margin slips",
+    "url": "https://upstox.com/news/market-news/earnings/hindustan-aeronautics-hal-q2-fy-27-results-net-profit-jumps-16-yo-y-revenue-grows-to-7-613-crore-margin-slips/article-203360/"
+   }
+  },
+  {
+   "key": "india-cpi",
+   "tag": "Macro",
+   "impact": "watch",
+   "thread": "rbi-policy",
+   "title": "Markets await October CPI later today",
+   "line": "Forecasts range from about 5.93% to 6.1%, up from 5.54% in September",
+   "more": [
+    "The RBI raised rates in October, which raises the stakes for this print",
+    "An Informist poll of 12 economists expects 6%"
+   ],
+   "src": {
+    "title": "Gift Nifty at 25,240 as Indian markets await October inflation",
+    "url": "https://www.newsbytesapp.com/news/business/gift-nifty-at-25240-as-indian-markets-await-october-inflation/tldr"
+   }
+  },
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Banks hold firm near 52-week highs",
+   "line": "Bank Nifty is trading close to its 52-week high",
+   "more": [
+    "Trendlyne shows Bank Nifty up about 0.6% on the day",
+    "The index is within about 1% of its 52-week high"
+   ],
+   "src": {
+    "title": "Bank Nifty Share Price, Bank Nifty PE Ratio, Chart",
+    "url": "https://trendlyne.com/equity/1898/BANKNIFTY/bank-nifty/"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market LIVE: Sensex choppy in volatile session; Nifty below 25,300; HAL down 4% post Q2 result",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
+  },
+  {
+   "title": "HAL Q2 FY27 results: Net profit jumps 16% YoY; revenue grows to ₹7,613 crore, margin slips",
+   "url": "https://upstox.com/news/market-news/earnings/hindustan-aeronautics-hal-q2-fy-27-results-net-profit-jumps-16-yo-y-revenue-grows-to-7-613-crore-margin-slips/article-203360/"
+  },
+  {
+   "title": "Why are HAL shares falling over 3% today despite 10.6% YoY rise in Q2 net profit? Explained",
+   "url": "https://businessupturn.com/finance/stock-market/why-are-hal-shares-falling-over-3-today-despite-10-6-yoy-rise-in-q2-net-profit-explained/"
+  },
+  {
+   "title": "Realty index surges 4%; Oberoi, Sobha, Lodha up 5%; DLF nears 52-week high",
+   "url": "https://www.business-standard.com/amp/markets/news/realty-index-surges-4-oberoi-sobha-lodha-up-5-dlf-nears-52-week-high-126111200602_1.html"
+  },
+  {
+   "title": "Gift Nifty at 25,240 as Indian markets await October inflation",
+   "url": "https://www.newsbytesapp.com/news/business/gift-nifty-at-25240-as-indian-markets-await-october-inflation/tldr"
+  },
+  {
+   "title": "Will October inflation breach 6%? What it means for interest rates, EMIs and GDP growth - BusinessToday",
+   "url": "https://www.businesstoday.in/latest/economy/story/will-inflation-breach-6-in-october-what-it-means-for-interest-rates-emis-and-gdp-growth-566855-2026-11-11"
+  },
+  {
+   "title": "Bank Nifty Share Price, Bank Nifty PE Ratio, Chart",
+   "url": "https://trendlyne.com/equity/1898/BANKNIFTY/bank-nifty/"
+  }
+ ]
+}
