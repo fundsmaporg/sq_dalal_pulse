@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-12T16:37:36+05:30",
+ "generated_at": "2026-11-12T18:00:29+05:30",
  "date": "2026-11-12",
- "slot": "1635",
- "slot_label": "16:35",
- "stage": "Post-market mood",
- "asof": "2026-11-12T16:35:00+05:30",
+ "slot": "1800",
+ "slot_label": "18:00",
+ "stage": "Evening wrap",
+ "asof": "2026-11-12T18:00:00+05:30",
  "nifty": {
   "value": 25299.35,
   "pct": 0.18,
@@ -13,65 +13,106 @@
   "approx": false
  },
  "mood": {
-  "label": "Gain, inflation cloud",
-  "score": 0.0,
-  "summary": "Indian stocks ended a rangebound day with a small gain led by realty and banks, but inflation breaching the RBI's 6% ceiling after the close sets a more cautious tone for tomorrow.",
+  "label": "Cautious start likely",
+  "score": -0.2,
+  "summary": "Indian stocks head into Friday after a third straight small gain, but inflation above the RBI's 6% ceiling and weak US tech futures point to a more cautious start.",
   "detail": {
-   "leaders": "Realty: Nifty Realty, Oberoi Realty",
-   "laggards": "HAL after its Q2 results",
-   "tone": "A read of the finished session, with the post-close data in view. The session itself is unchanged from the previous note, but the hotter-than-expected inflation print turns the outlook more cautious.",
+   "leaders": "Realty and banks, which led Thursday; Oil India after strong results",
+   "laggards": "Rate-sensitive stocks after the inflation breach; IT if US tech weakness persists",
+   "tone": "A forward-looking read for Friday's session. More cautious than the previous note, with weak US tech futures now adding to the inflation surprise.",
    "watch": [
-    "How the market prices a further RBI rate hike after the inflation breach",
-    "Provisional FII and DII flow data, not yet published",
-    "Reaction to Ola Electric's Q2 numbers"
+    "Whether US markets extend the Nvidia-led tech selling",
+    "How bond yields and rate-sensitive stocks react to the inflation breach",
+    "Provisional FII and DII flow data for Thursday"
    ],
    "src": {
     "title": "Closing Bell: Nifty50 rises to 25,299, gains for 3rd straight day; Sensex up 32 pts",
     "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-nifty50-nifty-bank-financial-stocks-lead-gains-auto-oil-gas-shares-under-pressure-nov-12-2026-405470"
-   },
-   "movers": {
-    "up": {
-     "summary": "Realty was the day's standout after strong September-quarter pre-sales",
-     "why": "Jefferies said pre-sales beat its estimates for DLF, Oberoi, Godrej Properties and Prestige, sparking a sector-wide rally.",
-     "names": [
-      {
-       "name": "Nifty Realty",
-       "dir": "up",
-       "move": "up ~4%",
-       "line": "Top sector of the session on the pre-sales beat"
-      },
-      {
-       "name": "Oberoi Realty",
-       "dir": "up",
-       "move": "up ~5% intraday",
-       "line": "Its September-quarter pre-sales beat Jefferies' estimates"
-      }
-     ],
-     "src": {
-      "title": "Stock Market Close: Sensex ends volatile session marginally higher, Nifty at 25,299; realty up 4%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
-     }
-    },
-    "down": {
-     "summary": "HAL fell after its Q2 results despite higher profit",
-     "why": "Profit rose but EBITDA grew more slowly than revenue, so margins slipped.",
-     "names": [
-      {
-       "name": "HAL",
-       "dir": "down",
-       "move": "down ~4%",
-       "line": "Margin slipped in Q2 even as net profit rose"
-      }
-     ],
-     "src": {
-      "title": "Why are HAL shares falling over 3% today despite 10.6% YoY rise in Q2 net profit? Explained",
-      "url": "https://businessupturn.com/finance/stock-market/why-are-hal-shares-falling-over-3-today-despite-10-6-yoy-rise-in-q2-net-profit-explained/"
-     }
-    }
    }
   }
  },
  "insights": [
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US tech futures fall on Nvidia leadership report",
+   "line": "Nasdaq 100 futures were down up to 0.9% in early trade; Dow futures held slightly higher",
+   "more": [
+    "Nvidia fell more than 6% in extended trade after a WSJ report that its board was weighing CEO Jensen Huang's future",
+    "S&P 500 futures were down about 0.3%",
+    "Wall Street closed higher on Wednesday"
+   ],
+   "src": {
+    "title": "US Stock Futures Decline as Nvidia Leadership Reports Weigh on Technology Shares",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-decline-nvidia-100323595.html"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-12",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "oil-india-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Oil India Q2 standalone profit up 116%",
+   "line": "Standalone profit rose to ₹2,259 crore; consolidated profit grew 53% to ₹2,521 crore",
+   "more": [
+    "Crude oil production rose 20%",
+    "The board recommended an interim dividend of ₹7 per share"
+   ],
+   "src": {
+    "title": "Oil India Q2 FY27 Results: Standalone Net Profit Jumps 116% to ₹2,259 Crore, Crude Oil Production Rises 20%",
+    "url": "https://indianmasterminds.com/news/oil-india-q2-fy27-results-net-profit-crude-oil-production-growth-249878/"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Oil India",
+    "quarter": "Q2 FY27",
+    "profit_cr": 2259,
+    "profit_yoy_pct": 116
+   },
+   "date": "2026-11-12",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1800"
+   }
+  },
+  {
+   "key": "us-earnings",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Cisco and Applied Materials report tonight",
+   "line": "Both are due after the US close, with chip-equipment maker AMAT the bigger tech read",
+   "more": [
+    "Options price an AMAT move of about 10% either way",
+    "Results land before Indian markets open on Friday"
+   ],
+   "src": {
+    "title": "Earnings Whispers",
+    "url": "https://www.earningswhispers.com/"
+   },
+   "date": "2026-11-12",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1800"
+   }
+  },
   {
    "key": "india-cpi",
    "tag": "Macro",
@@ -92,7 +133,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-08",
     "slot": "outlook"
@@ -117,7 +158,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1635"
@@ -149,7 +190,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1635"
@@ -704,32 +745,6 @@
    "first_seen": {
     "date": "2026-11-06",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Wall Street rallies on AI rebound",
-   "line": "S&P 500 rose 1.31% and the Nasdaq 1.60% as CoreWeave's beat revived the AI trade",
-   "more": [
-    "The Dow added about 0.5%",
-    "CoreWeave shares surged as much as about 25%",
-    "Apple hit a record high, TheStreet reported"
-   ],
-   "src": {
-    "title": "How major US stock indexes fared Wednesday 11/11/2026",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-211834867.html"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-12",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "0700"
    }
   },
   {
