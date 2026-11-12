@@ -1,38 +1,79 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-12T11:36:48+05:30",
+ "generated_at": "2026-11-12T12:07:24+05:30",
  "date": "2026-11-12",
- "slot": "1135",
- "slot_label": "11:35",
+ "slot": "1205",
+ "slot_label": "12:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-12T11:35:00+05:30",
- "nifty": {
-  "value": 25342.75,
-  "pct": 0.35,
-  "chg": 87.7,
-  "approx": false,
-  "asof_quote": "11:00"
- },
+ "asof": "2026-11-12T12:05:00+05:30",
  "mood": {
-  "label": "Steady gains",
-  "score": 0.3,
-  "summary": "Indian stocks are holding modest gains late in the morning, led by Bajaj group and other finance names, while the broader market moves in a narrow range with results-driven stock moves.",
+  "label": "Gains pared",
+  "score": 0.1,
+  "summary": "Indian stocks have given back much of their late-morning gain by midday, with IT, FMCG and auto shares weighing; the market is still slightly higher.",
   "detail": {
-   "leaders": "Bajaj Finance, Shriram Finance and Bajaj Finserv; Lemon Tree Hotels",
-   "laggards": "Pharma, IT and autos",
-   "tone": "A live read late in the morning. The market is a little firmer than earlier, with finance stocks pulling the benchmarks higher inside the day's range.",
+   "leaders": "Financials and select midcaps",
+   "laggards": "IT, FMCG and autos",
+   "tone": "A midday read. The latest live update shows the earlier advance has narrowed; no fresh timestamped index print was available, so no level is given.",
    "watch": [
-    "Whether finance stocks keep leading",
-    "Pharma and IT weakness",
-    "A break out of the morning range"
+    "Whether the market holds in positive territory",
+    "IT and FMCG selling into the afternoon",
+    "Foreign flows, which have backed the market this week"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range, up 200 pts; Avanti Feeds, Cupid lead SmallCap gains",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
+    "title": "Stock Market LIVE: Sensex up 100 pts, Nifty below 25,300; IT, FMCG, auto shares weigh",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "sector-drag",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "IT, FMCG and autos weigh at midday",
+   "line": "Selling in these sectors has trimmed most of the late-morning gain",
+   "more": [
+    "The market is still marginally higher, per the latest live update",
+    "No single trigger has been cited for the selling"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex up 100 pts, Nifty below 25,300; IT, FMCG, auto shares weigh",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
+   },
+   "date": "2026-11-12",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "tata-motors-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Tata Motors holds gains against weak autos",
+   "line": "The stock was up 2.92% at ₹459.10 at 10:52 on a live quote page",
+   "more": [
+    "Previous close was ₹446.05",
+    "Autos overall are among the midday laggards"
+   ],
+   "src": {
+    "title": "Tata Motors Share Today - Live NSE/BSE",
+    "url": "https://www.bajajbroking.in/stock/tata-motors-ltd-share-price"
+   },
+   "date": "2026-11-12",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1135"
+   }
+  },
   {
    "key": "lemon-tree-q2",
    "tag": "Results",
@@ -64,7 +105,7 @@
    "slot": "1135",
    "when": "11:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1135"
@@ -88,31 +129,7 @@
    "slot": "1135",
    "when": "11:35",
    "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "1135"
-   }
-  },
-  {
-   "key": "tata-motors-rally",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Tata Motors rises 4% to ₹464.40",
-   "line": "The stock hit an intraday high and has rallied 6.4% over two sessions",
-   "more": [
-    "No company-specific trigger was cited",
-    "It is among the morning's notable large-cap movers"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range, up 200 pts; Avanti Feeds, Cupid lead SmallCap gains",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
-   },
-   "date": "2026-11-12",
-   "slot": "1135",
-   "when": "11:35",
-   "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1135"
@@ -139,30 +156,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
-    "slot": "1105"
-   }
-  },
-  {
-   "key": "sector-drag",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Pharma, IT and autos weigh on the indices",
-   "line": "These are the weakest sectors in morning trade",
-   "more": [
-    "No single trigger has been cited for the selling",
-    "Sustained FII buying and lower crude are supporting the wider market"
-   ],
-   "src": {
-    "title": "Stock Market Today: Sensex, Nifty Rise Amid Sustained FII Buying, Lower Crude Oil Prices",
-    "url": "https://www.etvbharat.com/en/business/stock-market-on-november-12-sensex-nifty-crude-oil-prices-enn26111201012"
-   },
-   "date": "2026-11-12",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
     "slot": "1105"
    }
   },
