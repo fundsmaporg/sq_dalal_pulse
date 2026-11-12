@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-12T16:07:05+05:30",
+ "generated_at": "2026-11-12T16:37:36+05:30",
  "date": "2026-11-12",
- "slot": "1605",
- "slot_label": "16:05",
+ "slot": "1635",
+ "slot_label": "16:35",
  "stage": "Post-market mood",
- "asof": "2026-11-12T16:05:00+05:30",
+ "asof": "2026-11-12T16:35:00+05:30",
  "nifty": {
   "value": 25299.35,
   "pct": 0.18,
@@ -13,17 +13,17 @@
   "approx": false
  },
  "mood": {
-  "label": "Quiet gain",
-  "score": 0.15,
-  "summary": "Indian stocks closed a volatile, rangebound session with a small gain, a third straight up day, as smallcaps, realty and banks did the lifting while autos and energy lagged.",
+  "label": "Gain, inflation cloud",
+  "score": 0.0,
+  "summary": "Indian stocks ended a rangebound day with a small gain led by realty and banks, but inflation breaching the RBI's 6% ceiling after the close sets a more cautious tone for tomorrow.",
   "detail": {
    "leaders": "Realty: Nifty Realty, Oberoi Realty",
    "laggards": "HAL after its Q2 results",
-   "tone": "A read of the finished session. Unchanged from the previous note: the market held its small closing gain, and the broader market beat the benchmarks for a second day.",
+   "tone": "A read of the finished session, with the post-close data in view. The session itself is unchanged from the previous note, but the hotter-than-expected inflation print turns the outlook more cautious.",
    "watch": [
-    "October CPI data, which economists expect near 6%",
+    "How the market prices a further RBI rate hike after the inflation breach",
     "Provisional FII and DII flow data, not yet published",
-    "Ola Electric's Q2 results after its board meeting"
+    "Reaction to Ola Electric's Q2 numbers"
    ],
    "src": {
     "title": "Closing Bell: Nifty50 rises to 25,299, gains for 3rd straight day; Sensex up 32 pts",
@@ -75,27 +75,84 @@
   {
    "key": "india-cpi",
    "tag": "Macro",
-   "impact": "watch",
-   "title": "October CPI awaited; 6% would breach RBI band",
-   "line": "A Mint poll of 15 economists sees 6%, with estimates from 5.9% to 6.2%",
+   "impact": "neg",
+   "title": "October CPI hits 6.09%, above the RBI ceiling",
+   "line": "Highest since October 2024, up from 5.54% in September; consensus was 5.93%",
    "more": [
-    "ICRA expects 6.1%, with food and beverage inflation above 8%",
-    "A 6% print would be the first breach of the RBI's upper band since October 2024",
-    "September inflation was 5.54%"
+    "Food inflation rose to 8.94% from 7.74%",
+    "Onion prices rose 116% year on year, garlic 61%, ginger 48%",
+    "The data is provisional"
    ],
    "src": {
-    "title": "India's retail inflation expected to top 6% in October 2026",
-    "url": "https://www.newsbytesapp.com/news/business/indias-retail-inflation-expected-to-top-6-in-october-2026/tldr"
+    "title": "Retail inflation rises to 6.09% in October, food inflation climbs to 8.94%; onion prices surge 116%",
+    "url": "https://www.zeebiz.com/economy-infra/news-retail-inflation-rises-to-609-in-october-food-inflation-climbs-to-894-onion-prices-surge-116-405482"
    },
    "thread": "rbi-policy",
    "date": "2026-11-12",
-   "slot": "1605",
-   "when": "16:05",
+   "slot": "1635",
+   "when": "16:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-08",
     "slot": "outlook"
+   }
+  },
+  {
+   "key": "rbi-policy",
+   "tag": "Policy",
+   "impact": "neg",
+   "title": "Inflation breach strengthens case for RBI hikes",
+   "line": "Markets price a high chance of another 25 bp hike at the next meeting",
+   "more": [
+    "The RBI raised rates in October for the first time in nearly four years",
+    "The December policy meeting is the next decision point"
+   ],
+   "src": {
+    "title": "India October inflation tops RBI's 6% limit, strengthens case for rate hikes",
+    "url": "https://www.brecorder.com/news/40448589/india-october-inflation-tops-rbis-6-limit-strengthens-case-for-rate-hikes"
+   },
+   "thread": "rbi-policy",
+   "date": "2026-11-12",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1635"
+   }
+  },
+  {
+   "key": "ola-electric-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Ola Electric Q2 revenue falls 39%",
+   "line": "Loss of ₹362 crore is narrower than a year ago but wider than Q1's ₹336 crore",
+   "more": [
+    "Revenue fell to ₹421 crore from ₹690 crore",
+    "Kotak had estimated revenue of ₹507 crore and a ₹315.3 crore loss"
+   ],
+   "src": {
+    "title": "Ola Electric Q2 revenue declines 39% to Rs 421 crore; net loss narrows to Rs 362 crore",
+    "url": "https://www.storyboard18.com/brand-marketing/ola-electric-q2-revenue-drops-39-percent-to-rs-421-crore-ws-l-114612.htm"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Ola Electric",
+    "quarter": "Q2 FY27",
+    "revenue_cr": 421,
+    "revenue_yoy_pct": -39,
+    "profit_cr": -362
+   },
+   "date": "2026-11-12",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1635"
    }
   },
   {
@@ -116,7 +173,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1105"
@@ -140,7 +197,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1455"

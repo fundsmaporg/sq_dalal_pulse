@@ -1,0 +1,168 @@
+{
+ "asof": "2026-11-12T16:35:00+05:30",
+ "summary": "Indian stocks ended a rangebound day with a small gain led by realty and banks, but inflation breaching the RBI's 6% ceiling after the close sets a more cautious tone for tomorrow.",
+ "mood": {
+  "label": "Gain, inflation cloud",
+  "score": 0.0,
+  "detail": {
+   "stats": [],
+   "leaders": "Realty: Nifty Realty, Oberoi Realty",
+   "laggards": "HAL after its Q2 results",
+   "movers": {
+    "up": {
+     "summary": "Realty was the day's standout after strong September-quarter pre-sales",
+     "why": "Jefferies said pre-sales beat its estimates for DLF, Oberoi, Godrej Properties and Prestige, sparking a sector-wide rally.",
+     "names": [
+      {
+       "name": "Nifty Realty",
+       "move": "up ~4%",
+       "dir": "up",
+       "line": "Top sector of the session on the pre-sales beat"
+      },
+      {
+       "name": "Oberoi Realty",
+       "move": "up ~5% intraday",
+       "dir": "up",
+       "line": "Its September-quarter pre-sales beat Jefferies' estimates"
+      }
+     ],
+     "src": {
+      "title": "Stock Market Close: Sensex ends volatile session marginally higher, Nifty at 25,299; realty up 4%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
+     }
+    },
+    "down": {
+     "summary": "HAL fell after its Q2 results despite higher profit",
+     "why": "Profit rose but EBITDA grew more slowly than revenue, so margins slipped.",
+     "names": [
+      {
+       "name": "HAL",
+       "move": "down ~4%",
+       "dir": "down",
+       "line": "Margin slipped in Q2 even as net profit rose"
+      }
+     ],
+     "src": {
+      "title": "Why are HAL shares falling over 3% today despite 10.6% YoY rise in Q2 net profit? Explained",
+      "url": "https://businessupturn.com/finance/stock-market/why-are-hal-shares-falling-over-3-today-despite-10-6-yoy-rise-in-q2-net-profit-explained/"
+     }
+    }
+   },
+   "tone": "A read of the finished session, with the post-close data in view. The session itself is unchanged from the previous note, but the hotter-than-expected inflation print turns the outlook more cautious.",
+   "watch": [
+    "How the market prices a further RBI rate hike after the inflation breach",
+    "Provisional FII and DII flow data, not yet published",
+    "Reaction to Ola Electric's Q2 numbers"
+   ],
+   "src": {
+    "title": "Closing Bell: Nifty50 rises to 25,299, gains for 3rd straight day; Sensex up 32 pts",
+    "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-nifty50-nifty-bank-financial-stocks-lead-gains-auto-oil-gas-shares-under-pressure-nov-12-2026-405470"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25299.35,
+  "pct": 0.18,
+  "chg": 44.3,
+  "approx": false
+ },
+ "top": [
+  {
+   "key": "india-cpi",
+   "tag": "Macro",
+   "impact": "neg",
+   "thread": "rbi-policy",
+   "title": "October CPI hits 6.09%, above the RBI ceiling",
+   "line": "Highest since October 2024, up from 5.54% in September; consensus was 5.93%",
+   "more": [
+    "Food inflation rose to 8.94% from 7.74%",
+    "Onion prices rose 116% year on year, garlic 61%, ginger 48%",
+    "The data is provisional"
+   ],
+   "src": {
+    "title": "Retail inflation rises to 6.09% in October, food inflation climbs to 8.94%; onion prices surge 116%",
+    "url": "https://www.zeebiz.com/economy-infra/news-retail-inflation-rises-to-609-in-october-food-inflation-climbs-to-894-onion-prices-surge-116-405482"
+   }
+  },
+  {
+   "key": "rbi-policy",
+   "tag": "Policy",
+   "impact": "neg",
+   "thread": "rbi-policy",
+   "title": "Inflation breach strengthens case for RBI hikes",
+   "line": "Markets price a high chance of another 25 bp hike at the next meeting",
+   "more": [
+    "The RBI raised rates in October for the first time in nearly four years",
+    "The December policy meeting is the next decision point"
+   ],
+   "src": {
+    "title": "India October inflation tops RBI's 6% limit, strengthens case for rate hikes",
+    "url": "https://www.brecorder.com/news/40448589/india-october-inflation-tops-rbis-6-limit-strengthens-case-for-rate-hikes"
+   }
+  },
+  {
+   "key": "ola-electric-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "thread": "q2-results-2026",
+   "title": "Ola Electric Q2 revenue falls 39%",
+   "line": "Loss of ₹362 crore is narrower than a year ago but wider than Q1's ₹336 crore",
+   "more": [
+    "Revenue fell to ₹421 crore from ₹690 crore",
+    "Kotak had estimated revenue of ₹507 crore and a ₹315.3 crore loss"
+   ],
+   "results": {
+    "company": "Ola Electric",
+    "quarter": "Q2 FY27",
+    "revenue_cr": 421,
+    "revenue_yoy_pct": -39,
+    "profit_cr": -362,
+    "profit_yoy_pct": null,
+    "vs_estimate": null,
+    "reaction_pct": null,
+    "src": {
+     "title": "Ola Electric Q2 revenue declines 39% to Rs 421 crore; net loss narrows to Rs 362 crore",
+     "url": "https://www.storyboard18.com/brand-marketing/ola-electric-q2-revenue-drops-39-percent-to-rs-421-crore-ws-l-114612.htm"
+    }
+   },
+   "src": {
+    "title": "Ola Electric Q2 revenue declines 39% to Rs 421 crore; net loss narrows to Rs 362 crore",
+    "url": "https://www.storyboard18.com/brand-marketing/ola-electric-q2-revenue-drops-39-percent-to-rs-421-crore-ws-l-114612.htm"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market Close: Sensex ends volatile session marginally higher, Nifty at 25,299; realty up 4%",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
+  },
+  {
+   "title": "Closing Bell: Nifty50 rises to 25,299, gains for 3rd straight day; Sensex up 32 pts",
+   "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-nifty50-nifty-bank-financial-stocks-lead-gains-auto-oil-gas-shares-under-pressure-nov-12-2026-405470"
+  },
+  {
+   "title": "Retail inflation rises to 6.09% in October, food inflation climbs to 8.94%; onion prices surge 116%",
+   "url": "https://www.zeebiz.com/economy-infra/news-retail-inflation-rises-to-609-in-october-food-inflation-climbs-to-894-onion-prices-surge-116-405482"
+  },
+  {
+   "title": "India October inflation tops RBI's 6% limit, strengthens case for rate hikes",
+   "url": "https://www.brecorder.com/news/40448589/india-october-inflation-tops-rbis-6-limit-strengthens-case-for-rate-hikes"
+  },
+  {
+   "title": "Retail inflation hits 24-month high of 6.09% in October, crosses RBI's upper tolerance limit ahead of December MPC meet",
+   "url": "https://english.punjabkesari.com/business/retail-inflation-hits-24-month-high-of-6-09-in-october-crosses-rbis-upper-tolerance-limit-ahead-of-december-mpc-meet"
+  },
+  {
+   "title": "Ola Electric Q2 revenue declines 39% to Rs 421 crore; net loss narrows to Rs 362 crore",
+   "url": "https://www.storyboard18.com/brand-marketing/ola-electric-q2-revenue-drops-39-percent-to-rs-421-crore-ws-l-114612.htm"
+  },
+  {
+   "title": "Ola Electric's Q2 FY27 revenue dips 39% to Rs 421 Cr; cuts losses by 13%",
+   "url": "https://entrackr.com/fintrackr/ola-electrics-q2-fy27-revenue-dips-39-to-rs-421-cr-cuts-losses-by-13-12803857"
+  },
+  {
+   "title": "Why are HAL shares falling over 3% today despite 10.6% YoY rise in Q2 net profit? Explained",
+   "url": "https://businessupturn.com/finance/stock-market/why-are-hal-shares-falling-over-3-today-despite-10-6-yoy-rise-in-q2-net-profit-explained/"
+  }
+ ]
+}
