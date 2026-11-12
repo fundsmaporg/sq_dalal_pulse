@@ -1,29 +1,28 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-12T15:37:09+05:30",
+ "generated_at": "2026-11-12T16:07:05+05:30",
  "date": "2026-11-12",
- "slot": "1535",
- "slot_label": "15:35",
- "stage": "Closing mood",
- "asof": "2026-11-12T15:35:00+05:30",
+ "slot": "1605",
+ "slot_label": "16:05",
+ "stage": "Post-market mood",
+ "asof": "2026-11-12T16:05:00+05:30",
  "nifty": {
   "value": 25299.35,
   "pct": 0.18,
   "chg": 44.3,
-  "approx": false,
-  "asof_quote": "15:30"
+  "approx": false
  },
  "mood": {
   "label": "Quiet gain",
   "score": 0.15,
-  "summary": "Indian stocks ended a choppy, volatile session with a small gain, extending their winning run to a third day as realty and financials offset weakness in autos, energy and IT.",
+  "summary": "Indian stocks closed a volatile, rangebound session with a small gain, a third straight up day, as smallcaps, realty and banks did the lifting while autos and energy lagged.",
   "detail": {
    "leaders": "Realty: Nifty Realty, Oberoi Realty",
    "laggards": "HAL after its Q2 results",
-   "tone": "A read of the finished session. Firmer than the previous note: the market edged up into the close after drifting around unchanged for most of the afternoon.",
+   "tone": "A read of the finished session. Unchanged from the previous note: the market held its small closing gain, and the broader market beat the benchmarks for a second day.",
    "watch": [
-    "October CPI data due at 4 PM, expected near 6%",
-    "Provisional FII and DII flow data for the day",
+    "October CPI data, which economists expect near 6%",
+    "Provisional FII and DII flow data, not yet published",
     "Ola Electric's Q2 results after its board meeting"
    ],
    "src": {
@@ -74,6 +73,80 @@
  },
  "insights": [
   {
+   "key": "india-cpi",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "October CPI awaited; 6% would breach RBI band",
+   "line": "A Mint poll of 15 economists sees 6%, with estimates from 5.9% to 6.2%",
+   "more": [
+    "ICRA expects 6.1%, with food and beverage inflation above 8%",
+    "A 6% print would be the first breach of the RBI's upper band since October 2024",
+    "September inflation was 5.54%"
+   ],
+   "src": {
+    "title": "India's retail inflation expected to top 6% in October 2026",
+    "url": "https://www.newsbytesapp.com/news/business/indias-retail-inflation-expected-to-top-6-in-october-2026/tldr"
+   },
+   "thread": "rbi-policy",
+   "date": "2026-11-12",
+   "slot": "1605",
+   "when": "16:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-08",
+    "slot": "outlook"
+   }
+  },
+  {
+   "key": "midcap-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Smallcaps outperform for a second session",
+   "line": "Nifty Smallcap 100 rose 1.12% to 19,706.75; Midcap 100 gained 0.85%",
+   "more": [
+    "The broader market beat the flat benchmarks for a second straight day",
+    "Nifty Midcap 100 closed at 62,039"
+   ],
+   "src": {
+    "title": "Market wrap, Nov 12: NIFTY50 ends at 25,229, SENSEX flat; NIFTY Smallcap 100 outperforms for second straight session",
+    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-12-nifty-50-ends-at-25-229-sensex-flat-nifty-smallcap-100-outperforms-for-second-straight-session/article-203374/"
+   },
+   "date": "2026-11-12",
+   "slot": "1605",
+   "when": "16:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PSU banks lead gains at the close",
+   "line": "Public sector lenders were the top gainers in a rangebound session",
+   "more": [
+    "Banking and financial shares offset losses in autos and energy",
+    "The session was rangebound throughout, per the closing report"
+   ],
+   "src": {
+    "title": "Sensex, Nifty end flat after range-bound trade; PSU Bank stocks lead gains - The Tribune",
+    "url": "https://www.tribuneindia.com/news/sbin/sensex-nifty-end-flat-after-range-bound-trade-psu-bank-stocks-lead-gains"
+   },
+   "date": "2026-11-12",
+   "slot": "1605",
+   "when": "16:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-06",
+    "slot": "1455"
+   }
+  },
+  {
    "key": "realty-rally",
    "tag": "Stocks",
    "impact": "pos",
@@ -91,7 +164,7 @@
    "slot": "1535",
    "when": "15:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1335"
@@ -115,60 +188,10 @@
    "slot": "1535",
    "when": "15:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Banks and financials lead the gainers",
-   "line": "Banking and financial services shares advanced, keeping the market in the green",
-   "more": [
-    "Realty, banks and financial shares advanced, per the closing report",
-    "Bank Nifty traded near its 52-week high earlier in the day"
-   ],
-   "src": {
-    "title": "Stock Market Close: Sensex ends volatile session marginally higher, Nifty at 25,299; realty up 4%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
-   },
-   "date": "2026-11-12",
-   "slot": "1535",
-   "when": "15:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1455"
-   }
-  },
-  {
-   "key": "india-cpi",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "October CPI due at 4 PM; seen near 6%",
-   "line": "Consensus is about 5.93% versus 5.54% in September, the highest since October 2024",
-   "more": [
-    "Trading Economics' own forecast is 6.2%",
-    "ICRA expects core inflation to rise to 4.6% from 4.3%",
-    "A Mint poll put October at 6.0%"
-   ],
-   "src": {
-    "title": "India Inflation Rate",
-    "url": "https://tradingeconomics.com/india/inflation-cpi"
-   },
-   "thread": "rbi-policy",
-   "date": "2026-11-12",
-   "slot": "1505",
-   "when": "15:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-08",
-    "slot": "outlook"
    }
   },
   {
@@ -193,30 +216,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1435"
-   }
-  },
-  {
-   "key": "midcap-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Midcaps and smallcaps outpace the benchmarks",
-   "line": "Nifty Midcap 100 is up 0.66% and Smallcap 100 up 1.01% while large caps stay flat",
-   "more": [
-    "The benchmark indices are trading in a narrow range",
-    "Broader-market strength points to wider buying than the headline indices show"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex choppy in volatile session; Nifty below 25,300; HAL down 4% post Q2 result",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
-   },
-   "date": "2026-11-12",
-   "slot": "1435",
-   "when": "14:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "1105"
    }
   },
   {
