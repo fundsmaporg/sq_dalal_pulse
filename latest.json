@@ -1,55 +1,129 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-12T12:37:38+05:30",
+ "generated_at": "2026-11-12T13:06:51+05:30",
  "date": "2026-11-12",
- "slot": "1235",
- "slot_label": "12:35",
+ "slot": "1305",
+ "slot_label": "13:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-12T12:35:00+05:30",
- "nifty": {
-  "value": 25269.6,
-  "pct": 0.06,
-  "chg": 14.55,
-  "approx": false,
-  "asof_quote": "12:00"
- },
+ "asof": "2026-11-12T13:05:00+05:30",
  "mood": {
-  "label": "Gains fade",
+  "label": "Rangebound, flat",
   "score": 0.05,
-  "summary": "Indian stocks have slipped well off the day's high by midday and are clinging to a marginal gain, as heavyweights such as M&M and TCS weigh while results-led names hold up.",
+  "summary": "Indian stocks are drifting in a narrow range in early afternoon with only a slender gain, as life insurers rally while M&M and Nestle India lead the losers.",
   "detail": {
-   "leaders": "Results-driven names such as Cupid and Tata Power",
-   "laggards": "M&M and TCS, the top Sensex losers",
-   "tone": "A live read of the market at midday. Softer than the previous note: the late-morning advance has largely been given back, though the market has not turned negative.",
+   "leaders": "Life insurers: ICICI Life, HDFC Life, SBI Life",
+   "laggards": "M&M, Nestle India",
+   "tone": "A live read of the early-afternoon market. It is flatter than the previous note: the market is holding a small gain without direction. No fresh timestamped index print was found, so this is a read on behaviour.",
    "watch": [
-    "Whether the market slips into the red in the afternoon",
-    "Further selling in index heavyweights like M&M and TCS",
+    "October CPI data due today, with economists expecting a rise",
+    "Whether heavyweight losers like M&M drag the market into the red",
     "Foreign flows, which have backed the market this week"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex pares 400 pts from day's high, Nifty below 25,300; M&M, TCS top losers",
+    "title": "Stock Market LIVE: Sensex stuck in range; M&M, Nestle India lead losses Nifty50; VIX drops 13%",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
+   },
+   "movers": {
+    "up": {
+     "summary": "Life insurers lead after strong October premium data",
+     "why": "Industry new business premium grew 26.2% year on year in October, and HSBC expects the positive trend to continue.",
+     "names": [
+      {
+       "name": "ICICI Life",
+       "dir": "up",
+       "move": "+4.25%",
+       "line": "Among the biggest gainers on the October premium numbers"
+      },
+      {
+       "name": "HDFC Life",
+       "dir": "up",
+       "move": "+4.08%",
+       "line": "Reported 16% growth in individual APE in October"
+      },
+      {
+       "name": "SBI Life",
+       "dir": "up",
+       "move": "+3.05%",
+       "line": "Rose with the sector despite broadly flat individual APE growth"
+      }
+     ],
+     "src": {
+      "title": "ICICI Life, HDFC Life, SBI Life, Max Financial shares climb; here's what HSBC says - BusinessToday",
+      "url": "https://www.businesstoday.in/markets/stocks/story/icici-life-hdfc-life-sbi-life-max-financial-shares-climb-heres-what-hsbc-says-566990-2026-11-12"
+     }
+    }
    }
   }
  },
  "insights": [
   {
+   "key": "life-insurers-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Life insurers rally up to 5% on premium data",
+   "line": "October new business premium grew 26.2% year on year, helped by LIC and private players",
+   "more": [
+    "ICICI Life +4.25%, HDFC Life +4.08%, Max Financial +4.06%, SBI Life +3.05%",
+    "HSBC says industry individual APE growth moderated to about 5% in October",
+    "One brokerage expects the trend to hold until distribution rules are finalised"
+   ],
+   "src": {
+    "title": "ICICI Life, HDFC Life, SBI Life, Max Financial shares climb; here's what HSBC says - BusinessToday",
+    "url": "https://www.businesstoday.in/markets/stocks/story/icici-life-hdfc-life-sbi-life-max-financial-shares-climb-heres-what-hsbc-says-566990-2026-11-12"
+   },
+   "date": "2026-11-12",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1305"
+   }
+  },
+  {
+   "key": "india-cpi",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "October CPI due today; 6% expected",
+   "line": "An Informist poll of 12 economists sees inflation rising to 6% from 5.54% in September",
+   "more": [
+    "Bloomberg Economics expects 6.1%",
+    "Rising food prices could push inflation to a two-year high",
+    "A breach of the RBI's comfort zone would raise the prospect of rate hikes"
+   ],
+   "src": {
+    "title": "Will October inflation breach 6%? What it means for interest rates, EMIs and GDP growth - BusinessToday",
+    "url": "https://www.businesstoday.in/latest/economy/story/will-inflation-breach-6-in-october-what-it-means-for-interest-rates-emis-and-gdp-growth-566855-2026-11-11"
+   },
+   "thread": "rbi-policy",
+   "date": "2026-11-12",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-08",
+    "slot": "outlook"
+   }
+  },
+  {
    "key": "sector-drag",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "M&M and TCS lead the midday losers",
-   "line": "The two heavyweights are the biggest drags as the market's gain fades",
+   "title": "M&M and Nestle India lead Nifty losers",
+   "line": "Heavyweight losses are keeping the market stuck in a range",
    "more": [
-    "Both are named as top Sensex losers in the midday update",
+    "The midday update names M&M and Nestle India as the top Nifty 50 losers",
     "No company-specific news has been reported for either today"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex pares 400 pts from day's high, Nifty below 25,300; M&M, TCS top losers",
+    "title": "Stock Market LIVE: Sensex stuck in range; M&M, Nestle India lead losses Nifty50; VIX drops 13%",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
    },
    "date": "2026-11-12",
-   "slot": "1235",
-   "when": "12:35",
+   "slot": "1305",
+   "when": "13:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -84,7 +158,7 @@
    "slot": "1235",
    "when": "12:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1005"
@@ -118,7 +192,7 @@
    "slot": "1235",
    "when": "12:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1405"
@@ -1472,31 +1546,6 @@
    "first_seen": {
     "date": "2026-11-06",
     "slot": "1225"
-   }
-  },
-  {
-   "key": "india-cpi",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "India's October CPI due Thursday",
-   "line": "Inflation is expected to rise above 6.1%, with food prices above 8%, per Paterson",
-   "more": [
-    "Released on Thursday Nov 12",
-    "US October CPI comes earlier, on Tuesday Nov 10"
-   ],
-   "src": {
-    "title": "Paterson Capital: Nifty triggers for the week — CPI data, crude rebound and Q2 results in focus",
-    "url": "https://patersoncapital.com/nifty-triggers-for-the-week-cpi-data-crude-rebound-and-q2-results-in-focus/"
-   },
-   "thread": "rbi-policy",
-   "date": "2026-11-08",
-   "slot": "outlook",
-   "when": "Sun · Outlook",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-08",
-    "slot": "outlook"
    }
   },
   {
