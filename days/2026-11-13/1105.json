@@ -1,0 +1,110 @@
+{
+ "asof": "2026-11-13T11:05:00+05:30",
+ "summary": "Indian stocks are stuck in a narrow range below Thursday's close, with rate-sensitive realty, autos and banks weighing on inflation worries while pharma holds firm.",
+ "mood": {
+  "label": "Rangebound, soft",
+  "score": -0.25,
+  "detail": {
+   "stats": [],
+   "leaders": "Pharma and healthcare, the best-performing sectors",
+   "laggards": "Realty and autos, the weakest sectors",
+   "movers": {
+    "down": {
+     "summary": "Rate-sensitive sectors lead the decline on inflation worries",
+     "why": "Retail inflation above the RBI's ceiling has revived worries about further rate hikes, hitting rate-sensitive sectors.",
+     "names": [
+      {
+       "name": "Nifty Realty",
+       "dir": "down",
+       "line": "One of the two weakest sectors as inflation worries weigh"
+      },
+      {
+       "name": "Nifty Auto",
+       "dir": "down",
+       "line": "The other weakest sector alongside realty in late-morning trade"
+      }
+     ],
+     "src": {
+      "title": "Stock Market LIVE: Sensex stuck in range, down 100 pts, Nifty near 25,200; bank shares weigh",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+     }
+    }
+   },
+   "tone": "A live read of late-morning trade. Little changed from the previous note: the market is holding a modest loss in a narrow range, with the broader market also lower.",
+   "watch": [
+    "Whether banks keep dragging the benchmarks",
+    "Any further move in crude near $95 a barrel",
+    "Foreign flows, which have supported the market all week"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex stuck in range, down 100 pts, Nifty near 25,200; bank shares weigh",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25201,
+  "pct": -0.39,
+  "chg": -98,
+  "approx": false,
+  "asof_quote": "11:00"
+ },
+ "top": [
+  {
+   "key": "india-cpi",
+   "tag": "Macro",
+   "impact": "neg",
+   "thread": "rbi-policy",
+   "title": "Inflation worries weigh on the market",
+   "line": "Retail inflation at 6.09%, above the RBI's ceiling, is cited for Friday's softness",
+   "more": [
+    "Price-pressure worries and weak global cues are weighing on sentiment",
+    "Rate-sensitive realty and autos are the weakest sectors"
+   ],
+   "src": {
+    "title": "Stock Market Today: Sensex Falls 289 Points, Nifty Slips",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-13-2026-open-report-sensex-nifty-decline-as-inflation-weighs-financials-drag"
+   }
+  },
+  {
+   "key": "sector-drag",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Bank shares weigh; midcaps and smallcaps slip",
+   "line": "Nifty Midcap fell about 0.63% and Smallcap about 0.43% by 11 AM",
+   "more": [
+    "Bank stocks are among the main drags on the benchmarks",
+    "Realty and autos are the weakest sectors"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex stuck in range, down 100 pts, Nifty near 25,200; bank shares weigh",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+   }
+  },
+  {
+   "key": "pharma-outperform",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Pharma and healthcare lead the gainers",
+   "line": "The two defensive sectors are the best performers in a weak market",
+   "more": [
+    "Cipla and Dr Reddy's led early gains",
+    "Pharma has held up since the open"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex stuck in range, down 100 pts, Nifty near 25,200; bank shares weigh",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market LIVE: Sensex stuck in range, down 100 pts, Nifty near 25,200; bank shares weigh",
+   "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+  },
+  {
+   "title": "Stock Market Today: Sensex Falls 289 Points, Nifty Slips",
+   "url": "https://hdfcsky.com/news/bse-nse-sensex-november-13-2026-open-report-sensex-nifty-decline-as-inflation-weighs-financials-drag"
+  }
+ ]
+}

@@ -1,53 +1,131 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-13T10:36:50+05:30",
+ "generated_at": "2026-11-13T11:06:32+05:30",
  "date": "2026-11-13",
- "slot": "1035",
- "slot_label": "10:35",
+ "slot": "1105",
+ "slot_label": "11:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-13T10:35:00+05:30",
+ "asof": "2026-11-13T11:05:00+05:30",
+ "nifty": {
+  "value": 25201,
+  "pct": -0.39,
+  "chg": -98,
+  "approx": false,
+  "asof_quote": "11:00"
+ },
  "mood": {
-  "label": "Subdued, lower",
+  "label": "Rangebound, soft",
   "score": -0.25,
-  "summary": "Indian stocks are trading lower in a subdued morning session, stuck below Thursday's close as heavyweights M&M and HDFC Bank weigh and there is little sign of fresh buying.",
+  "summary": "Indian stocks are stuck in a narrow range below Thursday's close, with rate-sensitive realty, autos and banks weighing on inflation worries while pharma holds firm.",
   "detail": {
-   "leaders": "Pharma names held up in early trade",
-   "laggards": "M&M and HDFC Bank, the biggest drags on the Sensex",
-   "tone": "A live read of mid-morning trade. Slightly softer than the previous note: the recovery from the open has stalled. No index print newer than the previous note's was found, so this is a read on behaviour.",
+   "leaders": "Pharma and healthcare, the best-performing sectors",
+   "laggards": "Realty and autos, the weakest sectors",
+   "tone": "A live read of late-morning trade. Little changed from the previous note: the market is holding a modest loss in a narrow range, with the broader market also lower.",
    "watch": [
-    "Whether the market can retest Thursday's close",
-    "Crude near $95 a barrel",
-    "Reaction to Q2 numbers from Vodafone Idea and IRCTC"
+    "Whether banks keep dragging the benchmarks",
+    "Any further move in crude near $95 a barrel",
+    "Foreign flows, which have supported the market all week"
    ],
    "src": {
-    "title": "Stock Market LIVE: M&M, HDFC Bank lead 200-pt loss in Sensex, Nifty near 25,200; VIX drops 7%",
+    "title": "Stock Market LIVE: Sensex stuck in range, down 100 pts, Nifty near 25,200; bank shares weigh",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+   },
+   "movers": {
+    "down": {
+     "summary": "Rate-sensitive sectors lead the decline on inflation worries",
+     "why": "Retail inflation above the RBI's ceiling has revived worries about further rate hikes, hitting rate-sensitive sectors.",
+     "names": [
+      {
+       "name": "Nifty Realty",
+       "dir": "down",
+       "line": "One of the two weakest sectors as inflation worries weigh"
+      },
+      {
+       "name": "Nifty Auto",
+       "dir": "down",
+       "line": "The other weakest sector alongside realty in late-morning trade"
+      }
+     ],
+     "src": {
+      "title": "Stock Market LIVE: Sensex stuck in range, down 100 pts, Nifty near 25,200; bank shares weigh",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+     }
+    }
    }
   }
  },
  "insights": [
   {
+   "key": "india-cpi",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Inflation worries weigh on the market",
+   "line": "Retail inflation at 6.09%, above the RBI's ceiling, is cited for Friday's softness",
+   "more": [
+    "Price-pressure worries and weak global cues are weighing on sentiment",
+    "Rate-sensitive realty and autos are the weakest sectors"
+   ],
+   "src": {
+    "title": "Stock Market Today: Sensex Falls 289 Points, Nifty Slips",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-13-2026-open-report-sensex-nifty-decline-as-inflation-weighs-financials-drag"
+   },
+   "thread": "rbi-policy",
+   "date": "2026-11-13",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-08",
+    "slot": "outlook"
+   }
+  },
+  {
    "key": "sector-drag",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "M&M and HDFC Bank deepen the Sensex loss",
-   "line": "The heavyweights lead a wider Sensex decline after the early recovery stalled",
+   "title": "Bank shares weigh; midcaps and smallcaps slip",
+   "line": "Nifty Midcap fell about 0.63% and Smallcap about 0.43% by 11 AM",
    "more": [
-    "The India VIX is still down about 7% on the day",
-    "No company-specific trigger has been reported for the falls"
+    "Bank stocks are among the main drags on the benchmarks",
+    "Realty and autos are the weakest sectors"
    ],
    "src": {
-    "title": "Stock Market LIVE: M&M, HDFC Bank lead 200-pt loss in Sensex, Nifty near 25,200; VIX drops 7%",
+    "title": "Stock Market LIVE: Sensex stuck in range, down 100 pts, Nifty near 25,200; bank shares weigh",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
    },
    "date": "2026-11-13",
-   "slot": "1035",
-   "when": "10:35",
+   "slot": "1105",
+   "when": "11:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1105"
+   }
+  },
+  {
+   "key": "pharma-outperform",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Pharma and healthcare lead the gainers",
+   "line": "The two defensive sectors are the best performers in a weak market",
+   "more": [
+    "Cipla and Dr Reddy's led early gains",
+    "Pharma has held up since the open"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex stuck in range, down 100 pts, Nifty near 25,200; bank shares weigh",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+   },
+   "date": "2026-11-13",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1005"
    }
   },
   {
@@ -74,7 +152,7 @@
    "slot": "1035",
    "when": "10:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1035"
@@ -99,34 +177,10 @@
    "slot": "1035",
    "when": "10:35",
    "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-13",
-    "slot": "1035"
-   }
-  },
-  {
-   "key": "pharma-outperform",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Pharma bucks the early selloff",
-   "line": "Cipla and Dr Reddy's led the gainers alongside ONGC, Max Healthcare and SBI",
-   "more": [
-    "Pharma was the main sector holding up at the open",
-    "The broader market opened with selling across sectors"
-   ],
-   "src": {
-    "title": "Sensex tumbles nearly 500 points, Nifty slips below 25,150; pharma bucks selloff",
-    "url": "https://www.newsdrum.in/business/sensex-tumbles-nearly-500-points-nifty-slips-below-25150-pharma-bucks-selloff-12805367"
-   },
-   "date": "2026-11-13",
-   "slot": "1005",
-   "when": "10:05",
-   "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
-    "slot": "1005"
+    "slot": "1035"
    }
   },
   {
@@ -495,32 +549,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "india-cpi",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "October CPI hits 6.09%, above the RBI ceiling",
-   "line": "Highest since October 2024, up from 5.54% in September; consensus was 5.93%",
-   "more": [
-    "Food inflation rose to 8.94% from 7.74%",
-    "Onion prices rose 116% year on year, garlic 61%, ginger 48%",
-    "The data is provisional"
-   ],
-   "src": {
-    "title": "Retail inflation rises to 6.09% in October, food inflation climbs to 8.94%; onion prices surge 116%",
-    "url": "https://www.zeebiz.com/economy-infra/news-retail-inflation-rises-to-609-in-october-food-inflation-climbs-to-894-onion-prices-surge-116-405482"
-   },
-   "thread": "rbi-policy",
-   "date": "2026-11-12",
-   "slot": "1635",
-   "when": "Thu · 16:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-08",
-    "slot": "outlook"
    }
   },
   {
