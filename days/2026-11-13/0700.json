@@ -1,0 +1,183 @@
+{
+ "asof": "2026-11-13T07:00:00+05:30",
+ "summary": "Indian stocks face a mixed setup for Friday: Wall Street slipped on Nvidia's CEO exit and oil jumped, but Asian chip stocks are rebounding and foreign buying stayed strong.",
+ "mood": {
+  "label": "Mixed start likely",
+  "score": -0.05,
+  "detail": {
+   "stats": [],
+   "leaders": "Banks and realty, which led Thursday; foreign buying remains supportive",
+   "laggards": "Oil-sensitive stocks after crude's jump; rate-sensitives after the inflation breach",
+   "tone": "A forward-looking read for Friday's session. Slightly less cautious than the previous note, as Asian chip stocks rebound overnight, though higher oil is a fresh headwind.",
+   "watch": [
+    "Whether crude holds its jump after attacks on Saudi energy sites",
+    "How Indian IT reacts to the US tech moves",
+    "Foreign flows after another day of heavy buying"
+   ],
+   "src": {
+    "title": "Stock Market Today, Nov. 12: Nvidia CEO's Stunning Exit Sends Wall Street Lower as Rivals Surge",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25299.35,
+  "pct": 0.18,
+  "chg": 44.3,
+  "approx": false
+ },
+ "metrics": {
+  "fii_net_cr": {
+   "value": 7830.6,
+   "asof": "2026-11-12 provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data: FII DII Activity Today and Monthly across NSE and BSE",
+    "url": "https://trendlyne.com/macro-data/fii-dii/latest/snapshot-pastmonth/"
+   }
+  },
+  "dii_net_cr": {
+   "value": -6331.17,
+   "asof": "2026-11-12 provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data: FII DII Activity Today and Monthly across NSE and BSE",
+    "url": "https://trendlyne.com/macro-data/fii-dii/latest/snapshot-pastmonth/"
+   }
+  },
+  "brent_usd": {
+   "value": 95.82,
+   "asof": "2026-11-12 settlement",
+   "approx": false,
+   "src": {
+    "title": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions",
+    "url": "https://finance.yahoo.com/energy/articles/oil-falls-over-1-easing-045152522.html"
+   }
+  }
+ },
+ "top": [
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "thread": "global-markets",
+   "title": "Wall Street ends lower after Nvidia CEO exit",
+   "line": "S&P 500 fell 0.35%, Dow 0.36% and Nasdaq 0.39%",
+   "more": [
+    "Nvidia closed down 4.3% after Jensen Huang resigned as CEO",
+    "AMD and Broadcom each rose nearly 6%, leading S&P 500 gainers",
+    "Rising Treasury yields also weighed"
+   ],
+   "src": {
+    "title": "Stock Market Today, Nov. 12: Nvidia CEO's Stunning Exit Sends Wall Street Lower as Rivals Surge",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "thread": "crude-iran-war",
+   "title": "Brent jumps 3.3% to $95.82",
+   "line": "Oil rebounded after Houthi attacks on Saudi energy sites, including a pipeline station",
+   "more": [
+    "WTI settled at $88.74, up 2.6%",
+    "Brent is still down about 20% so far in November"
+   ],
+   "src": {
+    "title": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions",
+    "url": "https://finance.yahoo.com/energy/articles/oil-falls-over-1-easing-045152522.html"
+   }
+  },
+  {
+   "key": "asia-rebound",
+   "tag": "Global",
+   "impact": "pos",
+   "thread": "global-markets",
+   "title": "Kospi jumps ~3% as Asian chip stocks rebound",
+   "line": "Samsung rose 3.4% and SK Hynix 4.6% in early Friday trade; the Nikkei opened firmer",
+   "more": [
+    "The rebound follows Thursday's selloff tied to Nvidia's CEO exit",
+    "Kioxia gained over 5%"
+   ],
+   "src": {
+    "title": "Kospi Jumps 3%, Kioxia Surges Over 5%, Samsung Electronics and SK Hynix Both Rise Over 3%",
+    "url": "https://www.tradingkey.com/analysis/stocks/more/262303508-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-amd-avgo-tradingkey"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "thread": "fii-flows",
+   "title": "FIIs buy ₹7,831 crore on Thursday",
+   "line": "Foreign investors stayed heavy net buyers while DIIs sold ₹6,331 crore",
+   "more": [
+    "Figures are provisional NSE and BSE cash-market data",
+    "FIIs also net bought about ₹3,557 crore of index futures"
+   ],
+   "src": {
+    "title": "FII DII Data based on activity on NSE, BSE",
+    "url": "https://web.stockedge.com/fii-activity"
+   }
+  },
+  {
+   "key": "us-earnings",
+   "tag": "Global",
+   "impact": "pos",
+   "thread": "global-markets",
+   "title": "Cisco, Applied Materials beat estimates",
+   "line": "Cisco raised its full-year revenue guidance; AMAT posted record revenue of $10.41 billion",
+   "more": [
+    "Cisco revenue was about $18.52 billion versus $18.12 billion expected",
+    "AMAT guided next-quarter revenue to about $11.1 billion"
+   ],
+   "src": {
+    "title": "Applied Materials Reports Q4 Earnings, Raises Guidance as AI Drives Strong Chip Demand",
+    "url": "https://www.benzinga.com/markets/earnings/26/11/63224703/applied-materials-reports-q4-earnings-raises-guidance-as-ai-drives-strong-chip-demand"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market Today, Nov. 12: Nvidia CEO's Stunning Exit Sends Wall Street Lower as Rivals Surge",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
+  },
+  {
+   "title": "US Stock Market Trends (November 13): NVIDIA closes down 4.3% following Jensen Huang's resignation, while AMD and Broadcom surge",
+   "url": "https://www.techflowpost.com/en-US/article/35340"
+  },
+  {
+   "title": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions",
+   "url": "https://finance.yahoo.com/energy/articles/oil-falls-over-1-easing-045152522.html"
+  },
+  {
+   "title": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
+   "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
+  },
+  {
+   "title": "Kospi Jumps 3%, Kioxia Surges Over 5%, Samsung Electronics and SK Hynix Both Rise Over 3%",
+   "url": "https://www.tradingkey.com/analysis/stocks/more/262303508-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-amd-avgo-tradingkey"
+  },
+  {
+   "title": "FII DII Data: FII DII Activity Today and Monthly across NSE and BSE",
+   "url": "https://trendlyne.com/macro-data/fii-dii/latest/snapshot-pastmonth/"
+  },
+  {
+   "title": "FII DII Data based on activity on NSE, BSE",
+   "url": "https://web.stockedge.com/fii-activity"
+  },
+  {
+   "title": "Applied Materials Reports Q4 Earnings, Raises Guidance as AI Drives Strong Chip Demand",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/63224703/applied-materials-reports-q4-earnings-raises-guidance-as-ai-drives-strong-chip-demand"
+  },
+  {
+   "title": "After-Hours Technology Earnings: Thursday, November 12, 2026",
+   "url": "https://analysisofficial.substack.com/p/after-hours-technology-earnings-thursday"
+  },
+  {
+   "title": "Closing Bell: Nifty50 rises to 25,299, gains for 3rd straight day; Sensex up 32 pts",
+   "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-nifty50-nifty-bank-financial-stocks-lead-gains-auto-oil-gas-shares-under-pressure-nov-12-2026-405470"
+  }
+ ]
+}

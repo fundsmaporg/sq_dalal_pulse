@@ -1,6 +1,6 @@
 {
  "key": "us-markets",
- "title": "Wall Street lower as tech drags",
+ "title": "Wall Street ends lower after Nvidia CEO exit",
  "tag": "Global",
  "thread": "global-markets",
  "first_seen": {
@@ -8,10 +8,10 @@
   "slot": "pre"
  },
  "last_seen": {
-  "date": "2026-11-12",
-  "slot": "2100"
+  "date": "2026-11-13",
+  "slot": "0700"
  },
- "count": 32,
+ "count": 33,
  "timeline": [
   {
    "date": "2026-10-29",
@@ -585,34 +585,70 @@
     "title": "Stock market today: S&P 500, Nasdaq sink as Nvidia CEO Jensen Huang resigns, stock tanks",
     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
    }
+  },
+  {
+   "date": "2026-11-13",
+   "slot": "0700",
+   "when": "Fri · 7:00",
+   "title": "Wall Street ends lower after Nvidia CEO exit",
+   "line": "S&P 500 fell 0.35%, Dow 0.36% and Nasdaq 0.39%",
+   "impact": "neg",
+   "tag": "Global",
+   "more": [
+    "Nvidia closed down 4.3% after Jensen Huang resigned as CEO",
+    "AMD and Broadcom each rose nearly 6%, leading S&P 500 gainers",
+    "Rising Treasury yields also weighed"
+   ],
+   "thread": "global-markets",
+   "src": {
+    "title": "Stock Market Today, Nov. 12: Nvidia CEO's Stunning Exit Sends Wall Street Lower as Rivals Surge",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
+   }
   }
  ],
  "dossier": {
-  "headline": "Wall Street swings between oil relief, hot inflation and an AI rebound",
-  "summary": "US stocks have whipsawed this week: the S&P 500 jumped 2.35% on Monday as oil tumbled, its best day since April, then fell about 0.4% on Tuesday after a hotter-than-expected October CPI. On Wednesday it rose 1.31%, with the Nasdaq up 1.60%, as CoreWeave's earnings beat revived the AI trade.",
+  "headline": "Wall Street slips as Nvidia's CEO resigns",
+  "summary": "US stocks whipsawed this week: the S&P 500 jumped 2.35% on Monday, slipped after a hot October CPI on Tuesday, and rose 1.31% on Wednesday on an AI rebound. On Thursday it fell 0.35% after Jensen Huang resigned as Nvidia CEO; Nvidia closed down 4.3% while AMD and Broadcom rose nearly 6%.",
   "status": "developing",
   "why_it_matters": [
    "Wall Street's direction sets the overnight tone for Indian stocks",
    "Tech moves in the US feed into Indian IT sentiment"
   ],
-  "moved": [],
+  "moved": [
+   {
+    "name": "Nvidia",
+    "dir": "down",
+    "line": "Closed down 4.3% after its CEO resigned"
+   },
+   {
+    "name": "AMD",
+    "dir": "up",
+    "line": "Rose nearly 6%"
+   },
+   {
+    "name": "Broadcom",
+    "dir": "up",
+    "line": "Rose nearly 6%"
+   }
+  ],
   "watch": [
-   "Whether the AI rebound holds",
-   "Fed rate-hike expectations after the CPI print"
+   "Whether the Nvidia selling spreads to the wider AI trade",
+   "Rising Treasury yields"
   ],
   "questions": [
-   "Is the AI-led rally durable with a December Fed hike priced in?"
+   "Does Nvidia's leadership change dent the AI rally?"
   ],
   "conflicts": [
-   "Early-trade figures quoted in the evening differ from the final closes"
+   "Intraday figures quoted in the evening (S&P 500 down 0.3%, Nasdaq down 0.6%) differ from the final closes"
   ],
-  "written_at": "2026-11-12T07:05:00+05:30",
+  "written_at": "2026-11-13T07:05:00+05:30",
   "based_on_slots": [
-   "2026-11-09/2100",
    "2026-11-10/0845",
    "2026-11-11/0700",
-   "2026-11-11/2100",
-   "2026-11-12/0700"
+   "2026-11-12/0700",
+   "2026-11-12/1800",
+   "2026-11-12/2100",
+   "2026-11-13/0700"
   ]
  }
 }

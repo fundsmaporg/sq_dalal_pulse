@@ -1,37 +1,192 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-12T21:00:29+05:30",
- "date": "2026-11-12",
- "slot": "2100",
- "slot_label": "21:00",
- "stage": "Evening wrap",
- "asof": "2026-11-12T21:00:00+05:30",
+ "generated_at": "2026-11-13T07:01:07+05:30",
+ "date": "2026-11-13",
+ "slot": "0700",
+ "slot_label": "7:00",
+ "stage": "Pre-market mood",
+ "asof": "2026-11-13T07:00:00+05:30",
  "nifty": {
   "value": 25299.35,
   "pct": 0.18,
   "chg": 44.3,
   "approx": false
  },
+ "metrics": {
+  "brent_usd": {
+   "value": 95.82,
+   "asof": "2026-11-12 settlement",
+   "approx": false,
+   "src": {
+    "title": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions",
+    "url": "https://finance.yahoo.com/energy/articles/oil-falls-over-1-easing-045152522.html"
+   }
+  },
+  "fii_net_cr": {
+   "value": 7830.6,
+   "asof": "2026-11-12 provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data: FII DII Activity Today and Monthly across NSE and BSE",
+    "url": "https://trendlyne.com/macro-data/fii-dii/latest/snapshot-pastmonth/"
+   }
+  },
+  "dii_net_cr": {
+   "value": -6331.17,
+   "asof": "2026-11-12 provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data: FII DII Activity Today and Monthly across NSE and BSE",
+    "url": "https://trendlyne.com/macro-data/fii-dii/latest/snapshot-pastmonth/"
+   }
+  }
+ },
  "mood": {
-  "label": "Cautious start likely",
-  "score": -0.25,
-  "summary": "Indian stocks face a cautious Friday open after a third straight small gain, with US tech selling off on Nvidia's CEO exit and inflation above the RBI's ceiling weighing on sentiment.",
+  "label": "Mixed start likely",
+  "score": -0.05,
+  "summary": "Indian stocks face a mixed setup for Friday: Wall Street slipped on Nvidia's CEO exit and oil jumped, but Asian chip stocks are rebounding and foreign buying stayed strong.",
   "detail": {
-   "leaders": "Realty and banks, which led Thursday's session",
-   "laggards": "IT and tech-linked stocks if the US tech selling persists; rate-sensitives after the inflation breach",
-   "tone": "A forward-looking read for Friday's session. A shade more cautious than the previous note, now that Nvidia's CEO has resigned and the US session is trading lower.",
+   "leaders": "Banks and realty, which led Thursday; foreign buying remains supportive",
+   "laggards": "Oil-sensitive stocks after crude's jump; rate-sensitives after the inflation breach",
+   "tone": "A forward-looking read for Friday's session. Slightly less cautious than the previous note, as Asian chip stocks rebound overnight, though higher oil is a fresh headwind.",
    "watch": [
-    "How far the Nvidia selling spreads across US tech by the close",
-    "Bond yields and rate-sensitive stocks after the inflation breach",
-    "Thursday's provisional FII and DII flow data, still unpublished"
+    "Whether crude holds its jump after attacks on Saudi energy sites",
+    "How Indian IT reacts to the US tech moves",
+    "Foreign flows after another day of heavy buying"
    ],
    "src": {
-    "title": "Closing Bell: Nifty50 rises to 25,299, gains for 3rd straight day; Sensex up 32 pts",
-    "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-nifty50-nifty-bank-financial-stocks-lead-gains-auto-oil-gas-shares-under-pressure-nov-12-2026-405470"
+    "title": "Stock Market Today, Nov. 12: Nvidia CEO's Stunning Exit Sends Wall Street Lower as Rivals Surge",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
    }
   }
  },
  "insights": [
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Wall Street ends lower after Nvidia CEO exit",
+   "line": "S&P 500 fell 0.35%, Dow 0.36% and Nasdaq 0.39%",
+   "more": [
+    "Nvidia closed down 4.3% after Jensen Huang resigned as CEO",
+    "AMD and Broadcom each rose nearly 6%, leading S&P 500 gainers",
+    "Rising Treasury yields also weighed"
+   ],
+   "src": {
+    "title": "Stock Market Today, Nov. 12: Nvidia CEO's Stunning Exit Sends Wall Street Lower as Rivals Surge",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-13",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-07",
+    "slot": "0800"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent jumps 3.3% to $95.82",
+   "line": "Oil rebounded after Houthi attacks on Saudi energy sites, including a pipeline station",
+   "more": [
+    "WTI settled at $88.74, up 2.6%",
+    "Brent is still down about 20% so far in November"
+   ],
+   "src": {
+    "title": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions",
+    "url": "https://finance.yahoo.com/energy/articles/oil-falls-over-1-easing-045152522.html"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-13",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-07",
+    "slot": "0800"
+   }
+  },
+  {
+   "key": "asia-rebound",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Kospi jumps ~3% as Asian chip stocks rebound",
+   "line": "Samsung rose 3.4% and SK Hynix 4.6% in early Friday trade; the Nikkei opened firmer",
+   "more": [
+    "The rebound follows Thursday's selloff tied to Nvidia's CEO exit",
+    "Kioxia gained over 5%"
+   ],
+   "src": {
+    "title": "Kospi Jumps 3%, Kioxia Surges Over 5%, Samsung Electronics and SK Hynix Both Rise Over 3%",
+    "url": "https://www.tradingkey.com/analysis/stocks/more/262303508-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-amd-avgo-tradingkey"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-13",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs buy ₹7,831 crore on Thursday",
+   "line": "Foreign investors stayed heavy net buyers while DIIs sold ₹6,331 crore",
+   "more": [
+    "Figures are provisional NSE and BSE cash-market data",
+    "FIIs also net bought about ₹3,557 crore of index futures"
+   ],
+   "src": {
+    "title": "FII DII Data based on activity on NSE, BSE",
+    "url": "https://web.stockedge.com/fii-activity"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-13",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-07",
+    "slot": "0800"
+   }
+  },
+  {
+   "key": "us-earnings",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Cisco, Applied Materials beat estimates",
+   "line": "Cisco raised its full-year revenue guidance; AMAT posted record revenue of $10.41 billion",
+   "more": [
+    "Cisco revenue was about $18.52 billion versus $18.12 billion expected",
+    "AMAT guided next-quarter revenue to about $11.1 billion"
+   ],
+   "src": {
+    "title": "Applied Materials Reports Q4 Earnings, Raises Guidance as AI Drives Strong Chip Demand",
+    "url": "https://www.benzinga.com/markets/earnings/26/11/63224703/applied-materials-reports-q4-earnings-raises-guidance-as-ai-drives-strong-chip-demand"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-13",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1800"
+   }
+  },
   {
    "key": "nvidia-ceo",
    "tag": "Global",
@@ -50,37 +205,12 @@
    "thread": "global-markets",
    "date": "2026-11-12",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Thu · 21:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Wall Street lower as tech drags",
-   "line": "S&P 500 down 0.3% and Nasdaq down 0.6% in Thursday's US session",
-   "more": [
-    "Nvidia was down about 7% after a 14% drop at the open",
-    "The S&P 500 had closed 1.3% higher on Wednesday"
-   ],
-   "src": {
-    "title": "Stock market today: S&P 500, Nasdaq sink as Nvidia CEO Jensen Huang resigns, stock tanks",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-12",
-   "slot": "2100",
-   "when": "21:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "0700"
    }
   },
   {
@@ -100,9 +230,9 @@
    "thread": "global-markets",
    "date": "2026-11-12",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Thu · 21:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "2100"
@@ -131,31 +261,7 @@
    },
    "date": "2026-11-12",
    "slot": "1800",
-   "when": "18:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "1800"
-   }
-  },
-  {
-   "key": "us-earnings",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Cisco and Applied Materials report tonight",
-   "line": "Both are due after the US close, with chip-equipment maker AMAT the bigger tech read",
-   "more": [
-    "Options price an AMAT move of about 10% either way",
-    "Results land before Indian markets open on Friday"
-   ],
-   "src": {
-    "title": "Earnings Whispers",
-    "url": "https://www.earningswhispers.com/"
-   },
-   "date": "2026-11-12",
-   "slot": "1800",
-   "when": "18:00",
+   "when": "Thu · 18:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -181,7 +287,7 @@
    "thread": "rbi-policy",
    "date": "2026-11-12",
    "slot": "1635",
-   "when": "16:35",
+   "when": "Thu · 16:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -206,7 +312,7 @@
    "thread": "rbi-policy",
    "date": "2026-11-12",
    "slot": "1635",
-   "when": "16:35",
+   "when": "Thu · 16:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -238,7 +344,7 @@
    },
    "date": "2026-11-12",
    "slot": "1635",
-   "when": "16:35",
+   "when": "Thu · 16:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -262,7 +368,7 @@
    },
    "date": "2026-11-12",
    "slot": "1605",
-   "when": "16:05",
+   "when": "Thu · 16:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -286,12 +392,12 @@
    },
    "date": "2026-11-12",
    "slot": "1605",
-   "when": "16:05",
+   "when": "Thu · 16:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1455"
+    "date": "2026-11-11",
+    "slot": "1305"
    }
   },
   {
@@ -310,7 +416,7 @@
    },
    "date": "2026-11-12",
    "slot": "1535",
-   "when": "15:35",
+   "when": "Thu · 15:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -334,7 +440,7 @@
    },
    "date": "2026-11-12",
    "slot": "1535",
-   "when": "15:35",
+   "when": "Thu · 15:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -358,7 +464,7 @@
    },
    "date": "2026-11-12",
    "slot": "1505",
-   "when": "15:05",
+   "when": "Thu · 15:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -383,7 +489,7 @@
    "thread": "q2-results-2026",
    "date": "2026-11-12",
    "slot": "1435",
-   "when": "14:35",
+   "when": "Thu · 14:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -407,7 +513,7 @@
    },
    "date": "2026-11-12",
    "slot": "1335",
-   "when": "13:35",
+   "when": "Thu · 13:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -432,7 +538,7 @@
    },
    "date": "2026-11-12",
    "slot": "1305",
-   "when": "13:05",
+   "when": "Thu · 13:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -465,7 +571,7 @@
    },
    "date": "2026-11-12",
    "slot": "1235",
-   "when": "12:35",
+   "when": "Thu · 12:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -499,7 +605,7 @@
    },
    "date": "2026-11-12",
    "slot": "1235",
-   "when": "12:35",
+   "when": "Thu · 12:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -523,7 +629,7 @@
    },
    "date": "2026-11-12",
    "slot": "1205",
-   "when": "12:05",
+   "when": "Thu · 12:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -560,7 +666,7 @@
    },
    "date": "2026-11-12",
    "slot": "1135",
-   "when": "11:35",
+   "when": "Thu · 11:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -584,7 +690,7 @@
    },
    "date": "2026-11-12",
    "slot": "1135",
-   "when": "11:35",
+   "when": "Thu · 11:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -608,7 +714,7 @@
    },
    "date": "2026-11-12",
    "slot": "1105",
-   "when": "11:05",
+   "when": "Thu · 11:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -633,7 +739,7 @@
    },
    "date": "2026-11-12",
    "slot": "1035",
-   "when": "10:35",
+   "when": "Thu · 10:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -657,7 +763,7 @@
    },
    "date": "2026-11-12",
    "slot": "1035",
-   "when": "10:35",
+   "when": "Thu · 10:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -681,7 +787,7 @@
    },
    "date": "2026-11-12",
    "slot": "1035",
-   "when": "10:35",
+   "when": "Thu · 10:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -716,7 +822,7 @@
    },
    "date": "2026-11-12",
    "slot": "1005",
-   "when": "10:05",
+   "when": "Thu · 10:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -741,7 +847,7 @@
    "thread": "it-sector",
    "date": "2026-11-12",
    "slot": "0925",
-   "when": "9:25",
+   "when": "Thu · 9:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -765,7 +871,7 @@
    },
    "date": "2026-11-12",
    "slot": "0925",
-   "when": "9:25",
+   "when": "Thu · 9:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -789,63 +895,12 @@
    },
    "date": "2026-11-12",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Thu · 8:45",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-06",
+    "date": "2026-11-09",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs buy ₹12,563 crore on Wednesday",
-   "line": "Foreign investors were big buyers again while domestic funds sold about ₹8,435 crore",
-   "more": [
-    "FII gross purchases were about ₹30,087 crore against ₹17,524 crore of sales",
-    "November FPI inflows now total about ₹66,302 crore, one tracker says",
-    "Figures are provisional exchange data via aggregators"
-   ],
-   "src": {
-    "title": "FII DII Data · 11 Nov 2026",
-    "url": "https://www.quantsapp.com/fii-dii"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-12",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent rebounds as Iran talks stall",
-   "line": "Brent settled up about 1.4% near $92.76 after Iran ruled out sending out enriched material",
-   "more": [
-    "Bloomberg says US-Iran talks made little progress",
-    "Oil had hit 11-week lows earlier in the week"
-   ],
-   "src": {
-    "title": "Global Oil Prices Rise Amid Fading Expectations for U.S.-Iran Talks; Brent Up 1.4%",
-    "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008842078"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-12",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "0700"
    }
   },
   {
@@ -893,8 +948,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-06",
-    "slot": "0700"
+    "date": "2026-11-07",
+    "slot": "0800"
    }
   },
   {
@@ -1031,11 +1086,11 @@
    "date": "2026-11-11",
    "slot": "1535",
    "when": "Wed · 15:35",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1455"
+    "date": "2026-11-11",
+    "slot": "1535"
    }
   },
   {
@@ -1394,8 +1449,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1625"
+    "date": "2026-11-07",
+    "slot": "0800"
    }
   },
   {
@@ -1779,8 +1834,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1225"
+    "date": "2026-11-07",
+    "slot": "0800"
    }
   },
   {
@@ -1879,497 +1934,6 @@
    "first_seen": {
     "date": "2026-11-07",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "us-jobs",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "US adds 165,000 jobs, far above forecasts",
-   "line": "Payrolls beat the ~65,000 estimate; unemployment fell to 4.1% from 4.2%",
-   "more": [
-    "Wages rose 0.4% on the month, above forecasts",
-    "August and September revised up by 84,000",
-    "Odds of a Fed rate hike next month rose to 78%"
-   ],
-   "src": {
-    "title": "Reuters via Investing.com: US job growth beats expectations in October; unemployment rate falls to 4.1%",
-    "url": "https://www.investing.com/news/economic-indicators/us-job-growth-beats-expectations-in-october-unemployment-rate-falls-to-41-5008194"
-   },
-   "date": "2026-11-06",
-   "slot": "2100",
-   "when": "Fri · 21:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1355"
-   }
-  },
-  {
-   "key": "bosch-bonus",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Bosch approves 1:5 split and 3:1 bonus",
-   "line": "Each share becomes 20 after both actions; Q2 consolidated profit about ₹840 cr",
-   "more": [
-    "Standalone Q2 profit up about 21.7% to ₹674.6 cr",
-    "Needs shareholder approval; record date not yet set",
-    "Stock slipped 4.3% from its day's high of ₹52,650"
-   ],
-   "src": {
-    "title": "Business Standard: Bosch slips 4% from day's high; announces 1:5 stock split, 3:1 bonus issue",
-    "url": "https://www.business-standard.com/markets/news/bosch-slips-4-from-day-s-high-announces-1-5-stock-split-3-1-bonus-issue-126110601033_1.html"
-   },
-   "date": "2026-11-06",
-   "slot": "1800",
-   "when": "Fri · 18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1155"
-   }
-  },
-  {
-   "key": "m-m-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "M&M ends as top Sensex gainer, up 6.15%",
-   "line": "Auto strength in Q2 outweighed a cut to its tractor outlook",
-   "more": [
-    "Consolidated Q2 profit rose 25% to ₹4,588 cr",
-    "Jefferies kept Buy with a ₹4,000 target"
-   ],
-   "src": {
-    "title": "The Tribune: Dhanteras bonanza on D-Street! Sensex jumps 1,718 points, Nifty tops 25,000",
-    "url": "https://www.tribuneindia.com/news/business/dhanteras-bonanza-on-d-street-sensex-jumps-1718-points-nifty-tops-25000"
-   },
-   "date": "2026-11-06",
-   "slot": "1555",
-   "when": "Fri · 15:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "0925"
-   }
-  },
-  {
-   "key": "profit-booking",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Analysts warn the rally looks stretched",
-   "line": "After seven straight gains, some expect profit-taking next week",
-   "more": [
-    "Gains were narrow: mid and small caps fell",
-    "India VIX rose about 10% during the day"
-   ],
-   "src": {
-    "title": "The Tribune: Dhanteras bonanza on D-Street! Sensex jumps 1,718 points, Nifty tops 25,000",
-    "url": "https://www.tribuneindia.com/news/business/dhanteras-bonanza-on-d-street-sensex-jumps-1718-points-nifty-tops-25000"
-   },
-   "date": "2026-11-06",
-   "slot": "1555",
-   "when": "Fri · 15:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1555"
-   }
-  },
-  {
-   "key": "india-vix",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "India VIX jumps 10.5% to 17.22",
-   "line": "The fear gauge is rising alongside the rally, a sign of nervousness",
-   "more": [
-    "Global markets remain volatile after the US tech rout",
-    "US jobs data due at 7 pm IST"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex surges 1,300 pts, Nifty above 24,800; Nifty Bank rises 1%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
-   },
-   "date": "2026-11-06",
-   "slot": "1525",
-   "when": "Fri · 15:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1425"
-   }
-  },
-  {
-   "key": "hindalco-novelis",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Hindalco posts record Q2, profit up 59%",
-   "line": "Consolidated profit of ₹7,533 cr beat estimates; revenue rose 39% to ₹91,708 cr",
-   "more": [
-    "Novelis profit up 29% to $210 mn on a 25% sales rise",
-    "Net debt to EBITDA rose to 1.80x from 1.23x",
-    "Results came after the stock fell up to 5% intraday"
-   ],
-   "src": {
-    "title": "Zee Business: Hindalco Q2 results — profit rises 59% to Rs 7,533 crore, revenue jumps 39%; beats estimates",
-    "url": "https://www.zeebiz.com/companies/news-hindalco-q2-results-profit-rises-59-to-rs-7533-crore-revenue-jumps-39-beats-estimates-405227"
-   },
-   "date": "2026-11-06",
-   "slot": "1425",
-   "when": "Fri · 14:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1055"
-   }
-  },
-  {
-   "key": "it-rotation",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT tops sector gains for the day",
-   "line": "Nifty IT up about 1.9% as investors move from global AI stocks to Indian tech",
-   "more": [
-    "Private bank stocks also strong in the afternoon",
-    "Mid and small caps continue to lag"
-   ],
-   "src": {
-    "title": "DSIJ: Sensex rises 450 points, Nifty 50 gains 0.32% as IT shares rally; mid and small caps underperform",
-    "url": "https://insights.dsij.in/dsijarticledetail/sensex-rises-450-points-nifty-50-gains-032-as-it-shares-rally-mid-and-small-caps-underperform-60342"
-   },
-   "date": "2026-11-06",
-   "slot": "1425",
-   "when": "Fri · 14:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1025"
-   }
-  },
-  {
-   "key": "europe-open",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Europe opens lower as AI fears spread",
-   "line": "Euro Stoxx 50 futures fell about 0.9% in Asian hours; Italy and Spain lead early losses",
-   "more": [
-    "STOXX 600 closed 0.38% lower on Thursday",
-    "Chipmakers Infineon and Soitec led Thursday's drop"
-   ],
-   "src": {
-    "title": "investingLive: European stock market open — stocks stumble as AI fears spook markets",
-    "url": "https://investinglive.com/stocks/european-stock-market-open-stocks-stumble-as-ai-fears-spook-markets-italy-and-spain-lead-losses/"
-   },
-   "date": "2026-11-06",
-   "slot": "1355",
-   "when": "Fri · 13:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1355"
-   }
-  },
-  {
-   "key": "lic-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "LIC falls 4% as new-business value misses",
-   "line": "Profit rose about 20%, but value of new business (VNB) missed and premium growth was weak",
-   "more": [
-    "Annualised premium (APE) grew only 3.8% to ₹17,004 cr",
-    "Stock fell to a day's low of ₹391.6",
-    "Net premium income rose about 16%"
-   ],
-   "src": {
-    "title": "Business Standard: LIC shares fall 4% as Q2 VNB misses estimates; APE growth remains weak",
-    "url": "https://www.business-standard.com/markets/news/lic-shares-fall-4-as-q2-vnb-misses-estimates-ape-growth-remains-weak-126110600611_1.html"
-   },
-   "date": "2026-11-06",
-   "slot": "1325",
-   "when": "Fri · 13:25",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1325"
-   }
-  },
-  {
-   "key": "hexacom-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Bharti Hexacom Q2 profit up 34%",
-   "line": "Profit rose to ₹566 cr from ₹421 cr; revenue up 11.4% to ₹2,582 cr",
-   "more": [
-    "Board approved the results on Nov 5",
-    "Airtel's listed unit for Rajasthan and the Northeast"
-   ],
-   "src": {
-    "title": "Indian Television: Bharti Hexacom Q2 profit rises 34% to Rs 566 crore",
-    "url": "https://indiantelevision.com/iworld/bharti-hexacom-q2-profit-rises-34-per-cent-to-rs-566-crore"
-   },
-   "date": "2026-11-06",
-   "slot": "1325",
-   "when": "Fri · 13:25",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1325"
-   }
-  },
-  {
-   "key": "astral-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Astral tumbles 12% after margin squeeze",
-   "line": "Q2 profit fell about 5.6% as EBITDA margin shrank to 13.1%; stock at 52-week low",
-   "more": [
-    "Hit a 10% lower circuit early in trade",
-    "Board declared an interim dividend",
-    "Margin was 16.3% a year earlier"
-   ],
-   "src": {
-    "title": "Business Standard: Astral share price tumbles over 12% post Q2 earnings",
-    "url": "https://www.business-standard.com/amp/markets/news/astral-share-price-tumbles-over-12-post-q2-earnings-126110600517_1.html"
-   },
-   "date": "2026-11-06",
-   "slot": "1255",
-   "when": "Fri · 12:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1255"
-   }
-  },
-  {
-   "key": "titan-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Brokers back Titan after Q2; Jefferies upgrades",
-   "line": "Jefferies upgrades to Buy (₹6,000); Citi keeps Buy (₹5,875); shares up 2–4%",
-   "more": [
-    "Excluding a ₹671 cr one-off gain, profit rose 54%",
-    "Citi flags whether H2 sales growth can last",
-    "Motilal Oswal reiterated Buy at ₹5,700"
-   ],
-   "src": {
-    "title": "Moneycontrol via TradingView: Titan shares rally 4% after Q2 beat; Jefferies, Citi say Buy",
-    "url": "https://www.tradingview.com/news/moneycontrol:007e64228094b:0-titan-shares-rally-4-after-q2-results-beat-estimates-jefferies-citi-say-buy/"
-   },
-   "date": "2026-11-06",
-   "slot": "1255",
-   "when": "Fri · 12:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "0925"
-   }
-  },
-  {
-   "key": "glenmark-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Glenmark falls on sharp Q2 drop",
-   "line": "Revenue fell to ₹4,247 cr from ₹6,047 cr; profit slid to ₹264 cr from ₹610 cr",
-   "more": [
-    "Full-year revenue and margin guidance kept",
-    "North America core business grew about 31%"
-   ],
-   "src": {
-    "title": "BusinessToday: Glenmark Pharma shares fall 4% after Q2 profit plunges 57%, revenue drops 30%",
-    "url": "https://www.businesstoday.in/markets/stocks/story/glenmark-pharma-shares-fall-4-after-q2-profit-plunges-57-revenue-drops-30-566092-2026-11-06"
-   },
-   "date": "2026-11-06",
-   "slot": "1255",
-   "when": "Fri · 12:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1255"
-   }
-  },
-  {
-   "key": "britannia-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Britannia slips on thin margin gains",
-   "line": "Profit up about 10% and revenue at ₹5,598 cr, but operating profit rose only ~6%",
-   "more": [
-    "Shares down about 1.9% at ₹4,886",
-    "Volume growth was a strong 13%",
-    "Stock is down about 17% so far in 2026"
-   ],
-   "src": {
-    "title": "Zee Business: Britannia shares slide after Q2 results despite 13% volume growth",
-    "url": "https://www.zeebiz.com/market-news/news-britannia-shares-slide-after-q2-results-despite-13-volume-growth-heres-what-disappointed-405207"
-   },
-   "date": "2026-11-06",
-   "slot": "1155",
-   "when": "Fri · 11:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1155"
-   }
-  },
-  {
-   "key": "groww-slide",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Block deals weigh on Groww shares",
-   "line": "About 1.41% of equity changed hands at ₹211–216 in multiple block deals",
-   "more": [
-    "Stock fell about 7% to ₹208.55 at the low",
-    "Its worst fall since May 12, per Bloomberg",
-    "Another report puts the deal at 2.8% of equity; figures differ"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex jumps 400 pts, Nifty near 24,600; Nifty Realty down 2%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
-   },
-   "date": "2026-11-06",
-   "slot": "1055",
-   "when": "Fri · 10:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "1025"
-   }
-  },
-  {
-   "key": "asia-tech",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Asia pares losses after early crash",
-   "line": "Kospi recovers to about −4% and Taiwan to −3% after earlier drops of over 8%",
-   "more": [
-    "Nikkei was still down about 5.3%",
-    "Worries over tighter US scrutiny of AI data centres drove the sell-off",
-    "Korea's circuit breaker paused trading early"
-   ],
-   "src": {
-    "title": "Asianet Newsable: Indian markets open marginally higher despite global tech sell-off",
-    "url": "https://newsable.asianetnews.com/business/indian-markets-open-marginally-higher-despite-global-tech-sell-off-articleshow-1agkvsk"
-   },
-   "date": "2026-11-06",
-   "slot": "0955",
-   "when": "Fri · 9:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "airtel-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Airtel rises as brokers back Q2",
-   "line": "Shares rise over 2% as CLSA raises its target and HSBC keeps Buy at ₹2,500",
-   "more": [
-    "Q2 profit up 31% on year",
-    "Brokers cite gains in ARPU, or revenue per user"
-   ],
-   "src": {
-    "title": "Zee Business: Bharti Airtel shares jump after Q2 show; CLSA hikes target, HSBC maintains Buy",
-    "url": "https://www.zeebiz.com/markets/stocks/news-bharti-airtel-shares-rises-after-q2-show-clsa-hikes-target-hsbc-maintains-buy-check-fresh-targets-405204"
-   },
-   "date": "2026-11-06",
-   "slot": "0955",
-   "when": "Fri · 9:55",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "0925"
-   }
-  },
-  {
-   "key": "ongc-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "ONGC's profit fell from the June quarter",
-   "line": "Standalone profit fell 9% from Q1 and revenue fell 5.6%, despite the 57% annual jump",
-   "more": [
-    "Shares closed 2.1% lower at ₹230 on Thursday",
-    "Production challenges were also cited",
-    "Record date for the ₹8 dividend is Nov 12"
-   ],
-   "src": {
-    "title": "Whalesbook: ONGC Q2 profit jumps 57% to ₹15,489 crore; dividend announced",
-    "url": "https://www.whalesbook.com/news/English/energy/ONGC-Q2-Profit-Jumps-57percent-to-indian-rupee15489-Crore-Dividend-Announced/6aeca3ab4fc30694db5f6f7e"
-   },
-   "date": "2026-11-06",
-   "slot": "0955",
-   "when": "Fri · 9:55",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "0955"
-   }
-  },
-  {
-   "key": "results-focus",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Airtel, Titan, ONGC, LIC in focus",
-   "line": "Q2 results announced on Thursday put the four large caps in focus today",
-   "more": [
-    "ONGC: profit up 57%, ₹8 interim dividend",
-    "Titan and LIC reported higher profits",
-    "Reports of Airtel's profit differ; check the filing"
-   ],
-   "src": {
-    "title": "ScanX: Stocks to watch today, November 6, 2026",
-    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-november-6-2026-rubicon-astral-bharti-airtel/55474236"
-   },
-   "date": "2026-11-06",
-   "slot": "0845",
-   "when": "Fri · 8:45",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "sme-listings",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Four SME IPOs list today",
-   "line": "Johnsoncab Electricals, HGS (India), Maxwell Engineering and Vectras Enprocon debut",
-   "more": [
-    "HGS and Maxwell on NSE SME",
-    "Vectras and Johnsoncab on BSE SME"
-   ],
-   "src": {
-    "title": "IPO Watch: New IPO listings today",
-    "url": "https://ipowatch.in/new-ipo-listing-today-ipo-listing-date/"
-   },
-   "date": "2026-11-06",
-   "slot": "0845",
-   "when": "Fri · 8:45",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-06",
-    "slot": "0845"
    }
   }
  ]
