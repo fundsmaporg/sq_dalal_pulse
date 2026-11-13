@@ -1,60 +1,138 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-13T15:06:47+05:30",
+ "generated_at": "2026-11-13T15:38:53+05:30",
  "date": "2026-11-13",
- "slot": "1505",
- "slot_label": "15:05",
+ "slot": "1535",
+ "slot_label": "15:35",
  "stage": "Closing mood",
- "asof": "2026-11-13T15:05:00+05:30",
+ "asof": "2026-11-13T15:35:00+05:30",
  "nifty": {
-  "value": 25114.95,
-  "pct": -0.73,
-  "chg": -184.4,
-  "approx": false,
-  "asof_quote": "15:00"
+  "value": 25144.3,
+  "pct": -0.61,
+  "chg": -155.05,
+  "approx": false
  },
  "mood": {
-  "label": "Heavy into close",
-  "score": -0.45,
-  "summary": "Indian stocks are set to end the week with a clear loss, stuck near the day's lows as an inflation shock hits rate-sensitive sectors and lenders, with only pharma holding up.",
+  "label": "Winning run snaps",
+  "score": -0.35,
+  "summary": "Indian stocks ended the week lower, snapping a three-day winning run, as price-pressure worries hit banks, realty, autos and cement, though volatility eased and losses were off the lows.",
   "detail": {
-   "leaders": "Pharma and healthcare, the best-performing sectors",
-   "laggards": "Nifty Realty and Nifty Auto, the weakest sectors",
-   "tone": "A live read with half an hour left. Steady with the previous note: the market has held near its lows for most of the afternoon without a rebound.",
+   "leaders": "Media, the most resilient sector",
+   "laggards": "Nifty Realty, Nifty Auto and Nifty Cement",
+   "tone": "A read of the finished session. A little firmer than the previous note: the market recovered some ground into the close but still ended clearly lower.",
    "watch": [
-    "Whether the market recovers any ground in the final half hour",
     "Q2 results from Eicher Motors, ABB India and Grasim after the close",
-    "Provisional FII and DII flows after the session"
+    "Provisional FII and DII flow data for the day",
+    "Whether rate-hike worries carry into next week"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex falls 400 pts, Nifty near 25,100; Shriram Fin, Tata Motors PV top losers",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+    "title": "Stock Market Close: Sensex snaps 3-day winning run, ends 319 pts lower; Nifty at 25,144; VIX down 7%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
    },
    "movers": {
     "down": {
-     "summary": "Realty and autos are the weakest sectors as the inflation shock bites",
-     "why": "October inflation at a two-year high of 6.09% has hit risk sentiment, weighing most on rate-sensitive sectors.",
+     "summary": "Realty, autos and cement fell the most on price-pressure worries",
+     "why": "Concerns about price pressures after inflation crossed 6% weighed on rate-sensitive and cyclical sectors.",
      "names": [
       {
        "name": "Nifty Realty",
        "dir": "down",
-       "line": "One of the two sectors falling the most into the final half hour"
+       "line": "Among the worst sectors, giving back part of Thursday's sharp rally"
       },
       {
        "name": "Nifty Auto",
        "dir": "down",
-       "line": "The other worst sector, with Tata Motors PV among the top Nifty losers"
+       "line": "Among the worst sectors, with Tata Motors PV a top Nifty loser"
+      },
+      {
+       "name": "Nifty Cement",
+       "dir": "down",
+       "line": "One of the three sectors that declined the most"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex falls 400 pts, Nifty near 25,100; Shriram Fin, Tata Motors PV top losers",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+      "title": "Stock Market Close: Sensex snaps 3-day winning run, ends 319 pts lower; Nifty at 25,144; VIX down 7%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "market-close",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Three-day winning run snaps on inflation worries",
+   "line": "Banks, financials, realty and metals weighed amid concerns about price pressure",
+   "more": [
+    "The Sensex had fallen nearly 611 points at its intraday low before recovering",
+    "India VIX fell 7% on the day"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex snaps 3-day winning run, ends 319 pts lower; Nifty at 25,144; VIX down 7%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+   },
+   "date": "2026-11-13",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "1635"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FII inflows near ₹73,500 crore, highest since 2025",
+   "line": "Foreign investors' recent buying is the highest since July 2025, one report says",
+   "more": [
+    "Foreign buying has continued even as inflation topped 6%",
+    "Domestic institutions have been net sellers through the rally"
+   ],
+   "src": {
+    "title": "Sensex, Nifty Fall As CPI Tops 6%; FIIs Pump In Rs 73,500 Crore, Highest Since July 2025 - Are Bears Returning",
+    "url": "https://www.goodreturns.in/news/sensex-nifty-fall-cpi-fiis-inflow-rs-73500-crore-highest-since-july-2025-bulls-bears-stock-market-1546719.html"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-13",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-07",
+    "slot": "0800"
+   }
+  },
+  {
+   "key": "results-after-hours",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Eicher, ABB India and Grasim report tonight",
+   "line": "Q2 FY27 numbers from the three are due after the close",
+   "more": [
+    "Their results will shape Monday's open",
+    "Eicher Motors' last reported quarterly profit was ₹1,463 crore"
+   ],
+   "src": {
+    "title": "Stocks to watch, Nov 13: ABB India, ZEEL, Eicher Motors, Ola Electric, Religare Enterprises, TMPV, Vi",
+    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-13-abb-india-zeel-eicher-motors-ola-electric-religare-enterprises-tata-motors-pv-vi/article-203392/"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-13",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1405"
+   }
+  },
   {
    "key": "india-cpi",
    "tag": "Macro",
@@ -74,7 +152,7 @@
    "slot": "1505",
    "when": "15:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-08",
     "slot": "outlook"
@@ -98,35 +176,10 @@
    "slot": "1505",
    "when": "15:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "results-after-hours",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Eicher, ABB India and Grasim report tonight",
-   "line": "Q2 FY27 numbers from the three are due after the market closes",
-   "more": [
-    "Their results will set the tone for Monday's session",
-    "Eicher Motors' last reported quarterly profit was ₹1,463 crore"
-   ],
-   "src": {
-    "title": "Stocks to watch, Nov 13: ABB India, ZEEL, Eicher Motors, Ola Electric, Religare Enterprises, TMPV, Vi",
-    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-13-abb-india-zeel-eicher-motors-ola-electric-religare-enterprises-tata-motors-pv-vi/article-203392/"
-   },
-   "thread": "q2-results-2026",
-   "date": "2026-11-13",
-   "slot": "1505",
-   "when": "15:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-13",
-    "slot": "1405"
    }
   },
   {
@@ -662,31 +715,6 @@
    "first_seen": {
     "date": "2026-11-13",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs buy ₹7,831 crore on Thursday",
-   "line": "Foreign investors stayed heavy net buyers while DIIs sold ₹6,331 crore",
-   "more": [
-    "Figures are provisional NSE and BSE cash-market data",
-    "FIIs also net bought about ₹3,557 crore of index futures"
-   ],
-   "src": {
-    "title": "FII DII Data based on activity on NSE, BSE",
-    "url": "https://web.stockedge.com/fii-activity"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-13",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-07",
-    "slot": "0800"
    }
   },
   {
@@ -1882,30 +1910,6 @@
    "first_seen": {
     "date": "2026-11-07",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "market-close",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Benchmarks close higher after volatile day",
-   "line": "Both indices swung from early gains to afternoon losses before closing in the green",
-   "more": [
-    "One report gave a different Sensex close that matches Sunday's Muhurat close instead",
-    "The broader Nifty Next 50 also ended higher"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market Close — Sensex ends volatile trade 107 pts higher, Nifty at 25,045; PSU Bank index up 3%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
-   },
-   "date": "2026-11-09",
-   "slot": "1635",
-   "when": "Mon · 16:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "1635"
    }
   },
   {
