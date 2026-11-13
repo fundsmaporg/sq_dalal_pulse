@@ -1,61 +1,55 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-13T13:09:53+05:30",
+ "generated_at": "2026-11-13T13:37:25+05:30",
  "date": "2026-11-13",
- "slot": "1305",
- "slot_label": "13:05",
+ "slot": "1335",
+ "slot_label": "13:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-13T13:05:00+05:30",
+ "asof": "2026-11-13T13:35:00+05:30",
  "nifty": {
-  "value": 25114.55,
-  "pct": -0.73,
-  "chg": -184.8,
+  "value": 25127.85,
+  "pct": -0.68,
+  "chg": -171.5,
   "approx": false,
-  "asof_quote": "13:00"
+  "asof_quote": "13:28"
  },
  "mood": {
-  "label": "Selling deepens",
+  "label": "Pinned near lows",
   "score": -0.45,
-  "summary": "Selling has deepened in Indian stocks into the afternoon, taking the market back toward the day's lows, with realty, autos and banks under pressure and only pharma holding up.",
+  "summary": "Indian stocks are stuck near the day's lows in the afternoon, with rate-sensitive realty and autos leading the decline and pharma and healthcare the only sectors in the green.",
   "detail": {
-   "leaders": "Pharma and healthcare, the only sectors rising",
-   "laggards": "Realty and autos, the weakest sectors; Bank Nifty",
-   "tone": "A live read of early-afternoon trade. Weaker than the previous note: the losses have widened back toward the morning lows after a mid-morning recovery faded.",
+   "leaders": "Pharma and healthcare, the only rising sectors",
+   "laggards": "Nifty Realty and Nifty Auto, the weakest sectors",
+   "tone": "A live read of mid-afternoon trade. Barely changed from the previous note: the market has steadied just off the day's low but shows no sign of a rebound.",
    "watch": [
-    "Whether the market holds above the morning low",
-    "Any easing in December rate-hike worries",
-    "Crude near $95 a barrel"
+    "Whether buyers defend the day's low into the close",
+    "Any shift in December rate-hike expectations",
+    "Foreign flows after a week of heavy buying"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex falls 400 pts; Nifty Realty down 1% as Phoenix, DLF shares weigh",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+    "title": "Sensex Drops Over 400 Pts, Nifty Declines Below 25,150: Why Is Stock Market Falling Today?",
+    "url": "https://www.etvbharat.com/en/business/stock-market-on-november-13-2026-sensex-nifty-retail-inflation-fii-buying-enn26111301333"
    },
    "movers": {
     "down": {
-     "summary": "Rate-sensitive realty, autos and banks lead the afternoon slide",
-     "why": "Worries about price pressures after inflation crossed the RBI's ceiling are weighing on rate-sensitive sectors.",
+     "summary": "Realty and autos lead the decline on rate-hike and inflation worries",
+     "why": "Retail inflation at 6.09% and expectations of a December RBI hike are hitting rate-sensitive sectors hardest.",
      "names": [
       {
        "name": "Nifty Realty",
        "dir": "down",
        "move": "-1%",
-       "line": "Phoenix Mills and DLF are the main drags after Thursday's sharp rally"
+       "line": "Phoenix Mills and DLF are the main drags"
       },
       {
        "name": "Nifty Auto",
        "dir": "down",
-       "line": "Among the two weakest sectors as rate-hike worries build"
-      },
-      {
-       "name": "Bank Nifty",
-       "dir": "down",
-       "move": "-0.97%",
-       "line": "Lenders broadly lower, with banking and financial stocks sold"
+       "line": "One of the two weakest sectors this afternoon"
       }
      ],
      "src": {
       "title": "Stock Market LIVE: Sensex falls 400 pts; Nifty Realty down 1% as Phoenix, DLF shares weigh",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
      }
     }
    }
@@ -63,27 +57,76 @@
  },
  "insights": [
   {
+   "key": "market-drivers",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Why the market is falling today",
+   "line": "Profit-taking, December rate-hike bets and 6.09% inflation are weighing together",
+   "more": [
+    "The fall follows a three-session rally",
+    "Rate-sensitive sectors are bearing the brunt"
+   ],
+   "src": {
+    "title": "Sensex Drops Over 400 Pts, Nifty Declines Below 25,150: Why Is Stock Market Falling Today?",
+    "url": "https://www.etvbharat.com/en/business/stock-market-on-november-13-2026-sensex-nifty-retail-inflation-fii-buying-enn26111301333"
+   },
+   "thread": "rbi-policy",
+   "date": "2026-11-13",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1335"
+   }
+  },
+  {
    "key": "sector-drag",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "Losses widen as realty and autos slide",
-   "line": "Realty and autos are the weakest sectors while pharma and healthcare rise",
+   "title": "Realty and autos are the weakest sectors",
+   "line": "Nifty Realty is down about 1%, with Phoenix Mills and DLF the main drags",
    "more": [
-    "The selling has spread across banking, financial, auto and IT stocks",
-    "Global technology shares advanced and oil steadied, but Indian stocks still fell"
+    "Autos are the other sector falling the most",
+    "Banks have also been under pressure through the session"
    ],
    "src": {
     "title": "Stock Market LIVE: Sensex falls 400 pts; Nifty Realty down 1% as Phoenix, DLF shares weigh",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
    },
    "date": "2026-11-13",
-   "slot": "1305",
-   "when": "13:05",
+   "slot": "1335",
+   "when": "13:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1105"
+   }
+  },
+  {
+   "key": "pharma-outperform",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Pharma and healthcare stay in the green",
+   "line": "The two defensive sectors are the best performers in a weak afternoon",
+   "more": [
+    "Pharma has held up since the open",
+    "Sun Pharma, Cipla and Dr Reddy's have been among the gainers today"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex falls 400 pts; Nifty Realty down 1% as Phoenix, DLF shares weigh",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+   },
+   "date": "2026-11-13",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1005"
    }
   },
   {
@@ -104,7 +147,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1335"
@@ -128,7 +171,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1235"
@@ -205,30 +248,6 @@
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1205"
-   }
-  },
-  {
-   "key": "pharma-outperform",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Sun Pharma joins pharma's rally",
-   "line": "Sun Pharma is among the top Sensex gainers as pharma stays the strongest sector",
-   "more": [
-    "Cipla and Dr Reddy's led pharma gains at the open",
-    "Pharma and healthcare have outperformed all day"
-   ],
-   "src": {
-    "title": "Today's Market: Sensex Today Trades Lower, Nifty Below 25,250; HDFC Bank, Titan Company Top Losers",
-    "url": "https://www.equitymaster.com/indian-share-markets/11/13/2026/Sensex-Today-Trades-Lower--Nifty-Below-25250--HDFC-Bank--Titan-Company-Top-Losers"
-   },
-   "date": "2026-11-13",
-   "slot": "1205",
-   "when": "12:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-13",
-    "slot": "1005"
    }
   },
   {
