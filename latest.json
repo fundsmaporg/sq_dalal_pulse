@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-13T16:06:32+05:30",
+ "generated_at": "2026-11-13T16:37:56+05:30",
  "date": "2026-11-13",
- "slot": "1605",
- "slot_label": "16:05",
+ "slot": "1635",
+ "slot_label": "16:35",
  "stage": "Post-market mood",
- "asof": "2026-11-13T16:05:00+05:30",
+ "asof": "2026-11-13T16:35:00+05:30",
  "nifty": {
   "value": 25144.3,
   "pct": -0.61,
@@ -15,14 +15,14 @@
  "mood": {
   "label": "Run snaps",
   "score": -0.35,
-  "summary": "Indian stocks closed the week lower with broad-based losses, ending a three-day winning run as price-pressure worries hit financials, realty, autos and cement.",
+  "summary": "Indian stocks ended the week lower with weak breadth, snapping a three-day winning run as inflation worries weighed on financials, realty, autos and cement.",
   "detail": {
    "leaders": "Media, the most resilient sector",
    "laggards": "Nifty Realty, Nifty Auto and Nifty Cement",
-   "tone": "A read of the finished session. Unchanged from the previous note: the market closed lower after spending most of the day near its lows, with breadth weak.",
+   "tone": "A read of the finished session, with the first post-close results in. The session read is unchanged from the previous note; Grasim's mixed numbers are the main new development.",
    "watch": [
-    "Q2 results from Eicher Motors, ABB India and Grasim after the close",
-    "Provisional FII and DII flows for Friday",
+    "Eicher Motors and ABB India results, still awaited",
+    "Friday's provisional FII and DII flows, not yet out",
     "Whether rate-hike worries carry into Monday"
    ],
    "src": {
@@ -47,7 +47,7 @@
       {
        "name": "Nifty Cement",
        "dir": "down",
-       "line": "One of the three sectors that declined the most; Grasim among top losers"
+       "line": "One of the three sectors that declined the most"
       }
      ],
      "src": {
@@ -60,22 +60,55 @@
  },
  "insights": [
   {
+   "key": "grasim-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Grasim: standalone profit jumps, group in loss",
+   "line": "Standalone profit rose 186.5% to ₹2,306 crore; consolidated net loss was ₹234 crore",
+   "more": [
+    "Standalone profit was lifted by ₹3,968 crore of dividend income from UltraTech",
+    "The consolidated loss includes a ₹767 crore charge tied to its Canada pulp venture",
+    "Consolidated revenue rose 26% to ₹50,105 crore"
+   ],
+   "src": {
+    "title": "Grasim Industries Q2FY27 results: Net profit jumps to ₹2,306 crore",
+    "url": "https://www.business-standard.com/companies/quarterly-results/grasim-industries-q2fy27-results-net-profit-jumps-to-2-306-crore-126111300877_1.html"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Grasim Industries (standalone)",
+    "quarter": "Q2 FY27",
+    "revenue_yoy_pct": 32.6,
+    "profit_cr": 2306,
+    "profit_yoy_pct": 186.5
+   },
+   "date": "2026-11-13",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1635"
+   }
+  },
+  {
    "key": "market-close",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "Breadth weak as 38 Nifty stocks fall",
-   "line": "Only 11 Nifty 50 stocks rose; midcaps fell 0.24% and smallcaps 0.26%",
+   "title": "Weak breadth as the winning run snaps",
+   "line": "38 Nifty 50 stocks fell and only 11 rose; Shriram Finance was the top loser",
    "more": [
-    "Shriram Finance was the top loser, down about 3.37%",
-    "Tata Motors PV, Grasim, Hindalco and Adani Enterprises also lagged"
+    "Midcaps fell 0.24% and smallcaps 0.26%",
+    "India VIX fell 7% despite the decline"
    ],
    "src": {
     "title": "Market wrap, Nov 13: Indices snap winning streak; SENSEX falls 319 pts, NIFTY50 ends at 25,144; Shriram Fin top loser",
     "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-13-indices-snap-winning-streak-sensex-falls-319-pts-nifty-50-ends-at-25-144-shriram-fin-top-loser/article-203442/"
    },
    "date": "2026-11-13",
-   "slot": "1605",
-   "when": "16:05",
+   "slot": "1635",
+   "when": "16:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -87,20 +120,20 @@
    "key": "fii-flows",
    "tag": "Flows",
    "impact": "pos",
-   "title": "November FII buying tops ₹73,500 crore",
-   "line": "Month-to-date FII net buying is about ₹73,566 crore; DIIs have sold about ₹46,835 crore",
+   "title": "November FII buying near ₹73,566 crore",
+   "line": "Month-to-date FII net buying stands at about ₹73,566 crore through Thursday",
    "more": [
-    "Thursday's provisional data showed FIIs buying ₹7,831 crore",
-    "Friday's provisional figures are not yet out"
+    "DIIs are net sellers for the month, by about ₹46,135 crore to ₹46,835 crore",
+    "Friday's provisional figures are not yet published"
    ],
    "src": {
-    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+    "title": "FII DII Data · 12 Nov 2026",
+    "url": "https://www.quantsapp.com/fii-dii"
    },
    "thread": "fii-flows",
    "date": "2026-11-13",
-   "slot": "1605",
-   "when": "16:05",
+   "slot": "1635",
+   "when": "16:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -127,7 +160,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1405"
