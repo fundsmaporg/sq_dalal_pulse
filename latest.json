@@ -1,37 +1,143 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-13T08:47:00+05:30",
+ "generated_at": "2026-11-13T09:27:15+05:30",
  "date": "2026-11-13",
- "slot": "0845",
- "slot_label": "8:45",
- "stage": "Pre-market mood",
- "asof": "2026-11-13T08:45:00+05:30",
+ "slot": "0925",
+ "slot_label": "9:25",
+ "stage": "Opening mood",
+ "asof": "2026-11-13T09:25:00+05:30",
  "nifty": {
-  "value": 25299.35,
-  "pct": 0.18,
-  "chg": 44.3,
-  "approx": false
+  "value": 25120,
+  "pct": -0.71,
+  "chg": -179,
+  "approx": true,
+  "asof_quote": "09:15"
  },
  "mood": {
-  "label": "Soft start likely",
-  "score": -0.15,
-  "summary": "Indian stocks look set for a slightly weaker start on Friday, with higher crude and a soft Wall Street session offsetting steady foreign buying and a firmer tone in Asian chip stocks.",
+  "label": "Weak open",
+  "score": -0.4,
+  "summary": "Indian stocks opened weaker than pre-open cues suggested, with selling spread across sectors as oil holds near its recent jump and global tech stays shaky.",
   "detail": {
-   "leaders": "Stocks with fresh corporate news such as Zee Entertainment; banks, backed by foreign buying",
-   "laggards": "Oil-sensitive stocks after crude's jump",
-   "tone": "A forward-looking read ahead of the open. Slightly softer than the previous note, as GIFT Nifty now points to a mildly lower start.",
+   "leaders": "Few pockets of strength in early trade",
+   "laggards": "Broad selling across sectors; Ola Electric after its Q2 results",
+   "tone": "A live read just after the open. Weaker than the previous note expected: the pre-open pointed to a mild dip, but the market opened with a sharper, broad-based fall.",
    "watch": [
-    "Whether crude extends its jump",
-    "Foreign buying, which has supported the market all week",
-    "Q2 results due through the day"
+    "Whether buyers step in after the gap-down open",
+    "Crude's direction after Thursday's jump",
+    "Foreign flows, which have supported the market all week"
    ],
    "src": {
-    "title": "Pre-Market Update: GIFT Nifty Signals Cautious Opening as Crude Oil Surges; Banking and FII Flows in Focus",
-    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-cautious-opening-as-crude-oil-surges-banking-and-fii-flows-in-focus-60428"
+    "title": "Sensex falls over 450 pts, Nifty slides below 25,150 amid weakness across sectors",
+    "url": "https://www.zeebiz.com/market-news/news-share-market-today-opening-bell-nifty50-nifty-bank-sensex-nov-13-2026-crude-oil-vodafone-idea-405503"
+   },
+   "movers": {
+    "down": {
+     "summary": "Selling is broad-based, with Ola Electric among the sharpest fallers",
+     "why": "Oil back near $95 a barrel and uncertainty in global tech are weighing on the open.",
+     "names": [
+      {
+       "name": "Ola Electric",
+       "dir": "down",
+       "move": "down over 4%",
+       "line": "Q2 revenue fell 39% and its loss widened from the previous quarter"
+      }
+     ],
+     "src": {
+      "title": "Stock Market LIVE: Sensex down 500 pts, Nifty below 25,150; Ola Electric shares down over 4%",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+     }
+    }
    }
   }
  },
  "insights": [
+  {
+   "key": "opening-bell",
+   "tag": "Opening",
+   "impact": "neg",
+   "title": "Market opens lower with broad selling",
+   "line": "Selling spread across sectors as oil climbed back to about $95 a barrel",
+   "more": [
+    "The open was weaker than GIFT Nifty had signalled",
+    "Global tech remains unsettled after Nvidia's CEO exit"
+   ],
+   "src": {
+    "title": "Sensex falls over 450 pts, Nifty slides below 25,150 amid weakness across sectors",
+    "url": "https://www.zeebiz.com/market-news/news-share-market-today-opening-bell-nifty50-nifty-bank-sensex-nov-13-2026-crude-oil-vodafone-idea-405503"
+   },
+   "date": "2026-11-13",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "ola-electric-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Ola Electric falls over 4% after Q2",
+   "line": "Shares slid after revenue fell 39% to ₹421 crore and the loss widened from Q1",
+   "more": [
+    "Q2 loss was ₹362 crore, narrower than a year ago but wider than Q1's ₹336 crore",
+    "Revenue came in below Kotak's estimate of ₹507 crore"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 500 pts, Nifty below 25,150; Ola Electric shares down over 4%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Ola Electric",
+    "quarter": "Q2 FY27",
+    "reaction_asof": "open",
+    "revenue_cr": 421,
+    "revenue_yoy_pct": -39,
+    "profit_cr": -362,
+    "reaction_pct": -4,
+    "src": {
+     "title": "Ola Electric Q2 revenue declines 39% to Rs 421 crore; net loss narrows to Rs 362 crore",
+     "url": "https://www.storyboard18.com/brand-marketing/ola-electric-q2-revenue-drops-39-percent-to-rs-421-crore-ws-l-114612.htm"
+    }
+   },
+   "date": "2026-11-13",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1635"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Brent steadies near $95.7 after jump",
+   "line": "Brent futures slipped 0.14% early on Friday; WTI eased to $88.3",
+   "more": [
+    "Both benchmarks surged in the previous session after attacks on Saudi energy sites",
+    "Brent had settled at $95.82 on Thursday, up 3.3%"
+   ],
+   "src": {
+    "title": "Sensex & Nifty 50 live updates today, 13 November: GIFT Nifty signals gap-down opening; crude oil, Nvidia and Asian markets in focus",
+    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-13-november-gift-nifty-signals-gap-down-opening-crude-oil-nvidia-and-asian-markets-in-focus-12805272"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-13",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-07",
+    "slot": "0800"
+   }
+  },
   {
    "key": "gift-nifty",
    "tag": "Opening",
@@ -50,7 +156,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "0845"
@@ -74,7 +180,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "0845"
@@ -99,7 +205,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "0845"
@@ -121,31 +227,6 @@
     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
    },
    "thread": "global-markets",
-   "date": "2026-11-13",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-07",
-    "slot": "0800"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent jumps 3.3% to $95.82",
-   "line": "Oil rebounded after Houthi attacks on Saudi energy sites, including a pipeline station",
-   "more": [
-    "WTI settled at $88.74, up 2.6%",
-    "Brent is still down about 20% so far in November"
-   ],
-   "src": {
-    "title": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions",
-    "url": "https://finance.yahoo.com/energy/articles/oil-falls-over-1-easing-045152522.html"
-   },
-   "thread": "crude-iran-war",
    "date": "2026-11-13",
    "slot": "0700",
    "when": "7:00",
@@ -354,38 +435,6 @@
     "url": "https://www.brecorder.com/news/40448589/india-october-inflation-tops-rbis-6-limit-strengthens-case-for-rate-hikes"
    },
    "thread": "rbi-policy",
-   "date": "2026-11-12",
-   "slot": "1635",
-   "when": "Thu · 16:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "1635"
-   }
-  },
-  {
-   "key": "ola-electric-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Ola Electric Q2 revenue falls 39%",
-   "line": "Loss of ₹362 crore is narrower than a year ago but wider than Q1's ₹336 crore",
-   "more": [
-    "Revenue fell to ₹421 crore from ₹690 crore",
-    "Kotak had estimated revenue of ₹507 crore and a ₹315.3 crore loss"
-   ],
-   "src": {
-    "title": "Ola Electric Q2 revenue declines 39% to Rs 421 crore; net loss narrows to Rs 362 crore",
-    "url": "https://www.storyboard18.com/brand-marketing/ola-electric-q2-revenue-drops-39-percent-to-rs-421-crore-ws-l-114612.htm"
-   },
-   "thread": "q2-results-2026",
-   "results": {
-    "company": "Ola Electric",
-    "quarter": "Q2 FY27",
-    "revenue_cr": 421,
-    "revenue_yoy_pct": -39,
-    "profit_cr": -362
-   },
    "date": "2026-11-12",
    "slot": "1635",
    "when": "Thu · 16:35",
@@ -764,31 +813,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "opening-bell",
-   "tag": "Opening",
-   "impact": "pos",
-   "title": "Market recovers from a subdued open",
-   "line": "Foreign buying, better earnings and lower crude are cited for the climb",
-   "more": [
-    "Bajaj Finance and Bajaj Finserv are among the gainers",
-    "M&M and Sun Pharma are among the losers",
-    "Profit-booking and US rate worries are limiting gains"
-   ],
-   "src": {
-    "title": "Sensex rebounds over 280 points, Nifty tops 25,300; Bajaj twins gain, M&M, Sun Pharma fall",
-    "url": "https://www.newsdrum.in/business/sensex-rebounds-over-280-points-nifty-tops-25300-bajaj-twins-gain-mm-sun-pharma-fall-12802625"
-   },
-   "date": "2026-11-12",
-   "slot": "1035",
-   "when": "Thu · 10:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "0925"
    }
   },
   {
