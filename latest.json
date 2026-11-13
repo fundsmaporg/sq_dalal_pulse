@@ -1,60 +1,104 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-13T11:06:32+05:30",
+ "generated_at": "2026-11-13T11:37:15+05:30",
  "date": "2026-11-13",
- "slot": "1105",
- "slot_label": "11:05",
+ "slot": "1135",
+ "slot_label": "11:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-13T11:05:00+05:30",
- "nifty": {
-  "value": 25201,
-  "pct": -0.39,
-  "chg": -98,
-  "approx": false,
-  "asof_quote": "11:00"
- },
+ "asof": "2026-11-13T11:35:00+05:30",
  "mood": {
-  "label": "Rangebound, soft",
-  "score": -0.25,
-  "summary": "Indian stocks are stuck in a narrow range below Thursday's close, with rate-sensitive realty, autos and banks weighing on inflation worries while pharma holds firm.",
+  "label": "Drifting lower",
+  "score": -0.3,
+  "summary": "Indian stocks are drifting lower in a tight range through late morning, as profit-taking after a three-day rally and rate-hike worries keep buyers away, with banks the main drag.",
   "detail": {
-   "leaders": "Pharma and healthcare, the best-performing sectors",
-   "laggards": "Realty and autos, the weakest sectors",
-   "tone": "A live read of late-morning trade. Little changed from the previous note: the market is holding a modest loss in a narrow range, with the broader market also lower.",
+   "leaders": "Pharma and healthcare, still the firmest sectors",
+   "laggards": "Bank shares, the main drag; rate-sensitive realty and autos",
+   "tone": "A live read of late-morning trade. A touch weaker than the previous note, with the market holding just below where it was. No index print newer than the previous note's was found, so this is a read on behaviour.",
    "watch": [
-    "Whether banks keep dragging the benchmarks",
-    "Any further move in crude near $95 a barrel",
-    "Foreign flows, which have supported the market all week"
+    "Whether bank selling deepens",
+    "Any change in expectations for a December RBI hike",
+    "Crude near $95 a barrel"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range, down 100 pts, Nifty near 25,200; bank shares weigh",
+    "title": "Stock Market LIVE: Sensex stuck in range, down 200 pts, Nifty below 25,200; bank shares weigh",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
-   },
-   "movers": {
-    "down": {
-     "summary": "Rate-sensitive sectors lead the decline on inflation worries",
-     "why": "Retail inflation above the RBI's ceiling has revived worries about further rate hikes, hitting rate-sensitive sectors.",
-     "names": [
-      {
-       "name": "Nifty Realty",
-       "dir": "down",
-       "line": "One of the two weakest sectors as inflation worries weigh"
-      },
-      {
-       "name": "Nifty Auto",
-       "dir": "down",
-       "line": "The other weakest sector alongside realty in late-morning trade"
-      }
-     ],
-     "src": {
-      "title": "Stock Market LIVE: Sensex stuck in range, down 100 pts, Nifty near 25,200; bank shares weigh",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
-     }
-    }
    }
   }
  },
  "insights": [
+  {
+   "key": "rbi-policy",
+   "tag": "Policy",
+   "impact": "neg",
+   "title": "Markets brace for a December RBI hike",
+   "line": "Expectations of another repo rate increase are weighing after inflation hit 6.09%",
+   "more": [
+    "The RBI raised rates in October for the first time in years",
+    "Rate-sensitive sectors are among the weakest today"
+   ],
+   "src": {
+    "title": "Stock Market Today: Sensex, Nifty Decline After 3-Day Rally Amid Profit Booking, High Inflation Figures",
+    "url": "https://www.etvbharat.com/en/business/stock-market-on-november-13-2026-sensex-nifty-retail-inflation-fii-buying-enn26111301333"
+   },
+   "thread": "rbi-policy",
+   "date": "2026-11-13",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1635"
+   }
+  },
+  {
+   "key": "profit-booking",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Profit-taking after a three-day rally",
+   "line": "Investors are booking gains after the benchmarks rose for three straight sessions",
+   "more": [
+    "High inflation figures added to the selling",
+    "Foreign investors had been heavy buyers through the rally"
+   ],
+   "src": {
+    "title": "Stock Market Today: Sensex, Nifty Decline After 3-Day Rally Amid Profit Booking, High Inflation Figures",
+    "url": "https://www.etvbharat.com/en/business/stock-market-on-november-13-2026-sensex-nifty-retail-inflation-fii-buying-enn26111301333"
+   },
+   "date": "2026-11-13",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1135"
+   }
+  },
+  {
+   "key": "sector-drag",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Bank shares remain the main drag",
+   "line": "Lenders are weighing on the benchmarks as the market stays stuck in a range",
+   "more": [
+    "HDFC Bank was among the biggest early drags on the Sensex",
+    "Realty and autos are the weakest sectors"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex stuck in range, down 200 pts, Nifty below 25,200; bank shares weigh",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+   },
+   "date": "2026-11-13",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1105"
+   }
+  },
   {
    "key": "india-cpi",
    "tag": "Macro",
@@ -74,34 +118,10 @@
    "slot": "1105",
    "when": "11:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-08",
     "slot": "outlook"
-   }
-  },
-  {
-   "key": "sector-drag",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Bank shares weigh; midcaps and smallcaps slip",
-   "line": "Nifty Midcap fell about 0.63% and Smallcap about 0.43% by 11 AM",
-   "more": [
-    "Bank stocks are among the main drags on the benchmarks",
-    "Realty and autos are the weakest sectors"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range, down 100 pts, Nifty near 25,200; bank shares weigh",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
-   },
-   "date": "2026-11-13",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "1105"
    }
   },
   {
@@ -122,7 +142,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1005"
@@ -549,31 +569,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "rbi-policy",
-   "tag": "Policy",
-   "impact": "neg",
-   "title": "Inflation breach strengthens case for RBI hikes",
-   "line": "Markets price a high chance of another 25 bp hike at the next meeting",
-   "more": [
-    "The RBI raised rates in October for the first time in nearly four years",
-    "The December policy meeting is the next decision point"
-   ],
-   "src": {
-    "title": "India October inflation tops RBI's 6% limit, strengthens case for rate hikes",
-    "url": "https://www.brecorder.com/news/40448589/india-october-inflation-tops-rbis-6-limit-strengthens-case-for-rate-hikes"
-   },
-   "thread": "rbi-policy",
-   "date": "2026-11-12",
-   "slot": "1635",
-   "when": "Thu · 16:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "1635"
    }
   },
   {
