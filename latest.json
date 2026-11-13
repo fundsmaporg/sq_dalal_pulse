@@ -1,31 +1,133 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-13T12:06:52+05:30",
+ "generated_at": "2026-11-13T12:38:01+05:30",
  "date": "2026-11-13",
- "slot": "1205",
- "slot_label": "12:05",
+ "slot": "1235",
+ "slot_label": "12:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-13T12:05:00+05:30",
+ "asof": "2026-11-13T12:35:00+05:30",
  "mood": {
-  "label": "Mildly lower",
-  "score": -0.2,
-  "summary": "Indian stocks are holding a modest loss at midday in a range-bound session, with HDFC Bank and Titan dragging while pharma and IT names offer some support.",
+  "label": "Banks weigh",
+  "score": -0.25,
+  "summary": "Indian stocks are holding a modest loss into the afternoon, with broad selling in banks keeping the benchmarks below Thursday's close while pharma and IT cushion the fall.",
   "detail": {
-   "leaders": "Sun Pharma, HCL Tech and Tech Mahindra among the top gainers",
-   "laggards": "HDFC Bank, Bharat Electronics and Titan among the top losers",
-   "tone": "A live read at midday. Little changed from the previous note: the market remains stuck in a narrow range below Thursday's close. No timestamped index print newer than the previous one was found, so this is a read on behaviour.",
+   "leaders": "Pharma and IT names such as Sun Pharma and HCL Tech",
+   "laggards": "Banks: HDFC Bank, IndusInd Bank, Axis Bank",
+   "tone": "A live read into the early afternoon. Little changed from the previous note: the market remains in a narrow range below Thursday's close. No new timestamped index print was found, so this is a read on behaviour.",
    "watch": [
-    "Whether HDFC Bank's slide deepens",
+    "Whether bank selling deepens into the afternoon",
     "Any change in expectations for a December RBI hike",
     "Crude near $95 a barrel"
    ],
    "src": {
-    "title": "Today's Market: Sensex Today Trades Lower, Nifty Below 25,250; HDFC Bank, Titan Company Top Losers",
-    "url": "https://www.equitymaster.com/indian-share-markets/11/13/2026/Sensex-Today-Trades-Lower--Nifty-Below-25250--HDFC-Bank--Titan-Company-Top-Losers"
+    "title": "Banking sector stocks fall today, November 13: HDFC Bank declines 1.43%, IndusInd Bank down 1.48%, Axis Bank falls 0.93%",
+    "url": "https://businessupturn.com/finance/stock-market/banking-sector-stocks-fall-today-november-13-hdfc-bank-declines-1-43-indusind-bank-down-1-48-axis-bank-falls-0-93/"
+   },
+   "movers": {
+    "down": {
+     "summary": "Banks are under broad pressure, with nearly every lender trading lower",
+     "why": "Selling in lenders reflects broader market weakness after negative global cues; no bank-specific trigger has been reported.",
+     "names": [
+      {
+       "name": "HDFC Bank",
+       "dir": "down",
+       "move": "-1.43%",
+       "line": "Among the top Sensex losers; hit an intraday low of ₹798"
+      },
+      {
+       "name": "IndusInd Bank",
+       "dir": "down",
+       "move": "-1.48%",
+       "line": "Steepest fall among the large lenders named"
+      },
+      {
+       "name": "Axis Bank",
+       "dir": "down",
+       "move": "-0.93%",
+       "line": "Lower along with 33 other banking stocks"
+      }
+     ],
+     "src": {
+      "title": "Banking sector stocks fall today, November 13: HDFC Bank declines 1.43%, IndusInd Bank down 1.48%, Axis Bank falls 0.93%",
+      "url": "https://businessupturn.com/finance/stock-market/banking-sector-stocks-fall-today-november-13-hdfc-bank-declines-1-43-indusind-bank-down-1-48-axis-bank-falls-0-93/"
+     }
+    }
    }
   }
  },
  "insights": [
+  {
+   "key": "bank-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Bank stocks broadly lower; 34 of 36 fall",
+   "line": "Almost every banking stock is trading in the red as lenders weigh on the benchmarks",
+   "more": [
+    "HDFC Bank fell 1.43%, IndusInd Bank 1.48% and Axis Bank 0.93%",
+    "No sector-specific trigger has been reported"
+   ],
+   "src": {
+    "title": "Banking sector stocks fall today, November 13: HDFC Bank declines 1.43%, IndusInd Bank down 1.48%, Axis Bank falls 0.93%",
+    "url": "https://businessupturn.com/finance/stock-market/banking-sector-stocks-fall-today-november-13-hdfc-bank-declines-1-43-indusind-bank-down-1-48-axis-bank-falls-0-93/"
+   },
+   "date": "2026-11-13",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1235"
+   }
+  },
+  {
+   "key": "hdfc-bank",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "HDFC Bank slides over 1%",
+   "line": "The stock hit an intraday low of ₹798 against a previous close of ₹812.30",
+   "more": [
+    "The fall is attributed to broader market weakness after negative global cues",
+    "It is among the top Sensex losers today"
+   ],
+   "src": {
+    "title": "HDFC Bank shares fall over 1% amid market weakness; stock turns positive over 6 months",
+    "url": "https://upstox.com/news/market-news/stocks/hdfc-bank-shares-fall-over-1-amid-market-weakness-stock-turns-positive-over-6-months/article-203405/"
+   },
+   "date": "2026-11-13",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1235"
+   }
+  },
+  {
+   "key": "indusind-bank",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "IndusInd Bank leads large-bank losses",
+   "line": "IndusInd Bank fell 1.48%, the biggest drop among the large lenders named",
+   "more": [
+    "The decline came as 34 of 36 banking stocks traded lower",
+    "No company-specific news has been reported"
+   ],
+   "src": {
+    "title": "Banking sector stocks fall today, November 13: HDFC Bank declines 1.43%, IndusInd Bank down 1.48%, Axis Bank falls 0.93%",
+    "url": "https://businessupturn.com/finance/stock-market/banking-sector-stocks-fall-today-november-13-hdfc-bank-declines-1-43-indusind-bank-down-1-48-axis-bank-falls-0-93/"
+   },
+   "date": "2026-11-13",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1235"
+   }
+  },
   {
    "key": "sector-drag",
    "tag": "Stocks",
@@ -44,7 +146,7 @@
    "slot": "1205",
    "when": "12:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1105"
@@ -69,7 +171,7 @@
    "slot": "1205",
    "when": "12:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1205"
@@ -93,7 +195,7 @@
    "slot": "1205",
    "when": "12:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1005"
