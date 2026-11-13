@@ -1,31 +1,104 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-13T11:37:15+05:30",
+ "generated_at": "2026-11-13T12:06:52+05:30",
  "date": "2026-11-13",
- "slot": "1135",
- "slot_label": "11:35",
+ "slot": "1205",
+ "slot_label": "12:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-13T11:35:00+05:30",
+ "asof": "2026-11-13T12:05:00+05:30",
  "mood": {
-  "label": "Drifting lower",
-  "score": -0.3,
-  "summary": "Indian stocks are drifting lower in a tight range through late morning, as profit-taking after a three-day rally and rate-hike worries keep buyers away, with banks the main drag.",
+  "label": "Mildly lower",
+  "score": -0.2,
+  "summary": "Indian stocks are holding a modest loss at midday in a range-bound session, with HDFC Bank and Titan dragging while pharma and IT names offer some support.",
   "detail": {
-   "leaders": "Pharma and healthcare, still the firmest sectors",
-   "laggards": "Bank shares, the main drag; rate-sensitive realty and autos",
-   "tone": "A live read of late-morning trade. A touch weaker than the previous note, with the market holding just below where it was. No index print newer than the previous note's was found, so this is a read on behaviour.",
+   "leaders": "Sun Pharma, HCL Tech and Tech Mahindra among the top gainers",
+   "laggards": "HDFC Bank, Bharat Electronics and Titan among the top losers",
+   "tone": "A live read at midday. Little changed from the previous note: the market remains stuck in a narrow range below Thursday's close. No timestamped index print newer than the previous one was found, so this is a read on behaviour.",
    "watch": [
-    "Whether bank selling deepens",
+    "Whether HDFC Bank's slide deepens",
     "Any change in expectations for a December RBI hike",
     "Crude near $95 a barrel"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range, down 200 pts, Nifty below 25,200; bank shares weigh",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+    "title": "Today's Market: Sensex Today Trades Lower, Nifty Below 25,250; HDFC Bank, Titan Company Top Losers",
+    "url": "https://www.equitymaster.com/indian-share-markets/11/13/2026/Sensex-Today-Trades-Lower--Nifty-Below-25250--HDFC-Bank--Titan-Company-Top-Losers"
    }
   }
  },
  "insights": [
+  {
+   "key": "sector-drag",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "HDFC Bank, BEL and Titan lead the losers",
+   "line": "The three are the biggest drags on the Sensex in midday trade",
+   "more": [
+    "Bank shares have weighed on the market all morning",
+    "No company-specific trigger has been reported for the falls"
+   ],
+   "src": {
+    "title": "Today's Market: Sensex Today Trades Lower, Nifty Below 25,250; HDFC Bank, Titan Company Top Losers",
+    "url": "https://www.equitymaster.com/indian-share-markets/11/13/2026/Sensex-Today-Trades-Lower--Nifty-Below-25250--HDFC-Bank--Titan-Company-Top-Losers"
+   },
+   "date": "2026-11-13",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "it-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "HCL Tech and Tech Mahindra among gainers",
+   "line": "IT names are among the top Sensex gainers while global technology shares advance",
+   "more": [
+    "Global tech shares rose even as Indian benchmarks fell",
+    "Nifty IT was the biggest sector laggard on Thursday, down 1.27%"
+   ],
+   "src": {
+    "title": "Today's Market: Sensex Today Trades Lower, Nifty Below 25,250; HDFC Bank, Titan Company Top Losers",
+    "url": "https://www.equitymaster.com/indian-share-markets/11/13/2026/Sensex-Today-Trades-Lower--Nifty-Below-25250--HDFC-Bank--Titan-Company-Top-Losers"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-13",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1205"
+   }
+  },
+  {
+   "key": "pharma-outperform",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Sun Pharma joins pharma's rally",
+   "line": "Sun Pharma is among the top Sensex gainers as pharma stays the strongest sector",
+   "more": [
+    "Cipla and Dr Reddy's led pharma gains at the open",
+    "Pharma and healthcare have outperformed all day"
+   ],
+   "src": {
+    "title": "Today's Market: Sensex Today Trades Lower, Nifty Below 25,250; HDFC Bank, Titan Company Top Losers",
+    "url": "https://www.equitymaster.com/indian-share-markets/11/13/2026/Sensex-Today-Trades-Lower--Nifty-Below-25250--HDFC-Bank--Titan-Company-Top-Losers"
+   },
+   "date": "2026-11-13",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1005"
+   }
+  },
   {
    "key": "rbi-policy",
    "tag": "Policy",
@@ -45,7 +118,7 @@
    "slot": "1135",
    "when": "11:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1635"
@@ -69,34 +142,10 @@
    "slot": "1135",
    "when": "11:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1135"
-   }
-  },
-  {
-   "key": "sector-drag",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Bank shares remain the main drag",
-   "line": "Lenders are weighing on the benchmarks as the market stays stuck in a range",
-   "more": [
-    "HDFC Bank was among the biggest early drags on the Sensex",
-    "Realty and autos are the weakest sectors"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range, down 200 pts, Nifty below 25,200; bank shares weigh",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
-   },
-   "date": "2026-11-13",
-   "slot": "1135",
-   "when": "11:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "1105"
    }
   },
   {
@@ -122,30 +171,6 @@
    "first_seen": {
     "date": "2026-11-08",
     "slot": "outlook"
-   }
-  },
-  {
-   "key": "pharma-outperform",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Pharma and healthcare lead the gainers",
-   "line": "The two defensive sectors are the best performers in a weak market",
-   "more": [
-    "Cipla and Dr Reddy's led early gains",
-    "Pharma has held up since the open"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range, down 100 pts, Nifty near 25,200; bank shares weigh",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
-   },
-   "date": "2026-11-13",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-13",
-    "slot": "1005"
    }
   },
   {
