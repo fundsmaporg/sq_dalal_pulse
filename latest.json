@@ -1,55 +1,61 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-13T12:38:01+05:30",
+ "generated_at": "2026-11-13T13:09:53+05:30",
  "date": "2026-11-13",
- "slot": "1235",
- "slot_label": "12:35",
+ "slot": "1305",
+ "slot_label": "13:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-13T12:35:00+05:30",
+ "asof": "2026-11-13T13:05:00+05:30",
+ "nifty": {
+  "value": 25114.55,
+  "pct": -0.73,
+  "chg": -184.8,
+  "approx": false,
+  "asof_quote": "13:00"
+ },
  "mood": {
-  "label": "Banks weigh",
-  "score": -0.25,
-  "summary": "Indian stocks are holding a modest loss into the afternoon, with broad selling in banks keeping the benchmarks below Thursday's close while pharma and IT cushion the fall.",
+  "label": "Selling deepens",
+  "score": -0.45,
+  "summary": "Selling has deepened in Indian stocks into the afternoon, taking the market back toward the day's lows, with realty, autos and banks under pressure and only pharma holding up.",
   "detail": {
-   "leaders": "Pharma and IT names such as Sun Pharma and HCL Tech",
-   "laggards": "Banks: HDFC Bank, IndusInd Bank, Axis Bank",
-   "tone": "A live read into the early afternoon. Little changed from the previous note: the market remains in a narrow range below Thursday's close. No new timestamped index print was found, so this is a read on behaviour.",
+   "leaders": "Pharma and healthcare, the only sectors rising",
+   "laggards": "Realty and autos, the weakest sectors; Bank Nifty",
+   "tone": "A live read of early-afternoon trade. Weaker than the previous note: the losses have widened back toward the morning lows after a mid-morning recovery faded.",
    "watch": [
-    "Whether bank selling deepens into the afternoon",
-    "Any change in expectations for a December RBI hike",
+    "Whether the market holds above the morning low",
+    "Any easing in December rate-hike worries",
     "Crude near $95 a barrel"
    ],
    "src": {
-    "title": "Banking sector stocks fall today, November 13: HDFC Bank declines 1.43%, IndusInd Bank down 1.48%, Axis Bank falls 0.93%",
-    "url": "https://businessupturn.com/finance/stock-market/banking-sector-stocks-fall-today-november-13-hdfc-bank-declines-1-43-indusind-bank-down-1-48-axis-bank-falls-0-93/"
+    "title": "Stock Market LIVE: Sensex falls 400 pts; Nifty Realty down 1% as Phoenix, DLF shares weigh",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
    },
    "movers": {
     "down": {
-     "summary": "Banks are under broad pressure, with nearly every lender trading lower",
-     "why": "Selling in lenders reflects broader market weakness after negative global cues; no bank-specific trigger has been reported.",
+     "summary": "Rate-sensitive realty, autos and banks lead the afternoon slide",
+     "why": "Worries about price pressures after inflation crossed the RBI's ceiling are weighing on rate-sensitive sectors.",
      "names": [
       {
-       "name": "HDFC Bank",
+       "name": "Nifty Realty",
        "dir": "down",
-       "move": "-1.43%",
-       "line": "Among the top Sensex losers; hit an intraday low of ₹798"
+       "move": "-1%",
+       "line": "Phoenix Mills and DLF are the main drags after Thursday's sharp rally"
       },
       {
-       "name": "IndusInd Bank",
+       "name": "Nifty Auto",
        "dir": "down",
-       "move": "-1.48%",
-       "line": "Steepest fall among the large lenders named"
+       "line": "Among the two weakest sectors as rate-hike worries build"
       },
       {
-       "name": "Axis Bank",
+       "name": "Bank Nifty",
        "dir": "down",
-       "move": "-0.93%",
-       "line": "Lower along with 33 other banking stocks"
+       "move": "-0.97%",
+       "line": "Lenders broadly lower, with banking and financial stocks sold"
       }
      ],
      "src": {
-      "title": "Banking sector stocks fall today, November 13: HDFC Bank declines 1.43%, IndusInd Bank down 1.48%, Axis Bank falls 0.93%",
-      "url": "https://businessupturn.com/finance/stock-market/banking-sector-stocks-fall-today-november-13-hdfc-bank-declines-1-43-indusind-bank-down-1-48-axis-bank-falls-0-93/"
+      "title": "Stock Market LIVE: Sensex falls 400 pts; Nifty Realty down 1% as Phoenix, DLF shares weigh",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
      }
     }
    }
@@ -57,23 +63,71 @@
  },
  "insights": [
   {
+   "key": "sector-drag",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Losses widen as realty and autos slide",
+   "line": "Realty and autos are the weakest sectors while pharma and healthcare rise",
+   "more": [
+    "The selling has spread across banking, financial, auto and IT stocks",
+    "Global technology shares advanced and oil steadied, but Indian stocks still fell"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex falls 400 pts; Nifty Realty down 1% as Phoenix, DLF shares weigh",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+   },
+   "date": "2026-11-13",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "realty-rally",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Realty gives back gains; Phoenix, DLF weigh",
+   "line": "Nifty Realty fell 1% a day after it was the top sector with a gain of about 4%",
+   "more": [
+    "Phoenix Mills and DLF are the main drags on the index",
+    "Thursday's rally followed a Jefferies note that Q2 pre-sales beat estimates"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex falls 400 pts; Nifty Realty down 1% as Phoenix, DLF shares weigh",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+   },
+   "date": "2026-11-13",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1335"
+   }
+  },
+  {
    "key": "bank-selloff",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "Bank stocks broadly lower; 34 of 36 fall",
-   "line": "Almost every banking stock is trading in the red as lenders weigh on the benchmarks",
+   "title": "Bank Nifty down nearly 1%",
+   "line": "Bank Nifty fell 0.97% as banking and financial stocks were sold",
    "more": [
-    "HDFC Bank fell 1.43%, IndusInd Bank 1.48% and Axis Bank 0.93%",
-    "No sector-specific trigger has been reported"
+    "Nearly all banking stocks traded lower earlier in the session",
+    "HDFC Bank and IndusInd Bank were among the biggest bank losers"
    ],
    "src": {
-    "title": "Banking sector stocks fall today, November 13: HDFC Bank declines 1.43%, IndusInd Bank down 1.48%, Axis Bank falls 0.93%",
-    "url": "https://businessupturn.com/finance/stock-market/banking-sector-stocks-fall-today-november-13-hdfc-bank-declines-1-43-indusind-bank-down-1-48-axis-bank-falls-0-93/"
+    "title": "Sensex & Nifty 50 live updates today, 13 November",
+    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-13-november-gift-nifty-signals-gap-down-opening-crude-oil-nvidia-and-asian-markets-in-focus-12805272"
    },
    "date": "2026-11-13",
-   "slot": "1235",
-   "when": "12:35",
-   "updated": false,
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-13",
@@ -98,7 +152,7 @@
    "slot": "1235",
    "when": "12:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1235"
@@ -122,34 +176,10 @@
    "slot": "1235",
    "when": "12:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1235"
-   }
-  },
-  {
-   "key": "sector-drag",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "HDFC Bank, BEL and Titan lead the losers",
-   "line": "The three are the biggest drags on the Sensex in midday trade",
-   "more": [
-    "Bank shares have weighed on the market all morning",
-    "No company-specific trigger has been reported for the falls"
-   ],
-   "src": {
-    "title": "Today's Market: Sensex Today Trades Lower, Nifty Below 25,250; HDFC Bank, Titan Company Top Losers",
-    "url": "https://www.equitymaster.com/indian-share-markets/11/13/2026/Sensex-Today-Trades-Lower--Nifty-Below-25250--HDFC-Bank--Titan-Company-Top-Losers"
-   },
-   "date": "2026-11-13",
-   "slot": "1205",
-   "when": "12:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "1105"
    }
   },
   {
@@ -744,30 +774,6 @@
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1305"
-   }
-  },
-  {
-   "key": "realty-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Realty ends as the day's top sector, up 4%",
-   "line": "Developers held their gains into the close after a pre-sales beat",
-   "more": [
-    "Oberoi, Sobha and Lodha were up about 5% intraday",
-    "Jefferies said Q2 pre-sales beat its estimates for DLF, Oberoi, Godrej Properties and Prestige"
-   ],
-   "src": {
-    "title": "Stock Market Close: Sensex ends volatile session marginally higher, Nifty at 25,299; realty up 4%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
-   },
-   "date": "2026-11-12",
-   "slot": "1535",
-   "when": "Thu · 15:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "1335"
    }
   },
   {
