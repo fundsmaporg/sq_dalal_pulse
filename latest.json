@@ -1,56 +1,111 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-13T09:27:15+05:30",
+ "generated_at": "2026-11-13T10:06:25+05:30",
  "date": "2026-11-13",
- "slot": "0925",
- "slot_label": "9:25",
+ "slot": "1005",
+ "slot_label": "10:05",
  "stage": "Opening mood",
- "asof": "2026-11-13T09:25:00+05:30",
+ "asof": "2026-11-13T10:05:00+05:30",
  "nifty": {
-  "value": 25120,
-  "pct": -0.71,
-  "chg": -179,
-  "approx": true,
-  "asof_quote": "09:15"
+  "value": 25219.45,
+  "pct": -0.32,
+  "chg": -79.9,
+  "approx": false,
+  "asof_quote": "10:00"
  },
  "mood": {
-  "label": "Weak open",
-  "score": -0.4,
-  "summary": "Indian stocks opened weaker than pre-open cues suggested, with selling spread across sectors as oil holds near its recent jump and global tech stays shaky.",
+  "label": "Losses narrow",
+  "score": -0.2,
+  "summary": "Indian stocks have clawed back much of their sharp opening fall and are trading modestly lower, with pharma holding up while heavyweights such as M&M and HDFC Bank weigh.",
   "detail": {
-   "leaders": "Few pockets of strength in early trade",
-   "laggards": "Broad selling across sectors; Ola Electric after its Q2 results",
-   "tone": "A live read just after the open. Weaker than the previous note expected: the pre-open pointed to a mild dip, but the market opened with a sharper, broad-based fall.",
+   "leaders": "Pharma names such as Cipla and Dr Reddy's; ONGC, Max Healthcare and SBI in early trade",
+   "laggards": "M&M and HDFC Bank; Shriram Finance, IndiGo, Maruti in early trade",
+   "tone": "A live read of mid-morning trade. Firmer than the previous note: the market has recovered a good part of its gap-down open, and volatility has eased.",
    "watch": [
-    "Whether buyers step in after the gap-down open",
-    "Crude's direction after Thursday's jump",
+    "Whether the recovery extends into positive territory",
+    "Crude near $95 a barrel",
     "Foreign flows, which have supported the market all week"
    ],
    "src": {
-    "title": "Sensex falls over 450 pts, Nifty slides below 25,150 amid weakness across sectors",
-    "url": "https://www.zeebiz.com/market-news/news-share-market-today-opening-bell-nifty50-nifty-bank-sensex-nov-13-2026-crude-oil-vodafone-idea-405503"
-   },
-   "movers": {
-    "down": {
-     "summary": "Selling is broad-based, with Ola Electric among the sharpest fallers",
-     "why": "Oil back near $95 a barrel and uncertainty in global tech are weighing on the open.",
-     "names": [
-      {
-       "name": "Ola Electric",
-       "dir": "down",
-       "move": "down over 4%",
-       "line": "Q2 revenue fell 39% and its loss widened from the previous quarter"
-      }
-     ],
-     "src": {
-      "title": "Stock Market LIVE: Sensex down 500 pts, Nifty below 25,150; Ola Electric shares down over 4%",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
-     }
-    }
+    "title": "Stock Market LIVE: M&M, HDFC Bank lead 100-pt loss in Sensex, Nifty near 25,200; VIX drops 7%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "sector-drag",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "M&M and HDFC Bank lead Sensex losses",
+   "line": "The two heavyweights are the biggest drags as the market trims its early fall",
+   "more": [
+    "Shriram Finance, IndiGo, Maruti, Jio Financial and Tata Motors PV were early laggards",
+    "No company-specific trigger has been reported for the falls"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: M&M, HDFC Bank lead 100-pt loss in Sensex, Nifty near 25,200; VIX drops 7%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+   },
+   "date": "2026-11-13",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "pharma-outperform",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Pharma bucks the early selloff",
+   "line": "Cipla and Dr Reddy's led the gainers alongside ONGC, Max Healthcare and SBI",
+   "more": [
+    "Pharma was the main sector holding up at the open",
+    "The broader market opened with selling across sectors"
+   ],
+   "src": {
+    "title": "Sensex tumbles nearly 500 points, Nifty slips below 25,150; pharma bucks selloff",
+    "url": "https://www.newsdrum.in/business/sensex-tumbles-nearly-500-points-nifty-slips-below-25150-pharma-bucks-selloff-12805367"
+   },
+   "date": "2026-11-13",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "india-vix",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "India VIX falls 7% as the market steadies",
+   "line": "The volatility gauge dropped as the benchmarks recovered from their opening low",
+   "more": [
+    "The decline points to easing near-term nervousness",
+    "It fell even as the market opened with a sharp gap down"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: M&M, HDFC Bank lead 100-pt loss in Sensex, Nifty near 25,200; VIX drops 7%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+   },
+   "thread": "volatility",
+   "date": "2026-11-13",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1005"
+   }
+  },
   {
    "key": "opening-bell",
    "tag": "Opening",
@@ -69,7 +124,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "0925"
@@ -107,7 +162,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1635"
@@ -132,7 +187,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-07",
     "slot": "0800"
@@ -515,30 +570,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1335"
-   }
-  },
-  {
-   "key": "sector-drag",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Autos, energy and IT weigh at the close",
-   "line": "Nifty Auto fell the most among sectors, with oil and gas also lower",
-   "more": [
-    "Losses in autos and oil and gas offset gains in financials",
-    "MarketsMojo's wrap had Nifty IT down 1.27%, the biggest laggard"
-   ],
-   "src": {
-    "title": "Closing Bell: Nifty50 rises to 25,299, gains for 3rd straight day; Sensex up 32 pts",
-    "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-nifty50-nifty-bank-financial-stocks-lead-gains-auto-oil-gas-shares-under-pressure-nov-12-2026-405470"
-   },
-   "date": "2026-11-12",
-   "slot": "1535",
-   "when": "Thu · 15:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "1105"
    }
   },
   {
