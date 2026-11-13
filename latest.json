@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-13T16:37:56+05:30",
+ "generated_at": "2026-11-13T18:00:41+05:30",
  "date": "2026-11-13",
- "slot": "1635",
- "slot_label": "16:35",
- "stage": "Post-market mood",
- "asof": "2026-11-13T16:35:00+05:30",
+ "slot": "1800",
+ "slot_label": "18:00",
+ "stage": "Evening wrap",
+ "asof": "2026-11-13T18:00:00+05:30",
  "nifty": {
   "value": 25144.3,
   "pct": -0.61,
@@ -13,52 +13,108 @@
   "approx": false
  },
  "mood": {
-  "label": "Run snaps",
-  "score": -0.35,
-  "summary": "Indian stocks ended the week lower with weak breadth, snapping a three-day winning run as inflation worries weighed on financials, realty, autos and cement.",
+  "label": "Cautious into Monday",
+  "score": -0.15,
+  "summary": "Indian stocks head into the weekend after snapping a three-day winning run on inflation worries, with mixed results after the bell and steady US futures setting a cautious tone for Monday.",
   "detail": {
-   "leaders": "Media, the most resilient sector",
-   "laggards": "Nifty Realty, Nifty Auto and Nifty Cement",
-   "tone": "A read of the finished session, with the first post-close results in. The session read is unchanged from the previous note; Grasim's mixed numbers are the main new development.",
+   "leaders": "Pharma and healthcare, which held up on Friday; foreign buying remains a support",
+   "laggards": "Rate-sensitive realty and autos while inflation worries persist; Eicher Motors after a profit miss",
+   "tone": "A forward-looking read for Monday's session. A little steadier than during Friday's trade, as US futures edge higher, but the inflation and rate-hike overhang remains.",
    "watch": [
-    "Eicher Motors and ABB India results, still awaited",
-    "Friday's provisional FII and DII flows, not yet out",
-    "Whether rate-hike worries carry into Monday"
+    "How Eicher Motors reacts to its profit miss",
+    "Whether foreign buying continues next week",
+    "US inflation data and Nvidia's November 17 results"
    ],
    "src": {
     "title": "Stock Market Close: Sensex snaps 3-day winning run, ends 319 pts lower; Nifty at 25,144; VIX down 7%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
-   },
-   "movers": {
-    "down": {
-     "summary": "Realty, autos and cement fell the most on price-pressure worries",
-     "why": "Concerns about price pressures after inflation crossed 6% weighed on rate-sensitive and cyclical sectors.",
-     "names": [
-      {
-       "name": "Nifty Realty",
-       "dir": "down",
-       "line": "Among the worst sectors, giving back part of Thursday's sharp rally"
-      },
-      {
-       "name": "Nifty Auto",
-       "dir": "down",
-       "line": "Among the worst sectors, with Tata Motors PV among the top Nifty losers"
-      },
-      {
-       "name": "Nifty Cement",
-       "dir": "down",
-       "line": "One of the three sectors that declined the most"
-      }
-     ],
-     "src": {
-      "title": "Stock Market Close: Sensex snaps 3-day winning run, ends 319 pts lower; Nifty at 25,144; VIX down 7%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
-     }
-    }
    }
   }
  },
  "insights": [
+  {
+   "key": "eicher-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Eicher Motors Q2 profit up 15%, misses estimates",
+   "line": "Consolidated profit rose to ₹1,573 crore, short of the ₹1,626 crore analysts expected",
+   "more": [
+    "Consolidated revenue rose 20.3% to ₹7,421.72 crore",
+    "Raw material costs weighed on profit, one report says"
+   ],
+   "src": {
+    "title": "Eicher Motors Limited Q2 profit rises 14.9% to ₹1,573 crore",
+    "url": "https://www.multibagg.ai/market-pulse/articles/eicher-motors-q2-profit-growth-cmwew8c2v003q2cqx4dlkyxi6"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Eicher Motors",
+    "quarter": "Q2 FY27",
+    "revenue_cr": 7421.72,
+    "revenue_yoy_pct": 20.3,
+    "profit_cr": 1573,
+    "profit_yoy_pct": 14.9,
+    "vs_estimate": "miss"
+   },
+   "date": "2026-11-13",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1800"
+   }
+  },
+  {
+   "key": "abb-india-q3",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "ABB India quarterly profit at ₹442.52 crore",
+   "line": "Revenue from operations was ₹3,738.13 crore for the quarter to September",
+   "more": [
+    "Profit is a modest rise from ₹432.85 crore a year earlier",
+    "Figures come from a single aggregator and await confirmation"
+   ],
+   "src": {
+    "title": "ABB India reports Q3 FY27 unaudited results with ₹442.52 crore profit",
+    "url": "https://www.investywise.com/abb-india-declares-unaudited-financial-results-for-q3-2026"
+   },
+   "date": "2026-11-13",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1800"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "US futures edge higher after Nvidia rout",
+   "line": "Dow, S&P 500 and Nasdaq futures were up about 0.1-0.2% before Friday's open",
+   "more": [
+    "Markets are digesting Nvidia's CEO exit and await inflation data",
+    "The S&P 500 is on track for its best week since August"
+   ],
+   "src": {
+    "title": "U.S. stock futures climb amid upcoming inflation data, Nvidia fallout",
+    "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-rise-after-nvidia-ceo-exit-spooks-wall-st-5023780"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-13",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-07",
+    "slot": "0800"
+   }
+  },
   {
    "key": "grasim-q2",
    "tag": "Results",
@@ -86,7 +142,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1635"
@@ -110,7 +166,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "1635"
@@ -135,7 +191,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-07",
     "slot": "0800"
@@ -697,32 +753,6 @@
    "first_seen": {
     "date": "2026-11-13",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Wall Street ends lower after Nvidia CEO exit",
-   "line": "S&P 500 fell 0.35%, Dow 0.36% and Nasdaq 0.39%",
-   "more": [
-    "Nvidia closed down 4.3% after Jensen Huang resigned as CEO",
-    "AMD and Broadcom each rose nearly 6%, leading S&P 500 gainers",
-    "Rising Treasury yields also weighed"
-   ],
-   "src": {
-    "title": "Stock Market Today, Nov. 12: Nvidia CEO's Stunning Exit Sends Wall Street Lower as Rivals Surge",
-    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-13",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-07",
-    "slot": "0800"
    }
   },
   {
