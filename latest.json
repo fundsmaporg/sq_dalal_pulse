@@ -1,33 +1,26 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-13T10:06:25+05:30",
+ "generated_at": "2026-11-13T10:36:50+05:30",
  "date": "2026-11-13",
- "slot": "1005",
- "slot_label": "10:05",
- "stage": "Opening mood",
- "asof": "2026-11-13T10:05:00+05:30",
- "nifty": {
-  "value": 25219.45,
-  "pct": -0.32,
-  "chg": -79.9,
-  "approx": false,
-  "asof_quote": "10:00"
- },
+ "slot": "1035",
+ "slot_label": "10:35",
+ "stage": "Mid-market mood",
+ "asof": "2026-11-13T10:35:00+05:30",
  "mood": {
-  "label": "Losses narrow",
-  "score": -0.2,
-  "summary": "Indian stocks have clawed back much of their sharp opening fall and are trading modestly lower, with pharma holding up while heavyweights such as M&M and HDFC Bank weigh.",
+  "label": "Subdued, lower",
+  "score": -0.25,
+  "summary": "Indian stocks are trading lower in a subdued morning session, stuck below Thursday's close as heavyweights M&M and HDFC Bank weigh and there is little sign of fresh buying.",
   "detail": {
-   "leaders": "Pharma names such as Cipla and Dr Reddy's; ONGC, Max Healthcare and SBI in early trade",
-   "laggards": "M&M and HDFC Bank; Shriram Finance, IndiGo, Maruti in early trade",
-   "tone": "A live read of mid-morning trade. Firmer than the previous note: the market has recovered a good part of its gap-down open, and volatility has eased.",
+   "leaders": "Pharma names held up in early trade",
+   "laggards": "M&M and HDFC Bank, the biggest drags on the Sensex",
+   "tone": "A live read of mid-morning trade. Slightly softer than the previous note: the recovery from the open has stalled. No index print newer than the previous note's was found, so this is a read on behaviour.",
    "watch": [
-    "Whether the recovery extends into positive territory",
+    "Whether the market can retest Thursday's close",
     "Crude near $95 a barrel",
-    "Foreign flows, which have supported the market all week"
+    "Reaction to Q2 numbers from Vodafone Idea and IRCTC"
    ],
    "src": {
-    "title": "Stock Market LIVE: M&M, HDFC Bank lead 100-pt loss in Sensex, Nifty near 25,200; VIX drops 7%",
+    "title": "Stock Market LIVE: M&M, HDFC Bank lead 200-pt loss in Sensex, Nifty near 25,200; VIX drops 7%",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
    }
   }
@@ -37,24 +30,79 @@
    "key": "sector-drag",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "M&M and HDFC Bank lead Sensex losses",
-   "line": "The two heavyweights are the biggest drags as the market trims its early fall",
+   "title": "M&M and HDFC Bank deepen the Sensex loss",
+   "line": "The heavyweights lead a wider Sensex decline after the early recovery stalled",
    "more": [
-    "Shriram Finance, IndiGo, Maruti, Jio Financial and Tata Motors PV were early laggards",
+    "The India VIX is still down about 7% on the day",
     "No company-specific trigger has been reported for the falls"
    ],
    "src": {
-    "title": "Stock Market LIVE: M&M, HDFC Bank lead 100-pt loss in Sensex, Nifty near 25,200; VIX drops 7%",
+    "title": "Stock Market LIVE: M&M, HDFC Bank lead 200-pt loss in Sensex, Nifty near 25,200; VIX drops 7%",
     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
    },
    "date": "2026-11-13",
-   "slot": "1005",
-   "when": "10:05",
+   "slot": "1035",
+   "when": "10:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1105"
+   }
+  },
+  {
+   "key": "vodafone-idea-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Vodafone Idea's Q2 loss widens to ₹5,975 crore",
+   "line": "The telecom operator reported a wider quarterly loss in its September-quarter results",
+   "more": [
+    "The results were declared on November 12",
+    "The stock is among the names in focus today"
+   ],
+   "src": {
+    "title": "Q2 Results Highlights: Vodafone Idea loss widens to ₹5,975 crore; IRCTC revenue up 16%",
+    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-hal-rvnl-irctc-vodafone-idea-nmdc-page-industries-alkem-labs-bharat-dynamics-others-to-declare-earnings-on-nov-12/liveblog-203338/"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Vodafone Idea",
+    "quarter": "Q2 FY27",
+    "profit_cr": -5975
+   },
+   "date": "2026-11-13",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "irctc-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "IRCTC Q2 revenue rises 16%",
+   "line": "The railway caterer's September-quarter revenue grew 16% year on year",
+   "more": [
+    "The results were declared on November 12",
+    "Separate reports flag an exceptional item hitting profit, not yet confirmed"
+   ],
+   "src": {
+    "title": "Q2 Results Highlights: Vodafone Idea loss widens to ₹5,975 crore; IRCTC revenue up 16%",
+    "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-hal-rvnl-irctc-vodafone-idea-nmdc-page-industries-alkem-labs-bharat-dynamics-others-to-declare-earnings-on-nov-12/liveblog-203338/"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-13",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1035"
    }
   },
   {
@@ -75,7 +123,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1005"
@@ -100,7 +148,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1005"
