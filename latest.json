@@ -1,61 +1,127 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-13T13:37:25+05:30",
+ "generated_at": "2026-11-13T14:06:32+05:30",
  "date": "2026-11-13",
- "slot": "1335",
- "slot_label": "13:35",
+ "slot": "1405",
+ "slot_label": "14:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-13T13:35:00+05:30",
- "nifty": {
-  "value": 25127.85,
-  "pct": -0.68,
-  "chg": -171.5,
-  "approx": false,
-  "asof_quote": "13:28"
- },
+ "asof": "2026-11-13T14:05:00+05:30",
  "mood": {
-  "label": "Pinned near lows",
-  "score": -0.45,
-  "summary": "Indian stocks are stuck near the day's lows in the afternoon, with rate-sensitive realty and autos leading the decline and pharma and healthcare the only sectors in the green.",
+  "label": "Heavy, rangebound",
+  "score": -0.4,
+  "summary": "Indian stocks are holding a clear loss through the afternoon, with financials, aviation and rate-sensitive sectors under pressure and pharma and healthcare the only pockets of strength.",
   "detail": {
-   "leaders": "Pharma and healthcare, the only rising sectors",
+   "leaders": "Pharma and healthcare, the best-performing sectors",
    "laggards": "Nifty Realty and Nifty Auto, the weakest sectors",
-   "tone": "A live read of mid-afternoon trade. Barely changed from the previous note: the market has steadied just off the day's low but shows no sign of a rebound.",
+   "tone": "A live read of the afternoon. Much like the previous note: the market is holding near the day's lows without a rebound. No index print newer than the previous note's was found, so this is a read on behaviour.",
    "watch": [
-    "Whether buyers defend the day's low into the close",
-    "Any shift in December rate-hike expectations",
-    "Foreign flows after a week of heavy buying"
+    "Q2 results from Eicher Motors, ABB India and Grasim after market hours",
+    "Whether the market holds the day's low into the close",
+    "Any shift in December rate-hike expectations"
    ],
    "src": {
-    "title": "Sensex Drops Over 400 Pts, Nifty Declines Below 25,150: Why Is Stock Market Falling Today?",
-    "url": "https://www.etvbharat.com/en/business/stock-market-on-november-13-2026-sensex-nifty-retail-inflation-fii-buying-enn26111301333"
+    "title": "Stock Market LIVE: Sensex falls 400 pts; KPI Green Energy falls 5% post Q2 result",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
    },
    "movers": {
     "down": {
-     "summary": "Realty and autos lead the decline on rate-hike and inflation worries",
+     "summary": "Realty and autos are the weakest sectors as inflation worries weigh",
      "why": "Retail inflation at 6.09% and expectations of a December RBI hike are hitting rate-sensitive sectors hardest.",
      "names": [
       {
        "name": "Nifty Realty",
        "dir": "down",
-       "move": "-1%",
-       "line": "Phoenix Mills and DLF are the main drags"
+       "line": "Among the two worst sectors, with Phoenix Mills and DLF dragging"
       },
       {
        "name": "Nifty Auto",
        "dir": "down",
-       "line": "One of the two weakest sectors this afternoon"
+       "line": "The other sector falling the most this afternoon"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex falls 400 pts; Nifty Realty down 1% as Phoenix, DLF shares weigh",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+      "title": "Sensex & Nifty 50 live updates today, 13 November",
+      "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-13-november-gift-nifty-signals-gap-down-opening-crude-oil-nvidia-and-asian-markets-in-focus-12805272"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "kpi-green-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "KPI Green Energy falls 5% after Q2 results",
+   "line": "The renewable energy company's shares dropped after its September-quarter numbers",
+   "more": [
+    "The fall comes in a weak broader market",
+    "Detailed Q2 figures were not in the reports reviewed"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex falls 400 pts; KPI Green Energy falls 5% post Q2 result",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-13",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1405"
+   }
+  },
+  {
+   "key": "sector-drag",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Shriram Finance, IndiGo, HDFC Bank lead losses",
+   "line": "The three are the top Nifty 50 losers in afternoon trade",
+   "more": [
+    "Bank Nifty is down nearly 1%",
+    "No company-specific triggers have been reported for the falls"
+   ],
+   "src": {
+    "title": "Sensex & Nifty 50 live updates today, 13 November",
+    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-13-november-gift-nifty-signals-gap-down-opening-crude-oil-nvidia-and-asian-markets-in-focus-12805272"
+   },
+   "date": "2026-11-13",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "results-after-hours",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Eicher, ABB India, Grasim report after hours",
+   "line": "The three are among companies due to declare Q2 FY27 results after the close today",
+   "more": [
+    "Eicher Motors' last reported quarterly profit was ₹1,463 crore, up 21%",
+    "The numbers will land before Monday's session"
+   ],
+   "src": {
+    "title": "Stocks to watch, Nov 13: ABB India, ZEEL, Eicher Motors, Ola Electric, Religare Enterprises, TMPV, Vi",
+    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-13-abb-india-zeel-eicher-motors-ola-electric-religare-enterprises-tata-motors-pv-vi/article-203392/"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-13",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1405"
+   }
+  },
   {
    "key": "market-drivers",
    "tag": "Macro",
@@ -75,34 +141,10 @@
    "slot": "1335",
    "when": "13:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1335"
-   }
-  },
-  {
-   "key": "sector-drag",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Realty and autos are the weakest sectors",
-   "line": "Nifty Realty is down about 1%, with Phoenix Mills and DLF the main drags",
-   "more": [
-    "Autos are the other sector falling the most",
-    "Banks have also been under pressure through the session"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex falls 400 pts; Nifty Realty down 1% as Phoenix, DLF shares weigh",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
-   },
-   "date": "2026-11-13",
-   "slot": "1335",
-   "when": "13:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "1105"
    }
   },
   {
@@ -123,7 +165,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1005"
