@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-14T18:01:01+05:30",
+ "generated_at": "2026-11-14T21:00:45+05:30",
  "date": "2026-11-14",
- "slot": "1800",
- "slot_label": "18:00",
+ "slot": "2100",
+ "slot_label": "21:00",
  "stage": "Weekend outlook",
- "asof": "2026-11-14T18:00:00+05:30",
+ "asof": "2026-11-14T21:00:00+05:30",
  "nifty": {
   "value": 25144.3,
   "pct": -0.61,
@@ -19,49 +19,142 @@
    "asof": "Fri 13 Nov settle",
    "approx": false,
    "src": {
-    "title": "Brent Crude Settles $95.84 After Second Weekly Loss on Supply Surplus",
-    "url": "https://www.gate.com/news/detail/brent-crude-settles-9584-after-second-weekly-loss-on-supply-surplus-25618627"
+    "title": "Brent crude settles flat at $95.84 as IRGC claims mine hits on tankers and IEA sees Q4 surplus",
+    "url": "https://www.oilandgasmiddleeast.com/news/brent-crude-tanker-attack-uae"
    }
   },
-  "fii_net_cr": {
-   "value": 5736.55,
-   "asof": "Fri 13 Nov provisional",
-   "approx": false,
-   "src": {
-    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
-   }
-  },
-  "dii_net_cr": {
-   "value": -2254,
-   "asof": "Fri 13 Nov provisional",
+  "usd_inr": {
+   "value": 94.2,
+   "asof": "Fri 13 Nov close (provisional)",
    "approx": true,
    "src": {
-    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+    "title": "Rupee falls 8 paise to close at 94.20 against US dollar",
+    "url": "https://www.deccanherald.com/business/rupee-falls-8-paise-to-close-at-9420-against-us-dollar-4217221"
    }
   }
  },
  "mood": {
-  "label": "Mixed into Monday",
-  "score": -0.05,
-  "summary": "Heavy foreign buying and softer crude give Indian stocks support into Monday, set against nerves over global tech and inflation running above the RBI's comfort zone.",
+  "label": "Cautious into Monday",
+  "score": -0.2,
+  "summary": "Fresh tanker strikes in the Strait of Hormuz and US yields above 5% weigh on Monday's setup, with steady foreign buying and an oil market worried about surplus the main offsets.",
   "detail": {
-   "leaders": "Large caps favoured by foreign buyers; oil-sensitive sectors as crude eases",
-   "laggards": "IT and AI-linked names while Nvidia's turmoil weighs on tech; rate-sensitives after the inflation print",
-   "tone": "A look-ahead to Monday 16 November. Friday's flow data, out since the afternoon note, show foreign investors kept buying heavily even as stocks fell, and crude ended a second losing week.",
+   "leaders": "Upstream oil producers if crude jumps on the Hormuz news; large caps that foreign buyers have favoured",
+   "laggards": "Oil-marketing companies and airlines if crude rises; IT and rate-sensitives while US yields stay above 5%",
+   "tone": "A look-ahead to Monday 16 November. The evening's change is in the Gulf: Iran says more tankers hit mines in Hormuz on Saturday, a risk Brent has not yet priced since it last traded on Friday.",
    "watch": [
-    "Whether foreign buying continues at last week's pace",
-    "Nvidia's results on 17 November, out before India opens on Wednesday",
-    "Whether crude holds its slide on surplus worries"
+    "How crude opens on Monday after the weekend tanker strikes",
+    "Whether foreign buying holds up with US yields above 5% and the rupee weak",
+    "October wholesale inflation, due on Monday"
    ],
    "src": {
-    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+    "title": "Iran war live: Fifth tanker reported hit around Hormuz in past 24 hours",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?update=5152040"
    }
   }
  },
  "insights": [
+  {
+   "key": "hormuz-attacks",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "More tankers hit mines in Hormuz",
+   "line": "Iran says tankers struck mines on Saturday; one live tally puts it at five in 24 hours",
+   "more": [
+    "Iran's Revolutionary Guards say the ships used unauthorised routes; the claims are unverified",
+    "Iran also says it shot down a US drone over Qeshm Island",
+    "Brent last settled flat at $95.84 on Friday, before Saturday's reports"
+   ],
+   "src": {
+    "title": "Iran war live: Fifth tanker reported hit around Hormuz in past 24 hours",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?update=5152040"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-14",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US 10-year yield ends the week above 5%",
+   "line": "Treasury yields rose on Friday after hot US inflation data and hawkish Fed remarks",
+   "more": [
+    "Reports put Friday's 10-year yield between about 5.11% and 5.15%",
+    "One report says it rose about 30 basis points over the week",
+    "The dollar index is near a 19-month high"
+   ],
+   "src": {
+    "title": "US 10-Year Yield Tops 5% as Gold Drops 2.5%",
+    "url": "https://www.riotimesonline.com/global-economy-briefing-november-13-2026/"
+   },
+   "thread": "us-rates",
+   "date": "2026-11-14",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Rupee ends the week weaker near 94.2",
+   "line": "The rupee closed Friday at 94.20 per dollar, down 8 paise, per PTI",
+   "more": [
+    "Another report puts the close at 94.24, down 0.3% for the week",
+    "Traders cited a firm dollar, rising US yields and hawkish Fed comments"
+   ],
+   "src": {
+    "title": "Rupee falls 8 paise to close at 94.20 against US dollar",
+    "url": "https://www.deccanherald.com/business/rupee-falls-8-paise-to-close-at-9420-against-us-dollar-4217221"
+   },
+   "thread": "rupee",
+   "date": "2026-11-14",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "wpi-inflation",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "October wholesale inflation due Monday",
+   "line": "The government is scheduled to release October WPI data on November 16",
+   "more": [
+    "Wholesale inflation was 11.39% in September, up from 9.92% in August",
+    "It follows October retail inflation above the RBI's 6% ceiling"
+   ],
+   "src": {
+    "title": "India's wholesale inflation stands at 11.39 pc in September: Govt",
+    "url": "https://www.newkerala.com/news/a/indias-wholesale-inflation-stands-1139-pc-september-govt-861.htm"
+   },
+   "thread": "rbi-policy",
+   "date": "2026-11-14",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "2100"
+   }
+  },
   {
    "key": "fii-flows",
    "tag": "Flows",
@@ -82,7 +175,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-08",
     "slot": "0800"
@@ -108,7 +201,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "2100"
@@ -133,7 +226,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "2100"
@@ -1496,31 +1589,6 @@
    }
   },
   {
-   "key": "us-yields",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "US 10-year yield near 5% after hot CPI",
-   "line": "The 10-year closed Tuesday at 4.98%; bond markets are shut today for Veterans Day",
-   "more": [
-    "Hotter inflation data raised expectations of a Fed rate hike",
-    "US stock markets are trading normally despite the holiday"
-   ],
-   "src": {
-    "title": "Stock market today: S&P 500, Nasdaq rise as Nvidia stock recovers, chip stocks rally after CoreWeave earnings",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
-   },
-   "thread": "us-rates",
-   "date": "2026-11-11",
-   "slot": "2100",
-   "when": "Wed · 21:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "2100"
-   }
-  },
-  {
    "key": "us-cpi",
    "tag": "Global",
    "impact": "neg",
@@ -2347,31 +2415,6 @@
     "title": "TradingKey: Nikkei 225 surges 2%, Kospi opens lower",
     "url": "https://www.tradingkey.com/analysis/stocks/more/262295111-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-nvda-sox-tradingkey"
    },
-   "date": "2026-11-09",
-   "slot": "0700",
-   "when": "Mon · 7:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee posts its best week of 2026",
-   "line": "Rupee closed Friday near 93.91 per dollar, up 1.2% on the week, on inflows and cheaper oil",
-   "more": [
-    "One report puts the provisional close at 93.89",
-    "FIIs bought about ₹45,960 crore in the week to Nov 6, per exchange data"
-   ],
-   "src": {
-    "title": "HDFCSky: Rupee rallies 1.2% to 93.91, biggest weekly gain in 2026",
-    "url": "https://hdfcsky.com/news/rupee-surges-1-2percent-to-93-91-as-3-billion-fpi-flood-and-16percent-crude-crash-break-six-month-barrier"
-   },
-   "thread": "rupee",
    "date": "2026-11-09",
    "slot": "0700",
    "when": "Mon · 7:00",

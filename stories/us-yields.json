@@ -1,17 +1,17 @@
 {
  "key": "us-yields",
- "title": "US 10-year yield near 5% after hot CPI",
- "tag": "Macro",
+ "title": "US 10-year yield ends the week above 5%",
+ "tag": "Global",
  "thread": "us-rates",
  "first_seen": {
   "date": "2026-09-24",
   "slot": "0930"
  },
  "last_seen": {
-  "date": "2026-11-11",
+  "date": "2026-11-14",
   "slot": "2100"
  },
- "count": 30,
+ "count": 31,
  "timeline": [
   {
    "date": "2026-09-24",
@@ -528,11 +528,30 @@
     "title": "Stock market today: S&P 500, Nasdaq rise as Nvidia stock recovers, chip stocks rally after CoreWeave earnings",
     "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
    }
+  },
+  {
+   "date": "2026-11-14",
+   "slot": "2100",
+   "when": "Sat · 21:00",
+   "title": "US 10-year yield ends the week above 5%",
+   "line": "Treasury yields rose on Friday after hot US inflation data and hawkish Fed remarks",
+   "impact": "neg",
+   "tag": "Global",
+   "more": [
+    "Reports put Friday's 10-year yield between about 5.11% and 5.15%",
+    "One report says it rose about 30 basis points over the week",
+    "The dollar index is near a 19-month high"
+   ],
+   "thread": "us-rates",
+   "src": {
+    "title": "US 10-Year Yield Tops 5% as Gold Drops 2.5%",
+    "url": "https://www.riotimesonline.com/global-economy-briefing-november-13-2026/"
+   }
   }
  ],
  "dossier": {
-  "headline": "US yields climbed to above 5%, and strong jobs data turned the talk to a hike",
-  "summary": "The US 10-year hit 5.11% in late September after a 5.15% peak and stayed near those levels, which the notes repeatedly give as a source of pressure on Indian equities. In early November, October payrolls came in at 165,000 against about 65,000 expected and unemployment fell to 4.1%, lifting the odds of a Fed rate hike next month to about 78%.",
+  "headline": "US 10-year yield ends the week above 5% as hike bets build",
+  "summary": "Strong October payrolls in early November lifted the odds of a Fed rate hike next month to about 78%, and hotter inflation data pushed the 10-year from 4.87% on 6 November to 4.98% by 10 November. It ended Friday 13 November above 5%, with reports putting it between about 5.11% and 5.15% and the dollar index near a 19-month high.",
   "status": "developing",
   "why_it_matters": [
    "Higher US yields raise the bar for foreign money to stay in emerging markets; the notes link them directly to flows.",
@@ -541,21 +560,27 @@
   ],
   "moved": [],
   "watch": [
-   "Whether the roughly 78% hike odds hold into the Fed meeting.",
-   "Whether higher yields start to show up as FII selling again.",
-   "The next US inflation print."
+   "Whether the 10-year holds above 5% into the Fed meeting",
+   "Whether higher yields start to show up as FII selling again",
+   "The dollar's pull on the rupee"
   ],
   "questions": [
    "Does a US hike change the RBI's own path?",
    "How much of the recent FII buying survives higher US yields?"
   ],
-  "conflicts": [],
-  "written_at": "2026-11-07T19:18:21+05:30",
+  "conflicts": [
+   "Reports put Friday 13 November's 10-year yield between about 5.11% and 5.15%, depending on when it was captured"
+  ],
+  "written_at": "2026-11-14T21:05:00+05:30",
   "based_on_slots": [
    "2026-11-07/1800",
    "2026-10-22/1500",
    "2026-09-30/1530",
-   "2026-09-24/0930"
+   "2026-09-24/0930",
+   "2026-11-06/2100",
+   "2026-11-07/0800",
+   "2026-11-11/2100",
+   "2026-11-14/2100"
   ]
  }
 }
