@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-14T08:00:58+05:30",
+ "generated_at": "2026-11-14T14:02:28+05:30",
  "date": "2026-11-14",
- "slot": "0800",
- "slot_label": "8:00",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Weekend outlook",
- "asof": "2026-11-14T08:00:00+05:30",
+ "asof": "2026-11-14T14:00:00+05:30",
  "nifty": {
   "value": 25144.3,
   "pct": -0.61,
@@ -16,23 +16,98 @@
  "mood": {
   "label": "Cautious into Monday",
   "score": -0.15,
-  "summary": "Monday's session opens with a softer global backdrop after Wall Street ended Friday lower on tech weakness, while strong foreign buying and steady forex reserves offer some support.",
+  "summary": "Monday's open looks set to be steered by global tech nerves and fresh inflation worries at home, with steady foreign buying the main cushion for Indian stocks.",
   "detail": {
-   "leaders": "Defensives such as pharma, which held up late last week; stocks supported by foreign buying",
-   "laggards": "IT and tech-linked names after Wall Street's tech selling; rate-sensitives while inflation worries linger",
-   "tone": "A weekend look-ahead to Monday, 16 November, the next trading session. It follows a Friday when Indian stocks ended a three-day winning run on inflation worries.",
+   "leaders": "Stocks backed by continued foreign buying; defensives that held up through Friday's fall",
+   "laggards": "IT and AI-linked names as Nvidia's slide runs on; rate-sensitives such as autos and realty after the inflation print",
+   "tone": "A look-ahead to Monday 16 November. A quiet Saturday so far: no policy news and no special session; the one addition is that Nvidia's Friday slide deepened after a broker downgrade.",
    "watch": [
-    "How Indian IT reacts to Friday's US tech selling",
-    "Whether foreign buying continues",
-    "Nvidia's results on November 17"
+    "Whether IT holds up after Nvidia's extended Friday slide",
+    "Nvidia's results on 17 November, out in India on Wednesday morning",
+    "Whether foreign buying continues after October inflation topped 6%"
    ],
    "src": {
-    "title": "Stock Market Close: Sensex snaps 3-day winning run, ends 319 pts lower; Nifty at 25,144; VIX down 7%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+    "title": "BSE SENSEX Today: Sensex Falls to 81,592.45 as Nifty Ends at 25,144, Snapping a Winning Streak",
+    "url": "https://www.bbntimes.com/companies/bse-sensex-today-sensex-falls-to-81-592-45-as-nifty-ends-at-25-144-snapping-a-winning-streak"
    }
   }
  },
  "insights": [
+  {
+   "key": "nvidia-ceo",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Nvidia slide extends after HSBC downgrade",
+   "line": "Shares fell again on Friday after HSBC downgraded the stock, after a 4.34% drop Thursday",
+   "more": [
+    "CFO Colette Kress is interim CEO after Jensen Huang's resignation",
+    "Harvey C. Jones becomes Nvidia's first independent chairman",
+    "The turmoil is clouding the AI trade across Asia"
+   ],
+   "src": {
+    "title": "Asia stocks slip as Nvidia turmoil clouds AI trade; China chipmakers rally",
+    "url": "https://www.investing.com/news/stock-market-news/asia-stocks-hold-up-as-nvidia-leadership-crisis-clouds-ai-trade-5020307"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-14",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "nvidia-q3",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Nvidia results on Nov 17 test the AI trade",
+   "line": "First results under the interim CEO come out in US hours, before India's Wednesday open",
+   "more": [
+    "It is the first report since Jensen Huang stepped down as CEO",
+    "It will be a key read for AI and chip stocks worldwide"
+   ],
+   "src": {
+    "title": "Stock market today, November 12, 2026",
+    "url": "https://pro.thestreet.com/stock-market-today/2026-11-12#update-wp:30052"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-14",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "ipo-pipeline",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Crystal Crop IPO: anchors Tue, opens Wed",
+   "line": "The ₹456 crore issue at ₹259–272 a share runs November 18–20",
+   "more": [
+    "Anchor bidding is on Tuesday, November 17",
+    "The price band was announced on Friday, November 13"
+   ],
+   "src": {
+    "title": "Crystal Crop Protection IPO: Price band fixed at Rs 259-272, aims to raise Rs 456 crore",
+    "url": "https://businesstoday.in/markets/stocks/story/crystal-crop-protection-ipo-price-band-fixed-at-rs-259-272-aims-to-raise-rs-456-crore-567241-2026-11-13"
+   },
+   "date": "2026-11-14",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "0800"
+   }
+  },
   {
    "key": "us-markets",
    "tag": "Global",
@@ -53,7 +128,7 @@
    "slot": "0800",
    "when": "8:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "0700"
@@ -77,32 +152,7 @@
    "slot": "0800",
    "when": "8:00",
    "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "0800"
-   }
-  },
-  {
-   "key": "ipo-pipeline",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Crystal Crop IPO opens Nov 18; Carlsberg eyes IPO",
-   "line": "Crystal Crop seeks ₹456 crore at ₹259–272 a share; Carlsberg India starts roadshows",
-   "more": [
-    "Crystal Crop's issue runs November 18–20, with anchor bids on November 17",
-    "Carlsberg's Indian IPO could raise up to $600 million via an offer for sale, per Bloomberg",
-    "Carlsberg is eyeing a valuation of about $4 billion"
-   ],
-   "src": {
-    "title": "Crystal Crop Protection IPO: Price band fixed at Rs 259-272, aims to raise Rs 456 crore",
-    "url": "https://businesstoday.in/markets/stocks/story/crystal-crop-protection-ipo-price-band-fixed-at-rs-259-272-aims-to-raise-rs-456-crore-567241-2026-11-13"
-   },
-   "date": "2026-11-14",
-   "slot": "0800",
-   "when": "8:00",
-   "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "0800"
@@ -126,7 +176,7 @@
    "slot": "0800",
    "when": "8:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "0800"
@@ -903,57 +953,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "nvidia-ceo",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Nvidia CEO Jensen Huang resigns",
-   "line": "CFO Colette Kress is interim CEO; the stock fell as much as 14% before trimming losses",
-   "more": [
-    "Huang stepped down as president, CEO and board member with immediate effect",
-    "The exit followed a company investigation into his personal conduct",
-    "Nvidia is searching internally and externally for a permanent CEO"
-   ],
-   "src": {
-    "title": "Nvidia live updates: CEO Jensen Huang resigns, Colette Kress named interim chief",
-    "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-12",
-   "slot": "2100",
-   "when": "Thu · 21:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "2100"
-   }
-  },
-  {
-   "key": "nvidia-q3",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Nvidia reports Q3 results on November 17",
-   "line": "The first results under interim CEO Kress will be a key read for AI and chip stocks",
-   "more": [
-    "The stock is about a third below its October 6 record close of $239.24",
-    "Interim CEO Kress also remains CFO"
-   ],
-   "src": {
-    "title": "Stock Market Today: November 12, 2026",
-    "url": "https://pro.thestreet.com/stock-market-today/2026-11-12#update-wp:30052"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-12",
-   "slot": "2100",
-   "when": "Thu · 21:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "2100"
    }
   },
   {
