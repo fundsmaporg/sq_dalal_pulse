@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-14T14:02:28+05:30",
+ "generated_at": "2026-11-14T18:01:01+05:30",
  "date": "2026-11-14",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1800",
+ "slot_label": "18:00",
  "stage": "Weekend outlook",
- "asof": "2026-11-14T14:00:00+05:30",
+ "asof": "2026-11-14T18:00:00+05:30",
  "nifty": {
   "value": 25144.3,
   "pct": -0.61,
@@ -13,26 +13,132 @@
   "approx": false,
   "asof_quote": "Fri 13 Nov close"
  },
+ "metrics": {
+  "brent_usd": {
+   "value": 95.84,
+   "asof": "Fri 13 Nov settle",
+   "approx": false,
+   "src": {
+    "title": "Brent Crude Settles $95.84 After Second Weekly Loss on Supply Surplus",
+    "url": "https://www.gate.com/news/detail/brent-crude-settles-9584-after-second-weekly-loss-on-supply-surplus-25618627"
+   }
+  },
+  "fii_net_cr": {
+   "value": 5736.55,
+   "asof": "Fri 13 Nov provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+   }
+  },
+  "dii_net_cr": {
+   "value": -2254,
+   "asof": "Fri 13 Nov provisional",
+   "approx": true,
+   "src": {
+    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+   }
+  }
+ },
  "mood": {
-  "label": "Cautious into Monday",
-  "score": -0.15,
-  "summary": "Monday's open looks set to be steered by global tech nerves and fresh inflation worries at home, with steady foreign buying the main cushion for Indian stocks.",
+  "label": "Mixed into Monday",
+  "score": -0.05,
+  "summary": "Heavy foreign buying and softer crude give Indian stocks support into Monday, set against nerves over global tech and inflation running above the RBI's comfort zone.",
   "detail": {
-   "leaders": "Stocks backed by continued foreign buying; defensives that held up through Friday's fall",
-   "laggards": "IT and AI-linked names as Nvidia's slide runs on; rate-sensitives such as autos and realty after the inflation print",
-   "tone": "A look-ahead to Monday 16 November. A quiet Saturday so far: no policy news and no special session; the one addition is that Nvidia's Friday slide deepened after a broker downgrade.",
+   "leaders": "Large caps favoured by foreign buyers; oil-sensitive sectors as crude eases",
+   "laggards": "IT and AI-linked names while Nvidia's turmoil weighs on tech; rate-sensitives after the inflation print",
+   "tone": "A look-ahead to Monday 16 November. Friday's flow data, out since the afternoon note, show foreign investors kept buying heavily even as stocks fell, and crude ended a second losing week.",
    "watch": [
-    "Whether IT holds up after Nvidia's extended Friday slide",
-    "Nvidia's results on 17 November, out in India on Wednesday morning",
-    "Whether foreign buying continues after October inflation topped 6%"
+    "Whether foreign buying continues at last week's pace",
+    "Nvidia's results on 17 November, out before India opens on Wednesday",
+    "Whether crude holds its slide on surplus worries"
    ],
    "src": {
-    "title": "BSE SENSEX Today: Sensex Falls to 81,592.45 as Nifty Ends at 25,144, Snapping a Winning Streak",
-    "url": "https://www.bbntimes.com/companies/bse-sensex-today-sensex-falls-to-81-592-45-as-nifty-ends-at-25-144-snapping-a-winning-streak"
+    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
    }
   }
  },
  "insights": [
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs bought ₹5,737 crore on Friday",
+   "line": "Foreign investors kept buying on a down day; domestic funds sold about ₹2,254 crore",
+   "more": [
+    "FIIs net bought about ₹33,342 crore over the 8–13 November week, per StockPil",
+    "November-to-date FII buying is about ₹79,302 crore; DIIs have sold about ₹49,089 crore",
+    "Figures are provisional exchange data"
+   ],
+   "src": {
+    "title": "FII vs DII this week (8–13 Nov): FIIs net buyers of ₹33,342 crore",
+    "url": "https://stockpil.com/fii-vs-dii-this-week-2026-11-13"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-14",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-08",
+    "slot": "0800"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Brent ends a second losing week",
+   "line": "Brent settled at $95.84 on Friday, about 2.5% lower for the week",
+   "more": [
+    "An IEA report on Friday pointed to a growing global oil surplus",
+    "US crude inventories rose 4.7 million barrels in the week to November 6, per the EIA",
+    "Cheaper oil eases India's import bill and inflation pressure"
+   ],
+   "src": {
+    "title": "Brent Crude Settles $95.84 After Second Weekly Loss on Supply Surplus",
+    "url": "https://www.gate.com/news/detail/brent-crude-settles-9584-after-second-weekly-loss-on-supply-surplus-25618627"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-14",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "nvidia-q3",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Nvidia results on Nov 17 test the AI trade",
+   "line": "First results under the interim CEO come out in US hours, before India's Wednesday open",
+   "more": [
+    "It is the first report since Jensen Huang stepped down as CEO",
+    "It will be a key read for Indian IT and chip-linked stocks"
+   ],
+   "src": {
+    "title": "Stock market today, November 12, 2026",
+    "url": "https://pro.thestreet.com/stock-market-today/2026-11-12#update-wp:30052"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-14",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "2100"
+   }
+  },
   {
    "key": "nvidia-ceo",
    "tag": "Global",
@@ -53,32 +159,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "2100"
-   }
-  },
-  {
-   "key": "nvidia-q3",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Nvidia results on Nov 17 test the AI trade",
-   "line": "First results under the interim CEO come out in US hours, before India's Wednesday open",
-   "more": [
-    "It is the first report since Jensen Huang stepped down as CEO",
-    "It will be a key read for AI and chip stocks worldwide"
-   ],
-   "src": {
-    "title": "Stock market today, November 12, 2026",
-    "url": "https://pro.thestreet.com/stock-market-today/2026-11-12#update-wp:30052"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-14",
-   "slot": "1400",
-   "when": "14:00",
-   "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "2100"
@@ -102,7 +183,7 @@
    "slot": "1400",
    "when": "14:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "0800"
@@ -205,31 +286,6 @@
    "first_seen": {
     "date": "2026-11-13",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs keep buying on Friday, one tracker says",
-   "line": "Provisional data shows FIIs net bought about ₹5,737 crore; DIIs sold ₹2,254 crore",
-   "more": [
-    "Only one source reported Friday's figures so far",
-    "FIIs have bought about ₹73,566 crore so far in November"
-   ],
-   "src": {
-    "title": "FII Activity Today",
-    "url": "https://www.stockezee.com/fii-activity"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-13",
-   "slot": "2100",
-   "when": "Fri · 21:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-08",
-    "slot": "0800"
    }
   },
   {
@@ -805,31 +861,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1635"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Brent steadies near $95.7 after jump",
-   "line": "Brent futures slipped 0.14% early on Friday; WTI eased to $88.3",
-   "more": [
-    "Both benchmarks surged in the previous session after attacks on Saudi energy sites",
-    "Brent had settled at $95.82 on Thursday, up 3.3%"
-   ],
-   "src": {
-    "title": "Sensex & Nifty 50 live updates today, 13 November: GIFT Nifty signals gap-down opening; crude oil, Nvidia and Asian markets in focus",
-    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-13-november-gift-nifty-signals-gap-down-opening-crude-oil-nvidia-and-asian-markets-in-focus-12805272"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-13",
-   "slot": "0925",
-   "when": "Fri · 9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "2100"
    }
   },
   {
