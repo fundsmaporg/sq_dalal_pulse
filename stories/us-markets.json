@@ -1,6 +1,6 @@
 {
  "key": "us-markets",
- "title": "Wall Street slides; Nasdaq leads losses",
+ "title": "Wall Street ends Friday lower, up for the week",
  "tag": "Global",
  "thread": "global-markets",
  "first_seen": {
@@ -8,10 +8,10 @@
   "slot": "pre"
  },
  "last_seen": {
-  "date": "2026-11-13",
-  "slot": "2100"
+  "date": "2026-11-14",
+  "slot": "0800"
  },
- "count": 35,
+ "count": 36,
  "timeline": [
   {
    "date": "2026-10-29",
@@ -641,11 +641,30 @@
     "title": "Stock market today: S&P 500, Nasdaq turn lower as wholesale inflation rises, Nvidia stock falls",
     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"
    }
+  },
+  {
+   "date": "2026-11-14",
+   "slot": "0800",
+   "when": "Sat · 8:00",
+   "title": "Wall Street ends Friday lower, up for the week",
+   "line": "S&P 500 fell about 0.4% and the Nasdaq about 0.9%; the Dow edged up 0.1% on Friday",
+   "impact": "neg",
+   "tag": "Global",
+   "more": [
+    "For the week the S&P 500 rose about 2.5%, the Nasdaq 2.3% and the Dow 2.1%",
+    "Nvidia fell again a day after Jensen Huang's resignation",
+    "More S&P 500 stocks rose than fell as money rotated out of tech"
+   ],
+   "thread": "global-markets",
+   "src": {
+    "title": "How major US stock indexes fared Friday 11/13/2026",
+    "url": "https://www.washingtonpost.com/business/2026/11/13/wall-street-stocks-dow-nasdaq/f15a10e2-dfa7-11f1-912c-4fbb80d73f7f_story.html"
+   }
   }
  ],
  "dossier": {
-  "headline": "Wall Street slips as Nvidia's CEO resigns",
-  "summary": "US stocks whipsawed this week: the S&P 500 jumped 2.35% on Monday, slipped after a hot October CPI on Tuesday, and rose 1.31% on Wednesday on an AI rebound. On Thursday it fell 0.35% after Jensen Huang resigned as Nvidia CEO; Nvidia closed down 4.3% while AMD and Broadcom rose nearly 6%.",
+  "headline": "Wall Street ends a volatile week higher despite Nvidia's CEO exit",
+  "summary": "US stocks whipsawed through the week of November 9: a sharp Monday rally, a dip on hot inflation data, an AI rebound, then two down days after Jensen Huang resigned as Nvidia CEO. On Friday the S&P 500 fell about 0.4% and the Nasdaq about 0.9%, but the S&P 500 still rose about 2.5% for the week, the Nasdaq 2.3% and the Dow 2.1%.",
   "status": "developing",
   "why_it_matters": [
    "Wall Street's direction sets the overnight tone for Indian stocks",
@@ -655,22 +674,22 @@
    {
     "name": "Nvidia",
     "dir": "down",
-    "line": "Closed down 4.3% after its CEO resigned"
+    "line": "Fell on Thursday and again on Friday after its CEO resigned"
    },
    {
     "name": "AMD",
     "dir": "up",
-    "line": "Rose nearly 6%"
+    "line": "Rose nearly 6% on Thursday"
    },
    {
     "name": "Broadcom",
     "dir": "up",
-    "line": "Rose nearly 6%"
+    "line": "Rose nearly 6% on Thursday"
    }
   ],
   "watch": [
-   "Whether the Nvidia selling spreads to the wider AI trade",
-   "Rising Treasury yields"
+   "Nvidia's results on November 17",
+   "Whether money keeps rotating out of tech"
   ],
   "questions": [
    "Does Nvidia's leadership change dent the AI rally?"
@@ -678,14 +697,14 @@
   "conflicts": [
    "Intraday figures quoted in the evening (S&P 500 down 0.3%, Nasdaq down 0.6%) differ from the final closes"
   ],
-  "written_at": "2026-11-13T07:05:00+05:30",
+  "written_at": "2026-11-14T08:05:00+05:30",
   "based_on_slots": [
-   "2026-11-10/0845",
-   "2026-11-11/0700",
    "2026-11-12/0700",
    "2026-11-12/1800",
    "2026-11-12/2100",
-   "2026-11-13/0700"
+   "2026-11-13/0700",
+   "2026-11-13/2100",
+   "2026-11-14/0800"
   ]
  }
 }
