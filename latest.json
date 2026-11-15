@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-14T21:00:45+05:30",
- "date": "2026-11-14",
- "slot": "2100",
- "slot_label": "21:00",
+ "generated_at": "2026-11-15T08:00:31+05:30",
+ "date": "2026-11-15",
+ "slot": "0800",
+ "slot_label": "8:00",
  "stage": "Weekend outlook",
- "asof": "2026-11-14T21:00:00+05:30",
+ "asof": "2026-11-15T08:00:00+05:30",
  "nifty": {
   "value": 25144.3,
   "pct": -0.61,
@@ -13,42 +13,22 @@
   "approx": false,
   "asof_quote": "Fri 13 Nov close"
  },
- "metrics": {
-  "brent_usd": {
-   "value": 95.84,
-   "asof": "Fri 13 Nov settle",
-   "approx": false,
-   "src": {
-    "title": "Brent crude settles flat at $95.84 as IRGC claims mine hits on tankers and IEA sees Q4 surplus",
-    "url": "https://www.oilandgasmiddleeast.com/news/brent-crude-tanker-attack-uae"
-   }
-  },
-  "usd_inr": {
-   "value": 94.2,
-   "asof": "Fri 13 Nov close (provisional)",
-   "approx": true,
-   "src": {
-    "title": "Rupee falls 8 paise to close at 94.20 against US dollar",
-    "url": "https://www.deccanherald.com/business/rupee-falls-8-paise-to-close-at-9420-against-us-dollar-4217221"
-   }
-  }
- },
  "mood": {
   "label": "Cautious into Monday",
-  "score": -0.2,
-  "summary": "Fresh tanker strikes in the Strait of Hormuz and US yields above 5% weigh on Monday's setup, with steady foreign buying and an oil market worried about surplus the main offsets.",
+  "score": -0.15,
+  "summary": "Indian stocks head into Monday with three straight weeks of foreign buying behind them, but Gulf shipping risks, US yields and talk of an RBI hike keep the setup guarded.",
   "detail": {
-   "leaders": "Upstream oil producers if crude jumps on the Hormuz news; large caps that foreign buyers have favoured",
-   "laggards": "Oil-marketing companies and airlines if crude rises; IT and rate-sensitives while US yields stay above 5%",
-   "tone": "A look-ahead to Monday 16 November. The evening's change is in the Gulf: Iran says more tankers hit mines in Hormuz on Saturday, a risk Brent has not yet priced since it last traded on Friday.",
+   "leaders": "Banks, which led last week and have drawn foreign buying; large caps backed by steady inflows",
+   "laggards": "Oil-sensitive sectors if Gulf tanker attacks lift crude; rate-sensitives while a December RBI hike is being discussed",
+   "tone": "A look-ahead to Monday 16 November, after a week in which the market rose overall but gave ground on Friday. Overnight, Iran's mine claims in Hormuz drew pushback from the US military.",
    "watch": [
-    "How crude opens on Monday after the weekend tanker strikes",
-    "Whether foreign buying holds up with US yields above 5% and the rupee weak",
-    "October wholesale inflation, due on Monday"
+    "How crude trades on Monday after the weekend's tanker incidents",
+    "October wholesale inflation on Monday, read for December rate-hike odds",
+    "Nvidia's results, out before India opens on Wednesday"
    ],
    "src": {
-    "title": "Iran war live: Fifth tanker reported hit around Hormuz in past 24 hours",
-    "url": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?update=5152040"
+    "title": "Markets Next Week: Key triggers that could move Dalal Street — Return of FIIs, Nvidia earnings, inflation and US trade deal",
+    "url": "https://www.businesstoday.in/markets/stocks/story/markets-next-week-key-triggers-that-could-move-dalal-street-return-of-fiis-nvidia-earnings-inflation-and-us-trade-deal-567496-2026-11-15"
    }
   }
  },
@@ -57,25 +37,100 @@
    "key": "hormuz-attacks",
    "tag": "Global",
    "impact": "neg",
-   "title": "More tankers hit mines in Hormuz",
-   "line": "Iran says tankers struck mines on Saturday; one live tally puts it at five in 24 hours",
+   "title": "Iran's Hormuz mine claims disputed",
+   "line": "Iran says two tankers hit mines; the US military says it has cleared the main routes",
    "more": [
-    "Iran's Revolutionary Guards say the ships used unauthorised routes; the claims are unverified",
-    "Iran also says it shot down a US drone over Qeshm Island",
-    "Brent last settled flat at $95.84 on Friday, before Saturday's reports"
+    "Iran's Guards say the tankers had switched off radar and used an unauthorised route",
+    "Analysts cited by Ynet suspect deliberate attacks aimed at undermining US escorts",
+    "Iran has restricted passage through the strait since the war began in February"
    ],
    "src": {
-    "title": "Iran war live: Fifth tanker reported hit around Hormuz in past 24 hours",
-    "url": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?update=5152040"
+    "title": "Iran Revolutionary Guards Report Oil Tanker Explosions in Hormuz Strait",
+    "url": "https://gulfnews.com/world/mena/iran-guards-say-two-oil-tankers-hit-by-mines-in-hormuz-1.500746966"
    },
    "thread": "crude-iran-war",
-   "date": "2026-11-14",
-   "slot": "2100",
-   "when": "21:00",
-   "updated": false,
+   "date": "2026-11-15",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-14",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "week-ahead",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "FIIs, Nvidia, inflation set the week's tone",
+   "line": "Previews flag foreign flows, Nvidia's results, inflation and US trade talks",
+   "more": [
+    "FIIs bought about ₹33,340 crore last week, a third straight week of buying after ten weeks of selling",
+    "Bank Nifty outperformed last week",
+    "US Fed minutes are also on the calendar"
+   ],
+   "src": {
+    "title": "Markets Next Week: Key triggers that could move Dalal Street — Return of FIIs, Nvidia earnings, inflation and US trade deal",
+    "url": "https://www.businesstoday.in/markets/stocks/story/markets-next-week-key-triggers-that-could-move-dalal-street-return-of-fiis-nvidia-earnings-inflation-and-us-trade-deal-567496-2026-11-15"
+   },
+   "date": "2026-11-15",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-15",
+    "slot": "0800"
+   }
+  },
+  {
+   "key": "rbi-policy",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "December RBI hike talk gains traction",
+   "line": "With inflation above the RBI's upper band, some now expect a hike at the December meeting",
+   "more": [
+    "October wholesale inflation is due on Monday, November 16",
+    "Continued foreign buying is seen hinging on US-Iran developments and crude"
+   ],
+   "src": {
+    "title": "Strong FII Buying Extends For Third Week As Nifty Gains 0.6 Pc",
+    "url": "https://ommcomnews.com/business-news/strong-fii-buying-extends-for-third-week-as-nifty-gains-0-6-pc/"
+   },
+   "thread": "rbi-policy",
+   "date": "2026-11-15",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1635"
+   }
+  },
+  {
+   "key": "nvidia-q3",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Nvidia results due Tuesday after US close",
+   "line": "Interim CEO Colette Kress presents; the stock is down over 30% from its October peak",
+   "more": [
+    "Third-quarter sales are expected around $109 billion",
+    "The results land before India's Wednesday open and will steer the AI trade"
+   ],
+   "src": {
+    "title": "Fever pitch: Nvidia's earnings and the investing week ahead",
+    "url": "https://finimize.com/content/nvidias-earnings-and-the-investing-week-aheada"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-15",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
     "slot": "2100"
    }
   },
@@ -97,9 +152,9 @@
    "thread": "us-rates",
    "date": "2026-11-14",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Sat · 21:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "2100"
@@ -122,9 +177,9 @@
    "thread": "rupee",
    "date": "2026-11-14",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Sat · 21:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
     "slot": "0700"
@@ -147,9 +202,9 @@
    "thread": "rbi-policy",
    "date": "2026-11-14",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Sat · 21:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "2100"
@@ -173,12 +228,12 @@
    "thread": "fii-flows",
    "date": "2026-11-14",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Sat · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-08",
-    "slot": "0800"
+    "date": "2026-11-09",
+    "slot": "0925"
    }
   },
   {
@@ -199,36 +254,11 @@
    "thread": "crude-iran-war",
    "date": "2026-11-14",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Sat · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-09",
-    "slot": "2100"
-   }
-  },
-  {
-   "key": "nvidia-q3",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Nvidia results on Nov 17 test the AI trade",
-   "line": "First results under the interim CEO come out in US hours, before India's Wednesday open",
-   "more": [
-    "It is the first report since Jensen Huang stepped down as CEO",
-    "It will be a key read for Indian IT and chip-linked stocks"
-   ],
-   "src": {
-    "title": "Stock market today, November 12, 2026",
-    "url": "https://pro.thestreet.com/stock-market-today/2026-11-12#update-wp:30052"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-14",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
     "slot": "2100"
    }
   },
@@ -250,7 +280,7 @@
    "thread": "global-markets",
    "date": "2026-11-14",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Sat · 14:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -274,7 +304,7 @@
    },
    "date": "2026-11-14",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Sat · 14:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -300,7 +330,7 @@
    "thread": "global-markets",
    "date": "2026-11-14",
    "slot": "0800",
-   "when": "8:00",
+   "when": "Sat · 8:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -324,7 +354,7 @@
    },
    "date": "2026-11-14",
    "slot": "0800",
-   "when": "8:00",
+   "when": "Sat · 8:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -348,7 +378,7 @@
    },
    "date": "2026-11-14",
    "slot": "0800",
-   "when": "8:00",
+   "when": "Sat · 8:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -542,8 +572,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-08",
-    "slot": "outlook"
+    "date": "2026-11-12",
+    "slot": "1305"
    }
   },
   {
@@ -763,31 +793,6 @@
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1205"
-   }
-  },
-  {
-   "key": "rbi-policy",
-   "tag": "Policy",
-   "impact": "neg",
-   "title": "Markets brace for a December RBI hike",
-   "line": "Expectations of another repo rate increase are weighing after inflation hit 6.09%",
-   "more": [
-    "The RBI raised rates in October for the first time in years",
-    "Rate-sensitive sectors are among the weakest today"
-   ],
-   "src": {
-    "title": "Stock Market Today: Sensex, Nifty Decline After 3-Day Rally Amid Profit Booking, High Inflation Figures",
-    "url": "https://www.etvbharat.com/en/business/stock-market-on-november-13-2026-sensex-nifty-retail-inflation-fii-buying-enn26111301333"
-   },
-   "thread": "rbi-policy",
-   "date": "2026-11-13",
-   "slot": "1135",
-   "when": "Fri · 11:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "1635"
    }
   },
   {
@@ -2085,8 +2090,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-08",
-    "slot": "0800"
+    "date": "2026-11-09",
+    "slot": "1505"
    }
   },
   {
@@ -2141,11 +2146,11 @@
    "date": "2026-11-09",
    "slot": "1800",
    "when": "Mon · 18:00",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-08",
-    "slot": "0800"
+    "date": "2026-11-09",
+    "slot": "1800"
    }
   },
   {
@@ -2397,8 +2402,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-08",
-    "slot": "outlook"
+    "date": "2026-11-09",
+    "slot": "0700"
    }
   },
   {
@@ -2423,55 +2428,6 @@
    "first_seen": {
     "date": "2026-11-09",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "muhurat-outlook",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Diwali session ends with a small loss",
-   "line": "Indices opened firmly, then gave back the gain, ending a nine-year Muhurat winning run",
-   "more": [
-    "Thin, ceremonial one-hour session",
-    "Comes after the strongest week for Indian equities in about six years"
-   ],
-   "src": {
-    "title": "Goodreturns: Diwali Muhurat trading 2026 — Nifty erases 25,000 mark to close 44 pts lower, Sensex ends below 81,000",
-    "url": "https://www.goodreturns.in/news/diwali-muhurat-trading-2026-live-special-trading-session-live-stock-market-live-sensex-nifty-stocks-1545951.html"
-   },
-   "date": "2026-11-08",
-   "slot": "outlook",
-   "when": "Sun · Outlook",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-08",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "muhurat-movers",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Metals, pharma led early; IT, aviation lagged",
-   "line": "Tata Steel and Sun Pharma were early gainers; Infosys, IndiGo and Trent lagged",
-   "more": [
-    "Adani Ports, Maruti and Bharat Electronics also among early gainers",
-    "L&T was among early laggards",
-    "These lists are from the opening; closing ranks were not reported"
-   ],
-   "src": {
-    "title": "Daily Jagran: Muhurat Trading 2026 — Tata Steel, Sun Pharma among top gainers",
-    "url": "https://www.thedailyjagran.com/business/news/muhurat-trading-2026-sensex-opens-400-pts-up-nifty-crosses-25100-top-gainers-top-losers-10335590"
-   },
-   "date": "2026-11-08",
-   "slot": "1800",
-   "when": "Sun · 18:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-08",
-    "slot": "1800"
    }
   }
  ]
