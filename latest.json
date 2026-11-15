@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-15T18:00:31+05:30",
+ "generated_at": "2026-11-15T21:00:17+05:30",
  "date": "2026-11-15",
- "slot": "1800",
- "slot_label": "18:00",
+ "slot": "outlook",
+ "slot_label": "Outlook",
  "stage": "Weekend outlook",
- "asof": "2026-11-15T18:00:00+05:30",
+ "asof": "2026-11-15T21:00:00+05:30",
  "nifty": {
   "value": 25144.3,
   "pct": -0.61,
@@ -16,33 +16,132 @@
  "mood": {
   "label": "Cautious into Monday",
   "score": -0.2,
-  "summary": "Monday's session opens with foreign buyers still supportive and a heavy primary-market week ahead, while Gulf shipping risk and firm US yields keep investors guarded.",
+  "summary": "The week opens with foreign buyers still backing Indian stocks, but a hardening US-Iran standoff, inflation above the RBI's limit and Nvidia's results make for a guarded start.",
   "detail": {
-   "leaders": "Banks, last week's strongest group, while foreign buying holds",
-   "laggards": "Oil-sensitive sectors if Gulf shipping risk lifts crude",
-   "tone": "A look-ahead to Monday 16 November. The afternoon brought detail on a large state-run IPO this week; Gulf headlines remain the main overnight risk.",
+   "leaders": "Banks, last week's best performers and a focus of foreign buying",
+   "laggards": "Oil-sensitive sectors while the Gulf standoff hardens; IT and AI-linked names until Nvidia reports; rate-sensitives with a December hike in play",
+   "tone": "The week ahead from Monday 16 November, a normal session. Indian stocks rose over last week on heavy foreign buying but slipped on Friday on inflation worries; over the weekend, US-Iran diplomacy has gone backwards.",
    "watch": [
-    "Mahanadi Coalfields' price band, which could come on Monday",
-    "How crude trades on the weekend's Hormuz incidents",
-    "October wholesale inflation on Monday"
+    "How crude and Gulf headlines set Monday's tone",
+    "October wholesale inflation on Monday and the read for a December RBI hike",
+    "Nvidia's results after Tuesday's US close, ahead of India's Wednesday open"
    ],
    "src": {
-    "title": "Upcoming IPOs: Mahanadi Coalfields, Crystal Crop Protection and Watrana Rentals issues to open this week",
-    "url": "https://upstox.com/news/market-news/ipo/upcoming-ipos-mahanadi-coalfields-crystal-crop-protection-and-watrana-rentals-issues-to-open-this-week/article-203462"
+    "title": "Indian Stock Market Outlook Next Week, 16 to 20 Nov 2026: Will Sensex, Nifty Remain Bullish Amid FII Buying?",
+    "url": "https://www.goodreturns.in/news/indian-stock-market-outlook-next-week-16-to-20-november-2026-sensex-nifty-targets-key-levels-crude-1547059.html"
    }
   }
  },
  "insights": [
   {
+   "key": "hormuz-talks",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US-Iran standoff hardens over the weekend",
+   "line": "Rubio calls Iran's demands unacceptable; Tehran rejected the US response to its proposal",
+   "more": [
+    "The US made limited strikes on Qeshm Island after Iran fired at a US aircraft, per CBS",
+    "Bahrain's air defences stopped an IRGC strike on US radar at a base there",
+    "Rubio says the US has no need to restart combat operations"
+   ],
+   "src": {
+    "title": "Rubio says U.S. has \"no need\" to restart combat operations in Iran",
+    "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-deal-negotiations/"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-15",
+   "slot": "outlook",
+   "when": "Outlook",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-15",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FII buying faces a fourth-week test",
+   "line": "FIIs bought about ₹33,340 crore last week, a third straight week of net buying",
+   "more": [
+    "November buying is about ₹79,300 crore so far",
+    "Analysts see continued FII buying as the main support for the market"
+   ],
+   "src": {
+    "title": "Indian Stock Market Outlook Next Week, 16 to 20 Nov 2026: Will Sensex, Nifty Remain Bullish Amid FII Buying?",
+    "url": "https://www.goodreturns.in/news/indian-stock-market-outlook-next-week-16-to-20-november-2026-sensex-nifty-targets-key-levels-crude-1547059.html"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-15",
+   "slot": "outlook",
+   "when": "Outlook",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-09",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "week-ahead",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Expiry dates shift around Nov 24 holiday",
+   "line": "Weekly Nifty expiry is Tuesday Nov 17; November's monthly expiry moves to Monday Nov 23",
+   "more": [
+    "Markets are shut on Tuesday, November 24 for Guru Nanak Jayanti",
+    "October WPI is due on Monday; US Fed minutes also come this week"
+   ],
+   "src": {
+    "title": "F&O Expiry Calendar 2026: Nifty, Bank Nifty & Sensex Expiry Dates",
+    "url": "https://www.quantsapp.com/expiry-calendar"
+   },
+   "date": "2026-11-15",
+   "slot": "outlook",
+   "when": "Outlook",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-15",
+    "slot": "0800"
+   }
+  },
+  {
+   "key": "nvidia-q3",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Nvidia reports Tuesday after the US close",
+   "line": "The first results under interim CEO Colette Kress; sales are expected around $109 billion",
+   "more": [
+    "The stock is more than 30% below its October peak",
+    "The results land before India's Wednesday open"
+   ],
+   "src": {
+    "title": "Fever pitch: Nvidia's earnings and the investing week ahead",
+    "url": "https://finimize.com/content/nvidias-earnings-and-the-investing-week-aheada"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-15",
+   "slot": "outlook",
+   "when": "Outlook",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "2100"
+   }
+  },
+  {
    "key": "mahanadi-coalfields-ipo",
    "tag": "Listing",
    "impact": "watch",
-   "title": "Coal India's Mahanadi Coalfields IPO opens Nov 19",
-   "line": "A pure offer for sale of about 10% by Coal India, estimated at ₹9,500–10,000 crore",
+   "title": "Mahanadi Coalfields IPO opens Thursday",
+   "line": "Coal India's ~10% sale, estimated at ₹9,500–10,000 crore, runs November 19–23",
    "more": [
-    "The issue runs November 19–23; the price band could be disclosed on November 16",
-    "Coal India is selling 66.18 crore shares; all proceeds go to the parent",
-    "Size estimates differ: about ₹9,500 crore in one report, about ₹10,000 crore in another"
+    "The price band could be disclosed on Monday",
+    "Crystal Crop's ₹456 crore IPO opens a day earlier, on November 18"
    ],
    "src": {
     "title": "Coal India Arm Mahanadi Coalfields IPO to Open on November 19, Eyes ₹9,500 Crore",
@@ -50,9 +149,9 @@
    },
    "thread": "mega-ipos-2026",
    "date": "2026-11-15",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": false,
+   "slot": "outlook",
+   "when": "Outlook",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-15",
@@ -78,7 +177,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "0800"
@@ -104,61 +203,10 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "hormuz-talks",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Trump: US doesn't need an Iran deal",
-   "line": "US-Iran talks are stuck, with Qatar trying to bridge the gap",
-   "more": [
-    "Trump wrote on Truth Social: \"We don't need a deal with Iran\"",
-    "Iran wants seven conditions met, including lifting sanctions and the naval blockade, before pausing ship attacks",
-    "Secretary of State Rubio called the conditions \"absurd\""
-   ],
-   "src": {
-    "title": "What's Trump's strategy now with Iran? To keep things as they are - OPB",
-    "url": "https://www.opb.org/article/2026/11/14/gulf-in-limbo-as-trump-says-no-iran-deal-needed/"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-15",
-   "slot": "1400",
-   "when": "14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "week-ahead",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Previews: FII buying vs oil, rupee, inflation",
-   "line": "Analysts see foreign buying as the main support; oil above $95 and the rupee weigh",
-   "more": [
-    "FIIs bought about ₹33,340 crore over November 9–13, about ₹79,300 crore for the month",
-    "October retail inflation of 6.09% is above the RBI's 6% upper limit",
-    "One analyst flags possible profit booking after the recent rally"
-   ],
-   "src": {
-    "title": "Indian Stock Market Outlook Next Week, 16 to 20 Nov 2026: Will Sensex, Nifty Remain Bullish Amid FII Buying?",
-    "url": "https://www.goodreturns.in/news/indian-stock-market-outlook-next-week-16-to-20-november-2026-sensex-nifty-targets-key-levels-crude-1547059.html"
-   },
-   "date": "2026-11-15",
-   "slot": "1400",
-   "when": "14:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "0800"
    }
   },
   {
@@ -212,31 +260,6 @@
    }
   },
   {
-   "key": "nvidia-q3",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Nvidia results due Tuesday after US close",
-   "line": "Interim CEO Colette Kress presents; the stock is down over 30% from its October peak",
-   "more": [
-    "Third-quarter sales are expected around $109 billion",
-    "The results land before India's Wednesday open and will steer the AI trade"
-   ],
-   "src": {
-    "title": "Fever pitch: Nvidia's earnings and the investing week ahead",
-    "url": "https://finimize.com/content/nvidias-earnings-and-the-investing-week-aheada"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-15",
-   "slot": "0800",
-   "when": "8:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "2100"
-   }
-  },
-  {
    "key": "us-yields",
    "tag": "Global",
    "impact": "neg",
@@ -285,32 +308,6 @@
    "first_seen": {
     "date": "2026-11-09",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs bought ₹5,737 crore on Friday",
-   "line": "Foreign investors kept buying on a down day; domestic funds sold about ₹2,254 crore",
-   "more": [
-    "FIIs net bought about ₹33,342 crore over the 8–13 November week, per StockPil",
-    "November-to-date FII buying is about ₹79,302 crore; DIIs have sold about ₹49,089 crore",
-    "Figures are provisional exchange data"
-   ],
-   "src": {
-    "title": "FII vs DII this week (8–13 Nov): FIIs net buyers of ₹33,342 crore",
-    "url": "https://stockpil.com/fii-vs-dii-this-week-2026-11-13"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-14",
-   "slot": "1800",
-   "when": "Sat · 18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "0925"
    }
   },
   {
