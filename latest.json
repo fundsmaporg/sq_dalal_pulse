@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-15T08:00:31+05:30",
+ "generated_at": "2026-11-15T14:00:04+05:30",
  "date": "2026-11-15",
- "slot": "0800",
- "slot_label": "8:00",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Weekend outlook",
- "asof": "2026-11-15T08:00:00+05:30",
+ "asof": "2026-11-15T14:00:00+05:30",
  "nifty": {
   "value": 25144.3,
   "pct": -0.61,
@@ -15,24 +15,100 @@
  },
  "mood": {
   "label": "Cautious into Monday",
-  "score": -0.15,
-  "summary": "Indian stocks head into Monday with three straight weeks of foreign buying behind them, but Gulf shipping risks, US yields and talk of an RBI hike keep the setup guarded.",
+  "score": -0.2,
+  "summary": "Strong foreign buying gives Indian stocks a cushion into Monday, but stalled US-Iran diplomacy, oil near the mid-$90s and a weak rupee leave little room for a confident start.",
   "detail": {
-   "leaders": "Banks, which led last week and have drawn foreign buying; large caps backed by steady inflows",
-   "laggards": "Oil-sensitive sectors if Gulf tanker attacks lift crude; rate-sensitives while a December RBI hike is being discussed",
-   "tone": "A look-ahead to Monday 16 November, after a week in which the market rose overall but gave ground on Friday. Overnight, Iran's mine claims in Hormuz drew pushback from the US military.",
+   "leaders": "Banks, last week's strongest group, backed by foreign buying",
+   "laggards": "Oil-sensitive sectors while Gulf diplomacy is stalled; recent gainers exposed to profit booking",
+   "tone": "A look-ahead to Monday 16 November. Since the morning note, the diplomatic picture has darkened: Trump says the US no longer needs a deal with Iran, and talks are stuck.",
    "watch": [
-    "How crude trades on Monday after the weekend's tanker incidents",
-    "October wholesale inflation on Monday, read for December rate-hike odds",
-    "Nvidia's results, out before India opens on Wednesday"
+    "How crude opens given stalled US-Iran talks and the weekend's tanker incidents",
+    "Whether foreign buyers keep supporting the market",
+    "October wholesale inflation on Monday"
    ],
    "src": {
-    "title": "Markets Next Week: Key triggers that could move Dalal Street — Return of FIIs, Nvidia earnings, inflation and US trade deal",
-    "url": "https://www.businesstoday.in/markets/stocks/story/markets-next-week-key-triggers-that-could-move-dalal-street-return-of-fiis-nvidia-earnings-inflation-and-us-trade-deal-567496-2026-11-15"
+    "title": "Indian Stock Market Outlook Next Week, 16 to 20 Nov 2026: Will Sensex, Nifty Remain Bullish Amid FII Buying?",
+    "url": "https://www.goodreturns.in/news/indian-stock-market-outlook-next-week-16-to-20-november-2026-sensex-nifty-targets-key-levels-crude-1547059.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "hormuz-talks",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Trump: US doesn't need an Iran deal",
+   "line": "US-Iran talks are stuck, with Qatar trying to bridge the gap",
+   "more": [
+    "Trump wrote on Truth Social: \"We don't need a deal with Iran\"",
+    "Iran wants seven conditions met, including lifting sanctions and the naval blockade, before pausing ship attacks",
+    "Secretary of State Rubio called the conditions \"absurd\""
+   ],
+   "src": {
+    "title": "What's Trump's strategy now with Iran? To keep things as they are - OPB",
+    "url": "https://www.opb.org/article/2026/11/14/gulf-in-limbo-as-trump-says-no-iran-deal-needed/"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-15",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-15",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "week-ahead",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Previews: FII buying vs oil, rupee, inflation",
+   "line": "Analysts see foreign buying as the main support; oil above $95 and the rupee weigh",
+   "more": [
+    "FIIs bought about ₹33,340 crore over November 9–13, about ₹79,300 crore for the month",
+    "October retail inflation of 6.09% is above the RBI's 6% upper limit",
+    "One analyst flags possible profit booking after the recent rally"
+   ],
+   "src": {
+    "title": "Indian Stock Market Outlook Next Week, 16 to 20 Nov 2026: Will Sensex, Nifty Remain Bullish Amid FII Buying?",
+    "url": "https://www.goodreturns.in/news/indian-stock-market-outlook-next-week-16-to-20-november-2026-sensex-nifty-targets-key-levels-crude-1547059.html"
+   },
+   "date": "2026-11-15",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-15",
+    "slot": "0800"
+   }
+  },
+  {
+   "key": "wpi-inflation",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Wholesale inflation print due Monday",
+   "line": "October WPI is one of the week's first data points, alongside Nvidia and FII flows",
+   "more": [
+    "Wholesale inflation was 11.39% in September",
+    "Expectations of a December RBI rate hike have gained traction"
+   ],
+   "src": {
+    "title": "Nifty Outlook Next Week: Nvidia, WPI, FII Flows in Focus",
+    "url": "https://www.thefinancialeconomy.com/nifty-outlook-next-week/"
+   },
+   "thread": "rbi-policy",
+   "date": "2026-11-15",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "2100"
+   }
+  },
   {
    "key": "hormuz-attacks",
    "tag": "Global",
@@ -53,35 +129,10 @@
    "slot": "0800",
    "when": "8:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "week-ahead",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "FIIs, Nvidia, inflation set the week's tone",
-   "line": "Previews flag foreign flows, Nvidia's results, inflation and US trade talks",
-   "more": [
-    "FIIs bought about ₹33,340 crore last week, a third straight week of buying after ten weeks of selling",
-    "Bank Nifty outperformed last week",
-    "US Fed minutes are also on the calendar"
-   ],
-   "src": {
-    "title": "Markets Next Week: Key triggers that could move Dalal Street — Return of FIIs, Nvidia earnings, inflation and US trade deal",
-    "url": "https://www.businesstoday.in/markets/stocks/story/markets-next-week-key-triggers-that-could-move-dalal-street-return-of-fiis-nvidia-earnings-inflation-and-us-trade-deal-567496-2026-11-15"
-   },
-   "date": "2026-11-15",
-   "slot": "0800",
-   "when": "8:00",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "0800"
    }
   },
   {
@@ -103,7 +154,7 @@
    "slot": "0800",
    "when": "8:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1635"
@@ -128,7 +179,7 @@
    "slot": "0800",
    "when": "8:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "2100"
@@ -183,31 +234,6 @@
    "first_seen": {
     "date": "2026-11-09",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "wpi-inflation",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "October wholesale inflation due Monday",
-   "line": "The government is scheduled to release October WPI data on November 16",
-   "more": [
-    "Wholesale inflation was 11.39% in September, up from 9.92% in August",
-    "It follows October retail inflation above the RBI's 6% ceiling"
-   ],
-   "src": {
-    "title": "India's wholesale inflation stands at 11.39 pc in September: Govt",
-    "url": "https://www.newkerala.com/news/a/indias-wholesale-inflation-stands-1139-pc-september-govt-861.htm"
-   },
-   "thread": "rbi-policy",
-   "date": "2026-11-14",
-   "slot": "2100",
-   "when": "Sat · 21:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "2100"
    }
   },
   {
