@@ -1,65 +1,71 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-16T15:37:41+05:30",
+ "generated_at": "2026-11-16T16:06:28+05:30",
  "date": "2026-11-16",
- "slot": "1535",
- "slot_label": "15:35",
- "stage": "Closing mood",
- "asof": "2026-11-16T15:35:00+05:30",
+ "slot": "1605",
+ "slot_label": "16:05",
+ "stage": "Post-market mood",
+ "asof": "2026-11-16T16:05:00+05:30",
  "nifty": {
   "value": 25291.1,
   "pct": 0.58,
   "chg": 146.8,
-  "approx": false,
-  "asof_quote": "15:30"
+  "approx": false
  },
  "mood": {
-  "label": "Narrow late rally",
+  "label": "Narrow large-cap gain",
   "score": 0.25,
-  "summary": "Large caps finished strongly with a late push led by banks and FMCG, but the rally was narrow, with midcaps and smallcaps ending clearly lower.",
+  "summary": "The session closed firmly higher for large caps on buying in FMCG and private banks, but breadth was poor, with midcaps and smallcaps ending in the red.",
   "detail": {
-   "leaders": "Banking stocks and Nifty FMCG",
-   "laggards": "Nifty Smallcap 100 and Nifty Midcap 100; Nifty Realty and Nifty Metal",
-   "tone": "A read on the finished session: firmer than the previous note, as the benchmarks picked up in the final half hour, though breadth stayed poor.",
+   "leaders": "Nifty FMCG and Nifty Private Bank; Max Healthcare, ITC, Tata Consumer",
+   "laggards": "Nifty Smallcap 100 and Nifty Midcap 100; auto and metal stocks",
+   "tone": "A read on the finished session: the benchmarks closed near the day's better levels after a late push, but the gain was carried by a narrow set of heavyweights.",
    "watch": [
-    "Provisional FII/DII flows after the close",
+    "Provisional FII/DII flows for today",
     "Tuesday's weekly expiry",
     "Nvidia's results after Tuesday's US close"
    ],
    "src": {
-    "title": "Stock Market Close: Sensex ends 510 pts higher, Nifty at 25,291; FMGC, bank shares outshine",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+    "title": "Sensex closes 510 points up, Nifty gains 147 points, midcap and smallcap face pressure",
+    "url": "https://english.punjabkesari.com/business/sensex-closes-510-points-up-nifty-gains-147-points-midcap-and-smallcap-face-pressure"
    },
    "movers": {
     "up": {
-     "summary": "Banks and FMCG carry the benchmarks to a firm close",
-     "why": "Heavyweight banks and consumer staples drew buying into the close, with easing oil prices cited as the backdrop.",
+     "summary": "FMCG and private banks lead; Max Healthcare, ITC top Nifty gainers",
+     "why": "Defensive consumer staples and private lenders drew steady buying, with easing oil prices cited as the backdrop.",
      "names": [
-      {
-       "name": "Banking stocks",
-       "dir": "up",
-       "line": "Led the late gains, outshining most sectors at the close"
-      },
       {
        "name": "Nifty FMCG",
        "dir": "up",
-       "line": "The best-performing sector index on the day"
+       "move": "+1.6%",
+       "line": "The day's best sector, with ITC and Tata Consumer among top gainers"
+      },
+      {
+       "name": "Nifty Private Bank",
+       "dir": "up",
+       "move": "+0.56%",
+       "line": "Private lenders helped lift the benchmarks into the close"
+      },
+      {
+       "name": "Max Healthcare",
+       "dir": "up",
+       "line": "Ended among the top Nifty gainers, as it was through the morning"
       }
      ],
      "src": {
-      "title": "Stock Market Close: Sensex ends 510 pts higher, Nifty at 25,291; FMGC, bank shares outshine",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+      "title": "Sensex closes 510 points up, Nifty gains 147 points, midcap and smallcap face pressure",
+      "url": "https://english.punjabkesari.com/business/sensex-closes-510-points-up-nifty-gains-147-points-midcap-and-smallcap-face-pressure"
      }
     },
     "down": {
-     "summary": "Smallcaps and midcaps close lower; realty and metals weakest",
-     "why": "Selling in smaller stocks persisted all session, and realty and metals extended Friday's losses.",
+     "summary": "Smallcaps and midcaps fall; autos and metals under pressure",
+     "why": "Selling in smaller stocks persisted all day, and autos were dragged by Tata Motors PV after JLR's outlook cut.",
      "names": [
       {
        "name": "Nifty Smallcap 100",
        "dir": "down",
        "move": "-1.10%",
-       "line": "The weakest broad index, falling through the afternoon"
+       "line": "The weakest broad index, sliding through the afternoon"
       },
       {
        "name": "Nifty Midcap 100",
@@ -68,19 +74,14 @@
        "line": "Turned lower after a small early gain"
       },
       {
-       "name": "Nifty Realty",
+       "name": "Auto stocks",
        "dir": "down",
-       "line": "Among the two weakest sectors, extending Friday's fall"
-      },
-      {
-       "name": "Nifty Metal",
-       "dir": "down",
-       "line": "Among the two weakest sectors for a second session"
+       "line": "Under pressure, led lower by Tata Motors PV on JLR's guidance cut"
       }
      ],
      "src": {
-      "title": "Stock Market Close: Sensex ends 510 pts higher, Nifty at 25,291; FMGC, bank shares outshine",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+      "title": "Sensex closes 510 points up, Nifty gains 147 points, midcap and smallcap face pressure",
+      "url": "https://english.punjabkesari.com/business/sensex-closes-510-points-up-nifty-gains-147-points-midcap-and-smallcap-face-pressure"
      }
     }
    }
@@ -88,22 +89,71 @@
  },
  "insights": [
   {
+   "key": "sebi-fpi-ownership",
+   "tag": "Regulation",
+   "impact": "pos",
+   "title": "SEBI may raise FPI ownership threshold to 25%",
+   "line": "The regulator may propose raising the FPI beneficial-ownership threshold to 25%",
+   "more": [
+    "The idea is at the proposal stage, per Business Standard",
+    "It comes amid three weeks of heavy foreign buying"
+   ],
+   "src": {
+    "title": "Sebi may propose raising FPI beneficial ownership threshold to 25%",
+    "url": "https://www.business-standard.com/amp/markets/news/sebi-may-propose-raising-fpi-beneficial-ownership-threshold-to-25-126111601237_1.html"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-16",
+   "slot": "1605",
+   "when": "16:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1605"
+   }
+  },
+  {
+   "key": "morgan-stanley-sensex",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Morgan Stanley sees Sensex 16% higher by Dec 2027",
+   "line": "The broker sees the Sensex rising about 16% by December 2027 on an earnings recovery",
+   "more": [
+    "It cites a recovery in corporate earnings",
+    "It is a long-range brokerage view, not a trading call"
+   ],
+   "src": {
+    "title": "Sensex may rise 16% by December 2027 on earnings recovery: Morgan Stanley",
+    "url": "https://www.business-standard.com/markets/news/morgan-stanley-sensex-target-95000-december-2027-indian-equities-126111601258_1.html"
+   },
+   "date": "2026-11-16",
+   "slot": "1605",
+   "when": "16:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1605"
+   }
+  },
+  {
    "key": "market-close",
    "tag": "Opening",
    "impact": "pos",
-   "title": "Benchmarks end higher on banks and FMCG",
-   "line": "Heavyweights in banking and FMCG led the close as oil prices kept easing",
+   "title": "FMCG and private banks lead the close",
+   "line": "Nifty FMCG rose 1.6% and Nifty Private Bank 0.56% as large caps outperformed",
    "more": [
-    "Banks and FMCG stocks outshone the rest",
-    "Gains picked up in the final half hour of trade"
+    "Max Healthcare, ITC and Tata Consumer were the top Nifty gainers",
+    "Auto, metal and pharma stocks were under pressure, per one report"
    ],
    "src": {
-    "title": "Stock Market Close: Sensex ends 510 pts higher, Nifty at 25,291; FMGC, bank shares outshine",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+    "title": "Sensex closes 510 points up, Nifty gains 147 points, midcap and smallcap face pressure",
+    "url": "https://english.punjabkesari.com/business/sensex-closes-510-points-up-nifty-gains-147-points-midcap-and-smallcap-face-pressure"
    },
    "date": "2026-11-16",
-   "slot": "1535",
-   "when": "15:35",
+   "slot": "1605",
+   "when": "16:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -129,7 +179,7 @@
    "slot": "1535",
    "when": "15:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1005"
@@ -153,7 +203,7 @@
    "slot": "1535",
    "when": "15:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1135"
