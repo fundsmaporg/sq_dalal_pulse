@@ -1,23 +1,23 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-16T12:38:49+05:30",
+ "generated_at": "2026-11-16T13:06:52+05:30",
  "date": "2026-11-16",
- "slot": "1235",
- "slot_label": "12:35",
+ "slot": "1305",
+ "slot_label": "13:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-16T12:35:00+05:30",
+ "asof": "2026-11-16T13:05:00+05:30",
  "mood": {
-  "label": "Steady, slightly firmer",
+  "label": "Steady gains",
   "score": 0.15,
-  "summary": "The market has firmed slightly with FMCG joining IT and banks in support, shrugging off a hotter wholesale inflation print as stock-specific selling stays contained.",
+  "summary": "The market is holding a moderate gain into the afternoon, with FMCG, IT and banks steady and the selling confined to a few stocks hit by company news.",
   "detail": {
-   "leaders": "FMCG, led by ITC and Tata Consumer",
+   "leaders": "Eicher Motors after its results; FMCG led by ITC",
    "laggards": "Tata Motors PV and Laurus Labs",
-   "tone": "A live read on market behaviour rather than a fresh print: slightly firmer than the previous note, with little reaction so far to the hotter wholesale inflation number.",
+   "tone": "A live read on market behaviour rather than a fresh print: little changed from the previous note, with the market steady and no fresh catalyst since the wholesale inflation data.",
    "watch": [
-    "Whether the WPI jump revives December rate-hike worries in banks",
-    "Whether FMCG's support holds into the afternoon",
-    "Further selling in autos"
+    "Whether the hotter wholesale inflation print weighs on banks later",
+    "Any European open cues in the afternoon",
+    "Further auto selling"
    ],
    "src": {
     "title": "Stock Market LIVE: Sensex gains 400 pts, Nifty tops 25,250; ITC, Tata Consumer lead FMCG gainers",
@@ -25,28 +25,29 @@
    },
    "movers": {
     "up": {
-     "summary": "ITC and Tata Consumer lead FMCG gains",
-     "why": "Defensive consumer names are adding to the support from IT and banks around midday.",
+     "summary": "Eicher leads autos higher while ITC heads FMCG gains",
+     "why": "Results-driven buying in Eicher and steady demand for consumer staples are offsetting the weak spots.",
      "names": [
+      {
+       "name": "Eicher Motors",
+       "dir": "up",
+       "move": "+2.58% early",
+       "line": "Led Nifty gainers after Q2 revenue rose 20% and profit 15%"
+      },
       {
        "name": "ITC",
        "dir": "up",
-       "line": "Leading the FMCG gainers around midday"
-      },
-      {
-       "name": "Tata Consumer",
-       "dir": "up",
-       "line": "Among the top FMCG gainers alongside ITC"
+       "line": "Leading the FMCG gainers as consumer staples add support"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex gains 400 pts, Nifty tops 25,250; ITC, Tata Consumer lead FMCG gainers",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+      "title": "Sensex Rises 418 Points, Nifty Crosses 25,200",
+      "url": "https://hdfcsky.com/news/bse-nse-sensex-november-16-2026-open-report-sensex-nifty-open-higher-as-investors-rotate-into-indian-stocks"
      }
     },
     "down": {
      "summary": "Tata Motors PV and Laurus Labs remain the heaviest losers",
-     "why": "Company-specific news, not broad selling, is behind the sharpest falls.",
+     "why": "Company-specific news is behind the sharpest falls rather than any broad selling.",
      "names": [
       {
        "name": "Tata Motors PV",
@@ -71,6 +72,94 @@
  },
  "insights": [
   {
+   "key": "eicher-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Eicher Motors led Nifty gainers after Q2",
+   "line": "The stock rose 2.58% to ₹7,847 early as investors welcomed its September-quarter numbers",
+   "more": [
+    "Revenue rose 20% to ₹7,421 crore and profit 15% to ₹1,573 crore",
+    "An earlier report said profit was short of the ₹1,626 crore analysts expected"
+   ],
+   "src": {
+    "title": "Sensex Rises 418 Points, Nifty Crosses 25,200",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-16-2026-open-report-sensex-nifty-open-higher-as-investors-rotate-into-indian-stocks"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Eicher Motors",
+    "quarter": "Q2 FY27",
+    "reaction_asof": "early trade",
+    "revenue_cr": 7421,
+    "revenue_yoy_pct": 20,
+    "profit_cr": 1573,
+    "profit_yoy_pct": 15,
+    "reaction_pct": 2.58,
+    "src": {
+     "title": "5 Stocks in Focus Today: Tata Motors, Hindalco, Eicher",
+     "url": "https://hdfcsky.com/news/stocks-to-watch-today-monday-november-16-2026-tata-motors-passenger-vehicles-hindalco-industries-hero-motors-godrej-industries-eicher-motors"
+    }
+   },
+   "date": "2026-11-16",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1800"
+   }
+  },
+  {
+   "key": "bel-orders",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "BEL adds ₹619 crore of orders",
+   "line": "Bharat Electronics has won additional orders worth ₹619 crore since November 6",
+   "more": [
+    "BEL was among the stocks to watch on Monday",
+    "The orders were disclosed since the last update on November 6"
+   ],
+   "src": {
+    "title": "Stocks to watch: Ashok Leyland, BEL, Hero Moto, Coal India, Tata Motors PV",
+    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-ashok-leyland-bel-hero-moto-coal-india-jupiter-wagons-126111600057_1.html"
+   },
+   "date": "2026-11-16",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1305"
+   }
+  },
+  {
+   "key": "ashok-leyland-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Ashok Leyland posts strong Q2, declares dividend",
+   "line": "The truck maker reported a strong September quarter and an interim dividend",
+   "more": [
+    "It was among Monday's stocks in focus",
+    "Autos are split today, with Eicher up and Tata Motors PV sharply lower"
+   ],
+   "src": {
+    "title": "Stocks to watch: Ashok Leyland, BEL, Hero Moto, Coal India, Tata Motors PV",
+    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-ashok-leyland-bel-hero-moto-coal-india-jupiter-wagons-126111600057_1.html"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-16",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1305"
+   }
+  },
+  {
    "key": "wpi-inflation",
    "tag": "Macro",
    "impact": "neg",
@@ -90,7 +179,7 @@
    "slot": "1235",
    "when": "12:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "2100"
@@ -114,7 +203,7 @@
    "slot": "1235",
    "when": "12:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1235"
@@ -138,7 +227,7 @@
    "slot": "1235",
    "when": "12:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1135"
@@ -837,40 +926,6 @@
    "first_seen": {
     "date": "2026-11-14",
     "slot": "0800"
-   }
-  },
-  {
-   "key": "eicher-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Eicher Motors Q2 profit up 15%, misses estimates",
-   "line": "Consolidated profit rose to ₹1,573 crore, short of the ₹1,626 crore analysts expected",
-   "more": [
-    "Consolidated revenue rose 20.3% to ₹7,421.72 crore",
-    "Raw material costs weighed on profit, one report says"
-   ],
-   "src": {
-    "title": "Eicher Motors Limited Q2 profit rises 14.9% to ₹1,573 crore",
-    "url": "https://www.multibagg.ai/market-pulse/articles/eicher-motors-q2-profit-growth-cmwew8c2v003q2cqx4dlkyxi6"
-   },
-   "thread": "q2-results-2026",
-   "results": {
-    "company": "Eicher Motors",
-    "quarter": "Q2 FY27",
-    "revenue_cr": 7421.72,
-    "revenue_yoy_pct": 20.3,
-    "profit_cr": 1573,
-    "profit_yoy_pct": 14.9,
-    "vs_estimate": "miss"
-   },
-   "date": "2026-11-13",
-   "slot": "1800",
-   "when": "Fri · 18:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-13",
-    "slot": "1800"
    }
   },
   {
