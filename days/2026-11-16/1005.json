@@ -1,0 +1,151 @@
+{
+ "asof": "2026-11-16T10:05:00+05:30",
+ "summary": "Large caps are extending the morning rebound, led by IT and banks, while smaller stocks lag and a sharp results-driven fall in Kaynes stands out.",
+ "mood": {
+  "label": "Large-cap rebound",
+  "score": 0.35,
+  "detail": {
+   "stats": [],
+   "leaders": "IT and banking stocks",
+   "laggards": "Kaynes Technology after weak results; smallcaps lag the large-cap rally",
+   "movers": {
+    "up": {
+     "summary": "IT and banking stocks lead the rebound in large caps",
+     "why": "Buyers are reversing Friday's losses in the heavyweights, helped by oil continuing to ease on a better supply outlook.",
+     "names": [
+      {
+       "name": "IT stocks",
+       "dir": "up",
+       "line": "Named among the early rally leaders as buyers return to heavyweights"
+      },
+      {
+       "name": "Banking stocks",
+       "dir": "up",
+       "line": "Rallying alongside IT, carrying the bulk of the index gain"
+      }
+     ],
+     "src": {
+      "title": "Indian markets trade higher in early deals; IT, banking shares rally",
+      "url": "https://telanganatoday.com/indian-markets-trade-higher-in-early-deals-it-banking-shares-rally"
+     }
+    },
+    "down": {
+     "summary": "Kaynes slumps on results; smallcaps trail the large caps",
+     "why": "Weak earnings are being punished, and the rebound has so far been concentrated in large caps.",
+     "names": [
+      {
+       "name": "Kaynes Technology",
+       "move": "about -15%",
+       "dir": "down",
+       "line": "Hit a 52-week low after September-quarter profit fell 61.6% year on year"
+      },
+      {
+       "name": "Nifty Smallcap 100",
+       "move": "-0.38%",
+       "dir": "down",
+       "line": "Slipped in early trade while large caps rallied"
+      }
+     ],
+     "src": {
+      "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty tops 25,300; Max Health, Airtel top gainers",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+     }
+    }
+   },
+   "tone": "A live read. The rebound has extended since the open, with large caps doing the lifting and smaller stocks not yet joining in.",
+   "watch": [
+    "Whether midcaps and smallcaps join the rally",
+    "October wholesale inflation, due today",
+    "Crude, which has kept easing"
+   ],
+   "src": {
+    "title": "Dalal Street roars back! Sensex jumps 644 points, Nifty reclaims 25,300",
+    "url": "https://www.newsdrum.in/business/dalal-street-roars-back-sensex-jumps-644-points-nifty-reclaims-25300-12812723"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25315.75,
+  "pct": 0.68,
+  "chg": 171.45,
+  "approx": false,
+  "asof_quote": "09:48"
+ },
+ "top": [
+  {
+   "key": "kaynes-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "thread": "q2-results-2026",
+   "title": "Kaynes slumps ~15% after profit drops 61.6%",
+   "line": "The stock hit a 52-week low of ₹2,915.50 after its September-quarter results",
+   "more": [
+    "Net profit fell 61.6% year on year in Q2 FY27",
+    "It is among the sharpest falls on the NSE this morning"
+   ],
+   "results": {
+    "company": "Kaynes Technology",
+    "quarter": "Q2 FY27",
+    "revenue_cr": null,
+    "revenue_yoy_pct": null,
+    "profit_cr": null,
+    "profit_yoy_pct": -61.6,
+    "vs_estimate": null,
+    "reaction_pct": -15,
+    "reaction_asof": "morning",
+    "src": {
+     "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty tops 25,300; Max Health, Airtel top gainers",
+     "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+    }
+   },
+   "src": {
+    "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty tops 25,300; Max Health, Airtel top gainers",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+   }
+  },
+  {
+   "key": "opening-bell",
+   "tag": "Opening",
+   "impact": "pos",
+   "title": "Rebound reverses Friday's losses",
+   "line": "Gains came despite inflation worries, crude concerns and weak Asian markets",
+   "more": [
+    "Business Standard ties the lift partly to oil easing on a better supply outlook",
+    "Max Healthcare and Bharti Airtel were among top gainers, per Business Standard"
+   ],
+   "src": {
+    "title": "Dalal Street roars back! Sensex jumps 644 points, Nifty reclaims 25,300",
+    "url": "https://www.newsdrum.in/business/dalal-street-roars-back-sensex-jumps-644-points-nifty-reclaims-25300-12812723"
+   }
+  },
+  {
+   "key": "broader-market",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Smallcaps lag the large-cap rally",
+   "line": "Nifty Midcap 100 rose 0.08% while Nifty Smallcap 100 fell 0.38% in early trade",
+   "more": [
+    "The rebound is concentrated in heavyweights such as IT and banks",
+    "Breadth beyond large caps is still narrow"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty tops 25,300; Max Health, Airtel top gainers",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Dalal Street roars back! Sensex jumps 644 points, Nifty reclaims 25,300",
+   "url": "https://www.newsdrum.in/business/dalal-street-roars-back-sensex-jumps-644-points-nifty-reclaims-25300-12812723"
+  },
+  {
+   "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty tops 25,300; Max Health, Airtel top gainers",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+  },
+  {
+   "title": "Indian markets trade higher in early deals; IT, banking shares rally",
+   "url": "https://telanganatoday.com/indian-markets-trade-higher-in-early-deals-it-banking-shares-rally"
+  }
+ ]
+}

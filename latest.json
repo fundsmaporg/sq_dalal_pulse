@@ -1,56 +1,76 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-16T09:27:08+05:30",
+ "generated_at": "2026-11-16T10:06:20+05:30",
  "date": "2026-11-16",
- "slot": "0925",
- "slot_label": "9:25",
+ "slot": "1005",
+ "slot_label": "10:05",
  "stage": "Opening mood",
- "asof": "2026-11-16T09:25:00+05:30",
+ "asof": "2026-11-16T10:05:00+05:30",
  "nifty": {
-  "value": 25271.45,
-  "pct": 0.5,
-  "chg": 124.8,
+  "value": 25315.75,
+  "pct": 0.68,
+  "chg": 171.45,
   "approx": false,
-  "asof_quote": "09:18"
+  "asof_quote": "09:48"
  },
  "mood": {
-  "label": "Firm open",
-  "score": 0.3,
-  "summary": "Stocks opened higher in line with the pre-open cues and built on the gain in the first minutes, with IT leading and easing oil prices supporting the broader tone.",
+  "label": "Large-cap rebound",
+  "score": 0.35,
+  "summary": "Large caps are extending the morning rebound, led by IT and banks, while smaller stocks lag and a sharp results-driven fall in Kaynes stands out.",
   "detail": {
-   "leaders": "IT, led by Infosys",
-   "laggards": "Few clear laggards early; Power Grid is among the weaker Sensex names",
-   "tone": "A live read just after the open. The gap-up the pre-open cues pointed to has held, and the market extended it in the first trades.",
+   "leaders": "IT and banking stocks",
+   "laggards": "Kaynes Technology after weak results; smallcaps lag the large-cap rally",
+   "tone": "A live read. The rebound has extended since the open, with large caps doing the lifting and smaller stocks not yet joining in.",
    "watch": [
-    "Whether the IT-led gain broadens beyond large caps",
+    "Whether midcaps and smallcaps join the rally",
     "October wholesale inflation, due today",
-    "Crude, after it slipped on improving supply bets"
+    "Crude, which has kept easing"
    ],
    "src": {
-    "title": "Stock Market Opening Bell: Sensex jumps over 600 points, Nifty above 25,250; IT stocks lead gains",
-    "url": "https://www.zeebiz.com/market-news/news-stock-market-opening-bell-sensex-jumps-over-600-points-nifty-above-25250-it-stocks-lead-gains-405587"
+    "title": "Dalal Street roars back! Sensex jumps 644 points, Nifty reclaims 25,300",
+    "url": "https://www.newsdrum.in/business/dalal-street-roars-back-sensex-jumps-644-points-nifty-reclaims-25300-12812723"
    },
    "movers": {
     "up": {
-     "summary": "IT leads the open, with Infosys the top Nifty gainer",
-     "why": "Tech stocks are leading the bounce after Friday's slide, while falling oil prices support the wider market.",
+     "summary": "IT and banking stocks lead the rebound in large caps",
+     "why": "Buyers are reversing Friday's losses in the heavyweights, helped by oil continuing to ease on a better supply outlook.",
      "names": [
       {
-       "name": "Nifty IT",
+       "name": "IT stocks",
        "dir": "up",
-       "move": "up ~1%",
-       "line": "The best-performing sector in early trade"
+       "line": "Named among the early rally leaders as buyers return to heavyweights"
       },
       {
-       "name": "Infosys",
+       "name": "Banking stocks",
        "dir": "up",
-       "move": "+1.67%",
-       "line": "Top Nifty gainer in the first minutes, leading the IT pack"
+       "line": "Rallying alongside IT, carrying the bulk of the index gain"
       }
      ],
      "src": {
-      "title": "Stock Market Opening Bell: Sensex jumps over 600 points, Nifty above 25,250; IT stocks lead gains",
-      "url": "https://www.zeebiz.com/market-news/news-stock-market-opening-bell-sensex-jumps-over-600-points-nifty-above-25250-it-stocks-lead-gains-405587"
+      "title": "Indian markets trade higher in early deals; IT, banking shares rally",
+      "url": "https://telanganatoday.com/indian-markets-trade-higher-in-early-deals-it-banking-shares-rally"
+     }
+    },
+    "down": {
+     "summary": "Kaynes slumps on results; smallcaps trail the large caps",
+     "why": "Weak earnings are being punished, and the rebound has so far been concentrated in large caps.",
+     "names": [
+      {
+       "name": "Kaynes Technology",
+       "dir": "down",
+       "move": "about -15%",
+       "line": "Hit a 52-week low after September-quarter profit fell 61.6% year on year"
+      },
+      {
+       "name": "Nifty Smallcap 100",
+       "dir": "down",
+       "move": "-0.38%",
+       "line": "Slipped in early trade while large caps rallied"
+      }
+     ],
+     "src": {
+      "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty tops 25,300; Max Health, Airtel top gainers",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
      }
     }
    }
@@ -58,27 +78,83 @@
  },
  "insights": [
   {
+   "key": "kaynes-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Kaynes slumps ~15% after profit drops 61.6%",
+   "line": "The stock hit a 52-week low of ₹2,915.50 after its September-quarter results",
+   "more": [
+    "Net profit fell 61.6% year on year in Q2 FY27",
+    "It is among the sharpest falls on the NSE this morning"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty tops 25,300; Max Health, Airtel top gainers",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Kaynes Technology",
+    "quarter": "Q2 FY27",
+    "reaction_asof": "morning",
+    "profit_yoy_pct": -61.6,
+    "reaction_pct": -15
+   },
+   "date": "2026-11-16",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1005"
+   }
+  },
+  {
    "key": "opening-bell",
    "tag": "Opening",
    "impact": "pos",
-   "title": "Market opens higher as oil eases",
-   "line": "Business Standard ties the early gains to oil falling on an improved supply outlook",
+   "title": "Rebound reverses Friday's losses",
+   "line": "Gains came despite inflation worries, crude concerns and weak Asian markets",
    "more": [
-    "Nifty opened at 25,206.15 and touched 25,269.80 early, per Zee Business",
-    "Nifty IT rose about 1% in early trade"
+    "Business Standard ties the lift partly to oil easing on a better supply outlook",
+    "Max Healthcare and Bharti Airtel were among top gainers, per Business Standard"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex gains 400 pts, Nifty tops 25,250; Nifty IT rises 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+    "title": "Dalal Street roars back! Sensex jumps 644 points, Nifty reclaims 25,300",
+    "url": "https://www.newsdrum.in/business/dalal-street-roars-back-sensex-jumps-644-points-nifty-reclaims-25300-12812723"
    },
    "date": "2026-11-16",
-   "slot": "0925",
-   "when": "9:25",
+   "slot": "1005",
+   "when": "10:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "0925"
+   }
+  },
+  {
+   "key": "broader-market",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Smallcaps lag the large-cap rally",
+   "line": "Nifty Midcap 100 rose 0.08% while Nifty Smallcap 100 fell 0.38% in early trade",
+   "more": [
+    "The rebound is concentrated in heavyweights such as IT and banks",
+    "Breadth beyond large caps is still narrow"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty tops 25,300; Max Health, Airtel top gainers",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+   },
+   "date": "2026-11-16",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1005"
    }
   },
   {
@@ -100,7 +176,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1800"
@@ -124,7 +200,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "0845"
