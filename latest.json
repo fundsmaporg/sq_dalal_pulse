@@ -1,49 +1,49 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-16T10:06:20+05:30",
+ "generated_at": "2026-11-16T10:36:57+05:30",
  "date": "2026-11-16",
- "slot": "1005",
- "slot_label": "10:05",
- "stage": "Opening mood",
- "asof": "2026-11-16T10:05:00+05:30",
+ "slot": "1035",
+ "slot_label": "10:35",
+ "stage": "Mid-market mood",
+ "asof": "2026-11-16T10:35:00+05:30",
  "nifty": {
-  "value": 25315.75,
-  "pct": 0.68,
-  "chg": 171.45,
+  "value": 25334.2,
+  "pct": 0.76,
+  "chg": 189.9,
   "approx": false,
-  "asof_quote": "09:48"
+  "asof_quote": "10:00"
  },
  "mood": {
-  "label": "Large-cap rebound",
-  "score": 0.35,
-  "summary": "Large caps are extending the morning rebound, led by IT and banks, while smaller stocks lag and a sharp results-driven fall in Kaynes stands out.",
+  "label": "Off the highs",
+  "score": 0.3,
+  "summary": "The market is holding a solid gain but has eased off its morning high, with large caps still in charge and investors waiting on wholesale inflation data.",
   "detail": {
    "leaders": "IT and banking stocks",
-   "laggards": "Kaynes Technology after weak results; smallcaps lag the large-cap rally",
-   "tone": "A live read. The rebound has extended since the open, with large caps doing the lifting and smaller stocks not yet joining in.",
+   "laggards": "Kaynes Technology after weak results",
+   "tone": "A live read: still firmly higher than at the open, but the latest headlines show the gain narrowing from the morning high.",
    "watch": [
-    "Whether midcaps and smallcaps join the rally",
-    "October wholesale inflation, due today",
+    "October wholesale inflation, expected above 12%",
+    "Whether the market holds its gain into the afternoon",
     "Crude, which has kept easing"
    ],
    "src": {
-    "title": "Dalal Street roars back! Sensex jumps 644 points, Nifty reclaims 25,300",
-    "url": "https://www.newsdrum.in/business/dalal-street-roars-back-sensex-jumps-644-points-nifty-reclaims-25300-12812723"
+    "title": "Stock Market LIVE: Sensex jumps 500 pts, Nifty near 25,300; Max Health, Airtel top gainers",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT and banking stocks lead the rebound in large caps",
-     "why": "Buyers are reversing Friday's losses in the heavyweights, helped by oil continuing to ease on a better supply outlook.",
+     "summary": "IT and banking stocks keep leading the rebound",
+     "why": "Heavyweights are recovering Friday's losses, helped by oil easing on a better supply outlook.",
      "names": [
       {
        "name": "IT stocks",
        "dir": "up",
-       "line": "Named among the early rally leaders as buyers return to heavyweights"
+       "line": "Named among the rally leaders as buyers return to tech heavyweights"
       },
       {
        "name": "Banking stocks",
        "dir": "up",
-       "line": "Rallying alongside IT, carrying the bulk of the index gain"
+       "line": "Rallying alongside IT and carrying much of the index gain"
       }
      ],
      "src": {
@@ -52,24 +52,18 @@
      }
     },
     "down": {
-     "summary": "Kaynes slumps on results; smallcaps trail the large caps",
-     "why": "Weak earnings are being punished, and the rebound has so far been concentrated in large caps.",
+     "summary": "Kaynes stays deep in the red after its results",
+     "why": "Weak earnings are drawing heavy selling even as the broad market rises.",
      "names": [
       {
        "name": "Kaynes Technology",
        "dir": "down",
        "move": "about -15%",
-       "line": "Hit a 52-week low after September-quarter profit fell 61.6% year on year"
-      },
-      {
-       "name": "Nifty Smallcap 100",
-       "dir": "down",
-       "move": "-0.38%",
-       "line": "Slipped in early trade while large caps rallied"
+       "line": "Slumped after September-quarter profit fell 61.6% year on year"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty tops 25,300; Max Health, Airtel top gainers",
+      "title": "Stock Market LIVE: Sensex jumps 500 pts, Nifty near 25,300; Max Health, Airtel top gainers",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
      }
     }
@@ -78,31 +72,74 @@
  },
  "insights": [
   {
+   "key": "wpi-inflation",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "WPI expected to top 12% in October",
+   "line": "Consensus sees October wholesale inflation at 12.10%, up from 11.39% in September",
+   "more": [
+    "The data is due today from the commerce ministry",
+    "Ind-Ra had forecast WPI above 12%, lower only if the West Asia crisis eases"
+   ],
+   "src": {
+    "title": "India Wholesale Price Index (WPI) Inflation YoY",
+    "url": "https://in.investing.com/economic-calendar/india-wholesale-price-index-(wpi)-inflation-yoy-564"
+   },
+   "thread": "rbi-policy",
+   "date": "2026-11-16",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "us-ppi",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US producer inflation at a near four-year high",
+   "line": "US PPI rose 6.5% in the year to October, the highest since November 2022",
+   "more": [
+    "Core PPI, excluding food and energy, was up 5% on the year",
+    "It adds to pressure for a Fed hike in December"
+   ],
+   "src": {
+    "title": "Wholesale inflation rose in October to highest annual rate in nearly four years",
+    "url": "https://www.cnn.com/2026/11/13/economy/us-wholesale-inflation-ppi-october"
+   },
+   "thread": "us-rates",
+   "date": "2026-11-16",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "2100"
+   }
+  },
+  {
    "key": "kaynes-q2",
    "tag": "Results",
    "impact": "neg",
-   "title": "Kaynes slumps ~15% after profit drops 61.6%",
-   "line": "The stock hit a 52-week low of ₹2,915.50 after its September-quarter results",
+   "title": "Kaynes still down about 15%",
+   "line": "The slump after its 61.6% profit fall holds as the wider market rallies",
    "more": [
-    "Net profit fell 61.6% year on year in Q2 FY27",
-    "It is among the sharpest falls on the NSE this morning"
+    "Business Standard's live blog confirms the 15% fall",
+    "The stock touched a 52-week low earlier in the session"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty tops 25,300; Max Health, Airtel top gainers",
+    "title": "Stock Market LIVE: Sensex jumps 500 pts, Nifty near 25,300; Max Health, Airtel top gainers",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
    },
    "thread": "q2-results-2026",
-   "results": {
-    "company": "Kaynes Technology",
-    "quarter": "Q2 FY27",
-    "reaction_asof": "morning",
-    "profit_yoy_pct": -61.6,
-    "reaction_pct": -15
-   },
    "date": "2026-11-16",
-   "slot": "1005",
-   "when": "10:05",
-   "updated": false,
+   "slot": "1035",
+   "when": "10:35",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-16",
@@ -127,7 +164,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "0925"
@@ -151,7 +188,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1005"
@@ -302,31 +339,6 @@
    "first_seen": {
     "date": "2026-11-16",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "wpi-inflation",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "October WPI print due today",
-   "line": "Traders are watching wholesale inflation for the RBI's December rate outlook",
-   "more": [
-    "Friday's selling came on worries over rising inflation and a possible RBI hike",
-    "Wholesale inflation was 11.39% in September"
-   ],
-   "src": {
-    "title": "GIFT NIFTY signals positive start for Indian markets on Nov 16; key things to know before the opening bell",
-    "url": "https://upstox.com/news/market-news/stocks/gift-nifty-signals-positive-start-for-indian-markets-on-nov-16-key-things-to-know-before-the-opening-bell/article-203473/"
-   },
-   "thread": "rbi-policy",
-   "date": "2026-11-16",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "2100"
    }
   },
   {
@@ -704,31 +716,6 @@
    "first_seen": {
     "date": "2026-11-14",
     "slot": "0800"
-   }
-  },
-  {
-   "key": "us-ppi",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "US producer prices rise 0.3% in October",
-   "line": "Wholesale inflation came in slightly below the 0.4% consensus",
-   "more": [
-    "The data comes as markets weigh a possible Fed hike in December",
-    "Bond yields have been rising this week"
-   ],
-   "src": {
-    "title": "Nvidia's Huang Resigns, Tech Stocks Drag Market",
-    "url": "https://www.schwab.com/learn/story/stock-market-update-open"
-   },
-   "thread": "us-rates",
-   "date": "2026-11-13",
-   "slot": "2100",
-   "when": "Fri · 21:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-13",
-    "slot": "2100"
    }
   },
   {
