@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-16T07:00:41+05:30",
+ "generated_at": "2026-11-16T08:46:38+05:30",
  "date": "2026-11-16",
- "slot": "0700",
- "slot_label": "7:00",
+ "slot": "0845",
+ "slot_label": "8:45",
  "stage": "Pre-market mood",
- "asof": "2026-11-16T07:00:00+05:30",
+ "asof": "2026-11-16T08:45:00+05:30",
  "nifty": {
   "value": 25144.3,
   "pct": -0.61,
@@ -13,36 +13,201 @@
   "approx": false
  },
  "metrics": {
-  "brent_usd": {
-   "value": 95.45,
-   "asof": "Mon 16 Nov early Asian trade",
+  "usd_inr": {
+   "value": 94.24,
+   "asof": "Fri 13 Nov close",
    "approx": true,
    "src": {
-    "title": "Oil prices dip as markets look to recovering supplies, M.East tensions",
-    "url": "https://investing.com/news/commodities-news/oil-prices-dip-as-markets-look-to-recovering-supplies-meast-tensions-5028198"
+    "title": "Pre-Market Update: GIFT Nifty Signals Positive Opening; Oil Prices, Inflation and Global Technology Selloff Remain Key Concerns",
+    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-positive-opening-oil-prices-inflation-and-global-technology-selloff-remain-key-concerns-60450"
+   }
+  },
+  "fii_net_cr": {
+   "value": 5736.55,
+   "asof": "Fri 13 Nov provisional",
+   "approx": false,
+   "src": {
+    "title": "Pre-Market Update: GIFT Nifty Signals Positive Opening; Oil Prices, Inflation and Global Technology Selloff Remain Key Concerns",
+    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-positive-opening-oil-prices-inflation-and-global-technology-selloff-remain-key-concerns-60450"
+   }
+  },
+  "dii_net_cr": {
+   "value": -2253.58,
+   "asof": "Fri 13 Nov provisional",
+   "approx": false,
+   "src": {
+    "title": "Pre-Market Update: GIFT Nifty Signals Positive Opening; Oil Prices, Inflation and Global Technology Selloff Remain Key Concerns",
+    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-positive-opening-oil-prices-inflation-and-global-technology-selloff-remain-key-concerns-60450"
    }
   }
  },
  "mood": {
-  "label": "Steady start likely",
-  "score": -0.05,
-  "summary": "Indian stocks look set for a steady-to-cautious start, with softer oil and firmer US futures helping while Gulf tensions and a key inflation print keep buyers selective.",
+  "label": "Firmer start likely",
+  "score": 0.15,
+  "summary": "Indian stocks are set to open firmer, helped by softer oil and another day of heavy foreign buying, though weak Asian trade and today's inflation data could cap the bounce.",
   "detail": {
-   "leaders": "Oil-sensitive sectors if crude stays soft; banks, which foreign buyers have favoured",
-   "laggards": "IT and chip-linked names while Nvidia's results are pending; rate-sensitives ahead of the inflation data",
-   "tone": "A forward-looking read before Monday's open. It follows a Friday dip that ended a strong week; oil slipping in early Asian trade despite the weekend's Hormuz claims takes some edge off the risk.",
+   "leaders": "Banks and large caps backed by foreign buying; oil-sensitive sectors as Brent eases",
+   "laggards": "IT and tech-linked names with Asia lower and Nvidia's results pending; Vedanta on a block-related impairment",
+   "tone": "A pre-open read on the session ahead, more upbeat than the early-morning note as GIFT Nifty points to a gap-up start after Friday's profit booking.",
    "watch": [
-    "Whether crude stays soft as Gulf headlines continue",
+    "Whether the gap-up holds once Asian weakness is priced in",
     "October wholesale inflation, due today",
-    "Whether foreign buying continues after three strong weeks"
+    "Crude, as Gulf headlines continue"
    ],
    "src": {
-    "title": "Oil prices dip as markets look to recovering supplies, M.East tensions",
-    "url": "https://investing.com/news/commodities-news/oil-prices-dip-as-markets-look-to-recovering-supplies-meast-tensions-5028198"
+    "title": "Pre-Market Update: GIFT Nifty Signals Positive Opening; Oil Prices, Inflation and Global Technology Selloff Remain Key Concerns",
+    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-positive-opening-oil-prices-inflation-and-global-technology-selloff-remain-key-concerns-60450"
    }
   }
  },
  "insights": [
+  {
+   "key": "gift-nifty",
+   "tag": "Opening",
+   "impact": "pos",
+   "title": "GIFT Nifty points to a gap-up open",
+   "line": "GIFT Nifty traded roughly 90–115 points above Friday's Nifty close before the bell",
+   "more": [
+    "Business Standard put it up 93 points; DSIJ put the premium at 113.70 points",
+    "Asian markets are lower this morning",
+    "Brent is near $95 as oil prices keep easing"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: GIFT Nifty signals positive open; Asian markets decline; Brent near $95",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+   },
+   "date": "2026-11-16",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs bought ₹5,737 crore on Friday",
+   "line": "Foreign buying held up on Friday's down day; domestic funds sold ₹2,254 crore",
+   "more": [
+    "The figures are provisional exchange data",
+    "It extends a third straight week of foreign buying"
+   ],
+   "src": {
+    "title": "Pre-Market Update: GIFT Nifty Signals Positive Opening; Oil Prices, Inflation and Global Technology Selloff Remain Key Concerns",
+    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-positive-opening-oil-prices-inflation-and-global-technology-selloff-remain-key-concerns-60450"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-16",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "vedanta-ongc-block",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "ONGC takes over Cambay block from Vedanta",
+   "line": "Vedanta books about ₹379 crore impairment after losing the CB-OS-02 offshore block",
+   "more": [
+    "The Delhi High Court dismissed Vedanta's challenge to the contract not being extended",
+    "ONGC has taken over operations and control of the block"
+   ],
+   "src": {
+    "title": "Stocks to watch, Nov 16: Max Estates, Vedanta, ONGC, Coal India, VA Tech Wabag, Tata Steel TMPV, Sammaan Capital",
+    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-16-max-estates-vedanta-ongc-coal-india-va-tech-wabag-tata-steel-tmpv-sammaan-capital/article-203480/"
+   },
+   "date": "2026-11-16",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "va-tech-wabag",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "VA Tech Wabag loses Saudi desalination order",
+   "line": "The Saudi Water Authority cancelled a project worth about ₹2,332 crore",
+   "more": [
+    "The company disclosed the cancellation itself",
+    "The stock is likely to stay in focus on Monday"
+   ],
+   "src": {
+    "title": "Stocks to watch, Nov 16: Max Estates, Vedanta, ONGC, Coal India, VA Tech Wabag, Tata Steel TMPV, Sammaan Capital",
+    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-16-max-estates-vedanta-ongc-coal-india-va-tech-wabag-tata-steel-tmpv-sammaan-capital/article-203480/"
+   },
+   "date": "2026-11-16",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "max-estates",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Max Estates plans ₹4,000 crore Gurugram project",
+   "line": "Luxury project The Bungalows in Sector 59 has an estimated GDV of ₹4,000 crore",
+   "more": [
+    "The company will develop the luxury housing project in Gurugram",
+    "It is among Monday's stocks to watch"
+   ],
+   "src": {
+    "title": "Stocks to watch: Ashok Leyland, BEL, Hero Moto, Coal India, Tata Motors PV",
+    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-ashok-leyland-bel-hero-moto-coal-india-jupiter-wagons-126111600057_1.html"
+   },
+   "date": "2026-11-16",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "wpi-inflation",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "October WPI print due today",
+   "line": "Traders are watching wholesale inflation for the RBI's December rate outlook",
+   "more": [
+    "Friday's selling came on worries over rising inflation and a possible RBI hike",
+    "Wholesale inflation was 11.39% in September"
+   ],
+   "src": {
+    "title": "GIFT NIFTY signals positive start for Indian markets on Nov 16; key things to know before the opening bell",
+    "url": "https://upstox.com/news/market-news/stocks/gift-nifty-signals-positive-start-for-indian-markets-on-nov-16-key-things-to-know-before-the-opening-bell/article-203473/"
+   },
+   "thread": "rbi-policy",
+   "date": "2026-11-16",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "2100"
+   }
+  },
   {
    "key": "crude",
    "tag": "Global",
@@ -63,7 +228,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-10",
     "slot": "0845"
@@ -88,7 +253,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-10",
     "slot": "0845"
@@ -113,35 +278,10 @@
    "slot": "0700",
    "when": "7:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "wpi-inflation",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "October wholesale inflation due today",
-   "line": "WPI data for October is scheduled for release on November 16",
-   "more": [
-    "Wholesale inflation was 11.39% in September, up from 9.92% in August",
-    "October retail inflation was above the RBI's 6% upper limit"
-   ],
-   "src": {
-    "title": "India's wholesale inflation stands at 11.39 pc in September: Govt",
-    "url": "https://www.newkerala.com/news/a/indias-wholesale-inflation-stands-1139-pc-september-govt-861.htm"
-   },
-   "thread": "rbi-policy",
-   "date": "2026-11-16",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "2100"
    }
   },
   {
@@ -168,31 +308,6 @@
    "first_seen": {
     "date": "2026-11-15",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FII buying faces a fourth-week test",
-   "line": "FIIs bought about ₹33,340 crore last week, a third straight week of net buying",
-   "more": [
-    "November buying is about ₹79,300 crore so far",
-    "Analysts see continued FII buying as the main support for the market"
-   ],
-   "src": {
-    "title": "Indian Stock Market Outlook Next Week, 16 to 20 Nov 2026: Will Sensex, Nifty Remain Bullish Amid FII Buying?",
-    "url": "https://www.goodreturns.in/news/indian-stock-market-outlook-next-week-16-to-20-november-2026-sensex-nifty-targets-key-levels-crude-1547059.html"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-15",
-   "slot": "outlook",
-   "when": "Sun · Outlook",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "0845"
    }
   },
   {
@@ -1043,30 +1158,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1635"
-   }
-  },
-  {
-   "key": "gift-nifty",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "GIFT Nifty points to a mildly lower open",
-   "line": "GIFT Nifty was at 25,269 at 6:53 AM, about 32 points below its previous close",
-   "more": [
-    "Another reading put it near 25,266.5",
-    "Weak US trading and higher crude are cited for the cautious start"
-   ],
-   "src": {
-    "title": "Pre-Market Update: GIFT Nifty Signals Cautious Opening as Crude Oil Surges; Banking and FII Flows in Focus",
-    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-cautious-opening-as-crude-oil-surges-banking-and-fii-flows-in-focus-60428"
-   },
-   "date": "2026-11-13",
-   "slot": "0845",
-   "when": "Fri · 8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "0845"
    }
   },
   {
