@@ -1,69 +1,71 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-16T13:38:18+05:30",
+ "generated_at": "2026-11-16T14:06:19+05:30",
  "date": "2026-11-16",
- "slot": "1335",
- "slot_label": "13:35",
+ "slot": "1405",
+ "slot_label": "14:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-16T13:35:00+05:30",
+ "asof": "2026-11-16T14:05:00+05:30",
  "nifty": {
-  "value": 25259.7,
-  "pct": 0.46,
-  "chg": 115.4,
+  "value": 25217.0,
+  "pct": 0.29,
+  "chg": 72.7,
   "approx": false,
-  "asof_quote": "13:00"
+  "asof_quote": "14:00"
  },
  "mood": {
-  "label": "Large caps firm",
-  "score": 0.2,
-  "summary": "Large caps are holding a firm gain led by FMCG and a handful of heavyweights, while midcaps and smallcaps underperform and realty and metals stay the weakest spots.",
+  "label": "Gains narrowing",
+  "score": 0.05,
+  "summary": "Gains are narrowing into the afternoon as selling spreads through midcaps and smallcaps, leaving a few large caps and FMCG to keep the benchmarks positive.",
   "detail": {
-   "leaders": "Nifty FMCG; Eicher Motors among top Nifty gainers",
-   "laggards": "Nifty Realty and Nifty Metal; Tata Motors PV",
-   "tone": "A live read: a touch firmer than the previous note, but the gain is narrow, with smaller stocks underperforming.",
+   "leaders": "Nifty FMCG; Eicher Motors",
+   "laggards": "Nifty Smallcap 100 and Nifty Midcap 100; Tata Motors PV",
+   "tone": "A live read: softer than the previous note, with the benchmarks giving back part of their gain and breadth deteriorating as midcaps turn negative.",
    "watch": [
-    "Whether midcaps and smallcaps recover into the close",
-    "Whether realty and metal selling deepens",
-    "European markets' open for afternoon cues"
+    "Whether selling in smaller stocks spills into the large caps",
+    "Whether FMCG support holds into the close",
+    "European markets' direction in the afternoon"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex gains 300 pts, Nifty around 25,250; SMIDs underperform",
+    "title": "Stock Market LIVE: Sensex gains 200 pts, Nifty around 25,200; SMIDs underperform",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
    },
    "movers": {
     "up": {
-     "summary": "FMCG leads the sectors, with Eicher among the top Nifty gainers",
-     "why": "Defensive consumer stocks and a few results-driven heavyweights are carrying the index as oil keeps easing.",
+     "summary": "FMCG and Eicher keep the benchmarks in the green",
+     "why": "Defensive consumer stocks and results-driven buying in Eicher are holding up the large-cap indices while oil eases.",
      "names": [
       {
        "name": "Nifty FMCG",
        "dir": "up",
-       "line": "The best-performing sector index, led by ITC and Tata Consumer"
+       "line": "The strongest sector through midday, led by ITC and Tata Consumer"
       },
       {
        "name": "Eicher Motors",
        "dir": "up",
-       "line": "A top Nifty gainer for a second straight read after its Q2 results"
+       "line": "Among the top Nifty gainers after its September-quarter results"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex gains 300 pts, Nifty around 25,250; SMIDs underperform",
+      "title": "Stock Market LIVE: Sensex gains 200 pts, Nifty around 25,200; SMIDs underperform",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
      }
     },
     "down": {
-     "summary": "Realty and metals lag most; Tata Motors PV stays sharply lower",
-     "why": "Realty and metals are extending Friday's slide, and auto selling is concentrated in Tata Motors PV after JLR's guidance cut.",
+     "summary": "Smallcaps and midcaps slide; Tata Motors PV stays deep in the red",
+     "why": "Selling has broadened beyond a few names into smaller stocks, while autos remain weighed by Tata Motors PV.",
      "names": [
       {
-       "name": "Nifty Realty",
+       "name": "Nifty Smallcap 100",
        "dir": "down",
-       "line": "Among the two weakest sectors, extending Friday's fall after a strong month"
+       "move": "-0.78%",
+       "line": "The weakest broad index, extending its underperformance through the day"
       },
       {
-       "name": "Nifty Metal",
+       "name": "Nifty Midcap 100",
        "dir": "down",
-       "line": "The other weakest sector, down for a second session"
+       "move": "-0.41%",
+       "line": "Turned lower after a small gain earlier in the session"
       },
       {
        "name": "Tata Motors PV",
@@ -73,7 +75,7 @@
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex gains 300 pts, Nifty around 25,250; SMIDs underperform",
+      "title": "Stock Market LIVE: Sensex gains 200 pts, Nifty around 25,200; SMIDs underperform",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
      }
     }
@@ -81,6 +83,88 @@
   }
  },
  "insights": [
+  {
+   "key": "broader-market",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Midcaps turn lower, smallcaps slide",
+   "line": "Nifty Midcap 100 is down 0.41% and Nifty Smallcap 100 down 0.78% as of 2 pm",
+   "more": [
+    "Midcaps had been slightly higher earlier in the session",
+    "The benchmark gain is held up by a narrow group of large caps"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex gains 200 pts, Nifty around 25,200; SMIDs underperform",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+   },
+   "date": "2026-11-16",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "aries-agro-q2",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Aries Agro hits upper circuit on Q2",
+   "line": "The stock is locked at its 5% upper circuit at ₹526.75 after Q2 revenue rose 45%",
+   "more": [
+    "Second-quarter revenue rose to ₹296 crore",
+    "It is one of several small agrochemical names on the move"
+   ],
+   "src": {
+    "title": "Aries Agro shares hit 5% upper circuit after Q2 revenue jump",
+    "url": "https://businessupturn.com/finance/stock-market/why-are-aries-agro-shares-locked-at-the-5-upper-circuit-today/"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Aries Agro",
+    "quarter": "Q2 FY27",
+    "reaction_asof": "Monday session",
+    "revenue_cr": 296,
+    "revenue_yoy_pct": 45,
+    "reaction_pct": 5
+   },
+   "date": "2026-11-16",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1405"
+   }
+  },
+  {
+   "key": "sc-agrotech",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "SC Agrotech approves split and bonus",
+   "line": "The stock hit its 5% upper circuit after a 10:1 split, 4:5 bonus and strong Q2",
+   "more": [
+    "The board also approved the results for the September quarter",
+    "It launched its AgriBridge digital agriculture platform"
+   ],
+   "src": {
+    "title": "SC Agrotech Share Price Hits 5% Upper Circuit Post Q2 FY27 Earnings Results; Approves 10:1 Stock Split and 4:5 Bonus Issue",
+    "url": "https://angelone.in/news/stocks/sc-agrotech-share-price-hits-5-upper-circuit-post-q2-fy27-earnings-results-approves-10-1-stock-split-and-4-5-bonus-issue"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-16",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1405"
+   }
+  },
   {
    "key": "mahanadi-coalfields-ipo",
    "tag": "Listing",
@@ -101,34 +185,10 @@
    "slot": "1335",
    "when": "13:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-15",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "broader-market",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Midcaps and smallcaps underperform",
-   "line": "Smaller stocks are lagging the large-cap gain through the afternoon",
-   "more": [
-    "Realty and metal indices have declined the most among sectors",
-    "FMCG is the best-performing sector"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex gains 300 pts, Nifty around 25,250; SMIDs underperform",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
-   },
-   "date": "2026-11-16",
-   "slot": "1335",
-   "when": "13:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1005"
    }
   },
   {
@@ -149,7 +209,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1335"
