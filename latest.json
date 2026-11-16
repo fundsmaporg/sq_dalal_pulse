@@ -1,82 +1,149 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-16T12:06:28+05:30",
+ "generated_at": "2026-11-16T12:38:49+05:30",
  "date": "2026-11-16",
- "slot": "1205",
- "slot_label": "12:05",
+ "slot": "1235",
+ "slot_label": "12:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-16T12:05:00+05:30",
- "nifty": {
-  "value": 25232.85,
-  "pct": 0.35,
-  "chg": 88.55,
-  "approx": false,
-  "asof_quote": "12:00"
- },
+ "asof": "2026-11-16T12:35:00+05:30",
  "mood": {
-  "label": "Rangebound gains",
-  "score": 0.1,
-  "summary": "The market is stuck in a narrow range with a modest gain, as IT and banks hold it up while selling in a handful of midcaps and autos keeps a lid on it.",
+  "label": "Steady, slightly firmer",
+  "score": 0.15,
+  "summary": "The market has firmed slightly with FMCG joining IT and banks in support, shrugging off a hotter wholesale inflation print as stock-specific selling stays contained.",
   "detail": {
-   "leaders": "IT and banking stocks",
-   "laggards": "Laurus Labs and Tata Motors PV",
-   "tone": "A live read: the market has gone sideways since the previous note, holding a modest gain without fresh direction.",
+   "leaders": "FMCG, led by ITC and Tata Consumer",
+   "laggards": "Tata Motors PV and Laurus Labs",
+   "tone": "A live read on market behaviour rather than a fresh print: slightly firmer than the previous note, with little reaction so far to the hotter wholesale inflation number.",
    "watch": [
-    "October WPI data, due around noon",
-    "Whether the range breaks either way into the afternoon",
-    "Further selling in midcaps"
+    "Whether the WPI jump revives December rate-hike worries in banks",
+    "Whether FMCG's support holds into the afternoon",
+    "Further selling in autos"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range, up 300pts; Premier Energies, Laurus Labs top MidCap losers",
+    "title": "Stock Market LIVE: Sensex gains 400 pts, Nifty tops 25,250; ITC, Tata Consumer lead FMCG gainers",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT and banks keep the market in positive territory",
-     "why": "The two sectors have led since the open, with easing oil and foreign inflows in the background.",
+     "summary": "ITC and Tata Consumer lead FMCG gains",
+     "why": "Defensive consumer names are adding to the support from IT and banks around midday.",
      "names": [
       {
-       "name": "IT stocks",
+       "name": "ITC",
        "dir": "up",
-       "line": "Led sector gains from the open alongside banks"
+       "line": "Leading the FMCG gainers around midday"
       },
       {
-       "name": "Banking stocks",
+       "name": "Tata Consumer",
        "dir": "up",
-       "line": "Among the leading sectors, backed by strong FPI inflows"
+       "line": "Among the top FMCG gainers alongside ITC"
       }
      ],
      "src": {
-      "title": "Sensex & Nifty 50 stock market live updates today 16 November",
-      "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-16-november-gift-nifty-signals-positive-start-amid-weak-global-cues-12812633"
+      "title": "Stock Market LIVE: Sensex gains 400 pts, Nifty tops 25,250; ITC, Tata Consumer lead FMCG gainers",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
      }
     },
     "down": {
-     "summary": "Laurus Labs and Tata Motors PV are among the heaviest losers",
-     "why": "Stock-specific news is driving the sharpest falls rather than any broad selling.",
+     "summary": "Tata Motors PV and Laurus Labs remain the heaviest losers",
+     "why": "Company-specific news, not broad selling, is behind the sharpest falls.",
      "names": [
-      {
-       "name": "Laurus Labs",
-       "dir": "down",
-       "move": "-4.6%",
-       "line": "Top midcap loser after disclosed promoter sales of about 19.6 lakh shares"
-      },
       {
        "name": "Tata Motors PV",
        "dir": "down",
        "move": "-7.5% to -9%",
        "line": "JLR cut its FY27 margin outlook to 2–3% from 4%"
+      },
+      {
+       "name": "Laurus Labs",
+       "dir": "down",
+       "move": "-4.6%",
+       "line": "Falling after disclosed promoter sales of about 19.6 lakh shares"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex stuck in range, up 300pts; Premier Energies, Laurus Labs top MidCap losers",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+      "title": "Tata Motors PV Shares Slide Nearly 9% as JLR Cuts FY27 Outlook After Q2 Loss",
+      "url": "https://www.kotakneo.com/news/stocks/tata-motors-pv-shares-slide-as-jlr-cuts-fy27-outlook/"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "wpi-inflation",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "WPI inflation rises to 12.29% in October",
+   "line": "Wholesale inflation beat the 12.10% consensus, up from 11.39% in September",
+   "more": [
+    "Fuel and power inflation jumped to 32.84% from 25.85%",
+    "Food inflation eased to 8.58%; manufacturing to 9.54% from 9.76%",
+    "April–October cumulative WPI inflation is 10.14%"
+   ],
+   "src": {
+    "title": "Wholesale inflation rises to 12.29% in October as fuel, power prices surge",
+    "url": "https://www.business-standard.com/amp/economy/news/wpi-inflation-rises-to-12-29-in-october-as-fuel-power-prices-surge-126111600916_1.html"
+   },
+   "thread": "rbi-policy",
+   "date": "2026-11-16",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "fmcg-gains",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "ITC, Tata Consumer lead FMCG higher",
+   "line": "Consumer staples are adding support as the market trades in a range",
+   "more": [
+    "FMCG joins IT and banks among the day's supportive sectors",
+    "The broader market gain remains modest"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex gains 400 pts, Nifty tops 25,250; ITC, Tata Consumer lead FMCG gainers",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+   },
+   "date": "2026-11-16",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1235"
+   }
+  },
+  {
+   "key": "tata-motors-jlr",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Tata Motors PV stays sharply lower",
+   "line": "JLR also expects a cash outflow of about £1.25 billion this financial year",
+   "more": [
+    "JLR cut its FY27 EBIT margin outlook to 2–3% from 4%",
+    "Analysts cite weak China demand and MENA disruption"
+   ],
+   "src": {
+    "title": "Tata Motors PV Shares Slide Nearly 9% as JLR Cuts FY27 Outlook After Q2 Loss",
+    "url": "https://www.kotakneo.com/news/stocks/tata-motors-pv-shares-slide-as-jlr-cuts-fy27-outlook/"
+   },
+   "date": "2026-11-16",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1135"
+   }
+  },
   {
    "key": "laurus-labs",
    "tag": "Stocks",
@@ -95,7 +162,7 @@
    "slot": "1205",
    "when": "12:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1205"
@@ -119,60 +186,10 @@
    "slot": "1205",
    "when": "12:05",
    "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1005"
-   }
-  },
-  {
-   "key": "wpi-inflation",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "October WPI print awaited",
-   "line": "The figure was scheduled for noon; consensus is 12.1% versus 11.39% in September",
-   "more": [
-    "The print had not appeared in reports by 12:05",
-    "Expectations of a December RBI hike have gained traction"
-   ],
-   "src": {
-    "title": "India Inflation Data Release Calendar 2026-27: CPI, WPI, CPI-IW and RBI Dates",
-    "url": "https://indiainflation.com/release-calendar"
-   },
-   "thread": "rbi-policy",
-   "date": "2026-11-16",
-   "slot": "1205",
-   "when": "12:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "2100"
-   }
-  },
-  {
-   "key": "tata-motors-jlr",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Tata Motors PV slides as JLR cuts outlook",
-   "line": "JLR now sees FY27 EBIT margin of 2–3% versus 4%, and a £1.25 billion cash outflow",
-   "more": [
-    "The stock fell 7.5% to ₹265.90 in one report, nearly 9% in another",
-    "Analysts cite weak China demand, MENA disruption and an unfavourable mix",
-    "Q2 net loss is reported as ₹5,451 crore in one source, ₹5,531 crore in another"
-   ],
-   "src": {
-    "title": "Tata Motors PV Shares Fall 7.5% After JLR Cuts FY27 Outlook",
-    "url": "https://uniquetimes.org/tata-motors-pv-shares-fall-7-5-after-jlr-cuts-fy27-outlook/"
-   },
-   "date": "2026-11-16",
-   "slot": "1135",
-   "when": "11:35",
-   "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
-    "slot": "1135"
+    "slot": "1005"
    }
   },
   {
