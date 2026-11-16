@@ -1,44 +1,38 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-16T14:06:19+05:30",
+ "generated_at": "2026-11-16T14:37:34+05:30",
  "date": "2026-11-16",
- "slot": "1405",
- "slot_label": "14:05",
+ "slot": "1435",
+ "slot_label": "14:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-16T14:05:00+05:30",
- "nifty": {
-  "value": 25217.0,
-  "pct": 0.29,
-  "chg": 72.7,
-  "approx": false,
-  "asof_quote": "14:00"
- },
+ "asof": "2026-11-16T14:35:00+05:30",
  "mood": {
-  "label": "Gains narrowing",
+  "label": "Modest, narrow gains",
   "score": 0.05,
-  "summary": "Gains are narrowing into the afternoon as selling spreads through midcaps and smallcaps, leaving a few large caps and FMCG to keep the benchmarks positive.",
+  "summary": "The market is clinging to a modest gain in the afternoon, with FMCG the clear leader while smaller stocks and a few results-hit names drag on breadth.",
   "detail": {
    "leaders": "Nifty FMCG; Eicher Motors",
-   "laggards": "Nifty Smallcap 100 and Nifty Midcap 100; Tata Motors PV",
-   "tone": "A live read: softer than the previous note, with the benchmarks giving back part of their gain and breadth deteriorating as midcaps turn negative.",
+   "laggards": "ABB India and Tata Motors PV; Nifty Smallcap 100",
+   "tone": "A live read on market behaviour rather than a fresh print: little changed from the previous note, with the market holding a small gain and breadth still weak.",
    "watch": [
-    "Whether selling in smaller stocks spills into the large caps",
     "Whether FMCG support holds into the close",
-    "European markets' direction in the afternoon"
+    "Whether selling in smaller stocks deepens",
+    "The closing hour's direction ahead of Tuesday's weekly expiry"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex gains 200 pts, Nifty around 25,200; SMIDs underperform",
+    "title": "Stock Market LIVE: Sensex up 200 pts, Nifty around 25,200; Nifty FMCG rises 1%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
    },
    "movers": {
     "up": {
-     "summary": "FMCG and Eicher keep the benchmarks in the green",
-     "why": "Defensive consumer stocks and results-driven buying in Eicher are holding up the large-cap indices while oil eases.",
+     "summary": "FMCG is the standout sector, with Eicher among top Nifty gainers",
+     "why": "Consumer staples are drawing steady buying while the rest of the market is mixed.",
      "names": [
       {
        "name": "Nifty FMCG",
        "dir": "up",
-       "line": "The strongest sector through midday, led by ITC and Tata Consumer"
+       "move": "up ~1%",
+       "line": "The best-performing sector, led by ITC and Tata Consumer"
       },
       {
        "name": "Eicher Motors",
@@ -47,35 +41,35 @@
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex gains 200 pts, Nifty around 25,200; SMIDs underperform",
+      "title": "Stock Market LIVE: Sensex up 200 pts, Nifty around 25,200; Nifty FMCG rises 1%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
      }
     },
     "down": {
-     "summary": "Smallcaps and midcaps slide; Tata Motors PV stays deep in the red",
-     "why": "Selling has broadened beyond a few names into smaller stocks, while autos remain weighed by Tata Motors PV.",
+     "summary": "ABB India and Tata Motors PV slide; smallcaps stay weak",
+     "why": "Results-driven selling and weakness in smaller stocks are keeping breadth negative.",
      "names": [
       {
-       "name": "Nifty Smallcap 100",
+       "name": "ABB India",
        "dir": "down",
-       "move": "-0.78%",
-       "line": "The weakest broad index, extending its underperformance through the day"
-      },
-      {
-       "name": "Nifty Midcap 100",
-       "dir": "down",
-       "move": "-0.41%",
-       "line": "Turned lower after a small gain earlier in the session"
+       "move": "down ~3%",
+       "line": "Operating margins contracted in Q3 despite 19% revenue growth"
       },
       {
        "name": "Tata Motors PV",
        "dir": "down",
        "move": "-7.5% to -9%",
        "line": "JLR cut its FY27 margin outlook to 2–3% from 4%"
+      },
+      {
+       "name": "Nifty Smallcap 100",
+       "dir": "down",
+       "move": "-0.78% at 2 pm",
+       "line": "The weakest broad index through the afternoon"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex gains 200 pts, Nifty around 25,200; SMIDs underperform",
+      "title": "Stock Market LIVE: Sensex up 200 pts, Nifty around 25,200; Nifty FMCG rises 1%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
      }
     }
@@ -83,6 +77,93 @@
   }
  },
  "insights": [
+  {
+   "key": "abb-india-q3",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "ABB India falls on margin squeeze",
+   "line": "Q3 revenue rose 19% to ₹3,738 crore, but the operating EBITA margin fell to 12.9%",
+   "more": [
+    "Profit rose to about ₹440–443 crore; reports differ on the exact figure",
+    "Order inflows hit a record ₹4,733 crore, up 56%",
+    "The company cited commodity, logistics and currency costs"
+   ],
+   "src": {
+    "title": "Why are ABB India shares down over 2% today? Explained",
+    "url": "https://businessupturn.com/finance/stock-market/why-are-abb-india-shares-down-over-2-today-explained/"
+   },
+   "results": {
+    "company": "ABB India",
+    "quarter": "Q3 CY26",
+    "reaction_asof": "afternoon",
+    "revenue_cr": 3738,
+    "revenue_yoy_pct": 19.4,
+    "profit_cr": 440,
+    "profit_yoy_pct": 11,
+    "reaction_pct": -3,
+    "src": {
+     "title": "ABB India Q3CY26 results: Net profit rises 11% to ₹440 cr, revenue up 19.4%",
+     "url": "https://www.business-standard.com/companies/quarterly-results/abb-india-q3cy26-results-net-profit-rises-11-to-440-cr-revenue-up-19-4-126111301458_1.html"
+    }
+   },
+   "date": "2026-11-16",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1800"
+   }
+  },
+  {
+   "key": "fmcg-gains",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Nifty FMCG up about 1%",
+   "line": "Consumer staples are the day's strongest sector as the broader market fades",
+   "more": [
+    "ITC and Tata Consumer have led the sector's gains",
+    "The benchmark gain has narrowed through the afternoon"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex up 200 pts, Nifty around 25,200; Nifty FMCG rises 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+   },
+   "date": "2026-11-16",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1235"
+   }
+  },
+  {
+   "key": "week-ahead",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Weekly Nifty expiry on Tuesday",
+   "line": "Tuesday's weekly expiry and Nvidia's results after the US close are next on the calendar",
+   "more": [
+    "November's monthly expiry has moved to Monday, November 23",
+    "Markets are shut on Tuesday, November 24"
+   ],
+   "src": {
+    "title": "F&O Expiry Calendar 2026: Nifty, Bank Nifty & Sensex Expiry Dates",
+    "url": "https://www.quantsapp.com/expiry-calendar"
+   },
+   "date": "2026-11-16",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-15",
+    "slot": "0800"
+   }
+  },
   {
    "key": "broader-market",
    "tag": "Stocks",
@@ -101,7 +182,7 @@
    "slot": "1405",
    "when": "14:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1005"
@@ -134,7 +215,7 @@
    "slot": "1405",
    "when": "14:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1405"
@@ -159,7 +240,7 @@
    "slot": "1405",
    "when": "14:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1405"
@@ -327,30 +408,6 @@
    "first_seen": {
     "date": "2026-11-14",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "fmcg-gains",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "ITC, Tata Consumer lead FMCG higher",
-   "line": "Consumer staples are adding support as the market trades in a range",
-   "more": [
-    "FMCG joins IT and banks among the day's supportive sectors",
-    "The broader market gain remains modest"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex gains 400 pts, Nifty tops 25,250; ITC, Tata Consumer lead FMCG gainers",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
-   },
-   "date": "2026-11-16",
-   "slot": "1235",
-   "when": "12:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1235"
    }
   },
   {
@@ -774,30 +831,6 @@
    }
   },
   {
-   "key": "week-ahead",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Expiry dates shift around Nov 24 holiday",
-   "line": "Weekly Nifty expiry is Tuesday Nov 17; November's monthly expiry moves to Monday Nov 23",
-   "more": [
-    "Markets are shut on Tuesday, November 24 for Guru Nanak Jayanti",
-    "October WPI is due on Monday; US Fed minutes also come this week"
-   ],
-   "src": {
-    "title": "F&O Expiry Calendar 2026: Nifty, Bank Nifty & Sensex Expiry Dates",
-    "url": "https://www.quantsapp.com/expiry-calendar"
-   },
-   "date": "2026-11-15",
-   "slot": "outlook",
-   "when": "Sun · Outlook",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "0800"
-   }
-  },
-  {
    "key": "nvidia-q3",
    "tag": "Global",
    "impact": "watch",
@@ -1021,30 +1054,6 @@
    "first_seen": {
     "date": "2026-11-14",
     "slot": "0800"
-   }
-  },
-  {
-   "key": "abb-india-q3",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "ABB India quarterly profit at ₹442.52 crore",
-   "line": "Revenue from operations was ₹3,738.13 crore for the quarter to September",
-   "more": [
-    "Profit is a modest rise from ₹432.85 crore a year earlier",
-    "Figures come from a single aggregator and await confirmation"
-   ],
-   "src": {
-    "title": "ABB India reports Q3 FY27 unaudited results with ₹442.52 crore profit",
-    "url": "https://www.investywise.com/abb-india-declares-unaudited-financial-results-for-q3-2026"
-   },
-   "date": "2026-11-13",
-   "slot": "1800",
-   "when": "Fri · 18:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-13",
-    "slot": "1800"
    }
   },
   {
