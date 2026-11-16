@@ -1,54 +1,71 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-16T11:06:50+05:30",
+ "generated_at": "2026-11-16T11:37:16+05:30",
  "date": "2026-11-16",
- "slot": "1105",
- "slot_label": "11:05",
+ "slot": "1135",
+ "slot_label": "11:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-16T11:05:00+05:30",
- "nifty": {
-  "value": 25223,
-  "pct": 0.31,
-  "approx": true,
-  "asof_quote": "11:00"
- },
+ "asof": "2026-11-16T11:35:00+05:30",
  "mood": {
-  "label": "Gains fade",
-  "score": 0.15,
-  "summary": "The morning rally has faded to a modest gain as realty and metal stocks slip, leaving IT and foreign buying to hold the market up ahead of the noon inflation data.",
+  "label": "Narrow gains",
+  "score": 0.1,
+  "summary": "The market is holding a narrow gain with IT and banks offering support, while heavy stock-specific selling in autos and weakness in realty and metals keep breadth thin.",
   "detail": {
-   "leaders": "IT stocks, backed by foreign buying",
-   "laggards": "Nifty Realty and Nifty Metal",
-   "tone": "A live read: softer than the previous note, with the market giving back much of its morning gain as sector breadth narrows.",
+   "leaders": "IT and banking stocks; Nifty Midcap 100 edging up",
+   "laggards": "Tata Motors PV and Pricol; Nifty Realty and Nifty Metal",
+   "tone": "A live read on market behaviour rather than a fresh print: the gain has stayed narrow since the previous note, with stock-specific selling doing most of the damage.",
    "watch": [
-    "October WPI at noon, with consensus near 12.1%",
-    "Whether realty and metal selling spreads",
-    "Whether IT and foreign buying can hold the gain"
+    "October WPI at noon, consensus near 12.1%",
+    "Whether auto selling spreads beyond Tata Motors PV",
+    "Whether smallcaps keep lagging"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex gains 400 pts, Nifty near 25,200; realty, metal indices down 1%",
+    "title": "Stock Market LIVE: Sensex gains 300 pts, Nifty near 25,200; realty, metal indices down 1%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT stocks keep supporting the market as foreign buying continues",
-     "why": "IT and continued foreign institutional buying are the main reasons cited for the market's gain today.",
+     "summary": "IT and banks lead, with midcaps edging higher",
+     "why": "Banking and IT led sector gains from the open, helped by strong foreign inflows and easing oil.",
      "names": [
       {
        "name": "IT stocks",
        "dir": "up",
-       "line": "Cited as a key driver of the day's rise alongside FII buying"
+       "line": "Led sector gains from the open alongside banks"
+      },
+      {
+       "name": "Banking stocks",
+       "dir": "up",
+       "line": "Among the leading sectors, backed by record FPI inflows"
+      },
+      {
+       "name": "Nifty Midcap 100",
+       "dir": "up",
+       "move": "+0.16%",
+       "line": "Holding a small gain while smallcaps slip"
       }
      ],
      "src": {
-      "title": "Why Did The Stock Market Rise Today? Sensex Above 82,200; Nifty Surpasses 25,300",
-      "url": "https://www.etvbharat.com/en/business/why-did-the-stock-market-rise-today-sensex-nifty-rally-fii-buying-it-stocks-jump-enn26111601336"
+      "title": "Sensex & Nifty 50 stock market live updates today 16 November",
+      "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-16-november-gift-nifty-signals-positive-start-amid-weak-global-cues-12812633"
      }
     },
     "down": {
-     "summary": "Realty and metal indices are the weakest sectors",
-     "why": "Both sectors are extending Friday's losses while the rest of the market gives back part of its early gain.",
+     "summary": "Tata Motors PV and Pricol slump; realty and metals weak",
+     "why": "Company-specific news is driving sharp falls in autos, while realty and metals extend Friday's losses.",
      "names": [
+      {
+       "name": "Tata Motors PV",
+       "dir": "down",
+       "move": "-7.5% to -9%",
+       "line": "JLR cut its FY27 margin outlook to 2–3% from 4% after a Q2 loss"
+      },
+      {
+       "name": "Pricol",
+       "dir": "down",
+       "move": "-20% at open",
+       "line": "Promoters to sell their stake in the demerged auto-electronics unit to Warburg"
+      },
       {
        "name": "Nifty Realty",
        "dir": "down",
@@ -59,18 +76,92 @@
        "name": "Nifty Metal",
        "dir": "down",
        "move": "down ~1%",
-       "line": "Down for a second session after slipping about 1% on Friday"
+       "line": "Down for a second session, lagging since the open"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex gains 400 pts, Nifty near 25,200; realty, metal indices down 1%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+      "title": "Tata Motors PV Shares Slide Nearly 9% as JLR Cuts FY27 Outlook After Q2 Loss",
+      "url": "https://www.kotakneo.com/news/stocks/tata-motors-pv-shares-slide-as-jlr-cuts-fy27-outlook/"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "tata-motors-jlr",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Tata Motors PV slides as JLR cuts outlook",
+   "line": "JLR now sees FY27 EBIT margin of 2–3% versus 4%, and a £1.25 billion cash outflow",
+   "more": [
+    "The stock fell 7.5% to ₹265.90 in one report, nearly 9% in another",
+    "Analysts cite weak China demand, MENA disruption and an unfavourable mix",
+    "Q2 net loss is reported as ₹5,451 crore in one source, ₹5,531 crore in another"
+   ],
+   "src": {
+    "title": "Tata Motors PV Shares Fall 7.5% After JLR Cuts FY27 Outlook",
+    "url": "https://uniquetimes.org/tata-motors-pv-shares-fall-7-5-after-jlr-cuts-fy27-outlook/"
+   },
+   "date": "2026-11-16",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1135"
+   }
+  },
+  {
+   "key": "pricol-warburg",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Pricol plunges 20% on Warburg stake deal",
+   "line": "Warburg will buy promoters' 38.51% of demerged Pricol Autotech for up to ₹1,663 crore",
+   "more": [
+    "The stake is in the demerged unit, not in Pricol Ltd itself",
+    "Warburg will also make an open offer for up to 26% more of Pricol Autotech",
+    "The deal depends on the demerger, listing and regulatory approvals"
+   ],
+   "src": {
+    "title": "Pricol shares plunge 20% at market open; Warburg Pincus deal puts demerged business in focus",
+    "url": "https://upstox.com/news/market-news/stocks/pricol-shares-plunge-20-at-market-open-warburg-pincus-deal-puts-demerged-business-in-focus/article-203484/"
+   },
+   "date": "2026-11-16",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1135"
+   }
+  },
+  {
+   "key": "broader-market",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Midcaps edge up, smallcaps slip",
+   "line": "At 11:00, Nifty Midcap 100 was up 0.16% and Nifty Smallcap 100 down 0.37%",
+   "more": [
+    "Realty and metal indices were down about 1%",
+    "Oil easing is cited as the main support for the market"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex gains 300 pts, Nifty near 25,200; realty, metal indices down 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+   },
+   "date": "2026-11-16",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1005"
+   }
+  },
   {
    "key": "wpi-inflation",
    "tag": "Macro",
@@ -91,7 +182,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "2100"
@@ -115,7 +206,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1105"
@@ -140,7 +231,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "0845"
@@ -218,30 +309,6 @@
    "first_seen": {
     "date": "2026-11-11",
     "slot": "0925"
-   }
-  },
-  {
-   "key": "broader-market",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Smallcaps lag the large-cap rally",
-   "line": "Nifty Midcap 100 rose 0.08% while Nifty Smallcap 100 fell 0.38% in early trade",
-   "more": [
-    "The rebound is concentrated in heavyweights such as IT and banks",
-    "Breadth beyond large caps is still narrow"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty tops 25,300; Max Health, Airtel top gainers",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
-   },
-   "date": "2026-11-16",
-   "slot": "1005",
-   "when": "10:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1005"
    }
   },
   {
