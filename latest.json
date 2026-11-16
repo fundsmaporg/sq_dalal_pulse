@@ -1,76 +1,160 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-16T13:06:52+05:30",
+ "generated_at": "2026-11-16T13:38:18+05:30",
  "date": "2026-11-16",
- "slot": "1305",
- "slot_label": "13:05",
+ "slot": "1335",
+ "slot_label": "13:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-16T13:05:00+05:30",
+ "asof": "2026-11-16T13:35:00+05:30",
+ "nifty": {
+  "value": 25259.7,
+  "pct": 0.46,
+  "chg": 115.4,
+  "approx": false,
+  "asof_quote": "13:00"
+ },
  "mood": {
-  "label": "Steady gains",
-  "score": 0.15,
-  "summary": "The market is holding a moderate gain into the afternoon, with FMCG, IT and banks steady and the selling confined to a few stocks hit by company news.",
+  "label": "Large caps firm",
+  "score": 0.2,
+  "summary": "Large caps are holding a firm gain led by FMCG and a handful of heavyweights, while midcaps and smallcaps underperform and realty and metals stay the weakest spots.",
   "detail": {
-   "leaders": "Eicher Motors after its results; FMCG led by ITC",
-   "laggards": "Tata Motors PV and Laurus Labs",
-   "tone": "A live read on market behaviour rather than a fresh print: little changed from the previous note, with the market steady and no fresh catalyst since the wholesale inflation data.",
+   "leaders": "Nifty FMCG; Eicher Motors among top Nifty gainers",
+   "laggards": "Nifty Realty and Nifty Metal; Tata Motors PV",
+   "tone": "A live read: a touch firmer than the previous note, but the gain is narrow, with smaller stocks underperforming.",
    "watch": [
-    "Whether the hotter wholesale inflation print weighs on banks later",
-    "Any European open cues in the afternoon",
-    "Further auto selling"
+    "Whether midcaps and smallcaps recover into the close",
+    "Whether realty and metal selling deepens",
+    "European markets' open for afternoon cues"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex gains 400 pts, Nifty tops 25,250; ITC, Tata Consumer lead FMCG gainers",
+    "title": "Stock Market LIVE: Sensex gains 300 pts, Nifty around 25,250; SMIDs underperform",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Eicher leads autos higher while ITC heads FMCG gains",
-     "why": "Results-driven buying in Eicher and steady demand for consumer staples are offsetting the weak spots.",
+     "summary": "FMCG leads the sectors, with Eicher among the top Nifty gainers",
+     "why": "Defensive consumer stocks and a few results-driven heavyweights are carrying the index as oil keeps easing.",
      "names": [
+      {
+       "name": "Nifty FMCG",
+       "dir": "up",
+       "line": "The best-performing sector index, led by ITC and Tata Consumer"
+      },
       {
        "name": "Eicher Motors",
        "dir": "up",
-       "move": "+2.58% early",
-       "line": "Led Nifty gainers after Q2 revenue rose 20% and profit 15%"
-      },
-      {
-       "name": "ITC",
-       "dir": "up",
-       "line": "Leading the FMCG gainers as consumer staples add support"
+       "line": "A top Nifty gainer for a second straight read after its Q2 results"
       }
      ],
      "src": {
-      "title": "Sensex Rises 418 Points, Nifty Crosses 25,200",
-      "url": "https://hdfcsky.com/news/bse-nse-sensex-november-16-2026-open-report-sensex-nifty-open-higher-as-investors-rotate-into-indian-stocks"
+      "title": "Stock Market LIVE: Sensex gains 300 pts, Nifty around 25,250; SMIDs underperform",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
      }
     },
     "down": {
-     "summary": "Tata Motors PV and Laurus Labs remain the heaviest losers",
-     "why": "Company-specific news is behind the sharpest falls rather than any broad selling.",
+     "summary": "Realty and metals lag most; Tata Motors PV stays sharply lower",
+     "why": "Realty and metals are extending Friday's slide, and auto selling is concentrated in Tata Motors PV after JLR's guidance cut.",
      "names": [
+      {
+       "name": "Nifty Realty",
+       "dir": "down",
+       "line": "Among the two weakest sectors, extending Friday's fall after a strong month"
+      },
+      {
+       "name": "Nifty Metal",
+       "dir": "down",
+       "line": "The other weakest sector, down for a second session"
+      },
       {
        "name": "Tata Motors PV",
        "dir": "down",
        "move": "-7.5% to -9%",
        "line": "JLR cut its FY27 margin outlook to 2–3% from 4%"
-      },
-      {
-       "name": "Laurus Labs",
-       "dir": "down",
-       "move": "-4.6%",
-       "line": "Falling after disclosed promoter sales of about 19.6 lakh shares"
       }
      ],
      "src": {
-      "title": "Tata Motors PV Shares Slide Nearly 9% as JLR Cuts FY27 Outlook After Q2 Loss",
-      "url": "https://www.kotakneo.com/news/stocks/tata-motors-pv-shares-slide-as-jlr-cuts-fy27-outlook/"
+      "title": "Stock Market LIVE: Sensex gains 300 pts, Nifty around 25,250; SMIDs underperform",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "mahanadi-coalfields-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Mahanadi Coalfields sets IPO band at ₹129–136",
+   "line": "The ₹8,981 crore offer values the Coal India unit at about ₹90,000 crore at the top end",
+   "more": [
+    "The issue runs November 19–23; the lot size is 110 shares",
+    "It is entirely an offer for sale by Coal India",
+    "Goodreturns cites a grey-market premium of about 7–10%"
+   ],
+   "src": {
+    "title": "Mahanadi Coalfields Fixes Price Band at ₹129 to ₹136 for ₹8,981.12 Crore IPO",
+    "url": "https://www.angelone.in/news/ipos/mahanadi-coalfields-fixes-price-band-at-129-to-136-for-8-981-12-crore-ipo"
+   },
+   "thread": "mega-ipos-2026",
+   "date": "2026-11-16",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-15",
+    "slot": "1800"
+   }
+  },
+  {
+   "key": "broader-market",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Midcaps and smallcaps underperform",
+   "line": "Smaller stocks are lagging the large-cap gain through the afternoon",
+   "more": [
+    "Realty and metal indices have declined the most among sectors",
+    "FMCG is the best-performing sector"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex gains 300 pts, Nifty around 25,250; SMIDs underperform",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+   },
+   "date": "2026-11-16",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "top-gainers",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Eicher, Asian Paints, Airtel top Nifty gainers",
+   "line": "The three heavyweights lead the Nifty 50 as of the 1 pm update",
+   "more": [
+    "Oil continuing to decline is cited as the market's main support",
+    "Eicher reported Q2 revenue up 20% and profit up 15%"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex gains 300 pts, Nifty around 25,250; SMIDs underperform",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+   },
+   "date": "2026-11-16",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1335"
+   }
+  },
   {
    "key": "eicher-q2",
    "tag": "Results",
@@ -104,7 +188,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1800"
@@ -128,7 +212,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1305"
@@ -153,7 +237,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1305"
@@ -255,30 +339,6 @@
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1205"
-   }
-  },
-  {
-   "key": "broader-market",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Premier Energies, Laurus lead midcap losers",
-   "line": "The two are the top losers in the midcap index as the market trades in a range",
-   "more": [
-    "No specific trigger was reported for Premier Energies' fall",
-    "The benchmark gain remains concentrated in large caps"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range, up 300pts; Premier Energies, Laurus Labs top MidCap losers",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
-   },
-   "date": "2026-11-16",
-   "slot": "1205",
-   "when": "12:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1005"
    }
   },
   {
@@ -700,31 +760,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "mahanadi-coalfields-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Mahanadi Coalfields IPO opens Thursday",
-   "line": "Coal India's ~10% sale, estimated at ₹9,500–10,000 crore, runs November 19–23",
-   "more": [
-    "The price band could be disclosed on Monday",
-    "Crystal Crop's ₹456 crore IPO opens a day earlier, on November 18"
-   ],
-   "src": {
-    "title": "Coal India Arm Mahanadi Coalfields IPO to Open on November 19, Eyes ₹9,500 Crore",
-    "url": "https://lapaasvoice.com/coal-india-arm-mahanadi-coalfields-ipo-to-open-on-november-19-eyes-%E2%82%B99500-crore"
-   },
-   "thread": "mega-ipos-2026",
-   "date": "2026-11-15",
-   "slot": "outlook",
-   "when": "Sun · Outlook",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "1800"
    }
   },
   {
