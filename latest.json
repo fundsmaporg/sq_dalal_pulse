@@ -1,93 +1,172 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-16T16:06:28+05:30",
+ "generated_at": "2026-11-16T16:37:21+05:30",
  "date": "2026-11-16",
- "slot": "1605",
- "slot_label": "16:05",
+ "slot": "1635",
+ "slot_label": "16:35",
  "stage": "Post-market mood",
- "asof": "2026-11-16T16:05:00+05:30",
+ "asof": "2026-11-16T16:35:00+05:30",
  "nifty": {
   "value": 25291.1,
   "pct": 0.58,
   "chg": 146.8,
   "approx": false
  },
+ "metrics": {
+  "usd_inr": {
+   "value": 93.92,
+   "asof": "Mon 16 Nov close (provisional)",
+   "approx": false,
+   "src": {
+    "title": "Rupee rises 27 paise to close at 93.92 against US dollar on fund inflows",
+    "url": "https://www.deccanherald.com/business/rupee-rises-27-paise-to-close-at-9392-against-us-dollar-4219975"
+   }
+  }
+ },
  "mood": {
   "label": "Narrow large-cap gain",
   "score": 0.25,
-  "summary": "The session closed firmly higher for large caps on buying in FMCG and private banks, but breadth was poor, with midcaps and smallcaps ending in the red.",
+  "summary": "Large caps ended a solid session higher on FMCG, private banks and a sharp rally in Max Healthcare, while smaller stocks slid and the rupee firmed on inflows.",
   "detail": {
-   "leaders": "Nifty FMCG and Nifty Private Bank; Max Healthcare, ITC, Tata Consumer",
-   "laggards": "Nifty Smallcap 100 and Nifty Midcap 100; auto and metal stocks",
-   "tone": "A read on the finished session: the benchmarks closed near the day's better levels after a late push, but the gain was carried by a narrow set of heavyweights.",
+   "leaders": "Max Healthcare and Tata Consumer; Nifty FMCG",
+   "laggards": "Tata Motors PV; Nifty Smallcap 100",
+   "tone": "A read on the finished session, much as the previous note had it: the benchmarks closed solidly higher but on a narrow base; the rupee's rebound is the main addition.",
    "watch": [
-    "Provisional FII/DII flows for today",
+    "Provisional FII/DII flows, not yet published for today",
     "Tuesday's weekly expiry",
     "Nvidia's results after Tuesday's US close"
    ],
    "src": {
-    "title": "Sensex closes 510 points up, Nifty gains 147 points, midcap and smallcap face pressure",
-    "url": "https://english.punjabkesari.com/business/sensex-closes-510-points-up-nifty-gains-147-points-midcap-and-smallcap-face-pressure"
+    "title": "India shares higher at close of trade; Nifty 50 up 0.58%",
+    "url": "https://uk.investing.com/news/stock-market-news/india-shares-higher-at-close-of-trade-nifty-50-up-058-4984029"
    },
    "movers": {
     "up": {
-     "summary": "FMCG and private banks lead; Max Healthcare, ITC top Nifty gainers",
-     "why": "Defensive consumer staples and private lenders drew steady buying, with easing oil prices cited as the backdrop.",
+     "summary": "Max Healthcare tops the Nifty; Tata Consumer and FMCG follow",
+     "why": "A handful of heavyweights and consumer staples did most of the lifting as oil eased and foreign money flowed in.",
      "names": [
+      {
+       "name": "Max Healthcare",
+       "dir": "up",
+       "move": "+6.43% to +6.63%",
+       "line": "The day's top Nifty gainer; no specific trigger was reported"
+      },
+      {
+       "name": "Tata Consumer",
+       "dir": "up",
+       "line": "Among the top Nifty gainers as FMCG led the sectors"
+      },
       {
        "name": "Nifty FMCG",
        "dir": "up",
        "move": "+1.6%",
-       "line": "The day's best sector, with ITC and Tata Consumer among top gainers"
-      },
-      {
-       "name": "Nifty Private Bank",
-       "dir": "up",
-       "move": "+0.56%",
-       "line": "Private lenders helped lift the benchmarks into the close"
-      },
-      {
-       "name": "Max Healthcare",
-       "dir": "up",
-       "line": "Ended among the top Nifty gainers, as it was through the morning"
+       "line": "The best-performing sector index on the day"
       }
      ],
      "src": {
-      "title": "Sensex closes 510 points up, Nifty gains 147 points, midcap and smallcap face pressure",
-      "url": "https://english.punjabkesari.com/business/sensex-closes-510-points-up-nifty-gains-147-points-midcap-and-smallcap-face-pressure"
+      "title": "Top Gainers and Losers on November 16, 2026: Max Healthcare Institute and Tata Consumer Gain, While Tata Motors PV Drops Over 8%",
+      "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-november-16-2026-max-healthcare-institute-and-tata-consumer-gain-while-tata-motors-pv-drops-over-8"
      }
     },
     "down": {
-     "summary": "Smallcaps and midcaps fall; autos and metals under pressure",
-     "why": "Selling in smaller stocks persisted all day, and autos were dragged by Tata Motors PV after JLR's outlook cut.",
+     "summary": "Tata Motors PV the top Nifty loser; smallcaps fall over 1%",
+     "why": "Stock-specific selling in autos and persistent pressure on smaller stocks weighed on breadth.",
      "names": [
+      {
+       "name": "Tata Motors PV",
+       "dir": "down",
+       "move": "down over 8%",
+       "line": "JLR cut its FY27 EBIT margin outlook to 2–3% from 4%"
+      },
       {
        "name": "Nifty Smallcap 100",
        "dir": "down",
        "move": "-1.10%",
-       "line": "The weakest broad index, sliding through the afternoon"
-      },
-      {
-       "name": "Nifty Midcap 100",
-       "dir": "down",
-       "move": "-0.51%",
-       "line": "Turned lower after a small early gain"
-      },
-      {
-       "name": "Auto stocks",
-       "dir": "down",
-       "line": "Under pressure, led lower by Tata Motors PV on JLR's guidance cut"
+       "line": "Smaller stocks fell steadily while the heavyweights rallied"
       }
      ],
      "src": {
-      "title": "Sensex closes 510 points up, Nifty gains 147 points, midcap and smallcap face pressure",
-      "url": "https://english.punjabkesari.com/business/sensex-closes-510-points-up-nifty-gains-147-points-midcap-and-smallcap-face-pressure"
+      "title": "Top Gainers and Losers on November 16, 2026: Max Healthcare Institute and Tata Consumer Gain, While Tata Motors PV Drops Over 8%",
+      "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-november-16-2026-max-healthcare-institute-and-tata-consumer-gain-while-tata-motors-pv-drops-over-8"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee gains 27 paise to 93.92",
+   "line": "The rupee snapped a two-day losing streak on inflows and firmer equities",
+   "more": [
+    "Softer crude helped; rising US yields and a firm dollar capped the gain",
+    "Reports put Friday's close at 94.19 or 94.24"
+   ],
+   "src": {
+    "title": "Rupee rises 27 paise to close at 93.92 against US dollar on fund inflows",
+    "url": "https://www.deccanherald.com/business/rupee-rises-27-paise-to-close-at-9392-against-us-dollar-4219975"
+   },
+   "thread": "rupee",
+   "date": "2026-11-16",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "max-healthcare",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Max Healthcare tops Nifty with 6%+ gain",
+   "line": "The stock closed up about 6.4–6.6% near ₹1,008–1,010",
+   "more": [
+    "No company announcement or broker call was found to explain the move",
+    "It led the Nifty gainers for most of the session"
+   ],
+   "src": {
+    "title": "Top Gainers & Losers Today, 16 November 2026 at 3:30 PM IST",
+    "url": "https://hdfcsky.com/news/top-gainers-losers-today-16-november-2026-at-3-30-pm"
+   },
+   "date": "2026-11-16",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1635"
+   }
+  },
+  {
+   "key": "tata-motors-jlr",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Tata Motors PV ends as top Nifty loser",
+   "line": "The stock closed down over 8% after JLR's outlook cut",
+   "more": [
+    "JLR now sees FY27 EBIT margin of 2–3%, from 4%",
+    "It was the day's heaviest drag among Nifty stocks"
+   ],
+   "src": {
+    "title": "Top Gainers and Losers on November 16, 2026: Max Healthcare Institute and Tata Consumer Gain, While Tata Motors PV Drops Over 8%",
+    "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-november-16-2026-max-healthcare-institute-and-tata-consumer-gain-while-tata-motors-pv-drops-over-8"
+   },
+   "date": "2026-11-16",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1135"
+   }
+  },
   {
    "key": "sebi-fpi-ownership",
    "tag": "Regulation",
@@ -107,7 +186,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1605"
@@ -131,7 +210,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1605"
@@ -155,7 +234,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1535"
@@ -183,30 +262,6 @@
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "tata-motors-jlr",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Tata Motors PV a key auto laggard",
-   "line": "The stock fell sharply after JLR cut its FY27 EBIT margin outlook to 2–3%",
-   "more": [
-    "Reported falls ranged from 7.5% to nearly 9% during the day",
-    "JLR expects about £1.25 billion of cash outflow this year"
-   ],
-   "src": {
-    "title": "Tata Motors PV Shares Slide Nearly 9% as JLR Cuts FY27 Outlook After Q2 Loss",
-    "url": "https://www.kotakneo.com/news/stocks/tata-motors-pv-shares-slide-as-jlr-cuts-fy27-outlook/"
-   },
-   "date": "2026-11-16",
-   "slot": "1535",
-   "when": "15:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1135"
    }
   },
   {
@@ -1074,31 +1129,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
-    "slot": "2100"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Rupee ends the week weaker near 94.2",
-   "line": "The rupee closed Friday at 94.20 per dollar, down 8 paise, per PTI",
-   "more": [
-    "Another report puts the close at 94.24, down 0.3% for the week",
-    "Traders cited a firm dollar, rising US yields and hawkish Fed comments"
-   ],
-   "src": {
-    "title": "Rupee falls 8 paise to close at 94.20 against US dollar",
-    "url": "https://www.deccanherald.com/business/rupee-falls-8-paise-to-close-at-9420-against-us-dollar-4217221"
-   },
-   "thread": "rupee",
-   "date": "2026-11-14",
-   "slot": "2100",
-   "when": "Sat · 21:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
     "slot": "2100"
    }
   },
