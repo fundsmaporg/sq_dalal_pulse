@@ -1,74 +1,85 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-16T15:06:26+05:30",
+ "generated_at": "2026-11-16T15:37:41+05:30",
  "date": "2026-11-16",
- "slot": "1505",
- "slot_label": "15:05",
+ "slot": "1535",
+ "slot_label": "15:35",
  "stage": "Closing mood",
- "asof": "2026-11-16T15:05:00+05:30",
+ "asof": "2026-11-16T15:35:00+05:30",
  "nifty": {
-  "value": 25215.95,
-  "pct": 0.27,
-  "chg": 68.3,
+  "value": 25291.1,
+  "pct": 0.58,
+  "chg": 146.8,
   "approx": false,
-  "asof_quote": "15:00"
+  "asof_quote": "15:30"
  },
  "mood": {
-  "label": "Steady into close",
-  "score": 0.1,
-  "summary": "The market is steady into the final half hour with a small gain, as FMCG leads and realty and metals stay the weakest, while results-hit small names see heavy selling.",
+  "label": "Narrow late rally",
+  "score": 0.25,
+  "summary": "Large caps finished strongly with a late push led by banks and FMCG, but the rally was narrow, with midcaps and smallcaps ending clearly lower.",
   "detail": {
-   "leaders": "Nifty FMCG",
-   "laggards": "Nifty Realty and Nifty Metal; Axiscades Technologies",
-   "tone": "A live read: almost unchanged from the previous print an hour earlier, with the market holding a small gain through a quiet afternoon.",
+   "leaders": "Banking stocks and Nifty FMCG",
+   "laggards": "Nifty Smallcap 100 and Nifty Midcap 100; Nifty Realty and Nifty Metal",
+   "tone": "A read on the finished session: firmer than the previous note, as the benchmarks picked up in the final half hour, though breadth stayed poor.",
    "watch": [
-    "The closing move ahead of Tuesday's weekly expiry",
-    "Provisional FII/DII flow data after the close",
+    "Provisional FII/DII flows after the close",
+    "Tuesday's weekly expiry",
     "Nvidia's results after Tuesday's US close"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex up 300 pts, Nifty around 25,200; Axiscades Technology shares drop 9%",
+    "title": "Stock Market Close: Sensex ends 510 pts higher, Nifty at 25,291; FMGC, bank shares outshine",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
    },
    "movers": {
     "up": {
-     "summary": "FMCG leads the sectors into the last half hour",
-     "why": "Consumer staples have drawn steady buying all afternoon, with easing oil cited as the broader support.",
+     "summary": "Banks and FMCG carry the benchmarks to a firm close",
+     "why": "Heavyweight banks and consumer staples drew buying into the close, with easing oil prices cited as the backdrop.",
      "names": [
+      {
+       "name": "Banking stocks",
+       "dir": "up",
+       "line": "Led the late gains, outshining most sectors at the close"
+      },
       {
        "name": "Nifty FMCG",
        "dir": "up",
-       "line": "The best-performing sector, led by ITC and Tata Consumer"
+       "line": "The best-performing sector index on the day"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex up 300 pts, Nifty around 25,200; Axiscades Technology shares drop 9%",
+      "title": "Stock Market Close: Sensex ends 510 pts higher, Nifty at 25,291; FMGC, bank shares outshine",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
      }
     },
     "down": {
-     "summary": "Realty and metals lag; Axiscades slumps on weak operating profit",
-     "why": "Realty and metals have been the weakest sectors all day, and weak earnings are drawing sharp selling in small names.",
+     "summary": "Smallcaps and midcaps close lower; realty and metals weakest",
+     "why": "Selling in smaller stocks persisted all session, and realty and metals extended Friday's losses.",
      "names": [
+      {
+       "name": "Nifty Smallcap 100",
+       "dir": "down",
+       "move": "-1.10%",
+       "line": "The weakest broad index, falling through the afternoon"
+      },
+      {
+       "name": "Nifty Midcap 100",
+       "dir": "down",
+       "move": "-0.51%",
+       "line": "Turned lower after a small early gain"
+      },
       {
        "name": "Nifty Realty",
        "dir": "down",
-       "line": "One of the two weakest sectors, extending Friday's fall"
+       "line": "Among the two weakest sectors, extending Friday's fall"
       },
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "line": "The other weakest sector, down for a second session"
-      },
-      {
-       "name": "Axiscades Technologies",
-       "dir": "down",
-       "move": "down up to 9.9%",
-       "line": "Q2 EBITDA fell 64.9% to ₹6.8 crore despite higher revenue"
+       "line": "Among the two weakest sectors for a second session"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex up 300 pts, Nifty around 25,200; Axiscades Technology shares drop 9%",
+      "title": "Stock Market Close: Sensex ends 510 pts higher, Nifty at 25,291; FMGC, bank shares outshine",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
      }
     }
@@ -76,6 +87,78 @@
   }
  },
  "insights": [
+  {
+   "key": "market-close",
+   "tag": "Opening",
+   "impact": "pos",
+   "title": "Benchmarks end higher on banks and FMCG",
+   "line": "Heavyweights in banking and FMCG led the close as oil prices kept easing",
+   "more": [
+    "Banks and FMCG stocks outshone the rest",
+    "Gains picked up in the final half hour of trade"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex ends 510 pts higher, Nifty at 25,291; FMGC, bank shares outshine",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+   },
+   "date": "2026-11-16",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1535"
+   }
+  },
+  {
+   "key": "broader-market",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Smallcaps fall 1.1%, midcaps 0.5%",
+   "line": "Nifty Smallcap 100 fell 1.10% and Nifty Midcap 100 fell 0.51% despite the large-cap gain",
+   "more": [
+    "Realty and metal indices declined the most among sectors",
+    "The gap points to a narrow, heavyweight-led rally"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex ends 510 pts higher, Nifty at 25,291; FMGC, bank shares outshine",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+   },
+   "date": "2026-11-16",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "tata-motors-jlr",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Tata Motors PV a key auto laggard",
+   "line": "The stock fell sharply after JLR cut its FY27 EBIT margin outlook to 2–3%",
+   "more": [
+    "Reported falls ranged from 7.5% to nearly 9% during the day",
+    "JLR expects about £1.25 billion of cash outflow this year"
+   ],
+   "src": {
+    "title": "Tata Motors PV Shares Slide Nearly 9% as JLR Cuts FY27 Outlook After Q2 Loss",
+    "url": "https://www.kotakneo.com/news/stocks/tata-motors-pv-shares-slide-as-jlr-cuts-fy27-outlook/"
+   },
+   "date": "2026-11-16",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1135"
+   }
+  },
   {
    "key": "axiscades-q2",
    "tag": "Results",
@@ -106,7 +189,7 @@
    "slot": "1505",
    "when": "15:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1505"
@@ -130,7 +213,7 @@
    "slot": "1505",
    "when": "15:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1105"
@@ -154,7 +237,7 @@
    "slot": "1505",
    "when": "15:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-15",
     "slot": "0800"
@@ -221,30 +304,6 @@
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1235"
-   }
-  },
-  {
-   "key": "broader-market",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Midcaps turn lower, smallcaps slide",
-   "line": "Nifty Midcap 100 is down 0.41% and Nifty Smallcap 100 down 0.78% as of 2 pm",
-   "more": [
-    "Midcaps had been slightly higher earlier in the session",
-    "The benchmark gain is held up by a narrow group of large caps"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex gains 200 pts, Nifty around 25,200; SMIDs underperform",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
-   },
-   "date": "2026-11-16",
-   "slot": "1405",
-   "when": "14:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1005"
    }
   },
   {
@@ -467,30 +526,6 @@
    "first_seen": {
     "date": "2026-11-14",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "tata-motors-jlr",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Tata Motors PV stays sharply lower",
-   "line": "JLR also expects a cash outflow of about £1.25 billion this financial year",
-   "more": [
-    "JLR cut its FY27 EBIT margin outlook to 2–3% from 4%",
-    "Analysts cite weak China demand and MENA disruption"
-   ],
-   "src": {
-    "title": "Tata Motors PV Shares Slide Nearly 9% as JLR Cuts FY27 Outlook After Q2 Loss",
-    "url": "https://www.kotakneo.com/news/stocks/tata-motors-pv-shares-slide-as-jlr-cuts-fy27-outlook/"
-   },
-   "date": "2026-11-16",
-   "slot": "1235",
-   "when": "12:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1135"
    }
   },
   {
@@ -1122,30 +1157,6 @@
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1635"
-   }
-  },
-  {
-   "key": "market-close",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Weak breadth as the winning run snaps",
-   "line": "38 Nifty 50 stocks fell and only 11 rose; Shriram Finance was the top loser",
-   "more": [
-    "Midcaps fell 0.24% and smallcaps 0.26%",
-    "India VIX fell 7% despite the decline"
-   ],
-   "src": {
-    "title": "Market wrap, Nov 13: Indices snap winning streak; SENSEX falls 319 pts, NIFTY50 ends at 25,144; Shriram Fin top loser",
-    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-13-indices-snap-winning-streak-sensex-falls-319-pts-nifty-50-ends-at-25-144-shriram-fin-top-loser/article-203442/"
-   },
-   "date": "2026-11-13",
-   "slot": "1635",
-   "when": "Fri · 16:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-13",
-    "slot": "1535"
    }
   },
   {
