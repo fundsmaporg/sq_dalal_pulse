@@ -1,66 +1,135 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-16T08:46:38+05:30",
+ "generated_at": "2026-11-16T09:27:08+05:30",
  "date": "2026-11-16",
- "slot": "0845",
- "slot_label": "8:45",
- "stage": "Pre-market mood",
- "asof": "2026-11-16T08:45:00+05:30",
+ "slot": "0925",
+ "slot_label": "9:25",
+ "stage": "Opening mood",
+ "asof": "2026-11-16T09:25:00+05:30",
  "nifty": {
-  "value": 25144.3,
-  "pct": -0.61,
-  "chg": -155.05,
-  "approx": false
- },
- "metrics": {
-  "usd_inr": {
-   "value": 94.24,
-   "asof": "Fri 13 Nov close",
-   "approx": true,
-   "src": {
-    "title": "Pre-Market Update: GIFT Nifty Signals Positive Opening; Oil Prices, Inflation and Global Technology Selloff Remain Key Concerns",
-    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-positive-opening-oil-prices-inflation-and-global-technology-selloff-remain-key-concerns-60450"
-   }
-  },
-  "fii_net_cr": {
-   "value": 5736.55,
-   "asof": "Fri 13 Nov provisional",
-   "approx": false,
-   "src": {
-    "title": "Pre-Market Update: GIFT Nifty Signals Positive Opening; Oil Prices, Inflation and Global Technology Selloff Remain Key Concerns",
-    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-positive-opening-oil-prices-inflation-and-global-technology-selloff-remain-key-concerns-60450"
-   }
-  },
-  "dii_net_cr": {
-   "value": -2253.58,
-   "asof": "Fri 13 Nov provisional",
-   "approx": false,
-   "src": {
-    "title": "Pre-Market Update: GIFT Nifty Signals Positive Opening; Oil Prices, Inflation and Global Technology Selloff Remain Key Concerns",
-    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-positive-opening-oil-prices-inflation-and-global-technology-selloff-remain-key-concerns-60450"
-   }
-  }
+  "value": 25271.45,
+  "pct": 0.5,
+  "chg": 124.8,
+  "approx": false,
+  "asof_quote": "09:18"
  },
  "mood": {
-  "label": "Firmer start likely",
-  "score": 0.15,
-  "summary": "Indian stocks are set to open firmer, helped by softer oil and another day of heavy foreign buying, though weak Asian trade and today's inflation data could cap the bounce.",
+  "label": "Firm open",
+  "score": 0.3,
+  "summary": "Stocks opened higher in line with the pre-open cues and built on the gain in the first minutes, with IT leading and easing oil prices supporting the broader tone.",
   "detail": {
-   "leaders": "Banks and large caps backed by foreign buying; oil-sensitive sectors as Brent eases",
-   "laggards": "IT and tech-linked names with Asia lower and Nvidia's results pending; Vedanta on a block-related impairment",
-   "tone": "A pre-open read on the session ahead, more upbeat than the early-morning note as GIFT Nifty points to a gap-up start after Friday's profit booking.",
+   "leaders": "IT, led by Infosys",
+   "laggards": "Few clear laggards early; Power Grid is among the weaker Sensex names",
+   "tone": "A live read just after the open. The gap-up the pre-open cues pointed to has held, and the market extended it in the first trades.",
    "watch": [
-    "Whether the gap-up holds once Asian weakness is priced in",
+    "Whether the IT-led gain broadens beyond large caps",
     "October wholesale inflation, due today",
-    "Crude, as Gulf headlines continue"
+    "Crude, after it slipped on improving supply bets"
    ],
    "src": {
-    "title": "Pre-Market Update: GIFT Nifty Signals Positive Opening; Oil Prices, Inflation and Global Technology Selloff Remain Key Concerns",
-    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-positive-opening-oil-prices-inflation-and-global-technology-selloff-remain-key-concerns-60450"
+    "title": "Stock Market Opening Bell: Sensex jumps over 600 points, Nifty above 25,250; IT stocks lead gains",
+    "url": "https://www.zeebiz.com/market-news/news-stock-market-opening-bell-sensex-jumps-over-600-points-nifty-above-25250-it-stocks-lead-gains-405587"
+   },
+   "movers": {
+    "up": {
+     "summary": "IT leads the open, with Infosys the top Nifty gainer",
+     "why": "Tech stocks are leading the bounce after Friday's slide, while falling oil prices support the wider market.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "move": "up ~1%",
+       "line": "The best-performing sector in early trade"
+      },
+      {
+       "name": "Infosys",
+       "dir": "up",
+       "move": "+1.67%",
+       "line": "Top Nifty gainer in the first minutes, leading the IT pack"
+      }
+     ],
+     "src": {
+      "title": "Stock Market Opening Bell: Sensex jumps over 600 points, Nifty above 25,250; IT stocks lead gains",
+      "url": "https://www.zeebiz.com/market-news/news-stock-market-opening-bell-sensex-jumps-over-600-points-nifty-above-25250-it-stocks-lead-gains-405587"
+     }
+    }
    }
   }
  },
  "insights": [
+  {
+   "key": "opening-bell",
+   "tag": "Opening",
+   "impact": "pos",
+   "title": "Market opens higher as oil eases",
+   "line": "Business Standard ties the early gains to oil falling on an improved supply outlook",
+   "more": [
+    "Nifty opened at 25,206.15 and touched 25,269.80 early, per Zee Business",
+    "Nifty IT rose about 1% in early trade"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex gains 400 pts, Nifty tops 25,250; Nifty IT rises 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+   },
+   "date": "2026-11-16",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "oil-india-q2",
+   "tag": "Results",
+   "impact": "watch",
+   "title": "Oil India, Turtlemint results in focus",
+   "line": "Both report September-quarter results, among the day's buzzing stocks",
+   "more": [
+    "Equitymaster lists Eicher Motors and TCS among pre-open gainers",
+    "BEL, M&M and NTPC were among pre-open laggards"
+   ],
+   "src": {
+    "title": "Today's Market: Turtlemint Q2 FY27 Results, Oil India Q2 FY27 Results, Top Buzzing Stocks Today",
+    "url": "https://www.equitymaster.com/indian-share-markets/11/16/2026/Turtlemint-Q2-FY27-Results--Oil-India-Q2-FY27-Results--Top-Buzzing-Stocks-Today"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-16",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1800"
+   }
+  },
+  {
+   "key": "va-tech-wabag",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "VA Tech Wabag in focus on cancelled order",
+   "line": "The Saudi Water Authority cancelled a desalination project worth about ₹2,332 crore",
+   "more": [
+    "The company disclosed the cancellation over the weekend",
+    "Saudi Water Authority was the client on the project"
+   ],
+   "src": {
+    "title": "Stocks to watch, Nov 16: Max Estates, Vedanta, ONGC, Coal India, VA Tech Wabag, Tata Steel TMPV, Sammaan Capital",
+    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-16-max-estates-vedanta-ongc-coal-india-va-tech-wabag-tata-steel-tmpv-sammaan-capital/article-203480/"
+   },
+   "date": "2026-11-16",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "0845"
+   }
+  },
   {
    "key": "gift-nifty",
    "tag": "Opening",
@@ -80,7 +149,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "0845"
@@ -105,7 +174,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "0845"
@@ -129,31 +198,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "va-tech-wabag",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "VA Tech Wabag loses Saudi desalination order",
-   "line": "The Saudi Water Authority cancelled a project worth about ₹2,332 crore",
-   "more": [
-    "The company disclosed the cancellation itself",
-    "The stock is likely to stay in focus on Monday"
-   ],
-   "src": {
-    "title": "Stocks to watch, Nov 16: Max Estates, Vedanta, ONGC, Coal India, VA Tech Wabag, Tata Steel TMPV, Sammaan Capital",
-    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-16-max-estates-vedanta-ongc-coal-india-va-tech-wabag-tata-steel-tmpv-sammaan-capital/article-203480/"
-   },
-   "date": "2026-11-16",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "0845"
@@ -177,7 +222,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "0845"
@@ -202,7 +247,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "2100"
@@ -1099,30 +1144,6 @@
    }
   },
   {
-   "key": "opening-bell",
-   "tag": "Opening",
-   "impact": "neg",
-   "title": "Market opens lower with broad selling",
-   "line": "Selling spread across sectors as oil climbed back to about $95 a barrel",
-   "more": [
-    "The open was weaker than GIFT Nifty had signalled",
-    "Global tech remains unsettled after Nvidia's CEO exit"
-   ],
-   "src": {
-    "title": "Sensex falls over 450 pts, Nifty slides below 25,150 amid weakness across sectors",
-    "url": "https://www.zeebiz.com/market-news/news-share-market-today-opening-bell-nifty50-nifty-bank-sensex-nov-13-2026-crude-oil-vodafone-idea-405503"
-   },
-   "date": "2026-11-13",
-   "slot": "0925",
-   "when": "Fri · 9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "0925"
-   }
-  },
-  {
    "key": "ola-electric-q2",
    "tag": "Results",
    "impact": "neg",
@@ -1253,37 +1274,6 @@
    "slot": "0700",
    "when": "Fri · 7:00",
    "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "1800"
-   }
-  },
-  {
-   "key": "oil-india-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Oil India Q2 standalone profit up 116%",
-   "line": "Standalone profit rose to ₹2,259 crore; consolidated profit grew 53% to ₹2,521 crore",
-   "more": [
-    "Crude oil production rose 20%",
-    "The board recommended an interim dividend of ₹7 per share"
-   ],
-   "src": {
-    "title": "Oil India Q2 FY27 Results: Standalone Net Profit Jumps 116% to ₹2,259 Crore, Crude Oil Production Rises 20%",
-    "url": "https://indianmasterminds.com/news/oil-india-q2-fy27-results-net-profit-crude-oil-production-growth-249878/"
-   },
-   "thread": "q2-results-2026",
-   "results": {
-    "company": "Oil India",
-    "quarter": "Q2 FY27",
-    "profit_cr": 2259,
-    "profit_yoy_pct": 116
-   },
-   "date": "2026-11-12",
-   "slot": "1800",
-   "when": "Thu · 18:00",
-   "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
