@@ -1,75 +1,74 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-16T14:37:34+05:30",
+ "generated_at": "2026-11-16T15:06:26+05:30",
  "date": "2026-11-16",
- "slot": "1435",
- "slot_label": "14:35",
- "stage": "Mid-market mood",
- "asof": "2026-11-16T14:35:00+05:30",
+ "slot": "1505",
+ "slot_label": "15:05",
+ "stage": "Closing mood",
+ "asof": "2026-11-16T15:05:00+05:30",
+ "nifty": {
+  "value": 25215.95,
+  "pct": 0.27,
+  "chg": 68.3,
+  "approx": false,
+  "asof_quote": "15:00"
+ },
  "mood": {
-  "label": "Modest, narrow gains",
-  "score": 0.05,
-  "summary": "The market is clinging to a modest gain in the afternoon, with FMCG the clear leader while smaller stocks and a few results-hit names drag on breadth.",
+  "label": "Steady into close",
+  "score": 0.1,
+  "summary": "The market is steady into the final half hour with a small gain, as FMCG leads and realty and metals stay the weakest, while results-hit small names see heavy selling.",
   "detail": {
-   "leaders": "Nifty FMCG; Eicher Motors",
-   "laggards": "ABB India and Tata Motors PV; Nifty Smallcap 100",
-   "tone": "A live read on market behaviour rather than a fresh print: little changed from the previous note, with the market holding a small gain and breadth still weak.",
+   "leaders": "Nifty FMCG",
+   "laggards": "Nifty Realty and Nifty Metal; Axiscades Technologies",
+   "tone": "A live read: almost unchanged from the previous print an hour earlier, with the market holding a small gain through a quiet afternoon.",
    "watch": [
-    "Whether FMCG support holds into the close",
-    "Whether selling in smaller stocks deepens",
-    "The closing hour's direction ahead of Tuesday's weekly expiry"
+    "The closing move ahead of Tuesday's weekly expiry",
+    "Provisional FII/DII flow data after the close",
+    "Nvidia's results after Tuesday's US close"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex up 200 pts, Nifty around 25,200; Nifty FMCG rises 1%",
+    "title": "Stock Market LIVE: Sensex up 300 pts, Nifty around 25,200; Axiscades Technology shares drop 9%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
    },
    "movers": {
     "up": {
-     "summary": "FMCG is the standout sector, with Eicher among top Nifty gainers",
-     "why": "Consumer staples are drawing steady buying while the rest of the market is mixed.",
+     "summary": "FMCG leads the sectors into the last half hour",
+     "why": "Consumer staples have drawn steady buying all afternoon, with easing oil cited as the broader support.",
      "names": [
       {
        "name": "Nifty FMCG",
        "dir": "up",
-       "move": "up ~1%",
        "line": "The best-performing sector, led by ITC and Tata Consumer"
-      },
-      {
-       "name": "Eicher Motors",
-       "dir": "up",
-       "line": "Among the top Nifty gainers after its September-quarter results"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex up 200 pts, Nifty around 25,200; Nifty FMCG rises 1%",
+      "title": "Stock Market LIVE: Sensex up 300 pts, Nifty around 25,200; Axiscades Technology shares drop 9%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
      }
     },
     "down": {
-     "summary": "ABB India and Tata Motors PV slide; smallcaps stay weak",
-     "why": "Results-driven selling and weakness in smaller stocks are keeping breadth negative.",
+     "summary": "Realty and metals lag; Axiscades slumps on weak operating profit",
+     "why": "Realty and metals have been the weakest sectors all day, and weak earnings are drawing sharp selling in small names.",
      "names": [
       {
-       "name": "ABB India",
+       "name": "Nifty Realty",
        "dir": "down",
-       "move": "down ~3%",
-       "line": "Operating margins contracted in Q3 despite 19% revenue growth"
+       "line": "One of the two weakest sectors, extending Friday's fall"
       },
       {
-       "name": "Tata Motors PV",
+       "name": "Nifty Metal",
        "dir": "down",
-       "move": "-7.5% to -9%",
-       "line": "JLR cut its FY27 margin outlook to 2–3% from 4%"
+       "line": "The other weakest sector, down for a second session"
       },
       {
-       "name": "Nifty Smallcap 100",
+       "name": "Axiscades Technologies",
        "dir": "down",
-       "move": "-0.78% at 2 pm",
-       "line": "The weakest broad index through the afternoon"
+       "move": "down up to 9.9%",
+       "line": "Q2 EBITDA fell 64.9% to ₹6.8 crore despite higher revenue"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex up 200 pts, Nifty around 25,200; Nifty FMCG rises 1%",
+      "title": "Stock Market LIVE: Sensex up 300 pts, Nifty around 25,200; Axiscades Technology shares drop 9%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
      }
     }
@@ -77,6 +76,90 @@
   }
  },
  "insights": [
+  {
+   "key": "axiscades-q2",
+   "tag": "Results",
+   "impact": "neg",
+   "title": "Axiscades falls up to 9.9% on Q2 margin hit",
+   "line": "EBITDA fell 64.9% to ₹6.8 crore even as revenue and net profit rose",
+   "more": [
+    "The stock hit a low of ₹1,723, per Business Standard",
+    "MarketsMojo reports it locked at its lower circuit later in the day",
+    "Early-trade falls were reported at over 6%"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex up 300 pts, Nifty around 25,200; Axiscades Technology shares drop 9%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+   },
+   "thread": "q2-results-2026",
+   "results": {
+    "company": "Axiscades Technologies",
+    "quarter": "Q2 FY27",
+    "reaction_asof": "intraday low",
+    "reaction_pct": -9.9,
+    "src": {
+     "title": "Why are Axiscades Technologies shares falling over 6% today? Explained",
+     "url": "https://businessupturn.com/finance/stock-market/why-are-axiscades-technologies-shares-falling-over-6-today-explained/"
+    }
+   },
+   "date": "2026-11-16",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1505"
+   }
+  },
+  {
+   "key": "sector-drag",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Realty and metals stay the weakest sectors",
+   "line": "Both indices have lagged the market all day, while FMCG leads",
+   "more": [
+    "Realty had gained about 15% over the month before Friday's fall",
+    "Easing oil prices are cited for the market's overall gain"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex up 300 pts, Nifty around 25,200; Axiscades Technology shares drop 9%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+   },
+   "date": "2026-11-16",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "week-ahead",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Weekly expiry and Nvidia next",
+   "line": "Tuesday brings the weekly Nifty expiry; Nvidia reports after Tuesday's US close",
+   "more": [
+    "Mahanadi Coalfields' IPO opens on Thursday",
+    "Crystal Crop's IPO opens on Wednesday"
+   ],
+   "src": {
+    "title": "F&O Expiry Calendar 2026: Nifty, Bank Nifty & Sensex Expiry Dates",
+    "url": "https://www.quantsapp.com/expiry-calendar"
+   },
+   "date": "2026-11-16",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-15",
+    "slot": "0800"
+   }
+  },
   {
    "key": "abb-india-q3",
    "tag": "Results",
@@ -110,7 +193,7 @@
    "slot": "1435",
    "when": "14:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1800"
@@ -134,34 +217,10 @@
    "slot": "1435",
    "when": "14:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1235"
-   }
-  },
-  {
-   "key": "week-ahead",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Weekly Nifty expiry on Tuesday",
-   "line": "Tuesday's weekly expiry and Nvidia's results after the US close are next on the calendar",
-   "more": [
-    "November's monthly expiry has moved to Monday, November 23",
-    "Markets are shut on Tuesday, November 24"
-   ],
-   "src": {
-    "title": "F&O Expiry Calendar 2026: Nifty, Bank Nifty & Sensex Expiry Dates",
-    "url": "https://www.quantsapp.com/expiry-calendar"
-   },
-   "date": "2026-11-16",
-   "slot": "1435",
-   "when": "14:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "0800"
    }
   },
   {
@@ -481,30 +540,6 @@
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1135"
-   }
-  },
-  {
-   "key": "sector-drag",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Realty and metals pull back for a second day",
-   "line": "Both sector indices are down about 1%, trimming the broader market's rally",
-   "more": [
-    "Nifty Realty had gained about 15% over the past month before Friday's fall",
-    "Nifty Metal fell about 1% on Friday as well"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex gains 400 pts, Nifty near 25,200; realty, metal indices down 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
-   },
-   "date": "2026-11-16",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "1105"
    }
   },
   {
