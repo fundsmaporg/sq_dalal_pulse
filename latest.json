@@ -1,38 +1,149 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-15T21:00:17+05:30",
- "date": "2026-11-15",
- "slot": "outlook",
- "slot_label": "Outlook",
- "stage": "Weekend outlook",
- "asof": "2026-11-15T21:00:00+05:30",
+ "generated_at": "2026-11-16T07:00:41+05:30",
+ "date": "2026-11-16",
+ "slot": "0700",
+ "slot_label": "7:00",
+ "stage": "Pre-market mood",
+ "asof": "2026-11-16T07:00:00+05:30",
  "nifty": {
   "value": 25144.3,
   "pct": -0.61,
   "chg": -155.05,
-  "approx": false,
-  "asof_quote": "Fri 13 Nov close"
+  "approx": false
+ },
+ "metrics": {
+  "brent_usd": {
+   "value": 95.45,
+   "asof": "Mon 16 Nov early Asian trade",
+   "approx": true,
+   "src": {
+    "title": "Oil prices dip as markets look to recovering supplies, M.East tensions",
+    "url": "https://investing.com/news/commodities-news/oil-prices-dip-as-markets-look-to-recovering-supplies-meast-tensions-5028198"
+   }
+  }
  },
  "mood": {
-  "label": "Cautious into Monday",
-  "score": -0.2,
-  "summary": "The week opens with foreign buyers still backing Indian stocks, but a hardening US-Iran standoff, inflation above the RBI's limit and Nvidia's results make for a guarded start.",
+  "label": "Steady start likely",
+  "score": -0.05,
+  "summary": "Indian stocks look set for a steady-to-cautious start, with softer oil and firmer US futures helping while Gulf tensions and a key inflation print keep buyers selective.",
   "detail": {
-   "leaders": "Banks, last week's best performers and a focus of foreign buying",
-   "laggards": "Oil-sensitive sectors while the Gulf standoff hardens; IT and AI-linked names until Nvidia reports; rate-sensitives with a December hike in play",
-   "tone": "The week ahead from Monday 16 November, a normal session. Indian stocks rose over last week on heavy foreign buying but slipped on Friday on inflation worries; over the weekend, US-Iran diplomacy has gone backwards.",
+   "leaders": "Oil-sensitive sectors if crude stays soft; banks, which foreign buyers have favoured",
+   "laggards": "IT and chip-linked names while Nvidia's results are pending; rate-sensitives ahead of the inflation data",
+   "tone": "A forward-looking read before Monday's open. It follows a Friday dip that ended a strong week; oil slipping in early Asian trade despite the weekend's Hormuz claims takes some edge off the risk.",
    "watch": [
-    "How crude and Gulf headlines set Monday's tone",
-    "October wholesale inflation on Monday and the read for a December RBI hike",
-    "Nvidia's results after Tuesday's US close, ahead of India's Wednesday open"
+    "Whether crude stays soft as Gulf headlines continue",
+    "October wholesale inflation, due today",
+    "Whether foreign buying continues after three strong weeks"
    ],
    "src": {
-    "title": "Indian Stock Market Outlook Next Week, 16 to 20 Nov 2026: Will Sensex, Nifty Remain Bullish Amid FII Buying?",
-    "url": "https://www.goodreturns.in/news/indian-stock-market-outlook-next-week-16-to-20-november-2026-sensex-nifty-targets-key-levels-crude-1547059.html"
+    "title": "Oil prices dip as markets look to recovering supplies, M.East tensions",
+    "url": "https://investing.com/news/commodities-news/oil-prices-dip-as-markets-look-to-recovering-supplies-meast-tensions-5028198"
    }
   }
  },
  "insights": [
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Oil slips in Asia despite Hormuz mine claims",
+   "line": "Brent eased to about $95.45 in early Asian trade on bets of improving supply",
+   "more": [
+    "Iran says three tankers hit mines on Saturday; the US disputes the claim",
+    "The IEA said late last week the oil market will return to surplus in the fourth quarter",
+    "WTI was little changed near $87"
+   ],
+   "src": {
+    "title": "Oil prices dip as markets look to recovering supplies, M.East tensions",
+    "url": "https://investing.com/news/commodities-news/oil-prices-dip-as-markets-look-to-recovering-supplies-meast-tensions-5028198"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-16",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-10",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "US futures open firmer, Nasdaq leads",
+   "line": "Stock futures ticked higher as traders brace for Nvidia's results this week",
+   "more": [
+    "Nvidia reports on Tuesday after the US close",
+    "CNBC flags an Anthropic IPO as another event this week"
+   ],
+   "src": {
+    "title": "US futures open firmer as Nasdaq leads, oil slips despite Iran tanker claims: 5 things",
+    "url": "https://investinglive.com/stocks/us-futures-open-firmer-as-nasdaq-leads-oil-slips-despite-iran-tanker-claims-5-things"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-16",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-10",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "asia-markets",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Asia opens mixed and muted",
+   "line": "Reports differ on Japan and Korea's open, from slight gains to small losses",
+   "more": [
+    "TechFlow has the Nikkei and Kospi opening slightly higher",
+    "TradingKey and CNBC report small declines for both"
+   ],
+   "src": {
+    "title": "Japanese and Korean stocks opened slightly higher.",
+    "url": "https://www.techflowpost.com/en-US/newsletter/144737"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-16",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "wpi-inflation",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "October wholesale inflation due today",
+   "line": "WPI data for October is scheduled for release on November 16",
+   "more": [
+    "Wholesale inflation was 11.39% in September, up from 9.92% in August",
+    "October retail inflation was above the RBI's 6% upper limit"
+   ],
+   "src": {
+    "title": "India's wholesale inflation stands at 11.39 pc in September: Govt",
+    "url": "https://www.newkerala.com/news/a/indias-wholesale-inflation-stands-1139-pc-september-govt-861.htm"
+   },
+   "thread": "rbi-policy",
+   "date": "2026-11-16",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "2100"
+   }
+  },
   {
    "key": "hormuz-talks",
    "tag": "Global",
@@ -51,9 +162,9 @@
    "thread": "crude-iran-war",
    "date": "2026-11-15",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-15",
     "slot": "1400"
@@ -76,12 +187,12 @@
    "thread": "fii-flows",
    "date": "2026-11-15",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
-    "date": "2026-11-09",
-    "slot": "0925"
+    "date": "2026-11-11",
+    "slot": "0845"
    }
   },
   {
@@ -100,9 +211,9 @@
    },
    "date": "2026-11-15",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-15",
     "slot": "0800"
@@ -125,9 +236,9 @@
    "thread": "global-markets",
    "date": "2026-11-15",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "2100"
@@ -150,9 +261,9 @@
    "thread": "mega-ipos-2026",
    "date": "2026-11-15",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-15",
     "slot": "1800"
@@ -175,7 +286,7 @@
    },
    "date": "2026-11-15",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Sun · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -201,32 +312,7 @@
    "thread": "crude-iran-war",
    "date": "2026-11-15",
    "slot": "1800",
-   "when": "18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "2100"
-   }
-  },
-  {
-   "key": "wpi-inflation",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "Wholesale inflation print due Monday",
-   "line": "October WPI is one of the week's first data points, alongside Nvidia and FII flows",
-   "more": [
-    "Wholesale inflation was 11.39% in September",
-    "Expectations of a December RBI rate hike have gained traction"
-   ],
-   "src": {
-    "title": "Nifty Outlook Next Week: Nvidia, WPI, FII Flows in Focus",
-    "url": "https://www.thefinancialeconomy.com/nifty-outlook-next-week/"
-   },
-   "thread": "rbi-policy",
-   "date": "2026-11-15",
-   "slot": "1400",
-   "when": "14:00",
+   "when": "Sun · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -251,7 +337,7 @@
    "thread": "rbi-policy",
    "date": "2026-11-15",
    "slot": "0800",
-   "when": "8:00",
+   "when": "Sun · 8:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -303,36 +389,10 @@
    "date": "2026-11-14",
    "slot": "2100",
    "when": "Sat · 21:00",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-09",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Brent ends a second losing week",
-   "line": "Brent settled at $95.84 on Friday, about 2.5% lower for the week",
-   "more": [
-    "An IEA report on Friday pointed to a growing global oil surplus",
-    "US crude inventories rose 4.7 million barrels in the week to November 6, per the EIA",
-    "Cheaper oil eases India's import bill and inflation pressure"
-   ],
-   "src": {
-    "title": "Brent Crude Settles $95.84 After Second Weekly Loss on Supply Surplus",
-    "url": "https://www.gate.com/news/detail/brent-crude-settles-9584-after-second-weekly-loss-on-supply-surplus-25618627"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-14",
-   "slot": "1800",
-   "when": "Sat · 18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
+    "date": "2026-11-14",
     "slot": "2100"
    }
   },
@@ -360,32 +420,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Wall Street ends Friday lower, up for the week",
-   "line": "S&P 500 fell about 0.4% and the Nasdaq about 0.9%; the Dow edged up 0.1% on Friday",
-   "more": [
-    "For the week the S&P 500 rose about 2.5%, the Nasdaq 2.3% and the Dow 2.1%",
-    "Nvidia fell again a day after Jensen Huang's resignation",
-    "More S&P 500 stocks rose than fell as money rotated out of tech"
-   ],
-   "src": {
-    "title": "How major US stock indexes fared Friday 11/13/2026",
-    "url": "https://www.washingtonpost.com/business/2026/11/13/wall-street-stocks-dow-nasdaq/f15a10e2-dfa7-11f1-912c-4fbb80d73f7f_story.html"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-14",
-   "slot": "0800",
-   "when": "Sat · 8:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "0700"
    }
   },
   {
@@ -572,8 +606,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-09",
-    "slot": "1635"
+    "date": "2026-11-13",
+    "slot": "1535"
    }
   },
   {
@@ -969,7 +1003,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-09",
+    "date": "2026-11-11",
     "slot": "0925"
    }
   },
@@ -1031,7 +1065,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-09",
+    "date": "2026-11-11",
     "slot": "0845"
    }
   },
@@ -2079,11 +2113,11 @@
    "date": "2026-11-11",
    "slot": "1035",
    "when": "Wed · 10:35",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-09",
-    "slot": "1105"
+    "date": "2026-11-11",
+    "slot": "1035"
    }
   },
   {
@@ -2137,347 +2171,11 @@
    "date": "2026-11-10",
    "slot": "0845",
    "when": "Tue · 8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "1505"
-   }
-  },
-  {
-   "key": "whirlpool-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Whirlpool Q2 profit falls 39% to ₹25 cr",
-   "line": "Revenue rose about 14% to ₹1,873 cr, but higher costs squeezed margins",
-   "more": [
-    "Profit fell from about ₹41 cr a year ago",
-    "Reports cite higher operating costs and margin compression",
-    "One filing summary gives a different prior-year base and a smaller decline"
-   ],
-   "src": {
-    "title": "Punjab Kesari: Whirlpool of India clocks 39 pc drop in Q2 net profit",
-    "url": "https://english.punjabkesari.com/business/whirlpool-of-india-clocks-39-pc-drop-in-q2-net-profit"
-   },
-   "thread": "q2-results-2026",
-   "results": {
-    "company": "Whirlpool of India",
-    "quarter": "Q2 FY27",
-    "revenue_cr": 1873,
-    "revenue_yoy_pct": 13.7,
-    "profit_cr": 25,
-    "profit_yoy_pct": -39
-   },
-   "date": "2026-11-09",
-   "slot": "1800",
-   "when": "Mon · 18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "1305"
-   }
-  },
-  {
-   "key": "iran-talks",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Trump says new Iran strikes 'highly unlikely'",
-   "line": "Trump would hold off if talks on Hormuz and the nuclear programme make progress",
-   "more": [
-    "Secretary of State Rubio called Iran's demands so far unacceptable",
-    "Brent traded near $98 during Indian hours"
-   ],
-   "src": {
-    "title": "Newswav: Oil prices extend losses on hopes of US-Iran breakthrough",
-    "url": "https://newswav.com/article/oil-prices-extend-losses-on-hopes-of-us-iran-breakthrough-A2611_qX5DEg"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-09",
-   "slot": "1800",
-   "when": "Mon · 18:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-09",
-    "slot": "1800"
-   }
-  },
-  {
-   "key": "results-week",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "About 110 companies report on Wednesday",
-   "line": "Tata Power and Garden Reach Shipbuilders report when markets reopen on Nov 11",
-   "more": [
-    "HAL, Eicher Motors and Tata Motors PV report later in the week",
-    "Markets are shut on Tuesday Nov 10"
-   ],
-   "src": {
-    "title": "Upstox: Upcoming Q2 FY27 results this week",
-    "url": "https://upstox.com/news/market-news/earnings/upcoming-q2-fy-27-results-this-week-tata-motors-pv-vi-hal-eicher-motors-ashok-leyland-and-more-check-full-list/article-203166/"
-   },
-   "thread": "q2-results-2026",
-   "date": "2026-11-09",
-   "slot": "1800",
-   "when": "Mon · 18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "it-stocks",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "HCLTech the day's biggest Sensex drag",
-   "line": "HCLTech fell between 2.4% and 2.7%, per different reports, as IT was sold",
-   "more": [
-    "Tata Steel and UltraTech Cement were also among the losers",
-    "IT was the main drag all day"
-   ],
-   "src": {
-    "title": "The Hans India: Sensex, Nifty end higher in volatile trade as PSU banks, pharma stocks lead gains",
-    "url": "https://www.thehansindia.com/business/sensex-nifty-end-higher-in-volatile-trade-as-psu-banks-pharma-stocks-lead-gains-1140483"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-09",
-   "slot": "1635",
-   "when": "Mon · 16:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "1005"
-   }
-  },
-  {
-   "key": "broad-market",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Nifty Next 50 outperforms the benchmarks",
-   "line": "The Nifty Next 50 gained more than the main indices; midcaps and smallcaps were mixed",
-   "more": [
-    "The Nifty 500 also closed higher",
-    "The benchmarks themselves closed with smaller gains"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market Close — Sensex ends volatile trade 107 pts higher, Nifty at 25,045; PSU Bank index up 3%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
-   },
-   "date": "2026-11-09",
-   "slot": "1605",
-   "when": "Mon · 16:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "1035"
-   }
-  },
-  {
-   "key": "banks-rebound",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Banks were the day's main support",
-   "line": "State-run lenders rallied in the morning and bank stocks firmed again in the afternoon",
-   "more": [
-    "SBI, PNB and Canara Bank were among state lenders up about 3% earlier",
-    "Pharma and media also gained"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex off lows, Nifty above 24,900; Nifty Bank rises 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
-   },
-   "date": "2026-11-09",
-   "slot": "1535",
-   "when": "Mon · 15:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "1435"
-   }
-  },
-  {
-   "key": "sector-rotation",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Pharma, media and PSU banks hold up",
-   "line": "These are the main sectors still in the green as the market drifts lower",
-   "more": [
-    "Realty and FMCG are among the other laggards",
-    "The split has held since the morning"
-   ],
-   "src": {
-    "title": "Trade Brains: Sensex & Nifty 50 live updates, 9 November",
-    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-9-november-gift-nifty-signals-positive-start-q2-earnings-and-fii-flows-in-focus-12794917"
-   },
-   "date": "2026-11-09",
-   "slot": "1405",
-   "when": "Mon · 14:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "1235"
-   }
-  },
-  {
-   "key": "volatility",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "Volatility still low despite the dip",
-   "line": "India VIX was 16.77 at 11 am, down 9% from Friday's 18.43",
-   "more": [
-    "The fall in VIX came even as the market slipped",
-    "Traders are weighing US-Iran talks, per Business Standard"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — Sensex down 300 pts, Nifty below 24,900; VIX drops 9%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
-   },
-   "thread": "volatility",
-   "date": "2026-11-09",
-   "slot": "1105",
-   "when": "Mon · 11:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "1035"
-   }
-  },
-  {
-   "key": "divis-high",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Divi's Labs hits a 52-week high",
-   "line": "Pharma is the strongest sector this morning as the broader market drifts",
-   "more": [
-    "Nifty Pharma was up about 0.9% in early trade, per Trade Brains",
-    "Realty was the weakest sector early, down about 0.9%"
-   ],
-   "src": {
-    "title": "Trade Brains: Sensex & Nifty 50 live updates, 9 November",
-    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-9-november-gift-nifty-signals-positive-start-q2-earnings-and-fii-flows-in-focus-12794917"
-   },
-   "date": "2026-11-09",
-   "slot": "1005",
-   "when": "Mon · 10:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "1005"
-   }
-  },
-  {
-   "key": "hindalco-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Hindalco in focus after 59% profit jump",
-   "line": "Q2 profit rose to ₹7,533 cr; EBITDA up 42% to ₹13,757 cr",
-   "more": [
-    "Nuvama upgraded the stock to Buy with a ₹1,184 target",
-    "India business EBITDA of ₹8,450 cr beat Nuvama's estimate"
-   ],
-   "src": {
-    "title": "HDFCSky: Hindalco Q2 profit jumps 58.8% to ₹7,533 crore",
-    "url": "https://hdfcsky.com/news/hindalco-q2-profit-rises-59-pc-to-rs-7533-cr"
-   },
-   "thread": "q2-results-2026",
-   "date": "2026-11-09",
-   "slot": "0925",
-   "when": "Mon · 9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "tata-steel-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Tata Steel Q2 profit up 18%, led by India",
-   "line": "Profit attributable to owners rose to ₹3,666 cr; EBITDA up 14% on the quarter",
-   "more": [
-    "Consolidated EBITDA of ₹10,665 cr",
-    "Nuvama upgraded Tata Steel to Buy",
-    "Was among early gainers in Sunday's Muhurat session"
-   ],
-   "src": {
-    "title": "Business Standard: Tata Steel Q2 net profit up 18.2% Y-o-Y, led by India operations",
-    "url": "https://www.business-standard.com/amp/companies/quarterly-results/tata-steel-q2-fy27-results-net-profit-india-operations-uk-netherlands-126110700767_1.html"
-   },
-   "thread": "q2-results-2026",
-   "results": {
-    "company": "Tata Steel",
-    "quarter": "Q2 FY27",
-    "profit_cr": 3666.41,
-    "profit_yoy_pct": 18.2
-   },
-   "date": "2026-11-09",
-   "slot": "0845",
-   "when": "Mon · 8:45",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "gulf-attacks",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Saudi energy attacks keep oil risk in view",
-   "line": "Brent trades just below $98 after Houthi strikes on Saudi energy sites",
-   "more": [
-    "Saudi ministry confirmed an attempted strike on an Aramco building",
-    "Asian markets mostly rebounded this morning"
-   ],
-   "src": {
-    "title": "Business Standard: Stock Market LIVE — GIFT Nifty indicates negative open; most Asian markets rebound; Brent below $98",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-09",
-   "slot": "0845",
-   "when": "Mon · 8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "asia-open",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Tokyo rebounds, Seoul slips in early trade",
-   "line": "Nikkei up about 2% on dip-buying; Kospi opened lower after Friday's sharp selloff",
-   "more": [
-    "Reports differ on the size of the early moves",
-    "US stock futures rose slightly on Sunday evening"
-   ],
-   "src": {
-    "title": "TradingKey: Nikkei 225 surges 2%, Kospi opens lower",
-    "url": "https://www.tradingkey.com/analysis/stocks/more/262295111-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-nvda-sox-tradingkey"
-   },
-   "date": "2026-11-09",
-   "slot": "0700",
-   "when": "Mon · 7:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-09",
-    "slot": "0700"
    }
   }
  ]
