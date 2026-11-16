@@ -1,44 +1,33 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-16T18:00:31+05:30",
+ "generated_at": "2026-11-16T21:00:13+05:30",
  "date": "2026-11-16",
- "slot": "1800",
- "slot_label": "18:00",
+ "slot": "2100",
+ "slot_label": "21:00",
  "stage": "Evening wrap",
- "asof": "2026-11-16T18:00:00+05:30",
+ "asof": "2026-11-16T21:00:00+05:30",
  "nifty": {
   "value": 25291.1,
   "pct": 0.58,
   "chg": 146.8,
   "approx": false
  },
- "metrics": {
-  "brent_usd": {
-   "value": 95.89,
-   "asof": "Mon 16 Nov, ~13:30 IST",
-   "approx": true,
-   "src": {
-    "title": "Oil prices rise after Hormuz explosion claims",
-    "url": "https://www.rte.ie/news/business/2026/1116/1599343-oil-prices/"
-   }
-  }
- },
  "mood": {
-  "label": "Cautious into Tuesday",
-  "score": -0.1,
-  "summary": "Tuesday looks set for a cautious start, with softer US tech futures and fresh Gulf tanker claims weighing against steady foreign buying and a firmer rupee.",
+  "label": "Soft start likely",
+  "score": -0.2,
+  "summary": "A softer start looks likely on Tuesday as a tech-led slide on Wall Street weighs on sentiment, with Indian IT most exposed and defensives better placed to hold up.",
   "detail": {
-   "leaders": "FMCG and private banks, which led Monday's gain",
-   "laggards": "IT and tech-linked names with Nasdaq futures lower before Nvidia; smaller stocks after Monday's slide",
-   "tone": "A forward-looking read after Monday's narrow, large-cap-led gain. Since the close, US tech futures have softened and Iran has claimed more tanker mine strikes.",
+   "leaders": "FMCG and private banks, which led Monday's gain and are less tied to US tech",
+   "laggards": "IT and tech-linked names as Nasdaq and Nvidia slide; smaller stocks after Monday's selling",
+   "tone": "A forward-looking read for Tuesday, weaker than the early-evening note: US stocks are now trading lower, with tech selling deepening ahead of Nvidia's results.",
    "watch": [
-    "How US tech trades into Nvidia's results after Tuesday's US close",
-    "Crude and Hormuz headlines overnight",
-    "Monday's provisional FII/DII figures, still awaited"
+    "Where Wall Street closes, especially the Nasdaq",
+    "Nvidia's results after Tuesday's US close, which land before India's Wednesday open",
+    "Monday's provisional FII/DII figures, still unpublished"
    ],
    "src": {
-    "title": "S&P 500, Nasdaq futures slide as Nvidia earnings, Anthropic debut loom",
-    "url": "https://investing.com/news/economy-news/sp-500-nasdaq-futures-slide-as-nvidia-earnings-anthropic-debut-loom-5028900"
+    "title": "More drops for Nvidia and other AI stocks drag the U.S. market lower",
+    "url": "https://www.bnnbloomberg.ca/markets/nasdaq/2026/11/16/stocks-decline-on-tech-sell-off-as-concerns-over-the-nvidia-fallout-persist/"
    }
   }
  },
@@ -47,26 +36,75 @@
    "key": "us-markets",
    "tag": "Global",
    "impact": "neg",
-   "title": "US futures slip, Nasdaq leads lower",
-   "line": "S&P 500 futures fell about 0.2–0.36% and Nasdaq 100 futures 0.9–1.5%; Dow flat",
+   "title": "Wall Street slides as tech sell-off deepens",
+   "line": "Live: Nasdaq down about 1.5%, S&P 500 down about 0.9%, Dow off about 0.1% early",
    "more": [
-    "Nvidia reports after Tuesday's US close",
-    "Anthropic's market debut is expected later this week",
-    "US Fed minutes and Walmart, Target and Home Depot results are also due"
+    "Nvidia fell about 2.4% and was again the biggest drag",
+    "The S&P 500 is on track for a third straight loss",
+    "Reports of the Nasdaq's early fall range from 1.4% to 2%"
    ],
    "src": {
-    "title": "S&P 500, Nasdaq futures slide as Nvidia earnings, Anthropic debut loom",
-    "url": "https://investing.com/news/economy-news/sp-500-nasdaq-futures-slide-as-nvidia-earnings-anthropic-debut-loom-5028900"
+    "title": "More drops for Nvidia and other AI stocks drag the U.S. market lower",
+    "url": "https://www.bnnbloomberg.ca/markets/nasdaq/2026/11/16/stocks-decline-on-tech-sell-off-as-concerns-over-the-nvidia-fallout-persist/"
    },
    "thread": "global-markets",
    "date": "2026-11-16",
-   "slot": "1800",
-   "when": "18:00",
+   "slot": "2100",
+   "when": "21:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-10",
     "slot": "0845"
+   }
+  },
+  {
+   "key": "nvidia-q3",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Nvidia reports Tuesday at 4:20 pm ET",
+   "line": "Its first results without Jensen Huang land before India opens on Wednesday",
+   "more": [
+    "Interim CEO Colette Kress will present the results",
+    "The stock fell about 13% last week"
+   ],
+   "src": {
+    "title": "Stock Market Today: Nasdaq-100 Sinks 1% as Nvidia Faces Its First Earnings Without Jensen Huang",
+    "url": "https://247wallst.com/investing/2026/11/16/stock-market-today-nasdaq-100-sinks-1-as-nvidia-faces-its-first-earnings-without-jensen-huang/"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-16",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "ipo-pipeline",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Crystal Crop anchor book opens Tuesday",
+   "line": "The ₹456 crore IPO at ₹259–272 opens to the public on Wednesday, November 18",
+   "more": [
+    "Mahanadi Coalfields' IPO follows on Thursday",
+    "No listings are scheduled this week"
+   ],
+   "src": {
+    "title": "Crystal Crop Protection IPO: Price band fixed at Rs 259-272, aims to raise Rs 456 crore",
+    "url": "https://businesstoday.in/markets/stocks/story/crystal-crop-protection-ipo-price-band-fixed-at-rs-259-272-aims-to-raise-rs-456-crore-567241-2026-11-13"
+   },
+   "date": "2026-11-16",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "0800"
    }
   },
   {
@@ -88,7 +126,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "2100"
@@ -113,7 +151,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-10",
     "slot": "0845"
@@ -977,56 +1015,6 @@
    "first_seen": {
     "date": "2026-11-15",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "nvidia-q3",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Nvidia reports Tuesday after the US close",
-   "line": "The first results under interim CEO Colette Kress; sales are expected around $109 billion",
-   "more": [
-    "The stock is more than 30% below its October peak",
-    "The results land before India's Wednesday open"
-   ],
-   "src": {
-    "title": "Fever pitch: Nvidia's earnings and the investing week ahead",
-    "url": "https://finimize.com/content/nvidias-earnings-and-the-investing-week-aheada"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-15",
-   "slot": "outlook",
-   "when": "Sun · Outlook",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "2100"
-   }
-  },
-  {
-   "key": "ipo-pipeline",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Three issues open this week, no listings",
-   "line": "Crystal Crop opens Nov 18; Mahanadi Coalfields and SME Watrana Rentals open Nov 19",
-   "more": [
-    "Crystal Crop's price band is ₹259–272 a share",
-    "Watrana Rentals seeks ₹120.10 crore at ₹232–245 a share",
-    "No IPO listing is scheduled for the week, per Upstox"
-   ],
-   "src": {
-    "title": "Upcoming IPOs: Mahanadi Coalfields, Crystal Crop Protection and Watrana Rentals issues to open this week",
-    "url": "https://upstox.com/news/market-news/ipo/upcoming-ipos-mahanadi-coalfields-crystal-crop-protection-and-watrana-rentals-issues-to-open-this-week/article-203462"
-   },
-   "date": "2026-11-15",
-   "slot": "1800",
-   "when": "Sun · 18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "0800"
    }
   },
   {
