@@ -1,69 +1,69 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-16T10:36:57+05:30",
+ "generated_at": "2026-11-16T11:06:50+05:30",
  "date": "2026-11-16",
- "slot": "1035",
- "slot_label": "10:35",
+ "slot": "1105",
+ "slot_label": "11:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-16T10:35:00+05:30",
+ "asof": "2026-11-16T11:05:00+05:30",
  "nifty": {
-  "value": 25334.2,
-  "pct": 0.76,
-  "chg": 189.9,
-  "approx": false,
-  "asof_quote": "10:00"
+  "value": 25223,
+  "pct": 0.31,
+  "approx": true,
+  "asof_quote": "11:00"
  },
  "mood": {
-  "label": "Off the highs",
-  "score": 0.3,
-  "summary": "The market is holding a solid gain but has eased off its morning high, with large caps still in charge and investors waiting on wholesale inflation data.",
+  "label": "Gains fade",
+  "score": 0.15,
+  "summary": "The morning rally has faded to a modest gain as realty and metal stocks slip, leaving IT and foreign buying to hold the market up ahead of the noon inflation data.",
   "detail": {
-   "leaders": "IT and banking stocks",
-   "laggards": "Kaynes Technology after weak results",
-   "tone": "A live read: still firmly higher than at the open, but the latest headlines show the gain narrowing from the morning high.",
+   "leaders": "IT stocks, backed by foreign buying",
+   "laggards": "Nifty Realty and Nifty Metal",
+   "tone": "A live read: softer than the previous note, with the market giving back much of its morning gain as sector breadth narrows.",
    "watch": [
-    "October wholesale inflation, expected above 12%",
-    "Whether the market holds its gain into the afternoon",
-    "Crude, which has kept easing"
+    "October WPI at noon, with consensus near 12.1%",
+    "Whether realty and metal selling spreads",
+    "Whether IT and foreign buying can hold the gain"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex jumps 500 pts, Nifty near 25,300; Max Health, Airtel top gainers",
+    "title": "Stock Market LIVE: Sensex gains 400 pts, Nifty near 25,200; realty, metal indices down 1%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT and banking stocks keep leading the rebound",
-     "why": "Heavyweights are recovering Friday's losses, helped by oil easing on a better supply outlook.",
+     "summary": "IT stocks keep supporting the market as foreign buying continues",
+     "why": "IT and continued foreign institutional buying are the main reasons cited for the market's gain today.",
      "names": [
       {
        "name": "IT stocks",
        "dir": "up",
-       "line": "Named among the rally leaders as buyers return to tech heavyweights"
-      },
-      {
-       "name": "Banking stocks",
-       "dir": "up",
-       "line": "Rallying alongside IT and carrying much of the index gain"
+       "line": "Cited as a key driver of the day's rise alongside FII buying"
       }
      ],
      "src": {
-      "title": "Indian markets trade higher in early deals; IT, banking shares rally",
-      "url": "https://telanganatoday.com/indian-markets-trade-higher-in-early-deals-it-banking-shares-rally"
+      "title": "Why Did The Stock Market Rise Today? Sensex Above 82,200; Nifty Surpasses 25,300",
+      "url": "https://www.etvbharat.com/en/business/why-did-the-stock-market-rise-today-sensex-nifty-rally-fii-buying-it-stocks-jump-enn26111601336"
      }
     },
     "down": {
-     "summary": "Kaynes stays deep in the red after its results",
-     "why": "Weak earnings are drawing heavy selling even as the broad market rises.",
+     "summary": "Realty and metal indices are the weakest sectors",
+     "why": "Both sectors are extending Friday's losses while the rest of the market gives back part of its early gain.",
      "names": [
       {
-       "name": "Kaynes Technology",
+       "name": "Nifty Realty",
        "dir": "down",
-       "move": "about -15%",
-       "line": "Slumped after September-quarter profit fell 61.6% year on year"
+       "move": "down ~1%",
+       "line": "Extends Friday's fall after a run of about 15% over the past month"
+      },
+      {
+       "name": "Nifty Metal",
+       "dir": "down",
+       "move": "down ~1%",
+       "line": "Down for a second session after slipping about 1% on Friday"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex jumps 500 pts, Nifty near 25,300; Max Health, Airtel top gainers",
+      "title": "Stock Market LIVE: Sensex gains 400 pts, Nifty near 25,200; realty, metal indices down 1%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
      }
     }
@@ -75,25 +75,75 @@
    "key": "wpi-inflation",
    "tag": "Macro",
    "impact": "watch",
-   "title": "WPI expected to top 12% in October",
-   "line": "Consensus sees October wholesale inflation at 12.10%, up from 11.39% in September",
+   "title": "WPI data due at noon; 12–13% expected",
+   "line": "October wholesale inflation is due at 12:00 IST; consensus is 12.1%",
    "more": [
-    "The data is due today from the commerce ministry",
-    "Ind-Ra had forecast WPI above 12%, lower only if the West Asia crisis eases"
+    "Trading Economics' own forecast is 13.0%",
+    "September's 11.39% was a series high",
+    "Retail inflation for October was 6.09%, above the RBI's band"
    ],
    "src": {
-    "title": "India Wholesale Price Index (WPI) Inflation YoY",
-    "url": "https://in.investing.com/economic-calendar/india-wholesale-price-index-(wpi)-inflation-yoy-564"
+    "title": "India Inflation Data Release Calendar 2026-27: CPI, WPI, CPI-IW and RBI Dates",
+    "url": "https://indiainflation.com/release-calendar"
    },
    "thread": "rbi-policy",
    "date": "2026-11-16",
-   "slot": "1035",
-   "when": "10:35",
+   "slot": "1105",
+   "when": "11:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "2100"
+   }
+  },
+  {
+   "key": "sector-drag",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Realty and metals pull back for a second day",
+   "line": "Both sector indices are down about 1%, trimming the broader market's rally",
+   "more": [
+    "Nifty Realty had gained about 15% over the past month before Friday's fall",
+    "Nifty Metal fell about 1% on Friday as well"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex gains 400 pts, Nifty near 25,200; realty, metal indices down 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
+   },
+   "date": "2026-11-16",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FII buying cited for today's gains",
+   "line": "Continued foreign institutional buying and IT strength are lifting the market",
+   "more": [
+    "FIIs net bought about ₹5,737 crore on Friday, per provisional data",
+    "Foreign buying has run for three straight weeks"
+   ],
+   "src": {
+    "title": "Why Did The Stock Market Rise Today? Sensex Above 82,200; Nifty Surpasses 25,300",
+    "url": "https://www.etvbharat.com/en/business/why-did-the-stock-market-rise-today-sensex-nifty-rally-fii-buying-it-stocks-jump-enn26111601336"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-16",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0845"
    }
   },
   {
@@ -115,7 +165,7 @@
    "slot": "1035",
    "when": "10:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "2100"
@@ -140,7 +190,7 @@
    "slot": "1035",
    "when": "10:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1005"
@@ -258,31 +308,6 @@
     "title": "Stock Market LIVE: GIFT Nifty signals positive open; Asian markets decline; Brent near $95",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
    },
-   "date": "2026-11-16",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs bought ₹5,737 crore on Friday",
-   "line": "Foreign buying held up on Friday's down day; domestic funds sold ₹2,254 crore",
-   "more": [
-    "The figures are provisional exchange data",
-    "It extends a third straight week of foreign buying"
-   ],
-   "src": {
-    "title": "Pre-Market Update: GIFT Nifty Signals Positive Opening; Oil Prices, Inflation and Global Technology Selloff Remain Key Concerns",
-    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-positive-opening-oil-prices-inflation-and-global-technology-selloff-remain-key-concerns-60450"
-   },
-   "thread": "fii-flows",
    "date": "2026-11-16",
    "slot": "0845",
    "when": "8:45",
@@ -881,30 +906,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1305"
-   }
-  },
-  {
-   "key": "sector-drag",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Shriram Finance, Tata Motors PV top losers",
-   "line": "The two lead the Nifty 50 losers, alongside IndiGo and HDFC Bank",
-   "more": [
-    "Lenders and autos have weighed through the session",
-    "No company-specific triggers have been reported"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex falls 400 pts, Nifty near 25,100; Shriram Fin, Tata Motors PV top losers",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
-   },
-   "date": "2026-11-13",
-   "slot": "1505",
-   "when": "Fri · 15:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "1105"
    }
   },
   {
