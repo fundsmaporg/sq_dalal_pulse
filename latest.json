@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-16T16:37:21+05:30",
+ "generated_at": "2026-11-16T18:00:31+05:30",
  "date": "2026-11-16",
- "slot": "1635",
- "slot_label": "16:35",
- "stage": "Post-market mood",
- "asof": "2026-11-16T16:35:00+05:30",
+ "slot": "1800",
+ "slot_label": "18:00",
+ "stage": "Evening wrap",
+ "asof": "2026-11-16T18:00:00+05:30",
  "nifty": {
   "value": 25291.1,
   "pct": 0.58,
@@ -13,87 +13,112 @@
   "approx": false
  },
  "metrics": {
-  "usd_inr": {
-   "value": 93.92,
-   "asof": "Mon 16 Nov close (provisional)",
-   "approx": false,
+  "brent_usd": {
+   "value": 95.89,
+   "asof": "Mon 16 Nov, ~13:30 IST",
+   "approx": true,
    "src": {
-    "title": "Rupee rises 27 paise to close at 93.92 against US dollar on fund inflows",
-    "url": "https://www.deccanherald.com/business/rupee-rises-27-paise-to-close-at-9392-against-us-dollar-4219975"
+    "title": "Oil prices rise after Hormuz explosion claims",
+    "url": "https://www.rte.ie/news/business/2026/1116/1599343-oil-prices/"
    }
   }
  },
  "mood": {
-  "label": "Narrow large-cap gain",
-  "score": 0.25,
-  "summary": "Large caps ended a solid session higher on FMCG, private banks and a sharp rally in Max Healthcare, while smaller stocks slid and the rupee firmed on inflows.",
+  "label": "Cautious into Tuesday",
+  "score": -0.1,
+  "summary": "Tuesday looks set for a cautious start, with softer US tech futures and fresh Gulf tanker claims weighing against steady foreign buying and a firmer rupee.",
   "detail": {
-   "leaders": "Max Healthcare and Tata Consumer; Nifty FMCG",
-   "laggards": "Tata Motors PV; Nifty Smallcap 100",
-   "tone": "A read on the finished session, much as the previous note had it: the benchmarks closed solidly higher but on a narrow base; the rupee's rebound is the main addition.",
+   "leaders": "FMCG and private banks, which led Monday's gain",
+   "laggards": "IT and tech-linked names with Nasdaq futures lower before Nvidia; smaller stocks after Monday's slide",
+   "tone": "A forward-looking read after Monday's narrow, large-cap-led gain. Since the close, US tech futures have softened and Iran has claimed more tanker mine strikes.",
    "watch": [
-    "Provisional FII/DII flows, not yet published for today",
-    "Tuesday's weekly expiry",
-    "Nvidia's results after Tuesday's US close"
+    "How US tech trades into Nvidia's results after Tuesday's US close",
+    "Crude and Hormuz headlines overnight",
+    "Monday's provisional FII/DII figures, still awaited"
    ],
    "src": {
-    "title": "India shares higher at close of trade; Nifty 50 up 0.58%",
-    "url": "https://uk.investing.com/news/stock-market-news/india-shares-higher-at-close-of-trade-nifty-50-up-058-4984029"
-   },
-   "movers": {
-    "up": {
-     "summary": "Max Healthcare tops the Nifty; Tata Consumer and FMCG follow",
-     "why": "A handful of heavyweights and consumer staples did most of the lifting as oil eased and foreign money flowed in.",
-     "names": [
-      {
-       "name": "Max Healthcare",
-       "dir": "up",
-       "move": "+6.43% to +6.63%",
-       "line": "The day's top Nifty gainer; no specific trigger was reported"
-      },
-      {
-       "name": "Tata Consumer",
-       "dir": "up",
-       "line": "Among the top Nifty gainers as FMCG led the sectors"
-      },
-      {
-       "name": "Nifty FMCG",
-       "dir": "up",
-       "move": "+1.6%",
-       "line": "The best-performing sector index on the day"
-      }
-     ],
-     "src": {
-      "title": "Top Gainers and Losers on November 16, 2026: Max Healthcare Institute and Tata Consumer Gain, While Tata Motors PV Drops Over 8%",
-      "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-november-16-2026-max-healthcare-institute-and-tata-consumer-gain-while-tata-motors-pv-drops-over-8"
-     }
-    },
-    "down": {
-     "summary": "Tata Motors PV the top Nifty loser; smallcaps fall over 1%",
-     "why": "Stock-specific selling in autos and persistent pressure on smaller stocks weighed on breadth.",
-     "names": [
-      {
-       "name": "Tata Motors PV",
-       "dir": "down",
-       "move": "down over 8%",
-       "line": "JLR cut its FY27 EBIT margin outlook to 2–3% from 4%"
-      },
-      {
-       "name": "Nifty Smallcap 100",
-       "dir": "down",
-       "move": "-1.10%",
-       "line": "Smaller stocks fell steadily while the heavyweights rallied"
-      }
-     ],
-     "src": {
-      "title": "Top Gainers and Losers on November 16, 2026: Max Healthcare Institute and Tata Consumer Gain, While Tata Motors PV Drops Over 8%",
-      "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-november-16-2026-max-healthcare-institute-and-tata-consumer-gain-while-tata-motors-pv-drops-over-8"
-     }
-    }
+    "title": "S&P 500, Nasdaq futures slide as Nvidia earnings, Anthropic debut loom",
+    "url": "https://investing.com/news/economy-news/sp-500-nasdaq-futures-slide-as-nvidia-earnings-anthropic-debut-loom-5028900"
    }
   }
  },
  "insights": [
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US futures slip, Nasdaq leads lower",
+   "line": "S&P 500 futures fell about 0.2–0.36% and Nasdaq 100 futures 0.9–1.5%; Dow flat",
+   "more": [
+    "Nvidia reports after Tuesday's US close",
+    "Anthropic's market debut is expected later this week",
+    "US Fed minutes and Walmart, Target and Home Depot results are also due"
+   ],
+   "src": {
+    "title": "S&P 500, Nasdaq futures slide as Nvidia earnings, Anthropic debut loom",
+    "url": "https://investing.com/news/economy-news/sp-500-nasdaq-futures-slide-as-nvidia-earnings-anthropic-debut-loom-5028900"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-16",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-10",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "hormuz-attacks",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Iran claims two more tanker mine strikes",
+   "line": "The Guards say two tankers hit mines in Hormuz, after six caught fire over two days",
+   "more": [
+    "The reports could not be independently verified",
+    "Oil inched higher on the claims in European trade"
+   ],
+   "src": {
+    "title": "Oil prices rise after Hormuz explosion claims",
+    "url": "https://www.rte.ie/news/business/2026/1116/1599343-oil-prices/"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-16",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Brent holds near $96 on Gulf risk",
+   "line": "Brent traded around $95.9–96.3 on Monday as tanker incidents offset surplus worries",
+   "more": [
+    "The IEA expects the market to return to surplus in the fourth quarter",
+    "WTI traded around $87–88.65"
+   ],
+   "src": {
+    "title": "US-Iran War Oil Prices: Why Brent Holds Near $96 and WTI Around $87 Amid New Gulf Strikes 16-11-2026",
+    "url": "https://www.polyestertime.com/us-iran-war-oil-prices-brent-wti-2/"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-16",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-10",
+    "slot": "0845"
+   }
+  },
   {
    "key": "rupee",
    "tag": "Macro",
@@ -113,7 +138,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "2100"
@@ -137,7 +162,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1635"
@@ -161,7 +186,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1135"
@@ -904,57 +929,6 @@
    }
   },
   {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Oil slips in Asia despite Hormuz mine claims",
-   "line": "Brent eased to about $95.45 in early Asian trade on bets of improving supply",
-   "more": [
-    "Iran says three tankers hit mines on Saturday; the US disputes the claim",
-    "The IEA said late last week the oil market will return to surplus in the fourth quarter",
-    "WTI was little changed near $87"
-   ],
-   "src": {
-    "title": "Oil prices dip as markets look to recovering supplies, M.East tensions",
-    "url": "https://investing.com/news/commodities-news/oil-prices-dip-as-markets-look-to-recovering-supplies-meast-tensions-5028198"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-16",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-10",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "US futures open firmer, Nasdaq leads",
-   "line": "Stock futures ticked higher as traders brace for Nvidia's results this week",
-   "more": [
-    "Nvidia reports on Tuesday after the US close",
-    "CNBC flags an Anthropic IPO as another event this week"
-   ],
-   "src": {
-    "title": "US futures open firmer as Nasdaq leads, oil slips despite Iran tanker claims: 5 things",
-    "url": "https://investinglive.com/stocks/us-futures-open-firmer-as-nasdaq-leads-oil-slips-despite-iran-tanker-claims-5-things"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-16",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-10",
-    "slot": "0845"
-   }
-  },
-  {
    "key": "asia-markets",
    "tag": "Global",
    "impact": "watch",
@@ -1053,32 +1027,6 @@
    "first_seen": {
     "date": "2026-11-14",
     "slot": "0800"
-   }
-  },
-  {
-   "key": "hormuz-attacks",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Iran says Hormuz shipping won't return to normal",
-   "line": "Parliament speaker Ghalibaf says navigation will never return to pre-war conditions",
-   "more": [
-    "Iran reported a gas tanker hitting a mine on Friday and more tanker fires on Saturday",
-    "Tallies of Saturday's incidents differ between two and five tankers",
-    "Iran says the ships ignored warnings and entered restricted areas"
-   ],
-   "src": {
-    "title": "Oil tanker on fire in Strait of Hormuz: Iran's navy",
-    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oil-tanker-fire-strait-hormuz-iran-navy"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-15",
-   "slot": "1800",
-   "when": "Sun · 18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "2100"
    }
   },
   {
