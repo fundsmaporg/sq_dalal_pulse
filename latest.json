@@ -1,73 +1,169 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-17T13:06:17+05:30",
+ "generated_at": "2026-11-17T13:38:06+05:30",
  "date": "2026-11-17",
- "slot": "1305",
- "slot_label": "13:05",
+ "slot": "1335",
+ "slot_label": "13:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-17T13:05:00+05:30",
+ "asof": "2026-11-17T13:36:00+05:30",
+ "nifty": {
+  "value": 25451.0,
+  "pct": 0.63,
+  "chg": 159.9,
+  "asof_quote": "13:00"
+ },
  "mood": {
-  "label": "Strong, steady gains",
-  "score": 0.4,
-  "summary": "The market is holding strong gains into the afternoon, led by PSU banks and autos, with some midcaps now joining in while IT stays under pressure.",
+  "label": "Gains pared",
+  "score": 0.25,
+  "summary": "The market is still higher but has slipped back from the day's high as IT and FMCG shares weigh, while PSU banks and autos keep leading.",
   "detail": {
-   "leaders": "Nifty PSU Bank and Bank of India; Nifty Auto",
-   "laggards": "Nifty IT",
-   "tone": "A live read on market behaviour rather than a fresh print: holding near the day's high, much as in the previous note, with midcaps starting to participate.",
+   "leaders": "Nifty PSU Bank, Punjab National Bank and Bank of India; Nifty Auto",
+   "laggards": "Nifty IT; Kaynes Technology",
+   "tone": "A live read: the market has eased off the day's high since the previous note, as IT and FMCG drag, though the gain is largely intact and PSU banks still lead.",
    "watch": [
-    "Whether midcap participation broadens",
+    "Whether the pullback from the high deepens into the close",
     "Whether IT steadies before Nvidia's results tonight",
-    "The closing hour on weekly expiry day"
+    "Whether PSU banks hold their gains"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex gains 600 pts, Nifty tops 25,450; Laurus Labs, BoI lead MidCap gains",
+    "title": "Stock Market LIVE: Sensex off 400 pts from day's high, Nifty below 25,400; IT, FMCG shares weigh",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
    },
    "movers": {
     "up": {
-     "summary": "PSU banks lead, with Bank of India among top midcap gainers",
-     "why": "Renewed PSU bank merger talk and easing oil are driving the sectors leading the market.",
+     "summary": "PSU lenders and autos are still the sectors holding the market up",
+     "why": "Renewed talk of PSU bank mergers and easing oil prices are supporting banks and autos.",
      "names": [
       {
        "name": "Nifty PSU Bank",
        "dir": "up",
-       "line": "Outperforming on renewed merger talk among state lenders"
+       "move": "+2.40%",
+       "line": "Outperforming on renewed merger talk among state lenders (10:30 reading)"
+      },
+      {
+       "name": "Punjab National Bank",
+       "dir": "up",
+       "move": "up ~4.1%",
+       "line": "Among the biggest gainers in the PSU bank merger rally"
       },
       {
        "name": "Bank of India",
        "dir": "up",
-       "line": "A top midcap gainer as PSU lenders rally on merger buzz"
+       "move": "up ~3.8%",
+       "line": "A top midcap gainer as state lenders rally on merger buzz"
       },
       {
        "name": "Nifty Auto",
        "dir": "up",
-       "line": "Among the outperforming sectors as oil prices ease"
+       "line": "Outperforming as easing oil prices help the sector"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex gains 600 pts, Nifty tops 25,450; Laurus Labs, BoI lead MidCap gains",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
+      "title": "PSU Bank Stocks Rally on Merger Buzz: PNB, BoI, SBI Gain",
+      "url": "https://univest.in/blogs/psu-bank-stocks-rally-merger-buzz-november-2026"
      }
     },
     "down": {
-     "summary": "IT is the sector declining the most",
-     "why": "Investors are rotating out of tech as the global AI trade unwinds before Nvidia's results.",
+     "summary": "IT is the weakest sector, and Kaynes extends its two-day slide",
+     "why": "Tech is being sold as the global AI trade unwinds before Nvidia's results; Kaynes has a stock-specific broker concern.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "The worst-performing sector through the session"
+       "line": "Declining the most among sectors as money rotates away from AI-linked tech"
+      },
+      {
+       "name": "Kaynes Technology",
+       "dir": "down",
+       "move": "-16% over 2 sessions",
+       "line": "Jefferies has flagged margin pressure"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex gains 600 pts, Nifty tops 25,450; Laurus Labs, BoI lead MidCap gains",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
+      "title": "Kaynes Tech falls 16% in 2 sessions; Jefferies flags margin pressure",
+      "url": "https://business-standard.com/markets/news/kaynes-tech-falls-16-in-2-sessions-jefferies-flags-margin-pressure-126111700486_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "kaynes-margin",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Kaynes slides 16% in two sessions",
+   "line": "Jefferies flags margin pressure at the electronics maker",
+   "more": [
+    "Shares are down about 16% over two sessions",
+    "Jefferies flagged margin pressure",
+    "The stock is among the day's notable losers"
+   ],
+   "src": {
+    "title": "Kaynes Tech falls 16% in 2 sessions; Jefferies flags margin pressure",
+    "url": "https://business-standard.com/markets/news/kaynes-tech-falls-16-in-2-sessions-jefferies-flags-margin-pressure-126111700486_1.html"
+   },
+   "date": "2026-11-17",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1335"
+   }
+  },
+  {
+   "key": "ai-rotation",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "IT drags ahead of Nvidia results",
+   "line": "IT and FMCG weigh as the indices come off the day's high",
+   "more": [
+    "Nifty IT is the weakest sector",
+    "Nvidia reports after the US close tonight",
+    "Early trade saw money rotate from global AI towards India"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex off 400 pts from day's high, Nifty below 25,400; IT, FMCG shares weigh",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-17",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "psu-bank-merger",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PSU banks keep the lead",
+   "line": "Merger talk keeps state lenders at the top of the sector table",
+   "more": [
+    "Nifty PSU Bank was up 2.40% at 10:30",
+    "PNB up about 4.1%, Bank of India about 3.8%",
+    "Canara Bank up about 2.8%"
+   ],
+   "src": {
+    "title": "PSU Bank Stocks Rally on Merger Buzz: PNB, BoI, SBI Gain",
+    "url": "https://univest.in/blogs/psu-bank-stocks-rally-merger-buzz-november-2026"
+   },
+   "date": "2026-11-17",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1135"
+   }
+  },
   {
    "key": "midcap-leaders",
    "tag": "Stocks",
@@ -86,59 +182,10 @@
    "slot": "1305",
    "when": "13:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1305"
-   }
-  },
-  {
-   "key": "psu-bank-merger",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "PSU bank rally broadens to Bank of India",
-   "line": "Bank of India joins PNB and Canara Bank among PSU lenders gaining on merger talk",
-   "more": [
-    "Univest also cites better earnings and cleaner balance sheets",
-    "The merger talk has not been officially confirmed"
-   ],
-   "src": {
-    "title": "PSU Bank Stocks Rally on Merger Buzz: PNB, BoI, SBI Gain",
-    "url": "https://univest.in/blogs/psu-bank-stocks-rally-merger-buzz-november-2026"
-   },
-   "date": "2026-11-17",
-   "slot": "1305",
-   "when": "13:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1135"
-   }
-  },
-  {
-   "key": "ai-rotation",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Oil, AI-trade unwind keep supporting India",
-   "line": "Business Standard cites falling oil and an AI-trade unwind abroad for the inflows",
-   "more": [
-    "Nifty PSU Bank and Nifty Auto outperform",
-    "Nifty IT declines the most"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex gains 600 pts, Nifty tops 25,450; Laurus Labs, BoI lead MidCap gains",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-17",
-   "slot": "1305",
-   "when": "13:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1035"
    }
   },
   {

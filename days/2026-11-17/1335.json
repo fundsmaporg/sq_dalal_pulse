@@ -1,0 +1,154 @@
+{
+ "asof": "2026-11-17T13:36:00+05:30",
+ "summary": "The market is still higher but has slipped back from the day's high as IT and FMCG shares weigh, while PSU banks and autos keep leading.",
+ "mood": {
+  "label": "Gains pared",
+  "score": 0.25,
+  "detail": {
+   "stats": [],
+   "leaders": "Nifty PSU Bank, Punjab National Bank and Bank of India; Nifty Auto",
+   "laggards": "Nifty IT; Kaynes Technology",
+   "movers": {
+    "up": {
+     "summary": "PSU lenders and autos are still the sectors holding the market up",
+     "why": "Renewed talk of PSU bank mergers and easing oil prices are supporting banks and autos.",
+     "names": [
+      {
+       "name": "Nifty PSU Bank",
+       "move": "+2.40%",
+       "dir": "up",
+       "line": "Outperforming on renewed merger talk among state lenders (10:30 reading)"
+      },
+      {
+       "name": "Punjab National Bank",
+       "move": "up ~4.1%",
+       "dir": "up",
+       "line": "Among the biggest gainers in the PSU bank merger rally"
+      },
+      {
+       "name": "Bank of India",
+       "move": "up ~3.8%",
+       "dir": "up",
+       "line": "A top midcap gainer as state lenders rally on merger buzz"
+      },
+      {
+       "name": "Nifty Auto",
+       "dir": "up",
+       "line": "Outperforming as easing oil prices help the sector"
+      }
+     ],
+     "src": {
+      "title": "PSU Bank Stocks Rally on Merger Buzz: PNB, BoI, SBI Gain",
+      "url": "https://univest.in/blogs/psu-bank-stocks-rally-merger-buzz-november-2026"
+     }
+    },
+    "down": {
+     "summary": "IT is the weakest sector, and Kaynes extends its two-day slide",
+     "why": "Tech is being sold as the global AI trade unwinds before Nvidia's results; Kaynes has a stock-specific broker concern.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "down",
+       "line": "Declining the most among sectors as money rotates away from AI-linked tech"
+      },
+      {
+       "name": "Kaynes Technology",
+       "move": "-16% over 2 sessions",
+       "dir": "down",
+       "line": "Jefferies has flagged margin pressure"
+      }
+     ],
+     "src": {
+      "title": "Kaynes Tech falls 16% in 2 sessions; Jefferies flags margin pressure",
+      "url": "https://business-standard.com/markets/news/kaynes-tech-falls-16-in-2-sessions-jefferies-flags-margin-pressure-126111700486_1.html"
+     }
+    }
+   },
+   "tone": "A live read: the market has eased off the day's high since the previous note, as IT and FMCG drag, though the gain is largely intact and PSU banks still lead.",
+   "watch": [
+    "Whether the pullback from the high deepens into the close",
+    "Whether IT steadies before Nvidia's results tonight",
+    "Whether PSU banks hold their gains"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex off 400 pts from day's high, Nifty below 25,400; IT, FMCG shares weigh",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25451.0,
+  "pct": 0.63,
+  "chg": 159.9,
+  "asof_quote": "13:00"
+ },
+ "top": [
+  {
+   "key": "kaynes-margin",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Kaynes slides 16% in two sessions",
+   "line": "Jefferies flags margin pressure at the electronics maker",
+   "more": [
+    "Shares are down about 16% over two sessions",
+    "Jefferies flagged margin pressure",
+    "The stock is among the day's notable losers"
+   ],
+   "src": {
+    "title": "Kaynes Tech falls 16% in 2 sessions; Jefferies flags margin pressure",
+    "url": "https://business-standard.com/markets/news/kaynes-tech-falls-16-in-2-sessions-jefferies-flags-margin-pressure-126111700486_1.html"
+   }
+  },
+  {
+   "key": "ai-rotation",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "IT drags ahead of Nvidia results",
+   "line": "IT and FMCG weigh as the indices come off the day's high",
+   "more": [
+    "Nifty IT is the weakest sector",
+    "Nvidia reports after the US close tonight",
+    "Early trade saw money rotate from global AI towards India"
+   ],
+   "thread": "it-sector",
+   "src": {
+    "title": "Stock Market LIVE: Sensex off 400 pts from day's high, Nifty below 25,400; IT, FMCG shares weigh",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
+   }
+  },
+  {
+   "key": "psu-bank-merger",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PSU banks keep the lead",
+   "line": "Merger talk keeps state lenders at the top of the sector table",
+   "more": [
+    "Nifty PSU Bank was up 2.40% at 10:30",
+    "PNB up about 4.1%, Bank of India about 3.8%",
+    "Canara Bank up about 2.8%"
+   ],
+   "src": {
+    "title": "PSU Bank Stocks Rally on Merger Buzz: PNB, BoI, SBI Gain",
+    "url": "https://univest.in/blogs/psu-bank-stocks-rally-merger-buzz-november-2026"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market LIVE: Sensex off 400 pts from day's high, Nifty below 25,400; IT, FMCG shares weigh",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
+  },
+  {
+   "title": "Kaynes Tech falls 16% in 2 sessions; Jefferies flags margin pressure",
+   "url": "https://business-standard.com/markets/news/kaynes-tech-falls-16-in-2-sessions-jefferies-flags-margin-pressure-126111700486_1.html"
+  },
+  {
+   "title": "PSU Bank Stocks Rally on Merger Buzz: PNB, BoI, SBI Gain",
+   "url": "https://univest.in/blogs/psu-bank-stocks-rally-merger-buzz-november-2026"
+  },
+  {
+   "title": "Sensex, Nifty open higher as oil eases and investors rotate from global AI to India",
+   "url": "https://hdfcsky.com/news/bse-nse-sensex-november-17-2026-open-report-sensex-nifty-edge-higher-as-oil-eases-and-investors-rotate-from-global-ai-to-india"
+  }
+ ]
+}
