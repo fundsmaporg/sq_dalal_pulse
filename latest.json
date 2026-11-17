@@ -1,33 +1,53 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-16T21:00:13+05:30",
- "date": "2026-11-16",
- "slot": "2100",
- "slot_label": "21:00",
- "stage": "Evening wrap",
- "asof": "2026-11-16T21:00:00+05:30",
+ "generated_at": "2026-11-17T07:00:05+05:30",
+ "date": "2026-11-17",
+ "slot": "0700",
+ "slot_label": "7:00",
+ "stage": "Pre-market mood",
+ "asof": "2026-11-17T07:00:00+05:30",
  "nifty": {
   "value": 25291.1,
   "pct": 0.58,
   "chg": 146.8,
   "approx": false
  },
+ "metrics": {
+  "fii_net_cr": {
+   "value": 4864.68,
+   "asof": "Mon 16 Nov provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+   }
+  },
+  "dii_net_cr": {
+   "value": -3519.05,
+   "asof": "Mon 16 Nov provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+   }
+  }
+ },
  "mood": {
-  "label": "Soft start likely",
-  "score": -0.2,
-  "summary": "A softer start looks likely on Tuesday as a tech-led slide on Wall Street weighs on sentiment, with Indian IT most exposed and defensives better placed to hold up.",
+  "label": "Weak start likely",
+  "score": -0.35,
+  "summary": "Indian stocks look set for a weak start after a sharp tech-led sell-off on Wall Street spread to Asia, though steady foreign buying offers some cushion.",
   "detail": {
-   "leaders": "FMCG and private banks, which led Monday's gain and are less tied to US tech",
-   "laggards": "IT and tech-linked names as Nasdaq and Nvidia slide; smaller stocks after Monday's selling",
-   "tone": "A forward-looking read for Tuesday, weaker than the early-evening note: US stocks are now trading lower, with tech selling deepening ahead of Nvidia's results.",
+   "leaders": "Consumer staples and utilities, the only US sectors to rise; India's FMCG names may hold up",
+   "laggards": "IT and tech-linked stocks after the US chip rout; banks and energy, which also fell in New York",
+   "tone": "A forward-looking read before Tuesday's open, weaker than last night's note: the US sell-off deepened into the close and Asian markets opened lower.",
    "watch": [
-    "Where Wall Street closes, especially the Nasdaq",
-    "Nvidia's results after Tuesday's US close, which land before India's Wednesday open",
-    "Monday's provisional FII/DII figures, still unpublished"
+    "How far Indian IT falls on the US tech rout",
+    "Whether foreign investors keep buying after Monday's inflows",
+    "Nvidia's results after the US close today"
    ],
    "src": {
-    "title": "More drops for Nvidia and other AI stocks drag the U.S. market lower",
-    "url": "https://www.bnnbloomberg.ca/markets/nasdaq/2026/11/16/stocks-decline-on-tech-sell-off-as-concerns-over-the-nvidia-fallout-persist/"
+    "title": "Markets today: Nvidia leads another sell-off as stocks tumble",
+    "url": "https://bnnbloomberg.ca/markets/nasdaq/2026/11/16/stocks-decline-on-tech-sell-off-as-concerns-over-the-nvidia-fallout-persist"
    }
   }
  },
@@ -36,25 +56,75 @@
    "key": "us-markets",
    "tag": "Global",
    "impact": "neg",
-   "title": "Wall Street slides as tech sell-off deepens",
-   "line": "Live: Nasdaq down about 1.5%, S&P 500 down about 0.9%, Dow off about 0.1% early",
+   "title": "Wall Street slumps; Nasdaq enters correction",
+   "line": "S&P 500 fell 1.92%, Dow 1.4% and Nasdaq 2.49% on Monday as chip stocks sank",
    "more": [
-    "Nvidia fell about 2.4% and was again the biggest drag",
-    "The S&P 500 is on track for a third straight loss",
-    "Reports of the Nasdaq's early fall range from 1.4% to 2%"
+    "The Nasdaq is now 10.9% below its October 6 high",
+    "Nvidia fell 4.1%, again the heaviest drag",
+    "Only consumer staples and utilities ended higher"
    ],
    "src": {
-    "title": "More drops for Nvidia and other AI stocks drag the U.S. market lower",
-    "url": "https://www.bnnbloomberg.ca/markets/nasdaq/2026/11/16/stocks-decline-on-tech-sell-off-as-concerns-over-the-nvidia-fallout-persist/"
+    "title": "Markets today: Nvidia leads another sell-off as stocks tumble",
+    "url": "https://bnnbloomberg.ca/markets/nasdaq/2026/11/16/stocks-decline-on-tech-sell-off-as-concerns-over-the-nvidia-fallout-persist"
    },
    "thread": "global-markets",
-   "date": "2026-11-16",
-   "slot": "2100",
-   "when": "21:00",
+   "date": "2026-11-17",
+   "slot": "0700",
+   "when": "7:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "asia-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Asia opens lower on chip weakness",
+   "line": "Nikkei fell 0.76% and Kospi 1.57% at Tuesday's open; SK Hynix and Samsung slid",
+   "more": [
+    "Asian markets had already fallen on Monday, Kospi down 2.9%",
+    "Nvidia suppliers are leading the declines"
+   ],
+   "src": {
+    "title": "Stock market today: Live updates",
+    "url": "https://cnbc.com/2026/11/16/stock-market-today-live-updates.html"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-17",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs bought ₹4,865 crore on Monday",
+   "line": "Foreign investors stayed net buyers; domestic funds sold about ₹3,519 crore",
+   "more": [
+    "FIIs bought ₹15,637 crore and sold ₹10,772 crore",
+    "The figures are provisional and may be revised"
+   ],
+   "src": {
+    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-17",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
     "slot": "0845"
    }
   },
@@ -62,20 +132,20 @@
    "key": "nvidia-q3",
    "tag": "Global",
    "impact": "watch",
-   "title": "Nvidia reports Tuesday at 4:20 pm ET",
-   "line": "Its first results without Jensen Huang land before India opens on Wednesday",
+   "title": "Nvidia results due after US close today",
+   "line": "The first report without Jensen Huang lands before India's Wednesday open",
    "more": [
-    "Interim CEO Colette Kress will present the results",
-    "The stock fell about 13% last week"
+    "The stock fell 4.1% on Monday after a 13% drop last week",
+    "It is the key test for the AI trade this week"
    ],
    "src": {
-    "title": "Stock Market Today: Nasdaq-100 Sinks 1% as Nvidia Faces Its First Earnings Without Jensen Huang",
-    "url": "https://247wallst.com/investing/2026/11/16/stock-market-today-nasdaq-100-sinks-1-as-nvidia-faces-its-first-earnings-without-jensen-huang/"
+    "title": "Stock Market Today, Nov. 16: Tech Selloff Deepens as AI Leadership Crisis Rattles Nasdaq",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-16-222502139.html"
    },
    "thread": "global-markets",
-   "date": "2026-11-16",
-   "slot": "2100",
-   "when": "21:00",
+   "date": "2026-11-17",
+   "slot": "0700",
+   "when": "7:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -99,9 +169,9 @@
    },
    "date": "2026-11-16",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Mon · 21:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "0800"
@@ -124,7 +194,7 @@
    "thread": "crude-iran-war",
    "date": "2026-11-16",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Mon · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -149,12 +219,12 @@
    "thread": "crude-iran-war",
    "date": "2026-11-16",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Mon · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-10",
-    "slot": "0845"
+    "date": "2026-11-11",
+    "slot": "0700"
    }
   },
   {
@@ -174,7 +244,7 @@
    "thread": "rupee",
    "date": "2026-11-16",
    "slot": "1635",
-   "when": "16:35",
+   "when": "Mon · 16:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -198,7 +268,7 @@
    },
    "date": "2026-11-16",
    "slot": "1635",
-   "when": "16:35",
+   "when": "Mon · 16:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -222,7 +292,7 @@
    },
    "date": "2026-11-16",
    "slot": "1635",
-   "when": "16:35",
+   "when": "Mon · 16:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -247,7 +317,7 @@
    "thread": "fii-flows",
    "date": "2026-11-16",
    "slot": "1605",
-   "when": "16:05",
+   "when": "Mon · 16:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -271,7 +341,7 @@
    },
    "date": "2026-11-16",
    "slot": "1605",
-   "when": "16:05",
+   "when": "Mon · 16:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -295,7 +365,7 @@
    },
    "date": "2026-11-16",
    "slot": "1605",
-   "when": "16:05",
+   "when": "Mon · 16:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -319,7 +389,7 @@
    },
    "date": "2026-11-16",
    "slot": "1535",
-   "when": "15:35",
+   "when": "Mon · 15:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -355,7 +425,7 @@
    },
    "date": "2026-11-16",
    "slot": "1505",
-   "when": "15:05",
+   "when": "Mon · 15:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -379,7 +449,7 @@
    },
    "date": "2026-11-16",
    "slot": "1505",
-   "when": "15:05",
+   "when": "Mon · 15:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -403,7 +473,7 @@
    },
    "date": "2026-11-16",
    "slot": "1505",
-   "when": "15:05",
+   "when": "Mon · 15:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -442,7 +512,7 @@
    },
    "date": "2026-11-16",
    "slot": "1435",
-   "when": "14:35",
+   "when": "Mon · 14:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -466,7 +536,7 @@
    },
    "date": "2026-11-16",
    "slot": "1435",
-   "when": "14:35",
+   "when": "Mon · 14:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -499,7 +569,7 @@
    },
    "date": "2026-11-16",
    "slot": "1405",
-   "when": "14:05",
+   "when": "Mon · 14:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -524,7 +594,7 @@
    "thread": "q2-results-2026",
    "date": "2026-11-16",
    "slot": "1405",
-   "when": "14:05",
+   "when": "Mon · 14:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -550,7 +620,7 @@
    "thread": "mega-ipos-2026",
    "date": "2026-11-16",
    "slot": "1335",
-   "when": "13:35",
+   "when": "Mon · 13:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -574,7 +644,7 @@
    },
    "date": "2026-11-16",
    "slot": "1335",
-   "when": "13:35",
+   "when": "Mon · 13:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -613,7 +683,7 @@
    },
    "date": "2026-11-16",
    "slot": "1305",
-   "when": "13:05",
+   "when": "Mon · 13:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -637,7 +707,7 @@
    },
    "date": "2026-11-16",
    "slot": "1305",
-   "when": "13:05",
+   "when": "Mon · 13:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -662,7 +732,7 @@
    "thread": "q2-results-2026",
    "date": "2026-11-16",
    "slot": "1305",
-   "when": "13:05",
+   "when": "Mon · 13:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -688,7 +758,7 @@
    "thread": "rbi-policy",
    "date": "2026-11-16",
    "slot": "1235",
-   "when": "12:35",
+   "when": "Mon · 12:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -712,7 +782,7 @@
    },
    "date": "2026-11-16",
    "slot": "1205",
-   "when": "12:05",
+   "when": "Mon · 12:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -737,37 +807,12 @@
    },
    "date": "2026-11-16",
    "slot": "1135",
-   "when": "11:35",
+   "when": "Mon · 11:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1135"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FII buying cited for today's gains",
-   "line": "Continued foreign institutional buying and IT strength are lifting the market",
-   "more": [
-    "FIIs net bought about ₹5,737 crore on Friday, per provisional data",
-    "Foreign buying has run for three straight weeks"
-   ],
-   "src": {
-    "title": "Why Did The Stock Market Rise Today? Sensex Above 82,200; Nifty Surpasses 25,300",
-    "url": "https://www.etvbharat.com/en/business/why-did-the-stock-market-rise-today-sensex-nifty-rally-fii-buying-it-stocks-jump-enn26111601336"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-16",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "0845"
    }
   },
   {
@@ -787,7 +832,7 @@
    "thread": "us-rates",
    "date": "2026-11-16",
    "slot": "1035",
-   "when": "10:35",
+   "when": "Mon · 10:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -812,7 +857,7 @@
    "thread": "q2-results-2026",
    "date": "2026-11-16",
    "slot": "1035",
-   "when": "10:35",
+   "when": "Mon · 10:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -836,7 +881,7 @@
    },
    "date": "2026-11-16",
    "slot": "1005",
-   "when": "10:05",
+   "when": "Mon · 10:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -861,7 +906,7 @@
    "thread": "q2-results-2026",
    "date": "2026-11-16",
    "slot": "0925",
-   "when": "9:25",
+   "when": "Mon · 9:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -885,7 +930,7 @@
    },
    "date": "2026-11-16",
    "slot": "0925",
-   "when": "9:25",
+   "when": "Mon · 9:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -910,7 +955,7 @@
    },
    "date": "2026-11-16",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Mon · 8:45",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -934,7 +979,7 @@
    },
    "date": "2026-11-16",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Mon · 8:45",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -958,37 +1003,12 @@
    },
    "date": "2026-11-16",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Mon · 8:45",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "asia-markets",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Asia opens mixed and muted",
-   "line": "Reports differ on Japan and Korea's open, from slight gains to small losses",
-   "more": [
-    "TechFlow has the Nikkei and Kospi opening slightly higher",
-    "TradingKey and CNBC report small declines for both"
-   ],
-   "src": {
-    "title": "Japanese and Korean stocks opened slightly higher.",
-    "url": "https://www.techflowpost.com/en-US/newsletter/144737"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-16",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "0700"
    }
   },
   {
@@ -2160,8 +2180,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-10",
-    "slot": "0845"
+    "date": "2026-11-11",
+    "slot": "0700"
    }
   },
   {
@@ -2613,30 +2633,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "holiday-calendar",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Markets shut today; reopen Wednesday",
-   "line": "NSE and BSE are closed for Diwali Balipratipada; about 110 firms report on Wednesday",
-   "more": [
-    "Tata Power and Garden Reach Shipbuilders report on Nov 11",
-    "HAL and Eicher Motors report later in the week"
-   ],
-   "src": {
-    "title": "Upstox: Upcoming Q2 FY27 results this week",
-    "url": "https://upstox.com/news/market-news/earnings/upcoming-q2-fy-27-results-this-week-tata-motors-pv-vi-hal-eicher-motors-ashok-leyland-and-more-check-full-list/article-203166/"
-   },
-   "date": "2026-11-10",
-   "slot": "0845",
-   "when": "Tue · 8:45",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-10",
     "slot": "0845"
    }
   }
