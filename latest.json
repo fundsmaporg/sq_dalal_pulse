@@ -1,78 +1,82 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-17T15:37:57+05:30",
+ "generated_at": "2026-11-17T16:06:25+05:30",
  "date": "2026-11-17",
- "slot": "1535",
- "slot_label": "15:35",
- "stage": "Closing mood",
- "asof": "2026-11-17T15:37:00+05:30",
+ "slot": "1605",
+ "slot_label": "16:05",
+ "stage": "Post-market mood",
+ "asof": "2026-11-17T16:06:00+05:30",
  "nifty": {
-  "value": 25413.0,
-  "pct": 0.48,
-  "chg": 121.9,
-  "asof_quote": "15:30"
+  "value": 25387.4,
+  "pct": 0.38,
+  "chg": 96.3
  },
  "mood": {
-  "label": "Firm finish",
+  "label": "Firm, off highs",
   "score": 0.3,
-  "summary": "The market has closed the session with a solid gain, though well off the day's high, after banks and autos led all day and IT stayed the weak spot.",
+  "summary": "The market closed higher for a second day, led by banks and realty, but gave back a good part of its intraday gain as IT and FMCG ended in the red.",
   "detail": {
-   "leaders": "Nifty Bank and ICICI Bank; Nifty Auto and Eicher Motors",
-   "laggards": "Nifty IT",
-   "tone": "A read of the finished session: the market eased into the close from where it stood in the previous note but kept most of its gain, ending firm rather than at the highs.",
+   "leaders": "Nifty Bank and Axis Bank; M&M and Eicher Motors; realty",
+   "laggards": "Nifty IT and Nifty FMCG",
+   "tone": "A read of the finished session: a firm close, but softer than the previous note's closing-auction read and well short of the day's high.",
    "watch": [
-    "Today's provisional FII and DII figures",
+    "Today's provisional FII and DII figures, due after 6 pm",
     "Nvidia's results and outlook overnight",
     "Whether banks extend their record run tomorrow"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex gains 526 points, Nifty at 25,413 in closing auction session",
+    "title": "Stock Market Close: Sensex ends 427 pts up as rally extends to 2nd day, Nifty at 25,387; banks shine",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Banks and autos led the session from start to finish",
-     "why": "Foreign buying and easing crude lifted banks and autos, the two sectors most sensitive to both.",
+     "summary": "Banks, autos and realty carried the session",
+     "why": "Foreign buying and a sharp pullback in crude lifted banks and rate-sensitive sectors.",
      "names": [
       {
        "name": "Nifty Bank",
        "dir": "up",
-       "line": "Set a record high of 62,428.45 during the session"
+       "line": "Scaled a record peak during the session as foreign buying lifted lenders"
       },
       {
-       "name": "ICICI Bank",
+       "name": "Axis Bank",
        "dir": "up",
-       "line": "Led the heavyweights when the market hit its high"
+       "line": "Among the day's top gainers as banks led the rally"
       },
       {
-       "name": "Nifty Auto",
+       "name": "Mahindra & Mahindra",
        "dir": "up",
-       "line": "Outperformed as easing oil prices helped the sector"
+       "line": "Among the top gainers as autos benefit from easing oil"
       },
       {
        "name": "Eicher Motors",
        "dir": "up",
        "move": "up ~3%",
-       "line": "Top gainer in Nifty Auto as brokerages turn upbeat"
+       "line": "Top Nifty Auto gainer as brokerages turn upbeat"
       }
      ],
      "src": {
-      "title": "Eicher Motors jumps 3%, stock top gainer in Nifty Auto; brokerages upbeat",
-      "url": "https://www.business-standard.com/markets/news/eicher-motors-jumps-3-stock-top-gainer-in-nifty-auto-brokerages-upbeat-126111700622_1.html"
+      "title": "Market wrap, Nov 17: NIFTY50 ends at 25,387, SENSEX closes 427 pts higher as banking stocks power gains",
+      "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-17-nifty-50-ends-at-25-387-sensex-closes-427-pts-higher-as-banking-stocks-power-gains-check-factors/article-203581/"
      }
     },
     "down": {
-     "summary": "IT was the weakest sector through the session",
-     "why": "Money rotated away from AI-linked tech ahead of Nvidia's results after the US close.",
+     "summary": "IT and FMCG ended lower on selling pressure",
+     "why": "Tech was sold ahead of Nvidia's results, while consumer staples ended lower amid selling pressure.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "Declined the most among sectors as the global AI trade unwound"
+       "line": "Ended lower as the global AI trade unwound before Nvidia reports"
+      },
+      {
+       "name": "Nifty FMCG",
+       "dir": "down",
+       "line": "Ended lower amid selling pressure, weighing on the indices from midday"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex gains 526 points, Nifty at 25,413 in closing auction session",
+      "title": "Stock Market Close: Sensex ends 427 pts up as rally extends to 2nd day, Nifty at 25,387; banks shine",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
      }
     }
@@ -80,6 +84,81 @@
   }
  },
  "insights": [
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Banks power a second day of gains",
+   "line": "Bank Nifty sets a record as the Nifty hits a nine-month high",
+   "more": [
+    "Banking stocks powered the gains, Upstox reports",
+    "The Nifty has recovered all losses since 27 February",
+    "Axis Bank, M&M and Eicher Motors were among the top gainers"
+   ],
+   "src": {
+    "title": "Nifty hits 9-month high, Bank Nifty scales record peak as market rally extends",
+    "url": "https://english.punjabkesari.com/business/nifty-hits-9-month-high-bank-nifty-scales-record-peak-as-market-rally-extends"
+   },
+   "date": "2026-11-17",
+   "slot": "1605",
+   "when": "16:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1305"
+   }
+  },
+  {
+   "key": "ai-rotation",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "IT and FMCG close lower",
+   "line": "Tech and consumer staples finished in the red despite the broader rally",
+   "more": [
+    "IT and FMCG indices ended lower amid selling pressure",
+    "Tech selling came ahead of Nvidia's results tonight"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex ends 427 pts up as rally extends to 2nd day, Nifty at 25,387; banks shine",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-17",
+   "slot": "1605",
+   "when": "16:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "nvidia-q3",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Nvidia reports before India's open",
+   "line": "Results land early Wednesday morning in India; Indian IT takes the cue",
+   "more": [
+    "Visible Alpha consensus revenue: $109.3bn",
+    "Next-quarter guidance seen as the swing factor"
+   ],
+   "src": {
+    "title": "Nvidia earnings preview: Q3 FY2027",
+    "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/11/nvidia-earnings-preview-q3-2027"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-17",
+   "slot": "1605",
+   "when": "16:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "2100"
+   }
+  },
   {
    "key": "eicher-motors",
    "tag": "Stocks",
@@ -99,7 +178,7 @@
    "slot": "1535",
    "when": "15:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1535"
@@ -124,36 +203,10 @@
    "slot": "1535",
    "when": "15:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1235"
-   }
-  },
-  {
-   "key": "nvidia-q3",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Nvidia's data-centre number is the one to watch",
-   "line": "Blackwell and Rubin consensus at $48.5bn, with forecasts from $37.6bn to $65.5bn",
-   "more": [
-    "Next-quarter guidance is seen carrying the most weight",
-    "Results land early Wednesday morning in India",
-    "Indian IT takes the read-through at the open"
-   ],
-   "src": {
-    "title": "Nvidia earnings preview: Q3 FY2027",
-    "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/11/nvidia-earnings-preview-q3-2027"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-17",
-   "slot": "1535",
-   "when": "15:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "2100"
    }
   },
   {
@@ -180,30 +233,6 @@
    "first_seen": {
     "date": "2026-11-11",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Bank record comes with Nifty at 9-month high",
-   "line": "Lenders' record run has lifted the broad market to its best since February",
-   "more": [
-    "Nifty Bank touched 62,428.45, above its 3 February peak",
-    "Goodreturns puts the Nifty at a nine-month high"
-   ],
-   "src": {
-    "title": "Stock Market Rally Today: Nifty Hits 9-Month High, Bank Nifty Scales Record 62,400; What's Behind the Surge?",
-    "url": "https://www.goodreturns.in/news/stock-market-rally-today-nifty-hits-9-month-high-bank-nifty-scales-record-62-400-whats-behind-surge-1547523.html"
-   },
-   "date": "2026-11-17",
-   "slot": "1505",
-   "when": "15:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "1305"
    }
   },
   {
@@ -254,31 +283,6 @@
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1435"
-   }
-  },
-  {
-   "key": "ai-rotation",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "IT and FMCG trim the day's gains",
-   "line": "Indices come off the high as tech and consumer staples weigh",
-   "more": [
-    "Nifty IT is the weakest sector",
-    "Nvidia reports after the US close tonight"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex pares gains but up 600 pts, Nifty around 25,400; IT, FMCG shares weigh",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-17",
-   "slot": "1405",
-   "when": "14:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1035"
    }
   },
   {
