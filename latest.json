@@ -1,57 +1,57 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-17T12:06:24+05:30",
+ "generated_at": "2026-11-17T12:37:11+05:30",
  "date": "2026-11-17",
- "slot": "1205",
- "slot_label": "12:05",
+ "slot": "1235",
+ "slot_label": "12:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-17T12:05:00+05:30",
+ "asof": "2026-11-17T12:35:00+05:30",
  "mood": {
-  "label": "Firm through midday",
-  "score": 0.35,
-  "summary": "The market is holding firm gains through midday, with banks and autos leading, realty joining in and IT still the main drag as the AI trade unwinds.",
+  "label": "Rally extends",
+  "score": 0.45,
+  "summary": "The rally has pushed to new highs for the day, with banks extending their record run and exchange stocks climbing, while IT remains the one clear weak spot.",
   "detail": {
-   "leaders": "Nifty PSU Bank and Nifty Auto",
+   "leaders": "Nifty Bank at a record; NSE shares at a fresh high",
    "laggards": "Nifty IT",
-   "tone": "A live read on market behaviour rather than a fresh print: the benchmarks are holding near the day's high, much as in the previous note.",
+   "tone": "A live read on market behaviour rather than a fresh print: firmer than the previous note, with the latest headlines showing the gain widening further.",
    "watch": [
-    "Whether the gains hold into the afternoon",
-    "Whether IT recovers before Nvidia's results",
-    "Breadth in smaller stocks"
+    "Whether banks hold their record levels into the close",
+    "Profit-taking risk after a strong run, which analysts flag for banks",
+    "Nvidia's results after the US close"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex gains nearly 600 pts, Nifty tops 25,400; Nifty Realty rises 2%",
+    "title": "Stock Market LIVE: Sensex gains 700 pts, Nifty tops 25,450; NSE shares hit fresh high",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
    },
    "movers": {
     "up": {
-     "summary": "PSU banks and autos lead the gains into midday",
-     "why": "PSU lenders are rallying on renewed merger talk, while easing oil supports autos.",
+     "summary": "Banks extend their record run; NSE shares climb to a fresh peak",
+     "why": "Foreign money rotating into Indian financials and PSU merger talk are driving the bank-led advance.",
      "names": [
       {
-       "name": "Nifty PSU Bank",
+       "name": "Nifty Bank",
        "dir": "up",
-       "line": "Outperforming as PSU merger talk returns"
+       "line": "Hit another record high; analysts see room for more gains"
       },
       {
-       "name": "Nifty Auto",
+       "name": "NSE shares",
        "dir": "up",
-       "line": "Among the leading sectors as oil prices ease"
+       "line": "Extending a run of fresh highs after four straight sessions of gains"
       }
      ],
      "src": {
-      "title": "Stock Market Today: Sensex, Nifty Open Higher",
-      "url": "https://hdfcsky.com/news/bse-nse-sensex-november-17-2026-open-report-sensex-nifty-edge-higher-as-oil-eases-and-investors-rotate-from-global-ai-to-india"
+      "title": "Nifty Bank hits record high above 62,300; analysts see room for more gains",
+      "url": "https://business-standard.com/amp/markets/news/nifty-bank-record-high-62300-technical-outlook-profit-booking-126111700405_1.html"
      }
     },
     "down": {
-     "summary": "IT is the weakest sector as tech falls out of favour",
-     "why": "Money is rotating out of tech after the US chip sell-off, ahead of Nvidia's results tonight.",
+     "summary": "IT stays the weak spot as the AI trade unwinds",
+     "why": "Tech is missing out as investors move away from the AI theme ahead of Nvidia's results tonight.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "The sector declining the most as the global AI trade unwinds"
+       "line": "The sector declining the most this morning"
       }
      ],
      "src": {
@@ -63,6 +63,79 @@
   }
  },
  "insights": [
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Nifty Bank extends record run",
+   "line": "The bank index hit another record high; analysts see room for more gains",
+   "more": [
+    "PSU lenders have led the move on merger talk",
+    "Business Standard notes analysts also flag possible profit-booking"
+   ],
+   "src": {
+    "title": "Nifty Bank hits record high above 62,300; analysts see room for more gains",
+    "url": "https://business-standard.com/amp/markets/news/nifty-bank-record-high-62300-technical-outlook-profit-booking-126111700405_1.html"
+   },
+   "date": "2026-11-17",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1305"
+   }
+  },
+  {
+   "key": "nse-shares",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "NSE shares hit a fresh high",
+   "line": "The exchange's market value topped ₹5.1 lakh crore in its run of record highs",
+   "more": [
+    "Shares hit ₹2,074 on Monday, a fourth straight session of gains",
+    "Business Standard reports a fresh high again on Tuesday"
+   ],
+   "src": {
+    "title": "NSE shares hit fresh peak; market cap tops Rs 5.1 lakh crore",
+    "url": "https://www.businesstoday.in/markets/stocks/story/nse-shares-hit-fresh-peak-market-cap-tops-rs-5-1-lakh-crore-567575-2026-11-16"
+   },
+   "date": "2026-11-17",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1235"
+   }
+  },
+  {
+   "key": "ai-rotation",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Rotation from AI trade keeps lifting India",
+   "line": "Easing oil and an unwind of the global AI trade are cited for the inflows",
+   "more": [
+    "IT is the lagging sector",
+    "Nvidia reports after the US close tonight"
+   ],
+   "src": {
+    "title": "Stock Market Today: Sensex, Nifty Open Higher",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-17-2026-open-report-sensex-nifty-edge-higher-as-oil-eases-and-investors-rotate-from-global-ai-to-india"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-17",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1035"
+   }
+  },
   {
    "key": "realty-rally",
    "tag": "Stocks",
@@ -81,7 +154,7 @@
    "slot": "1205",
    "when": "12:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1335"
@@ -106,7 +179,7 @@
    "slot": "1205",
    "when": "12:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "0700"
@@ -130,34 +203,10 @@
    "slot": "1205",
    "when": "12:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1135"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Bank rally lifts benchmarks to day's high",
-   "line": "Business Standard's latest update has the Sensex at the day's high, led by banks",
-   "more": [
-    "PNB and Canara Bank lead the Nifty Bank gainers",
-    "Punjab & Sind Bank is up 3.7–4.6%"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex at day's high, gains 600 pts, PNB, Canara Bank lead gains in Nifty Bank",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
-   },
-   "date": "2026-11-17",
-   "slot": "1135",
-   "when": "11:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "1305"
    }
   },
   {
@@ -231,31 +280,6 @@
    "first_seen": {
     "date": "2026-11-11",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "ai-rotation",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Investors rotate from global AI trade to India",
-   "line": "Easing oil, foreign inflows and an AI-trade unwind abroad are lifting Indian stocks",
-   "more": [
-    "Nifty Bank hit a new high",
-    "IT is the lagging sector"
-   ],
-   "src": {
-    "title": "Stock Market Today: Sensex, Nifty Open Higher",
-    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-17-2026-open-report-sensex-nifty-edge-higher-as-oil-eases-and-investors-rotate-from-global-ai-to-india"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-17",
-   "slot": "1035",
-   "when": "10:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1035"
    }
   },
   {
