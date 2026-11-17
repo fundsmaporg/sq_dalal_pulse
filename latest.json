@@ -1,23 +1,23 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-17T14:36:57+05:30",
+ "generated_at": "2026-11-17T15:07:45+05:30",
  "date": "2026-11-17",
- "slot": "1435",
- "slot_label": "14:35",
- "stage": "Mid-market mood",
- "asof": "2026-11-17T14:36:00+05:30",
+ "slot": "1505",
+ "slot_label": "15:05",
+ "stage": "Closing mood",
+ "asof": "2026-11-17T15:06:00+05:30",
  "mood": {
-  "label": "Holding the gains",
+  "label": "Firm into close",
   "score": 0.3,
-  "summary": "The market is holding most of a bank-led rally into the final hour, a little below the day's high, with private and state lenders in front and IT and FMCG lagging.",
+  "summary": "The market heads into the last half hour holding a firm, bank-led gain below the day's high, with lenders and autos in front and IT the weak spot.",
   "detail": {
    "leaders": "Nifty Bank, ICICI Bank and State Bank of India; Nifty Auto",
    "laggards": "Nifty IT",
-   "tone": "A live read on market behaviour rather than a fresh print: the market is little changed from the previous note, holding below its high without fresh selling.",
+   "tone": "A live read on market behaviour rather than a fresh print: a quiet stretch, with the market holding below its high much as in the previous note.",
    "watch": [
-    "Whether banks hold their record-setting gains into the close",
-    "Whether IT steadies before Nvidia's results tonight",
-    "Any late selling into the final hour"
+    "Whether the market holds its gain through the close",
+    "Nvidia's results and outlook overnight",
+    "Today's provisional FII figures after the close"
    ],
    "src": {
     "title": "Stock Market LIVE: Sensex pares gains but up 600 pts, Nifty around 25,400; IT, FMCG shares weigh",
@@ -26,17 +26,17 @@
    "movers": {
     "up": {
      "summary": "Banks are carrying the market, with autos also outperforming",
-     "why": "Foreign investors buying again and easing crude are lifting rate- and growth-sensitive banks and autos.",
+     "why": "Foreign buying and easing crude are lifting banks and autos.",
      "names": [
       {
        "name": "Nifty Bank",
        "dir": "up",
-       "line": "Touched a record high of 62,428.45 earlier in the session"
+       "line": "Set a record high of 62,428.45 earlier in the session"
       },
       {
        "name": "ICICI Bank",
        "dir": "up",
-       "line": "Led the charge among heavyweights at the day's high"
+       "line": "Led the heavyweights when the market hit its high"
       },
       {
        "name": "State Bank of India",
@@ -55,7 +55,7 @@
      }
     },
     "down": {
-     "summary": "IT remains the weakest sector",
+     "summary": "IT remains the weakest sector before Nvidia reports",
      "why": "Money is rotating away from AI-linked tech ahead of Nvidia's results after the US close.",
      "names": [
       {
@@ -74,23 +74,75 @@
  },
  "insights": [
   {
+   "key": "nvidia-q3",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "What the street wants from Nvidia tonight",
+   "line": "Consensus revenue near $109bn; next-quarter guidance seen as the swing factor",
+   "more": [
+    "Visible Alpha consensus: revenue $109.3bn",
+    "Company guided about $108bn, plus or minus 2%",
+    "Gross margin guided at 74%, plus or minus 0.5%",
+    "Results land early Wednesday morning in India"
+   ],
+   "src": {
+    "title": "Nvidia earnings preview: Q3 FY2027",
+    "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/11/nvidia-earnings-preview-q3-2027"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-17",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FPIs put ₹76,189 cr into equities this month",
+   "line": "NSDL data show heavy November buying after two months of selling",
+   "more": [
+    "Net ₹76,188.75 cr between November 3 and 13 (NSDL)",
+    "October saw net outflows of ₹34,843 cr",
+    "2026 outflows still total about ₹2.41 lakh crore"
+   ],
+   "src": {
+    "title": "FPIs invest over ₹76,000cr in Indian equities in November",
+    "url": "https://www.newsbytesapp.com/news/business/fpis-invest-over-76-000cr-in-indian-equities-in-november/story"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-17",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0845"
+   }
+  },
+  {
    "key": "bank-rally",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "Nifty Bank hits a record 62,428",
-   "line": "Bank index tops its 3 February peak of 61,764 as lenders lead the rally",
+   "title": "Bank record comes with Nifty at 9-month high",
+   "line": "Lenders' record run has lifted the broad market to its best since February",
    "more": [
-    "Record high of 62,428.45 touched intraday",
-    "Previous peak was 61,764 on 3 February",
-    "ICICI Bank, Axis Bank and SBI were among the leaders"
+    "Nifty Bank touched 62,428.45, above its 3 February peak",
+    "Goodreturns puts the Nifty at a nine-month high"
    ],
    "src": {
     "title": "Stock Market Rally Today: Nifty Hits 9-Month High, Bank Nifty Scales Record 62,400; What's Behind the Surge?",
     "url": "https://www.goodreturns.in/news/stock-market-rally-today-nifty-hits-9-month-high-bank-nifty-scales-record-62-400-whats-behind-surge-1547523.html"
    },
    "date": "2026-11-17",
-   "slot": "1435",
-   "when": "14:35",
+   "slot": "1505",
+   "when": "15:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -118,7 +170,7 @@
    "slot": "1435",
    "when": "14:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1405"
@@ -142,7 +194,7 @@
    "slot": "1435",
    "when": "14:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1435"
@@ -370,31 +422,6 @@
    }
   },
   {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Record $9.53 billion FPI inflow in November",
-   "line": "Foreign investors have pumped a record $9.53 billion into Indian equities this month",
-   "more": [
-    "The Week cites resilient corporate earnings alongside the inflows",
-    "Foreign buying is cited as offsetting global worries"
-   ],
-   "src": {
-    "title": "Indian markets extend rally as foreign inflows offset global worries: Sensex up 280+ points",
-    "url": "https://www.theweek.in/news/biz-tech/2026/11/17/indian-markets-extend-rally-sensex-up.html"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-17",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "0845"
-   }
-  },
-  {
    "key": "crystal-crop-anchor",
    "tag": "Listing",
    "impact": "watch",
@@ -537,31 +564,6 @@
    "first_seen": {
     "date": "2026-11-17",
     "slot": "0925"
-   }
-  },
-  {
-   "key": "nvidia-q3",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Nvidia results due after US close",
-   "line": "Nvidia reports at about 4:20 pm ET, early Wednesday morning in India",
-   "more": [
-    "It is the first report since Jensen Huang stepped down",
-    "Indian IT will take the read-through at Wednesday's open"
-   ],
-   "src": {
-    "title": "Stock Market Today: Nasdaq-100 Sinks 1% as Nvidia Faces Its First Earnings Without Jensen Huang",
-    "url": "https://247wallst.com/investing/2026/11/16/stock-market-today-nasdaq-100-sinks-1-as-nvidia-faces-its-first-earnings-without-jensen-huang/"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-17",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "2100"
    }
   },
   {
