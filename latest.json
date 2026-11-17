@@ -1,83 +1,80 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-17T16:06:25+05:30",
+ "generated_at": "2026-11-17T16:37:40+05:30",
  "date": "2026-11-17",
- "slot": "1605",
- "slot_label": "16:05",
+ "slot": "1635",
+ "slot_label": "16:35",
  "stage": "Post-market mood",
- "asof": "2026-11-17T16:06:00+05:30",
+ "asof": "2026-11-17T16:37:00+05:30",
  "nifty": {
   "value": 25387.4,
   "pct": 0.38,
   "chg": 96.3
  },
  "mood": {
-  "label": "Firm, off highs",
-  "score": 0.3,
-  "summary": "The market closed higher for a second day, led by banks and realty, but gave back a good part of its intraday gain as IT and FMCG ended in the red.",
+  "label": "Narrow bank-led gain",
+  "score": 0.25,
+  "summary": "The market ended a second straight day higher on bank buying, but the advance was narrow: midcaps edged up, smallcaps slipped and IT stocks fell.",
   "detail": {
-   "leaders": "Nifty Bank and Axis Bank; M&M and Eicher Motors; realty",
-   "laggards": "Nifty IT and Nifty FMCG",
-   "tone": "A read of the finished session: a firm close, but softer than the previous note's closing-auction read and well short of the day's high.",
+   "leaders": "Nifty Bank and Axis Bank; Eicher Motors",
+   "laggards": "Nifty IT and HCLTech",
+   "tone": "A read of the finished session: confirmed closing data show a narrower day than the headline gain suggests, with smallcaps slipping while banks did the work.",
    "watch": [
-    "Today's provisional FII and DII figures, due after 6 pm",
-    "Nvidia's results and outlook overnight",
-    "Whether banks extend their record run tomorrow"
+    "Today's provisional FII and DII figures, due this evening",
+    "Nvidia's results and outlook before India's open",
+    "Whether buying broadens beyond banks"
    ],
    "src": {
-    "title": "Stock Market Close: Sensex ends 427 pts up as rally extends to 2nd day, Nifty at 25,387; banks shine",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
+    "title": "Market wrap, Nov 17: NIFTY50 ends at 25,387, SENSEX closes 427 pts higher as banking stocks power gains",
+    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-17-nifty-50-ends-at-25-387-sensex-closes-427-pts-higher-as-banking-stocks-power-gains-check-factors/article-203581/"
    },
    "movers": {
     "up": {
-     "summary": "Banks, autos and realty carried the session",
-     "why": "Foreign buying and a sharp pullback in crude lifted banks and rate-sensitive sectors.",
+     "summary": "Banks carried the session, with Eicher Motors the standout auto",
+     "why": "Foreign buying and falling crude lifted lenders; autos gained as oil eased.",
      "names": [
       {
        "name": "Nifty Bank",
        "dir": "up",
-       "line": "Scaled a record peak during the session as foreign buying lifted lenders"
+       "line": "Hit a new peak during the session as banking stocks powered the gains"
       },
       {
        "name": "Axis Bank",
        "dir": "up",
-       "line": "Among the day's top gainers as banks led the rally"
-      },
-      {
-       "name": "Mahindra & Mahindra",
-       "dir": "up",
-       "line": "Among the top gainers as autos benefit from easing oil"
+       "move": "+1.98%",
+       "line": "Among the top Nifty gainers as private lenders joined the bank rally"
       },
       {
        "name": "Eicher Motors",
        "dir": "up",
-       "move": "up ~3%",
-       "line": "Top Nifty Auto gainer as brokerages turn upbeat"
+       "move": "+3.01%",
+       "line": "Top Nifty Auto gainer as brokerages turned upbeat"
       }
      ],
      "src": {
-      "title": "Market wrap, Nov 17: NIFTY50 ends at 25,387, SENSEX closes 427 pts higher as banking stocks power gains",
-      "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-17-nifty-50-ends-at-25-387-sensex-closes-427-pts-higher-as-banking-stocks-power-gains-check-factors/article-203581/"
+      "title": "Top gainers and losers, Nov 17: Adani Ent, Eicher Motors jump 3%, HCLTech, Power Grid fall 2%",
+      "url": "https://upstox.com/news/market-news/stocks/top-gainers-and-losers-nov-17-adani-ent-eicher-motors-jump-3-hcl-tech-power-grid-fall-2-check-list/article-203584/"
      }
     },
     "down": {
-     "summary": "IT and FMCG ended lower on selling pressure",
-     "why": "Tech was sold ahead of Nvidia's results, while consumer staples ended lower amid selling pressure.",
+     "summary": "IT was the weak spot, with HCLTech the biggest Nifty loser",
+     "why": "Tech stocks were sold ahead of Nvidia's results, due before India's open.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "Ended lower as the global AI trade unwound before Nvidia reports"
+       "line": "Ended lower amid selling pressure as the global AI trade unwound"
       },
       {
-       "name": "Nifty FMCG",
+       "name": "HCLTech",
        "dir": "down",
-       "line": "Ended lower amid selling pressure, weighing on the indices from midday"
+       "move": "-2.09%",
+       "line": "The day's biggest Nifty loser as IT stocks were sold"
       }
      ],
      "src": {
-      "title": "Stock Market Close: Sensex ends 427 pts up as rally extends to 2nd day, Nifty at 25,387; banks shine",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
+      "title": "Top Gainers and Losers on November 17, 2026: Adani Enterprises and Eicher Motors Gain, While HCLTech Drops Over 2%",
+      "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-november-17-2026-adani-enterprises-and-eicher-motors-gain-while-hcltech-drops-over-2"
      }
     }
    }
@@ -88,20 +85,20 @@
    "key": "bank-rally",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "Banks power a second day of gains",
-   "line": "Bank Nifty sets a record as the Nifty hits a nine-month high",
+   "title": "Reports differ on Nifty Bank's new peak",
+   "line": "Upstox puts the record at 62,442.20; Goodreturns had 62,428.45",
    "more": [
-    "Banking stocks powered the gains, Upstox reports",
-    "The Nifty has recovered all losses since 27 February",
-    "Axis Bank, M&M and Eicher Motors were among the top gainers"
+    "Upstox: up 866.3 points, or 1.4%, to a new peak of 62,442.20",
+    "Goodreturns earlier reported 62,428.45",
+    "Axis Bank rose 1.98%, among the top Nifty gainers"
    ],
    "src": {
-    "title": "Nifty hits 9-month high, Bank Nifty scales record peak as market rally extends",
-    "url": "https://english.punjabkesari.com/business/nifty-hits-9-month-high-bank-nifty-scales-record-peak-as-market-rally-extends"
+    "title": "Market wrap, Nov 17: NIFTY50 ends at 25,387, SENSEX closes 427 pts higher as banking stocks power gains",
+    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-17-nifty-50-ends-at-25-387-sensex-closes-427-pts-higher-as-banking-stocks-power-gains-check-factors/article-203581/"
    },
    "date": "2026-11-17",
-   "slot": "1605",
-   "when": "16:05",
+   "slot": "1635",
+   "when": "16:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -111,27 +108,54 @@
   },
   {
    "key": "ai-rotation",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "IT and FMCG close lower",
-   "line": "Tech and consumer staples finished in the red despite the broader rally",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "HCLTech leads Nifty losers, down 2.09%",
+   "line": "IT stocks fell into the close ahead of Nvidia's results",
    "more": [
-    "IT and FMCG indices ended lower amid selling pressure",
-    "Tech selling came ahead of Nvidia's results tonight"
+    "HCLTech fell 2.09% to ₹1,355.70",
+    "Power Grid fell 1.60%; HDFC Life, ONGC and Coal India also lagged",
+    "Nvidia reports before India's open on Wednesday"
    ],
    "src": {
-    "title": "Stock Market Close: Sensex ends 427 pts up as rally extends to 2nd day, Nifty at 25,387; banks shine",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
+    "title": "Top Gainers and Losers on November 17, 2026: Adani Enterprises and Eicher Motors Gain, While HCLTech Drops Over 2%",
+    "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-november-17-2026-adani-enterprises-and-eicher-motors-gain-while-hcltech-drops-over-2"
    },
    "thread": "it-sector",
    "date": "2026-11-17",
-   "slot": "1605",
-   "when": "16:05",
+   "slot": "1635",
+   "when": "16:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1035"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs have bought ₹84,167 cr this month",
+   "line": "Month-to-date cash buying by foreign investors, per exchange-based aggregates",
+   "more": [
+    "FIIs net bought about ₹84,167 cr in November so far (5paisa, unofficial)",
+    "DIIs net sold about ₹52,608 cr; Quantsapp has ₹51,907 cr",
+    "Tuesday's provisional figures were not yet out"
+   ],
+   "src": {
+    "title": "FII DII Data Today",
+    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-17",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0845"
    }
   },
   {
@@ -153,7 +177,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "2100"
@@ -207,32 +231,6 @@
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1235"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FPIs put ₹76,189 cr into equities this month",
-   "line": "NSDL data show heavy November buying after two months of selling",
-   "more": [
-    "Net ₹76,188.75 cr between November 3 and 13 (NSDL)",
-    "October saw net outflows of ₹34,843 cr",
-    "2026 outflows still total about ₹2.41 lakh crore"
-   ],
-   "src": {
-    "title": "FPIs invest over ₹76,000cr in Indian equities in November",
-    "url": "https://www.newsbytesapp.com/news/business/fpis-invest-over-76-000cr-in-indian-equities-in-november/story"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-17",
-   "slot": "1505",
-   "when": "15:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "0845"
    }
   },
   {

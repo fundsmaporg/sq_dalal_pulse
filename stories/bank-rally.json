@@ -1,6 +1,6 @@
 {
  "key": "bank-rally",
- "title": "Banks power a second day of gains",
+ "title": "Reports differ on Nifty Bank's new peak",
  "tag": "Stocks",
  "first_seen": {
   "date": "2026-11-05",
@@ -8,9 +8,9 @@
  },
  "last_seen": {
   "date": "2026-11-17",
-  "slot": "1605"
+  "slot": "1635"
  },
- "count": 21,
+ "count": 22,
  "timeline": [
   {
    "date": "2026-11-05",
@@ -371,6 +371,24 @@
     "title": "Nifty hits 9-month high, Bank Nifty scales record peak as market rally extends",
     "url": "https://english.punjabkesari.com/business/nifty-hits-9-month-high-bank-nifty-scales-record-peak-as-market-rally-extends"
    }
+  },
+  {
+   "date": "2026-11-17",
+   "slot": "1635",
+   "when": "Tue · 16:35",
+   "title": "Reports differ on Nifty Bank's new peak",
+   "line": "Upstox puts the record at 62,442.20; Goodreturns had 62,428.45",
+   "impact": "pos",
+   "tag": "Stocks",
+   "more": [
+    "Upstox: up 866.3 points, or 1.4%, to a new peak of 62,442.20",
+    "Goodreturns earlier reported 62,428.45",
+    "Axis Bank rose 1.98%, among the top Nifty gainers"
+   ],
+   "src": {
+    "title": "Market wrap, Nov 17: NIFTY50 ends at 25,387, SENSEX closes 427 pts higher as banking stocks power gains",
+    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-17-nifty-50-ends-at-25-387-sensex-closes-427-pts-higher-as-banking-stocks-power-gains-check-factors/article-203581/"
+   }
   }
  ],
  "dossier": {
@@ -390,7 +408,7 @@
    {
     "name": "Axis Bank",
     "dir": "up",
-    "line": "Among the top gainers on November 17"
+    "line": "Rose 1.98% on November 17, among the top Nifty gainers"
    },
    {
     "name": "ICICI Bank",
@@ -412,8 +430,10 @@
    "Can banks keep carrying the index while IT and FMCG lag?",
    "Will PSU merger talk turn into an announcement?"
   ],
-  "conflicts": [],
-  "written_at": "2026-11-17T16:10:00+05:30",
+  "conflicts": [
+   "The record intraday peak differs by source: Goodreturns reported 62,428.45, Upstox 62,442.20"
+  ],
+  "written_at": "2026-11-17T16:40:00+05:30",
   "based_on_slots": [
    "2026-11-05/1225",
    "2026-11-06/1555",
@@ -431,7 +451,8 @@
    "2026-11-17/1235",
    "2026-11-17/1435",
    "2026-11-17/1505",
-   "2026-11-17/1605"
+   "2026-11-17/1605",
+   "2026-11-17/1635"
   ]
  }
 }
