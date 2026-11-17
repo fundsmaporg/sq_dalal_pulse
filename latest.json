@@ -1,55 +1,80 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-17T18:00:38+05:30",
+ "generated_at": "2026-11-17T21:00:42+05:30",
  "date": "2026-11-17",
- "slot": "1800",
- "slot_label": "18:00",
+ "slot": "2100",
+ "slot_label": "21:00",
  "stage": "Evening wrap",
- "asof": "2026-11-17T18:01:00+05:30",
+ "asof": "2026-11-17T21:01:00+05:30",
  "nifty": {
   "value": 25387.4,
   "pct": 0.38,
   "chg": 96.3
  },
  "mood": {
-  "label": "Hinging on Nvidia",
-  "score": 0.1,
-  "summary": "India heads into Wednesday after a second day of bank-led gains, but the opening tone hinges on Nvidia's results overnight and how Wall Street takes them.",
+  "label": "Wary into Wednesday",
+  "score": 0.05,
+  "summary": "India closed a second day higher on bank buying, but Wall Street is trading cautiously ahead of Nvidia's results, leaving Wednesday's open finely balanced.",
   "detail": {
    "leaders": "Banks, after a record session for the bank index",
-   "laggards": "IT, exposed to the overnight Nvidia read-through",
-   "tone": "Forward-looking into Wednesday: today's session ended firm on banks, but the next move is likely to be set overnight by Nvidia and the US reaction.",
+   "laggards": "IT, waiting on the overnight Nvidia read-through",
+   "tone": "Forward-looking into Wednesday: little has changed since the previous note, and the US session is cautious rather than weak, so Nvidia's report is the swing factor.",
    "watch": [
-    "Nvidia's revenue, data-centre number and next-quarter guidance",
-    "Today's provisional FII figures, not yet published",
-    "How US indices close after Monday's sharp sell-off"
+    "Nvidia's revenue and next-quarter guidance after the US close",
+    "Whether the Dow's early losses deepen into the US close",
+    "Tuesday's provisional FII figures, still not published"
    ],
    "src": {
-    "title": "Stock market today: Dow, S&P 500 futures slip, and Nasdaq futures rise in countdown to Nvidia earnings",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-091546152.html"
+    "title": "US Stock Market Today: Nasdaq Flat, Dow Falls 330 Points",
+    "url": "https://hdfcsky.com/news/nasdaq-flat-at-24526-as-nvidia-earnings-loom-dow-slips-330-points-on-home-depot-drag"
    }
   }
  },
  "insights": [
   {
-   "key": "nvidia-q3",
+   "key": "us-markets",
    "tag": "Global",
    "impact": "watch",
-   "title": "US futures mixed into Nvidia's results",
-   "line": "Dow and S&P futures slip, Nasdaq futures edge up before the report",
+   "title": "Wall Street mixed early; Dow lower",
+   "line": "The Dow is down about 330 points on a Home Depot drag while the Nasdaq is flat (live)",
    "more": [
-    "Results come after the US close, before India's open",
-    "First report since Jensen Huang stepped down as CEO",
-    "Analysts warn dropping a 70% margin target could hit AI stocks"
+    "Early-session snapshot; the US market is still trading",
+    "Monday's close: S&P 500 −1.92%, Dow −1.41%, Nasdaq −2.49%"
    ],
    "src": {
-    "title": "Stock market today: Dow, S&P 500 futures slip, and Nasdaq futures rise in countdown to Nvidia earnings",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-091546152.html"
+    "title": "US Stock Market Today: Nasdaq Flat, Dow Falls 330 Points",
+    "url": "https://hdfcsky.com/news/nasdaq-flat-at-24526-as-nvidia-earnings-loom-dow-slips-330-points-on-home-depot-drag"
    },
    "thread": "global-markets",
    "date": "2026-11-17",
-   "slot": "1800",
-   "when": "18:00",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "nvidia-q3",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Nvidia down 26% in a month before results",
+   "line": "Expectations: EPS of $2.48 on revenue of about $109bn, due after the US close",
+   "more": [
+    "Shares fell 4.12% on Monday to $156.14",
+    "First report since Jensen Huang resigned as CEO on 12 November",
+    "Indian IT takes the read-through at Wednesday's open"
+   ],
+   "src": {
+    "title": "Stock Market Today: Nvidia's 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight",
+    "url": "https://247wallst.com/investing/2026/11/17/stock-market-today-nvidias-26-plunge-puts-wall-street-on-edge-ahead-of-earnings-tonight/"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-17",
+   "slot": "2100",
+   "when": "21:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -58,29 +83,29 @@
    }
   },
   {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Wall Street still nursing Monday's slide",
-   "line": "US futures show little bounce after Monday's broad tech-led sell-off",
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs net buyers for 11 straight sessions",
+   "line": "The streak runs to Monday; Tuesday's provisional figures are not yet out",
    "more": [
-    "Dow fell more than 700 points, or 1.4%, on Monday",
-    "S&P 500 lost 1.9%; Nasdaq Composite fell 2.5%",
-    "Fed minutes and the Anthropic IPO are also due this week"
+    "Monday: FIIs bought ₹4,864.68 cr, DIIs sold ₹3,519.05 cr",
+    "13 Nov: FIIs +₹5,736.55 cr; 12 Nov: +₹7,830.60 cr",
+    "11 Nov: FIIs +₹12,563.33 cr"
    ],
    "src": {
-    "title": "Nvidia Earnings in Focus as US Stock Futures Decline Amid Leadership Changes and Export Restrictions",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-focus-us-stock-101304049.html"
+    "title": "Trade Setup for Today: GIFT Nifty Dips as Wall Street Sells Off; FIIs Remain Net Buyers as of November 17, 2026",
+    "url": "https://scanx.trade/stock-market-news/markets/market-today-morning-bell-update-nifty50-share-price-sensex-share-price-crude-fii-gift-nifty-rupee-latest-17-11-2026/56428224"
    },
-   "thread": "global-markets",
+   "thread": "fii-flows",
    "date": "2026-11-17",
-   "slot": "1800",
-   "when": "18:00",
+   "slot": "2100",
+   "when": "21:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-11",
-    "slot": "0700"
+    "slot": "0845"
    }
   },
   {
@@ -101,36 +126,10 @@
    "slot": "1800",
    "when": "18:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "Tuesday's FII data still pending",
-   "line": "Monday's provisional data showed FIIs net buyers of ₹4,865 cr",
-   "more": [
-    "Monday: FIIs net bought about ₹4,865 cr, DIIs sold about ₹3,519 cr",
-    "Month to date: FIIs about +₹84,167 cr (Quantsapp)",
-    "Niftytrader's monthly totals are lower, at +₹79,302 cr"
-   ],
-   "src": {
-    "title": "FII DII Data",
-    "url": "https://www.quantsapp.com/fii-dii"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-17",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "0845"
    }
   },
   {
