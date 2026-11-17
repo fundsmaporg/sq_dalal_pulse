@@ -1,84 +1,75 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-17T11:06:41+05:30",
+ "generated_at": "2026-11-17T11:37:02+05:30",
  "date": "2026-11-17",
- "slot": "1105",
- "slot_label": "11:05",
+ "slot": "1135",
+ "slot_label": "11:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-17T11:05:00+05:30",
- "nifty": {
-  "value": 25404.0,
-  "pct": 0.45,
-  "chg": 112.9,
-  "approx": false,
-  "asof_quote": "11:00"
- },
+ "asof": "2026-11-17T11:35:00+05:30",
  "mood": {
-  "label": "Narrow bank rally",
-  "score": 0.3,
-  "summary": "Large caps are at the day's high on a bank-led rally, but breadth is poor, with declining shares outnumbering advancers two to one as midcaps and smallcaps slip.",
+  "label": "PSU banks power on",
+  "score": 0.4,
+  "summary": "The rally is extending to fresh highs for the day, powered by a sharp run in state-run banks, while IT and smaller stocks lag behind.",
   "detail": {
-   "leaders": "PNB and Canara Bank; Nifty Bank at a record",
-   "laggards": "Nifty Midcap and Nifty Smallcap; Nifty IT",
-   "tone": "A live read: firmer than the previous note at the headline level, with the benchmarks at the day's high, but breadth has worsened.",
+   "leaders": "Nifty PSU Bank, led by PNB and Canara Bank",
+   "laggards": "Nifty IT; midcaps and smallcaps",
+   "tone": "A live read on market behaviour rather than a fresh print: the latest headlines put the benchmarks at the day's high, firmer than the previous note.",
    "watch": [
-    "Whether banks can keep carrying the index",
-    "Whether selling in smaller stocks deepens",
-    "Nvidia's results after the US close"
+    "Whether the PSU bank rally broadens",
+    "Whether IT recovers ahead of Nvidia's results",
+    "Breadth across midcaps and smallcaps"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex at day's high, gains 400 pts, PNB, Canara Bank lead gains in Nifty Bank",
+    "title": "Stock Market LIVE: Sensex at day's high, gains 600 pts, PNB, Canara Bank lead gains in Nifty Bank",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
    },
    "movers": {
     "up": {
-     "summary": "PSU lenders PNB and Canara Bank drive Nifty Bank to a record",
-     "why": "Banks are drawing the bulk of foreign inflows and rotation money as oil eases.",
+     "summary": "PSU banks surge on merger talk, led by PNB and Canara Bank",
+     "why": "Renewed talk of state-bank mergers is driving buying in PSU lenders, on top of foreign inflows into banks.",
      "names": [
+      {
+       "name": "Nifty PSU Bank",
+       "dir": "up",
+       "move": "+2.40%",
+       "line": "The best sector this morning as merger talk returns"
+      },
       {
        "name": "PNB",
        "dir": "up",
-       "line": "Leading the Nifty Bank gainers as PSU lenders rally"
+       "move": "+3.3% to +4.1%",
+       "line": "Leading the bank gainers on renewed PSU merger buzz"
       },
       {
        "name": "Canara Bank",
        "dir": "up",
+       "move": "+2.6% to +2.9%",
        "line": "Among the top Nifty Bank gainers alongside PNB"
-      },
-      {
-       "name": "Nifty Bank",
-       "dir": "up",
-       "line": "Hit a fresh record high, led by PSU lenders"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex at day's high, gains 400 pts, PNB, Canara Bank lead gains in Nifty Bank",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
+      "title": "Banking sector stocks today, November 17: Punjab & Sind Bank jumps 3.69%, PNB up 3.33%, Canara Bank rises 2.61%",
+      "url": "https://businessupturn.com/finance/stock-market/banking-sector-stocks-today-november-17-punjab-sind-bank-jumps-3-69-pnb-up-3-33-canara-bank-rises-2-61/"
      }
     },
     "down": {
-     "summary": "Midcaps, smallcaps and IT are lower as breadth stays weak",
-     "why": "The rally is concentrated in large-cap lenders, with selling spreading across smaller stocks and tech.",
+     "summary": "IT lags and smaller stocks trail the large-cap rally",
+     "why": "Investors are rotating away from tech after the US chip sell-off, and buying is concentrated in large lenders.",
      "names": [
       {
-       "name": "Nifty Midcap",
+       "name": "Nifty IT",
        "dir": "down",
-       "line": "In the red despite the benchmark gains"
+       "line": "The weak spot among sectors as the global AI trade unwinds"
       },
       {
        "name": "Nifty Smallcap",
        "dir": "down",
-       "line": "Lower as declines outnumber advances two to one on the BSE"
-      },
-      {
-       "name": "Nifty IT",
-       "dir": "down",
-       "line": "The lagging sector as the global AI trade unwinds"
+       "line": "Lower as declining shares outnumber advancers on the BSE"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex at day's high, gains 400 pts, PNB, Canara Bank lead gains in Nifty Bank",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
+      "title": "Stock Market Today: Sensex, Nifty Open Higher",
+      "url": "https://hdfcsky.com/news/bse-nse-sensex-november-17-2026-open-report-sensex-nifty-edge-higher-as-oil-eases-and-investors-rotate-from-global-ai-to-india"
      }
     }
    }
@@ -86,27 +77,76 @@
  },
  "insights": [
   {
+   "key": "psu-bank-merger",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PSU banks rally on renewed merger talk",
+   "line": "Nifty PSU Bank rose about 2.4%, with PNB up 3–4% and Canara Bank up about 3%",
+   "more": [
+    "The merger talk is reported, not confirmed by the government",
+    "Univest also cites better earnings and cleaner balance sheets",
+    "31 of 38 banking stocks were higher in one morning snapshot"
+   ],
+   "src": {
+    "title": "PSU Bank Stocks Rally on Merger Buzz: PNB, BoI, SBI Gain",
+    "url": "https://univest.in/blogs/psu-bank-stocks-rally-merger-buzz-november-2026"
+   },
+   "date": "2026-11-17",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1135"
+   }
+  },
+  {
    "key": "bank-rally",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "Nifty Bank hits a record high",
-   "line": "PSU lenders PNB and Canara Bank lead the bank index to a fresh all-time high",
+   "title": "Bank rally lifts benchmarks to day's high",
+   "line": "Business Standard's latest update has the Sensex at the day's high, led by banks",
    "more": [
-    "The index first hit a 52-week high at the open",
-    "Lower oil and foreign inflows are cited as support"
+    "PNB and Canara Bank lead the Nifty Bank gainers",
+    "Punjab & Sind Bank is up 3.7–4.6%"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex at day's high, gains 400 pts, PNB, Canara Bank lead gains in Nifty Bank",
+    "title": "Stock Market LIVE: Sensex at day's high, gains 600 pts, PNB, Canara Bank lead gains in Nifty Bank",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
    },
    "date": "2026-11-17",
-   "slot": "1105",
-   "when": "11:05",
+   "slot": "1135",
+   "when": "11:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1305"
+   }
+  },
+  {
+   "key": "ireda-psu",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PSU stocks broadly higher; IREDA up 4%",
+   "line": "IREDA rose 4.23% and Punjab & Sind Bank 4.58% in a broad PSU rally",
+   "more": [
+    "PNB gained 3.95% in the same snapshot",
+    "PSU names are leading the market today"
+   ],
+   "src": {
+    "title": "PSU stocks today, November 17: Punjab & Sind Bank jumps 4.58%, IREDA up 4.23%, PNB gains 3.95%",
+    "url": "https://businessupturn.com/finance/stock-market/psu-stocks-today-november-17-punjab-sind-bank-jumps-4-58-ireda-up-4-23-pnb-gains-3-95/"
+   },
+   "date": "2026-11-17",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1135"
    }
   },
   {
@@ -127,7 +167,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1005"
@@ -152,7 +192,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "0845"
