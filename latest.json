@@ -1,80 +1,163 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-17T10:36:40+05:30",
+ "generated_at": "2026-11-17T11:06:41+05:30",
  "date": "2026-11-17",
- "slot": "1035",
- "slot_label": "10:35",
+ "slot": "1105",
+ "slot_label": "11:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-17T10:35:00+05:30",
+ "asof": "2026-11-17T11:05:00+05:30",
  "nifty": {
-  "value": 25379.25,
-  "pct": 0.35,
-  "chg": 88.15,
+  "value": 25404.0,
+  "pct": 0.45,
+  "chg": 112.9,
   "approx": false,
-  "asof_quote": "10:00"
+  "asof_quote": "11:00"
  },
  "mood": {
-  "label": "Banks lead higher",
-  "score": 0.35,
-  "summary": "The market is building on its gains, led by banks and autos, as investors rotate out of the global AI trade into Indian cyclicals while IT lags.",
+  "label": "Narrow bank rally",
+  "score": 0.3,
+  "summary": "Large caps are at the day's high on a bank-led rally, but breadth is poor, with declining shares outnumbering advancers two to one as midcaps and smallcaps slip.",
   "detail": {
-   "leaders": "Nifty Bank at a new high; Nifty PSU Bank and Nifty Auto",
-   "laggards": "Nifty IT",
-   "tone": "A live read: firmer than the previous note, with the gain widening as banks push to new highs.",
+   "leaders": "PNB and Canara Bank; Nifty Bank at a record",
+   "laggards": "Nifty Midcap and Nifty Smallcap; Nifty IT",
+   "tone": "A live read: firmer than the previous note at the headline level, with the benchmarks at the day's high, but breadth has worsened.",
    "watch": [
-    "Whether IT steadies before Nvidia's results tonight",
-    "Whether banks hold their new highs into the afternoon",
-    "Weekly Nifty expiry this afternoon"
+    "Whether banks can keep carrying the index",
+    "Whether selling in smaller stocks deepens",
+    "Nvidia's results after the US close"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex up 400 pts, Nifty near 25,400; Nifty Bank hits new high",
+    "title": "Stock Market LIVE: Sensex at day's high, gains 400 pts, PNB, Canara Bank lead gains in Nifty Bank",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Banks hit a new high; PSU banks and autos lead the sectors",
-     "why": "Money is rotating from global AI stocks into Indian cyclicals, helped by easing oil and foreign inflows.",
+     "summary": "PSU lenders PNB and Canara Bank drive Nifty Bank to a record",
+     "why": "Banks are drawing the bulk of foreign inflows and rotation money as oil eases.",
      "names": [
+      {
+       "name": "PNB",
+       "dir": "up",
+       "line": "Leading the Nifty Bank gainers as PSU lenders rally"
+      },
+      {
+       "name": "Canara Bank",
+       "dir": "up",
+       "line": "Among the top Nifty Bank gainers alongside PNB"
+      },
       {
        "name": "Nifty Bank",
        "dir": "up",
-       "line": "Hit a new high as lenders draw the bulk of the rotation buying"
-      },
-      {
-       "name": "Nifty PSU Bank",
-       "dir": "up",
-       "line": "Among the two best-performing sectors this morning"
-      },
-      {
-       "name": "Nifty Auto",
-       "dir": "up",
-       "line": "Among the leading sectors as oil prices ease"
+       "line": "Hit a fresh record high, led by PSU lenders"
       }
      ],
      "src": {
-      "title": "Stock Market Today: Sensex, Nifty Open Higher",
-      "url": "https://hdfcsky.com/news/bse-nse-sensex-november-17-2026-open-report-sensex-nifty-edge-higher-as-oil-eases-and-investors-rotate-from-global-ai-to-india"
+      "title": "Stock Market LIVE: Sensex at day's high, gains 400 pts, PNB, Canara Bank lead gains in Nifty Bank",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
      }
     },
     "down": {
-     "summary": "IT lags as the global AI trade unwinds",
-     "why": "Tech stocks are missing out as investors move away from the AI theme after the US chip sell-off.",
+     "summary": "Midcaps, smallcaps and IT are lower as breadth stays weak",
+     "why": "The rally is concentrated in large-cap lenders, with selling spreading across smaller stocks and tech.",
      "names": [
+      {
+       "name": "Nifty Midcap",
+       "dir": "down",
+       "line": "In the red despite the benchmark gains"
+      },
+      {
+       "name": "Nifty Smallcap",
+       "dir": "down",
+       "line": "Lower as declines outnumber advances two to one on the BSE"
+      },
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "The weak spot among sectors after the Nasdaq slid into correction"
+       "line": "The lagging sector as the global AI trade unwinds"
       }
      ],
      "src": {
-      "title": "Stock Market Today: Sensex, Nifty Open Higher",
-      "url": "https://hdfcsky.com/news/bse-nse-sensex-november-17-2026-open-report-sensex-nifty-edge-higher-as-oil-eases-and-investors-rotate-from-global-ai-to-india"
+      "title": "Stock Market LIVE: Sensex at day's high, gains 400 pts, PNB, Canara Bank lead gains in Nifty Bank",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Nifty Bank hits a record high",
+   "line": "PSU lenders PNB and Canara Bank lead the bank index to a fresh all-time high",
+   "more": [
+    "The index first hit a 52-week high at the open",
+    "Lower oil and foreign inflows are cited as support"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex at day's high, gains 400 pts, PNB, Canara Bank lead gains in Nifty Bank",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
+   },
+   "date": "2026-11-17",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "1305"
+   }
+  },
+  {
+   "key": "broader-market",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Breadth weak: 2,807 decliners vs 1,399",
+   "line": "Midcap and smallcap indices are lower even as the benchmarks rise",
+   "more": [
+    "The gains are concentrated in large-cap banks",
+    "IT is the weakest sector"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex at day's high, gains 400 pts, PNB, Canara Bank lead gains in Nifty Bank",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
+   },
+   "date": "2026-11-17",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Record $9.53 billion FPI inflow in November",
+   "line": "Foreign investors have pumped a record $9.53 billion into Indian equities this month",
+   "more": [
+    "The Week cites resilient corporate earnings alongside the inflows",
+    "Foreign buying is cited as offsetting global worries"
+   ],
+   "src": {
+    "title": "Indian markets extend rally as foreign inflows offset global worries: Sensex up 280+ points",
+    "url": "https://www.theweek.in/news/biz-tech/2026/11/17/indian-markets-extend-rally-sensex-up.html"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-17",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0845"
+   }
+  },
   {
    "key": "ai-rotation",
    "tag": "Flows",
@@ -94,34 +177,10 @@
    "slot": "1035",
    "when": "10:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1035"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Nifty Bank hits a new high",
-   "line": "PSU banks lead the sector gains, with private lenders also firm",
-   "more": [
-    "Banks were among Monday's leaders too",
-    "The move comes alongside steady foreign buying"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex up 400 pts, Nifty near 25,400; Nifty Bank hits new high",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
-   },
-   "date": "2026-11-17",
-   "slot": "1035",
-   "when": "10:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "1305"
    }
   },
   {
@@ -142,7 +201,7 @@
    "slot": "1035",
    "when": "10:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1035"
@@ -442,31 +501,6 @@
    }
   },
   {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs bought ₹4,865 crore on Monday",
-   "line": "Foreign investors stayed net buyers; domestic funds sold about ₹3,519 crore",
-   "more": [
-    "FIIs bought ₹15,637 crore and sold ₹10,772 crore",
-    "The figures are provisional and may be revised"
-   ],
-   "src": {
-    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-17",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "0845"
-   }
-  },
-  {
    "key": "ipo-pipeline",
    "tag": "Listing",
    "impact": "watch",
@@ -684,30 +718,6 @@
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1535"
-   }
-  },
-  {
-   "key": "broader-market",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Smallcaps fall 1.1%, midcaps 0.5%",
-   "line": "Nifty Smallcap 100 fell 1.10% and Nifty Midcap 100 fell 0.51% despite the large-cap gain",
-   "more": [
-    "Realty and metal indices declined the most among sectors",
-    "The gap points to a narrow, heavyweight-led rally"
-   ],
-   "src": {
-    "title": "Stock Market Close: Sensex ends 510 pts higher, Nifty at 25,291; FMGC, bank shares outshine",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
-   },
-   "date": "2026-11-16",
-   "slot": "1535",
-   "when": "Mon · 15:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1005"
    }
   },
   {
