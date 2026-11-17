@@ -1,37 +1,111 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-17T08:46:36+05:30",
+ "generated_at": "2026-11-17T09:26:17+05:30",
  "date": "2026-11-17",
- "slot": "0845",
- "slot_label": "8:45",
- "stage": "Pre-market mood",
- "asof": "2026-11-17T08:45:00+05:30",
+ "slot": "0925",
+ "slot_label": "9:25",
+ "stage": "Opening mood",
+ "asof": "2026-11-17T09:25:00+05:30",
  "nifty": {
-  "value": 25291.1,
-  "pct": 0.58,
-  "chg": 146.8,
-  "approx": false
+  "value": 25314.65,
+  "pct": 0.09,
+  "chg": 23.55,
+  "approx": false,
+  "asof_quote": "09:15"
  },
  "mood": {
-  "label": "Flat, hesitant start",
-  "score": -0.1,
-  "summary": "Indian stocks look set for a flat, hesitant open as a sharp US tech sell-off and weak Asia offset continued foreign buying, with IT most exposed on expiry day.",
+  "label": "Resilient flat open",
+  "score": 0.05,
+  "summary": "Stocks opened marginally higher, shrugging off Wall Street's tech rout for now, with select heavyweights such as IndiGo and Adani Ports lifting the early trade.",
   "detail": {
-   "leaders": "FMCG and private banks, supported by foreign buying; stocks with fresh orders such as Kalpataru Projects",
-   "laggards": "IT and tech-linked stocks after the US chip rout; smaller stocks after Monday's slide",
-   "tone": "A pre-open read, slightly less gloomy than the early-morning note: GIFT Nifty points to a flat start despite Wall Street's slide.",
+   "leaders": "IndiGo and Adani Ports led early Sensex gainers",
+   "laggards": "No clear early laggards reported yet",
+   "tone": "A live read just after the open, firmer than the pre-open cues suggested: the market held up despite the overnight US sell-off.",
    "watch": [
-    "How IT trades after the Nasdaq's slide into correction",
-    "Weekly Nifty expiry today",
+    "Whether IT holds up as the session develops",
+    "Weekly Nifty expiry later today",
     "Nvidia's results after the US close tonight"
    ],
    "src": {
-    "title": "Pre-Market Update: GIFT Nifty Signals Flat Start; Global Tech Sell-off, 12.29% WPI Inflation in Focus",
-    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-flat-start-global-tech-sell-off-1229-wpi-inflation-in-focus-60474"
+    "title": "Stock Market Opening Bell: Sensex opens higher, gains 65 points; Nifty crosses 25,300",
+    "url": "https://www.zeebiz.com/market-news/news-stock-market-opening-bell-sensex-opens-higher-gains-65-points-nifty-crosses-25300-405638"
    }
   }
  },
  "insights": [
+  {
+   "key": "opening-bell",
+   "tag": "Opening",
+   "impact": "pos",
+   "title": "Market opens slightly higher despite US rout",
+   "line": "Buying in select heavyweights lifted the open; IndiGo rose 1.57% and Adani Ports 1.38%",
+   "more": [
+    "Pre-open cues had pointed to a flat start",
+    "Wall Street fell sharply on Monday, led by chip stocks"
+   ],
+   "src": {
+    "title": "Stock Market Opening Bell: Sensex opens higher, gains 65 points; Nifty crosses 25,300",
+    "url": "https://www.zeebiz.com/market-news/news-stock-market-opening-bell-sensex-opens-higher-gains-65-points-nifty-crosses-25300-405638"
+   },
+   "date": "2026-11-17",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "weekly-expiry",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Weekly Nifty expiry today",
+   "line": "Tuesday is the weekly Nifty expiry; November's monthly expiry moves to Monday, Nov 23",
+   "more": [
+    "Markets are shut on Tuesday, November 24",
+    "Expiry days can bring sharper intraday swings"
+   ],
+   "src": {
+    "title": "F&O Expiry Calendar 2026: Nifty, Bank Nifty & Sensex Expiry Dates",
+    "url": "https://www.quantsapp.com/expiry-calendar"
+   },
+   "date": "2026-11-17",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "nvidia-q3",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Nvidia results due after US close",
+   "line": "Nvidia reports at about 4:20 pm ET, early Wednesday morning in India",
+   "more": [
+    "It is the first report since Jensen Huang stepped down",
+    "Indian IT will take the read-through at Wednesday's open"
+   ],
+   "src": {
+    "title": "Stock Market Today: Nasdaq-100 Sinks 1% as Nvidia Faces Its First Earnings Without Jensen Huang",
+    "url": "https://247wallst.com/investing/2026/11/16/stock-market-today-nasdaq-100-sinks-1-as-nvidia-faces-its-first-earnings-without-jensen-huang/"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-17",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "2100"
+   }
+  },
   {
    "key": "gift-nifty",
    "tag": "Opening",
@@ -50,7 +124,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "0845"
@@ -74,7 +148,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "0845"
@@ -98,7 +172,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "0845"
@@ -122,7 +196,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "0845"
@@ -146,7 +220,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "0845"
@@ -226,31 +300,6 @@
    "first_seen": {
     "date": "2026-11-11",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "nvidia-q3",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Nvidia results due after US close today",
-   "line": "The first report without Jensen Huang lands before India's Wednesday open",
-   "more": [
-    "The stock fell 4.1% on Monday after a 13% drop last week",
-    "It is the key test for the AI trade this week"
-   ],
-   "src": {
-    "title": "Stock Market Today, Nov. 16: Tech Selloff Deepens as AI Leadership Crisis Rattles Nasdaq",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-16-222502139.html"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-17",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "2100"
    }
   },
   {
@@ -963,30 +1012,6 @@
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "opening-bell",
-   "tag": "Opening",
-   "impact": "pos",
-   "title": "Rebound reverses Friday's losses",
-   "line": "Gains came despite inflation worries, crude concerns and weak Asian markets",
-   "more": [
-    "Business Standard ties the lift partly to oil easing on a better supply outlook",
-    "Max Healthcare and Bharti Airtel were among top gainers, per Business Standard"
-   ],
-   "src": {
-    "title": "Dalal Street roars back! Sensex jumps 644 points, Nifty reclaims 25,300",
-    "url": "https://www.newsdrum.in/business/dalal-street-roars-back-sensex-jumps-644-points-nifty-reclaims-25300-12812723"
-   },
-   "date": "2026-11-16",
-   "slot": "1005",
-   "when": "Mon · 10:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "0925"
    }
   },
   {
