@@ -1,86 +1,138 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-17T16:37:40+05:30",
+ "generated_at": "2026-11-17T18:00:25+05:30",
  "date": "2026-11-17",
- "slot": "1635",
- "slot_label": "16:35",
- "stage": "Post-market mood",
- "asof": "2026-11-17T16:37:00+05:30",
+ "slot": "1800",
+ "slot_label": "18:00",
+ "stage": "Evening wrap",
+ "asof": "2026-11-17T18:01:00+05:30",
  "nifty": {
   "value": 25387.4,
   "pct": 0.38,
   "chg": 96.3
  },
  "mood": {
-  "label": "Narrow bank-led gain",
-  "score": 0.25,
-  "summary": "The market ended a second straight day higher on bank buying, but the advance was narrow: midcaps edged up, smallcaps slipped and IT stocks fell.",
+  "label": "Hinging on Nvidia",
+  "score": 0.1,
+  "summary": "India heads into Wednesday after a second day of bank-led gains, but the opening tone hinges on Nvidia's results overnight and how Wall Street takes them.",
   "detail": {
-   "leaders": "Nifty Bank and Axis Bank; Eicher Motors",
-   "laggards": "Nifty IT and HCLTech",
-   "tone": "A read of the finished session: confirmed closing data show a narrower day than the headline gain suggests, with smallcaps slipping while banks did the work.",
+   "leaders": "Banks, after a record session for the bank index",
+   "laggards": "IT, exposed to the overnight Nvidia read-through",
+   "tone": "Forward-looking into Wednesday: today's session ended firm on banks, but the next move is likely to be set overnight by Nvidia and the US reaction.",
    "watch": [
-    "Today's provisional FII and DII figures, due this evening",
-    "Nvidia's results and outlook before India's open",
-    "Whether buying broadens beyond banks"
+    "Nvidia's revenue, data-centre number and next-quarter guidance",
+    "Today's provisional FII figures, not yet published",
+    "How US indices close after Monday's sharp sell-off"
    ],
    "src": {
-    "title": "Market wrap, Nov 17: NIFTY50 ends at 25,387, SENSEX closes 427 pts higher as banking stocks power gains",
-    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-17-nifty-50-ends-at-25-387-sensex-closes-427-pts-higher-as-banking-stocks-power-gains-check-factors/article-203581/"
-   },
-   "movers": {
-    "up": {
-     "summary": "Banks carried the session, with Eicher Motors the standout auto",
-     "why": "Foreign buying and falling crude lifted lenders; autos gained as oil eased.",
-     "names": [
-      {
-       "name": "Nifty Bank",
-       "dir": "up",
-       "line": "Hit a new peak during the session as banking stocks powered the gains"
-      },
-      {
-       "name": "Axis Bank",
-       "dir": "up",
-       "move": "+1.98%",
-       "line": "Among the top Nifty gainers as private lenders joined the bank rally"
-      },
-      {
-       "name": "Eicher Motors",
-       "dir": "up",
-       "move": "+3.01%",
-       "line": "Top Nifty Auto gainer as brokerages turned upbeat"
-      }
-     ],
-     "src": {
-      "title": "Top gainers and losers, Nov 17: Adani Ent, Eicher Motors jump 3%, HCLTech, Power Grid fall 2%",
-      "url": "https://upstox.com/news/market-news/stocks/top-gainers-and-losers-nov-17-adani-ent-eicher-motors-jump-3-hcl-tech-power-grid-fall-2-check-list/article-203584/"
-     }
-    },
-    "down": {
-     "summary": "IT was the weak spot, with HCLTech the biggest Nifty loser",
-     "why": "Tech stocks were sold ahead of Nvidia's results, due before India's open.",
-     "names": [
-      {
-       "name": "Nifty IT",
-       "dir": "down",
-       "line": "Ended lower amid selling pressure as the global AI trade unwound"
-      },
-      {
-       "name": "HCLTech",
-       "dir": "down",
-       "move": "-2.09%",
-       "line": "The day's biggest Nifty loser as IT stocks were sold"
-      }
-     ],
-     "src": {
-      "title": "Top Gainers and Losers on November 17, 2026: Adani Enterprises and Eicher Motors Gain, While HCLTech Drops Over 2%",
-      "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-november-17-2026-adani-enterprises-and-eicher-motors-gain-while-hcltech-drops-over-2"
-     }
-    }
+    "title": "Stock market today: Dow, S&P 500 futures slip, and Nasdaq futures rise in countdown to Nvidia earnings",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-091546152.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "nvidia-q3",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "US futures mixed into Nvidia's results",
+   "line": "Dow and S&P futures slip, Nasdaq futures edge up before the report",
+   "more": [
+    "Results come after the US close, before India's open",
+    "First report since Jensen Huang stepped down as CEO",
+    "Analysts warn dropping a 70% margin target could hit AI stocks"
+   ],
+   "src": {
+    "title": "Stock market today: Dow, S&P 500 futures slip, and Nasdaq futures rise in countdown to Nvidia earnings",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-091546152.html"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-17",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Wall Street still nursing Monday's slide",
+   "line": "Monday's sell-off was the Nasdaq's sharpest in weeks; futures show little bounce",
+   "more": [
+    "Dow fell more than 700 points, or 1.4%, on Monday",
+    "S&P 500 lost 1.9%; Nasdaq Composite fell 2.5%",
+    "Fed minutes and the Anthropic IPO are also due this week"
+   ],
+   "src": {
+    "title": "Nvidia Earnings in Focus as US Stock Futures Decline Amid Leadership Changes and Export Restrictions",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-focus-us-stock-101304049.html"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-17",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "sml-mahindra-rights",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "SML Mahindra plans ₹1,450 cr rights issue",
+   "line": "Board approves raising up to ₹1,450 crore at ₹3,506 a share",
+   "more": [
+    "Shares rose after the board approval on Tuesday",
+    "Rights issue priced at ₹3,506 per share"
+   ],
+   "src": {
+    "title": "Market trades higher, SML Mahindra's board approves a Rs 1,450 crore rights issue",
+    "url": "https://trendlyne.com/posts/5956151/market-trades-higher-sml-mahindra-s-board-approves-a-rs-1450-crore-rights-issue"
+   },
+   "date": "2026-11-17",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1800"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "Tuesday's FII data still pending",
+   "line": "Monday's provisional data showed FIIs net buyers of ₹4,865 cr",
+   "more": [
+    "Monday: FIIs net bought about ₹4,865 cr, DIIs sold about ₹3,519 cr",
+    "Month to date: FIIs about +₹84,167 cr (Quantsapp)",
+    "Niftytrader's monthly totals are lower, at +₹79,302 cr"
+   ],
+   "src": {
+    "title": "FII DII Data",
+    "url": "https://www.quantsapp.com/fii-dii"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-17",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-11",
+    "slot": "0845"
+   }
+  },
   {
    "key": "bank-rally",
    "tag": "Stocks",
@@ -100,7 +152,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-11",
     "slot": "1305"
@@ -126,61 +178,10 @@
    "slot": "1635",
    "when": "16:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1035"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs have bought ₹84,167 cr this month",
-   "line": "Month-to-date cash buying by foreign investors, per exchange-based aggregates",
-   "more": [
-    "FIIs net bought about ₹84,167 cr in November so far (5paisa, unofficial)",
-    "DIIs net sold about ₹52,608 cr; Quantsapp has ₹51,907 cr",
-    "Tuesday's provisional figures were not yet out"
-   ],
-   "src": {
-    "title": "FII DII Data Today",
-    "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-17",
-   "slot": "1635",
-   "when": "16:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "nvidia-q3",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Nvidia reports before India's open",
-   "line": "Results land early Wednesday morning in India; Indian IT takes the cue",
-   "more": [
-    "Visible Alpha consensus revenue: $109.3bn",
-    "Next-quarter guidance seen as the swing factor"
-   ],
-   "src": {
-    "title": "Nvidia earnings preview: Q3 FY2027",
-    "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/11/nvidia-earnings-preview-q3-2027"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-17",
-   "slot": "1605",
-   "when": "16:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "2100"
    }
   },
   {
@@ -693,32 +694,6 @@
    "first_seen": {
     "date": "2026-11-17",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Wall Street slumps; Nasdaq enters correction",
-   "line": "S&P 500 fell 1.92%, Dow 1.4% and Nasdaq 2.49% on Monday as chip stocks sank",
-   "more": [
-    "The Nasdaq is now 10.9% below its October 6 high",
-    "Nvidia fell 4.1%, again the heaviest drag",
-    "Only consumer staples and utilities ended higher"
-   ],
-   "src": {
-    "title": "Markets today: Nvidia leads another sell-off as stocks tumble",
-    "url": "https://bnnbloomberg.ca/markets/nasdaq/2026/11/16/stocks-decline-on-tech-sell-off-as-concerns-over-the-nvidia-fallout-persist"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-17",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-11",
-    "slot": "0700"
    }
   },
   {
