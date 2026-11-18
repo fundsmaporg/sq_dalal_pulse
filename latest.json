@@ -1,39 +1,38 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-18T15:06:48+05:30",
+ "generated_at": "2026-11-18T15:37:13+05:30",
  "date": "2026-11-18",
- "slot": "1505",
- "slot_label": "15:05",
+ "slot": "1535",
+ "slot_label": "15:35",
  "stage": "Closing mood",
- "asof": "2026-11-18T15:07:00+05:30",
+ "asof": "2026-11-18T15:37:00+05:30",
  "nifty": {
-  "value": 25237.05,
-  "pct": -0.59,
-  "chg": -150.35,
-  "approx": true,
-  "asof_quote": "15:00"
+  "value": 25220.45,
+  "pct": -0.66,
+  "chg": -166.95,
+  "asof_quote": "15:30"
  },
  "mood": {
-  "label": "Weak into close",
+  "label": "Broad retreat",
   "score": -0.35,
-  "summary": "The market heads into the final half hour firmly lower, steadier than at its lows but with midcaps lagging and jewellery and metals still the weakest corners.",
+  "summary": "The market closed firmly lower after a broad sell-off, with consumer durables, metals, IT and FMCG the worst hit and only pharma, healthcare and realty holding up.",
   "detail": {
    "leaders": "Ashoka Buildcon; IIFL Finance",
    "laggards": "Titan; Nifty Consumer Durables and Nifty Metal",
-   "tone": "A live read: little changed from the previous note, with the market holding above its afternoon low but showing no real recovery into the last half hour.",
+   "tone": "A read of the finished session: the market ended near where it stood in the previous note, well off its afternoon low but snapping a two-day winning run.",
    "watch": [
-    "Whether late selling takes the market back to its lows",
     "Today's provisional FII figures after several days of buying",
+    "Gold and the dollar, which drove today's worst sectors",
     "US markets tonight after Nvidia's results"
    ],
    "src": {
-    "title": "Stock Market LIVE: Titan, Bajaj Fin lead 500-pt in Sensex, Nifty below 25,250; Nifty MidCap down 1%",
+    "title": "Stock Market Close: Sensex sheds 500 pts, Nifty at 25,228; consumer durables top sectoral loser",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Buyers are picking stock-specific stories such as order wins and block deals",
-     "why": "With sectors broadly lower, buying is limited to companies with fresh news.",
+     "summary": "Stock-specific stories such as order wins and block deals drew buyers",
+     "why": "With most sectors lower, buying was limited to companies with fresh news.",
      "names": [
       {
        "name": "Ashoka Buildcon",
@@ -54,37 +53,108 @@
      }
     },
     "down": {
-     "summary": "Jewellery and metals lead the losses as gold and metal prices slide",
-     "why": "Gold at a 14-month low is hitting jewellers, and a firmer dollar on Fed rate-hike bets is pressuring metal prices.",
+     "summary": "Jewellery and metals led the losses as gold and metal prices slid",
+     "why": "Gold at a 14-month low hit jewellers, and a firmer dollar on Fed rate-hike bets pressured metal prices.",
      "names": [
       {
        "name": "Titan",
        "dir": "down",
        "move": "−4.48%",
-       "line": "Leading Sensex losses as gold slides to a 14-month low"
+       "line": "The biggest Nifty loser as gold slid to a 14-month low"
       },
       {
        "name": "Nifty Consumer Durables",
        "dir": "down",
-       "move": "−2.84%",
-       "line": "The worst sector, dragged by jewellery stocks"
+       "line": "The top sectoral loser, dragged by jewellery stocks"
       },
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "move": "−2.20%",
-       "line": "A firmer dollar on Fed hike bets is weighing on global metal prices"
+       "line": "Among the worst hit as a firmer dollar weighed on metal prices"
       }
      ],
      "src": {
-      "title": "Stock Market Today: Sensex falls over 700 points, Nifty below 25,200; IT, FMCG stocks among top losers",
-      "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-falls-over-700-points-nifty-below-25200-it-fmcg-stocks-among-top-losers-405710"
+      "title": "Stock Market Close: Sensex sheds 500 pts, Nifty at 25,228; consumer durables top sectoral loser",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "sector-wrap",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Pharma, healthcare and realty buck the fall",
+   "line": "They were the only outperformers as metals, IT and FMCG were the worst hit",
+   "more": [
+    "Consumer durables were the top sectoral loser",
+    "Business Standard closing report"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex sheds 500 pts, Nifty at 25,228; consumer durables top sectoral loser",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   },
+   "date": "2026-11-18",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1535"
+   }
+  },
+  {
+   "key": "gold",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Gold's slide drags jewellery stocks",
+   "line": "Gold at a 14-month low and silver near a 13-month low hit Titan and Kalyan",
+   "more": [
+    "Titan fell 4.48% to ₹4,688.10",
+    "Jewellery stocks fell up to 4%"
+   ],
+   "src": {
+    "title": "Jewellery Stocks Fall Up to 4% as Gold Hits 14-Month Low and Silver Slides to 13-Month Low",
+    "url": "https://www.kotakneo.com/news/stocks/titan-kalyan-jewellers-pc-jeweller-thangamayil-shares-fall-as-gold-hits-14-month-low-and-silver-nears-13-month-low/"
+   },
+   "date": "2026-11-18",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1435"
+   }
+  },
+  {
+   "key": "metal-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Metals among the worst hit at the close",
+   "line": "Fed hike bets lifted the dollar and pressured metal prices",
+   "more": [
+    "Nifty Metal fell about 2.2% during the session",
+    "One mid-day report showed metals gaining, at odds with other sources"
+   ],
+   "src": {
+    "title": "Stock Market Today: Sensex falls over 700 points, Nifty below 25,200; IT, FMCG stocks among top losers",
+    "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-falls-over-700-points-nifty-below-25200-it-fmcg-stocks-among-top-losers-405710"
+   },
+   "thread": "us-rates",
+   "date": "2026-11-18",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1105"
+   }
+  },
   {
    "key": "broader-market",
    "tag": "Stocks",
@@ -103,7 +173,7 @@
    "slot": "1505",
    "when": "15:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1005"
@@ -127,7 +197,7 @@
    "slot": "1505",
    "when": "15:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1235"
@@ -151,59 +221,10 @@
    "slot": "1505",
    "when": "15:05",
    "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1435"
-   }
-  },
-  {
-   "key": "gold",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Gold hits 14-month low; jewellers fall",
-   "line": "Titan, Kalyan Jewellers and other jewellery stocks drop up to 4%",
-   "more": [
-    "Silver is near a 13-month low",
-    "Titan fell 4.48% to ₹4,688.10, the biggest Nifty loser"
-   ],
-   "src": {
-    "title": "Jewellery Stocks Fall Up to 4% as Gold Hits 14-Month Low and Silver Slides to 13-Month Low",
-    "url": "https://www.kotakneo.com/news/stocks/titan-kalyan-jewellers-pc-jeweller-thangamayil-shares-fall-as-gold-hits-14-month-low-and-silver-nears-13-month-low/"
-   },
-   "date": "2026-11-18",
-   "slot": "1435",
-   "when": "14:35",
-   "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1435"
-   }
-  },
-  {
-   "key": "metal-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Firmer dollar hits metal stocks",
-   "line": "Bets on further Fed rate hikes lift the dollar and weigh on metal prices",
-   "more": [
-    "Nifty Metal fell 2.20%",
-    "Only consumer durables fell more, down 2.84%"
-   ],
-   "src": {
-    "title": "Stock Market Today: Sensex falls over 700 points, Nifty below 25,200; IT, FMCG stocks among top losers",
-    "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-falls-over-700-points-nifty-below-25200-it-fmcg-stocks-among-top-losers-405710"
-   },
-   "thread": "us-rates",
-   "date": "2026-11-18",
-   "slot": "1435",
-   "when": "14:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1105"
    }
   },
   {
