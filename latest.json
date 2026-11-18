@@ -1,6 +1,6 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-18T09:26:42+05:30",
+ "generated_at": "2026-11-18T09:26:57+05:30",
  "date": "2026-11-18",
  "slot": "0925",
  "slot_label": "9:25",
@@ -8,8 +8,8 @@
  "asof": "2026-11-18T09:27:00+05:30",
  "nifty": {
   "value": 25367.85,
-  "pct": -0.05,
-  "chg": -12.0,
+  "pct": -0.08,
+  "chg": -19.55,
   "approx": true,
   "asof_quote": "09:15"
  },
@@ -57,7 +57,7 @@
  },
  "insights": [
   {
-   "key": "market-open",
+   "key": "opening-bell",
    "tag": "Opening",
    "impact": "watch",
    "title": "Indices open a touch lower",
@@ -73,10 +73,10 @@
    "date": "2026-11-18",
    "slot": "0925",
    "when": "9:25",
-   "updated": false,
+   "updated": true,
    "is_new": true,
    "first_seen": {
-    "date": "2026-11-18",
+    "date": "2026-11-12",
     "slot": "0925"
    }
   },
@@ -722,30 +722,6 @@
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "opening-bell",
-   "tag": "Opening",
-   "impact": "pos",
-   "title": "Market opens slightly higher despite US rout",
-   "line": "Buying in select heavyweights lifted the open; IndiGo rose 1.57% and Adani Ports 1.38%",
-   "more": [
-    "Pre-open cues had pointed to a flat start",
-    "Wall Street fell sharply on Monday, led by chip stocks"
-   ],
-   "src": {
-    "title": "Stock Market Opening Bell: Sensex opens higher, gains 65 points; Nifty crosses 25,300",
-    "url": "https://www.zeebiz.com/market-news/news-stock-market-opening-bell-sensex-opens-higher-gains-65-points-nifty-crosses-25300-405638"
-   },
-   "date": "2026-11-17",
-   "slot": "0925",
-   "when": "Tue · 9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "0925"
    }
   },
   {
