@@ -1,32 +1,26 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-18T11:05:51+05:30",
+ "generated_at": "2026-11-18T11:37:20+05:30",
  "date": "2026-11-18",
- "slot": "1105",
- "slot_label": "11:05",
+ "slot": "1135",
+ "slot_label": "11:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-18T11:06:00+05:30",
- "nifty": {
-  "value": 25235.1,
-  "pct": -0.6,
-  "chg": -152.3,
-  "asof_quote": "11:00"
- },
+ "asof": "2026-11-18T11:37:00+05:30",
  "mood": {
-  "label": "Broad-based selling",
-  "score": -0.35,
-  "summary": "Losses have spread into late morning, with metals and IT leading the slide and state-run stocks broadly lower, leaving only a handful of stock-specific gainers.",
+  "label": "Losses steady",
+  "score": -0.3,
+  "summary": "The market remains in the red near midday but has stopped sliding, with metals and consumer durables still the weak spots and buying limited to a few stock stories.",
   "detail": {
    "leaders": "IIFL Finance",
-   "laggards": "Nifty Metal, SAIL and NALCO; Nifty IT",
-   "tone": "A live read: weaker than the previous note, with the benchmarks sliding further into late morning and selling widening across sectors.",
+   "laggards": "Nifty Metal, SAIL and NALCO; Hindalco",
+   "tone": "A live read on market behaviour rather than a fresh timed print: losses have narrowed slightly from the previous note, with the slide pausing rather than reversing.",
    "watch": [
-    "Whether banks step in to steady the market",
-    "Whether metals keep sliding with commodity prices",
-    "Whether IT stabilises on Nvidia's results"
+    "Whether banks step in to lift the market",
+    "Whether metals keep sliding",
+    "Whether foreign buying holds up today"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex down 400 pts; NALCO, SAIL shares lead loss in Nifty Metal",
+    "title": "Stock Market LIVE: Sensex down 300 pts; NALCO, SAIL shares lead loss in Nifty Metal",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
    },
    "movers": {
@@ -47,8 +41,8 @@
      }
     },
     "down": {
-     "summary": "Metals and IT are leading the decline",
-     "why": "Weaker global commodity prices are hitting metals, while IT tracks Tuesday's US software sell-off.",
+     "summary": "Metals remain the weakest group, led by state-run producers",
+     "why": "Weaker global commodity prices are weighing on metal and mining shares.",
      "names": [
       {
        "name": "Nifty Metal",
@@ -68,9 +62,9 @@
        "line": "Leading losses in the metal index alongside SAIL"
       },
       {
-       "name": "Nifty IT",
+       "name": "Hindalco",
        "dir": "down",
-       "line": "Among the biggest drags after a software-led sell-off in the US"
+       "line": "Among the top Nifty losers as the metal sell-off spreads to large caps"
       }
      ],
      "src": {
@@ -82,6 +76,79 @@
   }
  },
  "insights": [
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "Doubts over FII buying weigh on mood",
+   "line": "HDFC Sky cites worries over how long foreign inflows can last after Nvidia",
+   "more": [
+    "The Nifty is up about 10% in November",
+    "FIIs bought ₹4,195 cr on Tuesday (provisional)"
+   ],
+   "src": {
+    "title": "Sensex, Nifty Slip at Open; Metals, Durables Lead Losses",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-18-2026-open-report-sensex-nifty-edge-lower-after-recent-rally-as-ai-rotation-easier-oil-cap-downside"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-18",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "consumer-durables",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Consumer durables join metals in the red",
+   "line": "Nifty Consumer Durables fell 0.86% early, alongside a 1.08% drop in metals",
+   "more": [
+    "Titan was among early decliners",
+    "Hindalco and Bajaj Finserv among top Nifty losers"
+   ],
+   "src": {
+    "title": "NIFTY50, SENSEX trade lower after weak opening; Hindalco, Bajaj Finserv, among other top losers",
+    "url": "https://upstox.com/news/market-news/stocks/nifty-50-sensex-trade-lower-after-weak-opening-hindalco-bajaj-finserv-among-other-top-losers/article-203611/"
+   },
+   "date": "2026-11-18",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1135"
+   }
+  },
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Nifty Bank closed Tuesday at 62,273",
+   "line": "The bank index ended below its record 62,442.20 intraday peak",
+   "more": [
+    "Record 62,442.20 touched on Tuesday",
+    "Banks have not yet led a recovery today"
+   ],
+   "src": {
+    "title": "Nifty, Sensex extend rally on FII inflows; Bank Nifty hits fresh 52-week high",
+    "url": "https://aninews.in/news/business/nifty-sensex-extend-rally-on-fii-inflows-bank-nifty-hits-fresh-52-week-high20261117160348"
+   },
+   "date": "2026-11-18",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "1005"
+   }
+  },
   {
    "key": "metal-selloff",
    "tag": "Stocks",
@@ -100,7 +167,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1105"
@@ -124,7 +191,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1105"
@@ -149,7 +216,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "0700"
@@ -379,31 +446,6 @@
    }
   },
   {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs buy ₹4,195 cr; DIIs also buyers",
-   "line": "Foreign cash buying extends; DIIs turn small net buyers",
-   "more": [
-    "Tuesday provisional: FIIs +₹4,195.38 cr, DIIs +₹196.93 cr",
-    "FIIs hold net short index futures, Niftytrader reports"
-   ],
-   "src": {
-    "title": "FII DII Data Today: NSE/BSE Cash & F&O Activity",
-    "url": "https://www.niftytrader.in/fii-dii-data"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-18",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "0700"
-   }
-  },
-  {
    "key": "sml-mahindra-rights",
    "tag": "Stocks",
    "impact": "watch",
@@ -425,31 +467,6 @@
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Reports differ on Nifty Bank's new peak",
-   "line": "Upstox puts the record at 62,442.20; Goodreturns had 62,428.45",
-   "more": [
-    "Upstox: up 866.3 points, or 1.4%, to a new peak of 62,442.20",
-    "Goodreturns earlier reported 62,428.45",
-    "Axis Bank rose 1.98%, among the top Nifty gainers"
-   ],
-   "src": {
-    "title": "Market wrap, Nov 17: NIFTY50 ends at 25,387, SENSEX closes 427 pts higher as banking stocks power gains",
-    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-17-nifty-50-ends-at-25-387-sensex-closes-427-pts-higher-as-banking-stocks-power-gains-check-factors/article-203581/"
-   },
-   "date": "2026-11-17",
-   "slot": "1635",
-   "when": "Tue · 16:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "1005"
    }
   },
   {
