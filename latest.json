@@ -1,33 +1,32 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-18T15:37:13+05:30",
+ "generated_at": "2026-11-18T16:06:09+05:30",
  "date": "2026-11-18",
- "slot": "1535",
- "slot_label": "15:35",
- "stage": "Closing mood",
- "asof": "2026-11-18T15:37:00+05:30",
+ "slot": "1605",
+ "slot_label": "16:05",
+ "stage": "Post-market mood",
+ "asof": "2026-11-18T16:06:00+05:30",
  "nifty": {
-  "value": 25220.45,
-  "pct": -0.66,
-  "chg": -166.95,
-  "asof_quote": "15:30"
+  "value": 25227.95,
+  "pct": -0.63,
+  "chg": -159.45
  },
  "mood": {
-  "label": "Broad retreat",
-  "score": -0.35,
-  "summary": "The market closed firmly lower after a broad sell-off, with consumer durables, metals, IT and FMCG the worst hit and only pharma, healthcare and realty holding up.",
+  "label": "Run snapped",
+  "score": -0.3,
+  "summary": "The market snapped a two-day winning run with a broad decline led by consumer durables, metals, autos and IT, while PSU banks and media held up.",
   "detail": {
    "leaders": "Ashoka Buildcon; IIFL Finance",
-   "laggards": "Titan; Nifty Consumer Durables and Nifty Metal",
-   "tone": "A read of the finished session: the market ended near where it stood in the previous note, well off its afternoon low but snapping a two-day winning run.",
+   "laggards": "Titan and Hindalco; Nifty Consumer Durables",
+   "tone": "A read of the finished session: the close confirms the previous note's picture, a broad pullback from nine-month highs rather than a rout, with 35 of 50 Nifty stocks lower.",
    "watch": [
     "Today's provisional FII figures after several days of buying",
     "Gold and the dollar, which drove today's worst sectors",
     "US markets tonight after Nvidia's results"
    ],
    "src": {
-    "title": "Stock Market Close: Sensex sheds 500 pts, Nifty at 25,228; consumer durables top sectoral loser",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+    "title": "Market wrap, Nov 18: SENSEX falls 500 pts, NIFTY50 ends below 25,250; 126 stocks hit lower circuit, Titan Company top loser",
+    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-18-sensex-falls-500-pts-nifty-50-ends-below-25-250-126-stocks-hits-lower-circuit-titan-company-top-loser/article-203645/"
    },
    "movers": {
     "up": {
@@ -59,29 +58,102 @@
       {
        "name": "Titan",
        "dir": "down",
-       "move": "−4.48%",
-       "line": "The biggest Nifty loser as gold slid to a 14-month low"
+       "line": "The top Nifty loser as gold slid to a 14-month low"
+      },
+      {
+       "name": "Hindalco",
+       "dir": "down",
+       "line": "Among the top Nifty losers as a firmer dollar weighed on metal prices"
       },
       {
        "name": "Nifty Consumer Durables",
        "dir": "down",
        "line": "The top sectoral loser, dragged by jewellery stocks"
-      },
-      {
-       "name": "Nifty Metal",
-       "dir": "down",
-       "line": "Among the worst hit as a firmer dollar weighed on metal prices"
       }
      ],
      "src": {
-      "title": "Stock Market Close: Sensex sheds 500 pts, Nifty at 25,228; consumer durables top sectoral loser",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+      "title": "Market wrap, Nov 18: SENSEX falls 500 pts, NIFTY50 ends below 25,250; 126 stocks hit lower circuit, Titan Company top loser",
+      "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-18-sensex-falls-500-pts-nifty-50-ends-below-25-250-126-stocks-hits-lower-circuit-titan-company-top-loser/article-203645/"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "market-close",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Two-day winning run snapped",
+   "line": "Indices retreat from nine-month highs; 35 Nifty stocks fall, 15 rise",
+   "more": [
+    "126 stocks hit lower circuit, Upstox reports",
+    "SBI, Cipla, Tata Consumer, ITC and Apollo Hospitals were among gainers",
+    "PSU banks and media outperformed"
+   ],
+   "src": {
+    "title": "Market wrap, Nov 18: SENSEX falls 500 pts, NIFTY50 ends below 25,250; 126 stocks hit lower circuit, Titan Company top loser",
+    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-18-sensex-falls-500-pts-nifty-50-ends-below-25-250-126-stocks-hits-lower-circuit-titan-company-top-loser/article-203645/"
+   },
+   "date": "2026-11-18",
+   "slot": "1605",
+   "when": "16:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1535"
+   }
+  },
+  {
+   "key": "gold",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Titan ends as the top Nifty loser",
+   "line": "Gold's fall to a 14-month low weighed on jewellery stocks all day",
+   "more": [
+    "Jewellery stocks fell up to 4%",
+    "Silver is near a 13-month low"
+   ],
+   "src": {
+    "title": "Jewellery Stocks Fall Up to 4% as Gold Hits 14-Month Low and Silver Slides to 13-Month Low",
+    "url": "https://www.kotakneo.com/news/stocks/titan-kalyan-jewellers-pc-jeweller-thangamayil-shares-fall-as-gold-hits-14-month-low-and-silver-nears-13-month-low/"
+   },
+   "date": "2026-11-18",
+   "slot": "1605",
+   "when": "16:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1435"
+   }
+  },
+  {
+   "key": "metal-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Hindalco among the day's biggest losers",
+   "line": "Fed hike bets lifted the dollar and pressured metal prices",
+   "more": [
+    "Metal, auto and IT were among the weakest sectors",
+    "HDFC Life and Bajaj Finance also among top losers"
+   ],
+   "src": {
+    "title": "Stock Market Today: Sensex falls over 700 points, Nifty below 25,200; IT, FMCG stocks among top losers",
+    "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-falls-over-700-points-nifty-below-25200-it-fmcg-stocks-among-top-losers-405710"
+   },
+   "thread": "us-rates",
+   "date": "2026-11-18",
+   "slot": "1605",
+   "when": "16:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1105"
+   }
+  },
   {
    "key": "sector-wrap",
    "tag": "Stocks",
@@ -100,59 +172,10 @@
    "slot": "1535",
    "when": "15:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1535"
-   }
-  },
-  {
-   "key": "gold",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Gold's slide drags jewellery stocks",
-   "line": "Gold at a 14-month low and silver near a 13-month low hit Titan and Kalyan",
-   "more": [
-    "Titan fell 4.48% to ₹4,688.10",
-    "Jewellery stocks fell up to 4%"
-   ],
-   "src": {
-    "title": "Jewellery Stocks Fall Up to 4% as Gold Hits 14-Month Low and Silver Slides to 13-Month Low",
-    "url": "https://www.kotakneo.com/news/stocks/titan-kalyan-jewellers-pc-jeweller-thangamayil-shares-fall-as-gold-hits-14-month-low-and-silver-nears-13-month-low/"
-   },
-   "date": "2026-11-18",
-   "slot": "1535",
-   "when": "15:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1435"
-   }
-  },
-  {
-   "key": "metal-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Metals among the worst hit at the close",
-   "line": "Fed hike bets lifted the dollar and pressured metal prices",
-   "more": [
-    "Nifty Metal fell about 2.2% during the session",
-    "One mid-day report showed metals gaining, at odds with other sources"
-   ],
-   "src": {
-    "title": "Stock Market Today: Sensex falls over 700 points, Nifty below 25,200; IT, FMCG stocks among top losers",
-    "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-falls-over-700-points-nifty-below-25200-it-fmcg-stocks-among-top-losers-405710"
-   },
-   "thread": "us-rates",
-   "date": "2026-11-18",
-   "slot": "1535",
-   "when": "15:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1105"
    }
   },
   {
@@ -1328,30 +1351,6 @@
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1605"
-   }
-  },
-  {
-   "key": "market-close",
-   "tag": "Opening",
-   "impact": "pos",
-   "title": "FMCG and private banks lead the close",
-   "line": "Nifty FMCG rose 1.6% and Nifty Private Bank 0.56% as large caps outperformed",
-   "more": [
-    "Max Healthcare, ITC and Tata Consumer were the top Nifty gainers",
-    "Auto, metal and pharma stocks were under pressure, per one report"
-   ],
-   "src": {
-    "title": "Sensex closes 510 points up, Nifty gains 147 points, midcap and smallcap face pressure",
-    "url": "https://english.punjabkesari.com/business/sensex-closes-510-points-up-nifty-gains-147-points-midcap-and-smallcap-face-pressure"
-   },
-   "date": "2026-11-16",
-   "slot": "1605",
-   "when": "Mon · 16:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-13",
-    "slot": "1535"
    }
   },
   {
