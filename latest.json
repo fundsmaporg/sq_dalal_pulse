@@ -1,32 +1,26 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-18T13:06:28+05:30",
+ "generated_at": "2026-11-18T13:36:50+05:30",
  "date": "2026-11-18",
- "slot": "1305",
- "slot_label": "13:05",
+ "slot": "1335",
+ "slot_label": "13:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-18T13:06:00+05:30",
- "nifty": {
-  "value": 25200.8,
-  "pct": -0.73,
-  "chg": -186.4,
-  "asof_quote": "13:00"
- },
+ "asof": "2026-11-18T13:37:00+05:30",
  "mood": {
-  "label": "Selling broadens",
-  "score": -0.4,
-  "summary": "Selling has deepened into the afternoon and is now broad, with consumer durables, metals, IT and autos all lower and almost no sector offering support.",
+  "label": "Fresh day lows",
+  "score": -0.45,
+  "summary": "The market has slid to fresh lows for the day, with metals the hardest hit and selling now reaching banks as well, leaving little anywhere to hide.",
   "detail": {
    "leaders": "IIFL Finance",
-   "laggards": "Nifty Consumer Durables; Nifty Metal and Hindalco",
-   "tone": "A live read: weaker than the previous note, with losses extending into the afternoon and selling spreading from IT and metals into consumer, auto and bank stocks.",
+   "laggards": "Nifty Metal, SAIL and NALCO; Nifty Consumer Durables",
+   "tone": "A live read on market behaviour rather than a fresh timed print: weaker than the previous note, with the benchmarks setting new lows for the day.",
    "watch": [
-    "Whether banks hold up as selling spreads",
-    "Whether Titan's fall deepens",
+    "Whether the market finds support before the close",
+    "Whether bank selling deepens",
     "European trade and US futures later in the day"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex drops 500 pts; Nifty below 25,200; Nifty Consumer Durables down 3%",
+    "title": "Stock Market LIVE: Sensex drops 600 pts, hits day's low, Nifty below 25,200; metal pack down 2%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
    },
    "movers": {
@@ -47,28 +41,35 @@
      }
     },
     "down": {
-     "summary": "Consumer durables and metals lead a broad decline",
-     "why": "Titan's slide is weighing on consumer durables, while weaker commodity prices hit metals.",
+     "summary": "Metals lead the losses, with consumer durables also sharply lower",
+     "why": "Weaker global commodity prices are hitting metals, and Titan's slide is weighing on consumer durables.",
      "names": [
-      {
-       "name": "Nifty Consumer Durables",
-       "dir": "down",
-       "move": "−3%",
-       "line": "The worst sector as Titan falls more than 4%"
-      },
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "line": "Among the worst sectors as global commodity prices weaken"
+       "move": "−2%",
+       "line": "The worst sector as global commodity prices weaken"
       },
       {
-       "name": "Hindalco",
+       "name": "SAIL",
        "dir": "down",
-       "line": "The top Nifty loser as the metal sell-off hits large caps"
+       "move": "−2.55%",
+       "line": "Among the biggest metal losers on weaker commodity prices"
+      },
+      {
+       "name": "NALCO",
+       "dir": "down",
+       "move": "−2.38%",
+       "line": "Leading losses in the metal index alongside SAIL"
+      },
+      {
+       "name": "Nifty Consumer Durables",
+       "dir": "down",
+       "line": "Among the worst sectors as Titan slides more than 4%"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex drops 500 pts; Nifty below 25,200; Nifty Consumer Durables down 3%",
+      "title": "Stock Market LIVE: Sensex drops 600 pts, hits day's low, Nifty below 25,200; metal pack down 2%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
      }
     }
@@ -76,6 +77,78 @@
   }
  },
  "insights": [
+  {
+   "key": "bank-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "34 of 37 bank stocks fall",
+   "line": "Selling reaches lenders after their record run; Karnataka Bank leads losses",
+   "more": [
+    "Karnataka Bank −2.51%, Punjab & Sind Bank −2.20%, Dhanlaxmi −2.02%",
+    "Early-session counts from Business Upturn"
+   ],
+   "src": {
+    "title": "Banking stocks today fall today, November 18: Karnataka Bank falls 2.51%, Punjab & Sind Bank declines 2.20%, Dhanlaxmi Bank down 2.02%",
+    "url": "https://businessupturn.com/finance/stock-market/banking-stocks-today-fall-today-november-18-karnataka-bank-falls-2-51-punjab-sind-bank-declines-2-20-dhanlaxmi-bank-down-2-02/"
+   },
+   "date": "2026-11-18",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1235"
+   }
+  },
+  {
+   "key": "metal-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Metal index down 2% as losses deepen",
+   "line": "Metals remain the worst sector as the market hits the day's low",
+   "more": [
+    "Business Standard puts the metal pack down 2%",
+    "Hindalco leads Nifty losers"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex drops 600 pts, hits day's low, Nifty below 25,200; metal pack down 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   },
+   "date": "2026-11-18",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "iifl-block-deal",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IIFL Finance holds its block-deal gains",
+   "line": "One of few large gainers on a broad down day",
+   "more": [
+    "Fairfax's FIH Mauritius offered up to 13.25% at a ₹611 floor",
+    "Shares touched ₹676.95, up 5.91%"
+   ],
+   "src": {
+    "title": "IIFL Finance shares gain 6% after block deal; Fairfax likely seller",
+    "url": "https://www.business-standard.com/markets/news/iifl-finance-shares-gain-6-after-block-deal-fairfax-likely-seller-126111800199_1.html"
+   },
+   "date": "2026-11-18",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1005"
+   }
+  },
   {
    "key": "consumer-durables",
    "tag": "Stocks",
@@ -94,7 +167,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1135"
@@ -118,7 +191,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1305"
@@ -143,34 +216,10 @@
    "slot": "1305",
    "when": "13:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "metal-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Hindalco leads Nifty losers",
-   "line": "The metal sell-off has spread from state producers to large caps",
-   "more": [
-    "HDFC Life and Bajaj Finserv also among top Nifty losers",
-    "SAIL and NALCO led earlier metal losses"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex drops 500 pts; Nifty below 25,200; Nifty Consumer Durables down 3%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
-   },
-   "date": "2026-11-18",
-   "slot": "1305",
-   "when": "13:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1105"
    }
   },
   {
@@ -364,30 +413,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
-    "slot": "1005"
-   }
-  },
-  {
-   "key": "iifl-block-deal",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IIFL Finance holds gains after block deal",
-   "line": "Fairfax's FIH Mauritius offered up to 13.25% at a ₹611 floor",
-   "more": [
-    "Shares touched ₹676.95, up 5.91%",
-    "About 56 million shares changed hands pre-market"
-   ],
-   "src": {
-    "title": "IIFL Finance shares gain 6% after block deal; Fairfax likely seller",
-    "url": "https://www.business-standard.com/markets/news/iifl-finance-shares-gain-6-after-block-deal-fairfax-likely-seller-126111800199_1.html"
-   },
-   "date": "2026-11-18",
-   "slot": "1035",
-   "when": "10:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
     "slot": "1005"
    }
   },
@@ -1998,30 +2023,6 @@
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1335"
-   }
-  },
-  {
-   "key": "bank-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Lenders stay under pressure",
-   "line": "Bank and financial stocks remain among the biggest drags into the final hour",
-   "more": [
-    "HDFC Bank and Shriram Finance have been among the top Nifty losers",
-    "No sector-specific trigger has been reported"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex falls 400 pts; KPI Green Energy falls 5% post Q2 result",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
-   },
-   "date": "2026-11-13",
-   "slot": "1435",
-   "when": "Fri · 14:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-13",
-    "slot": "1235"
    }
   },
   {
