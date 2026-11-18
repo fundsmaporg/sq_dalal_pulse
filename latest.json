@@ -1,54 +1,57 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-18T09:26:57+05:30",
+ "generated_at": "2026-11-18T10:06:13+05:30",
  "date": "2026-11-18",
- "slot": "0925",
- "slot_label": "9:25",
+ "slot": "1005",
+ "slot_label": "10:05",
  "stage": "Opening mood",
- "asof": "2026-11-18T09:27:00+05:30",
- "nifty": {
-  "value": 25367.85,
-  "pct": -0.08,
-  "chg": -19.55,
-  "approx": true,
-  "asof_quote": "09:15"
- },
+ "asof": "2026-11-18T10:06:00+05:30",
  "mood": {
-  "label": "Mild early drift",
-  "score": -0.15,
-  "summary": "The market has opened a touch lower and is drifting down in early trade, with IT and metal stocks the weakest and midcaps also slipping.",
+  "label": "Slipping lower",
+  "score": -0.25,
+  "summary": "The market has slipped further into the red after a flat start, with IT and metals dragging, while a few stock-specific stories such as IIFL Finance buck the trend.",
   "detail": {
-   "leaders": "No clear leaders in early trade",
-   "laggards": "Nifty IT and Nifty Metal; Nifty Midcap 100",
-   "tone": "A live read of the open: the start was softer than Tuesday's close but milder than the pre-open cue suggested, and early trade is edging lower.",
+   "leaders": "IIFL Finance",
+   "laggards": "Nifty IT",
+   "tone": "A live read on market behaviour rather than a fresh timed print: the market is weaker than in the previous note, with losses deepening after the flat open.",
    "watch": [
-    "Whether IT finds support from Nvidia's results as the session goes on",
     "Whether banks steady the market as on recent days",
-    "Whether midcaps extend their slide"
+    "Whether IT recovers on Nvidia's results",
+    "Mahanadi Coalfields' IPO, which opens on Thursday"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex down 100 pts, Nifty near 25,300; IT, metal biggest laggards",
+    "title": "Stock Market LIVE: Sensex down 200 pts, Nifty below 25,300; IIF Finance shares gain 6%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
    },
    "movers": {
+    "up": {
+     "summary": "Stock-specific buying, led by IIFL Finance after a large block deal",
+     "why": "Buying is confined to individual stories rather than whole sectors.",
+     "names": [
+      {
+       "name": "IIFL Finance",
+       "dir": "up",
+       "move": "+5.91%",
+       "line": "Jumped after a 13% block deal cleared the Fairfax stake overhang"
+      }
+     ],
+     "src": {
+      "title": "IIFL Finance shares gain 6% after block deal; Fairfax likely seller",
+      "url": "https://www.business-standard.com/markets/news/iifl-finance-shares-gain-6-after-block-deal-fairfax-likely-seller-126111800199_1.html"
+     }
+    },
     "down": {
-     "summary": "IT and metals lead early losses, with midcaps also lower",
-     "why": "Wall Street's broad sell-off and rising US yields are weighing despite Nvidia's beat.",
+     "summary": "IT is among the biggest drags on the market",
+     "why": "US software stocks led Tuesday's Wall Street losses, and Nvidia's beat has not lifted Indian IT.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "Among the biggest laggards after US software stocks led Tuesday's losses"
-      },
-      {
-       "name": "Nifty Midcap 100",
-       "dir": "down",
-       "move": "−0.29%",
-       "line": "Slipping with the wider market as risk appetite cools at the open"
+       "line": "Among the biggest laggards after a software-led sell-off in the US"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex down 100 pts, Nifty near 25,300; IT, metal biggest laggards",
+      "title": "Stock Market LIVE: Sensex down 200 pts, Nifty below 25,300; IIF Finance shares gain 6%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
      }
     }
@@ -57,22 +60,73 @@
  },
  "insights": [
   {
-   "key": "opening-bell",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Indices open a touch lower",
-   "line": "Business Standard has IT and metal as the biggest laggards in early trade",
+   "key": "iifl-block-deal",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IIFL Finance up 6% after Fairfax block deal",
+   "line": "About 13% of the lender changed hands pre-market at a ₹611 floor",
    "more": [
-    "The Sensex opened down 17 points and was down 96 by 9:19 am",
-    "The open was milder than GIFT Nifty's pre-open signal"
+    "Fairfax's FIH Mauritius offered up to 13.25%, worth about ₹3,454 cr",
+    "Floor price was a 3.9% discount to Tuesday's ₹636.05 close",
+    "Shares touched ₹676.95, up 5.91%",
+    "Follows last week's ₹6,414 cr capital raise with Blackstone"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex down 100 pts, Nifty near 25,300; IT, metal biggest laggards",
+    "title": "IIFL Finance shares gain 6% after block deal; Fairfax likely seller",
+    "url": "https://www.business-standard.com/markets/news/iifl-finance-shares-gain-6-after-block-deal-fairfax-likely-seller-126111800199_1.html"
+   },
+   "date": "2026-11-18",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "software-selloff",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "IT drags despite Nvidia's beat",
+   "line": "Indian IT tracks Tuesday's US software rout rather than Nvidia's results",
+   "more": [
+    "Salesforce fell 9.7% on Tuesday",
+    "The Anthropic IPO is due later this week"
+   ],
+   "src": {
+    "title": "Salesforce Sinks Ahead of Anthropic IPO: Stock Market Today",
+    "url": "https://www.benzinga.com/markets/equities/26/11/63359152/stock-market-today-salesforce-software-selloff-anthropic-ipo-nvidia-november-17"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-18",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "opening-bell",
+   "tag": "Opening",
+   "impact": "neg",
+   "title": "Losses deepen after a flat open",
+   "line": "Business Standard's latest headline has the Sensex down about 200 points",
+   "more": [
+    "The Sensex opened almost unchanged",
+    "IT and metal were the biggest laggards early on"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 200 pts, Nifty below 25,300; IIF Finance shares gain 6%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
    },
    "date": "2026-11-18",
-   "slot": "0925",
-   "when": "9:25",
+   "slot": "1005",
+   "when": "10:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -99,35 +153,10 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "software-selloff",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "US software rout shadows Indian IT",
-   "line": "Software names led Tuesday's US losses; Salesforce fell 9.7%",
-   "more": [
-    "The Anthropic IPO is due later this week",
-    "Indian IT is among the weakest sectors at the open"
-   ],
-   "src": {
-    "title": "Salesforce Sinks Ahead of Anthropic IPO: Stock Market Today",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63359152/stock-market-today-salesforce-software-selloff-anthropic-ipo-nvidia-november-17"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-18",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "0700"
    }
   },
   {

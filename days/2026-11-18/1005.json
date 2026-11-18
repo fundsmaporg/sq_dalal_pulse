@@ -1,0 +1,124 @@
+{
+ "asof": "2026-11-18T10:06:00+05:30",
+ "summary": "The market has slipped further into the red after a flat start, with IT and metals dragging, while a few stock-specific stories such as IIFL Finance buck the trend.",
+ "mood": {
+  "label": "Slipping lower",
+  "score": -0.25,
+  "detail": {
+   "stats": [],
+   "leaders": "IIFL Finance",
+   "laggards": "Nifty IT",
+   "movers": {
+    "up": {
+     "summary": "Stock-specific buying, led by IIFL Finance after a large block deal",
+     "why": "Buying is confined to individual stories rather than whole sectors.",
+     "names": [
+      {
+       "name": "IIFL Finance",
+       "move": "+5.91%",
+       "dir": "up",
+       "line": "Jumped after a 13% block deal cleared the Fairfax stake overhang"
+      }
+     ],
+     "src": {
+      "title": "IIFL Finance shares gain 6% after block deal; Fairfax likely seller",
+      "url": "https://www.business-standard.com/markets/news/iifl-finance-shares-gain-6-after-block-deal-fairfax-likely-seller-126111800199_1.html"
+     }
+    },
+    "down": {
+     "summary": "IT is among the biggest drags on the market",
+     "why": "US software stocks led Tuesday's Wall Street losses, and Nvidia's beat has not lifted Indian IT.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "down",
+       "line": "Among the biggest laggards after a software-led sell-off in the US"
+      }
+     ],
+     "src": {
+      "title": "Stock Market LIVE: Sensex down 200 pts, Nifty below 25,300; IIF Finance shares gain 6%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+     }
+    }
+   },
+   "tone": "A live read on market behaviour rather than a fresh timed print: the market is weaker than in the previous note, with losses deepening after the flat open.",
+   "watch": [
+    "Whether banks steady the market as on recent days",
+    "Whether IT recovers on Nvidia's results",
+    "Mahanadi Coalfields' IPO, which opens on Thursday"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 200 pts, Nifty below 25,300; IIF Finance shares gain 6%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   }
+  }
+ },
+ "top": [
+  {
+   "key": "iifl-block-deal",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IIFL Finance up 6% after Fairfax block deal",
+   "line": "About 13% of the lender changed hands pre-market at a ₹611 floor",
+   "more": [
+    "Fairfax's FIH Mauritius offered up to 13.25%, worth about ₹3,454 cr",
+    "Floor price was a 3.9% discount to Tuesday's ₹636.05 close",
+    "Shares touched ₹676.95, up 5.91%",
+    "Follows last week's ₹6,414 cr capital raise with Blackstone"
+   ],
+   "src": {
+    "title": "IIFL Finance shares gain 6% after block deal; Fairfax likely seller",
+    "url": "https://www.business-standard.com/markets/news/iifl-finance-shares-gain-6-after-block-deal-fairfax-likely-seller-126111800199_1.html"
+   }
+  },
+  {
+   "key": "software-selloff",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "IT drags despite Nvidia's beat",
+   "line": "Indian IT tracks Tuesday's US software rout rather than Nvidia's results",
+   "more": [
+    "Salesforce fell 9.7% on Tuesday",
+    "The Anthropic IPO is due later this week"
+   ],
+   "thread": "it-sector",
+   "src": {
+    "title": "Salesforce Sinks Ahead of Anthropic IPO: Stock Market Today",
+    "url": "https://www.benzinga.com/markets/equities/26/11/63359152/stock-market-today-salesforce-software-selloff-anthropic-ipo-nvidia-november-17"
+   }
+  },
+  {
+   "key": "opening-bell",
+   "tag": "Opening",
+   "impact": "neg",
+   "title": "Losses deepen after a flat open",
+   "line": "Business Standard's latest headline has the Sensex down about 200 points",
+   "more": [
+    "The Sensex opened almost unchanged",
+    "IT and metal were the biggest laggards early on"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 200 pts, Nifty below 25,300; IIF Finance shares gain 6%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market LIVE: Sensex down 200 pts, Nifty below 25,300; IIF Finance shares gain 6%",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+  },
+  {
+   "title": "IIFL Finance shares gain 6% after block deal; Fairfax likely seller",
+   "url": "https://www.business-standard.com/markets/news/iifl-finance-shares-gain-6-after-block-deal-fairfax-likely-seller-126111800199_1.html"
+  },
+  {
+   "title": "IIFL Finance Block Deal: Fairfax Plans ₹3,454 Crore Stake Sale at ₹611 Per Share",
+   "url": "https://www.kotakneo.com/news/stocks/iifl-finance-block-deal-fairfax-to-sell-1325-percent-stake-worth-3454-crore-at-611-per-share/"
+  },
+  {
+   "title": "Salesforce Sinks Ahead of Anthropic IPO: Stock Market Today",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63359152/stock-market-today-salesforce-software-selloff-anthropic-ipo-nvidia-november-17"
+  }
+ ]
+}
