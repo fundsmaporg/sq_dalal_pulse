@@ -1,26 +1,32 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-18T12:37:52+05:30",
+ "generated_at": "2026-11-18T13:06:12+05:30",
  "date": "2026-11-18",
- "slot": "1235",
- "slot_label": "12:35",
+ "slot": "1305",
+ "slot_label": "13:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-18T12:38:00+05:30",
+ "asof": "2026-11-18T13:06:00+05:30",
+ "nifty": {
+  "value": 25200.8,
+  "pct": -0.73,
+  "chg": -186.4,
+  "asof_quote": "13:00"
+ },
  "mood": {
-  "label": "Pinned near lows",
-  "score": -0.35,
-  "summary": "The market is sitting near the day's lows into early afternoon, with IT, metals and consumer stocks all under pressure and little sign of buyers stepping in.",
+  "label": "Selling broadens",
+  "score": -0.4,
+  "summary": "Selling has deepened into the afternoon and is now broad, with consumer durables, metals, IT and autos all lower and almost no sector offering support.",
   "detail": {
    "leaders": "IIFL Finance",
-   "laggards": "Nifty Metal, SAIL and NALCO",
-   "tone": "A live read on market behaviour rather than a fresh timed print: a touch weaker than the previous note, with FMCG now adding to the drag from IT and metals.",
+   "laggards": "Nifty Consumer Durables; Nifty Metal and Hindalco",
+   "tone": "A live read: weaker than the previous note, with losses extending into the afternoon and selling spreading from IT and metals into consumer, auto and bank stocks.",
    "watch": [
-    "Whether banks step in to lift the market",
-    "Whether the selling in consumer names spreads",
-    "European trade and US futures in the afternoon"
+    "Whether banks hold up as selling spreads",
+    "Whether Titan's fall deepens",
+    "European trade and US futures later in the day"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex down 400 pts; Nifty near 25,200; Titan shares fall over 4%",
+    "title": "Stock Market LIVE: Sensex drops 500 pts; Nifty below 25,200; Nifty Consumer Durables down 3%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
    },
    "movers": {
@@ -41,36 +47,132 @@
      }
     },
     "down": {
-     "summary": "Metals remain the weakest group, led by state-run producers",
-     "why": "Weaker global commodity prices are weighing on metal and mining shares.",
+     "summary": "Consumer durables and metals lead a broad decline",
+     "why": "A sharp fall in Titan is dragging consumer durables, while weaker commodity prices hit metals.",
      "names": [
+      {
+       "name": "Nifty Consumer Durables",
+       "dir": "down",
+       "move": "−3%",
+       "line": "The worst sector, with index heavyweight Titan down more than 4%"
+      },
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "line": "Among the worst-performing sectors as global commodity prices weaken"
+       "line": "Among the worst sectors as global commodity prices weaken"
       },
       {
-       "name": "SAIL",
+       "name": "Hindalco",
        "dir": "down",
-       "move": "−2.55%",
-       "line": "Among the biggest metal losers on weaker commodity prices"
-      },
-      {
-       "name": "NALCO",
-       "dir": "down",
-       "move": "−2.38%",
-       "line": "Leading losses in the metal index alongside SAIL"
+       "line": "The top Nifty loser as the metal sell-off hits large caps"
       }
      ],
      "src": {
-      "title": "Metal stocks today falls today, November 18: Hindustan Zinc declines 2.71%, SAIL down 2.55%, NALCO drops 2.38%",
-      "url": "https://businessupturn.com/finance/stock-market/metal-stocks-today-falls-today-november-18-hindustan-zinc-declines-2-71-sail-down-2-55-nalco-drops-2-38/"
+      "title": "Stock Market LIVE: Sensex drops 500 pts; Nifty below 25,200; Nifty Consumer Durables down 3%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "consumer-durables",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Consumer durables slump about 3%",
+   "line": "Titan's fall of more than 4% drags the sector to the bottom of the table",
+   "more": [
+    "Nifty Consumer Durables down 3%, per Business Standard",
+    "Titan is the sector's largest stock"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex drops 500 pts; Nifty below 25,200; Nifty Consumer Durables down 3%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   },
+   "date": "2026-11-18",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1135"
+   }
+  },
+  {
+   "key": "auto-weakness",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Autos slip: 14 of 18 tracked stocks fall",
+   "line": "Ashok Leyland leads auto losses; Eicher and Tata Motors PV also lower",
+   "more": [
+    "Ashok Leyland −2.18%, Ola Electric −1.35%, Eicher −1.31%",
+    "SML Mahindra, Sharda Motor and Ather Energy gained"
+   ],
+   "src": {
+    "title": "Auto stocks today, November 18: Ashok Leyland falls 2.18%, Ola Electric declines 1.35%, Eicher Motors down 1.31%",
+    "url": "https://businessupturn.com/finance/stock-market/auto-stocks-today-november-18-ashok-leyland-falls-2-18-ola-electric-declines-1-35-eicher-motors-down-1-31/"
+   },
+   "date": "2026-11-18",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1305"
+   }
+  },
+  {
+   "key": "software-selloff",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "36 of 43 IT stocks lower",
+   "line": "L&T Technology Services and Mphasis lead the IT decline",
+   "more": [
+    "LTTS −2.64%, Mphasis −2.15%",
+    "Infosys −1.02%, Wipro −1.24%"
+   ],
+   "src": {
+    "title": "IT sector stocks today, November 18: L&T Technology falls 2.64%, Mphasis declines 2.15%, Infosys down 1.02%",
+    "url": "https://businessupturn.com/finance/stock-market/it-sector-stocks-today-november-18-l-t-technology-falls-2-64-mphasis-declines-2-15-infosys-down-1-02/"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-18",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "metal-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Hindalco leads Nifty losers",
+   "line": "The metal sell-off has spread from state producers to large caps",
+   "more": [
+    "HDFC Life and Bajaj Finserv also among top Nifty losers",
+    "SAIL and NALCO led earlier metal losses"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex drops 500 pts; Nifty below 25,200; Nifty Consumer Durables down 3%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   },
+   "date": "2026-11-18",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1105"
+   }
+  },
   {
    "key": "titan-q2",
    "tag": "Stocks",
@@ -89,7 +191,7 @@
    "slot": "1235",
    "when": "12:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1235"
@@ -113,59 +215,10 @@
    "slot": "1235",
    "when": "12:35",
    "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1235"
-   }
-  },
-  {
-   "key": "software-selloff",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "IT still weighed by US software rout",
-   "line": "Indian IT has not followed Nvidia's beat higher",
-   "more": [
-    "Salesforce fell 9.7% on Tuesday",
-    "The Anthropic IPO is due later this week"
-   ],
-   "src": {
-    "title": "Salesforce Sinks Ahead of Anthropic IPO: Stock Market Today",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63359152/stock-market-today-salesforce-software-selloff-anthropic-ipo-nvidia-november-17"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-18",
-   "slot": "1235",
-   "when": "12:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "metal-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Metal index down 1.7% as selling spreads",
-   "line": "Metals stay the worst sector; SAIL, NALCO and Hindustan Zinc lead losses",
-   "more": [
-    "Nifty Metal down 1.7%, per Business Standard",
-    "Weaker global commodity prices are cited"
-   ],
-   "src": {
-    "title": "Stock Market LIVE (Hindi): weak start, Sensex below 82,500, metal and auto shares fall",
-    "url": "https://hindi.business-standard.com/markets/stock-market/stock-market-live-updates-18-november-2026-sensex-nifty-gift-nifty-global-market-id-568581"
-   },
-   "date": "2026-11-18",
-   "slot": "1205",
-   "when": "12:05",
-   "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
-    "slot": "1105"
+    "slot": "1235"
    }
   },
   {
@@ -240,30 +293,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "consumer-durables",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Consumer durables join metals in the red",
-   "line": "Nifty Consumer Durables fell 0.86% early, alongside a 1.08% drop in metals",
-   "more": [
-    "Titan was among early decliners",
-    "Hindalco and Bajaj Finserv among top Nifty losers"
-   ],
-   "src": {
-    "title": "NIFTY50, SENSEX trade lower after weak opening; Hindalco, Bajaj Finserv, among other top losers",
-    "url": "https://upstox.com/news/market-news/stocks/nifty-50-sensex-trade-lower-after-weak-opening-hindalco-bajaj-finserv-among-other-top-losers/article-203611/"
-   },
-   "date": "2026-11-18",
-   "slot": "1135",
-   "when": "11:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1135"
    }
   },
   {
