@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-18T07:00:54+05:30",
+ "generated_at": "2026-11-18T08:46:41+05:30",
  "date": "2026-11-18",
- "slot": "0700",
- "slot_label": "7:00",
+ "slot": "0845",
+ "slot_label": "8:45",
  "stage": "Pre-market mood",
- "asof": "2026-11-18T07:01:00+05:30",
+ "asof": "2026-11-18T08:47:00+05:30",
  "nifty": {
   "value": 25387.4,
   "pct": 0.38,
@@ -32,36 +32,60 @@
   }
  },
  "mood": {
-  "label": "Tech-led relief",
-  "score": 0.15,
-  "summary": "Nvidia's strong results have lifted Asia this morning after a broad Wall Street sell-off, setting up a tug-of-war for India's open with IT likely in focus.",
+  "label": "Soft start likely",
+  "score": -0.15,
+  "summary": "India looks set for a softer open as GIFT Nifty trades lower after Wall Street's broad sell-off, even though Nvidia's strong results have steadied tech sentiment.",
   "detail": {
-   "leaders": "IT, on Nvidia's beat; banks after a record run",
-   "laggards": "Software-linked names after the US software sell-off",
-   "tone": "Forward-looking into Wednesday's open: US indices fell hard overnight, but Nvidia's beat after the bell has turned Asian tech higher this morning.",
+   "leaders": "IT may find support from Nvidia's beat",
+   "laggards": "Broad market, tracking Wall Street's losses",
+   "tone": "Forward-looking to the open: the pre-open cue has turned softer than the early Asian rally suggested, with Asia now mixed.",
    "watch": [
-    "Whether Asia's Nvidia rally carries into India's IT stocks",
-    "Whether US futures recover from Tuesday's broad losses",
-    "Whether foreign buying in cash continues"
+    "Whether IT holds up on Nvidia's results as the broader market dips",
+    "Whether banks extend their record run",
+    "Foreign buying, which has run for several sessions"
    ],
    "src": {
-    "title": "Kospi jumps nearly 3% back above 5,000 as Nvidia's outlook lifts Samsung and SK Hynix; Nikkei rises 1%",
-    "url": "https://mlq.ai/news/kospi-jumps-nearly-3-back-above-5000-as-nvidias-outlook-lifts-samsung-and-sk-hynix-nikkei-rises-1/"
+    "title": "Stock Market LIVE: GIFT Nifty down over 100 pts; Asian markets mixed post Nvidia's Q3 beat",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
    }
   }
  },
  "insights": [
   {
+   "key": "gift-nifty",
+   "tag": "Opening",
+   "impact": "neg",
+   "title": "GIFT Nifty points to a lower open",
+   "line": "GIFT Nifty traded at 25,256 at 8:02 am, down 122 points",
+   "more": [
+    "Business Standard flags a gap-down start",
+    "Asia is mixed: Nikkei −0.76%, Kospi +0.27%",
+    "The Kospi had jumped nearly 3% in early trade"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: GIFT Nifty down over 100 pts; Asian markets mixed post Nvidia's Q3 beat",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   },
+   "date": "2026-11-18",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "0845"
+   }
+  },
+  {
    "key": "nvidia-q3",
    "tag": "Global",
    "impact": "pos",
-   "title": "Nvidia beats and guides above estimates",
-   "line": "Q3 revenue $115.84bn vs $109.08bn expected; Q4 guided to $130bn",
+   "title": "Nvidia's beat lifts global chip stocks",
+   "line": "Q3 revenue of $115.84bn and Q4 guidance of $130bn topped estimates",
    "more": [
     "Adjusted EPS $2.68 vs $2.48 expected",
-    "Data-centre revenue $107.6bn, up 110% year on year",
-    "Q4 gross margin guided to 71–72%, down from 74.9%",
-    "Shares rose about 2.4–4.6% after hours, by source"
+    "Q4 gross margin guided lower, to 71–72%",
+    "Indian IT takes the read-through at the open"
    ],
    "src": {
     "title": "Nvidia Stock Jumps on Q3 Double Beat, Strong Outlook — 'Explosive' Demand for Vera Rubin",
@@ -69,8 +93,8 @@
    },
    "thread": "global-markets",
    "date": "2026-11-18",
-   "slot": "0700",
-   "when": "7:00",
+   "slot": "0845",
+   "when": "8:45",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -82,12 +106,11 @@
    "key": "us-markets",
    "tag": "Global",
    "impact": "neg",
-   "title": "Wall Street falls; S&P at five-month low",
-   "line": "All 11 S&P sectors fell as chip curbs and rate-hike bets weighed",
+   "title": "S&P 500 closed at a five-month low",
+   "line": "Dow −1.64%, S&P 500 −1.03%, Nasdaq −0.74% before Nvidia reported",
    "more": [
-    "Dow −1.64%, S&P 500 −1.03%, Nasdaq −0.74%",
-    "Only 75 S&P 500 stocks rose; 426 fell",
-    "Reports of US curbs on China's remote access to AI chips hit sentiment"
+    "All 11 S&P sectors fell",
+    "Software stocks were hit hardest"
    ],
    "src": {
     "title": "Closing Look — Tuesday, November 17, 2026",
@@ -95,13 +118,37 @@
    },
    "thread": "global-markets",
    "date": "2026-11-18",
-   "slot": "0700",
-   "when": "7:00",
+   "slot": "0845",
+   "when": "8:45",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "0700"
+   }
+  },
+  {
+   "key": "ipo-pipeline",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Crystal Crop IPO opens today",
+   "line": "The agrochemicals and seeds maker's issue is priced at ₹259–272 a share",
+   "more": [
+    "It is the first of three issues this week",
+    "Mahanadi Coalfields' IPO opens on Thursday"
+   ],
+   "src": {
+    "title": "IPO action returns: 3 Indian share sales worth Rs 10,000 crore",
+    "url": "https://journalarta.com/en/2026/11/15/ipo-action-returns-3-indian-share-sales-rs-10000-crore/"
+   },
+   "date": "2026-11-18",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "0800"
    }
   },
   {
@@ -124,7 +171,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "0700"
@@ -149,7 +196,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "0700"
@@ -174,7 +221,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "0700"
@@ -672,30 +719,6 @@
    }
   },
   {
-   "key": "gift-nifty",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "GIFT Nifty points to a flat open",
-   "line": "GIFT Nifty traded roughly flat to a few points higher before the bell",
-   "more": [
-    "Asian markets are lower on the US tech sell-off",
-    "October WPI inflation of 12.29% is also in focus"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: GIFT Nifty signals muted open; Asian markets decline on tech selloff",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
-   },
-   "date": "2026-11-17",
-   "slot": "0845",
-   "when": "Tue · 8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "0845"
-   }
-  },
-  {
    "key": "kalpataru-order",
    "tag": "Stocks",
    "impact": "pos",
@@ -765,30 +788,6 @@
    "first_seen": {
     "date": "2026-11-17",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "ipo-pipeline",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Crystal Crop anchor book opens Tuesday",
-   "line": "The ₹456 crore IPO at ₹259–272 opens to the public on Wednesday, November 18",
-   "more": [
-    "Mahanadi Coalfields' IPO follows on Thursday",
-    "No listings are scheduled this week"
-   ],
-   "src": {
-    "title": "Crystal Crop Protection IPO: Price band fixed at Rs 259-272, aims to raise Rs 456 crore",
-    "url": "https://businesstoday.in/markets/stocks/story/crystal-crop-protection-ipo-price-band-fixed-at-rs-259-272-aims-to-raise-rs-456-crore-567241-2026-11-13"
-   },
-   "date": "2026-11-16",
-   "slot": "2100",
-   "when": "Mon · 21:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "0800"
    }
   },
   {
