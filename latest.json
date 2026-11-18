@@ -1,32 +1,38 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-18T10:06:27+05:30",
+ "generated_at": "2026-11-18T10:36:41+05:30",
  "date": "2026-11-18",
- "slot": "1005",
- "slot_label": "10:05",
- "stage": "Opening mood",
- "asof": "2026-11-18T10:06:00+05:30",
+ "slot": "1035",
+ "slot_label": "10:35",
+ "stage": "Mid-market mood",
+ "asof": "2026-11-18T10:37:00+05:30",
+ "nifty": {
+  "value": 25293.7,
+  "pct": -0.37,
+  "chg": -93.7,
+  "asof_quote": "10:00"
+ },
  "mood": {
-  "label": "Slipping lower",
-  "score": -0.25,
-  "summary": "The market has slipped further into the red after a flat start, with IT and metals dragging, while a few stock-specific stories such as IIFL Finance buck the trend.",
+  "label": "Selling deepens",
+  "score": -0.3,
+  "summary": "Selling has deepened through the morning, led by IT, while smaller stocks are holding up better than the benchmarks and pharma and media buck the trend.",
   "detail": {
    "leaders": "IIFL Finance",
    "laggards": "Nifty IT",
-   "tone": "A live read on market behaviour rather than a fresh timed print: the market is weaker than in the previous note, with losses deepening after the flat open.",
+   "tone": "A live read: weaker than the previous note, with the benchmarks extending losses while smallcaps stay roughly flat.",
    "watch": [
-    "Whether banks steady the market as on recent days",
-    "Whether IT recovers on Nvidia's results",
-    "Mahanadi Coalfields' IPO, which opens on Thursday"
+    "Whether banks step in to steady the market",
+    "Whether IT stabilises on Nvidia's results",
+    "Whether broader-market resilience lasts"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex down 200 pts, Nifty below 25,300; IIF Finance shares gain 6%",
+    "title": "Stock Market LIVE: Sensex down 400 pts, Nifty below 25,300; SMIDs trade mixed",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Stock-specific buying, led by IIFL Finance after a large block deal",
-     "why": "Buying is confined to individual stories rather than whole sectors.",
+     "summary": "Gains are stock-specific, with IIFL Finance up after a large block deal",
+     "why": "Buying is limited to individual stories; pharma and media are the only sectors in the green.",
      "names": [
       {
        "name": "IIFL Finance",
@@ -41,17 +47,17 @@
      }
     },
     "down": {
-     "summary": "IT is among the biggest drags on the market",
+     "summary": "IT leads the decline in the benchmarks",
      "why": "US software stocks led Tuesday's Wall Street losses, and Nvidia's beat has not lifted Indian IT.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "Among the biggest laggards after a software-led sell-off in the US"
+       "line": "Among the biggest drags after a software-led sell-off in the US"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex down 200 pts, Nifty below 25,300; IIF Finance shares gain 6%",
+      "title": "Stock Market LIVE: Sensex down 400 pts, Nifty below 25,300; SMIDs trade mixed",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
      }
     }
@@ -60,28 +66,26 @@
  },
  "insights": [
   {
-   "key": "iifl-block-deal",
+   "key": "broader-market",
    "tag": "Stocks",
-   "impact": "pos",
-   "title": "IIFL Finance up 6% after Fairfax block deal",
-   "line": "About 13% of the lender changed hands pre-market at a ₹611 floor",
+   "impact": "watch",
+   "title": "Smallcaps hold up as benchmarks slide",
+   "line": "Pharma and media are the top sectoral gainers while heavyweights weigh",
    "more": [
-    "Fairfax's FIH Mauritius offered up to 13.25%, worth about ₹3,454 cr",
-    "Floor price was a 3.9% discount to Tuesday's ₹636.05 close",
-    "Shares touched ₹676.95, up 5.91%",
-    "Follows last week's ₹6,414 cr capital raise with Blackstone"
+    "Nifty SmallCap was up 0.06% at 10 am",
+    "Nifty MidCap 100 was down 0.29%"
    ],
    "src": {
-    "title": "IIFL Finance shares gain 6% after block deal; Fairfax likely seller",
-    "url": "https://www.business-standard.com/markets/news/iifl-finance-shares-gain-6-after-block-deal-fairfax-likely-seller-126111800199_1.html"
+    "title": "Stock Market LIVE: Sensex down 400 pts, Nifty below 25,300; SMIDs trade mixed",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
    },
    "date": "2026-11-18",
-   "slot": "1005",
-   "when": "10:05",
-   "updated": false,
+   "slot": "1035",
+   "when": "10:35",
+   "updated": true,
    "is_new": true,
    "first_seen": {
-    "date": "2026-11-18",
+    "date": "2026-11-16",
     "slot": "1005"
    }
   },
@@ -89,8 +93,8 @@
    "key": "software-selloff",
    "tag": "Global",
    "impact": "neg",
-   "title": "IT drags despite Nvidia's beat",
-   "line": "Indian IT tracks Tuesday's US software rout rather than Nvidia's results",
+   "title": "IT stays the weakest sector",
+   "line": "Indian IT tracks Tuesday's US software rout despite Nvidia's beat",
    "more": [
     "Salesforce fell 9.7% on Tuesday",
     "The Anthropic IPO is due later this week"
@@ -101,13 +105,37 @@
    },
    "thread": "it-sector",
    "date": "2026-11-18",
-   "slot": "1005",
-   "when": "10:05",
+   "slot": "1035",
+   "when": "10:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "0700"
+   }
+  },
+  {
+   "key": "iifl-block-deal",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IIFL Finance holds gains after block deal",
+   "line": "Fairfax's FIH Mauritius offered up to 13.25% at a ₹611 floor",
+   "more": [
+    "Shares touched ₹676.95, up 5.91%",
+    "About 56 million shares changed hands pre-market"
+   ],
+   "src": {
+    "title": "IIFL Finance shares gain 6% after block deal; Fairfax likely seller",
+    "url": "https://www.business-standard.com/markets/news/iifl-finance-shares-gain-6-after-block-deal-fairfax-likely-seller-126111800199_1.html"
+   },
+   "date": "2026-11-18",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1005"
    }
   },
   {
@@ -128,7 +156,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "0925"
@@ -630,30 +658,6 @@
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1135"
-   }
-  },
-  {
-   "key": "broader-market",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Breadth weak: 2,807 decliners vs 1,399",
-   "line": "Midcap and smallcap indices are lower even as the benchmarks rise",
-   "more": [
-    "The gains are concentrated in large-cap banks",
-    "IT is the weakest sector"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex at day's high, gains 400 pts, PNB, Canara Bank lead gains in Nifty Bank",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
-   },
-   "date": "2026-11-17",
-   "slot": "1105",
-   "when": "Tue · 11:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1005"
    }
   },
   {
