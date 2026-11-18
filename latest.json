@@ -1,56 +1,135 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-18T08:46:41+05:30",
+ "generated_at": "2026-11-18T09:26:42+05:30",
  "date": "2026-11-18",
- "slot": "0845",
- "slot_label": "8:45",
- "stage": "Pre-market mood",
- "asof": "2026-11-18T08:47:00+05:30",
+ "slot": "0925",
+ "slot_label": "9:25",
+ "stage": "Opening mood",
+ "asof": "2026-11-18T09:27:00+05:30",
  "nifty": {
-  "value": 25387.4,
-  "pct": 0.38,
-  "chg": 96.3
- },
- "metrics": {
-  "fii_net_cr": {
-   "value": 4195.38,
-   "asof": "2026-11-17 provisional",
-   "approx": false,
-   "src": {
-    "title": "FII DII Data: FII DII Activity Cash Provisional Today and Monthly",
-    "url": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/"
-   }
-  },
-  "dii_net_cr": {
-   "value": 196.93,
-   "asof": "2026-11-17 provisional",
-   "approx": false,
-   "src": {
-    "title": "FII DII Data: FII DII Activity Cash Provisional Today and Monthly",
-    "url": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/"
-   }
-  }
+  "value": 25367.85,
+  "pct": -0.05,
+  "chg": -12.0,
+  "approx": true,
+  "asof_quote": "09:15"
  },
  "mood": {
-  "label": "Soft start likely",
+  "label": "Mild early drift",
   "score": -0.15,
-  "summary": "India looks set for a softer open as GIFT Nifty trades lower after Wall Street's broad sell-off, even though Nvidia's strong results have steadied tech sentiment.",
+  "summary": "The market has opened a touch lower and is drifting down in early trade, with IT and metal stocks the weakest and midcaps also slipping.",
   "detail": {
-   "leaders": "IT may find support from Nvidia's beat",
-   "laggards": "Broad market, tracking Wall Street's losses",
-   "tone": "Forward-looking to the open: the pre-open cue has turned softer than the early Asian rally suggested, with Asia now mixed.",
+   "leaders": "No clear leaders in early trade",
+   "laggards": "Nifty IT and Nifty Metal; Nifty Midcap 100",
+   "tone": "A live read of the open: the start was softer than Tuesday's close but milder than the pre-open cue suggested, and early trade is edging lower.",
    "watch": [
-    "Whether IT holds up on Nvidia's results as the broader market dips",
-    "Whether banks extend their record run",
-    "Foreign buying, which has run for several sessions"
+    "Whether IT finds support from Nvidia's results as the session goes on",
+    "Whether banks steady the market as on recent days",
+    "Whether midcaps extend their slide"
    ],
    "src": {
-    "title": "Stock Market LIVE: GIFT Nifty down over 100 pts; Asian markets mixed post Nvidia's Q3 beat",
+    "title": "Stock Market LIVE: Sensex down 100 pts, Nifty near 25,300; IT, metal biggest laggards",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   },
+   "movers": {
+    "down": {
+     "summary": "IT and metals lead early losses, with midcaps also lower",
+     "why": "Wall Street's broad sell-off and rising US yields are weighing despite Nvidia's beat.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "down",
+       "line": "Among the biggest laggards after US software stocks led Tuesday's losses"
+      },
+      {
+       "name": "Nifty Midcap 100",
+       "dir": "down",
+       "move": "−0.29%",
+       "line": "Slipping with the wider market as risk appetite cools at the open"
+      }
+     ],
+     "src": {
+      "title": "Stock Market LIVE: Sensex down 100 pts, Nifty near 25,300; IT, metal biggest laggards",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+     }
+    }
    }
   }
  },
  "insights": [
+  {
+   "key": "market-open",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Indices open a touch lower",
+   "line": "Business Standard has IT and metal as the biggest laggards in early trade",
+   "more": [
+    "The Sensex opened down 17 points and was down 96 by 9:19 am",
+    "The open was milder than GIFT Nifty's pre-open signal"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 100 pts, Nifty near 25,300; IT, metal biggest laggards",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   },
+   "date": "2026-11-18",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "us-yields",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Rising US yields keep investors wary",
+   "line": "Nvidia lifted US tech, but higher yields and Middle East tensions weigh",
+   "more": [
+    "Nasdaq futures rallied on Nvidia's results",
+    "Tuesday's Wall Street session ended with the S&P at a five-month low"
+   ],
+   "src": {
+    "title": "Sensex & Nifty 50 live updates, 18 November: GIFT Nifty signals gap-down opening as Nasdaq rallies on Nvidia earnings",
+    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-18-november-gift-nifty-signals-gap-down-opening-as-nasdaq-rallies-on-nvidia-earnings-12818842"
+   },
+   "thread": "us-rates",
+   "date": "2026-11-18",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "software-selloff",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US software rout shadows Indian IT",
+   "line": "Software names led Tuesday's US losses; Salesforce fell 9.7%",
+   "more": [
+    "The Anthropic IPO is due later this week",
+    "Indian IT is among the weakest sectors at the open"
+   ],
+   "src": {
+    "title": "Salesforce Sinks Ahead of Anthropic IPO: Stock Market Today",
+    "url": "https://www.benzinga.com/markets/equities/26/11/63359152/stock-market-today-salesforce-software-selloff-anthropic-ipo-nvidia-november-17"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-18",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "0700"
+   }
+  },
   {
    "key": "gift-nifty",
    "tag": "Opening",
@@ -70,7 +149,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "0845"
@@ -96,7 +175,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "2100"
@@ -121,7 +200,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "0700"
@@ -145,7 +224,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "0800"
@@ -199,31 +278,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "software-selloff",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Salesforce sinks ahead of Anthropic IPO",
-   "line": "US software stocks hit hardest; Salesforce fell 9.7%",
-   "more": [
-    "Software names led Tuesday's US losses",
-    "The Anthropic IPO is due later this week"
-   ],
-   "src": {
-    "title": "Salesforce Sinks Ahead of Anthropic IPO: Stock Market Today",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63359152/stock-market-today-salesforce-software-selloff-anthropic-ipo-nvidia-november-17"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-18",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
     "slot": "0700"
    }
   },
@@ -1575,32 +1629,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1635"
-   }
-  },
-  {
-   "key": "us-yields",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "US 10-year yield ends the week above 5%",
-   "line": "Treasury yields rose on Friday after hot US inflation data and hawkish Fed remarks",
-   "more": [
-    "Reports put Friday's 10-year yield between about 5.11% and 5.15%",
-    "One report says it rose about 30 basis points over the week",
-    "The dollar index is near a 19-month high"
-   ],
-   "src": {
-    "title": "US 10-Year Yield Tops 5% as Gold Drops 2.5%",
-    "url": "https://www.riotimesonline.com/global-economy-briefing-november-13-2026/"
-   },
-   "thread": "us-rates",
-   "date": "2026-11-14",
-   "slot": "2100",
-   "when": "Sat · 21:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "2100"
    }
   },
   {
