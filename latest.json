@@ -1,23 +1,34 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-18T11:37:34+05:30",
+ "generated_at": "2026-11-18T12:06:24+05:30",
  "date": "2026-11-18",
- "slot": "1135",
- "slot_label": "11:35",
+ "slot": "1205",
+ "slot_label": "12:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-18T11:37:00+05:30",
+ "asof": "2026-11-18T12:06:00+05:30",
+ "metrics": {
+  "brent_usd": {
+   "value": 93,
+   "asof": "2026-11-18 midday",
+   "approx": true,
+   "src": {
+    "title": "Stock Market LIVE (Hindi): weak start, Sensex below 82,500, metal and auto shares fall",
+    "url": "https://hindi.business-standard.com/markets/stock-market/stock-market-live-updates-18-november-2026-sensex-nifty-gift-nifty-global-market-id-568581"
+   }
+  }
+ },
  "mood": {
-  "label": "Losses steady",
+  "label": "Heavy, broad selling",
   "score": -0.3,
-  "summary": "The market remains in the red near midday but has stopped sliding, with metals and consumer durables still the weak spots and buying limited to a few stock stories.",
+  "summary": "The market is holding in the red through midday with selling spread across most sectors, metals the hardest hit, and only scattered stock-specific gains.",
   "detail": {
    "leaders": "IIFL Finance",
-   "laggards": "Nifty Metal, SAIL and NALCO; Hindalco",
-   "tone": "A live read on market behaviour rather than a fresh timed print: losses have narrowed slightly from the previous note, with the slide pausing rather than reversing.",
+   "laggards": "Nifty Metal, SAIL and NALCO",
+   "tone": "A live read on market behaviour rather than a fresh timed print: little changed from the previous note, with the market stuck in the red and no sign of a rebound.",
    "watch": [
     "Whether banks step in to lift the market",
     "Whether metals keep sliding",
-    "Whether foreign buying holds up today"
+    "Afternoon trade in Europe and US futures"
    ],
    "src": {
     "title": "Stock Market LIVE: Sensex down 300 pts; NALCO, SAIL shares lead loss in Nifty Metal",
@@ -41,13 +52,14 @@
      }
     },
     "down": {
-     "summary": "Metals remain the weakest group, led by state-run producers",
+     "summary": "Metals remain the weakest sector, led by state-run producers",
      "why": "Weaker global commodity prices are weighing on metal and mining shares.",
      "names": [
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "line": "Leading sectoral losses as global commodity prices weaken"
+       "move": "−1.7%",
+       "line": "The worst-performing sector as global commodity prices weaken"
       },
       {
        "name": "SAIL",
@@ -60,22 +72,90 @@
        "dir": "down",
        "move": "−2.38%",
        "line": "Leading losses in the metal index alongside SAIL"
-      },
-      {
-       "name": "Hindalco",
-       "dir": "down",
-       "line": "Among the top Nifty losers as the metal sell-off spreads to large caps"
       }
      ],
      "src": {
-      "title": "Metal stocks today falls today, November 18: Hindustan Zinc declines 2.71%, SAIL down 2.55%, NALCO drops 2.38%",
-      "url": "https://businessupturn.com/finance/stock-market/metal-stocks-today-falls-today-november-18-hindustan-zinc-declines-2-71-sail-down-2-55-nalco-drops-2-38/"
+      "title": "Stock Market LIVE (Hindi): weak start, Sensex below 82,500, metal and auto shares fall",
+      "url": "https://hindi.business-standard.com/markets/stock-market/stock-market-live-updates-18-november-2026-sensex-nifty-gift-nifty-global-market-id-568581"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "metal-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Metal index down 1.7% as selling spreads",
+   "line": "Metals stay the worst sector; SAIL, NALCO and Hindustan Zinc lead losses",
+   "more": [
+    "Nifty Metal down 1.7%, per Business Standard",
+    "Weaker global commodity prices are cited"
+   ],
+   "src": {
+    "title": "Stock Market LIVE (Hindi): weak start, Sensex below 82,500, metal and auto shares fall",
+    "url": "https://hindi.business-standard.com/markets/stock-market/stock-market-live-updates-18-november-2026-sensex-nifty-gift-nifty-global-market-id-568581"
+   },
+   "date": "2026-11-18",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "indoco-remedies",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Indoco Remedies jumps about 11%",
+   "line": "The drugmaker rebounds after two days of losses; no trigger reported",
+   "more": [
+    "Shares hit ₹250.3 intraday, up 11.44%",
+    "Pharma is mixed: 14 of 22 tracked stocks are up"
+   ],
+   "src": {
+    "title": "Indoco Remedies Ltd Surges 11.87% to Day's High of Rs 250.3",
+    "url": "https://www.marketsmojo.com/news/stocks-in-action/indoco-remedies-ltd-hits-intraday-high-with-1187-surge-on-18-nov-2026-4266508"
+   },
+   "date": "2026-11-18",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1205"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Brent holds near $93",
+   "line": "Crude is slightly weaker, offering no new pressure on India",
+   "more": [
+    "Business Standard cites Brent near $93 a barrel",
+    "Easing crude was cited as a support in Tuesday's rally"
+   ],
+   "src": {
+    "title": "Stock Market LIVE (Hindi): weak start, Sensex below 82,500, metal and auto shares fall",
+    "url": "https://hindi.business-standard.com/markets/stock-market/stock-market-live-updates-18-november-2026-sensex-nifty-gift-nifty-global-market-id-568581"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-18",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "0700"
+   }
+  },
   {
    "key": "fii-flows",
    "tag": "Flows",
@@ -95,7 +175,7 @@
    "slot": "1135",
    "when": "11:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "0700"
@@ -119,7 +199,7 @@
    "slot": "1135",
    "when": "11:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1135"
@@ -143,34 +223,10 @@
    "slot": "1135",
    "when": "11:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "metal-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Metals lead the slide; SAIL, NALCO fall",
-   "line": "Weaker global commodity prices hit metal and mining shares",
-   "more": [
-    "Hindustan Zinc −2.71%, SAIL −2.55%, NALCO −2.38% in early trade",
-    "Business Standard has NALCO and SAIL leading Nifty Metal losses"
-   ],
-   "src": {
-    "title": "Metal stocks today falls today, November 18: Hindustan Zinc declines 2.71%, SAIL down 2.55%, NALCO drops 2.38%",
-    "url": "https://businessupturn.com/finance/stock-market/metal-stocks-today-falls-today-november-18-hindustan-zinc-declines-2-71-sail-down-2-55-nalco-drops-2-38/"
-   },
-   "date": "2026-11-18",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1105"
    }
   },
   {
@@ -691,31 +747,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "1335"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Brent slips below $92",
-   "line": "Oil extended losses this morning, cited as a support for Indian stocks",
-   "more": [
-    "Easing oil helps oil-importing India's inflation and currency",
-    "Surplus worries have outweighed Gulf tanker risk this week"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: ग्लोबल मार्केट से कमजोर संकेत, गिफ्ट निफ्टी 25300 के नीचे; ब्रेंट $92 के नीचे",
-    "url": "https://hindi.business-standard.com/markets/stock-market/stock-market-live-updates-17-november-2026-sensex-nifty-gift-nifty-brent-crude-id-568278"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-17",
-   "slot": "1205",
-   "when": "Tue · 12:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "0700"
    }
   },
   {
