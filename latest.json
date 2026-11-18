@@ -1,32 +1,32 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-18T18:00:42+05:30",
+ "generated_at": "2026-11-18T21:00:25+05:30",
  "date": "2026-11-18",
- "slot": "1800",
- "slot_label": "18:00",
+ "slot": "2100",
+ "slot_label": "21:00",
  "stage": "Evening wrap",
- "asof": "2026-11-18T18:01:00+05:30",
+ "asof": "2026-11-18T21:01:00+05:30",
  "nifty": {
   "value": 25227.95,
   "pct": -0.63,
   "chg": -159.45
  },
  "mood": {
-  "label": "Steadier into Thursday",
-  "score": 0.05,
-  "summary": "India heads into Thursday after a broad profit-taking session, but US futures are rising on Nvidia's results, which could steady the open if they hold.",
+  "label": "Cautious into Thursday",
+  "score": 0.0,
+  "summary": "India closed lower on profit-taking, and Wall Street is mixed early with chip stocks up and the Dow down, leaving a cautious but not weak setup for Thursday.",
   "detail": {
-   "leaders": "Tech could find support from Nvidia's beat; PSU banks held up today",
+   "leaders": "Chip-linked and tech names, helped by Nvidia's gains in US trade",
    "laggards": "Jewellery and metals, tied to gold and the dollar",
-   "tone": "Forward-looking into Thursday: today's session closed weak, but US futures are pointing higher ahead of the Fed minutes, softening the overnight backdrop.",
+   "tone": "Forward-looking into Thursday: the US session is mixed rather than the broad rally futures hinted at earlier, so the overnight cue is neutral.",
    "watch": [
     "The Fed minutes, due after midnight India time",
-    "Whether US gains hold through the session",
-    "Today's provisional FII figures"
+    "How the US session closes for the Dow and Nasdaq",
+    "Today's provisional FII figures, still not published"
    ],
    "src": {
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise after Nvidia clears hurdle, Anthropic prepares to price its IPO",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-anthropic-ipo-090613569.html"
+    "title": "Stock Market Today: Nasdaq Rises, Dow Falls at Open on Chip Rally",
+    "url": "https://journalarta.com/en/2026/11/18/wall-street-opens-mixed-as-chipmakers-lift-nasdaq-while-dow-slides/"
    }
   }
  },
@@ -34,27 +34,77 @@
   {
    "key": "us-markets",
    "tag": "Global",
-   "impact": "pos",
-   "title": "US futures rise after Nvidia's beat",
-   "line": "Nasdaq futures lead, up about 0.9–1.6% across reports; S&P futures up about 0.5%",
+   "impact": "watch",
+   "title": "Wall Street opens mixed; chips lead",
+   "line": "Nasdaq up about 0.3% early on chipmakers while the Dow falls (live)",
    "more": [
-    "Pre-open snapshots; figures vary by time",
-    "Dow futures up about 0.2–0.3%",
-    "Follows Tuesday's broad US sell-off"
+    "Early-session snapshot; the US market is still trading",
+    "Reports put the Dow down 0.3% to 0.8% in the morning"
    ],
    "src": {
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise after Nvidia clears hurdle, Anthropic prepares to price its IPO",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-anthropic-ipo-090613569.html"
+    "title": "Stock Market Today: Nasdaq Rises, Dow Falls at Open on Chip Rally",
+    "url": "https://journalarta.com/en/2026/11/18/wall-street-opens-mixed-as-chipmakers-lift-nasdaq-while-dow-slides/"
    },
    "thread": "global-markets",
    "date": "2026-11-18",
-   "slot": "1800",
-   "when": "18:00",
+   "slot": "2100",
+   "when": "21:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "0700"
+   }
+  },
+  {
+   "key": "nvidia-q3",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Nvidia up about 2% in US trade",
+   "line": "Shares rise after the beat and a $130bn Q4 revenue forecast",
+   "more": [
+    "Up 2.4% in early trading, per The Globe and Mail",
+    "Benzinga showed it up 2.23% at $158.93"
+   ],
+   "src": {
+    "title": "S&P 500, Nasdaq open higher as Nvidia forecast eases AI jitters",
+    "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-us-futures-point-to-a-higher-open-after-nvidia-earnings/"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-18",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "anthropic-ipo",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Anthropic IPO set to price this week",
+   "line": "825 million shares at $70–78; trading as ANT reportedly from 19 November",
+   "more": [
+    "Renaissance Capital sizes the offer at $61 billion",
+    "Valuation estimates vary from about $1 trillion to $1.4 trillion",
+    "Final price and date not yet confirmed"
+   ],
+   "src": {
+    "title": "Anthropic sets terms for $61 billion IPO targeting a $1.2 trillion market cap",
+    "url": "https://www.renaissancecapital.com/IPO-Center/News/122657/anthropic-sets-terms-for-61-billion-ipo-targeting-a-1.2-trillion-market-cap"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-18",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "2100"
    }
   },
   {
@@ -76,7 +126,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1800"
@@ -100,7 +150,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1800"
@@ -124,7 +174,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1800"
@@ -148,7 +198,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1005"
@@ -688,32 +738,6 @@
    "first_seen": {
     "date": "2026-11-12",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "nvidia-q3",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Nvidia's beat lifts global chip stocks",
-   "line": "Q3 revenue of $115.84bn and Q4 guidance of $130bn topped estimates",
-   "more": [
-    "Adjusted EPS $2.68 vs $2.48 expected",
-    "Q4 gross margin guided lower, to 71–72%",
-    "Indian IT takes the read-through at the open"
-   ],
-   "src": {
-    "title": "Nvidia Stock Jumps on Q3 Double Beat, Strong Outlook — 'Explosive' Demand for Vera Rubin",
-    "url": "https://www.benzinga.com/markets/earnings/26/11/63372441/nvidia-stock-jumps-on-q3-double-beat-strong-outlook-explosive-demand-for-vera-rubin"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-18",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "2100"
    }
   },
   {
