@@ -1,0 +1,170 @@
+{
+ "asof": "2026-11-18T14:37:00+05:30",
+ "summary": "The market has bounced off its lows but remains clearly in the red, with jewellery, metals and midcaps still under pressure and buying limited to stock-specific stories.",
+ "mood": {
+  "label": "Off the lows",
+  "score": -0.35,
+  "detail": {
+   "stats": [],
+   "leaders": "Ashoka Buildcon; IIFL Finance",
+   "laggards": "Titan; Nifty Consumer Durables and Nifty Metal",
+   "movers": {
+    "up": {
+     "summary": "Buyers are picking stock-specific stories such as order wins and block deals",
+     "why": "With sectors broadly lower, buying is limited to companies with fresh news.",
+     "names": [
+      {
+       "name": "Ashoka Buildcon",
+       "move": "up ~10% intraday",
+       "dir": "up",
+       "line": "Won a ₹1,465 crore NHAI expressway order in Gujarat"
+      },
+      {
+       "name": "IIFL Finance",
+       "move": "+5.91%",
+       "dir": "up",
+       "line": "Rose after about 13% of the company changed hands in a pre-market block deal"
+      }
+     ],
+     "src": {
+      "title": "Ashoka Buildcon shares zoom 10% on ₹1,465-crore NHAI project win in Gujarat",
+      "url": "https://www.business-standard.com/markets/news/ashoka-buildcon-shares-zoom-10-on-1-465-crore-nhai-project-win-in-gujarat-126111800226_1.html"
+     }
+    },
+    "down": {
+     "summary": "Jewellery and metals lead the losses as gold and metal prices slide",
+     "why": "Gold at a 14-month low is hitting jewellers, and a firmer dollar on Fed rate-hike bets is pressuring metal prices.",
+     "names": [
+      {
+       "name": "Titan",
+       "move": "−4.48%",
+       "dir": "down",
+       "line": "The biggest Nifty loser as gold slides to a 14-month low"
+      },
+      {
+       "name": "Nifty Consumer Durables",
+       "move": "−2.84%",
+       "dir": "down",
+       "line": "The worst sector, dragged by jewellery stocks"
+      },
+      {
+       "name": "Nifty Metal",
+       "move": "−2.20%",
+       "dir": "down",
+       "line": "A firmer dollar on Fed hike bets is weighing on global metal prices"
+      }
+     ],
+     "src": {
+      "title": "Stock Market Today: Sensex falls over 700 points, Nifty below 25,200; IT, FMCG stocks among top losers",
+      "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-falls-over-700-points-nifty-below-25200-it-fmcg-stocks-among-top-losers-405710"
+     }
+    }
+   },
+   "tone": "A live read: firmer than the previous note, with the market recovering part of its slide after touching the day's low, though midcaps remain notably weaker.",
+   "watch": [
+    "Whether the recovery holds into the close",
+    "Gold and the dollar, which are driving jewellery and metal stocks",
+    "Today's FII flows after several days of buying"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 300 pts, Nifty around 25,200; Karnataka Bank shares drop 5%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25238.55,
+  "pct": -0.59,
+  "chg": -148.85,
+  "asof_quote": "14:00"
+ },
+ "top": [
+  {
+   "key": "gold",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Gold hits 14-month low; jewellers fall",
+   "line": "Titan, Kalyan Jewellers and other jewellery stocks drop up to 4%",
+   "more": [
+    "Silver is near a 13-month low",
+    "Titan fell 4.48% to ₹4,688.10, the biggest Nifty loser"
+   ],
+   "src": {
+    "title": "Jewellery Stocks Fall Up to 4% as Gold Hits 14-Month Low and Silver Slides to 13-Month Low",
+    "url": "https://www.kotakneo.com/news/stocks/titan-kalyan-jewellers-pc-jeweller-thangamayil-shares-fall-as-gold-hits-14-month-low-and-silver-nears-13-month-low/"
+   }
+  },
+  {
+   "key": "metal-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Firmer dollar hits metal stocks",
+   "line": "Bets on further Fed rate hikes lift the dollar and weigh on metal prices",
+   "more": [
+    "Nifty Metal fell 2.20%",
+    "Only consumer durables fell more, down 2.84%"
+   ],
+   "thread": "us-rates",
+   "src": {
+    "title": "Stock Market Today: Sensex falls over 700 points, Nifty below 25,200; IT, FMCG stocks among top losers",
+    "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-falls-over-700-points-nifty-below-25200-it-fmcg-stocks-among-top-losers-405710"
+   }
+  },
+  {
+   "key": "caplin-point-fda",
+   "tag": "Regulation",
+   "impact": "neg",
+   "title": "Caplin Point falls 8% on US FDA status",
+   "line": "Drops after a US FDA classification for its Gummidipoondi facility",
+   "more": [
+    "Business Standard reports the 8% fall",
+    "Karnataka Bank is also down 5%"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 300 pts, Nifty around 25,200; Karnataka Bank shares drop 5%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   }
+  },
+  {
+   "key": "broader-market",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Midcaps underperform the benchmarks",
+   "line": "The midcap index is down about 1% and smallcaps about 0.4% at 2 pm",
+   "more": [
+    "Breadth has worsened since the morning",
+    "Earlier, smallcaps had held up better than the benchmarks"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 300 pts, Nifty around 25,200; Karnataka Bank shares drop 5%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market LIVE: Sensex down 300 pts, Nifty around 25,200; Karnataka Bank shares drop 5%",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+  },
+  {
+   "title": "Stock Market Today: Sensex falls over 700 points, Nifty below 25,200; IT, FMCG stocks among top losers",
+   "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-falls-over-700-points-nifty-below-25200-it-fmcg-stocks-among-top-losers-405710"
+  },
+  {
+   "title": "Jewellery Stocks Fall Up to 4% as Gold Hits 14-Month Low and Silver Slides to 13-Month Low",
+   "url": "https://www.kotakneo.com/news/stocks/titan-kalyan-jewellers-pc-jeweller-thangamayil-shares-fall-as-gold-hits-14-month-low-and-silver-nears-13-month-low/"
+  },
+  {
+   "title": "SENSEX tumbles 650 pts, NIFTY50 below 25,200 in noon deals; IIFL Finance, SpiceJet, Biocon among buzzing stocks",
+   "url": "https://upstox.com/news/market-news/stocks/sensex-tumbles-650-pts-nifty-50-below-25-200-in-noon-deals-iifl-finance-spice-jet-biocon-among-buzzing-stocks/article-203633/"
+  },
+  {
+   "title": "Ashoka Buildcon shares zoom 10% on ₹1,465-crore NHAI project win in Gujarat",
+   "url": "https://www.business-standard.com/markets/news/ashoka-buildcon-shares-zoom-10-on-1-465-crore-nhai-project-win-in-gujarat-126111800226_1.html"
+  },
+  {
+   "title": "IIFL Finance shares gain 6% after block deal; Fairfax likely seller",
+   "url": "https://www.business-standard.com/markets/news/iifl-finance-shares-gain-6-after-block-deal-fairfax-likely-seller-126111800199_1.html"
+  }
+ ]
+}

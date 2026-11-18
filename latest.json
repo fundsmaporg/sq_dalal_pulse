@@ -1,26 +1,32 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-18T14:06:17+05:30",
+ "generated_at": "2026-11-18T14:36:52+05:30",
  "date": "2026-11-18",
- "slot": "1405",
- "slot_label": "14:05",
+ "slot": "1435",
+ "slot_label": "14:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-18T14:06:00+05:30",
+ "asof": "2026-11-18T14:37:00+05:30",
+ "nifty": {
+  "value": 25238.55,
+  "pct": -0.59,
+  "chg": -148.85,
+  "asof_quote": "14:00"
+ },
  "mood": {
-  "label": "Weak, near lows",
-  "score": -0.45,
-  "summary": "The market is trading near the day's lows into the afternoon, with broad selling across metals, consumer and bank stocks and only order wins and deals drawing buyers.",
+  "label": "Off the lows",
+  "score": -0.35,
+  "summary": "The market has bounced off its lows but remains clearly in the red, with jewellery, metals and midcaps still under pressure and buying limited to stock-specific stories.",
   "detail": {
    "leaders": "Ashoka Buildcon; IIFL Finance",
-   "laggards": "Nifty Metal, SAIL and NALCO; Nifty Consumer Durables",
-   "tone": "A live read on market behaviour rather than a fresh timed print: little changed from the previous note, with the market stuck near its lows and no rebound yet.",
+   "laggards": "Titan; Nifty Consumer Durables and Nifty Metal",
+   "tone": "A live read: firmer than the previous note, with the market recovering part of its slide after touching the day's low, though midcaps remain notably weaker.",
    "watch": [
-    "Whether the market finds support into the close",
-    "Whether bank selling deepens",
-    "European trade and US futures"
+    "Whether the recovery holds into the close",
+    "Gold and the dollar, which are driving jewellery and metal stocks",
+    "Today's FII flows after several days of buying"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex drops 600 pts, hits day's low, Nifty below 25,200; metal pack down 2%",
+    "title": "Stock Market LIVE: Sensex down 300 pts, Nifty around 25,200; Karnataka Bank shares drop 5%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
    },
    "movers": {
@@ -47,42 +53,134 @@
      }
     },
     "down": {
-     "summary": "Metals lead the losses, with consumer durables also sharply lower",
-     "why": "Weaker global commodity prices are hitting metals, and Titan's slide is weighing on consumer durables.",
+     "summary": "Jewellery and metals lead the losses as gold and metal prices slide",
+     "why": "Gold at a 14-month low is hitting jewellers, and a firmer dollar on Fed rate-hike bets is pressuring metal prices.",
      "names": [
       {
-       "name": "Nifty Metal",
+       "name": "Titan",
        "dir": "down",
-       "move": "−2%",
-       "line": "The worst sector as global commodity prices weaken"
-      },
-      {
-       "name": "SAIL",
-       "dir": "down",
-       "move": "−2.55%",
-       "line": "Among the biggest metal losers on weaker commodity prices"
-      },
-      {
-       "name": "NALCO",
-       "dir": "down",
-       "move": "−2.38%",
-       "line": "Leading losses in the metal index alongside SAIL"
+       "move": "−4.48%",
+       "line": "The biggest Nifty loser as gold slides to a 14-month low"
       },
       {
        "name": "Nifty Consumer Durables",
        "dir": "down",
-       "line": "Among the worst sectors as Titan slides more than 4%"
+       "move": "−2.84%",
+       "line": "The worst sector, dragged by jewellery stocks"
+      },
+      {
+       "name": "Nifty Metal",
+       "dir": "down",
+       "move": "−2.20%",
+       "line": "A firmer dollar on Fed hike bets is weighing on global metal prices"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex drops 600 pts, hits day's low, Nifty below 25,200; metal pack down 2%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+      "title": "Stock Market Today: Sensex falls over 700 points, Nifty below 25,200; IT, FMCG stocks among top losers",
+      "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-falls-over-700-points-nifty-below-25200-it-fmcg-stocks-among-top-losers-405710"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "gold",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Gold hits 14-month low; jewellers fall",
+   "line": "Titan, Kalyan Jewellers and other jewellery stocks drop up to 4%",
+   "more": [
+    "Silver is near a 13-month low",
+    "Titan fell 4.48% to ₹4,688.10, the biggest Nifty loser"
+   ],
+   "src": {
+    "title": "Jewellery Stocks Fall Up to 4% as Gold Hits 14-Month Low and Silver Slides to 13-Month Low",
+    "url": "https://www.kotakneo.com/news/stocks/titan-kalyan-jewellers-pc-jeweller-thangamayil-shares-fall-as-gold-hits-14-month-low-and-silver-nears-13-month-low/"
+   },
+   "date": "2026-11-18",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1435"
+   }
+  },
+  {
+   "key": "metal-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Firmer dollar hits metal stocks",
+   "line": "Bets on further Fed rate hikes lift the dollar and weigh on metal prices",
+   "more": [
+    "Nifty Metal fell 2.20%",
+    "Only consumer durables fell more, down 2.84%"
+   ],
+   "src": {
+    "title": "Stock Market Today: Sensex falls over 700 points, Nifty below 25,200; IT, FMCG stocks among top losers",
+    "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-falls-over-700-points-nifty-below-25200-it-fmcg-stocks-among-top-losers-405710"
+   },
+   "thread": "us-rates",
+   "date": "2026-11-18",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "caplin-point-fda",
+   "tag": "Regulation",
+   "impact": "neg",
+   "title": "Caplin Point falls 8% on US FDA status",
+   "line": "Drops after a US FDA classification for its Gummidipoondi facility",
+   "more": [
+    "Business Standard reports the 8% fall",
+    "Karnataka Bank is also down 5%"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 300 pts, Nifty around 25,200; Karnataka Bank shares drop 5%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   },
+   "date": "2026-11-18",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1435"
+   }
+  },
+  {
+   "key": "broader-market",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Midcaps underperform the benchmarks",
+   "line": "The midcap index is down about 1% and smallcaps about 0.4% at 2 pm",
+   "more": [
+    "Breadth has worsened since the morning",
+    "Earlier, smallcaps had held up better than the benchmarks"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 300 pts, Nifty around 25,200; Karnataka Bank shares drop 5%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   },
+   "date": "2026-11-18",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1005"
+   }
+  },
   {
    "key": "ashoka-buildcon-order",
    "tag": "Stocks",
@@ -101,34 +199,10 @@
    "slot": "1405",
    "when": "14:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1405"
-   }
-  },
-  {
-   "key": "metal-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Metals stay the worst sector",
-   "line": "Weaker commodity prices keep SAIL, NALCO and Hindustan Zinc under pressure",
-   "more": [
-    "Metal index down about 2%, per Business Standard",
-    "Hindalco leads Nifty losers"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex drops 600 pts, hits day's low, Nifty below 25,200; metal pack down 2%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
-   },
-   "date": "2026-11-18",
-   "slot": "1405",
-   "when": "14:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1105"
    }
   },
   {
@@ -150,7 +224,7 @@
    "slot": "1405",
    "when": "14:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-15",
     "slot": "1800"
@@ -445,30 +519,6 @@
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "broader-market",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Smallcaps hold up as benchmarks slide",
-   "line": "Pharma and media are the top sectoral gainers while heavyweights weigh",
-   "more": [
-    "Nifty SmallCap was up 0.06% at 10 am",
-    "Nifty MidCap 100 was down 0.29%"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex down 400 pts, Nifty below 25,300; SMIDs trade mixed",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
-   },
-   "date": "2026-11-18",
-   "slot": "1035",
-   "when": "10:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1005"
    }
   },
   {
