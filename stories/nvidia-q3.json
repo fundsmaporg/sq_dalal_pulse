@@ -274,32 +274,48 @@
   }
  ],
  "dossier": {
-  "headline": "Nvidia's first results without Jensen Huang",
-  "summary": "Nvidia reports third-quarter results on Tuesday 17 November at about 4:20 pm ET, its first report since Jensen Huang stepped down as CEO, with CFO Colette Kress presenting as interim CEO. The stock fell about 13% last week and slid again on Monday, dragging the Nasdaq lower; third-quarter sales are expected around $109 billion.",
-  "status": "developing",
+  "headline": "Nvidia beats estimates and guides above them in first post-Huang report",
+  "summary": "Nvidia's Q3 revenue came in at $115.84bn against $109.08bn expected, with adjusted EPS of $2.68 against $2.48, and it guided Q4 revenue to $130bn. The report, its first since Jensen Huang stepped down as CEO, followed a slide of about 26% in a month and lifted Asian chip stocks the next morning.",
+  "status": "tracking",
   "why_it_matters": [
-   "The results are a key read for AI and chip stocks worldwide",
-   "They land before India's Wednesday open, so Indian IT and chip-linked names take the read-through"
+   "Nvidia's results set the tone for the global AI trade, including Indian IT",
+   "The beat came after weeks of selling in AI stocks and a leadership change"
   ],
-  "moved": [],
+  "moved": [
+   {
+    "name": "Nvidia",
+    "dir": "up",
+    "line": "Rose about 2.4–4.6% after hours on the results, by source"
+   },
+   {
+    "name": "Nvidia",
+    "dir": "down",
+    "line": "Fell 4.12% to $156.14 on 16 November, down 26% in a month before the report"
+   }
+  ],
   "watch": [
-   "Sales against the roughly $109 billion expectation",
-   "Guidance and commentary under the interim CEO",
+   "Whether the after-hours gain holds in regular US trade",
+   "Gross margin, guided down to 71–72% from 74.9%",
    "The read-through for Indian IT at Wednesday's open"
   ],
   "questions": [
-   "Can the results steady the stock after the leadership shock?",
-   "How much does the AI trade hinge on one report?"
+   "Will the beat stop the AI-stock selling?",
+   "How much does the lower margin guidance matter?"
   ],
-  "conflicts": [],
-  "written_at": "2026-11-16T21:05:00+05:30",
+  "conflicts": [
+   "The after-hours gain differs by source: about 2.4% (Benzinga) against 4.6% (Investing.com)",
+   "Before the report, consensus revenue was cited as $109.3bn (Visible Alpha) and $109.08bn"
+  ],
+  "written_at": "2026-11-18T07:05:00+05:30",
   "based_on_slots": [
-   "2026-11-12/2100",
-   "2026-11-14/1400",
-   "2026-11-14/1800",
-   "2026-11-15/0800",
-   "2026-11-15/outlook",
-   "2026-11-16/2100"
+   "2026-11-17/0700",
+   "2026-11-17/0925",
+   "2026-11-17/1505",
+   "2026-11-17/1535",
+   "2026-11-17/1605",
+   "2026-11-17/1800",
+   "2026-11-17/2100",
+   "2026-11-18/0700"
   ]
  }
 }
