@@ -1,37 +1,37 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-18T16:06:09+05:30",
+ "generated_at": "2026-11-18T16:38:15+05:30",
  "date": "2026-11-18",
- "slot": "1605",
- "slot_label": "16:05",
+ "slot": "1635",
+ "slot_label": "16:35",
  "stage": "Post-market mood",
- "asof": "2026-11-18T16:06:00+05:30",
+ "asof": "2026-11-18T16:38:00+05:30",
  "nifty": {
   "value": 25227.95,
   "pct": -0.63,
   "chg": -159.45
  },
  "mood": {
-  "label": "Run snapped",
+  "label": "Profit-taking",
   "score": -0.3,
-  "summary": "The market snapped a two-day winning run with a broad decline led by consumer durables, metals, autos and IT, while PSU banks and media held up.",
+  "summary": "The market ended lower on profit-taking after a strong November run, with midcaps hit hardest while pharma and PSU banks edged higher against the trend.",
   "detail": {
    "leaders": "Ashoka Buildcon; IIFL Finance",
-   "laggards": "Titan and Hindalco; Nifty Consumer Durables",
-   "tone": "A read of the finished session: the close confirms the previous note's picture, a broad pullback from nine-month highs rather than a rout, with 35 of 50 Nifty stocks lower.",
+   "laggards": "Titan; Nifty Midcap 100",
+   "tone": "A read of the finished session: the full sector data show a narrower split than earlier, with a few defensive pockets rising while midcaps fell sharply.",
    "watch": [
-    "Today's provisional FII figures after several days of buying",
+    "Today's provisional FII figures, not yet published",
     "Gold and the dollar, which drove today's worst sectors",
     "US markets tonight after Nvidia's results"
    ],
    "src": {
-    "title": "Market wrap, Nov 18: SENSEX falls 500 pts, NIFTY50 ends below 25,250; 126 stocks hit lower circuit, Titan Company top loser",
-    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-18-sensex-falls-500-pts-nifty-50-ends-below-25-250-126-stocks-hits-lower-circuit-titan-company-top-loser/article-203645/"
+    "title": "Sensex falls 500 points, Nifty declines 0.63% as investors book profits after November rally",
+    "url": "https://tribuneindia.com/news/business/sensex-falls-500-points-nifty-declines-0-63-as-investors-book-profits-after-november-rally"
    },
    "movers": {
     "up": {
      "summary": "Stock-specific stories such as order wins and block deals drew buyers",
-     "why": "With most sectors lower, buying was limited to companies with fresh news.",
+     "why": "With most of the market lower, buying was limited to companies with fresh news.",
      "names": [
       {
        "name": "Ashoka Buildcon",
@@ -52,34 +52,103 @@
      }
     },
     "down": {
-     "summary": "Jewellery and metals led the losses as gold and metal prices slid",
-     "why": "Gold at a 14-month low hit jewellers, and a firmer dollar on Fed rate-hike bets pressured metal prices.",
+     "summary": "Midcaps and jewellery stocks took the brunt of the selling",
+     "why": "Investors booked profits after November's rally, while gold's slide hit jewellers.",
      "names": [
+      {
+       "name": "Nifty Midcap 100",
+       "dir": "down",
+       "move": "−1.21%",
+       "line": "Fell about twice as much as the Nifty as profit-taking hit midcaps"
+      },
       {
        "name": "Titan",
        "dir": "down",
        "line": "The top Nifty loser as gold slid to a 14-month low"
-      },
-      {
-       "name": "Hindalco",
-       "dir": "down",
-       "line": "Among the top Nifty losers as a firmer dollar weighed on metal prices"
-      },
-      {
-       "name": "Nifty Consumer Durables",
-       "dir": "down",
-       "line": "The top sectoral loser, dragged by jewellery stocks"
       }
      ],
      "src": {
-      "title": "Market wrap, Nov 18: SENSEX falls 500 pts, NIFTY50 ends below 25,250; 126 stocks hit lower circuit, Titan Company top loser",
-      "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-18-sensex-falls-500-pts-nifty-50-ends-below-25-250-126-stocks-hits-lower-circuit-titan-company-top-loser/article-203645/"
+      "title": "Sensex falls 500 points, Nifty declines 0.63% as investors book profits after November rally",
+      "url": "https://tribuneindia.com/news/business/sensex-falls-500-points-nifty-declines-0-63-as-investors-book-profits-after-november-rally"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "broader-market",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Midcaps fall 1.2% as profits are booked",
+   "line": "Midcaps underperform after November's rally; smallcaps slip less",
+   "more": [
+    "Nifty Midcap 100 −1.21%, Smallcap 100 −0.34% (Tribune)",
+    "ChiniMandi puts the midcap fall at 1.6%"
+   ],
+   "src": {
+    "title": "Sensex falls 500 points, Nifty declines 0.63% as investors book profits after November rally",
+    "url": "https://tribuneindia.com/news/business/sensex-falls-500-points-nifty-declines-0-63-as-investors-book-profits-after-november-rally"
+   },
+   "date": "2026-11-18",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "sector-wrap",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Pharma and PSU banks edge higher",
+   "line": "A few defensive sectors rose against the broad decline",
+   "more": [
+    "Nifty PSU Bank +0.44%, Nifty Pharma +0.40% (Tribune)",
+    "Tribune has Nifty FMCG up 0.17%; Business Standard listed FMCG among the worst hit"
+   ],
+   "src": {
+    "title": "Sensex falls 500 points, Nifty declines 0.63% as investors book profits after November rally",
+    "url": "https://tribuneindia.com/news/business/sensex-falls-500-points-nifty-declines-0-63-as-investors-book-profits-after-november-rally"
+   },
+   "date": "2026-11-18",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1535"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "Wednesday's FII data still pending",
+   "line": "FIIs bought ₹4,195 cr on Tuesday, extending a buying streak",
+   "more": [
+    "Month to date: FIIs about +₹88,363 cr, DIIs about −₹52,411 cr (Kotak Neo, to 17 Nov)",
+    "Quantsapp puts DII month-to-date selling at ₹51,711 cr"
+   ],
+   "src": {
+    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-18",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-12",
+    "slot": "0700"
+   }
+  },
   {
    "key": "market-close",
    "tag": "Stocks",
@@ -99,7 +168,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1535"
@@ -123,7 +192,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1435"
@@ -148,58 +217,10 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "sector-wrap",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Pharma, healthcare and realty buck the fall",
-   "line": "They were the only outperformers as metals, IT and FMCG were the worst hit",
-   "more": [
-    "Consumer durables were the top sectoral loser",
-    "Business Standard closing report"
-   ],
-   "src": {
-    "title": "Stock Market Close: Sensex sheds 500 pts, Nifty at 25,228; consumer durables top sectoral loser",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
-   },
-   "date": "2026-11-18",
-   "slot": "1535",
-   "when": "15:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1535"
-   }
-  },
-  {
-   "key": "broader-market",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Midcaps fall about 1%",
-   "line": "The midcap index lags the benchmarks as breadth stays weak",
-   "more": [
-    "Business Standard puts the Nifty MidCap down 1%",
-    "Smallcaps had held up better in the morning"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Titan, Bajaj Fin lead 500-pt in Sensex, Nifty below 25,250; Nifty MidCap down 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
-   },
-   "date": "2026-11-18",
-   "slot": "1505",
-   "when": "15:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1005"
    }
   },
   {
@@ -486,31 +507,6 @@
    "date": "2026-11-18",
    "slot": "1205",
    "when": "12:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-12",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "Doubts over FII buying weigh on mood",
-   "line": "HDFC Sky cites worries over how long foreign inflows can last after Nvidia",
-   "more": [
-    "FIIs bought ₹4,195 cr on Tuesday (provisional)",
-    "Nvidia's beat has not translated into buying in Indian IT"
-   ],
-   "src": {
-    "title": "Sensex, Nifty Slip at Open; Metals, Durables Lead Losses",
-    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-18-2026-open-report-sensex-nifty-edge-lower-after-recent-rally-as-ai-rotation-easier-oil-cap-downside"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-18",
-   "slot": "1135",
-   "when": "11:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
