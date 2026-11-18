@@ -1,32 +1,33 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-18T14:36:52+05:30",
+ "generated_at": "2026-11-18T15:06:33+05:30",
  "date": "2026-11-18",
- "slot": "1435",
- "slot_label": "14:35",
- "stage": "Mid-market mood",
- "asof": "2026-11-18T14:37:00+05:30",
+ "slot": "1505",
+ "slot_label": "15:05",
+ "stage": "Closing mood",
+ "asof": "2026-11-18T15:07:00+05:30",
  "nifty": {
-  "value": 25238.55,
+  "value": 25237.05,
   "pct": -0.59,
-  "chg": -148.85,
-  "asof_quote": "14:00"
+  "chg": -150.35,
+  "approx": true,
+  "asof_quote": "15:00"
  },
  "mood": {
-  "label": "Off the lows",
+  "label": "Weak into close",
   "score": -0.35,
-  "summary": "The market has bounced off its lows but remains clearly in the red, with jewellery, metals and midcaps still under pressure and buying limited to stock-specific stories.",
+  "summary": "The market heads into the final half hour firmly lower, steadier than at its lows but with midcaps lagging and jewellery and metals still the weakest corners.",
   "detail": {
    "leaders": "Ashoka Buildcon; IIFL Finance",
    "laggards": "Titan; Nifty Consumer Durables and Nifty Metal",
-   "tone": "A live read: firmer than the previous note, with the market recovering part of its slide after touching the day's low, though midcaps remain notably weaker.",
+   "tone": "A live read: little changed from the previous note, with the market holding above its afternoon low but showing no real recovery into the last half hour.",
    "watch": [
-    "Whether the recovery holds into the close",
-    "Gold and the dollar, which are driving jewellery and metal stocks",
-    "Today's FII flows after several days of buying"
+    "Whether late selling takes the market back to its lows",
+    "Today's provisional FII figures after several days of buying",
+    "US markets tonight after Nvidia's results"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex down 300 pts, Nifty around 25,200; Karnataka Bank shares drop 5%",
+    "title": "Stock Market LIVE: Titan, Bajaj Fin lead 500-pt in Sensex, Nifty below 25,250; Nifty MidCap down 1%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
    },
    "movers": {
@@ -60,7 +61,7 @@
        "name": "Titan",
        "dir": "down",
        "move": "−4.48%",
-       "line": "The biggest Nifty loser as gold slides to a 14-month low"
+       "line": "Leading Sensex losses as gold slides to a 14-month low"
       },
       {
        "name": "Nifty Consumer Durables",
@@ -85,6 +86,78 @@
  },
  "insights": [
   {
+   "key": "broader-market",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Midcaps fall about 1%",
+   "line": "The midcap index lags the benchmarks as breadth stays weak",
+   "more": [
+    "Business Standard puts the Nifty MidCap down 1%",
+    "Smallcaps had held up better in the morning"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Titan, Bajaj Fin lead 500-pt in Sensex, Nifty below 25,250; Nifty MidCap down 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   },
+   "date": "2026-11-18",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "titan-q2",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Titan and Bajaj Finance lead Sensex losses",
+   "line": "Titan's slide tracks gold's drop to a 14-month low",
+   "more": [
+    "Titan fell 4.48% to ₹4,688.10",
+    "Business Standard names Bajaj Finance among the top drags"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Titan, Bajaj Fin lead 500-pt in Sensex, Nifty below 25,250; Nifty MidCap down 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   },
+   "date": "2026-11-18",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1235"
+   }
+  },
+  {
+   "key": "caplin-point-fda",
+   "tag": "Regulation",
+   "impact": "neg",
+   "title": "Caplin Point's FDA issue dates to August",
+   "line": "The Gummidipoondi unit got 10 observations after an inspection in August",
+   "more": [
+    "The inspection ran from 13 to 21 August 2026",
+    "The company called the observations procedural"
+   ],
+   "src": {
+    "title": "Caplin Steriles gets 10 USFDA observations at Gummidipoondi facility",
+    "url": "https://medicaldialogues.in/news/industry/pharma/caplin-steriles-gets-10-usfda-observations-at-gummidipoondi-facility-177775"
+   },
+   "date": "2026-11-18",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1435"
+   }
+  },
+  {
    "key": "gold",
    "tag": "Macro",
    "impact": "neg",
@@ -102,7 +175,7 @@
    "slot": "1435",
    "when": "14:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1435"
@@ -127,58 +200,10 @@
    "slot": "1435",
    "when": "14:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "caplin-point-fda",
-   "tag": "Regulation",
-   "impact": "neg",
-   "title": "Caplin Point falls 8% on US FDA status",
-   "line": "Drops after a US FDA classification for its Gummidipoondi facility",
-   "more": [
-    "Business Standard reports the 8% fall",
-    "Karnataka Bank is also down 5%"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex down 300 pts, Nifty around 25,200; Karnataka Bank shares drop 5%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
-   },
-   "date": "2026-11-18",
-   "slot": "1435",
-   "when": "14:35",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1435"
-   }
-  },
-  {
-   "key": "broader-market",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Midcaps underperform the benchmarks",
-   "line": "The midcap index is down about 1% and smallcaps about 0.4% at 2 pm",
-   "more": [
-    "Breadth has worsened since the morning",
-    "Earlier, smallcaps had held up better than the benchmarks"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex down 300 pts, Nifty around 25,200; Karnataka Bank shares drop 5%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
-   },
-   "date": "2026-11-18",
-   "slot": "1435",
-   "when": "14:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1005"
    }
   },
   {
@@ -349,30 +374,6 @@
    "first_seen": {
     "date": "2026-11-18",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "titan-q2",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Titan falls over 4%",
-   "line": "The jeweller is among the day's sharpest large-cap losers; no trigger reported",
-   "more": [
-    "Business Standard flags the fall in its live blog",
-    "Consumer stocks are among today's laggards"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex down 400 pts; Nifty near 25,200; Titan shares fall over 4%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
-   },
-   "date": "2026-11-18",
-   "slot": "1235",
-   "when": "12:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1235"
    }
   },
   {
