@@ -1,23 +1,23 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-18T13:36:50+05:30",
+ "generated_at": "2026-11-18T14:06:17+05:30",
  "date": "2026-11-18",
- "slot": "1335",
- "slot_label": "13:35",
+ "slot": "1405",
+ "slot_label": "14:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-18T13:37:00+05:30",
+ "asof": "2026-11-18T14:06:00+05:30",
  "mood": {
-  "label": "Fresh day lows",
+  "label": "Weak, near lows",
   "score": -0.45,
-  "summary": "The market has slid to fresh lows for the day, with metals the hardest hit and selling now reaching banks as well, leaving little anywhere to hide.",
+  "summary": "The market is trading near the day's lows into the afternoon, with broad selling across metals, consumer and bank stocks and only order wins and deals drawing buyers.",
   "detail": {
-   "leaders": "IIFL Finance",
+   "leaders": "Ashoka Buildcon; IIFL Finance",
    "laggards": "Nifty Metal, SAIL and NALCO; Nifty Consumer Durables",
-   "tone": "A live read on market behaviour rather than a fresh timed print: weaker than the previous note, with the benchmarks setting new lows for the day.",
+   "tone": "A live read on market behaviour rather than a fresh timed print: little changed from the previous note, with the market stuck near its lows and no rebound yet.",
    "watch": [
-    "Whether the market finds support before the close",
+    "Whether the market finds support into the close",
     "Whether bank selling deepens",
-    "European trade and US futures later in the day"
+    "European trade and US futures"
    ],
    "src": {
     "title": "Stock Market LIVE: Sensex drops 600 pts, hits day's low, Nifty below 25,200; metal pack down 2%",
@@ -25,9 +25,15 @@
    },
    "movers": {
     "up": {
-     "summary": "Gains are confined to stock-specific stories such as IIFL Finance",
-     "why": "Buying is limited to individual stories rather than sectors.",
+     "summary": "Buyers are picking stock-specific stories such as order wins and block deals",
+     "why": "With sectors broadly lower, buying is limited to companies with fresh news.",
      "names": [
+      {
+       "name": "Ashoka Buildcon",
+       "dir": "up",
+       "move": "up ~10% intraday",
+       "line": "Won a ₹1,465 crore NHAI expressway order in Gujarat"
+      },
       {
        "name": "IIFL Finance",
        "dir": "up",
@@ -36,8 +42,8 @@
       }
      ],
      "src": {
-      "title": "IIFL Finance shares gain 6% after block deal; Fairfax likely seller",
-      "url": "https://www.business-standard.com/markets/news/iifl-finance-shares-gain-6-after-block-deal-fairfax-likely-seller-126111800199_1.html"
+      "title": "Ashoka Buildcon shares zoom 10% on ₹1,465-crore NHAI project win in Gujarat",
+      "url": "https://www.business-standard.com/markets/news/ashoka-buildcon-shares-zoom-10-on-1-465-crore-nhai-project-win-in-gujarat-126111800226_1.html"
      }
     },
     "down": {
@@ -78,6 +84,79 @@
  },
  "insights": [
   {
+   "key": "ashoka-buildcon-order",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Ashoka Buildcon jumps 10% on NHAI order",
+   "line": "₹1,465 crore order for balance work on an 8-lane Gujarat expressway",
+   "more": [
+    "The contract is on EPC mode",
+    "Shares later pared some gains but stayed higher"
+   ],
+   "src": {
+    "title": "Ashoka Buildcon shares zoom 10% on ₹1,465-crore NHAI project win in Gujarat",
+    "url": "https://www.business-standard.com/markets/news/ashoka-buildcon-shares-zoom-10-on-1-465-crore-nhai-project-win-in-gujarat-126111800226_1.html"
+   },
+   "date": "2026-11-18",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1405"
+   }
+  },
+  {
+   "key": "metal-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Metals stay the worst sector",
+   "line": "Weaker commodity prices keep SAIL, NALCO and Hindustan Zinc under pressure",
+   "more": [
+    "Metal index down about 2%, per Business Standard",
+    "Hindalco leads Nifty losers"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex drops 600 pts, hits day's low, Nifty below 25,200; metal pack down 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   },
+   "date": "2026-11-18",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "mahanadi-coalfields-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Mahanadi Coalfields IPO opens Thursday",
+   "line": "Reports size the Coal India unit's offer between ₹8,981 cr and about ₹9,500 cr",
+   "more": [
+    "The issue closes on 23 November",
+    "Crystal Crop Protection's IPO opened today"
+   ],
+   "src": {
+    "title": "IPO action returns: 3 Indian share sales worth Rs 10,000 crore",
+    "url": "https://journalarta.com/en/2026/11/15/ipo-action-returns-3-indian-share-sales-rs-10000-crore/"
+   },
+   "thread": "mega-ipos-2026",
+   "date": "2026-11-18",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-15",
+    "slot": "1800"
+   }
+  },
+  {
    "key": "bank-selloff",
    "tag": "Stocks",
    "impact": "neg",
@@ -95,34 +174,10 @@
    "slot": "1335",
    "when": "13:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1235"
-   }
-  },
-  {
-   "key": "metal-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Metal index down 2% as losses deepen",
-   "line": "Metals remain the worst sector as the market hits the day's low",
-   "more": [
-    "Business Standard puts the metal pack down 2%",
-    "Hindalco leads Nifty losers"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex drops 600 pts, hits day's low, Nifty below 25,200; metal pack down 2%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
-   },
-   "date": "2026-11-18",
-   "slot": "1335",
-   "when": "13:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1105"
    }
   },
   {
@@ -143,7 +198,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1005"
@@ -1430,32 +1485,6 @@
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1405"
-   }
-  },
-  {
-   "key": "mahanadi-coalfields-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Mahanadi Coalfields sets IPO band at ₹129–136",
-   "line": "The ₹8,981 crore offer values the Coal India unit at about ₹90,000 crore at the top end",
-   "more": [
-    "The issue runs November 19–23; the lot size is 110 shares",
-    "It is entirely an offer for sale by Coal India",
-    "Goodreturns cites a grey-market premium of about 7–10%"
-   ],
-   "src": {
-    "title": "Mahanadi Coalfields Fixes Price Band at ₹129 to ₹136 for ₹8,981.12 Crore IPO",
-    "url": "https://www.angelone.in/news/ipos/mahanadi-coalfields-fixes-price-band-at-129-to-136-for-8-981-12-crore-ipo"
-   },
-   "thread": "mega-ipos-2026",
-   "date": "2026-11-16",
-   "slot": "1335",
-   "when": "Mon · 13:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "1800"
    }
   },
   {
