@@ -1,37 +1,26 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-18T12:06:24+05:30",
+ "generated_at": "2026-11-18T12:37:52+05:30",
  "date": "2026-11-18",
- "slot": "1205",
- "slot_label": "12:05",
+ "slot": "1235",
+ "slot_label": "12:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-18T12:06:00+05:30",
- "metrics": {
-  "brent_usd": {
-   "value": 93,
-   "asof": "2026-11-18 midday",
-   "approx": true,
-   "src": {
-    "title": "Stock Market LIVE (Hindi): weak start, Sensex below 82,500, metal and auto shares fall",
-    "url": "https://hindi.business-standard.com/markets/stock-market/stock-market-live-updates-18-november-2026-sensex-nifty-gift-nifty-global-market-id-568581"
-   }
-  }
- },
+ "asof": "2026-11-18T12:38:00+05:30",
  "mood": {
-  "label": "Heavy, broad selling",
-  "score": -0.3,
-  "summary": "The market is holding in the red through midday with selling spread across most sectors, metals the hardest hit, and only scattered stock-specific gains.",
+  "label": "Pinned near lows",
+  "score": -0.35,
+  "summary": "The market is sitting near the day's lows into early afternoon, with IT, metals and consumer stocks all under pressure and little sign of buyers stepping in.",
   "detail": {
    "leaders": "IIFL Finance",
    "laggards": "Nifty Metal, SAIL and NALCO",
-   "tone": "A live read on market behaviour rather than a fresh timed print: little changed from the previous note, with the market stuck in the red and no sign of a rebound.",
+   "tone": "A live read on market behaviour rather than a fresh timed print: a touch weaker than the previous note, with FMCG now adding to the drag from IT and metals.",
    "watch": [
     "Whether banks step in to lift the market",
-    "Whether metals keep sliding",
-    "Afternoon trade in Europe and US futures"
+    "Whether the selling in consumer names spreads",
+    "European trade and US futures in the afternoon"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex down 300 pts; NALCO, SAIL shares lead loss in Nifty Metal",
+    "title": "Stock Market LIVE: Sensex down 400 pts; Nifty near 25,200; Titan shares fall over 4%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
    },
    "movers": {
@@ -52,14 +41,13 @@
      }
     },
     "down": {
-     "summary": "Metals remain the weakest sector, led by state-run producers",
+     "summary": "Metals remain the weakest group, led by state-run producers",
      "why": "Weaker global commodity prices are weighing on metal and mining shares.",
      "names": [
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "move": "−1.7%",
-       "line": "The worst-performing sector as global commodity prices weaken"
+       "line": "Among the worst-performing sectors as global commodity prices weaken"
       },
       {
        "name": "SAIL",
@@ -75,14 +63,87 @@
       }
      ],
      "src": {
-      "title": "Stock Market LIVE (Hindi): weak start, Sensex below 82,500, metal and auto shares fall",
-      "url": "https://hindi.business-standard.com/markets/stock-market/stock-market-live-updates-18-november-2026-sensex-nifty-gift-nifty-global-market-id-568581"
+      "title": "Metal stocks today falls today, November 18: Hindustan Zinc declines 2.71%, SAIL down 2.55%, NALCO drops 2.38%",
+      "url": "https://businessupturn.com/finance/stock-market/metal-stocks-today-falls-today-november-18-hindustan-zinc-declines-2-71-sail-down-2-55-nalco-drops-2-38/"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "titan-q2",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Titan falls over 4%",
+   "line": "The jeweller is among the day's sharpest large-cap losers; no trigger reported",
+   "more": [
+    "Business Standard flags the fall in its live blog",
+    "Consumer stocks are among today's laggards"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 400 pts; Nifty near 25,200; Titan shares fall over 4%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   },
+   "date": "2026-11-18",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1235"
+   }
+  },
+  {
+   "key": "fmcg-drag",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "FMCG joins IT and metals in the red",
+   "line": "Consumer staples now weigh on the indices alongside tech and metals",
+   "more": [
+    "Business Standard names IT, metal and FMCG as the main drags",
+    "Metals remain the weakest sector"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 400 pts; Nifty near 25,200; Titan shares fall over 4%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+   },
+   "date": "2026-11-18",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1235"
+   }
+  },
+  {
+   "key": "software-selloff",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "IT still weighed by US software rout",
+   "line": "Indian IT has not followed Nvidia's beat higher",
+   "more": [
+    "Salesforce fell 9.7% on Tuesday",
+    "The Anthropic IPO is due later this week"
+   ],
+   "src": {
+    "title": "Salesforce Sinks Ahead of Anthropic IPO: Stock Market Today",
+    "url": "https://www.benzinga.com/markets/equities/26/11/63359152/stock-market-today-salesforce-software-selloff-anthropic-ipo-nvidia-november-17"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-18",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "0700"
+   }
+  },
   {
    "key": "metal-selloff",
    "tag": "Stocks",
@@ -101,7 +162,7 @@
    "slot": "1205",
    "when": "12:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1105"
@@ -125,7 +186,7 @@
    "slot": "1205",
    "when": "12:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1205"
@@ -150,7 +211,7 @@
    "slot": "1205",
    "when": "12:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-12",
     "slot": "0700"
@@ -251,31 +312,6 @@
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "software-selloff",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "IT stays among the biggest drags",
-   "line": "Indian IT tracks Tuesday's US software rout despite Nvidia's beat",
-   "more": [
-    "Salesforce fell 9.7% on Tuesday",
-    "The Anthropic IPO is due later this week"
-   ],
-   "src": {
-    "title": "Salesforce Sinks Ahead of Anthropic IPO: Stock Market Today",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63359152/stock-market-today-salesforce-software-selloff-anthropic-ipo-nvidia-november-17"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-18",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "0700"
    }
   },
   {
