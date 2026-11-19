@@ -1,78 +1,83 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-19T10:37:01+05:30",
+ "generated_at": "2026-11-19T11:06:14+05:30",
  "date": "2026-11-19",
- "slot": "1035",
- "slot_label": "10:35",
+ "slot": "1105",
+ "slot_label": "11:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-19T10:37:00+05:30",
+ "asof": "2026-11-19T11:06:00+05:30",
  "nifty": {
-  "value": 25260,
-  "pct": 0.13,
-  "chg": 32,
-  "approx": true,
-  "asof_quote": "10:00"
+  "value": 25291.65,
+  "pct": 0.25,
+  "chg": 63.7,
+  "asof_quote": "11:00"
  },
  "mood": {
-  "label": "Narrow, slight gains",
-  "score": 0.05,
-  "summary": "The market has edged into the green in a narrow range, with autos and pharma names finding buyers while fintech and IT stocks lag and volatility stays elevated.",
+  "label": "Autos lead gains",
+  "score": 0.15,
+  "summary": "The market is modestly higher in a narrow range, carried by a sharp rally in auto stocks, while IT and fintech names continue to weigh.",
   "detail": {
-   "leaders": "Glenmark Pharma",
-   "laggards": "Paytm and Pine Labs; Nifty IT",
-   "tone": "A live read: firmer than the previous note, with the market tipping into small gains, though trade is narrow and India VIX is up sharply.",
+   "leaders": "Nifty Auto, Maruti Suzuki and M&M",
+   "laggards": "Nifty IT; Paytm",
+   "tone": "A live read: a touch firmer than the previous note, with autos doing the heavy lifting in an otherwise narrow, range-bound market.",
    "watch": [
-    "Whether the gains broaden beyond a few heavyweights",
-    "Any official response on the reported UPI fee",
-    "Whether IT selling eases"
+    "Whether the auto rally pulls in other sectors",
+    "Whether IT steadies",
+    "Any official word on the reported UPI fee"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex up 200 pts, Nifty tops 25,250; VIX rises 6%",
+    "title": "Stock Market LIVE: Sensex stuck in range, up 200 pts; Nifty tops 25,250; Nifty Auto gains 3%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Stock-specific pharma news is drawing buyers in a narrow market",
-     "why": "Buying is concentrated in a few large caps and stock-specific stories.",
+     "summary": "Auto stocks are leading as metal input costs fall",
+     "why": "A slump in copper and aluminium prices is seen easing raw-material costs for carmakers.",
      "names": [
       {
-       "name": "Glenmark Pharma",
+       "name": "Nifty Auto",
        "dir": "up",
-       "move": "up ~2%",
-       "line": "Gained after an IND filing for a cancer antibody candidate"
+       "move": "up ~3%",
+       "line": "The top sector as falling metal prices ease input-cost worries"
+      },
+      {
+       "name": "Maruti Suzuki",
+       "dir": "up",
+       "move": "+5.35% to +6.2%",
+       "line": "Leads the auto rally on cheaper copper and aluminium"
+      },
+      {
+       "name": "Mahindra & Mahindra",
+       "dir": "up",
+       "move": "+3.44%",
+       "line": "Joins the broad auto rally, extending a strong month"
       }
      ],
      "src": {
-      "title": "19 November, 2026 Stock Market Updates: Sensex opens in green, Nifty below 25,200 as IT stocks drag",
-      "url": "https://www.indiatvnews.com/business/markets/19-november-2026-stock-market-updates-sensex-opens-in-green-nifty-below-25-200-as-it-stocks-drag-2026-11-19-1059810"
+      "title": "Auto stocks rally as copper and aluminium slump: Maruti up 6%, TVS Motor, Hero and M&M gain over 4%",
+      "url": "https://businessupturn.com/finance/stock-market/auto-stocks-rally-as-copper-and-aluminium-slump-maruti-up-6-tvs-motor-hero-and-m-m-gain-over-4/"
      }
     },
     "down": {
-     "summary": "Fintech and IT stocks are the main drags",
-     "why": "A reported UPI fee on merchant payments hit fintechs, while IT is sold amid AI worries.",
+     "summary": "IT and fintech stocks remain the main drags",
+     "why": "IT is being sold amid AI worries, and a reported UPI fee is weighing on fintechs.",
      "names": [
-      {
-       "name": "Paytm",
-       "dir": "down",
-       "move": "down up to 7%",
-       "line": "Fell on a report that merchant-to-merchant UPI payments will carry a ₹5 fee"
-      },
-      {
-       "name": "Pine Labs",
-       "dir": "down",
-       "move": "down up to 7%",
-       "line": "Hit by the same report on a UPI merchant fee"
-      },
       {
        "name": "Nifty IT",
        "dir": "down",
        "move": "−1.24%",
        "line": "The weakest sector as AI-related worries weigh on tech"
+      },
+      {
+       "name": "Paytm",
+       "dir": "down",
+       "move": "down up to 7%",
+       "line": "Fell on a report of a ₹5 fee on merchant-to-merchant UPI payments"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex up 200 pts, Nifty tops 25,250; VIX rises 6%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+      "title": "IT Stocks Witness Sharp Sell-Off! Kellton Tech Falls After KeOS Launch; Infosys, TCS, Wipro Among Top Laggards",
+      "url": "https://goodreturns.in/news/it-stocks-to-watch-kellton-tech-hcltech-infosys-tcs-more-in-focus-amid-ai-push-market-slump-1547963.html"
      }
     }
    }
@@ -80,24 +85,72 @@
  },
  "insights": [
   {
+   "key": "auto-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Autos rally as metal prices slump",
+   "line": "Cheaper copper and aluminium lift carmakers; Maruti leads with a 5–6% jump",
+   "more": [
+    "Tata Motors PV +3.46%, M&M +3.44%",
+    "TVS Motor and Hero MotoCorp also gain",
+    "Maruti and M&M are up about 17% and 20% over the past month"
+   ],
+   "src": {
+    "title": "Auto stocks rally as copper and aluminium slump: Maruti up 6%, TVS Motor, Hero and M&M gain over 4%",
+    "url": "https://businessupturn.com/finance/stock-market/auto-stocks-rally-as-copper-and-aluminium-slump-maruti-up-6-tvs-motor-hero-and-m-m-gain-over-4/"
+   },
+   "date": "2026-11-19",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "metal-selloff",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Copper and aluminium slump",
+   "line": "Falling metal prices help carmakers but weigh on producers",
+   "more": [
+    "The slump is the trigger for the auto rally, per Business Upturn",
+    "Single-source explanation"
+   ],
+   "src": {
+    "title": "Auto stocks rally as copper and aluminium slump: Maruti up 6%, TVS Motor, Hero and M&M gain over 4%",
+    "url": "https://businessupturn.com/finance/stock-market/auto-stocks-rally-as-copper-and-aluminium-slump-maruti-up-6-tvs-motor-hero-and-m-m-gain-over-4/"
+   },
+   "date": "2026-11-19",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1105"
+   }
+  },
+  {
    "key": "upi-mdr",
    "tag": "Regulation",
    "impact": "neg",
-   "title": "Reported ₹5 UPI fee hits Paytm, Pine Labs",
-   "line": "Merchant-to-merchant UPI payments to attract a ₹5 fee, Business Standard reports",
+   "title": "UPI fee report keeps fintechs down",
+   "line": "Paytm and Pine Labs remain lower on a reported ₹5 merchant UPI fee",
    "more": [
-    "Paytm and Pine Labs fell up to 7%",
-    "The fee would cover wholesalers, retailers and B2B platforms",
-    "No implementation date has been decided"
+    "No implementation date has been decided",
+    "No official confirmation yet"
    ],
    "src": {
     "title": "Stock Market LIVE: Sensex up 200 pts, Nifty tops 25,250; VIX rises 6%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
    },
    "date": "2026-11-19",
-   "slot": "1035",
-   "when": "10:35",
-   "updated": false,
+   "slot": "1105",
+   "when": "11:05",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-19",
@@ -122,7 +175,7 @@
    "slot": "1035",
    "when": "10:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1035"
@@ -147,7 +200,7 @@
    "slot": "1035",
    "when": "10:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1005"
@@ -569,31 +622,6 @@
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1435"
-   }
-  },
-  {
-   "key": "metal-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Hindalco among the day's biggest losers",
-   "line": "Fed hike bets lifted the dollar and pressured metal prices",
-   "more": [
-    "Metal, auto and IT were among the weakest sectors",
-    "HDFC Life and Bajaj Finance also among top losers"
-   ],
-   "src": {
-    "title": "Stock Market Today: Sensex falls over 700 points, Nifty below 25,200; IT, FMCG stocks among top losers",
-    "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-falls-over-700-points-nifty-below-25200-it-fmcg-stocks-among-top-losers-405710"
-   },
-   "thread": "us-rates",
-   "date": "2026-11-18",
-   "slot": "1605",
-   "when": "Wed · 16:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1105"
    }
   },
   {
