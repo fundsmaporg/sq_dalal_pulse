@@ -1,56 +1,148 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-19T07:00:12+05:30",
+ "generated_at": "2026-11-19T08:46:15+05:30",
  "date": "2026-11-19",
- "slot": "0700",
- "slot_label": "7:00",
+ "slot": "0845",
+ "slot_label": "8:45",
  "stage": "Pre-market mood",
- "asof": "2026-11-19T07:01:00+05:30",
+ "asof": "2026-11-19T08:46:00+05:30",
  "nifty": {
   "value": 25227.95,
   "pct": -0.63,
   "chg": -159.45
  },
  "metrics": {
-  "usd_inr": {
-   "value": 93.44,
-   "asof": "2026-11-18 close",
+  "brent_usd": {
+   "value": 92,
+   "asof": "2026-11-19 morning",
+   "approx": true,
+   "src": {
+    "title": "Stock Market LIVE: GIFT Nifty signals negative open; most Asian markets fall; Brent crude tops $92",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+   }
+  },
+  "fii_net_cr": {
+   "value": 5866.78,
+   "asof": "2026-11-18 provisional",
    "approx": false,
    "src": {
-    "title": "GIFT Nifty Falls Despite ₹4,195 Crore in FII Buying: Can Inflows Support the Rupee?",
-    "url": "https://coinedition.com/gift-nifty-falls-despite-%E2%82%B94195-crore-in-fii-buying-can-inflows-support-the-rupee/"
+    "title": "Trade Setup for Today: GIFT Nifty Hints at Flat Open as Wall Street Diverges and FIIs Continue Buying as of November 19, 2026",
+    "url": "https://scanx.trade/stock-market-news/markets/market-today-morning-bell-update-nifty50-share-price-sensex-share-price-crude-fii-gift-nifty-rupee-latest-19-11-2026/56601028"
+   }
+  },
+  "dii_net_cr": {
+   "value": -3159.9,
+   "asof": "2026-11-18 provisional",
+   "approx": false,
+   "src": {
+    "title": "Trade Setup for Today: GIFT Nifty Hints at Flat Open as Wall Street Diverges and FIIs Continue Buying as of November 19, 2026",
+    "url": "https://scanx.trade/stock-market-news/markets/market-today-morning-bell-update-nifty50-share-price-sensex-share-price-crude-fii-gift-nifty-rupee-latest-19-11-2026/56601028"
    }
   }
  },
  "mood": {
   "label": "Soft start likely",
   "score": -0.2,
-  "summary": "India faces a soft start after Wall Street ended mixed and the Fed signalled more rate hikes, with the dollar firm and tech the only bright spot overnight.",
+  "summary": "India looks set for a slightly lower open as GIFT Nifty dips, most of Asia falls and oil firms, though foreign investors kept buying on Wednesday.",
   "detail": {
-   "leaders": "Tech, after the Nasdaq edged higher overnight",
-   "laggards": "Rate-sensitive stocks, after hawkish Fed minutes",
-   "tone": "Forward-looking into Thursday's open: the overnight cue is weaker than the US futures suggested earlier, with the Fed minutes tilting sentiment toward caution.",
+   "leaders": "Stocks with fresh news, such as Mahanadi Coalfields' parent Coal India and Cipla",
+   "laggards": "Rate- and oil-sensitive names as crude firms and the Fed turns hawkish",
+   "tone": "Forward-looking to the open: the pre-open cue is a touch weaker than the overnight read, as oil has erased its losses and Asia has turned lower.",
    "watch": [
-    "How Asia reacts to the Fed minutes",
-    "Anthropic's Nasdaq debut, reportedly due today",
-    "Whether foreign buying in India continues"
+    "How Indian IT reacts to Nvidia's reversal overnight",
+    "Demand for the Mahanadi Coalfields IPO",
+    "Whether foreign buying continues for a fourth day"
    ],
    "src": {
-    "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-18-230002098.html"
+    "title": "Stock Market LIVE: GIFT Nifty signals negative open; most Asian markets fall; Brent crude tops $92",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
    }
   }
  },
  "insights": [
   {
+   "key": "gift-nifty",
+   "tag": "Opening",
+   "impact": "neg",
+   "title": "GIFT Nifty points to a softer open",
+   "line": "Trading around 25,164, down 76 points, as oil erases its losses",
+   "more": [
+    "Most Asian markets are lower",
+    "One report calls the open flat to slightly lower"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: GIFT Nifty signals negative open; most Asian markets fall; Brent crude tops $92",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+   },
+   "date": "2026-11-19",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs buy ₹5,867 cr; DIIs sell ₹3,160 cr",
+   "line": "Foreign investors kept buying on Wednesday's down day",
+   "more": [
+    "Third straight day of large FII inflows, ScanX reports",
+    "Single-source figures; exchange confirmation pending"
+   ],
+   "src": {
+    "title": "Trade Setup for Today: GIFT Nifty Hints at Flat Open as Wall Street Diverges and FIIs Continue Buying as of November 19, 2026",
+    "url": "https://scanx.trade/stock-market-news/markets/market-today-morning-bell-update-nifty50-share-price-sensex-share-price-crude-fii-gift-nifty-rupee-latest-19-11-2026/56601028"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-19",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "mahanadi-coalfields-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Mahanadi Coalfields IPO opens today",
+   "line": "Price band ₹129–136; the issue closes on 23 November",
+   "more": [
+    "Entirely an offer for sale by Coal India",
+    "Coal India receives all the proceeds"
+   ],
+   "src": {
+    "title": "Post-Market Report 18 Nov 2026: Nifty Snaps 2-Day Rally as Titan, Metals Drag",
+    "url": "https://www.marketcalls.in/futures-and-options/post-market-report-18-november-2026.html"
+   },
+   "thread": "mega-ipos-2026",
+   "date": "2026-11-19",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-15",
+    "slot": "1800"
+   }
+  },
+  {
    "key": "us-rates",
    "tag": "Global",
    "impact": "neg",
-   "title": "Fed minutes point to more rate hikes",
-   "line": "Almost all officials judged further rate rises likely appropriate",
+   "title": "Hawkish Fed minutes hang over Asia",
+   "line": "Almost all Fed officials judged more rate rises likely appropriate",
    "more": [
-    "The minutes cover the 27–28 October meeting",
-    "The S&P 500 slipped below its 200-day moving average"
+    "The S&P 500 fell for a fifth day",
+    "Brent has climbed back above $92"
    ],
    "src": {
     "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead",
@@ -58,8 +150,8 @@
    },
    "thread": "us-rates",
    "date": "2026-11-19",
-   "slot": "0700",
-   "when": "7:00",
+   "slot": "0845",
+   "when": "8:45",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -87,7 +179,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "0700"
@@ -112,7 +204,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "1400"
@@ -137,7 +229,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "2100"
@@ -162,7 +254,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "2100"
@@ -286,31 +378,6 @@
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1535"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "Wednesday's FII data still pending",
-   "line": "FIIs bought ₹4,195 cr on Tuesday, extending a buying streak",
-   "more": [
-    "Month to date: FIIs about +₹88,363 cr, DIIs about −₹52,411 cr (Kotak Neo, to 17 Nov)",
-    "Quantsapp puts DII month-to-date selling at ₹51,711 cr"
-   ],
-   "src": {
-    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-18",
-   "slot": "1635",
-   "when": "Wed · 16:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-13",
-    "slot": "0700"
    }
   },
   {
@@ -457,31 +524,6 @@
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1405"
-   }
-  },
-  {
-   "key": "mahanadi-coalfields-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Mahanadi Coalfields IPO opens Thursday",
-   "line": "Reports size the Coal India unit's offer between ₹8,981 cr and about ₹9,500 cr",
-   "more": [
-    "The issue closes on 23 November",
-    "Crystal Crop Protection's IPO opened today"
-   ],
-   "src": {
-    "title": "IPO action returns: 3 Indian share sales worth Rs 10,000 crore",
-    "url": "https://journalarta.com/en/2026/11/15/ipo-action-returns-3-indian-share-sales-rs-10000-crore/"
-   },
-   "thread": "mega-ipos-2026",
-   "date": "2026-11-18",
-   "slot": "1405",
-   "when": "Wed · 14:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "1800"
    }
   },
   {
@@ -749,31 +791,6 @@
    "first_seen": {
     "date": "2026-11-14",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "gift-nifty",
-   "tag": "Opening",
-   "impact": "neg",
-   "title": "GIFT Nifty points to a lower open",
-   "line": "GIFT Nifty traded at 25,256 at 8:02 am, down 122 points",
-   "more": [
-    "Business Standard flags a gap-down start",
-    "Asia is mixed: Nikkei −0.76%, Kospi +0.27%",
-    "The Kospi had jumped nearly 3% in early trade"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: GIFT Nifty down over 100 pts; Asian markets mixed post Nvidia's Q3 beat",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
-   },
-   "date": "2026-11-18",
-   "slot": "0845",
-   "when": "Wed · 8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-13",
-    "slot": "0845"
    }
   },
   {
