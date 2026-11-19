@@ -1,103 +1,150 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-19T13:06:15+05:30",
+ "generated_at": "2026-11-19T13:37:51+05:30",
  "date": "2026-11-19",
- "slot": "1305",
- "slot_label": "13:05",
+ "slot": "1335",
+ "slot_label": "13:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-19T13:08:00+05:30",
- "nifty": {
-  "value": 25367.2,
-  "pct": 0.55,
-  "chg": 139.25,
-  "approx": true,
-  "asof_quote": "13:00"
- },
+ "asof": "2026-11-19T13:40:00+05:30",
  "mood": {
-  "label": "Gains hold firm",
+  "label": "Steady, broad gains",
   "score": 0.35,
-  "summary": "The market is trading near the day's high, well clear of a soft start, as banks, autos, consumer and FMCG names carry it while IT stays under pressure.",
+  "summary": "The market is holding firm gains into the afternoon, with autos and state-run banks in front, midcaps keeping pace and IT the one clear weak spot.",
   "detail": {
-   "leaders": "Nifty Auto and Nifty PSU Bank; Maruti Suzuki and M&M",
-   "laggards": "Nifty IT; Infosys, Tech Mahindra and HCLTech",
-   "tone": "A live read on a market that has held its gains near the day's high, slightly firmer than the previous note.",
+   "leaders": "Nifty Auto and Nifty PSU Bank; Nifty Midcap 100",
+   "laggards": "Nifty IT",
+   "tone": "A live read on market behaviour rather than a fresh print: little changed from the previous note, with gains holding through a quiet early afternoon.",
    "watch": [
-    "Whether the market can push past the day's high",
-    "Whether IT selling spreads or eases",
-    "Any late selling into the close"
+    "Whether the market pushes past the day's high",
+    "Whether IT selling eases",
+    "Any late profit-taking in autos after the sharp run"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex trades at day's high, up 400 pts, Nifty tops 25,350; BL Kashyap jumps 15%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+    "title": "Market Midday, 19 November 2026: Sensex and Nifty Rise as Auto and PSU Bank Stocks Gain",
+    "url": "https://www.kotakneo.com/news/market-news/mid-market-19-november-2026-markets-gain-after-range-bound-trading/"
    },
    "movers": {
     "up": {
-     "summary": "Autos and state-run banks lead, with Maruti and M&M on top",
-     "why": "Bank and auto shares are doing most of the lifting, with consumer and FMCG names also ahead of the market.",
+     "summary": "Autos and state-run banks lead, and midcaps are keeping pace",
+     "why": "Cheaper metals are helping carmakers, state-run lenders extend their run, and buying has spread to midcaps.",
      "names": [
       {
        "name": "Nifty Auto",
        "dir": "up",
-       "line": "Among the best sectors, with carmakers helped by softer metal prices"
+       "move": "up ~3.6% (10:52)",
+       "line": "The top sector, rising as much as 4% as metal prices ease input costs"
       },
       {
        "name": "Nifty PSU Bank",
        "dir": "up",
-       "line": "State-run lenders among the outperformers as bank buying continues"
+       "move": "+1.58% (10:52)",
+       "line": "Second-best sector as state-run lenders keep rallying"
       },
       {
-       "name": "Maruti Suzuki",
+       "name": "Nifty Midcap 100",
        "dir": "up",
-       "line": "Leads the Sensex gainers as the auto rally holds"
-      },
-      {
-       "name": "Mahindra & Mahindra",
-       "dir": "up",
-       "line": "Next among the Sensex gainers alongside Maruti"
+       "move": "+0.61% (11:57)",
+       "line": "Doing a little better than the benchmarks; smallcaps lag slightly"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex trades at day's high, up 400 pts, Nifty tops 25,350; BL Kashyap jumps 15%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+      "title": "Market Midday, 19 November 2026: Sensex and Nifty Rise as Auto and PSU Bank Stocks Gain",
+      "url": "https://www.kotakneo.com/news/market-news/mid-market-19-november-2026-markets-gain-after-range-bound-trading/"
      }
     },
     "down": {
      "summary": "IT is the one sector clearly in the red",
-     "why": "Tech stocks are being sold on worries about further US rate hikes after hawkish Fed signals.",
+     "why": "Tech stocks are being sold on worries about further US rate hikes.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "The sector underperformer while the rest of the market rises"
-      },
-      {
-       "name": "Infosys",
-       "dir": "down",
-       "move": "down up to ~3%",
-       "line": "Among the top losers within the IT index"
-      },
-      {
-       "name": "Tech Mahindra",
-       "dir": "down",
-       "move": "down up to ~3%",
-       "line": "Among the top losers within the IT index"
-      },
-      {
-       "name": "HCLTech",
-       "dir": "down",
-       "move": "down up to ~3%",
-       "line": "Among the top losers within the IT index"
+       "move": "−2.1% (morning)",
+       "line": "A sharp decline in the IT index, tied to US rate concerns"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex trades at day's high, up 400 pts, Nifty tops 25,350; BL Kashyap jumps 15%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+      "title": "Auto, banking lift Sensex, Nifty on Thursday morning after mid-week slump",
+      "url": "https://www.theweek.in/news/biz-tech/2026/11/19/indian-shares-recovery-sensex-nifty.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "lt-foods-maya-kaimal",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "LT Foods buys US brand Maya Kaimal",
+   "line": "US unit to acquire the sauces and curries maker for $5.8 million",
+   "more": [
+    "Deal at enterprise value of $5.8 million, cash-free and debt-free",
+    "Shares up as much as 8–10% intraday; reports differ",
+    "Strengthens its ready-to-eat range in the US"
+   ],
+   "src": {
+    "title": "LT Foods Shares Jump 8% after $5.8 Million Maya Kaimal Acquisition",
+    "url": "https://www.kotakneo.com/news/stocks/lt-foods-share-price-rise-after-maya-kaimal-acquisition-for-usd-5-8-million/"
+   },
+   "date": "2026-11-19",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1335"
+   }
+  },
+  {
+   "key": "fmcg-gains",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Nifty FMCG snaps a two-day losing run",
+   "line": "Consumer staples join autos and PSU banks among the day's outperformers",
+   "more": [
+    "FMCG had fallen in the two previous sessions",
+    "IT is the main sector lagging"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex rises 400 pts, Nifty tops 25,300; Nifty FMCG snaps 2-day losing streak",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+   },
+   "date": "2026-11-19",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1235"
+   }
+  },
+  {
+   "key": "defence-iai-deal",
+   "tag": "Policy",
+   "impact": "pos",
+   "title": "Defence stocks rally on Israel deal",
+   "line": "Bharat Dynamics, BEL and Bharat Forge higher after the ₹1,976 crore Barak deal",
+   "more": [
+    "Deal with IAI upgrades the Navy's Barak missile system",
+    "Nifty India Defence up 1.37% around 9:50 am"
+   ],
+   "src": {
+    "title": "Defence stocks take off! Bharat Dynamics, BEL, Bharat Forge rally; 3 key triggers driving the gains",
+    "url": "https://upstox.com/news/market-news/stocks/defence-stocks-in-focus-india-signs-1-976-crore-deal-with-israel-to-upgrade-navy-s-barak-missile-system/article-203665/"
+   },
+   "date": "2026-11-19",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1135"
+   }
+  },
   {
    "key": "it-ai-selloff",
    "tag": "Stocks",
@@ -117,34 +164,10 @@
    "slot": "1305",
    "when": "13:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "fmcg-gains",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "FMCG and consumer durables outperform",
-   "line": "Both indices are among the day's better performers with autos and PSU banks",
-   "more": [
-    "Gains have broadened beyond autos and banks",
-    "IT is the main sector lagging"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex trades at day's high, up 400 pts, Nifty tops 25,350; BL Kashyap jumps 15%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
-   },
-   "date": "2026-11-19",
-   "slot": "1305",
-   "when": "13:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1235"
    }
   },
   {
@@ -166,7 +189,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-15",
     "slot": "1800"
@@ -315,30 +338,6 @@
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "defence-iai-deal",
-   "tag": "Policy",
-   "impact": "pos",
-   "title": "India signs ₹1,976 cr deal with Israel's IAI",
-   "line": "Defence names such as BEL and Bharat Dynamics are in focus",
-   "more": [
-    "Agreement worth ₹1,976.40 crore with Israel Aerospace Industries",
-    "Upstox flags BDL and BEL among stocks to watch"
-   ],
-   "src": {
-    "title": "Stocks to watch, Nov 19: Dalmia Bharat, Coal India, defence stocks, NALCO, Physicswalla, IIFL Finance",
-    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-19-dalmia-bharat-coal-india-defence-stocks-nalco-physicswalla-iifl-finance/article-203667/"
-   },
-   "date": "2026-11-19",
-   "slot": "1135",
-   "when": "11:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "1135"
    }
   },
   {
