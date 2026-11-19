@@ -1,75 +1,76 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-19T15:06:27+05:30",
+ "generated_at": "2026-11-19T15:37:13+05:30",
  "date": "2026-11-19",
- "slot": "1505",
- "slot_label": "15:05",
+ "slot": "1535",
+ "slot_label": "15:35",
  "stage": "Closing mood",
- "asof": "2026-11-19T15:08:00+05:30",
+ "asof": "2026-11-19T15:38:00+05:30",
  "nifty": {
-  "value": 25458.75,
-  "pct": 0.91,
-  "chg": 230.8,
-  "asof_quote": "15:00"
+  "value": 25503.7,
+  "pct": 1.09,
+  "chg": 275.75,
+  "approx": true,
+  "asof_quote": "15:30"
  },
  "mood": {
-  "label": "Strong into close",
-  "score": 0.55,
-  "summary": "The market is heading into the close near the day's high after a strong afternoon run, with autos and banks in front, midcaps and smallcaps joining in, and IT lagging.",
+  "label": "Strong rebound close",
+  "score": 0.6,
+  "summary": "The market finished near the day's high after a strong recovery from a weak start, led by carmakers and banks, with smaller stocks joining in and only IT left behind.",
   "detail": {
    "leaders": "Nifty Auto and Maruti Suzuki; Nifty Bank",
    "laggards": "Nifty IT",
-   "tone": "A live read: firmer again than the previous note, with the afternoon rally carrying the market to its best levels of the session ahead of the close.",
+   "tone": "A reading of the session at the close: firmer again than the previous note, with the afternoon rally holding into the final bell after a weak start.",
    "watch": [
-    "Whether the market holds near the high into the close",
-    "Late profit-taking after the sharp afternoon move",
-    "FII flow data after the session"
+    "Provisional FII and DII flow data after the close",
+    "Whether IT selling continues tomorrow",
+    "Whether autos hold today's sharp gains"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex rises 700 pts, Nifty tops 25,450; Nifty Auto soars 4%",
+    "title": "Stock Market Close: Sensex rebounds 917 pts, Nifty tops 25,514; Nifty Bank ends near new high",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Autos lead with Maruti on top, and banks are at a fresh high",
-     "why": "Heavy buying in carmakers and banks has driven the afternoon advance, with smaller stocks also rising.",
+     "summary": "Carmakers and banks powered the rebound, with Maruti the top gainer",
+     "why": "A slump in global metal prices lifted carmakers, while steady bank buying kept the banking index near a record.",
      "names": [
       {
        "name": "Nifty Auto",
        "dir": "up",
-       "move": "up ~4% (15:00)",
-       "line": "The day's standout sector as softer metal prices ease input costs"
+       "move": "up ~4%",
+       "line": "Best sector of the day as copper and aluminium fell to multi-month lows"
       },
       {
        "name": "Maruti Suzuki",
        "dir": "up",
-       "move": "+6.31%",
-       "line": "Top Nifty 50 gainer, leading the carmakers' rally"
+       "move": "up ~6.5–7%",
+       "line": "Top Nifty 50 gainer; one report calls it its best day in 15 months"
       },
       {
        "name": "Nifty Bank",
        "dir": "up",
-       "line": "Hit a fresh record as state-run lenders also outperform"
+       "line": "Ended near a new high as the banking rally extended"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex rises 700 pts, Nifty tops 25,450; Nifty Auto soars 4%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+      "title": "Maruti Suzuki stock jumps almost 7% as metal prices fall",
+      "url": "https://www.newsbytesapp.com/news/business/maruti-suzuki-stock-jumps-almost-7-as-metal-prices-fall/tldr"
      }
     },
     "down": {
-     "summary": "IT remains the one sector holding the market back",
-     "why": "Weakness in IT shares, linked to US rate-hike worries, has capped some of the market's gains.",
+     "summary": "IT was the one sector that missed the rally",
+     "why": "Tech stocks were sold through the day on worries about further US rate hikes.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "Lagging all day on worries about further US rate hikes"
+       "line": "Lagged all session on US rate-hike jitters"
       }
      ],
      "src": {
-      "title": "Stock Market Today: Sensex gains over 500 points, Nifty above 25,400; Bank Nifty hits fresh high, Auto stocks lead",
-      "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-gains-over-500-points-nifty-above-25400-bank-nifty-hits-fresh-high-auto-stocks-lead-405760"
+      "title": "Stock Market Today: Sensex, Nifty Fall Dragged By IT Firms, US Fed Rate Hike Jitters",
+      "url": "https://www.etvbharat.com/en/business/stock-market-on-november-19-sensex-nifty50-crude-oil-prices-fii-buying-enn26111901178"
      }
     }
    }
@@ -80,20 +81,20 @@
    "key": "auto-rally",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "Nifty Auto soars about 4%; Maruti up 6.3%",
-   "line": "Carmakers drive the day's rally, with Maruti the top Nifty 50 gainer",
+   "title": "Metal slump fires the best auto day in months",
+   "line": "Aluminium at a 51-month low; Maruti up about 7%, its best day in 15 months",
    "more": [
-    "Nifty Auto up about 4% at 3 pm",
-    "Maruti Suzuki up 6.31%",
-    "Lower metal prices ease input-cost pressure"
+    "Nifty Auto up about 4% on the day",
+    "Copper fell for a fifth straight session",
+    "Analysts say the cost benefit may show from Q4, as steel stays high"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex rises 700 pts, Nifty tops 25,450; Nifty Auto soars 4%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+    "title": "Auto Stocks Rally Up to 7% as Metals Slump to Multi-Month Lows, Nifty Auto Jumps 4%",
+    "url": "https://www.world-today-news.com/auto-stocks-rally-up-to-7-as-metals-slump-to-multi-month-lows-nifty-auto-jumps-4/"
    },
    "date": "2026-11-19",
-   "slot": "1505",
-   "when": "15:05",
+   "slot": "1535",
+   "when": "15:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -105,24 +106,48 @@
    "key": "bank-rally",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "Bank Nifty hits another fresh high",
-   "line": "Banks join autos in leading the afternoon advance",
+   "title": "Nifty Bank ends near a new high",
+   "line": "Banks were a main support for the day's rebound alongside autos",
    "more": [
-    "PSU bank stocks also among the outperformers",
-    "Bank stocks a key support for the rally (DSIJ)"
+    "Bank Nifty hit a fresh high during the session",
+    "PSU banks were among the outperformers"
    ],
    "src": {
-    "title": "Stock Market Today: Sensex gains over 500 points, Nifty above 25,400; Bank Nifty hits fresh high, Auto stocks lead",
-    "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-gains-over-500-points-nifty-above-25400-bank-nifty-hits-fresh-high-auto-stocks-lead-405760"
+    "title": "Stock Market Close: Sensex rebounds 917 pts, Nifty tops 25,514; Nifty Bank ends near new high",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
    },
    "date": "2026-11-19",
-   "slot": "1505",
-   "when": "15:05",
+   "slot": "1535",
+   "when": "15:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1035"
+   }
+  },
+  {
+   "key": "mahanadi-coalfields-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Mahanadi IPO sees a quiet first day",
+   "line": "Early data showed about 0.03 times subscription on day one",
+   "more": [
+    "Issue size reported as ₹8,981 cr (BS) or ₹9,001 cr (Outlook Money)",
+    "Open until 23 November; price band ₹129–136"
+   ],
+   "src": {
+    "title": "Mahanadi Coalfields IPO: Should you bid for Coal India arm? Analysts answer",
+    "url": "https://www.business-standard.com/markets/news/mahanadi-coalfields-ipo-analysts-bullish-on-reserves-growth-and-low-costs-126111900249_1.html"
+   },
+   "date": "2026-11-19",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-15",
+    "slot": "1800"
    }
   },
   {
@@ -143,7 +168,7 @@
    "slot": "1505",
    "when": "15:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1005"
@@ -390,31 +415,6 @@
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "mahanadi-coalfields-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Mahanadi Coalfields IPO starts slowly",
-   "line": "Day-one subscription about 0.03–0.05 times, per early data",
-   "more": [
-    "0.03x overall as of 10:50 am (India TV); 0.05x per IPO Premium",
-    "Price band ₹129–136; issue closes 23 November",
-    "Grey-market premium reported at ₹1.8–3.1"
-   ],
-   "src": {
-    "title": "Mahanadi Coalfields IPO GMP today as 3-day subscription opens, check listing date and other details",
-    "url": "https://www.indiatvnews.com/business/news/mahanadi-coalfields-ipo-gmp-today-price-band-listing-date-subscription-of-coal-india-subsidiary-kfin-technologies-registrar-check-full-details-2026-11-19-1059809"
-   },
-   "date": "2026-11-19",
-   "slot": "1305",
-   "when": "13:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "1800"
    }
   },
   {
