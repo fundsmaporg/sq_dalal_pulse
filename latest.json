@@ -1,77 +1,150 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-19T13:37:51+05:30",
+ "generated_at": "2026-11-19T14:06:40+05:30",
  "date": "2026-11-19",
- "slot": "1335",
- "slot_label": "13:35",
+ "slot": "1405",
+ "slot_label": "14:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-19T13:40:00+05:30",
+ "asof": "2026-11-19T14:09:00+05:30",
  "mood": {
-  "label": "Steady, broad gains",
+  "label": "Gains hold steady",
   "score": 0.35,
-  "summary": "The market is holding firm gains into the afternoon, with autos and state-run banks in front, midcaps keeping pace and IT the one clear weak spot.",
+  "summary": "The market is holding near its best levels of the day into the afternoon, with buying spread across autos, banks, FMCG and consumer durables while IT lags.",
   "detail": {
-   "leaders": "Nifty Auto and Nifty PSU Bank; Nifty Midcap 100",
+   "leaders": "Nifty Auto, Nifty PSU Bank, Nifty FMCG and Nifty Consumer Durables",
    "laggards": "Nifty IT",
-   "tone": "A live read on market behaviour rather than a fresh print: little changed from the previous note, with gains holding through a quiet early afternoon.",
+   "tone": "A live read on market behaviour rather than a fresh timed print: a touch firmer than the previous note, with gains holding near the day's best levels.",
    "watch": [
-    "Whether the market pushes past the day's high",
+    "Whether gains hold into the final hour",
     "Whether IT selling eases",
-    "Any late profit-taking in autos after the sharp run"
+    "Any late profit-taking in autos and banks"
    ],
    "src": {
-    "title": "Market Midday, 19 November 2026: Sensex and Nifty Rise as Auto and PSU Bank Stocks Gain",
-    "url": "https://www.kotakneo.com/news/market-news/mid-market-19-november-2026-markets-gain-after-range-bound-trading/"
+    "title": "Stock Market LIVE: Sensex rises 500 pts, Nifty tops 25,300; Nifty FMCG snaps 2-day losing streak",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Autos and state-run banks lead, and midcaps are keeping pace",
-     "why": "Cheaper metals are helping carmakers, state-run lenders extend their run, and buying has spread to midcaps.",
+     "summary": "Autos, state-run banks, FMCG and consumer durables lead",
+     "why": "Buying is broad across rate-sensitive and consumer sectors, with autos helped by softer metal prices.",
      "names": [
       {
        "name": "Nifty Auto",
        "dir": "up",
-       "move": "up ~3.6% (10:52)",
-       "line": "The top sector, rising as much as 4% as metal prices ease input costs"
+       "line": "Among the top sectors as softer metal prices ease carmakers' costs"
       },
       {
        "name": "Nifty PSU Bank",
        "dir": "up",
-       "move": "+1.58% (10:52)",
-       "line": "Second-best sector as state-run lenders keep rallying"
+       "line": "State-run lenders keep outperforming as their November rally extends"
       },
       {
-       "name": "Nifty Midcap 100",
+       "name": "Nifty FMCG",
        "dir": "up",
-       "move": "+0.61% (11:57)",
-       "line": "Doing a little better than the benchmarks; smallcaps lag slightly"
+       "line": "Snapping a two-day losing streak as staples see buying"
+      },
+      {
+       "name": "Nifty Consumer Durables",
+       "dir": "up",
+       "line": "Outperforming as copper-sensitive names like AC makers gain"
       }
      ],
      "src": {
-      "title": "Market Midday, 19 November 2026: Sensex and Nifty Rise as Auto and PSU Bank Stocks Gain",
-      "url": "https://www.kotakneo.com/news/market-news/mid-market-19-november-2026-markets-gain-after-range-bound-trading/"
+      "title": "Stock Market LIVE: Sensex rises 500 pts, Nifty tops 25,300; Nifty FMCG snaps 2-day losing streak",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
      }
     },
     "down": {
-     "summary": "IT is the one sector clearly in the red",
-     "why": "Tech stocks are being sold on worries about further US rate hikes.",
+     "summary": "IT is the one sector clearly lagging",
+     "why": "Tech stocks remain under pressure on worries about further US rate hikes.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "move": "−2.1% (morning)",
-       "line": "A sharp decline in the IT index, tied to US rate concerns"
+       "line": "The day's underperformer, weighed down by US rate-hike jitters"
       }
      ],
      "src": {
-      "title": "Auto, banking lift Sensex, Nifty on Thursday morning after mid-week slump",
-      "url": "https://www.theweek.in/news/biz-tech/2026/11/19/indian-shares-recovery-sensex-nifty.html"
+      "title": "Stock Market Today: Sensex, Nifty Fall Dragged By IT Firms, US Fed Rate Hike Jitters",
+      "url": "https://www.etvbharat.com/en/business/stock-market-on-november-19-sensex-nifty50-crude-oil-prices-fii-buying-enn26111901178"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "aurionpro-order",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Aurionpro wins ₹100 cr hyperscaler order",
+   "line": "Shares up about 1.9% after an additional order from a global hyperscaler",
+   "more": [
+    "Additional order worth about ₹100 crore",
+    "Reported in the midday market update"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex rises 500 pts, Nifty tops 25,300; Nifty FMCG snaps 2-day losing streak",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+   },
+   "date": "2026-11-19",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1405"
+   }
+  },
+  {
+   "key": "indo-mim-solar",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "INDO-MIM gains on solar park stake",
+   "line": "Shares up about 3% after securing stakes in Meena Solar Power Park",
+   "more": [
+    "Stake in Meena Solar Power Park secured",
+    "Reported in the midday market update"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex rises 500 pts, Nifty tops 25,300; Nifty FMCG snaps 2-day losing streak",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+   },
+   "date": "2026-11-19",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1405"
+   }
+  },
+  {
+   "key": "gpt-infra-order",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "GPT Infra recovers on lowest-bid win",
+   "line": "Subsidiary emerges lowest bidder for a project worth about ₹121 crore",
+   "more": [
+    "Shares recovered from an early loss",
+    "Project worth about ₹121 crore"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex rises 500 pts, Nifty tops 25,300; Nifty FMCG snaps 2-day losing streak",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+   },
+   "date": "2026-11-19",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1405"
+   }
+  },
   {
    "key": "lt-foods-maya-kaimal",
    "tag": "Stocks",
@@ -91,7 +164,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1335"
@@ -115,7 +188,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1235"
@@ -139,7 +212,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1135"
