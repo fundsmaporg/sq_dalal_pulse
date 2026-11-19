@@ -1,114 +1,121 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-19T16:37:17+05:30",
+ "generated_at": "2026-11-19T18:01:18+05:30",
  "date": "2026-11-19",
- "slot": "1635",
- "slot_label": "16:35",
- "stage": "Post-market mood",
- "asof": "2026-11-19T16:39:00+05:30",
+ "slot": "1800",
+ "slot_label": "18:00",
+ "stage": "Evening wrap",
+ "asof": "2026-11-19T18:05:00+05:30",
  "nifty": {
   "value": 25514.3,
   "pct": 1.14,
   "chg": 286.35
  },
  "metrics": {
-  "fii_net_cr": {
-   "value": 5866.78,
-   "asof": "2026-11-18 provisional",
+  "usd_inr": {
+   "value": 93.36,
+   "asof": "2026-11-19 close",
    "approx": false,
    "src": {
-    "title": "FII DII Data: FII DII Activity Cash Provisional Today and Monthly across NSE and BSE",
-    "url": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/"
-   }
-  },
-  "dii_net_cr": {
-   "value": -3159.9,
-   "asof": "2026-11-18 provisional",
-   "approx": false,
-   "src": {
-    "title": "FII DII Data: FII DII Activity Cash Provisional Today and Monthly across NSE and BSE",
-    "url": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/"
+    "title": "Indian rupee gains 4th day, closes 93.36 per US dollar",
+    "url": "https://www.newsbytesapp.com/news/business/indian-rupee-gains-4th-day-closes-9336-per-us-dollar/tldr"
    }
   }
  },
  "mood": {
-  "label": "Nine-month high",
-  "score": 0.6,
-  "summary": "Indian shares ended at nine-month highs after a broad rally that wiped out losses from the Middle East war, led by carmakers and banks, with midcaps and smallcaps also higher.",
+  "label": "Upbeat into Friday",
+  "score": 0.45,
+  "summary": "Indian shares go into Friday at nine-month highs with steady foreign buying and a firmer rupee behind them, and US futures pointing higher overnight.",
   "detail": {
-   "leaders": "Nifty Auto and Maruti Suzuki; Nifty Bank; Nifty Midcap 100",
-   "laggards": "Nifty IT and TCS",
-   "tone": "A reading of the finished session: the strongest finish in months, with the rally holding into the bell; today's provisional FII figures are still awaited.",
+   "leaders": "Autos and banks carried today's rally; foreign buyers remain active",
+   "laggards": "IT stays the weak spot, with US rate worries and the AI trade both in play",
+   "tone": "A forward-looking read for the next session: risk appetite looks firm after today's strong close, though IT and US rate signals are the swing factors. The evening has been light on fresh company news.",
    "watch": [
-    "Provisional FII data for today, after a seven-day buying streak",
-    "Whether IT selling continues",
-    "Global cues overnight after the hawkish Fed minutes"
+    "How Anthropic's Nasdaq debut moves global tech and the AI trade",
+    "Today's provisional FII figure, still not published",
+    "Whether autos and banks extend their gains"
    ],
    "src": {
     "title": "Market wrap, Nov 19: Indices erase Middle East war losses; NIFTY50, SENSEX hit 9-month highs, Maruti Suzuki leads gain",
     "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-19-indices-erase-middle-east-war-losses-nifty-50-sensex-hit-9-month-highs-maruti-suzuki-leads-gain/article-203713/"
-   },
-   "movers": {
-    "up": {
-     "summary": "Carmakers led, banks hit a record and midcaps joined the rally",
-     "why": "Cheaper metals lifted carmakers, foreign buying supported banks, and the gains spread to smaller stocks.",
-     "names": [
-      {
-       "name": "Nifty Auto",
-       "dir": "up",
-       "move": "up over 4%",
-       "line": "Best sector as slumping copper and aluminium prices ease input costs"
-      },
-      {
-       "name": "Maruti Suzuki",
-       "dir": "up",
-       "move": "+7.58%",
-       "line": "Led the day's gains as the top Nifty 50 stock"
-      },
-      {
-       "name": "Nifty Bank",
-       "dir": "up",
-       "move": "up ~1.6%",
-       "line": "Hit a fresh record during the session as the bank rally extended"
-      },
-      {
-       "name": "Nifty Midcap 100",
-       "dir": "up",
-       "move": "+1.06%",
-       "line": "Kept pace with the benchmarks as buying broadened; smallcaps up 0.71%"
-      }
-     ],
-     "src": {
-      "title": "Market wrap, Nov 19: Indices erase Middle East war losses; NIFTY50, SENSEX hit 9-month highs, Maruti Suzuki leads gain",
-      "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-19-indices-erase-middle-east-war-losses-nifty-50-sensex-hit-9-month-highs-maruti-suzuki-leads-gain/article-203713/"
-     }
-    },
-    "down": {
-     "summary": "IT was the one sector that ended lower",
-     "why": "Tech stocks were sold through the session on worries about further US rate hikes.",
-     "names": [
-      {
-       "name": "Nifty IT",
-       "dir": "down",
-       "move": "−1.11%",
-       "line": "The only clear sectoral laggard at the close"
-      },
-      {
-       "name": "TCS",
-       "dir": "down",
-       "move": "down over 1%",
-       "line": "Among the leading Nifty losers as IT stayed weak"
-      }
-     ],
-     "src": {
-      "title": "Stock Market Close: Sensex rebounds 990 pts, Nifty settles at 25,514; Nifty Bank ends near new high",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
-     }
-    }
    }
   }
  },
  "insights": [
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "US futures rise ahead of Anthropic debut",
+   "line": "Nasdaq-100 futures up about 2%, S&P 500 about 1% and Dow about 0.6% premarket",
+   "more": [
+    "Moves are premarket and will change before the US open",
+    "Reports credit the AI trade ahead of the listing"
+   ],
+   "src": {
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise ahead of historic Anthropic IPO",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-090910916.html"
+   },
+   "date": "2026-11-19",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "anthropic-ipo",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Anthropic prices record IPO at $83",
+   "line": "Raises about $81.3 billion, valuing it near $1.5 trillion; trading starts today",
+   "more": [
+    "Priced above the $70–78 marketed range",
+    "Lists on Nasdaq under the ticker ANT",
+    "Largest listing on record, topping SpaceX's June raise"
+   ],
+   "src": {
+    "title": "Anthropic Prices IPO at $83 a Share, Raising $81.3 Billion in Largest Listing on Record",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-prices-ipo-83-share-014000480.html"
+   },
+   "date": "2026-11-19",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee firms for a fourth straight day",
+   "line": "Closes at 93.36 per dollar, up 5 paise, on a weaker dollar and inflows",
+   "more": [
+    "Day's range 93.17–93.55",
+    "Previous close 93.44"
+   ],
+   "src": {
+    "title": "Indian rupee gains 4th day, closes 93.36 per US dollar",
+    "url": "https://www.newsbytesapp.com/news/business/indian-rupee-gains-4th-day-closes-9336-per-us-dollar/tldr"
+   },
+   "thread": "rupee",
+   "date": "2026-11-19",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "2100"
+   }
+  },
   {
    "key": "nine-month-high",
    "tag": "Stocks",
@@ -127,7 +134,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1635"
@@ -151,7 +158,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1005"
@@ -176,7 +183,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "0700"
@@ -737,82 +744,6 @@
    "first_seen": {
     "date": "2026-11-13",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Dow falls 1.1%; S&P down a fifth day",
-   "line": "Nasdaq gains 0.42% as the Dow and S&P 500 slip",
-   "more": [
-    "Dow −1.11% to 50,198.17, with UnitedHealth the biggest drag",
-    "S&P 500 −0.23%, its longest losing streak since June",
-    "Nasdaq +0.42% after touching its lowest level since April intraday"
-   ],
-   "src": {
-    "title": "Closing Look — Wednesday, November 18, 2026",
-    "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-19",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-13",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "anthropic-ipo",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Anthropic due to debut on Nasdaq today",
-   "line": "Pricing was expected on 18 November ahead of trading under ANT",
-   "more": [
-    "Dates remain subject to the final offering timetable",
-    "Final price not yet reported"
-   ],
-   "src": {
-    "title": "Anthropic's IPO: a make-or-break test for the trillion-dollar AI trade",
-    "url": "https://www.marketpulse.com/markets/anthropics-ipo-a-make-or-break-test-for-the-trillion-dollar-ai-trade/"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-19",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "2100"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee firms to 93.44 per dollar",
-   "line": "Foreign equity inflows and exporter dollar sales support the currency",
-   "more": [
-    "Up from 93.47 on Tuesday",
-    "It touched 93.255 intraday"
-   ],
-   "src": {
-    "title": "GIFT Nifty Falls Despite ₹4,195 Crore in FII Buying: Can Inflows Support the Rupee?",
-    "url": "https://coinedition.com/gift-nifty-falls-despite-%E2%82%B94195-crore-in-fii-buying-can-inflows-support-the-rupee/"
-   },
-   "thread": "rupee",
-   "date": "2026-11-19",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "2100"
    }
   },
   {
