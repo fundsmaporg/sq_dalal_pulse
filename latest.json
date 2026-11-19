@@ -1,65 +1,130 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-19T08:46:29+05:30",
+ "generated_at": "2026-11-19T09:26:17+05:30",
  "date": "2026-11-19",
- "slot": "0845",
- "slot_label": "8:45",
- "stage": "Pre-market mood",
- "asof": "2026-11-19T08:46:00+05:30",
+ "slot": "0925",
+ "slot_label": "9:25",
+ "stage": "Opening mood",
+ "asof": "2026-11-19T09:27:00+05:30",
  "nifty": {
-  "value": 25227.95,
-  "pct": -0.63,
-  "chg": -159.45
- },
- "metrics": {
-  "brent_usd": {
-   "value": 92,
-   "asof": "2026-11-19 morning",
-   "approx": true,
-   "src": {
-    "title": "Stock Market LIVE: GIFT Nifty signals negative open; most Asian markets fall; Brent crude tops $92",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
-   }
-  },
-  "fii_net_cr": {
-   "value": 5866.78,
-   "asof": "2026-11-18 provisional",
-   "approx": false,
-   "src": {
-    "title": "Trade Setup for Today: GIFT Nifty Hints at Flat Open as Wall Street Diverges and FIIs Continue Buying as of November 19, 2026",
-    "url": "https://scanx.trade/stock-market-news/markets/market-today-morning-bell-update-nifty50-share-price-sensex-share-price-crude-fii-gift-nifty-rupee-latest-19-11-2026/56601028"
-   }
-  },
-  "dii_net_cr": {
-   "value": -3159.9,
-   "asof": "2026-11-18 provisional",
-   "approx": false,
-   "src": {
-    "title": "Trade Setup for Today: GIFT Nifty Hints at Flat Open as Wall Street Diverges and FIIs Continue Buying as of November 19, 2026",
-    "url": "https://scanx.trade/stock-market-news/markets/market-today-morning-bell-update-nifty50-share-price-sensex-share-price-crude-fii-gift-nifty-rupee-latest-19-11-2026/56601028"
-   }
-  }
+  "value": 25160.5,
+  "pct": -0.26,
+  "chg": -64.85,
+  "approx": true,
+  "asof_quote": "09:15"
  },
  "mood": {
-  "label": "Soft start likely",
-  "score": -0.2,
-  "summary": "India looks set for a slightly lower open as GIFT Nifty dips, most of Asia falls and oil firms, though foreign investors kept buying on Wednesday.",
+  "label": "Mild early dip",
+  "score": -0.15,
+  "summary": "The market has opened modestly lower, with IT stocks leading the early losses while a few bank and telecom heavyweights edge higher.",
   "detail": {
-   "leaders": "Stocks with fresh news, such as Cipla after its US FDA all-clear",
-   "laggards": "Rate- and oil-sensitive names as crude firms and the Fed turns hawkish",
-   "tone": "Forward-looking to the open: the pre-open cue is a touch weaker than the overnight read, as oil has erased its losses and Asia has turned lower.",
+   "leaders": "SBI, Bharti Airtel and Axis Bank edging higher",
+   "laggards": "Infosys and IT stocks",
+   "tone": "A live read of the open: in line with the softer pre-open cue, with a modest dip rather than a sharp gap down.",
    "watch": [
-    "How Indian IT reacts to Nvidia's reversal overnight",
-    "Demand for the Mahanadi Coalfields IPO",
-    "Whether foreign buying continues for a fourth day"
+    "Whether IT selling deepens or stabilises",
+    "Whether banks can lift the market as they did earlier this week",
+    "Demand for the Mahanadi Coalfields IPO, open from today"
    ],
    "src": {
-    "title": "Stock Market LIVE: GIFT Nifty signals negative open; most Asian markets fall; Brent crude tops $92",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+    "title": "Stock Market Opening Bell: Sensex falls 107 Points, Nifty below 25,200; IT stocks drag",
+    "url": "https://www.zeebiz.com/market-news/news-stock-market-opening-bell-sensex-falls-107-points-nifty-below-25200-it-stocks-drag-405738"
+   },
+   "movers": {
+    "down": {
+     "summary": "IT stocks lead the early decline",
+     "why": "Weak global cues are weighing on tech, with Nvidia giving up its post-results gain overnight.",
+     "names": [
+      {
+       "name": "Infosys",
+       "dir": "down",
+       "move": "−1.25%",
+       "line": "The biggest Nifty loser at the open as IT drags the market"
+      }
+     ],
+     "src": {
+      "title": "Stock Market Opening Bell: Sensex falls 107 Points, Nifty below 25,200; IT stocks drag",
+      "url": "https://www.zeebiz.com/market-news/news-stock-market-opening-bell-sensex-falls-107-points-nifty-below-25200-it-stocks-drag-405738"
+     }
+    }
    }
   }
  },
  "insights": [
+  {
+   "key": "opening-bell",
+   "tag": "Opening",
+   "impact": "neg",
+   "title": "Indices open lower; IT drags",
+   "line": "Infosys leads early losses while SBI, Airtel and Axis Bank edge up",
+   "more": [
+    "SBI +1.23%, Bharti Airtel +0.92%, Bajaj Finserv +0.70%",
+    "Eternal −1.09%, Asian Paints −0.81%"
+   ],
+   "src": {
+    "title": "Stock Market Opening Bell: Sensex falls 107 Points, Nifty below 25,200; IT stocks drag",
+    "url": "https://www.zeebiz.com/market-news/news-stock-market-opening-bell-sensex-falls-107-points-nifty-below-25200-it-stocks-drag-405738"
+   },
+   "date": "2026-11-19",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "nvidia-q3",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Nvidia's overnight reversal weighs on IT",
+   "line": "Nvidia gave up its post-results gain and closed lower in US trade",
+   "more": [
+    "The beat failed to restore investor confidence, per Yahoo Finance",
+    "Indian IT is leading the early decline"
+   ],
+   "src": {
+    "title": "Stock Market Midday, Nov. 18: Nvidia Doubles Revenue, but Wall Street's Sell-Off Continues",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-midday-nov-18-173002817.html"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-19",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "mahanadi-coalfields-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Mahanadi Coalfields IPO now open",
+   "line": "Bids open today at ₹129–136 a share; the issue closes on 23 November",
+   "more": [
+    "An offer for sale by Coal India",
+    "Coal India receives all the proceeds"
+   ],
+   "src": {
+    "title": "Post-Market Report 18 Nov 2026: Nifty Snaps 2-Day Rally as Titan, Metals Drag",
+    "url": "https://www.marketcalls.in/futures-and-options/post-market-report-18-november-2026.html"
+   },
+   "thread": "mega-ipos-2026",
+   "date": "2026-11-19",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-15",
+    "slot": "1800"
+   }
+  },
   {
    "key": "gift-nifty",
    "tag": "Opening",
@@ -78,7 +143,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "0845"
@@ -103,35 +168,10 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "mahanadi-coalfields-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Mahanadi Coalfields IPO opens today",
-   "line": "Price band ₹129–136; the issue closes on 23 November",
-   "more": [
-    "Entirely an offer for sale by Coal India",
-    "Coal India receives all the proceeds"
-   ],
-   "src": {
-    "title": "Post-Market Report 18 Nov 2026: Nifty Snaps 2-Day Rally as Titan, Metals Drag",
-    "url": "https://www.marketcalls.in/futures-and-options/post-market-report-18-november-2026.html"
-   },
-   "thread": "mega-ipos-2026",
-   "date": "2026-11-19",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "1800"
    }
   },
   {
@@ -153,7 +193,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1800"
@@ -183,31 +223,6 @@
    "first_seen": {
     "date": "2026-11-13",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "nvidia-q3",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Nvidia gives up its post-results pop",
-   "line": "Shares reversed early gains to close lower despite strong results",
-   "more": [
-    "The beat failed to restore investor confidence, per Yahoo Finance",
-    "Indian IT takes the read-through at the open"
-   ],
-   "src": {
-    "title": "Stock Market Midday, Nov. 18: Nvidia Doubles Revenue, but Wall Street's Sell-Off Continues",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-midday-nov-18-173002817.html"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-19",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "1400"
    }
   },
   {
@@ -742,30 +757,6 @@
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "opening-bell",
-   "tag": "Opening",
-   "impact": "neg",
-   "title": "Losses deepen after a flat open",
-   "line": "Selling has spread since a flat start, with IT and metals leading losses",
-   "more": [
-    "The open was milder than the pre-open signal",
-    "IT and metal were the biggest laggards early on"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex down 200 pts, Nifty below 25,300; IIF Finance shares gain 6%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
-   },
-   "date": "2026-11-18",
-   "slot": "1005",
-   "when": "Wed · 10:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-13",
-    "slot": "0925"
    }
   },
   {
