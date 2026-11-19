@@ -1,43 +1,52 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-19T18:01:18+05:30",
+ "generated_at": "2026-11-19T21:00:50+05:30",
  "date": "2026-11-19",
- "slot": "1800",
- "slot_label": "18:00",
+ "slot": "2100",
+ "slot_label": "21:00",
  "stage": "Evening wrap",
- "asof": "2026-11-19T18:05:00+05:30",
+ "asof": "2026-11-19T21:05:00+05:30",
  "nifty": {
   "value": 25514.3,
   "pct": 1.14,
   "chg": 286.35
  },
  "metrics": {
-  "usd_inr": {
-   "value": 93.36,
-   "asof": "2026-11-19 close",
+  "fii_net_cr": {
+   "value": 7411.41,
+   "asof": "2026-11-19 provisional",
    "approx": false,
    "src": {
-    "title": "Indian rupee gains 4th day, closes 93.36 per US dollar",
-    "url": "https://www.newsbytesapp.com/news/business/indian-rupee-gains-4th-day-closes-9336-per-us-dollar/tldr"
+    "title": "FII DII Data - Get Buy Sell Activities in Future Option and Cash",
+    "url": "https://scanx.trade/insight/fii-dii-data"
+   }
+  },
+  "dii_net_cr": {
+   "value": -1356.57,
+   "asof": "2026-11-19 provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data - Get Buy Sell Activities in Future Option and Cash",
+    "url": "https://scanx.trade/insight/fii-dii-data"
    }
   }
  },
  "mood": {
-  "label": "Upbeat into Friday",
-  "score": 0.45,
-  "summary": "Indian shares go into Friday at nine-month highs with steady foreign buying and a firmer rupee behind them, and US futures pointing higher overnight.",
+  "label": "Firm start likely",
+  "score": 0.5,
+  "summary": "Indian shares head into Friday at nine-month highs with foreign buyers still adding, and Wall Street trading higher as a big AI listing lifts tech.",
   "detail": {
-   "leaders": "Autos and banks carried today's rally; foreign buyers remain active",
-   "laggards": "IT stays the weak spot, with US rate worries and the AI trade both in play",
-   "tone": "A forward-looking read for the next session: risk appetite looks firm after today's strong close, though IT and US rate signals are the swing factors. The evening has been light on fresh company news.",
+   "leaders": "Autos and banks led today; foreign buying looks set to continue",
+   "laggards": "IT remains the weak spot, though a stronger US tech tone may help",
+   "tone": "A forward-looking read for the next session: firmer than the previous note, as US markets opened higher and foreign buyers stepped up again today.",
    "watch": [
-    "How Anthropic's Nasdaq debut moves global tech and the AI trade",
-    "Today's provisional FII figure, still not published",
-    "Whether autos and banks extend their gains"
+    "Where Wall Street closes after Anthropic's first day of trading",
+    "Whether IT stocks catch a lift from the US tech rally",
+    "Confirmation of today's provisional FII figure"
    ],
    "src": {
-    "title": "Market wrap, Nov 19: Indices erase Middle East war losses; NIFTY50, SENSEX hit 9-month highs, Maruti Suzuki leads gain",
-    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-19-indices-erase-middle-east-war-losses-nifty-50-sensex-hit-9-month-highs-maruti-suzuki-leads-gain/article-203713/"
+    "title": "Nasdaq rises over 1% at open as Anthropic IPO pricing bolsters AI trade",
+    "url": "https://www.investing.com/news/stock-market-news/nasdaq-rises-over-1-at-open-asanthropic-ipo-pricing-bolsters-ai-trade-5039286"
    }
   }
  },
@@ -46,19 +55,19 @@
    "key": "us-markets",
    "tag": "Global",
    "impact": "pos",
-   "title": "US futures rise ahead of Anthropic debut",
-   "line": "Nasdaq-100 futures up about 2%, S&P 500 about 1% and Dow about 0.6% premarket",
+   "title": "Wall Street opens higher; Nasdaq leads",
+   "line": "Nasdaq up 1.55%, S&P 500 up 0.9% and Dow up 0.47% at the open",
    "more": [
-    "Moves are premarket and will change before the US open",
-    "Reports credit the AI trade ahead of the listing"
+    "Gains led by tech as the AI trade revives",
+    "These are opening moves; the session is still live"
    ],
    "src": {
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise ahead of historic Anthropic IPO",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-090910916.html"
+    "title": "Nasdaq rises over 1% at open as Anthropic IPO pricing bolsters AI trade",
+    "url": "https://www.investing.com/news/stock-market-news/nasdaq-rises-over-1-at-open-asanthropic-ipo-pricing-bolsters-ai-trade-5039286"
    },
    "date": "2026-11-19",
-   "slot": "1800",
-   "when": "18:00",
+   "slot": "2100",
+   "when": "21:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -70,25 +79,50 @@
    "key": "anthropic-ipo",
    "tag": "Global",
    "impact": "watch",
-   "title": "Anthropic prices record IPO at $83",
-   "line": "Raises about $81.3 billion, valuing it near $1.5 trillion; trading starts today",
+   "title": "Anthropic indicated well above IPO price",
+   "line": "Pre-open indication of about $105 against the $83 offer price",
    "more": [
-    "Priced above the $70–78 marketed range",
-    "Lists on Nasdaq under the ticker ANT",
-    "Largest listing on record, topping SpaceX's June raise"
+    "The $81.3 bn offering is the largest on record",
+    "Debut seen as a test of broader AI sentiment",
+    "Opening-price reports differ between sources"
    ],
    "src": {
-    "title": "Anthropic Prices IPO at $83 a Share, Raising $81.3 Billion in Largest Listing on Record",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-prices-ipo-83-share-014000480.html"
+    "title": "Nasdaq jumps 1.5% as Anthropic is indicated to surge in IPO debut",
+    "url": "https://qz.com/nasdaq-jumps-anthropic-ipo-debut-stock-111926"
    },
    "date": "2026-11-19",
-   "slot": "1800",
-   "when": "18:00",
+   "slot": "2100",
+   "when": "21:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "2100"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs buy ₹7,411 cr on Thursday",
+   "line": "Provisional data shows an eighth straight day of foreign buying",
+   "more": [
+    "DIIs net sellers of about ₹1,357 crore",
+    "Single source so far; not yet confirmed by NSE"
+   ],
+   "src": {
+    "title": "FII DII Data - Get Buy Sell Activities in Future Option and Cash",
+    "url": "https://scanx.trade/insight/fii-dii-data"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-19",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "0700"
    }
   },
   {
@@ -110,7 +144,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "2100"
@@ -162,31 +196,6 @@
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "Today's FII figure still awaited",
-   "line": "FIIs net bought ₹5,867 cr on 18 Nov; data for today not yet out",
-   "more": [
-    "DIIs net sold about ₹3,160 cr on 18 Nov",
-    "FIIs also hold a net short index-futures position (NiftyTrader)"
-   ],
-   "src": {
-    "title": "FII DII Data Today: NSE/BSE Cash & F&O Activity",
-    "url": "https://www.niftytrader.in/fii-dii-data"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-19",
-   "slot": "1635",
-   "when": "16:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-13",
-    "slot": "0700"
    }
   },
   {
