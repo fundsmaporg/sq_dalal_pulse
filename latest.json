@@ -1,23 +1,30 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-19T12:37:04+05:30",
+ "generated_at": "2026-11-19T13:06:15+05:30",
  "date": "2026-11-19",
- "slot": "1235",
- "slot_label": "12:35",
+ "slot": "1305",
+ "slot_label": "13:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-19T12:38:00+05:30",
+ "asof": "2026-11-19T13:08:00+05:30",
+ "nifty": {
+  "value": 25367.2,
+  "pct": 0.55,
+  "chg": 139.25,
+  "approx": true,
+  "asof_quote": "13:00"
+ },
  "mood": {
-  "label": "Holding near highs",
-  "score": 0.3,
-  "summary": "The market is holding near the day's high in a narrow band, led by autos, state-run banks and metal-sensitive consumer names, with IT the main weight.",
+  "label": "Gains hold firm",
+  "score": 0.35,
+  "summary": "The market is trading near the day's high, well clear of a soft start, as banks, autos, consumer and FMCG names carry it while IT stays under pressure.",
   "detail": {
-   "leaders": "Nifty Auto and Nifty PSU Bank; Voltas",
-   "laggards": "Nifty IT",
-   "tone": "A live read on market behaviour rather than a fresh print: little changed from the previous note, with the market parked near the day's high and moving in a tight range.",
+   "leaders": "Nifty Auto and Nifty PSU Bank; Maruti Suzuki and M&M",
+   "laggards": "Nifty IT; Infosys, Tech Mahindra and HCLTech",
+   "tone": "A live read on a market that has held its gains near the day's high, slightly firmer than the previous note.",
    "watch": [
-    "Whether state-run banks push through their record",
-    "Whether IT selling eases into the afternoon",
-    "Any break out of the narrow range"
+    "Whether the market can push past the day's high",
+    "Whether IT selling spreads or eases",
+    "Any late selling into the close"
    ],
    "src": {
     "title": "Stock Market LIVE: Sensex trades at day's high, up 400 pts, Nifty tops 25,350; BL Kashyap jumps 15%",
@@ -25,25 +32,28 @@
    },
    "movers": {
     "up": {
-     "summary": "Autos, state-run banks and AC makers lead",
-     "why": "Falling copper prices are helping carmakers and AC makers, while state-run lenders extend a month-long run.",
+     "summary": "Autos and state-run banks lead, with Maruti and M&M on top",
+     "why": "Bank and auto shares are doing most of the lifting, with consumer and FMCG names also ahead of the market.",
      "names": [
       {
        "name": "Nifty Auto",
        "dir": "up",
-       "line": "Among the top two sectors as cheaper metals ease input costs"
+       "line": "Among the best sectors, with carmakers helped by softer metal prices"
       },
       {
        "name": "Nifty PSU Bank",
        "dir": "up",
-       "move": "+2.3%",
-       "line": "Closing in on its February record after a strong November run"
+       "line": "State-run lenders among the outperformers as bank buying continues"
       },
       {
-       "name": "Voltas",
+       "name": "Maruti Suzuki",
        "dir": "up",
-       "move": "up ~8% (intraday high)",
-       "line": "AC makers rally as copper hits a seven-month low"
+       "line": "Leads the Sensex gainers as the auto rally holds"
+      },
+      {
+       "name": "Mahindra & Mahindra",
+       "dir": "up",
+       "line": "Next among the Sensex gainers alongside Maruti"
       }
      ],
      "src": {
@@ -52,24 +62,116 @@
      }
     },
     "down": {
-     "summary": "IT remains the weakest sector",
-     "why": "Tech stocks are under pressure on worries about further US rate hikes.",
+     "summary": "IT is the one sector clearly in the red",
+     "why": "Tech stocks are being sold on worries about further US rate hikes after hawkish Fed signals.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "Among the two weakest sectors as US rate-hike worries weigh on tech"
+       "line": "The sector underperformer while the rest of the market rises"
+      },
+      {
+       "name": "Infosys",
+       "dir": "down",
+       "move": "down up to ~3%",
+       "line": "Among the top losers within the IT index"
+      },
+      {
+       "name": "Tech Mahindra",
+       "dir": "down",
+       "move": "down up to ~3%",
+       "line": "Among the top losers within the IT index"
+      },
+      {
+       "name": "HCLTech",
+       "dir": "down",
+       "move": "down up to ~3%",
+       "line": "Among the top losers within the IT index"
       }
      ],
      "src": {
-      "title": "Stock Market Today: Sensex, Nifty Fall Dragged By IT Firms, US Fed Rate Hike Jitters",
-      "url": "https://www.etvbharat.com/en/business/stock-market-on-november-19-sensex-nifty50-crude-oil-prices-fii-buying-enn26111901178"
+      "title": "Stock Market LIVE: Sensex trades at day's high, up 400 pts, Nifty tops 25,350; BL Kashyap jumps 15%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "it-ai-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "IT heavyweights fall up to 3%",
+   "line": "Infosys, Tech Mahindra and HCLTech lead losses in the IT index",
+   "more": [
+    "IT is the only sector clearly lagging",
+    "One report ties the selling to US rate-hike jitters"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex trades at day's high, up 400 pts, Nifty tops 25,350; BL Kashyap jumps 15%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-19",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "fmcg-gains",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "FMCG and consumer durables outperform",
+   "line": "Both indices are among the day's better performers with autos and PSU banks",
+   "more": [
+    "Gains have broadened beyond autos and banks",
+    "IT is the main sector lagging"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex trades at day's high, up 400 pts, Nifty tops 25,350; BL Kashyap jumps 15%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+   },
+   "date": "2026-11-19",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1235"
+   }
+  },
+  {
+   "key": "mahanadi-coalfields-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Mahanadi Coalfields IPO starts slowly",
+   "line": "Day-one subscription about 0.03–0.05 times, per early data",
+   "more": [
+    "0.03x overall as of 10:50 am (India TV); 0.05x per IPO Premium",
+    "Price band ₹129–136; issue closes 23 November",
+    "Grey-market premium reported at ₹1.8–3.1"
+   ],
+   "src": {
+    "title": "Mahanadi Coalfields IPO GMP today as 3-day subscription opens, check listing date and other details",
+    "url": "https://www.indiatvnews.com/business/news/mahanadi-coalfields-ipo-gmp-today-price-band-listing-date-subscription-of-coal-india-subsidiary-kfin-technologies-registrar-check-full-details-2026-11-19-1059809"
+   },
+   "date": "2026-11-19",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-15",
+    "slot": "1800"
+   }
+  },
   {
    "key": "psu-banks",
    "tag": "Stocks",
@@ -88,7 +190,7 @@
    "slot": "1235",
    "when": "12:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1235"
@@ -112,7 +214,7 @@
    "slot": "1235",
    "when": "12:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1135"
@@ -136,7 +238,7 @@
    "slot": "1235",
    "when": "12:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1105"
@@ -336,31 +438,6 @@
    }
   },
   {
-   "key": "it-ai-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "IT stays under pressure",
-   "line": "Infosys, TCS and Wipro remain among the top laggards",
-   "more": [
-    "Nifty IT down 1.24% in the morning",
-    "Kellton Tech falls after launching KeOS"
-   ],
-   "src": {
-    "title": "IT Stocks Witness Sharp Sell-Off! Kellton Tech Falls After KeOS Launch; Infosys, TCS, Wipro Among Top Laggards",
-    "url": "https://goodreturns.in/news/it-stocks-to-watch-kellton-tech-hcltech-infosys-tcs-more-in-focus-amid-ai-push-market-slump-1547963.html"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-19",
-   "slot": "1035",
-   "when": "10:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "1005"
-   }
-  },
-  {
    "key": "india-vix",
    "tag": "Macro",
    "impact": "watch",
@@ -432,31 +509,6 @@
    "first_seen": {
     "date": "2026-11-14",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "mahanadi-coalfields-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Mahanadi Coalfields IPO now open",
-   "line": "Bids open today at ₹129–136 a share; the issue closes on 23 November",
-   "more": [
-    "An offer for sale by Coal India",
-    "Coal India receives all the proceeds"
-   ],
-   "src": {
-    "title": "Post-Market Report 18 Nov 2026: Nifty Snaps 2-Day Rally as Titan, Metals Drag",
-    "url": "https://www.marketcalls.in/futures-and-options/post-market-report-18-november-2026.html"
-   },
-   "thread": "mega-ipos-2026",
-   "date": "2026-11-19",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "1800"
    }
   },
   {
@@ -1730,30 +1782,6 @@
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "fmcg-gains",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Nifty FMCG up about 1%",
-   "line": "Consumer staples are the day's strongest sector as the broader market fades",
-   "more": [
-    "ITC and Tata Consumer have led the sector's gains",
-    "The benchmark gain has narrowed through the afternoon"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex up 200 pts, Nifty around 25,200; Nifty FMCG rises 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
-   },
-   "date": "2026-11-16",
-   "slot": "1435",
-   "when": "Mon · 14:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1235"
    }
   },
   {
