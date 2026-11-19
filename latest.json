@@ -1,81 +1,154 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-19T14:37:29+05:30",
+ "generated_at": "2026-11-19T15:06:27+05:30",
  "date": "2026-11-19",
- "slot": "1435",
- "slot_label": "14:35",
- "stage": "Mid-market mood",
- "asof": "2026-11-19T14:40:00+05:30",
+ "slot": "1505",
+ "slot_label": "15:05",
+ "stage": "Closing mood",
+ "asof": "2026-11-19T15:08:00+05:30",
  "nifty": {
-  "value": 25389.0,
-  "pct": 0.64,
-  "chg": 161.05,
-  "approx": true,
-  "asof_quote": "14:00"
+  "value": 25458.75,
+  "pct": 0.91,
+  "chg": 230.8,
+  "asof_quote": "15:00"
  },
  "mood": {
-  "label": "Afternoon push higher",
-  "score": 0.45,
-  "summary": "The market is pushing to fresh highs for the day in the afternoon, with buying spread across autos, consumer durables and banks, while IT stays the one weak spot.",
+  "label": "Strong into close",
+  "score": 0.55,
+  "summary": "The market is heading into the close near the day's high after a strong afternoon run, with autos and banks in front, midcaps and smallcaps joining in, and IT lagging.",
   "detail": {
-   "leaders": "Nifty Auto and Nifty Consumer Durables; Bharat Forge",
+   "leaders": "Nifty Auto and Maruti Suzuki; Nifty Bank",
    "laggards": "Nifty IT",
-   "tone": "A live read: clearly firmer than the previous note, with the market breaking to new intraday highs in the afternoon rather than drifting.",
+   "tone": "A live read: firmer again than the previous note, with the afternoon rally carrying the market to its best levels of the session ahead of the close.",
    "watch": [
-    "Whether the market holds the afternoon highs into the close",
-    "Whether IT selling eases",
-    "Rising volatility, which jumped earlier in the session"
+    "Whether the market holds near the high into the close",
+    "Late profit-taking after the sharp afternoon move",
+    "FII flow data after the session"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex surges 800 pts, Nifty tops 25,450; Nifty FMCG snaps 2-day losing streak",
+    "title": "Stock Market LIVE: Sensex rises 700 pts, Nifty tops 25,450; Nifty Auto soars 4%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Autos and consumer durables lead the afternoon advance",
-     "why": "Buying in auto and consumer durable stocks has carried the market to the day's high, helped by softer metal prices.",
+     "summary": "Autos lead with Maruti on top, and banks are at a fresh high",
+     "why": "Heavy buying in carmakers and banks has driven the afternoon advance, with smaller stocks also rising.",
      "names": [
       {
        "name": "Nifty Auto",
        "dir": "up",
-       "line": "A main support for the afternoon gains as cheaper metals ease costs"
+       "move": "up ~4% (15:00)",
+       "line": "The day's standout sector as softer metal prices ease input costs"
       },
       {
-       "name": "Nifty Consumer Durables",
+       "name": "Maruti Suzuki",
        "dir": "up",
-       "line": "Backing the advance as copper-sensitive names gain"
+       "move": "+6.31%",
+       "line": "Top Nifty 50 gainer, leading the carmakers' rally"
       },
       {
-       "name": "Bharat Forge",
+       "name": "Nifty Bank",
        "dir": "up",
-       "move": "up ~2.3% (intraday)",
-       "line": "Invested ₹290.5 crore in its defence arm Kalyani Strategic Systems"
+       "line": "Hit a fresh record as state-run lenders also outperform"
       }
      ],
      "src": {
-      "title": "SENSEX jumps over 400 pts, NIFTY trades above 25,300 in noon deals; LT Foods, Bharat Forge, Physicswallah among buzzing stocks",
-      "url": "https://upstox.com/news/market-news/stocks/sensex-jumps-over-400-pts-nifty-trades-above-25-300-in-noon-deals-lt-foods-bharat-forge-physicswallah-among-buzzing-stocks/article-203698/"
+      "title": "Stock Market LIVE: Sensex rises 700 pts, Nifty tops 25,450; Nifty Auto soars 4%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
      }
     },
     "down": {
-     "summary": "IT remains the one clear laggard",
-     "why": "Tech stocks are still weighed down by worries about further US rate hikes.",
+     "summary": "IT remains the one sector holding the market back",
+     "why": "Weakness in IT shares, linked to US rate-hike worries, has capped some of the market's gains.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "The day's underperformer on US rate-hike jitters"
+       "line": "Lagging all day on worries about further US rate hikes"
       }
      ],
      "src": {
-      "title": "Stock Market Today: Sensex, Nifty Fall Dragged By IT Firms, US Fed Rate Hike Jitters",
-      "url": "https://www.etvbharat.com/en/business/stock-market-on-november-19-sensex-nifty50-crude-oil-prices-fii-buying-enn26111901178"
+      "title": "Stock Market Today: Sensex gains over 500 points, Nifty above 25,400; Bank Nifty hits fresh high, Auto stocks lead",
+      "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-gains-over-500-points-nifty-above-25400-bank-nifty-hits-fresh-high-auto-stocks-lead-405760"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "auto-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Nifty Auto soars about 4%; Maruti up 6.3%",
+   "line": "Carmakers drive the day's rally, with Maruti the top Nifty 50 gainer",
+   "more": [
+    "Nifty Auto up about 4% at 3 pm",
+    "Maruti Suzuki up 6.31%",
+    "Lower metal prices ease input-cost pressure"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex rises 700 pts, Nifty tops 25,450; Nifty Auto soars 4%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+   },
+   "date": "2026-11-19",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Bank Nifty hits another fresh high",
+   "line": "Banks join autos in leading the afternoon advance",
+   "more": [
+    "PSU bank stocks also among the outperformers",
+    "Bank stocks a key support for the rally (DSIJ)"
+   ],
+   "src": {
+    "title": "Stock Market Today: Sensex gains over 500 points, Nifty above 25,400; Bank Nifty hits fresh high, Auto stocks lead",
+    "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-gains-over-500-points-nifty-above-25400-bank-nifty-hits-fresh-high-auto-stocks-lead-405760"
+   },
+   "date": "2026-11-19",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "broader-market",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Midcaps and smallcaps rise with the rally",
+   "line": "Broader indices also higher as the afternoon gains spread",
+   "more": [
+    "Nifty Midcap and Smallcap indices up at 3 pm",
+    "IT and media the main sectors lagging"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex rises 700 pts, Nifty tops 25,450; Nifty Auto soars 4%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+   },
+   "date": "2026-11-19",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1005"
+   }
+  },
   {
    "key": "physicswallah-investor-day",
    "tag": "Stocks",
@@ -95,7 +168,7 @@
    "slot": "1435",
    "when": "14:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1435"
@@ -119,7 +192,7 @@
    "slot": "1435",
    "when": "14:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1435"
@@ -143,7 +216,7 @@
    "slot": "1435",
    "when": "14:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-13",
     "slot": "1005"
@@ -417,54 +490,6 @@
    }
   },
   {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Nifty Bank hits another record high",
-   "line": "Crosses 62,500 for the first time; IDFC First Bank and PNB lead",
-   "more": [
-    "New high of 62,626.45 in the noon update",
-    "Index has risen through this week's sessions"
-   ],
-   "src": {
-    "title": "Nifty Bank crosses 62,500 for 1st time on Thursday",
-    "url": "https://www.newsbytesapp.com/news/business/nifty-bank-crosses-62500-for-1st-time-on-thursday/tldr"
-   },
-   "date": "2026-11-19",
-   "slot": "1205",
-   "when": "12:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1035"
-   }
-  },
-  {
-   "key": "auto-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Autos rally as commodity prices fall",
-   "line": "Maruti, M&M, Hero MotoCorp and Eicher up as much as 5%",
-   "more": [
-    "Nifty Auto up about 3% intraday",
-    "Lower metal costs ease input-cost pressure"
-   ],
-   "src": {
-    "title": "Maruti, M&M, Hero Moto, Eicher rally up to 5%; what's driving auto stocks?",
-    "url": "https://www.business-standard.com/markets/news/maruti-m-m-hero-moto-eicher-rally-up-to-5-what-s-driving-auto-stocks-126111900282_1.html"
-   },
-   "date": "2026-11-19",
-   "slot": "1205",
-   "when": "12:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "1105"
-   }
-  },
-  {
    "key": "us-rates",
    "tag": "Global",
    "impact": "neg",
@@ -487,30 +512,6 @@
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "broader-market",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Midcaps outpace the benchmarks",
-   "line": "Nifty MidCap 100 up 0.47% at 11 am as buying broadens",
-   "more": [
-    "Benchmarks hold small gains in a narrow range",
-    "Autos and PSU stocks lead the advance"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range, up 200 pts; Nifty tops 25,250; Nifty Auto gains 3%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
-   },
-   "date": "2026-11-19",
-   "slot": "1135",
-   "when": "11:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1005"
    }
   },
   {
