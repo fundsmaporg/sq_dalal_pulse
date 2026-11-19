@@ -1,0 +1,151 @@
+{
+ "asof": "2026-11-19T10:37:00+05:30",
+ "summary": "The market has edged into the green in a narrow range, with autos and pharma names finding buyers while fintech and IT stocks lag and volatility stays elevated.",
+ "mood": {
+  "label": "Narrow, slight gains",
+  "score": 0.05,
+  "detail": {
+   "stats": [],
+   "leaders": "Glenmark Pharma; Maruti and M&M",
+   "laggards": "Paytm and Pine Labs; Nifty IT",
+   "movers": {
+    "up": {
+     "summary": "Select pharma and auto names are leading a narrow advance",
+     "why": "Buying is concentrated in a few large caps and stock-specific stories.",
+     "names": [
+      {
+       "name": "Glenmark Pharma",
+       "move": "up ~2%",
+       "dir": "up",
+       "line": "Gained after an IND filing for a cancer antibody candidate"
+      },
+      {
+       "name": "Maruti Suzuki",
+       "move": "up 1.5–2%",
+       "dir": "up",
+       "line": "Among the few Sensex gainers, leading the early advance"
+      },
+      {
+       "name": "Mahindra & Mahindra",
+       "move": "up 1.5–2%",
+       "dir": "up",
+       "line": "Joined Maruti at the top of the Sensex gainers"
+      }
+     ],
+     "src": {
+      "title": "19 November, 2026 Stock Market Updates: Sensex opens in green, Nifty below 25,200 as IT stocks drag",
+      "url": "https://www.indiatvnews.com/business/markets/19-november-2026-stock-market-updates-sensex-opens-in-green-nifty-below-25-200-as-it-stocks-drag-2026-11-19-1059810"
+     }
+    },
+    "down": {
+     "summary": "Fintech and IT stocks are the main drags",
+     "why": "A reported UPI fee on merchant payments hit fintechs, while IT is sold amid AI worries.",
+     "names": [
+      {
+       "name": "Paytm",
+       "move": "down up to 7%",
+       "dir": "down",
+       "line": "Fell on a report that merchant-to-merchant UPI payments will carry a ₹5 fee"
+      },
+      {
+       "name": "Pine Labs",
+       "move": "down up to 7%",
+       "dir": "down",
+       "line": "Hit by the same report on a UPI merchant fee"
+      },
+      {
+       "name": "Nifty IT",
+       "move": "−1.24%",
+       "dir": "down",
+       "line": "The weakest sector as AI-related worries weigh on tech"
+      }
+     ],
+     "src": {
+      "title": "Stock Market LIVE: Sensex up 200 pts, Nifty tops 25,250; VIX rises 6%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+     }
+    }
+   },
+   "tone": "A live read: firmer than the previous note, with the market tipping into small gains, though trade is narrow and India VIX is up sharply.",
+   "watch": [
+    "Whether the gains broaden beyond a few heavyweights",
+    "Any official response on the reported UPI fee",
+    "Whether IT selling eases"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex up 200 pts, Nifty tops 25,250; VIX rises 6%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25260,
+  "pct": 0.13,
+  "chg": 32,
+  "approx": true,
+  "asof_quote": "10:00"
+ },
+ "top": [
+  {
+   "key": "upi-mdr",
+   "tag": "Regulation",
+   "impact": "neg",
+   "title": "Reported ₹5 UPI fee hits Paytm, Pine Labs",
+   "line": "Merchant-to-merchant UPI payments to attract a ₹5 fee, Business Standard reports",
+   "more": [
+    "Paytm and Pine Labs fell up to 7%",
+    "The fee would cover wholesalers, retailers and B2B platforms",
+    "No implementation date has been decided"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex up 200 pts, Nifty tops 25,250; VIX rises 6%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+   }
+  },
+  {
+   "key": "glenmark-ind",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Glenmark up 2% on cancer drug filing",
+   "line": "An IND filing for a cancer antibody candidate lifts the shares",
+   "more": [
+    "Pharma names are among the few gainers",
+    "Filing reported in early trade"
+   ],
+   "src": {
+    "title": "19 November, 2026 Stock Market Updates: Sensex opens in green, Nifty below 25,200 as IT stocks drag",
+    "url": "https://www.indiatvnews.com/business/markets/19-november-2026-stock-market-updates-sensex-opens-in-green-nifty-below-25-200-as-it-stocks-drag-2026-11-19-1059810"
+   }
+  },
+  {
+   "key": "it-ai-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "IT stays under pressure",
+   "line": "Infosys, TCS and Wipro remain among the top laggards",
+   "more": [
+    "Nifty IT down 1.24% in the morning",
+    "Kellton Tech falls after launching KeOS"
+   ],
+   "thread": "it-sector",
+   "src": {
+    "title": "IT Stocks Witness Sharp Sell-Off! Kellton Tech Falls After KeOS Launch; Infosys, TCS, Wipro Among Top Laggards",
+    "url": "https://goodreturns.in/news/it-stocks-to-watch-kellton-tech-hcltech-infosys-tcs-more-in-focus-amid-ai-push-market-slump-1547963.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market LIVE: Sensex up 200 pts, Nifty tops 25,250; VIX rises 6%",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+  },
+  {
+   "title": "19 November, 2026 Stock Market Updates: Sensex opens in green, Nifty below 25,200 as IT stocks drag",
+   "url": "https://www.indiatvnews.com/business/markets/19-november-2026-stock-market-updates-sensex-opens-in-green-nifty-below-25-200-as-it-stocks-drag-2026-11-19-1059810"
+  },
+  {
+   "title": "IT Stocks Witness Sharp Sell-Off! Kellton Tech Falls After KeOS Launch; Infosys, TCS, Wipro Among Top Laggards",
+   "url": "https://goodreturns.in/news/it-stocks-to-watch-kellton-tech-hcltech-infosys-tcs-more-in-focus-amid-ai-push-market-slump-1547963.html"
+  }
+ ]
+}
