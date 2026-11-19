@@ -1,83 +1,155 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-19T11:37:49+05:30",
+ "generated_at": "2026-11-19T12:07:08+05:30",
  "date": "2026-11-19",
- "slot": "1135",
- "slot_label": "11:35",
+ "slot": "1205",
+ "slot_label": "12:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-19T11:37:00+05:30",
+ "asof": "2026-11-19T12:08:00+05:30",
+ "nifty": {
+  "value": 25354.65,
+  "pct": 0.5,
+  "chg": 126.7,
+  "asof_quote": "12:00"
+ },
  "mood": {
-  "label": "Steady, autos lead",
-  "score": 0.15,
-  "summary": "The market is holding modest gains in a tight range, with autos and state-run stocks in demand and midcaps joining in, while IT remains the main weight.",
+  "label": "Firmer, banks join",
+  "score": 0.35,
+  "summary": "The market has climbed to the day's best levels after a weak start, with banks at fresh highs and autos still leading, while IT stays the one clear drag.",
   "detail": {
-   "leaders": "Nifty Auto and Maruti Suzuki; Nifty Midcap 100",
-   "laggards": "Nifty IT and Infosys",
-   "tone": "A live read on market behaviour rather than a fresh timed print: little changed from the previous note, with the market holding small gains in a narrow band.",
+   "leaders": "Nifty Bank and Nifty Auto; Maruti Suzuki",
+   "laggards": "Nifty IT",
+   "tone": "A live read: firmer than the previous note, with the recovery from the early low extending and banks now joining autos at the front.",
    "watch": [
-    "Whether autos keep leading into the afternoon",
-    "Whether IT selling eases",
-    "Any official word on the reported UPI fee"
+    "Whether banks hold their record levels",
+    "Whether IT selling deepens or eases",
+    "Whether the rally broadens beyond autos and banks"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range, up 200 pts; Nifty tops 25,250; Nifty Auto gains 3%",
+    "title": "Stock Market LIVE: Sensex gains 400 pts; Nifty tops 25,300; Nifty Bank hits new high",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Autos lead, with midcaps also edging higher",
-     "why": "Cheaper copper and aluminium are lifting carmakers, and buying is spreading to midcaps.",
+     "summary": "Banks hit a fresh record while autos keep leading",
+     "why": "Cheaper commodities are lifting carmakers, and bank buying has pushed the banking index to a new high.",
      "names": [
+      {
+       "name": "Nifty Bank",
+       "dir": "up",
+       "line": "New all-time high around noon, with IDFC First Bank and PNB leading the buying"
+      },
       {
        "name": "Nifty Auto",
        "dir": "up",
        "move": "up ~3%",
-       "line": "The top sector as falling metal prices ease input costs"
+       "line": "The top sector as lower commodity prices ease input-cost pressure"
       },
       {
        "name": "Maruti Suzuki",
        "dir": "up",
-       "move": "+5.35% to +6.2%",
-       "line": "Leads the auto rally on cheaper copper and aluminium"
-      },
-      {
-       "name": "Nifty Midcap 100",
-       "dir": "up",
-       "move": "+0.47%",
-       "line": "Outpacing the benchmarks as buying broadens (11 am reading)"
+       "move": "up to ~5%",
+       "line": "Among the carmakers rallying with M&M, Hero MotoCorp and Eicher"
       }
      ],
      "src": {
-      "title": "Auto stocks rally as copper and aluminium slump: Maruti up 6%, TVS Motor, Hero and M&M gain over 4%",
-      "url": "https://businessupturn.com/finance/stock-market/auto-stocks-rally-as-copper-and-aluminium-slump-maruti-up-6-tvs-motor-hero-and-m-m-gain-over-4/"
+      "title": "Stock Market LIVE: Sensex gains 400 pts; Nifty tops 25,300; Nifty Bank hits new high",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
      }
     },
     "down": {
-     "summary": "IT remains the main drag",
-     "why": "IT is being sold amid AI-related worries about the sector.",
+     "summary": "IT remains the weakest corner of the market",
+     "why": "Tech stocks are being sold after hawkish US Fed minutes revived rate worries.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "move": "−1.24%",
-       "line": "The weakest sector as AI-related worries weigh on tech"
-      },
-      {
-       "name": "Infosys",
-       "dir": "down",
-       "move": "−1.88%",
-       "line": "Among the biggest IT losers, alongside TCS, HCLTech and Tech Mahindra"
+       "move": "−2.1% (morning)",
+       "line": "Weakest sector; a report ties the fall to concern over US rates"
       }
      ],
      "src": {
-      "title": "IT Stocks Witness Sharp Sell-Off! Kellton Tech Falls After KeOS Launch; Infosys, TCS, Wipro Among Top Laggards",
-      "url": "https://goodreturns.in/news/it-stocks-to-watch-kellton-tech-hcltech-infosys-tcs-more-in-focus-amid-ai-push-market-slump-1547963.html"
+      "title": "Auto, banking lift Sensex, Nifty on Thursday morning after mid-week slump",
+      "url": "https://www.theweek.in/news/biz-tech/2026/11/19/indian-shares-recovery-sensex-nifty.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Nifty Bank hits another record high",
+   "line": "Crosses 62,500 for the first time; IDFC First Bank and PNB lead",
+   "more": [
+    "New high of 62,626.45 in the noon update",
+    "Index has risen through this week's sessions"
+   ],
+   "src": {
+    "title": "Nifty Bank crosses 62,500 for 1st time on Thursday",
+    "url": "https://www.newsbytesapp.com/news/business/nifty-bank-crosses-62500-for-1st-time-on-thursday/tldr"
+   },
+   "date": "2026-11-19",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "auto-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Autos rally as commodity prices fall",
+   "line": "Maruti, M&M, Hero MotoCorp and Eicher up as much as 5%",
+   "more": [
+    "Nifty Auto up about 3% intraday",
+    "Lower metal costs ease input-cost pressure"
+   ],
+   "src": {
+    "title": "Maruti, M&M, Hero Moto, Eicher rally up to 5%; what's driving auto stocks?",
+    "url": "https://www.business-standard.com/markets/news/maruti-m-m-hero-moto-eicher-rally-up-to-5-what-s-driving-auto-stocks-126111900282_1.html"
+   },
+   "date": "2026-11-19",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "us-rates",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Hawkish Fed minutes weigh on IT",
+   "line": "Signals of more US rate hikes kept tech stocks under pressure",
+   "more": [
+    "IT was the weakest sector at the open",
+    "Reports differ on how sharp the early dip was"
+   ],
+   "src": {
+    "title": "Sensex, Nifty Open Lower as Fed Signals More Rate Hikes",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-19-2026-open-report-sensex-nifty-edge-lower-as-hawkish-us-fed-minutes-weigh-it-stocks-drag"
+   },
+   "thread": "us-rates",
+   "date": "2026-11-19",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1800"
+   }
+  },
   {
    "key": "defence-iai-deal",
    "tag": "Policy",
@@ -96,7 +168,7 @@
    "slot": "1135",
    "when": "11:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1135"
@@ -120,7 +192,7 @@
    "slot": "1135",
    "when": "11:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1105"
@@ -144,35 +216,10 @@
    "slot": "1135",
    "when": "11:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "auto-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Autos rally as metal prices slump",
-   "line": "Cheaper copper and aluminium lift carmakers; Maruti leads with a 5–6% jump",
-   "more": [
-    "Tata Motors PV +3.46%, M&M +3.44%",
-    "TVS Motor and Hero MotoCorp also gain",
-    "Maruti and M&M are up about 17% and 20% over the past month"
-   ],
-   "src": {
-    "title": "Auto stocks rally as copper and aluminium slump: Maruti up 6%, TVS Motor, Hero and M&M gain over 4%",
-    "url": "https://businessupturn.com/finance/stock-market/auto-stocks-rally-as-copper-and-aluminium-slump-maruti-up-6-tvs-motor-hero-and-m-m-gain-over-4/"
-   },
-   "date": "2026-11-19",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "1105"
    }
   },
   {
@@ -418,31 +465,6 @@
    "first_seen": {
     "date": "2026-11-13",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "us-rates",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Hawkish Fed minutes hang over Asia",
-   "line": "Almost all Fed officials judged more rate rises likely appropriate",
-   "more": [
-    "The S&P 500 fell for a fifth day",
-    "Brent has climbed back above $92"
-   ],
-   "src": {
-    "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-18-230002098.html"
-   },
-   "thread": "us-rates",
-   "date": "2026-11-19",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1800"
    }
   },
   {
@@ -906,30 +928,6 @@
    "first_seen": {
     "date": "2026-11-13",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Nifty Bank closed Tuesday at 62,273",
-   "line": "The bank index ended below its record 62,442.20 intraday peak",
-   "more": [
-    "Record 62,442.20 touched on Tuesday",
-    "Banks have not yet led a recovery today"
-   ],
-   "src": {
-    "title": "Nifty, Sensex extend rally on FII inflows; Bank Nifty hits fresh 52-week high",
-    "url": "https://aninews.in/news/business/nifty-sensex-extend-rally-on-fii-inflows-bank-nifty-hits-fresh-52-week-high20261117160348"
-   },
-   "date": "2026-11-18",
-   "slot": "1135",
-   "when": "Wed · 11:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1035"
    }
   },
   {
