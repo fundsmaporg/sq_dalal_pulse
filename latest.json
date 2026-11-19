@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-19T16:06:42+05:30",
+ "generated_at": "2026-11-19T16:37:17+05:30",
  "date": "2026-11-19",
- "slot": "1605",
- "slot_label": "16:05",
+ "slot": "1635",
+ "slot_label": "16:35",
  "stage": "Post-market mood",
- "asof": "2026-11-19T16:08:00+05:30",
+ "asof": "2026-11-19T16:39:00+05:30",
  "nifty": {
   "value": 25514.3,
   "pct": 1.14,
@@ -32,91 +32,156 @@
   }
  },
  "mood": {
-  "label": "Strong rebound",
+  "label": "Nine-month high",
   "score": 0.6,
-  "summary": "The market closed firmly higher, near the day's best, after turning around a weak open, with carmakers and banks leading a broad rally and IT the only sore spot.",
+  "summary": "Indian shares ended at nine-month highs after a broad rally that wiped out losses from the Middle East war, led by carmakers and banks, with midcaps and smallcaps also higher.",
   "detail": {
-   "leaders": "Nifty Auto, Maruti Suzuki and Eicher Motors; Nifty Bank",
-   "laggards": "Nifty IT; TCS, Tech Mahindra and Infosys",
-   "tone": "A reading of the finished session: the afternoon rally held into the close, making this a decisive rebound from the previous day's fall.",
+   "leaders": "Nifty Auto and Maruti Suzuki; Nifty Bank; Nifty Midcap 100",
+   "laggards": "Nifty IT and TCS",
+   "tone": "A reading of the finished session: the strongest finish in months, with the rally holding into the bell; today's provisional FII figures are still awaited.",
    "watch": [
-    "Provisional FII data for the session, after a seven-day buying streak",
-    "Whether IT selling continues tomorrow",
-    "Whether autos hold the sharp one-day gain"
+    "Provisional FII data for today, after a seven-day buying streak",
+    "Whether IT selling continues",
+    "Global cues overnight after the hawkish Fed minutes"
    ],
    "src": {
-    "title": "Stock Market Close: Sensex rebounds 990 pts, Nifty settles at 25,514; Nifty Bank ends near new high",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+    "title": "Market wrap, Nov 19: Indices erase Middle East war losses; NIFTY50, SENSEX hit 9-month highs, Maruti Suzuki leads gain",
+    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-19-indices-erase-middle-east-war-losses-nifty-50-sensex-hit-9-month-highs-maruti-suzuki-leads-gain/article-203713/"
    },
    "movers": {
     "up": {
-     "summary": "Carmakers and banks led, with Maruti the day's top Nifty gainer",
-     "why": "A slump in global metal prices lifted carmakers, and steady foreign buying carried banks to a record close.",
+     "summary": "Carmakers led, banks hit a record and midcaps joined the rally",
+     "why": "Cheaper metals lifted carmakers, foreign buying supported banks, and the gains spread to smaller stocks.",
      "names": [
       {
        "name": "Nifty Auto",
        "dir": "up",
        "move": "up over 4%",
-       "line": "Best sector of the day as copper and aluminium prices slid"
+       "line": "Best sector as slumping copper and aluminium prices ease input costs"
       },
       {
        "name": "Maruti Suzuki",
        "dir": "up",
        "move": "+7.58%",
-       "line": "Top Nifty 50 gainer, closing at ₹13,589 on cheaper metal inputs"
-      },
-      {
-       "name": "Eicher Motors",
-       "dir": "up",
-       "line": "Second among Nifty gainers as the auto rally broadened"
+       "line": "Led the day's gains as the top Nifty 50 stock"
       },
       {
        "name": "Nifty Bank",
        "dir": "up",
-       "line": "Closed at a record high as bank buying extended"
+       "move": "up ~1.6%",
+       "line": "Hit a fresh record during the session as the bank rally extended"
+      },
+      {
+       "name": "Nifty Midcap 100",
+       "dir": "up",
+       "move": "+1.06%",
+       "line": "Kept pace with the benchmarks as buying broadened; smallcaps up 0.71%"
       }
      ],
      "src": {
-      "title": "Top Gainers and Losers on November 19, 2026: Maruti Suzuki and Eicher Motors Gain, While TCS Drops Over 1%",
-      "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-november-19-2026-maruti-suzuki-and-eicher-motors-gain-while-tcs-drops-over-1"
+      "title": "Market wrap, Nov 19: Indices erase Middle East war losses; NIFTY50, SENSEX hit 9-month highs, Maruti Suzuki leads gain",
+      "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-19-indices-erase-middle-east-war-losses-nifty-50-sensex-hit-9-month-highs-maruti-suzuki-leads-gain/article-203713/"
      }
     },
     "down": {
      "summary": "IT was the one sector that ended lower",
-     "why": "Tech stocks were sold all day on worries about further US rate hikes after hawkish Fed minutes.",
+     "why": "Tech stocks were sold through the session on worries about further US rate hikes.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
        "move": "−1.11%",
-       "line": "The only clear sectoral loser at the close"
+       "line": "The only clear sectoral laggard at the close"
       },
       {
        "name": "TCS",
        "dir": "down",
        "move": "down over 1%",
-       "line": "Among the leading Nifty losers as IT stayed under pressure"
-      },
-      {
-       "name": "Tech Mahindra",
-       "dir": "down",
-       "line": "Among the leading Nifty losers on US rate worries"
-      },
-      {
-       "name": "Infosys",
-       "dir": "down",
-       "line": "Also among the top losers; was down about 3% at one point"
+       "line": "Among the leading Nifty losers as IT stayed weak"
       }
      ],
      "src": {
-      "title": "Top Gainers and Losers on November 19, 2026: Maruti Suzuki and Eicher Motors Gain, While TCS Drops Over 1%",
-      "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-november-19-2026-maruti-suzuki-and-eicher-motors-gain-while-tcs-drops-over-1"
+      "title": "Stock Market Close: Sensex rebounds 990 pts, Nifty settles at 25,514; Nifty Bank ends near new high",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "nine-month-high",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Indices erase Middle East war losses",
+   "line": "Nifty and Sensex end at nine-month highs; best Nifty close since February",
+   "more": [
+    "Maruti Suzuki led the gains",
+    "Rally broad across autos, banks, FMCG and PSU banks"
+   ],
+   "src": {
+    "title": "Market wrap, Nov 19: Indices erase Middle East war losses; NIFTY50, SENSEX hit 9-month highs, Maruti Suzuki leads gain",
+    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-19-indices-erase-middle-east-war-losses-nifty-50-sensex-hit-9-month-highs-maruti-suzuki-leads-gain/article-203713/"
+   },
+   "date": "2026-11-19",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1635"
+   }
+  },
+  {
+   "key": "broader-market",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Midcaps and smallcaps join the rally",
+   "line": "Nifty Midcap 100 up 1.06% and Smallcap 100 up 0.71% at the close",
+   "more": [
+    "Gains broadened beyond large caps",
+    "IT the only sector to end lower"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex rebounds 990 pts, Nifty settles at 25,514; Nifty Bank ends near new high",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+   },
+   "date": "2026-11-19",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "Today's FII figure still awaited",
+   "line": "FIIs net bought ₹5,867 cr on 18 Nov; data for today not yet out",
+   "more": [
+    "DIIs net sold about ₹3,160 cr on 18 Nov",
+    "FIIs also hold a net short index-futures position (NiftyTrader)"
+   ],
+   "src": {
+    "title": "FII DII Data Today: NSE/BSE Cash & F&O Activity",
+    "url": "https://www.niftytrader.in/fii-dii-data"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-19",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "0700"
+   }
+  },
   {
    "key": "bank-rally",
    "tag": "Stocks",
@@ -135,7 +200,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1035"
@@ -159,36 +224,10 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Foreign buying underpins the rally",
-   "line": "FIIs bought a net ₹5,866.78 cr on 18 Nov, a seventh straight day of buying",
-   "more": [
-    "DIIs net sellers of ₹3,159.90 cr on 18 Nov",
-    "Data for today due after the close",
-    "Reports credit sustained foreign inflows for today's rise"
-   ],
-   "src": {
-    "title": "FII DII Data Today: NSE/BSE Cash & F&O Activity",
-    "url": "https://www.niftytrader.in/fii-dii-data"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-19",
-   "slot": "1605",
-   "when": "16:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-13",
-    "slot": "0700"
    }
   },
   {
@@ -210,7 +249,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1005"
@@ -238,30 +277,6 @@
    "first_seen": {
     "date": "2026-11-15",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "broader-market",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Midcaps and smallcaps rise with the rally",
-   "line": "Broader indices also higher as the afternoon gains spread",
-   "more": [
-    "Nifty Midcap and Smallcap indices up at 3 pm",
-    "IT and media the main sectors lagging"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex rises 700 pts, Nifty tops 25,450; Nifty Auto soars 4%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
-   },
-   "date": "2026-11-19",
-   "slot": "1505",
-   "when": "15:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1005"
    }
   },
   {
