@@ -1,67 +1,70 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-19T14:06:40+05:30",
+ "generated_at": "2026-11-19T14:37:29+05:30",
  "date": "2026-11-19",
- "slot": "1405",
- "slot_label": "14:05",
+ "slot": "1435",
+ "slot_label": "14:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-19T14:09:00+05:30",
+ "asof": "2026-11-19T14:40:00+05:30",
+ "nifty": {
+  "value": 25389.0,
+  "pct": 0.64,
+  "chg": 161.05,
+  "approx": true,
+  "asof_quote": "14:00"
+ },
  "mood": {
-  "label": "Gains hold steady",
-  "score": 0.35,
-  "summary": "The market is holding near its best levels of the day into the afternoon, with buying spread across autos, banks, FMCG and consumer durables while IT lags.",
+  "label": "Afternoon push higher",
+  "score": 0.45,
+  "summary": "The market is pushing to fresh highs for the day in the afternoon, with buying spread across autos, consumer durables and banks, while IT stays the one weak spot.",
   "detail": {
-   "leaders": "Nifty Auto, Nifty PSU Bank, Nifty FMCG and Nifty Consumer Durables",
+   "leaders": "Nifty Auto and Nifty Consumer Durables; Bharat Forge",
    "laggards": "Nifty IT",
-   "tone": "A live read on market behaviour rather than a fresh timed print: a touch firmer than the previous note, with gains holding near the day's best levels.",
+   "tone": "A live read: clearly firmer than the previous note, with the market breaking to new intraday highs in the afternoon rather than drifting.",
    "watch": [
-    "Whether gains hold into the final hour",
+    "Whether the market holds the afternoon highs into the close",
     "Whether IT selling eases",
-    "Any late profit-taking in autos and banks"
+    "Rising volatility, which jumped earlier in the session"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex rises 500 pts, Nifty tops 25,300; Nifty FMCG snaps 2-day losing streak",
+    "title": "Stock Market LIVE: Sensex surges 800 pts, Nifty tops 25,450; Nifty FMCG snaps 2-day losing streak",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Autos, state-run banks, FMCG and consumer durables lead",
-     "why": "Buying is broad across rate-sensitive and consumer sectors, with autos helped by softer metal prices.",
+     "summary": "Autos and consumer durables lead the afternoon advance",
+     "why": "Buying in auto and consumer durable stocks has carried the market to the day's high, helped by softer metal prices.",
      "names": [
       {
        "name": "Nifty Auto",
        "dir": "up",
-       "line": "Among the top sectors as softer metal prices ease carmakers' costs"
-      },
-      {
-       "name": "Nifty PSU Bank",
-       "dir": "up",
-       "line": "State-run lenders keep outperforming as their November rally extends"
-      },
-      {
-       "name": "Nifty FMCG",
-       "dir": "up",
-       "line": "Snapping a two-day losing streak as staples see buying"
+       "line": "A main support for the afternoon gains as cheaper metals ease costs"
       },
       {
        "name": "Nifty Consumer Durables",
        "dir": "up",
-       "line": "Outperforming as copper-sensitive names like AC makers gain"
+       "line": "Backing the advance as copper-sensitive names gain"
+      },
+      {
+       "name": "Bharat Forge",
+       "dir": "up",
+       "move": "up ~2.3% (intraday)",
+       "line": "Invested ₹290.5 crore in its defence arm Kalyani Strategic Systems"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex rises 500 pts, Nifty tops 25,300; Nifty FMCG snaps 2-day losing streak",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+      "title": "SENSEX jumps over 400 pts, NIFTY trades above 25,300 in noon deals; LT Foods, Bharat Forge, Physicswallah among buzzing stocks",
+      "url": "https://upstox.com/news/market-news/stocks/sensex-jumps-over-400-pts-nifty-trades-above-25-300-in-noon-deals-lt-foods-bharat-forge-physicswallah-among-buzzing-stocks/article-203698/"
      }
     },
     "down": {
-     "summary": "IT is the one sector clearly lagging",
-     "why": "Tech stocks remain under pressure on worries about further US rate hikes.",
+     "summary": "IT remains the one clear laggard",
+     "why": "Tech stocks are still weighed down by worries about further US rate hikes.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "The day's underperformer, weighed down by US rate-hike jitters"
+       "line": "The day's underperformer on US rate-hike jitters"
       }
      ],
      "src": {
@@ -73,6 +76,79 @@
   }
  },
  "insights": [
+  {
+   "key": "physicswallah-investor-day",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PhysicsWallah sets ₹10,000 cr FY30 goal",
+   "line": "Shares up over 3% after its first investor day laid out growth targets",
+   "more": [
+    "Targets ₹9,000–10,000 cr revenue and over 20% EBITDA margin by FY30",
+    "FY26 revenue was ₹3,900 crore",
+    "Motilal Oswal (Buy, ₹200), HSBC (Buy, ₹150), DAM (Buy, ₹155)"
+   ],
+   "src": {
+    "title": "PhysicsWallah shares surge over 3% as company targets Rs 10,000 crore revenue and over 20% EBITDA margin by FY30",
+    "url": "https://businessupturn.com/finance/stock-market/physicswallah-shares-surge-over-3-as-company-targets-rs-10-000-crore-revenue-and-over-20-ebitda-margin-by-fy30/"
+   },
+   "date": "2026-11-19",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1435"
+   }
+  },
+  {
+   "key": "bharat-forge-kss",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Bharat Forge puts ₹290 cr into defence arm",
+   "line": "Rights-issue investment in Kalyani Strategic Systems, funded from its QIP",
+   "more": [
+    "₹290.5 crore invested via rights issue",
+    "Shares up about 2.3% intraday to ₹1,723.50"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex surges 800 pts, Nifty tops 25,450; Nifty FMCG snaps 2-day losing streak",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+   },
+   "date": "2026-11-19",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1435"
+   }
+  },
+  {
+   "key": "india-vix",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Volatility gauge jumps despite the rally",
+   "line": "India VIX rose as much as 6.3% to an intraday high of 16.50",
+   "more": [
+    "Volatility rising alongside the index advance",
+    "Reported in the midday market update"
+   ],
+   "src": {
+    "title": "SENSEX jumps over 400 pts, NIFTY trades above 25,300 in noon deals; LT Foods, Bharat Forge, Physicswallah among buzzing stocks",
+    "url": "https://upstox.com/news/market-news/stocks/sensex-jumps-over-400-pts-nifty-trades-above-25-300-in-noon-deals-lt-foods-bharat-forge-physicswallah-among-buzzing-stocks/article-203698/"
+   },
+   "date": "2026-11-19",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-13",
+    "slot": "1005"
+   }
+  },
   {
    "key": "aurionpro-order",
    "tag": "Stocks",
@@ -91,7 +167,7 @@
    "slot": "1405",
    "when": "14:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1405"
@@ -115,7 +191,7 @@
    "slot": "1405",
    "when": "14:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1405"
@@ -139,7 +215,7 @@
    "slot": "1405",
    "when": "14:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1405"
@@ -507,31 +583,6 @@
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1035"
-   }
-  },
-  {
-   "key": "india-vix",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "India VIX rises about 6%",
-   "line": "Volatility picks up even as the indices recover from early losses",
-   "more": [
-    "Business Standard flags the VIX jump",
-    "Reports disagree on the opening direction"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex up 100 pts, Nifty near 25,200; VIX rises 6%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
-   },
-   "thread": "volatility",
-   "date": "2026-11-19",
-   "slot": "1005",
-   "when": "10:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-13",
-    "slot": "1005"
    }
   },
   {
