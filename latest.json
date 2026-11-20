@@ -1,65 +1,134 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-20T08:46:27+05:30",
+ "generated_at": "2026-11-20T09:26:22+05:30",
  "date": "2026-11-20",
- "slot": "0845",
- "slot_label": "8:45",
- "stage": "Pre-market mood",
- "asof": "2026-11-20T08:50:00+05:30",
+ "slot": "0925",
+ "slot_label": "9:25",
+ "stage": "Opening mood",
+ "asof": "2026-11-20T09:28:00+05:30",
  "nifty": {
-  "value": 25514.3,
-  "pct": 1.14,
-  "chg": 286.35
- },
- "metrics": {
-  "brent_usd": {
-   "value": 92.5,
-   "asof": "20 Nov, pre-open",
-   "approx": true,
-   "src": {
-    "title": "Pre-Market Report 20 November 2026: AI Rout Hits GIFT Nifty",
-    "url": "https://www.marketcalls.in/futures-and-options/pre-market-report-20-november-2026.html"
-   }
-  },
-  "fii_net_cr": {
-   "value": 7411.4,
-   "asof": "2026-11-19 provisional",
-   "approx": false,
-   "src": {
-    "title": "FII and DII Data Today: Cash, F&O and OI Dashboard",
-    "url": "https://fiianddiidata.com/"
-   }
-  },
-  "dii_net_cr": {
-   "value": -1356.57,
-   "asof": "2026-11-19 provisional",
-   "approx": false,
-   "src": {
-    "title": "FII DII Data Today: Cash Market Flows Dashboard",
-    "url": "https://www.marketcalls.in/fii-dii-data"
-   }
-  }
+  "value": 25451.0,
+  "pct": -0.25,
+  "chg": -63.3,
+  "approx": true,
+  "asof_quote": "09:15"
  },
  "mood": {
-  "label": "Gap-down likely",
-  "score": -0.45,
-  "summary": "Indian shares look set for a weak open as a global sell-off in AI and tech stocks spreads through Asia, though strong foreign buying in India offers some support.",
+  "label": "Weak open",
+  "score": -0.3,
+  "summary": "The market has opened lower with selling across most sectors, led by metals and with banks stepping back from records, though the early fall is milder than global cues implied.",
   "detail": {
-   "leaders": "Foreign investors, who have kept buying Indian shares, may cushion the fall",
-   "laggards": "IT and tech-linked names look most exposed to the global AI selloff",
-   "tone": "A forward-looking read for today's open: as cautious as the previous note, with pre-open cues pointing clearly lower after the overnight rout.",
+   "leaders": "No clear early leaders; the early dip is milder than pre-open cues signalled",
+   "laggards": "Nifty Metal and Nifty Bank; midcaps and smallcaps also lower",
+   "tone": "A reading of the first minutes of live trade: weaker than yesterday's strong close, but the opening dip is shallower than the pre-open signals suggested.",
    "watch": [
-    "How deep the opening gap is and whether buyers step in",
-    "Whether foreign buyers extend their streak",
-    "US yields and December Fed hike bets"
+    "Whether buyers step in after the opening dip",
+    "Whether IT and metals extend losses",
+    "Foreign flows after Thursday's heavy buying"
    ],
    "src": {
-    "title": "Pre-Market Report 20 November 2026: AI Rout Hits GIFT Nifty",
-    "url": "https://www.marketcalls.in/futures-and-options/pre-market-report-20-november-2026.html"
+    "title": "Sensex, Nifty50 off to weak start; Nifty Bank off peak",
+    "url": "https://www.zeebiz.com/market-news/news-share-market-today-nov-20-2026-opening-bell-sensex-nifty50-niftybank-key-sectors-stocks-in-focus-52-week-highs-lows-405788"
+   },
+   "movers": {
+    "down": {
+     "summary": "Metals lead the early fall as banks pull back from records",
+     "why": "Global risk-off selling after the overnight tech rout is hitting most sectors, with metals the weakest.",
+     "names": [
+      {
+       "name": "Nifty Metal",
+       "dir": "down",
+       "move": "down ~1%",
+       "line": "Weakest early sector as the global sell-off and Fed-hike bets weigh on metals"
+      },
+      {
+       "name": "Nifty Bank",
+       "dir": "down",
+       "line": "Retreating from the run of record highs set earlier this week"
+      }
+     ],
+     "src": {
+      "title": "Stock Market LIVE: Sensex down 100 pts, Nifty near 25,450; Nifty Metal down 1%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+     }
+    }
    }
   }
  },
  "insights": [
+  {
+   "key": "opening-bell",
+   "tag": "Opening",
+   "impact": "neg",
+   "title": "Market opens lower, but off worst cues",
+   "line": "Selling across most sectors at the open after a global tech rout",
+   "more": [
+    "Metals the weakest sector early",
+    "Opening fall smaller than GIFT Nifty signalled"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 100 pts, Nifty near 25,450; Nifty Metal down 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+   },
+   "date": "2026-11-20",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Nifty Bank steps back from record highs",
+   "line": "Banking index retreats after a run of record highs this week",
+   "more": [
+    "Banks were a key support for Thursday's rally",
+    "Midcaps and smallcaps also lower at the open"
+   ],
+   "src": {
+    "title": "Sensex, Nifty50 off to weak start; Nifty Bank off peak",
+    "url": "https://www.zeebiz.com/market-news/news-share-market-today-nov-20-2026-opening-bell-sensex-nifty50-niftybank-key-sectors-stocks-in-focus-52-week-highs-lows-405788"
+   },
+   "date": "2026-11-20",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Oil steady on West Asia tensions",
+   "line": "Crude holds firm as persistent West Asia tensions limit any fall",
+   "more": [
+    "Brent near $92.50 before the open (Marketcalls)",
+    "Tensions in West Asia cited as the support for prices"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 100 pts, Nifty near 25,450; Nifty Metal down 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-20",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "1800"
+   }
+  },
   {
    "key": "gift-nifty",
    "tag": "Opening",
@@ -78,7 +147,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "0845"
@@ -102,7 +171,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "0700"
@@ -127,7 +196,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "1800"
@@ -151,7 +220,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "0800"
@@ -176,7 +245,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-15",
     "slot": "1800"
@@ -303,30 +372,6 @@
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Nifty Bank posts a record close",
-   "line": "The banking index hit a fresh intraday peak and ended at an all-time high",
-   "more": [
-    "Banks joined autos in leading the rebound",
-    "PSU banks were among the day's outperformers"
-   ],
-   "src": {
-    "title": "Stock Market Close: Sensex rebounds 990 pts, Nifty settles at 25,514; Nifty Bank ends near new high",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
-   },
-   "date": "2026-11-19",
-   "slot": "1605",
-   "when": "Thu · 16:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1035"
    }
   },
   {
@@ -741,30 +786,6 @@
    }
   },
   {
-   "key": "opening-bell",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Early dip recovered",
-   "line": "Business Standard's latest update has the Sensex back in the green",
-   "more": [
-    "SBI was the top Nifty gainer at the open, up 1.23%",
-    "Infosys was the top loser at the open"
-   ],
-   "src": {
-    "title": "Stock Market Opening Bell: Sensex falls 107 Points, Nifty below 25,200; IT stocks drag",
-    "url": "https://www.zeebiz.com/market-news/news-stock-market-opening-bell-sensex-falls-107-points-nifty-below-25200-it-stocks-drag-405738"
-   },
-   "date": "2026-11-19",
-   "slot": "1005",
-   "when": "Thu · 10:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "0925"
-   }
-  },
-  {
    "key": "nvidia-q3",
    "tag": "Global",
    "impact": "neg",
@@ -1125,31 +1146,6 @@
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1205"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Brent holds near $93",
-   "line": "Crude is slightly weaker, offering no new pressure on India",
-   "more": [
-    "Business Standard cites Brent near $93 a barrel",
-    "Easing crude was cited as a support in Tuesday's rally"
-   ],
-   "src": {
-    "title": "Stock Market LIVE (Hindi): weak start, Sensex below 82,500, metal and auto shares fall",
-    "url": "https://hindi.business-standard.com/markets/stock-market/stock-market-live-updates-18-november-2026-sensex-nifty-gift-nifty-global-market-id-568581"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-18",
-   "slot": "1205",
-   "when": "Wed · 12:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "1800"
    }
   },
   {

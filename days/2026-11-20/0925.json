@@ -1,0 +1,115 @@
+{
+ "asof": "2026-11-20T09:28:00+05:30",
+ "summary": "The market has opened lower with selling across most sectors, led by metals and with banks stepping back from records, though the early fall is milder than global cues implied.",
+ "mood": {
+  "label": "Weak open",
+  "score": -0.3,
+  "detail": {
+   "stats": [],
+   "leaders": "No clear early leaders; the early dip is milder than pre-open cues signalled",
+   "laggards": "Nifty Metal and Nifty Bank; midcaps and smallcaps also lower",
+   "movers": {
+    "down": {
+     "summary": "Metals lead the early fall as banks pull back from records",
+     "why": "Global risk-off selling after the overnight tech rout is hitting most sectors, with metals the weakest.",
+     "names": [
+      {
+       "name": "Nifty Metal",
+       "move": "down ~1%",
+       "dir": "down",
+       "line": "Weakest early sector as the global sell-off and Fed-hike bets weigh on metals"
+      },
+      {
+       "name": "Nifty Bank",
+       "dir": "down",
+       "line": "Retreating from the run of record highs set earlier this week"
+      }
+     ],
+     "src": {
+      "title": "Stock Market LIVE: Sensex down 100 pts, Nifty near 25,450; Nifty Metal down 1%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+     }
+    }
+   },
+   "tone": "A reading of the first minutes of live trade: weaker than yesterday's strong close, but the opening dip is shallower than the pre-open signals suggested.",
+   "watch": [
+    "Whether buyers step in after the opening dip",
+    "Whether IT and metals extend losses",
+    "Foreign flows after Thursday's heavy buying"
+   ],
+   "src": {
+    "title": "Sensex, Nifty50 off to weak start; Nifty Bank off peak",
+    "url": "https://www.zeebiz.com/market-news/news-share-market-today-nov-20-2026-opening-bell-sensex-nifty50-niftybank-key-sectors-stocks-in-focus-52-week-highs-lows-405788"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25451.0,
+  "pct": -0.25,
+  "chg": -63.3,
+  "approx": true,
+  "asof_quote": "09:15"
+ },
+ "top": [
+  {
+   "key": "opening-bell",
+   "tag": "Opening",
+   "impact": "neg",
+   "title": "Market opens lower, but off worst cues",
+   "line": "Selling across most sectors at the open after a global tech rout",
+   "more": [
+    "Metals the weakest sector early",
+    "Opening fall smaller than GIFT Nifty signalled"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 100 pts, Nifty near 25,450; Nifty Metal down 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+   }
+  },
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Nifty Bank steps back from record highs",
+   "line": "Banking index retreats after a run of record highs this week",
+   "more": [
+    "Banks were a key support for Thursday's rally",
+    "Midcaps and smallcaps also lower at the open"
+   ],
+   "src": {
+    "title": "Sensex, Nifty50 off to weak start; Nifty Bank off peak",
+    "url": "https://www.zeebiz.com/market-news/news-share-market-today-nov-20-2026-opening-bell-sensex-nifty50-niftybank-key-sectors-stocks-in-focus-52-week-highs-lows-405788"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Oil steady on West Asia tensions",
+   "line": "Crude holds firm as persistent West Asia tensions limit any fall",
+   "more": [
+    "Brent near $92.50 before the open (Marketcalls)",
+    "Tensions in West Asia cited as the support for prices"
+   ],
+   "thread": "crude-iran-war",
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 100 pts, Nifty near 25,450; Nifty Metal down 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market LIVE: Sensex down 100 pts, Nifty near 25,450; Nifty Metal down 1%",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+  },
+  {
+   "title": "Sensex, Nifty50 off to weak start; Nifty Bank off peak",
+   "url": "https://www.zeebiz.com/market-news/news-share-market-today-nov-20-2026-opening-bell-sensex-nifty50-niftybank-key-sectors-stocks-in-focus-52-week-highs-lows-405788"
+  },
+  {
+   "title": "Pre-Market Report 20 November 2026: AI Rout Hits GIFT Nifty",
+   "url": "https://www.marketcalls.in/futures-and-options/pre-market-report-20-november-2026.html"
+  }
+ ]
+}
