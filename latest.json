@@ -1,23 +1,29 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-20T14:37:20+05:30",
+ "generated_at": "2026-11-20T15:06:06+05:30",
  "date": "2026-11-20",
- "slot": "1435",
- "slot_label": "14:35",
- "stage": "Mid-market mood",
- "asof": "2026-11-20T14:39:00+05:30",
+ "slot": "1505",
+ "slot_label": "15:05",
+ "stage": "Closing mood",
+ "asof": "2026-11-20T15:08:00+05:30",
+ "nifty": {
+  "value": 25767.1,
+  "pct": 0.99,
+  "chg": 252.8,
+  "asof_quote": "15:00"
+ },
  "mood": {
-  "label": "Banks power on",
-  "score": 0.5,
-  "summary": "The market is extending its rally into the final hour, with a powerful run in bank stocks lifting the benchmarks to fresh highs for the day, while metals lag.",
+  "label": "Strong into close",
+  "score": 0.55,
+  "summary": "The market is heading into the close near the day's high after a sharp turnaround from a weak open, with banks and IT leading and metals the lone weak spot.",
   "detail": {
-   "leaders": "IndusInd Bank, Union Bank of India, Axis Bank and HDFC Bank",
-   "laggards": "Nifty Metal; JSW Steel and Tata Steel",
-   "tone": "A live read on market behaviour rather than a fresh timed print: firmer than the previous note, with the bank-led rally gathering pace into the last hour.",
+   "leaders": "HDFC Bank; Nifty IT",
+   "laggards": "Nifty Metal; Tata Steel, JSW Steel and Titan",
+   "tone": "A live read: firmer than the previous note, with the benchmarks pushing to their best levels of the day ahead of the close.",
    "watch": [
-    "Whether the market holds its highs into the close",
-    "Today's FII flow figures after the bell",
-    "Whether metals recover"
+    "Whether the market holds near its high into the bell",
+    "Today's provisional FII figures",
+    "Global cues after this week's tech sell-off"
    ],
    "src": {
     "title": "Stock Market LIVE: Maruti Suzuki, HDFC Bank lead 800-pt gain in Sensex, Nifty tops 25,750",
@@ -25,62 +31,56 @@
    },
    "movers": {
     "up": {
-     "summary": "Bank stocks drive the rally, with IndusInd surging",
-     "why": "Heavy foreign institutional buying is flowing into banks, with all 14 Nifty Bank stocks in the green.",
+     "summary": "HDFC Bank and IT lead the rally into the close",
+     "why": "Persistent foreign buying in banks and IT has turned a weak open into a firm advance.",
      "names": [
-      {
-       "name": "IndusInd Bank",
-       "dir": "up",
-       "move": "+7% to +8.26%",
-       "line": "The standout bank gainer, near ₹1,000"
-      },
-      {
-       "name": "Union Bank of India",
-       "dir": "up",
-       "move": "+3.71%",
-       "line": "State-run lender among the top bank gainers"
-      },
-      {
-       "name": "Axis Bank",
-       "dir": "up",
-       "move": "up ~2%",
-       "line": "Cited as leading the bank index to a record high"
-      },
       {
        "name": "HDFC Bank",
        "dir": "up",
-       "move": "up ~2%",
-       "line": "Heavyweight leading the Sensex gains alongside Maruti"
-      }
-     ],
-     "src": {
-      "title": "Bank Nifty Today Hits Record High, Jumps 2.10%; IndusInd, Axis Bank Lead Gains; Why Are Banking Stocks Rising?",
-      "url": "https://www.goodreturns.in/news/nifty-bank-today-hits-record-high-jumps-2-10-indusind-axis-bank-lead-gains-why-are-banking-stoc-1548483.html"
-     }
-    },
-    "down": {
-     "summary": "Metal stocks remain the weak spot",
-     "why": "Weak commodity prices continue to weigh on metal producers as the rest of the market rallies.",
-     "names": [
-      {
-       "name": "Nifty Metal",
-       "dir": "down",
-       "line": "The weakest sector of the session"
+       "line": "Heavyweight leading the Sensex gains as banks draw foreign buying"
       },
       {
-       "name": "JSW Steel",
-       "dir": "down",
-       "line": "Among the top Nifty 50 losers"
-      },
-      {
-       "name": "Tata Steel",
-       "dir": "down",
-       "line": "Also among the leading Nifty 50 losers"
+       "name": "Nifty IT",
+       "dir": "up",
+       "line": "The best-performing sector, defying the global AI sell-off"
       }
      ],
      "src": {
       "title": "Stock Market LIVE: Maruti Suzuki, HDFC Bank lead 800-pt gain in Sensex, Nifty tops 25,750",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+     }
+    },
+    "down": {
+     "summary": "Metals and Titan are the main laggards",
+     "why": "Steel stocks were hit hardest in the global sell-off at the open and have not recovered.",
+     "names": [
+      {
+       "name": "Nifty Metal",
+       "dir": "down",
+       "line": "The worst-performing sector through the session"
+      },
+      {
+       "name": "Tata Steel",
+       "dir": "down",
+       "move": "−3.5% (9:48)",
+       "line": "Among the top Nifty losers since the weak, global-led open"
+      },
+      {
+       "name": "JSW Steel",
+       "dir": "down",
+       "move": "−3.3% (9:48)",
+       "line": "Also among the leading Nifty losers in the metals slide"
+      },
+      {
+       "name": "Titan",
+       "dir": "down",
+       "move": "−3% (9:48)",
+       "line": "Still among the top Nifty losers into the afternoon"
+      }
+     ],
+     "src": {
+      "title": "SENSEX, NIFTY50 recover after weak open amid global selloff; JSW Steel, Tata Steel among top losers",
+      "url": "https://upstox.com/news/market-news/stocks/sensex-declines-over-600-pts-nifty-50-opens-lower-at-25-368-amid-global-selloff-jsw-steel-tata-steel-among-top-losers/article-203746/"
      }
     }
    }
@@ -88,28 +88,75 @@
  },
  "insights": [
   {
+   "key": "opening-bell",
+   "tag": "Opening",
+   "impact": "pos",
+   "title": "Market reverses a weak, global-led open",
+   "line": "Losses from the AI-led global sell-off erased as banks and IT advance",
+   "more": [
+    "Open was dragged by steel stocks and Titan",
+    "Foreign inflows cited behind the recovery"
+   ],
+   "src": {
+    "title": "Sensex Gains 781 Points, Nifty 50 Rises 225 Points as Banking and IT Stocks Advance",
+    "url": "https://insights.dsij.in/dsijarticledetail/sensex-gains-781-points-nifty-50-rises-225-points-as-banking-and-it-stocks-advance-60537"
+   },
+   "date": "2026-11-20",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "0925"
+   }
+  },
+  {
    "key": "bank-rally",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "Bank index tops a new milestone; IndusInd soars",
-   "line": "All 14 Nifty Bank stocks in the green; IndusInd up as much as 8%",
+   "title": "HDFC Bank leads the Sensex gainers",
+   "line": "Banks remain a main driver, with HDFC Bank among the biggest contributors",
    "more": [
-    "Banking index up about 2% on the day and around 16% in November",
-    "HDFC Bank and ICICI Bank up as much as 21% this month",
-    "Reports tie the run to record foreign inflows"
+    "Maruti Suzuki also cited as leading the Sensex gains",
+    "Banks and IT advance on foreign inflows"
    ],
    "src": {
-    "title": "Nifty Bank at new high, tops 64,000; HDFC, ICICI Bank soar up to 21% in Nov",
-    "url": "https://www.business-standard.com/markets/news/nifty-bank-hits-new-high-hdfc-bank-icici-bank-rally-up-to-21-in-november-126112000367_1.html"
+    "title": "Stock Market LIVE: Maruti Suzuki, HDFC Bank lead 800-pt gain in Sensex, Nifty tops 25,750",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
    },
    "date": "2026-11-20",
-   "slot": "1435",
-   "when": "14:35",
+   "slot": "1505",
+   "when": "15:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1035"
+   }
+  },
+  {
+   "key": "metal-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Steel stocks stay at the bottom",
+   "line": "Tata Steel, JSW Steel and Titan the top Nifty 50 losers through the day",
+   "more": [
+    "Tata Steel −3.5% and JSW Steel −3.3% at 9:48 am",
+    "Nifty Metal the weakest sector"
+   ],
+   "src": {
+    "title": "SENSEX, NIFTY50 recover after weak open amid global selloff; JSW Steel, Tata Steel among top losers",
+    "url": "https://upstox.com/news/market-news/stocks/sensex-declines-over-600-pts-nifty-50-opens-lower-at-25-368-amid-global-selloff-jsw-steel-tata-steel-among-top-losers/article-203746/"
+   },
+   "date": "2026-11-20",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1105"
    }
   },
   {
@@ -131,34 +178,10 @@
    "slot": "1435",
    "when": "14:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "metal-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Metals stay the weakest sector",
-   "line": "JSW Steel and Tata Steel remain among the top Nifty losers",
-   "more": [
-    "Titan also among the laggards",
-    "Commodity weakness persists"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Maruti Suzuki, HDFC Bank lead 800-pt gain in Sensex, Nifty tops 25,750",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
-   },
-   "date": "2026-11-20",
-   "slot": "1435",
-   "when": "14:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1105"
    }
   },
   {
@@ -451,30 +474,6 @@
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "opening-bell",
-   "tag": "Opening",
-   "impact": "neg",
-   "title": "Market opens lower, but off worst cues",
-   "line": "Selling across most sectors at the open after a global tech rout",
-   "more": [
-    "Metals the weakest sector early",
-    "Opening fall smaller than GIFT Nifty signalled"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex down 100 pts, Nifty near 25,450; Nifty Metal down 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
-   },
-   "date": "2026-11-20",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "0925"
    }
   },
   {
