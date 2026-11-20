@@ -1,82 +1,74 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-20T10:37:28+05:30",
+ "generated_at": "2026-11-20T11:06:31+05:30",
  "date": "2026-11-20",
- "slot": "1035",
- "slot_label": "10:35",
+ "slot": "1105",
+ "slot_label": "11:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-20T10:40:00+05:30",
+ "asof": "2026-11-20T11:08:00+05:30",
+ "nifty": {
+  "value": 25569.8,
+  "pct": 0.22,
+  "chg": 55.5,
+  "approx": true,
+  "asof_quote": "11:00"
+ },
  "mood": {
-  "label": "Mixed, near flat",
-  "score": 0.0,
-  "summary": "The market is hovering near flat after recovering a weak start, with IT stocks bucking the global tech sell-off while metals bear the brunt of a commodity slide.",
+  "label": "Quietly higher",
+  "score": 0.2,
+  "summary": "The market has turned modestly higher, shrugging off the global sell-off as banks push to fresh records and IT holds firm, while metals stay under pressure.",
   "detail": {
-   "leaders": "Nifty IT; Infosys, TCS and Tech Mahindra",
-   "laggards": "Nifty Metal; JSW Steel and Tata Steel",
-   "tone": "A live read on market behaviour rather than a fresh timed print: little changed from the previous note, with IT and metals pulling in opposite directions.",
+   "leaders": "Nifty Bank, IndusInd Bank and Kotak Mahindra Bank; Nifty IT",
+   "laggards": "Nifty Metal",
+   "tone": "A live read: firmer than the previous note, with the market now edging above flat as banks and IT gather pace.",
    "watch": [
-    "Whether IT keeps outperforming as global tech stays weak",
-    "How far the commodity slide drags metals",
-    "Profit-taking after this month's strong run"
+    "Whether banks hold their record levels",
+    "Whether metals stabilise",
+    "Global tech sentiment through the afternoon"
    ],
    "src": {
-    "title": "Stock Market Update 20 November 2026: Sensex, Nifty 50 Trade in the Red in Early Trading",
-    "url": "https://www.kotakneo.com/news/market-news/stock-market-update-20-november-2026-sensex-nifty/"
+    "title": "Stock Market LIVE: Sensex up 100 pts, Nifty above 25,550; Nifty Bank hits fresh high",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT stocks lead, defying the global AI sell-off",
-     "why": "Indian IT services shares are gaining even as global AI-linked stocks are sold on worries about returns from AI spending.",
+     "summary": "Banks hit a fresh record and IT stocks hold their gains",
+     "why": "Banks and IT are advancing on continued foreign buying, offsetting weakness in metals.",
      "names": [
+      {
+       "name": "Nifty Bank",
+       "dir": "up",
+       "line": "Fresh all-time high in early trade as private lenders lead"
+      },
+      {
+       "name": "IndusInd Bank",
+       "dir": "up",
+       "line": "Among the leaders of the bank index's push to a record"
+      },
+      {
+       "name": "Kotak Mahindra Bank",
+       "dir": "up",
+       "line": "Also leading the banking index higher alongside HDFC Bank"
+      },
       {
        "name": "Nifty IT",
        "dir": "up",
-       "move": "+1.81% (9:31)",
-       "line": "Top sector early as money moves into IT services despite the Nasdaq slide"
-      },
-      {
-       "name": "Infosys",
-       "dir": "up",
-       "move": "up ~2%",
-       "line": "Among the IT leaders, trading near ₹1,113"
-      },
-      {
-       "name": "TCS",
-       "dir": "up",
-       "move": "up ~2%",
-       "line": "Among the IT leaders in early trade, near ₹2,392"
-      },
-      {
-       "name": "Tech Mahindra",
-       "dir": "up",
-       "move": "+2.66%",
-       "line": "The biggest early gainer among large IT names"
+       "line": "Gaining even as global AI-linked stocks are sold"
       }
      ],
      "src": {
-      "title": "TCS, Infosys, HCL Technologies, Tech Mahindra: IT stocks gain amid global AI theme selloff",
-      "url": "https://www.businesstoday.in/markets/stocks/story/tcs-infosys-hcl-technologies-tech-mahindra-it-stocks-gain-amid-global-ai-theme-selloff-568663-2026-11-20"
+      "title": "Stock Market LIVE: Sensex up 100 pts, Nifty above 25,550; Nifty Bank hits fresh high",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
      }
     },
     "down": {
-     "summary": "Metals are the weakest sector as commodities slide",
-     "why": "Global risk aversion and a sharp fall in commodity prices are hitting metal producers, with some profit-taking after this month's rally.",
+     "summary": "Metals remain the weak spot",
+     "why": "Global risk aversion and profit-taking after this month's rally are weighing on metal producers.",
      "names": [
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "move": "−2.28% (9:31)",
-       "line": "Worst sector early as gold and silver prices slump"
-      },
-      {
-       "name": "JSW Steel",
-       "dir": "down",
-       "line": "Among the top Nifty losers as steel stocks follow the metals sell-off"
-      },
-      {
-       "name": "Tata Steel",
-       "dir": "down",
-       "line": "Also among the leading Nifty losers in the metals slide"
+       "line": "The worst sector early in the session as commodity prices slide"
       }
      ],
      "src": {
@@ -89,14 +81,63 @@
  },
  "insights": [
   {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Nifty Bank hits another all-time high",
+   "line": "IndusInd Bank, Kotak Mahindra Bank and HDFC Bank lead the push",
+   "more": [
+    "Fresh record set in early trade on Friday",
+    "Reported by a single outlet so far"
+   ],
+   "src": {
+    "title": "Nifty Bank hits fresh all-time high of 63,228.20, led by IndusInd Bank, Kotak Mahindra Bank and HDFC Bank",
+    "url": "https://businessupturn.com/finance/stock-market/nifty-bank-hits-fresh-all-time-high-of-63-228-20-led-by-indusind-bank-kotak-mahindra-bank-and-hdfc-bank/"
+   },
+   "date": "2026-11-20",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Foreign inflows support banks and IT",
+   "line": "Continued foreign fund buying cited as backing the late-morning gains",
+   "more": [
+    "Banks and IT the main advancing sectors",
+    "Metals the main drag"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex up 100 pts, Nifty above 25,550; Nifty Bank hits fresh high",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-20",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "1800"
+   }
+  },
+  {
    "key": "it-rally",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "Indian IT gains despite global AI sell-off",
-   "line": "TCS, Infosys, HCLTech and Tech Mahindra up as much as 2–2.7% in early trade",
+   "title": "IT holds gains as global AI stocks slide",
+   "line": "TCS, Infosys, HCLTech and Tech Mahindra among early gainers",
    "more": [
-    "Reports differ on the size of the sector gain",
-    "Global sentiment hit by worries over returns from AI"
+    "Global sentiment hit by worries over returns from AI",
+    "Indian IT services moving against the global trend"
    ],
    "src": {
     "title": "TCS, Infosys, HCL Technologies, Tech Mahindra: IT stocks gain amid global AI theme selloff",
@@ -104,9 +145,9 @@
    },
    "thread": "it-sector",
    "date": "2026-11-20",
-   "slot": "1035",
-   "when": "10:35",
-   "updated": false,
+   "slot": "1105",
+   "when": "11:05",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-20",
@@ -131,7 +172,7 @@
    "slot": "1035",
    "when": "10:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1435"
@@ -155,7 +196,7 @@
    "slot": "1035",
    "when": "10:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1105"
@@ -282,30 +323,6 @@
    }
   },
   {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Nifty Bank steps back from record highs",
-   "line": "Banking index retreats after a run of record highs this week",
-   "more": [
-    "Banks were a key support for Thursday's rally",
-    "Midcaps and smallcaps also lower at the open"
-   ],
-   "src": {
-    "title": "Sensex, Nifty50 off to weak start; Nifty Bank off peak",
-    "url": "https://www.zeebiz.com/market-news/news-share-market-today-nov-20-2026-opening-bell-sensex-nifty50-niftybank-key-sectors-stocks-in-focus-52-week-highs-lows-405788"
-   },
-   "date": "2026-11-20",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1035"
-   }
-  },
-  {
    "key": "crude",
    "tag": "Global",
    "impact": "watch",
@@ -376,31 +393,6 @@
    "first_seen": {
     "date": "2026-11-16",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs buy ₹7,411 cr on Thursday",
-   "line": "Provisional data shows heavy foreign buying; DIIs net sold ₹1,357 cr",
-   "more": [
-    "FII gross buying about ₹20,707 cr, selling ₹13,296 cr",
-    "Sources differ on the streak: 8, 12 or 14 sessions"
-   ],
-   "src": {
-    "title": "FII and DII Data Today: Cash, F&O and OI Dashboard",
-    "url": "https://fiianddiidata.com/"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-20",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "1800"
    }
   },
   {
