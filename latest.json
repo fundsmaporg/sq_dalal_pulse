@@ -1,92 +1,167 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-20T15:06:06+05:30",
+ "generated_at": "2026-11-20T15:36:53+05:30",
  "date": "2026-11-20",
- "slot": "1505",
- "slot_label": "15:05",
+ "slot": "1535",
+ "slot_label": "15:35",
  "stage": "Closing mood",
- "asof": "2026-11-20T15:08:00+05:30",
+ "asof": "2026-11-20T15:39:00+05:30",
  "nifty": {
-  "value": 25767.1,
-  "pct": 0.99,
-  "chg": 252.8,
-  "asof_quote": "15:00"
+  "value": 25784.75,
+  "pct": 1.06,
+  "chg": 270.45,
+  "approx": true,
+  "asof_quote": "15:30"
  },
  "mood": {
-  "label": "Strong into close",
-  "score": 0.55,
-  "summary": "The market is heading into the close near the day's high after a sharp turnaround from a weak open, with banks and IT leading and metals the lone weak spot.",
+  "label": "Strong reversal",
+  "score": 0.6,
+  "summary": "The market closed near the day's high after a sharp turnaround from a gap-down open, with banks leading and hospital stocks strong, while metals ended as the weak spot.",
   "detail": {
-   "leaders": "HDFC Bank; Nifty IT",
+   "leaders": "Axis Bank, Apollo Hospitals and Max Healthcare",
    "laggards": "Nifty Metal; Tata Steel, JSW Steel and Titan",
-   "tone": "A live read: firmer than the previous note, with the benchmarks pushing to their best levels of the day ahead of the close.",
+   "tone": "A reading of the session at the close: firmer again than the previous note, completing a full reversal from the global-led gap-down to a strong finish.",
    "watch": [
-    "Whether the market holds near its high into the bell",
-    "Today's provisional FII figures",
-    "Global cues after this week's tech sell-off"
+    "Provisional FII and DII data after the close",
+    "Whether bank stocks extend their record run next week",
+    "Global tech sentiment over the weekend"
    ],
    "src": {
-    "title": "Stock Market LIVE: Maruti Suzuki, HDFC Bank lead 800-pt gain in Sensex, Nifty tops 25,750",
+    "title": "Stock Market Close: Sensex rises for 2nd day, gains 898 pts; Nifty at 25,800; bank shares lead rally",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
    },
    "movers": {
     "up": {
-     "summary": "HDFC Bank and IT lead the rally into the close",
-     "why": "Persistent foreign buying in banks and IT has turned a weak open into a firm advance.",
+     "summary": "Banks and hospital stocks led the reversal",
+     "why": "Foreign buying carried bank stocks higher, while hospital stocks gained on a brokerage upgrade and defensive buying.",
      "names": [
       {
-       "name": "HDFC Bank",
+       "name": "Axis Bank",
        "dir": "up",
-       "line": "Heavyweight leading the Sensex gains as banks draw foreign buying"
+       "line": "Among the top Nifty gainers as the bank rally extended to a record"
       },
       {
-       "name": "Nifty IT",
+       "name": "Apollo Hospitals",
        "dir": "up",
-       "line": "The best-performing sector, defying the global AI sell-off"
+       "line": "Top Nifty gainer after Macquarie upgraded it to Outperform"
+      },
+      {
+       "name": "Max Healthcare",
+       "dir": "up",
+       "line": "Also among the top gainers on the same upgrade"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Maruti Suzuki, HDFC Bank lead 800-pt gain in Sensex, Nifty tops 25,750",
+      "title": "Stock Market Close: Sensex rises for 2nd day, gains 898 pts; Nifty at 25,800; bank shares lead rally",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
      }
     },
     "down": {
-     "summary": "Metals and Titan are the main laggards",
-     "why": "Steel stocks were hit hardest in the global sell-off at the open and have not recovered.",
+     "summary": "Metals and Titan were the main drags",
+     "why": "Steel stocks bore the brunt of the global sell-off at the open and never fully recovered.",
      "names": [
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "line": "The worst-performing sector through the session"
+       "line": "The weakest sector through the session"
       },
       {
        "name": "Tata Steel",
        "dir": "down",
-       "move": "−3.5% (9:48)",
-       "line": "Among the top Nifty losers since the weak, global-led open"
+       "line": "Among the top Nifty losers all day"
       },
       {
        "name": "JSW Steel",
        "dir": "down",
-       "move": "−3.3% (9:48)",
-       "line": "Also among the leading Nifty losers in the metals slide"
+       "line": "Also among the leading Nifty losers"
       },
       {
        "name": "Titan",
        "dir": "down",
-       "move": "−3% (9:48)",
-       "line": "Still among the top Nifty losers into the afternoon"
+       "line": "Among the top Nifty losers as gold prices slid"
       }
      ],
      "src": {
-      "title": "SENSEX, NIFTY50 recover after weak open amid global selloff; JSW Steel, Tata Steel among top losers",
-      "url": "https://upstox.com/news/market-news/stocks/sensex-declines-over-600-pts-nifty-50-opens-lower-at-25-368-amid-global-selloff-jsw-steel-tata-steel-among-top-losers/article-203746/"
+      "title": "Stock Market Close: Sensex rises for 2nd day, gains 898 pts; Nifty at 25,800; bank shares lead rally",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "nifty-10-month-high",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Nifty hits a 10-month high",
+   "line": "Benchmarks reversed a gap-down open to trade firmly higher by mid-session",
+   "more": [
+    "Sensex up for a second straight day",
+    "Bank shares led the rally"
+   ],
+   "src": {
+    "title": "Nifty hits 10-month high at midday; Apollo Hospitals, Axis Bank lead rally",
+    "url": "https://www.tradingview.com/news/moodys:e348d9c8921a9:0-nifty-hits-10-month-high-at-midday-apollo-hospitals-axis-bank-lead-rally/"
+   },
+   "date": "2026-11-20",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "1535"
+   }
+  },
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Banks lead the day's rally",
+   "line": "Axis Bank among the top Nifty gainers as banks drive a second day of gains",
+   "more": [
+    "Bank index set fresh records during the session",
+    "Foreign inflows cited as the key support"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex rises for 2nd day, gains 898 pts; Nifty at 25,800; bank shares lead rally",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+   },
+   "date": "2026-11-20",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "hospital-stocks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Apollo, Max Healthcare end among top gainers",
+   "line": "Hospital stocks held their gains after Macquarie's upgrade",
+   "more": [
+    "Both moved to Outperform by Macquarie",
+    "Defensive buying also cited amid the global sell-off"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex rises for 2nd day, gains 898 pts; Nifty at 25,800; bank shares lead rally",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+   },
+   "date": "2026-11-20",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "1135"
+   }
+  },
   {
    "key": "opening-bell",
    "tag": "Opening",
@@ -105,34 +180,10 @@
    "slot": "1505",
    "when": "15:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "0925"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "HDFC Bank leads the Sensex gainers",
-   "line": "Banks remain a main driver, with HDFC Bank among the biggest contributors",
-   "more": [
-    "Maruti Suzuki also cited as leading the Sensex gains",
-    "Banks and IT advance on foreign inflows"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Maruti Suzuki, HDFC Bank lead 800-pt gain in Sensex, Nifty tops 25,750",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
-   },
-   "date": "2026-11-20",
-   "slot": "1505",
-   "when": "15:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1035"
    }
   },
   {
@@ -153,7 +204,7 @@
    "slot": "1505",
    "when": "15:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1105"
@@ -305,31 +356,6 @@
    "first_seen": {
     "date": "2026-11-15",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "hospital-stocks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Macquarie upgrades Apollo, Max Healthcare",
-   "line": "Both moved to Outperform; Max's target raised to ₹1,450 from ₹825",
-   "more": [
-    "Apollo up 4.45% and Max up 3.57% at 10:40 am",
-    "Wider hospital pack, including KIMS and Fortis, up as much as 5%",
-    "Upstox also cites defensive buying amid the global sell-off"
-   ],
-   "src": {
-    "title": "Why Apollo Hospitals and Max Healthcare stocks are up today?",
-    "url": "https://www.indiainfoline.com/news/companies/why-apollo-hospitals-and-max-healthcare-stocks-are-up-today"
-   },
-   "date": "2026-11-20",
-   "slot": "1135",
-   "when": "11:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "1135"
    }
   },
   {
