@@ -1,61 +1,92 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-20T13:37:08+05:30",
+ "generated_at": "2026-11-20T14:06:06+05:30",
  "date": "2026-11-20",
- "slot": "1335",
- "slot_label": "13:35",
+ "slot": "1405",
+ "slot_label": "14:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-20T13:39:00+05:30",
+ "asof": "2026-11-20T14:08:00+05:30",
+ "nifty": {
+  "value": 25739.35,
+  "pct": 0.88,
+  "chg": 225.05,
+  "asof_quote": "14:00"
+ },
  "mood": {
-  "label": "Holding firm",
-  "score": 0.4,
-  "summary": "The market is holding firm gains near the day's high in the afternoon, carried by banks and IT, after recovering fully from a weak, globally driven open.",
+  "label": "Firm near highs",
+  "score": 0.45,
+  "summary": "The market is trading near the day's high in the afternoon, with banks and IT doing the heavy lifting while metal stocks and Titan stay under pressure.",
   "detail": {
-   "leaders": "Banks and IT",
-   "laggards": "Nifty Metal",
-   "tone": "A live read on market behaviour rather than a fresh timed print: little changed from the previous note, with the gains holding steady through the early afternoon.",
+   "leaders": "Nifty IT; IndusInd Bank, Axis Bank and Union Bank of India",
+   "laggards": "Nifty Metal; JSW Steel, Tata Steel and Titan",
+   "tone": "A live read: a touch firmer than the previous note, with the benchmarks holding near the day's high into the final stretch.",
    "watch": [
-    "Whether the market holds near the high into the close",
-    "Whether smaller stocks catch up",
-    "Global tech cues ahead of the US open"
+    "Whether gains hold into the close",
+    "Whether metals stabilise",
+    "Global cues ahead of the US open"
    ],
    "src": {
-    "title": "Market Midday, 20 November 2026: Sensex and Nifty 50 Gain as Banking and IT Stocks Support Recovery",
-    "url": "https://www.kotakneo.com/news/market-news/market-midday-20-november-2026-benchmarks-trade-in-positive/"
+    "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty above 25,700; Meesho hits new high",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Banks and IT keep carrying the gains",
+     "summary": "Banks and IT lead, with IndusInd and Axis among the top bank gainers",
      "why": "Persistent foreign buying is flowing into banks and IT, keeping the benchmarks near their best levels of the day.",
      "names": [
       {
-       "name": "Nifty Bank",
-       "dir": "up",
-       "line": "Trading at record territory after fresh highs earlier in the day"
-      },
-      {
        "name": "Nifty IT",
        "dir": "up",
-       "line": "Holding gains as Indian IT moves against the global tech sell-off"
+       "line": "The best-performing sector, defying the global tech sell-off"
+      },
+      {
+       "name": "IndusInd Bank",
+       "dir": "up",
+       "line": "Among the top gainers in the Nifty Bank index"
+      },
+      {
+       "name": "Axis Bank",
+       "dir": "up",
+       "line": "Also among the leading bank gainers as the sector extends its run"
+      },
+      {
+       "name": "Union Bank of India",
+       "dir": "up",
+       "line": "State-run lender among the Nifty Bank's top gainers"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex jumps 600 pts, Nifty above 25,700; Meesho hits new high",
+      "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty above 25,700; Meesho hits new high",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
      }
     },
     "down": {
-     "summary": "Metals remain the weakest corner",
-     "why": "Risk aversion and the slide in commodity prices continue to weigh on metal producers.",
+     "summary": "Metals are the weakest sector, with steel stocks and Titan lagging",
+     "why": "Weak commodity prices and global risk aversion weigh on metals, while the slide in gold hits jewellery.",
      "names": [
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "line": "The weakest sector earlier in the session as commodity prices slid"
+       "line": "Declined the most among sectors"
+      },
+      {
+       "name": "JSW Steel",
+       "dir": "down",
+       "line": "Among the top Nifty 50 losers as metals stay weak"
+      },
+      {
+       "name": "Tata Steel",
+       "dir": "down",
+       "line": "Also a leading Nifty 50 loser with the metal pack"
+      },
+      {
+       "name": "Titan",
+       "dir": "down",
+       "line": "Among the top Nifty 50 losers as gold prices slide"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex jumps 600 pts, Nifty above 25,700; Meesho hits new high",
+      "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty above 25,700; Meesho hits new high",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
      }
     }
@@ -63,6 +94,79 @@
   }
  },
  "insights": [
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IndusInd, Axis lead bank gains",
+   "line": "IndusInd Bank, Axis Bank and Union Bank of India top the bank index gainers",
+   "more": [
+    "Banks a main driver of the day's recovery",
+    "Foreign fund inflows cited as support"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty above 25,700; Meesho hits new high",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+   },
+   "date": "2026-11-20",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "metal-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "JSW Steel, Tata Steel among top losers",
+   "line": "Metal index the weakest sector as the afternoon session runs",
+   "more": [
+    "Titan also among the leading Nifty losers",
+    "Metals and steel were weak from the open"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty above 25,700; Meesho hits new high",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+   },
+   "date": "2026-11-20",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "it-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT remains the top-performing sector",
+   "line": "Indian IT continues to outperform despite the global AI-led tech sell-off",
+   "more": [
+    "Banks and IT the two main pillars of the rally",
+    "Gains have held through the afternoon"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty above 25,700; Meesho hits new high",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-20",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "1035"
+   }
+  },
   {
    "key": "meesho",
    "tag": "Stocks",
@@ -82,7 +186,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1335"
@@ -106,7 +210,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1335"
@@ -131,59 +235,10 @@
    "slot": "1335",
    "when": "13:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Nifty Bank sets another record",
-   "line": "HDFC Bank and Axis Bank cited as leading the banking index to a new high",
-   "more": [
-    "Banks among the main drivers of the recovery",
-    "A Hindi live update reported Axis Bank down 3% earlier; reports conflict"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty above 25,700; IT, bank, realty shares outperform",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
-   },
-   "date": "2026-11-20",
-   "slot": "1305",
-   "when": "13:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1035"
-   }
-  },
-  {
-   "key": "it-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT tops the sector gainers",
-   "line": "Nifty IT up over 2%, followed by realty, private banks and autos",
-   "more": [
-    "Indian IT moving against the global AI sell-off",
-    "Realty also among the outperformers"
-   ],
-   "src": {
-    "title": "Stock Market Today: Sensex, Nifty 50 In Green; Bank Nifty Hits Record High; IT Stocks Gain",
-    "url": "https://10bmnews.com/stock-market-today-sensex-nifty-50-in-green-bank-nifty-hits-record-high-it-stocks-gain/"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-20",
-   "slot": "1305",
-   "when": "13:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "1035"
    }
   },
   {
@@ -282,30 +337,6 @@
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1135"
-   }
-  },
-  {
-   "key": "metal-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Metals remain the weakest sector",
-   "line": "Global risk aversion and profit-taking weigh on metal producers",
-   "more": [
-    "JSW Steel and Tata Steel among the early Nifty losers",
-    "Precious metals also slumped this week"
-   ],
-   "src": {
-    "title": "Stock Market Update 20 November 2026: Sensex, Nifty 50 Trade in the Red in Early Trading",
-    "url": "https://www.kotakneo.com/news/market-news/stock-market-update-20-november-2026-sensex-nifty/"
-   },
-   "date": "2026-11-20",
-   "slot": "1135",
-   "when": "11:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1105"
    }
   },
   {
