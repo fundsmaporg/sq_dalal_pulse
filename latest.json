@@ -1,92 +1,85 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-20T14:06:06+05:30",
+ "generated_at": "2026-11-20T14:37:20+05:30",
  "date": "2026-11-20",
- "slot": "1405",
- "slot_label": "14:05",
+ "slot": "1435",
+ "slot_label": "14:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-20T14:08:00+05:30",
- "nifty": {
-  "value": 25739.35,
-  "pct": 0.88,
-  "chg": 225.05,
-  "asof_quote": "14:00"
- },
+ "asof": "2026-11-20T14:39:00+05:30",
  "mood": {
-  "label": "Firm near highs",
-  "score": 0.45,
-  "summary": "The market is trading near the day's high in the afternoon, with banks and IT doing the heavy lifting while metal stocks and Titan stay under pressure.",
+  "label": "Banks power on",
+  "score": 0.5,
+  "summary": "The market is extending its rally into the final hour, with a powerful run in bank stocks lifting the benchmarks to fresh highs for the day, while metals lag.",
   "detail": {
-   "leaders": "Nifty IT; IndusInd Bank, Axis Bank and Union Bank of India",
-   "laggards": "Nifty Metal; JSW Steel, Tata Steel and Titan",
-   "tone": "A live read: a touch firmer than the previous note, with the benchmarks holding near the day's high into the final stretch.",
+   "leaders": "IndusInd Bank, Union Bank of India, Axis Bank and HDFC Bank",
+   "laggards": "Nifty Metal; JSW Steel and Tata Steel",
+   "tone": "A live read on market behaviour rather than a fresh timed print: firmer than the previous note, with the bank-led rally gathering pace into the last hour.",
    "watch": [
-    "Whether gains hold into the close",
-    "Whether metals stabilise",
-    "Global cues ahead of the US open"
+    "Whether the market holds its highs into the close",
+    "Today's FII flow figures after the bell",
+    "Whether metals recover"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty above 25,700; Meesho hits new high",
+    "title": "Stock Market LIVE: Maruti Suzuki, HDFC Bank lead 800-pt gain in Sensex, Nifty tops 25,750",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Banks and IT lead, with IndusInd and Axis among the top bank gainers",
-     "why": "Persistent foreign buying is flowing into banks and IT, keeping the benchmarks near their best levels of the day.",
+     "summary": "Bank stocks drive the rally, with IndusInd surging",
+     "why": "Heavy foreign institutional buying is flowing into banks, with all 14 Nifty Bank stocks in the green.",
      "names": [
-      {
-       "name": "Nifty IT",
-       "dir": "up",
-       "line": "The best-performing sector, defying the global tech sell-off"
-      },
       {
        "name": "IndusInd Bank",
        "dir": "up",
-       "line": "Among the top gainers in the Nifty Bank index"
-      },
-      {
-       "name": "Axis Bank",
-       "dir": "up",
-       "line": "Also among the leading bank gainers as the sector extends its run"
+       "move": "+7% to +8.26%",
+       "line": "The standout bank gainer, near ₹1,000"
       },
       {
        "name": "Union Bank of India",
        "dir": "up",
-       "line": "State-run lender among the Nifty Bank's top gainers"
+       "move": "+3.71%",
+       "line": "State-run lender among the top bank gainers"
+      },
+      {
+       "name": "Axis Bank",
+       "dir": "up",
+       "move": "up ~2%",
+       "line": "Cited as leading the bank index to a record high"
+      },
+      {
+       "name": "HDFC Bank",
+       "dir": "up",
+       "move": "up ~2%",
+       "line": "Heavyweight leading the Sensex gains alongside Maruti"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty above 25,700; Meesho hits new high",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+      "title": "Bank Nifty Today Hits Record High, Jumps 2.10%; IndusInd, Axis Bank Lead Gains; Why Are Banking Stocks Rising?",
+      "url": "https://www.goodreturns.in/news/nifty-bank-today-hits-record-high-jumps-2-10-indusind-axis-bank-lead-gains-why-are-banking-stoc-1548483.html"
      }
     },
     "down": {
-     "summary": "Metals are the weakest sector, with steel stocks and Titan lagging",
-     "why": "Weak commodity prices and global risk aversion weigh on metals, while the slide in gold hits jewellery.",
+     "summary": "Metal stocks remain the weak spot",
+     "why": "Weak commodity prices continue to weigh on metal producers as the rest of the market rallies.",
      "names": [
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "line": "Declined the most among sectors"
+       "line": "The weakest sector of the session"
       },
       {
        "name": "JSW Steel",
        "dir": "down",
-       "line": "Among the top Nifty 50 losers as metals stay weak"
+       "line": "Among the top Nifty 50 losers"
       },
       {
        "name": "Tata Steel",
        "dir": "down",
-       "line": "Also a leading Nifty 50 loser with the metal pack"
-      },
-      {
-       "name": "Titan",
-       "dir": "down",
-       "line": "Among the top Nifty 50 losers as gold prices slide"
+       "line": "Also among the leading Nifty 50 losers"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty above 25,700; Meesho hits new high",
+      "title": "Stock Market LIVE: Maruti Suzuki, HDFC Bank lead 800-pt gain in Sensex, Nifty tops 25,750",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
      }
     }
@@ -98,19 +91,20 @@
    "key": "bank-rally",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "IndusInd, Axis lead bank gains",
-   "line": "IndusInd Bank, Axis Bank and Union Bank of India top the bank index gainers",
+   "title": "Bank index tops a new milestone; IndusInd soars",
+   "line": "All 14 Nifty Bank stocks in the green; IndusInd up as much as 8%",
    "more": [
-    "Banks a main driver of the day's recovery",
-    "Foreign fund inflows cited as support"
+    "Banking index up about 2% on the day and around 16% in November",
+    "HDFC Bank and ICICI Bank up as much as 21% this month",
+    "Reports tie the run to record foreign inflows"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty above 25,700; Meesho hits new high",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+    "title": "Nifty Bank at new high, tops 64,000; HDFC, ICICI Bank soar up to 21% in Nov",
+    "url": "https://www.business-standard.com/markets/news/nifty-bank-hits-new-high-hdfc-bank-icici-bank-rally-up-to-21-in-november-126112000367_1.html"
    },
    "date": "2026-11-20",
-   "slot": "1405",
-   "when": "14:05",
+   "slot": "1435",
+   "when": "14:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -119,22 +113,47 @@
    }
   },
   {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Foreign money floods into banks",
+   "line": "Banks' high exposure to this month's record FII inflows drives the rally",
+   "more": [
+    "Recovery from a sharply lower open",
+    "Large caps doing most of the work"
+   ],
+   "src": {
+    "title": "Nifty Bank scales 64,000 for first time as FII money floods Dalal Street",
+    "url": "https://www.zeebiz.com/market-news/news-nifty-bank-crosses-64000-for-first-time-ever-in-dramatic-recovery-nov-20-2026-405809"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-20",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "1800"
+   }
+  },
+  {
    "key": "metal-selloff",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "JSW Steel, Tata Steel among top losers",
-   "line": "Metal index the weakest sector as the afternoon session runs",
+   "title": "Metals stay the weakest sector",
+   "line": "JSW Steel and Tata Steel remain among the top Nifty losers",
    "more": [
-    "Titan also among the leading Nifty losers",
-    "Metals and steel were weak from the open"
+    "Titan also among the laggards",
+    "Commodity weakness persists"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty above 25,700; Meesho hits new high",
+    "title": "Stock Market LIVE: Maruti Suzuki, HDFC Bank lead 800-pt gain in Sensex, Nifty tops 25,750",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
    },
    "date": "2026-11-20",
-   "slot": "1405",
-   "when": "14:05",
+   "slot": "1435",
+   "when": "14:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -161,7 +180,7 @@
    "slot": "1405",
    "when": "14:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1035"
@@ -214,31 +233,6 @@
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1335"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Foreign buying keeps the rally going",
-   "line": "Persistent foreign inflows cited behind gains in banks and IT",
-   "more": [
-    "Market recovered from a sharply lower open",
-    "Large caps doing most of the lifting"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex jumps 600 pts, Nifty above 25,700; Meesho hits new high",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-20",
-   "slot": "1335",
-   "when": "13:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "1800"
    }
   },
   {
