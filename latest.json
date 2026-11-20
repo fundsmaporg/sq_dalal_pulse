@@ -1,59 +1,185 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-20T07:00:27+05:30",
+ "generated_at": "2026-11-20T08:46:27+05:30",
  "date": "2026-11-20",
- "slot": "0700",
- "slot_label": "7:00",
+ "slot": "0845",
+ "slot_label": "8:45",
  "stage": "Pre-market mood",
- "asof": "2026-11-20T07:05:00+05:30",
+ "asof": "2026-11-20T08:50:00+05:30",
  "nifty": {
   "value": 25514.3,
   "pct": 1.14,
   "chg": 286.35
  },
+ "metrics": {
+  "brent_usd": {
+   "value": 92.5,
+   "asof": "20 Nov, pre-open",
+   "approx": true,
+   "src": {
+    "title": "Pre-Market Report 20 November 2026: AI Rout Hits GIFT Nifty",
+    "url": "https://www.marketcalls.in/futures-and-options/pre-market-report-20-november-2026.html"
+   }
+  },
+  "fii_net_cr": {
+   "value": 7411.4,
+   "asof": "2026-11-19 provisional",
+   "approx": false,
+   "src": {
+    "title": "FII and DII Data Today: Cash, F&O and OI Dashboard",
+    "url": "https://fiianddiidata.com/"
+   }
+  },
+  "dii_net_cr": {
+   "value": -1356.57,
+   "asof": "2026-11-19 provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data Today: Cash Market Flows Dashboard",
+    "url": "https://www.marketcalls.in/fii-dii-data"
+   }
+  }
+ },
  "mood": {
-  "label": "Weak start likely",
+  "label": "Gap-down likely",
   "score": -0.45,
-  "summary": "A weak start looks likely for Indian shares after a broad Wall Street sell-off on rising bets of a US rate hike, with Asian markets also opening sharply lower.",
+  "summary": "Indian shares look set for a weak open as a global sell-off in AI and tech stocks spreads through Asia, though strong foreign buying in India offers some support.",
   "detail": {
-   "leaders": "Domestic flows and recent foreign buying may cushion the dip",
-   "laggards": "IT and other rate-sensitive, US-linked names look most exposed",
-   "tone": "A forward-looking read for today's session: a sharp swing to caution from yesterday's upbeat close, driven entirely by overnight global selling.",
+   "leaders": "Foreign investors, who have kept buying Indian shares, may cushion the fall",
+   "laggards": "IT and tech-linked names look most exposed to the global AI selloff",
+   "tone": "A forward-looking read for today's open: as cautious as the previous note, with pre-open cues pointing clearly lower after the overnight rout.",
    "watch": [
-    "How deep the opening gap is against the pre-open cues",
-    "Whether foreign buyers keep their streak going",
-    "US Treasury yields and December Fed hike bets"
+    "How deep the opening gap is and whether buyers step in",
+    "Whether foreign buyers extend their streak",
+    "US yields and December Fed hike bets"
    ],
    "src": {
-    "title": "Stock Market Today, Nov. 19: Dow Plunges 1,100 Points as the S&P 500 Suffers Its 6th Straight Day of Losses",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-19-221002368.html"
+    "title": "Pre-Market Report 20 November 2026: AI Rout Hits GIFT Nifty",
+    "url": "https://www.marketcalls.in/futures-and-options/pre-market-report-20-november-2026.html"
    }
   }
  },
  "insights": [
   {
+   "key": "gift-nifty",
+   "tag": "Opening",
+   "impact": "neg",
+   "title": "GIFT Nifty signals a gap-down open",
+   "line": "Indicates a clearly lower start after the overnight tech rout",
+   "more": [
+    "Readings vary by source and time stamp",
+    "Asian markets extended losses before the open"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: GIFT Nifty plunges 190 pts; Asian mkts extend losses on concern over AI trade",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+   },
+   "date": "2026-11-20",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "asia-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Nikkei and Kospi slide over 4%",
+   "line": "Asian markets fall on worries over the AI trade",
+   "more": [
+    "Nikkei down 4.47% and Kospi down 4.45% in early trade",
+    "Chip stocks hit after AMD fell 9.2% overnight"
+   ],
+   "src": {
+    "title": "Pre-Market Report 20 November 2026: AI Rout Hits GIFT Nifty",
+    "url": "https://www.marketcalls.in/futures-and-options/pre-market-report-20-november-2026.html"
+   },
+   "date": "2026-11-20",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs buy ₹7,411 cr on Thursday",
+   "line": "Provisional data shows heavy foreign buying; DIIs net sold ₹1,357 cr",
+   "more": [
+    "FII gross buying about ₹20,707 cr, selling ₹13,296 cr",
+    "Sources differ on the streak: 8, 12 or 14 sessions"
+   ],
+   "src": {
+    "title": "FII and DII Data Today: Cash, F&O and OI Dashboard",
+    "url": "https://fiianddiidata.com/"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-20",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "1800"
+   }
+  },
+  {
    "key": "us-markets",
    "tag": "Global",
    "impact": "neg",
-   "title": "Wall Street slumps; Dow down 1,100 points",
-   "line": "Dow −2.2%, S&P 500 −2% for a sixth straight loss, Nasdaq −2.3%",
+   "title": "Nasdaq falls 2.25% as AI stocks slump",
+   "line": "Anthropic's listing failed to revive AI stocks; AMD down 9.2%",
    "more": [
-    "More than 90% of S&P 500 stocks fell",
-    "S&P 500 now about 8% below last month's record",
-    "Early gains on Anthropic's debut reversed into a broad sell-off"
+    "Nvidia fell 1.2%",
+    "Selling spread across Wall Street on Fed hike bets"
    ],
    "src": {
-    "title": "Stock Market Today, Nov. 19: Dow Plunges 1,100 Points as the S&P 500 Suffers Its 6th Straight Day of Losses",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-19-221002368.html"
+    "title": "Pre-Market Update: GIFT Nifty Signals Weak Start; Global Sell-off and AI Valuation Concerns Weigh on Market Sentiment",
+    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-weak-start-global-sell-off-and-ai-valuation-concerns-weigh-on-market-sentiment-60529"
    },
    "date": "2026-11-20",
-   "slot": "0700",
-   "when": "7:00",
+   "slot": "0845",
+   "when": "8:45",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "0800"
+   }
+  },
+  {
+   "key": "mahanadi-coalfields-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Mahanadi IPO enters day two",
+   "line": "Day-one subscription reported at 0.14x to 0.38x, depending on source",
+   "more": [
+    "QIB portion 1.26x (Univest) vs 0.33x (IPOPlatform)",
+    "Raised ₹2,295.2 cr from anchor investors",
+    "Closes 23 November; price band ₹129–136"
+   ],
+   "src": {
+    "title": "Mahanadi Coalfields IPO Day 2 Subscription Status 20 Nov 2026",
+    "url": "https://univest.in/blogs/mahanadi-coalfields-initial-public-offering-day-2-subscription-20-november-2026"
+   },
+   "date": "2026-11-20",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-15",
+    "slot": "1800"
    }
   },
   {
@@ -76,35 +202,10 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "asia-markets",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Asian markets open sharply lower",
-   "line": "Kospi down about 4% and Nikkei sharply lower at Friday's open",
-   "more": [
-    "Kospi opened 4.08% lower",
-    "Nikkei opened 892.65 points down",
-    "Single source for the opening levels"
-   ],
-   "src": {
-    "title": "Asian stocks fall at the open on Friday, Nov. 20, as the Nikkei drops more than 4% after Anthropic's debut",
-    "url": "https://mlq.ai/news/asian-stocks-fall-at-the-open-on-friday-nov-20-as-the-nikkei-drops-more-than-4-after-anthropics-debut/"
-   },
-   "date": "2026-11-20",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "0700"
    }
   },
   {
@@ -125,59 +226,10 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "gift-nifty",
-   "tag": "Opening",
-   "impact": "neg",
-   "title": "GIFT Nifty points to a gap-down open",
-   "line": "An early pre-open reading implies a lower start for the Nifty",
-   "more": [
-    "Reading as of 06:48 IST; will move before the open",
-    "Sources differ on the exact level"
-   ],
-   "src": {
-    "title": "Nifty Implied Open Today — Gift Nifty Live Level & Gap",
-    "url": "https://bazaarwatch.in/"
-   },
-   "date": "2026-11-20",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs buy ₹7,411 cr on Thursday",
-   "line": "Provisional data shows an eighth straight day of foreign buying",
-   "more": [
-    "DIIs net sellers of about ₹1,357 crore",
-    "Single source so far; not yet confirmed by NSE"
-   ],
-   "src": {
-    "title": "FII DII Data - Get Buy Sell Activities in Future Option and Cash",
-    "url": "https://scanx.trade/insight/fii-dii-data"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-19",
-   "slot": "2100",
-   "when": "Thu · 21:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "1800"
    }
   },
   {
@@ -324,30 +376,6 @@
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "mahanadi-coalfields-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Mahanadi IPO sees a quiet first day",
-   "line": "Early data showed about 0.03 times subscription on day one",
-   "more": [
-    "Issue size reported as ₹8,981 cr (BS) or ₹9,001 cr (Outlook Money)",
-    "Open until 23 November; price band ₹129–136"
-   ],
-   "src": {
-    "title": "Mahanadi Coalfields IPO: Should you bid for Coal India arm? Analysts answer",
-    "url": "https://www.business-standard.com/markets/news/mahanadi-coalfields-ipo-analysts-bullish-on-reserves-growth-and-low-costs-126111900249_1.html"
-   },
-   "date": "2026-11-19",
-   "slot": "1535",
-   "when": "Thu · 15:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "1800"
    }
   },
   {
