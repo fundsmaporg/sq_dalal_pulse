@@ -1,67 +1,73 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-20T12:37:06+05:30",
+ "generated_at": "2026-11-20T13:06:23+05:30",
  "date": "2026-11-20",
- "slot": "1235",
- "slot_label": "12:35",
+ "slot": "1305",
+ "slot_label": "13:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-20T12:39:00+05:30",
+ "asof": "2026-11-20T13:08:00+05:30",
+ "nifty": {
+  "value": 25705.8,
+  "pct": 0.75,
+  "chg": 191.5,
+  "asof_quote": "13:00"
+ },
  "mood": {
-  "label": "Large caps push",
-  "score": 0.35,
-  "summary": "The market is pushing to fresh highs for the day on buying in banks and IT, but the rise is narrow, with midcaps and smallcaps struggling to keep up.",
+  "label": "Strong recovery",
+  "score": 0.45,
+  "summary": "The market has staged a strong turnaround to trade near the day's high, led by IT and banks, after opening lower on the global tech sell-off.",
   "detail": {
-   "leaders": "Nifty Bank and Nifty IT",
-   "laggards": "Nifty Midcap 100 and Nifty Smallcap 100",
-   "tone": "A live read on market behaviour rather than a fresh timed print: firmer than the previous note, with large caps extending to new highs for the day.",
+   "leaders": "Nifty IT and Nifty Bank; HDFC Bank",
+   "laggards": "Nifty Metal",
+   "tone": "A live read: clearly firmer than the previous note, with the benchmarks extending gains into the afternoon after a weak start.",
    "watch": [
-    "Whether smaller stocks join the rally",
-    "Whether banks and IT hold their gains into the close",
-    "Global tech sentiment"
+    "Whether the rally holds into the close",
+    "Whether midcaps and smallcaps join in; reports differ on their direction",
+    "Global tech cues ahead of the US open"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex at day's high, up 500 pts, Nifty above 25,700; SMIDs trade mixed",
+    "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty above 25,700; IT, bank, realty shares outperform",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Banks and IT are driving the advance",
-     "why": "Steady foreign buying is flowing into banks and IT, lifting the benchmarks to their best levels of the day.",
+     "summary": "IT and banks lead a broad recovery from the weak open",
+     "why": "Foreign buying is flowing into IT and banks, with Indian IT defying the global AI sell-off.",
      "names": [
-      {
-       "name": "Nifty Bank",
-       "dir": "up",
-       "line": "Leading the advance after a fresh record earlier in the session"
-      },
       {
        "name": "Nifty IT",
        "dir": "up",
-       "move": "up over 1%",
-       "line": "TCS, Tech Mahindra and HCLTech gain, defying the global AI sell-off"
+       "move": "up over 2%",
+       "line": "Top sectoral gainer, bucking the slide in global tech stocks"
+      },
+      {
+       "name": "Nifty Bank",
+       "dir": "up",
+       "line": "Another record high, with HDFC Bank and Axis Bank cited as leading"
+      },
+      {
+       "name": "HDFC Bank",
+       "dir": "up",
+       "line": "Among the heavyweights carrying the bank index to its record"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex at day's high, up 500 pts, Nifty above 25,700; SMIDs trade mixed",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+      "title": "Stock Market Today: Sensex, Nifty 50 In Green; Bank Nifty Hits Record High; IT Stocks Gain",
+      "url": "https://10bmnews.com/stock-market-today-sensex-nifty-50-in-green-bank-nifty-hits-record-high-it-stocks-gain/"
      }
     },
     "down": {
-     "summary": "Midcaps and smallcaps trail the benchmarks",
-     "why": "Buying is concentrated in large banks and IT, leaving smaller stocks behind.",
+     "summary": "Metals remain the weakest sector",
+     "why": "The slide in global commodity prices and risk aversion keep metal producers under pressure.",
      "names": [
       {
-       "name": "Nifty Midcap 100",
+       "name": "Nifty Metal",
        "dir": "down",
-       "line": "Down about 0.9% at noon and trading mixed since, lagging the benchmarks"
-      },
-      {
-       "name": "Nifty Smallcap 100",
-       "dir": "down",
-       "line": "Also down about 0.9% at noon as broad buying stays thin"
+       "line": "Still the weakest sector index as the session moves past midday"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex at day's high, up 500 pts, Nifty above 25,700; SMIDs trade mixed",
+      "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty above 25,700; IT, bank, realty shares outperform",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
      }
     }
@@ -70,28 +76,76 @@
  },
  "insights": [
   {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Nifty Bank sets another record",
+   "line": "HDFC Bank and Axis Bank cited as leading the banking index to a new high",
+   "more": [
+    "Banks among the main drivers of the recovery",
+    "A Hindi live update reported Axis Bank down 3% earlier; reports conflict"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty above 25,700; IT, bank, realty shares outperform",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+   },
+   "date": "2026-11-20",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1035"
+   }
+  },
+  {
    "key": "it-rally",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "Indian IT rallies despite global tech rout",
-   "line": "Gains come as global tech and chip stocks slide after Anthropic's IPO disappointed",
+   "title": "IT tops the sector gainers",
+   "line": "Nifty IT up over 2%, followed by realty, private banks and autos",
    "more": [
-    "TCS, Tech Mahindra and HCLTech among the leaders",
-    "Nifty IT up over 1% in a Friday report"
+    "Indian IT moving against the global AI sell-off",
+    "Realty also among the outperformers"
    ],
    "src": {
-    "title": "Nifty IT jumps over 1% as TCS, Tech Mahindra, HCL Tech gain; Indian IT stocks buck global AI selloff",
-    "url": "https://www.tradingview.com/news/moneycontrol:494d5f47c094b:0-nifty-it-jumps-over-1-as-tcs-tech-mahindra-hcl-tech-gain-indian-it-stocks-buck-global-ai-selloff/"
+    "title": "Stock Market Today: Sensex, Nifty 50 In Green; Bank Nifty Hits Record High; IT Stocks Gain",
+    "url": "https://10bmnews.com/stock-market-today-sensex-nifty-50-in-green-bank-nifty-hits-record-high-it-stocks-gain/"
    },
    "thread": "it-sector",
    "date": "2026-11-20",
-   "slot": "1235",
-   "when": "12:35",
+   "slot": "1305",
+   "when": "13:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1035"
+   }
+  },
+  {
+   "key": "broader-market",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Reports split on smaller stocks",
+   "line": "Midcap index up 0.34% at 12:02 (Kotak) but down 0.85% at noon (BS)",
+   "more": [
+    "Business Standard also had smallcaps down 0.94% at noon",
+    "Large caps clearly leading either way"
+   ],
+   "src": {
+    "title": "Market Midday, 20 November 2026: Sensex and Nifty 50 Gain as Banking and IT Stocks Support Recovery",
+    "url": "https://www.kotakneo.com/news/market-news/market-midday-20-november-2026-benchmarks-trade-in-positive/"
+   },
+   "date": "2026-11-20",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1005"
    }
   },
   {
@@ -113,34 +167,10 @@
    "slot": "1235",
    "when": "12:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-15",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "broader-market",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Smaller stocks trade mixed",
-   "line": "Midcaps and smallcaps lag as the rally stays concentrated in large caps",
-   "more": [
-    "Both indices were down about 0.9% at noon",
-    "Banks and IT doing most of the lifting"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex at day's high, up 500 pts, Nifty above 25,700; SMIDs trade mixed",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
-   },
-   "date": "2026-11-20",
-   "slot": "1235",
-   "when": "12:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1005"
    }
   },
   {
@@ -239,30 +269,6 @@
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Nifty Bank hits another all-time high",
-   "line": "IndusInd Bank, Kotak Mahindra Bank and HDFC Bank lead the push",
-   "more": [
-    "Fresh record set in early trade on Friday",
-    "Reported by a single outlet so far"
-   ],
-   "src": {
-    "title": "Nifty Bank hits fresh all-time high of 63,228.20, led by IndusInd Bank, Kotak Mahindra Bank and HDFC Bank",
-    "url": "https://businessupturn.com/finance/stock-market/nifty-bank-hits-fresh-all-time-high-of-63-228-20-led-by-indusind-bank-kotak-mahindra-bank-and-hdfc-bank/"
-   },
-   "date": "2026-11-20",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1035"
    }
   },
   {
