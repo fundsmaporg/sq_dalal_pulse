@@ -1,28 +1,28 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-20T16:06:14+05:30",
+ "generated_at": "2026-11-20T16:37:46+05:30",
  "date": "2026-11-20",
- "slot": "1605",
- "slot_label": "16:05",
+ "slot": "1635",
+ "slot_label": "16:35",
  "stage": "Post-market mood",
- "asof": "2026-11-20T16:08:00+05:30",
+ "asof": "2026-11-20T16:40:00+05:30",
  "nifty": {
   "value": 25800.6,
   "pct": 1.12,
   "chg": 286.3
  },
  "mood": {
-  "label": "Strong turnaround",
+  "label": "Strong week-end",
   "score": 0.55,
-  "summary": "Indian shares closed firmly higher for a second day, turning around a gap-down open as banks and hospital stocks led, though smaller stocks lagged the large caps.",
+  "summary": "Indian shares ended the week on a strong note, recovering from a sharp gap-down to close firmly higher as banks and hospital stocks led and foreign buyers stayed active.",
   "detail": {
    "leaders": "Apollo Hospitals, Axis Bank, Max Healthcare and Maruti Suzuki",
    "laggards": "Titan, Tata Steel, NTPC and Hindustan Unilever",
-   "tone": "A reading of the finished session: firmer than the previous note, completing a full reversal from a gap-down open to a strong close.",
+   "tone": "A reading of the finished session: unchanged from the previous note, with the close confirmed and today's provisional FII figures still not published.",
    "watch": [
-    "Today's provisional FII figures, due this evening",
+    "Friday's provisional FII figures, still awaited",
     "Global tech sentiment after this week's AI sell-off",
-    "Whether midcaps and smallcaps catch up next week"
+    "Whether bank stocks extend their record run next week"
    ],
    "src": {
     "title": "Stock Market Close: Sensex rises for 2nd day, gains 898 pts; Nifty at 25,801; bank shares lead rally",
@@ -102,6 +102,79 @@
  },
  "insights": [
   {
+   "key": "weekly-gain",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Benchmarks log a fourth straight weekly gain",
+   "line": "Already up for the week before Friday, the indices added more to close the week higher",
+   "more": [
+    "Before Friday's open, Nifty was up 1.3% and Sensex 1.6% for the week",
+    "Banks set three record highs during the week"
+   ],
+   "src": {
+    "title": "Sensex, Nifty do a seesaw on Friday morning: BSE benchmark index crashes 600+ points at open but regains all it",
+    "url": "https://www.theweek.in/news/biz-tech/2026/11/20/indian-shares-recover-volatility.html"
+   },
+   "date": "2026-11-20",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "1635"
+   }
+  },
+  {
+   "key": "opening-bell",
+   "tag": "Opening",
+   "impact": "pos",
+   "title": "Sensex recovers a 600-point opening drop",
+   "line": "Benchmark slumped at the open on the global AI sell-off, then regained it all",
+   "more": [
+    "Recovery led by banks, IT and hospital stocks",
+    "Foreign inflows cited as support"
+   ],
+   "src": {
+    "title": "Sensex, Nifty do a seesaw on Friday morning: BSE benchmark index crashes 600+ points at open but regains all it",
+    "url": "https://www.theweek.in/news/biz-tech/2026/11/20/indian-shares-recover-volatility.html"
+   },
+   "date": "2026-11-20",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "0925"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "Friday FII figure not yet out",
+   "line": "FIIs bought ₹7,411 cr on Thursday; DIIs sold about ₹1,357 cr",
+   "more": [
+    "Sources differ on the streak: 8 or 14 sessions",
+    "Provisional data usually published in the evening"
+   ],
+   "src": {
+    "title": "FII DII Data Today: Cash Market Flows Dashboard",
+    "url": "https://www.marketcalls.in/fii-dii-data"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-20",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "1800"
+   }
+  },
+  {
    "key": "bank-rally",
    "tag": "Stocks",
    "impact": "pos",
@@ -119,7 +192,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1035"
@@ -143,7 +216,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1135"
@@ -167,35 +240,10 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "Today's FII data still to come",
-   "line": "FIIs bought ₹7,411 cr on Thursday; Friday's figures due this evening",
-   "more": [
-    "DIIs sold about ₹1,357 cr on Thursday",
-    "Sources differ on the length of the FII buying streak"
-   ],
-   "src": {
-    "title": "FII DII Data Today: Cash Market Flows Dashboard",
-    "url": "https://www.marketcalls.in/fii-dii-data"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-20",
-   "slot": "1605",
-   "when": "16:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "1800"
    }
   },
   {
@@ -220,30 +268,6 @@
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1535"
-   }
-  },
-  {
-   "key": "opening-bell",
-   "tag": "Opening",
-   "impact": "pos",
-   "title": "Market reverses a weak, global-led open",
-   "line": "Losses from the AI-led global sell-off erased as banks and IT advance",
-   "more": [
-    "Open was dragged by steel stocks and Titan",
-    "Foreign inflows cited behind the recovery"
-   ],
-   "src": {
-    "title": "Sensex Gains 781 Points, Nifty 50 Rises 225 Points as Banking and IT Stocks Advance",
-    "url": "https://insights.dsij.in/dsijarticledetail/sensex-gains-781-points-nifty-50-rises-225-points-as-banking-and-it-stocks-advance-60537"
-   },
-   "date": "2026-11-20",
-   "slot": "1505",
-   "when": "15:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "0925"
    }
   },
   {
