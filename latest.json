@@ -1,85 +1,153 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-20T11:06:31+05:30",
+ "generated_at": "2026-11-20T11:37:21+05:30",
  "date": "2026-11-20",
- "slot": "1105",
- "slot_label": "11:05",
+ "slot": "1135",
+ "slot_label": "11:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-20T11:08:00+05:30",
- "nifty": {
-  "value": 25569.8,
-  "pct": 0.22,
-  "chg": 55.5,
-  "approx": true,
-  "asof_quote": "11:00"
- },
+ "asof": "2026-11-20T11:39:00+05:30",
  "mood": {
-  "label": "Quietly higher",
+  "label": "Defensive, small gains",
   "score": 0.2,
-  "summary": "The market has turned modestly higher, shrugging off the global sell-off as banks push to fresh records and IT holds firm, while metals stay under pressure.",
+  "summary": "The market is holding small gains in a defensive tilt, with hospital stocks, banks and IT doing the lifting while metals lag on the global commodity slide.",
   "detail": {
-   "leaders": "Nifty Bank, IndusInd Bank and Kotak Mahindra Bank; Nifty IT",
+   "leaders": "Apollo Hospitals and Max Healthcare; banks and IT",
    "laggards": "Nifty Metal",
-   "tone": "A live read: firmer than the previous note, with the market now edging above flat as banks and IT gather pace.",
+   "tone": "A live read on market behaviour rather than a fresh timed print: little changed from the previous note, with defensive healthcare now joining banks and IT at the front.",
    "watch": [
     "Whether banks hold their record levels",
-    "Whether metals stabilise",
-    "Global tech sentiment through the afternoon"
+    "Whether metals find a floor",
+    "Global tech sentiment into the afternoon"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex up 100 pts, Nifty above 25,550; Nifty Bank hits fresh high",
+    "title": "Stock Market LIVE: Sensex up 100 pts, Nifty above 25,550; Apollo Hospital, Max Health top gainers",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Banks hit a fresh record and IT stocks hold their gains",
-     "why": "Banks and IT are advancing on continued foreign buying, offsetting weakness in metals.",
+     "summary": "Hospital stocks lead the gainers, with banks and IT also firm",
+     "why": "A brokerage upgrade and defensive buying amid the global sell-off are lifting healthcare, while banks and IT draw foreign buying.",
      "names": [
+      {
+       "name": "Apollo Hospitals",
+       "dir": "up",
+       "move": "+4.45% (10:40)",
+       "line": "Top Nifty gainer after Macquarie moved it to Outperform"
+      },
+      {
+       "name": "Max Healthcare",
+       "dir": "up",
+       "move": "+3.57% (10:40)",
+       "line": "Macquarie upgrade to Outperform, target raised to ₹1,450 from ₹825"
+      },
       {
        "name": "Nifty Bank",
        "dir": "up",
-       "line": "Fresh all-time high in early trade as private lenders lead"
-      },
-      {
-       "name": "IndusInd Bank",
-       "dir": "up",
-       "line": "Among the leaders of the bank index's push to a record"
-      },
-      {
-       "name": "Kotak Mahindra Bank",
-       "dir": "up",
-       "line": "Also leading the banking index higher alongside HDFC Bank"
+       "line": "Hit a fresh record earlier in the session"
       },
       {
        "name": "Nifty IT",
        "dir": "up",
-       "line": "Gaining even as global AI-linked stocks are sold"
+       "line": "Holding gains against the global tech sell-off"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex up 100 pts, Nifty above 25,550; Nifty Bank hits fresh high",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+      "title": "Why Apollo Hospitals and Max Healthcare stocks are up today?",
+      "url": "https://www.indiainfoline.com/news/companies/why-apollo-hospitals-and-max-healthcare-stocks-are-up-today"
      }
     },
     "down": {
-     "summary": "Metals remain the weak spot",
-     "why": "Global risk aversion and profit-taking after this month's rally are weighing on metal producers.",
+     "summary": "Metals stay the weakest corner",
+     "why": "Global risk aversion and profit-taking after this month's rally keep metal producers under pressure.",
      "names": [
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "line": "The worst sector early in the session as commodity prices slide"
+       "line": "The worst sector since the open as commodity prices slide"
       }
      ],
      "src": {
-      "title": "Opening Bell: Sensex Falls 455 Points, Nifty 50 Slips 0.26%; Metal Stocks Lead Losses",
-      "url": "https://insights.dsij.in/dsijarticledetail/opening-bell-sensex-falls-455-points-nifty-50-slips-026-metal-stocks-lead-losses-60531"
+      "title": "Stock Market Update 20 November 2026: Sensex, Nifty 50 Trade in the Red in Early Trading",
+      "url": "https://www.kotakneo.com/news/market-news/stock-market-update-20-november-2026-sensex-nifty/"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "hospital-stocks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Macquarie upgrades Apollo, Max Healthcare",
+   "line": "Both moved to Outperform; Max's target raised to ₹1,450 from ₹825",
+   "more": [
+    "Apollo up 4.45% and Max up 3.57% at 10:40 am",
+    "Wider hospital pack, including KIMS and Fortis, up as much as 5%",
+    "Upstox also cites defensive buying amid the global sell-off"
+   ],
+   "src": {
+    "title": "Why Apollo Hospitals and Max Healthcare stocks are up today?",
+    "url": "https://www.indiainfoline.com/news/companies/why-apollo-hospitals-and-max-healthcare-stocks-are-up-today"
+   },
+   "date": "2026-11-20",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "1135"
+   }
+  },
+  {
+   "key": "ireda-rally",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "IREDA up over 30% in November",
+   "line": "Loan disbursements rose 31% to ₹10,579 cr in Q2 FY27; no single trigger",
+   "more": [
+    "Touched ₹133.60 intraday on 19 November",
+    "Upstox says no single announcement explains the surge"
+   ],
+   "src": {
+    "title": "IREDA shares rally 25% in a month: What's driving the PSU stock's sharp rebound?",
+    "url": "https://upstox.com/news/market-news/stocks/ireda-shares-rally-25-in-a-month-what-s-driving-the-psu-stock-s-sharp-rebound/article-203745/"
+   },
+   "date": "2026-11-20",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "1135"
+   }
+  },
+  {
+   "key": "metal-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Metals remain the weakest sector",
+   "line": "Global risk aversion and profit-taking weigh on metal producers",
+   "more": [
+    "JSW Steel and Tata Steel among the early Nifty losers",
+    "Precious metals also slumped this week"
+   ],
+   "src": {
+    "title": "Stock Market Update 20 November 2026: Sensex, Nifty 50 Trade in the Red in Early Trading",
+    "url": "https://www.kotakneo.com/news/market-news/stock-market-update-20-november-2026-sensex-nifty/"
+   },
+   "date": "2026-11-20",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1105"
+   }
+  },
   {
    "key": "bank-rally",
    "tag": "Stocks",
@@ -98,7 +166,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1035"
@@ -123,7 +191,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "1800"
@@ -148,7 +216,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1035"
@@ -176,30 +244,6 @@
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1435"
-   }
-  },
-  {
-   "key": "metal-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Metal stocks lead the market's losses",
-   "line": "JSW Steel, Tata Steel and Hindalco among the top losers in early trade",
-   "more": [
-    "Nifty Metal down about 2.3–2.5% early, by source",
-    "Analysts cite global risk aversion and profit-taking"
-   ],
-   "src": {
-    "title": "Opening Bell: Sensex Falls 455 Points, Nifty 50 Slips 0.26%; Metal Stocks Lead Losses",
-    "url": "https://insights.dsij.in/dsijarticledetail/opening-bell-sensex-falls-455-points-nifty-50-slips-026-metal-stocks-lead-losses-60531"
-   },
-   "date": "2026-11-20",
-   "slot": "1035",
-   "when": "10:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1105"
    }
   },
   {
