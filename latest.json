@@ -1,73 +1,61 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-20T13:06:23+05:30",
+ "generated_at": "2026-11-20T13:37:08+05:30",
  "date": "2026-11-20",
- "slot": "1305",
- "slot_label": "13:05",
+ "slot": "1335",
+ "slot_label": "13:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-20T13:08:00+05:30",
- "nifty": {
-  "value": 25705.8,
-  "pct": 0.75,
-  "chg": 191.5,
-  "asof_quote": "13:00"
- },
+ "asof": "2026-11-20T13:39:00+05:30",
  "mood": {
-  "label": "Strong recovery",
-  "score": 0.45,
-  "summary": "The market has staged a strong turnaround to trade near the day's high, led by IT and banks, after opening lower on the global tech sell-off.",
+  "label": "Holding firm",
+  "score": 0.4,
+  "summary": "The market is holding firm gains near the day's high in the afternoon, carried by banks and IT, after recovering fully from a weak, globally driven open.",
   "detail": {
-   "leaders": "Nifty IT and Nifty Bank; HDFC Bank",
+   "leaders": "Banks and IT",
    "laggards": "Nifty Metal",
-   "tone": "A live read: clearly firmer than the previous note, with the benchmarks extending gains into the afternoon after a weak start.",
+   "tone": "A live read on market behaviour rather than a fresh timed print: little changed from the previous note, with the gains holding steady through the early afternoon.",
    "watch": [
-    "Whether the rally holds into the close",
-    "Whether midcaps and smallcaps join in; reports differ on their direction",
+    "Whether the market holds near the high into the close",
+    "Whether smaller stocks catch up",
     "Global tech cues ahead of the US open"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty above 25,700; IT, bank, realty shares outperform",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+    "title": "Market Midday, 20 November 2026: Sensex and Nifty 50 Gain as Banking and IT Stocks Support Recovery",
+    "url": "https://www.kotakneo.com/news/market-news/market-midday-20-november-2026-benchmarks-trade-in-positive/"
    },
    "movers": {
     "up": {
-     "summary": "IT and banks lead a broad recovery from the weak open",
-     "why": "Foreign buying is flowing into IT and banks, with Indian IT defying the global AI sell-off.",
+     "summary": "Banks and IT keep carrying the gains",
+     "why": "Persistent foreign buying is flowing into banks and IT, keeping the benchmarks near their best levels of the day.",
      "names": [
-      {
-       "name": "Nifty IT",
-       "dir": "up",
-       "move": "up over 2%",
-       "line": "Top sectoral gainer, bucking the slide in global tech stocks"
-      },
       {
        "name": "Nifty Bank",
        "dir": "up",
-       "line": "Another record high, with HDFC Bank and Axis Bank cited as leading"
+       "line": "Trading at record territory after fresh highs earlier in the day"
       },
       {
-       "name": "HDFC Bank",
+       "name": "Nifty IT",
        "dir": "up",
-       "line": "Among the heavyweights carrying the bank index to its record"
+       "line": "Holding gains as Indian IT moves against the global tech sell-off"
       }
      ],
      "src": {
-      "title": "Stock Market Today: Sensex, Nifty 50 In Green; Bank Nifty Hits Record High; IT Stocks Gain",
-      "url": "https://10bmnews.com/stock-market-today-sensex-nifty-50-in-green-bank-nifty-hits-record-high-it-stocks-gain/"
+      "title": "Stock Market LIVE: Sensex jumps 600 pts, Nifty above 25,700; Meesho hits new high",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
      }
     },
     "down": {
-     "summary": "Metals remain the weakest sector",
-     "why": "The slide in global commodity prices and risk aversion keep metal producers under pressure.",
+     "summary": "Metals remain the weakest corner",
+     "why": "Risk aversion and the slide in commodity prices continue to weigh on metal producers.",
      "names": [
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "line": "Still the weakest sector index as the session moves past midday"
+       "line": "The weakest sector earlier in the session as commodity prices slid"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty above 25,700; IT, bank, realty shares outperform",
+      "title": "Stock Market LIVE: Sensex jumps 600 pts, Nifty above 25,700; Meesho hits new high",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
      }
     }
@@ -75,6 +63,80 @@
   }
  },
  "insights": [
+  {
+   "key": "meesho",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Meesho hits a fresh record high",
+   "line": "New high around ₹262–263; MSCI index inclusion takes effect 30 November",
+   "more": [
+    "Reports differ on the exact high: ₹261.90 or ₹263.35",
+    "MSCI confirmed its inclusion in the Global Standard Index this month",
+    "No specific trigger reported for today's move"
+   ],
+   "src": {
+    "title": "Broad-Based Technical Strength Lifts Meesho Ltd to 52-Week High of Rs 263.35",
+    "url": "https://www.marketsmojo.com/news/stocks-in-action/meesho-ltd-hits-new-52-week-high-at-rs26335-marking-significant-milestone-4269447"
+   },
+   "date": "2026-11-20",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "1335"
+   }
+  },
+  {
+   "key": "dilip-buildcon-order",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Dilip Buildcon wins ₹419 cr metro order",
+   "line": "Depot-cum-workshop contract from Gurugram Metro Rail",
+   "more": [
+    "Order worth ₹419.47 crore",
+    "Stock little changed on the news"
+   ],
+   "src": {
+    "title": "Stocks to Watch Today, November 20, 2026: Bondada Engineering, Ashoka Buildcon, Park Medi World, Coal India and Dilip Buildcon",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-november-20-2026-bondada-engineering-ashoka/56683890"
+   },
+   "date": "2026-11-20",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "1335"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Foreign buying keeps the rally going",
+   "line": "Persistent foreign inflows cited behind gains in banks and IT",
+   "more": [
+    "Market recovered from a sharply lower open",
+    "Large caps doing most of the lifting"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex jumps 600 pts, Nifty above 25,700; Meesho hits new high",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-20",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "1800"
+   }
+  },
   {
    "key": "bank-rally",
    "tag": "Stocks",
@@ -93,7 +155,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1035"
@@ -118,7 +180,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1035"
@@ -142,7 +204,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1005"
@@ -170,31 +232,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-11-15",
-    "slot": "1800"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Foreign buying lifts banks and IT",
-   "line": "Persistent foreign fund activity cited as behind the large-cap recovery",
-   "more": [
-    "Market has recovered from the weak open",
-    "Banks and IT the main advancing sectors"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex at day's high, up 300 pts, Nifty reclaims 25,600; SMIDs trade mixed",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-20",
-   "slot": "1205",
-   "when": "12:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
     "slot": "1800"
    }
   },
