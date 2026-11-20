@@ -1,80 +1,162 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-20T11:37:21+05:30",
+ "generated_at": "2026-11-20T12:06:48+05:30",
  "date": "2026-11-20",
- "slot": "1135",
- "slot_label": "11:35",
+ "slot": "1205",
+ "slot_label": "12:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-20T11:39:00+05:30",
+ "asof": "2026-11-20T12:09:00+05:30",
+ "nifty": {
+  "value": 25614.55,
+  "pct": 0.39,
+  "chg": 100.25,
+  "asof_quote": "12:00"
+ },
  "mood": {
-  "label": "Defensive, small gains",
-  "score": 0.2,
-  "summary": "The market is holding small gains in a defensive tilt, with hospital stocks, banks and IT doing the lifting while metals lag on the global commodity slide.",
+  "label": "Narrow climb",
+  "score": 0.25,
+  "summary": "Large caps are pushing to the day's high on buying in banks and IT, but the rally is narrow, with midcaps and smallcaps sliding.",
   "detail": {
-   "leaders": "Apollo Hospitals and Max Healthcare; banks and IT",
-   "laggards": "Nifty Metal",
-   "tone": "A live read on market behaviour rather than a fresh timed print: little changed from the previous note, with defensive healthcare now joining banks and IT at the front.",
+   "leaders": "Nifty Bank and Nifty IT; Apollo Hospitals",
+   "laggards": "Nifty Midcap 100 and Nifty Smallcap 100",
+   "tone": "A live read: firmer than the previous note, with large caps reaching the day's high, though breadth is poor as smaller stocks fall.",
    "watch": [
-    "Whether banks hold their record levels",
-    "Whether metals find a floor",
-    "Global tech sentiment into the afternoon"
+    "Whether the gains broaden to midcaps and smallcaps",
+    "Whether banks and IT keep leading into the close",
+    "Global tech sentiment"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex up 100 pts, Nifty above 25,550; Apollo Hospital, Max Health top gainers",
+    "title": "Stock Market LIVE: Sensex at day's high, up 300 pts, Nifty reclaims 25,600; SMIDs trade mixed",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Hospital stocks lead the gainers, with banks and IT also firm",
-     "why": "A brokerage upgrade and defensive buying amid the global sell-off are lifting healthcare, while banks and IT draw foreign buying.",
+     "summary": "Banks and IT carry the large-cap gains, with hospitals also firm",
+     "why": "Persistent foreign buying is flowing into banks and IT, helping large caps recover from the weak open.",
      "names": [
-      {
-       "name": "Apollo Hospitals",
-       "dir": "up",
-       "move": "+4.45% (10:40)",
-       "line": "Top Nifty gainer after Macquarie moved it to Outperform"
-      },
-      {
-       "name": "Max Healthcare",
-       "dir": "up",
-       "move": "+3.57% (10:40)",
-       "line": "Macquarie upgrade to Outperform, target raised to ₹1,450 from ₹825"
-      },
       {
        "name": "Nifty Bank",
        "dir": "up",
-       "line": "Hit a fresh record earlier in the session"
+       "line": "Leading the recovery after setting a fresh record earlier in the day"
       },
       {
        "name": "Nifty IT",
        "dir": "up",
-       "line": "Holding gains against the global tech sell-off"
+       "move": "up over 1%",
+       "line": "Bucking the global AI sell-off, led by TCS, Tech Mahindra and HCLTech"
+      },
+      {
+       "name": "Apollo Hospitals",
+       "dir": "up",
+       "move": "+4.45% (10:40)",
+       "line": "Among the top gainers after a Macquarie upgrade to Outperform"
       }
      ],
      "src": {
-      "title": "Why Apollo Hospitals and Max Healthcare stocks are up today?",
-      "url": "https://www.indiainfoline.com/news/companies/why-apollo-hospitals-and-max-healthcare-stocks-are-up-today"
+      "title": "Stock Market LIVE: Sensex at day's high, up 300 pts, Nifty reclaims 25,600; SMIDs trade mixed",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
      }
     },
     "down": {
-     "summary": "Metals stay the weakest corner",
-     "why": "Global risk aversion and profit-taking after this month's rally keep metal producers under pressure.",
+     "summary": "Midcaps and smallcaps are falling while large caps rise",
+     "why": "Buying is concentrated in large banks and IT, leaving the broader market under pressure.",
      "names": [
       {
-       "name": "Nifty Metal",
+       "name": "Nifty Midcap 100",
        "dir": "down",
-       "line": "The worst sector since the open as commodity prices slide"
+       "move": "−0.85% (12:00)",
+       "line": "Slipping even as the benchmarks climb to the day's high"
+      },
+      {
+       "name": "Nifty Smallcap 100",
+       "dir": "down",
+       "move": "−0.94% (12:00)",
+       "line": "The weakest of the broad indices at midday"
       }
      ],
      "src": {
-      "title": "Stock Market Update 20 November 2026: Sensex, Nifty 50 Trade in the Red in Early Trading",
-      "url": "https://www.kotakneo.com/news/market-news/stock-market-update-20-november-2026-sensex-nifty/"
+      "title": "Stock Market LIVE: Sensex at day's high, up 300 pts, Nifty reclaims 25,600; SMIDs trade mixed",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "broader-market",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Midcaps and smallcaps lag the rally",
+   "line": "Nifty Midcap 100 down 0.85% and Smallcap 100 down 0.94% at noon",
+   "more": [
+    "Gains concentrated in large banks and IT",
+    "Breadth weak despite the benchmarks rising"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex at day's high, up 300 pts, Nifty reclaims 25,600; SMIDs trade mixed",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+   },
+   "date": "2026-11-20",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Foreign buying lifts banks and IT",
+   "line": "Persistent foreign fund activity cited as behind the large-cap recovery",
+   "more": [
+    "Market has recovered from the weak open",
+    "Banks and IT the main advancing sectors"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex at day's high, up 300 pts, Nifty reclaims 25,600; SMIDs trade mixed",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-20",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-14",
+    "slot": "1800"
+   }
+  },
+  {
+   "key": "it-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Indian IT bucks the global AI sell-off",
+   "line": "TCS, Tech Mahindra and HCLTech lead a gain of over 1% in Nifty IT",
+   "more": [
+    "Moves against the slide in global AI-linked stocks",
+    "Among the main supports for the benchmarks"
+   ],
+   "src": {
+    "title": "Nifty IT jumps over 1% as TCS, Tech Mahindra, HCL Tech gain; Indian IT stocks buck global AI selloff",
+    "url": "https://tradingview.com/news/moneycontrol:494d5f47c094b:0-nifty-it-jumps-over-1-as-tcs-tech-mahindra-hcl-tech-gain-indian-it-stocks-buck-global-ai-selloff"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-20",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "1035"
+   }
+  },
   {
    "key": "hospital-stocks",
    "tag": "Stocks",
@@ -94,7 +176,7 @@
    "slot": "1135",
    "when": "11:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1135"
@@ -118,7 +200,7 @@
    "slot": "1135",
    "when": "11:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1135"
@@ -142,7 +224,7 @@
    "slot": "1135",
    "when": "11:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1105"
@@ -169,56 +251,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
-    "slot": "1035"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Foreign inflows support banks and IT",
-   "line": "Continued foreign fund buying cited as backing the late-morning gains",
-   "more": [
-    "Banks and IT the main advancing sectors",
-    "Metals the main drag"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex up 100 pts, Nifty above 25,550; Nifty Bank hits fresh high",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-20",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "1800"
-   }
-  },
-  {
-   "key": "it-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT holds gains as global AI stocks slide",
-   "line": "TCS, Infosys, HCLTech and Tech Mahindra among early gainers",
-   "more": [
-    "Global sentiment hit by worries over returns from AI",
-    "Indian IT services moving against the global trend"
-   ],
-   "src": {
-    "title": "TCS, Infosys, HCL Technologies, Tech Mahindra: IT stocks gain amid global AI theme selloff",
-    "url": "https://www.businesstoday.in/markets/stocks/story/tcs-infosys-hcl-technologies-tech-mahindra-it-stocks-gain-amid-global-ai-theme-selloff-568663-2026-11-20"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-20",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
     "slot": "1035"
    }
   },
@@ -585,30 +617,6 @@
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1635"
-   }
-  },
-  {
-   "key": "broader-market",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Midcaps and smallcaps join the rally",
-   "line": "Nifty Midcap 100 up 1.06% and Smallcap 100 up 0.71% at the close",
-   "more": [
-    "Gains broadened beyond large caps",
-    "IT the only sector to end lower"
-   ],
-   "src": {
-    "title": "Stock Market Close: Sensex rebounds 990 pts, Nifty settles at 25,514; Nifty Bank ends near new high",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
-   },
-   "date": "2026-11-19",
-   "slot": "1635",
-   "when": "Thu · 16:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1005"
    }
   },
   {
