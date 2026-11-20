@@ -1,55 +1,166 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-20T10:06:22+05:30",
+ "generated_at": "2026-11-20T10:37:28+05:30",
  "date": "2026-11-20",
- "slot": "1005",
- "slot_label": "10:05",
- "stage": "Opening mood",
- "asof": "2026-11-20T10:08:00+05:30",
- "nifty": {
-  "value": 25526.45,
-  "pct": 0.05,
-  "chg": 12.15,
-  "asof_quote": "10:00"
- },
+ "slot": "1035",
+ "slot_label": "10:35",
+ "stage": "Mid-market mood",
+ "asof": "2026-11-20T10:40:00+05:30",
  "mood": {
-  "label": "Recovering, flat",
-  "score": 0.05,
-  "summary": "The market has clawed back its opening losses and is hovering just above flat, with IT stocks rebounding sharply even after the overnight global tech sell-off.",
+  "label": "Mixed, near flat",
+  "score": 0.0,
+  "summary": "The market is hovering near flat after recovering a weak start, with IT stocks bucking the global tech sell-off while metals bear the brunt of a commodity slide.",
   "detail": {
-   "leaders": "IT is rebounding, though no trigger has been reported yet",
-   "laggards": "Ashoka Buildcon",
-   "tone": "A live read: clearly firmer than the previous note, as the market recovered the whole opening dip; no specific trigger for the IT rebound has been reported yet.",
+   "leaders": "Nifty IT; Infosys, TCS and Tech Mahindra",
+   "laggards": "Nifty Metal; JSW Steel and Tata Steel",
+   "tone": "A live read on market behaviour rather than a fresh timed print: little changed from the previous note, with IT and metals pulling in opposite directions.",
    "watch": [
-    "Whether the IT rebound holds through the session",
-    "Whether the market can stay above flat after the weak start",
-    "Global cues as Asian markets stay under pressure"
+    "Whether IT keeps outperforming as global tech stays weak",
+    "How far the commodity slide drags metals",
+    "Profit-taking after this month's strong run"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex off lows, Nifty reclaims 25,500; Nifty IT rises 2%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+    "title": "Stock Market Update 20 November 2026: Sensex, Nifty 50 Trade in the Red in Early Trading",
+    "url": "https://www.kotakneo.com/news/market-news/stock-market-update-20-november-2026-sensex-nifty/"
    },
    "movers": {
-    "down": {
-     "summary": "Ashoka Buildcon slips on a cancelled overseas project",
-     "why": "Company-specific news is weighing on a few names while the broader market steadies.",
+    "up": {
+     "summary": "IT stocks lead, defying the global AI sell-off",
+     "why": "Indian IT services shares are gaining even as global AI-linked stocks are sold on worries about returns from AI spending.",
      "names": [
       {
-       "name": "Ashoka Buildcon",
-       "dir": "down",
-       "move": "−1.69%",
-       "line": "Client cancelled a ₹846 crore project in Saudi Arabia, despite new NHAI orders"
+       "name": "Nifty IT",
+       "dir": "up",
+       "move": "+1.81% (9:31)",
+       "line": "Top sector early as money moves into IT services despite the Nasdaq slide"
+      },
+      {
+       "name": "Infosys",
+       "dir": "up",
+       "move": "up ~2%",
+       "line": "Among the IT leaders, trading near ₹1,113"
+      },
+      {
+       "name": "TCS",
+       "dir": "up",
+       "move": "up ~2%",
+       "line": "Among the IT leaders in early trade, near ₹2,392"
+      },
+      {
+       "name": "Tech Mahindra",
+       "dir": "up",
+       "move": "+2.66%",
+       "line": "The biggest early gainer among large IT names"
       }
      ],
      "src": {
-      "title": "Stocks to Watch Today, November 20, 2026: Bondada Engineering, Ashoka Buildcon, Park Medi World, Coal India and Dilip Buildcon",
-      "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-november-20-2026-bondada-engineering-ashoka/56683890"
+      "title": "TCS, Infosys, HCL Technologies, Tech Mahindra: IT stocks gain amid global AI theme selloff",
+      "url": "https://www.businesstoday.in/markets/stocks/story/tcs-infosys-hcl-technologies-tech-mahindra-it-stocks-gain-amid-global-ai-theme-selloff-568663-2026-11-20"
+     }
+    },
+    "down": {
+     "summary": "Metals are the weakest sector as commodities slide",
+     "why": "Global risk aversion and a sharp fall in commodity prices are hitting metal producers, with some profit-taking after this month's rally.",
+     "names": [
+      {
+       "name": "Nifty Metal",
+       "dir": "down",
+       "move": "−2.28% (9:31)",
+       "line": "Worst sector early as gold and silver prices slump"
+      },
+      {
+       "name": "JSW Steel",
+       "dir": "down",
+       "line": "Among the top Nifty losers as steel stocks follow the metals sell-off"
+      },
+      {
+       "name": "Tata Steel",
+       "dir": "down",
+       "line": "Also among the leading Nifty losers in the metals slide"
+      }
+     ],
+     "src": {
+      "title": "Opening Bell: Sensex Falls 455 Points, Nifty 50 Slips 0.26%; Metal Stocks Lead Losses",
+      "url": "https://insights.dsij.in/dsijarticledetail/opening-bell-sensex-falls-455-points-nifty-50-slips-026-metal-stocks-lead-losses-60531"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "it-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Indian IT gains despite global AI sell-off",
+   "line": "TCS, Infosys, HCLTech and Tech Mahindra up as much as 2–2.7% in early trade",
+   "more": [
+    "Reports differ on the size of the sector gain",
+    "Global sentiment hit by worries over returns from AI"
+   ],
+   "src": {
+    "title": "TCS, Infosys, HCL Technologies, Tech Mahindra: IT stocks gain amid global AI theme selloff",
+    "url": "https://www.businesstoday.in/markets/stocks/story/tcs-infosys-hcl-technologies-tech-mahindra-it-stocks-gain-amid-global-ai-theme-selloff-568663-2026-11-20"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-20",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "gold",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Gold falls 4%, silver 6%",
+   "line": "Precious metals slump; jewellery and metal stocks under pressure",
+   "more": [
+    "Titan among the early Nifty losers",
+    "Metal index the weakest sector"
+   ],
+   "src": {
+    "title": "Gold falls 4%, silver 6% as Sensex, Nifty recover from weak opening",
+    "url": "https://www.newsdrum.in/business/gold-falls-4-silver-6-as-sensex-nifty-recover-from-weak-opening-12825309"
+   },
+   "date": "2026-11-20",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1435"
+   }
+  },
+  {
+   "key": "metal-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Metal stocks lead the market's losses",
+   "line": "JSW Steel, Tata Steel and Hindalco among the top losers in early trade",
+   "more": [
+    "Nifty Metal down about 2.3–2.5% early, by source",
+    "Analysts cite global risk aversion and profit-taking"
+   ],
+   "src": {
+    "title": "Opening Bell: Sensex Falls 455 Points, Nifty 50 Slips 0.26%; Metal Stocks Lead Losses",
+    "url": "https://insights.dsij.in/dsijarticledetail/opening-bell-sensex-falls-455-points-nifty-50-slips-026-metal-stocks-lead-losses-60531"
+   },
+   "date": "2026-11-20",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1105"
+   }
+  },
   {
    "key": "ashoka-buildcon-saudi",
    "tag": "Stocks",
@@ -68,7 +179,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1005"
@@ -92,7 +203,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1005"
@@ -116,7 +227,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1005"
@@ -140,7 +251,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1005"
@@ -804,30 +915,6 @@
    }
   },
   {
-   "key": "metal-selloff",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Copper and aluminium slump",
-   "line": "Falling metal prices help carmakers but weigh on producers",
-   "more": [
-    "The slump is the trigger for the auto rally, per Business Upturn",
-    "Single-source explanation"
-   ],
-   "src": {
-    "title": "Auto stocks rally as copper and aluminium slump: Maruti up 6%, TVS Motor, Hero and M&M gain over 4%",
-    "url": "https://businessupturn.com/finance/stock-market/auto-stocks-rally-as-copper-and-aluminium-slump-maruti-up-6-tvs-motor-hero-and-m-m-gain-over-4/"
-   },
-   "date": "2026-11-19",
-   "slot": "1105",
-   "when": "Thu · 11:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1105"
-   }
-  },
-  {
    "key": "upi-mdr",
    "tag": "Regulation",
    "impact": "neg",
@@ -1019,30 +1106,6 @@
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1535"
-   }
-  },
-  {
-   "key": "gold",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Titan ends as the top Nifty loser",
-   "line": "Gold's fall to a 14-month low weighed on jewellery stocks all day",
-   "more": [
-    "Jewellery stocks fell up to 4%",
-    "Silver is near a 13-month low"
-   ],
-   "src": {
-    "title": "Jewellery Stocks Fall Up to 4% as Gold Hits 14-Month Low and Silver Slides to 13-Month Low",
-    "url": "https://www.kotakneo.com/news/stocks/titan-kalyan-jewellers-pc-jeweller-thangamayil-shares-fall-as-gold-hits-14-month-low-and-silver-nears-13-month-low/"
-   },
-   "date": "2026-11-18",
-   "slot": "1605",
-   "when": "Wed · 16:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1435"
    }
   },
   {
