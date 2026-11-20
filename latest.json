@@ -1,61 +1,151 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-20T09:26:22+05:30",
+ "generated_at": "2026-11-20T10:06:22+05:30",
  "date": "2026-11-20",
- "slot": "0925",
- "slot_label": "9:25",
+ "slot": "1005",
+ "slot_label": "10:05",
  "stage": "Opening mood",
- "asof": "2026-11-20T09:28:00+05:30",
+ "asof": "2026-11-20T10:08:00+05:30",
  "nifty": {
-  "value": 25451.0,
-  "pct": -0.25,
-  "chg": -63.3,
-  "approx": true,
-  "asof_quote": "09:15"
+  "value": 25526.45,
+  "pct": 0.05,
+  "chg": 12.15,
+  "asof_quote": "10:00"
  },
  "mood": {
-  "label": "Weak open",
-  "score": -0.3,
-  "summary": "The market has opened lower with selling across most sectors, led by metals and with banks stepping back from records, though the early fall is milder than global cues implied.",
+  "label": "Recovering, flat",
+  "score": 0.05,
+  "summary": "The market has clawed back its opening losses and is hovering just above flat, with IT stocks rebounding sharply even after the overnight global tech sell-off.",
   "detail": {
-   "leaders": "No clear early leaders; the early dip is milder than pre-open cues signalled",
-   "laggards": "Nifty Metal and Nifty Bank; midcaps and smallcaps also lower",
-   "tone": "A reading of the first minutes of live trade: weaker than yesterday's strong close, but the opening dip is shallower than the pre-open signals suggested.",
+   "leaders": "IT is rebounding, though no trigger has been reported yet",
+   "laggards": "Ashoka Buildcon",
+   "tone": "A live read: clearly firmer than the previous note, as the market recovered the whole opening dip; no specific trigger for the IT rebound has been reported yet.",
    "watch": [
-    "Whether buyers step in after the opening dip",
-    "Whether IT and metals extend losses",
-    "Foreign flows after Thursday's heavy buying"
+    "Whether the IT rebound holds through the session",
+    "Whether the market can stay above flat after the weak start",
+    "Global cues as Asian markets stay under pressure"
    ],
    "src": {
-    "title": "Sensex, Nifty50 off to weak start; Nifty Bank off peak",
-    "url": "https://www.zeebiz.com/market-news/news-share-market-today-nov-20-2026-opening-bell-sensex-nifty50-niftybank-key-sectors-stocks-in-focus-52-week-highs-lows-405788"
+    "title": "Stock Market LIVE: Sensex off lows, Nifty reclaims 25,500; Nifty IT rises 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
    },
    "movers": {
     "down": {
-     "summary": "Metals lead the early fall as banks pull back from records",
-     "why": "Global risk-off selling after the overnight tech rout is hitting most sectors, with metals the weakest.",
+     "summary": "Ashoka Buildcon slips on a cancelled overseas project",
+     "why": "Company-specific news is weighing on a few names while the broader market steadies.",
      "names": [
       {
-       "name": "Nifty Metal",
+       "name": "Ashoka Buildcon",
        "dir": "down",
-       "move": "down ~1%",
-       "line": "Weakest early sector as the global sell-off and Fed-hike bets weigh on metals"
-      },
-      {
-       "name": "Nifty Bank",
-       "dir": "down",
-       "line": "Retreating from the run of record highs set earlier this week"
+       "move": "−1.69%",
+       "line": "Client cancelled a ₹846 crore project in Saudi Arabia, despite new NHAI orders"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex down 100 pts, Nifty near 25,450; Nifty Metal down 1%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+      "title": "Stocks to Watch Today, November 20, 2026: Bondada Engineering, Ashoka Buildcon, Park Medi World, Coal India and Dilip Buildcon",
+      "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-november-20-2026-bondada-engineering-ashoka/56683890"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "ashoka-buildcon-saudi",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Ashoka Buildcon loses ₹846 cr Saudi project",
+   "line": "Client Diriyah Company cancelled the project; stock down about 1.7%",
+   "more": [
+    "Cancellation came despite fresh NHAI orders",
+    "Project value ₹846.38 crore"
+   ],
+   "src": {
+    "title": "Stocks to Watch Today, November 20, 2026: Bondada Engineering, Ashoka Buildcon, Park Medi World, Coal India and Dilip Buildcon",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-november-20-2026-bondada-engineering-ashoka/56683890"
+   },
+   "date": "2026-11-20",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "coal-india-magnets",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Coal India L2 bidder for magnet plant",
+   "line": "Second-lowest bidder for a 1,200-tonne rare-earth permanent magnet facility",
+   "more": [
+    "Plant would make sintered rare-earth magnets",
+    "Mahanadi Coalfields IPO also under way"
+   ],
+   "src": {
+    "title": "Stocks to Watch Today: Coal India, Paytm, JK Cement",
+    "url": "https://hdfcsky.com/news/stocks-to-watch-today-friday-november-20-2026-ashoka-buildcon-coal-india-hexaware-technologies-jk-cement-paytm"
+   },
+   "date": "2026-11-20",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "paytm-funding-societies",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Paytm to invest up to ₹200 cr in partner",
+   "line": "Paytm Singapore to invest in subsidiaries of Funding Societies",
+   "more": [
+    "Disclosed in a regulatory filing",
+    "Part of a partnership agreement"
+   ],
+   "src": {
+    "title": "Stocks to watch, Nov 20: NLC India, Ashoka Buildcon, Paytm, NHPC, Dilip Buildcon, Coal India, Urban Company",
+    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-20-nlc-india-ashoka-buildcon-paytm-nhpc-dilip-buildcon-coal-india-urban-company/article-203739/"
+   },
+   "date": "2026-11-20",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "jk-cement-renewables",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "JK Cement buys stake in renewable SPV",
+   "line": "27.03% stake for ₹5.14 crore to supply captive power to its Muddapur plant",
+   "more": [
+    "Investment of ₹5.14 crore in the SPV",
+    "Disclosed ahead of Friday's session"
+   ],
+   "src": {
+    "title": "Stocks to Watch Today: Coal India, Paytm, JK Cement",
+    "url": "https://hdfcsky.com/news/stocks-to-watch-today-friday-november-20-2026-ashoka-buildcon-coal-india-hexaware-technologies-jk-cement-paytm"
+   },
+   "date": "2026-11-20",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "1005"
+   }
+  },
   {
    "key": "opening-bell",
    "tag": "Opening",
@@ -74,7 +164,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "0925"
@@ -98,7 +188,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1035"
@@ -123,7 +213,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-14",
     "slot": "1800"
