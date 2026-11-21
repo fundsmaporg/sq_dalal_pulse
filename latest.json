@@ -1,32 +1,62 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-20T21:00:58+05:30",
- "date": "2026-11-20",
- "slot": "2100",
- "slot_label": "21:00",
- "stage": "Evening wrap",
- "asof": "2026-11-20T21:05:00+05:30",
+ "generated_at": "2026-11-21T08:00:31+05:30",
+ "date": "2026-11-21",
+ "slot": "0800",
+ "slot_label": "8:00",
+ "stage": "Weekend outlook",
+ "asof": "2026-11-21T08:10:00+05:30",
  "nifty": {
   "value": 25800.6,
   "pct": 1.12,
-  "chg": 286.3
+  "chg": 286.3,
+  "asof_quote": "Fri 20 Nov close"
+ },
+ "metrics": {
+  "brent_usd": {
+   "value": 92.57,
+   "asof": "Fri 20 Nov settle",
+   "approx": false,
+   "src": {
+    "title": "Oil Prices Rebound Friday on Middle East Tensions but Fall for Third Straight Week - WTI Closes at $83.98, Brent at $92.57",
+    "url": "https://energynow.com/2026/11/oil-prices-rebound-friday-on-middle-east-tensions-but-fall-for-third-straight-week-wti-closes-at-83-98-brent-at-92-57/"
+   }
+  },
+  "fii_net_cr": {
+   "value": 10308.42,
+   "asof": "Fri 20 Nov provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data: FII DII Activity Cash Provisional Today and Monthly across NSE and BSE",
+    "url": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/20-Nov-2026/"
+   }
+  },
+  "dii_net_cr": {
+   "value": -4859.8,
+   "asof": "Fri 20 Nov provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data: FII DII Activity Cash Provisional Today and Monthly across NSE and BSE",
+    "url": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/20-Nov-2026/"
+   }
+  }
  },
  "mood": {
-  "label": "Steady into Monday",
-  "score": 0.15,
-  "summary": "Indian shares head into the weekend near multi-month highs on heavy foreign buying, while Wall Street trades mixed with tech still under pressure from the AI sell-off.",
+  "label": "Cautious start likely",
+  "score": -0.35,
+  "summary": "Monday's session looks set for a weak start after a deep Friday sell-off on Wall Street, though record foreign buying in India gives the market a strong cushion going in.",
   "detail": {
-   "leaders": "Banks and large caps, backed by steady foreign buying",
-   "laggards": "Tech-linked names remain exposed to the US AI sell-off",
-   "tone": "A forward-looking read for Monday: about as cautious as the previous note, with Wall Street mixed rather than sharply lower and Iran headlines adding a new risk.",
+   "leaders": "Banks and domestic-facing large caps, where foreign money has been flowing",
+   "laggards": "IT and tech-linked stocks, after a heavy US tech rout on Friday night",
+   "tone": "A look-ahead to Monday 23 November: India closed Friday on a strong note, but the US sell-off after India shut sharply changes the backdrop for the open.",
    "watch": [
-    "Where Wall Street closes after a mixed, tech-heavy start",
-    "Any US decision on further strikes on Iran",
-    "Friday's provisional FII figure"
+    "How deep the gap is on Monday after the US rout",
+    "Whether foreign buyers keep buying into weakness",
+    "Monthly F&O expiry on Monday, ahead of Tuesday's holiday"
    ],
    "src": {
-    "title": "Market wrap, Nov 20: NIFTY50 ends at 25,801, SENSEX jumps 898 pts; NIFTY Bank at record high, Apollo Hospitals leads",
-    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-20-nifty-50-ends-at-25-801-sensex-jumps-898-pts-nifty-bank-at-record-high-apollo-hospitals-leads/article-203784/"
+    "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+    "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
    }
   }
  },
@@ -34,26 +64,148 @@
   {
    "key": "us-markets",
    "tag": "Global",
-   "impact": "watch",
-   "title": "Wall Street mixed; Nasdaq down again",
-   "line": "Nasdaq down about 1.4% at the open while the Dow edged higher",
+   "impact": "neg",
+   "title": "Wall Street routed; S&P 500 in correction",
+   "line": "Friday close: Nasdaq −5.28%, S&P 500 −3.7%, Dow −1.93% as the AI sell-off deepened",
    "more": [
-    "S&P 500 about 0.5% lower at the open",
-    "Reports differ slightly on the opening moves",
-    "Session still live; figures will change"
+    "Nasdaq-100 worst week since 2020 and now negative for 2026",
+    "S&P 500 down 8.6% on the week, a seventh straight loss",
+    "Selling followed Anthropic's IPO and renewed pressure on Nvidia"
    ],
    "src": {
-    "title": "Stock Market Today: Dow Rises 0.39% While Nasdaq Drops 1.39% at Open",
-    "url": "https://journalarta.com/en/2026/11/20/stock-market-today-dow-rises-0-39-while-nasdaq-drops-1-39-at-open/"
+    "title": "Nasdaq 100 Ends Worst Week Since 2020, S&P 500 In Correction Territory As AI Rout Sours Sentiment",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-ends-worst-week-013025833.html"
    },
-   "date": "2026-11-20",
-   "slot": "2100",
-   "when": "21:00",
+   "date": "2026-11-21",
+   "slot": "0800",
+   "when": "8:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
-    "date": "2026-11-14",
+    "date": "2026-11-16",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs buy ₹10,308 cr on Friday",
+   "line": "Biggest daily foreign buying this week; DIIs net sellers of ₹4,860 cr",
+   "more": [
+    "One tracker puts November FII buying at about ₹94,229 cr",
+    "Gross FII buying ₹23,596 cr vs selling ₹13,288 cr"
+   ],
+   "src": {
+    "title": "FII DII Data: FII DII Activity Cash Provisional Today and Monthly across NSE and BSE",
+    "url": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/20-Nov-2026/"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-21",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-15",
+    "slot": "outlook"
+   }
+  },
+  {
+   "key": "market-holiday",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Markets shut Tuesday for Guru Nanak Jayanti",
+   "line": "Monday is the only session before a mid-week break; trading resumes Wednesday",
+   "more": [
+    "MCX evening session stays open on Tuesday",
+    "Settlement-holiday status differs between sources"
+   ],
+   "src": {
+    "title": "Stock Market Holiday November 24: Will NSE and BSE Remain Closed on Tuesday for Guru Nanak Jayanti?",
+    "url": "https://www.kotakneo.com/news/market-news/nse-bse-to-remain-closed-on-november-24-for-guru-nanak-jayanti-mcx-evening-trading-to-continue/"
+   },
+   "date": "2026-11-21",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
     "slot": "0800"
+   }
+  },
+  {
+   "key": "fo-expiry",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Nifty monthly expiry moves to Monday",
+   "line": "NSE November F&O expiry advanced to 23 Nov because of Tuesday's holiday",
+   "more": [
+    "BSE Sensex and Bankex monthly expiry stays on Thursday 26 Nov",
+    "Nifty weekly and November monthly contracts both expire Monday"
+   ],
+   "src": {
+    "title": "Nifty weekly and November monthly expiry moves to Monday, 23 November as Tuesday is a market holiday for Guru Nanak Jayanti",
+    "url": "https://businessupturn.com/finance/stock-market/nifty-weekly-and-november-monthly-expiry-moves-to-monday-23-november-as-tuesday-is-a-market-holiday-for-guru-nanak-jayanti/"
+   },
+   "date": "2026-11-21",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "0800"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Brent ends a third weekly decline",
+   "line": "Settled at $92.57 on Friday, up on the day but down 3.4% for the week",
+   "more": [
+    "Middle East tensions lifted prices on Friday",
+    "WTI closed at $83.98"
+   ],
+   "src": {
+    "title": "Oil Prices Rebound Friday on Middle East Tensions but Fall for Third Straight Week - WTI Closes at $83.98, Brent at $92.57",
+    "url": "https://energynow.com/2026/11/oil-prices-rebound-friday-on-middle-east-tensions-but-fall-for-third-straight-week-wti-closes-at-83-98-brent-at-92-57/"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-21",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "mahanadi-coalfields-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Mahanadi IPO closes Monday",
+   "line": "Coal India arm's issue ends on 23 Nov; listing expected later in the week",
+   "more": [
+    "Crystal Crop Protection also due to list next week",
+    "Two new mainboard IPOs open next week"
+   ],
+   "src": {
+    "title": "IPO watch: Two mainboard IPOs to open next week; Mahanadi Coalfields, Crystal Crop listing ahead",
+    "url": "https://upstox.com/news/market-news/ipo/ipo-watch-two-mainboard-ip-os-to-open-next-week-mahanadi-coalfields-crystal-crop-listing-ahead/article-203777/"
+   },
+   "date": "2026-11-21",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-15",
+    "slot": "1800"
    }
   },
   {
@@ -74,9 +226,9 @@
    "thread": "crude-iran-war",
    "date": "2026-11-20",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Fri · 21:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "2100"
@@ -98,37 +250,12 @@
    },
    "date": "2026-11-20",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Fri · 21:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FII buying streak extends to 14 sessions",
-   "line": "FIIs bought ₹7,411 cr on Thursday; Friday's figure not yet published",
-   "more": [
-    "DIIs net sellers of about ₹1,357 crore on Thursday",
-    "Other trackers count a shorter streak"
-   ],
-   "src": {
-    "title": "Pre-Market Report 20 November 2026: AI Rout Hits GIFT Nifty",
-    "url": "https://www.marketcalls.in/futures-and-options/pre-market-report-20-november-2026.html"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-20",
-   "slot": "2100",
-   "when": "21:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "1800"
    }
   },
   {
@@ -148,36 +275,12 @@
    "thread": "rupee",
    "date": "2026-11-20",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Fri · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-14",
-    "slot": "2100"
-   }
-  },
-  {
-   "key": "mahanadi-coalfields-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Mahanadi IPO 0.49x subscribed after day 2",
-   "line": "QIBs at 1.37x; retail 0.25x and NII 0.18x as of 5:04 pm",
-   "more": [
-    "Issue closes 23 November; listing set for 27 November",
-    "Earlier day-2 readings ranged from 0.40x to 0.46x"
-   ],
-   "src": {
-    "title": "Mahanadi Coalfields IPO Subscription Status: Subscribed 0.49x",
-    "url": "https://hdfcsky.com/news/mahanadi-coalfields-ipo-subscription-status-day-2"
-   },
-   "date": "2026-11-20",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "1800"
+    "date": "2026-11-16",
+    "slot": "1635"
    }
   },
   {
@@ -196,7 +299,7 @@
    },
    "date": "2026-11-20",
    "slot": "1635",
-   "when": "16:35",
+   "when": "Fri · 16:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -220,7 +323,7 @@
    },
    "date": "2026-11-20",
    "slot": "1635",
-   "when": "16:35",
+   "when": "Fri · 16:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -244,7 +347,7 @@
    },
    "date": "2026-11-20",
    "slot": "1605",
-   "when": "16:05",
+   "when": "Fri · 16:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -268,7 +371,7 @@
    },
    "date": "2026-11-20",
    "slot": "1605",
-   "when": "16:05",
+   "when": "Fri · 16:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -292,7 +395,7 @@
    },
    "date": "2026-11-20",
    "slot": "1605",
-   "when": "16:05",
+   "when": "Fri · 16:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -316,7 +419,7 @@
    },
    "date": "2026-11-20",
    "slot": "1535",
-   "when": "15:35",
+   "when": "Fri · 15:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -340,7 +443,7 @@
    },
    "date": "2026-11-20",
    "slot": "1505",
-   "when": "15:05",
+   "when": "Fri · 15:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -365,7 +468,7 @@
    "thread": "it-sector",
    "date": "2026-11-20",
    "slot": "1405",
-   "when": "14:05",
+   "when": "Fri · 14:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -390,7 +493,7 @@
    },
    "date": "2026-11-20",
    "slot": "1335",
-   "when": "13:35",
+   "when": "Fri · 13:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -414,7 +517,7 @@
    },
    "date": "2026-11-20",
    "slot": "1335",
-   "when": "13:35",
+   "when": "Fri · 13:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -438,7 +541,7 @@
    },
    "date": "2026-11-20",
    "slot": "1135",
-   "when": "11:35",
+   "when": "Fri · 11:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -462,7 +565,7 @@
    },
    "date": "2026-11-20",
    "slot": "1035",
-   "when": "10:35",
+   "when": "Fri · 10:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -486,7 +589,7 @@
    },
    "date": "2026-11-20",
    "slot": "1005",
-   "when": "10:05",
+   "when": "Fri · 10:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -510,7 +613,7 @@
    },
    "date": "2026-11-20",
    "slot": "1005",
-   "when": "10:05",
+   "when": "Fri · 10:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -534,7 +637,7 @@
    },
    "date": "2026-11-20",
    "slot": "1005",
-   "when": "10:05",
+   "when": "Fri · 10:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -558,37 +661,12 @@
    },
    "date": "2026-11-20",
    "slot": "1005",
-   "when": "10:05",
+   "when": "Fri · 10:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Oil steady on West Asia tensions",
-   "line": "Crude holds firm as persistent West Asia tensions limit any fall",
-   "more": [
-    "Brent near $92.50 before the open (Marketcalls)",
-    "Tensions in West Asia cited as the support for prices"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex down 100 pts, Nifty near 25,450; Nifty Metal down 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-20",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "1800"
    }
   },
   {
@@ -607,7 +685,7 @@
    },
    "date": "2026-11-20",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Fri · 8:45",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -631,7 +709,7 @@
    },
    "date": "2026-11-20",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Fri · 8:45",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -657,7 +735,7 @@
    "thread": "us-rates",
    "date": "2026-11-20",
    "slot": "0700",
-   "when": "7:00",
+   "when": "Fri · 7:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -1097,8 +1175,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-14",
-    "slot": "1400"
+    "date": "2026-11-15",
+    "slot": "0800"
    }
   },
   {
@@ -1433,11 +1511,11 @@
    "date": "2026-11-18",
    "slot": "0925",
    "when": "Wed · 9:25",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-14",
-    "slot": "2100"
+    "date": "2026-11-18",
+    "slot": "0925"
    }
   },
   {
@@ -1460,8 +1538,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-14",
-    "slot": "0800"
+    "date": "2026-11-15",
+    "slot": "1800"
    }
   },
   {
@@ -1950,8 +2028,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-14",
-    "slot": "2100"
+    "date": "2026-11-15",
+    "slot": "0800"
    }
   },
   {
@@ -2366,8 +2444,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-14",
-    "slot": "2100"
+    "date": "2026-11-15",
+    "slot": "1400"
    }
   },
   {
@@ -2614,80 +2692,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-11-15",
-    "slot": "0800"
-   }
-  },
-  {
-   "key": "nvidia-ceo",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Nvidia slide extends after HSBC downgrade",
-   "line": "Shares fell again on Friday after HSBC downgraded the stock, after a 4.34% drop Thursday",
-   "more": [
-    "CFO Colette Kress is interim CEO after Jensen Huang's resignation",
-    "Harvey C. Jones becomes Nvidia's first independent chairman",
-    "The turmoil is clouding the AI trade across Asia"
-   ],
-   "src": {
-    "title": "Asia stocks slip as Nvidia turmoil clouds AI trade; China chipmakers rally",
-    "url": "https://www.investing.com/news/stock-market-news/asia-stocks-hold-up-as-nvidia-leadership-crisis-clouds-ai-trade-5020307"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-14",
-   "slot": "1400",
-   "when": "Sat · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "forex-reserves",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Forex reserves rise $2.49 billion",
-   "line": "India's reserves rose to $719.54 billion in the week ended November 6",
-   "more": [
-    "The rupee slipped 21 paise against the dollar on Friday",
-    "Strong foreign equity inflows have continued this month"
-   ],
-   "src": {
-    "title": "Today in India: 14 November 2026",
-    "url": "https://indianopinion.org/today-in-india-14-november-2026/"
-   },
-   "date": "2026-11-14",
-   "slot": "0800",
-   "when": "Sat · 8:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
-    "slot": "0800"
-   }
-  },
-  {
-   "key": "market-holiday",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "Markets shut on November 24 for Guru Nanak Jayanti",
-   "line": "Monday 16 November is a normal session; the next holiday is Tuesday, November 24",
-   "more": [
-    "The week of November 23 will have four trading sessions",
-    "Equity trading was also closed on November 10 for Diwali Balipratipada"
-   ],
-   "src": {
-    "title": "Stock market NSE BSE holidays this month, November 2026",
-    "url": "https://www.angelone.in/news/market-updates/stock-market-nse-bse-holidays-this-month-november-2026"
-   },
-   "date": "2026-11-14",
-   "slot": "0800",
-   "when": "Sat · 8:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-14",
     "slot": "0800"
    }
   }

@@ -1,0 +1,195 @@
+{
+ "asof": "2026-11-21T08:10:00+05:30",
+ "summary": "Monday's session looks set for a weak start after a deep Friday sell-off on Wall Street, though record foreign buying in India gives the market a strong cushion going in.",
+ "mood": {
+  "label": "Cautious start likely",
+  "score": -0.35,
+  "detail": {
+   "stats": [],
+   "leaders": "Banks and domestic-facing large caps, where foreign money has been flowing",
+   "laggards": "IT and tech-linked stocks, after a heavy US tech rout on Friday night",
+   "tone": "A look-ahead to Monday 23 November: India closed Friday on a strong note, but the US sell-off after India shut sharply changes the backdrop for the open.",
+   "watch": [
+    "How deep the gap is on Monday after the US rout",
+    "Whether foreign buyers keep buying into weakness",
+    "Monthly F&O expiry on Monday, ahead of Tuesday's holiday"
+   ],
+   "src": {
+    "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+    "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25800.6,
+  "pct": 1.12,
+  "chg": 286.3,
+  "asof_quote": "Fri 20 Nov close"
+ },
+ "metrics": {
+  "fii_net_cr": {
+   "value": 10308.42,
+   "asof": "Fri 20 Nov provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data: FII DII Activity Cash Provisional Today and Monthly across NSE and BSE",
+    "url": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/20-Nov-2026/"
+   }
+  },
+  "dii_net_cr": {
+   "value": -4859.8,
+   "asof": "Fri 20 Nov provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data: FII DII Activity Cash Provisional Today and Monthly across NSE and BSE",
+    "url": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/20-Nov-2026/"
+   }
+  },
+  "brent_usd": {
+   "value": 92.57,
+   "asof": "Fri 20 Nov settle",
+   "approx": false,
+   "src": {
+    "title": "Oil Prices Rebound Friday on Middle East Tensions but Fall for Third Straight Week - WTI Closes at $83.98, Brent at $92.57",
+    "url": "https://energynow.com/2026/11/oil-prices-rebound-friday-on-middle-east-tensions-but-fall-for-third-straight-week-wti-closes-at-83-98-brent-at-92-57/"
+   }
+  }
+ },
+ "top": [
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Wall Street routed; S&P 500 in correction",
+   "line": "Friday close: Nasdaq −5.28%, S&P 500 −3.7%, Dow −1.93% as the AI sell-off deepened",
+   "more": [
+    "Nasdaq-100 worst week since 2020 and now negative for 2026",
+    "S&P 500 down 8.6% on the week, a seventh straight loss",
+    "Selling followed Anthropic's IPO and renewed pressure on Nvidia"
+   ],
+   "src": {
+    "title": "Nasdaq 100 Ends Worst Week Since 2020, S&P 500 In Correction Territory As AI Rout Sours Sentiment",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-ends-worst-week-013025833.html"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs buy ₹10,308 cr on Friday",
+   "line": "Biggest daily foreign buying this week; DIIs net sellers of ₹4,860 cr",
+   "more": [
+    "One tracker puts November FII buying at about ₹94,229 cr",
+    "Gross FII buying ₹23,596 cr vs selling ₹13,288 cr"
+   ],
+   "thread": "fii-flows",
+   "src": {
+    "title": "FII DII Data: FII DII Activity Cash Provisional Today and Monthly across NSE and BSE",
+    "url": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/20-Nov-2026/"
+   }
+  },
+  {
+   "key": "market-holiday",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Markets shut Tuesday for Guru Nanak Jayanti",
+   "line": "Monday is the only session before a mid-week break; trading resumes Wednesday",
+   "more": [
+    "MCX evening session stays open on Tuesday",
+    "Settlement-holiday status differs between sources"
+   ],
+   "src": {
+    "title": "Stock Market Holiday November 24: Will NSE and BSE Remain Closed on Tuesday for Guru Nanak Jayanti?",
+    "url": "https://www.kotakneo.com/news/market-news/nse-bse-to-remain-closed-on-november-24-for-guru-nanak-jayanti-mcx-evening-trading-to-continue/"
+   }
+  },
+  {
+   "key": "fo-expiry",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Nifty monthly expiry moves to Monday",
+   "line": "NSE November F&O expiry advanced to 23 Nov because of Tuesday's holiday",
+   "more": [
+    "BSE Sensex and Bankex monthly expiry stays on Thursday 26 Nov",
+    "Nifty weekly and November monthly contracts both expire Monday"
+   ],
+   "src": {
+    "title": "Nifty weekly and November monthly expiry moves to Monday, 23 November as Tuesday is a market holiday for Guru Nanak Jayanti",
+    "url": "https://businessupturn.com/finance/stock-market/nifty-weekly-and-november-monthly-expiry-moves-to-monday-23-november-as-tuesday-is-a-market-holiday-for-guru-nanak-jayanti/"
+   }
+  },
+  {
+   "key": "crude",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Brent ends a third weekly decline",
+   "line": "Settled at $92.57 on Friday, up on the day but down 3.4% for the week",
+   "more": [
+    "Middle East tensions lifted prices on Friday",
+    "WTI closed at $83.98"
+   ],
+   "thread": "crude-iran-war",
+   "src": {
+    "title": "Oil Prices Rebound Friday on Middle East Tensions but Fall for Third Straight Week - WTI Closes at $83.98, Brent at $92.57",
+    "url": "https://energynow.com/2026/11/oil-prices-rebound-friday-on-middle-east-tensions-but-fall-for-third-straight-week-wti-closes-at-83-98-brent-at-92-57/"
+   }
+  },
+  {
+   "key": "mahanadi-coalfields-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Mahanadi IPO closes Monday",
+   "line": "Coal India arm's issue ends on 23 Nov; listing expected later in the week",
+   "more": [
+    "Crystal Crop Protection also due to list next week",
+    "Two new mainboard IPOs open next week"
+   ],
+   "src": {
+    "title": "IPO watch: Two mainboard IPOs to open next week; Mahanadi Coalfields, Crystal Crop listing ahead",
+    "url": "https://upstox.com/news/market-news/ipo/ipo-watch-two-mainboard-ip-os-to-open-next-week-mahanadi-coalfields-crystal-crop-listing-ahead/article-203777/"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+   "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+  },
+  {
+   "title": "Nasdaq 100 Ends Worst Week Since 2020, S&P 500 In Correction Territory As AI Rout Sours Sentiment",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-ends-worst-week-013025833.html"
+  },
+  {
+   "title": "Nasdaq wipes out gains for the year as Anthropic IPO fails to quell AI nerves",
+   "url": "https://www.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai"
+  },
+  {
+   "title": "FII DII Data: FII DII Activity Cash Provisional Today and Monthly across NSE and BSE",
+   "url": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/20-Nov-2026/"
+  },
+  {
+   "title": "FII DII Data Today: Cash Market Flows Dashboard",
+   "url": "https://www.marketcalls.in/fii-dii-data"
+  },
+  {
+   "title": "Oil Prices Rebound Friday on Middle East Tensions but Fall for Third Straight Week - WTI Closes at $83.98, Brent at $92.57",
+   "url": "https://energynow.com/2026/11/oil-prices-rebound-friday-on-middle-east-tensions-but-fall-for-third-straight-week-wti-closes-at-83-98-brent-at-92-57/"
+  },
+  {
+   "title": "Stock Market Holiday November 24: Will NSE and BSE Remain Closed on Tuesday for Guru Nanak Jayanti?",
+   "url": "https://www.kotakneo.com/news/market-news/nse-bse-to-remain-closed-on-november-24-for-guru-nanak-jayanti-mcx-evening-trading-to-continue/"
+  },
+  {
+   "title": "Nifty weekly and November monthly expiry moves to Monday, 23 November as Tuesday is a market holiday for Guru Nanak Jayanti",
+   "url": "https://businessupturn.com/finance/stock-market/nifty-weekly-and-november-monthly-expiry-moves-to-monday-23-november-as-tuesday-is-a-market-holiday-for-guru-nanak-jayanti/"
+  },
+  {
+   "title": "IPO watch: Two mainboard IPOs to open next week; Mahanadi Coalfields, Crystal Crop listing ahead",
+   "url": "https://upstox.com/news/market-news/ipo/ipo-watch-two-mainboard-ip-os-to-open-next-week-mahanadi-coalfields-crystal-crop-listing-ahead/article-203777/"
+  },
+  {
+   "title": "Market wrap, Nov 20: NIFTY50 ends at 25,801, SENSEX jumps 898 pts; NIFTY Bank at record high, Apollo Hospitals leads",
+   "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-20-nifty-50-ends-at-25-801-sensex-jumps-898-pts-nifty-bank-at-record-high-apollo-hospitals-leads/article-203784/"
+  }
+ ]
+}
