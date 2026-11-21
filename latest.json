@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-21T08:00:31+05:30",
+ "generated_at": "2026-11-21T13:59:53+05:30",
  "date": "2026-11-21",
- "slot": "0800",
- "slot_label": "8:00",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Weekend outlook",
- "asof": "2026-11-21T08:10:00+05:30",
+ "asof": "2026-11-21T14:05:00+05:30",
  "nifty": {
   "value": 25800.6,
   "pct": 1.12,
@@ -13,13 +13,13 @@
   "asof_quote": "Fri 20 Nov close"
  },
  "metrics": {
-  "brent_usd": {
-   "value": 92.57,
-   "asof": "Fri 20 Nov settle",
-   "approx": false,
+  "usd_inr": {
+   "value": 92.67,
+   "asof": "Fri 20 Nov close (provisional)",
+   "approx": true,
    "src": {
-    "title": "Oil Prices Rebound Friday on Middle East Tensions but Fall for Third Straight Week - WTI Closes at $83.98, Brent at $92.57",
-    "url": "https://energynow.com/2026/11/oil-prices-rebound-friday-on-middle-east-tensions-but-fall-for-third-straight-week-wti-closes-at-83-98-brent-at-92-57/"
+    "title": "Indian rupee closes at ₹92.67 after gaining 65 paise",
+    "url": "https://www.multibagg.ai/market-pulse/articles/rupee-closes-9267-gains-65-paise-cmwq02cma002d2rp32o9qy9op"
    }
   },
   "fii_net_cr": {
@@ -43,47 +43,145 @@
  },
  "mood": {
   "label": "Cautious start likely",
-  "score": -0.35,
-  "summary": "Monday's session looks set for a weak start after a deep Friday sell-off on Wall Street, though record foreign buying in India gives the market a strong cushion going in.",
+  "score": -0.3,
+  "summary": "Monday's session faces a weak global lead after Friday's US tech rout, but heavy foreign buying, a firmer rupee and easing Iran risk give Indian stocks real support.",
   "detail": {
-   "leaders": "Banks and domestic-facing large caps, where foreign money has been flowing",
-   "laggards": "IT and tech-linked stocks, after a heavy US tech rout on Friday night",
-   "tone": "A look-ahead to Monday 23 November: India closed Friday on a strong note, but the US sell-off after India shut sharply changes the backdrop for the open.",
+   "leaders": "Banks and rupee-sensitive large caps, backed by foreign inflows and a stronger currency",
+   "laggards": "IT and tech-linked names after the heavy US tech sell-off",
+   "tone": "A look-ahead to Monday 23 November, the only session before Tuesday's holiday: slightly less gloomy than this morning's note as the Iran risk eased and the rupee closed stronger.",
    "watch": [
-    "How deep the gap is on Monday after the US rout",
-    "Whether foreign buyers keep buying into weakness",
-    "Monthly F&O expiry on Monday, ahead of Tuesday's holiday"
+    "How far Monday opens below Friday's close after the US rout",
+    "Whether foreign buyers keep absorbing selling",
+    "Monthly F&O expiry on Monday"
    ],
    "src": {
-    "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
-    "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    "title": "Nasdaq 100 Ends Worst Week Since 2020, S&P 500 In Correction Territory As AI Rout Sours Sentiment",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-ends-worst-week-013025833.html"
    }
   }
  },
  "insights": [
   {
+   "key": "crude-iran-war",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Trump pushes Iran strike decision to 2027",
+   "line": "Says 'we've got time'; further strikes not ruled out but no decision this year",
+   "more": [
+    "Israel reported to be pressing for action",
+    "US Senate again rejected a measure to curb the war",
+    "Lower near-term escalation risk for oil"
+   ],
+   "src": {
+    "title": "Trump Pushes Iran Strike Decision to Next Year: 'We've Got Time'",
+    "url": "https://www.haaretz.com/us-news/2026-11-20/ty-article/trump-pushes-iran-strike-decision-to-next-year-weve-got-time/000001a1-f623-d175-abf5-fe3795240000"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-21",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Rupee ends the week near 92.7 per dollar",
+   "line": "Fifth straight gain, up about 65 paise on Friday on foreign inflows",
+   "more": [
+    "Provisional close 92.67 (Multibagg); 92.71 per Trading Economics",
+    "First move through 93 since April"
+   ],
+   "src": {
+    "title": "Indian rupee closes at ₹92.67 after gaining 65 paise",
+    "url": "https://www.multibagg.ai/market-pulse/articles/rupee-closes-9267-gains-65-paise-cmwq02cma002d2rp32o9qy9op"
+   },
+   "thread": "rupee",
+   "date": "2026-11-21",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1635"
+   }
+  },
+  {
+   "key": "sebi-fpi-onboarding",
+   "tag": "Regulation",
+   "impact": "pos",
+   "title": "SEBI, RBI aim to onboard FPIs in 5 days",
+   "line": "Working to cut foreign investor registration time to five business days",
+   "more": [
+    "Announced by SEBI chairman Tuhin Kanta Pandey on Friday",
+    "SEBI also studying a domestic AI model for market regulation"
+   ],
+   "src": {
+    "title": "SEBI Explores Domestic AI Model for Securities Market Regulation",
+    "url": "https://www.angelone.in/news/market-updates/sebi-explores-domestic-ai-model-for-securities-market-regulation"
+   },
+   "date": "2026-11-21",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "1400"
+   }
+  },
+  {
    "key": "us-markets",
    "tag": "Global",
    "impact": "neg",
-   "title": "Wall Street routed; S&P 500 in correction",
-   "line": "Friday close: Nasdaq −5.28%, S&P 500 −3.7%, Dow −1.93% as the AI sell-off deepened",
+   "title": "US tech rout sets a weak lead for Monday",
+   "line": "Nasdaq fell 5.28% on Friday; S&P 500 closed in correction",
    "more": [
-    "Nasdaq-100 worst week since 2020 and now negative for 2026",
-    "S&P 500 down 8.6% on the week, a seventh straight loss",
-    "Selling followed Anthropic's IPO and renewed pressure on Nvidia"
+    "Nasdaq-100 had its worst week since 2020",
+    "US markets stay shut until Monday evening India time"
    ],
    "src": {
     "title": "Nasdaq 100 Ends Worst Week Since 2020, S&P 500 In Correction Territory As AI Rout Sours Sentiment",
     "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-ends-worst-week-013025833.html"
    },
    "date": "2026-11-21",
-   "slot": "0800",
-   "when": "8:00",
+   "slot": "1400",
+   "when": "14:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "0700"
+   }
+  },
+  {
+   "key": "market-holiday",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Monday is the only session before a holiday",
+   "line": "Markets shut Tuesday 24 Nov for Guru Nanak Jayanti; NSE expiry moves to Monday",
+   "more": [
+    "Trading resumes Wednesday 25 Nov",
+    "BSE monthly expiry stays on Thursday"
+   ],
+   "src": {
+    "title": "Stock Market Holiday November 24: Will NSE and BSE Remain Closed on Tuesday for Guru Nanak Jayanti?",
+    "url": "https://www.kotakneo.com/news/market-news/nse-bse-to-remain-closed-on-november-24-for-guru-nanak-jayanti-mcx-evening-trading-to-continue/"
+   },
+   "date": "2026-11-21",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "0800"
    }
   },
   {
@@ -105,34 +203,10 @@
    "slot": "0800",
    "when": "8:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-15",
     "slot": "outlook"
-   }
-  },
-  {
-   "key": "market-holiday",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Markets shut Tuesday for Guru Nanak Jayanti",
-   "line": "Monday is the only session before a mid-week break; trading resumes Wednesday",
-   "more": [
-    "MCX evening session stays open on Tuesday",
-    "Settlement-holiday status differs between sources"
-   ],
-   "src": {
-    "title": "Stock Market Holiday November 24: Will NSE and BSE Remain Closed on Tuesday for Guru Nanak Jayanti?",
-    "url": "https://www.kotakneo.com/news/market-news/nse-bse-to-remain-closed-on-november-24-for-guru-nanak-jayanti-mcx-evening-trading-to-continue/"
-   },
-   "date": "2026-11-21",
-   "slot": "0800",
-   "when": "8:00",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
    }
   },
   {
@@ -153,7 +227,7 @@
    "slot": "0800",
    "when": "8:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-21",
     "slot": "0800"
@@ -178,7 +252,7 @@
    "slot": "0800",
    "when": "8:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "0700"
@@ -202,36 +276,10 @@
    "slot": "0800",
    "when": "8:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-15",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "crude-iran-war",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Trump weighs further Iran strikes",
-   "line": "Reports say a new round of strikes is under consideration; no decision yet",
-   "more": [
-    "Trump says he is not rushing into a decision",
-    "Brent settled just below $92 on Thursday",
-    "Analysts see supply recovery capping any oil rebound"
-   ],
-   "src": {
-    "title": "Trump's Iran strike threat returns, but why aren't oil prices surging?",
-    "url": "https://invezz.com/news/2026/11/19/trump-iran-strike-threat-oil-prices-not-surging/"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-20",
-   "slot": "2100",
-   "when": "Fri · 21:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "2100"
    }
   },
   {
@@ -256,31 +304,6 @@
    "first_seen": {
     "date": "2026-11-18",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee strengthens past 93 to the dollar",
-   "line": "First move beyond 93 since April, helped by foreign inflows",
-   "more": [
-    "One report puts it at 93.15, up 17 paise; another had it near 92.6 intraday",
-    "Called Asia's best-performing currency this month"
-   ],
-   "src": {
-    "title": "Rupee Breaks ₹93 Barrier Against US Dollar for First Time Since April, Emerges as Asia's Best-Performing Currency This Month",
-    "url": "https://www.theunitedindian.com/news/rupee-dollar-rate-today-november-20-2026"
-   },
-   "thread": "rupee",
-   "date": "2026-11-20",
-   "slot": "1800",
-   "when": "Fri · 18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1635"
    }
   },
   {
