@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-21T18:00:48+05:30",
+ "generated_at": "2026-11-21T21:00:13+05:30",
  "date": "2026-11-21",
- "slot": "1800",
- "slot_label": "18:00",
+ "slot": "2100",
+ "slot_label": "21:00",
  "stage": "Weekend outlook",
- "asof": "2026-11-21T18:05:00+05:30",
+ "asof": "2026-11-21T21:05:00+05:30",
  "nifty": {
   "value": 25800.6,
   "pct": 1.12,
@@ -35,15 +35,15 @@
  "mood": {
   "label": "Cautious start likely",
   "score": -0.3,
-  "summary": "Monday's session is set to open under pressure from Friday's US tech rout, with record foreign buying, a stronger rupee and calmer Iran risk offering support at home.",
+  "summary": "Monday's session is likely to open on the back foot after Friday's US tech rout, but strong foreign buying and a firmer rupee should limit the damage for Indian large caps.",
   "detail": {
-   "leaders": "Banks and domestic-facing large caps, where foreign money has been concentrated",
-   "laggards": "IT and AI-linked stocks after Nvidia's sharp fall in the US",
-   "tone": "A look-ahead to Monday 23 November, the only session before Tuesday's holiday. A quiet Saturday afternoon: the setup is unchanged from the earlier note, with only more detail on Nvidia's slide.",
+   "leaders": "Banks and domestic-facing large caps, which have drawn the bulk of foreign buying",
+   "laggards": "IT and AI-linked stocks after the US tech sell-off",
+   "tone": "A look-ahead to Monday 23 November, the only session before Tuesday's holiday. A quiet Saturday evening: little has changed since the afternoon notes, apart from cooling grey-market interest in the Mahanadi IPO.",
    "watch": [
-    "The size of Monday's opening gap after the US rout",
-    "Whether foreign buying continues into weakness",
-    "Monthly F&O expiry on Monday"
+    "How far Monday opens below Friday's close",
+    "Whether foreign buyers step in again",
+    "Monthly F&O expiry and the Mahanadi IPO close on Monday"
    ],
    "src": {
     "title": "Stocks close sharply lower as tech rout deepens, with S&P 500, Dow and TSX sliding into technical corrections",
@@ -53,28 +53,100 @@
  },
  "insights": [
   {
+   "key": "mahanadi-coalfields-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Mahanadi IPO grey premium nearly gone",
+   "line": "Unofficial GMP down to about ₹1 from ₹7 a week ago; issue closes Monday",
+   "more": [
+    "About 0.48x subscribed by 5 pm on day 2",
+    "Allotment expected 25 Nov, listing 27 Nov",
+    "GMP is unofficial and can differ from the listing price"
+   ],
+   "src": {
+    "title": "Mahanadi Coalfields IPO — Date, GMP, Price Band, Allotment",
+    "url": "https://www.ipomarket.in/ipo/mahanadi-coalfields-ipo"
+   },
+   "date": "2026-11-21",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-15",
+    "slot": "1800"
+   }
+  },
+  {
    "key": "us-markets",
    "tag": "Global",
    "impact": "neg",
-   "title": "Nvidia drops 13.8% as AI rout deepens",
-   "line": "Friday close: S&P 500 and Dow in correction as chip and AI stocks lead losses",
+   "title": "US tech rout leaves a weak lead",
+   "line": "Friday close: S&P 500 and Dow in correction; Nvidia down 13.8%",
    "more": [
-    "Nvidia fell despite beating earnings expectations",
     "Nasdaq-100 had its worst week since 2020",
-    "One analysis calls the selloff stock-specific rather than broad"
+    "US markets reopen Monday evening India time"
    ],
    "src": {
     "title": "Stocks close sharply lower as tech rout deepens, with S&P 500, Dow and TSX sliding into technical corrections",
     "url": "https://theglobeandmail.com/investing/markets/inside-the-market/market-news/article-us-futures-fall-after-sp-500-drops-for-six-straight-sessions-asia-set"
    },
    "date": "2026-11-21",
-   "slot": "1800",
-   "when": "18:00",
+   "slot": "2100",
+   "when": "21:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-16",
     "slot": "0700"
+   }
+  },
+  {
+   "key": "ipo-pipeline",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Two mainboard IPOs open next week",
+   "line": "Crystal Crop and Mahanadi Coalfields due to list; two allotments also ahead",
+   "more": [
+    "Foodlink F&B and Integris Medtech among issues opening",
+    "Short week because of Tuesday's holiday"
+   ],
+   "src": {
+    "title": "IPOs Next Week: 2 mainboard issues to open; Crystal Crop, Mahanadi Coalfields IPOs in focus",
+    "url": "https://www.zeebiz.com/markets/ipo/news-upcoming-ipos-next-week-foodlink-fb-integris-medtech-issues-to-open-2-ipo-allotments-2-listings-ahead-405833"
+   },
+   "date": "2026-11-21",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-15",
+    "slot": "1800"
+   }
+  },
+  {
+   "key": "market-holiday",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Markets shut Tuesday for Guru Nanak Jayanti",
+   "line": "Monday is the only session before the break; trading resumes Wednesday",
+   "more": [
+    "NSE monthly expiry moved to Monday 23 Nov",
+    "BSE monthly expiry stays on Thursday 26 Nov"
+   ],
+   "src": {
+    "title": "Stock Market Holiday November 24: Will NSE and BSE Remain Closed on Tuesday for Guru Nanak Jayanti?",
+    "url": "https://www.kotakneo.com/news/market-news/nse-bse-to-remain-closed-on-november-24-for-guru-nanak-jayanti-mcx-evening-trading-to-continue/"
+   },
+   "date": "2026-11-21",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "0800"
    }
   },
   {
@@ -96,34 +168,10 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "market-holiday",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Short week: markets shut Tuesday",
-   "line": "Monday is the only session before the Guru Nanak Jayanti holiday; trading resumes Wed",
-   "more": [
-    "NSE monthly expiry advanced to Monday 23 Nov",
-    "BSE monthly expiry stays on Thursday 26 Nov"
-   ],
-   "src": {
-    "title": "Stock Market Holiday November 24: Will NSE and BSE Remain Closed on Tuesday for Guru Nanak Jayanti?",
-    "url": "https://www.kotakneo.com/news/market-news/nse-bse-to-remain-closed-on-november-24-for-guru-nanak-jayanti-mcx-evening-trading-to-continue/"
-   },
-   "date": "2026-11-21",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
    }
   },
   {
@@ -247,30 +295,6 @@
    "first_seen": {
     "date": "2026-11-16",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "mahanadi-coalfields-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Mahanadi IPO closes Monday",
-   "line": "Coal India arm's issue ends on 23 Nov; listing expected later in the week",
-   "more": [
-    "Crystal Crop Protection also due to list next week",
-    "Two new mainboard IPOs open next week"
-   ],
-   "src": {
-    "title": "IPO watch: Two mainboard IPOs to open next week; Mahanadi Coalfields, Crystal Crop listing ahead",
-    "url": "https://upstox.com/news/market-news/ipo/ipo-watch-two-mainboard-ip-os-to-open-next-week-mahanadi-coalfields-crystal-crop-listing-ahead/article-203777/"
-   },
-   "date": "2026-11-21",
-   "slot": "0800",
-   "when": "8:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "1800"
    }
   },
   {
@@ -1530,30 +1554,6 @@
    "first_seen": {
     "date": "2026-11-18",
     "slot": "0925"
-   }
-  },
-  {
-   "key": "ipo-pipeline",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Crystal Crop IPO opens today",
-   "line": "The agrochemicals and seeds maker's issue is priced at ₹259–272 a share",
-   "more": [
-    "It is the first of three issues this week",
-    "Mahanadi Coalfields' IPO opens on Thursday"
-   ],
-   "src": {
-    "title": "IPO action returns: 3 Indian share sales worth Rs 10,000 crore",
-    "url": "https://journalarta.com/en/2026/11/15/ipo-action-returns-3-indian-share-sales-rs-10000-crore/"
-   },
-   "date": "2026-11-18",
-   "slot": "0845",
-   "when": "Wed · 8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "1800"
    }
   },
   {
