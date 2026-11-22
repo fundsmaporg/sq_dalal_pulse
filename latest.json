@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-21T21:00:13+05:30",
- "date": "2026-11-21",
- "slot": "2100",
- "slot_label": "21:00",
+ "generated_at": "2026-11-22T08:00:01+05:30",
+ "date": "2026-11-22",
+ "slot": "0800",
+ "slot_label": "8:00",
  "stage": "Weekend outlook",
- "asof": "2026-11-21T21:05:00+05:30",
+ "asof": "2026-11-22T08:05:00+05:30",
  "nifty": {
   "value": 25800.6,
   "pct": 1.12,
@@ -34,24 +34,121 @@
  },
  "mood": {
   "label": "Cautious start likely",
-  "score": -0.3,
-  "summary": "Monday's session is likely to open on the back foot after Friday's US tech rout, but strong foreign buying and a firmer rupee should limit the damage for Indian large caps.",
+  "score": -0.25,
+  "summary": "Monday's session pits a weak global lead from the US tech rout against record foreign buying and a stronger rupee, with a holiday-shortened week and expiry adding to the swings.",
   "detail": {
-   "leaders": "Banks and domestic-facing large caps, which have drawn the bulk of foreign buying",
-   "laggards": "IT and AI-linked stocks after the US tech sell-off",
-   "tone": "A look-ahead to Monday 23 November, the only session before Tuesday's holiday. A quiet Saturday evening: little has changed since the afternoon notes, apart from cooling grey-market interest in the Mahanadi IPO.",
+   "leaders": "Banks, which led last week's rally on record foreign inflows",
+   "laggards": "IT and AI-linked stocks after the US sell-off, plus smaller stocks that lagged last week",
+   "tone": "A look-ahead to Monday 23 November, the only session before Tuesday's holiday. Weekend previews now in hand add detail but no new shock since Saturday's notes.",
    "watch": [
-    "How far Monday opens below Friday's close",
-    "Whether foreign buyers step in again",
-    "Monthly F&O expiry and the Mahanadi IPO close on Monday"
+    "How far Monday opens below Friday's close after the US rout",
+    "Whether the banking rally holds",
+    "Monthly F&O expiry on Monday and US Thanksgiving later in the week"
    ],
    "src": {
-    "title": "Stocks close sharply lower as tech rout deepens, with S&P 500, Dow and TSX sliding into technical corrections",
-    "url": "https://theglobeandmail.com/investing/markets/inside-the-market/market-news/article-us-futures-fall-after-sp-500-drops-for-six-straight-sessions-asia-set"
+    "title": "Markets Next Week: Nifty eyes 26,000 as FIIs pour in record Rs 1.12 lakh crore; will banking rally extend? Key triggers to watch",
+    "url": "https://www.businesstoday.in/markets/stocks/story/markets-next-week-nifty-eyes-26000-as-fiis-pour-in-record-rs-1-12-lakh-crore-will-banking-rally-extend-key-triggers-to-watch-568918-2026-11-22"
    }
   }
  },
  "insights": [
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Record ₹1.12 lakh crore FII inflow in November",
+   "line": "Foreign buying this month cited as a record, driving the banks-led rally",
+   "more": [
+    "FIIs bought ₹10,308 cr on Friday alone",
+    "Rupee up about 1.6% against the dollar alongside the inflows"
+   ],
+   "src": {
+    "title": "Markets Next Week: Nifty eyes 26,000 as FIIs pour in record Rs 1.12 lakh crore; will banking rally extend? Key triggers to watch",
+    "url": "https://www.businesstoday.in/markets/stocks/story/markets-next-week-nifty-eyes-26000-as-fiis-pour-in-record-rs-1-12-lakh-crore-will-banking-rally-extend-key-triggers-to-watch-568918-2026-11-22"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-22",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "broader-market",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Last week's rally was narrow",
+   "line": "Gains concentrated in large caps; midcaps flat and smallcaps lower",
+   "more": [
+    "Banks did most of the lifting",
+    "Breadth a key test for the coming week"
+   ],
+   "src": {
+    "title": "Indian Stock Market Outlook Next Week, 23-27 Nov: Sensex, Nifty May Extend Rally Amid Easing Crude Oil Prices",
+    "url": "https://www.goodreturns.in/news/indian-stock-market-outlook-next-week-23-27-nov-sensex-nifty-may-extend-rally-amid-easing-crude-o-1548735.html"
+   },
+   "date": "2026-11-22",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "week-ahead",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Short week with several triggers",
+   "line": "Monday expiry, Tuesday holiday, US Thanksgiving, inflation data and crude in focus",
+   "more": [
+    "NSE monthly expiry advanced to Monday 23 Nov",
+    "Indian markets shut Tuesday 24 Nov for Guru Nanak Jayanti"
+   ],
+   "src": {
+    "title": "Markets Next Week: Nifty eyes 26,000 as FIIs pour in record Rs 1.12 lakh crore; will banking rally extend? Key triggers to watch",
+    "url": "https://www.businesstoday.in/markets/stocks/story/markets-next-week-nifty-eyes-26000-as-fiis-pour-in-record-rs-1-12-lakh-crore-will-banking-rally-extend-key-triggers-to-watch-568918-2026-11-22"
+   },
+   "date": "2026-11-22",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "1435"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US tech rout sets a weak lead",
+   "line": "Friday close: S&P 500 and Dow in correction; Nvidia down 13.8%",
+   "more": [
+    "Nasdaq-100 had its worst week since 2020",
+    "US markets reopen Monday evening India time"
+   ],
+   "src": {
+    "title": "Stocks close sharply lower as tech rout deepens, with S&P 500, Dow and TSX sliding into technical corrections",
+    "url": "https://theglobeandmail.com/investing/markets/inside-the-market/market-news/article-us-futures-fall-after-sp-500-drops-for-six-straight-sessions-asia-set"
+   },
+   "date": "2026-11-22",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-16",
+    "slot": "0700"
+   }
+  },
   {
    "key": "mahanadi-coalfields-ipo",
    "tag": "Listing",
@@ -69,36 +166,12 @@
    },
    "date": "2026-11-21",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Sat · 21:00",
    "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "1800"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "US tech rout leaves a weak lead",
-   "line": "Friday close: S&P 500 and Dow in correction; Nvidia down 13.8%",
-   "more": [
-    "Nasdaq-100 had its worst week since 2020",
-    "US markets reopen Monday evening India time"
-   ],
-   "src": {
-    "title": "Stocks close sharply lower as tech rout deepens, with S&P 500, Dow and TSX sliding into technical corrections",
-    "url": "https://theglobeandmail.com/investing/markets/inside-the-market/market-news/article-us-futures-fall-after-sp-500-drops-for-six-straight-sessions-asia-set"
-   },
-   "date": "2026-11-21",
-   "slot": "2100",
-   "when": "21:00",
-   "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-16",
-    "slot": "0700"
+    "slot": "1335"
    }
   },
   {
@@ -117,12 +190,12 @@
    },
    "date": "2026-11-21",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Sat · 21:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
-    "date": "2026-11-15",
-    "slot": "1800"
+    "date": "2026-11-16",
+    "slot": "2100"
    }
   },
   {
@@ -141,9 +214,9 @@
    },
    "date": "2026-11-21",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Sat · 21:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-21",
     "slot": "0800"
@@ -166,7 +239,7 @@
    "thread": "crude-iran-war",
    "date": "2026-11-21",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Sat · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -191,7 +264,7 @@
    "thread": "rupee",
    "date": "2026-11-21",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Sat · 14:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -215,37 +288,12 @@
    },
    "date": "2026-11-21",
    "slot": "1400",
-   "when": "14:00",
+   "when": "Sat · 14:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-21",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs buy ₹10,308 cr on Friday",
-   "line": "Biggest daily foreign buying this week; DIIs net sellers of ₹4,860 cr",
-   "more": [
-    "One tracker puts November FII buying at about ₹94,229 cr",
-    "Gross FII buying ₹23,596 cr vs selling ₹13,288 cr"
-   ],
-   "src": {
-    "title": "FII DII Data: FII DII Activity Cash Provisional Today and Monthly across NSE and BSE",
-    "url": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/20-Nov-2026/"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-21",
-   "slot": "0800",
-   "when": "8:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "outlook"
    }
   },
   {
@@ -264,7 +312,7 @@
    },
    "date": "2026-11-21",
    "slot": "0800",
-   "when": "8:00",
+   "when": "Sat · 8:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -289,7 +337,7 @@
    "thread": "crude-iran-war",
    "date": "2026-11-21",
    "slot": "0800",
-   "when": "8:00",
+   "when": "Sat · 8:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -415,30 +463,6 @@
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1135"
-   }
-  },
-  {
-   "key": "broader-market",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Midcaps up, smallcaps slightly lower",
-   "line": "Nifty Midcap 100 +0.66%, Smallcap 100 −0.13% at the close",
-   "more": [
-    "32 of 50 Nifty stocks ended higher",
-    "Large caps led the rebound"
-   ],
-   "src": {
-    "title": "Market wrap, Nov 20: NIFTY50 ends at 25,801, SENSEX jumps 898 pts; NIFTY Bank at record high, Apollo Hospitals leads",
-    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-20-nifty-50-ends-at-25-801-sensex-jumps-898-pts-nifty-bank-at-record-high-apollo-hospitals-leads/article-203784/"
-   },
-   "date": "2026-11-20",
-   "slot": "1605",
-   "when": "Fri · 16:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1005"
    }
   },
   {
@@ -1213,8 +1237,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-15",
-    "slot": "0800"
+    "date": "2026-11-16",
+    "slot": "2100"
    }
   },
   {
@@ -2039,11 +2063,11 @@
    "date": "2026-11-16",
    "slot": "1800",
    "when": "Mon · 18:00",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-15",
-    "slot": "0800"
+    "date": "2026-11-16",
+    "slot": "1800"
    }
   },
   {
@@ -2201,30 +2225,6 @@
    "first_seen": {
     "date": "2026-11-16",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "week-ahead",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Weekly expiry and Nvidia next",
-   "line": "Tuesday brings the weekly Nifty expiry; Nvidia reports after Tuesday's US close",
-   "more": [
-    "Mahanadi Coalfields' IPO opens on Thursday",
-    "Crystal Crop's IPO opens on Wednesday"
-   ],
-   "src": {
-    "title": "F&O Expiry Calendar 2026: Nifty, Bank Nifty & Sensex Expiry Dates",
-    "url": "https://www.quantsapp.com/expiry-calendar"
-   },
-   "date": "2026-11-16",
-   "slot": "1505",
-   "when": "Mon · 15:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "0800"
    }
   },
   {
@@ -2458,8 +2458,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-15",
-    "slot": "1400"
+    "date": "2026-11-16",
+    "slot": "0700"
    }
   },
   {
@@ -2656,57 +2656,6 @@
    "first_seen": {
     "date": "2026-11-16",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "hormuz-talks",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "US-Iran standoff hardens over the weekend",
-   "line": "Rubio calls Iran's demands unacceptable; Tehran rejected the US response to its proposal",
-   "more": [
-    "The US made limited strikes on Qeshm Island after Iran fired at a US aircraft, per CBS",
-    "Bahrain's air defences stopped an IRGC strike on US radar at a base there",
-    "Rubio says the US has no need to restart combat operations"
-   ],
-   "src": {
-    "title": "Rubio says U.S. has \"no need\" to restart combat operations in Iran",
-    "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-deal-negotiations/"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-15",
-   "slot": "outlook",
-   "when": "Sun · Outlook",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "rbi-policy",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "December RBI hike talk gains traction",
-   "line": "With inflation above the RBI's upper band, some now expect a hike at the December meeting",
-   "more": [
-    "October wholesale inflation is due on Monday, November 16",
-    "Continued foreign buying is seen hinging on US-Iran developments and crude"
-   ],
-   "src": {
-    "title": "Strong FII Buying Extends For Third Week As Nifty Gains 0.6 Pc",
-    "url": "https://ommcomnews.com/business-news/strong-fii-buying-extends-for-third-week-as-nifty-gains-0-6-pc/"
-   },
-   "thread": "rbi-policy",
-   "date": "2026-11-15",
-   "slot": "0800",
-   "when": "Sun · 8:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-15",
-    "slot": "0800"
    }
   }
  ]
