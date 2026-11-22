@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-22T14:00:29+05:30",
+ "generated_at": "2026-11-22T17:59:56+05:30",
  "date": "2026-11-22",
- "slot": "1400",
- "slot_label": "14:00",
+ "slot": "1800",
+ "slot_label": "18:00",
  "stage": "Weekend outlook",
- "asof": "2026-11-22T14:05:00+05:30",
+ "asof": "2026-11-22T18:05:00+05:30",
  "nifty": {
   "value": 25800.6,
   "pct": 1.12,
@@ -34,16 +34,16 @@
  },
  "mood": {
   "label": "Cautious start likely",
-  "score": -0.3,
-  "summary": "Monday faces a weak US lead and fresh Hormuz tanker risk, set against record foreign buying and a firmer rupee, in a holiday-shortened week that opens with monthly expiry.",
+  "score": -0.35,
+  "summary": "Monday weighs a US tech sell-off and a flare-up around Hormuz against record foreign buying and a firmer rupee, with monthly expiry packed into the only session before a holiday.",
   "detail": {
    "leaders": "Banks, which led last week's rally on record foreign inflows",
    "laggards": "IT and AI-linked stocks after the US sell-off, plus smaller stocks that lagged last week",
-   "tone": "A look-ahead to Monday 23 November, the only session before Tuesday's holiday. A quiet Sunday afternoon; the only fresh item is tanker trouble near Hormuz, which adds a little caution on crude.",
+   "tone": "A look-ahead to Monday 23 November, the only session before Tuesday's holiday. Since the afternoon note the Gulf picture has darkened: two tankers struck near Hormuz, Iran hitting US bases in Bahrain, and US-Iran talks stalled. Domestic news stayed quiet.",
    "watch": [
     "How far Monday opens below Friday's close after the US rout",
     "Whether the banking rally holds",
-    "Crude after the Hormuz tanker incident",
+    "Crude and the Gulf after Saturday's tanker strikes",
     "Monthly F&O expiry on Monday and US Thanksgiving later in the week"
    ],
    "src": {
@@ -69,8 +69,8 @@
    },
    "thread": "fii-flows",
    "date": "2026-11-22",
-   "slot": "1400",
-   "when": "14:00",
+   "slot": "1800",
+   "when": "18:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -93,8 +93,8 @@
     "url": "https://www.goodreturns.in/news/indian-stock-market-outlook-next-week-23-27-nov-sensex-nifty-may-extend-rally-amid-easing-crude-o-1548735.html"
    },
    "date": "2026-11-22",
-   "slot": "1400",
-   "when": "14:00",
+   "slot": "1800",
+   "when": "18:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -117,8 +117,8 @@
     "url": "https://www.businesstoday.in/markets/stocks/story/markets-next-week-nifty-eyes-26000-as-fiis-pour-in-record-rs-1-12-lakh-crore-will-banking-rally-extend-key-triggers-to-watch-568918-2026-11-22"
    },
    "date": "2026-11-22",
-   "slot": "1400",
-   "when": "14:00",
+   "slot": "1800",
+   "when": "18:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -130,25 +130,50 @@
    "key": "crude-iran-war",
    "tag": "Global",
    "impact": "neg",
-   "title": "Tanker hits mine near Strait of Hormuz",
-   "line": "Iran's navy says a tanker caught fire east of the strait, renewing supply worries",
+   "title": "Gulf flare-up: tankers hit, US bases attacked",
+   "line": "Two tankers struck near Hormuz as Iran attacked US bases in Bahrain; talks stalled",
    "more": [
-    "A tracking firm says a tanker signal near Hormuz early Sunday was fake",
-    "Oil had eased last week; Monday's crude open is the test"
+    "UKMTO: an outbound tanker hit by a projectile; Iran says another struck a mine",
+    "Qatari mediators met Tehran, but US-Iran talks have not resumed",
+    "Tracking firm: a reported Iranian blockade-runner tanker does not exist"
    ],
    "src": {
-    "title": "Breaking News LIVE: Tanker Catches Fire After Hitting Sea Mine East Of Strait Of Hormuz, Says Iran's Navy",
-    "url": "https://outlookindia.com/national/live-news-today-delhi-aqi-cyclone-akvan-pm-modi-congress-bjp-india-world-news-21-nov-2026"
+    "title": "Two tankers struck in Hormuz; Iran holds talks with Qatar",
+    "url": "https://www.brecorder.com/news/40450177/two-tankers-struck-in-hormuz-iran-holds-talks-with-qatar"
    },
    "thread": "crude-iran-war",
    "date": "2026-11-22",
-   "slot": "1400",
-   "when": "14:00",
+   "slot": "1800",
+   "when": "18:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "2100"
+   }
+  },
+  {
+   "key": "nifty-technicals",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Analysts flag stretched charts into expiry",
+   "line": "Anand Rathi warns of negative RSI divergence after last week's sharp rally",
+   "more": [
+    "Univest sees the tone positive but stretched",
+    "Monday is also the monthly F&O expiry"
+   ],
+   "src": {
+    "title": "Share Market Prediction for Monday (23rd Nov)",
+    "url": "https://anandrathi.com/blog/share-market-prediction-tomorrow"
+   },
+   "date": "2026-11-22",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-22",
+    "slot": "1800"
    }
   },
   {
@@ -166,8 +191,8 @@
     "url": "https://theglobeandmail.com/investing/markets/inside-the-market/market-news/article-us-futures-fall-after-sp-500-drops-for-six-straight-sessions-asia-set"
    },
    "date": "2026-11-22",
-   "slot": "1400",
-   "when": "14:00",
+   "slot": "1800",
+   "when": "18:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
