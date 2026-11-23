@@ -1,75 +1,68 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-23T11:36:54+05:30",
+ "generated_at": "2026-11-23T12:06:03+05:30",
  "date": "2026-11-23",
- "slot": "1135",
- "slot_label": "11:35",
+ "slot": "1205",
+ "slot_label": "12:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-23T11:40:00+05:30",
- "nifty": {
-  "value": 25553.65,
-  "pct": -0.96,
-  "chg": -246.95,
-  "approx": false,
-  "asof_quote": "11:00"
- },
+ "asof": "2026-11-23T12:10:00+05:30",
  "mood": {
-  "label": "Large caps slide",
-  "score": -0.45,
-  "summary": "Large caps are under steady pressure from bank and metal selling, while IT holds firm and the broader market is mixed, leaving a split tape on expiry day.",
+  "label": "Selling extends",
+  "score": -0.5,
+  "summary": "Selling has ground on into midday, with banks, financials and metals pulling the benchmarks to fresh lows while IT remains the only sector meaningfully in the green.",
   "detail": {
-   "leaders": "IT, the top sector, with TCS and Infosys gaining",
+   "leaders": "IT, the top sector, with TCS and Infosys among the gainers",
    "laggards": "Metals led by Tata Steel, and banks such as HDFC Bank and ICICI Bank",
-   "tone": "A live read. The slide has extended since the previous note, though it has steadied around the day's low rather than accelerating; selling is concentrated in large caps.",
+   "tone": "A live read on market behaviour rather than a fresh index print: the slide has edged a little deeper since the previous note, with no sign yet of buyers stepping into banks.",
    "watch": [
-    "Whether banks stabilise or test fresh lows",
-    "Whether IT can keep cushioning the index",
-    "Expiry settlement in the final hour"
+    "Whether banks attract bargain buying in the afternoon",
+    "Expiry settlement in the last hour",
+    "How far IT can keep cushioning the index"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex down 600 pts, Nifty below 25,600; Nifty Defence drops 1%",
+    "title": "Stock Market LIVE: Sensex slumps 900 pts, Nifty below 25,600; Nifty Defence drops 1%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT leads the sector board, with TCS and Infosys rising",
-     "why": "IT is the one sector drawing steady buying while the banks and metals that led last week are sold.",
+     "summary": "IT is the standout sector, with TCS and Infosys gaining",
+     "why": "IT is rising despite the overnight Nasdaq rout that was expected to weigh on it, as money moves out of banks.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "line": "Top sector gainer on Business Standard's 11:00 update"
+       "line": "Top sector gainer on the Business Standard live blog"
       },
       {
        "name": "TCS",
        "dir": "up",
-       "line": "Among the IT heavyweights The Week says are cushioning the fall"
+       "line": "IT heavyweight The Week lists among those cushioning the fall"
       },
       {
        "name": "Infosys",
        "dir": "up",
-       "line": "Gaining with the IT pack against the broader slide"
+       "line": "Gaining with the IT pack against the slide"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex down 600 pts, Nifty below 25,600; Nifty Defence drops 1%",
+      "title": "Stock Market LIVE: Sensex slumps 900 pts, Nifty below 25,600; Nifty Defence drops 1%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
      }
     },
     "down": {
-     "summary": "Metals and large banks are the heaviest drags",
-     "why": "Profit booking in the banks and metals that powered four weekly gains, amplified by expiry-day unwinding.",
+     "summary": "Metals and big banks keep dragging the benchmarks lower",
+     "why": "Profit booking in the banks and metals that led last week's rally, with expiry-day unwinding adding weight.",
      "names": [
       {
        "name": "Tata Steel",
        "dir": "down",
-       "move": "-5%",
-       "line": "Down 5% at 11:00 after agreeing to sell its tubes and colour-coated units"
+       "move": "-4.7%",
+       "line": "Hit a day's low of ₹169.56 after agreeing the APL Apollo asset sale"
       },
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "line": "Steepest sector decline, dragged by Tata Steel"
+       "line": "Steepest sector decline, led by Tata Steel"
       },
       {
        "name": "HDFC Bank",
@@ -83,7 +76,7 @@
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex down 600 pts, Nifty below 25,600; Nifty Defence drops 1%",
+      "title": "Stock Market LIVE: Sensex slumps 900 pts, Nifty below 25,600; Nifty Defence drops 1%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
      }
     }
@@ -91,6 +84,79 @@
   }
  },
  "insights": [
+  {
+   "key": "profit-booking",
+   "tag": "Opening",
+   "impact": "neg",
+   "title": "Benchmarks slide to fresh lows",
+   "line": "Bank, financial and metal shares keep the market under pressure into midday",
+   "more": [
+    "Business Standard's headline now has the Sensex down about 900 points",
+    "The early gap-up has been fully erased"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex slumps 900 pts, Nifty below 25,600; Nifty Defence drops 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+   },
+   "date": "2026-11-23",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "it-rebound",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT rises despite the Nasdaq rout",
+   "line": "Nifty IT leads sectors even after previews warned of pressure from US tech losses",
+   "more": [
+    "DSIJ had flagged IT risk after the Nasdaq's 5.28% fall on Friday",
+    "TCS, Infosys, HCLTech and Tech Mahindra are gaining"
+   ],
+   "src": {
+    "title": "Sensex Falls 791 Points, Nifty 50 Slips Below 25,600 as Selling Pressure Intensifies",
+    "url": "https://insights.dsij.in/dsijarticledetail/sensex-falls-791-points-nifty-50-slips-below-25600-as-selling-pressure-intensifies-60562"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-23",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "tata-steel",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Tata Steel hits the day's low",
+   "line": "Down 4.7% at ₹169.56 after agreeing to sell assets to APL Apollo for up to ₹28,000 cr",
+   "more": [
+    "Deal is subject to regulatory and other approvals",
+    "The stock is the biggest Sensex drag today"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex slumps 900 pts, Nifty below 25,600; Nifty Defence drops 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+   },
+   "date": "2026-11-23",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "0845"
+   }
+  },
   {
    "key": "broader-market",
    "tag": "Stocks",
@@ -109,34 +175,10 @@
    "slot": "1135",
    "when": "11:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "tata-steel",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Tata Steel slide deepens to 5%",
-   "line": "Down 5% at 11:00 on the tubes and Tata Steel Colours sale to APL Apollo",
-   "more": [
-    "It was down about 4% earlier in the session",
-    "It is the biggest Sensex drag today"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex down 600 pts, Nifty below 25,600; Nifty Defence drops 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
-   },
-   "date": "2026-11-23",
-   "slot": "1135",
-   "when": "11:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "0845"
    }
   },
   {
@@ -157,7 +199,7 @@
    "slot": "1135",
    "when": "11:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1105"
@@ -188,31 +230,6 @@
    }
   },
   {
-   "key": "it-rebound",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT majors cushion the fall",
-   "line": "TCS, Infosys, HCLTech and Tech Mahindra gain against the market slide",
-   "more": [
-    "TCS up 2.12% early, per Zee Business",
-    "Nifty IT is the top sector on the Business Standard live blog"
-   ],
-   "src": {
-    "title": "Market update: Sensex gives up 1,212 points after early surge as banks slip, IT gains",
-    "url": "https://www.theweek.in/news/biz-tech/2026/11/23/banking-stocks-slip-while-it-shares-cushion-fall.html"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-23",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "1035"
-   }
-  },
-  {
    "key": "metals",
    "tag": "Stocks",
    "impact": "neg",
@@ -234,31 +251,6 @@
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1035"
-   }
-  },
-  {
-   "key": "profit-booking",
-   "tag": "Opening",
-   "impact": "neg",
-   "title": "Early gap-up gives way to profit booking",
-   "line": "Heavy selling in banks reversed the opening rally within the first half hour",
-   "more": [
-    "Reports cite profit booking after four weekly gains",
-    "Expiry falls today because markets shut Tuesday",
-    "Nifty Bank snapped a two-day record rally, per Business Standard"
-   ],
-   "src": {
-    "title": "Sensex jumps 743 points then plunges 1,274 from day's high: what triggered the sell-off",
-    "url": "https://www.newsdrum.in/business/sensex-jumps-743-points-then-plunges-1274-from-days-high-what-triggered-the-sell-off-12832895"
-   },
-   "date": "2026-11-23",
-   "slot": "1005",
-   "when": "10:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "1005"
    }
   },
   {
