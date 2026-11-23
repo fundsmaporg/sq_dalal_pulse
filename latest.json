@@ -1,98 +1,80 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-23T15:06:27+05:30",
+ "generated_at": "2026-11-23T15:36:18+05:30",
  "date": "2026-11-23",
- "slot": "1505",
- "slot_label": "15:05",
+ "slot": "1535",
+ "slot_label": "15:35",
  "stage": "Closing mood",
- "asof": "2026-11-23T15:10:00+05:30",
+ "asof": "2026-11-23T15:40:00+05:30",
  "nifty": {
-  "value": 25376.45,
-  "pct": -1.64,
-  "chg": -424.15,
-  "approx": false,
-  "asof_quote": "15:00"
+  "value": 25350,
+  "pct": -1.75,
+  "chg": -450.6,
+  "approx": true,
+  "asof_quote": "15:30"
  },
  "mood": {
-  "label": "Late selling deepens",
+  "label": "Weak close",
   "score": -0.65,
-  "summary": "Selling has intensified into the final half hour of expiry day, with metals and banks hit hardest and the market at the day's lows, while the IT pack stays firmly in the green.",
+  "summary": "Indian shares closed near the session's lows after a sharp intraday reversal, with metals and PSU banks bleeding into the expiry settle and only IT finishing firmly higher.",
   "detail": {
-   "leaders": "IT names TCS, Infosys, Wipro and Tech Mahindra",
-   "laggards": "Metals led by Tata Steel, SAIL and NMDC, plus banks",
-   "tone": "A live read. The slide has picked up pace since the previous note and the market is at the session's lows heading into the close.",
+   "leaders": "IT, led by TCS",
+   "laggards": "Tata Steel, Hindalco and Axis Bank, with metals and PSU banks worst hit",
+   "tone": "A read of the finished session. Selling did not let up into the close, and the market ended near the day's low after the early gap-up reversed entirely.",
    "watch": [
-    "Expiry settlement in the closing minutes",
-    "Whether any late short covering appears before Tuesday's holiday",
-    "Provisional FII/DII figures after the close"
+    "Provisional FII/DII figures due this evening",
+    "US markets tonight after Friday's tech rout",
+    "Markets reopen Wednesday after Tuesday's holiday"
    ],
    "src": {
-    "title": "Stock Market Crash LIVE: Sensex slumps 1,300 pts, Nifty below 25,400; ₹5.64 trillion m-cap gone",
+    "title": "Stock Market Close: Sensex tanks 1,484 pts, Nifty ends at 25,350; metal, PSU bank bleed",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
    },
    "movers": {
     "up": {
-     "summary": "The IT pack is the only group in the green",
-     "why": "IT is drawing buyers as investors rotate away from banks and metals.",
+     "summary": "IT was the day's only clear winner, led by TCS",
+     "why": "Investors rotated into IT as they sold the banks and metals that powered last week's rally.",
      "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "line": "Best-performing sector on the day, per Business Standard"
+      },
       {
        "name": "TCS",
        "dir": "up",
-       "line": "Leads the IT pack, among the top Nifty gainers all afternoon"
-      },
-      {
-       "name": "Infosys",
-       "dir": "up",
-       "line": "Trading in the green with the rest of IT"
-      },
-      {
-       "name": "Wipro",
-       "dir": "up",
-       "line": "Part of the IT group bucking the slide"
-      },
-      {
-       "name": "Tech Mahindra",
-       "dir": "up",
-       "line": "Among the top Nifty gainers alongside TCS"
+       "move": "+4.42%",
+       "line": "Top Nifty gainer during the session; closing move not yet reported"
       }
      ],
      "src": {
-      "title": "LIVE: Sensex, Nifty slide, metal stocks plunge; AI selloff hits Asia, South Korea plunges 5%",
-      "url": "https://www.indiaipo.in/news/detail/live-sensex-nifty-slide-metal-stocks-plunge-ai-selloff-hits-asia-south-korea-plunges-5"
+      "title": "Stock Market Close: Sensex tanks 1,484 pts, Nifty ends at 25,350; metal, PSU bank bleed",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
      }
     },
     "down": {
-     "summary": "Tata Steel and metal peers lead the losses, with banks close behind",
-     "why": "Metals are the worst sector and banks that hit records on Friday are being sold hard on expiry day.",
+     "summary": "Tata Steel, Hindalco and Axis Bank led the Nifty's losers",
+     "why": "Metals and PSU banks bled into the close as profit booking and expiry unwinding met a global AI-led sell-off.",
      "names": [
       {
        "name": "Tata Steel",
        "dir": "down",
-       "move": "-7.87%",
-       "line": "Biggest laggard after agreeing to sell its tubes and colour-coated units"
+       "line": "Top Nifty loser after agreeing to sell its tubes and colour-coated units"
       },
       {
-       "name": "SAIL",
+       "name": "Hindalco",
        "dir": "down",
-       "move": "-2.38%",
-       "line": "Steel peer sold alongside Tata Steel"
+       "line": "Metal major dragged down as the sector led the losses"
       },
       {
-       "name": "NMDC",
+       "name": "Axis Bank",
        "dir": "down",
-       "move": "-2.38%",
-       "line": "Iron-ore miner dragged lower with the metals pack"
-      },
-      {
-       "name": "Nifty Bank",
-       "dir": "down",
-       "move": "down over 2%",
-       "line": "Reverses from Friday's record high"
+       "line": "Among the private lenders sold after Friday's bank record"
       }
      ],
      "src": {
-      "title": "LIVE: Sensex, Nifty slide, metal stocks plunge; AI selloff hits Asia, South Korea plunges 5%",
-      "url": "https://www.indiaipo.in/news/detail/live-sensex-nifty-slide-metal-stocks-plunge-ai-selloff-hits-asia-south-korea-plunges-5"
+      "title": "Stock Market Close: Sensex tanks 1,484 pts, Nifty ends at 25,350; metal, PSU bank bleed",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
      }
     }
    }
@@ -103,19 +85,19 @@
    "key": "metals",
    "tag": "Stocks",
    "impact": "neg",
-   "title": "Steel stocks lead the rout",
-   "line": "Tata Steel down 7.87%; SAIL and NMDC down 2.38% each",
+   "title": "Metals and PSU banks bleed into the close",
+   "line": "Tata Steel, Hindalco and Axis Bank were the top Nifty losers",
    "more": [
-    "Tata Steel is reacting to its asset sale to APL Apollo",
-    "Metals are the worst sector today"
+    "Metals were the worst sector of the day",
+    "Tata Steel fell on its asset sale to APL Apollo"
    ],
    "src": {
-    "title": "LIVE: Sensex, Nifty slide, metal stocks plunge; AI selloff hits Asia, South Korea plunges 5%",
-    "url": "https://www.indiaipo.in/news/detail/live-sensex-nifty-slide-metal-stocks-plunge-ai-selloff-hits-asia-south-korea-plunges-5"
+    "title": "Stock Market Close: Sensex tanks 1,484 pts, Nifty ends at 25,350; metal, PSU bank bleed",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
    },
    "date": "2026-11-23",
-   "slot": "1505",
-   "when": "15:05",
+   "slot": "1535",
+   "when": "15:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -127,25 +109,49 @@
    "key": "it-rebound",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "All of big IT is in the green",
-   "line": "TCS, Infosys, Wipro, Tech Mahindra and HCLTech rise against the sell-off",
+   "title": "IT ends as the only winning sector",
+   "line": "Nifty IT was the best sector; TCS led gainers during the session",
    "more": [
-    "IT is the only sector clearly higher",
-    "The gains come despite worries over AI valuations"
+    "TCS was up 4.42% intraday",
+    "The IT rally came despite AI valuation worries abroad"
    ],
    "src": {
-    "title": "LIVE: Sensex, Nifty slide, metal stocks plunge; AI selloff hits Asia, South Korea plunges 5%",
-    "url": "https://www.indiaipo.in/news/detail/live-sensex-nifty-slide-metal-stocks-plunge-ai-selloff-hits-asia-south-korea-plunges-5"
+    "title": "Stock Market Close: Sensex tanks 1,484 pts, Nifty ends at 25,350; metal, PSU bank bleed",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
    },
    "thread": "it-sector",
    "date": "2026-11-23",
-   "slot": "1505",
-   "when": "15:05",
+   "slot": "1535",
+   "when": "15:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1035"
+   }
+  },
+  {
+   "key": "fo-expiry",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Expiry done; market shut until Wednesday",
+   "line": "Monthly F&O series settled today; Tuesday is a holiday for Guru Nanak Jayanti",
+   "more": [
+    "Next session is Wednesday 25 November",
+    "Reports differ on the exact closing level"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex tanks 1,484 pts, Nifty ends at 25,350; metal, PSU bank bleed",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+   },
+   "date": "2026-11-23",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "0800"
    }
   },
   {
@@ -167,7 +173,7 @@
    "slot": "1505",
    "when": "15:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "0700"
@@ -269,30 +275,6 @@
    "first_seen": {
     "date": "2026-11-19",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "fo-expiry",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Last hour of a holiday-shortened expiry",
-   "line": "Monthly F&O contracts settle today; markets shut Tuesday for Guru Nanak Jayanti",
-   "more": [
-    "Next session is Wednesday 25 November",
-    "Expiry can exaggerate late swings"
-   ],
-   "src": {
-    "title": "India VIX Rises 3.87% to 17.99 Amid Market Volatility",
-    "url": "https://hdfcsky.com/news/india-vix-rises-3-87percent-to-17-99-as-bank-nifty-falls-nearly-1000-points-and-ongoing-global-concerns-november-23-2026"
-   },
-   "date": "2026-11-23",
-   "slot": "1405",
-   "when": "14:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
    }
   },
   {
