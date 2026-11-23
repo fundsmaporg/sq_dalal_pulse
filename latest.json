@@ -1,62 +1,67 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-23T10:06:29+05:30",
+ "generated_at": "2026-11-23T10:36:35+05:30",
  "date": "2026-11-23",
- "slot": "1005",
- "slot_label": "10:05",
- "stage": "Opening mood",
- "asof": "2026-11-23T10:10:00+05:30",
- "nifty": {
-  "value": 25665.45,
-  "pct": -0.52,
-  "chg": -135.15,
-  "approx": false,
-  "asof_quote": "10:00"
- },
+ "slot": "1035",
+ "slot_label": "10:35",
+ "stage": "Mid-market mood",
+ "asof": "2026-11-23T10:40:00+05:30",
  "mood": {
-  "label": "Early gains reversed",
-  "score": -0.3,
-  "summary": "An early gap-up has flipped into a broad sell-off as traders book profits in banks and metals after a four-week rally, with expiry-day positioning and the global tech rout adding pressure.",
+  "label": "Selling deepens",
+  "score": -0.4,
+  "summary": "Selling has broadened through the morning, with state-run banks and metals hit hardest, while IT stocks are the lone pocket of strength as traders unwind last week's bank-led rally.",
   "detail": {
-   "leaders": "A handful of heavyweights such as Adani Enterprises and DLF holding small gains",
-   "laggards": "Metals led by Tata Steel, banks such as ICICI Bank, and APL Apollo Tubes",
-   "tone": "A live read, and a clear turn from the firm open in the previous note: the early rally faded fast and selling has spread through banks and metals, with midcaps and smallcaps also lower.",
+   "leaders": "IT stocks, the top sector gainer, and Adani Enterprises",
+   "laggards": "PSU banks, metals led by Tata Steel, and private banks",
+   "tone": "A live read on market behaviour rather than a fresh index print: the slide has deepened since the previous note, with state-run banks joining metals at the bottom.",
    "watch": [
-    "Whether banks find buyers or the profit booking deepens",
-    "Expiry-day unwinding into the afternoon",
-    "Whether midcaps and smallcaps hold up better than large caps"
+    "Whether PSU bank selling spreads further",
+    "If IT can keep rising against the global tech rout",
+    "Expiry-day unwinding into the afternoon"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex down 400 points, Nifty below 25,700; Nifty Bank snaps 2-day record rally",
+    "title": "Stock Market LIVE: Sensex down 500 points, Nifty near 25,600; PSU bank, metal indices down 2%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Few gainers: Adani Enterprises and DLF hold up against the selling",
-     "why": "Buying is narrow and stock-specific while the bulk of the market sells off; reports give no single trigger.",
+     "summary": "IT is the one sector rising, with Adani Enterprises also bucking the slide",
+     "why": "IT is gaining even as the rest of the market sells off, turning last week's laggard into today's lone outperformer.",
      "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "move": "+1.4%",
+       "line": "Top sector gainer at 10:00 while banks and metals fall"
+      },
       {
        "name": "Adani Enterprises",
        "dir": "up",
        "move": "+2.17%",
-       "line": "Among the few large caps drawing buyers in morning trade; no trigger reported"
-      },
-      {
-       "name": "DLF",
-       "dir": "up",
-       "move": "+0.74%",
-       "line": "Realty heavyweight holding gains as banks are sold; no trigger reported"
+       "line": "One of few large caps drawing buyers this morning; no trigger reported"
       }
      ],
      "src": {
-      "title": "Sensex jumps 743 points then plunges 1,274 from day's high: what triggered the sell-off",
-      "url": "https://www.newsdrum.in/business/sensex-jumps-743-points-then-plunges-1274-from-days-high-what-triggered-the-sell-off-12832895"
+      "title": "Stock Market LIVE: Sensex down 500 points, Nifty near 25,600; PSU bank, metal indices down 2%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
      }
     },
     "down": {
-     "summary": "Metals, banks and Tata group names drag after an early high",
-     "why": "Profit booking after four straight weekly gains hits the sectors that led the rally, while expiry-day unwinding exaggerates the swing.",
+     "summary": "PSU banks, metals and private banks lead the decline",
+     "why": "Traders are booking profits in the banks and metals that powered four straight weekly gains, with expiry-day unwinding adding to the pressure.",
      "names": [
+      {
+       "name": "Nifty PSU Bank",
+       "dir": "down",
+       "move": "down ~2%",
+       "line": "State-run lenders among the steepest sector falls this morning"
+      },
+      {
+       "name": "Nifty Metal",
+       "dir": "down",
+       "move": "-1.9%",
+       "line": "Weakest sector at 10:00, dragged by Tata Steel"
+      },
       {
        "name": "Tata Steel",
        "dir": "down",
@@ -64,33 +69,94 @@
        "line": "Biggest Sensex drag after agreeing to sell its tubes and colour-coated units"
       },
       {
-       "name": "Nifty Metal",
+       "name": "Nifty Bank",
        "dir": "down",
-       "move": "-1.9%",
-       "line": "Tata Steel's slide pulls the metals pack lower"
-      },
-      {
-       "name": "ICICI Bank",
-       "dir": "down",
-       "move": "-1.28%",
-       "line": "Banks see profit booking after Nifty Bank's two-day record run"
-      },
-      {
-       "name": "APL Apollo Tubes",
-       "dir": "down",
-       "move": "-10%",
-       "line": "Hit its lower circuit after agreeing to buy Tata Steel's tubes arm"
+       "move": "-0.81%",
+       "line": "Snaps a two-day record run as profits are booked"
       }
      ],
      "src": {
-      "title": "Sensex jumps 743 points then plunges 1,274 from day's high: what triggered the sell-off",
-      "url": "https://www.newsdrum.in/business/sensex-jumps-743-points-then-plunges-1274-from-days-high-what-triggered-the-sell-off-12832895"
+      "title": "Stock Market LIVE: Sensex down 500 points, Nifty near 25,600; PSU bank, metal indices down 2%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "it-rebound",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT bucks the sell-off",
+   "line": "Nifty IT up 1.4% at 10:00, the best sector as banks and metals slide",
+   "more": [
+    "IT had been November's weakest sector amid AI worries",
+    "Zee Business also had IT leading gains early in the session"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 500 points, Nifty near 25,600; PSU bank, metal indices down 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-23",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Bank rally snaps as PSU lenders slide",
+   "line": "PSU bank and metal indices down about 2%; Nifty Bank ends a two-day record run",
+   "more": [
+    "Banks led last week's rally on heavy foreign buying",
+    "Business Standard cites banks, financials and metals as the main drags"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 500 points, Nifty near 25,600; PSU bank, metal indices down 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+   },
+   "date": "2026-11-23",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "metals",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Metals are the weakest sector",
+   "line": "Nifty Metal down 1.9% at 10:00 as Tata Steel slides on its asset sale",
+   "more": [
+    "Tata Steel down about 4%, the biggest Sensex drag",
+    "APL Apollo, the buyer of its tubes arm, hit its lower circuit"
+   ],
+   "src": {
+    "title": "Sensex jumps 743 points then plunges 1,274 from day's high: what triggered the sell-off",
+    "url": "https://www.newsdrum.in/business/sensex-jumps-743-points-then-plunges-1274-from-days-high-what-triggered-the-sell-off-12832895"
+   },
+   "date": "2026-11-23",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1035"
+   }
+  },
   {
    "key": "profit-booking",
    "tag": "Opening",
@@ -110,7 +176,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1005"
@@ -134,7 +200,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "0845"
@@ -158,7 +224,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1105"
@@ -629,30 +695,6 @@
    "first_seen": {
     "date": "2026-11-17",
     "slot": "0925"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Bank index ends at another record",
-   "line": "Third record high in a week; private, PSU banks and financials outperform",
-   "more": [
-    "Axis Bank up 4.72%, among the top Nifty gainers",
-    "Media was the main lagging sector"
-   ],
-   "src": {
-    "title": "Market wrap, Nov 20: NIFTY50 ends at 25,801, SENSEX jumps 898 pts; NIFTY Bank at record high, Apollo Hospitals leads",
-    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-20-nifty-50-ends-at-25-801-sensex-jumps-898-pts-nifty-bank-at-record-high-apollo-hospitals-leads/article-203784/"
-   },
-   "date": "2026-11-20",
-   "slot": "1605",
-   "when": "Fri · 16:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1035"
    }
   },
   {
