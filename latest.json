@@ -1,42 +1,49 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-23T12:06:12+05:30",
+ "generated_at": "2026-11-23T12:37:34+05:30",
  "date": "2026-11-23",
- "slot": "1205",
- "slot_label": "12:05",
+ "slot": "1235",
+ "slot_label": "12:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-23T12:10:00+05:30",
+ "asof": "2026-11-23T12:40:00+05:30",
+ "nifty": {
+  "value": 25530.4,
+  "pct": -1.05,
+  "chg": -270.2,
+  "approx": false,
+  "asof_quote": "12:00"
+ },
  "mood": {
-  "label": "Selling extends",
+  "label": "Pinned near lows",
   "score": -0.5,
-  "summary": "Selling has ground on into midday, with banks, financials and metals pulling the benchmarks to fresh lows while IT remains the only sector meaningfully in the green.",
+  "summary": "Indian shares are holding near the day's lows as banks and metals stay under heavy selling and a weaker rupee adds to the strain, with IT the only notable support.",
   "detail": {
-   "leaders": "IT, the top sector, with TCS and Infosys among the gainers",
-   "laggards": "Metals led by Tata Steel, and banks such as HDFC Bank and ICICI Bank",
-   "tone": "A live read on market behaviour rather than a fresh index print: the slide has edged a little deeper since the previous note, with no sign yet of buyers stepping into banks.",
+   "leaders": "IT, with TCS and Infosys among the few gainers",
+   "laggards": "Banks, with Nifty Bank down sharply, and metals led by Tata Steel",
+   "tone": "A live read. The market has slipped a little further since the previous note and is hugging the day's low; the rupee weakening past 93 adds a new pressure point.",
    "watch": [
-    "Whether banks attract bargain buying in the afternoon",
-    "Expiry settlement in the last hour",
-    "How far IT can keep cushioning the index"
+    "Whether the rupee keeps weakening",
+    "Any bargain buying in banks before the close",
+    "Expiry settlement in the final hour"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex slumps 900 pts, Nifty below 25,600; Nifty Defence drops 1%",
+    "title": "Stock Market LIVE: Sensex slumps 900 pts, Nifty below 25,600; Rupee weakens beyond 93/$",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT is the standout sector, with TCS and Infosys gaining",
-     "why": "IT is rising despite the overnight Nasdaq rout that was expected to weigh on it, as money moves out of banks.",
+     "summary": "IT holds up, led by TCS and Infosys",
+     "why": "IT is the one sector seeing steady buying while banks and metals are sold.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "up",
-       "line": "Top sector gainer on the Business Standard live blog"
+       "line": "Top sector on the Business Standard live blog"
       },
       {
        "name": "TCS",
        "dir": "up",
-       "line": "IT heavyweight The Week lists among those cushioning the fall"
+       "line": "Among the IT heavyweights cushioning the fall, per The Week"
       },
       {
        "name": "Infosys",
@@ -45,38 +52,34 @@
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex slumps 900 pts, Nifty below 25,600; Nifty Defence drops 1%",
+      "title": "Stock Market LIVE: Sensex slumps 900 pts, Nifty below 25,600; Rupee weakens beyond 93/$",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
      }
     },
     "down": {
-     "summary": "Metals and big banks keep dragging the benchmarks lower",
-     "why": "Profit booking in the banks and metals that led last week's rally, with expiry-day unwinding adding weight.",
+     "summary": "Banks and metals are the heaviest drags into the afternoon",
+     "why": "Profit booking in the sectors that led last week's rally, with a global AI sell-off souring sentiment and expiry adding to swings.",
      "names": [
+      {
+       "name": "Nifty Bank",
+       "dir": "down",
+       "move": "down over 2%",
+       "line": "Gives back gains after hitting a record high on Friday"
+      },
       {
        "name": "Tata Steel",
        "dir": "down",
        "move": "-4.7%",
-       "line": "Hit a day's low of ₹169.56 after agreeing the APL Apollo asset sale"
+       "line": "Top Sensex loser, at ₹169.56 at midday, on its asset sale to APL Apollo"
       },
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "line": "Steepest sector decline, led by Tata Steel"
-      },
-      {
-       "name": "HDFC Bank",
-       "dir": "down",
-       "line": "Among the biggest Sensex losers as banks are sold after a record run"
-      },
-      {
-       "name": "ICICI Bank",
-       "dir": "down",
-       "line": "Private-bank heavyweight weighing on the index"
+       "line": "Metal stocks plunge, led by Tata Steel"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex slumps 900 pts, Nifty below 25,600; Nifty Defence drops 1%",
+      "title": "Stock Market LIVE: Sensex slumps 900 pts, Nifty below 25,600; Rupee weakens beyond 93/$",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
      }
     }
@@ -84,6 +87,80 @@
   }
  },
  "insights": [
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Rupee weakens beyond 93 to the dollar",
+   "line": "The currency slips as equities sell off, per the Business Standard live blog",
+   "more": [
+    "Adds to pressure on foreign-flow-sensitive sectors",
+    "No exact level reported in the headline"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex slumps 900 pts, Nifty below 25,600; Rupee weakens beyond 93/$",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+   },
+   "thread": "rupee",
+   "date": "2026-11-23",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Nifty Bank down over 2% from a record",
+   "line": "Banks give back last week's gains a day after the index hit a record high",
+   "more": [
+    "Banks are the main drag on the benchmarks",
+    "HDFC Bank, ICICI Bank, Axis Bank and SBI are among the biggest losers"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex slumps 900 pts, Nifty below 25,600; Rupee weakens beyond 93/$",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+   },
+   "date": "2026-11-23",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "asia-chip-rout",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "AI sell-off deepens across Asia",
+   "line": "South Korea's market plunged 5%, per IndiaIPO, as AI worries spread",
+   "more": [
+    "Reports link India's reversal partly to the global AI sell-off",
+    "Japan was shut for a holiday"
+   ],
+   "src": {
+    "title": "LIVE: Sensex, Nifty slide, metal stocks plunge; AI selloff hits Asia, South Korea plunges 5%",
+    "url": "https://www.indiaipo.in/news/detail/live-sensex-nifty-slide-metal-stocks-plunge-ai-selloff-hits-asia-south-korea-plunges-5"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-23",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "0700"
+   }
+  },
   {
    "key": "profit-booking",
    "tag": "Opening",
@@ -102,7 +179,7 @@
    "slot": "1205",
    "when": "12:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1005"
@@ -127,7 +204,7 @@
    "slot": "1205",
    "when": "12:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1035"
@@ -151,7 +228,7 @@
    "slot": "1205",
    "when": "12:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "0845"
@@ -203,30 +280,6 @@
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Bank heavyweights lead the slide",
-   "line": "HDFC Bank, ICICI Bank, Axis Bank and SBI among the biggest Sensex losers",
-   "more": [
-    "Banks led last week's rally and are seeing the most profit booking",
-    "Zee Business had Nifty Bank above 65,000 for the first time early on"
-   ],
-   "src": {
-    "title": "Market update: Sensex gives up 1,212 points after early surge as banks slip, IT gains",
-    "url": "https://www.theweek.in/news/biz-tech/2026/11/23/banking-stocks-slip-while-it-shares-cushion-fall.html"
-   },
-   "date": "2026-11-23",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1035"
    }
   },
   {
@@ -366,31 +419,6 @@
    "src": {
     "title": "Dow futures jump nearly 700 points and Nasdaq soars 3% as stocks rebound from correction with Wall Street still upbeat on 2027",
     "url": "https://fortune.com/2026/11/22/stock-market-today-dow-futures-sp500-nasdaq-correction-ai-bust/"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-23",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "asia-chip-rout",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Kospi slides again on AI worries",
-   "line": "Korea fell as much as 3% early Monday as chip stocks extended the tech sell-off",
-   "more": [
-    "Japan is shut today for Labor Thanksgiving Day",
-    "Taiwan, China and Hong Kong open later"
-   ],
-   "src": {
-    "title": "South Korea Kospi Plunges 3% as AI Fears Mount",
-    "url": "https://www.newsy-today.com/south-korea-kospi-plunges-3-as-ai-fears-mount/"
    },
    "thread": "global-markets",
    "date": "2026-11-23",
@@ -572,31 +600,6 @@
    "first_seen": {
     "date": "2026-11-21",
     "slot": "0800"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee ends the week near 92.7 per dollar",
-   "line": "Fifth straight gain, up about 65 paise on Friday on foreign inflows",
-   "more": [
-    "Provisional close 92.67 (Multibagg); 92.71 per Trading Economics",
-    "First move through 93 since April"
-   ],
-   "src": {
-    "title": "Indian rupee closes at ₹92.67 after gaining 65 paise",
-    "url": "https://www.multibagg.ai/market-pulse/articles/rupee-closes-9267-gains-65-paise-cmwq02cma002d2rp32o9qy9op"
-   },
-   "thread": "rupee",
-   "date": "2026-11-21",
-   "slot": "1400",
-   "when": "Sat · 14:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "0700"
    }
   },
   {
