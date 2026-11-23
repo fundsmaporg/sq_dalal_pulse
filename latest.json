@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-23T07:00:54+05:30",
+ "generated_at": "2026-11-23T08:46:32+05:30",
  "date": "2026-11-23",
- "slot": "0700",
- "slot_label": "7:00",
+ "slot": "0845",
+ "slot_label": "8:45",
  "stage": "Pre-market mood",
- "asof": "2026-11-23T07:05:00+05:30",
+ "asof": "2026-11-23T08:50:00+05:30",
  "nifty": {
   "value": 25800.6,
   "pct": 1.12,
@@ -13,26 +13,169 @@
   "approx": false,
   "asof_quote": "Fri 20 Nov close"
  },
+ "metrics": {
+  "fii_net_cr": {
+   "value": 10308.4,
+   "asof": "Fri 20 Nov provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data Today (20 Nov): FII +10,308 Cr, DII −4,860 Cr",
+    "url": "https://www.quantsapp.com/fii-dii"
+   }
+  },
+  "dii_net_cr": {
+   "value": -4859.8,
+   "asof": "Fri 20 Nov provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+   }
+  }
+ },
  "mood": {
-  "label": "Choppy start likely",
-  "score": -0.1,
-  "summary": "Indian shares face crosscurrents into the open: US futures are bouncing hard after Friday's tech rout, but Korean chip stocks are sliding again and Gulf tanker attacks keep crude risk alive.",
+  "label": "Firm start likely",
+  "score": 0.15,
+  "summary": "A modestly firm open is signalled as heavy foreign buying and bouncing US futures outweigh Asia's tech weakness, though expiry and tomorrow's holiday could keep trade choppy.",
   "detail": {
-   "leaders": "Banks, which led last week's rally, and anything that tracks the US futures rebound",
-   "laggards": "IT and AI-linked names, with Korean chip stocks still selling off this morning",
-   "tone": "A forward read before the open. The weekend set a cautious tone, but the overnight bounce in US futures softens it; expiry and Tuesday's holiday add swing risk.",
+   "leaders": "Banks on continued foreign buying; Tata Steel and APL Apollo on their tubes deal",
+   "laggards": "IT and chip-linked names as Asian tech stays weak",
+   "tone": "A pre-open read, not a live one. Cues have improved since the early-morning note as GIFT Nifty points higher and Friday's foreign buying is confirmed large.",
    "watch": [
-    "Whether the US futures bounce holds through the Indian open",
-    "How Kospi and Hong Kong trade once they find their feet",
-    "Banks through today's monthly expiry"
+    "Whether the GIFT Nifty premium holds into the 09:15 open",
+    "How Asian tech trades once China and Hong Kong are open",
+    "Expiry-day swings with Tuesday's holiday ahead"
    ],
    "src": {
-    "title": "S&P 500 futures rebound sharply to rise 2%, kick-starting shortened week after tech rout: Live updates",
-    "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+    "title": "Pre-Market Update: GIFT Nifty Signals Positive Opening as Nifty 50 Eyes 26,000; Global Tech Sell-Off",
+    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-positive-opening-as-nifty-50-eyes-26000-global-tech-sell-off-60551"
    }
   }
  },
  "insights": [
+  {
+   "key": "gift-nifty",
+   "tag": "Opening",
+   "impact": "pos",
+   "title": "GIFT Nifty points to a firmer open",
+   "line": "25,894.50 at 06:59, a 0.36% premium to Friday's Nifty close, per DSIJ",
+   "more": [
+    "Scanx has it near 25,912 later in the morning",
+    "US futures rebounded sharply on Sunday evening",
+    "Asian tech weakness may cap early gains"
+   ],
+   "src": {
+    "title": "Pre-Market Update: GIFT Nifty Signals Positive Opening as Nifty 50 Eyes 26,000; Global Tech Sell-Off",
+    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-positive-opening-as-nifty-50-eyes-26000-global-tech-sell-off-60551"
+   },
+   "date": "2026-11-23",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs bought ₹10,308 cr on Friday",
+   "line": "Provisional data: FIIs net buyers, DIIs net sellers of ₹4,860 cr",
+   "more": [
+    "FIIs bought ₹32,647 cr over the five sessions to 20 Nov",
+    "DIIs sold ₹12,698 cr over the same week",
+    "One broker page shows different Friday figures; most sources agree"
+   ],
+   "src": {
+    "title": "FII DII Data Today (20 Nov): FII +10,308 Cr, DII −4,860 Cr",
+    "url": "https://www.quantsapp.com/fii-dii"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-23",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "tata-steel",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Tata Steel sells tubes arm to APL Apollo",
+   "line": "Deal for the tubes business and Tata Steel Colours stake valued at up to ₹28,000 cr",
+   "more": [
+    "Subject to regulatory clearances",
+    "Completion expected by March 2028"
+   ],
+   "src": {
+    "title": "Stocks to watch, Nov 23: Waaree Energies, Tata Steel, APL Apollo, Maruti, Chalet Hotels, Marico, NATCO Pharma",
+    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-23-waaree-energies-tata-steel-apl-apollo-maruti-chalet-hotels-marico-natco-pharma/article-203830/"
+   },
+   "date": "2026-11-23",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "waaree-energies",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Waaree unit signs 700 MW SECI deal",
+   "line": "Solar plus 2,800 MWh storage project in Solapur under a power purchase agreement",
+   "more": [
+    "Agreement signed on Friday, 20 November",
+    "Includes 700 MW of battery storage"
+   ],
+   "src": {
+    "title": "Stocks to watch, Nov 23: Waaree Energies, Tata Steel, APL Apollo, Maruti, Chalet Hotels, Marico, NATCO Pharma",
+    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-23-waaree-energies-tata-steel-apl-apollo-maruti-chalet-hotels-marico-natco-pharma/article-203830/"
+   },
+   "date": "2026-11-23",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "fo-expiry",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Expiry today, market shut tomorrow",
+   "line": "NSE monthly expiry on Monday; Tuesday closed for Guru Nanak Jayanti",
+   "more": [
+    "Next session after today is Wednesday 25 November",
+    "Mahanadi Coalfields IPO also closes today"
+   ],
+   "src": {
+    "title": "Pre-Market Report 23 November 2026: FPIs Defy Nasdaq Rout",
+    "url": "https://www.marketcalls.in/futures-and-options/pre-market-report-23-november-2026.html"
+   },
+   "date": "2026-11-23",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "0800"
+   }
+  },
   {
    "key": "us-futures",
    "tag": "Global",
@@ -53,7 +196,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "0700"
@@ -78,7 +221,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "0700"
@@ -103,34 +246,10 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "fo-expiry",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Monthly expiry today, holiday tomorrow",
-   "line": "NSE's November expiry falls on Monday; markets shut Tuesday for Guru Nanak Jayanti",
-   "more": [
-    "Next session after today is Wednesday 25 November",
-    "Univest flags a large put base near 25,500"
-   ],
-   "src": {
-    "title": "Week ahead: NIFTY monthly expiry, crude oil prices and FIIs activity among key market triggers to watch",
-    "url": "https://upstox.com/news/market-news/trading/week-ahead-nifty-monthly-expiry-crude-oil-prices-and-fi-is-activity-among-key-market-triggers-to-watch/article-203810/"
-   },
-   "date": "2026-11-23",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
    }
   },
   {
@@ -151,7 +270,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1405"
@@ -173,31 +292,6 @@
     "url": "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory"
    },
    "thread": "global-markets",
-   "date": "2026-11-22",
-   "slot": "outlook",
-   "when": "Sun · Outlook",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "Record November foreign buying",
-   "line": "Business Today puts FII November inflows at a record ₹1.12 lakh crore",
-   "more": [
-    "5paisa tallies FPI buying at ₹94,230 cr and DII selling at ₹55,570 cr this month",
-    "Tallies differ by source and cut-off date"
-   ],
-   "src": {
-    "title": "Markets Next Week: Nifty eyes 26,000 as FIIs pour in record Rs 1.12 lakh crore; will banking rally extend? Key triggers to watch",
-    "url": "https://www.businesstoday.in/markets/stocks/story/markets-next-week-nifty-eyes-26000-as-fiis-pour-in-record-rs-1-12-lakh-crore-will-banking-rally-extend-key-triggers-to-watch-568918-2026-11-22"
-   },
-   "thread": "fii-flows",
    "date": "2026-11-22",
    "slot": "outlook",
    "when": "Sun · Outlook",
@@ -786,30 +880,6 @@
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "gift-nifty",
-   "tag": "Opening",
-   "impact": "neg",
-   "title": "GIFT Nifty signals a gap-down open",
-   "line": "Indicates a clearly lower start after the overnight tech rout",
-   "more": [
-    "Readings vary by source and time stamp",
-    "Asian markets extended losses before the open"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: GIFT Nifty plunges 190 pts; Asian mkts extend losses on concern over AI trade",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
-   },
-   "date": "2026-11-20",
-   "slot": "0845",
-   "when": "Fri · 8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "0845"
    }
   },
   {
