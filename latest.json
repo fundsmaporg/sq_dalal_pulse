@@ -1,51 +1,44 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-23T13:06:07+05:30",
+ "generated_at": "2026-11-23T13:37:40+05:30",
  "date": "2026-11-23",
- "slot": "1305",
- "slot_label": "13:05",
+ "slot": "1335",
+ "slot_label": "13:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-23T13:10:00+05:30",
- "nifty": {
-  "value": 25482.45,
-  "pct": -1.23,
-  "chg": -318.15,
-  "approx": false,
-  "asof_quote": "13:00"
- },
+ "asof": "2026-11-23T13:40:00+05:30",
  "mood": {
-  "label": "Selling deepens",
+  "label": "Heavy selling",
   "score": -0.55,
-  "summary": "The sell-off has deepened into the afternoon, with metals and banks of every stripe sliding and the market trading near the day's low, while IT majors rally hard against the tide.",
+  "summary": "Indian shares are stuck near the session's lows as banks and metals keep sliding under a global AI-led sell-off, with only a sharp IT rally offering any offset.",
   "detail": {
    "leaders": "IT, led by TCS and Tech Mahindra",
-   "laggards": "Metals, PSU banks and private banks",
-   "tone": "A live read. The slide has extended since the previous note and the market is hugging the day's low, with the split between IT and everything else getting wider.",
+   "laggards": "Tata Steel and metals, plus banks such as SBI",
+   "tone": "A live read on market behaviour rather than a fresh index print: the market is still hugging the day's low, with Tata Steel's losses widening since the previous note.",
    "watch": [
-    "Whether metals and banks see any late bargain buying",
-    "Expiry settlement in the last hour",
-    "The rupee after it weakened past 93"
+    "Whether Tata Steel's slide steadies",
+    "Any late bargain buying in banks",
+    "Expiry settlement into the close"
    ],
    "src": {
-    "title": "Stock Market Crash LIVE: Sensex slumps 1,000 pts, Nifty below 25,600; Rupee weakens beyond 93/$",
+    "title": "Stock Market Crash LIVE: Sensex slumps 1,100 pts, Nifty below 25,500; metal, banks biggest laggards",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
    },
    "movers": {
     "up": {
-     "summary": "TCS and Tech Mahindra lead a strong IT rally",
-     "why": "IT is the only sector drawing heavy buying as investors rotate out of the banks and metals that led last week.",
+     "summary": "TCS and Tech Mahindra lead IT higher against the market",
+     "why": "IT is the only sector attracting steady buying as money leaves banks and metals.",
      "names": [
       {
        "name": "TCS",
        "dir": "up",
-       "move": "+4.42%",
-       "line": "Top Nifty gainer as IT is bought against the market"
+       "move": "+4.55%",
+       "line": "Top Nifty gainer as investors buy IT on the dip in banks"
       },
       {
        "name": "Tech Mahindra",
        "dir": "up",
-       "move": "+3.56%",
-       "line": "Second-best Nifty performer, rising with the IT pack"
+       "move": "+3.51%",
+       "line": "Second-best Nifty performer alongside TCS"
       }
      ],
      "src": {
@@ -54,31 +47,31 @@
      }
     },
     "down": {
-     "summary": "Metals and banks are the steepest sector losers",
-     "why": "Profit booking in last week's rally leaders, a global AI sell-off and expiry-day unwinding are compounding the decline.",
+     "summary": "Tata Steel, metals and banks are the heaviest losers",
+     "why": "The sectors that led last week's rally are being sold hardest as an AI-led global sell-off sours sentiment on expiry day.",
      "names": [
+      {
+       "name": "Tata Steel",
+       "dir": "down",
+       "move": "down ~8%",
+       "line": "Losses widen after it agreed to sell its tubes and colour-coated units to APL Apollo"
+      },
       {
        "name": "Nifty Metal",
        "dir": "down",
        "move": "-3.13%",
-       "line": "Sharpest sector fall, led by Tata Steel's slide on its asset sale"
+       "line": "Sharpest sector fall, dragged by Tata Steel"
       },
       {
-       "name": "Nifty PSU Bank",
+       "name": "SBI",
        "dir": "down",
-       "move": "-2.41%",
-       "line": "State-run lenders sold hard after their recent run"
-      },
-      {
-       "name": "Nifty Private Bank",
-       "dir": "down",
-       "move": "-1.87%",
-       "line": "HDFC Bank and ICICI Bank are among the biggest Sensex drags"
+       "move": "-2.05%",
+       "line": "State-run lenders sold as banks give back last week's gains"
       }
      ],
      "src": {
-      "title": "LIVE: Sensex, Nifty slide, metal stocks plunge; AI selloff hits Asia, South Korea plunges 5%",
-      "url": "https://www.indiaipo.in/news/detail/live-sensex-nifty-slide-metal-stocks-plunge-ai-selloff-hits-asia-south-korea-plunges-5"
+      "title": "Stock Market Crash LIVE: Sensex slumps 1,100 pts, Nifty below 25,500; metal, banks biggest laggards",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
      }
     }
    }
@@ -86,14 +79,63 @@
  },
  "insights": [
   {
+   "key": "tata-steel",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Tata Steel losses widen to about 8%",
+   "line": "Reports put the fall at 7.6% to 8.4% as investors react to the APL Apollo deal",
+   "more": [
+    "One report values the deal at ₹15,511 cr; earlier reports said up to ₹28,000 cr including Tata Steel Colours",
+    "It is the biggest loser in the Sensex today"
+   ],
+   "src": {
+    "title": "Stocks in Focus: Tata Steel, HMA Agro, Vodafone Idea",
+    "url": "https://hdfcsky.com/news/trending-stocks-today-november-23-2026-tata-steel-vodafone-idea-pc-jeweller-hma-agro-in-focus"
+   },
+   "date": "2026-11-23",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Wall Street's AI rout reaches Dalal Street",
+   "line": "Reports tie the reversal to Friday's US tech sell-off spreading through Asia",
+   "more": [
+    "Banks and metals are the biggest laggards",
+    "IT is rising despite the AI worries"
+   ],
+   "src": {
+    "title": "Sensex slides about 1,000 points as the AI rout from Wall Street reaches Dalal Street",
+    "url": "https://startupfortune.com/sensex-slides-about-1000-points-as-the-ai-rout-from-wall-street-reaches-dalal-street/"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-23",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "0700"
+   }
+  },
+  {
    "key": "it-rebound",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "TCS jumps over 4% as IT rallies",
-   "line": "TCS up 4.42% and Tech Mahindra 3.56%, the top Nifty gainers",
+   "title": "TCS extends gains past 4.5%",
+   "line": "TCS up 4.55% and Tech Mahindra 3.51%, per IndiaIPO",
    "more": [
-    "IT is the only sector clearly in the green",
-    "The rally comes despite Friday's Nasdaq rout"
+    "HDFC Sky had TCS up 4.33% at noon",
+    "IT is the only sector clearly higher"
    ],
    "src": {
     "title": "LIVE: Sensex, Nifty slide, metal stocks plunge; AI selloff hits Asia, South Korea plunges 5%",
@@ -101,8 +143,8 @@
    },
    "thread": "it-sector",
    "date": "2026-11-23",
-   "slot": "1305",
-   "when": "13:05",
+   "slot": "1335",
+   "when": "13:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -128,7 +170,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1035"
@@ -152,7 +194,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1035"
@@ -230,30 +272,6 @@
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "tata-steel",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Tata Steel hits the day's low",
-   "line": "Down 4.7% at ₹169.56 after agreeing to sell assets to APL Apollo for up to ₹28,000 cr",
-   "more": [
-    "Deal is subject to regulatory and other approvals",
-    "The stock is the biggest Sensex drag today"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex slumps 900 pts, Nifty below 25,600; Nifty Defence drops 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
-   },
-   "date": "2026-11-23",
-   "slot": "1205",
-   "when": "12:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "0845"
    }
   },
   {
@@ -476,32 +494,6 @@
    "first_seen": {
     "date": "2026-11-18",
     "slot": "1405"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "US AI rout pushes S&P 500 into correction",
-   "line": "Friday close: S&P 500 -3.7%, Nasdaq -5.28%; Nvidia slid about 14% amid an SEC probe",
-   "more": [
-    "Fox Business: Dow and S&P 500 in correction; Nasdaq's year-to-date gain wiped out",
-    "Motley Fool ties Nvidia's fall to a reported SEC accounting probe",
-    "US markets reopen Monday evening India time"
-   ],
-   "src": {
-    "title": "Stock market slide wipes out Nasdaq gains for the year on AI rout; correction on",
-    "url": "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-22",
-   "slot": "outlook",
-   "when": "Sun · Outlook",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "0700"
    }
   },
   {
