@@ -1,44 +1,53 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-23T13:37:40+05:30",
+ "generated_at": "2026-11-23T14:06:12+05:30",
  "date": "2026-11-23",
- "slot": "1335",
- "slot_label": "13:35",
+ "slot": "1405",
+ "slot_label": "14:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-23T13:40:00+05:30",
+ "asof": "2026-11-23T14:10:00+05:30",
+ "metrics": {
+  "india_vix": {
+   "value": 17.99,
+   "asof": "10:13",
+   "approx": false,
+   "src": {
+    "title": "India VIX Rises 3.87% to 17.99 Amid Market Volatility",
+    "url": "https://hdfcsky.com/news/india-vix-rises-3-87percent-to-17-99-as-bank-nifty-falls-nearly-1000-points-and-ongoing-global-concerns-november-23-2026"
+   }
+  }
+ },
  "mood": {
-  "label": "Heavy selling",
+  "label": "Stuck near lows",
   "score": -0.55,
-  "summary": "Indian shares are stuck near the session's lows as banks and metals keep sliding under a global AI-led sell-off, with only a sharp IT rally offering any offset.",
+  "summary": "The market is grinding along near its lows into the final stretch of expiry day, with banks and metals still under pressure and IT the only sector offering real support.",
   "detail": {
    "leaders": "IT, led by TCS and Tech Mahindra",
-   "laggards": "Tata Steel and metals, plus banks such as SBI",
-   "tone": "A live read on market behaviour rather than a fresh index print: the market is still hugging the day's low, with Tata Steel's losses widening since the previous note.",
+   "laggards": "Metals and PSU banks, with Bank Nifty sharply lower",
+   "tone": "A live read on market behaviour rather than a fresh index print: the market has held near the day's low since the previous note without a fresh leg lower or a bounce.",
    "watch": [
-    "Whether Tata Steel's slide steadies",
-    "Any late bargain buying in banks",
-    "Expiry settlement into the close"
+    "Expiry settlement in the last hour",
+    "Any short covering in banks before the holiday",
+    "Whether IT holds its gains into the close"
    ],
    "src": {
-    "title": "Stock Market Crash LIVE: Sensex slumps 1,100 pts, Nifty below 25,500; metal, banks biggest laggards",
+    "title": "Stock Market Crash LIVE: Sensex slumps 1,000 pts, Nifty below 25,500; metal, banks biggest laggards",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
    },
    "movers": {
     "up": {
-     "summary": "TCS and Tech Mahindra lead IT higher against the market",
-     "why": "IT is the only sector attracting steady buying as money leaves banks and metals.",
+     "summary": "IT keeps rising, led by TCS and Tech Mahindra",
+     "why": "IT is the one sector seeing consistent buying as money leaves banks and metals.",
      "names": [
       {
        "name": "TCS",
        "dir": "up",
-       "move": "+4.55%",
-       "line": "Top Nifty gainer as investors buy IT on the dip in banks"
+       "line": "Top Nifty gainer through the afternoon as IT is bought"
       },
       {
        "name": "Tech Mahindra",
        "dir": "up",
-       "move": "+3.51%",
-       "line": "Second-best Nifty performer alongside TCS"
+       "line": "Rising with TCS at the top of the Nifty"
       }
      ],
      "src": {
@@ -47,37 +56,111 @@
      }
     },
     "down": {
-     "summary": "Tata Steel, metals and banks are the heaviest losers",
-     "why": "The sectors that led last week's rally are being sold hardest as an AI-led global sell-off sours sentiment on expiry day.",
+     "summary": "Metals and banks remain the heaviest drags",
+     "why": "Profit booking in last week's rally leaders continues, with an AI-led global sell-off weighing on sentiment.",
      "names": [
-      {
-       "name": "Tata Steel",
-       "dir": "down",
-       "move": "down ~8%",
-       "line": "Losses widen after it agreed to sell its tubes and colour-coated units to APL Apollo"
-      },
       {
        "name": "Nifty Metal",
        "dir": "down",
        "move": "-3.13%",
-       "line": "Sharpest sector fall, dragged by Tata Steel"
+       "line": "Worst sector, dragged by Tata Steel's slide on its asset sale"
       },
       {
-       "name": "SBI",
+       "name": "Nifty PSU Bank",
        "dir": "down",
-       "move": "-2.05%",
-       "line": "State-run lenders sold as banks give back last week's gains"
+       "move": "-2.41%",
+       "line": "State-run lenders sold after their recent run"
+      },
+      {
+       "name": "Nifty Bank",
+       "dir": "down",
+       "move": "down over 2%",
+       "line": "Gives back gains a day after a record high"
       }
      ],
      "src": {
-      "title": "Stock Market Crash LIVE: Sensex slumps 1,100 pts, Nifty below 25,500; metal, banks biggest laggards",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+      "title": "LIVE: Sensex, Nifty slide, metal stocks plunge; AI selloff hits Asia, South Korea plunges 5%",
+      "url": "https://www.indiaipo.in/news/detail/live-sensex-nifty-slide-metal-stocks-plunge-ai-selloff-hits-asia-south-korea-plunges-5"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "volatility",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Fear gauge rises ahead of expiry and holiday",
+   "line": "India VIX up 3.87% at 17.99 at 10:13, per HDFC Sky",
+   "more": [
+    "The report links it to hedging ahead of expiry and Tuesday's holiday",
+    "The rise came as banks turned sharply lower"
+   ],
+   "src": {
+    "title": "India VIX Rises 3.87% to 17.99 Amid Market Volatility",
+    "url": "https://hdfcsky.com/news/india-vix-rises-3-87percent-to-17-99-as-bank-nifty-falls-nearly-1000-points-and-ongoing-global-concerns-november-23-2026"
+   },
+   "thread": "volatility",
+   "date": "2026-11-23",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1405"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Rupee slips back past 93",
+   "line": "Rupee weakened beyond 93 per dollar after a seven-month high close of 92.67 on Friday",
+   "more": [
+    "Friday's gain was 62 paise, per HDFC Sky",
+    "No exact intraday level reported today"
+   ],
+   "src": {
+    "title": "Stock Market Crash LIVE: Sensex slumps 1,000 pts, Nifty below 25,500; metal, banks biggest laggards",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+   },
+   "thread": "rupee",
+   "date": "2026-11-23",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "fo-expiry",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Last hour of a holiday-shortened expiry",
+   "line": "Monthly F&O contracts settle today; markets shut Tuesday for Guru Nanak Jayanti",
+   "more": [
+    "Next session is Wednesday 25 November",
+    "Expiry can exaggerate late swings"
+   ],
+   "src": {
+    "title": "India VIX Rises 3.87% to 17.99 Amid Market Volatility",
+    "url": "https://hdfcsky.com/news/india-vix-rises-3-87percent-to-17-99-as-bank-nifty-falls-nearly-1000-points-and-ongoing-global-concerns-november-23-2026"
+   },
+   "date": "2026-11-23",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "0800"
+   }
+  },
   {
    "key": "tata-steel",
    "tag": "Stocks",
@@ -96,7 +179,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "0845"
@@ -121,7 +204,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "0700"
@@ -146,7 +229,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1035"
@@ -198,31 +281,6 @@
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1035"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Rupee weakens beyond 93 to the dollar",
-   "line": "The currency slips as equities sell off, per the Business Standard live blog",
-   "more": [
-    "Adds to pressure on foreign-flow-sensitive sectors",
-    "No exact level reported in the headline"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex slumps 900 pts, Nifty below 25,600; Rupee weakens beyond 93/$",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
-   },
-   "thread": "rupee",
-   "date": "2026-11-23",
-   "slot": "1235",
-   "when": "12:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "0700"
    }
   },
   {
@@ -345,30 +403,6 @@
    "first_seen": {
     "date": "2026-11-17",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "fo-expiry",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Expiry day before a holiday",
-   "line": "Monthly F&O expiry today; markets shut Tuesday, next session Wednesday",
-   "more": [
-    "Nifty ended last week at a nine-month high, per Daily Financial",
-    "Expiry can amplify late swings"
-   ],
-   "src": {
-    "title": "Nasdaq Crashed 5% But Nifty Hit A 9-Month High, Can India Defy Gravity Again On Expiry Day?",
-    "url": "https://dailyfinancial.in/nasdaq-crashed-5-but-nifty-hit-a-9-month-high-can-india-defy-gravity-again-on-expiry-day"
-   },
-   "date": "2026-11-23",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
    }
   },
   {

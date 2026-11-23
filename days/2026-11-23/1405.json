@@ -1,0 +1,147 @@
+{
+ "asof": "2026-11-23T14:10:00+05:30",
+ "summary": "The market is grinding along near its lows into the final stretch of expiry day, with banks and metals still under pressure and IT the only sector offering real support.",
+ "mood": {
+  "label": "Stuck near lows",
+  "score": -0.55,
+  "detail": {
+   "stats": [],
+   "leaders": "IT, led by TCS and Tech Mahindra",
+   "laggards": "Metals and PSU banks, with Bank Nifty sharply lower",
+   "movers": {
+    "up": {
+     "summary": "IT keeps rising, led by TCS and Tech Mahindra",
+     "why": "IT is the one sector seeing consistent buying as money leaves banks and metals.",
+     "names": [
+      {
+       "name": "TCS",
+       "dir": "up",
+       "line": "Top Nifty gainer through the afternoon as IT is bought"
+      },
+      {
+       "name": "Tech Mahindra",
+       "dir": "up",
+       "line": "Rising with TCS at the top of the Nifty"
+      }
+     ],
+     "src": {
+      "title": "LIVE: Sensex, Nifty slide, metal stocks plunge; AI selloff hits Asia, South Korea plunges 5%",
+      "url": "https://www.indiaipo.in/news/detail/live-sensex-nifty-slide-metal-stocks-plunge-ai-selloff-hits-asia-south-korea-plunges-5"
+     }
+    },
+    "down": {
+     "summary": "Metals and banks remain the heaviest drags",
+     "why": "Profit booking in last week's rally leaders continues, with an AI-led global sell-off weighing on sentiment.",
+     "names": [
+      {
+       "name": "Nifty Metal",
+       "move": "-3.13%",
+       "dir": "down",
+       "line": "Worst sector, dragged by Tata Steel's slide on its asset sale"
+      },
+      {
+       "name": "Nifty PSU Bank",
+       "move": "-2.41%",
+       "dir": "down",
+       "line": "State-run lenders sold after their recent run"
+      },
+      {
+       "name": "Nifty Bank",
+       "move": "down over 2%",
+       "dir": "down",
+       "line": "Gives back gains a day after a record high"
+      }
+     ],
+     "src": {
+      "title": "LIVE: Sensex, Nifty slide, metal stocks plunge; AI selloff hits Asia, South Korea plunges 5%",
+      "url": "https://www.indiaipo.in/news/detail/live-sensex-nifty-slide-metal-stocks-plunge-ai-selloff-hits-asia-south-korea-plunges-5"
+     }
+    }
+   },
+   "tone": "A live read on market behaviour rather than a fresh index print: the market has held near the day's low since the previous note without a fresh leg lower or a bounce.",
+   "watch": [
+    "Expiry settlement in the last hour",
+    "Any short covering in banks before the holiday",
+    "Whether IT holds its gains into the close"
+   ],
+   "src": {
+    "title": "Stock Market Crash LIVE: Sensex slumps 1,000 pts, Nifty below 25,500; metal, banks biggest laggards",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+   }
+  }
+ },
+ "metrics": {
+  "india_vix": {
+   "value": 17.99,
+   "asof": "10:13",
+   "approx": false,
+   "src": {
+    "title": "India VIX Rises 3.87% to 17.99 Amid Market Volatility",
+    "url": "https://hdfcsky.com/news/india-vix-rises-3-87percent-to-17-99-as-bank-nifty-falls-nearly-1000-points-and-ongoing-global-concerns-november-23-2026"
+   }
+  }
+ },
+ "top": [
+  {
+   "key": "volatility",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Fear gauge rises ahead of expiry and holiday",
+   "line": "India VIX up 3.87% at 17.99 at 10:13, per HDFC Sky",
+   "more": [
+    "The report links it to hedging ahead of expiry and Tuesday's holiday",
+    "The rise came as banks turned sharply lower"
+   ],
+   "thread": "volatility",
+   "src": {
+    "title": "India VIX Rises 3.87% to 17.99 Amid Market Volatility",
+    "url": "https://hdfcsky.com/news/india-vix-rises-3-87percent-to-17-99-as-bank-nifty-falls-nearly-1000-points-and-ongoing-global-concerns-november-23-2026"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Rupee slips back past 93",
+   "line": "Rupee weakened beyond 93 per dollar after a seven-month high close of 92.67 on Friday",
+   "more": [
+    "Friday's gain was 62 paise, per HDFC Sky",
+    "No exact intraday level reported today"
+   ],
+   "thread": "rupee",
+   "src": {
+    "title": "Stock Market Crash LIVE: Sensex slumps 1,000 pts, Nifty below 25,500; metal, banks biggest laggards",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+   }
+  },
+  {
+   "key": "fo-expiry",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Last hour of a holiday-shortened expiry",
+   "line": "Monthly F&O contracts settle today; markets shut Tuesday for Guru Nanak Jayanti",
+   "more": [
+    "Next session is Wednesday 25 November",
+    "Expiry can exaggerate late swings"
+   ],
+   "src": {
+    "title": "India VIX Rises 3.87% to 17.99 Amid Market Volatility",
+    "url": "https://hdfcsky.com/news/india-vix-rises-3-87percent-to-17-99-as-bank-nifty-falls-nearly-1000-points-and-ongoing-global-concerns-november-23-2026"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market Crash LIVE: Sensex slumps 1,000 pts, Nifty below 25,500; metal, banks biggest laggards",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+  },
+  {
+   "title": "LIVE: Sensex, Nifty slide, metal stocks plunge; AI selloff hits Asia, South Korea plunges 5%",
+   "url": "https://www.indiaipo.in/news/detail/live-sensex-nifty-slide-metal-stocks-plunge-ai-selloff-hits-asia-south-korea-plunges-5"
+  },
+  {
+   "title": "India VIX Rises 3.87% to 17.99 Amid Market Volatility",
+   "url": "https://hdfcsky.com/news/india-vix-rises-3-87percent-to-17-99-as-bank-nifty-falls-nearly-1000-points-and-ongoing-global-concerns-november-23-2026"
+  }
+ ]
+}
