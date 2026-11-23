@@ -1,50 +1,90 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-23T09:27:06+05:30",
+ "generated_at": "2026-11-23T10:06:19+05:30",
  "date": "2026-11-23",
- "slot": "0925",
- "slot_label": "9:25",
+ "slot": "1005",
+ "slot_label": "10:05",
  "stage": "Opening mood",
- "asof": "2026-11-23T09:30:00+05:30",
+ "asof": "2026-11-23T10:10:00+05:30",
  "nifty": {
-  "value": 25872,
-  "pct": 0.28,
-  "chg": 71,
-  "approx": true,
-  "asof_quote": "09:15"
+  "value": 25665.45,
+  "pct": -0.52,
+  "chg": -135.15,
+  "approx": false,
+  "asof_quote": "10:00"
  },
  "mood": {
-  "label": "Firm open",
-  "score": 0.2,
-  "summary": "Indian shares opened higher on expiry day, shrugging off the US tech rout and a slide in Korean chip stocks as easing oil prices and steady foreign buying set the tone.",
+  "label": "Early gains reversed",
+  "score": -0.3,
+  "summary": "An early gap-up has flipped into a broad sell-off as traders book profits in banks and metals after a four-week rally, with expiry-day positioning and the global tech rout adding pressure.",
   "detail": {
-   "leaders": "The broad market, with large caps opening in the green as oil prices ease",
-   "laggards": "APL Apollo Tubes, hit hard after its deal with Tata Steel",
-   "tone": "A live read just after the open. The firmer start the pre-open cues pointed to has arrived, though gains are modest so far and the pre-open was stronger.",
+   "leaders": "A handful of heavyweights such as Adani Enterprises and DLF holding small gains",
+   "laggards": "Metals led by Tata Steel, banks such as ICICI Bank, and APL Apollo Tubes",
+   "tone": "A live read, and a clear turn from the firm open in the previous note: the early rally faded fast and selling has spread through banks and metals, with midcaps and smallcaps also lower.",
    "watch": [
-    "Whether the open holds as Asian tech stays weak",
-    "Expiry-day swings into the close",
-    "Oil, which is easing this morning"
+    "Whether banks find buyers or the profit booking deepens",
+    "Expiry-day unwinding into the afternoon",
+    "Whether midcaps and smallcaps hold up better than large caps"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex rises 200 pts, Nifty tops 25,850; APL Apollo Tubes hits 10% lower circuit",
+    "title": "Stock Market LIVE: Sensex down 400 points, Nifty below 25,700; Nifty Bank snaps 2-day record rally",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
    },
    "movers": {
-    "down": {
-     "summary": "APL Apollo Tubes slumps after agreeing the Tata Steel tubes deal",
-     "why": "The weekend's deal dominates early stock-specific trade, with the buyer's shares under heavy selling.",
+    "up": {
+     "summary": "Few gainers: Adani Enterprises and DLF hold up against the selling",
+     "why": "Buying is narrow and stock-specific while the bulk of the market sells off; reports give no single trigger.",
      "names": [
       {
-       "name": "APL Apollo Tubes",
-       "dir": "down",
-       "move": "-7.85%",
-       "line": "Buying Tata Steel's tubes arm and Tata Steel Colours for up to ₹28,000 cr"
+       "name": "Adani Enterprises",
+       "dir": "up",
+       "move": "+2.17%",
+       "line": "Among the few large caps drawing buyers in morning trade; no trigger reported"
+      },
+      {
+       "name": "DLF",
+       "dir": "up",
+       "move": "+0.74%",
+       "line": "Realty heavyweight holding gains as banks are sold; no trigger reported"
       }
      ],
      "src": {
-      "title": "Why are APL Apollo shares falling 8% today? Tata Steel deal explained",
-      "url": "https://businessupturn.com/finance/stock-market/why-are-apl-apollo-shares-falling-8-today-tata-steel-deal-explained/"
+      "title": "Sensex jumps 743 points then plunges 1,274 from day's high: what triggered the sell-off",
+      "url": "https://www.newsdrum.in/business/sensex-jumps-743-points-then-plunges-1274-from-days-high-what-triggered-the-sell-off-12832895"
+     }
+    },
+    "down": {
+     "summary": "Metals, banks and Tata group names drag after an early high",
+     "why": "Profit booking after four straight weekly gains hits the sectors that led the rally, while expiry-day unwinding exaggerates the swing.",
+     "names": [
+      {
+       "name": "Tata Steel",
+       "dir": "down",
+       "move": "-4%",
+       "line": "Biggest Sensex drag after agreeing to sell its tubes and colour-coated units"
+      },
+      {
+       "name": "Nifty Metal",
+       "dir": "down",
+       "move": "-1.9%",
+       "line": "Tata Steel's slide pulls the metals pack lower"
+      },
+      {
+       "name": "ICICI Bank",
+       "dir": "down",
+       "move": "-1.28%",
+       "line": "Banks see profit booking after Nifty Bank's two-day record run"
+      },
+      {
+       "name": "APL Apollo Tubes",
+       "dir": "down",
+       "move": "-10%",
+       "line": "Hit its lower circuit after agreeing to buy Tata Steel's tubes arm"
+      }
+     ],
+     "src": {
+      "title": "Sensex jumps 743 points then plunges 1,274 from day's high: what triggered the sell-off",
+      "url": "https://www.newsdrum.in/business/sensex-jumps-743-points-then-plunges-1274-from-days-high-what-triggered-the-sell-off-12832895"
      }
     }
    }
@@ -52,28 +92,76 @@
  },
  "insights": [
   {
-   "key": "tata-steel",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "APL Apollo slides on Tata Steel deal",
-   "line": "Down 7.85% early; Business Standard reports a 10% lower circuit",
+   "key": "profit-booking",
+   "tag": "Opening",
+   "impact": "neg",
+   "title": "Gap-up fades into a 1,274-pt Sensex swing",
+   "line": "Sensex rose 740+ pts early, then fell as much as 1,274 from the day's high",
    "more": [
-    "Tata Steel's tubes arm moves on a slump sale for up to ₹11,700 cr",
-    "Tata Steel Colours stake also goes to APL Apollo; total about ₹28,000 cr",
-    "Tata Steel to take a 26.38% stake at ₹2,100 a share, per Business Upturn"
+    "Reports cite profit booking after four weekly gains",
+    "Expiry falls today because markets shut Tuesday",
+    "Nifty Bank snapped a two-day record rally, per Business Standard"
    ],
    "src": {
-    "title": "Why are APL Apollo shares falling 8% today? Tata Steel deal explained",
-    "url": "https://businessupturn.com/finance/stock-market/why-are-apl-apollo-shares-falling-8-today-tata-steel-deal-explained/"
+    "title": "Sensex jumps 743 points then plunges 1,274 from day's high: what triggered the sell-off",
+    "url": "https://www.newsdrum.in/business/sensex-jumps-743-points-then-plunges-1274-from-days-high-what-triggered-the-sell-off-12832895"
    },
    "date": "2026-11-23",
-   "slot": "0925",
-   "when": "9:25",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "tata-steel",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Tata Steel and APL Apollo both sold",
+   "line": "Tata Steel down about 4%; APL Apollo hit its 10% lower circuit after the tubes deal",
+   "more": [
+    "Deal for tubes and Tata Steel Colours worth up to ₹28,000 cr",
+    "Business Upturn had APL Apollo down 7.85% shortly after the open"
+   ],
+   "src": {
+    "title": "Sensex jumps 743 points then plunges 1,274 from day's high: what triggered the sell-off",
+    "url": "https://www.newsdrum.in/business/sensex-jumps-743-points-then-plunges-1274-from-days-high-what-triggered-the-sell-off-12832895"
+   },
+   "date": "2026-11-23",
+   "slot": "1005",
+   "when": "10:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "0845"
+   }
+  },
+  {
+   "key": "broader-market",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Midcaps and smallcaps slip too",
+   "line": "Nifty Midcap 100 and Smallcap 100 both lower by 10:00, per Business Standard",
+   "more": [
+    "The same blog earlier had both up at the open",
+    "Last week's rally was led by large caps"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 400 points, Nifty below 25,700; Nifty Bank snaps 2-day record rally",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+   },
+   "date": "2026-11-23",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "1105"
    }
   },
   {
@@ -95,7 +183,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "0845"
@@ -119,7 +207,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-21",
     "slot": "0800"
@@ -347,30 +435,6 @@
    "first_seen": {
     "date": "2026-11-22",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "broader-market",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Last week's rally was narrow",
-   "line": "Gains concentrated in large caps; midcaps flat and smallcaps lower",
-   "more": [
-    "Banks did most of the lifting",
-    "Breadth a key test for the coming week"
-   ],
-   "src": {
-    "title": "Indian Stock Market Outlook Next Week, 23-27 Nov: Sensex, Nifty May Extend Rally Amid Easing Crude Oil Prices",
-    "url": "https://www.goodreturns.in/news/indian-stock-market-outlook-next-week-23-27-nov-sensex-nifty-may-extend-rally-amid-easing-crude-o-1548735.html"
-   },
-   "date": "2026-11-22",
-   "slot": "1800",
-   "when": "Sun · 18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1105"
    }
   },
   {
