@@ -1,81 +1,128 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-23T08:46:32+05:30",
+ "generated_at": "2026-11-23T09:27:06+05:30",
  "date": "2026-11-23",
- "slot": "0845",
- "slot_label": "8:45",
- "stage": "Pre-market mood",
- "asof": "2026-11-23T08:50:00+05:30",
+ "slot": "0925",
+ "slot_label": "9:25",
+ "stage": "Opening mood",
+ "asof": "2026-11-23T09:30:00+05:30",
  "nifty": {
-  "value": 25800.6,
-  "pct": 1.12,
-  "chg": 286.3,
-  "approx": false,
-  "asof_quote": "Fri 20 Nov close"
- },
- "metrics": {
-  "fii_net_cr": {
-   "value": 10308.4,
-   "asof": "Fri 20 Nov provisional",
-   "approx": false,
-   "src": {
-    "title": "FII DII Data Today (20 Nov): FII +10,308 Cr, DII −4,860 Cr",
-    "url": "https://www.quantsapp.com/fii-dii"
-   }
-  },
-  "dii_net_cr": {
-   "value": -4859.8,
-   "asof": "Fri 20 Nov provisional",
-   "approx": false,
-   "src": {
-    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
-   }
-  }
+  "value": 25872,
+  "pct": 0.28,
+  "chg": 71,
+  "approx": true,
+  "asof_quote": "09:15"
  },
  "mood": {
-  "label": "Firm start likely",
-  "score": 0.15,
-  "summary": "A modestly firm open is signalled as heavy foreign buying and bouncing US futures outweigh Asia's tech weakness, though expiry and tomorrow's holiday could keep trade choppy.",
+  "label": "Firm open",
+  "score": 0.2,
+  "summary": "Indian shares opened higher on expiry day, shrugging off the US tech rout and a slide in Korean chip stocks as easing oil prices and steady foreign buying set the tone.",
   "detail": {
-   "leaders": "Banks on continued foreign buying; Tata Steel and APL Apollo on their tubes deal",
-   "laggards": "IT and chip-linked names as Asian tech stays weak",
-   "tone": "A pre-open read, not a live one. Cues have improved since the early-morning note as GIFT Nifty points higher and Friday's foreign buying is confirmed large.",
+   "leaders": "The broad market, with large caps opening in the green as oil prices ease",
+   "laggards": "APL Apollo Tubes, hit hard after its deal with Tata Steel",
+   "tone": "A live read just after the open. The firmer start the pre-open cues pointed to has arrived, though gains are modest so far and the pre-open was stronger.",
    "watch": [
-    "Whether the GIFT Nifty premium holds into the 09:15 open",
-    "How Asian tech trades once China and Hong Kong are open",
-    "Expiry-day swings with Tuesday's holiday ahead"
+    "Whether the open holds as Asian tech stays weak",
+    "Expiry-day swings into the close",
+    "Oil, which is easing this morning"
    ],
    "src": {
-    "title": "Pre-Market Update: GIFT Nifty Signals Positive Opening as Nifty 50 Eyes 26,000; Global Tech Sell-Off",
-    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-positive-opening-as-nifty-50-eyes-26000-global-tech-sell-off-60551"
+    "title": "Stock Market LIVE: Sensex rises 200 pts, Nifty tops 25,850; APL Apollo Tubes hits 10% lower circuit",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+   },
+   "movers": {
+    "down": {
+     "summary": "APL Apollo Tubes slumps after agreeing the Tata Steel tubes deal",
+     "why": "The weekend's deal dominates early stock-specific trade, with the buyer's shares under heavy selling.",
+     "names": [
+      {
+       "name": "APL Apollo Tubes",
+       "dir": "down",
+       "move": "-7.85%",
+       "line": "Buying Tata Steel's tubes arm and Tata Steel Colours for up to ₹28,000 cr"
+      }
+     ],
+     "src": {
+      "title": "Why are APL Apollo shares falling 8% today? Tata Steel deal explained",
+      "url": "https://businessupturn.com/finance/stock-market/why-are-apl-apollo-shares-falling-8-today-tata-steel-deal-explained/"
+     }
+    }
    }
   }
  },
  "insights": [
   {
+   "key": "tata-steel",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "APL Apollo slides on Tata Steel deal",
+   "line": "Down 7.85% early; Business Standard reports a 10% lower circuit",
+   "more": [
+    "Tata Steel's tubes arm moves on a slump sale for up to ₹11,700 cr",
+    "Tata Steel Colours stake also goes to APL Apollo; total about ₹28,000 cr",
+    "Tata Steel to take a 26.38% stake at ₹2,100 a share, per Business Upturn"
+   ],
+   "src": {
+    "title": "Why are APL Apollo shares falling 8% today? Tata Steel deal explained",
+    "url": "https://businessupturn.com/finance/stock-market/why-are-apl-apollo-shares-falling-8-today-tata-steel-deal-explained/"
+   },
+   "date": "2026-11-23",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "0845"
+   }
+  },
+  {
    "key": "gift-nifty",
    "tag": "Opening",
    "impact": "pos",
-   "title": "GIFT Nifty points to a firmer open",
-   "line": "25,894.50 at 06:59, a 0.36% premium to Friday's Nifty close, per DSIJ",
+   "title": "Open firm, but below pre-open highs",
+   "line": "Indices rose as oil eased, with the AI-trade unwind still deepening abroad",
    "more": [
-    "Scanx has it near 25,912 later in the morning",
-    "US futures rebounded sharply on Sunday evening",
-    "Asian tech weakness may cap early gains"
+    "Nifty was stronger in pre-open, per Business Upturn",
+    "Kospi fell more than 3% this morning, per Tradebrains",
+    "US futures bounced after Friday's sell-off"
    ],
    "src": {
-    "title": "Pre-Market Update: GIFT Nifty Signals Positive Opening as Nifty 50 Eyes 26,000; Global Tech Sell-Off",
-    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-positive-opening-as-nifty-50-eyes-26000-global-tech-sell-off-60551"
+    "title": "Stock Market LIVE: Sensex rises 200 pts, Nifty tops 25,850; APL Apollo Tubes hits 10% lower circuit",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
    },
    "date": "2026-11-23",
-   "slot": "0845",
-   "when": "8:45",
+   "slot": "0925",
+   "when": "9:25",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "0845"
+   }
+  },
+  {
+   "key": "fo-expiry",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Expiry day before a holiday",
+   "line": "Monthly F&O expiry today; markets shut Tuesday, next session Wednesday",
+   "more": [
+    "Nifty ended last week at a nine-month high, per Daily Financial",
+    "Expiry can amplify late swings"
+   ],
+   "src": {
+    "title": "Nasdaq Crashed 5% But Nifty Hit A 9-Month High, Can India Defy Gravity Again On Expiry Day?",
+    "url": "https://dailyfinancial.in/nasdaq-crashed-5-but-nifty-hit-a-9-month-high-can-india-defy-gravity-again-on-expiry-day"
+   },
+   "date": "2026-11-23",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "0800"
    }
   },
   {
@@ -98,34 +145,10 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "tata-steel",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Tata Steel sells tubes arm to APL Apollo",
-   "line": "Deal for the tubes business and Tata Steel Colours stake valued at up to ₹28,000 cr",
-   "more": [
-    "Subject to regulatory clearances",
-    "Completion expected by March 2028"
-   ],
-   "src": {
-    "title": "Stocks to watch, Nov 23: Waaree Energies, Tata Steel, APL Apollo, Maruti, Chalet Hotels, Marico, NATCO Pharma",
-    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-23-waaree-energies-tata-steel-apl-apollo-maruti-chalet-hotels-marico-natco-pharma/article-203830/"
-   },
-   "date": "2026-11-23",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "0845"
    }
   },
   {
@@ -146,34 +169,10 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "fo-expiry",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Expiry today, market shut tomorrow",
-   "line": "NSE monthly expiry on Monday; Tuesday closed for Guru Nanak Jayanti",
-   "more": [
-    "Next session after today is Wednesday 25 November",
-    "Mahanadi Coalfields IPO also closes today"
-   ],
-   "src": {
-    "title": "Pre-Market Report 23 November 2026: FPIs Defy Nasdaq Rout",
-    "url": "https://www.marketcalls.in/futures-and-options/pre-market-report-23-november-2026.html"
-   },
-   "date": "2026-11-23",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
    }
   },
   {
