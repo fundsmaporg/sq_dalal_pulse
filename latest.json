@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-23T16:36:34+05:30",
+ "generated_at": "2026-11-23T18:00:25+05:30",
  "date": "2026-11-23",
- "slot": "1635",
- "slot_label": "16:35",
- "stage": "Post-market mood",
- "asof": "2026-11-23T16:40:00+05:30",
+ "slot": "1800",
+ "slot_label": "18:00",
+ "stage": "Evening wrap",
+ "asof": "2026-11-23T18:05:00+05:30",
  "nifty": {
   "value": 25349.65,
   "pct": -1.75,
@@ -13,106 +13,93 @@
   "approx": false
  },
  "mood": {
-  "label": "Sharp sell-off",
-  "score": -0.65,
-  "summary": "Indian shares ended expiry day sharply lower after a broad reversal from an early high, with banks and metals leading the losses and IT the lone sector to finish in the green.",
+  "label": "Relief bounce possible",
+  "score": 0.05,
+  "summary": "Wednesday's session could see some relief as US futures rebound sharply from Friday's AI rout, though Indian banks and metals carry Monday's heavy losses into the holiday.",
   "detail": {
-   "leaders": "IT, with TCS the top Sensex gainer, and Shriram Finance",
-   "laggards": "Metals led by Tata Steel, and banks across PSU and private lenders",
-   "tone": "A read of the finished session, now with a confirmed close. Nothing has changed since the previous note beyond that; provisional institutional flow data for today has not been published yet.",
+   "leaders": "IT, which rose against Monday's sell-off and could gain further if the US tech rebound holds",
+   "laggards": "Banks and metals, which took the heaviest losses on Monday",
+   "tone": "A forward read for Wednesday 25 November, since markets are shut on Tuesday. Monday ended in a sharp sell-off, but a strong rebound in US futures this evening softens the outlook.",
    "watch": [
-    "Provisional FII/DII figures for today",
-    "US markets tonight after Friday's tech rout",
-    "Wednesday's reopening after Tuesday's holiday"
+    "Whether Wall Street holds its rebound through the US session and into Tuesday",
+    "Monday's provisional FII figures, not yet published",
+    "US GDP and core PCE data due on Wednesday"
    ],
    "src": {
-    "title": "Profit booking: NIFTY50 drops 450 points, SENSEX falls 1.77%; Metals, and Banks among top laggards",
-    "url": "https://upstox.com/news/market-news/stocks/profit-booking-nifty-50-drops-450-points-sensex-falls-1-77-metals-and-banks-among-top-laggards/article-203883/"
-   },
-   "movers": {
-    "up": {
-     "summary": "IT closed higher, with TCS leading and Shriram Finance also gaining",
-     "why": "Investors rotated into IT while selling the banks and metals that led last week's rally.",
-     "names": [
-      {
-       "name": "Nifty IT",
-       "dir": "up",
-       "move": "+1.69%",
-       "line": "The only major sector to close higher"
-      },
-      {
-       "name": "TCS",
-       "dir": "up",
-       "move": "+3.66%",
-       "line": "Top Sensex gainer as investors bought IT on the dip in banks"
-      },
-      {
-       "name": "Shriram Finance",
-       "dir": "up",
-       "line": "Gained on news it will replace Trent in the Sensex from 21 December"
-      }
-     ],
-     "src": {
-      "title": "Closing Bell: Sensex Tanks 1,484 Pts, Bank Nifty Down 3%",
-      "url": "https://univest.in/blogs/closing-bell-sensex-nifty-bank-nifty-23-november-2026"
-     }
-    },
-    "down": {
-     "summary": "Metals and banks led the slide, with Tata Steel the worst performer",
-     "why": "Profit booking after a four-week rally, expiry-day unwinding and a global AI-led sell-off hit last week's leaders hardest.",
-     "names": [
-      {
-       "name": "Tata Steel",
-       "dir": "down",
-       "move": "-8.52%",
-       "line": "Biggest Sensex loser after agreeing to sell its tubes and colour-coated units"
-      },
-      {
-       "name": "Nifty Metal",
-       "dir": "down",
-       "move": "-3.68%",
-       "line": "Worst sector, dragged down by Tata Steel"
-      },
-      {
-       "name": "Nifty PSU Bank",
-       "dir": "down",
-       "move": "-3.25%",
-       "line": "State-run lenders sold after their recent run"
-      },
-      {
-       "name": "Nifty Private Bank",
-       "dir": "down",
-       "move": "-3.19%",
-       "line": "HDFC Bank, ICICI Bank and Axis Bank among the heaviest index drags"
-      }
-     ],
-     "src": {
-      "title": "Closing Bell: Sensex Tanks 1,484 Pts, Bank Nifty Down 3%",
-      "url": "https://univest.in/blogs/closing-bell-sensex-nifty-bank-nifty-23-november-2026"
-     }
-    }
+    "title": "Wall Street futures rebound after rough week for AI-linked shares",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-futures-rebound-rough-075444520.html"
    }
   }
  },
  "insights": [
   {
+   "key": "us-futures",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "US futures rebound hard after AI rout",
+   "line": "Dow futures up about 958 points; S&P 500 futures up 2.6% to 2.8%, Nasdaq-100 3% to 3.6%",
+   "more": [
+    "Nvidia rose 8.7% premarket after its worst weekly streak since 2008",
+    "Analysts caution a bounce is hard to read as a recovery while volatility stays high"
+   ],
+   "src": {
+    "title": "Wall Street futures rebound after rough week for AI-linked shares",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-futures-rebound-rough-075444520.html"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-23",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Nvidia faces fresh scrutiny",
+   "line": "Officials probe chip-export compliance; regulators reportedly examine its accounting",
+   "more": [
+    "Treasury Secretary Bessent raised the export question on Sunday",
+    "GDP and core PCE are due Wednesday, before Thanksgiving"
+   ],
+   "src": {
+    "title": "Nasdaq futures rise over 900 points: 5 things to know before Wall Street opens",
+    "url": "https://invezz.com/news/2026/11/23/us-stock-futures-today-nvidia-ai-rebound-fed-november-23/"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-23",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "0700"
+   }
+  },
+  {
    "key": "fii-flows",
    "tag": "Flows",
    "impact": "watch",
-   "title": "Today's FII flows not yet out",
-   "line": "Provisional data for Monday is pending; foreign investors bought ₹10,308 cr on Friday",
+   "title": "Monday's FII figures still awaited",
+   "line": "MarketCalls says November FPI inflows have crossed a record ₹1.3 lakh crore",
    "more": [
-    "November has seen record foreign buying",
-    "Whether that buying held through today's sell-off is the key unknown"
+    "Business Today earlier put the month's total at ₹1.12 lakh crore",
+    "No flow data is released on Tuesday's holiday"
    ],
    "src": {
-    "title": "FII DII Data Today (20 Nov): FII +10,308 Cr, DII −4,860 Cr",
-    "url": "https://www.quantsapp.com/fii-dii"
+    "title": "Pre-Market Report 23 November 2026: FPIs Defy Nasdaq Rout",
+    "url": "https://www.marketcalls.in/futures-and-options/pre-market-report-23-november-2026.html"
    },
    "thread": "fii-flows",
    "date": "2026-11-23",
-   "slot": "1635",
-   "when": "16:35",
+   "slot": "1800",
+   "when": "18:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -124,19 +111,19 @@
    "key": "market-holiday",
    "tag": "Opening",
    "impact": "watch",
-   "title": "Markets shut Tuesday; next session Wednesday",
+   "title": "Market shut Tuesday; next session Wednesday",
    "line": "NSE and BSE close on 24 November for Guru Nanak Jayanti",
    "more": [
-    "The November F&O series settled today",
-    "US data and Thanksgiving fall later in the week"
+    "Monday also settled the November F&O series",
+    "US markets close Thursday for Thanksgiving"
    ],
    "src": {
-    "title": "Stock Market Close: Sensex tanks 1,484 pts, Nifty ends at 25,350; metal, PSU bank bleed",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+    "title": "FII DII Calendar: Key Market Dates for FII Flows (Nov 2026 to Feb 2027)",
+    "url": "https://fiianddiidata.com/fii-dii-calendar/"
    },
    "date": "2026-11-23",
-   "slot": "1635",
-   "when": "16:35",
+   "slot": "1800",
+   "when": "18:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -163,7 +150,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1035"
@@ -287,31 +274,6 @@
    "first_seen": {
     "date": "2026-11-21",
     "slot": "0800"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "US tech slide revives AI valuation worries",
-   "line": "Reports blame the US tech sell-off for renewed concern over AI-related valuations",
-   "more": [
-    "Banks and metals are the main drags at home",
-    "Analysts also cite expiry and resistance near recent highs"
-   ],
-   "src": {
-    "title": "LIVE: Sensex, Nifty slide, metal stocks plunge; AI selloff hits Asia, South Korea plunges 5%",
-    "url": "https://www.indiaipo.in/news/detail/live-sensex-nifty-slide-metal-stocks-plunge-ai-selloff-hits-asia-south-korea-plunges-5"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-23",
-   "slot": "1505",
-   "when": "15:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "0700"
    }
   },
   {
@@ -508,32 +470,6 @@
    "first_seen": {
     "date": "2026-11-23",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "us-futures",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "US futures rebound after Friday's rout",
-   "line": "S&P 500 futures up about 2% and Nasdaq futures near 3% in Sunday trade, per Fortune",
-   "more": [
-    "CNBC's earlier read: S&P futures +1.1%, Nasdaq-100 futures +1.9%",
-    "Friday cash close: S&P 500 -3.70%, Nasdaq-100 -5.61%; VIX at 35.89",
-    "Readings differ by time of update"
-   ],
-   "src": {
-    "title": "Dow futures jump nearly 700 points and Nasdaq soars 3% as stocks rebound from correction with Wall Street still upbeat on 2027",
-    "url": "https://fortune.com/2026/11/22/stock-market-today-dow-futures-sp500-nasdaq-correction-ai-bust/"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-23",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "0700"
    }
   },
   {
