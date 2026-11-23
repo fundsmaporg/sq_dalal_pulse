@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-22T21:00:34+05:30",
- "date": "2026-11-22",
- "slot": "outlook",
- "slot_label": "Outlook",
- "stage": "Weekend outlook",
- "asof": "2026-11-22T21:10:00+05:30",
+ "generated_at": "2026-11-23T07:00:54+05:30",
+ "date": "2026-11-23",
+ "slot": "0700",
+ "slot_label": "7:00",
+ "stage": "Pre-market mood",
+ "asof": "2026-11-23T07:05:00+05:30",
  "nifty": {
   "value": 25800.6,
   "pct": 1.12,
@@ -14,25 +14,149 @@
   "asof_quote": "Fri 20 Nov close"
  },
  "mood": {
-  "label": "Cautious start likely",
-  "score": -0.35,
-  "summary": "Monday sets record foreign buying and a firm domestic trend against a deep US tech sell-off and fresh Gulf attacks, with monthly expiry crammed into the only session before Tuesday's holiday.",
+  "label": "Choppy start likely",
+  "score": -0.1,
+  "summary": "Indian shares face crosscurrents into the open: US futures are bouncing hard after Friday's tech rout, but Korean chip stocks are sliding again and Gulf tanker attacks keep crude risk alive.",
   "detail": {
-   "leaders": "Banks, which carried last week's rally on heavy foreign buying, if the inflows keep coming",
-   "laggards": "IT and AI-linked names after Nvidia's slide in the US; oil-sensitive sectors if crude reacts to the Gulf",
-   "tone": "The week ended on a long winning streak led by banks, but the weekend brought a US tech rout and attacks on tankers and Bahrain. Domestic news was quiet; the Gulf was the evening's only fresh development.",
+   "leaders": "Banks, which led last week's rally, and anything that tracks the US futures rebound",
+   "laggards": "IT and AI-linked names, with Korean chip stocks still selling off this morning",
+   "tone": "A forward read before the open. The weekend set a cautious tone, but the overnight bounce in US futures softens it; expiry and Tuesday's holiday add swing risk.",
    "watch": [
-    "How much of the US tech sell-off shows up at Monday's open",
-    "Crude's first reaction to the weekend's Gulf attacks",
-    "Whether banks hold up through Monday's monthly expiry"
+    "Whether the US futures bounce holds through the Indian open",
+    "How Kospi and Hong Kong trade once they find their feet",
+    "Banks through today's monthly expiry"
    ],
    "src": {
-    "title": "Week ahead: NIFTY monthly expiry, crude oil prices and FIIs activity among key market triggers to watch",
-    "url": "https://upstox.com/news/market-news/trading/week-ahead-nifty-monthly-expiry-crude-oil-prices-and-fi-is-activity-among-key-market-triggers-to-watch/article-203810/"
+    "title": "S&P 500 futures rebound sharply to rise 2%, kick-starting shortened week after tech rout: Live updates",
+    "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "us-futures",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "US futures rebound after Friday's rout",
+   "line": "S&P 500 futures up about 2% and Nasdaq futures near 3% in Sunday trade, per Fortune",
+   "more": [
+    "CNBC's earlier read: S&P futures +1.1%, Nasdaq-100 futures +1.9%",
+    "Friday cash close: S&P 500 -3.70%, Nasdaq-100 -5.61%; VIX at 35.89",
+    "Readings differ by time of update"
+   ],
+   "src": {
+    "title": "Dow futures jump nearly 700 points and Nasdaq soars 3% as stocks rebound from correction with Wall Street still upbeat on 2027",
+    "url": "https://fortune.com/2026/11/22/stock-market-today-dow-futures-sp500-nasdaq-correction-ai-bust/"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-23",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "asia-chip-rout",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Kospi slides again on AI worries",
+   "line": "Korea fell as much as 3% early Monday as chip stocks extended the tech sell-off",
+   "more": [
+    "Japan is shut today for Labor Thanksgiving Day",
+    "Taiwan, China and Hong Kong open later"
+   ],
+   "src": {
+    "title": "South Korea Kospi Plunges 3% as AI Fears Mount",
+    "url": "https://www.newsy-today.com/south-korea-kospi-plunges-3-as-ai-fears-mount/"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-23",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "crude-iran-war",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Brent near $93 despite Hormuz attacks",
+   "line": "Tanker strikes offset by a surge in Gulf exports and surplus expectations",
+   "more": [
+    "Weekend reports of tankers hit near Hormuz",
+    "Oil fell for a third straight week into Friday"
+   ],
+   "src": {
+    "title": "Brent Stuck Near $93 as Hormuz Tanker Attacks Offset Gulf Export Surge",
+    "url": "https://oilprice.com/Energy/Energy-General/Brent-Stuck-Near-93-as-Hormuz-Tanker-Attacks-Offset-Gulf-Export-Surge.html"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-23",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "fo-expiry",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Monthly expiry today, holiday tomorrow",
+   "line": "NSE's November expiry falls on Monday; markets shut Tuesday for Guru Nanak Jayanti",
+   "more": [
+    "Next session after today is Wednesday 25 November",
+    "Univest flags a large put base near 25,500"
+   ],
+   "src": {
+    "title": "Week ahead: NIFTY monthly expiry, crude oil prices and FIIs activity among key market triggers to watch",
+    "url": "https://upstox.com/news/market-news/trading/week-ahead-nifty-monthly-expiry-crude-oil-prices-and-fi-is-activity-among-key-market-triggers-to-watch/article-203810/"
+   },
+   "date": "2026-11-23",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "0800"
+   }
+  },
+  {
+   "key": "mahanadi-coalfields-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Mahanadi Coalfields IPO's last day",
+   "line": "Coal India unit's ₹129–136 offer-for-sale closes today",
+   "more": [
+    "Day 1 subscription was 0.38x overall, QIB 1.26x",
+    "Final-day bids from institutions are the swing factor"
+   ],
+   "src": {
+    "title": "Mahanadi Coalfields IPO subscription status day 1",
+    "url": "https://www.mstock.com/articles/mahanadi-coalfields-ltd-ipo-subscription-status-day-1"
+   },
+   "date": "2026-11-23",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "1405"
+   }
+  },
   {
    "key": "us-markets",
    "tag": "Global",
@@ -51,38 +175,12 @@
    "thread": "global-markets",
    "date": "2026-11-22",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "crude-iran-war",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Tankers hit near Hormuz; Bahrain site struck",
-   "line": "UKMTO says two tankers hit off Oman; Bahrain accuses Iran of striking an industrial site",
-   "more": [
-    "Iran's navy separately says a tanker caught fire after hitting a mine",
-    "Iran's Guards say they targeted US positions in Bahrain",
-    "Araghchi: Hormuz talks pointless unless Iran's demands are met; Qatar mediating"
-   ],
-   "src": {
-    "title": "Bahrain accuses Iran of striking industrial site as tankers hit in Hormuz",
-    "url": "https://www.france24.com/en/middle-east/20261122-bahrain-accuses-iran-of-striking-industrial-site-as-tankers-hit-in-hormuz"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-22",
-   "slot": "outlook",
-   "when": "Outlook",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "2100"
    }
   },
   {
@@ -102,12 +200,12 @@
    "thread": "fii-flows",
    "date": "2026-11-22",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
-    "date": "2026-11-16",
-    "slot": "0845"
+    "date": "2026-11-17",
+    "slot": "0700"
    }
   },
   {
@@ -126,12 +224,12 @@
    },
    "date": "2026-11-22",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1435"
+    "date": "2026-11-22",
+    "slot": "0800"
    }
   },
   {
@@ -150,36 +248,12 @@
    },
    "date": "2026-11-22",
    "slot": "outlook",
-   "when": "Outlook",
+   "when": "Sun · Outlook",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-22",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "mahanadi-coalfields-ipo",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Mahanadi Coalfields IPO closes Monday",
-   "line": "Coal India unit's offer-for-sale at ₹129–136 shuts on 23 Nov",
-   "more": [
-    "Day 1 subscription was 0.38x overall, QIB 1.26x",
-    "Grey-market premium readings are thin and conflicting"
-   ],
-   "src": {
-    "title": "Mahanadi Coalfields IPO subscription status day 1",
-    "url": "https://www.mstock.com/articles/mahanadi-coalfields-ltd-ipo-subscription-status-day-1"
-   },
-   "date": "2026-11-22",
-   "slot": "outlook",
-   "when": "Outlook",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1335"
    }
   },
   {
@@ -198,12 +272,12 @@
    },
    "date": "2026-11-22",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Sun · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1005"
+    "date": "2026-11-17",
+    "slot": "1105"
    }
   },
   {
@@ -226,8 +300,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-16",
-    "slot": "2100"
+    "date": "2026-11-18",
+    "slot": "0845"
    }
   },
   {
@@ -275,8 +349,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1635"
+    "date": "2026-11-19",
+    "slot": "0700"
    }
   },
   {
@@ -304,30 +378,6 @@
    }
   },
   {
-   "key": "fo-expiry",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Nifty monthly expiry moves to Monday",
-   "line": "NSE November F&O expiry advanced to 23 Nov because of Tuesday's holiday",
-   "more": [
-    "BSE Sensex and Bankex monthly expiry stays on Thursday 26 Nov",
-    "Nifty weekly and November monthly contracts both expire Monday"
-   ],
-   "src": {
-    "title": "Nifty weekly and November monthly expiry moves to Monday, 23 November as Tuesday is a market holiday for Guru Nanak Jayanti",
-    "url": "https://businessupturn.com/finance/stock-market/nifty-weekly-and-november-monthly-expiry-moves-to-monday-23-november-as-tuesday-is-a-market-holiday-for-guru-nanak-jayanti/"
-   },
-   "date": "2026-11-21",
-   "slot": "0800",
-   "when": "Sat · 8:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
-   }
-  },
-  {
    "key": "crude",
    "tag": "Global",
    "impact": "watch",
@@ -348,8 +398,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-16",
-    "slot": "0700"
+    "date": "2026-11-17",
+    "slot": "1205"
    }
   },
   {
@@ -420,7 +470,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "slot": "0925"
    }
   },
@@ -758,7 +808,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "slot": "0845"
    }
   },
@@ -782,7 +832,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "slot": "0700"
    }
   },
@@ -1075,8 +1125,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1235"
+    "date": "2026-11-19",
+    "slot": "1305"
    }
   },
   {
@@ -1244,8 +1294,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-16",
-    "slot": "2100"
+    "date": "2026-11-17",
+    "slot": "0700"
    }
   },
   {
@@ -1362,11 +1412,11 @@
    "date": "2026-11-18",
    "slot": "1605",
    "when": "Wed · 16:05",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1535"
+    "date": "2026-11-18",
+    "slot": "1605"
    }
   },
   {
@@ -2049,619 +2099,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "hormuz-attacks",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Iran claims two more tanker mine strikes",
-   "line": "The Guards say two tankers hit mines in Hormuz, after six caught fire over two days",
-   "more": [
-    "The reports could not be independently verified",
-    "Oil inched higher on the claims in European trade"
-   ],
-   "src": {
-    "title": "Oil prices rise after Hormuz explosion claims",
-    "url": "https://www.rte.ie/news/business/2026/1116/1599343-oil-prices/"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-16",
-   "slot": "1800",
-   "when": "Mon · 18:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1800"
-   }
-  },
-  {
-   "key": "max-healthcare",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Max Healthcare tops Nifty with 6%+ gain",
-   "line": "The stock closed up about 6.4–6.6% near ₹1,008–1,010",
-   "more": [
-    "No company announcement or broker call was found to explain the move",
-    "It led the Nifty gainers for most of the session"
-   ],
-   "src": {
-    "title": "Top Gainers & Losers Today, 16 November 2026 at 3:30 PM IST",
-    "url": "https://hdfcsky.com/news/top-gainers-losers-today-16-november-2026-at-3-30-pm"
-   },
-   "date": "2026-11-16",
-   "slot": "1635",
-   "when": "Mon · 16:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1635"
-   }
-  },
-  {
-   "key": "tata-motors-jlr",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Tata Motors PV ends as top Nifty loser",
-   "line": "The stock closed down over 8% after JLR's outlook cut",
-   "more": [
-    "JLR now sees FY27 EBIT margin of 2–3%, from 4%",
-    "It was the day's heaviest drag among Nifty stocks"
-   ],
-   "src": {
-    "title": "Top Gainers and Losers on November 16, 2026: Max Healthcare Institute and Tata Consumer Gain, While Tata Motors PV Drops Over 8%",
-    "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-november-16-2026-max-healthcare-institute-and-tata-consumer-gain-while-tata-motors-pv-drops-over-8"
-   },
-   "date": "2026-11-16",
-   "slot": "1635",
-   "when": "Mon · 16:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1135"
-   }
-  },
-  {
-   "key": "sebi-fpi-ownership",
-   "tag": "Regulation",
-   "impact": "pos",
-   "title": "SEBI may raise FPI ownership threshold to 25%",
-   "line": "The regulator may propose raising the FPI beneficial-ownership threshold to 25%",
-   "more": [
-    "The idea is at the proposal stage, per Business Standard",
-    "It comes amid three weeks of heavy foreign buying"
-   ],
-   "src": {
-    "title": "Sebi may propose raising FPI beneficial ownership threshold to 25%",
-    "url": "https://www.business-standard.com/amp/markets/news/sebi-may-propose-raising-fpi-beneficial-ownership-threshold-to-25-126111601237_1.html"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-16",
-   "slot": "1605",
-   "when": "Mon · 16:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1605"
-   }
-  },
-  {
-   "key": "morgan-stanley-sensex",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Morgan Stanley sees Sensex 16% higher by Dec 2027",
-   "line": "The broker sees the Sensex rising about 16% by December 2027 on an earnings recovery",
-   "more": [
-    "It cites a recovery in corporate earnings",
-    "It is a long-range brokerage view, not a trading call"
-   ],
-   "src": {
-    "title": "Sensex may rise 16% by December 2027 on earnings recovery: Morgan Stanley",
-    "url": "https://www.business-standard.com/markets/news/morgan-stanley-sensex-target-95000-december-2027-indian-equities-126111601258_1.html"
-   },
-   "date": "2026-11-16",
-   "slot": "1605",
-   "when": "Mon · 16:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1605"
-   }
-  },
-  {
-   "key": "axiscades-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Axiscades falls up to 9.9% on Q2 margin hit",
-   "line": "EBITDA fell 64.9% to ₹6.8 crore even as revenue and net profit rose",
-   "more": [
-    "The stock hit a low of ₹1,723, per Business Standard",
-    "MarketsMojo reports it locked at its lower circuit later in the day",
-    "Early-trade falls were reported at over 6%"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex up 300 pts, Nifty around 25,200; Axiscades Technology shares drop 9%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
-   },
-   "thread": "q2-results-2026",
-   "results": {
-    "company": "Axiscades Technologies",
-    "quarter": "Q2 FY27",
-    "reaction_asof": "intraday low",
-    "reaction_pct": -9.9,
-    "src": {
-     "title": "Why are Axiscades Technologies shares falling over 6% today? Explained",
-     "url": "https://businessupturn.com/finance/stock-market/why-are-axiscades-technologies-shares-falling-over-6-today-explained/"
-    }
-   },
-   "date": "2026-11-16",
-   "slot": "1505",
-   "when": "Mon · 15:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1505"
-   }
-  },
-  {
-   "key": "sector-drag",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Realty and metals stay the weakest sectors",
-   "line": "Both indices have lagged the market all day, while FMCG leads",
-   "more": [
-    "Realty had gained about 15% over the month before Friday's fall",
-    "Easing oil prices are cited for the market's overall gain"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex up 300 pts, Nifty around 25,200; Axiscades Technology shares drop 9%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
-   },
-   "date": "2026-11-16",
-   "slot": "1505",
-   "when": "Mon · 15:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1105"
-   }
-  },
-  {
-   "key": "abb-india-q3",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "ABB India falls on margin squeeze",
-   "line": "Q3 revenue rose 19% to ₹3,738 crore, but the operating EBITA margin fell to 12.9%",
-   "more": [
-    "Profit rose to about ₹440–443 crore; reports differ on the exact figure",
-    "Order inflows hit a record ₹4,733 crore, up 56%",
-    "The company cited commodity, logistics and currency costs"
-   ],
-   "src": {
-    "title": "Why are ABB India shares down over 2% today? Explained",
-    "url": "https://businessupturn.com/finance/stock-market/why-are-abb-india-shares-down-over-2-today-explained/"
-   },
-   "results": {
-    "company": "ABB India",
-    "quarter": "Q3 CY26",
-    "reaction_asof": "afternoon",
-    "revenue_cr": 3738,
-    "revenue_yoy_pct": 19.4,
-    "profit_cr": 440,
-    "profit_yoy_pct": 11,
-    "reaction_pct": -3,
-    "src": {
-     "title": "ABB India Q3CY26 results: Net profit rises 11% to ₹440 cr, revenue up 19.4%",
-     "url": "https://www.business-standard.com/companies/quarterly-results/abb-india-q3cy26-results-net-profit-rises-11-to-440-cr-revenue-up-19-4-126111301458_1.html"
-    }
-   },
-   "date": "2026-11-16",
-   "slot": "1435",
-   "when": "Mon · 14:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1435"
-   }
-  },
-  {
-   "key": "aries-agro-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Aries Agro hits upper circuit on Q2",
-   "line": "The stock is locked at its 5% upper circuit at ₹526.75 after Q2 revenue rose 45%",
-   "more": [
-    "Second-quarter revenue rose to ₹296 crore",
-    "It is one of several small agrochemical names on the move"
-   ],
-   "src": {
-    "title": "Aries Agro shares hit 5% upper circuit after Q2 revenue jump",
-    "url": "https://businessupturn.com/finance/stock-market/why-are-aries-agro-shares-locked-at-the-5-upper-circuit-today/"
-   },
-   "thread": "q2-results-2026",
-   "results": {
-    "company": "Aries Agro",
-    "quarter": "Q2 FY27",
-    "reaction_asof": "Monday session",
-    "revenue_cr": 296,
-    "revenue_yoy_pct": 45,
-    "reaction_pct": 5
-   },
-   "date": "2026-11-16",
-   "slot": "1405",
-   "when": "Mon · 14:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1405"
-   }
-  },
-  {
-   "key": "sc-agrotech",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "SC Agrotech approves split and bonus",
-   "line": "The stock hit its 5% upper circuit after a 10:1 split, 4:5 bonus and strong Q2",
-   "more": [
-    "The board also approved the results for the September quarter",
-    "It launched its AgriBridge digital agriculture platform"
-   ],
-   "src": {
-    "title": "SC Agrotech Share Price Hits 5% Upper Circuit Post Q2 FY27 Earnings Results; Approves 10:1 Stock Split and 4:5 Bonus Issue",
-    "url": "https://angelone.in/news/stocks/sc-agrotech-share-price-hits-5-upper-circuit-post-q2-fy27-earnings-results-approves-10-1-stock-split-and-4-5-bonus-issue"
-   },
-   "thread": "q2-results-2026",
-   "date": "2026-11-16",
-   "slot": "1405",
-   "when": "Mon · 14:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1405"
-   }
-  },
-  {
-   "key": "top-gainers",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Eicher, Asian Paints, Airtel top Nifty gainers",
-   "line": "The three heavyweights lead the Nifty 50 as of the 1 pm update",
-   "more": [
-    "Oil continuing to decline is cited as the market's main support",
-    "Eicher reported Q2 revenue up 20% and profit up 15%"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex gains 300 pts, Nifty around 25,250; SMIDs underperform",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
-   },
-   "date": "2026-11-16",
-   "slot": "1335",
-   "when": "Mon · 13:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1335"
-   }
-  },
-  {
-   "key": "eicher-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Eicher Motors led Nifty gainers after Q2",
-   "line": "The stock rose 2.58% to ₹7,847 early as investors welcomed its September-quarter numbers",
-   "more": [
-    "Revenue rose 20% to ₹7,421 crore and profit 15% to ₹1,573 crore",
-    "An earlier report said profit was short of the ₹1,626 crore analysts expected"
-   ],
-   "src": {
-    "title": "Sensex Rises 418 Points, Nifty Crosses 25,200",
-    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-16-2026-open-report-sensex-nifty-open-higher-as-investors-rotate-into-indian-stocks"
-   },
-   "thread": "q2-results-2026",
-   "results": {
-    "company": "Eicher Motors",
-    "quarter": "Q2 FY27",
-    "reaction_asof": "early trade",
-    "revenue_cr": 7421,
-    "revenue_yoy_pct": 20,
-    "profit_cr": 1573,
-    "profit_yoy_pct": 15,
-    "reaction_pct": 2.58,
-    "src": {
-     "title": "5 Stocks in Focus Today: Tata Motors, Hindalco, Eicher",
-     "url": "https://hdfcsky.com/news/stocks-to-watch-today-monday-november-16-2026-tata-motors-passenger-vehicles-hindalco-industries-hero-motors-godrej-industries-eicher-motors"
-    }
-   },
-   "date": "2026-11-16",
-   "slot": "1305",
-   "when": "Mon · 13:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1305"
-   }
-  },
-  {
-   "key": "bel-orders",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "BEL adds ₹619 crore of orders",
-   "line": "Bharat Electronics has won additional orders worth ₹619 crore since November 6",
-   "more": [
-    "BEL was among the stocks to watch on Monday",
-    "The orders were disclosed since the last update on November 6"
-   ],
-   "src": {
-    "title": "Stocks to watch: Ashok Leyland, BEL, Hero Moto, Coal India, Tata Motors PV",
-    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-ashok-leyland-bel-hero-moto-coal-india-jupiter-wagons-126111600057_1.html"
-   },
-   "date": "2026-11-16",
-   "slot": "1305",
-   "when": "Mon · 13:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1305"
-   }
-  },
-  {
-   "key": "ashok-leyland-q2",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Ashok Leyland posts strong Q2, declares dividend",
-   "line": "The truck maker reported a strong September quarter and an interim dividend",
-   "more": [
-    "It was among Monday's stocks in focus",
-    "Autos are split today, with Eicher up and Tata Motors PV sharply lower"
-   ],
-   "src": {
-    "title": "Stocks to watch: Ashok Leyland, BEL, Hero Moto, Coal India, Tata Motors PV",
-    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-ashok-leyland-bel-hero-moto-coal-india-jupiter-wagons-126111600057_1.html"
-   },
-   "thread": "q2-results-2026",
-   "date": "2026-11-16",
-   "slot": "1305",
-   "when": "Mon · 13:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1305"
-   }
-  },
-  {
-   "key": "wpi-inflation",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "WPI inflation rises to 12.29% in October",
-   "line": "Wholesale inflation beat the 12.10% consensus, up from 11.39% in September",
-   "more": [
-    "Fuel and power inflation jumped to 32.84% from 25.85%",
-    "Food inflation eased to 8.58%; manufacturing to 9.54% from 9.76%",
-    "April–October cumulative WPI inflation is 10.14%"
-   ],
-   "src": {
-    "title": "Wholesale inflation rises to 12.29% in October as fuel, power prices surge",
-    "url": "https://www.business-standard.com/amp/economy/news/wpi-inflation-rises-to-12-29-in-october-as-fuel-power-prices-surge-126111600916_1.html"
-   },
-   "thread": "rbi-policy",
-   "date": "2026-11-16",
-   "slot": "1235",
-   "when": "Mon · 12:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "laurus-labs",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Laurus Labs falls 4.6% after promoter sales",
-   "line": "Two promoter entities sold about 19.6 lakh shares on November 11, filings show",
-   "more": [
-    "The stock was at ₹2,311.70 at 11:37, down from ₹2,424",
-    "Business Upturn says the filing alone does not establish the cause of the fall"
-   ],
-   "src": {
-    "title": "Laurus Labs promoters sell about 19.6 lakh shares; stock falls 4.6% to ₹2,311 on Monday",
-    "url": "https://businessupturn.com/finance/stock-market/laurus-labs-promoters-sell-about-19-6-lakh-shares-stock-falls-4-6-to-rs2-311-on-monday/"
-   },
-   "date": "2026-11-16",
-   "slot": "1205",
-   "when": "Mon · 12:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1205"
-   }
-  },
-  {
-   "key": "pricol-warburg",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Pricol plunges 20% on Warburg stake deal",
-   "line": "Warburg will buy promoters' 38.51% of demerged Pricol Autotech for up to ₹1,663 crore",
-   "more": [
-    "The stake is in the demerged unit, not in Pricol Ltd itself",
-    "Warburg will also make an open offer for up to 26% more of Pricol Autotech",
-    "The deal depends on the demerger, listing and regulatory approvals"
-   ],
-   "src": {
-    "title": "Pricol shares plunge 20% at market open; Warburg Pincus deal puts demerged business in focus",
-    "url": "https://upstox.com/news/market-news/stocks/pricol-shares-plunge-20-at-market-open-warburg-pincus-deal-puts-demerged-business-in-focus/article-203484/"
-   },
-   "date": "2026-11-16",
-   "slot": "1135",
-   "when": "Mon · 11:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1135"
-   }
-  },
-  {
-   "key": "us-ppi",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "US producer inflation at a near four-year high",
-   "line": "US PPI rose 6.5% in the year to October, the highest since November 2022",
-   "more": [
-    "Core PPI, excluding food and energy, was up 5% on the year",
-    "It adds to pressure for a Fed hike in December"
-   ],
-   "src": {
-    "title": "Wholesale inflation rose in October to highest annual rate in nearly four years",
-    "url": "https://www.cnn.com/2026/11/13/economy/us-wholesale-inflation-ppi-october"
-   },
-   "thread": "us-rates",
-   "date": "2026-11-16",
-   "slot": "1035",
-   "when": "Mon · 10:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1035"
-   }
-  },
-  {
-   "key": "kaynes-q2",
-   "tag": "Results",
-   "impact": "neg",
-   "title": "Kaynes still down about 15%",
-   "line": "The slump after its 61.6% profit fall holds as the wider market rallies",
-   "more": [
-    "Business Standard's live blog confirms the 15% fall",
-    "The stock touched a 52-week low earlier in the session"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex jumps 500 pts, Nifty near 25,300; Max Health, Airtel top gainers",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
-   },
-   "thread": "q2-results-2026",
-   "date": "2026-11-16",
-   "slot": "1035",
-   "when": "Mon · 10:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "1005"
-   }
-  },
-  {
-   "key": "oil-india-q2",
-   "tag": "Results",
-   "impact": "watch",
-   "title": "Oil India, Turtlemint results in focus",
-   "line": "Both report September-quarter results, among the day's buzzing stocks",
-   "more": [
-    "Equitymaster lists Eicher Motors and TCS among pre-open gainers",
-    "BEL, M&M and NTPC were among pre-open laggards"
-   ],
-   "src": {
-    "title": "Today's Market: Turtlemint Q2 FY27 Results, Oil India Q2 FY27 Results, Top Buzzing Stocks Today",
-    "url": "https://www.equitymaster.com/indian-share-markets/11/16/2026/Turtlemint-Q2-FY27-Results--Oil-India-Q2-FY27-Results--Top-Buzzing-Stocks-Today"
-   },
-   "thread": "q2-results-2026",
-   "date": "2026-11-16",
-   "slot": "0925",
-   "when": "Mon · 9:25",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "0925"
-   }
-  },
-  {
-   "key": "va-tech-wabag",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "VA Tech Wabag in focus on cancelled order",
-   "line": "The Saudi Water Authority cancelled a desalination project worth about ₹2,332 crore",
-   "more": [
-    "The company disclosed the cancellation over the weekend",
-    "Saudi Water Authority was the client on the project"
-   ],
-   "src": {
-    "title": "Stocks to watch, Nov 16: Max Estates, Vedanta, ONGC, Coal India, VA Tech Wabag, Tata Steel TMPV, Sammaan Capital",
-    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-16-max-estates-vedanta-ongc-coal-india-va-tech-wabag-tata-steel-tmpv-sammaan-capital/article-203480/"
-   },
-   "date": "2026-11-16",
-   "slot": "0925",
-   "when": "Mon · 9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "vedanta-ongc-block",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "ONGC takes over Cambay block from Vedanta",
-   "line": "Vedanta books about ₹379 crore impairment after losing the CB-OS-02 offshore block",
-   "more": [
-    "The Delhi High Court dismissed Vedanta's challenge to the contract not being extended",
-    "ONGC has taken over operations and control of the block"
-   ],
-   "src": {
-    "title": "Stocks to watch, Nov 16: Max Estates, Vedanta, ONGC, Coal India, VA Tech Wabag, Tata Steel TMPV, Sammaan Capital",
-    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-16-max-estates-vedanta-ongc-coal-india-va-tech-wabag-tata-steel-tmpv-sammaan-capital/article-203480/"
-   },
-   "date": "2026-11-16",
-   "slot": "0845",
-   "when": "Mon · 8:45",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "max-estates",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Max Estates plans ₹4,000 crore Gurugram project",
-   "line": "Luxury project The Bungalows in Sector 59 has an estimated GDV of ₹4,000 crore",
-   "more": [
-    "The company will develop the luxury housing project in Gurugram",
-    "It is among Monday's stocks to watch"
-   ],
-   "src": {
-    "title": "Stocks to watch: Ashok Leyland, BEL, Hero Moto, Coal India, Tata Motors PV",
-    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-ashok-leyland-bel-hero-moto-coal-india-jupiter-wagons-126111600057_1.html"
-   },
-   "date": "2026-11-16",
-   "slot": "0845",
-   "when": "Mon · 8:45",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-16",
     "slot": "0845"
    }
   }
