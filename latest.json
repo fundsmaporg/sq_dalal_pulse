@@ -1,25 +1,25 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-23T16:06:19+05:30",
+ "generated_at": "2026-11-23T16:36:34+05:30",
  "date": "2026-11-23",
- "slot": "1605",
- "slot_label": "16:05",
+ "slot": "1635",
+ "slot_label": "16:35",
  "stage": "Post-market mood",
- "asof": "2026-11-23T16:10:00+05:30",
+ "asof": "2026-11-23T16:40:00+05:30",
  "nifty": {
-  "value": 25350,
+  "value": 25349.65,
   "pct": -1.75,
-  "chg": -450,
-  "approx": true
+  "chg": -450.95,
+  "approx": false
  },
  "mood": {
   "label": "Sharp sell-off",
   "score": -0.65,
-  "summary": "A broad profit-booking slide erased the early gap-up and left Indian shares near the day's lows, with banks and metals hit hardest while IT was the one sector to close higher.",
+  "summary": "Indian shares ended expiry day sharply lower after a broad reversal from an early high, with banks and metals leading the losses and IT the lone sector to finish in the green.",
   "detail": {
    "leaders": "IT, with TCS the top Sensex gainer, and Shriram Finance",
    "laggards": "Metals led by Tata Steel, and banks across PSU and private lenders",
-   "tone": "A read of the finished session. The market gave up all of its early gains and closed near the lows, snapping a two-day rally; midcaps and smallcaps fell less than the large caps.",
+   "tone": "A read of the finished session, now with a confirmed close. Nothing has changed since the previous note beyond that; provisional institutional flow data for today has not been published yet.",
    "watch": [
     "Provisional FII/DII figures for today",
     "US markets tonight after Friday's tech rout",
@@ -96,6 +96,80 @@
  },
  "insights": [
   {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "Today's FII flows not yet out",
+   "line": "Provisional data for Monday is pending; foreign investors bought ₹10,308 cr on Friday",
+   "more": [
+    "November has seen record foreign buying",
+    "Whether that buying held through today's sell-off is the key unknown"
+   ],
+   "src": {
+    "title": "FII DII Data Today (20 Nov): FII +10,308 Cr, DII −4,860 Cr",
+    "url": "https://www.quantsapp.com/fii-dii"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-23",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-17",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "market-holiday",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Markets shut Tuesday; next session Wednesday",
+   "line": "NSE and BSE close on 24 November for Guru Nanak Jayanti",
+   "more": [
+    "The November F&O series settled today",
+    "US data and Thanksgiving fall later in the week"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex tanks 1,484 pts, Nifty ends at 25,350; metal, PSU bank bleed",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+   },
+   "date": "2026-11-23",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "0800"
+   }
+  },
+  {
+   "key": "it-rebound",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT rally stands out on a red day",
+   "line": "TCS led the Sensex gainers, rising 3.5% to 3.66% depending on the source",
+   "more": [
+    "IT was the only sector to close higher",
+    "IT had lagged for most of November on AI worries"
+   ],
+   "src": {
+    "title": "Closing Bell: Sensex Tanks 1,484 Pts, Bank Nifty Down 3%",
+    "url": "https://univest.in/blogs/closing-bell-sensex-nifty-bank-nifty-23-november-2026"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-23",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1035"
+   }
+  },
+  {
    "key": "bank-rally",
    "tag": "Stocks",
    "impact": "neg",
@@ -113,7 +187,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-17",
     "slot": "1035"
@@ -137,7 +211,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "0845"
@@ -161,35 +235,10 @@
    "slot": "1605",
    "when": "16:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1605"
-   }
-  },
-  {
-   "key": "it-rebound",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "TCS leads IT to a winning day",
-   "line": "TCS rose 3.5% to 3.66%, depending on the source; IT was the only sector to close higher",
-   "more": [
-    "The gains came despite worries over AI valuations abroad",
-    "IT had lagged for most of November"
-   ],
-   "src": {
-    "title": "Closing Bell: Sensex Tanks 1,484 Pts, Bank Nifty Down 3%",
-    "url": "https://univest.in/blogs/closing-bell-sensex-nifty-bank-nifty-23-november-2026"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-23",
-   "slot": "1605",
-   "when": "16:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "1035"
    }
   },
   {
@@ -438,32 +487,6 @@
    }
   },
   {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs bought ₹10,308 cr on Friday",
-   "line": "Provisional data: FIIs net buyers, DIIs net sellers of ₹4,860 cr",
-   "more": [
-    "FIIs bought ₹32,647 cr over the five sessions to 20 Nov",
-    "DIIs sold ₹12,698 cr over the same week",
-    "One broker page shows different Friday figures; most sources agree"
-   ],
-   "src": {
-    "title": "FII DII Data Today (20 Nov): FII +10,308 Cr, DII −4,860 Cr",
-    "url": "https://www.quantsapp.com/fii-dii"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-23",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "0700"
-   }
-  },
-  {
    "key": "waaree-energies",
    "tag": "Stocks",
    "impact": "pos",
@@ -632,30 +655,6 @@
    "first_seen": {
     "date": "2026-11-18",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "market-holiday",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Markets shut Tuesday for Guru Nanak Jayanti",
-   "line": "Monday is the only session before the break; trading resumes Wednesday",
-   "more": [
-    "NSE monthly expiry moved to Monday 23 Nov",
-    "BSE monthly expiry stays on Thursday 26 Nov"
-   ],
-   "src": {
-    "title": "Stock Market Holiday November 24: Will NSE and BSE Remain Closed on Tuesday for Guru Nanak Jayanti?",
-    "url": "https://www.kotakneo.com/news/market-news/nse-bse-to-remain-closed-on-november-24-for-guru-nanak-jayanti-mcx-evening-trading-to-continue/"
-   },
-   "date": "2026-11-21",
-   "slot": "2100",
-   "when": "Sat · 21:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
    }
   },
   {

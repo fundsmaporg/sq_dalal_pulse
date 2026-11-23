@@ -1,0 +1,163 @@
+{
+ "asof": "2026-11-23T16:40:00+05:30",
+ "summary": "Indian shares ended expiry day sharply lower after a broad reversal from an early high, with banks and metals leading the losses and IT the lone sector to finish in the green.",
+ "mood": {
+  "label": "Sharp sell-off",
+  "score": -0.65,
+  "detail": {
+   "stats": [],
+   "leaders": "IT, with TCS the top Sensex gainer, and Shriram Finance",
+   "laggards": "Metals led by Tata Steel, and banks across PSU and private lenders",
+   "movers": {
+    "up": {
+     "summary": "IT closed higher, with TCS leading and Shriram Finance also gaining",
+     "why": "Investors rotated into IT while selling the banks and metals that led last week's rally.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "move": "+1.69%",
+       "dir": "up",
+       "line": "The only major sector to close higher"
+      },
+      {
+       "name": "TCS",
+       "move": "+3.66%",
+       "dir": "up",
+       "line": "Top Sensex gainer as investors bought IT on the dip in banks"
+      },
+      {
+       "name": "Shriram Finance",
+       "dir": "up",
+       "line": "Gained on news it will replace Trent in the Sensex from 21 December"
+      }
+     ],
+     "src": {
+      "title": "Closing Bell: Sensex Tanks 1,484 Pts, Bank Nifty Down 3%",
+      "url": "https://univest.in/blogs/closing-bell-sensex-nifty-bank-nifty-23-november-2026"
+     }
+    },
+    "down": {
+     "summary": "Metals and banks led the slide, with Tata Steel the worst performer",
+     "why": "Profit booking after a four-week rally, expiry-day unwinding and a global AI-led sell-off hit last week's leaders hardest.",
+     "names": [
+      {
+       "name": "Tata Steel",
+       "move": "-8.52%",
+       "dir": "down",
+       "line": "Biggest Sensex loser after agreeing to sell its tubes and colour-coated units"
+      },
+      {
+       "name": "Nifty Metal",
+       "move": "-3.68%",
+       "dir": "down",
+       "line": "Worst sector, dragged down by Tata Steel"
+      },
+      {
+       "name": "Nifty PSU Bank",
+       "move": "-3.25%",
+       "dir": "down",
+       "line": "State-run lenders sold after their recent run"
+      },
+      {
+       "name": "Nifty Private Bank",
+       "move": "-3.19%",
+       "dir": "down",
+       "line": "HDFC Bank, ICICI Bank and Axis Bank among the heaviest index drags"
+      }
+     ],
+     "src": {
+      "title": "Closing Bell: Sensex Tanks 1,484 Pts, Bank Nifty Down 3%",
+      "url": "https://univest.in/blogs/closing-bell-sensex-nifty-bank-nifty-23-november-2026"
+     }
+    }
+   },
+   "tone": "A read of the finished session, now with a confirmed close. Nothing has changed since the previous note beyond that; provisional institutional flow data for today has not been published yet.",
+   "watch": [
+    "Provisional FII/DII figures for today",
+    "US markets tonight after Friday's tech rout",
+    "Wednesday's reopening after Tuesday's holiday"
+   ],
+   "src": {
+    "title": "Profit booking: NIFTY50 drops 450 points, SENSEX falls 1.77%; Metals, and Banks among top laggards",
+    "url": "https://upstox.com/news/market-news/stocks/profit-booking-nifty-50-drops-450-points-sensex-falls-1-77-metals-and-banks-among-top-laggards/article-203883/"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25349.65,
+  "pct": -1.75,
+  "chg": -450.95,
+  "approx": false
+ },
+ "top": [
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "Today's FII flows not yet out",
+   "line": "Provisional data for Monday is pending; foreign investors bought ₹10,308 cr on Friday",
+   "more": [
+    "November has seen record foreign buying",
+    "Whether that buying held through today's sell-off is the key unknown"
+   ],
+   "thread": "fii-flows",
+   "src": {
+    "title": "FII DII Data Today (20 Nov): FII +10,308 Cr, DII −4,860 Cr",
+    "url": "https://www.quantsapp.com/fii-dii"
+   }
+  },
+  {
+   "key": "market-holiday",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Markets shut Tuesday; next session Wednesday",
+   "line": "NSE and BSE close on 24 November for Guru Nanak Jayanti",
+   "more": [
+    "The November F&O series settled today",
+    "US data and Thanksgiving fall later in the week"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex tanks 1,484 pts, Nifty ends at 25,350; metal, PSU bank bleed",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+   }
+  },
+  {
+   "key": "it-rebound",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT rally stands out on a red day",
+   "line": "TCS led the Sensex gainers, rising 3.5% to 3.66% depending on the source",
+   "more": [
+    "IT was the only sector to close higher",
+    "IT had lagged for most of November on AI worries"
+   ],
+   "thread": "it-sector",
+   "src": {
+    "title": "Closing Bell: Sensex Tanks 1,484 Pts, Bank Nifty Down 3%",
+    "url": "https://univest.in/blogs/closing-bell-sensex-nifty-bank-nifty-23-november-2026"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Profit booking: NIFTY50 drops 450 points, SENSEX falls 1.77%; Metals, and Banks among top laggards",
+   "url": "https://upstox.com/news/market-news/stocks/profit-booking-nifty-50-drops-450-points-sensex-falls-1-77-metals-and-banks-among-top-laggards/article-203883/"
+  },
+  {
+   "title": "Stock market closing bell: Sensex tumbles 1,484 points, Nifty slips to 25,350",
+   "url": "https://www.zeebiz.com/market-news/news-stock-market-closing-bell-sensex-tumbles-1484-points-nifty-slips-below-25350-405902"
+  },
+  {
+   "title": "Closing Bell: Sensex Tanks 1,484 Pts, Bank Nifty Down 3%",
+   "url": "https://univest.in/blogs/closing-bell-sensex-nifty-bank-nifty-23-november-2026"
+  },
+  {
+   "title": "Stock Market Close: Sensex tanks 1,484 pts, Nifty ends at 25,350; metal, PSU bank bleed",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+  },
+  {
+   "title": "FII DII Data Today (20 Nov): FII +10,308 Cr, DII −4,860 Cr",
+   "url": "https://www.quantsapp.com/fii-dii"
+  }
+ ]
+}
