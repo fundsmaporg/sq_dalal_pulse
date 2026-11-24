@@ -1,33 +1,53 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-23T21:00:43+05:30",
- "date": "2026-11-23",
- "slot": "2100",
- "slot_label": "21:00",
- "stage": "Evening wrap",
- "asof": "2026-11-23T21:05:00+05:30",
+ "generated_at": "2026-11-24T08:46:16+05:30",
+ "date": "2026-11-24",
+ "slot": "0845",
+ "slot_label": "8:45",
+ "stage": "Pre-market mood",
+ "asof": "2026-11-24T08:50:00+05:30",
  "nifty": {
   "value": 25349.65,
   "pct": -1.75,
   "chg": -450.95,
   "approx": false
  },
+ "metrics": {
+  "fii_net_cr": {
+   "value": 5672.99,
+   "asof": "Mon 23 Nov provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+   }
+  },
+  "dii_net_cr": {
+   "value": -2760.12,
+   "asof": "Mon 23 Nov provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+   }
+  }
+ },
  "mood": {
-  "label": "Rebound setup",
-  "score": 0.3,
-  "summary": "A powerful AI-led rally on Wall Street tonight sets up a firmer tone for Wednesday's session, which follows Monday's sharp bank and metal sell-off and Tuesday's market holiday.",
+  "label": "Market closed",
+  "score": 0.4,
+  "summary": "Indian markets are shut today, and Wednesday's session is set up for a strong rebound as a sweeping AI-led rally across Wall Street and Asia meets continued foreign buying.",
   "detail": {
-   "leaders": "IT and tech-linked names, which could track the US AI rebound",
-   "laggards": "Banks and metals, still nursing Monday's heavy losses",
-   "tone": "A forward read for Wednesday 25 November. The picture has improved markedly since the previous note: the US session is under way with a sharp tech-led rally.",
+   "leaders": "IT and tech-linked names, which could track the global chip rally on Wednesday",
+   "laggards": "Banks and metals still carry Monday's losses, though global cues have turned supportive",
+   "tone": "A forward read: NSE and BSE are closed today for Guru Nanak Jayanti, and the next session is Wednesday 25 November. Global cues have swung sharply positive since Monday's sell-off.",
    "watch": [
-    "Whether Wall Street holds its gains through Tuesday's session",
-    "Monday's provisional FII figures, which remain unconfirmed",
-    "US GDP and core PCE data due on Wednesday"
+    "How Wall Street trades tonight after Monday's surge",
+    "US GDP and core PCE data due on Wednesday",
+    "Whether foreign buying keeps going once trading resumes"
    ],
    "src": {
-    "title": "Stock market today: Nvidia stock soars after company reinstates Jensen Huang as CEO; Dow, S&P 500, Nasdaq surge",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html"
+    "title": "Stock market today: Dow, S&P 500, Nasdaq post best day since April 2025 as Nvidia stock soars 31% on Jensen Huang's return",
+    "url": "https://sg.finance.yahoo.com/news/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html"
    }
   }
  },
@@ -36,26 +56,101 @@
    "key": "us-markets",
    "tag": "Global",
    "impact": "pos",
-   "title": "Wall Street surges as Nvidia rehires Huang",
-   "line": "Nvidia jumped about 30% at the open after reinstating Jensen Huang as CEO",
+   "title": "Wall Street's best day since April 2025",
+   "line": "Nvidia jumped 31.48% to $165.05 after reinstating Jensen Huang as CEO",
    "more": [
-    "S&P 500 up 3.9% and Nasdaq up 5.8% at the open, per JournalArta",
-    "NBC reports the S&P 500 up 5% in later trade",
-    "US fear gauge VIX fell to 26.76 at the open"
+    "Nasdaq rose about 6.5% and the S&P 500 about 4.7%; the Dow added about 1,448 points",
+    "US stocks recovered just over half of last week's losses",
+    "Nvidia still faces an accounting review"
    ],
    "src": {
-    "title": "Stock market today: Nvidia stock soars after company reinstates Jensen Huang as CEO; Dow, S&P 500, Nasdaq surge",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html"
+    "title": "Stock Market Today, Nov. 23: Nvidia Surges 31%, Adding Nearly $1 Trillion in Market Value as Jensen Huang Reclaims CEO Role",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/"
    },
    "thread": "global-markets",
-   "date": "2026-11-23",
-   "slot": "2100",
-   "when": "21:00",
+   "date": "2026-11-24",
+   "slot": "0845",
+   "when": "8:45",
    "updated": true,
    "is_new": true,
    "first_seen": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "slot": "0700"
+   }
+  },
+  {
+   "key": "asia-rebound",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Asian chip stocks soar on Huang's return",
+   "line": "Taiwan up 9.1%, Kospi up over 7% and Nikkei up 4.5% on Tuesday",
+   "more": [
+    "TSMC and MediaTek each rose about 10%",
+    "Samsung Electronics and SK Hynix both gained over 7%",
+    "Oil fell while yields and the dollar rose"
+   ],
+   "src": {
+    "title": "Asian shares rally as Huang returns to Nvidia, sparking Wall Street rebound",
+    "url": "https://www.business-standard.com/amp/markets/news/asian-shares-rally-as-huang-returns-to-nvidia-sparking-wall-street-rebound-126112400069_1.html"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-24",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-24",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs kept buying through Monday's fall",
+   "line": "Foreign investors bought a net ₹5,673 cr on Monday; domestic funds sold ₹2,760 cr",
+   "more": [
+    "Gross FII buying was about ₹23,474 cr against ₹17,801 cr of sales",
+    "November foreign buying is running at a record pace"
+   ],
+   "src": {
+    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
+    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-24",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-18",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "market-holiday",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "Market closed today; reopens Wednesday",
+   "line": "NSE and BSE are shut on 24 November for Guru Nanak Jayanti",
+   "more": [
+    "The next session is Wednesday 25 November",
+    "US markets close Thursday for Thanksgiving"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex tanks 1,484 pts, Nifty ends at 25,350; metal, PSU bank bleed",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+   },
+   "date": "2026-11-24",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "0800"
    }
   },
   {
@@ -75,37 +170,12 @@
    "thread": "crude-iran-war",
    "date": "2026-11-23",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Mon · 21:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "Monday's FII flows still unconfirmed",
-   "line": "One broker page shows provisional figures that conflict with its own table",
-   "more": [
-    "Anand Rathi's text and table give different numbers for the session",
-    "No flow data on Tuesday's holiday"
-   ],
-   "src": {
-    "title": "Get Share Market Prediction Today",
-    "url": "https://anandrathi.com/blog/share-market-prediction-today"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-23",
-   "slot": "2100",
-   "when": "21:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "0700"
    }
   },
   {
@@ -125,36 +195,12 @@
    "thread": "global-markets",
    "date": "2026-11-23",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Mon · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "market-holiday",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Market shut Tuesday; next session Wednesday",
-   "line": "NSE and BSE close on 24 November for Guru Nanak Jayanti",
-   "more": [
-    "Monday also settled the November F&O series",
-    "US markets close Thursday for Thanksgiving"
-   ],
-   "src": {
-    "title": "FII DII Calendar: Key Market Dates for FII Flows (Nov 2026 to Feb 2027)",
-    "url": "https://fiianddiidata.com/fii-dii-calendar/"
-   },
-   "date": "2026-11-23",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
    }
   },
   {
@@ -174,7 +220,7 @@
    "thread": "it-sector",
    "date": "2026-11-23",
    "slot": "1635",
-   "when": "16:35",
+   "when": "Mon · 16:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -198,12 +244,12 @@
    },
    "date": "2026-11-23",
    "slot": "1605",
-   "when": "16:05",
+   "when": "Mon · 16:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1035"
+    "date": "2026-11-18",
+    "slot": "1135"
    }
   },
   {
@@ -222,7 +268,7 @@
    },
    "date": "2026-11-23",
    "slot": "1605",
-   "when": "16:05",
+   "when": "Mon · 16:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -246,7 +292,7 @@
    },
    "date": "2026-11-23",
    "slot": "1605",
-   "when": "16:05",
+   "when": "Mon · 16:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -270,7 +316,7 @@
    },
    "date": "2026-11-23",
    "slot": "1535",
-   "when": "15:35",
+   "when": "Mon · 15:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -294,7 +340,7 @@
    },
    "date": "2026-11-23",
    "slot": "1535",
-   "when": "15:35",
+   "when": "Mon · 15:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -318,7 +364,7 @@
    },
    "date": "2026-11-23",
    "slot": "1435",
-   "when": "14:35",
+   "when": "Mon · 14:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -343,7 +389,7 @@
    "thread": "volatility",
    "date": "2026-11-23",
    "slot": "1405",
-   "when": "14:05",
+   "when": "Mon · 14:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -368,7 +414,7 @@
    "thread": "rupee",
    "date": "2026-11-23",
    "slot": "1405",
-   "when": "14:05",
+   "when": "Mon · 14:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -393,7 +439,7 @@
    "thread": "global-markets",
    "date": "2026-11-23",
    "slot": "1235",
-   "when": "12:35",
+   "when": "Mon · 12:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -417,12 +463,12 @@
    },
    "date": "2026-11-23",
    "slot": "1135",
-   "when": "11:35",
+   "when": "Mon · 11:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1105"
+    "date": "2026-11-18",
+    "slot": "1035"
    }
   },
   {
@@ -441,7 +487,7 @@
    },
    "date": "2026-11-23",
    "slot": "1135",
-   "when": "11:35",
+   "when": "Mon · 11:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -466,11 +512,11 @@
    },
    "date": "2026-11-23",
    "slot": "0925",
-   "when": "9:25",
+   "when": "Mon · 9:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "slot": "0845"
    }
   },
@@ -490,7 +536,7 @@
    },
    "date": "2026-11-23",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Mon · 8:45",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -514,7 +560,7 @@
    },
    "date": "2026-11-23",
    "slot": "0700",
-   "when": "7:00",
+   "when": "Mon · 7:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -639,7 +685,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "slot": "1205"
    }
   },
@@ -711,7 +757,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "slot": "0925"
    }
   },
@@ -1025,7 +1071,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "slot": "0700"
    }
   },
@@ -1487,7 +1533,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "slot": "0700"
    }
   },
@@ -1828,471 +1874,6 @@
    "first_seen": {
     "date": "2026-11-18",
     "slot": "0925"
-   }
-  },
-  {
-   "key": "sml-mahindra-rights",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "SML Mahindra plans ₹1,450 cr rights issue",
-   "line": "Board approves raising up to ₹1,450 crore at ₹3,506 a share",
-   "more": [
-    "Shares rose after the board approval on Tuesday",
-    "Rights issue priced at ₹3,506 per share"
-   ],
-   "src": {
-    "title": "Market trades higher, SML Mahindra's board approves a Rs 1,450 crore rights issue",
-    "url": "https://trendlyne.com/posts/5956151/market-trades-higher-sml-mahindra-s-board-approves-a-rs-1450-crore-rights-issue"
-   },
-   "date": "2026-11-17",
-   "slot": "1800",
-   "when": "Tue · 18:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1800"
-   }
-  },
-  {
-   "key": "ai-rotation",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "HCLTech leads Nifty losers, down 2.09%",
-   "line": "IT stocks fell into the close ahead of Nvidia's results",
-   "more": [
-    "HCLTech fell 2.09% to ₹1,355.70",
-    "Power Grid fell 1.60%; HDFC Life, ONGC and Coal India also lagged",
-    "Nvidia reports before India's open on Wednesday"
-   ],
-   "src": {
-    "title": "Top Gainers and Losers on November 17, 2026: Adani Enterprises and Eicher Motors Gain, While HCLTech Drops Over 2%",
-    "url": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-november-17-2026-adani-enterprises-and-eicher-motors-gain-while-hcltech-drops-over-2"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-17",
-   "slot": "1635",
-   "when": "Tue · 16:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1035"
-   }
-  },
-  {
-   "key": "eicher-motors",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Eicher Motors leads autos, up about 3%",
-   "line": "Top Nifty Auto gainer as brokerages turn upbeat on the two-wheeler maker",
-   "more": [
-    "Shares rose about 3%, the best in Nifty Auto",
-    "Stock has recovered 14% from its ₹6,911 low of 23 October",
-    "Still below its 52-week high of ₹8,230 set on 27 February"
-   ],
-   "src": {
-    "title": "Eicher Motors jumps 3%, stock top gainer in Nifty Auto; brokerages upbeat",
-    "url": "https://www.business-standard.com/markets/news/eicher-motors-jumps-3-stock-top-gainer-in-nifty-auto-brokerages-upbeat-126111700622_1.html"
-   },
-   "date": "2026-11-17",
-   "slot": "1535",
-   "when": "Tue · 15:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1535"
-   }
-  },
-  {
-   "key": "nse-shares",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Brokers set NSE targets of ₹2,220–2,300",
-   "line": "Nuvama and Motilal Oswal start with Buy after NSE's market cap passes ₹5 lakh cr",
-   "more": [
-    "Nuvama: Buy, target ₹2,220",
-    "Motilal Oswal: Buy, target ₹2,300",
-    "Shares hit a record ₹2,074 on Monday"
-   ],
-   "src": {
-    "title": "NSE shares hit 52-week-high, m-cap crosses Rs 5 lakh crore for first time; what brokerages say",
-    "url": "https://es.tradingview.com/news/moneycontrol:1b76a665e094b:0-nse-shares-hit-52-week-high-m-cap-crosses-rs-5-lakh-crore-for-first-time-should-investors-buy-now-what-brokerages-say/"
-   },
-   "date": "2026-11-17",
-   "slot": "1535",
-   "when": "Tue · 15:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1235"
-   }
-  },
-  {
-   "key": "rally-drivers",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Rupee firms as oil eases and FIIs buy",
-   "line": "Lower crude is showing up in a stronger rupee and foreign buying",
-   "more": [
-    "Easing crude has strengthened India's macro picture",
-    "That is reflected in a firmer rupee and FII buying",
-    "India Inc posted a record Q2 FY27, Business Standard reports"
-   ],
-   "src": {
-    "title": "Sensex zooms 800 pts intraday, Nifty tops 25,500: 5 factors behind bull run",
-    "url": "https://www.business-standard.com/markets/news/sensex-zooms-800-pts-intraday-nifty-tops-25-500-5-factors-behind-bull-run-126111700469_1.html"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-17",
-   "slot": "1435",
-   "when": "Tue · 14:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1405"
-   }
-  },
-  {
-   "key": "heavyweight-leaders",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Which stocks drove the recovery",
-   "line": "M&M, Airtel, Tech Mahindra and HDFC Bank lead the rebound since October",
-   "more": [
-    "Business Standard names the biggest contributors to the rally",
-    "The rebound runs from the October 8 low"
-   ],
-   "src": {
-    "title": "M&M, Airtel, TechM, HDFC Bank lead Nifty's 3100 pts rally; more steam left?",
-    "url": "https://www.business-standard.com/markets/news/m-m-airtel-techm-hdfc-bank-lead-nifty-s-3100-pts-rally-more-steam-left-126111700263_1.html"
-   },
-   "date": "2026-11-17",
-   "slot": "1435",
-   "when": "Tue · 14:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1435"
-   }
-  },
-  {
-   "key": "kaynes-margin",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Kaynes slides 16% in two sessions",
-   "line": "Jefferies flags margin pressure at the electronics maker",
-   "more": [
-    "Shares are down about 16% over two sessions",
-    "Jefferies flagged margin pressure",
-    "The stock is among the day's notable losers"
-   ],
-   "src": {
-    "title": "Kaynes Tech falls 16% in 2 sessions; Jefferies flags margin pressure",
-    "url": "https://business-standard.com/markets/news/kaynes-tech-falls-16-in-2-sessions-jefferies-flags-margin-pressure-126111700486_1.html"
-   },
-   "date": "2026-11-17",
-   "slot": "1335",
-   "when": "Tue · 13:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1335"
-   }
-  },
-  {
-   "key": "psu-bank-merger",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "PSU banks keep the lead",
-   "line": "Merger talk keeps state lenders at the top of the sector table",
-   "more": [
-    "Nifty PSU Bank was up 2.40% at 10:30",
-    "PNB up about 4.1%, Bank of India about 3.8%",
-    "Canara Bank up about 2.8%"
-   ],
-   "src": {
-    "title": "PSU Bank Stocks Rally on Merger Buzz: PNB, BoI, SBI Gain",
-    "url": "https://univest.in/blogs/psu-bank-stocks-rally-merger-buzz-november-2026"
-   },
-   "date": "2026-11-17",
-   "slot": "1335",
-   "when": "Tue · 13:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1135"
-   }
-  },
-  {
-   "key": "midcap-leaders",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Laurus Labs, Bank of India lead midcaps",
-   "line": "The two are the top gainers in the midcap index as breadth improves slightly",
-   "more": [
-    "Laurus Labs fell about 4.6% on Monday after disclosed promoter share sales",
-    "No specific trigger has been reported for Laurus's rebound"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex gains 600 pts, Nifty tops 25,450; Laurus Labs, BoI lead MidCap gains",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
-   },
-   "date": "2026-11-17",
-   "slot": "1305",
-   "when": "Tue · 13:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1305"
-   }
-  },
-  {
-   "key": "realty-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Nifty Realty rises about 2%",
-   "line": "Realty stocks have joined the rally after two weak sessions",
-   "more": [
-    "Realty had fallen on Friday and Monday",
-    "No specific trigger has been reported for today's move"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex gains nearly 600 pts, Nifty tops 25,400; Nifty Realty rises 2%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
-   },
-   "date": "2026-11-17",
-   "slot": "1205",
-   "when": "Tue · 12:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1205"
-   }
-  },
-  {
-   "key": "ireda-psu",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "PSU stocks broadly higher; IREDA up 4%",
-   "line": "IREDA rose 4.23% and Punjab & Sind Bank 4.58% in a broad PSU rally",
-   "more": [
-    "PNB gained 3.95% in the same snapshot",
-    "PSU names are leading the market today"
-   ],
-   "src": {
-    "title": "PSU stocks today, November 17: Punjab & Sind Bank jumps 4.58%, IREDA up 4.23%, PNB gains 3.95%",
-    "url": "https://businessupturn.com/finance/stock-market/psu-stocks-today-november-17-punjab-sind-bank-jumps-4-58-ireda-up-4-23-pnb-gains-3-95/"
-   },
-   "date": "2026-11-17",
-   "slot": "1135",
-   "when": "Tue · 11:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1135"
-   }
-  },
-  {
-   "key": "crystal-crop-anchor",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Crystal Crop anchor book today",
-   "line": "The ₹456 crore IPO opens to the public on Wednesday at ₹259–272 a share",
-   "more": [
-    "Mahanadi Coalfields' ₹8,981 crore IPO opens on Thursday",
-    "No listings are scheduled this week"
-   ],
-   "src": {
-    "title": "Crystal Crop Protection IPO: Price band fixed at Rs 259-272, aims to raise Rs 456 crore",
-    "url": "https://businesstoday.in/markets/stocks/story/crystal-crop-protection-ipo-price-band-fixed-at-rs-259-272-aims-to-raise-rs-456-crore-567241-2026-11-13"
-   },
-   "date": "2026-11-17",
-   "slot": "1035",
-   "when": "Tue · 10:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1035"
-   }
-  },
-  {
-   "key": "bse-us-approval",
-   "tag": "Regulation",
-   "impact": "pos",
-   "title": "BSE rises 2.4% on US CFTC approval",
-   "line": "The US CFTC approved BSE's Bankex index futures for sale to US investors",
-   "more": [
-    "The stock rose as much as 2.4% to ₹3,981",
-    "BSE is among the day's stocks in focus"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex up 200 pts, Nifty near 25,300; VIX drops 10%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
-   },
-   "date": "2026-11-17",
-   "slot": "1005",
-   "when": "Tue · 10:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "vix-drop",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "India VIX falls about 10%",
-   "line": "Volatility dropped sharply in early trade even after Wall Street's tech sell-off",
-   "more": [
-    "Business Standard ties the market's gains to falling oil and an AI-trade unwind abroad",
-    "Nifty Bank hit a 52-week high"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex up 200 pts, Nifty near 25,300; VIX drops 10%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
-   },
-   "thread": "volatility",
-   "date": "2026-11-17",
-   "slot": "1005",
-   "when": "Tue · 10:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1005"
-   }
-  },
-  {
-   "key": "stocks-in-focus",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Bajaj Finance, Adani Ent, HDFC Life in focus",
-   "line": "Business Today lists them with BSE, Senco Gold and Cipla among stocks to watch",
-   "more": [
-    "GIFT Nifty had pointed to a flat start",
-    "Company-specific news is driving these names"
-   ],
-   "src": {
-    "title": "GIFT Nifty down 5 pts; BSE, Bajaj Finance, AEL, HDFC Life, Senco Gold, Cipla among top stocks in focus",
-    "url": "https://www.businesstoday.in/markets/stocks/story/gift-nifty-down-5-pts-bse-bajaj-finance-ael-hdfc-life-senco-gold-cipla-among-top-stocks-in-focus-567739-2026-11-17"
-   },
-   "date": "2026-11-17",
-   "slot": "1005",
-   "when": "Tue · 10:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "1005"
-   }
-  },
-  {
-   "key": "weekly-expiry",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Weekly Nifty expiry today",
-   "line": "Tuesday is the weekly Nifty expiry; November's monthly expiry moves to Monday, Nov 23",
-   "more": [
-    "Markets are shut on Tuesday, November 24",
-    "Expiry days can bring sharper intraday swings"
-   ],
-   "src": {
-    "title": "F&O Expiry Calendar 2026: Nifty, Bank Nifty & Sensex Expiry Dates",
-    "url": "https://www.quantsapp.com/expiry-calendar"
-   },
-   "date": "2026-11-17",
-   "slot": "0925",
-   "when": "Tue · 9:25",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "0925"
-   }
-  },
-  {
-   "key": "kalpataru-order",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Kalpataru wins ₹2,610 crore order",
-   "line": "The order covers power transmission lines and substations in South America",
-   "more": [
-    "The work is in South America",
-    "The stock is in focus on Tuesday"
-   ],
-   "src": {
-    "title": "Stocks to watch: Urban Company, BSE, Tata group, HZL, YES Bank, IHCL",
-    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-urban-company-bse-tata-group-hzl-yes-bank-ihcl-126111700078_1.html"
-   },
-   "date": "2026-11-17",
-   "slot": "0845",
-   "when": "Tue · 8:45",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "urban-company-qip",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Urban Company launches ₹2,500 crore QIP",
-   "line": "The share sale opened with a floor price of ₹161.03 a share",
-   "more": [
-    "The QIP raises fresh capital for the company",
-    "Urban Company is among Tuesday's stocks to watch"
-   ],
-   "src": {
-    "title": "Stocks to watch: Urban Company, BSE, Tata group, HZL, YES Bank, IHCL",
-    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-urban-company-bse-tata-group-hzl-yes-bank-ihcl-126111700078_1.html"
-   },
-   "date": "2026-11-17",
-   "slot": "0845",
-   "when": "Tue · 8:45",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "tata-sons-listing",
-   "tag": "Regulation",
-   "impact": "watch",
-   "title": "RBI official presses for Tata Sons listing",
-   "line": "Tata group stocks are in focus after an RBI official pushed for Tata Sons to list",
-   "more": [
-    "Tata Sons is the holding company of the Tata group",
-    "Group stocks are flagged among Tuesday's stocks to watch"
-   ],
-   "src": {
-    "title": "Stocks to watch: Urban Company, BSE, Tata group, HZL, YES Bank, IHCL",
-    "url": "https://www.business-standard.com/markets/news/stocks-to-watch-urban-company-bse-tata-group-hzl-yes-bank-ihcl-126111700078_1.html"
-   },
-   "date": "2026-11-17",
-   "slot": "0845",
-   "when": "Tue · 8:45",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-17",
-    "slot": "0845"
    }
   }
  ]
