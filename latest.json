@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-25T16:37:00+05:30",
+ "generated_at": "2026-11-25T18:00:50+05:30",
  "date": "2026-11-25",
- "slot": "1635",
- "slot_label": "16:35",
- "stage": "Post-market mood",
- "asof": "2026-11-25T16:40:00+05:30",
+ "slot": "1800",
+ "slot_label": "18:00",
+ "stage": "Evening wrap",
+ "asof": "2026-11-25T18:05:00+05:30",
  "nifty": {
   "value": 25819.25,
   "pct": 1.85,
@@ -13,93 +13,101 @@
   "approx": false
  },
  "mood": {
-  "label": "Strong rebound",
-  "score": 0.55,
-  "summary": "Indian shares ended a strong rebound session near their late highs, with consumer staples and banks leading, metals lower and smaller stocks largely sitting it out.",
+  "label": "Cautious start likely",
+  "score": -0.1,
+  "summary": "After a strong rebound in Indian shares, the setup for Thursday looks more cautious: US tech futures are sliding ahead of key inflation data, and Gulf oil tensions have flared again.",
   "detail": {
-   "leaders": "FMCG and banks, led by HUL, Tata Consumer and Bajaj Finserv",
-   "laggards": "Metals led by Tata Steel and Hindalco, plus ONGC",
-   "tone": "A read on the finished session. Unchanged in substance from the previous note: the close was strong, and the provisional flow data had not been published at the time of writing.",
+   "leaders": "FMCG and banks led today's rebound and are the names to watch for follow-through",
+   "laggards": "Metals, led by Tata Steel, stayed weak through the session",
+   "tone": "A forward-looking read for Thursday. Softer than the close: today's gains face a test from falling US tech futures, a likely December Fed hike and renewed Gulf tension.",
    "watch": [
-    "Provisional FII and DII figures, still awaited",
-    "US PCE inflation data tonight",
-    "Strikes on Saudi oil facilities and Iran's Hormuz threats"
+    "US PCE and GDP figures, due around 7 pm IST",
+    "Provisional FII and DII figures for today, still awaited",
+    "Fallout from the Houthi strikes on Saudi Arabia's Ras Tanura refinery"
    ],
    "src": {
-    "title": "Closing Bell: Sensex Surges 1,500 Points, Nifty 50 Gains 1.85% as FMCG and Banking Stocks Lead Market Recovery",
-    "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-surges-1500-points-nifty-50-gains-185-as-fmcg-and-banking-stocks-lead-market-recovery-60621"
-   },
-   "movers": {
-    "up": {
-     "summary": "FMCG and banks led the recovery, with HUL and Tata Consumer on top",
-     "why": "Foreign buying lifted consumer staples and lenders, the two sectors that carried the rebound.",
-     "names": [
-      {
-       "name": "Nifty FMCG",
-       "dir": "up",
-       "move": "+3.79%",
-       "line": "The day's top sector, per DSIJ"
-      },
-      {
-       "name": "Nifty Bank",
-       "dir": "up",
-       "move": "+1.79%",
-       "line": "Banks recovered much of Monday's heavy losses, per DSIJ"
-      },
-      {
-       "name": "HUL",
-       "dir": "up",
-       "move": "up ~4%",
-       "line": "Top Nifty gainer as foreign buying lifted consumer staples"
-      },
-      {
-       "name": "Tata Consumer",
-       "dir": "up",
-       "move": "+3.9%",
-       "line": "Rallied with HUL and ITC in the FMCG surge"
-      }
-     ],
-     "src": {
-      "title": "Closing Bell: Sensex Surges 1,500 Points, Nifty 50 Gains 1.85% as FMCG and Banking Stocks Lead Market Recovery",
-      "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-surges-1500-points-nifty-50-gains-185-as-fmcg-and-banking-stocks-lead-market-recovery-60621"
-     }
-    },
-    "down": {
-     "summary": "Metals ended firmly lower, with Tata Steel and Hindalco among the losers",
-     "why": "Metals stayed out of the rebound after Monday's rout, and lower crude weighed on ONGC.",
-     "names": [
-      {
-       "name": "Nifty Metal",
-       "dir": "down",
-       "move": "about -2% to -2.45%",
-       "line": "Every constituent fell; reported falls vary by source and time"
-      },
-      {
-       "name": "Tata Steel",
-       "dir": "down",
-       "line": "Top Nifty loser, extending its slide after the APL Apollo tubes deal"
-      },
-      {
-       "name": "Hindalco",
-       "dir": "down",
-       "line": "Among the top Nifty losers as metals stayed weak"
-      },
-      {
-       "name": "ONGC",
-       "dir": "down",
-       "move": "-1.33%",
-       "line": "Lower crude prices weigh on the upstream oil producer"
-      }
-     ],
-     "src": {
-      "title": "Sensex gains 1500 points, Nifty above 25800",
-      "url": "https://www.chinimandi.com/sensex-gains-1500-points-nifty-above-25800/"
-     }
-    }
+    "title": "Why are Nasdaq futures plunging ahead of PCE inflation data? 5 things to know",
+    "url": "https://invezz.com/news/2026/11/25/nasdaq-futures-today-pce-trump-tariffs-dell-november-25"
    }
   }
  },
  "insights": [
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Nasdaq futures slide ahead of US data",
+   "line": "Nasdaq-100 futures fell 2%, S&P 500 futures 1.2% and Dow futures 0.6%, per Invezz",
+   "more": [
+    "Nvidia extended its fall after Monday's surge",
+    "Tariff worries and Asian chip losses also weighed",
+    "US markets are shut on Thursday for Thanksgiving"
+   ],
+   "src": {
+    "title": "Why are Nasdaq futures plunging ahead of PCE inflation data? 5 things to know",
+    "url": "https://invezz.com/news/2026/11/25/nasdaq-futures-today-pce-trump-tariffs-dell-november-25"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-25",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "us-rates",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "US PCE and GDP due tonight",
+   "line": "October PCE and revised Q3 GDP are due at 8:30 am ET, about 7 pm IST",
+   "more": [
+    "Headline PCE is expected at 3.8% against 3.6%; core at 3.2%",
+    "CME FedWatch odds of a December hike were cited at 96.4%",
+    "It is the last inflation read before the Fed's December meeting"
+   ],
+   "src": {
+    "title": "US PCE Inflation Data and Q3 GDP Due Today; Key Numbers to Watch Ahead of December Fed Rate Decision",
+    "url": "https://www.kotakneo.com/news/global-markets/us-pce-inflation-and-q3-gdp-data-november-25-fed-rate-decision-and-indian-markets/"
+   },
+   "thread": "us-rates",
+   "date": "2026-11-25",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "zee-buyback",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Zee falls 6% on buyback record date",
+   "line": "Zee Entertainment fell about 6% on the record date for its ₹600-crore buyback",
+   "more": [
+    "The buyback price is ₹91 a share, a 35% premium to today's low",
+    "The stock fell even as the wider market rallied"
+   ],
+   "src": {
+    "title": "ZEE shares defy market rally, tank 6% on record date for ₹600-crore buyback",
+    "url": "https://www.business-standard.com/markets/news/zee-shares-defy-market-rally-tank-6-on-record-date-for-600-crore-buyback-126112500179_1.html"
+   },
+   "date": "2026-11-25",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-25",
+    "slot": "1800"
+   }
+  },
   {
    "key": "bank-rally",
    "tag": "Stocks",
@@ -118,7 +126,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1205"
@@ -142,7 +150,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "0845"
@@ -166,7 +174,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1635"
@@ -634,32 +642,6 @@
    "first_seen": {
     "date": "2026-11-21",
     "slot": "0800"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Chip rally fades on Wall Street",
-   "line": "Nasdaq fell 1.48% and the S&P 500 0.50% on Tuesday as Nvidia gave back about 5.9%",
-   "more": [
-    "The Dow rose 0.85% to close above 50,000 for the first time",
-    "A semiconductor index fell 7.9% after Monday's surge",
-    "S&P 500 has fallen in eight of the last nine sessions"
-   ],
-   "src": {
-    "title": "Nasdaq, S&P 500 end lower following Monday's Nvidia-fueled rally",
-    "url": "https://www.marketscreener.com/news/nasdaq-s-p-500-end-lower-following-monday-s-nvidia-fueled-rally-ce7851dbdd81f720"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-25",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "0700"
    }
   },
   {
@@ -1363,32 +1345,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "us-rates",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Markets price a December Fed hike",
-   "line": "US 10-year yield ends above 5% as hawkish Fed minutes sink bets on relief",
-   "more": [
-    "10-year yield near 5.04–5.07%, by source",
-    "Gold fell to a 14-month low",
-    "Metals and copper also sold off"
-   ],
-   "src": {
-    "title": "Financial & Forex Market Recap: Nov. 19, 2026",
-    "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-19"
-   },
-   "thread": "us-rates",
-   "date": "2026-11-20",
-   "slot": "0700",
-   "when": "Fri · 7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-19",
     "slot": "0700"
    }
   },
