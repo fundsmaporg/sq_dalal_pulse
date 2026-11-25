@@ -1,65 +1,163 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-25T09:26:17+05:30",
+ "generated_at": "2026-11-25T10:06:13+05:30",
  "date": "2026-11-25",
- "slot": "0925",
- "slot_label": "9:25",
+ "slot": "1005",
+ "slot_label": "10:05",
  "stage": "Opening mood",
- "asof": "2026-11-25T09:30:00+05:30",
+ "asof": "2026-11-25T10:10:00+05:30",
  "nifty": {
-  "value": 25658,
-  "pct": 1.22,
-  "chg": 309,
-  "approx": false,
-  "asof_quote": "09:15"
+  "value": 25783.8,
+  "pct": 1.71,
+  "chg": 434.15,
+  "approx": true,
+  "asof_quote": "10:00"
  },
  "mood": {
-  "label": "Strong gap-up",
-  "score": 0.5,
-  "summary": "Indian shares opened with a broad, strong gap-up after the holiday, led by banks, financials and IT, as the market catches up with Monday's global rally despite weakness across Asia.",
+  "label": "Rally holds firm",
+  "score": 0.55,
+  "summary": "The holiday catch-up rally is holding firm into mid-morning, led by private banks and IT heavyweights, with volatility easing sharply and only a few laggards in the red.",
   "detail": {
-   "leaders": "Banks, financials and IT",
-   "laggards": "No clear laggards reported in early trade",
-   "tone": "A live read just after the open. The gap-up the pre-open cues pointed to has arrived in full, with gains broad across the big sectors.",
+   "leaders": "HDFC Bank and IT majors TCS, Tech Mahindra and Infosys",
+   "laggards": "Tata Steel, still weighed down by its asset-sale deal",
+   "tone": "A live read. The rally has extended a little since the open, and the fear gauge has dropped sharply alongside it.",
    "watch": [
-    "Whether banks hold their opening bounce",
-    "Asian markets, which remain weak",
-    "Details of new US tariffs"
+    "Whether HDFC Bank and other lenders keep leading",
+    "US GDP and PCE data this evening",
+    "New US tariff details"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex soars 1,300 pts, Nifty tops 25,700; bank, financials, IT advance",
+    "title": "Stock Market LIVE: Sensex soars 1,500 pts, Nifty around 25,750; VIX drops 7%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Banks, financials and IT lead the opening rally",
-     "why": "The sectors sold hardest on Monday are leading the catch-up rally after the holiday.",
+     "summary": "HDFC Bank and the IT majors lead the rebound",
+     "why": "Banks sold hardest on Monday are bouncing back, while IT tracks the global tech rebound that India missed during the holiday.",
      "names": [
       {
-       "name": "Nifty Bank",
+       "name": "HDFC Bank",
        "dir": "up",
-       "line": "Rebounds after Monday's heavy bank-led sell-off"
+       "move": "+3.5%",
+       "line": "Top Sensex gainer after leading Monday's bank sell-off"
       },
       {
-       "name": "Nifty Financial Services",
+       "name": "TCS",
        "dir": "up",
-       "line": "Financials advance alongside banks at the open"
+       "move": "up to 4%",
+       "line": "Leads IT gains as Monday's global AI rally is priced in"
       },
       {
-       "name": "Nifty IT",
+       "name": "Tech Mahindra",
        "dir": "up",
-       "line": "IT joins the advance despite the overnight US chip slide"
+       "move": "up to 4%",
+       "line": "Among IT names rising up to 4% in early trade"
+      },
+      {
+       "name": "Infosys",
+       "dir": "up",
+       "move": "up to 4%",
+       "line": "Key gainer alongside HDFC Bank and ICICI Bank"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex soars 1,300 pts, Nifty tops 25,700; bank, financials, IT advance",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+      "title": "Why market is rising today: Sensex gains over 1,300 pts, Nifty crosses 25,700 mark",
+      "url": "https://www.businesstoday.in/markets/stocks/story/why-market-is-rising-today-sensex-gains-over-1300-pts-nifty-crosses-25700-569286-2026-11-25"
+     }
+    },
+    "down": {
+     "summary": "Tata Steel is among the few stocks in the red",
+     "why": "Only a handful of Sensex names are lower, none sharply, as buying is broad.",
+     "names": [
+      {
+       "name": "Tata Steel",
+       "dir": "down",
+       "line": "Extends Monday's slide after agreeing to sell assets to APL Apollo"
+      }
+     ],
+     "src": {
+      "title": "Why market is rising today: Sensex gains over 1,300 pts, Nifty crosses 25,700 mark",
+      "url": "https://www.businesstoday.in/markets/stocks/story/why-market-is-rising-today-sensex-gains-over-1300-pts-nifty-crosses-25700-569286-2026-11-25"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "HDFC Bank leads the bank rebound",
+   "line": "HDFC Bank up 3.5%, the top Sensex gainer, with ICICI Bank also among key gainers",
+   "more": [
+    "Banks drove Monday's sharp sell-off",
+    "Business Today ties the rally to a catch-up with global markets"
+   ],
+   "src": {
+    "title": "Why market is rising today: Sensex gains over 1,300 pts, Nifty crosses 25,700 mark",
+    "url": "https://www.businesstoday.in/markets/stocks/story/why-market-is-rising-today-sensex-gains-over-1300-pts-nifty-crosses-25700-569286-2026-11-25"
+   },
+   "date": "2026-11-25",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1205"
+   }
+  },
+  {
+   "key": "it-rebound",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT majors rise up to 4%",
+   "line": "TCS, Tech Mahindra, HCLTech and Infosys climb in early trade",
+   "more": [
+    "They catch up with Monday's US chip rally missed during the holiday",
+    "The overnight US tech pullback has not dented them so far"
+   ],
+   "src": {
+    "title": "Why market is rising today: Sensex gains over 1,300 pts, Nifty crosses 25,700 mark",
+    "url": "https://www.businesstoday.in/markets/stocks/story/why-market-is-rising-today-sensex-gains-over-1300-pts-nifty-crosses-25700-569286-2026-11-25"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-25",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "volatility",
+   "tag": "Opening",
+   "impact": "pos",
+   "title": "Fear gauge eases sharply",
+   "line": "India VIX falls sharply as the market rebounds, per Business Standard",
+   "more": [
+    "VIX had risen on Monday ahead of expiry and the holiday",
+    "Business Standard flags the drop in its live-blog headline"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex soars 1,500 pts, Nifty around 25,750; VIX drops 7%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+   },
+   "thread": "volatility",
+   "date": "2026-11-25",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1405"
+   }
+  },
   {
    "key": "gift-nifty",
    "tag": "Opening",
@@ -78,34 +176,10 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Banks lead the rebound",
-   "line": "Lenders hit hardest on Monday are among the biggest early gainers",
-   "more": [
-    "Banks were Monday's main drag",
-    "Stratzy flags banks as the test of whether the gap-up holds"
-   ],
-   "src": {
-    "title": "Are we Already Over Monday's Fall?",
-    "url": "https://stratzyhq.substack.com/p/are-we-already-over-mondays-fall"
-   },
-   "date": "2026-11-25",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "1205"
    }
   },
   {
@@ -127,7 +201,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "0700"
@@ -383,31 +457,6 @@
    }
   },
   {
-   "key": "it-rebound",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT rally stands out on a red day",
-   "line": "TCS led the Sensex gainers, rising 3.5% to 3.66% depending on the source",
-   "more": [
-    "IT was the only sector to close higher",
-    "IT had lagged for most of November on AI worries"
-   ],
-   "src": {
-    "title": "Closing Bell: Sensex Tanks 1,484 Pts, Bank Nifty Down 3%",
-    "url": "https://univest.in/blogs/closing-bell-sensex-nifty-bank-nifty-23-november-2026"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-23",
-   "slot": "1635",
-   "when": "Mon · 16:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "1035"
-   }
-  },
-  {
    "key": "tata-steel",
    "tag": "Stocks",
    "impact": "neg",
@@ -501,31 +550,6 @@
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "volatility",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Fear gauge rises ahead of expiry and holiday",
-   "line": "India VIX climbed in the morning as traders hedged, per HDFC Sky",
-   "more": [
-    "The report links it to hedging ahead of expiry and Tuesday's holiday",
-    "The rise came as banks turned sharply lower"
-   ],
-   "src": {
-    "title": "India VIX Rises 3.87% to 17.99 Amid Market Volatility",
-    "url": "https://hdfcsky.com/news/india-vix-rises-3-87percent-to-17-99-as-bank-nifty-falls-nearly-1000-points-and-ongoing-global-concerns-november-23-2026"
-   },
-   "thread": "volatility",
-   "date": "2026-11-23",
-   "slot": "1405",
-   "when": "Mon · 14:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "1405"
    }
   },
   {

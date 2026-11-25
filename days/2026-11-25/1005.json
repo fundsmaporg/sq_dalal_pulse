@@ -1,0 +1,144 @@
+{
+ "asof": "2026-11-25T10:10:00+05:30",
+ "summary": "The holiday catch-up rally is holding firm into mid-morning, led by private banks and IT heavyweights, with volatility easing sharply and only a few laggards in the red.",
+ "mood": {
+  "label": "Rally holds firm",
+  "score": 0.55,
+  "detail": {
+   "stats": [],
+   "leaders": "HDFC Bank and IT majors TCS, Tech Mahindra and Infosys",
+   "laggards": "Tata Steel, still weighed down by its asset-sale deal",
+   "movers": {
+    "up": {
+     "summary": "HDFC Bank and the IT majors lead the rebound",
+     "why": "Banks sold hardest on Monday are bouncing back, while IT tracks the global tech rebound that India missed during the holiday.",
+     "names": [
+      {
+       "name": "HDFC Bank",
+       "move": "+3.5%",
+       "dir": "up",
+       "line": "Top Sensex gainer after leading Monday's bank sell-off"
+      },
+      {
+       "name": "TCS",
+       "move": "up to 4%",
+       "dir": "up",
+       "line": "Leads IT gains as Monday's global AI rally is priced in"
+      },
+      {
+       "name": "Tech Mahindra",
+       "move": "up to 4%",
+       "dir": "up",
+       "line": "Among IT names rising up to 4% in early trade"
+      },
+      {
+       "name": "Infosys",
+       "move": "up to 4%",
+       "dir": "up",
+       "line": "Key gainer alongside HDFC Bank and ICICI Bank"
+      }
+     ],
+     "src": {
+      "title": "Why market is rising today: Sensex gains over 1,300 pts, Nifty crosses 25,700 mark",
+      "url": "https://www.businesstoday.in/markets/stocks/story/why-market-is-rising-today-sensex-gains-over-1300-pts-nifty-crosses-25700-569286-2026-11-25"
+     }
+    },
+    "down": {
+     "summary": "Tata Steel is among the few stocks in the red",
+     "why": "Only a handful of Sensex names are lower, none sharply, as buying is broad.",
+     "names": [
+      {
+       "name": "Tata Steel",
+       "dir": "down",
+       "line": "Extends Monday's slide after agreeing to sell assets to APL Apollo"
+      }
+     ],
+     "src": {
+      "title": "Why market is rising today: Sensex gains over 1,300 pts, Nifty crosses 25,700 mark",
+      "url": "https://www.businesstoday.in/markets/stocks/story/why-market-is-rising-today-sensex-gains-over-1300-pts-nifty-crosses-25700-569286-2026-11-25"
+     }
+    }
+   },
+   "tone": "A live read. The rally has extended a little since the open, and the fear gauge has dropped sharply alongside it.",
+   "watch": [
+    "Whether HDFC Bank and other lenders keep leading",
+    "US GDP and PCE data this evening",
+    "New US tariff details"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex soars 1,500 pts, Nifty around 25,750; VIX drops 7%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25783.8,
+  "pct": 1.71,
+  "chg": 434.15,
+  "approx": true,
+  "asof_quote": "10:00"
+ },
+ "top": [
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "HDFC Bank leads the bank rebound",
+   "line": "HDFC Bank up 3.5%, the top Sensex gainer, with ICICI Bank also among key gainers",
+   "more": [
+    "Banks drove Monday's sharp sell-off",
+    "Business Today ties the rally to a catch-up with global markets"
+   ],
+   "src": {
+    "title": "Why market is rising today: Sensex gains over 1,300 pts, Nifty crosses 25,700 mark",
+    "url": "https://www.businesstoday.in/markets/stocks/story/why-market-is-rising-today-sensex-gains-over-1300-pts-nifty-crosses-25700-569286-2026-11-25"
+   }
+  },
+  {
+   "key": "it-rebound",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT majors rise up to 4%",
+   "line": "TCS, Tech Mahindra, HCLTech and Infosys climb in early trade",
+   "more": [
+    "They catch up with Monday's US chip rally missed during the holiday",
+    "The overnight US tech pullback has not dented them so far"
+   ],
+   "thread": "it-sector",
+   "src": {
+    "title": "Why market is rising today: Sensex gains over 1,300 pts, Nifty crosses 25,700 mark",
+    "url": "https://www.businesstoday.in/markets/stocks/story/why-market-is-rising-today-sensex-gains-over-1300-pts-nifty-crosses-25700-569286-2026-11-25"
+   }
+  },
+  {
+   "key": "volatility",
+   "tag": "Opening",
+   "impact": "pos",
+   "title": "Fear gauge eases sharply",
+   "line": "India VIX falls sharply as the market rebounds, per Business Standard",
+   "more": [
+    "VIX had risen on Monday ahead of expiry and the holiday",
+    "Business Standard flags the drop in its live-blog headline"
+   ],
+   "thread": "volatility",
+   "src": {
+    "title": "Stock Market LIVE: Sensex soars 1,500 pts, Nifty around 25,750; VIX drops 7%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market LIVE: Sensex soars 1,500 pts, Nifty around 25,750; VIX drops 7%",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+  },
+  {
+   "title": "Why market is rising today: Sensex gains over 1,300 pts, Nifty crosses 25,700 mark",
+   "url": "https://www.businesstoday.in/markets/stocks/story/why-market-is-rising-today-sensex-gains-over-1300-pts-nifty-crosses-25700-569286-2026-11-25"
+  },
+  {
+   "title": "Opening Bell: Sensex Jumps 1,415 Points, Nifty 50 Rises Above 25,740 as Banking and IT Stocks Lead Gains",
+   "url": "https://insights.dsij.in/dsijarticledetail/opening-bell-sensex-jumps-1415-points-nifty-50-rises-above-25740-as-banking-and-it-stocks-lead-gains-60606"
+  }
+ ]
+}
