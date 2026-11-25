@@ -1,6 +1,6 @@
 {
  "key": "breadth",
- "title": "Rally narrows beyond large caps",
+ "title": "More stocks falling than rising",
  "tag": "Stocks",
  "first_seen": {
   "date": "2026-10-15",
@@ -8,9 +8,9 @@
  },
  "last_seen": {
   "date": "2026-11-25",
-  "slot": "1105"
+  "slot": "1435"
  },
- "count": 8,
+ "count": 9,
  "timeline": [
   {
    "date": "2026-10-15",
@@ -148,6 +148,60 @@
     "title": "Stock Market LIVE: Sensex surges 1,900 pts, Nifty tops 25,900; Nifty Financial Svcs up 2%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
    }
+  },
+  {
+   "date": "2026-11-25",
+   "slot": "1435",
+   "when": "Wed · 14:35",
+   "title": "More stocks falling than rising",
+   "line": "1,675 NSE stocks are lower against 1,524 higher despite the strong benchmark gain",
+   "impact": "watch",
+   "tag": "Stocks",
+   "more": [
+    "Business Upturn calls the rally narrow and heavyweight-driven",
+    "Smallcaps are in the red"
+   ],
+   "src": {
+    "title": "Nifty Rally Narrow: NSE Advance Decline Ratio Weak, Metals, Media Drag",
+    "url": "https://businessupturn.com/finance/stock-market/nifty-50-gains-1-5-on-heavyweight-buying-but-market-breadth-stays-weak-with-1-675-nse-stocks-falling-against-1-524-rising/"
+   }
   }
- ]
+ ],
+ "dossier": {
+  "headline": "Big index gains, but most stocks are not joining in",
+  "summary": "Several of the market's strongest days have been narrow: on 15–16 Oct and again on 25 Nov, large caps lifted the benchmarks while smallcaps fell and decliners outnumbered advancers on the NSE. The exception was 5 Nov, when advancers beat decliners more than 2 to 1 and every broad index rose.",
+  "status": "developing",
+  "why_it_matters": [
+   "A rally carried by a few heavyweights is easier to reverse than a broad one",
+   "Smallcap and midcap holders can lose money on days the headline indices rise sharply"
+  ],
+  "moved": [
+   {
+    "name": "Nifty Smallcap 100",
+    "dir": "down",
+    "line": "Fell on the big up days of 15 Oct and 25 Nov"
+   }
+  ],
+  "watch": [
+   "The NSE advance-decline count into the close",
+   "Whether midcaps and smallcaps catch up with large caps"
+  ],
+  "questions": [
+   "Why are smaller stocks lagging the large-cap rally?",
+   "Does a narrow rally tend to hold?"
+  ],
+  "conflicts": [],
+  "written_at": "2026-11-25T14:45:00+05:30",
+  "based_on_slots": [
+   "2026-10-15/1100",
+   "2026-10-15/1200",
+   "2026-10-15/1430",
+   "2026-10-15/1500",
+   "2026-10-16/1330",
+   "2026-11-05/1155",
+   "2026-11-05/1625",
+   "2026-11-25/1105",
+   "2026-11-25/1435"
+  ]
+ }
 }

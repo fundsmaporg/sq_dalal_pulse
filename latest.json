@@ -1,87 +1,171 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-25T14:06:42+05:30",
+ "generated_at": "2026-11-25T14:36:21+05:30",
  "date": "2026-11-25",
- "slot": "1405",
- "slot_label": "14:05",
+ "slot": "1435",
+ "slot_label": "14:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-25T14:10:00+05:30",
+ "asof": "2026-11-25T14:40:00+05:30",
  "nifty": {
-  "value": 25668.9,
-  "pct": 1.26,
-  "chg": 319.25,
-  "approx": false,
-  "asof_quote": "13:24"
+  "value": 25700,
+  "pct": 1.38,
+  "chg": 350,
+  "approx": true,
+  "asof_quote": "14:00"
  },
  "mood": {
-  "label": "Gains trimmed",
+  "label": "Narrow but firm",
   "score": 0.35,
-  "summary": "Indian shares are still firmly higher in afternoon trade but well off the day's peak, as profit booking in banking and IT heavyweights trims the post-holiday rally.",
+  "summary": "Indian shares are holding solid gains into the last hour, though off the day's peak; the rally rests on heavyweights and consumer stocks, while more shares are falling than rising.",
   "detail": {
-   "leaders": "Bajaj Finserv and HDFC Life, with FMCG steadying the market",
-   "laggards": "Metals including Hindalco, as heavyweights pare gains",
-   "tone": "A live read. Softer than the previous note: the market has slipped further from its midday peak on profit booking, though it remains comfortably in the green.",
+   "leaders": "FMCG, led by ITC, HUL, Dabur India and Godrej Consumer",
+   "laggards": "Metals including Tata Steel, and smallcaps",
+   "tone": "A live read. Much as in the previous note, the market is holding below its midday peak, with leadership rotating from banks to consumer stocks.",
    "watch": [
-    "Whether the pullback deepens into the close",
+    "Whether breadth improves into the close",
     "US GDP and core PCE data this evening",
     "Details of the new US tariffs"
    ],
    "src": {
-    "title": "Sensex Today: Pares Gains, Slips 950 Pts From Day's High",
-    "url": "https://univest.in/blogs/sensex-today-pares-gains-falls-from-days-high-reasons"
+    "title": "Stock Market LIVE: Sensex up 1,300 pts, Nifty tops 25,700; Tata Steel shares down over 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Bajaj Finserv and HDFC Life lead, with FMCG a bright spot",
-     "why": "Financials are still the strongest pocket, and consumer stocks are helping limit the afternoon pullback.",
+     "summary": "FMCG leads, with ITC and HUL doing most of the lifting",
+     "why": "Consumer staples have become the strongest sector as buying shifts into defensive heavyweights.",
      "names": [
-      {
-       "name": "Bajaj Finserv",
-       "dir": "up",
-       "move": "+4.71%",
-       "line": "Top Nifty gainer at noon as financial stocks lead"
-      },
-      {
-       "name": "HDFC Life",
-       "dir": "up",
-       "line": "Among the top noon gainers as insurers join the rally"
-      },
       {
        "name": "Nifty FMCG",
        "dir": "up",
-       "line": "A bright spot that helped cushion the afternoon pullback, per Univest"
+       "move": "+2.88%",
+       "line": "Reclaims its 200-day moving average, per DSIJ"
+      },
+      {
+       "name": "ITC",
+       "dir": "up",
+       "line": "With HUL, about 47% of the FMCG index and a main driver of its gain"
+      },
+      {
+       "name": "HUL",
+       "dir": "up",
+       "line": "Heavyweight carrying the FMCG rally alongside ITC"
+      },
+      {
+       "name": "Dabur India",
+       "dir": "up",
+       "line": "Leads the FMCG gainers with Godrej Consumer, per Business Standard"
       }
      ],
      "src": {
-      "title": "Sensex Today: Pares Gains, Slips 950 Pts From Day's High",
-      "url": "https://univest.in/blogs/sensex-today-pares-gains-falls-from-days-high-reasons"
+      "title": "Nifty FMCG Reclaims 200-DMA: Can It Test the 50,000 Mark in the Short Term?",
+      "url": "https://insights.dsij.in/dsijarticledetail/nifty-fmcg-above-200-dma-60616"
      }
     },
     "down": {
-     "summary": "Metal stocks stay weak as the market comes off its high",
-     "why": "Metals have stayed out of the rebound and added to the afternoon pressure.",
+     "summary": "Metals slide across the board while smallcaps slip",
+     "why": "Metals remain out of favour after Monday's rout, and buying has not spread to smaller stocks.",
      "names": [
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "line": "Metal weakness is cited as one reason the market pared its gains"
+       "move": "about -2%",
+       "line": "All 15 constituents are lower, per Business Upturn"
       },
       {
-       "name": "Hindalco",
+       "name": "Tata Steel",
        "dir": "down",
-       "move": "-2.02%",
-       "line": "Among the early Nifty losers as metal stocks stay under pressure"
+       "move": "down over 2%",
+       "line": "Extends Monday's slide after its tubes-arm sale to APL Apollo"
+      },
+      {
+       "name": "Nifty Smallcap 100",
+       "dir": "down",
+       "move": "-0.26%",
+       "line": "Lower even as the large-cap benchmarks gain"
       }
      ],
      "src": {
-      "title": "Sensex Today: Pares Gains, Slips 950 Pts From Day's High",
-      "url": "https://univest.in/blogs/sensex-today-pares-gains-falls-from-days-high-reasons"
+      "title": "Nifty Rally Narrow: NSE Advance Decline Ratio Weak, Metals, Media Drag",
+      "url": "https://businessupturn.com/finance/stock-market/nifty-50-gains-1-5-on-heavyweight-buying-but-market-breadth-stays-weak-with-1-675-nse-stocks-falling-against-1-524-rising/"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "fmcg-gains",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "FMCG becomes the day's standout",
+   "line": "Consumer stocks lead the sectors as the FMCG index reclaims its 200-day average",
+   "more": [
+    "ITC and HUL, about 47% of the index, are doing most of the lifting",
+    "Dabur India and Godrej Consumer also lead the gains"
+   ],
+   "src": {
+    "title": "Nifty FMCG Reclaims 200-DMA: Can It Test the 50,000 Mark in the Short Term?",
+    "url": "https://insights.dsij.in/dsijarticledetail/nifty-fmcg-above-200-dma-60616"
+   },
+   "date": "2026-11-25",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1305"
+   }
+  },
+  {
+   "key": "breadth",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "More stocks falling than rising",
+   "line": "1,675 NSE stocks are lower against 1,524 higher despite the strong benchmark gain",
+   "more": [
+    "Business Upturn calls the rally narrow and heavyweight-driven",
+    "Smallcaps are in the red"
+   ],
+   "src": {
+    "title": "Nifty Rally Narrow: NSE Advance Decline Ratio Weak, Metals, Media Drag",
+    "url": "https://businessupturn.com/finance/stock-market/nifty-50-gains-1-5-on-heavyweight-buying-but-market-breadth-stays-weak-with-1-675-nse-stocks-falling-against-1-524-rising/"
+   },
+   "date": "2026-11-25",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-25",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "metal-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Every metal stock is in the red",
+   "line": "All 15 members of the metal index are lower, per Business Upturn",
+   "more": [
+    "Tata Steel is down over 2%, per Business Standard",
+    "Metals led Monday's sell-off too"
+   ],
+   "src": {
+    "title": "Nifty Rally Narrow: NSE Advance Decline Ratio Weak, Metals, Media Drag",
+    "url": "https://businessupturn.com/finance/stock-market/nifty-50-gains-1-5-on-heavyweight-buying-but-market-breadth-stays-weak-with-1-675-nse-stocks-falling-against-1-524-rising/"
+   },
+   "date": "2026-11-25",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1105"
+   }
+  },
   {
    "key": "profit-booking",
    "tag": "Stocks",
@@ -100,7 +184,7 @@
    "slot": "1405",
    "when": "14:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1005"
@@ -124,34 +208,10 @@
    "slot": "1405",
    "when": "14:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1205"
-   }
-  },
-  {
-   "key": "fmcg-gains",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "FMCG cushions the pullback",
-   "line": "Consumer stocks were a bright spot that helped limit the market's slide from its high",
-   "more": [
-    "Univest names FMCG as the sector holding up in the afternoon",
-    "Metals were the main weak spot"
-   ],
-   "src": {
-    "title": "Sensex Today: Pares Gains, Slips 950 Pts From Day's High",
-    "url": "https://univest.in/blogs/sensex-today-pares-gains-falls-from-days-high-reasons"
-   },
-   "date": "2026-11-25",
-   "slot": "1405",
-   "when": "14:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "1305"
    }
   },
   {
@@ -422,54 +482,6 @@
    "first_seen": {
     "date": "2026-11-20",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "metal-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Metals miss the rebound",
-   "line": "Metal and media are the only sectors in the red as the wider market rallies",
-   "more": [
-    "Metals led Monday's losses on a firm dollar, Fed-hike odds and China demand doubts",
-    "Tata Steel is still lower after its asset sale to APL Apollo"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex surges 1,900 pts, Nifty tops 25,900; Nifty Financial Svcs up 2%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
-   },
-   "date": "2026-11-25",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "1105"
-   }
-  },
-  {
-   "key": "breadth",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Rally narrows beyond large caps",
-   "line": "Smallcaps have slipped into the red and midcaps trail the large-cap benchmarks",
-   "more": [
-    "Both the midcap and smallcap gauges were higher at the open, per DSIJ",
-    "Gains are now concentrated in large banks and IT"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex surges 1,900 pts, Nifty tops 25,900; Nifty Financial Svcs up 2%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
-   },
-   "date": "2026-11-25",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-25",
-    "slot": "1105"
    }
   },
   {

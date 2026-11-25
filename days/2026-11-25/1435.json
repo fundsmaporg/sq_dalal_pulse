@@ -1,0 +1,152 @@
+{
+ "asof": "2026-11-25T14:40:00+05:30",
+ "summary": "Indian shares are holding solid gains into the last hour, though off the day's peak; the rally rests on heavyweights and consumer stocks, while more shares are falling than rising.",
+ "mood": {
+  "label": "Narrow but firm",
+  "score": 0.35,
+  "detail": {
+   "stats": [],
+   "leaders": "FMCG, led by ITC, HUL, Dabur India and Godrej Consumer",
+   "laggards": "Metals including Tata Steel, and smallcaps",
+   "movers": {
+    "up": {
+     "summary": "FMCG leads, with ITC and HUL doing most of the lifting",
+     "why": "Consumer staples have become the strongest sector as buying shifts into defensive heavyweights.",
+     "names": [
+      {
+       "name": "Nifty FMCG",
+       "move": "+2.88%",
+       "dir": "up",
+       "line": "Reclaims its 200-day moving average, per DSIJ"
+      },
+      {
+       "name": "ITC",
+       "dir": "up",
+       "line": "With HUL, about 47% of the FMCG index and a main driver of its gain"
+      },
+      {
+       "name": "HUL",
+       "dir": "up",
+       "line": "Heavyweight carrying the FMCG rally alongside ITC"
+      },
+      {
+       "name": "Dabur India",
+       "dir": "up",
+       "line": "Leads the FMCG gainers with Godrej Consumer, per Business Standard"
+      }
+     ],
+     "src": {
+      "title": "Nifty FMCG Reclaims 200-DMA: Can It Test the 50,000 Mark in the Short Term?",
+      "url": "https://insights.dsij.in/dsijarticledetail/nifty-fmcg-above-200-dma-60616"
+     }
+    },
+    "down": {
+     "summary": "Metals slide across the board while smallcaps slip",
+     "why": "Metals remain out of favour after Monday's rout, and buying has not spread to smaller stocks.",
+     "names": [
+      {
+       "name": "Nifty Metal",
+       "move": "about -2%",
+       "dir": "down",
+       "line": "All 15 constituents are lower, per Business Upturn"
+      },
+      {
+       "name": "Tata Steel",
+       "move": "down over 2%",
+       "dir": "down",
+       "line": "Extends Monday's slide after its tubes-arm sale to APL Apollo"
+      },
+      {
+       "name": "Nifty Smallcap 100",
+       "move": "-0.26%",
+       "dir": "down",
+       "line": "Lower even as the large-cap benchmarks gain"
+      }
+     ],
+     "src": {
+      "title": "Nifty Rally Narrow: NSE Advance Decline Ratio Weak, Metals, Media Drag",
+      "url": "https://businessupturn.com/finance/stock-market/nifty-50-gains-1-5-on-heavyweight-buying-but-market-breadth-stays-weak-with-1-675-nse-stocks-falling-against-1-524-rising/"
+     }
+    }
+   },
+   "tone": "A live read. Much as in the previous note, the market is holding below its midday peak, with leadership rotating from banks to consumer stocks.",
+   "watch": [
+    "Whether breadth improves into the close",
+    "US GDP and core PCE data this evening",
+    "Details of the new US tariffs"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex up 1,300 pts, Nifty tops 25,700; Tata Steel shares down over 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25700,
+  "pct": 1.38,
+  "chg": 350,
+  "approx": true,
+  "asof_quote": "14:00"
+ },
+ "top": [
+  {
+   "key": "fmcg-gains",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "FMCG becomes the day's standout",
+   "line": "Consumer stocks lead the sectors as the FMCG index reclaims its 200-day average",
+   "more": [
+    "ITC and HUL, about 47% of the index, are doing most of the lifting",
+    "Dabur India and Godrej Consumer also lead the gains"
+   ],
+   "src": {
+    "title": "Nifty FMCG Reclaims 200-DMA: Can It Test the 50,000 Mark in the Short Term?",
+    "url": "https://insights.dsij.in/dsijarticledetail/nifty-fmcg-above-200-dma-60616"
+   }
+  },
+  {
+   "key": "breadth",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "More stocks falling than rising",
+   "line": "1,675 NSE stocks are lower against 1,524 higher despite the strong benchmark gain",
+   "more": [
+    "Business Upturn calls the rally narrow and heavyweight-driven",
+    "Smallcaps are in the red"
+   ],
+   "src": {
+    "title": "Nifty Rally Narrow: NSE Advance Decline Ratio Weak, Metals, Media Drag",
+    "url": "https://businessupturn.com/finance/stock-market/nifty-50-gains-1-5-on-heavyweight-buying-but-market-breadth-stays-weak-with-1-675-nse-stocks-falling-against-1-524-rising/"
+   }
+  },
+  {
+   "key": "metal-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Every metal stock is in the red",
+   "line": "All 15 members of the metal index are lower, per Business Upturn",
+   "more": [
+    "Tata Steel is down over 2%, per Business Standard",
+    "Metals led Monday's sell-off too"
+   ],
+   "src": {
+    "title": "Nifty Rally Narrow: NSE Advance Decline Ratio Weak, Metals, Media Drag",
+    "url": "https://businessupturn.com/finance/stock-market/nifty-50-gains-1-5-on-heavyweight-buying-but-market-breadth-stays-weak-with-1-675-nse-stocks-falling-against-1-524-rising/"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market LIVE: Sensex up 1,300 pts, Nifty tops 25,700; Tata Steel shares down over 2%",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+  },
+  {
+   "title": "Nifty FMCG Reclaims 200-DMA: Can It Test the 50,000 Mark in the Short Term?",
+   "url": "https://insights.dsij.in/dsijarticledetail/nifty-fmcg-above-200-dma-60616"
+  },
+  {
+   "title": "Nifty Rally Narrow: NSE Advance Decline Ratio Weak, Metals, Media Drag",
+   "url": "https://businessupturn.com/finance/stock-market/nifty-50-gains-1-5-on-heavyweight-buying-but-market-breadth-stays-weak-with-1-675-nse-stocks-falling-against-1-524-rising/"
+  }
+ ]
+}
