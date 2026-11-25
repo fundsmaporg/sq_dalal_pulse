@@ -1,33 +1,61 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-25T08:46:51+05:30",
+ "generated_at": "2026-11-25T09:26:17+05:30",
  "date": "2026-11-25",
- "slot": "0845",
- "slot_label": "8:45",
- "stage": "Pre-market mood",
- "asof": "2026-11-25T08:50:00+05:30",
+ "slot": "0925",
+ "slot_label": "9:25",
+ "stage": "Opening mood",
+ "asof": "2026-11-25T09:30:00+05:30",
  "nifty": {
-  "value": 25349.65,
-  "pct": -1.75,
-  "chg": -450.95,
-  "approx": false
+  "value": 25658,
+  "pct": 1.22,
+  "chg": 309,
+  "approx": false,
+  "asof_quote": "09:15"
  },
  "mood": {
-  "label": "Gap-up open likely",
-  "score": 0.35,
-  "summary": "A gap-up open is signalled as Indian shares catch up with Monday's global rally missed during the holiday, even as Asian markets slide on a renewed AI-trade unwind.",
+  "label": "Strong gap-up",
+  "score": 0.5,
+  "summary": "Indian shares opened with a broad, strong gap-up after the holiday, led by banks, financials and IT, as the market catches up with Monday's global rally despite weakness across Asia.",
   "detail": {
-   "leaders": "Banks and metals, which fell hardest on Monday and could recover first",
-   "laggards": "IT and chip-linked names if the overnight semiconductor slide carries over",
-   "tone": "A pre-open read. Cues have improved since the early-morning note: GIFT Nifty has held firmly higher despite Asia's slide, pointing to a catch-up rally after the holiday.",
+   "leaders": "Banks, financials and IT",
+   "laggards": "No clear laggards reported in early trade",
+   "tone": "A live read just after the open. The gap-up the pre-open cues pointed to has arrived in full, with gains broad across the big sectors.",
    "watch": [
-    "Whether the gap-up holds as Asian markets fall",
-    "Details of the new US tariffs",
-    "US GDP and core PCE data this evening"
+    "Whether banks hold their opening bounce",
+    "Asian markets, which remain weak",
+    "Details of new US tariffs"
    ],
    "src": {
-    "title": "Pre-Market Update: GIFT Nifty Signals Gap-Up Opening; AI Volatility, Weak Asian Markets",
-    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-gap-up-opening-ai-volatility-weak-asian-markets-60604"
+    "title": "Stock Market LIVE: Sensex soars 1,300 pts, Nifty tops 25,700; bank, financials, IT advance",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+   },
+   "movers": {
+    "up": {
+     "summary": "Banks, financials and IT lead the opening rally",
+     "why": "The sectors sold hardest on Monday are leading the catch-up rally after the holiday.",
+     "names": [
+      {
+       "name": "Nifty Bank",
+       "dir": "up",
+       "line": "Rebounds after Monday's heavy bank-led sell-off"
+      },
+      {
+       "name": "Nifty Financial Services",
+       "dir": "up",
+       "line": "Financials advance alongside banks at the open"
+      },
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "line": "IT joins the advance despite the overnight US chip slide"
+      }
+     ],
+     "src": {
+      "title": "Stock Market LIVE: Sensex soars 1,300 pts, Nifty tops 25,700; bank, financials, IT advance",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+     }
+    }
    }
   }
  },
@@ -36,20 +64,19 @@
    "key": "gift-nifty",
    "tag": "Opening",
    "impact": "pos",
-   "title": "GIFT Nifty points to a strong gap-up",
-   "line": "25,737.50 at 07:01, a premium of about 388 points to Monday's Nifty close, per DSIJ",
+   "title": "Gap-up open after the holiday",
+   "line": "Indian shares catch up with Monday's global rally missed during Tuesday's holiday",
    "more": [
-    "NewsDrum had it near 25,773 around 8 a.m., with an early high of 25,818.50",
-    "The move catches up with Monday's global rally missed during the holiday",
-    "Analysts flag resistance in the 25,650–25,700 zone"
+    "The rally is broad across the large sectors, per Business Standard",
+    "Bank, financial and IT stocks lead"
    ],
    "src": {
-    "title": "Pre-Market Update: GIFT Nifty Signals Gap-Up Opening; AI Volatility, Weak Asian Markets",
-    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-gap-up-opening-ai-volatility-weak-asian-markets-60604"
+    "title": "Stock Market LIVE: Sensex soars 1,300 pts, Nifty tops 25,700; bank, financials, IT advance",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
    },
    "date": "2026-11-25",
-   "slot": "0845",
-   "when": "8:45",
+   "slot": "0925",
+   "when": "9:25",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -58,23 +85,47 @@
    }
   },
   {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Banks lead the rebound",
+   "line": "Lenders hit hardest on Monday are among the biggest early gainers",
+   "more": [
+    "Banks were Monday's main drag",
+    "Stratzy flags banks as the test of whether the gap-up holds"
+   ],
+   "src": {
+    "title": "Are we Already Over Monday's Fall?",
+    "url": "https://stratzyhq.substack.com/p/are-we-already-over-mondays-fall"
+   },
+   "date": "2026-11-25",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1205"
+   }
+  },
+  {
    "key": "asia-chip-rout",
    "tag": "Global",
    "impact": "neg",
-   "title": "Kospi down about 5% as AI trade unwinds",
-   "line": "Asian markets slide on Wednesday after Tuesday's sharp chip-led rally",
+   "title": "Asia stays weak on AI unwind",
+   "line": "Indian shares rise even as Asian markets slide on a chip sell-off",
    "more": [
-    "Nikkei also fell more than 2% in early trade",
-    "Semiconductor stocks are leading the reversal"
+    "Kospi fell about 5% in early trade",
+    "India's gains so far are bucking the regional trend"
    ],
    "src": {
-    "title": "Stock Market LIVE: GIFT Nifty jumps 200 pts; Kospi down 5% as AI-trade unwind",
+    "title": "Stock Market LIVE: Sensex soars 1,300 pts, Nifty tops 25,700; bank, financials, IT advance",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
    },
    "thread": "global-markets",
    "date": "2026-11-25",
-   "slot": "0845",
-   "when": "8:45",
+   "slot": "0925",
+   "when": "9:25",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -100,7 +151,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-25",
     "slot": "0845"
@@ -124,7 +175,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-25",
     "slot": "0845"
@@ -148,7 +199,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-21",
     "slot": "0800"
@@ -354,30 +405,6 @@
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1035"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Banks give back their record run",
-   "line": "HDFC Bank, ICICI Bank and Axis Bank fell sharply; IndusInd Bank down about 4%",
-   "more": [
-    "Bank Nifty had hit a record on Friday",
-    "PSU and private lenders both fell hard"
-   ],
-   "src": {
-    "title": "Closing Bell: Sensex Tanks 1,484 Pts, Bank Nifty Down 3%",
-    "url": "https://univest.in/blogs/closing-bell-sensex-nifty-bank-nifty-23-november-2026"
-   },
-   "date": "2026-11-23",
-   "slot": "1605",
-   "when": "Mon · 16:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "1205"
    }
   },
   {
