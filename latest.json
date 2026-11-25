@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-25T18:00:50+05:30",
+ "generated_at": "2026-11-25T21:00:14+05:30",
  "date": "2026-11-25",
- "slot": "1800",
- "slot_label": "18:00",
+ "slot": "2100",
+ "slot_label": "21:00",
  "stage": "Evening wrap",
- "asof": "2026-11-25T18:05:00+05:30",
+ "asof": "2026-11-25T21:05:00+05:30",
  "nifty": {
   "value": 25819.25,
   "pct": 1.85,
@@ -13,21 +13,21 @@
   "approx": false
  },
  "mood": {
-  "label": "Cautious start likely",
-  "score": -0.1,
-  "summary": "After a strong rebound in Indian shares, the setup for Thursday looks more cautious: US tech futures are sliding ahead of key inflation data, and Gulf oil tensions have flared again.",
+  "label": "Weak start likely",
+  "score": -0.45,
+  "summary": "Indian shares face a weak start on Thursday after their strong rebound, as Wall Street sinks on hotter US inflation, a renewed chip rout and new US tariff proposals that include India.",
   "detail": {
-   "leaders": "FMCG and banks led today's rebound and are the names to watch for follow-through",
-   "laggards": "Metals, led by Tata Steel, stayed weak through the session",
-   "tone": "A forward-looking read for Thursday. Softer than the close: today's gains face a test from falling US tech futures, a likely December Fed hike and renewed Gulf tension.",
+   "leaders": "FMCG and banks led today's rebound; their follow-through is the first test",
+   "laggards": "Metals led by Tata Steel were weak, and US tech stocks are selling off hard",
+   "tone": "A forward-looking read for Thursday. Clearly softer than the previous note: the US sell-off has deepened since then, and India now faces a proposed tariff of up to 25%.",
    "watch": [
-    "US PCE and GDP figures, due around 7 pm IST",
-    "Provisional FII and DII figures for today, still awaited",
-    "Fallout from the Houthi strikes on Saudi Arabia's Ras Tanura refinery"
+    "How far the US sell-off runs before Thursday's Thanksgiving close",
+    "India's response to the proposed tariffs",
+    "Provisional FII and DII figures for today, still awaited"
    ],
    "src": {
-    "title": "Why are Nasdaq futures plunging ahead of PCE inflation data? 5 things to know",
-    "url": "https://invezz.com/news/2026/11/25/nasdaq-futures-today-pce-trump-tariffs-dell-november-25"
+    "title": "Stock market today: Dow, S&P 500, Nasdaq sink on hot inflation, new Trump tariffs as chip rout continues",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
    }
   }
  },
@@ -36,21 +36,21 @@
    "key": "us-markets",
    "tag": "Global",
    "impact": "neg",
-   "title": "Nasdaq futures slide ahead of US data",
-   "line": "Nasdaq-100 futures fell 2%, S&P 500 futures 1.2% and Dow futures 0.6%, per Invezz",
+   "title": "Wall Street sinks on chips, inflation, tariffs",
+   "line": "Nasdaq was down about 4.1%, S&P 500 2.7% and Dow 2% in live trade, per Yahoo Finance",
    "more": [
-    "Nvidia extended its fall after Monday's surge",
-    "Tariff worries and Asian chip losses also weighed",
-    "US markets are shut on Thursday for Thanksgiving"
+    "Chip stocks fell about 7.1%, erasing Monday's Huang rally",
+    "The Nasdaq is on pace for its worst November since 2008",
+    "Reports differ on the size of the fall by time of writing"
    ],
    "src": {
-    "title": "Why are Nasdaq futures plunging ahead of PCE inflation data? 5 things to know",
-    "url": "https://invezz.com/news/2026/11/25/nasdaq-futures-today-pce-trump-tariffs-dell-november-25"
+    "title": "Stock market today: Dow, S&P 500, Nasdaq sink on hot inflation, new Trump tariffs as chip rout continues",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
    },
    "thread": "global-markets",
    "date": "2026-11-25",
-   "slot": "1800",
-   "when": "18:00",
+   "slot": "2100",
+   "when": "21:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -59,24 +59,50 @@
    }
   },
   {
-   "key": "us-rates",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "US PCE and GDP due tonight",
-   "line": "October PCE and revised Q3 GDP are due at 8:30 am ET, about 7 pm IST",
+   "key": "us-tariffs",
+   "tag": "Policy",
+   "impact": "neg",
+   "title": "US proposes tariffs of up to 25% on India",
+   "line": "India faces 17% with a trade deal or 25% without; China 20% and the EU 15%",
    "more": [
-    "Headline PCE is expected at 3.8% against 3.6%; core at 3.2%",
-    "CME FedWatch odds of a December hike were cited at 96.4%",
-    "It is the last inflation read before the Fed's December meeting"
+    "The proposal covers 14 trading partners",
+    "Public hearings mean no levy can start before January 2027",
+    "An official said rates could rise depending on responses"
    ],
    "src": {
-    "title": "US PCE Inflation Data and Q3 GDP Due Today; Key Numbers to Watch Ahead of December Fed Rate Decision",
-    "url": "https://www.kotakneo.com/news/global-markets/us-pce-inflation-and-q3-gdp-data-november-25-fed-rate-decision-and-indian-markets/"
+    "title": "Trump proposes new tariffs on China, EU and 12 other partners",
+    "url": "https://invezz.com/news/2026/11/25/trump-new-tariffs-14-economies-2026/"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-25",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-25",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "us-rates",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Hot US core inflation backs a Fed hike",
+   "line": "Core PCE rose 3.3% in October, above the 3.2% expected; headline PCE was 3.8%",
+   "more": [
+    "Q3 GDP was revised up to 4.3% from 3.4%",
+    "Kalshi priced a 93% chance of a December hike, per one report",
+    "Monthly core inflation was about 0.3%"
+   ],
+   "src": {
+    "title": "PCE Inflation Hits 3.8% as Expected, 3Q GDP Growth Revised Up to 4.3%",
+    "url": "https://www.benzinga.com/markets/economic-data/26/11/63619838/pce-inflation-october-gdp-second-estimate"
    },
    "thread": "us-rates",
    "date": "2026-11-25",
-   "slot": "1800",
-   "when": "18:00",
+   "slot": "2100",
+   "when": "21:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -102,7 +128,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1800"
@@ -642,32 +668,6 @@
    "first_seen": {
     "date": "2026-11-21",
     "slot": "0800"
-   }
-  },
-  {
-   "key": "us-tariffs",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "US readies a fresh wave of tariffs",
-   "line": "Reports say tariffs on most imports from China, the EU and over a dozen others are near",
-   "more": [
-    "EU, Japan and South Korea expected to face 15% or less, per reports",
-    "The plan replaces tariffs struck down by the Supreme Court",
-    "Rates and timing are not yet official"
-   ],
-   "src": {
-    "title": "US Readies Tariff Hike on China, EU Goods as Soon as Tuesday",
-    "url": "https://bloomberg.com/news/articles/2026-11-24/us-readies-tariff-hike-on-china-eu-goods-as-soon-as-tuesday"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-25",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-25",
-    "slot": "0700"
    }
   },
   {
