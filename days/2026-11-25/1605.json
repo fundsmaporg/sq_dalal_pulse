@@ -1,0 +1,195 @@
+{
+ "asof": "2026-11-25T16:10:00+05:30",
+ "summary": "Indian shares closed with a big post-holiday rebound led by consumer staples and financials, recovering most of Monday's fall, while metal stocks ended firmly lower.",
+ "mood": {
+  "label": "Strong rebound",
+  "score": 0.55,
+  "detail": {
+   "stats": [],
+   "leaders": "HUL, Bajaj Finserv, Tata Consumer and InterGlobe Aviation",
+   "laggards": "Metals led by Tata Steel, Hindalco and JSW Steel, plus ONGC",
+   "movers": {
+    "up": {
+     "summary": "HUL, Bajaj Finserv, Tata Consumer and IndiGo top the Nifty gainers",
+     "why": "Foreign buying lifted consumer staples and financials, and lower crude helped fuel-sensitive stocks.",
+     "names": [
+      {
+       "name": "HUL",
+       "move": "up ~4%",
+       "dir": "up",
+       "line": "Led FMCG to a three-month high as foreign buying lifted staples"
+      },
+      {
+       "name": "Bajaj Finserv",
+       "dir": "up",
+       "line": "Top Nifty gainer at noon as financials led the rebound"
+      },
+      {
+       "name": "Tata Consumer",
+       "move": "+3.9%",
+       "dir": "up",
+       "line": "Rallied with HUL and ITC in the FMCG surge"
+      },
+      {
+       "name": "InterGlobe Aviation",
+       "move": "+3.76%",
+       "dir": "up",
+       "line": "Gained as Brent slid; lower crude cuts airlines' fuel costs"
+      }
+     ],
+     "src": {
+      "title": "Sensex gains 1500 points, Nifty above 25800",
+      "url": "https://www.chinimandi.com/sensex-gains-1500-points-nifty-above-25800/"
+     }
+    },
+    "down": {
+     "summary": "Tata Steel, Hindalco and JSW Steel led losses, with ONGC lower",
+     "why": "Metals stayed out of the rebound after Monday's rout, and lower crude weighed on upstream oil producers.",
+     "names": [
+      {
+       "name": "Tata Steel",
+       "dir": "down",
+       "line": "Top Nifty loser, extending its slide after the APL Apollo tubes deal"
+      },
+      {
+       "name": "Hindalco",
+       "dir": "down",
+       "line": "Among the top losers as every metal stock ended in the red"
+      },
+      {
+       "name": "JSW Steel",
+       "dir": "down",
+       "line": "Steel names stayed under pressure through the session"
+      },
+      {
+       "name": "ONGC",
+       "move": "-1.33%",
+       "dir": "down",
+       "line": "Lower crude prices weigh on the upstream oil producer"
+      }
+     ],
+     "src": {
+      "title": "Sensex gains 1500 points, Nifty above 25800",
+      "url": "https://www.chinimandi.com/sensex-gains-1500-points-nifty-above-25800/"
+     }
+    }
+   },
+   "tone": "A read on the finished session. Firmer than the previous note's live read, with the market closing well up after recovering most of its early-afternoon dip.",
+   "watch": [
+    "Provisional FII and DII figures this evening",
+    "US PCE inflation data tonight",
+    "Strikes on Saudi oil facilities and Iran's Hormuz threats"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex surges 1,502 pts, Nifty ends at 25,819; Nifty FMCG rises 3.8%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25819.25,
+  "pct": 1.85,
+  "chg": 469.6,
+  "approx": false
+ },
+ "metrics": {
+  "brent_usd": {
+   "value": 87.54,
+   "asof": "2026-11-25 morning",
+   "approx": false,
+   "src": {
+    "title": "Oil Prices Today: Brent Crude Falls 1.4% to $87.54 as Supply Glut Concerns Offset Middle East Tensions",
+    "url": "https://www.kotakneo.com/news/commodities/oil-prices-fall-as-global-supply-glut-outweighs-middle-east-tensions-brent-crude-at-87-54/"
+   }
+  },
+  "india_vix": {
+   "value": 16.67,
+   "asof": "2026-11-25 session",
+   "approx": false,
+   "src": {
+    "title": "India VIX Falls 5.83% to 16.67 as Sensex Surges 1,465 Points on Record ₹1.27 Lakh Crore Foreign Inflows",
+    "url": "https://hdfcsky.com/news/india-vix-falls-5-83percent-to-16-67-as-sensex-surges-1465-points-on-record-rs1-27-lakh-crore-foreign-inflows-november-25-2026"
+   }
+  }
+ },
+ "top": [
+  {
+   "key": "crude-iran-war",
+   "tag": "Global",
+   "impact": "watch",
+   "thread": "crude-iran-war",
+   "title": "Houthis strike Saudi Ras Tanura refinery",
+   "line": "Crude rose off its lows after the Houthi strikes and new Iranian threats over Hormuz",
+   "more": [
+    "Brent had fallen 1.4% to $87.54 early on supply-glut worries",
+    "A later update had Brent back above $88.50",
+    "Another recap put Brent at $90.10 in the morning"
+   ],
+   "src": {
+    "title": "Crude climbs off lows as Houthis confirm strikes on Saudi's Ras Tanura refinery and Iran ramps up Hormuz rhetoric",
+    "url": "https://newsquawk.com/headlines/market-analysis-crude-climbs-off-lows-as-houthis-confirm-strikes-on-saudis-ras-tanura-refinery-and-iran-ramps-up-hormuz-rhetoric-spot-gold-remains-pressured-ahead-of-us-pce"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "thread": "fii-flows",
+   "title": "November foreign inflows hit a record",
+   "line": "HDFC Sky puts November foreign inflows at a record ₹1.27 lakh crore",
+   "more": [
+    "A pre-market report had the month-to-date total at about ₹1.18 lakh crore",
+    "Today's provisional flow figures are due this evening"
+   ],
+   "src": {
+    "title": "India VIX Falls 5.83% to 16.67 as Sensex Surges 1,465 Points on Record ₹1.27 Lakh Crore Foreign Inflows",
+    "url": "https://hdfcsky.com/news/india-vix-falls-5-83percent-to-16-67-as-sensex-surges-1465-points-on-record-rs1-27-lakh-crore-foreign-inflows-november-25-2026"
+   }
+  },
+  {
+   "key": "fmcg-gains",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "HUL tops the Nifty gainers at the close",
+   "line": "HUL, Bajaj Finserv, Tata Consumer, IndiGo and HDFC Life led the Nifty gainers",
+   "more": [
+    "FMCG ended as the day's top sector",
+    "Tata Steel, ONGC, Hindalco, JSW Steel and Max Healthcare were the top losers"
+   ],
+   "src": {
+    "title": "Sensex gains 1500 points, Nifty above 25800",
+    "url": "https://www.chinimandi.com/sensex-gains-1500-points-nifty-above-25800/"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market Close: Sensex surges 1,502 pts, Nifty ends at 25,819; Nifty FMCG rises 3.8%",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+  },
+  {
+   "title": "Sensex gains 1500 points, Nifty above 25800",
+   "url": "https://www.chinimandi.com/sensex-gains-1500-points-nifty-above-25800/"
+  },
+  {
+   "title": "India VIX Falls 5.83% to 16.67 as Sensex Surges 1,465 Points on Record ₹1.27 Lakh Crore Foreign Inflows",
+   "url": "https://hdfcsky.com/news/india-vix-falls-5-83percent-to-16-67-as-sensex-surges-1465-points-on-record-rs1-27-lakh-crore-foreign-inflows-november-25-2026"
+  },
+  {
+   "title": "Oil Prices Today: Brent Crude Falls 1.4% to $87.54 as Supply Glut Concerns Offset Middle East Tensions",
+   "url": "https://www.kotakneo.com/news/commodities/oil-prices-fall-as-global-supply-glut-outweighs-middle-east-tensions-brent-crude-at-87-54/"
+  },
+  {
+   "title": "Crude climbs off lows as Houthis confirm strikes on Saudi's Ras Tanura refinery and Iran ramps up Hormuz rhetoric",
+   "url": "https://newsquawk.com/headlines/market-analysis-crude-climbs-off-lows-as-houthis-confirm-strikes-on-saudis-ras-tanura-refinery-and-iran-ramps-up-hormuz-rhetoric-spot-gold-remains-pressured-ahead-of-us-pce"
+  },
+  {
+   "title": "Crude oil crashes 8%: IndiGo, Asian Paints, HPCL, BPCL rally up to 6.7%; ONGC, Oil India slide",
+   "url": "https://upstox.com/news/market-news/stocks/crude-oil-plunges-8-why-asian-paints-mrf-indi-go-ioc-hpcl-bpcl-and-ril-are-in-focus/article-203008/"
+  },
+  {
+   "title": "Pre-Market Report 25 November 2026: GIFT Nifty Flags Bounce",
+   "url": "https://www.marketcalls.in/futures-and-options/pre-market-report-25-november-2026.html"
+  }
+ ]
+}
