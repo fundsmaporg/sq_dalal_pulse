@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-25T07:00:58+05:30",
+ "generated_at": "2026-11-25T08:46:51+05:30",
  "date": "2026-11-25",
- "slot": "0700",
- "slot_label": "7:00",
+ "slot": "0845",
+ "slot_label": "8:45",
  "stage": "Pre-market mood",
- "asof": "2026-11-25T07:05:00+05:30",
+ "asof": "2026-11-25T08:50:00+05:30",
  "nifty": {
   "value": 25349.65,
   "pct": -1.75,
@@ -13,25 +13,147 @@
   "approx": false
  },
  "mood": {
-  "label": "Choppy reopening likely",
-  "score": -0.15,
-  "summary": "Indian shares reopen after the holiday into mixed cues: the chip rally faded overnight, Asia is sliding early and fresh US tariff plans weigh, against steady foreign buying at home.",
+  "label": "Gap-up open likely",
+  "score": 0.35,
+  "summary": "A gap-up open is signalled as Indian shares catch up with Monday's global rally missed during the holiday, even as Asian markets slide on a renewed AI-trade unwind.",
   "detail": {
-   "leaders": "Value and defensive names, mirroring the Dow's gains overnight",
-   "laggards": "IT and chip-linked names after the overnight semiconductor slide",
-   "tone": "A forward read before the first session since Monday's sharp fall. Global cues swung from a strong Monday rally to a tech-led retreat on Tuesday, so the open may be uneven.",
+   "leaders": "Banks and metals, which fell hardest on Monday and could recover first",
+   "laggards": "IT and chip-linked names if the overnight semiconductor slide carries over",
+   "tone": "A pre-open read. Cues have improved since the early-morning note: GIFT Nifty has held firmly higher despite Asia's slide, pointing to a catch-up rally after the holiday.",
    "watch": [
-    "Whether Asia's early slide deepens into the Indian open",
-    "Details of the new US tariffs and India's exposure",
-    "US GDP and core PCE data later today"
+    "Whether the gap-up holds as Asian markets fall",
+    "Details of the new US tariffs",
+    "US GDP and core PCE data this evening"
    ],
    "src": {
-    "title": "Nasdaq, S&P 500 end lower following Monday's Nvidia-fueled rally",
-    "url": "https://www.marketscreener.com/news/nasdaq-s-p-500-end-lower-following-monday-s-nvidia-fueled-rally-ce7851dbdd81f720"
+    "title": "Pre-Market Update: GIFT Nifty Signals Gap-Up Opening; AI Volatility, Weak Asian Markets",
+    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-gap-up-opening-ai-volatility-weak-asian-markets-60604"
    }
   }
  },
  "insights": [
+  {
+   "key": "gift-nifty",
+   "tag": "Opening",
+   "impact": "pos",
+   "title": "GIFT Nifty points to a strong gap-up",
+   "line": "25,737.50 at 07:01, a premium of about 388 points to Monday's Nifty close, per DSIJ",
+   "more": [
+    "NewsDrum had it near 25,773 around 8 a.m., with an early high of 25,818.50",
+    "The move catches up with Monday's global rally missed during the holiday",
+    "Analysts flag resistance in the 25,650–25,700 zone"
+   ],
+   "src": {
+    "title": "Pre-Market Update: GIFT Nifty Signals Gap-Up Opening; AI Volatility, Weak Asian Markets",
+    "url": "https://insights.dsij.in/dsijarticledetail/pre-market-update-gift-nifty-signals-gap-up-opening-ai-volatility-weak-asian-markets-60604"
+   },
+   "date": "2026-11-25",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "asia-chip-rout",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Kospi down about 5% as AI trade unwinds",
+   "line": "Asian markets slide on Wednesday after Tuesday's sharp chip-led rally",
+   "more": [
+    "Nikkei also fell more than 2% in early trade",
+    "Semiconductor stocks are leading the reversal"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: GIFT Nifty jumps 200 pts; Kospi down 5% as AI-trade unwind",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-25",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "abb-india",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "ABB India to buy Ziehl-Abegg",
+   "line": "Motor and fan maker acquired at an enterprise value of $2.65 bn",
+   "more": [
+    "Equity value is $2.22 bn",
+    "Deal announced before Wednesday's open, per Angel One"
+   ],
+   "src": {
+    "title": "Stocks to Watch Today: ABB, Brigade Enterprises, RMC Switchgears and Others (November 25, 2026)",
+    "url": "https://www.angelone.in/news/market-updates/stocks-to-watch-today-abb-brigade-enterprises-rmc-switchgears-and-others-november-25-2026"
+   },
+   "date": "2026-11-25",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-25",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "brigade-enterprises",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Brigade logs ₹1,600 cr launch-weekend sales",
+   "line": "Strong bookings at its Floris project; also buys Secunderabad land for ₹180 cr",
+   "more": [
+    "Land parcel covers 2.25 acres",
+    "Announced before Wednesday's open, per Angel One"
+   ],
+   "src": {
+    "title": "Stocks to Watch Today: ABB, Brigade Enterprises, RMC Switchgears and Others (November 25, 2026)",
+    "url": "https://www.angelone.in/news/market-updates/stocks-to-watch-today-abb-brigade-enterprises-rmc-switchgears-and-others-november-25-2026"
+   },
+   "date": "2026-11-25",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-25",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "fo-expiry",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "December F&O series begins today",
+   "line": "First session of the new derivatives series after Monday's expiry",
+   "more": [
+    "Zee Business notes historical odds favour a positive series start",
+    "Zee Entertainment's buyback record date is also today"
+   ],
+   "src": {
+    "title": "December series starts today: 5 key things investors should watch",
+    "url": "https://www.zeebiz.com/market-news/news-december-series-starts-today-5-key-things-investors-should-watch-405961"
+   },
+   "date": "2026-11-25",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "0800"
+   }
+  },
   {
    "key": "us-markets",
    "tag": "Global",
@@ -52,7 +174,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "0700"
@@ -78,34 +200,9 @@
    "slot": "0700",
    "when": "7:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-25",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "asia-chip-rout",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Kospi and Nikkei slide in early trade",
-   "line": "Kospi down 4.45% and Nikkei 2.35% around 9:50 a.m. local time",
-   "more": [
-    "Both had surged on Tuesday after Nvidia reinstated Jensen Huang",
-    "Chip stocks lead the reversal"
-   ],
-   "src": {
-    "title": "Kospi Sinks More Than 4%, Nikkei Slides More Than 2% in Early Wednesday Trading After Wall Street's Tuesday Retreat",
-    "url": "https://jbiznews.com/kospi-sinks-more-than-4-nikkei-slides-more-than-2-in-early-wednesday-trading-after-wall-streets-tuesday-retreat/"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-25",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-23",
     "slot": "0700"
    }
   },
@@ -127,7 +224,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-21",
     "slot": "0800"
@@ -356,30 +453,6 @@
    }
   },
   {
-   "key": "fo-expiry",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Expiry done; market shut until Wednesday",
-   "line": "Monthly F&O series settled today; Tuesday is a holiday for Guru Nanak Jayanti",
-   "more": [
-    "Next session is Wednesday 25 November",
-    "Reports differ on the exact closing level"
-   ],
-   "src": {
-    "title": "Stock Market Close: Sensex tanks 1,484 pts, Nifty ends at 25,350; metal, PSU bank bleed",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
-   },
-   "date": "2026-11-23",
-   "slot": "1535",
-   "when": "Mon · 15:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
-   }
-  },
-  {
    "key": "profit-booking",
    "tag": "Opening",
    "impact": "neg",
@@ -499,31 +572,6 @@
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "gift-nifty",
-   "tag": "Opening",
-   "impact": "pos",
-   "title": "Open firm, but below pre-open highs",
-   "line": "Indices rose as oil eased, with the AI-trade unwind still deepening abroad",
-   "more": [
-    "Nifty was stronger in pre-open, per Business Upturn",
-    "Kospi fell more than 3% this morning, per Tradebrains",
-    "US futures bounced after Friday's sell-off"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex rises 200 pts, Nifty tops 25,850; APL Apollo Tubes hits 10% lower circuit",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
-   },
-   "date": "2026-11-23",
-   "slot": "0925",
-   "when": "Mon · 9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "0845"
    }
   },
   {
