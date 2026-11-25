@@ -1,83 +1,170 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-25T10:38:24+05:30",
+ "generated_at": "2026-11-25T11:06:54+05:30",
  "date": "2026-11-25",
- "slot": "1035",
- "slot_label": "10:35",
+ "slot": "1105",
+ "slot_label": "11:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-25T10:40:00+05:30",
+ "asof": "2026-11-25T11:10:00+05:30",
  "nifty": {
-  "value": 25731.35,
-  "pct": 1.51,
-  "chg": 381.7,
-  "approx": false,
-  "asof_quote": "10:11"
+  "value": 25871.7,
+  "pct": 2.06,
+  "chg": 522,
+  "approx": true,
+  "asof_quote": "11:00"
  },
  "mood": {
-  "label": "Gains hold steady",
-  "score": 0.5,
-  "summary": "Indian shares are holding a broad post-holiday rally through mid-morning, with banks and IT doing the lifting and only a handful of large names in the red.",
+  "label": "Rally gathers pace",
+  "score": 0.6,
+  "summary": "The post-holiday rally has gathered pace into late morning on heavy buying in banks, financials and IT, but it is narrow: smallcaps have slipped and metals are lagging.",
   "detail": {
-   "leaders": "HDFC Bank and IT majors TCS and Infosys",
-   "laggards": "Tata Steel, still weighed down by its asset-sale deal",
-   "tone": "A live read. The rally is holding broadly steady rather than extending, with the same bank and IT leadership seen at the open.",
+   "leaders": "Financials led by HDFC Bank and ICICI Bank, plus Infosys",
+   "laggards": "Metals including Tata Steel, and smallcaps",
+   "tone": "A live read. Firmer than the previous note, but the gains are increasingly concentrated in large banks and IT while smaller stocks fade.",
    "watch": [
-    "Whether banks keep leading as Asia stays weak",
+    "Whether smallcaps and midcaps rejoin the rally",
     "US GDP and core PCE data this evening",
     "Details of the new US tariffs"
    ],
    "src": {
-    "title": "Sensex Jumps 1,300 Points, Nifty Gains 1.5% on November 25",
-    "url": "https://www.nationpathindia.com/economy/sensex-jumps-1300-points-nifty-gains-november-25-2026"
+    "title": "Stock Market LIVE: Sensex surges 1,900 pts, Nifty tops 25,900; Nifty Financial Svcs up 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
    },
    "movers": {
     "up": {
-     "summary": "HDFC Bank and the IT majors keep leading the rebound",
-     "why": "Banking and IT stocks are carrying the recovery as India catches up with the global rally it missed on Tuesday's holiday.",
+     "summary": "Financials and IT lead, with HDFC Bank and ICICI Bank on top",
+     "why": "Lenders sold hardest on Monday are leading the catch-up rally, with IT tracking the global tech move India missed on Tuesday's holiday.",
      "names": [
+      {
+       "name": "Nifty Financial Services",
+       "dir": "up",
+       "move": "+2%",
+       "line": "Top-performing sector, per Business Standard's live blog"
+      },
       {
        "name": "HDFC Bank",
        "dir": "up",
        "move": "+3.5%",
-       "line": "Top Sensex gainer after leading Monday's bank sell-off"
+       "line": "Top Nifty gainer after leading Monday's bank sell-off"
       },
       {
-       "name": "TCS",
+       "name": "ICICI Bank",
        "dir": "up",
-       "move": "up to 4%",
-       "line": "Leads IT names catching up with Monday's US tech surge"
+       "line": "Among the top three Nifty gainers alongside HDFC Bank"
       },
       {
        "name": "Infosys",
        "dir": "up",
-       "move": "up to 4%",
-       "line": "Among the key gainers alongside HDFC Bank and ICICI Bank"
+       "line": "Leads the IT pack among the top Nifty gainers"
       }
      ],
      "src": {
-      "title": "Why market is rising today: Sensex gains over 1,300 pts, Nifty crosses 25,700 mark",
-      "url": "https://www.businesstoday.in/markets/stocks/story/why-market-is-rising-today-sensex-gains-over-1300-pts-nifty-crosses-25700-569286-2026-11-25"
+      "title": "Stock Market LIVE: Sensex surges 1,900 pts, Nifty tops 25,900; Nifty Financial Svcs up 2%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
      }
     },
     "down": {
-     "summary": "Tata Steel is among the few large stocks in the red",
-     "why": "Buying is broad, so only a handful of Sensex names are lower.",
+     "summary": "Metals and smallcaps sit out the rally",
+     "why": "Buying is concentrated in large banks and IT, leaving metals, media and smaller stocks behind.",
      "names": [
+      {
+       "name": "Nifty Metal",
+       "dir": "down",
+       "line": "With media, the only sector in the red after Monday's steep metal sell-off"
+      },
       {
        "name": "Tata Steel",
        "dir": "down",
        "line": "Extends Monday's slide after agreeing to sell assets to APL Apollo"
+      },
+      {
+       "name": "Nifty Smallcap 100",
+       "dir": "down",
+       "move": "-0.26%",
+       "line": "Slipped into the red even as the large-cap benchmarks extend gains"
       }
      ],
      "src": {
-      "title": "Why market is rising today: Sensex gains over 1,300 pts, Nifty crosses 25,700 mark",
-      "url": "https://www.businesstoday.in/markets/stocks/story/why-market-is-rising-today-sensex-gains-over-1300-pts-nifty-crosses-25700-569286-2026-11-25"
+      "title": "Stock Market LIVE: Sensex surges 1,900 pts, Nifty tops 25,900; Nifty Financial Svcs up 2%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Financials lead the sector board",
+   "line": "HDFC Bank and ICICI Bank top the Nifty gainers as bank and financial stocks outperform",
+   "more": [
+    "Nifty Bank and Private Bank are also among the outperforming sectors",
+    "Banks were the main drag in Monday's sell-off"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex surges 1,900 pts, Nifty tops 25,900; Nifty Financial Svcs up 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+   },
+   "date": "2026-11-25",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1205"
+   }
+  },
+  {
+   "key": "metal-selloff",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Metals miss the rebound",
+   "line": "Metal and media are the only sectors in the red as the wider market rallies",
+   "more": [
+    "Metals led Monday's losses on a firm dollar, Fed-hike odds and China demand doubts",
+    "Tata Steel is still lower after its asset sale to APL Apollo"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex surges 1,900 pts, Nifty tops 25,900; Nifty Financial Svcs up 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+   },
+   "date": "2026-11-25",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "breadth",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Rally narrows beyond large caps",
+   "line": "Smallcaps have slipped into the red and midcaps trail the large-cap benchmarks",
+   "more": [
+    "Both the midcap and smallcap gauges were higher at the open, per DSIJ",
+    "Gains are now concentrated in large banks and IT"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex surges 1,900 pts, Nifty tops 25,900; Nifty Financial Svcs up 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+   },
+   "date": "2026-11-25",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-25",
+    "slot": "1105"
+   }
+  },
   {
    "key": "asia-chip-rout",
    "tag": "Global",
@@ -97,34 +184,10 @@
    "slot": "1035",
    "when": "10:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Banks still carry the recovery",
-   "line": "Banking stocks remain a main support for the rally, per a Reuters-based report",
-   "more": [
-    "HDFC Bank is the top Sensex gainer, up 3.5%",
-    "ICICI Bank is also among the key gainers"
-   ],
-   "src": {
-    "title": "Sensex Jumps 1,300 Points, Nifty Gains 1.5% on November 25",
-    "url": "https://www.nationpathindia.com/economy/sensex-jumps-1300-points-nifty-gains-november-25-2026"
-   },
-   "date": "2026-11-25",
-   "slot": "1035",
-   "when": "10:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "1205"
    }
   },
   {
@@ -146,7 +209,7 @@
    "slot": "1035",
    "when": "10:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1035"
@@ -906,30 +969,6 @@
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1535"
-   }
-  },
-  {
-   "key": "metal-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Steel stocks stay at the bottom",
-   "line": "Tata Steel, JSW Steel and Titan the top Nifty 50 losers through the day",
-   "more": [
-    "Tata Steel −3.5% and JSW Steel −3.3% at 9:48 am",
-    "Nifty Metal the weakest sector"
-   ],
-   "src": {
-    "title": "SENSEX, NIFTY50 recover after weak open amid global selloff; JSW Steel, Tata Steel among top losers",
-    "url": "https://upstox.com/news/market-news/stocks/sensex-declines-over-600-pts-nifty-50-opens-lower-at-25-368-amid-global-selloff-jsw-steel-tata-steel-among-top-losers/article-203746/"
-   },
-   "date": "2026-11-20",
-   "slot": "1505",
-   "when": "Fri · 15:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "1105"
    }
   },
   {
