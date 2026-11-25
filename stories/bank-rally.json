@@ -1,6 +1,6 @@
 {
  "key": "bank-rally",
- "title": "Financials lead the sector board",
+ "title": "Bank shares shine at the day's high",
  "tag": "Stocks",
  "first_seen": {
   "date": "2026-11-05",
@@ -8,9 +8,9 @@
  },
  "last_seen": {
   "date": "2026-11-25",
-  "slot": "1105"
+  "slot": "1135"
  },
- "count": 45,
+ "count": 46,
  "timeline": [
   {
    "date": "2026-11-05",
@@ -781,54 +781,88 @@
     "title": "Stock Market LIVE: Sensex surges 1,900 pts, Nifty tops 25,900; Nifty Financial Svcs up 2%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
    }
+  },
+  {
+   "date": "2026-11-25",
+   "slot": "1135",
+   "when": "Wed · 11:35",
+   "title": "Bank shares shine at the day's high",
+   "line": "Private banks lead the sector gains as HDFC Bank and ICICI Bank top the Nifty gainers",
+   "impact": "pos",
+   "tag": "Stocks",
+   "more": [
+    "Business Standard flags bank shares as the standout",
+    "Banks were the main drag in Monday's sell-off"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex at day's high, surges 1,900 pts, Nifty tops 25,900; bank shares shine",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+   }
   }
  ],
  "dossier": {
-  "headline": "Bank stocks drive the market to a run of record highs",
-  "summary": "The Nifty Bank index set three record highs in the week to 20 November, ending Friday at a new peak as banks led a recovery from a gap-down open. Private lenders such as Axis Bank, IndusInd Bank and HDFC Bank led, with state-run banks also outperforming, and reports tied the rally to heavy foreign inflows.",
+  "headline": "Banks swing from record run to sell-off and back",
+  "summary": "Banks led the market to record highs in the week to 20 November, then gave those gains back in Monday's sharp 23 Nov sell-off as HDFC Bank, ICICI Bank and Axis Bank fell hard. On 25 Nov, after the holiday, the same lenders led the rebound, with HDFC Bank and ICICI Bank among the top Nifty gainers.",
   "status": "developing",
   "why_it_matters": [
-   "Banks have been the main engine of the market's November rally",
-   "The rally has been tied to record foreign inflows, making it sensitive to any turn in those flows"
+   "Banks are the biggest swing factor for the benchmarks in both directions",
+   "The moves have been tied to foreign flows, so they are sensitive to any turn in foreign buying"
   ],
   "moved": [
    {
-    "name": "Axis Bank",
+    "name": "HDFC Bank",
     "dir": "up",
-    "line": "Up 4.72% on 20 Nov, among the top Nifty gainers"
+    "line": "Up 3.5% on 25 Nov, the top Sensex gainer, after leading Monday's slide"
+   },
+   {
+    "name": "ICICI Bank",
+    "dir": "up",
+    "line": "Among the top Nifty gainers on 25 Nov"
+   },
+   {
+    "name": "Axis Bank",
+    "dir": "down",
+    "line": "Among the biggest Sensex losers on 23 Nov"
    },
    {
     "name": "IndusInd Bank",
-    "dir": "up",
-    "line": "Up as much as about 8% intraday on 20 Nov"
-   },
-   {
-    "name": "HDFC Bank",
-    "dir": "up",
-    "line": "Cited as leading the Sensex gains on 20 Nov"
+    "dir": "down",
+    "line": "Down about 4% on 23 Nov"
    }
   ],
   "watch": [
-   "Whether foreign buying keeps flowing into banks",
-   "How bank stocks hold up if global markets stay weak"
+   "Whether banks hold their 25 Nov gains into the close",
+   "Foreign buying in bank stocks"
   ],
   "questions": [
-   "How much of November's rally is foreign money versus domestic buying?",
-   "Can banks keep leading if global risk appetite worsens?"
+   "Was Monday's fall just expiry and profit booking, or something more?",
+   "Can banks lead a fresh run to record highs?"
   ],
   "conflicts": [
-   "On 20 Nov an English live blog cited Axis Bank as a leader while a Hindi live update reported it down 3% earlier in the day",
-   "Reported intraday peaks for the bank index differed by source and time"
+   "23 Nov: Business Today put Monday's bank fall down to expiry and profit booking, while other reports linked the wider sell-off to global AI worries",
+   "20 Nov: an English live blog cited Axis Bank as a leader while a Hindi live update reported it down 3% earlier in the day"
   ],
-  "written_at": "2026-11-21T18:05:00+05:30",
+  "written_at": "2026-11-25T11:45:00+05:30",
   "based_on_slots": [
    "2026-11-20/0925",
    "2026-11-20/1105",
    "2026-11-20/1305",
    "2026-11-20/1405",
    "2026-11-20/1435",
+   "2026-11-20/1505",
    "2026-11-20/1535",
-   "2026-11-20/1605"
+   "2026-11-20/1605",
+   "2026-11-23/1035",
+   "2026-11-23/1105",
+   "2026-11-23/1235",
+   "2026-11-23/1305",
+   "2026-11-23/1435",
+   "2026-11-23/1605",
+   "2026-11-25/0925",
+   "2026-11-25/1005",
+   "2026-11-25/1035",
+   "2026-11-25/1105",
+   "2026-11-25/1135"
   ]
  }
 }

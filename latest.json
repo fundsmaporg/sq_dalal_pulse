@@ -1,45 +1,38 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-25T11:06:54+05:30",
+ "generated_at": "2026-11-25T11:36:17+05:30",
  "date": "2026-11-25",
- "slot": "1105",
- "slot_label": "11:05",
+ "slot": "1135",
+ "slot_label": "11:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-25T11:10:00+05:30",
- "nifty": {
-  "value": 25871.7,
-  "pct": 2.06,
-  "chg": 522,
-  "approx": true,
-  "asof_quote": "11:00"
- },
+ "asof": "2026-11-25T11:40:00+05:30",
  "mood": {
-  "label": "Rally gathers pace",
+  "label": "Pinned near highs",
   "score": 0.6,
-  "summary": "The post-holiday rally has gathered pace into late morning on heavy buying in banks, financials and IT, but it is narrow: smallcaps have slipped and metals are lagging.",
+  "summary": "Indian shares are trading near the day's high in a strong post-holiday rebound, powered by private banks and IT, though smaller stocks and metals are not sharing in it.",
   "detail": {
-   "leaders": "Financials led by HDFC Bank and ICICI Bank, plus Infosys",
+   "leaders": "Private banks led by HDFC Bank and ICICI Bank, and IT led by Infosys",
    "laggards": "Metals including Tata Steel, and smallcaps",
-   "tone": "A live read. Firmer than the previous note, but the gains are increasingly concentrated in large banks and IT while smaller stocks fade.",
+   "tone": "A live read on market behaviour rather than a fresh index print. The rally is holding at its highs, much as in the previous note, with leadership still narrow.",
    "watch": [
     "Whether smallcaps and midcaps rejoin the rally",
     "US GDP and core PCE data this evening",
     "Details of the new US tariffs"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex surges 1,900 pts, Nifty tops 25,900; Nifty Financial Svcs up 2%",
+    "title": "Stock Market LIVE: Sensex at day's high, surges 1,900 pts, Nifty tops 25,900; bank shares shine",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Financials and IT lead, with HDFC Bank and ICICI Bank on top",
-     "why": "Lenders sold hardest on Monday are leading the catch-up rally, with IT tracking the global tech move India missed on Tuesday's holiday.",
+     "summary": "Private banks and IT lead, with HDFC Bank, ICICI Bank and Infosys on top",
+     "why": "Lenders hit hardest on Monday are leading the catch-up, helped by foreign buying, while IT tracks the global tech rally India missed on Tuesday.",
      "names": [
       {
-       "name": "Nifty Financial Services",
+       "name": "Nifty Private Bank",
        "dir": "up",
-       "move": "+2%",
-       "line": "Top-performing sector, per Business Standard's live blog"
+       "move": "up ~2.4%",
+       "line": "Best-performing sector early, per Kotak Securities"
       },
       {
        "name": "HDFC Bank",
@@ -59,7 +52,7 @@
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex surges 1,900 pts, Nifty tops 25,900; Nifty Financial Svcs up 2%",
+      "title": "Stock Market LIVE: Sensex at day's high, surges 1,900 pts, Nifty tops 25,900; bank shares shine",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
      }
     },
@@ -81,11 +74,11 @@
        "name": "Nifty Smallcap 100",
        "dir": "down",
        "move": "-0.26%",
-       "line": "Slipped into the red even as the large-cap benchmarks extend gains"
+       "line": "Slipped into the red even as the large-cap benchmarks gain"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex surges 1,900 pts, Nifty tops 25,900; Nifty Financial Svcs up 2%",
+      "title": "Stock Market LIVE: Sensex at day's high, surges 1,900 pts, Nifty tops 25,900; bank shares shine",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
      }
     }
@@ -94,27 +87,77 @@
  },
  "insights": [
   {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Foreign buying helps fuel the rally",
+   "line": "PTI ties the early gains to foreign fund inflows and lower crude prices",
+   "more": [
+    "Foreign investors were net buyers on Monday despite the sell-off",
+    "Bank stocks are the main beneficiaries"
+   ],
+   "src": {
+    "title": "Markets rally in early trade on foreign fund inflows, lower crude oil; Sensex jumps 1,382 points",
+    "url": "https://www.deccanherald.com/business/markets/markets-rally-in-early-trade-on-foreign-fund-inflows-lower-crude-oil-sensex-jumps-1382-points-4230335"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-25",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "0845"
+   }
+  },
+  {
    "key": "bank-rally",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "Financials lead the sector board",
-   "line": "HDFC Bank and ICICI Bank top the Nifty gainers as bank and financial stocks outperform",
+   "title": "Bank shares shine at the day's high",
+   "line": "Private banks lead the sector gains as HDFC Bank and ICICI Bank top the Nifty gainers",
    "more": [
-    "Nifty Bank and Private Bank are also among the outperforming sectors",
+    "Business Standard flags bank shares as the standout",
     "Banks were the main drag in Monday's sell-off"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex surges 1,900 pts, Nifty tops 25,900; Nifty Financial Svcs up 2%",
+    "title": "Stock Market LIVE: Sensex at day's high, surges 1,900 pts, Nifty tops 25,900; bank shares shine",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
    },
    "date": "2026-11-25",
-   "slot": "1105",
-   "when": "11:05",
+   "slot": "1135",
+   "when": "11:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1205"
+   }
+  },
+  {
+   "key": "crude-iran-war",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Softer crude supports the rebound",
+   "line": "Lower crude prices are cited as one driver of the early rally, per PTI",
+   "more": [
+    "Cheaper oil eases pressure on India's import bill",
+    "No same-day Brent figure was found this run"
+   ],
+   "src": {
+    "title": "Markets rally in early trade on foreign fund inflows, lower crude oil; Sensex jumps 1,382 points",
+    "url": "https://www.deccanherald.com/business/markets/markets-rally-in-early-trade-on-foreign-fund-inflows-lower-crude-oil-sensex-jumps-1382-points-4230335"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-25",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "2100"
    }
   },
   {
@@ -135,7 +178,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1105"
@@ -159,7 +202,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1105"
@@ -436,56 +479,6 @@
    "first_seen": {
     "date": "2026-11-24",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs kept buying through Monday's fall",
-   "line": "Foreign investors bought a net ₹5,673 cr on Monday; domestic funds sold ₹2,760 cr",
-   "more": [
-    "Gross FII buying was about ₹23,474 cr against ₹17,801 cr of sales",
-    "November foreign buying is running at a record pace"
-   ],
-   "src": {
-    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-24",
-   "slot": "0845",
-   "when": "Tue · 8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "crude-iran-war",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Oil slides as risk appetite returns",
-   "line": "Crude fell on Monday as US stock futures surged after last week's tech rout",
-   "more": [
-    "Lower oil eases pressure on India's import bill",
-    "No settlement price confirmed yet"
-   ],
-   "src": {
-    "title": "Stock Market Today: Dow, S&P 500 Futures Surge After Tech Rout as Oil Slides",
-    "url": "https://journalarta.com/en/2026/11/23/stock-market-today-dow-sp-500-futures-surge-after-tech-rout-as-oil-slides/"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-23",
-   "slot": "2100",
-   "when": "Mon · 21:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "2100"
    }
   },
   {
