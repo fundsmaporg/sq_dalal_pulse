@@ -1,0 +1,179 @@
+{
+ "asof": "2026-11-25T12:10:00+05:30",
+ "summary": "The post-holiday rally has pushed to fresh highs by midday, led by banks and financial stocks, while metals remain the one clear pocket of weakness.",
+ "mood": {
+  "label": "Rally extends higher",
+  "score": 0.65,
+  "detail": {
+   "stats": [],
+   "leaders": "Financials led by ICICI Bank and HDFC Bank, plus Infosys",
+   "laggards": "Metals, with Hindalco and Tata Steel lower",
+   "movers": {
+    "up": {
+     "summary": "Financials lead, with ICICI Bank and HDFC Bank the top Sensex gainers",
+     "why": "Lenders sold hard on Monday are leading the rebound as foreign investors turn more positive on India; IT is also firm.",
+     "names": [
+      {
+       "name": "Nifty Financial Services",
+       "move": "up ~3%",
+       "dir": "up",
+       "line": "Top sector at midday, with Bajaj Finserv among the leaders"
+      },
+      {
+       "name": "ICICI Bank",
+       "move": "+3.41%",
+       "dir": "up",
+       "line": "Top Sensex gainer at noon; led Nifty gainers early in the session"
+      },
+      {
+       "name": "HDFC Bank",
+       "dir": "up",
+       "line": "Among the top Sensex gainers at noon after leading Monday's bank slide"
+      },
+      {
+       "name": "Infosys",
+       "move": "up over 4%",
+       "dir": "up",
+       "line": "Among the top Nifty gainers early as IT catches up with global tech"
+      }
+     ],
+     "src": {
+      "title": "Stock Market LIVE: Trent, Bajaj Finserv lead 2,000-pt rally in Sensex; Nifty Financial Svcs gain 3%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+     }
+    },
+    "down": {
+     "summary": "Metal stocks lag as the rest of the market rallies",
+     "why": "Metals are not joining the rebound after leading Monday's losses.",
+     "names": [
+      {
+       "name": "Nifty Metal",
+       "move": "-1.13%",
+       "dir": "down",
+       "line": "Weakest sector early in the session"
+      },
+      {
+       "name": "Hindalco",
+       "move": "-2.02%",
+       "dir": "down",
+       "line": "Biggest Nifty loser early as metal stocks stay under pressure"
+      },
+      {
+       "name": "Tata Steel",
+       "dir": "down",
+       "line": "Among Sensex losers as it extends Monday's slide on the APL Apollo deal"
+      }
+     ],
+     "src": {
+      "title": "NIFTY50 tops 25,700 in early trade, SENSEX up 1,400 pts; financials, Infosys among top gainers",
+      "url": "https://upstox.com/news/market-news/trading/nifty-50-tops-25-700-in-early-trade-sensex-up-1-400-pts-financials-infosys-among-top-gainers/article-203926/"
+     }
+    }
+   },
+   "tone": "A live read. Firmer than the previous note, with the rally setting new intraday highs and leadership still concentrated in financials.",
+   "watch": [
+    "Whether metals and smallcaps join in",
+    "US GDP and core PCE data this evening",
+    "Details of the new US tariffs"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Trent, Bajaj Finserv lead 2,000-pt rally in Sensex; Nifty Financial Svcs gain 3%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25916.9,
+  "pct": 2.24,
+  "chg": 567.25,
+  "approx": true,
+  "asof_quote": "12:00"
+ },
+ "top": [
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "thread": "fii-flows",
+   "title": "Foreign sentiment shifts toward India",
+   "line": "Business Standard names a turn in FII sentiment as a key driver of today's rally",
+   "more": [
+    "It also cites better-than-expected earnings growth",
+    "Foreign investors were net buyers on Monday despite the sell-off"
+   ],
+   "src": {
+    "title": "Bulls return to D-St! Sensex zooms 1,900 points intraday; key factors here",
+    "url": "https://www.business-standard.com/markets/news/bulls-return-to-d-st-sensex-zooms-1-500-points-intraday-key-factors-here-126112500139_1.html"
+   }
+  },
+  {
+   "key": "asia-chip-rout",
+   "tag": "Global",
+   "impact": "pos",
+   "thread": "global-markets",
+   "title": "AI-trade unwind steers money to India",
+   "line": "Analysts say the AI-trade unwind is helping India; Nikkei fell 3% to 56,851",
+   "more": [
+    "Business Today also links the rally to selling in AI stocks",
+    "India is rising while Asia's chip-heavy markets fall"
+   ],
+   "src": {
+    "title": "Bulls return to D-St! Sensex zooms 1,900 points intraday; key factors here",
+    "url": "https://www.business-standard.com/markets/news/bulls-return-to-d-st-sensex-zooms-1-500-points-intraday-key-factors-here-126112500139_1.html"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "thread": "rupee",
+   "title": "Firmer rupee adds support",
+   "line": "Rupee appreciation is among the factors behind the rally, per Business Standard",
+   "more": [
+    "No same-day rupee level was found this run",
+    "The rupee had slipped back past 93 per dollar on Monday"
+   ],
+   "src": {
+    "title": "Bulls return to D-St! Sensex zooms 1,900 points intraday; key factors here",
+    "url": "https://www.business-standard.com/markets/news/bulls-return-to-d-st-sensex-zooms-1-500-points-intraday-key-factors-here-126112500139_1.html"
+   }
+  },
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "ICICI Bank, HDFC Bank top the gainers",
+   "line": "Financial stocks lead the rally to fresh highs, with Bajaj Finserv also among the leaders",
+   "more": [
+    "Trent is also among the top Sensex gainers at noon",
+    "Banks were the main drag in Monday's sell-off"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Trent, Bajaj Finserv lead 2,000-pt rally in Sensex; Nifty Financial Svcs gain 3%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market LIVE: Trent, Bajaj Finserv lead 2,000-pt rally in Sensex; Nifty Financial Svcs gain 3%",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+  },
+  {
+   "title": "Bulls return to D-St! Sensex zooms 1,900 points intraday; key factors here",
+   "url": "https://www.business-standard.com/markets/news/bulls-return-to-d-st-sensex-zooms-1-500-points-intraday-key-factors-here-126112500139_1.html"
+  },
+  {
+   "title": "NIFTY50 tops 25,700 in early trade, SENSEX up 1,400 pts; financials, Infosys among top gainers",
+   "url": "https://upstox.com/news/market-news/trading/nifty-50-tops-25-700-in-early-trade-sensex-up-1-400-pts-financials-infosys-among-top-gainers/article-203926/"
+  },
+  {
+   "title": "Stock Market Update 25 November 2026: Sensex, Nifty 50 Trade Higher After Market Opening",
+   "url": "https://www.kotakneo.com/news/market-news/stock-market-update-25-november-2026-sensex-nifty/"
+  },
+  {
+   "title": "Why market is rising today: Sensex gains over 1,300 pts, Nifty crosses 25,700 mark",
+   "url": "https://www.businesstoday.in/markets/stocks/story/why-market-is-rising-today-sensex-gains-over-1300-pts-nifty-crosses-25700-569286-2026-11-25"
+  }
+ ]
+}

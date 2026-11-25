@@ -1,85 +1,94 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-25T11:36:17+05:30",
+ "generated_at": "2026-11-25T12:06:38+05:30",
  "date": "2026-11-25",
- "slot": "1135",
- "slot_label": "11:35",
+ "slot": "1205",
+ "slot_label": "12:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-25T11:40:00+05:30",
+ "asof": "2026-11-25T12:10:00+05:30",
+ "nifty": {
+  "value": 25916.9,
+  "pct": 2.24,
+  "chg": 567.25,
+  "approx": true,
+  "asof_quote": "12:00"
+ },
  "mood": {
-  "label": "Pinned near highs",
-  "score": 0.6,
-  "summary": "Indian shares are trading near the day's high in a strong post-holiday rebound, powered by private banks and IT, though smaller stocks and metals are not sharing in it.",
+  "label": "Rally extends higher",
+  "score": 0.65,
+  "summary": "The post-holiday rally has pushed to fresh highs by midday, led by banks and financial stocks, while metals remain the one clear pocket of weakness.",
   "detail": {
-   "leaders": "Private banks led by HDFC Bank and ICICI Bank, and IT led by Infosys",
-   "laggards": "Metals including Tata Steel, and smallcaps",
-   "tone": "A live read on market behaviour rather than a fresh index print. The rally is holding at its highs, much as in the previous note, with leadership still narrow.",
+   "leaders": "Financials led by ICICI Bank and HDFC Bank, plus Infosys",
+   "laggards": "Metals, with Hindalco and Tata Steel lower",
+   "tone": "A live read. Firmer than the previous note, with the rally setting new intraday highs and leadership still concentrated in financials.",
    "watch": [
-    "Whether smallcaps and midcaps rejoin the rally",
+    "Whether metals and smallcaps join in",
     "US GDP and core PCE data this evening",
     "Details of the new US tariffs"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex at day's high, surges 1,900 pts, Nifty tops 25,900; bank shares shine",
+    "title": "Stock Market LIVE: Trent, Bajaj Finserv lead 2,000-pt rally in Sensex; Nifty Financial Svcs gain 3%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Private banks and IT lead, with HDFC Bank, ICICI Bank and Infosys on top",
-     "why": "Lenders hit hardest on Monday are leading the catch-up, helped by foreign buying, while IT tracks the global tech rally India missed on Tuesday.",
+     "summary": "Financials lead, with ICICI Bank and HDFC Bank the top Sensex gainers",
+     "why": "Lenders sold hard on Monday are leading the rebound as foreign investors turn more positive on India; IT is also firm.",
      "names": [
       {
-       "name": "Nifty Private Bank",
+       "name": "Nifty Financial Services",
        "dir": "up",
-       "move": "up ~2.4%",
-       "line": "Best-performing sector early, per Kotak Securities"
-      },
-      {
-       "name": "HDFC Bank",
-       "dir": "up",
-       "move": "+3.5%",
-       "line": "Top Nifty gainer after leading Monday's bank sell-off"
+       "move": "up ~3%",
+       "line": "Top sector at midday, with Bajaj Finserv among the leaders"
       },
       {
        "name": "ICICI Bank",
        "dir": "up",
-       "line": "Among the top three Nifty gainers alongside HDFC Bank"
+       "move": "+3.41%",
+       "line": "Top Sensex gainer at noon; led Nifty gainers early in the session"
+      },
+      {
+       "name": "HDFC Bank",
+       "dir": "up",
+       "line": "Among the top Sensex gainers at noon after leading Monday's bank slide"
       },
       {
        "name": "Infosys",
        "dir": "up",
-       "line": "Leads the IT pack among the top Nifty gainers"
+       "move": "up over 4%",
+       "line": "Among the top Nifty gainers early as IT catches up with global tech"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex at day's high, surges 1,900 pts, Nifty tops 25,900; bank shares shine",
+      "title": "Stock Market LIVE: Trent, Bajaj Finserv lead 2,000-pt rally in Sensex; Nifty Financial Svcs gain 3%",
       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
      }
     },
     "down": {
-     "summary": "Metals and smallcaps sit out the rally",
-     "why": "Buying is concentrated in large banks and IT, leaving metals, media and smaller stocks behind.",
+     "summary": "Metal stocks lag as the rest of the market rallies",
+     "why": "Metals are not joining the rebound after leading Monday's losses.",
      "names": [
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "line": "With media, the only sector in the red after Monday's steep metal sell-off"
+       "move": "-1.13%",
+       "line": "Weakest sector early in the session"
+      },
+      {
+       "name": "Hindalco",
+       "dir": "down",
+       "move": "-2.02%",
+       "line": "Biggest Nifty loser early as metal stocks stay under pressure"
       },
       {
        "name": "Tata Steel",
        "dir": "down",
-       "line": "Extends Monday's slide after agreeing to sell assets to APL Apollo"
-      },
-      {
-       "name": "Nifty Smallcap 100",
-       "dir": "down",
-       "move": "-0.26%",
-       "line": "Slipped into the red even as the large-cap benchmarks gain"
+       "line": "Among Sensex losers as it extends Monday's slide on the APL Apollo deal"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex at day's high, surges 1,900 pts, Nifty tops 25,900; bank shares shine",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+      "title": "NIFTY50 tops 25,700 in early trade, SENSEX up 1,400 pts; financials, Infosys among top gainers",
+      "url": "https://upstox.com/news/market-news/trading/nifty-50-tops-25-700-in-early-trade-sensex-up-1-400-pts-financials-infosys-among-top-gainers/article-203926/"
      }
     }
    }
@@ -90,20 +99,20 @@
    "key": "fii-flows",
    "tag": "Flows",
    "impact": "pos",
-   "title": "Foreign buying helps fuel the rally",
-   "line": "PTI ties the early gains to foreign fund inflows and lower crude prices",
+   "title": "Foreign sentiment shifts toward India",
+   "line": "Business Standard names a turn in FII sentiment as a key driver of today's rally",
    "more": [
-    "Foreign investors were net buyers on Monday despite the sell-off",
-    "Bank stocks are the main beneficiaries"
+    "It also cites better-than-expected earnings growth",
+    "Foreign investors were net buyers on Monday despite the sell-off"
    ],
    "src": {
-    "title": "Markets rally in early trade on foreign fund inflows, lower crude oil; Sensex jumps 1,382 points",
-    "url": "https://www.deccanherald.com/business/markets/markets-rally-in-early-trade-on-foreign-fund-inflows-lower-crude-oil-sensex-jumps-1382-points-4230335"
+    "title": "Bulls return to D-St! Sensex zooms 1,900 points intraday; key factors here",
+    "url": "https://www.business-standard.com/markets/news/bulls-return-to-d-st-sensex-zooms-1-500-points-intraday-key-factors-here-126112500139_1.html"
    },
    "thread": "fii-flows",
    "date": "2026-11-25",
-   "slot": "1135",
-   "when": "11:35",
+   "slot": "1205",
+   "when": "12:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -112,22 +121,72 @@
    }
   },
   {
+   "key": "asia-chip-rout",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "AI-trade unwind steers money to India",
+   "line": "Analysts say the AI-trade unwind is helping India; Nikkei fell 3% to 56,851",
+   "more": [
+    "Business Today also links the rally to selling in AI stocks",
+    "India is rising while Asia's chip-heavy markets fall"
+   ],
+   "src": {
+    "title": "Bulls return to D-St! Sensex zooms 1,900 points intraday; key factors here",
+    "url": "https://www.business-standard.com/markets/news/bulls-return-to-d-st-sensex-zooms-1-500-points-intraday-key-factors-here-126112500139_1.html"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-25",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Firmer rupee adds support",
+   "line": "Rupee appreciation is among the factors behind the rally, per Business Standard",
+   "more": [
+    "No same-day rupee level was found this run",
+    "The rupee had slipped back past 93 per dollar on Monday"
+   ],
+   "src": {
+    "title": "Bulls return to D-St! Sensex zooms 1,900 points intraday; key factors here",
+    "url": "https://www.business-standard.com/markets/news/bulls-return-to-d-st-sensex-zooms-1-500-points-intraday-key-factors-here-126112500139_1.html"
+   },
+   "thread": "rupee",
+   "date": "2026-11-25",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "0700"
+   }
+  },
+  {
    "key": "bank-rally",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "Bank shares shine at the day's high",
-   "line": "Private banks lead the sector gains as HDFC Bank and ICICI Bank top the Nifty gainers",
+   "title": "ICICI Bank, HDFC Bank top the gainers",
+   "line": "Financial stocks lead the rally to fresh highs, with Bajaj Finserv also among the leaders",
    "more": [
-    "Business Standard flags bank shares as the standout",
+    "Trent is also among the top Sensex gainers at noon",
     "Banks were the main drag in Monday's sell-off"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex at day's high, surges 1,900 pts, Nifty tops 25,900; bank shares shine",
+    "title": "Stock Market LIVE: Trent, Bajaj Finserv lead 2,000-pt rally in Sensex; Nifty Financial Svcs gain 3%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
    },
    "date": "2026-11-25",
-   "slot": "1135",
-   "when": "11:35",
+   "slot": "1205",
+   "when": "12:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -154,7 +213,7 @@
    "slot": "1135",
    "when": "11:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "2100"
@@ -206,31 +265,6 @@
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "asia-chip-rout",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "India rallies as global stocks slip",
-   "line": "Business Standard notes global equities extended losses on the AI-trade unwind",
-   "more": [
-    "Indian shares are rising against that backdrop",
-    "India is catching up with Monday's rally it missed during the holiday"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex soars 1,500 pts, Nifty around 25,750; VIX drops 7%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-25",
-   "slot": "1035",
-   "when": "10:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "0700"
    }
   },
   {
@@ -600,31 +634,6 @@
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1005"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Rupee slips back past 93",
-   "line": "Rupee weakened beyond 93 per dollar after a seven-month high close of 92.67 on Friday",
-   "more": [
-    "Friday's gain was 62 paise, per HDFC Sky",
-    "No exact intraday level reported today"
-   ],
-   "src": {
-    "title": "Stock Market Crash LIVE: Sensex slumps 1,000 pts, Nifty below 25,500; metal, banks biggest laggards",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
-   },
-   "thread": "rupee",
-   "date": "2026-11-23",
-   "slot": "1405",
-   "when": "Mon · 14:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "0700"
    }
   },
   {
