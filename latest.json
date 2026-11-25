@@ -1,65 +1,67 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-25T14:36:21+05:30",
+ "generated_at": "2026-11-25T15:06:18+05:30",
  "date": "2026-11-25",
- "slot": "1435",
- "slot_label": "14:35",
- "stage": "Mid-market mood",
- "asof": "2026-11-25T14:40:00+05:30",
+ "slot": "1505",
+ "slot_label": "15:05",
+ "stage": "Closing mood",
+ "asof": "2026-11-25T15:10:00+05:30",
  "nifty": {
-  "value": 25700,
-  "pct": 1.38,
-  "chg": 350,
+  "value": 25772.1,
+  "pct": 1.67,
+  "chg": 422.45,
   "approx": true,
-  "asof_quote": "14:00"
+  "asof_quote": "15:00"
  },
  "mood": {
-  "label": "Narrow but firm",
-  "score": 0.35,
-  "summary": "Indian shares are holding solid gains into the last hour, though off the day's peak; the rally rests on heavyweights and consumer stocks, while more shares are falling than rising.",
+  "label": "Rally steadies",
+  "score": 0.45,
+  "summary": "Indian shares are heading into the final half-hour with strong gains, steadier than in early afternoon, as consumer staples and financials lead while metals and smallcaps lag.",
   "detail": {
-   "leaders": "FMCG, led by ITC, HUL, Dabur India and Godrej Consumer",
+   "leaders": "FMCG led by HUL, ITC and Tata Consumer",
    "laggards": "Metals including Tata Steel, and smallcaps",
-   "tone": "A live read. Much as in the previous note, the market is holding below its midday peak, with leadership rotating from banks to consumer stocks.",
+   "tone": "A live read. Firmer than the previous note: the market has recovered part of its early-afternoon dip, though it remains below the day's peak.",
    "watch": [
-    "Whether breadth improves into the close",
-    "US GDP and core PCE data this evening",
-    "Details of the new US tariffs"
+    "Whether the market holds its gains into the close",
+    "Provisional FII and DII figures this evening",
+    "US GDP and core PCE data tonight"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex up 1,300 pts, Nifty tops 25,700; Tata Steel shares down over 2%",
+    "title": "Stock Market LIVE: Sensex up 1,300 pts, Nifty tops 25,700; ITI, MRPL lead SmallCap losses",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
    },
    "movers": {
     "up": {
-     "summary": "FMCG leads, with ITC and HUL doing most of the lifting",
-     "why": "Consumer staples have become the strongest sector as buying shifts into defensive heavyweights.",
+     "summary": "HUL, ITC and Tata Consumer lift FMCG to a three-month high",
+     "why": "Foreign buying and lower crude prices are drawing money into consumer staples.",
      "names": [
       {
        "name": "Nifty FMCG",
        "dir": "up",
-       "move": "+2.88%",
-       "line": "Reclaims its 200-day moving average, per DSIJ"
-      },
-      {
-       "name": "ITC",
-       "dir": "up",
-       "line": "With HUL, about 47% of the FMCG index and a main driver of its gain"
+       "move": "+2.6%",
+       "line": "At a three-month high around midday, per Moneycontrol"
       },
       {
        "name": "HUL",
        "dir": "up",
-       "line": "Heavyweight carrying the FMCG rally alongside ITC"
+       "move": "+3.95%",
+       "line": "The biggest FMCG gainer, at ₹2,098.90 at 1:24 pm"
       },
       {
-       "name": "Dabur India",
+       "name": "ITC",
        "dir": "up",
-       "line": "Leads the FMCG gainers with Godrej Consumer, per Business Standard"
+       "move": "+2.6%",
+       "line": "At ₹308.80 at 1:24 pm; with HUL, nearly half the FMCG index"
+      },
+      {
+       "name": "Tata Consumer",
+       "dir": "up",
+       "line": "Among the FMCG names rallying 2–4% on foreign buying"
       }
      ],
      "src": {
-      "title": "Nifty FMCG Reclaims 200-DMA: Can It Test the 50,000 Mark in the Short Term?",
-      "url": "https://insights.dsij.in/dsijarticledetail/nifty-fmcg-above-200-dma-60616"
+      "title": "Nifty FMCG hits over three-month high as HUL, Tata Consumer, ITC rally 2-4%; FII buying lifts market sentiment",
+      "url": "https://www.tradingview.com/news/moneycontrol:0bf2cebb5094b:0-nifty-fmcg-hits-over-three-month-high-as-hul-tata-consumer-itc-rally-2-4-fii-buying-lifts-market-sentiment/"
      }
     },
     "down": {
@@ -70,7 +72,7 @@
        "name": "Nifty Metal",
        "dir": "down",
        "move": "about -2%",
-       "line": "All 15 constituents are lower, per Business Upturn"
+       "line": "All 15 constituents lower in the afternoon, per Business Upturn"
       },
       {
        "name": "Tata Steel",
@@ -82,7 +84,7 @@
        "name": "Nifty Smallcap 100",
        "dir": "down",
        "move": "-0.26%",
-       "line": "Lower even as the large-cap benchmarks gain"
+       "line": "Lower even as the large-cap benchmarks gain; ITI and MRPL lead losses"
       }
      ],
      "src": {
@@ -98,19 +100,19 @@
    "key": "fmcg-gains",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "FMCG becomes the day's standout",
-   "line": "Consumer stocks lead the sectors as the FMCG index reclaims its 200-day average",
+   "title": "FMCG hits a three-month high",
+   "line": "HUL rose about 4% and ITC about 2.6% as foreign buying lifted consumer staples",
    "more": [
-    "ITC and HUL, about 47% of the index, are doing most of the lifting",
-    "Dabur India and Godrej Consumer also lead the gains"
+    "Tata Consumer also rallied, per Kotak Neo",
+    "HUL and ITC together make up nearly half the sector index"
    ],
    "src": {
-    "title": "Nifty FMCG Reclaims 200-DMA: Can It Test the 50,000 Mark in the Short Term?",
-    "url": "https://insights.dsij.in/dsijarticledetail/nifty-fmcg-above-200-dma-60616"
+    "title": "FMCG Stocks Hit Three-Month High as HUL, Tata Consumer and ITC Rally on Foreign Buying",
+    "url": "https://www.kotakneo.com/news/sectors/fmcg-stocks-hit-three-month-high-as-hul-tata-consumer-itc-rally-amid-foreign-buying-and-lower-crude/"
    },
    "date": "2026-11-25",
-   "slot": "1435",
-   "when": "14:35",
+   "slot": "1505",
+   "when": "15:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -119,22 +121,47 @@
    }
   },
   {
+   "key": "crude-iran-war",
+   "tag": "Macro",
+   "impact": "pos",
+   "title": "Lower crude helps consumer stocks",
+   "line": "Kotak Neo ties the FMCG rally partly to lower crude prices",
+   "more": [
+    "Lower crude was also cited as a driver of the morning rally",
+    "No same-day Brent figure was found this run"
+   ],
+   "src": {
+    "title": "FMCG Stocks Hit Three-Month High as HUL, Tata Consumer and ITC Rally on Foreign Buying",
+    "url": "https://www.kotakneo.com/news/sectors/fmcg-stocks-hit-three-month-high-as-hul-tata-consumer-itc-rally-amid-foreign-buying-and-lower-crude/"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-25",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "2100"
+   }
+  },
+  {
    "key": "breadth",
    "tag": "Stocks",
    "impact": "watch",
-   "title": "More stocks falling than rising",
-   "line": "1,675 NSE stocks are lower against 1,524 higher despite the strong benchmark gain",
+   "title": "ITI, MRPL lead smallcap losses",
+   "line": "Smallcaps stay in the red as large caps carry the market, per Business Standard",
    "more": [
-    "Business Upturn calls the rally narrow and heavyweight-driven",
-    "Smallcaps are in the red"
+    "Decliners outnumbered advancers on the NSE in the afternoon",
+    "Metals are the weakest sector"
    ],
    "src": {
-    "title": "Nifty Rally Narrow: NSE Advance Decline Ratio Weak, Metals, Media Drag",
-    "url": "https://businessupturn.com/finance/stock-market/nifty-50-gains-1-5-on-heavyweight-buying-but-market-breadth-stays-weak-with-1-675-nse-stocks-falling-against-1-524-rising/"
+    "title": "Stock Market LIVE: Sensex up 1,300 pts, Nifty tops 25,700; ITI, MRPL lead SmallCap losses",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
    },
    "date": "2026-11-25",
-   "slot": "1435",
-   "when": "14:35",
+   "slot": "1505",
+   "when": "15:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -160,7 +187,7 @@
    "slot": "1435",
    "when": "14:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1105"
@@ -457,31 +484,6 @@
    "first_seen": {
     "date": "2026-11-19",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "crude-iran-war",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Softer crude supports the rebound",
-   "line": "Lower crude prices are cited as one driver of the early rally, per PTI",
-   "more": [
-    "Cheaper oil eases pressure on India's import bill",
-    "No same-day Brent figure was found this run"
-   ],
-   "src": {
-    "title": "Markets rally in early trade on foreign fund inflows, lower crude oil; Sensex jumps 1,382 points",
-    "url": "https://www.deccanherald.com/business/markets/markets-rally-in-early-trade-on-foreign-fund-inflows-lower-crude-oil-sensex-jumps-1382-points-4230335"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-25",
-   "slot": "1135",
-   "when": "11:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "2100"
    }
   },
   {
