@@ -1,53 +1,33 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-24T08:46:16+05:30",
- "date": "2026-11-24",
- "slot": "0845",
- "slot_label": "8:45",
+ "generated_at": "2026-11-25T07:00:58+05:30",
+ "date": "2026-11-25",
+ "slot": "0700",
+ "slot_label": "7:00",
  "stage": "Pre-market mood",
- "asof": "2026-11-24T08:50:00+05:30",
+ "asof": "2026-11-25T07:05:00+05:30",
  "nifty": {
   "value": 25349.65,
   "pct": -1.75,
   "chg": -450.95,
   "approx": false
  },
- "metrics": {
-  "fii_net_cr": {
-   "value": 5672.99,
-   "asof": "Mon 23 Nov provisional",
-   "approx": false,
-   "src": {
-    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
-   }
-  },
-  "dii_net_cr": {
-   "value": -2760.12,
-   "asof": "Mon 23 Nov provisional",
-   "approx": false,
-   "src": {
-    "title": "FII DII Data: Today's FII & DII Activities on NSE & BSE",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
-   }
-  }
- },
  "mood": {
-  "label": "Market closed",
-  "score": 0.4,
-  "summary": "Indian markets are shut today, and Wednesday's session is set up for a strong rebound as a sweeping AI-led rally across Wall Street and Asia meets continued foreign buying.",
+  "label": "Choppy reopening likely",
+  "score": -0.15,
+  "summary": "Indian shares reopen after the holiday into mixed cues: the chip rally faded overnight, Asia is sliding early and fresh US tariff plans weigh, against steady foreign buying at home.",
   "detail": {
-   "leaders": "IT and tech-linked names, which could track the global chip rally on Wednesday",
-   "laggards": "Banks and metals still carry Monday's losses, though global cues have turned supportive",
-   "tone": "A forward read: NSE and BSE are closed today for Guru Nanak Jayanti, and the next session is Wednesday 25 November. Global cues have swung sharply positive since Monday's sell-off.",
+   "leaders": "Value and defensive names, mirroring the Dow's gains overnight",
+   "laggards": "IT and chip-linked names after the overnight semiconductor slide",
+   "tone": "A forward read before the first session since Monday's sharp fall. Global cues swung from a strong Monday rally to a tech-led retreat on Tuesday, so the open may be uneven.",
    "watch": [
-    "How Wall Street trades tonight after Monday's surge",
-    "US GDP and core PCE data due on Wednesday",
-    "Whether foreign buying keeps going once trading resumes"
+    "Whether Asia's early slide deepens into the Indian open",
+    "Details of the new US tariffs and India's exposure",
+    "US GDP and core PCE data later today"
    ],
    "src": {
-    "title": "Stock market today: Dow, S&P 500, Nasdaq post best day since April 2025 as Nvidia stock soars 31% on Jensen Huang's return",
-    "url": "https://sg.finance.yahoo.com/news/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html"
+    "title": "Nasdaq, S&P 500 end lower following Monday's Nvidia-fueled rally",
+    "url": "https://www.marketscreener.com/news/nasdaq-s-p-500-end-lower-following-monday-s-nvidia-fueled-rally-ce7851dbdd81f720"
    }
   }
  },
@@ -55,27 +35,102 @@
   {
    "key": "us-markets",
    "tag": "Global",
-   "impact": "pos",
-   "title": "Wall Street's best day since April 2025",
-   "line": "Nvidia jumped 31.48% to $165.05 after reinstating Jensen Huang as CEO",
+   "impact": "neg",
+   "title": "Chip rally fades on Wall Street",
+   "line": "Nasdaq fell 1.48% and the S&P 500 0.50% on Tuesday as Nvidia gave back about 5.9%",
    "more": [
-    "Nasdaq rose about 6.5% and the S&P 500 about 4.7%; the Dow added about 1,448 points",
-    "US stocks recovered just over half of last week's losses",
-    "Nvidia still faces an accounting review"
+    "The Dow rose 0.85% to close above 50,000 for the first time",
+    "A semiconductor index fell 7.9% after Monday's surge",
+    "S&P 500 has fallen in eight of the last nine sessions"
    ],
    "src": {
-    "title": "Stock Market Today, Nov. 23: Nvidia Surges 31%, Adding Nearly $1 Trillion in Market Value as Jensen Huang Reclaims CEO Role",
-    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/"
+    "title": "Nasdaq, S&P 500 end lower following Monday's Nvidia-fueled rally",
+    "url": "https://www.marketscreener.com/news/nasdaq-s-p-500-end-lower-following-monday-s-nvidia-fueled-rally-ce7851dbdd81f720"
    },
    "thread": "global-markets",
-   "date": "2026-11-24",
-   "slot": "0845",
-   "when": "8:45",
+   "date": "2026-11-25",
+   "slot": "0700",
+   "when": "7:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "slot": "0700"
+   }
+  },
+  {
+   "key": "us-tariffs",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "US readies a fresh wave of tariffs",
+   "line": "Reports say tariffs on most imports from China, the EU and over a dozen others are near",
+   "more": [
+    "EU, Japan and South Korea expected to face 15% or less, per reports",
+    "The plan replaces tariffs struck down by the Supreme Court",
+    "Rates and timing are not yet official"
+   ],
+   "src": {
+    "title": "US Readies Tariff Hike on China, EU Goods as Soon as Tuesday",
+    "url": "https://bloomberg.com/news/articles/2026-11-24/us-readies-tariff-hike-on-china-eu-goods-as-soon-as-tuesday"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-25",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-25",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "asia-chip-rout",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Kospi and Nikkei slide in early trade",
+   "line": "Kospi down 4.45% and Nikkei 2.35% around 9:50 a.m. local time",
+   "more": [
+    "Both had surged on Tuesday after Nvidia reinstated Jensen Huang",
+    "Chip stocks lead the reversal"
+   ],
+   "src": {
+    "title": "Kospi Sinks More Than 4%, Nikkei Slides More Than 2% in Early Wednesday Trading After Wall Street's Tuesday Retreat",
+    "url": "https://jbiznews.com/kospi-sinks-more-than-4-nikkei-slides-more-than-2-in-early-wednesday-trading-after-wall-streets-tuesday-retreat/"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-25",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "market-holiday",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "First session since Monday's sell-off",
+   "line": "NSE reopens after Tuesday's Guru Nanak Jayanti holiday",
+   "more": [
+    "Monday's session ended sharply lower on bank and metal selling",
+    "US markets close Thursday for Thanksgiving"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex tanks 1,484 pts, Nifty ends at 25,350; metal, PSU bank bleed",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
+   },
+   "date": "2026-11-25",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "0800"
    }
   },
   {
@@ -96,9 +151,9 @@
    "thread": "global-markets",
    "date": "2026-11-24",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Tue · 8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-24",
     "slot": "0845"
@@ -121,36 +176,12 @@
    "thread": "fii-flows",
    "date": "2026-11-24",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Tue · 8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
-    "date": "2026-11-18",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "market-holiday",
-   "tag": "Opening",
-   "impact": "watch",
-   "title": "Market closed today; reopens Wednesday",
-   "line": "NSE and BSE are shut on 24 November for Guru Nanak Jayanti",
-   "more": [
-    "The next session is Wednesday 25 November",
-    "US markets close Thursday for Thanksgiving"
-   ],
-   "src": {
-    "title": "Stock Market Close: Sensex tanks 1,484 pts, Nifty ends at 25,350; metal, PSU bank bleed",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
-   },
-   "date": "2026-11-24",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
+    "date": "2026-11-19",
+    "slot": "0845"
    }
   },
   {
@@ -248,8 +279,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1135"
+    "date": "2026-11-19",
+    "slot": "1205"
    }
   },
   {
@@ -423,31 +454,6 @@
    }
   },
   {
-   "key": "asia-chip-rout",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "AI sell-off deepens across Asia",
-   "line": "South Korea's market plunged 5%, per IndiaIPO, as AI worries spread",
-   "more": [
-    "Reports link India's reversal partly to the global AI sell-off",
-    "Japan was shut for a holiday"
-   ],
-   "src": {
-    "title": "LIVE: Sensex, Nifty slide, metal stocks plunge; AI selloff hits Asia, South Korea plunges 5%",
-    "url": "https://www.indiaipo.in/news/detail/live-sensex-nifty-slide-metal-stocks-plunge-ai-selloff-hits-asia-south-korea-plunges-5"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-23",
-   "slot": "1235",
-   "when": "Mon · 12:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "0700"
-   }
-  },
-  {
    "key": "broader-market",
    "tag": "Stocks",
    "impact": "watch",
@@ -467,8 +473,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1035"
+    "date": "2026-11-19",
+    "slot": "1135"
    }
   },
   {
@@ -516,7 +522,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "slot": "0845"
    }
   },
@@ -564,8 +570,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1405"
+    "date": "2026-11-19",
+    "slot": "0845"
    }
   },
   {
@@ -633,11 +639,11 @@
    "date": "2026-11-21",
    "slot": "2100",
    "when": "Sat · 21:00",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-18",
-    "slot": "0845"
+    "date": "2026-11-21",
+    "slot": "2100"
    }
   },
   {
@@ -685,8 +691,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1205"
+    "date": "2026-11-20",
+    "slot": "0925"
    }
   },
   {
@@ -709,8 +715,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-18",
-    "slot": "2100"
+    "date": "2026-11-19",
+    "slot": "0700"
    }
   },
   {
@@ -757,7 +763,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "slot": "0925"
    }
   },
@@ -829,7 +835,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "slot": "1105"
    }
   },
@@ -948,11 +954,11 @@
    "date": "2026-11-20",
    "slot": "1035",
    "when": "Fri · 10:35",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1435"
+    "date": "2026-11-20",
+    "slot": "1035"
    }
   },
   {
@@ -1071,7 +1077,7 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-18",
+    "date": "2026-11-20",
     "slot": "0700"
    }
   },
@@ -1097,8 +1103,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1800"
+    "date": "2026-11-19",
+    "slot": "0700"
    }
   },
   {
@@ -1433,11 +1439,11 @@
    "date": "2026-11-19",
    "slot": "1235",
    "when": "Thu · 12:35",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1135"
+    "date": "2026-11-19",
+    "slot": "1235"
    }
   },
   {
@@ -1460,8 +1466,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1105"
+    "date": "2026-11-19",
+    "slot": "1135"
    }
   },
   {
@@ -1533,347 +1539,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "spicejet-fundraise",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "SpiceJet plans to raise up to ₹5,500 cr",
-   "line": "Board approves lifting authorised capital to ₹7,500 crore",
-   "more": [
-    "The approval came on Wednesday",
-    "Shares are in focus for Thursday"
-   ],
-   "src": {
-    "title": "Post-Market Report 18 Nov 2026: Nifty Snaps 2-Day Rally as Titan, Metals Drag",
-    "url": "https://www.marketcalls.in/futures-and-options/post-market-report-18-november-2026.html"
-   },
-   "date": "2026-11-18",
-   "slot": "1800",
-   "when": "Wed · 18:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1800"
-   }
-  },
-  {
-   "key": "cipla-fda",
-   "tag": "Regulation",
-   "impact": "pos",
-   "title": "Cipla's US unit gets FDA all-clear",
-   "line": "Invagen's US facility receives a No Action Indicated classification",
-   "more": [
-    "Cipla was among Wednesday's Nifty gainers",
-    "The classification closes the inspection without action"
-   ],
-   "src": {
-    "title": "Post-Market Report 18 Nov 2026: Nifty Snaps 2-Day Rally as Titan, Metals Drag",
-    "url": "https://www.marketcalls.in/futures-and-options/post-market-report-18-november-2026.html"
-   },
-   "date": "2026-11-18",
-   "slot": "1800",
-   "when": "Wed · 18:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1800"
-   }
-  },
-  {
-   "key": "iifl-block-deal",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Fairfax sold IIFL stake to fund IDBI buy",
-   "line": "The roughly 13% sale funds Fairfax's purchase of an IDBI Bank stake",
-   "more": [
-    "IIFL Finance shares rose about 5% on the day",
-    "The sale cleared at a ₹611 floor"
-   ],
-   "src": {
-    "title": "Post-Market Report 18 Nov 2026: Nifty Snaps 2-Day Rally as Titan, Metals Drag",
-    "url": "https://www.marketcalls.in/futures-and-options/post-market-report-18-november-2026.html"
-   },
-   "date": "2026-11-18",
-   "slot": "1800",
-   "when": "Wed · 18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1005"
-   }
-  },
-  {
-   "key": "sector-wrap",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Pharma and PSU banks edge higher",
-   "line": "A few defensive sectors rose against the broad decline",
-   "more": [
-    "Nifty PSU Bank +0.44%, Nifty Pharma +0.40% (Tribune)",
-    "Tribune has Nifty FMCG up 0.17%; Business Standard listed FMCG among the worst hit"
-   ],
-   "src": {
-    "title": "Sensex falls 500 points, Nifty declines 0.63% as investors book profits after November rally",
-    "url": "https://tribuneindia.com/news/business/sensex-falls-500-points-nifty-declines-0-63-as-investors-book-profits-after-november-rally"
-   },
-   "date": "2026-11-18",
-   "slot": "1635",
-   "when": "Wed · 16:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1535"
-   }
-  },
-  {
-   "key": "market-close",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Two-day winning run snapped",
-   "line": "Indices retreat from nine-month highs; 35 Nifty stocks fall, 15 rise",
-   "more": [
-    "126 stocks hit lower circuit, Upstox reports",
-    "SBI, Cipla, Tata Consumer, ITC and Apollo Hospitals were among gainers",
-    "PSU banks and media outperformed"
-   ],
-   "src": {
-    "title": "Market wrap, Nov 18: SENSEX falls 500 pts, NIFTY50 ends below 25,250; 126 stocks hit lower circuit, Titan Company top loser",
-    "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-18-sensex-falls-500-pts-nifty-50-ends-below-25-250-126-stocks-hits-lower-circuit-titan-company-top-loser/article-203645/"
-   },
-   "date": "2026-11-18",
-   "slot": "1605",
-   "when": "Wed · 16:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1605"
-   }
-  },
-  {
-   "key": "titan-q2",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Titan and Bajaj Finance lead Sensex losses",
-   "line": "Titan's slide tracks gold's drop to a 14-month low",
-   "more": [
-    "Titan fell 4.48% to ₹4,688.10",
-    "Business Standard names Bajaj Finance among the top drags"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Titan, Bajaj Fin lead 500-pt in Sensex, Nifty below 25,250; Nifty MidCap down 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
-   },
-   "date": "2026-11-18",
-   "slot": "1505",
-   "when": "Wed · 15:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1235"
-   }
-  },
-  {
-   "key": "caplin-point-fda",
-   "tag": "Regulation",
-   "impact": "neg",
-   "title": "Caplin Point's FDA call follows August audit",
-   "line": "Today's classification for Gummidipoondi follows an August inspection with 10 observations",
-   "more": [
-    "The inspection ran from 13 to 21 August 2026",
-    "The company called the observations procedural"
-   ],
-   "src": {
-    "title": "Caplin Steriles gets 10 USFDA observations at Gummidipoondi facility",
-    "url": "https://medicaldialogues.in/news/industry/pharma/caplin-steriles-gets-10-usfda-observations-at-gummidipoondi-facility-177775"
-   },
-   "date": "2026-11-18",
-   "slot": "1505",
-   "when": "Wed · 15:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1435"
-   }
-  },
-  {
-   "key": "ashoka-buildcon-order",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Ashoka Buildcon jumps 10% on NHAI order",
-   "line": "₹1,465 crore order for balance work on an 8-lane Gujarat expressway",
-   "more": [
-    "The contract is on EPC mode",
-    "Shares later pared some gains but stayed higher"
-   ],
-   "src": {
-    "title": "Ashoka Buildcon shares zoom 10% on ₹1,465-crore NHAI project win in Gujarat",
-    "url": "https://www.business-standard.com/markets/news/ashoka-buildcon-shares-zoom-10-on-1-465-crore-nhai-project-win-in-gujarat-126111800226_1.html"
-   },
-   "date": "2026-11-18",
-   "slot": "1405",
-   "when": "Wed · 14:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1405"
-   }
-  },
-  {
-   "key": "bank-selloff",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "34 of 37 bank stocks fall",
-   "line": "Selling reaches lenders after their record run; Karnataka Bank leads losses",
-   "more": [
-    "Karnataka Bank −2.51%, Punjab & Sind Bank −2.20%, Dhanlaxmi −2.02%",
-    "Early-session counts from Business Upturn"
-   ],
-   "src": {
-    "title": "Banking stocks today fall today, November 18: Karnataka Bank falls 2.51%, Punjab & Sind Bank declines 2.20%, Dhanlaxmi Bank down 2.02%",
-    "url": "https://businessupturn.com/finance/stock-market/banking-stocks-today-fall-today-november-18-karnataka-bank-falls-2-51-punjab-sind-bank-declines-2-20-dhanlaxmi-bank-down-2-02/"
-   },
-   "date": "2026-11-18",
-   "slot": "1335",
-   "when": "Wed · 13:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1335"
-   }
-  },
-  {
-   "key": "auto-weakness",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Autos slip: 14 of 18 tracked stocks fall",
-   "line": "Ashok Leyland leads auto losses; Eicher and Tata Motors PV also lower",
-   "more": [
-    "Ashok Leyland −2.18%, Ola Electric −1.35%, Eicher −1.31%",
-    "SML Mahindra, Sharda Motor and Ather Energy gained"
-   ],
-   "src": {
-    "title": "Auto stocks today, November 18: Ashok Leyland falls 2.18%, Ola Electric declines 1.35%, Eicher Motors down 1.31%",
-    "url": "https://businessupturn.com/finance/stock-market/auto-stocks-today-november-18-ashok-leyland-falls-2-18-ola-electric-declines-1-35-eicher-motors-down-1-31/"
-   },
-   "date": "2026-11-18",
-   "slot": "1305",
-   "when": "Wed · 13:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1305"
-   }
-  },
-  {
-   "key": "software-selloff",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "36 of 43 IT stocks lower",
-   "line": "L&T Technology Services and Mphasis lead the IT decline",
-   "more": [
-    "LTTS −2.64%, Mphasis −2.15%",
-    "Infosys −1.02%, Wipro −1.24%"
-   ],
-   "src": {
-    "title": "IT sector stocks today, November 18: L&T Technology falls 2.64%, Mphasis declines 2.15%, Infosys down 1.02%",
-    "url": "https://businessupturn.com/finance/stock-market/it-sector-stocks-today-november-18-l-t-technology-falls-2-64-mphasis-declines-2-15-infosys-down-1-02/"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-18",
-   "slot": "1305",
-   "when": "Wed · 13:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "fmcg-drag",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "FMCG joins IT and metals in the red",
-   "line": "Consumer staples now weigh on the indices alongside tech and metals",
-   "more": [
-    "Business Standard names IT, metal and FMCG as the main drags",
-    "Metals remain the weakest sector"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex down 400 pts; Nifty near 25,200; Titan shares fall over 4%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
-   },
-   "date": "2026-11-18",
-   "slot": "1235",
-   "when": "Wed · 12:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1235"
-   }
-  },
-  {
-   "key": "indoco-remedies",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Indoco Remedies jumps about 11%",
-   "line": "The drugmaker rebounds after two days of losses; no trigger reported",
-   "more": [
-    "Shares hit ₹250.3 intraday, up 11.44%",
-    "Pharma is mixed: 14 of 22 tracked stocks are up"
-   ],
-   "src": {
-    "title": "Indoco Remedies Ltd Surges 11.87% to Day's High of Rs 250.3",
-    "url": "https://www.marketsmojo.com/news/stocks-in-action/indoco-remedies-ltd-hits-intraday-high-with-1187-surge-on-18-nov-2026-4266508"
-   },
-   "date": "2026-11-18",
-   "slot": "1205",
-   "when": "Wed · 12:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "1205"
-   }
-  },
-  {
-   "key": "us-yields",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Rising US yields keep investors wary",
-   "line": "Nvidia lifted US tech, but higher yields and Middle East tensions weigh",
-   "more": [
-    "Nasdaq futures rallied on Nvidia's results",
-    "Tuesday's Wall Street session ended with the S&P at a five-month low"
-   ],
-   "src": {
-    "title": "Sensex & Nifty 50 live updates, 18 November: GIFT Nifty signals gap-down opening as Nasdaq rallies on Nvidia earnings",
-    "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-18-november-gift-nifty-signals-gap-down-opening-as-nasdaq-rallies-on-nvidia-earnings-12818842"
-   },
-   "thread": "us-rates",
-   "date": "2026-11-18",
-   "slot": "0925",
-   "when": "Wed · 9:25",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-18",
-    "slot": "0925"
    }
   }
  ]
