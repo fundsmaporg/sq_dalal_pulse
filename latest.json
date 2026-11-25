@@ -1,26 +1,19 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-25T12:06:38+05:30",
+ "generated_at": "2026-11-25T12:37:20+05:30",
  "date": "2026-11-25",
- "slot": "1205",
- "slot_label": "12:05",
+ "slot": "1235",
+ "slot_label": "12:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-25T12:10:00+05:30",
- "nifty": {
-  "value": 25916.9,
-  "pct": 2.24,
-  "chg": 567.25,
-  "approx": true,
-  "asof_quote": "12:00"
- },
+ "asof": "2026-11-25T12:40:00+05:30",
  "mood": {
-  "label": "Rally extends higher",
-  "score": 0.65,
-  "summary": "The post-holiday rally has pushed to fresh highs by midday, led by banks and financial stocks, while metals remain the one clear pocket of weakness.",
+  "label": "Rally holds strong",
+  "score": 0.6,
+  "summary": "Indian shares are holding a powerful post-holiday rally around the day's best levels, with financial stocks firmly in charge and metals the main area still under water.",
   "detail": {
-   "leaders": "Financials led by ICICI Bank and HDFC Bank, plus Infosys",
+   "leaders": "Financials led by Bajaj Finserv, ICICI Bank and HDFC Bank",
    "laggards": "Metals, with Hindalco and Tata Steel lower",
-   "tone": "A live read. Firmer than the previous note, with the rally setting new intraday highs and leadership still concentrated in financials.",
+   "tone": "A live read on market behaviour rather than a fresh index print. The rally is holding its gains much as in the previous note, with no sign yet of profit-taking.",
    "watch": [
     "Whether metals and smallcaps join in",
     "US GDP and core PCE data this evening",
@@ -32,31 +25,30 @@
    },
    "movers": {
     "up": {
-     "summary": "Financials lead, with ICICI Bank and HDFC Bank the top Sensex gainers",
-     "why": "Lenders sold hard on Monday are leading the rebound as foreign investors turn more positive on India; IT is also firm.",
+     "summary": "Financials lead, with Bajaj Finserv, ICICI Bank and HDFC Bank on top",
+     "why": "Banks and financial firms sold hard on Monday are leading the rebound as foreign investors turn more positive on India.",
      "names": [
       {
        "name": "Nifty Financial Services",
        "dir": "up",
        "move": "up ~3%",
-       "line": "Top sector at midday, with Bajaj Finserv among the leaders"
+       "line": "The best-performing sector, per Business Standard's live blog"
+      },
+      {
+       "name": "Bajaj Finserv",
+       "dir": "up",
+       "line": "Leads the Sensex rally alongside Trent as financials top the sectors"
       },
       {
        "name": "ICICI Bank",
        "dir": "up",
        "move": "+3.41%",
-       "line": "Top Sensex gainer at noon; led Nifty gainers early in the session"
+       "line": "A top Sensex gainer at noon; led Nifty gainers early in the session"
       },
       {
        "name": "HDFC Bank",
        "dir": "up",
-       "line": "Among the top Sensex gainers at noon after leading Monday's bank slide"
-      },
-      {
-       "name": "Infosys",
-       "dir": "up",
-       "move": "up over 4%",
-       "line": "Among the top Nifty gainers early as IT catches up with global tech"
+       "line": "Among the top Sensex gainers after leading Monday's bank slide"
       }
      ],
      "src": {
@@ -96,6 +88,79 @@
  },
  "insights": [
   {
+   "key": "q2-results",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Earnings beat cited as a rally driver",
+   "line": "Business Standard lists better-than-expected earnings growth among today's key factors",
+   "more": [
+    "Other factors it cites: foreign sentiment, the AI-trade unwind and a firmer rupee",
+    "Financial stocks are leading the gains"
+   ],
+   "src": {
+    "title": "Bulls return to D-St! Sensex zooms 1,900 points intraday; key factors here",
+    "url": "https://www.business-standard.com/markets/news/bulls-return-to-d-st-sensex-zooms-1-500-points-intraday-key-factors-here-126112500139_1.html"
+   },
+   "thread": "q2-results-2026",
+   "date": "2026-11-25",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-25",
+    "slot": "1235"
+   }
+  },
+  {
+   "key": "trent",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Trent among the Sensex leaders",
+   "line": "Trent rose 3.13% to a day's high, one of the top Sensex gainers at midday",
+   "more": [
+    "Business Standard names it with Bajaj Finserv as leading the rally",
+    "No specific trigger was reported for today's move"
+   ],
+   "src": {
+    "title": "Trent Ltd. Rallies 3.13% and Holds Above All Key Moving Averages",
+    "url": "https://www.marketsmojo.com/news/stocks-in-action/trent-ltd-hits-intraday-high-with-313-surge-on-25-nov-2026-4274197"
+   },
+   "date": "2026-11-25",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-25",
+    "slot": "1235"
+   }
+  },
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Bajaj Finserv joins banks at the top",
+   "line": "Financial services is the best sector as Bajaj Finserv, ICICI Bank and HDFC Bank lead",
+   "more": [
+    "Banks were the main drag in Monday's sell-off",
+    "Business Standard says bank shares are the standout today"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Trent, Bajaj Finserv lead 2,000-pt rally in Sensex; Nifty Financial Svcs gain 3%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+   },
+   "date": "2026-11-25",
+   "slot": "1235",
+   "when": "12:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1205"
+   }
+  },
+  {
    "key": "fii-flows",
    "tag": "Flows",
    "impact": "pos",
@@ -114,7 +179,7 @@
    "slot": "1205",
    "when": "12:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "0845"
@@ -139,7 +204,7 @@
    "slot": "1205",
    "when": "12:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "0700"
@@ -164,34 +229,10 @@
    "slot": "1205",
    "when": "12:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "ICICI Bank, HDFC Bank top the gainers",
-   "line": "Financial stocks lead the rally to fresh highs, with Bajaj Finserv also among the leaders",
-   "more": [
-    "Trent is also among the top Sensex gainers at noon",
-    "Banks were the main drag in Monday's sell-off"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Trent, Bajaj Finserv lead 2,000-pt rally in Sensex; Nifty Financial Svcs gain 3%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
-   },
-   "date": "2026-11-25",
-   "slot": "1205",
-   "when": "12:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "1205"
    }
   },
   {
