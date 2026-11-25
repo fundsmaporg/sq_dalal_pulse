@@ -1,0 +1,160 @@
+{
+ "asof": "2026-11-25T15:40:00+05:30",
+ "summary": "Indian shares closed with a big post-holiday gain, recovering much of the afternoon dip, as consumer staples and financials led while metals and smallcaps lagged.",
+ "mood": {
+  "label": "Strong close",
+  "score": 0.55,
+  "detail": {
+   "stats": [],
+   "leaders": "FMCG led by HUL, Tata Consumer, Dabur India and Godrej Consumer",
+   "laggards": "Metals including Tata Steel, and smallcaps",
+   "movers": {
+    "up": {
+     "summary": "FMCG ends as the top sector, with HUL and Tata Consumer among the leaders",
+     "why": "Foreign buying and lower crude drew money into consumer staples, the day's strongest sector.",
+     "names": [
+      {
+       "name": "Nifty FMCG",
+       "move": "+3% to +3.8%",
+       "dir": "up",
+       "line": "The top sector at the close; Business Standard gives both figures"
+      },
+      {
+       "name": "HUL",
+       "move": "up ~4%",
+       "dir": "up",
+       "line": "Led the FMCG rally to a three-month high, per Moneycontrol"
+      },
+      {
+       "name": "Tata Consumer",
+       "move": "+3.9%",
+       "dir": "up",
+       "line": "Rallied with HUL and ITC as foreign buying lifted staples"
+      },
+      {
+       "name": "Dabur India",
+       "dir": "up",
+       "line": "Led FMCG gainers with Godrej Consumer, per Business Standard"
+      }
+     ],
+     "src": {
+      "title": "Stock Market Close: Sensex surges 1,502 pts, Nifty ends at 25,819; Nifty FMCG rises 3.8%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+     }
+    },
+    "down": {
+     "summary": "Metals slid across the board while smallcaps slipped",
+     "why": "Metals stayed out of favour after Monday's rout, and buying did not spread to smaller stocks.",
+     "names": [
+      {
+       "name": "Nifty Metal",
+       "move": "about -2%",
+       "dir": "down",
+       "line": "All 15 constituents were lower in the afternoon, per Business Upturn"
+      },
+      {
+       "name": "Tata Steel",
+       "move": "down over 2%",
+       "dir": "down",
+       "line": "Extended Monday's slide after its tubes-arm sale to APL Apollo"
+      },
+      {
+       "name": "Nifty Smallcap 100",
+       "move": "-0.26%",
+       "dir": "down",
+       "line": "Lower during the session even as large caps surged"
+      }
+     ],
+     "src": {
+      "title": "Nifty Rally Narrow: NSE Advance Decline Ratio Weak, Metals, Media Drag",
+      "url": "https://businessupturn.com/finance/stock-market/nifty-50-gains-1-5-on-heavyweight-buying-but-market-breadth-stays-weak-with-1-675-nse-stocks-falling-against-1-524-rising/"
+     }
+    }
+   },
+   "tone": "A read on the finished session. Firmer than the previous note, with the market recovering much of its early-afternoon dip into the close.",
+   "watch": [
+    "Provisional FII and DII figures this evening",
+    "US GDP and core PCE data tonight",
+    "Details of the new US tariffs"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex surges 1,502 pts, Nifty ends at 25,819; Nifty FMCG rises 3.8%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25819.25,
+  "pct": 1.85,
+  "chg": 469.6,
+  "approx": false,
+  "asof_quote": "15:30"
+ },
+ "top": [
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "thread": "fii-flows",
+   "title": "Foreign buying powers the rebound",
+   "line": "Continued foreign buying is cited as a main driver of the day's rally, per NewsBytes",
+   "more": [
+    "Foreign investors bought heavily through November",
+    "Today's provisional flow figures are due this evening"
+   ],
+   "src": {
+    "title": "Sensex surges over 1,500 points: What's driving market rally?",
+    "url": "https://www.newsbytesapp.com/news/business/sensex-surges-1-500-points-what-s-driving-the-market-rally/story"
+   }
+  },
+  {
+   "key": "fmcg-gains",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "FMCG ends as the top sector",
+   "line": "Consumer staples outperformed into the close, led by Dabur India and Godrej Consumer",
+   "more": [
+    "HUL, Tata Consumer and ITC rallied 2–4% earlier",
+    "Business Standard's headline and body differ on the size of the sector's gain"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex surges 1,502 pts, Nifty ends at 25,819; Nifty FMCG rises 3.8%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+   }
+  },
+  {
+   "key": "crude-iran-war",
+   "tag": "Macro",
+   "impact": "pos",
+   "thread": "crude-iran-war",
+   "title": "Crude slides further",
+   "line": "A further fall in crude prices is cited as a second driver of the rally, per NewsBytes",
+   "more": [
+    "Lower crude was also cited for the FMCG rally",
+    "No same-day Brent figure was found this run"
+   ],
+   "src": {
+    "title": "Sensex surges over 1,500 points: What's driving market rally?",
+    "url": "https://www.newsbytesapp.com/news/business/sensex-surges-1-500-points-what-s-driving-the-market-rally/story"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market Close: Sensex surges 1,502 pts, Nifty ends at 25,819; Nifty FMCG rises 3.8%",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+  },
+  {
+   "title": "Sensex surges over 1,500 points: What's driving market rally?",
+   "url": "https://www.newsbytesapp.com/news/business/sensex-surges-1-500-points-what-s-driving-the-market-rally/story"
+  },
+  {
+   "title": "Nifty FMCG hits over three-month high as HUL, Tata Consumer, ITC rally 2-4%; FII buying lifts market sentiment",
+   "url": "https://www.tradingview.com/news/moneycontrol:0bf2cebb5094b:0-nifty-fmcg-hits-over-three-month-high-as-hul-tata-consumer-itc-rally-2-4-fii-buying-lifts-market-sentiment/"
+  },
+  {
+   "title": "Nifty Rally Narrow: NSE Advance Decline Ratio Weak, Metals, Media Drag",
+   "url": "https://businessupturn.com/finance/stock-market/nifty-50-gains-1-5-on-heavyweight-buying-but-market-breadth-stays-weak-with-1-675-nse-stocks-falling-against-1-524-rising/"
+  }
+ ]
+}
