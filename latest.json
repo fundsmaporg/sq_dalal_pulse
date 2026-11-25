@@ -1,43 +1,56 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-25T13:06:36+05:30",
+ "generated_at": "2026-11-25T13:37:14+05:30",
  "date": "2026-11-25",
- "slot": "1305",
- "slot_label": "13:05",
+ "slot": "1335",
+ "slot_label": "13:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-25T13:10:00+05:30",
+ "asof": "2026-11-25T13:40:00+05:30",
+ "nifty": {
+  "value": 25706.0,
+  "pct": 1.41,
+  "chg": 356.35,
+  "approx": true,
+  "asof_quote": "13:00"
+ },
  "mood": {
-  "label": "Rally holds strong",
-  "score": 0.6,
-  "summary": "Indian shares are holding a strong post-holiday rebound into the afternoon, with financials and insurers in front and hospital stocks, Titan and metals among the few laggards.",
+  "label": "Rally pares gains",
+  "score": 0.4,
+  "summary": "Indian shares have slipped back from the day's high in early afternoon trade but are still well in the green, with banks and financials holding the market up and metals lagging.",
   "detail": {
-   "leaders": "Financials and insurers: Bajaj Finserv, HDFC Life and Bajaj Finance",
-   "laggards": "Metals, with Hindalco and Tata Steel lower",
-   "tone": "A live read on market behaviour rather than a fresh index print. The rally is holding firm much as in the previous note, with the leadership shifting toward insurers and NBFCs.",
+   "leaders": "Financials led by Bajaj Finserv, HDFC Life and Bajaj Finance",
+   "laggards": "Metals, with Hindalco among the early losers",
+   "tone": "A live read. Softer than the previous note: the market has given back a good part of its midday gain, though no specific trigger for the pullback has been reported.",
    "watch": [
-    "Whether the rally holds into the close",
+    "Whether banks keep supporting the market into the close",
     "US GDP and core PCE data this evening",
     "Details of the new US tariffs"
    ],
    "src": {
-    "title": "Top Gainers & Losers Today, November 25, 2026 at 12:00 PM",
-    "url": "https://hdfcsky.com/news/top-gainers-losers-november-25-2026-at-12-pm"
+    "title": "Stock Market LIVE: Sensex off day's high, up 1200-pts; Nifty below 25,700; APL Apollo at 52-week low",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Bajaj Finserv, HDFC Life and Bajaj Finance lead the gainers",
-     "why": "Financial stocks sold hard on Monday are leading the rebound, and insurers have joined in strongly.",
+     "summary": "Bajaj Finserv, HDFC Life and Bajaj Finance lead as financials hold firm",
+     "why": "Banks and financial services are still supporting the market even as it gives back part of its gains.",
      "names": [
+      {
+       "name": "Nifty Financial Services",
+       "dir": "up",
+       "move": "up ~2.4%",
+       "line": "The best-performing sector on the day, per Business Standard"
+      },
       {
        "name": "Bajaj Finserv",
        "dir": "up",
-       "line": "Top Nifty gainer at noon as financial stocks lead the rally"
+       "move": "+4.71%",
+       "line": "Top Nifty gainer at noon as financial stocks lead"
       },
       {
        "name": "HDFC Life",
        "dir": "up",
-       "move": "+4.17%",
-       "line": "Insurers rally, with the BSE Insurance index up about 2.5%"
+       "line": "Among the top noon gainers as insurers join the rally"
       },
       {
        "name": "Bajaj Finance",
@@ -51,36 +64,103 @@
      }
     },
     "down": {
-     "summary": "Metal stocks lag as the rest of the market rallies",
-     "why": "Metals are not joining the rebound after leading Monday's losses.",
+     "summary": "Metal stocks lag as the rest of the market holds gains",
+     "why": "Metals have stayed out of the rebound after leading Monday's losses.",
      "names": [
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "move": "-1.13%",
-       "line": "Weakest sector early in the session"
+       "line": "With media, among the underperforming sectors, per Business Standard"
       },
       {
        "name": "Hindalco",
        "dir": "down",
        "move": "-2.02%",
-       "line": "Biggest Nifty loser early as metal stocks stay under pressure"
-      },
-      {
-       "name": "Tata Steel",
-       "dir": "down",
-       "line": "Extends Monday's slide on its tubes-arm sale to APL Apollo"
+       "line": "Among the early Nifty losers as metal stocks stay under pressure"
       }
      ],
      "src": {
-      "title": "Stock Market Update 25 November 2026: Sensex, Nifty 50 Trade Higher After Market Opening",
-      "url": "https://www.kotakneo.com/news/market-news/stock-market-update-25-november-2026-sensex-nifty/"
+      "title": "Stock Market LIVE: Sensex off day's high, up 1200-pts; Nifty below 25,700; APL Apollo at 52-week low",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Banks hold the market up as gains fade",
+   "line": "Banks and financial services keep supporting the market as it pares its gains",
+   "more": [
+    "Bank, private bank and financial services indices are among the outperformers",
+    "Banks were the main drag in Monday's sell-off"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex off day's high, up 1200-pts; Nifty below 25,700; APL Apollo at 52-week low",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+   },
+   "date": "2026-11-25",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1205"
+   }
+  },
+  {
+   "key": "bajaj-finserv",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Bajaj Finserv tops the Nifty gainers",
+   "line": "Bajaj Finserv was up 4.71% at noon, the top Nifty gainer, with Bajaj Finance also strong",
+   "more": [
+    "Business Standard names it, with Trent, as leading the Sensex rally",
+    "Financials have led the gains all day"
+   ],
+   "src": {
+    "title": "Top Gainers & Losers Today, November 25, 2026 at 12:00 PM",
+    "url": "https://hdfcsky.com/news/top-gainers-losers-november-25-2026-at-12-pm"
+   },
+   "date": "2026-11-25",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-25",
+    "slot": "1335"
+   }
+  },
+  {
+   "key": "it-rebound",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT stays among the outperformers",
+   "line": "IT remains one of the stronger sectors as the wider market eases off its high",
+   "more": [
+    "Infosys was among the top Nifty gainers earlier",
+    "IT is catching up with a global tech rally missed on Tuesday's holiday"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex off day's high, up 1200-pts; Nifty below 25,700; APL Apollo at 52-week low",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-25",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1035"
+   }
+  },
   {
    "key": "tata-steel",
    "tag": "Stocks",
@@ -99,7 +179,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "0845"
@@ -123,7 +203,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1305"
@@ -147,7 +227,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1135"
@@ -200,30 +280,6 @@
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1235"
-   }
-  },
-  {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Bajaj Finserv joins banks at the top",
-   "line": "Financial services is the best sector as Bajaj Finserv, ICICI Bank and HDFC Bank lead",
-   "more": [
-    "Banks were the main drag in Monday's sell-off",
-    "Business Standard says bank shares are the standout today"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Trent, Bajaj Finserv lead 2,000-pt rally in Sensex; Nifty Financial Svcs gain 3%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
-   },
-   "date": "2026-11-25",
-   "slot": "1235",
-   "when": "12:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "1205"
    }
   },
   {
@@ -372,31 +428,6 @@
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "it-rebound",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT keeps its gains",
-   "line": "IT stocks are still supporting the recovery alongside banks, per a Reuters-based report",
-   "more": [
-    "TCS, Tech Mahindra and Infosys rose up to 4% earlier, per Business Today",
-    "Wall Street's overnight tech pullback has not reversed them"
-   ],
-   "src": {
-    "title": "Sensex Jumps 1,300 Points, Nifty Gains 1.5% on November 25",
-    "url": "https://www.nationpathindia.com/economy/sensex-jumps-1300-points-nifty-gains-november-25-2026"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-25",
-   "slot": "1035",
-   "when": "10:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "1035"
    }
   },
   {
