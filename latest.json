@@ -1,92 +1,79 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-25T16:06:51+05:30",
+ "generated_at": "2026-11-25T16:37:00+05:30",
  "date": "2026-11-25",
- "slot": "1605",
- "slot_label": "16:05",
+ "slot": "1635",
+ "slot_label": "16:35",
  "stage": "Post-market mood",
- "asof": "2026-11-25T16:10:00+05:30",
+ "asof": "2026-11-25T16:40:00+05:30",
  "nifty": {
   "value": 25819.25,
   "pct": 1.85,
   "chg": 469.6,
   "approx": false
  },
- "metrics": {
-  "brent_usd": {
-   "value": 87.54,
-   "asof": "2026-11-25 morning",
-   "approx": false,
-   "src": {
-    "title": "Oil Prices Today: Brent Crude Falls 1.4% to $87.54 as Supply Glut Concerns Offset Middle East Tensions",
-    "url": "https://www.kotakneo.com/news/commodities/oil-prices-fall-as-global-supply-glut-outweighs-middle-east-tensions-brent-crude-at-87-54/"
-   }
-  },
-  "india_vix": {
-   "value": 16.67,
-   "asof": "2026-11-25 session",
-   "approx": false,
-   "src": {
-    "title": "India VIX Falls 5.83% to 16.67 as Sensex Surges 1,465 Points on Record ₹1.27 Lakh Crore Foreign Inflows",
-    "url": "https://hdfcsky.com/news/india-vix-falls-5-83percent-to-16-67-as-sensex-surges-1465-points-on-record-rs1-27-lakh-crore-foreign-inflows-november-25-2026"
-   }
-  }
- },
  "mood": {
   "label": "Strong rebound",
   "score": 0.55,
-  "summary": "Indian shares closed with a big post-holiday rebound led by consumer staples and financials, recovering most of Monday's fall, while metal stocks ended firmly lower.",
+  "summary": "Indian shares ended a strong rebound session near their late highs, with consumer staples and banks leading, metals lower and smaller stocks largely sitting it out.",
   "detail": {
-   "leaders": "HUL, Bajaj Finserv, Tata Consumer and InterGlobe Aviation",
-   "laggards": "Metals led by Tata Steel, Hindalco and JSW Steel, plus ONGC",
-   "tone": "A read on the finished session. Firmer than the previous note's live read, with the market closing well up after recovering most of its early-afternoon dip.",
+   "leaders": "FMCG and banks, led by HUL, Tata Consumer and Bajaj Finserv",
+   "laggards": "Metals led by Tata Steel and Hindalco, plus ONGC",
+   "tone": "A read on the finished session. Unchanged in substance from the previous note: the close was strong, and the provisional flow data had not been published at the time of writing.",
    "watch": [
-    "Provisional FII and DII figures this evening",
+    "Provisional FII and DII figures, still awaited",
     "US PCE inflation data tonight",
     "Strikes on Saudi oil facilities and Iran's Hormuz threats"
    ],
    "src": {
-    "title": "Stock Market Close: Sensex surges 1,502 pts, Nifty ends at 25,819; Nifty FMCG rises 3.8%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+    "title": "Closing Bell: Sensex Surges 1,500 Points, Nifty 50 Gains 1.85% as FMCG and Banking Stocks Lead Market Recovery",
+    "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-surges-1500-points-nifty-50-gains-185-as-fmcg-and-banking-stocks-lead-market-recovery-60621"
    },
    "movers": {
     "up": {
-     "summary": "HUL, Bajaj Finserv, Tata Consumer and IndiGo top the Nifty gainers",
-     "why": "Foreign buying lifted consumer staples and financials, and lower crude helped fuel-sensitive stocks.",
+     "summary": "FMCG and banks led the recovery, with HUL and Tata Consumer on top",
+     "why": "Foreign buying lifted consumer staples and lenders, the two sectors that carried the rebound.",
      "names": [
+      {
+       "name": "Nifty FMCG",
+       "dir": "up",
+       "move": "+3.79%",
+       "line": "The day's top sector, per DSIJ"
+      },
+      {
+       "name": "Nifty Bank",
+       "dir": "up",
+       "move": "+1.79%",
+       "line": "Banks recovered much of Monday's heavy losses, per DSIJ"
+      },
       {
        "name": "HUL",
        "dir": "up",
        "move": "up ~4%",
-       "line": "Led FMCG to a three-month high as foreign buying lifted staples"
-      },
-      {
-       "name": "Bajaj Finserv",
-       "dir": "up",
-       "line": "Top Nifty gainer at noon as financials led the rebound"
+       "line": "Top Nifty gainer as foreign buying lifted consumer staples"
       },
       {
        "name": "Tata Consumer",
        "dir": "up",
        "move": "+3.9%",
        "line": "Rallied with HUL and ITC in the FMCG surge"
-      },
-      {
-       "name": "InterGlobe Aviation",
-       "dir": "up",
-       "move": "+3.76%",
-       "line": "Gained as Brent slid; lower crude cuts airlines' fuel costs"
       }
      ],
      "src": {
-      "title": "Sensex gains 1500 points, Nifty above 25800",
-      "url": "https://www.chinimandi.com/sensex-gains-1500-points-nifty-above-25800/"
+      "title": "Closing Bell: Sensex Surges 1,500 Points, Nifty 50 Gains 1.85% as FMCG and Banking Stocks Lead Market Recovery",
+      "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-surges-1500-points-nifty-50-gains-185-as-fmcg-and-banking-stocks-lead-market-recovery-60621"
      }
     },
     "down": {
-     "summary": "Tata Steel, Hindalco and JSW Steel led losses, with ONGC lower",
-     "why": "Metals stayed out of the rebound after Monday's rout, and lower crude weighed on upstream oil producers.",
+     "summary": "Metals ended firmly lower, with Tata Steel and Hindalco among the losers",
+     "why": "Metals stayed out of the rebound after Monday's rout, and lower crude weighed on ONGC.",
      "names": [
+      {
+       "name": "Nifty Metal",
+       "dir": "down",
+       "move": "about -2% to -2.45%",
+       "line": "Every constituent fell; reported falls vary by source and time"
+      },
       {
        "name": "Tata Steel",
        "dir": "down",
@@ -95,12 +82,7 @@
       {
        "name": "Hindalco",
        "dir": "down",
-       "line": "Among the top losers as every metal stock ended in the red"
-      },
-      {
-       "name": "JSW Steel",
-       "dir": "down",
-       "line": "Steel names stayed under pressure through the session"
+       "line": "Among the top Nifty losers as metals stayed weak"
       },
       {
        "name": "ONGC",
@@ -118,6 +100,78 @@
   }
  },
  "insights": [
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Banks join FMCG in leading the recovery",
+   "line": "DSIJ names FMCG and banking stocks as the leaders of the day's rebound",
+   "more": [
+    "Banks were the main drag in Monday's sell-off",
+    "Bajaj Finserv and HDFC Life were among the top Nifty gainers"
+   ],
+   "src": {
+    "title": "Closing Bell: Sensex Surges 1,500 Points, Nifty 50 Gains 1.85% as FMCG and Banking Stocks Lead Market Recovery",
+    "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-surges-1500-points-nifty-50-gains-185-as-fmcg-and-banking-stocks-lead-market-recovery-60621"
+   },
+   "date": "2026-11-25",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1205"
+   }
+  },
+  {
+   "key": "tata-steel",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Tata Steel ends as top Nifty loser",
+   "line": "Tata Steel led the Nifty losers, with ONGC, Hindalco and JSW Steel close behind",
+   "more": [
+    "APL Apollo, buyer of its tubes arm, hit a 52-week low today",
+    "Tata Steel fell 8.52% on Monday after the deal"
+   ],
+   "src": {
+    "title": "Sensex gains 1500 points, Nifty above 25800",
+    "url": "https://www.chinimandi.com/sensex-gains-1500-points-nifty-above-25800/"
+   },
+   "date": "2026-11-25",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "us-pce",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "US PCE inflation data due tonight",
+   "line": "Gold stayed under pressure ahead of the US PCE release, per Newsquawk",
+   "more": [
+    "The data comes alongside the Ras Tanura strike and Hormuz tensions",
+    "Today's FII and DII figures had not been published at the time of writing"
+   ],
+   "src": {
+    "title": "Crude climbs off lows as Houthis confirm strikes on Saudi's Ras Tanura refinery and Iran ramps up Hormuz rhetoric; spot gold remains pressured ahead of US PCE",
+    "url": "https://newsquawk.com/headlines/market-analysis-crude-climbs-off-lows-as-houthis-confirm-strikes-on-saudis-ras-tanura-refinery-and-iran-ramps-up-hormuz-rhetoric-spot-gold-remains-pressured-ahead-of-us-pce"
+   },
+   "date": "2026-11-25",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-25",
+    "slot": "1635"
+   }
+  },
   {
    "key": "crude-iran-war",
    "tag": "Global",
@@ -138,7 +192,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "2100"
@@ -163,7 +217,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "0845"
@@ -187,7 +241,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1305"
@@ -266,30 +320,6 @@
    }
   },
   {
-   "key": "bank-rally",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Heavyweights give back some gains",
-   "line": "ICICI Bank, HDFC Bank and Infosys pulled back from their highs, dragging the indices",
-   "more": [
-    "All three led the gainers earlier in the session",
-    "Financial services is still the best sector on the day"
-   ],
-   "src": {
-    "title": "Sensex Today: Pares Gains, Slips 950 Pts From Day's High",
-    "url": "https://univest.in/blogs/sensex-today-pares-gains-falls-from-days-high-reasons"
-   },
-   "date": "2026-11-25",
-   "slot": "1405",
-   "when": "14:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "1205"
-   }
-  },
-  {
    "key": "bajaj-finserv",
    "tag": "Stocks",
    "impact": "pos",
@@ -336,30 +366,6 @@
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1035"
-   }
-  },
-  {
-   "key": "tata-steel",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "APL Apollo hits a 52-week low",
-   "line": "The buyer of Tata Steel's tubes arm slid to a 52-week low, per Business Standard",
-   "more": [
-    "APL Apollo shares fell sharply on Monday after the deal was announced",
-    "Tata Steel is also among today's laggards"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex gains 1,400 pts, Nifty tops 25,700; APL Apollo shares hit 52-week low",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
-   },
-   "date": "2026-11-25",
-   "slot": "1305",
-   "when": "13:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "0845"
    }
   },
   {
