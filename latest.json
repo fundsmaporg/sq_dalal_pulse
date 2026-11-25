@@ -1,46 +1,40 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-25T13:37:14+05:30",
+ "generated_at": "2026-11-25T14:06:42+05:30",
  "date": "2026-11-25",
- "slot": "1335",
- "slot_label": "13:35",
+ "slot": "1405",
+ "slot_label": "14:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-25T13:40:00+05:30",
+ "asof": "2026-11-25T14:10:00+05:30",
  "nifty": {
-  "value": 25706.0,
-  "pct": 1.41,
-  "chg": 356.35,
-  "approx": true,
-  "asof_quote": "13:00"
+  "value": 25668.9,
+  "pct": 1.26,
+  "chg": 319.25,
+  "approx": false,
+  "asof_quote": "13:24"
  },
  "mood": {
-  "label": "Rally pares gains",
-  "score": 0.4,
-  "summary": "Indian shares have slipped back from the day's high in early afternoon trade but are still well in the green, with banks and financials holding the market up and metals lagging.",
+  "label": "Gains trimmed",
+  "score": 0.35,
+  "summary": "Indian shares are still firmly higher in afternoon trade but well off the day's peak, as profit booking in banking and IT heavyweights trims the post-holiday rally.",
   "detail": {
-   "leaders": "Financials led by Bajaj Finserv, HDFC Life and Bajaj Finance",
-   "laggards": "Metals, with Hindalco among the early losers",
-   "tone": "A live read. Softer than the previous note: the market has given back a good part of its midday gain, though no specific trigger for the pullback has been reported.",
+   "leaders": "Bajaj Finserv and HDFC Life, with FMCG steadying the market",
+   "laggards": "Metals including Hindalco, as heavyweights pare gains",
+   "tone": "A live read. Softer than the previous note: the market has slipped further from its midday peak on profit booking, though it remains comfortably in the green.",
    "watch": [
-    "Whether banks keep supporting the market into the close",
+    "Whether the pullback deepens into the close",
     "US GDP and core PCE data this evening",
     "Details of the new US tariffs"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex off day's high, up 1200-pts; Nifty below 25,700; APL Apollo at 52-week low",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+    "title": "Sensex Today: Pares Gains, Slips 950 Pts From Day's High",
+    "url": "https://univest.in/blogs/sensex-today-pares-gains-falls-from-days-high-reasons"
    },
    "movers": {
     "up": {
-     "summary": "Bajaj Finserv, HDFC Life and Bajaj Finance lead as financials hold firm",
-     "why": "Banks and financial services are still supporting the market even as it gives back part of its gains.",
+     "summary": "Bajaj Finserv and HDFC Life lead, with FMCG a bright spot",
+     "why": "Financials are still the strongest pocket, and consumer stocks are helping limit the afternoon pullback.",
      "names": [
-      {
-       "name": "Nifty Financial Services",
-       "dir": "up",
-       "move": "up ~2.4%",
-       "line": "The best-performing sector on the day, per Business Standard"
-      },
       {
        "name": "Bajaj Finserv",
        "dir": "up",
@@ -53,24 +47,24 @@
        "line": "Among the top noon gainers as insurers join the rally"
       },
       {
-       "name": "Bajaj Finance",
+       "name": "Nifty FMCG",
        "dir": "up",
-       "line": "Joins Bajaj Finserv among the noon leaders as lenders rebound"
+       "line": "A bright spot that helped cushion the afternoon pullback, per Univest"
       }
      ],
      "src": {
-      "title": "Top Gainers & Losers Today, November 25, 2026 at 12:00 PM",
-      "url": "https://hdfcsky.com/news/top-gainers-losers-november-25-2026-at-12-pm"
+      "title": "Sensex Today: Pares Gains, Slips 950 Pts From Day's High",
+      "url": "https://univest.in/blogs/sensex-today-pares-gains-falls-from-days-high-reasons"
      }
     },
     "down": {
-     "summary": "Metal stocks lag as the rest of the market holds gains",
-     "why": "Metals have stayed out of the rebound after leading Monday's losses.",
+     "summary": "Metal stocks stay weak as the market comes off its high",
+     "why": "Metals have stayed out of the rebound and added to the afternoon pressure.",
      "names": [
       {
        "name": "Nifty Metal",
        "dir": "down",
-       "line": "With media, among the underperforming sectors, per Business Standard"
+       "line": "Metal weakness is cited as one reason the market pared its gains"
       },
       {
        "name": "Hindalco",
@@ -80,8 +74,8 @@
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex off day's high, up 1200-pts; Nifty below 25,700; APL Apollo at 52-week low",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+      "title": "Sensex Today: Pares Gains, Slips 950 Pts From Day's High",
+      "url": "https://univest.in/blogs/sensex-today-pares-gains-falls-from-days-high-reasons"
      }
     }
    }
@@ -89,27 +83,75 @@
  },
  "insights": [
   {
-   "key": "bank-rally",
+   "key": "profit-booking",
    "tag": "Stocks",
-   "impact": "pos",
-   "title": "Banks hold the market up as gains fade",
-   "line": "Banks and financial services keep supporting the market as it pares its gains",
+   "impact": "neg",
+   "title": "Profit booking trims the rally",
+   "line": "Traders took profits after the Nifty failed to break a key round-number level, per Univest",
    "more": [
-    "Bank, private bank and financial services indices are among the outperformers",
-    "Banks were the main drag in Monday's sell-off"
+    "The slide from the intraday high ran into the early afternoon",
+    "Metal weakness added to the pullback"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex off day's high, up 1200-pts; Nifty below 25,700; APL Apollo at 52-week low",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+    "title": "Sensex Today: Pares Gains, Slips 950 Pts From Day's High",
+    "url": "https://univest.in/blogs/sensex-today-pares-gains-falls-from-days-high-reasons"
    },
    "date": "2026-11-25",
-   "slot": "1335",
-   "when": "13:35",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1005"
+   }
+  },
+  {
+   "key": "bank-rally",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Heavyweights give back some gains",
+   "line": "ICICI Bank, HDFC Bank and Infosys pulled back from their highs, dragging the indices",
+   "more": [
+    "All three led the gainers earlier in the session",
+    "Financial services is still the best sector on the day"
+   ],
+   "src": {
+    "title": "Sensex Today: Pares Gains, Slips 950 Pts From Day's High",
+    "url": "https://univest.in/blogs/sensex-today-pares-gains-falls-from-days-high-reasons"
+   },
+   "date": "2026-11-25",
+   "slot": "1405",
+   "when": "14:05",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1205"
+   }
+  },
+  {
+   "key": "fmcg-gains",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "FMCG cushions the pullback",
+   "line": "Consumer stocks were a bright spot that helped limit the market's slide from its high",
+   "more": [
+    "Univest names FMCG as the sector holding up in the afternoon",
+    "Metals were the main weak spot"
+   ],
+   "src": {
+    "title": "Sensex Today: Pares Gains, Slips 950 Pts From Day's High",
+    "url": "https://univest.in/blogs/sensex-today-pares-gains-falls-from-days-high-reasons"
+   },
+   "date": "2026-11-25",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-19",
+    "slot": "1305"
    }
   },
   {
@@ -130,7 +172,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1335"
@@ -155,7 +197,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1035"
@@ -724,30 +766,6 @@
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1035"
-   }
-  },
-  {
-   "key": "profit-booking",
-   "tag": "Opening",
-   "impact": "neg",
-   "title": "₹5.64 trillion of market value wiped out",
-   "line": "Investor wealth shrinks as the sell-off deepens, per Business Standard",
-   "more": [
-    "Analysts cite expiry-day positioning and stiff resistance near recent highs",
-    "Friday's close was a nine-month closing high after a four-week winning streak"
-   ],
-   "src": {
-    "title": "Stock Market Crash LIVE: Sensex slumps 1,100 pts, Nifty tests 25,400; ₹5.64 trillion m-cap gone",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
-   },
-   "date": "2026-11-23",
-   "slot": "1435",
-   "when": "Mon · 14:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "1005"
    }
   },
   {
@@ -1572,30 +1590,6 @@
    "first_seen": {
     "date": "2026-11-19",
     "slot": "1335"
-   }
-  },
-  {
-   "key": "fmcg-gains",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Nifty FMCG snaps a two-day losing run",
-   "line": "Consumer staples join autos and PSU banks among the day's outperformers",
-   "more": [
-    "FMCG had fallen in the two previous sessions",
-    "IT is the main sector lagging"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex rises 400 pts, Nifty tops 25,300; Nifty FMCG snaps 2-day losing streak",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
-   },
-   "date": "2026-11-19",
-   "slot": "1335",
-   "when": "Thu · 13:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-19",
-    "slot": "1305"
    }
   },
   {
