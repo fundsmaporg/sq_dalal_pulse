@@ -1,112 +1,166 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-26T16:06:53+05:30",
+ "generated_at": "2026-11-26T16:36:58+05:30",
  "date": "2026-11-26",
- "slot": "1605",
- "slot_label": "16:05",
+ "slot": "1635",
+ "slot_label": "16:35",
  "stage": "Post-market mood",
- "asof": "2026-11-26T16:10:00+05:30",
+ "asof": "2026-11-26T16:40:00+05:30",
  "nifty": {
-  "value": 25885,
+  "value": 25884.5,
   "pct": 0.25,
-  "chg": 65.75,
-  "approx": true
- },
- "metrics": {
-  "fii_net_cr": {
-   "value": 4479,
-   "asof": "2026-11-25 provisional",
-   "approx": false,
-   "src": {
-    "title": "FII DII Data Today: Daily & Monthly Net Flows",
-    "url": "https://tapetide.com/fii-dii-data"
-   }
-  },
-  "dii_net_cr": {
-   "value": 4019,
-   "asof": "2026-11-25 provisional",
-   "approx": false,
-   "src": {
-    "title": "FII DII Data Today: Daily & Monthly Net Flows",
-    "url": "https://tapetide.com/fii-dii-data"
-   }
-  }
+  "chg": 65.25,
+  "approx": false
  },
  "mood": {
-  "label": "Volatile, ends higher",
-  "score": 0.3,
-  "summary": "Indian shares closed a volatile session modestly higher, adding to Wednesday's rally, as IT and realty led while NBFCs and LG Electronics India lagged.",
+  "label": "Second day higher",
+  "score": 0.35,
+  "summary": "Indian shares closed higher for a second session after a volatile day, with IT and realty leading and metals firm, while auto, FMCG and consumer durables saw selling.",
   "detail": {
-   "leaders": "IT's HCLTech and TCS, plus realty's Godrej Properties",
-   "laggards": "LG Electronics India, Shriram Finance and Bajaj Finance",
-   "tone": "A read on the finished session. Firmer than the previous note's closing-auction read, with the market ending a choppy day near its late highs.",
+   "leaders": "IT led by HCLTech, plus realty and metals",
+   "laggards": "Auto, FMCG and consumer durables, with Bajaj Finance and Asian Paints lower",
+   "tone": "A read on the finished session. Much as in the previous note, the market ended modestly higher, with IT's late strength helping it recover from intraday lows.",
    "watch": [
     "Provisional FII and DII figures for today, still awaited",
     "Any progress on the US-India trade deal",
     "Whether IT and realty extend their runs on Friday"
    ],
    "src": {
-    "title": "Stock Market Close: Sensex ends volatile session 390 pts up, Nifty at 25,885; realty, IT shine",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+    "title": "Closing Bell: Nifty 50, Sensex Extend Gains for Second Session; IT Index Surges 3.66%, Realty Gains 3.27%",
+    "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-nifty-50-sensex-extend-gains-for-second-session-it-index-surges-366-realty-gains-327-60652"
    },
    "movers": {
     "up": {
-     "summary": "HCLTech and TCS top the Nifty; realty hits a 52-week high",
-     "why": "IT extended its four-day rally with foreign buying cited as support, and realty rallied on insolvency rule changes.",
+     "summary": "IT leads with HCLTech up about 6%; realty and metals also firm",
+     "why": "IT extended a four-day rally, and realty rallied on insolvency rule changes for property projects.",
      "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "move": "+3.66%",
+       "line": "The day's top sector, per DSIJ"
+      },
       {
        "name": "HCLTech",
        "dir": "up",
-       "line": "A top Nifty gainer at the close as IT led"
+       "move": "+5.99%",
+       "line": "The top Nifty gainer at ₹1,462.60; no specific trigger was reported"
       },
       {
-       "name": "TCS",
+       "name": "Nifty Realty",
        "dir": "up",
-       "line": "Among the top Nifty gainers as IT extended its run"
+       "move": "+2.77% to +3.27%",
+       "line": "Hit a 52-week high on insolvency rule changes; reports differ on the gain"
       },
       {
-       "name": "Godrej Properties",
+       "name": "Nifty Metal",
        "dir": "up",
-       "move": "+4%",
-       "line": "Jefferies sees it as the main beneficiary of property sector consolidation"
+       "move": "+1.19%",
+       "line": "Metals helped the indices recover from intraday lows"
       }
      ],
      "src": {
-      "title": "Stock Market Close: Sensex ends volatile session 390 pts up, Nifty at 25,885; realty, IT shine",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+      "title": "Closing Bell: Nifty 50, Sensex Extend Gains for Second Session; IT Index Surges 3.66%, Realty Gains 3.27%",
+      "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-nifty-50-sensex-extend-gains-for-second-session-it-index-surges-366-realty-gains-327-60652"
      }
     },
     "down": {
-     "summary": "LG Electronics India and NBFCs were the main drags",
-     "why": "LG India's parent sold shares at a discount, and lenders that led Wednesday's rally were sold.",
+     "summary": "Bajaj Finance and Asian Paints lead losers as consumer sectors slip",
+     "why": "Lenders that led Wednesday's rally were sold, and auto, FMCG and consumer durables saw selling pressure.",
      "names": [
-      {
-       "name": "LG Electronics India",
-       "dir": "down",
-       "move": "-3%",
-       "line": "2.05% of equity changed hands at ₹1,767.4, below Wednesday's close"
-      },
-      {
-       "name": "Shriram Finance",
-       "dir": "down",
-       "line": "Among the decliners at midday, per Zee Business"
-      },
       {
        "name": "Bajaj Finance",
        "dir": "down",
-       "move": "-2.25%",
        "line": "Among the top losers after rallying with financials on Wednesday"
+      },
+      {
+       "name": "Asian Paints",
+       "dir": "down",
+       "line": "Among the top losers as consumer durables saw selling"
       }
      ],
      "src": {
-      "title": "LG Electronics India shares fall 3% after Rs 2,464-crore block deals; promoters likely sell 2% equity stake",
-      "url": "https://www.tradingview.com/news/moneycontrol:c76d18284094b:0-lg-electronics-india-shares-fall-3-after-rs-2-464-crore-block-deals-promoters-likely-sell-2-equity-stake/"
+      "title": "Closing Bell: Sensex, Nifty end higher after volatile session; IT stocks lead gains, metal shares rise",
+      "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-nifty-end-higher-after-volatile-session-it-stocks-lead-gains-metal-shares-rise-406045"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "it-rebound",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "HCLTech jumps 6% as IT leads the close",
+   "line": "HCLTech rose 5.99% to ₹1,462.60, the top Nifty gainer, with TCS and Infosys also higher",
+   "more": [
+    "IT ended as the strongest sector for a fourth day of gains",
+    "No specific trigger was reported for HCLTech's move"
+   ],
+   "src": {
+    "title": "India shares higher at close of trade; Nifty 50 up 0.25%",
+    "url": "https://uk.investing.com/news/stock-market-news/india-shares-higher-at-close-of-trade-nifty-50-up-025-5005567"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-26",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "realty-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Realty ends near the top of the sector board",
+   "line": "Realty closed among the strongest sectors after hitting a 52-week high",
+   "more": [
+    "Godrej Properties, Lodha and Sobha rose about 4% each intraday",
+    "Reports link the rally to amended insolvency rules for real estate projects"
+   ],
+   "src": {
+    "title": "Closing Bell: Nifty 50, Sensex Extend Gains for Second Session; IT Index Surges 3.66%, Realty Gains 3.27%",
+    "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-nifty-50-sensex-extend-gains-for-second-session-it-index-surges-366-realty-gains-327-60652"
+   },
+   "date": "2026-11-26",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "1505"
+   }
+  },
+  {
+   "key": "consumer-selling",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Auto, FMCG, durables see selling",
+   "line": "Auto, FMCG and consumer durables shares came under pressure; Asian Paints fell",
+   "more": [
+    "Bajaj Finance was also among the top losers",
+    "FMCG had led the market on Wednesday"
+   ],
+   "src": {
+    "title": "Closing Bell: Sensex, Nifty end higher after volatile session; IT stocks lead gains, metal shares rise",
+    "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-nifty-end-higher-after-volatile-session-it-stocks-lead-gains-metal-shares-rise-406045"
+   },
+   "date": "2026-11-26",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "1635"
+   }
+  },
   {
    "key": "fii-flows",
    "tag": "Flows",
@@ -126,35 +180,10 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "it-rebound",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "HCLTech, TCS lead as IT wins a fourth day",
-   "line": "HCLTech and TCS were among the top Nifty gainers as IT led the close",
-   "more": [
-    "Wipro rose as much as 4.21% earlier on its bp partnership",
-    "Infosys led the gainers for much of the session"
-   ],
-   "src": {
-    "title": "Stock Market Close: Sensex ends volatile session 390 pts up, Nifty at 25,885; realty, IT shine",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-26",
-   "slot": "1605",
-   "when": "16:05",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "1035"
    }
   },
   {
@@ -175,34 +204,10 @@
    "slot": "1605",
    "when": "16:05",
    "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-26",
-    "slot": "1605"
-   }
-  },
-  {
-   "key": "realty-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Realty, metals and IT end as top sectors",
-   "line": "Realty led the day after hitting a 52-week high on insolvency rule changes",
-   "more": [
-    "Godrej Properties, Lodha and Sobha rose about 4% each",
-    "Metals and IT were the next strongest sectors"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex gains 337 points, Nifty at 25,897 in closing auction session",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
-   },
-   "date": "2026-11-26",
-   "slot": "1535",
-   "when": "15:35",
-   "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
-    "slot": "1505"
+    "slot": "1605"
    }
   },
   {
