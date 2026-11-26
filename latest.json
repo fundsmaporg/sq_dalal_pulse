@@ -1,49 +1,66 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-26T14:37:19+05:30",
+ "generated_at": "2026-11-26T15:06:49+05:30",
  "date": "2026-11-26",
- "slot": "1435",
- "slot_label": "14:35",
- "stage": "Mid-market mood",
- "asof": "2026-11-26T14:40:00+05:30",
+ "slot": "1505",
+ "slot_label": "15:05",
+ "stage": "Closing mood",
+ "asof": "2026-11-26T15:10:00+05:30",
+ "nifty": {
+  "value": 25905.25,
+  "pct": 0.33,
+  "chg": 86,
+  "approx": false,
+  "asof_quote": "15:00"
+ },
  "mood": {
-  "label": "Flat and choppy",
-  "score": 0.0,
-  "summary": "Indian shares are trading flat and choppy into the last hour, with IT and realty holding up while NBFCs and LG Electronics India weigh, as investors watch for progress on a US trade deal.",
+  "label": "Range-bound gains",
+  "score": 0.3,
+  "summary": "Indian shares are heading into the final half-hour modestly higher in a tight range, with realty, metals and IT leading and smaller stocks outpacing the benchmarks.",
   "detail": {
-   "leaders": "IT, led by Infosys",
+   "leaders": "Realty led by Godrej Properties and Lodha, plus IT's Infosys and TCS",
    "laggards": "LG Electronics India, Bajaj Finance and Shriram Finance",
-   "tone": "A read on market behaviour rather than a fresh index print. Much as in the previous note, the market is swinging around flat with no clear direction.",
+   "tone": "A live read. Firmer than the previous note: the market has recovered from its flat patch, though it is still stuck in a narrow range as traders await trade-deal news.",
    "watch": [
     "Any progress on the US-India trade deal",
-    "Whether IT can keep the market afloat into the close",
+    "Whether the realty rally holds into the close",
     "Provisional FII and DII figures this evening"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex trades choppy; Nifty around 25,800; Nifty Realty gains 3%",
+    "title": "Stock Market LIVE: Sensex stuck in range, up 400 pts; Nifty above 25,900; Nifty Realty gains 3%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT holds up the market, led by Infosys",
-     "why": "IT remains the strongest sector as its four-day rally runs on.",
+     "summary": "Realty hits a 52-week high; Infosys and TCS lead the Nifty",
+     "why": "Realty is rallying on insolvency rule changes for property projects, and IT is extending its four-day run.",
      "names": [
       {
-       "name": "Nifty IT",
+       "name": "Godrej Properties",
        "dir": "up",
-       "move": "up ~2.4%",
-       "line": "The strongest sector on the day, per Equitymaster"
+       "move": "+4%",
+       "line": "Jefferies sees it as the main beneficiary of property sector consolidation"
+      },
+      {
+       "name": "Lodha Developers",
+       "dir": "up",
+       "move": "+4%",
+       "line": "Up with the realty pack on the insolvency rule changes"
       },
       {
        "name": "Infosys",
        "dir": "up",
-       "move": "+2.67%",
-       "line": "Among the top gainers as IT extends its run"
+       "line": "A top Nifty gainer as IT extends its four-day rally"
+      },
+      {
+       "name": "TCS",
+       "dir": "up",
+       "line": "Among the top Nifty gainers with Infosys and HCLTech"
       }
      ],
      "src": {
-      "title": "Today's Market: Sensex Today Trades Higher",
-      "url": "https://www.equitymaster.com/indian-share-markets/11/26/2026/Sensex-Today-Trades-Higher--Nifty-Above-25800--Nifty-IT-Index-Up-24"
+      "title": "Nifty Realty hits 52-wk high, up 3% led by Prestige, Brigade Enterprises",
+      "url": "https://www.business-standard.com/markets/news/nifty-realty-hits-52-week-high-up-3-led-by-brigade-enterprises-prestige-estates-126112600658_1.html"
      }
     },
     "down": {
@@ -79,6 +96,80 @@
  },
  "insights": [
   {
+   "key": "realty-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Realty hits a 52-week high",
+   "line": "Godrej Properties, Lodha and Sobha rise 4% each; Prestige and Brigade lead the gains",
+   "more": [
+    "A report links the rally to amended insolvency rules for real estate projects",
+    "The realty pack is up over 22% in a month, per Moneycontrol",
+    "Jefferies sees Godrej Properties as the main consolidation winner"
+   ],
+   "src": {
+    "title": "Nifty Realty hits 52-wk high, up 3% led by Prestige, Brigade Enterprises",
+    "url": "https://www.business-standard.com/markets/news/nifty-realty-hits-52-week-high-up-3-led-by-brigade-enterprises-prestige-estates-126112600658_1.html"
+   },
+   "date": "2026-11-26",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "1505"
+   }
+  },
+  {
+   "key": "it-rebound",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Infosys, TCS, HCLTech top the Nifty",
+   "line": "IT keeps leading the market, with Infosys, TCS and HCLTech the top Nifty gainers",
+   "more": [
+    "IT is in a fourth straight session of gains",
+    "Metals have also turned firm"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex stuck in range, up 400 pts; Nifty above 25,900; Nifty Realty gains 3%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-26",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "breadth",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Smallcaps keep outpacing the benchmarks",
+   "line": "Midcaps and smallcaps are rising faster than the Nifty and Sensex, per Business Standard",
+   "more": [
+    "Smallcaps have outperformed through the session",
+    "Realty and metals are the broader market's strongest pockets"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex stuck in range, up 400 pts; Nifty above 25,900; Nifty Realty gains 3%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+   },
+   "date": "2026-11-26",
+   "slot": "1505",
+   "when": "15:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-25",
+    "slot": "1105"
+   }
+  },
+  {
    "key": "us-tariffs",
    "tag": "Policy",
    "impact": "watch",
@@ -98,7 +189,7 @@
    "slot": "1435",
    "when": "14:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-25",
     "slot": "0700"
@@ -123,7 +214,7 @@
    "slot": "1435",
    "when": "14:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "1435"
@@ -147,7 +238,7 @@
    "slot": "1435",
    "when": "14:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "1435"
@@ -175,31 +266,6 @@
    "first_seen": {
     "date": "2026-11-26",
     "slot": "1405"
-   }
-  },
-  {
-   "key": "it-rebound",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT keeps the market afloat",
-   "line": "IT stays the strongest sector as the wider market gives up its gains",
-   "more": [
-    "Infosys is among the top gainers",
-    "HDFC Bank and ICICI Bank were also among gainers, per Equitymaster"
-   ],
-   "src": {
-    "title": "Today's Market: Sensex Today Trades Higher",
-    "url": "https://www.equitymaster.com/indian-share-markets/11/26/2026/Sensex-Today-Trades-Higher--Nifty-Above-25800--Nifty-IT-Index-Up-24"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-26",
-   "slot": "1405",
-   "when": "14:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "1035"
    }
   },
   {
@@ -321,30 +387,6 @@
    "first_seen": {
     "date": "2026-11-26",
     "slot": "1305"
-   }
-  },
-  {
-   "key": "breadth",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Smallcaps and midcaps join the rally",
-   "line": "Smallcaps and midcaps are outpacing the benchmarks, with metal shares also firm",
-   "more": [
-    "Business Standard lists metal, FMCG and IT shares among the day's outperformers",
-    "FMCG had been the weakest sector earlier"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex gains 400 pts; MCX, Nifty tops 25,900; metal, FMCG, IT shares shine",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
-   },
-   "date": "2026-11-26",
-   "slot": "1235",
-   "when": "12:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-25",
-    "slot": "1105"
    }
   },
   {
