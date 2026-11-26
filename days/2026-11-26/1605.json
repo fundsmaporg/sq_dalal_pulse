@@ -1,0 +1,179 @@
+{
+ "asof": "2026-11-26T16:10:00+05:30",
+ "summary": "Indian shares closed a volatile session modestly higher, adding to Wednesday's rally, as IT and realty led while NBFCs and LG Electronics India lagged.",
+ "mood": {
+  "label": "Volatile, ends higher",
+  "score": 0.3,
+  "detail": {
+   "stats": [],
+   "leaders": "IT's HCLTech and TCS, plus realty's Godrej Properties",
+   "laggards": "LG Electronics India, Shriram Finance and Bajaj Finance",
+   "movers": {
+    "up": {
+     "summary": "HCLTech and TCS top the Nifty; realty hits a 52-week high",
+     "why": "IT extended its four-day rally with foreign buying cited as support, and realty rallied on insolvency rule changes.",
+     "names": [
+      {
+       "name": "HCLTech",
+       "dir": "up",
+       "line": "A top Nifty gainer at the close as IT led"
+      },
+      {
+       "name": "TCS",
+       "dir": "up",
+       "line": "Among the top Nifty gainers as IT extended its run"
+      },
+      {
+       "name": "Godrej Properties",
+       "move": "+4%",
+       "dir": "up",
+       "line": "Jefferies sees it as the main beneficiary of property sector consolidation"
+      }
+     ],
+     "src": {
+      "title": "Stock Market Close: Sensex ends volatile session 390 pts up, Nifty at 25,885; realty, IT shine",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+     }
+    },
+    "down": {
+     "summary": "LG Electronics India and NBFCs were the main drags",
+     "why": "LG India's parent sold shares at a discount, and lenders that led Wednesday's rally were sold.",
+     "names": [
+      {
+       "name": "LG Electronics India",
+       "move": "-3%",
+       "dir": "down",
+       "line": "2.05% of equity changed hands at ₹1,767.4, below Wednesday's close"
+      },
+      {
+       "name": "Shriram Finance",
+       "dir": "down",
+       "line": "Among the decliners at midday, per Zee Business"
+      },
+      {
+       "name": "Bajaj Finance",
+       "move": "-2.25%",
+       "dir": "down",
+       "line": "Among the top losers after rallying with financials on Wednesday"
+      }
+     ],
+     "src": {
+      "title": "LG Electronics India shares fall 3% after Rs 2,464-crore block deals; promoters likely sell 2% equity stake",
+      "url": "https://www.tradingview.com/news/moneycontrol:c76d18284094b:0-lg-electronics-india-shares-fall-3-after-rs-2-464-crore-block-deals-promoters-likely-sell-2-equity-stake/"
+     }
+    }
+   },
+   "tone": "A read on the finished session. Firmer than the previous note's closing-auction read, with the market ending a choppy day near its late highs.",
+   "watch": [
+    "Provisional FII and DII figures for today, still awaited",
+    "Any progress on the US-India trade deal",
+    "Whether IT and realty extend their runs on Friday"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex ends volatile session 390 pts up, Nifty at 25,885; realty, IT shine",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25885,
+  "pct": 0.25,
+  "chg": 65.75,
+  "approx": true
+ },
+ "metrics": {
+  "fii_net_cr": {
+   "value": 4479,
+   "asof": "2026-11-25 provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data Today: Daily & Monthly Net Flows",
+    "url": "https://tapetide.com/fii-dii-data"
+   }
+  },
+  "dii_net_cr": {
+   "value": 4019,
+   "asof": "2026-11-25 provisional",
+   "approx": false,
+   "src": {
+    "title": "FII DII Data Today: Daily & Monthly Net Flows",
+    "url": "https://tapetide.com/fii-dii-data"
+   }
+  }
+ },
+ "top": [
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "thread": "fii-flows",
+   "title": "November FPI buying hits about $14 billion",
+   "line": "Marketcalls describes November foreign equity inflows as a record, at about $14 billion",
+   "more": [
+    "FIIs bought ₹4,479 cr and DIIs ₹4,019 cr on Wednesday",
+    "Zee Business cites FII buying as support for today's market"
+   ],
+   "src": {
+    "title": "Pre-Market Report 26 November 2026: Record FPI Buying",
+    "url": "https://marketcalls.in/futures-and-options/pre-market-report-26-november-2026.html"
+   }
+  },
+  {
+   "key": "it-rebound",
+   "tag": "Stocks",
+   "impact": "pos",
+   "thread": "it-sector",
+   "title": "HCLTech, TCS lead as IT wins a fourth day",
+   "line": "HCLTech and TCS were among the top Nifty gainers as IT led the close",
+   "more": [
+    "Wipro rose as much as 4.21% earlier on its bp partnership",
+    "Infosys led the gainers for much of the session"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex ends volatile session 390 pts up, Nifty at 25,885; realty, IT shine",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+   }
+  },
+  {
+   "key": "bse-ltd",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "BSE among the top Nifty gainers",
+   "line": "BSE rose 5.28% by midday and ended among the top Nifty gainers",
+   "more": [
+    "No specific trigger was reported",
+    "NSE shares hit a new high on Wednesday on an ICICI Securities buy call"
+   ],
+   "src": {
+    "title": "Stock Market Today: Sensex gains 158 points, Nifty near 25,850; IT stocks, FII buying support market",
+    "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-gains-158-points-nifty-near-25850-it-stocks-fii-buying-support-market-406037"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market Close: Sensex ends volatile session 390 pts up, Nifty at 25,885; realty, IT shine",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+  },
+  {
+   "title": "Stock Market Today: Sensex gains 158 points, Nifty near 25,850; IT stocks, FII buying support market",
+   "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-gains-158-points-nifty-near-25850-it-stocks-fii-buying-support-market-406037"
+  },
+  {
+   "title": "Pre-Market Report 26 November 2026: Record FPI Buying",
+   "url": "https://marketcalls.in/futures-and-options/pre-market-report-26-november-2026.html"
+  },
+  {
+   "title": "Nifty Realty hits 52-wk high, up 3% led by Prestige, Brigade Enterprises",
+   "url": "https://www.business-standard.com/markets/news/nifty-realty-hits-52-week-high-up-3-led-by-brigade-enterprises-prestige-estates-126112600658_1.html"
+  },
+  {
+   "title": "LG Electronics India shares fall 3% after Rs 2,464-crore block deals; promoters likely sell 2% equity stake",
+   "url": "https://www.tradingview.com/news/moneycontrol:c76d18284094b:0-lg-electronics-india-shares-fall-3-after-rs-2-464-crore-block-deals-promoters-likely-sell-2-equity-stake/"
+  },
+  {
+   "title": "FII DII Data Today: Daily & Monthly Net Flows",
+   "url": "https://tapetide.com/fii-dii-data"
+  }
+ ]
+}
