@@ -1,71 +1,58 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-26T11:06:46+05:30",
+ "generated_at": "2026-11-26T11:37:05+05:30",
  "date": "2026-11-26",
- "slot": "1105",
- "slot_label": "11:05",
+ "slot": "1135",
+ "slot_label": "11:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-26T11:10:00+05:30",
- "nifty": {
-  "value": 25951,
-  "pct": 0.51,
-  "chg": 132,
-  "approx": true,
-  "asof_quote": "11:00"
- },
+ "asof": "2026-11-26T11:40:00+05:30",
  "mood": {
-  "label": "Gains build",
-  "score": 0.4,
-  "summary": "Indian shares have picked up steam into late morning, extending Wednesday's rally with IT stocks out in front, while consumer staples remain the weak spot.",
+  "label": "Gains trimmed",
+  "score": 0.25,
+  "summary": "Indian shares are still higher but have eased off their late-morning peak, with IT stocks carrying the market and consumer staples dragging.",
   "detail": {
-   "leaders": "IT led by Infosys and TCS, plus Glenmark Pharma",
+   "leaders": "IT, led by Wipro, Infosys and TCS",
    "laggards": "FMCG, with Tata Consumer lower, and Bajaj Finance",
-   "tone": "A live read. Firmer than the previous note: the market has broken out of its quiet start and is building on Wednesday's rally.",
+   "tone": "A read on market behaviour rather than a fresh index print. Softer than the previous note: the market has given back part of its late-morning gain, though IT is holding firm.",
    "watch": [
-    "Whether the rally broadens beyond IT",
+    "Whether IT can keep carrying the market",
     "Block deals in LG Electronics India and Schaeffler India",
     "Brent's jump after the Saudi refinery attack"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex rises 600 pts, Nifty above 25,900; Glenmark Pharma hits 52-week high",
+    "title": "Stock Market LIVE: Sensex rises 300 pts, Nifty below 25,900; Nifty Realty rises 1.8%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT leads with Infosys and TCS; Glenmark Pharma hits a record high",
-     "why": "IT is rallying on the global tech rebound, helped by continued foreign buying.",
+     "summary": "Wipro, Infosys and TCS lead as IT extends its rally",
+     "why": "IT is in a fourth straight session of gains as money rotates into services stocks, and Wipro has its own deal news.",
      "names": [
       {
-       "name": "Nifty IT",
+       "name": "Wipro",
        "dir": "up",
-       "move": "up over 2%",
-       "line": "The strongest sector on the day, per Business Standard"
+       "move": "up to 4.21%",
+       "line": "Hit ₹197 after partnering with bp to support its finance operations"
       },
       {
        "name": "Infosys",
        "dir": "up",
-       "move": "up to 3%",
-       "line": "Among the top Sensex gainers as IT leads"
+       "move": "up to 3.3%",
+       "line": "Touched ₹1,167.90; among the top Nifty gainers"
       },
       {
        "name": "TCS",
        "dir": "up",
-       "move": "up to 3%",
-       "line": "Rises with the IT pack on the global tech rebound"
-      },
-      {
-       "name": "Glenmark Pharma",
-       "dir": "up",
-       "line": "Hit an all-time high of ₹2,755.45, extending a four-day winning run"
+       "line": "Among the top Nifty gainers as IT leads"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex rises 600 pts, Nifty above 25,900; Glenmark Pharma hits 52-week high",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+      "title": "TCS, Infosys, Wipro: IT stocks extend rally; NIFTY IT up 7% in 4 sessions; 5 triggers investors are tracking",
+      "url": "https://upstox.com/news/market-news/stocks/tcs-infosys-wipro-nifty-it-gains-7-as-it-stocks-rally-for-fourth-straight-session-growth-challenges-ahead/article-203995/"
      }
     },
     "down": {
-     "summary": "FMCG is the weakest sector, with Tata Consumer and Bajaj Finance lower",
+     "summary": "FMCG drags, with Tata Consumer and Bajaj Finance lower",
      "why": "Wednesday's leaders in consumer staples and financials are giving back ground as money rotates into IT.",
      "names": [
       {
@@ -94,28 +81,77 @@
  },
  "insights": [
   {
+   "key": "wipro-bp",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Wipro jumps on a bp finance partnership",
+   "line": "Wipro rose as much as 4.21% to ₹197 after partnering with bp on its finance operations",
+   "more": [
+    "Wipro is among the leaders of a four-day IT rally",
+    "Wedbush's Underperform rating was flagged before the open"
+   ],
+   "src": {
+    "title": "TCS, Infosys, Wipro: IT stocks extend rally; NIFTY IT up 7% in 4 sessions; 5 triggers investors are tracking",
+    "url": "https://upstox.com/news/market-news/stocks/tcs-infosys-wipro-nifty-it-gains-7-as-it-stocks-rally-for-fourth-straight-session-growth-challenges-ahead/article-203995/"
+   },
+   "date": "2026-11-26",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "1135"
+   }
+  },
+  {
    "key": "it-rebound",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "IT powers a second day of gains",
-   "line": "IT is the strongest sector, with foreign inflows also cited as a driver",
+   "title": "IT rally stretches to a fourth session",
+   "line": "Infosys, TCS and HCLTech are the top Nifty gainers as IT extends its run",
    "more": [
-    "Infosys, TCS, Tech Mahindra and HCLTech rose up to 3% early",
-    "FMCG, Wednesday's leader, is now the weakest sector"
+    "Infosys touched ₹1,167.90, up as much as 3.3%",
+    "IT also led on Wednesday as money rotated out of AI names"
    ],
    "src": {
-    "title": "Sensex gains nearly 400 pts in early trade as IT stocks rally, Nifty below 25,900",
-    "url": "https://www.thehawk.in/news/economy-and-business/market/sensex-gains-nearly-400-pts-in-early-trade-as-it-stocks-rally-nifty-below-25900"
+    "title": "TCS, Infosys, Wipro: IT stocks extend rally; NIFTY IT up 7% in 4 sessions; 5 triggers investors are tracking",
+    "url": "https://upstox.com/news/market-news/stocks/tcs-infosys-wipro-nifty-it-gains-7-as-it-stocks-rally-for-fourth-straight-session-growth-challenges-ahead/article-203995/"
    },
    "thread": "it-sector",
    "date": "2026-11-26",
-   "slot": "1105",
-   "when": "11:05",
+   "slot": "1135",
+   "when": "11:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1035"
+   }
+  },
+  {
+   "key": "it-broker-views",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Brokers stay cautious on IT names",
+   "line": "Bernstein and Jefferies rate Wipro and Infosys Underperform or Hold, per Zee Business",
+   "more": [
+    "Their price targets sit below current prices",
+    "Zee Business says the same brokers see up to 32% upside in their top IT picks"
+   ],
+   "src": {
+    "title": "Up to 32% upside in IT stocks? Bernstein, Jefferies reveal top picks",
+    "url": "https://www.zeebiz.com/market-news/news-up-to-32-upside-in-it-stocks-bernstein-jefferies-reveal-top-picks-406018"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-26",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "1135"
    }
   },
   {
@@ -136,7 +172,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "1105"
@@ -161,7 +197,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "0845"
