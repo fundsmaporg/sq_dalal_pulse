@@ -1,39 +1,39 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-26T15:06:58+05:30",
+ "generated_at": "2026-11-26T15:37:03+05:30",
  "date": "2026-11-26",
- "slot": "1505",
- "slot_label": "15:05",
+ "slot": "1535",
+ "slot_label": "15:35",
  "stage": "Closing mood",
- "asof": "2026-11-26T15:10:00+05:30",
+ "asof": "2026-11-26T15:40:00+05:30",
  "nifty": {
-  "value": 25905.25,
-  "pct": 0.33,
-  "chg": 86,
-  "approx": false,
-  "asof_quote": "15:00"
+  "value": 25897.4,
+  "pct": 0.3,
+  "chg": 78.15,
+  "approx": true,
+  "asof_quote": "15:30"
  },
  "mood": {
-  "label": "Range-bound gains",
+  "label": "Modest gains",
   "score": 0.3,
-  "summary": "Indian shares are heading into the final half-hour modestly higher in a tight range, with realty, metals and IT leading and smaller stocks outpacing the benchmarks.",
+  "summary": "Indian shares ended a choppy session modestly higher, adding to Wednesday's rally, with realty, metals and IT leading while NBFCs and LG Electronics India lagged.",
   "detail": {
    "leaders": "Realty led by Godrej Properties and Lodha, plus IT's Infosys and TCS",
    "laggards": "LG Electronics India, Bajaj Finance and Shriram Finance",
-   "tone": "A live read. Firmer than the previous note: the market has recovered from its flat patch, though it is still stuck in a narrow range as traders await trade-deal news.",
+   "tone": "A read on the session as it closed. Much as in the previous note, the market held modest gains in a tight range as traders awaited US-India trade-deal news.",
    "watch": [
+    "Provisional FII and DII figures this evening",
     "Any progress on the US-India trade deal",
-    "Whether the realty rally holds into the close",
-    "Provisional FII and DII figures this evening"
+    "Whether realty and IT can extend their runs"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range, up 400 pts; Nifty above 25,900; Nifty Realty gains 3%",
+    "title": "Stock Market LIVE: Sensex gains 337 points, Nifty at 25,897 in closing auction session",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Realty hits a 52-week high; Infosys and TCS lead the Nifty",
-     "why": "Realty is rallying on insolvency rule changes for property projects, and IT is extending its four-day run.",
+     "summary": "Realty, metals and IT end as the strongest sectors",
+     "why": "Realty rallied on insolvency rule changes for property projects, and IT extended its four-day run.",
      "names": [
       {
        "name": "Godrej Properties",
@@ -50,7 +50,7 @@
       {
        "name": "Infosys",
        "dir": "up",
-       "line": "A top Nifty gainer as IT extends its four-day rally"
+       "line": "A top Nifty gainer as IT extended its four-day rally"
       },
       {
        "name": "TCS",
@@ -64,8 +64,8 @@
      }
     },
     "down": {
-     "summary": "LG Electronics India and NBFCs remain the main drags",
-     "why": "LG India's parent sold shares at a discount, and lenders that led Wednesday's rally are being sold.",
+     "summary": "LG Electronics India and NBFCs were the main drags",
+     "why": "LG India's parent sold shares at a discount, and lenders that led Wednesday's rally were sold.",
      "names": [
       {
        "name": "LG Electronics India",
@@ -83,7 +83,7 @@
        "name": "Shriram Finance",
        "dir": "down",
        "move": "-1.89%",
-       "line": "Among the top losers as NBFCs are sold"
+       "line": "Among the top losers as NBFCs were sold"
       }
      ],
      "src": {
@@ -99,25 +99,72 @@
    "key": "realty-rally",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "Realty hits a 52-week high",
-   "line": "Godrej Properties, Lodha and Sobha rise 4% each; Prestige and Brigade lead the gains",
+   "title": "Realty, metals and IT end as top sectors",
+   "line": "Realty led the day after hitting a 52-week high on insolvency rule changes",
    "more": [
-    "A report links the rally to amended insolvency rules for real estate projects",
-    "Prestige and Godrej Properties have each gained 31% in a month",
-    "Jefferies sees Godrej Properties as the main consolidation winner"
+    "Godrej Properties, Lodha and Sobha rose about 4% each",
+    "Metals and IT were the next strongest sectors"
    ],
    "src": {
-    "title": "Nifty Realty hits 52-wk high, up 3% led by Prestige, Brigade Enterprises",
-    "url": "https://www.business-standard.com/markets/news/nifty-realty-hits-52-week-high-up-3-led-by-brigade-enterprises-prestige-estates-126112600658_1.html"
+    "title": "Stock Market LIVE: Sensex gains 337 points, Nifty at 25,897 in closing auction session",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
    },
    "date": "2026-11-26",
-   "slot": "1505",
-   "when": "15:05",
-   "updated": false,
+   "slot": "1535",
+   "when": "15:35",
+   "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "1505"
+   }
+  },
+  {
+   "key": "carysil",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Carysil signs a European supply deal",
+   "line": "Carysil expanded its European footprint with a new supply agreement, per Equitymaster",
+   "more": [
+    "It was among the day's buzzing stocks",
+    "Terms of the agreement were not detailed in the report"
+   ],
+   "src": {
+    "title": "Today's Market: Carysil Expands European Footprint with New Supply Agreement; Vishnu Chemicals Incorporates 50:50 JV with France's DCX Chrome",
+    "url": "https://www.equitymaster.com/indian-share-markets/11/26/2026/Carysil-Expands-European-Footprint-with-New-Supply-Agreement--Vishnu-Chemicals-Incorporates-5050-JV-with-Frances-DCX-Chrome--Top-Buzzing-Stocks-Today"
+   },
+   "date": "2026-11-26",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "1535"
+   }
+  },
+  {
+   "key": "vishnu-chemicals",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Vishnu Chemicals forms JV with DCX Chrome",
+   "line": "Vishnu Chemicals incorporated a 50:50 joint venture with France's DCX Chrome",
+   "more": [
+    "It was among the day's buzzing stocks, per Equitymaster",
+    "The JV is equally owned by the two partners"
+   ],
+   "src": {
+    "title": "Today's Market: Carysil Expands European Footprint with New Supply Agreement; Vishnu Chemicals Incorporates 50:50 JV with France's DCX Chrome",
+    "url": "https://www.equitymaster.com/indian-share-markets/11/26/2026/Carysil-Expands-European-Footprint-with-New-Supply-Agreement--Vishnu-Chemicals-Incorporates-5050-JV-with-Frances-DCX-Chrome--Top-Buzzing-Stocks-Today"
+   },
+   "date": "2026-11-26",
+   "slot": "1535",
+   "when": "15:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "1535"
    }
   },
   {
@@ -139,7 +186,7 @@
    "slot": "1505",
    "when": "15:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1035"
@@ -163,7 +210,7 @@
    "slot": "1505",
    "when": "15:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1105"
