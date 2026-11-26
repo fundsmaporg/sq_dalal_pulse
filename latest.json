@@ -1,38 +1,31 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-26T10:06:18+05:30",
+ "generated_at": "2026-11-26T10:36:07+05:30",
  "date": "2026-11-26",
- "slot": "1005",
- "slot_label": "10:05",
- "stage": "Opening mood",
- "asof": "2026-11-26T10:10:00+05:30",
- "nifty": {
-  "value": 25835.85,
-  "pct": 0.06,
-  "chg": 16.6,
-  "approx": false,
-  "asof_quote": "10:00"
- },
+ "slot": "1035",
+ "slot_label": "10:35",
+ "stage": "Mid-market mood",
+ "asof": "2026-11-26T10:40:00+05:30",
  "mood": {
-  "label": "Choppy and flat",
-  "score": 0.05,
-  "summary": "Indian shares are trading choppy and barely higher after Wednesday's big rally, with IT stocks rising while financial, FMCG and hospital names that led the rebound slip back.",
+  "label": "Quiet consolidation",
+  "score": 0.1,
+  "summary": "Indian shares are holding small gains in a quiet session after Wednesday's big rally, with IT and sugar stocks in demand while consumer staples and financials that led the rebound lag.",
   "detail": {
    "leaders": "IT majors Infosys, TCS and Tech Mahindra",
-   "laggards": "Bajaj Finance, Bajaj Finserv, Tata Consumer and Max Healthcare",
-   "tone": "A live read. Flatter than the previous note: the early gains have largely faded, and leadership has rotated from Wednesday's financials and staples into IT.",
+   "laggards": "FMCG and financials, with Tata Consumer, Bajaj Finance and Bajaj Finserv lower",
+   "tone": "A read on market behaviour rather than a fresh index print. Much as in the previous note, the market is holding small gains with IT up and staples down.",
    "watch": [
-    "Whether IT keeps leading as the market pauses",
-    "Any response to the proposed US tariffs on India",
-    "Block deals in LG Electronics India and Schaeffler India"
+    "Pricing and demand in the LG Electronics India and Schaeffler India block deals",
+    "Whether IT keeps leading",
+    "Brent's jump after the Saudi refinery attack"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex trades choppy, Nifty around 25,800; sugar shares surge up to 14%",
+    "title": "Stock Market LIVE: Sensex up 200 pts, Nifty above 25,800; sugar shares surge up to 14%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Infosys, TCS and Tech Mahindra lead as IT rises up to 3%",
+     "summary": "IT leads, with Infosys, TCS and Tech Mahindra up as much as 3%",
      "why": "IT is tracking the rebound in Asian tech shares as dip-buyers return.",
      "names": [
       {
@@ -51,13 +44,7 @@
        "name": "Tech Mahindra",
        "dir": "up",
        "move": "up to 3%",
-       "line": "Among the IT names leading the early gains"
-      },
-      {
-       "name": "HCLTech",
-       "dir": "up",
-       "move": "up to 3%",
-       "line": "Joins the IT rally, per Upstox"
+       "line": "Among the IT names leading the gains"
       }
      ],
      "src": {
@@ -66,9 +53,14 @@
      }
     },
     "down": {
-     "summary": "Financial, FMCG and hospital names that led Wednesday slip back",
-     "why": "Wednesday's leaders in financials and consumer staples are giving back ground as the market pauses after its big rally.",
+     "summary": "FMCG lags, with financials that led Wednesday also slipping",
+     "why": "Wednesday's leaders in consumer staples and financials are giving back ground as the market consolidates.",
      "names": [
+      {
+       "name": "Tata Consumer",
+       "dir": "down",
+       "line": "Slips after rallying with the FMCG pack on Wednesday"
+      },
       {
        "name": "Bajaj Finance",
        "dir": "down",
@@ -77,17 +69,7 @@
       {
        "name": "Bajaj Finserv",
        "dir": "down",
-       "line": "Gives back ground after topping the Nifty gainers at noon on Wednesday"
-      },
-      {
-       "name": "Tata Consumer",
-       "dir": "down",
-       "line": "Slips after rallying with the FMCG pack on Wednesday"
-      },
-      {
-       "name": "Max Healthcare",
-       "dir": "down",
-       "line": "Among the top Nifty losers for a second session"
+       "line": "Gives back ground after leading Nifty gainers on Wednesday"
       }
      ],
      "src": {
@@ -100,22 +82,71 @@
  },
  "insights": [
   {
-   "key": "sugar-output",
+   "key": "block-deals",
    "tag": "Stocks",
-   "impact": "pos",
-   "title": "Sugar shares surge up to 14%",
-   "line": "Sugar stocks jump after ISMA forecast a 15% drop in India's 2026-27 sugar output",
+   "impact": "watch",
+   "title": "₹5,508 cr of block deals in LG, Schaeffler",
+   "line": "LG India's promoter sells 2% via Citi; Schaeffler AG up to 6% via JP Morgan",
    "more": [
-    "Balrampur Chini, EID Parry and Triveni Engineering were flagged before the open",
-    "Business Standard reports gains of up to 14%"
+    "LG's sale is aimed at meeting the minimum public shareholding rule",
+    "Floor prices are about 6% and 5.7% below market",
+    "A 180-day lock-up applies to the seller, per one report"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex trades choppy, Nifty around 25,800; sugar shares surge up to 14%",
+    "title": "Promoters Slate ₹5,508 Crore Block Deals in Schaeffler India and LG Electronics",
+    "url": "https://www.airnews.in/articles/d50cd2dfc0-promoters-slate-5-508-crore-block-deals-in-schaeffler-india-and-lg-electronics"
+   },
+   "date": "2026-11-26",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "fmcg-gains",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "FMCG lags after leading Wednesday",
+   "line": "Consumer staples are the weakest sector as Wednesday's top performers cool",
+   "more": [
+    "FMCG was the day's top sector on Wednesday",
+    "Tata Consumer is among the early Nifty losers"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex up 200 pts, Nifty above 25,800; sugar shares surge up to 14%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
    },
    "date": "2026-11-26",
-   "slot": "1005",
-   "when": "10:05",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-25",
+    "slot": "1405"
+   }
+  },
+  {
+   "key": "sugar-output",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Sugar rally holds, gains up to 14%",
+   "line": "Sugar shares stay in demand after ISMA's forecast of a 15% fall in output",
+   "more": [
+    "Business Standard reports gains of up to 14%",
+    "Balrampur Chini, EID Parry and Triveni were flagged before the open"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex up 200 pts, Nifty above 25,800; sugar shares surge up to 14%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+   },
+   "date": "2026-11-26",
+   "slot": "1035",
+   "when": "10:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
@@ -142,7 +173,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-25",
     "slot": "0700"
@@ -167,7 +198,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1035"
@@ -268,30 +299,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "block-deals",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "LG Electronics, Schaeffler India block deals",
-   "line": "LG India's promoter may sell up to 2%; Schaeffler AG up to 6% of its Indian unit",
-   "more": [
-    "LG stake worth up to ₹2,320.5 cr; floor ₹1,709.30, about 6% below the last close",
-    "Schaeffler stake worth ₹3,188 cr; floor price ₹3,400 a share"
-   ],
-   "src": {
-    "title": "Stocks to Watch Today (Nov 26): Siemens Energy, Schaeffler India, LG Electronics, Lupin and more",
-    "url": "https://www.zeebiz.com/market-news/news-stocks-to-watch-today-nov-26-siemens-energy-schaeffler-india-lg-electronics-lupin-and-more-406008"
-   },
-   "date": "2026-11-26",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-26",
     "slot": "0845"
    }
   },
@@ -497,30 +504,6 @@
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1635"
-   }
-  },
-  {
-   "key": "fmcg-gains",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "HUL tops the Nifty gainers at the close",
-   "line": "HUL, Bajaj Finserv, Tata Consumer, IndiGo and HDFC Life led the Nifty gainers",
-   "more": [
-    "FMCG ended as the day's top sector",
-    "Tata Steel, ONGC, Hindalco, JSW Steel and Max Healthcare were the top losers"
-   ],
-   "src": {
-    "title": "Sensex gains 1500 points, Nifty above 25800",
-    "url": "https://www.chinimandi.com/sensex-gains-1500-points-nifty-above-25800/"
-   },
-   "date": "2026-11-25",
-   "slot": "1605",
-   "when": "Wed · 16:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-25",
-    "slot": "1405"
    }
   },
   {
