@@ -1,22 +1,22 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-26T13:07:16+05:30",
+ "generated_at": "2026-11-26T13:36:40+05:30",
  "date": "2026-11-26",
- "slot": "1305",
- "slot_label": "13:05",
+ "slot": "1335",
+ "slot_label": "13:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-26T13:10:00+05:30",
+ "asof": "2026-11-26T13:40:00+05:30",
  "mood": {
   "label": "Gains hold",
   "score": 0.3,
-  "summary": "Indian shares are holding gains into the afternoon, with IT and smaller stocks in demand and a sugar-stock rally, while NBFCs and LG Electronics India lag.",
+  "summary": "Indian shares are holding gains in a stock-specific afternoon, with IT, MCX and Schaeffler India higher while NBFCs and LG Electronics India lag.",
   "detail": {
-   "leaders": "IT led by Infosys and TCS, plus MCX and sugar stocks",
+   "leaders": "Infosys and TCS, plus Schaeffler India and MCX",
    "laggards": "LG Electronics India, Bajaj Finance and Shriram Finance",
-   "tone": "A read on market behaviour rather than a fresh index print. Much as in the previous note, the market is holding its gains, with stock-specific action driving the moves.",
+   "tone": "A read on market behaviour rather than a fresh index print. Much as in the previous note, the market is holding gains with the action concentrated in individual stocks.",
    "watch": [
-    "The Schaeffler India block deal",
-    "Whether the NBFC selling deepens",
+    "Whether the NBFC selling deepens into the close",
+    "Bullion's rebound and its effect on MCX and metal names",
     "Brent's jump after the Saudi refinery attack"
    ],
    "src": {
@@ -25,8 +25,8 @@
    },
    "movers": {
     "up": {
-     "summary": "Infosys and TCS lead, with MCX and sugar stocks also strong",
-     "why": "IT is extending a four-day rally, MCX is riding a rebound in bullion, and sugar stocks are rallying on lower output forecasts.",
+     "summary": "Infosys and TCS lead, with Schaeffler India and MCX also strong",
+     "why": "IT is extending its rally, a well-absorbed block deal is lifting Schaeffler India, and MCX tracks the bullion rebound.",
      "names": [
       {
        "name": "Infosys",
@@ -41,25 +41,25 @@
        "line": "Rises with the IT pack on the global tech rebound"
       },
       {
+       "name": "Schaeffler India",
+       "dir": "up",
+       "move": "up as much as 4–5%",
+       "line": "Rose after a ₹3,543 cr block trade of about 6.5% of its equity"
+      },
+      {
        "name": "MCX",
        "dir": "up",
        "move": "up as much as 5%",
        "line": "Jumped as gold and silver prices rebounded"
-      },
-      {
-       "name": "Shree Renuka Sugars",
-       "dir": "up",
-       "move": "up 11–14%",
-       "line": "Sugar stocks rally on reports of lower output"
       }
      ],
      "src": {
-      "title": "Dhampur, Balrampur, Renuka zoom up to 14%; here's why sugar stocks rallied",
-      "url": "https://business-standard.com/markets/news/dhampur-balrampur-renuka-zoom-up-to-14-here-s-why-sugar-stocks-rallied-today-126112600164_1.html"
+      "title": "Schaeffler India Shares Rise 4% After ₹3,543 Crore Block Deal",
+      "url": "https://www.kotakneo.com/news/stocks/schaeffler-india-shares-rise-after-block-deal-promoter-stake-sale/"
      }
     },
     "down": {
-     "summary": "LG Electronics India falls on a block deal; NBFCs stay weak",
+     "summary": "LG Electronics India falls on its block deal; NBFCs stay weak",
      "why": "LG India's parent sold shares at a discount, and lenders that led Wednesday's rally are being sold.",
      "names": [
       {
@@ -93,26 +93,74 @@
   {
    "key": "block-deals",
    "tag": "Stocks",
-   "impact": "neg",
-   "title": "LG Electronics India falls 3% on block deal",
-   "line": "1.39 cr shares, or 2.05% of equity, changed hands at ₹1,767.4 a share, worth ₹2,464 cr",
+   "impact": "pos",
+   "title": "Schaeffler India rises after ₹3,543 cr block",
+   "line": "About 1.01 cr shares, roughly 6.5% of equity, traded at an average ₹3,493 a share",
    "more": [
-    "The price was below Wednesday's ₹1,818.4 close on the NSE",
-    "The sale is aimed at meeting minimum public shareholding rules",
-    "Schaeffler India's planned block deal has not been reported as done"
+    "The plan had been up to 6% for ₹3,188 cr at a ₹3,400 floor",
+    "Exchange data did not name the seller",
+    "LG Electronics India fell about 3% after its own block deal"
    ],
    "src": {
-    "title": "LG Electronics India shares fall 3% after Rs 2,464-crore block deals; promoters likely sell 2% equity stake",
-    "url": "https://www.tradingview.com/news/moneycontrol:c76d18284094b:0-lg-electronics-india-shares-fall-3-after-rs-2-464-crore-block-deals-promoters-likely-sell-2-equity-stake/"
+    "title": "Schaeffler India Sees ₹3,543 Crore Block Trade as 6.5% Equity Swaps Hands",
+    "url": "https://www.airnews.in/articles/75ee1af83d-schaeffler-india-sees-3-543-crore-block-trade-as-6-5-equity-swaps-hands?feed=stocks"
    },
    "date": "2026-11-26",
-   "slot": "1305",
-   "when": "13:05",
+   "slot": "1335",
+   "when": "13:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "0845"
+   }
+  },
+  {
+   "key": "gold",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Gold and silver rebound from lows",
+   "line": "MCX gold rose about 1.1% and silver about 2.6% in the afternoon, per Upstox",
+   "more": [
+    "Gold had fallen to a more-than-14-month low before recovering on Wednesday",
+    "Silver has retraced from its morning highs"
+   ],
+   "src": {
+    "title": "Gold price tracker, Nov 26: MCX gold rally reclaims ₹1.23 lakh, silver rates surge by ₹5,281/kg; further recovery ahead?",
+    "url": "https://upstox.com/news/market-news/commodities/gold-price-tracker-nov-26-mcx-gold-prices-mcx-silver-rates-comex-gold-comex-silver-us-pce-inflation-gold-prices-today-silver-price-today/liveblog-203983"
+   },
+   "date": "2026-11-26",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "mcx",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "MCX rides the bullion bounce",
+   "line": "MCX shares rose as much as 5% as gold and silver prices recovered",
+   "more": [
+    "The stock is up about 70% so far in 2026",
+    "Sources differ on whether today's high is a record"
+   ],
+   "src": {
+    "title": "MCX Shares Surge 5% as Gold and Silver Prices Bounce Back",
+    "url": "https://www.equitypandit.com/mcx-shares-surge-5-as-gold-and-silver-prices-bounce-back/"
+   },
+   "date": "2026-11-26",
+   "slot": "1335",
+   "when": "13:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "1235"
    }
   },
   {
@@ -133,7 +181,7 @@
    "slot": "1305",
    "when": "13:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "0845"
@@ -157,35 +205,10 @@
    "slot": "1305",
    "when": "13:05",
    "updated": false,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-26",
-    "slot": "1305"
-   }
-  },
-  {
-   "key": "mcx",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "MCX jumps 5% as gold and silver rebound",
-   "line": "MCX rose as much as 5% to about ₹3,757 on a rebound in gold and silver prices",
-   "more": [
-    "MarketsMojo calls it a fresh all-time high of ₹3,759",
-    "Other reports put the record at ₹3,774 on 18 Nov; sources differ",
-    "The stock is up about 70% so far in 2026"
-   ],
-   "src": {
-    "title": "MCX Shares Surge 5% as Gold and Silver Prices Bounce Back",
-    "url": "https://www.equitypandit.com/mcx-shares-surge-5-as-gold-and-silver-prices-bounce-back/"
-   },
-   "date": "2026-11-26",
-   "slot": "1235",
-   "when": "12:35",
-   "updated": false,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
-    "slot": "1235"
+    "slot": "1305"
    }
   },
   {
@@ -1512,30 +1535,6 @@
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1135"
-   }
-  },
-  {
-   "key": "gold",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Gold falls 4%, silver 6%",
-   "line": "Precious metals slump; jewellery and metal stocks under pressure",
-   "more": [
-    "Titan among the early Nifty losers",
-    "Metal index the weakest sector"
-   ],
-   "src": {
-    "title": "Gold falls 4%, silver 6% as Sensex, Nifty recover from weak opening",
-    "url": "https://www.newsdrum.in/business/gold-falls-4-silver-6-as-sensex-nifty-recover-from-weak-opening-12825309"
-   },
-   "date": "2026-11-20",
-   "slot": "1035",
-   "when": "Fri · 10:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "1035"
    }
   },
   {
