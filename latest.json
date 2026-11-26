@@ -1,68 +1,178 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-26T09:26:23+05:30",
+ "generated_at": "2026-11-26T10:06:18+05:30",
  "date": "2026-11-26",
- "slot": "0925",
- "slot_label": "9:25",
+ "slot": "1005",
+ "slot_label": "10:05",
  "stage": "Opening mood",
- "asof": "2026-11-26T09:30:00+05:30",
+ "asof": "2026-11-26T10:10:00+05:30",
  "nifty": {
-  "value": 25859,
-  "pct": 0.17,
-  "chg": 44,
-  "approx": true,
-  "asof_quote": "09:15"
+  "value": 25835.85,
+  "pct": 0.06,
+  "chg": 16.6,
+  "approx": false,
+  "asof_quote": "10:00"
  },
  "mood": {
-  "label": "Modest gains",
-  "score": 0.25,
-  "summary": "Indian shares have opened a touch higher after Wednesday's big rally, with IT stocks leading and midcaps and smallcaps also edging up, though the start is more muted than the pre-open cues suggested.",
+  "label": "Choppy and flat",
+  "score": 0.05,
+  "summary": "Indian shares are trading choppy and barely higher after Wednesday's big rally, with IT stocks rising while financial, FMCG and hospital names that led the rebound slip back.",
   "detail": {
-   "leaders": "IT stocks, with midcaps and smallcaps edging higher",
-   "laggards": "Bajaj Finance, the top Sensex loser early",
-   "tone": "A live read just after the open. Softer than the pre-open signal suggested: the market opened only slightly higher, though it firmed in the first minutes. Early coverage gave no reason for Bajaj Finance's fall, so the losers breakdown is left out.",
+   "leaders": "IT majors Infosys, TCS and Tech Mahindra",
+   "laggards": "Bajaj Finance, Bajaj Finserv, Tata Consumer and Max Healthcare",
+   "tone": "A live read. Flatter than the previous note: the early gains have largely faded, and leadership has rotated from Wednesday's financials and staples into IT.",
    "watch": [
-    "Whether IT's lead holds through the morning",
-    "Brent's jump after the Saudi refinery attack",
+    "Whether IT keeps leading as the market pauses",
+    "Any response to the proposed US tariffs on India",
     "Block deals in LG Electronics India and Schaeffler India"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex rises 200 pts, Nifty tops 25,800; Nifty IT gains 2%",
+    "title": "Stock Market LIVE: Sensex trades choppy, Nifty around 25,800; sugar shares surge up to 14%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT leads the early gains, with the broader market edging up",
-     "why": "IT is tracking the rebound in Asian tech stocks as dip-buyers return, and smaller stocks are joining in.",
+     "summary": "Infosys, TCS and Tech Mahindra lead as IT rises up to 3%",
+     "why": "IT is tracking the rebound in Asian tech shares as dip-buyers return.",
      "names": [
       {
-       "name": "Nifty IT",
+       "name": "Infosys",
        "dir": "up",
-       "move": "+2%",
-       "line": "Leads the Sensex gainers as Asian tech shares rebound"
+       "move": "up to 3%",
+       "line": "Among the top Sensex gainers as IT leads the market"
       },
       {
-       "name": "Nifty Smallcap 100",
+       "name": "TCS",
        "dir": "up",
-       "move": "+0.38%",
-       "line": "Smallcaps edge up at the open after lagging Wednesday's rally"
+       "move": "up to 3%",
+       "line": "Rises with the IT pack on the global tech rebound"
       },
       {
-       "name": "Nifty Midcap 100",
+       "name": "Tech Mahindra",
        "dir": "up",
-       "move": "+0.27%",
-       "line": "Midcaps also start higher"
+       "move": "up to 3%",
+       "line": "Among the IT names leading the early gains"
+      },
+      {
+       "name": "HCLTech",
+       "dir": "up",
+       "move": "up to 3%",
+       "line": "Joins the IT rally, per Upstox"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex rises 200 pts, Nifty tops 25,800; Nifty IT gains 2%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+      "title": "NIFTY50 and SENSEX open with modest gains on Thursday as tariff threat looms on Indian market rally",
+      "url": "https://upstox.com/news/market-news/stocks/nifty-50-and-sensex-open-with-modest-gains-on-thursday-as-tariff-threat-looms-on-indian-market-rally/article-203993/"
+     }
+    },
+    "down": {
+     "summary": "Financial, FMCG and hospital names that led Wednesday slip back",
+     "why": "Wednesday's leaders in financials and consumer staples are giving back ground as the market pauses after its big rally.",
+     "names": [
+      {
+       "name": "Bajaj Finance",
+       "dir": "down",
+       "line": "The top Sensex loser in early trade"
+      },
+      {
+       "name": "Bajaj Finserv",
+       "dir": "down",
+       "line": "Gives back ground after topping the Nifty gainers at noon on Wednesday"
+      },
+      {
+       "name": "Tata Consumer",
+       "dir": "down",
+       "line": "Slips after rallying with the FMCG pack on Wednesday"
+      },
+      {
+       "name": "Max Healthcare",
+       "dir": "down",
+       "line": "Among the top Nifty losers for a second session"
+      }
+     ],
+     "src": {
+      "title": "NIFTY50 and SENSEX open with modest gains on Thursday as tariff threat looms on Indian market rally",
+      "url": "https://upstox.com/news/market-news/stocks/nifty-50-and-sensex-open-with-modest-gains-on-thursday-as-tariff-threat-looms-on-indian-market-rally/article-203993/"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "sugar-output",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Sugar shares surge up to 14%",
+   "line": "Sugar stocks jump after ISMA forecast a 15% drop in India's 2026-27 sugar output",
+   "more": [
+    "Balrampur Chini, EID Parry and Triveni Engineering were flagged before the open",
+    "Business Standard reports gains of up to 14%"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex trades choppy, Nifty around 25,800; sugar shares surge up to 14%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+   },
+   "date": "2026-11-26",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "us-tariffs",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Market shrugs off the US tariff threat",
+   "line": "V K Vijayakumar says the tariff threat is unlikely to affect the market in the near term",
+   "more": [
+    "India faces 17% with a trade deal or 25% without",
+    "Another analyst sees it as pressure on India to reach a trade deal"
+   ],
+   "src": {
+    "title": "NIFTY50 and SENSEX open with modest gains on Thursday as tariff threat looms on Indian market rally",
+    "url": "https://upstox.com/news/market-news/stocks/nifty-50-and-sensex-open-with-modest-gains-on-thursday-as-tariff-threat-looms-on-indian-market-rally/article-203993/"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-26",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-25",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "it-rebound",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Infosys, TCS lead IT gains of up to 3%",
+   "line": "Infosys, TCS, Tech Mahindra and HCLTech rise up to 3% in early trade",
+   "more": [
+    "IT stocks are the top gainers in the Sensex pack",
+    "IT also led on Wednesday as money rotated from AI names"
+   ],
+   "src": {
+    "title": "NIFTY50 and SENSEX open with modest gains on Thursday as tariff threat looms on Indian market rally",
+    "url": "https://upstox.com/news/market-news/stocks/nifty-50-and-sensex-open-with-modest-gains-on-thursday-as-tariff-threat-looms-on-indian-market-rally/article-203993/"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-26",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1035"
+   }
+  },
   {
    "key": "gift-nifty",
    "tag": "Opening",
@@ -81,35 +191,10 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "it-rebound",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT stocks lead the Sensex gainers",
-   "line": "IT leads the early gains as Asian tech shares rebound with dip-buyers returning",
-   "more": [
-    "IT also led on Wednesday as money rotated from AI names to IT services",
-    "Jefferies kept Underperform on TCS, HCLTech, Wipro and Tech Mahindra"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex rises 200 pts, Nifty tops 25,800; Nifty IT gains 2%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-26",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "1035"
    }
   },
   {
@@ -130,7 +215,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "0925"
@@ -240,30 +325,6 @@
    }
   },
   {
-   "key": "sugar-output",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "ISMA sees a 15% drop in sugar output",
-   "line": "India's 2026-27 gross sugar production is projected to fall 15%, per ISMA",
-   "more": [
-    "Balrampur Chini, EID Parry and Triveni Engineering may move on the forecast",
-    "The forecast covers the 2026-27 marketing year"
-   ],
-   "src": {
-    "title": "Stocks to Watch Today (Nov 26): Siemens Energy, Schaeffler India, LG Electronics, Lupin and more",
-    "url": "https://www.zeebiz.com/market-news/news-stocks-to-watch-today-nov-26-siemens-energy-schaeffler-india-lg-electronics-lupin-and-more-406008"
-   },
-   "date": "2026-11-26",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-26",
-    "slot": "0845"
-   }
-  },
-  {
    "key": "us-markets",
    "tag": "Global",
    "impact": "pos",
@@ -337,32 +398,6 @@
    "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "us-tariffs",
-   "tag": "Policy",
-   "impact": "neg",
-   "title": "US proposes tariffs of up to 25% on India",
-   "line": "India faces 17% with a trade deal or 25% without; China 20% and the EU 15%",
-   "more": [
-    "The proposal covers 14 trading partners",
-    "Public hearings mean no levy can start before January 2027",
-    "An official said rates could rise depending on responses"
-   ],
-   "src": {
-    "title": "Trump proposes new tariffs on China, EU and 12 other partners",
-    "url": "https://invezz.com/news/2026/11/25/trump-new-tariffs-14-economies-2026/"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-25",
-   "slot": "2100",
-   "when": "Wed · 21:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-25",
     "slot": "0700"
    }
   },
