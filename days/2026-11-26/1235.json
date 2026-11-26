@@ -1,0 +1,164 @@
+{
+ "asof": "2026-11-26T12:40:00+05:30",
+ "summary": "Indian shares are holding firm gains at midday, a little off the day's high, with buying broadening into midcaps, smallcaps and metals while IT stays in front.",
+ "mood": {
+  "label": "Steady and broad",
+  "score": 0.35,
+  "detail": {
+   "stats": [],
+   "leaders": "IT led by Infosys and TCS, plus MCX, with smallcaps outpacing",
+   "laggards": "NBFCs Bajaj Finance, Shriram Finance and Bajaj Finserv",
+   "movers": {
+    "up": {
+     "summary": "IT leads, MCX surges, and smallcaps outpace the benchmarks",
+     "why": "IT is extending a four-day rally, and buying has spread to smaller stocks and metals.",
+     "names": [
+      {
+       "name": "Infosys",
+       "move": "+2.67%",
+       "dir": "up",
+       "line": "Among the top gainers as IT extends its four-day rally"
+      },
+      {
+       "name": "TCS",
+       "move": "+1.93%",
+       "dir": "up",
+       "line": "Rises with the IT pack on the global tech rebound"
+      },
+      {
+       "name": "MCX",
+       "move": "up as much as 5%",
+       "dir": "up",
+       "line": "Jumped to about ₹3,757 as gold and silver prices rebounded"
+      },
+      {
+       "name": "Nifty Smallcap 100",
+       "move": "+0.8%",
+       "dir": "up",
+       "line": "Outpacing the large-cap benchmarks at noon"
+      }
+     ],
+     "src": {
+      "title": "Stock Market LIVE: Sensex gains 400 pts; MCX, Nifty tops 25,900; metal, FMCG, IT shares shine",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+     }
+    },
+    "down": {
+     "summary": "NBFCs lead the losers, giving back Wednesday's gains",
+     "why": "Lenders that drove Wednesday's rally are being sold as money rotates into IT; no specific trigger has been reported.",
+     "names": [
+      {
+       "name": "Bajaj Finance",
+       "move": "-2.25%",
+       "dir": "down",
+       "line": "The top loser, after rallying with financials on Wednesday"
+      },
+      {
+       "name": "Shriram Finance",
+       "move": "-1.89%",
+       "dir": "down",
+       "line": "Among the top losers as NBFCs are sold"
+      },
+      {
+       "name": "Bajaj Finserv",
+       "move": "-1.81%",
+       "dir": "down",
+       "line": "Gives back ground after leading Nifty gainers on Wednesday"
+      }
+     ],
+     "src": {
+      "title": "Sensex Today, November 26: Sensex Gains 200 Points, Nifty Higher",
+      "url": "https://theopenpress.in/article/sensex-today-november-26-2026-nifty"
+     }
+    }
+   },
+   "tone": "A live read. Firmer and broader than the previous note, with smaller stocks and metals joining IT, though the benchmarks are just off the day's high.",
+   "watch": [
+    "Whether the NBFC selling deepens",
+    "Block deals in LG Electronics India and Schaeffler India",
+    "Brent's jump after the Saudi refinery attack"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex gains 400 pts; MCX, Nifty tops 25,900; metal, FMCG, IT shares shine",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25935.9,
+  "pct": 0.45,
+  "chg": 116.65,
+  "approx": false,
+  "asof_quote": "12:00"
+ },
+ "top": [
+  {
+   "key": "mcx",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "MCX jumps 5% as gold and silver rebound",
+   "line": "MCX rose as much as 5% to about ₹3,757 on a rebound in gold and silver prices",
+   "more": [
+    "MarketsMojo calls it a fresh all-time high of ₹3,759",
+    "Other reports put the record at ₹3,774 on 18 Nov; sources differ",
+    "The stock is up about 70% so far in 2026"
+   ],
+   "src": {
+    "title": "MCX Shares Surge 5% as Gold and Silver Prices Bounce Back",
+    "url": "https://www.equitypandit.com/mcx-shares-surge-5-as-gold-and-silver-prices-bounce-back/"
+   }
+  },
+  {
+   "key": "breadth",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Smallcaps and midcaps join the rally",
+   "line": "Smallcaps and midcaps are outpacing the benchmarks, with metal shares also firm",
+   "more": [
+    "Business Standard lists metal, FMCG and IT shares among the day's outperformers",
+    "FMCG had been the weakest sector earlier"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex gains 400 pts; MCX, Nifty tops 25,900; metal, FMCG, IT shares shine",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+   }
+  },
+  {
+   "key": "nbfc-slide",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "NBFCs remain the main drag",
+   "line": "Bajaj Finance, Shriram Finance and Bajaj Finserv stay among the top losers",
+   "more": [
+    "No specific trigger has been reported for today's fall",
+    "NBFCs fell last month when the RBI tightened bank cash reserve rules"
+   ],
+   "src": {
+    "title": "Sensex Today, November 26: Sensex Gains 200 Points, Nifty Higher",
+    "url": "https://theopenpress.in/article/sensex-today-november-26-2026-nifty"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market LIVE: Sensex gains 400 pts; MCX, Nifty tops 25,900; metal, FMCG, IT shares shine",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+  },
+  {
+   "title": "MCX Shares Surge 5% as Gold and Silver Prices Bounce Back",
+   "url": "https://www.equitypandit.com/mcx-shares-surge-5-as-gold-and-silver-prices-bounce-back/"
+  },
+  {
+   "title": "Multi Commodity Exchange of India Ltd Hits All-Time High of Rs 3,759 as Momentum Builds Across Timeframes",
+   "url": "https://www.marketsmojo.com/news/stocks-in-action/multi-commodity-exchange-of-india-ltd-hits-all-time-high-amid-robust-performance-4275614"
+  },
+  {
+   "title": "Sensex Today, November 26: Sensex Gains 200 Points, Nifty Higher",
+   "url": "https://theopenpress.in/article/sensex-today-november-26-2026-nifty"
+  },
+  {
+   "title": "TCS, Infosys, Wipro: IT stocks extend rally; NIFTY IT up 7% in 4 sessions; 5 triggers investors are tracking",
+   "url": "https://upstox.com/news/market-news/stocks/tcs-infosys-wipro-nifty-it-gains-7-as-it-stocks-rally-for-fourth-straight-session-growth-challenges-ahead/article-203995/"
+  }
+ ]
+}
