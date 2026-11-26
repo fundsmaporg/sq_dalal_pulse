@@ -1,39 +1,32 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-26T12:37:07+05:30",
+ "generated_at": "2026-11-26T13:07:16+05:30",
  "date": "2026-11-26",
- "slot": "1235",
- "slot_label": "12:35",
+ "slot": "1305",
+ "slot_label": "13:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-26T12:40:00+05:30",
- "nifty": {
-  "value": 25935.9,
-  "pct": 0.45,
-  "chg": 116.65,
-  "approx": false,
-  "asof_quote": "12:00"
- },
+ "asof": "2026-11-26T13:10:00+05:30",
  "mood": {
-  "label": "Steady and broad",
-  "score": 0.35,
-  "summary": "Indian shares are holding firm gains at midday, a little off the day's high, with buying broadening into midcaps, smallcaps and metals while IT stays in front.",
+  "label": "Gains hold",
+  "score": 0.3,
+  "summary": "Indian shares are holding gains into the afternoon, with IT and smaller stocks in demand and a sugar-stock rally, while NBFCs and LG Electronics India lag.",
   "detail": {
-   "leaders": "IT led by Infosys and TCS, plus MCX, with smallcaps outpacing",
-   "laggards": "NBFCs Bajaj Finance, Shriram Finance and Bajaj Finserv",
-   "tone": "A live read. Firmer and broader than the previous note, with smaller stocks and metals joining IT, though the benchmarks are just off the day's high.",
+   "leaders": "IT led by Infosys and TCS, plus MCX and sugar stocks",
+   "laggards": "LG Electronics India, Bajaj Finance and Shriram Finance",
+   "tone": "A read on market behaviour rather than a fresh index print. Much as in the previous note, the market is holding its gains, with stock-specific action driving the moves.",
    "watch": [
+    "The Schaeffler India block deal",
     "Whether the NBFC selling deepens",
-    "Block deals in LG Electronics India and Schaeffler India",
     "Brent's jump after the Saudi refinery attack"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex gains 400 pts; MCX, Nifty tops 25,900; metal, FMCG, IT shares shine",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+    "title": "Sensex Today, November 26: Sensex Gains 200 Points, Nifty Higher",
+    "url": "https://theopenpress.in/article/sensex-today-november-26-2026-nifty"
    },
    "movers": {
     "up": {
-     "summary": "IT leads, MCX surges, and smallcaps outpace the benchmarks",
-     "why": "IT is extending a four-day rally, and buying has spread to smaller stocks and metals.",
+     "summary": "Infosys and TCS lead, with MCX and sugar stocks also strong",
+     "why": "IT is extending a four-day rally, MCX is riding a rebound in bullion, and sugar stocks are rallying on lower output forecasts.",
      "names": [
       {
        "name": "Infosys",
@@ -51,24 +44,30 @@
        "name": "MCX",
        "dir": "up",
        "move": "up as much as 5%",
-       "line": "Jumped to about ₹3,757 as gold and silver prices rebounded"
+       "line": "Jumped as gold and silver prices rebounded"
       },
       {
-       "name": "Nifty Smallcap 100",
+       "name": "Shree Renuka Sugars",
        "dir": "up",
-       "move": "+0.8%",
-       "line": "Outpacing the large-cap benchmarks at noon"
+       "move": "up 11–14%",
+       "line": "Sugar stocks rally on reports of lower output"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex gains 400 pts; MCX, Nifty tops 25,900; metal, FMCG, IT shares shine",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+      "title": "Dhampur, Balrampur, Renuka zoom up to 14%; here's why sugar stocks rallied",
+      "url": "https://business-standard.com/markets/news/dhampur-balrampur-renuka-zoom-up-to-14-here-s-why-sugar-stocks-rallied-today-126112600164_1.html"
      }
     },
     "down": {
-     "summary": "NBFCs lead the losers, giving back Wednesday's gains",
-     "why": "Lenders that drove Wednesday's rally are being sold as money rotates into IT; no specific trigger has been reported.",
+     "summary": "LG Electronics India falls on a block deal; NBFCs stay weak",
+     "why": "LG India's parent sold shares at a discount, and lenders that led Wednesday's rally are being sold.",
      "names": [
+      {
+       "name": "LG Electronics India",
+       "dir": "down",
+       "move": "-3%",
+       "line": "2.05% of equity changed hands at ₹1,767.4, below Wednesday's close"
+      },
       {
        "name": "Bajaj Finance",
        "dir": "down",
@@ -80,23 +79,90 @@
        "dir": "down",
        "move": "-1.89%",
        "line": "Among the top losers as NBFCs are sold"
-      },
-      {
-       "name": "Bajaj Finserv",
-       "dir": "down",
-       "move": "-1.81%",
-       "line": "Gives back ground after leading Nifty gainers on Wednesday"
       }
      ],
      "src": {
-      "title": "Sensex Today, November 26: Sensex Gains 200 Points, Nifty Higher",
-      "url": "https://theopenpress.in/article/sensex-today-november-26-2026-nifty"
+      "title": "LG Electronics India shares fall 3% after Rs 2,464-crore block deals; promoters likely sell 2% equity stake",
+      "url": "https://www.tradingview.com/news/moneycontrol:c76d18284094b:0-lg-electronics-india-shares-fall-3-after-rs-2-464-crore-block-deals-promoters-likely-sell-2-equity-stake/"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "block-deals",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "LG Electronics India falls 3% on block deal",
+   "line": "1.39 cr shares, or 2.05% of equity, changed hands at ₹1,767.4 a share, worth ₹2,464 cr",
+   "more": [
+    "The price was below Wednesday's ₹1,818.4 close on the NSE",
+    "The sale is aimed at meeting minimum public shareholding rules",
+    "Schaeffler India's planned block deal has not been reported as done"
+   ],
+   "src": {
+    "title": "LG Electronics India shares fall 3% after Rs 2,464-crore block deals; promoters likely sell 2% equity stake",
+    "url": "https://www.tradingview.com/news/moneycontrol:c76d18284094b:0-lg-electronics-india-shares-fall-3-after-rs-2-464-crore-block-deals-promoters-likely-sell-2-equity-stake/"
+   },
+   "date": "2026-11-26",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "sugar-output",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Dhampur, Renuka lead sugar rally of up to 14%",
+   "line": "Dhampur Sugar, Uttam Sugar and Shree Renuka rose 11–14% on reports of lower output",
+   "more": [
+    "ISMA projected a 15% drop in 2026-27 gross sugar output",
+    "Balrampur Chini is also among the gainers"
+   ],
+   "src": {
+    "title": "Dhampur, Balrampur, Renuka zoom up to 14%; here's why sugar stocks rallied",
+    "url": "https://business-standard.com/markets/news/dhampur-balrampur-renuka-zoom-up-to-14-here-s-why-sugar-stocks-rallied-today-126112600164_1.html"
+   },
+   "date": "2026-11-26",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "diamond-power",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Diamond Power gains on Adani orders",
+   "line": "Diamond Power rose about 2.6% after ₹488 cr of orders from Adani Energy Solutions",
+   "more": [
+    "The orders were announced on Wednesday",
+    "Jyoti Structures jumped about 9% on a ₹272 cr transmission order"
+   ],
+   "src": {
+    "title": "Multibagger stock Diamond Power gains 2% on order wins from Adani group",
+    "url": "https://www.business-standard.com/markets/news/multibagger-stock-diamond-power-gains-2-on-order-wins-from-adani-group-126112600174_1.html"
+   },
+   "date": "2026-11-26",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "1305"
+   }
+  },
   {
    "key": "mcx",
    "tag": "Stocks",
@@ -116,7 +182,7 @@
    "slot": "1235",
    "when": "12:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "1235"
@@ -140,7 +206,7 @@
    "slot": "1235",
    "when": "12:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1105"
@@ -164,7 +230,7 @@
    "slot": "1235",
    "when": "12:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "1205"
@@ -327,31 +393,6 @@
    }
   },
   {
-   "key": "block-deals",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "₹5,508 cr of block deals in LG, Schaeffler",
-   "line": "LG India's promoter sells 2% via Citi; Schaeffler AG up to 6% via JP Morgan",
-   "more": [
-    "LG's sale is aimed at meeting the minimum public shareholding rule",
-    "Floor prices are about 6% and 5.7% below market",
-    "A 180-day lock-up applies to the seller, per one report"
-   ],
-   "src": {
-    "title": "Promoters Slate ₹5,508 Crore Block Deals in Schaeffler India and LG Electronics",
-    "url": "https://www.airnews.in/articles/d50cd2dfc0-promoters-slate-5-508-crore-block-deals-in-schaeffler-india-and-lg-electronics"
-   },
-   "date": "2026-11-26",
-   "slot": "1035",
-   "when": "10:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-26",
-    "slot": "0845"
-   }
-  },
-  {
    "key": "fmcg-gains",
    "tag": "Stocks",
    "impact": "neg",
@@ -373,30 +414,6 @@
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1405"
-   }
-  },
-  {
-   "key": "sugar-output",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Sugar rally holds, gains up to 14%",
-   "line": "Sugar shares stay in demand after ISMA's forecast of a 15% fall in output",
-   "more": [
-    "Business Standard reports gains of up to 14%",
-    "Balrampur Chini, EID Parry and Triveni were flagged before the open"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex up 200 pts, Nifty above 25,800; sugar shares surge up to 14%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
-   },
-   "date": "2026-11-26",
-   "slot": "1035",
-   "when": "10:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-26",
-    "slot": "0845"
    }
   },
   {
