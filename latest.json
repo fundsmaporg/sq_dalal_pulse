@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-26T07:00:22+05:30",
+ "generated_at": "2026-11-26T08:47:07+05:30",
  "date": "2026-11-26",
- "slot": "0700",
- "slot_label": "7:00",
+ "slot": "0845",
+ "slot_label": "8:45",
  "stage": "Pre-market mood",
- "asof": "2026-11-26T07:05:00+05:30",
+ "asof": "2026-11-26T08:50:00+05:30",
  "nifty": {
   "value": 25819.25,
   "pct": 1.85,
@@ -14,53 +14,186 @@
  },
  "metrics": {
   "brent_usd": {
-   "value": 89.58,
-   "asof": "2026-11-25 close",
+   "value": 94.61,
+   "asof": "2026-11-25 settle",
    "approx": false,
    "src": {
-    "title": "Crude Oil (Brent) Today",
-    "url": "https://www.dealplexus.com/markets/crude-oil-price-today"
-   }
-  },
-  "fii_net_cr": {
-   "value": 4479,
-   "asof": "2026-11-25 provisional",
-   "approx": false,
-   "src": {
-    "title": "FII DII Data Today (Wed 25 Nov): FII +₹4,479 Cr, DII +₹4,019 Cr",
-    "url": "https://www.alphave.in/flows"
-   }
-  },
-  "dii_net_cr": {
-   "value": 4019,
-   "asof": "2026-11-25 provisional",
-   "approx": false,
-   "src": {
-    "title": "FII DII Data Today (Wed 25 Nov): FII +₹4,479 Cr, DII +₹4,019 Cr",
-    "url": "https://www.alphave.in/flows"
+    "title": "Indian rupee to dip on oil rise, AI trade finding tentative footing",
+    "url": "https://brecorder.com/news/40450820/indian-rupee-to-dip-on-oil-rise-ai-trade-finding-tentative-footing"
    }
   }
  },
  "mood": {
-  "label": "Steady start likely",
-  "score": 0.2,
-  "summary": "The setup for Thursday has steadied overnight: Wall Street clawed back most of a deep sell-off, Asian chip stocks are rebounding, and both foreign and domestic funds bought Indian shares on Wednesday.",
+  "label": "Higher open likely",
+  "score": 0.25,
+  "summary": "Indian shares look set to open higher as Asian tech stocks rebound, though a sharp jump in oil prices and a weaker rupee could cap gains after the market's strong rally.",
   "detail": {
-   "leaders": "FMCG and banks, which led Wednesday's rebound",
-   "laggards": "Metals, led by Tata Steel, which stayed weak on Wednesday",
-   "tone": "A forward-looking read for the session ahead. Firmer than the previous note: the US sell-off that clouded the outlook last night largely reversed before the close.",
+   "leaders": "Banks and FMCG led the last session; Siemens Energy India in focus on results",
+   "laggards": "Metals, with Tata Steel and APL Apollo under scrutiny over their deal",
+   "tone": "A forward-looking read for the open. Broadly in line with the previous note, though the oil jump is a new headwind.",
    "watch": [
-    "Whether Asia's chip rebound holds through the morning",
-    "India's response to the proposed US tariffs",
-    "A thin global session with US markets shut for Thanksgiving"
+    "Brent's jump after the Houthi strike on Saudi Arabia's biggest refinery",
+    "Block deals in LG Electronics India and Schaeffler India",
+    "Whether Asia's tech rebound holds"
    ],
    "src": {
-    "title": "Stock Market Today, Nov. 25: Dow Erases 1,100-Point Loss as Wall Street Stages Dramatic Late-Day Comeback",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-25-221745503.html"
+    "title": "Stock Market LIVE: GIFT Nifty signals gap-up open; Asia mkts rebound as dip-buyers return to tech",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "crude-iran-war",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent jumps 3.5% after Saudi refinery attack",
+   "line": "Brent settled at $94.61 on Wednesday and edged up to about $94.90 in Asia, per Reuters",
+   "more": [
+    "The Houthis said they attacked Saudi Arabia's largest refinery",
+    "The rupee is expected to weaken on the oil rise",
+    "A Business Standard live update put Brent near $90.76; reports differ"
+   ],
+   "src": {
+    "title": "Indian rupee to dip on oil rise, AI trade finding tentative footing",
+    "url": "https://brecorder.com/news/40450820/indian-rupee-to-dip-on-oil-rise-ai-trade-finding-tentative-footing"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-26",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "2100"
+   }
+  },
+  {
+   "key": "gift-nifty",
+   "tag": "Opening",
+   "impact": "pos",
+   "title": "GIFT Nifty points to a gap-up open",
+   "line": "Asian markets rebound as dip-buyers return to tech, per Business Standard",
+   "more": [
+    "HDFC Sky had flagged a flat start overnight; signals differ",
+    "Wall Street recovered most of Wednesday's sell-off before the close"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: GIFT Nifty signals gap-up open; Asia mkts rebound as dip-buyers return to tech",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+   },
+   "date": "2026-11-26",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "tata-steel",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Tata Steel weighs reworking the APL Apollo deal",
+   "line": "Tata Steel is considering restructuring the deal after investor concerns grew",
+   "more": [
+    "APL Apollo shares fell over 21% in a day after the deal, per The Week",
+    "Concerns centre on the price, debt and dilution, per DSIJ"
+   ],
+   "src": {
+    "title": "Stocks to watch, November 26: LG Electronics, Tata Steel, SG Mart, APL Apollo Tubes, Fino Payments, PNB, Lupin",
+    "url": "https://urgent.news/2026/11/26/stocks-to-watch-november-26-lg-electronics-tata-steel-sg-mart-apl"
+   },
+   "date": "2026-11-26",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "block-deals",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "LG Electronics, Schaeffler India block deals",
+   "line": "LG India's promoter may sell up to 2%; Schaeffler AG up to 6% of its Indian unit",
+   "more": [
+    "LG stake worth up to ₹2,320.5 cr; floor ₹1,709.30, about 6% below the last close",
+    "Schaeffler stake worth ₹3,188 cr; floor price ₹3,400 a share"
+   ],
+   "src": {
+    "title": "Stocks to Watch Today (Nov 26): Siemens Energy, Schaeffler India, LG Electronics, Lupin and more",
+    "url": "https://www.zeebiz.com/market-news/news-stocks-to-watch-today-nov-26-siemens-energy-schaeffler-india-lg-electronics-lupin-and-more-406008"
+   },
+   "date": "2026-11-26",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "siemens-energy-q4",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Siemens Energy India profit up 81%",
+   "line": "Siemens Energy India reported strong September-quarter results",
+   "more": [
+    "The quarter is the company's fourth fiscal quarter",
+    "Lupin got USFDA approval for a diabetes drug; CESC extended its ReNew deal deadline"
+   ],
+   "src": {
+    "title": "Stocks to Watch Today (Nov 26): Siemens Energy, Schaeffler India, LG Electronics, Lupin and more",
+    "url": "https://www.zeebiz.com/market-news/news-stocks-to-watch-today-nov-26-siemens-energy-schaeffler-india-lg-electronics-lupin-and-more-406008"
+   },
+   "results": {
+    "company": "Siemens Energy India",
+    "quarter": "Q4 FY26",
+    "profit_yoy_pct": 81
+   },
+   "date": "2026-11-26",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "sugar-output",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "ISMA sees a 15% drop in sugar output",
+   "line": "India's 2026-27 gross sugar production is projected to fall 15%, per ISMA",
+   "more": [
+    "Balrampur Chini, EID Parry and Triveni Engineering may move on the forecast",
+    "The forecast covers the 2026-27 marketing year"
+   ],
+   "src": {
+    "title": "Stocks to Watch Today (Nov 26): Siemens Energy, Schaeffler India, LG Electronics, Lupin and more",
+    "url": "https://www.zeebiz.com/market-news/news-stocks-to-watch-today-nov-26-siemens-energy-schaeffler-india-lg-electronics-lupin-and-more-406008"
+   },
+   "date": "2026-11-26",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "0845"
+   }
+  },
   {
    "key": "us-markets",
    "tag": "Global",
@@ -81,7 +214,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "0700"
@@ -106,7 +239,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "0845"
@@ -132,7 +265,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "0700"
@@ -239,30 +372,6 @@
    }
   },
   {
-   "key": "tata-steel",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Tata Steel ends as top Nifty loser",
-   "line": "Tata Steel led the Nifty losers, with ONGC, Hindalco and JSW Steel close behind",
-   "more": [
-    "APL Apollo, buyer of its tubes arm, hit a 52-week low today",
-    "Tata Steel fell 8.52% on Monday after the deal"
-   ],
-   "src": {
-    "title": "Sensex gains 1500 points, Nifty above 25800",
-    "url": "https://www.chinimandi.com/sensex-gains-1500-points-nifty-above-25800/"
-   },
-   "date": "2026-11-25",
-   "slot": "1635",
-   "when": "Wed · 16:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "0845"
-   }
-  },
-  {
    "key": "us-pce",
    "tag": "Global",
    "impact": "watch",
@@ -284,32 +393,6 @@
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1635"
-   }
-  },
-  {
-   "key": "crude-iran-war",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Houthis strike Saudi Ras Tanura refinery",
-   "line": "Crude rose off its lows after the Houthi strikes and new Iranian threats over Hormuz",
-   "more": [
-    "Brent had fallen 1.4% to $87.54 early on supply-glut worries",
-    "A later update had Brent back above $88.50",
-    "Another recap put Brent at $90.10 in the morning"
-   ],
-   "src": {
-    "title": "Crude climbs off lows as Houthis confirm strikes on Saudi's Ras Tanura refinery and Iran ramps up Hormuz rhetoric",
-    "url": "https://newsquawk.com/headlines/market-analysis-crude-climbs-off-lows-as-houthis-confirm-strikes-on-saudis-ras-tanura-refinery-and-iran-ramps-up-hormuz-rhetoric-spot-gold-remains-pressured-ahead-of-us-pce"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-25",
-   "slot": "1605",
-   "when": "Wed · 16:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "2100"
    }
   },
   {
@@ -602,30 +685,6 @@
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1405"
-   }
-  },
-  {
-   "key": "gift-nifty",
-   "tag": "Opening",
-   "impact": "pos",
-   "title": "Gap-up open after the holiday",
-   "line": "Indian shares catch up with Monday's global rally missed during Tuesday's holiday",
-   "more": [
-    "The rally is broad across the large sectors, per Business Standard",
-    "Bank, financial and IT stocks lead"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex soars 1,300 pts, Nifty tops 25,700; bank, financials, IT advance",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
-   },
-   "date": "2026-11-25",
-   "slot": "0925",
-   "when": "Wed · 9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "0700"
    }
   },
   {
