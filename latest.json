@@ -1,65 +1,66 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-26T13:36:40+05:30",
+ "generated_at": "2026-11-26T14:06:30+05:30",
  "date": "2026-11-26",
- "slot": "1335",
- "slot_label": "13:35",
+ "slot": "1405",
+ "slot_label": "14:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-26T13:40:00+05:30",
+ "asof": "2026-11-26T14:10:00+05:30",
+ "nifty": {
+  "value": 25825.9,
+  "pct": 0.03,
+  "chg": 6.65,
+  "approx": false,
+  "asof_quote": "14:00"
+ },
  "mood": {
-  "label": "Gains hold",
-  "score": 0.3,
-  "summary": "Indian shares are holding gains in a stock-specific afternoon, with IT, MCX and Schaeffler India higher while NBFCs and LG Electronics India lag.",
+  "label": "Gains fade",
+  "score": 0.0,
+  "summary": "Indian shares have given up most of the day's gains and are trading flat and choppy in the afternoon, as investors wait for clarity on a US-India trade deal.",
   "detail": {
-   "leaders": "Infosys and TCS, plus Schaeffler India and MCX",
+   "leaders": "IT, led by Infosys, plus SG Mart",
    "laggards": "LG Electronics India, Bajaj Finance and Shriram Finance",
-   "tone": "A read on market behaviour rather than a fresh index print. Much as in the previous note, the market is holding gains with the action concentrated in individual stocks.",
+   "tone": "A live read. Softer than the previous note: the market has slipped from modest gains to roughly flat, swinging between gains and losses.",
    "watch": [
-    "Whether the NBFC selling deepens into the close",
-    "Bullion's rebound and its effect on MCX and metal names",
-    "Brent's jump after the Saudi refinery attack"
+    "Any news on a US-India trade deal",
+    "Whether IT can keep the market afloat into the close",
+    "Provisional FII and DII figures this evening"
    ],
    "src": {
-    "title": "Sensex Today, November 26: Sensex Gains 200 Points, Nifty Higher",
-    "url": "https://theopenpress.in/article/sensex-today-november-26-2026-nifty"
+    "title": "Stock Market LIVE: Sensex trades choppy; Nifty around 25,800; SG Mart shares jump over 7%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Infosys and TCS lead, with Schaeffler India and MCX also strong",
-     "why": "IT is extending its rally, a well-absorbed block deal is lifting Schaeffler India, and MCX tracks the bullion rebound.",
+     "summary": "IT holds up, led by Infosys, while SG Mart rebounds",
+     "why": "IT is still the strongest sector as its four-day rally runs on.",
      "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "move": "up ~2.4%",
+       "line": "The strongest sector on the day, per Equitymaster"
+      },
       {
        "name": "Infosys",
        "dir": "up",
        "move": "+2.67%",
-       "line": "Among the top gainers as IT extends its four-day rally"
+       "line": "Among the top gainers as IT extends its run"
       },
       {
-       "name": "TCS",
+       "name": "SG Mart",
        "dir": "up",
-       "move": "+1.93%",
-       "line": "Rises with the IT pack on the global tech rebound"
-      },
-      {
-       "name": "Schaeffler India",
-       "dir": "up",
-       "move": "up as much as 4–5%",
-       "line": "Rose after a ₹3,543 cr block trade of about 6.5% of its equity"
-      },
-      {
-       "name": "MCX",
-       "dir": "up",
-       "move": "up as much as 5%",
-       "line": "Jumped as gold and silver prices rebounded"
+       "move": "up 6–7.4%",
+       "line": "Rebounds after a 20% lower circuit, ahead of a fundraising board meeting"
       }
      ],
      "src": {
-      "title": "Schaeffler India Shares Rise 4% After ₹3,543 Crore Block Deal",
-      "url": "https://www.kotakneo.com/news/stocks/schaeffler-india-shares-rise-after-block-deal-promoter-stake-sale/"
+      "title": "Stock Market LIVE: Sensex trades choppy; Nifty around 25,800; SG Mart shares jump over 7%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
      }
     },
     "down": {
-     "summary": "LG Electronics India falls on its block deal; NBFCs stay weak",
+     "summary": "LG Electronics India and NBFCs remain the main drags",
      "why": "LG India's parent sold shares at a discount, and lenders that led Wednesday's rally are being sold.",
      "names": [
       {
@@ -72,7 +73,7 @@
        "name": "Bajaj Finance",
        "dir": "down",
        "move": "-2.25%",
-       "line": "The top loser, after rallying with financials on Wednesday"
+       "line": "Among the top losers after rallying with financials on Wednesday"
       },
       {
        "name": "Shriram Finance",
@@ -90,6 +91,80 @@
   }
  },
  "insights": [
+  {
+   "key": "us-tariffs",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "Trade-deal wait keeps the market choppy",
+   "line": "Indices swing between gains and losses as investors await clarity on a US-India trade deal",
+   "more": [
+    "The US has proposed a 17% tariff on India with a deal, 25% without",
+    "Analysts expect little near-term market impact"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex trades choppy; Nifty around 25,800; SG Mart shares jump over 7%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-26",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-25",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "sg-mart",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "SG Mart rebounds up to 7.4%",
+   "line": "SG Mart rose 7.41% to ₹890.95 after hitting a 20% lower circuit the previous session",
+   "more": [
+    "Its board was due to meet today on raising funds",
+    "The stock had jumped as much as 14% on Monday when the meeting was announced"
+   ],
+   "src": {
+    "title": "SG Mart Share Price Up 6% After Circuit: Levels and Valuation",
+    "url": "https://univest.in/blogs/sg-mart-share-price-rebounds-after-lower-circuit-fundraise-meeting-tata-steel-apl-apollo-valuation-levels-26-november-2026"
+   },
+   "date": "2026-11-26",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "1405"
+   }
+  },
+  {
+   "key": "it-rebound",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT keeps the market afloat",
+   "line": "IT stays the strongest sector as the wider market gives up its gains",
+   "more": [
+    "Infosys is among the top gainers",
+    "HDFC Bank and ICICI Bank were also among gainers, per Equitymaster"
+   ],
+   "src": {
+    "title": "Today's Market: Sensex Today Trades Higher",
+    "url": "https://www.equitymaster.com/indian-share-markets/11/26/2026/Sensex-Today-Trades-Higher--Nifty-Above-25800--Nifty-IT-Index-Up-24"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-26",
+   "slot": "1405",
+   "when": "14:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1035"
+   }
+  },
   {
    "key": "block-deals",
    "tag": "Stocks",
@@ -109,7 +184,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "0845"
@@ -133,7 +208,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "1035"
@@ -157,7 +232,7 @@
    "slot": "1335",
    "when": "13:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "1235"
@@ -257,31 +332,6 @@
    "first_seen": {
     "date": "2026-11-26",
     "slot": "1205"
-   }
-  },
-  {
-   "key": "it-rebound",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Infosys up 2.67% as IT rally runs on",
-   "line": "Infosys, TCS and HCLTech are among the top gainers, each up about 1.9–2.7%",
-   "more": [
-    "Wipro rose as much as 4.21% earlier on its bp partnership",
-    "IT is in a fourth straight session of gains"
-   ],
-   "src": {
-    "title": "Sensex Today, November 26: Sensex Gains 200 Points, Nifty Higher",
-    "url": "https://theopenpress.in/article/sensex-today-november-26-2026-nifty"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-26",
-   "slot": "1205",
-   "when": "12:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "1035"
    }
   },
   {
@@ -437,31 +487,6 @@
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1405"
-   }
-  },
-  {
-   "key": "us-tariffs",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "Market shrugs off the US tariff threat",
-   "line": "V K Vijayakumar says the tariff threat is unlikely to affect the market in the near term",
-   "more": [
-    "India faces 17% with a trade deal or 25% without",
-    "Another analyst sees it as pressure on India to reach a trade deal"
-   ],
-   "src": {
-    "title": "NIFTY50 and SENSEX open with modest gains on Thursday as tariff threat looms on Indian market rally",
-    "url": "https://upstox.com/news/market-news/stocks/nifty-50-and-sensex-open-with-modest-gains-on-thursday-as-tariff-threat-looms-on-indian-market-rally/article-203993/"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-26",
-   "slot": "1005",
-   "when": "10:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-25",
-    "slot": "0700"
    }
   },
   {
