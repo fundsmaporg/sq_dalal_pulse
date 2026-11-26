@@ -1,48 +1,141 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-26T08:47:07+05:30",
+ "generated_at": "2026-11-26T09:26:23+05:30",
  "date": "2026-11-26",
- "slot": "0845",
- "slot_label": "8:45",
- "stage": "Pre-market mood",
- "asof": "2026-11-26T08:50:00+05:30",
+ "slot": "0925",
+ "slot_label": "9:25",
+ "stage": "Opening mood",
+ "asof": "2026-11-26T09:30:00+05:30",
  "nifty": {
-  "value": 25819.25,
-  "pct": 1.85,
-  "chg": 469.6,
-  "approx": false
- },
- "metrics": {
-  "brent_usd": {
-   "value": 94.61,
-   "asof": "2026-11-25 settle",
-   "approx": false,
-   "src": {
-    "title": "Indian rupee to dip on oil rise, AI trade finding tentative footing",
-    "url": "https://brecorder.com/news/40450820/indian-rupee-to-dip-on-oil-rise-ai-trade-finding-tentative-footing"
-   }
-  }
+  "value": 25859,
+  "pct": 0.17,
+  "chg": 44,
+  "approx": true,
+  "asof_quote": "09:15"
  },
  "mood": {
-  "label": "Higher open likely",
+  "label": "Modest gains",
   "score": 0.25,
-  "summary": "Indian shares look set to open higher as Asian tech stocks rebound, though a sharp jump in oil prices and a weaker rupee could cap gains after the market's strong rally.",
+  "summary": "Indian shares have opened a touch higher after Wednesday's big rally, with IT stocks leading and midcaps and smallcaps also edging up, though the start is more muted than the pre-open cues suggested.",
   "detail": {
-   "leaders": "Banks and FMCG led the last session; Siemens Energy India in focus on results",
-   "laggards": "Metals, with Tata Steel and APL Apollo under scrutiny over their deal",
-   "tone": "A forward-looking read for the open. Broadly in line with the previous note, though the oil jump is a new headwind.",
+   "leaders": "IT stocks, with midcaps and smallcaps edging higher",
+   "laggards": "Bajaj Finance, the top Sensex loser early",
+   "tone": "A live read just after the open. Softer than the pre-open signal suggested: the market opened only slightly higher, though it firmed in the first minutes. Early coverage gave no reason for Bajaj Finance's fall, so the losers breakdown is left out.",
    "watch": [
-    "Brent's jump after the Houthi strike on Saudi Arabia's biggest refinery",
-    "Block deals in LG Electronics India and Schaeffler India",
-    "Whether Asia's tech rebound holds"
+    "Whether IT's lead holds through the morning",
+    "Brent's jump after the Saudi refinery attack",
+    "Block deals in LG Electronics India and Schaeffler India"
    ],
    "src": {
-    "title": "Stock Market LIVE: GIFT Nifty signals gap-up open; Asia mkts rebound as dip-buyers return to tech",
+    "title": "Stock Market LIVE: Sensex rises 200 pts, Nifty tops 25,800; Nifty IT gains 2%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+   },
+   "movers": {
+    "up": {
+     "summary": "IT leads the early gains, with the broader market edging up",
+     "why": "IT is tracking the rebound in Asian tech stocks as dip-buyers return, and smaller stocks are joining in.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "up",
+       "move": "+2%",
+       "line": "Leads the Sensex gainers as Asian tech shares rebound"
+      },
+      {
+       "name": "Nifty Smallcap 100",
+       "dir": "up",
+       "move": "+0.38%",
+       "line": "Smallcaps edge up at the open after lagging Wednesday's rally"
+      },
+      {
+       "name": "Nifty Midcap 100",
+       "dir": "up",
+       "move": "+0.27%",
+       "line": "Midcaps also start higher"
+      }
+     ],
+     "src": {
+      "title": "Stock Market LIVE: Sensex rises 200 pts, Nifty tops 25,800; Nifty IT gains 2%",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+     }
+    }
    }
   }
  },
  "insights": [
+  {
+   "key": "gift-nifty",
+   "tag": "Opening",
+   "impact": "watch",
+   "title": "A quieter open than pre-open cues hinted",
+   "line": "Indian shares opened only slightly higher despite GIFT Nifty signalling a gap-up",
+   "more": [
+    "The market firmed within the first few minutes, per Business Standard",
+    "Midcaps and smallcaps also opened higher"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex rises 200 pts, Nifty tops 25,800; Nifty IT gains 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+   },
+   "date": "2026-11-26",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "0700"
+   }
+  },
+  {
+   "key": "it-rebound",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "IT stocks lead the Sensex gainers",
+   "line": "IT leads the early gains as Asian tech shares rebound with dip-buyers returning",
+   "more": [
+    "IT also led on Wednesday as money rotated from AI names to IT services",
+    "Jefferies kept Underperform on TCS, HCLTech, Wipro and Tech Mahindra"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex rises 200 pts, Nifty tops 25,800; Nifty IT gains 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-26",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "bajaj-finance",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Bajaj Finance is the top Sensex loser",
+   "line": "Bajaj Finance leads the early losers; no specific trigger was reported",
+   "more": [
+    "It traded at ₹1,142.8 on Wednesday, per Kotak Neo",
+    "Financials led Wednesday's rally"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex rises 200 pts, Nifty tops 25,800; Nifty IT gains 2%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+   },
+   "date": "2026-11-26",
+   "slot": "0925",
+   "when": "9:25",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "0925"
+   }
+  },
   {
    "key": "crude-iran-war",
    "tag": "Global",
@@ -63,34 +156,10 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "gift-nifty",
-   "tag": "Opening",
-   "impact": "pos",
-   "title": "GIFT Nifty points to a gap-up open",
-   "line": "Asian markets rebound as dip-buyers return to tech, per Business Standard",
-   "more": [
-    "HDFC Sky had flagged a flat start overnight; signals differ",
-    "Wall Street recovered most of Wednesday's sell-off before the close"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: GIFT Nifty signals gap-up open; Asia mkts rebound as dip-buyers return to tech",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
-   },
-   "date": "2026-11-26",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "0700"
    }
   },
   {
@@ -111,7 +180,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "0845"
@@ -135,7 +204,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "0845"
@@ -164,7 +233,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "0845"
@@ -188,7 +257,7 @@
    "slot": "0845",
    "when": "8:45",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "0845"
@@ -513,31 +582,6 @@
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1335"
-   }
-  },
-  {
-   "key": "it-rebound",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT stays among the outperformers",
-   "line": "IT remains one of the stronger sectors as the wider market eases off its high",
-   "more": [
-    "Infosys was among the top Nifty gainers earlier",
-    "IT is catching up with a global tech rally missed on Tuesday's holiday"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex off day's high, up 1200-pts; Nifty below 25,700; APL Apollo at 52-week low",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-25",
-   "slot": "1335",
-   "when": "Wed · 13:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "1035"
    }
   },
   {
