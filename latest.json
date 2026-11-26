@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-26T18:00:07+05:30",
+ "generated_at": "2026-11-26T21:01:57+05:30",
  "date": "2026-11-26",
- "slot": "1800",
- "slot_label": "18:00",
+ "slot": "2100",
+ "slot_label": "21:00",
  "stage": "Evening wrap",
- "asof": "2026-11-26T18:05:00+05:30",
+ "asof": "2026-11-26T21:05:00+05:30",
  "nifty": {
   "value": 25884.5,
   "pct": 0.25,
@@ -14,59 +14,135 @@
  },
  "metrics": {
   "brent_usd": {
-   "value": 95.31,
-   "asof": "2026-11-26 intraday",
-   "approx": false,
+   "value": 95.58,
+   "asof": "2026-11-26 13:08 GMT",
+   "approx": true,
    "src": {
-    "title": "Crude Oil Prices Rise To $95 Following Houthi Attack On Saudi Refinery",
-    "url": "https://www.freepressjournal.in/business/crude-oil-prices-rise-to-95-following-houthi-attack-on-saudi-refinery"
+    "title": "Brent Crude Price $95.58: Three-Day Rally Into OPEC+ Sunday",
+    "url": "https://financefeeds.com/brent-crude-oil-price-95-58-thursday-three-day-rally-before-opec-plus-sunday-bull-100-bear-91/"
+   }
+  },
+  "fii_net_cr": {
+   "value": 5843,
+   "asof": "2026-11-26 provisional",
+   "approx": true,
+   "src": {
+    "title": "FIIs extend India buying streak to 18 sessions with ₹5,843 crore investment",
+    "url": "https://businessupturn.com/nation/fiis-extend-india-buying-streak-to-18-sessions-with-rs5-843-crore-investment/"
+   }
+  },
+  "dii_net_cr": {
+   "value": 5631,
+   "asof": "2026-11-26 provisional",
+   "approx": true,
+   "src": {
+    "title": "FII DII Data Today: NSE/BSE Cash & F&O Activity",
+    "url": "https://www.niftytrader.in/fii-dii-data"
    }
   }
  },
  "mood": {
   "label": "Steady into Friday",
-  "score": 0.15,
-  "summary": "After two days of gains led by IT and realty, Indian shares head into Friday with US markets shut for Thanksgiving and oil prices climbing back on Gulf supply worries.",
+  "score": 0.2,
+  "summary": "Indian shares go into Friday with heavy foreign and domestic buying behind them, a firm oil price as the main drag, and no lead from Wall Street, which is shut for Thanksgiving.",
   "detail": {
-   "leaders": "IT and realty, which led Thursday's gains",
-   "laggards": "Auto, FMCG and consumer durables, which saw selling on Thursday",
-   "tone": "A forward-looking read for Friday. Slightly more cautious than the close, as higher oil prices and a thin global session temper the two-day rally.",
+   "leaders": "IT and realty, which led Thursday's gains, with institutional buying in support",
+   "laggards": "Auto, FMCG and consumer durables, sold on Thursday; oil-sensitive names if crude keeps rising",
+   "tone": "A forward-looking read for Friday, slightly firmer than the previous note now that Thursday's flow data shows both foreign and domestic funds buying. US markets did not trade tonight, so there is no live Wall Street lead.",
    "watch": [
-    "Brent after the Ras Tanura refinery attack and ahead of the 29 Nov OPEC meeting",
-    "Provisional FII and DII figures for Thursday, still awaited",
-    "Any progress on the US-India trade deal"
+    "Brent into the OPEC+ meeting on Sunday 29 November",
+    "Whether foreign buying continues on Friday",
+    "Wall Street's shortened Friday session"
    ],
    "src": {
-    "title": "Oil rebounds to $95 per barrel after Saudi refinery attack",
-    "url": "https://www.thenationalnews.com/business/energy/2026/11/26/oil-rebounds-to-95-per-barrel-after-saudi-refinery-attack/"
+    "title": "FIIs extend India buying streak to 18 sessions with ₹5,843 crore investment",
+    "url": "https://businessupturn.com/nation/fiis-extend-india-buying-streak-to-18-sessions-with-rs5-843-crore-investment/"
    }
   }
  },
  "insights": [
   {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs buy about ₹5,843 crore on Thursday",
+   "line": "Provisional data show foreign and domestic funds both net buyers for a second day",
+   "more": [
+    "DIIs net bought about ₹5,631 crore, per Niftytrader",
+    "On Wednesday FIIs bought ₹4,479 crore and DIIs ₹4,019 crore",
+    "Sources differ on the FII buying streak: 18 sessions or 12 days"
+   ],
+   "src": {
+    "title": "FIIs extend India buying streak to 18 sessions with ₹5,843 crore investment",
+    "url": "https://businessupturn.com/nation/fiis-extend-india-buying-streak-to-18-sessions-with-rs5-843-crore-investment/"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-26",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-20",
+    "slot": "0845"
+   }
+  },
+  {
    "key": "crude-iran-war",
    "tag": "Global",
    "impact": "neg",
-   "title": "Brent climbs back to about $95",
-   "line": "Brent rose 0.74% to $95.31 on Thursday after settling 3.5% higher at $94.61",
+   "title": "Brent heads for a third straight gain",
+   "line": "Brent was near $95.58 at 13:08 GMT, up about 1% from Wednesday's $94.61 settle",
    "more": [
-    "The Houthis said they hit Saudi Arabia's Ras Tanura refinery, with 550,000 bpd capacity",
-    "Damage and any effect on Saudi exports have not been disclosed",
-    "Oversupply worries and rising US crude stocks are capping gains"
+    "At least two tankers struck mines in the Strait of Hormuz, one report says",
+    "The Houthi claim on Ras Tanura has not been independently confirmed",
+    "OPEC+ meets on Sunday 29 November"
    ],
    "src": {
-    "title": "Oil rebounds to $95 per barrel after Saudi refinery attack",
-    "url": "https://www.thenationalnews.com/business/energy/2026/11/26/oil-rebounds-to-95-per-barrel-after-saudi-refinery-attack/"
+    "title": "Brent Crude Price $95.58: Three-Day Rally Into OPEC+ Sunday",
+    "url": "https://financefeeds.com/brent-crude-oil-price-95-58-thursday-three-day-rally-before-opec-plus-sunday-bull-100-bear-91/"
    },
    "thread": "crude-iran-war",
    "date": "2026-11-26",
-   "slot": "1800",
-   "when": "18:00",
+   "slot": "2100",
+   "when": "21:00",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "2100"
+   }
+  },
+  {
+   "key": "siemens-energy-q4",
+   "tag": "Results",
+   "impact": "pos",
+   "title": "Siemens Energy India: ₹653 cr profit",
+   "line": "September-quarter profit rose 81%, with a ₹12 dividend; shares rose as much as 9.12%",
+   "more": [
+    "Net profit was ₹653 crore for the quarter",
+    "The board declared a dividend of ₹12 a share"
+   ],
+   "src": {
+    "title": "Siemens Energy jumps 9% as Sept qtr PAT rises 81%; ₹12 dividend declared",
+    "url": "https://business-standard.com/amp/markets/news/siemens-energy-jumps-9-as-sept-qtr-pat-rises-81-12-dividend-declared-126112600125_1.html"
+   },
+   "results": {
+    "company": "Siemens Energy India",
+    "quarter": "Q4 FY26",
+    "reaction_asof": "2026-11-26 intraday high",
+    "profit_cr": 653,
+    "profit_yoy_pct": 81,
+    "reaction_pct": 9.12
+   },
+   "date": "2026-11-26",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "0845"
    }
   },
   {
@@ -88,7 +164,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "1800"
@@ -113,7 +189,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-20",
     "slot": "0700"
@@ -190,31 +266,6 @@
    "first_seen": {
     "date": "2026-11-26",
     "slot": "1635"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "November FPI buying hits about $14 billion",
-   "line": "Marketcalls describes November foreign equity inflows as a record, at about $14 billion",
-   "more": [
-    "FIIs bought ₹4,479 cr and DIIs ₹4,019 cr on Wednesday",
-    "Zee Business cites FII buying as support for today's market"
-   ],
-   "src": {
-    "title": "Pre-Market Report 26 November 2026: Record FPI Buying",
-    "url": "https://marketcalls.in/futures-and-options/pre-market-report-26-november-2026.html"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-26",
-   "slot": "1605",
-   "when": "16:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "0845"
    }
   },
   {
@@ -555,39 +606,6 @@
    "first_seen": {
     "date": "2026-11-26",
     "slot": "1205"
-   }
-  },
-  {
-   "key": "siemens-energy-q4",
-   "tag": "Results",
-   "impact": "pos",
-   "title": "Siemens Energy India rises on results",
-   "line": "The stock is among the early top gainers after an 81% jump in quarterly profit",
-   "more": [
-    "The results are for the September quarter",
-    "Kotak Neo listed it as a top gainer around 9:49 am"
-   ],
-   "src": {
-    "title": "Stock Market Update 26 November 2026: Sensex, Nifty 50 Trade Lower After Opening Higher",
-    "url": "https://www.kotakneo.com/news/market-news/stock-market-update-26-november-2026-sensex-nifty/"
-   },
-   "results": {
-    "company": "Siemens Energy India",
-    "quarter": "Q4 FY26",
-    "profit_yoy_pct": 81,
-    "src": {
-     "title": "Stocks to Watch Today (Nov 26): Siemens Energy, Schaeffler India, LG Electronics, Lupin and more",
-     "url": "https://www.zeebiz.com/market-news/news-stocks-to-watch-today-nov-26-siemens-energy-schaeffler-india-lg-electronics-lupin-and-more-406008"
-    }
-   },
-   "date": "2026-11-26",
-   "slot": "1205",
-   "when": "12:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-26",
-    "slot": "0845"
    }
   },
   {
