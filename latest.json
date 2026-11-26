@@ -1,39 +1,32 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-26T14:06:30+05:30",
+ "generated_at": "2026-11-26T14:37:19+05:30",
  "date": "2026-11-26",
- "slot": "1405",
- "slot_label": "14:05",
+ "slot": "1435",
+ "slot_label": "14:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-26T14:10:00+05:30",
- "nifty": {
-  "value": 25825.9,
-  "pct": 0.03,
-  "chg": 6.65,
-  "approx": false,
-  "asof_quote": "14:00"
- },
+ "asof": "2026-11-26T14:40:00+05:30",
  "mood": {
-  "label": "Gains fade",
+  "label": "Flat and choppy",
   "score": 0.0,
-  "summary": "Indian shares have given up most of the day's gains and are trading flat and choppy in the afternoon, as investors wait for clarity on a US-India trade deal.",
+  "summary": "Indian shares are trading flat and choppy into the last hour, with IT and realty holding up while NBFCs and LG Electronics India weigh, as investors watch for progress on a US trade deal.",
   "detail": {
-   "leaders": "IT, led by Infosys, plus SG Mart",
+   "leaders": "IT, led by Infosys",
    "laggards": "LG Electronics India, Bajaj Finance and Shriram Finance",
-   "tone": "A live read. Softer than the previous note: the market has slipped from modest gains to roughly flat, swinging between gains and losses.",
+   "tone": "A read on market behaviour rather than a fresh index print. Much as in the previous note, the market is swinging around flat with no clear direction.",
    "watch": [
-    "Any news on a US-India trade deal",
+    "Any progress on the US-India trade deal",
     "Whether IT can keep the market afloat into the close",
     "Provisional FII and DII figures this evening"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex trades choppy; Nifty around 25,800; SG Mart shares jump over 7%",
+    "title": "Stock Market LIVE: Sensex trades choppy; Nifty around 25,800; Nifty Realty gains 3%",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
    },
    "movers": {
     "up": {
-     "summary": "IT holds up, led by Infosys, while SG Mart rebounds",
-     "why": "IT is still the strongest sector as its four-day rally runs on.",
+     "summary": "IT holds up the market, led by Infosys",
+     "why": "IT remains the strongest sector as its four-day rally runs on.",
      "names": [
       {
        "name": "Nifty IT",
@@ -46,17 +39,11 @@
        "dir": "up",
        "move": "+2.67%",
        "line": "Among the top gainers as IT extends its run"
-      },
-      {
-       "name": "SG Mart",
-       "dir": "up",
-       "move": "up 6–7.4%",
-       "line": "Rebounds after a 20% lower circuit, ahead of a fundraising board meeting"
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex trades choppy; Nifty around 25,800; SG Mart shares jump over 7%",
-      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+      "title": "Today's Market: Sensex Today Trades Higher",
+      "url": "https://www.equitymaster.com/indian-share-markets/11/26/2026/Sensex-Today-Trades-Higher--Nifty-Above-25800--Nifty-IT-Index-Up-24"
      }
     },
     "down": {
@@ -95,25 +82,75 @@
    "key": "us-tariffs",
    "tag": "Policy",
    "impact": "watch",
-   "title": "Trade-deal wait keeps the market choppy",
-   "line": "Indices swing between gains and losses as investors await clarity on a US-India trade deal",
+   "title": "India rejects US excess-capacity charge",
+   "line": "India seeks an early trade deal; a minister calls the 17% rate an excellent outcome",
    "more": [
-    "The US has proposed a 17% tariff on India with a deal, 25% without",
-    "Analysts expect little near-term market impact"
+    "The Commerce Secretary says first-tranche talks are close to done",
+    "Signing depends on the US finalising its new tariff framework",
+    "The US offers 17% with a deal, 25% without"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex trades choppy; Nifty around 25,800; SG Mart shares jump over 7%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+    "title": "India rejects US allegation of excess manufacturing capacity, seeks early conclusion of bilateral trade deal",
+    "url": "https://www.deccanherald.com/india/india-rejects-us-allegation-of-excess-manufacturing-capacity-seeks-early-conclusion-of-bilateral-trade-deal-4231438"
    },
    "thread": "global-markets",
    "date": "2026-11-26",
-   "slot": "1405",
-   "when": "14:05",
+   "slot": "1435",
+   "when": "14:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-25",
     "slot": "0700"
+   }
+  },
+  {
+   "key": "india-tariff-edge",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "New US tariffs may give India an edge",
+   "line": "CNBC says the latest US tariff moves hand India an advantage over rival Asian exporters",
+   "more": [
+    "India's 17% deal rate would be one point below 18% for several Asian rivals, per one report",
+    "Another report puts the gap against Vietnam and Bangladesh"
+   ],
+   "src": {
+    "title": "How Trump's latest tariff moves hand India an edge over rival Asian exporters",
+    "url": "https://www.cnbc.com/2026/11/26/trump-us-tariff-india-trade.html"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-26",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "1435"
+   }
+  },
+  {
+   "key": "foodlink-ipo",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Foodlink IPO subscribed 0.37 times",
+   "line": "The Foodlink IPO drew 0.37 times subscription on day one so far, per Business Standard",
+   "more": [
+    "Subscription figures will update through the bidding window",
+    "The figure is as of Business Standard's afternoon update"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex trades choppy; Nifty around 25,800; Nifty Realty gains 3%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
+   },
+   "date": "2026-11-26",
+   "slot": "1435",
+   "when": "14:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "1435"
    }
   },
   {
@@ -134,7 +171,7 @@
    "slot": "1405",
    "when": "14:05",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "1405"
@@ -159,7 +196,7 @@
    "slot": "1405",
    "when": "14:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1035"
