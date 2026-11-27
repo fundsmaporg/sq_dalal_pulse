@@ -1,64 +1,66 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-27T12:37:18+05:30",
+ "generated_at": "2026-11-27T13:06:43+05:30",
  "date": "2026-11-27",
- "slot": "1235",
- "slot_label": "12:35",
+ "slot": "1305",
+ "slot_label": "13:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-27T12:39:00+05:30",
+ "asof": "2026-11-27T13:09:00+05:30",
  "nifty": {
-  "value": 25714.65,
-  "pct": -0.66,
-  "chg": -169.85,
+  "value": 25681.55,
+  "pct": -0.78,
+  "chg": -202.95,
   "approx": false,
-  "asof_quote": "12:00"
+  "asof_quote": "13:00"
  },
  "mood": {
-  "label": "Banks join selloff",
+  "label": "Large caps sag",
   "score": -0.4,
-  "summary": "Indian shares have slipped to fresh lows as profit-taking spreads from IT into private banks, while metals, defence stocks and a handful of smallcaps continue to resist.",
+  "summary": "Large caps are stuck near the day's lows under IT and bank selling, but the broader market is quietly positive, with stock-specific buying in defence and metal names.",
   "detail": {
-   "leaders": "Metals such as Tata Steel; defence names Bharat Electronics and BEML",
-   "laggards": "IT, led by TCS and HCL Tech; private banks HDFC Bank and Axis Bank",
-   "tone": "A live read of the session: weaker than the previous note, with the market breaking to fresh lows as banks join the IT-led selling.",
+   "leaders": "Solar Industries, Coforge and Tata Steel; midcaps and smallcaps",
+   "laggards": "IT, led by TCS and Infosys; private banks HDFC Bank and Axis Bank",
+   "tone": "A live read of the session: a shade weaker than the previous note at the benchmark level, but the split is sharper, with midcaps and smallcaps holding gains while large caps slide.",
    "watch": [
-    "Whether bank selling deepens into the close",
-    "Metals and defence holding their gains",
-    "US tariff headlines and oil prices"
+    "Whether large caps find support near the lows before the close",
+    "Broader market holding its gains",
+    "Oil and West Asia headlines"
    ],
    "src": {
-    "title": "Sensex slumps 781+ points by Friday midday as IT and bank profit-taking deepens",
-    "url": "https://www.theweek.in/news/biz-tech/2026/11/27/indian-shares-extend-decline-at-midday-sensex-nifty.html"
+    "title": "Stock Market LIVE: Sensex slumps 700 pts, Nifty below 25,700; Nifty IT down 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Metal and defence stocks are holding up while the wider market falls",
-     "why": "Metals are extending a commodity-led rebound and defence shares are drawing buyers back after a recent sell-off.",
+     "summary": "Stock-specific buying lifts defence, a recovering Coforge and metals",
+     "why": "Company news is driving the gainers, while metals extend a commodity-led rebound.",
      "names": [
+      {
+       "name": "Solar Industries",
+       "dir": "up",
+       "move": "+6.38%",
+       "line": "Its unit completed trials of the Bhargavastra counter-drone system"
+      },
+      {
+       "name": "Coforge",
+       "dir": "up",
+       "move": "+3.17%",
+       "line": "Recovers Thursday's fall after denying talk of imminent block trades"
+      },
       {
        "name": "Tata Steel",
        "dir": "up",
-       "line": "Among the Nifty gainers at noon as metals stay the best-performing sector"
-      },
-      {
-       "name": "Bharat Electronics",
-       "dir": "up",
-       "line": "Among the Nifty gainers as defence shares buck the slide"
-      },
-      {
-       "name": "BEML",
-       "dir": "up",
-       "line": "Leads small-cap gains as defence-linked names rise"
+       "line": "Among the gainers as metals stay the best-performing sector"
       }
      ],
      "src": {
-      "title": "Top Gainers & Losers Today, November 27, 2026 at 12:00 PM IST",
-      "url": "https://hdfcsky.com/news/top-gainers-losers-november-27-2026-at-12-pm-ist"
+      "title": "Solar Industries Share Jumps 6% on Successful Bhargavastra Trials",
+      "url": "https://www.equitypandit.com/solar-industries-share-jumps-6-on-successful-bhargavastra-trials/"
      }
     },
     "down": {
-     "summary": "IT and private banks drive the market's decline",
-     "why": "Profit-taking that began in IT after its four-session rally has spread into large private banks.",
+     "summary": "IT heavyweights and private banks keep the benchmarks under pressure",
+     "why": "Profit-taking after the IT-led rally of the previous sessions has spread into large private banks.",
      "names": [
       {
        "name": "TCS",
@@ -66,9 +68,9 @@
        "line": "Among the top Nifty losers as the IT rally is unwound"
       },
       {
-       "name": "HCL Tech",
+       "name": "Infosys",
        "dir": "down",
-       "line": "Among the top Nifty losers after Thursday's sharp gain"
+       "line": "Among the top Nifty losers on profit-booking"
       },
       {
        "name": "HDFC Bank",
@@ -91,6 +93,79 @@
  },
  "insights": [
   {
+   "key": "solar-bhargavastra",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Solar Industries up 6% on drone-defence trial",
+   "line": "Its unit completed development trials of the Bhargavastra counter-swarm system",
+   "more": [
+    "Shares traded 6.38% higher at ₹19,415 at 12:02 pm",
+    "Defence names have been the market's standout gainers today"
+   ],
+   "src": {
+    "title": "Solar Industries Share Jumps 6% on Successful Bhargavastra Trials",
+    "url": "https://www.equitypandit.com/solar-industries-share-jumps-6-on-successful-bhargavastra-trials/"
+   },
+   "date": "2026-11-27",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-27",
+    "slot": "1305"
+   }
+  },
+  {
+   "key": "coforge-block-denial",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Coforge rebounds after block-deal denial",
+   "line": "The company denied market talk of imminent block trades; shares rose 3.17%",
+   "more": [
+    "The stock was at ₹2,063.30, recovering Thursday's fall in full",
+    "It rose against a weak IT pack"
+   ],
+   "src": {
+    "title": "Why did Coforge shares rally over 4% today? Here's what's driving the stock",
+    "url": "https://businessupturn.com/finance/stock-market/why-did-coforge-shares-rally-over-4-percent-today-block-deal-denial/"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-27",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-27",
+    "slot": "1305"
+   }
+  },
+  {
+   "key": "breadth",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Midcaps, smallcaps hold gains",
+   "line": "The broader market is modestly positive even as large caps sit near the lows",
+   "more": [
+    "Vedanta rose as much as 3.4% to ₹246.06 earlier in the session",
+    "IT, banks and FMCG opened lower while metals bounced"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex slumps 700 pts, Nifty below 25,700; Nifty IT down 1%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+   },
+   "date": "2026-11-27",
+   "slot": "1305",
+   "when": "13:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-25",
+    "slot": "1105"
+   }
+  },
+  {
    "key": "profit-taking-1127",
    "tag": "Stocks",
    "impact": "neg",
@@ -109,33 +184,9 @@
    "slot": "1235",
    "when": "12:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-27",
-    "slot": "1105"
-   }
-  },
-  {
-   "key": "breadth",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "BEML, Angel One lead smallcap gains",
-   "line": "A handful of smallcaps are rising even as the benchmarks slide",
-   "more": [
-    "Titan led the Nifty gainers at noon, up 1.40% at ₹4,696.10",
-    "Tata Steel and Bharat Electronics were also among the gainers"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex slumps 500 pts, Nifty tests 25,700; BEML, Angel One lead SmallCap gains",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
-   },
-   "date": "2026-11-27",
-   "slot": "1235",
-   "when": "12:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-25",
     "slot": "1105"
    }
   },
@@ -158,7 +209,7 @@
    "slot": "1235",
    "when": "12:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-25",
     "slot": "0700"
