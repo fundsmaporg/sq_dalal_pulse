@@ -1,80 +1,162 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-27T11:36:54+05:30",
+ "generated_at": "2026-11-27T12:07:10+05:30",
  "date": "2026-11-27",
- "slot": "1135",
- "slot_label": "11:35",
+ "slot": "1205",
+ "slot_label": "12:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-27T11:40:00+05:30",
+ "asof": "2026-11-27T12:09:00+05:30",
  "mood": {
-  "label": "Heavyweights weigh",
+  "label": "Testing the lows",
   "score": -0.35,
-  "summary": "Indian shares are holding near the day's lows as heavyweights in IT, HDFC Bank and Reliance weigh, though smallcaps stay positive and metals, defence and state-run banks resist the slide.",
+  "summary": "Indian shares are testing the day's lows as IT and a few heavyweights stay under selling pressure, while defence and metal stocks keep rising against the tide.",
   "detail": {
-   "leaders": "Metals, led by Tata Steel; PSU banks such as Bank of India",
-   "laggards": "IT, led by TCS and Infosys; HDFC Bank and Reliance",
-   "tone": "A live read of market behaviour rather than a fresh print: the market is still near the day's low, much as in the previous note, with selling concentrated in a handful of heavyweights.",
+   "leaders": "Defence names such as Mazagon Dock and Bharat Electronics; Tata Steel",
+   "laggards": "IT, led by TCS, HCL Tech and Infosys; HDFC Bank",
+   "tone": "A live read of market behaviour rather than a fresh print: the market is still hovering near the day's low, much as in the previous note, with no sign yet of a sustained recovery.",
    "watch": [
-    "Whether the day's low holds into the afternoon",
-    "Smallcaps staying positive while large caps slide",
+    "Whether the day's low gives way in the afternoon",
+    "Defence and metals holding their gains",
     "Oil prices as West Asia tensions persist"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex at day's low, slumps 700 pts, Nifty below 25,700; Nifty Defence up 3%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+    "title": "Stock Market LIVE: Sensex slumps 600 pts, Nifty tests 25,700; Nifty Defence up 3%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Metals and state-run banks are among the few sectors rising",
-     "why": "Metals are extending a commodity-led rebound, and PSU lenders are adding to a strong November run.",
+     "summary": "Defence and metal stocks are rising while the wider market slips",
+     "why": "Defence shares are drawing buyers back after a recent sell-off, and metals are extending a commodity-led rebound.",
      "names": [
+      {
+       "name": "Mazagon Dock",
+       "dir": "up",
+       "move": "up ~5%",
+       "line": "Buyers return after a sell-off; no fresh company news behind the move"
+      },
+      {
+       "name": "Bharat Electronics",
+       "dir": "up",
+       "line": "Among the Sensex gainers as defence shares lead the market"
+      },
       {
        "name": "Tata Steel",
        "dir": "up",
        "line": "Among the Sensex winners as metals extend Thursday's rebound"
-      },
-      {
-       "name": "Bank of India",
-       "dir": "up",
-       "move": "+4.31%",
-       "line": "Leads broad gains across public sector banks"
       }
      ],
      "src": {
-      "title": "Stock Market Today: Sensex, Nifty Fall; List of Top Laggards & Gainers",
-      "url": "https://www.etvbharat.com/en/business/stock-market-on-november-27-2026-bse-sensex-nse-nifty-crude-oil-prices-fii-buying-enn26112701094"
+      "title": "Mazagon Dock Shares Jump 5% as Buyers Return After Sell-Off",
+      "url": "https://www.equitypandit.com/mazagon-dock-shares-jump-5-as-buyers-return-after-sell-off/"
      }
     },
     "down": {
-     "summary": "IT and a few heavyweights drive the market's decline",
-     "why": "Investors are booking profits after a two-day rally, led by large IT names and index heavyweights.",
+     "summary": "IT heavyweights and HDFC Bank lead the decline",
+     "why": "Investors are booking profits in IT after a strong run over the previous four sessions, and selling has spread to HDFC Bank.",
      "names": [
       {
-       "name": "Nifty IT",
+       "name": "TCS",
        "dir": "down",
-       "move": "−1.56%",
-       "line": "The worst-performing sector as Thursday's rally is unwound"
+       "line": "Among the top Nifty losers as the IT rally is unwound"
+      },
+      {
+       "name": "HCL Tech",
+       "dir": "down",
+       "line": "Among the top Nifty losers after a sharp rally on Thursday"
+      },
+      {
+       "name": "Infosys",
+       "dir": "down",
+       "line": "Among the top Nifty losers on profit-booking"
       },
       {
        "name": "HDFC Bank",
        "dir": "down",
-       "line": "Among the main Sensex laggards as profit-taking spreads to banks"
-      },
-      {
-       "name": "Reliance Industries",
-       "dir": "down",
-       "line": "A major Sensex drag alongside the IT pack"
+       "line": "Among the main Sensex laggards as selling spreads to banks"
       }
      ],
      "src": {
-      "title": "Sensex Dips 0.63% as IT Sector Slumps; BEML Ltd Leads Small Caps Rally",
-      "url": "https://www.marketsmojo.com/news/stock-market-news/sensex-dips-063-as-it-sector-slumps-beml-ltd-leads-small-caps-rally-4276638"
+      "title": "Sensex, Nifty decline in early trade as IT stocks witness profit-booking",
+      "url": "https://psuwatch.com/newsupdates/market-updates/sensex-nifty-decline-in-early-trade-as-it-stocks-witness-profit-booking"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "lcc-projects-order",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "LCC Projects up 5% on ₹553 cr award",
+   "line": "The company received a letter of award for a project worth ₹553.55 crore",
+   "more": [
+    "Shares hit a day's high of ₹137.40 on the NSE",
+    "It is one of the few order-driven gainers in a weak market"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex slumps 600 pts, Nifty tests 25,700; Nifty Defence up 3%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+   },
+   "date": "2026-11-27",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-27",
+    "slot": "1205"
+   }
+  },
+  {
+   "key": "defence-stocks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Mazagon Dock leads defence gains",
+   "line": "Shares rose about 5% to a day's high of ₹1,915.90 without fresh company news",
+   "more": [
+    "Buyers are returning to the stock after a sell-off",
+    "Bharat Electronics is also among the Sensex gainers"
+   ],
+   "src": {
+    "title": "Mazagon Dock Shares Jump 5% as Buyers Return After Sell-Off",
+    "url": "https://www.equitypandit.com/mazagon-dock-shares-jump-5-as-buyers-return-after-sell-off/"
+   },
+   "date": "2026-11-27",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "it-rebound",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "IT unwinds part of a four-session run",
+   "line": "TCS, HCL Tech and Infosys are the top Nifty losers on profit-booking",
+   "more": [
+    "The IT pack had rallied strongly over the previous four sessions",
+    "Business Standard also cites firm oil prices on West Asia tensions"
+   ],
+   "src": {
+    "title": "Sensex, Nifty decline in early trade as IT stocks witness profit-booking",
+    "url": "https://psuwatch.com/newsupdates/market-updates/sensex-nifty-decline-in-early-trade-as-it-stocks-witness-profit-booking"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-27",
+   "slot": "1205",
+   "when": "12:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1035"
+   }
+  },
   {
    "key": "breadth",
    "tag": "Stocks",
@@ -93,33 +175,9 @@
    "slot": "1135",
    "when": "11:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-25",
-    "slot": "1105"
-   }
-  },
-  {
-   "key": "defence-stocks",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Defence stays the top gainer",
-   "line": "Bharat Electronics is among the Sensex winners as defence shares buck the slide",
-   "more": [
-    "No specific trigger for the move has been reported",
-    "Titan, Tata Steel and Power Grid are also among the gainers"
-   ],
-   "src": {
-    "title": "Stock Market Today: Sensex, Nifty Fall; List of Top Laggards & Gainers",
-    "url": "https://www.etvbharat.com/en/business/stock-market-on-november-27-2026-bse-sensex-nse-nifty-crude-oil-prices-fii-buying-enn26112701094"
-   },
-   "date": "2026-11-27",
-   "slot": "1135",
-   "when": "11:35",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-23",
     "slot": "1105"
    }
   },
@@ -141,7 +199,7 @@
    "slot": "1135",
    "when": "11:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-27",
     "slot": "1105"
@@ -244,31 +302,6 @@
    "first_seen": {
     "date": "2026-11-21",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "it-rebound",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "IT pauses after its two-day rally",
-   "line": "TCS, HCLTech and Infosys lead the losses after Thursday's surge",
-   "more": [
-    "On Thursday HCLTech rose 6.28%, TCS 4.97% and Infosys 4.70%",
-    "Investors are also weighing firm crude prices and US tariff uncertainty"
-   ],
-   "src": {
-    "title": "Sensex slips 396 points as IT stocks pause after two-day rally",
-    "url": "https://www.theweek.in/news/biz-tech/2026/11/27/indian-shares-open-lower-friday-sensex-nifty.html"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-27",
-   "slot": "1005",
-   "when": "10:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "1035"
    }
   },
   {
