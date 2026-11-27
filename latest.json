@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-26T21:01:57+05:30",
- "date": "2026-11-26",
- "slot": "2100",
- "slot_label": "21:00",
- "stage": "Evening wrap",
- "asof": "2026-11-26T21:05:00+05:30",
+ "generated_at": "2026-11-27T07:00:53+05:30",
+ "date": "2026-11-27",
+ "slot": "0700",
+ "slot_label": "7:00",
+ "stage": "Pre-market mood",
+ "asof": "2026-11-27T07:05:00+05:30",
  "nifty": {
   "value": 25884.5,
   "pct": 0.25,
@@ -14,53 +14,121 @@
  },
  "metrics": {
   "brent_usd": {
-   "value": 95.58,
-   "asof": "2026-11-26 13:08 GMT",
+   "value": 96.0,
+   "asof": "2026-11-26, January contract",
    "approx": true,
    "src": {
-    "title": "Brent Crude Price $95.58: Three-Day Rally Into OPEC+ Sunday",
-    "url": "https://financefeeds.com/brent-crude-oil-price-95-58-thursday-three-day-rally-before-opec-plus-sunday-bull-100-bear-91/"
+    "title": "Brent Crude Tops $96 on Ras Tanura, Hormuz Tanker Risks",
+    "url": "https://financefeeds.com/brent-crude-rises-above-96-as-middle-east-conflict-threatens-global-oil-flows"
    }
   },
-  "fii_net_cr": {
-   "value": 5843,
-   "asof": "2026-11-26 provisional",
-   "approx": true,
+  "usd_inr": {
+   "value": 92.445,
+   "asof": "2026-11-26 close",
+   "approx": false,
    "src": {
-    "title": "FIIs extend India buying streak to 18 sessions with ₹5,843 crore investment",
-    "url": "https://businessupturn.com/nation/fiis-extend-india-buying-streak-to-18-sessions-with-rs5-843-crore-investment/"
-   }
-  },
-  "dii_net_cr": {
-   "value": 5631,
-   "asof": "2026-11-26 provisional",
-   "approx": true,
-   "src": {
-    "title": "FII DII Data Today: NSE/BSE Cash & F&O Activity",
-    "url": "https://www.niftytrader.in/fii-dii-data"
+    "title": "Forex news: Rupee settles 24 paise lower at 92.44 against US dollar",
+    "url": "https://www.deccanherald.com/business/markets/rupee-weakens-24-paise-to-settle-at-9244-against-us-dollar-4232087"
    }
   }
  },
  "mood": {
-  "label": "Steady into Friday",
-  "score": 0.2,
-  "summary": "Indian shares go into Friday with heavy foreign and domestic buying behind them, a firm oil price as the main drag, and no lead from Wall Street, which is shut for Thanksgiving.",
+  "label": "Flat start likely",
+  "score": 0.05,
+  "summary": "Indian shares look set for a flat to slightly soft start to Friday, with Wall Street dark for Thanksgiving, oil firm on Gulf supply risks and the rupee weaker.",
   "detail": {
-   "leaders": "IT and realty, which led Thursday's gains, with institutional buying in support",
-   "laggards": "Auto, FMCG and consumer durables, sold on Thursday; oil-sensitive names if crude keeps rising",
-   "tone": "A forward-looking read for Friday, slightly firmer than the previous note now that Thursday's flow data shows both foreign and domestic funds buying. US markets did not trade tonight, so there is no live Wall Street lead.",
+   "leaders": "IT and realty, which led the last two sessions",
+   "laggards": "Oil-sensitive names such as paints and airlines if crude stays firm",
+   "tone": "A forward-looking read for Friday's open, a touch more cautious than the previous note: GIFT Nifty is pointing to a flat-to-soft start and there is no overnight US lead.",
    "watch": [
-    "Brent into the OPEC+ meeting on Sunday 29 November",
-    "Whether foreign buying continues on Friday",
-    "Wall Street's shortened Friday session"
+    "Brent ahead of the OPEC+ meeting on Sunday 29 November",
+    "Whether foreign funds keep buying after two strong days",
+    "Any movement toward a US-India trade deal"
    ],
    "src": {
-    "title": "FIIs extend India buying streak to 18 sessions with ₹5,843 crore investment",
-    "url": "https://businessupturn.com/nation/fiis-extend-india-buying-streak-to-18-sessions-with-rs5-843-crore-investment/"
+    "title": "GIFT Nifty Live Today: SGX Nifty Index & Market Open Signal",
+    "url": "https://www.kotakneo.com/indices/global-indices/gift-nifty/"
    }
   }
  },
  "insights": [
+  {
+   "key": "crude-iran-war",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent's January contract near $96",
+   "line": "The expiring contract trades $4.70 above February as Gulf supply risks build",
+   "more": [
+    "The January Brent contract stops trading on Monday",
+    "Brent is still about 19% below its 30 October close of $117.64",
+    "OPEC+ meets on Sunday 29 November to discuss 2027 output"
+   ],
+   "src": {
+    "title": "Brent Crude Tops $96 on Ras Tanura, Hormuz Tanker Risks",
+    "url": "https://financefeeds.com/brent-crude-rises-above-96-as-middle-east-conflict-threatens-global-oil-flows"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-27",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Rupee slips 24 paise to 92.44",
+   "line": "Higher oil prices and US tariff worries weighed on the currency on Thursday",
+   "more": [
+    "It traded between 92.33 and 92.65 during the day",
+    "The provisional close was 92.44 against the dollar"
+   ],
+   "src": {
+    "title": "Forex news: Rupee settles 24 paise lower at 92.44 against US dollar",
+    "url": "https://www.deccanherald.com/business/markets/rupee-weakens-24-paise-to-settle-at-9244-against-us-dollar-4232087"
+   },
+   "thread": "rupee",
+   "date": "2026-11-27",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "us-tariffs",
+   "tag": "Policy",
+   "impact": "watch",
+   "title": "India weighs the US 17% offer",
+   "line": "Analysts call the plan coercive; some expect India to move toward a deal before the G20",
+   "more": [
+    "USTR proposed 17% with a trade pact, up to 25% without one",
+    "India's Commerce Ministry said it had engaged constructively",
+    "The 17% rate is below those proposed for Vietnam, Malaysia and Bangladesh"
+   ],
+   "src": {
+    "title": "US tariff plan raises stakes for India to clinch trade deal",
+    "url": "https://thehansindia.com/news/international/us-tariff-plan-raises-stakes-for-india-to-clinch-trade-deal-1146169"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-27",
+   "slot": "0700",
+   "when": "7:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-25",
+    "slot": "0700"
+   }
+  },
   {
    "key": "fii-flows",
    "tag": "Flows",
@@ -79,38 +147,12 @@
    "thread": "fii-flows",
    "date": "2026-11-26",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Thu · 21:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
-    "date": "2026-11-20",
-    "slot": "0845"
-   }
-  },
-  {
-   "key": "crude-iran-war",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent heads for a third straight gain",
-   "line": "Brent was near $95.58 at 13:08 GMT, up about 1% from Wednesday's $94.61 settle",
-   "more": [
-    "At least two tankers struck mines in the Strait of Hormuz, one report says",
-    "The Houthi claim on Ras Tanura has not been independently confirmed",
-    "OPEC+ meets on Sunday 29 November"
-   ],
-   "src": {
-    "title": "Brent Crude Price $95.58: Three-Day Rally Into OPEC+ Sunday",
-    "url": "https://financefeeds.com/brent-crude-oil-price-95-58-thursday-three-day-rally-before-opec-plus-sunday-bull-100-bear-91/"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-26",
-   "slot": "2100",
-   "when": "21:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "2100"
+    "date": "2026-11-21",
+    "slot": "0800"
    }
   },
   {
@@ -137,9 +179,9 @@
    },
    "date": "2026-11-26",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Thu · 21:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "0845"
@@ -162,7 +204,7 @@
    "thread": "crude-iran-war",
    "date": "2026-11-26",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Thu · 18:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -187,12 +229,12 @@
    "thread": "global-markets",
    "date": "2026-11-26",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Thu · 18:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-20",
-    "slot": "0700"
+    "date": "2026-11-21",
+    "slot": "0800"
    }
   },
   {
@@ -212,7 +254,7 @@
    "thread": "it-sector",
    "date": "2026-11-26",
    "slot": "1635",
-   "when": "16:35",
+   "when": "Thu · 16:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -236,7 +278,7 @@
    },
    "date": "2026-11-26",
    "slot": "1635",
-   "when": "16:35",
+   "when": "Thu · 16:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -260,7 +302,7 @@
    },
    "date": "2026-11-26",
    "slot": "1635",
-   "when": "16:35",
+   "when": "Thu · 16:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -284,7 +326,7 @@
    },
    "date": "2026-11-26",
    "slot": "1605",
-   "when": "16:05",
+   "when": "Thu · 16:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -308,7 +350,7 @@
    },
    "date": "2026-11-26",
    "slot": "1535",
-   "when": "15:35",
+   "when": "Thu · 15:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -332,7 +374,7 @@
    },
    "date": "2026-11-26",
    "slot": "1535",
-   "when": "15:35",
+   "when": "Thu · 15:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -356,38 +398,12 @@
    },
    "date": "2026-11-26",
    "slot": "1505",
-   "when": "15:05",
+   "when": "Thu · 15:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1105"
-   }
-  },
-  {
-   "key": "us-tariffs",
-   "tag": "Policy",
-   "impact": "watch",
-   "title": "India rejects US excess-capacity charge",
-   "line": "India seeks an early trade deal; a minister calls the 17% rate an excellent outcome",
-   "more": [
-    "The Commerce Secretary says first-tranche talks are close to done",
-    "Signing depends on the US finalising its new tariff framework",
-    "The US offers 17% with a deal, 25% without"
-   ],
-   "src": {
-    "title": "India rejects US allegation of excess manufacturing capacity, seeks early conclusion of bilateral trade deal",
-    "url": "https://www.deccanherald.com/india/india-rejects-us-allegation-of-excess-manufacturing-capacity-seeks-early-conclusion-of-bilateral-trade-deal-4231438"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-26",
-   "slot": "1435",
-   "when": "14:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-25",
-    "slot": "0700"
    }
   },
   {
@@ -407,7 +423,7 @@
    "thread": "global-markets",
    "date": "2026-11-26",
    "slot": "1435",
-   "when": "14:35",
+   "when": "Thu · 14:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -431,7 +447,7 @@
    },
    "date": "2026-11-26",
    "slot": "1435",
-   "when": "14:35",
+   "when": "Thu · 14:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -455,7 +471,7 @@
    },
    "date": "2026-11-26",
    "slot": "1405",
-   "when": "14:05",
+   "when": "Thu · 14:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -480,7 +496,7 @@
    },
    "date": "2026-11-26",
    "slot": "1335",
-   "when": "13:35",
+   "when": "Thu · 13:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -504,12 +520,12 @@
    },
    "date": "2026-11-26",
    "slot": "1335",
-   "when": "13:35",
-   "updated": true,
+   "when": "Thu · 13:35",
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-20",
-    "slot": "1035"
+    "date": "2026-11-26",
+    "slot": "1335"
    }
   },
   {
@@ -528,7 +544,7 @@
    },
    "date": "2026-11-26",
    "slot": "1335",
-   "when": "13:35",
+   "when": "Thu · 13:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -552,7 +568,7 @@
    },
    "date": "2026-11-26",
    "slot": "1305",
-   "when": "13:05",
+   "when": "Thu · 13:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -576,7 +592,7 @@
    },
    "date": "2026-11-26",
    "slot": "1305",
-   "when": "13:05",
+   "when": "Thu · 13:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -600,7 +616,7 @@
    },
    "date": "2026-11-26",
    "slot": "1235",
-   "when": "12:35",
+   "when": "Thu · 12:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -624,7 +640,7 @@
    },
    "date": "2026-11-26",
    "slot": "1135",
-   "when": "11:35",
+   "when": "Thu · 11:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -649,7 +665,7 @@
    "thread": "it-sector",
    "date": "2026-11-26",
    "slot": "1135",
-   "when": "11:35",
+   "when": "Thu · 11:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -673,7 +689,7 @@
    },
    "date": "2026-11-26",
    "slot": "1105",
-   "when": "11:05",
+   "when": "Thu · 11:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -697,7 +713,7 @@
    },
    "date": "2026-11-26",
    "slot": "1035",
-   "when": "10:35",
+   "when": "Thu · 10:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -721,12 +737,12 @@
    },
    "date": "2026-11-26",
    "slot": "0925",
-   "when": "9:25",
+   "when": "Thu · 9:25",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-20",
-    "slot": "0700"
+    "date": "2026-11-23",
+    "slot": "0845"
    }
   },
   {
@@ -745,7 +761,7 @@
    },
    "date": "2026-11-26",
    "slot": "0925",
-   "when": "9:25",
+   "when": "Thu · 9:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -769,7 +785,7 @@
    },
    "date": "2026-11-26",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Thu · 8:45",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -795,7 +811,7 @@
    "thread": "global-markets",
    "date": "2026-11-26",
    "slot": "0700",
-   "when": "7:00",
+   "when": "Thu · 7:00",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -825,8 +841,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-20",
-    "slot": "0700"
+    "date": "2026-11-25",
+    "slot": "1800"
    }
   },
   {
@@ -873,8 +889,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-20",
-    "slot": "0925"
+    "date": "2026-11-23",
+    "slot": "1035"
    }
   },
   {
@@ -921,8 +937,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-20",
-    "slot": "1035"
+    "date": "2026-11-25",
+    "slot": "1105"
    }
   },
   {
@@ -1014,11 +1030,11 @@
    "date": "2026-11-25",
    "slot": "1305",
    "when": "Wed · 13:05",
-   "updated": true,
+   "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-20",
-    "slot": "1135"
+    "date": "2026-11-25",
+    "slot": "1305"
    }
   },
   {
@@ -1068,31 +1084,6 @@
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1235"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "pos",
-   "title": "Firmer rupee adds support",
-   "line": "Rupee appreciation is among the factors behind the rally, per Business Standard",
-   "more": [
-    "No same-day rupee level was found this run",
-    "The rupee had slipped back past 93 per dollar on Monday"
-   ],
-   "src": {
-    "title": "Bulls return to D-St! Sensex zooms 1,900 points intraday; key factors here",
-    "url": "https://www.business-standard.com/markets/news/bulls-return-to-d-st-sensex-zooms-1-500-points-intraday-key-factors-here-126112500139_1.html"
-   },
-   "thread": "rupee",
-   "date": "2026-11-25",
-   "slot": "1205",
-   "when": "Wed · 12:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "1800"
    }
   },
   {
@@ -1335,8 +1326,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-20",
-    "slot": "1205"
+    "date": "2026-11-22",
+    "slot": "0800"
    }
   },
   {
@@ -1407,8 +1398,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-20",
-    "slot": "0845"
+    "date": "2026-11-21",
+    "slot": "0800"
    }
   },
   {
@@ -1525,325 +1516,11 @@
    "date": "2026-11-21",
    "slot": "0800",
    "when": "Sat · 8:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "0925"
-   }
-  },
-  {
-   "key": "anthropic-ipo",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "AI sell-off runs into a second day",
-   "line": "Tech slides again after Anthropic's debut failed to lift AI stocks",
-   "more": [
-    "Anthropic opened more than 34% above its $83 offer price",
-    "Shares now falling with the rest of tech"
-   ],
-   "src": {
-    "title": "Stock Market Today: Anthropic's Mega-IPO Sends Stocks Lower for a Second Day",
-    "url": "https://247wallst.com/investing/2026/11/20/stock-market-today-anthropics-mega-ipo-sends-stocks-lower-for-a-second-day/"
-   },
-   "date": "2026-11-20",
-   "slot": "2100",
-   "when": "Fri · 21:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "0700"
-   }
-  },
-  {
-   "key": "weekly-gain",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Benchmarks log a fourth straight weekly gain",
-   "line": "Already up for the week before Friday, the indices added more to close the week higher",
-   "more": [
-    "Both indices were already higher for the week before Friday",
-    "Banks set three record highs during the week"
-   ],
-   "src": {
-    "title": "Sensex, Nifty do a seesaw on Friday morning: BSE benchmark index crashes 600+ points at open but regains all it",
-    "url": "https://www.theweek.in/news/biz-tech/2026/11/20/indian-shares-recover-volatility.html"
-   },
-   "date": "2026-11-20",
-   "slot": "1635",
-   "when": "Fri · 16:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-20",
-    "slot": "1635"
-   }
-  },
-  {
-   "key": "opening-bell",
-   "tag": "Opening",
-   "impact": "pos",
-   "title": "Market recovers a sharp opening drop",
-   "line": "Benchmarks slumped at the open on the global AI sell-off, then regained it all",
-   "more": [
-    "Recovery led by banks, IT and hospital stocks",
-    "Foreign inflows cited as support"
-   ],
-   "src": {
-    "title": "Sensex, Nifty do a seesaw on Friday morning: BSE benchmark index crashes 600+ points at open but regains all it",
-    "url": "https://www.theweek.in/news/biz-tech/2026/11/20/indian-shares-recover-volatility.html"
-   },
-   "date": "2026-11-20",
-   "slot": "1635",
-   "when": "Fri · 16:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "0925"
-   }
-  },
-  {
-   "key": "nifty-10-month-high",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Nifty hits a 10-month high",
-   "line": "Benchmarks reversed a gap-down open to trade firmly higher by mid-session",
-   "more": [
-    "Sensex up for a second straight day",
-    "Bank shares led the rally"
-   ],
-   "src": {
-    "title": "Nifty hits 10-month high at midday; Apollo Hospitals, Axis Bank lead rally",
-    "url": "https://www.tradingview.com/news/moodys:e348d9c8921a9:0-nifty-hits-10-month-high-at-midday-apollo-hospitals-axis-bank-lead-rally/"
-   },
-   "date": "2026-11-20",
-   "slot": "1535",
-   "when": "Fri · 15:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "1535"
-   }
-  },
-  {
-   "key": "it-rally",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "IT remains the top-performing sector",
-   "line": "Indian IT continues to outperform despite the global AI-led tech sell-off",
-   "more": [
-    "Banks and IT the two main pillars of the rally",
-    "Gains have held through the afternoon"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex jumps 700 pts, Nifty above 25,700; Meesho hits new high",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-20",
-   "slot": "1405",
-   "when": "Fri · 14:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "1035"
-   }
-  },
-  {
-   "key": "meesho",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Meesho hits a fresh record high",
-   "line": "New high around ₹262–263; MSCI index inclusion takes effect 30 November",
-   "more": [
-    "Reports differ on the exact high: ₹261.90 or ₹263.35",
-    "MSCI confirmed its inclusion in the Global Standard Index this month",
-    "No specific trigger reported for today's move"
-   ],
-   "src": {
-    "title": "Broad-Based Technical Strength Lifts Meesho Ltd to 52-Week High of Rs 263.35",
-    "url": "https://www.marketsmojo.com/news/stocks-in-action/meesho-ltd-hits-new-52-week-high-at-rs26335-marking-significant-milestone-4269447"
-   },
-   "date": "2026-11-20",
-   "slot": "1335",
-   "when": "Fri · 13:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "1335"
-   }
-  },
-  {
-   "key": "dilip-buildcon-order",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Dilip Buildcon wins ₹419 cr metro order",
-   "line": "Depot-cum-workshop contract from Gurugram Metro Rail",
-   "more": [
-    "Order worth ₹419.47 crore",
-    "Stock little changed on the news"
-   ],
-   "src": {
-    "title": "Stocks to Watch Today, November 20, 2026: Bondada Engineering, Ashoka Buildcon, Park Medi World, Coal India and Dilip Buildcon",
-    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-november-20-2026-bondada-engineering-ashoka/56683890"
-   },
-   "date": "2026-11-20",
-   "slot": "1335",
-   "when": "Fri · 13:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "1335"
-   }
-  },
-  {
-   "key": "ireda-rally",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "IREDA up over 30% in November",
-   "line": "Loan disbursements rose 31% to ₹10,579 cr in Q2 FY27; no single trigger",
-   "more": [
-    "Touched ₹133.60 intraday on 19 November",
-    "Upstox says no single announcement explains the surge"
-   ],
-   "src": {
-    "title": "IREDA shares rally 25% in a month: What's driving the PSU stock's sharp rebound?",
-    "url": "https://upstox.com/news/market-news/stocks/ireda-shares-rally-25-in-a-month-what-s-driving-the-psu-stock-s-sharp-rebound/article-203745/"
-   },
-   "date": "2026-11-20",
-   "slot": "1135",
-   "when": "Fri · 11:35",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "1135"
-   }
-  },
-  {
-   "key": "ashoka-buildcon-saudi",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Ashoka Buildcon loses ₹846 cr Saudi project",
-   "line": "Client Diriyah Company cancelled the project; stock down about 1.7%",
-   "more": [
-    "Cancellation came despite fresh NHAI orders",
-    "Project value ₹846.38 crore"
-   ],
-   "src": {
-    "title": "Stocks to Watch Today, November 20, 2026: Bondada Engineering, Ashoka Buildcon, Park Medi World, Coal India and Dilip Buildcon",
-    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-november-20-2026-bondada-engineering-ashoka/56683890"
-   },
-   "date": "2026-11-20",
-   "slot": "1005",
-   "when": "Fri · 10:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "1005"
-   }
-  },
-  {
-   "key": "coal-india-magnets",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Coal India L2 bidder for magnet plant",
-   "line": "Second-lowest bidder for a 1,200-tonne rare-earth permanent magnet facility",
-   "more": [
-    "Plant would make sintered rare-earth magnets",
-    "Mahanadi Coalfields IPO also under way"
-   ],
-   "src": {
-    "title": "Stocks to Watch Today: Coal India, Paytm, JK Cement",
-    "url": "https://hdfcsky.com/news/stocks-to-watch-today-friday-november-20-2026-ashoka-buildcon-coal-india-hexaware-technologies-jk-cement-paytm"
-   },
-   "date": "2026-11-20",
-   "slot": "1005",
-   "when": "Fri · 10:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "1005"
-   }
-  },
-  {
-   "key": "paytm-funding-societies",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Paytm to invest up to ₹200 cr in partner",
-   "line": "Paytm Singapore to invest in subsidiaries of Funding Societies",
-   "more": [
-    "Disclosed in a regulatory filing",
-    "Part of a partnership agreement"
-   ],
-   "src": {
-    "title": "Stocks to watch, Nov 20: NLC India, Ashoka Buildcon, Paytm, NHPC, Dilip Buildcon, Coal India, Urban Company",
-    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-20-nlc-india-ashoka-buildcon-paytm-nhpc-dilip-buildcon-coal-india-urban-company/article-203739/"
-   },
-   "date": "2026-11-20",
-   "slot": "1005",
-   "when": "Fri · 10:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "1005"
-   }
-  },
-  {
-   "key": "jk-cement-renewables",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "JK Cement buys stake in renewable SPV",
-   "line": "27.03% stake for ₹5.14 crore to supply captive power to its Muddapur plant",
-   "more": [
-    "Investment of ₹5.14 crore in the SPV",
-    "Disclosed ahead of Friday's session"
-   ],
-   "src": {
-    "title": "Stocks to Watch Today: Coal India, Paytm, JK Cement",
-    "url": "https://hdfcsky.com/news/stocks-to-watch-today-friday-november-20-2026-ashoka-buildcon-coal-india-hexaware-technologies-jk-cement-paytm"
-   },
-   "date": "2026-11-20",
-   "slot": "1005",
-   "when": "Fri · 10:05",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "1005"
-   }
-  },
-  {
-   "key": "asia-markets",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Nikkei and Kospi slide over 4%",
-   "line": "Asian markets fall on worries over the AI trade",
-   "more": [
-    "Nikkei down 4.47% and Kospi down 4.45% in early trade",
-    "Chip stocks hit after AMD fell 9.2% overnight"
-   ],
-   "src": {
-    "title": "Pre-Market Report 20 November 2026: AI Rout Hits GIFT Nifty",
-    "url": "https://www.marketcalls.in/futures-and-options/pre-market-report-20-november-2026.html"
-   },
-   "date": "2026-11-20",
-   "slot": "0845",
-   "when": "Fri · 8:45",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-20",
-    "slot": "0700"
+    "date": "2026-11-21",
+    "slot": "0800"
    }
   }
  ]
