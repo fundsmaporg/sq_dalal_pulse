@@ -1,0 +1,183 @@
+{
+ "asof": "2026-11-27T16:40:00+05:30",
+ "summary": "Indian shares closed the week sharply lower, near the day's lows, as IT and banks sold off and a weaker rupee and costlier oil soured sentiment; only a few sectors such as metals ended higher.",
+ "mood": {
+  "label": "Risk-off close",
+  "score": -0.55,
+  "detail": {
+   "stats": [],
+   "leaders": "Metals, chemicals and consumer durables; Solar Industries",
+   "laggards": "IT, led by TCS; banks, led by HDFC Bank",
+   "movers": {
+    "up": {
+     "summary": "Metals and a handful of sectors closed higher against the slide",
+     "why": "Metals extended their commodity-led rebound, while chemicals, durables and media also bucked the trend.",
+     "names": [
+      {
+       "name": "Nifty Metal",
+       "dir": "up",
+       "line": "The standout sector as the metal pack outshone the market"
+      },
+      {
+       "name": "Nifty Chemicals",
+       "dir": "up",
+       "line": "One of the few sectoral indices to close in positive territory"
+      },
+      {
+       "name": "Solar Industries",
+       "move": "+6.38%",
+       "dir": "up",
+       "line": "Its unit completed trials of the Bhargavastra counter-drone system"
+      }
+     ],
+     "src": {
+      "title": "Sensex tanks nearly 1,000 points, Nifty slips below 25,650 as geopolitical tensions, rising oil prices weigh",
+      "url": "https://www.tribuneindia.com/news/bse/sensex-tanks-nearly-1000-points-nifty-slips-below-25650-as-geopolitical-tensions-rising-oil-prices-weigh"
+     }
+    },
+    "down": {
+     "summary": "Heavyweight IT and bank stocks led the day's losses",
+     "why": "Profit-taking after a two-day rally met rising crude and a sliding rupee.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "down",
+       "line": "Among the weakest sectors as the four-session IT rally was unwound"
+      },
+      {
+       "name": "TCS",
+       "dir": "down",
+       "line": "Among the top Nifty losers on profit-booking"
+      },
+      {
+       "name": "HDFC Bank",
+       "dir": "down",
+       "line": "A key drag as selling spread to heavyweight banks"
+      }
+     ],
+     "src": {
+      "title": "Sensex falls over 900 points, Nifty slips below 25,650 as IT and banking stocks drag markets",
+      "url": "https://dailypioneer.com/business/sensex-falls-900-points-nifty-stock-market-november-27-2026"
+     }
+    }
+   },
+   "tone": "A read of the finished session, more risk-off than the previous note now that the rupee's sharp late slide is known.",
+   "watch": [
+    "Provisional FII and DII figures for Friday, still awaited",
+    "OPEC+ meeting on Sunday and Brent's response",
+    "RBI policy decision on 4 December"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex tanks 990 pts, Nifty below 25,607 as Brent tops $97; metal pack outshines",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25607.2,
+  "pct": -1.07,
+  "chg": -277.3,
+  "approx": false
+ },
+ "metrics": {
+  "usd_inr": {
+   "value": 92.98,
+   "asof": "2026-11-27 close (provisional)",
+   "approx": false,
+   "src": {
+    "title": "Strong dollar, rising crude prices drag rupee down to 92.98",
+    "url": "https://telanganatoday.com/strong-dollar-rising-crude-prices-drag-rupee-down-to-92-98"
+   }
+  },
+  "brent_usd": {
+   "value": 97.19,
+   "asof": "2026-11-27",
+   "approx": false,
+   "src": {
+    "title": "Strong dollar, rising crude prices drag rupee down to 92.98",
+    "url": "https://telanganatoday.com/strong-dollar-rising-crude-prices-drag-rupee-down-to-92-98"
+   }
+  }
+ },
+ "top": [
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "neg",
+   "thread": "rupee",
+   "title": "Rupee slumps 60 paise to 92.98",
+   "line": "Crude, a firmer dollar and the equity sell-off pushed the rupee lower",
+   "more": [
+    "It touched a low of 93.01 after opening at 92.44",
+    "Reports differ on Thursday's close: 92.38 or 92.44",
+    "It is still about 5% above its record low close of 96.88 on 8 October"
+   ],
+   "src": {
+    "title": "Strong dollar, rising crude prices drag rupee down to 92.98",
+    "url": "https://telanganatoday.com/strong-dollar-rising-crude-prices-drag-rupee-down-to-92-98"
+   }
+  },
+  {
+   "key": "crude-iran-war",
+   "tag": "Global",
+   "impact": "neg",
+   "thread": "crude-iran-war",
+   "title": "Brent at $97.19 after Houthi attack",
+   "line": "Oil rose on reports of vessels targeted in the Strait of Hormuz",
+   "more": [
+    "Analysts say costlier oil can lift inflation and widen the import bill",
+    "OPEC+ meets on Sunday 29 November"
+   ],
+   "src": {
+    "title": "Rupee nosedives 60 paise to settle at 92.98 against US dollar",
+    "url": "https://thesentimes.com/rupee-nosedives-60-paise-to-settle-at-92-98-against-us-dollar/"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "watch",
+   "thread": "fii-flows",
+   "title": "Friday's FII figures still awaited",
+   "line": "FIIs bought ₹5,843 crore on Thursday; Friday's provisional data is not yet out",
+   "more": [
+    "DIIs bought ₹5,631 crore on Thursday",
+    "One tracker shows FIIs net buyers in November through the 26th"
+   ],
+   "src": {
+    "title": "FII DII data monthly: net flow, last 12 months — DalalOS",
+    "url": "https://dalalos.in/fii-dii/monthly"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Strong dollar, rising crude prices drag rupee down to 92.98",
+   "url": "https://telanganatoday.com/strong-dollar-rising-crude-prices-drag-rupee-down-to-92-98"
+  },
+  {
+   "title": "Rupee nosedives 60 paise to settle at 92.98 against US dollar",
+   "url": "https://thesentimes.com/rupee-nosedives-60-paise-to-settle-at-92-98-against-us-dollar/"
+  },
+  {
+   "title": "Rupee falls 60 paise to 92.98 against US dollar",
+   "url": "https://www.newsbytesapp.com/news/business/rupee-falls-60-paise-to-9298-against-us-dollar/tldr"
+  },
+  {
+   "title": "Stock Market Close: Sensex tanks 990 pts, Nifty below 25,607 as Brent tops $97; metal pack outshines",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+  },
+  {
+   "title": "Sensex tanks nearly 1,000 points, Nifty slips below 25,650 as geopolitical tensions, rising oil prices weigh",
+   "url": "https://www.tribuneindia.com/news/bse/sensex-tanks-nearly-1000-points-nifty-slips-below-25650-as-geopolitical-tensions-rising-oil-prices-weigh"
+  },
+  {
+   "title": "Sensex falls over 900 points, Nifty slips below 25,650 as IT and banking stocks drag markets",
+   "url": "https://dailypioneer.com/business/sensex-falls-900-points-nifty-stock-market-november-27-2026"
+  },
+  {
+   "title": "FII DII data monthly: net flow, last 12 months — DalalOS",
+   "url": "https://dalalos.in/fii-dii/monthly"
+  }
+ ]
+}

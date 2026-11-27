@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-27T16:06:47+05:30",
+ "generated_at": "2026-11-27T16:36:58+05:30",
  "date": "2026-11-27",
- "slot": "1605",
- "slot_label": "16:05",
+ "slot": "1635",
+ "slot_label": "16:35",
  "stage": "Post-market mood",
- "asof": "2026-11-27T16:09:00+05:30",
+ "asof": "2026-11-27T16:40:00+05:30",
  "nifty": {
   "value": 25607.2,
   "pct": -1.07,
@@ -14,25 +14,34 @@
  },
  "metrics": {
   "brent_usd": {
-   "value": 97,
-   "asof": "2026-11-27 afternoon",
-   "approx": true,
+   "value": 97.19,
+   "asof": "2026-11-27",
+   "approx": false,
    "src": {
-    "title": "Sensex tanks nearly 1,000 points, Nifty slips below 25,650 as geopolitical tensions, rising oil prices weigh",
-    "url": "https://www.tribuneindia.com/news/bse/sensex-tanks-nearly-1000-points-nifty-slips-below-25650-as-geopolitical-tensions-rising-oil-prices-weigh"
+    "title": "Strong dollar, rising crude prices drag rupee down to 92.98",
+    "url": "https://telanganatoday.com/strong-dollar-rising-crude-prices-drag-rupee-down-to-92-98"
+   }
+  },
+  "usd_inr": {
+   "value": 92.98,
+   "asof": "2026-11-27 close (provisional)",
+   "approx": false,
+   "src": {
+    "title": "Strong dollar, rising crude prices drag rupee down to 92.98",
+    "url": "https://telanganatoday.com/strong-dollar-rising-crude-prices-drag-rupee-down-to-92-98"
    }
   }
  },
  "mood": {
-  "label": "Sharp pullback",
-  "score": -0.5,
-  "summary": "Indian shares ended the week on a weak note, closing near the day's lows as IT and banks sold off on profit-taking and rising oil, with only a few sectors such as metals finishing higher.",
+  "label": "Risk-off close",
+  "score": -0.55,
+  "summary": "Indian shares closed the week sharply lower, near the day's lows, as IT and banks sold off and a weaker rupee and costlier oil soured sentiment; only a few sectors such as metals ended higher.",
   "detail": {
    "leaders": "Metals, chemicals and consumer durables; Solar Industries",
    "laggards": "IT, led by TCS; banks, led by HDFC Bank",
-   "tone": "A read of the finished session: the market slid steadily from a soft open and closed near the low, snapping a two-day winning run.",
+   "tone": "A read of the finished session, more risk-off than the previous note now that the rupee's sharp late slide is known.",
    "watch": [
-    "Provisional FII and DII figures for Friday",
+    "Provisional FII and DII figures for Friday, still awaited",
     "OPEC+ meeting on Sunday and Brent's response",
     "RBI policy decision on 4 December"
    ],
@@ -69,7 +78,7 @@
     },
     "down": {
      "summary": "Heavyweight IT and bank stocks led the day's losses",
-     "why": "Investors booked profits after a two-day rally, and rising crude and Middle East tensions added pressure.",
+     "why": "Profit-taking after a two-day rally met rising crude and a sliding rupee.",
      "names": [
       {
        "name": "Nifty IT",
@@ -97,28 +106,79 @@
  },
  "insights": [
   {
-   "key": "crude-iran-war",
-   "tag": "Global",
+   "key": "rupee",
+   "tag": "Macro",
    "impact": "neg",
-   "title": "Brent near $97 stokes inflation worries",
-   "line": "An analyst warns costlier oil can lift inflation, widen the import bill and hit margins",
+   "title": "Rupee slumps 60 paise to 92.98",
+   "line": "Crude, a firmer dollar and the equity sell-off pushed the rupee lower",
    "more": [
-    "Geopolitical tensions in the Middle East weighed on sentiment",
-    "OPEC+ meets on Sunday 29 November to discuss 2027 output"
+    "It touched a low of 93.01 after opening at 92.44",
+    "Reports differ on Thursday's close: 92.38 or 92.44",
+    "It is still about 5% above its record low close of 96.88 on 8 October"
    ],
    "src": {
-    "title": "Sensex tanks nearly 1,000 points, Nifty slips below 25,650 as geopolitical tensions, rising oil prices weigh",
-    "url": "https://www.tribuneindia.com/news/bse/sensex-tanks-nearly-1000-points-nifty-slips-below-25650-as-geopolitical-tensions-rising-oil-prices-weigh"
+    "title": "Strong dollar, rising crude prices drag rupee down to 92.98",
+    "url": "https://telanganatoday.com/strong-dollar-rising-crude-prices-drag-rupee-down-to-92-98"
    },
-   "thread": "crude-iran-war",
+   "thread": "rupee",
    "date": "2026-11-27",
-   "slot": "1605",
-   "when": "16:05",
+   "slot": "1635",
+   "when": "16:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-21",
     "slot": "1400"
+   }
+  },
+  {
+   "key": "crude-iran-war",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Brent at $97.19 after Houthi attack",
+   "line": "Oil rose on reports of vessels targeted in the Strait of Hormuz",
+   "more": [
+    "Analysts say costlier oil can lift inflation and widen the import bill",
+    "OPEC+ meets on Sunday 29 November"
+   ],
+   "src": {
+    "title": "Rupee nosedives 60 paise to settle at 92.98 against US dollar",
+    "url": "https://thesentimes.com/rupee-nosedives-60-paise-to-settle-at-92-98-against-us-dollar/"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-27",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "watch",
+   "title": "Friday's FII figures still awaited",
+   "line": "FIIs bought ₹5,843 crore on Thursday; Friday's provisional data is not yet out",
+   "more": [
+    "DIIs bought ₹5,631 crore on Thursday",
+    "One tracker shows FIIs net buyers in November through the 26th"
+   ],
+   "src": {
+    "title": "FII DII data monthly: net flow, last 12 months — DalalOS",
+    "url": "https://dalalos.in/fii-dii/monthly"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-27",
+   "slot": "1635",
+   "when": "16:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "0800"
    }
   },
   {
@@ -139,7 +199,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-27",
     "slot": "1105"
@@ -163,7 +223,7 @@
    "slot": "1605",
    "when": "16:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1105"
@@ -441,31 +501,6 @@
    }
   },
   {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Rupee weakens to about 92.50",
-   "line": "The rupee slipped further against the dollar in morning trade",
-   "more": [
-    "It closed at 92.44 on Thursday, down 24 paise",
-    "Brent eased to about $96 in morning trade"
-   ],
-   "src": {
-    "title": "Sensex, Nifty Trade Lower as IT Drags; Metals Outperform",
-    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
-   },
-   "thread": "rupee",
-   "date": "2026-11-27",
-   "slot": "1035",
-   "when": "10:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "1400"
-   }
-  },
-  {
    "key": "zydus-crl",
    "tag": "Regulation",
    "impact": "neg",
@@ -556,32 +591,6 @@
    "date": "2026-11-27",
    "slot": "0925",
    "when": "9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs bought ₹5,843 cr on Thursday",
-   "line": "DIIs added ₹5,631 crore, a second straight day of heavy buying by both",
-   "more": [
-    "Provisional figures: FII +₹5,843.33 cr, DII +₹5,630.72 cr",
-    "Niftytrader puts the FII cash buying streak at 12 days",
-    "FIIs still hold a net short of 88,469 index-futures contracts"
-   ],
-   "src": {
-    "title": "FII & DII Data: Live FII & DII Trading Activity Daily, Monthly & Yearly",
-    "url": "https://groww.in/fii-dii-data"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-27",
-   "slot": "0845",
-   "when": "8:45",
    "updated": true,
    "is_new": false,
    "first_seen": {
