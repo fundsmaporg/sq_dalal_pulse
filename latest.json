@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-27T07:00:53+05:30",
+ "generated_at": "2026-11-27T08:46:40+05:30",
  "date": "2026-11-27",
- "slot": "0700",
- "slot_label": "7:00",
+ "slot": "0845",
+ "slot_label": "8:45",
  "stage": "Pre-market mood",
- "asof": "2026-11-27T07:05:00+05:30",
+ "asof": "2026-11-27T08:50:00+05:30",
  "nifty": {
   "value": 25884.5,
   "pct": 0.25,
@@ -13,45 +13,170 @@
   "approx": false
  },
  "metrics": {
-  "brent_usd": {
-   "value": 96.0,
-   "asof": "2026-11-26, January contract",
-   "approx": true,
-   "src": {
-    "title": "Brent Crude Tops $96 on Ras Tanura, Hormuz Tanker Risks",
-    "url": "https://financefeeds.com/brent-crude-rises-above-96-as-middle-east-conflict-threatens-global-oil-flows"
-   }
-  },
-  "usd_inr": {
-   "value": 92.445,
-   "asof": "2026-11-26 close",
+  "fii_net_cr": {
+   "value": 5843.33,
+   "asof": "2026-11-26 provisional",
    "approx": false,
    "src": {
-    "title": "Forex news: Rupee settles 24 paise lower at 92.44 against US dollar",
-    "url": "https://www.deccanherald.com/business/markets/rupee-weakens-24-paise-to-settle-at-9244-against-us-dollar-4232087"
+    "title": "FII & DII Data: Live FII & DII Trading Activity Daily, Monthly & Yearly",
+    "url": "https://groww.in/fii-dii-data"
+   }
+  },
+  "dii_net_cr": {
+   "value": 5630.72,
+   "asof": "2026-11-26 provisional",
+   "approx": false,
+   "src": {
+    "title": "FII & DII Data: Live FII & DII Trading Activity Daily, Monthly & Yearly",
+    "url": "https://groww.in/fii-dii-data"
    }
   }
  },
  "mood": {
-  "label": "Flat start likely",
-  "score": 0.05,
-  "summary": "Indian shares look set for a flat to slightly soft start to Friday, with Wall Street dark for Thanksgiving, oil firm on Gulf supply risks and the rupee weaker.",
+  "label": "Soft start likely",
+  "score": 0.0,
+  "summary": "Indian shares look set for a slightly soft open on Friday despite heavy institutional buying, with Asian tech shares firmer but no overnight lead from a holiday-shut Wall Street.",
   "detail": {
-   "leaders": "IT and realty, which led the last two sessions",
-   "laggards": "Oil-sensitive names such as paints and airlines if crude stays firm",
-   "tone": "A forward-looking read for Friday's open, a touch more cautious than the previous note: GIFT Nifty is pointing to a flat-to-soft start and there is no overnight US lead.",
+   "leaders": "IT and realty, which led the last two sessions; Asian tech shares are firmer",
+   "laggards": "Zydus Lifesciences after a US FDA letter; oil-sensitive names while crude stays firm",
+   "tone": "A forward-looking read for the open, a shade softer than the previous note as GIFT Nifty points lower. Strong buying by both foreign and domestic funds on Thursday is the main cushion.",
    "watch": [
-    "Brent ahead of the OPEC+ meeting on Sunday 29 November",
-    "Whether foreign funds keep buying after two strong days",
-    "Any movement toward a US-India trade deal"
+    "Whether foreign funds keep buying after two strong sessions",
+    "Brent ahead of Sunday's OPEC+ meeting",
+    "Wall Street's shortened Friday session tonight"
    ],
    "src": {
-    "title": "GIFT Nifty Live Today: SGX Nifty Index & Market Open Signal",
-    "url": "https://www.kotakneo.com/indices/global-indices/gift-nifty/"
+    "title": "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets advance as tech shares rise",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs bought ₹5,843 cr on Thursday",
+   "line": "DIIs added ₹5,631 crore, a second straight day of heavy buying by both",
+   "more": [
+    "Provisional figures: FII +₹5,843.33 cr, DII +₹5,630.72 cr",
+    "Niftytrader puts the FII cash buying streak at 12 days",
+    "FIIs still hold a net short of 88,469 index-futures contracts"
+   ],
+   "src": {
+    "title": "FII & DII Data: Live FII & DII Trading Activity Daily, Monthly & Yearly",
+    "url": "https://groww.in/fii-dii-data"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-27",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "0800"
+   }
+  },
+  {
+   "key": "zydus-crl",
+   "tag": "Regulation",
+   "impact": "neg",
+   "title": "Zydus gets a US FDA letter on Moraiya",
+   "line": "Shares fell about 3.38% after a complete response letter tied to the plant",
+   "more": [
+    "JP Morgan, Bernstein and Nomura all wrote on Zydus before the open",
+    "They treat the letter as a factory issue rather than a drug issue"
+   ],
+   "src": {
+    "title": "Top stocks to watch on brokerages today: Zydus, Avalon, Syrma, Kalyan Jewellers, JSW Infra, GSK",
+    "url": "https://businessupturn.com/finance/stock-market/brokerages/stocks-to-watch-on-brokerages-november-27-2026-zydus-avalon-syrma-kalyan-jsw-infra-gsk/"
+   },
+   "date": "2026-11-27",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-27",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "broker-calls-1127",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "JP Morgan upgrades Syrma and Avalon",
+   "line": "Nine brokerage notes landed before Friday's open",
+   "more": [
+    "JP Morgan upgraded Syrma SGS and Avalon Technologies",
+    "HSBC stays at Reduce on JSW Infrastructure",
+    "Kalyan Jewellers and GSK also drew broker notes"
+   ],
+   "src": {
+    "title": "Top stocks to watch on brokerages today: Zydus, Avalon, Syrma, Kalyan Jewellers, JSW Infra, GSK",
+    "url": "https://businessupturn.com/finance/stock-market/brokerages/stocks-to-watch-on-brokerages-november-27-2026-zydus-avalon-syrma-kalyan-jsw-infra-gsk/"
+   },
+   "date": "2026-11-27",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-27",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "stocks-in-news-1127",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Orders and land deals in focus",
+   "line": "Ashiana Housing, Texmaco Rail and Omnitech Engineering are in focus on new business",
+   "more": [
+    "Ashiana Housing bought Chennai land for a ₹1,100 crore project",
+    "Texmaco Rail won a ₹55.63 crore wagon order",
+    "Omnitech Engineering got a development order from BrahMos Aerospace",
+    "HEG's demerged unit HEG Advanced Material is set to list"
+   ],
+   "src": {
+    "title": "Stocks to Watch Today, November 27, 2026: Ashiana Housing, Walchandnagar Industries, EMS, Texmaco Rail & Engineering and Omnitech Engineering",
+    "url": "https://scanx.trade/stock-market-news/markets/stocks-watch-today-november-27-2026-ashiana-housing-walchandnagar/57288638"
+   },
+   "date": "2026-11-27",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-27",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "ipo-calendar",
+   "tag": "Listing",
+   "impact": "watch",
+   "title": "Foodlink IPO enters day two",
+   "line": "Foodlink F&B Holdings' issue, priced at ₹181–191, is in its second day",
+   "more": [
+    "Shree Siddhivinayak Greentech's IPO closes today",
+    "Airpro Technology India's IPO opens today"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets advance as tech shares rise",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+   },
+   "date": "2026-11-27",
+   "slot": "0845",
+   "when": "8:45",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-27",
+    "slot": "0845"
+   }
+  },
   {
    "key": "crude-iran-war",
    "tag": "Global",
@@ -72,7 +197,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-21",
     "slot": "1400"
@@ -97,7 +222,7 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-21",
     "slot": "1400"
@@ -123,36 +248,10 @@
    "slot": "0700",
    "when": "7:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-25",
     "slot": "0700"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs buy about ₹5,843 crore on Thursday",
-   "line": "Provisional data show foreign and domestic funds both net buyers for a second day",
-   "more": [
-    "DIIs net bought about ₹5,631 crore, per Niftytrader",
-    "On Wednesday FIIs bought ₹4,479 crore and DIIs ₹4,019 crore",
-    "Sources differ on the FII buying streak: 18 sessions or 12 days"
-   ],
-   "src": {
-    "title": "FIIs extend India buying streak to 18 sessions with ₹5,843 crore investment",
-    "url": "https://businessupturn.com/nation/fiis-extend-india-buying-streak-to-18-sessions-with-rs5-843-crore-investment/"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-26",
-   "slot": "2100",
-   "when": "Thu · 21:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
    }
   },
   {
