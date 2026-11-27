@@ -1,93 +1,70 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-27T10:36:27+05:30",
+ "generated_at": "2026-11-27T11:06:50+05:30",
  "date": "2026-11-27",
- "slot": "1035",
- "slot_label": "10:35",
+ "slot": "1105",
+ "slot_label": "11:05",
  "stage": "Mid-market mood",
- "asof": "2026-11-27T10:38:00+05:30",
+ "asof": "2026-11-27T11:08:00+05:30",
  "nifty": {
-  "value": 25844.8,
-  "pct": -0.15,
-  "chg": -39.7,
+  "value": 25733.4,
+  "pct": -0.58,
+  "chg": -151.1,
   "approx": false,
-  "asof_quote": "10:00"
- },
- "metrics": {
-  "brent_usd": {
-   "value": 96,
-   "asof": "2026-11-27 morning",
-   "approx": true,
-   "src": {
-    "title": "Sensex, Nifty Trade Lower as IT Drags; Metals Outperform",
-    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
-   }
-  },
-  "usd_inr": {
-   "value": 92.5,
-   "asof": "2026-11-27 morning",
-   "approx": true,
-   "src": {
-    "title": "Sensex, Nifty Trade Lower as IT Drags; Metals Outperform",
-    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
-   }
-  }
+  "asof_quote": "11:00"
  },
  "mood": {
-  "label": "Mild dip, rotation",
-  "score": -0.05,
-  "summary": "Indian shares are slightly lower but steadying, as buying in metals and state-run banks offsets a pullback in IT stocks after their strong two-day run.",
+  "label": "Selling deepens",
+  "score": -0.35,
+  "summary": "Indian shares have slid to the day's low as profit-taking spreads from IT into HDFC Bank and other heavyweights, leaving metals, state-run banks and defence names as the few bright spots.",
   "detail": {
-   "leaders": "Metals, led by JSW Steel and Tata Steel; PSU banks such as Bank of India and Bank of Baroda",
-   "laggards": "IT, led by HCLTech, Infosys and TCS; Zydus Lifesciences",
-   "tone": "A live read of the session: steadier than the previous note, with the IT-led slide slowing as buyers rotate into metals and PSU banks.",
+   "leaders": "Metals and PSU banks such as Bank of India",
+   "laggards": "IT, led by TCS, HCLTech and Infosys; HDFC Bank; Zydus Lifesciences",
+   "tone": "A live read of the session: weaker than the previous note, as the market has broken lower to the day's low and the selling has widened beyond IT.",
    "watch": [
-    "Whether IT selling eases or deepens",
-    "PSU banks and metals holding their gains",
-    "Brent and the rupee"
+    "Whether selling in HDFC Bank and IT deepens into the afternoon",
+    "Metals and PSU banks holding their gains",
+    "Oil prices as West Asia tensions persist"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex down 200 pts, Nifty around 25,800; PSU Bank, Metal up 1% each",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+    "title": "Stock Market LIVE: Sensex at day's low, down 500 pts, Nifty below 25,750; Nifty India Defence up 3%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Metals and state-run banks are rising while the benchmarks slip",
-     "why": "Metals are extending their commodity-led rebound, and PSU banks are adding to a strong November run.",
+     "summary": "Metals and state-run banks are holding up against the broader slide",
+     "why": "Metals are extending a commodity-led rebound, and PSU lenders are adding to a strong November run.",
      "names": [
       {
        "name": "Nifty Metal",
        "dir": "up",
-       "move": "+1.76%",
-       "line": "JSW Steel and Tata Steel are among the gainers as the rebound extends"
+       "line": "The best-performing sector at 11 am, extending its rebound from Thursday"
       },
       {
        "name": "Bank of India",
        "dir": "up",
        "move": "+4.31%",
        "line": "Leads broad gains across public sector banks"
-      },
-      {
-       "name": "Bank of Baroda",
-       "dir": "up",
-       "move": "+1.82%",
-       "line": "PSU lenders extend a November rally that lifted some by over 20%"
       }
      ],
      "src": {
-      "title": "Sensex, Nifty Trade Lower as IT Drags; Metals Outperform",
-      "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
+      "title": "Stock Market LIVE: Sensex at day's low, down 500 pts, Nifty below 25,750; Nifty India Defence up 3%",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
      }
     },
     "down": {
-     "summary": "IT stocks are pulling back after a sharp two-day rally",
-     "why": "IT is giving back part of Thursday's surge, with US tariff worries in the background; Zydus is down on a US FDA setback.",
+     "summary": "IT heavyweights and HDFC Bank lead the profit-taking",
+     "why": "Investors are booking profits after a two-day rally, with large IT names and HDFC Bank taking the brunt.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "move": "−1.38%",
-       "line": "Easing a day after a 3.34% jump; HCLTech, Infosys and TCS lead losses"
+       "line": "The worst-performing sector at 11 am after Thursday's sharp rally"
+      },
+      {
+       "name": "HDFC Bank",
+       "dir": "down",
+       "line": "Among the main Sensex laggards as profit-taking spreads to banks"
       },
       {
        "name": "Zydus Lifesciences",
@@ -97,14 +74,87 @@
       }
      ],
      "src": {
-      "title": "Sensex, Nifty Trade Lower as IT Drags; Metals Outperform",
-      "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
+      "title": "Sensex, Nifty Slip After Two-Day Rally Amid Profit-Booking in IT Stocks, HDFC Bank",
+      "url": "https://dailypioneer.com/business/stock-markets-decline-early-trade-after-two-day-rally"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "profit-taking-1127",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Profit-taking spreads to HDFC Bank",
+   "line": "TCS, HCL Tech, Infosys, HDFC Bank, Reliance and Bajaj Finserv are the main laggards",
+   "more": [
+    "Selling follows a two-day rally in which IT led the gains",
+    "FIIs had bought ₹5,843.33 crore of shares on Thursday, exchange data show"
+   ],
+   "src": {
+    "title": "Stock markets decline in early trade after 2-day rally",
+    "url": "https://www.tribuneindia.com/news/business/stock-markets-decline-in-early-trade-after-2-day-rally"
+   },
+   "date": "2026-11-27",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-27",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "defence-stocks",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Defence stocks buck the slide",
+   "line": "The Nifty India Defence index is the standout gainer this morning",
+   "more": [
+    "No specific trigger has been reported for the move",
+    "Metals are the other sector rising against the market"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex at day's low, down 500 pts, Nifty below 25,750; Nifty India Defence up 3%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+   },
+   "date": "2026-11-27",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "crude-iran-war",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Oil firms on West Asia volatility",
+   "line": "Higher oil prices are among the reasons cited for the market's slide",
+   "more": [
+    "Brent was near $96 earlier this morning",
+    "OPEC+ meets on Sunday 29 November to discuss 2027 output"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex at day's low, down 500 pts, Nifty below 25,750; Nifty India Defence up 3%",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-27",
+   "slot": "1105",
+   "when": "11:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "1400"
+   }
+  },
   {
    "key": "psu-bank-rally",
    "tag": "Stocks",
@@ -124,7 +174,7 @@
    "slot": "1035",
    "when": "10:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-27",
     "slot": "1035"
@@ -148,7 +198,7 @@
    "slot": "1035",
    "when": "10:35",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-27",
     "slot": "1035"
@@ -173,7 +223,7 @@
    "slot": "1035",
    "when": "10:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-21",
     "slot": "1400"
@@ -425,32 +475,6 @@
    "first_seen": {
     "date": "2026-11-27",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "crude-iran-war",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent's January contract near $96",
-   "line": "The expiring contract trades $4.70 above February as Gulf supply risks build",
-   "more": [
-    "The January Brent contract stops trading on Monday",
-    "Brent is still about 19% below its 30 October close of $117.64",
-    "OPEC+ meets on Sunday 29 November to discuss 2027 output"
-   ],
-   "src": {
-    "title": "Brent Crude Tops $96 on Ras Tanura, Hormuz Tanker Risks",
-    "url": "https://financefeeds.com/brent-crude-rises-above-96-as-middle-east-conflict-threatens-global-oil-flows"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-27",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "1400"
    }
   },
   {
@@ -1578,30 +1602,6 @@
    "first_seen": {
     "date": "2026-11-22",
     "slot": "0800"
-   }
-  },
-  {
-   "key": "defence-stocks",
-   "tag": "Stocks",
-   "impact": "neg",
-   "title": "Defence index down about 1%",
-   "line": "Nifty Defence joins the decline, per the Business Standard live blog",
-   "more": [
-    "No specific trigger reported",
-    "Adds to selling beyond banks and metals"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex down 600 pts, Nifty below 25,600; Nifty Defence drops 1%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html"
-   },
-   "date": "2026-11-23",
-   "slot": "1135",
-   "when": "Mon · 11:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "1105"
    }
   },
   {
