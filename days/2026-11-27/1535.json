@@ -1,0 +1,165 @@
+{
+ "asof": "2026-11-27T15:38:00+05:30",
+ "summary": "Indian shares closed near the day's lows after selling deepened into the final hour, with IT and banks leading losses while metals held up and smallcaps fared better than large caps.",
+ "mood": {
+  "label": "Weak close",
+  "score": -0.5,
+  "detail": {
+   "stats": [],
+   "leaders": "Metals; defence names like Solar Industries; Waaree Renewable",
+   "laggards": "IT, led by TCS; HDFC Bank",
+   "movers": {
+    "up": {
+     "summary": "Metals and a few news-driven stocks held up as the market slid",
+     "why": "Metals extended their commodity-led rebound, and company news lifted a handful of names.",
+     "names": [
+      {
+       "name": "Nifty Metal",
+       "dir": "up",
+       "line": "The standout sector of the day as the metal pack outshone the market"
+      },
+      {
+       "name": "Solar Industries",
+       "move": "+6.38%",
+       "dir": "up",
+       "line": "Its unit completed trials of the Bhargavastra counter-drone system"
+      },
+      {
+       "name": "Waaree Renewable",
+       "move": "up ~14%",
+       "dir": "up",
+       "line": "Won a letter of award for a turnkey project"
+      }
+     ],
+     "src": {
+      "title": "Stock Market Close: Sensex tanks 990 pts, Nifty below 25,607 as Brent tops $97; metal pack outshines",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+     }
+    },
+    "down": {
+     "summary": "IT and heavyweight banks drove the day's decline",
+     "why": "Investors booked profits after strong gains this month, and higher oil added pressure late in the day.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "dir": "down",
+       "line": "Among the weakest sectors as the four-session IT rally was unwound"
+      },
+      {
+       "name": "TCS",
+       "dir": "down",
+       "line": "Among the top Nifty losers on profit-booking"
+      },
+      {
+       "name": "HDFC Bank",
+       "dir": "down",
+       "line": "A major drag as profit-taking spread to banks"
+      }
+     ],
+     "src": {
+      "title": "Stock Market Today Live Updates: BSE Sensex falls over 750 points, Nifty slips below 25,700 after 2-day rally",
+      "url": "https://gigantum.net/article/news/business/630d57f3e48f45"
+     }
+    }
+   },
+   "tone": "A read of the finished session: weaker than the previous note, as the market slid further into the close and ended near the day's low.",
+   "watch": [
+    "Provisional FII and DII figures due after the session",
+    "Brent and Sunday's OPEC+ meeting",
+    "Next week's RBI decision and any India-US trade deal news"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex tanks 990 pts, Nifty below 25,607 as Brent tops $97; metal pack outshines",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25607.2,
+  "pct": -1.07,
+  "chg": -277.3,
+  "approx": false,
+  "asof_quote": "15:30"
+ },
+ "metrics": {
+  "brent_usd": {
+   "value": 97,
+   "asof": "2026-11-27 afternoon",
+   "approx": true,
+   "src": {
+    "title": "Stock Market Close: Sensex tanks 990 pts, Nifty below 25,607 as Brent tops $97; metal pack outshines",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+   }
+  }
+ },
+ "top": [
+  {
+   "key": "crude-iran-war",
+   "tag": "Global",
+   "impact": "neg",
+   "thread": "crude-iran-war",
+   "title": "Brent tops $97 as West Asia attacks continue",
+   "line": "Higher oil prices weighed on Indian shares into the close",
+   "more": [
+    "Brent was near $96 in the morning",
+    "OPEC+ meets on Sunday 29 November to discuss 2027 output"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex tanks 990 pts, Nifty below 25,607 as Brent tops $97; metal pack outshines",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+   }
+  },
+  {
+   "key": "profit-taking-1127",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "Two-day rally snaps on profit-taking",
+   "line": "IT and banks led the decline after notable gains earlier this month",
+   "more": [
+    "The selling followed a strong four-session run in IT",
+    "Shriram Finance and Bajaj Auto were among the biggest Sensex losers"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex tanks 990 pts, Nifty below 25,607 as Brent tops $97; metal pack outshines",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+   }
+  },
+  {
+   "key": "metals-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Metals outshine a falling market",
+   "line": "The metal pack was the day's standout sector, extending Thursday's rebound",
+   "more": [
+    "Tata Steel was among the gainers through the session",
+    "Defence and order-driven names also bucked the slide"
+   ],
+   "src": {
+    "title": "Stock Market Close: Sensex tanks 990 pts, Nifty below 25,607 as Brent tops $97; metal pack outshines",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market Close: Sensex tanks 990 pts, Nifty below 25,607 as Brent tops $97; metal pack outshines",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+  },
+  {
+   "title": "27 November, 2026 Stock Market Updates: Sensex drops, Nifty holds 25,800, Titan top gainer",
+   "url": "https://www.indiatvnews.com/business/markets/27-november-2026-stock-market-updates-sensex-drops-235-points-nifty-holds-25-800-titan-top-gainer-it-stock-tcs-infosys-hcl-fall-2026-11-27-1060495"
+  },
+  {
+   "title": "Solar Industries Share Jumps 6% on Successful Bhargavastra Trials",
+   "url": "https://www.equitypandit.com/solar-industries-share-jumps-6-on-successful-bhargavastra-trials/"
+  },
+  {
+   "title": "Stock Market Today Live Updates: BSE Sensex falls over 750 points, Nifty slips below 25,700 after 2-day rally",
+   "url": "https://gigantum.net/article/news/business/630d57f3e48f45"
+  },
+  {
+   "title": "India-US Trade Deal Talks Close to Culmination, Goyal Says",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/india-us-trade-deal-talks-close-to-culmination-goyal-says"
+  }
+ ]
+}
