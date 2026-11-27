@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-27T16:36:58+05:30",
+ "generated_at": "2026-11-27T18:01:02+05:30",
  "date": "2026-11-27",
- "slot": "1635",
- "slot_label": "16:35",
- "stage": "Post-market mood",
- "asof": "2026-11-27T16:40:00+05:30",
+ "slot": "1800",
+ "slot_label": "18:00",
+ "stage": "Evening wrap",
+ "asof": "2026-11-27T18:05:00+05:30",
  "nifty": {
   "value": 25607.2,
   "pct": -1.07,
@@ -33,78 +33,100 @@
   }
  },
  "mood": {
-  "label": "Risk-off close",
-  "score": -0.55,
-  "summary": "Indian shares closed the week sharply lower, near the day's lows, as IT and banks sold off and a weaker rupee and costlier oil soured sentiment; only a few sectors such as metals ended higher.",
+  "label": "Cautious into Monday",
+  "score": -0.3,
+  "summary": "Indian shares head into the weekend on the back foot after a broad sell-off, with Monday's tone hinging on Sunday's OPEC+ decision and India's GDP data due the same day.",
   "detail": {
-   "leaders": "Metals, chemicals and consumer durables; Solar Industries",
-   "laggards": "IT, led by TCS; banks, led by HDFC Bank",
-   "tone": "A read of the finished session, more risk-off than the previous note now that the rupee's sharp late slide is known.",
+   "leaders": "Metals and defence names, which held up on Friday",
+   "laggards": "IT and heavyweight banks, which led Friday's selling",
+   "tone": "A forward-looking read for Monday's session: still cautious after Friday's sharp fall, with a weaker rupee and Brent near $97 in the background.",
    "watch": [
-    "Provisional FII and DII figures for Friday, still awaited",
-    "OPEC+ meeting on Sunday and Brent's response",
-    "RBI policy decision on 4 December"
+    "OPEC+ decision on Sunday and Brent's reaction",
+    "India's Q2 GDP data on 30 November",
+    "Friday's provisional FII and DII figures, still awaited"
    ],
    "src": {
     "title": "Stock Market Close: Sensex tanks 990 pts, Nifty below 25,607 as Brent tops $97; metal pack outshines",
     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
-   },
-   "movers": {
-    "up": {
-     "summary": "Metals and a handful of sectors closed higher against the slide",
-     "why": "Metals extended their commodity-led rebound, while chemicals, durables and media also bucked the trend.",
-     "names": [
-      {
-       "name": "Nifty Metal",
-       "dir": "up",
-       "line": "The standout sector as the metal pack outshone the market"
-      },
-      {
-       "name": "Nifty Chemicals",
-       "dir": "up",
-       "line": "One of the few sectoral indices to close in positive territory"
-      },
-      {
-       "name": "Solar Industries",
-       "dir": "up",
-       "move": "+6.38%",
-       "line": "Its unit completed trials of the Bhargavastra counter-drone system"
-      }
-     ],
-     "src": {
-      "title": "Sensex tanks nearly 1,000 points, Nifty slips below 25,650 as geopolitical tensions, rising oil prices weigh",
-      "url": "https://www.tribuneindia.com/news/bse/sensex-tanks-nearly-1000-points-nifty-slips-below-25650-as-geopolitical-tensions-rising-oil-prices-weigh"
-     }
-    },
-    "down": {
-     "summary": "Heavyweight IT and bank stocks led the day's losses",
-     "why": "Profit-taking after a two-day rally met rising crude and a sliding rupee.",
-     "names": [
-      {
-       "name": "Nifty IT",
-       "dir": "down",
-       "line": "Among the weakest sectors as the four-session IT rally was unwound"
-      },
-      {
-       "name": "TCS",
-       "dir": "down",
-       "line": "Among the top Nifty losers on profit-booking"
-      },
-      {
-       "name": "HDFC Bank",
-       "dir": "down",
-       "line": "A key drag as selling spread to heavyweight banks"
-      }
-     ],
-     "src": {
-      "title": "Sensex falls over 900 points, Nifty slips below 25,650 as IT and banking stocks drag markets",
-      "url": "https://dailypioneer.com/business/sensex-falls-900-points-nifty-stock-market-november-27-2026"
-     }
-    }
    }
   }
  },
  "insights": [
+  {
+   "key": "opec-meeting",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "OPEC+ likely to hold Q1 2027 output flat",
+   "line": "Sources say the group agreed in principle to keep targets unchanged at Sunday's meeting",
+   "more": [
+    "Its capacity audit, meant to set 2027 baselines, is running weeks late",
+    "OPEC+ has no output framework in place after 31 December 2026",
+    "Forecasters see a 2–3.8 million bpd surplus in 2027"
+   ],
+   "src": {
+    "title": "OPEC+ Heads Into Sunday Meeting to Set 2027 Quotas With Its Capacity Audit Weeks Late and Output Held Flat",
+    "url": "https://leprivatebanker.com/2026/11/27/opec-heads-into-sunday-meeting-to-set-2027-quotas-with-its-capacity-audit-weeks-late-and-output-held-flat/"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-27",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "1800"
+   }
+  },
+  {
+   "key": "india-gdp-q2",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Q2 GDP due Monday; 7.6–7.8% expected",
+   "line": "Official July–September growth data is due on 30 November",
+   "more": [
+    "A Mint poll sees 7.6%, down from 7.8% the previous quarter",
+    "SBI Research estimates 7.8%, above the RBI's 7.2% projection",
+    "The data lands days before the RBI policy decision on 4 December"
+   ],
+   "src": {
+    "title": "India's second-quarter GDP growth forecast to ease to 7.6%",
+    "url": "https://web.matrixnews.in/news/2bgk27iockfqi/indias-second-quarter-gdp-growth-forecast-to-ease-to-7-6-percent"
+   },
+   "date": "2026-11-27",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-27",
+    "slot": "1800"
+   }
+  },
+  {
+   "key": "dalmia-buyback",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Dalmia Bharat buyback in progress",
+   "line": "The cement maker is buying back shares worth up to ₹700 crore",
+   "more": [
+    "NSE received RBI approval for corporate bond index futures",
+    "HEG, Zydus and Waaree Renewable were also in focus this week"
+   ],
+   "src": {
+    "title": "Stocks to Watch Today (November 27): HEG, IGI, Zydus Lifesciences, NSE, Exide Industries and More",
+    "url": "https://www.equentis.com/blog/stocks-to-watch-today-november-27-heg-igi-zydus-lifesciences-nse-exide-industries-and-more/"
+   },
+   "date": "2026-11-27",
+   "slot": "1800",
+   "when": "18:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-27",
+    "slot": "1800"
+   }
+  },
   {
    "key": "rupee",
    "tag": "Macro",
@@ -125,7 +147,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-21",
     "slot": "1400"
@@ -150,7 +172,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-21",
     "slot": "1400"
@@ -175,7 +197,7 @@
    "slot": "1635",
    "when": "16:35",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-21",
     "slot": "0800"
@@ -703,31 +725,6 @@
    "first_seen": {
     "date": "2026-11-26",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "opec-meeting",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "OPEC meets on 29 November",
-   "line": "Uncertainty over OPEC's 2027 policy is supporting oil ahead of the meeting",
-   "more": [
-    "Brent is near $95 after the Saudi refinery attack",
-    "Gulf exports are recovering, adding to oversupply concerns"
-   ],
-   "src": {
-    "title": "Oil rebounds to $95 per barrel after Saudi refinery attack",
-    "url": "https://www.thenationalnews.com/business/energy/2026/11/26/oil-rebounds-to-95-per-barrel-after-saudi-refinery-attack/"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-26",
-   "slot": "1800",
-   "when": "Thu · 18:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-26",
-    "slot": "1800"
    }
   },
   {
