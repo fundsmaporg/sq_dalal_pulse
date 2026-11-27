@@ -1,0 +1,145 @@
+{
+ "asof": "2026-11-27T10:08:00+05:30",
+ "summary": "Indian shares are drifting lower as IT stocks give back part of their two-day rally, while metals and the broader midcap and smallcap space hold up better than the benchmarks.",
+ "mood": {
+  "label": "IT-led dip",
+  "score": -0.15,
+  "detail": {
+   "stats": [],
+   "leaders": "Metals, with midcaps and smallcaps outperforming",
+   "laggards": "IT heavyweights TCS, HCLTech and Infosys; Zydus Lifesciences",
+   "movers": {
+    "up": {
+     "summary": "Metal stocks are holding gains while the benchmarks slip",
+     "why": "Metals are extending Thursday's rebound, which followed an overnight recovery in commodity prices.",
+     "names": [
+      {
+       "name": "Nifty Metal",
+       "move": "up ~1.7%",
+       "dir": "up",
+       "line": "Extending Thursday's commodity-led rebound; Tata Steel among the top Sensex movers"
+      }
+     ],
+     "src": {
+      "title": "Zydus Life shares dip 3% on USFDA's CRL to new drug; MOFSL stays 'neutral'",
+      "url": "https://www.business-standard.com/markets/news/zydus-life-share-price-dips-3-on-usfda-s-crl-to-new-drug-mofsl-stays-neutral-126112700189_1.html"
+     }
+    },
+    "down": {
+     "summary": "IT heavyweights lead the losses after a sharp two-day rally",
+     "why": "IT stocks are pausing after big gains on Thursday, and Zydus is down on a US FDA setback.",
+     "names": [
+      {
+       "name": "TCS",
+       "dir": "down",
+       "line": "Giving back part of Thursday's 4.97% jump"
+      },
+      {
+       "name": "HCLTech",
+       "dir": "down",
+       "line": "Easing after a 6.28% surge on Thursday"
+      },
+      {
+       "name": "Infosys",
+       "dir": "down",
+       "line": "Pausing after Thursday's 4.70% gain"
+      },
+      {
+       "name": "Zydus Lifesciences",
+       "move": "down ~3%",
+       "dir": "down",
+       "line": "US FDA issued a complete response letter on a new drug"
+      }
+     ],
+     "src": {
+      "title": "Sensex slips 396 points as IT stocks pause after two-day rally",
+      "url": "https://www.theweek.in/news/biz-tech/2026/11/27/indian-shares-open-lower-friday-sensex-nifty.html"
+     }
+    }
+   },
+   "tone": "A live read of the session: weaker than the previous note, as the soft open has turned into a mild IT-led slide, though the selling is not broad-based.",
+   "watch": [
+    "Whether IT selling deepens or buyers step back in",
+    "Metals and midcaps holding their outperformance",
+    "Brent and US tariff headlines"
+   ],
+   "src": {
+    "title": "Sensex slips 396 points as IT stocks pause after two-day rally",
+    "url": "https://www.theweek.in/news/biz-tech/2026/11/27/indian-shares-open-lower-friday-sensex-nifty.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25804.5,
+  "pct": -0.31,
+  "chg": -80,
+  "approx": true,
+  "asof_quote": "09:53"
+ },
+ "top": [
+  {
+   "key": "it-rebound",
+   "tag": "Stocks",
+   "impact": "neg",
+   "thread": "it-sector",
+   "title": "IT pauses after its two-day rally",
+   "line": "TCS, HCLTech and Infosys lead the losses after Thursday's surge",
+   "more": [
+    "On Thursday HCLTech rose 6.28%, TCS 4.97% and Infosys 4.70%",
+    "Investors are also weighing firm crude prices and US tariff uncertainty"
+   ],
+   "src": {
+    "title": "Sensex slips 396 points as IT stocks pause after two-day rally",
+    "url": "https://www.theweek.in/news/biz-tech/2026/11/27/indian-shares-open-lower-friday-sensex-nifty.html"
+   }
+  },
+  {
+   "key": "zydus-crl",
+   "tag": "Regulation",
+   "impact": "neg",
+   "title": "Zydus slips 3% on US FDA letter",
+   "line": "The USFDA issued a complete response letter on a new drug; MOFSL stays Neutral",
+   "more": [
+    "MOFSL expects Zydus's earnings to compound at 6% over FY26–28",
+    "Earlier notes from JP Morgan, Bernstein and Nomura saw a plant, not a drug, issue"
+   ],
+   "src": {
+    "title": "Zydus Life shares dip 3% on USFDA's CRL to new drug; MOFSL stays 'neutral'",
+    "url": "https://www.business-standard.com/markets/news/zydus-life-share-price-dips-3-on-usfda-s-crl-to-new-drug-mofsl-stays-neutral-126112700189_1.html"
+   }
+  },
+  {
+   "key": "breadth",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Midcaps and smallcaps outperform",
+   "line": "The broader market is holding up better than the IT-heavy benchmarks",
+   "more": [
+    "Business Standard's live blog flags small and midcap outperformance",
+    "Titan, Tata Steel and Adani Ports were among the early Sensex gainers"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 200 pts, Nifty around 25,800; SMIDs outperform",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Sensex slips 396 points as IT stocks pause after two-day rally",
+   "url": "https://www.theweek.in/news/biz-tech/2026/11/27/indian-shares-open-lower-friday-sensex-nifty.html"
+  },
+  {
+   "title": "Stock Market LIVE: Sensex down 200 pts, Nifty around 25,800; SMIDs outperform",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+  },
+  {
+   "title": "Zydus Life shares dip 3% on USFDA's CRL to new drug; MOFSL stays 'neutral'",
+   "url": "https://www.business-standard.com/markets/news/zydus-life-share-price-dips-3-on-usfda-s-crl-to-new-drug-mofsl-stays-neutral-126112700189_1.html"
+  },
+  {
+   "title": "Stock Market Today: Sensex sheds over 300 points, Nifty near 25,850",
+   "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-sheds-over-300-points-nifty-near-25850-406067"
+  }
+ ]
+}

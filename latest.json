@@ -1,71 +1,160 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-27T09:27:20+05:30",
+ "generated_at": "2026-11-27T10:06:33+05:30",
  "date": "2026-11-27",
- "slot": "0925",
- "slot_label": "9:25",
+ "slot": "1005",
+ "slot_label": "10:05",
  "stage": "Opening mood",
- "asof": "2026-11-27T09:27:00+05:30",
+ "asof": "2026-11-27T10:08:00+05:30",
  "nifty": {
-  "value": 25839.25,
-  "pct": -0.18,
-  "chg": -45.25,
-  "approx": false,
-  "asof_quote": "09:15"
+  "value": 25804.5,
+  "pct": -0.31,
+  "chg": -80,
+  "approx": true,
+  "asof_quote": "09:53"
  },
  "mood": {
-  "label": "Soft, narrow open",
-  "score": -0.05,
-  "summary": "Indian shares opened slightly lower and are holding in a narrow range, with metals bucking the dip and midcaps and smallcaps doing better than the large-cap benchmarks.",
+  "label": "IT-led dip",
+  "score": -0.15,
+  "summary": "Indian shares are drifting lower as IT stocks give back part of their two-day rally, while metals and the broader midcap and smallcap space hold up better than the benchmarks.",
   "detail": {
    "leaders": "Metals, with midcaps and smallcaps outperforming",
-   "laggards": "Zydus Lifesciences after a US FDA letter",
-   "tone": "A live read just after the open: the soft start that GIFT Nifty pointed to has played out, but selling is light and the market is rangebound rather than sliding.",
+   "laggards": "IT heavyweights TCS, HCLTech and Infosys; Zydus Lifesciences",
+   "tone": "A live read of the session: weaker than the previous note, as the soft open has turned into a mild IT-led slide, though the selling is not broad-based.",
    "watch": [
-    "Whether metals and midcaps keep outperforming",
-    "Follow-through on the heavy FII buying of the last two sessions",
-    "Wall Street's shortened session tonight"
+    "Whether IT selling deepens or buyers step back in",
+    "Metals and midcaps holding their outperformance",
+    "Brent and US tariff headlines"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex in narrow range, Nifty below 25,900; SMIDs outperform",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+    "title": "Sensex slips 396 points as IT stocks pause after two-day rally",
+    "url": "https://www.theweek.in/news/biz-tech/2026/11/27/indian-shares-open-lower-friday-sensex-nifty.html"
    },
    "movers": {
     "up": {
-     "summary": "Metal stocks are rising against a softer market in early trade",
-     "why": "Metals are extending Thursday's rebound, which came after an overnight recovery in commodity prices.",
+     "summary": "Metal stocks are holding gains while the benchmarks slip",
+     "why": "Metals are extending Thursday's rebound, which followed an overnight recovery in commodity prices.",
      "names": [
       {
        "name": "Nifty Metal",
        "dir": "up",
-       "move": "up ~2%",
-       "line": "Bucked the soft open; Hindalco and Tata Steel led Thursday's bounce"
+       "move": "up ~1.7%",
+       "line": "Extending Thursday's commodity-led rebound; Tata Steel among the top Sensex movers"
       }
      ],
      "src": {
-      "title": "Stock Market Today: Sensex sheds over 300 points, Nifty near 25,850",
-      "url": "https://www.zeebiz.com/market-news/news-stock-market-today-sensex-sheds-over-300-points-nifty-near-25850-406067"
+      "title": "Zydus Life shares dip 3% on USFDA's CRL to new drug; MOFSL stays 'neutral'",
+      "url": "https://www.business-standard.com/markets/news/zydus-life-share-price-dips-3-on-usfda-s-crl-to-new-drug-mofsl-stays-neutral-126112700189_1.html"
      }
     },
     "down": {
-     "summary": "Zydus is in focus after a US FDA letter on its Moraiya plant",
-     "why": "Brokers wrote on the stock before the open after a complete response letter tied to its main plant.",
+     "summary": "IT heavyweights lead the losses after a sharp two-day rally",
+     "why": "IT stocks are pausing after big gains on Thursday, and Zydus is down on a US FDA setback.",
      "names": [
+      {
+       "name": "TCS",
+       "dir": "down",
+       "line": "Giving back part of Thursday's 4.97% jump"
+      },
+      {
+       "name": "HCLTech",
+       "dir": "down",
+       "line": "Easing after a 6.28% surge on Thursday"
+      },
+      {
+       "name": "Infosys",
+       "dir": "down",
+       "line": "Pausing after Thursday's 4.70% gain"
+      },
       {
        "name": "Zydus Lifesciences",
        "dir": "down",
-       "line": "Complete response letter tied to Moraiya; brokers see a factory, not drug, issue"
+       "move": "down ~3%",
+       "line": "US FDA issued a complete response letter on a new drug"
       }
      ],
      "src": {
-      "title": "Top stocks to watch on brokerages today: Zydus, Avalon, Syrma, Kalyan Jewellers, JSW Infra, GSK",
-      "url": "https://businessupturn.com/finance/stock-market/brokerages/stocks-to-watch-on-brokerages-november-27-2026-zydus-avalon-syrma-kalyan-jsw-infra-gsk/"
+      "title": "Sensex slips 396 points as IT stocks pause after two-day rally",
+      "url": "https://www.theweek.in/news/biz-tech/2026/11/27/indian-shares-open-lower-friday-sensex-nifty.html"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "it-rebound",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "IT pauses after its two-day rally",
+   "line": "TCS, HCLTech and Infosys lead the losses after Thursday's surge",
+   "more": [
+    "On Thursday HCLTech rose 6.28%, TCS 4.97% and Infosys 4.70%",
+    "Investors are also weighing firm crude prices and US tariff uncertainty"
+   ],
+   "src": {
+    "title": "Sensex slips 396 points as IT stocks pause after two-day rally",
+    "url": "https://www.theweek.in/news/biz-tech/2026/11/27/indian-shares-open-lower-friday-sensex-nifty.html"
+   },
+   "thread": "it-sector",
+   "date": "2026-11-27",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-23",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "zydus-crl",
+   "tag": "Regulation",
+   "impact": "neg",
+   "title": "Zydus slips 3% on US FDA letter",
+   "line": "The USFDA issued a complete response letter on a new drug; MOFSL stays Neutral",
+   "more": [
+    "MOFSL expects Zydus's earnings to compound at 6% over FY26–28",
+    "Earlier notes from JP Morgan, Bernstein and Nomura saw a plant, not a drug, issue"
+   ],
+   "src": {
+    "title": "Zydus Life shares dip 3% on USFDA's CRL to new drug; MOFSL stays 'neutral'",
+    "url": "https://www.business-standard.com/markets/news/zydus-life-share-price-dips-3-on-usfda-s-crl-to-new-drug-mofsl-stays-neutral-126112700189_1.html"
+   },
+   "date": "2026-11-27",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-27",
+    "slot": "0845"
+   }
+  },
+  {
+   "key": "breadth",
+   "tag": "Stocks",
+   "impact": "watch",
+   "title": "Midcaps and smallcaps outperform",
+   "line": "The broader market is holding up better than the IT-heavy benchmarks",
+   "more": [
+    "Business Standard's live blog flags small and midcap outperformance",
+    "Titan, Tata Steel and Adani Ports were among the early Sensex gainers"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 200 pts, Nifty around 25,800; SMIDs outperform",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+   },
+   "date": "2026-11-27",
+   "slot": "1005",
+   "when": "10:05",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-25",
+    "slot": "1105"
+   }
+  },
   {
    "key": "opening-1127",
    "tag": "Opening",
@@ -85,7 +174,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-27",
     "slot": "0925"
@@ -109,7 +198,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-27",
     "slot": "0925"
@@ -134,7 +223,7 @@
    "slot": "0925",
    "when": "9:25",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-21",
     "slot": "0800"
@@ -164,30 +253,6 @@
    "first_seen": {
     "date": "2026-11-21",
     "slot": "0800"
-   }
-  },
-  {
-   "key": "zydus-crl",
-   "tag": "Regulation",
-   "impact": "neg",
-   "title": "Zydus gets a US FDA letter on Moraiya",
-   "line": "Shares fell about 3.38% after a complete response letter tied to the plant",
-   "more": [
-    "JP Morgan, Bernstein and Nomura all wrote on Zydus before the open",
-    "They treat the letter as a factory issue rather than a drug issue"
-   ],
-   "src": {
-    "title": "Top stocks to watch on brokerages today: Zydus, Avalon, Syrma, Kalyan Jewellers, JSW Infra, GSK",
-    "url": "https://businessupturn.com/finance/stock-market/brokerages/stocks-to-watch-on-brokerages-november-27-2026-zydus-avalon-syrma-kalyan-jsw-infra-gsk/"
-   },
-   "date": "2026-11-27",
-   "slot": "0845",
-   "when": "8:45",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-27",
-    "slot": "0845"
    }
   },
   {
@@ -400,31 +465,6 @@
    }
   },
   {
-   "key": "it-rebound",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "HCLTech jumps 6% as IT leads the close",
-   "line": "HCLTech rose 5.99% to ₹1,462.60, the top Nifty gainer, with TCS and Infosys also higher",
-   "more": [
-    "IT ended as the strongest sector for a fourth day of gains",
-    "No specific trigger was reported for HCLTech's move"
-   ],
-   "src": {
-    "title": "India shares higher at close of trade; Nifty 50 up 0.25%",
-    "url": "https://uk.investing.com/news/stock-market-news/india-shares-higher-at-close-of-trade-nifty-50-up-025-5005567"
-   },
-   "thread": "it-sector",
-   "date": "2026-11-26",
-   "slot": "1635",
-   "when": "Thu · 16:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-23",
-    "slot": "1035"
-   }
-  },
-  {
    "key": "realty-rally",
    "tag": "Stocks",
    "impact": "pos",
@@ -542,30 +582,6 @@
    "first_seen": {
     "date": "2026-11-26",
     "slot": "1535"
-   }
-  },
-  {
-   "key": "breadth",
-   "tag": "Stocks",
-   "impact": "pos",
-   "title": "Smallcaps keep outpacing the benchmarks",
-   "line": "Midcaps and smallcaps are rising faster than the Nifty and Sensex, per Business Standard",
-   "more": [
-    "Smallcaps have outperformed through the session",
-    "Realty and metals are the broader market's strongest pockets"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex stuck in range, up 400 pts; Nifty above 25,900; Nifty Realty gains 3%",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html"
-   },
-   "date": "2026-11-26",
-   "slot": "1505",
-   "when": "Thu · 15:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-25",
-    "slot": "1105"
    }
   },
   {
