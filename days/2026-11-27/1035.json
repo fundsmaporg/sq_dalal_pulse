@@ -1,0 +1,181 @@
+{
+ "asof": "2026-11-27T10:38:00+05:30",
+ "summary": "Indian shares are slightly lower but steadying, as buying in metals and state-run banks offsets a pullback in IT stocks after their strong two-day run.",
+ "mood": {
+  "label": "Mild dip, rotation",
+  "score": -0.05,
+  "detail": {
+   "stats": [],
+   "leaders": "Metals, led by JSW Steel and Tata Steel; PSU banks such as Bank of India and Bank of Baroda",
+   "laggards": "IT, led by HCLTech, Infosys and TCS; Zydus Lifesciences",
+   "movers": {
+    "up": {
+     "summary": "Metals and state-run banks are rising while the benchmarks slip",
+     "why": "Metals are extending their commodity-led rebound, and PSU banks are adding to a strong November run.",
+     "names": [
+      {
+       "name": "Nifty Metal",
+       "move": "+1.76%",
+       "dir": "up",
+       "line": "JSW Steel and Tata Steel are among the gainers as the rebound extends"
+      },
+      {
+       "name": "Bank of India",
+       "move": "+4.31%",
+       "dir": "up",
+       "line": "Leads broad gains across public sector banks"
+      },
+      {
+       "name": "Bank of Baroda",
+       "move": "+1.82%",
+       "dir": "up",
+       "line": "PSU lenders extend a November rally that lifted some by over 20%"
+      }
+     ],
+     "src": {
+      "title": "Sensex, Nifty Trade Lower as IT Drags; Metals Outperform",
+      "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
+     }
+    },
+    "down": {
+     "summary": "IT stocks are pulling back after a sharp two-day rally",
+     "why": "IT is giving back part of Thursday's surge, with US tariff worries in the background; Zydus is down on a US FDA setback.",
+     "names": [
+      {
+       "name": "Nifty IT",
+       "move": "−1.38%",
+       "dir": "down",
+       "line": "Easing a day after a 3.34% jump; HCLTech, Infosys and TCS lead losses"
+      },
+      {
+       "name": "Zydus Lifesciences",
+       "move": "down ~3%",
+       "dir": "down",
+       "line": "US FDA issued a complete response letter on a new drug"
+      }
+     ],
+     "src": {
+      "title": "Sensex, Nifty Trade Lower as IT Drags; Metals Outperform",
+      "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
+     }
+    }
+   },
+   "tone": "A live read of the session: steadier than the previous note, with the IT-led slide slowing as buyers rotate into metals and PSU banks.",
+   "watch": [
+    "Whether IT selling eases or deepens",
+    "PSU banks and metals holding their gains",
+    "Brent and the rupee"
+   ],
+   "src": {
+    "title": "Stock Market LIVE: Sensex down 200 pts, Nifty around 25,800; PSU Bank, Metal up 1% each",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+   }
+  }
+ },
+ "nifty": {
+  "value": 25844.8,
+  "pct": -0.15,
+  "chg": -39.7,
+  "approx": false,
+  "asof_quote": "10:00"
+ },
+ "metrics": {
+  "brent_usd": {
+   "value": 96,
+   "asof": "2026-11-27 morning",
+   "approx": true,
+   "src": {
+    "title": "Sensex, Nifty Trade Lower as IT Drags; Metals Outperform",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
+   }
+  },
+  "usd_inr": {
+   "value": 92.5,
+   "asof": "2026-11-27 morning",
+   "approx": true,
+   "src": {
+    "title": "Sensex, Nifty Trade Lower as IT Drags; Metals Outperform",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
+   }
+  }
+ },
+ "top": [
+  {
+   "key": "psu-bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PSU banks extend November rally",
+   "line": "Bank of India rises 4.31%; Bank of Baroda and Bank of Maharashtra gain 1.82% each",
+   "more": [
+    "Union Bank rose 1.77%, PNB 0.94%, Canara Bank 0.88% and SBI 0.51%",
+    "Some heavyweight private lenders are trading lower",
+    "SBI, PNB, Canara, BoB and BoM had rallied over 20% in November by 20 Nov"
+   ],
+   "src": {
+    "title": "Banking sector stocks today, November 27: Dhanlaxmi Bank gains 4.71%, Bank of India jumps 4.31%, IDFC First Bank up 2.41%",
+    "url": "https://businessupturn.com/finance/stock-market/banking-sector-stocks-today-november-27-dhanlaxmi-bank-gains-4-71-bank-of-india-jumps-4-31-idfc-first-bank-up-2-41"
+   }
+  },
+  {
+   "key": "metals-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Metal stocks lead for a second day",
+   "line": "JSW Steel and Tata Steel are among the gainers as metals outperform",
+   "more": [
+    "Metals bounced on Thursday after a three-session slide",
+    "A steel safeguard duty recommendation is under review, one report says"
+   ],
+   "src": {
+    "title": "Sensex, Nifty Trade Lower as IT Drags; Metals Outperform",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "neg",
+   "thread": "rupee",
+   "title": "Rupee weakens to about 92.50",
+   "line": "The rupee slipped further against the dollar in morning trade",
+   "more": [
+    "It closed at 92.44 on Thursday, down 24 paise",
+    "Brent eased to about $96 in morning trade"
+   ],
+   "src": {
+    "title": "Sensex, Nifty Trade Lower as IT Drags; Metals Outperform",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stock Market LIVE: Sensex down 200 pts, Nifty around 25,800; PSU Bank, Metal up 1% each",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+  },
+  {
+   "title": "Sensex, Nifty Trade Lower as IT Drags; Metals Outperform",
+   "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
+  },
+  {
+   "title": "Sensex slips over 350 points, Nifty near 25,800; IT stocks tumble, metals shine",
+   "url": "https://www.newsdrum.in/business/sensex-slips-over-350-points-nifty-near-25800-it-stocks-tumble-metals-shine-12844727"
+  },
+  {
+   "title": "Banking sector stocks today, November 27: Dhanlaxmi Bank gains 4.71%, Bank of India jumps 4.31%, IDFC First Bank up 2.41%",
+   "url": "https://businessupturn.com/finance/stock-market/banking-sector-stocks-today-november-27-dhanlaxmi-bank-gains-4-71-bank-of-india-jumps-4-31-idfc-first-bank-up-2-41"
+  },
+  {
+   "title": "SBI, PNB, 3 other PSBs zoom up to 27% in Nov; here's what tech analysts say",
+   "url": "https://www.business-standard.com/amp/markets/news/sbi-pnb-3-other-psu-bank-stocks-rally-up-to-27-in-nov-here-s-what-tech-analysts-say-126112000334_1.html"
+  },
+  {
+   "title": "Zydus Life shares dip 3% on USFDA's CRL to new drug; MOFSL stays 'neutral'",
+   "url": "https://www.business-standard.com/markets/news/zydus-life-share-price-dips-3-on-usfda-s-crl-to-new-drug-mofsl-stays-neutral-126112700189_1.html"
+  },
+  {
+   "title": "Stock Market Update 27 November 2026: Sensex, Nifty 50 Trade Lower After Market Opening",
+   "url": "https://www.kotakneo.com/news/market-news/stock-market-update-27-november-2026-sensex-nifty/"
+  }
+ ]
+}

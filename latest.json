@@ -1,70 +1,93 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-27T10:06:33+05:30",
+ "generated_at": "2026-11-27T10:36:27+05:30",
  "date": "2026-11-27",
- "slot": "1005",
- "slot_label": "10:05",
- "stage": "Opening mood",
- "asof": "2026-11-27T10:08:00+05:30",
+ "slot": "1035",
+ "slot_label": "10:35",
+ "stage": "Mid-market mood",
+ "asof": "2026-11-27T10:38:00+05:30",
  "nifty": {
-  "value": 25804.5,
-  "pct": -0.31,
-  "chg": -80,
-  "approx": true,
-  "asof_quote": "09:53"
+  "value": 25844.8,
+  "pct": -0.15,
+  "chg": -39.7,
+  "approx": false,
+  "asof_quote": "10:00"
+ },
+ "metrics": {
+  "brent_usd": {
+   "value": 96,
+   "asof": "2026-11-27 morning",
+   "approx": true,
+   "src": {
+    "title": "Sensex, Nifty Trade Lower as IT Drags; Metals Outperform",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
+   }
+  },
+  "usd_inr": {
+   "value": 92.5,
+   "asof": "2026-11-27 morning",
+   "approx": true,
+   "src": {
+    "title": "Sensex, Nifty Trade Lower as IT Drags; Metals Outperform",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
+   }
+  }
  },
  "mood": {
-  "label": "IT-led dip",
-  "score": -0.15,
-  "summary": "Indian shares are drifting lower as IT stocks give back part of their two-day rally, while metals and the broader midcap and smallcap space hold up better than the benchmarks.",
+  "label": "Mild dip, rotation",
+  "score": -0.05,
+  "summary": "Indian shares are slightly lower but steadying, as buying in metals and state-run banks offsets a pullback in IT stocks after their strong two-day run.",
   "detail": {
-   "leaders": "Metals, with midcaps and smallcaps outperforming",
-   "laggards": "IT heavyweights TCS, HCLTech and Infosys; Zydus Lifesciences",
-   "tone": "A live read of the session: weaker than the previous note, as the soft open has turned into a mild IT-led slide, though the selling is not broad-based.",
+   "leaders": "Metals, led by JSW Steel and Tata Steel; PSU banks such as Bank of India and Bank of Baroda",
+   "laggards": "IT, led by HCLTech, Infosys and TCS; Zydus Lifesciences",
+   "tone": "A live read of the session: steadier than the previous note, with the IT-led slide slowing as buyers rotate into metals and PSU banks.",
    "watch": [
-    "Whether IT selling deepens or buyers step back in",
-    "Metals and midcaps holding their outperformance",
-    "Brent and US tariff headlines"
+    "Whether IT selling eases or deepens",
+    "PSU banks and metals holding their gains",
+    "Brent and the rupee"
    ],
    "src": {
-    "title": "Sensex slips 396 points as IT stocks pause after two-day rally",
-    "url": "https://www.theweek.in/news/biz-tech/2026/11/27/indian-shares-open-lower-friday-sensex-nifty.html"
+    "title": "Stock Market LIVE: Sensex down 200 pts, Nifty around 25,800; PSU Bank, Metal up 1% each",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Metal stocks are holding gains while the benchmarks slip",
-     "why": "Metals are extending Thursday's rebound, which followed an overnight recovery in commodity prices.",
+     "summary": "Metals and state-run banks are rising while the benchmarks slip",
+     "why": "Metals are extending their commodity-led rebound, and PSU banks are adding to a strong November run.",
      "names": [
       {
        "name": "Nifty Metal",
        "dir": "up",
-       "move": "up ~1.7%",
-       "line": "Extending Thursday's commodity-led rebound; Tata Steel among the top Sensex movers"
+       "move": "+1.76%",
+       "line": "JSW Steel and Tata Steel are among the gainers as the rebound extends"
+      },
+      {
+       "name": "Bank of India",
+       "dir": "up",
+       "move": "+4.31%",
+       "line": "Leads broad gains across public sector banks"
+      },
+      {
+       "name": "Bank of Baroda",
+       "dir": "up",
+       "move": "+1.82%",
+       "line": "PSU lenders extend a November rally that lifted some by over 20%"
       }
      ],
      "src": {
-      "title": "Zydus Life shares dip 3% on USFDA's CRL to new drug; MOFSL stays 'neutral'",
-      "url": "https://www.business-standard.com/markets/news/zydus-life-share-price-dips-3-on-usfda-s-crl-to-new-drug-mofsl-stays-neutral-126112700189_1.html"
+      "title": "Sensex, Nifty Trade Lower as IT Drags; Metals Outperform",
+      "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
      }
     },
     "down": {
-     "summary": "IT heavyweights lead the losses after a sharp two-day rally",
-     "why": "IT stocks are pausing after big gains on Thursday, and Zydus is down on a US FDA setback.",
+     "summary": "IT stocks are pulling back after a sharp two-day rally",
+     "why": "IT is giving back part of Thursday's surge, with US tariff worries in the background; Zydus is down on a US FDA setback.",
      "names": [
       {
-       "name": "TCS",
+       "name": "Nifty IT",
        "dir": "down",
-       "line": "Giving back part of Thursday's 4.97% jump"
-      },
-      {
-       "name": "HCLTech",
-       "dir": "down",
-       "line": "Easing after a 6.28% surge on Thursday"
-      },
-      {
-       "name": "Infosys",
-       "dir": "down",
-       "line": "Pausing after Thursday's 4.70% gain"
+       "move": "−1.38%",
+       "line": "Easing a day after a 3.34% jump; HCLTech, Infosys and TCS lead losses"
       },
       {
        "name": "Zydus Lifesciences",
@@ -74,14 +97,88 @@
       }
      ],
      "src": {
-      "title": "Sensex slips 396 points as IT stocks pause after two-day rally",
-      "url": "https://www.theweek.in/news/biz-tech/2026/11/27/indian-shares-open-lower-friday-sensex-nifty.html"
+      "title": "Sensex, Nifty Trade Lower as IT Drags; Metals Outperform",
+      "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
      }
     }
    }
   }
  },
  "insights": [
+  {
+   "key": "psu-bank-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "PSU banks extend November rally",
+   "line": "Bank of India rises 4.31%; Bank of Baroda and Bank of Maharashtra gain 1.82% each",
+   "more": [
+    "Union Bank rose 1.77%, PNB 0.94%, Canara Bank 0.88% and SBI 0.51%",
+    "Some heavyweight private lenders are trading lower",
+    "SBI, PNB, Canara, BoB and BoM had rallied over 20% in November by 20 Nov"
+   ],
+   "src": {
+    "title": "Banking sector stocks today, November 27: Dhanlaxmi Bank gains 4.71%, Bank of India jumps 4.31%, IDFC First Bank up 2.41%",
+    "url": "https://businessupturn.com/finance/stock-market/banking-sector-stocks-today-november-27-dhanlaxmi-bank-gains-4-71-bank-of-india-jumps-4-31-idfc-first-bank-up-2-41"
+   },
+   "date": "2026-11-27",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-27",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "metals-rally",
+   "tag": "Stocks",
+   "impact": "pos",
+   "title": "Metal stocks lead for a second day",
+   "line": "JSW Steel and Tata Steel are among the gainers as metals outperform",
+   "more": [
+    "Metals bounced on Thursday after a three-session slide",
+    "A steel safeguard duty recommendation is under review, one report says"
+   ],
+   "src": {
+    "title": "Sensex, Nifty Trade Lower as IT Drags; Metals Outperform",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
+   },
+   "date": "2026-11-27",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-27",
+    "slot": "1035"
+   }
+  },
+  {
+   "key": "rupee",
+   "tag": "Macro",
+   "impact": "neg",
+   "title": "Rupee weakens to about 92.50",
+   "line": "The rupee slipped further against the dollar in morning trade",
+   "more": [
+    "It closed at 92.44 on Thursday, down 24 paise",
+    "Brent eased to about $96 in morning trade"
+   ],
+   "src": {
+    "title": "Sensex, Nifty Trade Lower as IT Drags; Metals Outperform",
+    "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
+   },
+   "thread": "rupee",
+   "date": "2026-11-27",
+   "slot": "1035",
+   "when": "10:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "1400"
+   }
+  },
   {
    "key": "it-rebound",
    "tag": "Stocks",
@@ -101,7 +198,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-23",
     "slot": "1035"
@@ -125,7 +222,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-27",
     "slot": "0845"
@@ -149,7 +246,7 @@
    "slot": "1005",
    "when": "10:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-25",
     "slot": "1105"
@@ -346,31 +443,6 @@
     "url": "https://financefeeds.com/brent-crude-rises-above-96-as-middle-east-conflict-threatens-global-oil-flows"
    },
    "thread": "crude-iran-war",
-   "date": "2026-11-27",
-   "slot": "0700",
-   "when": "7:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "rupee",
-   "tag": "Macro",
-   "impact": "neg",
-   "title": "Rupee slips 24 paise to 92.44",
-   "line": "Higher oil prices and US tariff worries weighed on the currency on Thursday",
-   "more": [
-    "It traded between 92.33 and 92.65 during the day",
-    "The provisional close was 92.44 against the dollar"
-   ],
-   "src": {
-    "title": "Forex news: Rupee settles 24 paise lower at 92.44 against US dollar",
-    "url": "https://www.deccanherald.com/business/markets/rupee-weakens-24-paise-to-settle-at-9244-against-us-dollar-4232087"
-   },
-   "thread": "rupee",
    "date": "2026-11-27",
    "slot": "0700",
    "when": "7:00",
