@@ -1,44 +1,37 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-27T11:06:50+05:30",
+ "generated_at": "2026-11-27T11:36:54+05:30",
  "date": "2026-11-27",
- "slot": "1105",
- "slot_label": "11:05",
+ "slot": "1135",
+ "slot_label": "11:35",
  "stage": "Mid-market mood",
- "asof": "2026-11-27T11:08:00+05:30",
- "nifty": {
-  "value": 25733.4,
-  "pct": -0.58,
-  "chg": -151.1,
-  "approx": false,
-  "asof_quote": "11:00"
- },
+ "asof": "2026-11-27T11:40:00+05:30",
  "mood": {
-  "label": "Selling deepens",
+  "label": "Heavyweights weigh",
   "score": -0.35,
-  "summary": "Indian shares have slid to the day's low as profit-taking spreads from IT into HDFC Bank and other heavyweights, leaving metals, state-run banks and defence names as the few bright spots.",
+  "summary": "Indian shares are holding near the day's lows as heavyweights in IT, HDFC Bank and Reliance weigh, though smallcaps stay positive and metals, defence and state-run banks resist the slide.",
   "detail": {
-   "leaders": "Metals and PSU banks such as Bank of India",
-   "laggards": "IT, led by TCS, HCLTech and Infosys; HDFC Bank; Zydus Lifesciences",
-   "tone": "A live read of the session: weaker than the previous note, as the market has broken lower to the day's low and the selling has widened beyond IT.",
+   "leaders": "Metals, led by Tata Steel; PSU banks such as Bank of India",
+   "laggards": "IT, led by TCS and Infosys; HDFC Bank and Reliance",
+   "tone": "A live read of market behaviour rather than a fresh print: the market is still near the day's low, much as in the previous note, with selling concentrated in a handful of heavyweights.",
    "watch": [
-    "Whether selling in HDFC Bank and IT deepens into the afternoon",
-    "Metals and PSU banks holding their gains",
+    "Whether the day's low holds into the afternoon",
+    "Smallcaps staying positive while large caps slide",
     "Oil prices as West Asia tensions persist"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex at day's low, down 500 pts, Nifty below 25,750; Nifty India Defence up 3%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+    "title": "Stock Market LIVE: Sensex at day's low, slumps 700 pts, Nifty below 25,700; Nifty Defence up 3%",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
    },
    "movers": {
     "up": {
-     "summary": "Metals and state-run banks are holding up against the broader slide",
+     "summary": "Metals and state-run banks are among the few sectors rising",
      "why": "Metals are extending a commodity-led rebound, and PSU lenders are adding to a strong November run.",
      "names": [
       {
-       "name": "Nifty Metal",
+       "name": "Tata Steel",
        "dir": "up",
-       "line": "The best-performing sector at 11 am, extending its rebound from Thursday"
+       "line": "Among the Sensex winners as metals extend Thursday's rebound"
       },
       {
        "name": "Bank of India",
@@ -48,18 +41,19 @@
       }
      ],
      "src": {
-      "title": "Stock Market LIVE: Sensex at day's low, down 500 pts, Nifty below 25,750; Nifty India Defence up 3%",
-      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+      "title": "Stock Market Today: Sensex, Nifty Fall; List of Top Laggards & Gainers",
+      "url": "https://www.etvbharat.com/en/business/stock-market-on-november-27-2026-bse-sensex-nse-nifty-crude-oil-prices-fii-buying-enn26112701094"
      }
     },
     "down": {
-     "summary": "IT heavyweights and HDFC Bank lead the profit-taking",
-     "why": "Investors are booking profits after a two-day rally, with large IT names and HDFC Bank taking the brunt.",
+     "summary": "IT and a few heavyweights drive the market's decline",
+     "why": "Investors are booking profits after a two-day rally, led by large IT names and index heavyweights.",
      "names": [
       {
        "name": "Nifty IT",
        "dir": "down",
-       "line": "The worst-performing sector at 11 am after Thursday's sharp rally"
+       "move": "−1.56%",
+       "line": "The worst-performing sector as Thursday's rally is unwound"
       },
       {
        "name": "HDFC Bank",
@@ -67,15 +61,14 @@
        "line": "Among the main Sensex laggards as profit-taking spreads to banks"
       },
       {
-       "name": "Zydus Lifesciences",
+       "name": "Reliance Industries",
        "dir": "down",
-       "move": "down ~3%",
-       "line": "US FDA issued a complete response letter on a new drug"
+       "line": "A major Sensex drag alongside the IT pack"
       }
      ],
      "src": {
-      "title": "Sensex, Nifty Slip After Two-Day Rally Amid Profit-Booking in IT Stocks, HDFC Bank",
-      "url": "https://dailypioneer.com/business/stock-markets-decline-early-trade-after-two-day-rally"
+      "title": "Sensex Dips 0.63% as IT Sector Slumps; BEML Ltd Leads Small Caps Rally",
+      "url": "https://www.marketsmojo.com/news/stock-market-news/sensex-dips-063-as-it-sector-slumps-beml-ltd-leads-small-caps-rally-4276638"
      }
     }
    }
@@ -83,26 +76,26 @@
  },
  "insights": [
   {
-   "key": "profit-taking-1127",
+   "key": "breadth",
    "tag": "Stocks",
-   "impact": "neg",
-   "title": "Profit-taking spreads to HDFC Bank",
-   "line": "TCS, HCL Tech, Infosys, HDFC Bank, Reliance and Bajaj Finserv are the main laggards",
+   "impact": "watch",
+   "title": "Smallcaps stay positive as large caps slide",
+   "line": "Broader indices are holding up while heavyweights drag the benchmarks lower",
    "more": [
-    "Selling follows a two-day rally in which IT led the gains",
-    "FIIs had bought ₹5,843.33 crore of shares on Thursday, exchange data show"
+    "BEML is leading the small-cap gains",
+    "Mid and small-cap indices remained in positive territory, Tradebrains reports"
    ],
    "src": {
-    "title": "Stock markets decline in early trade after 2-day rally",
-    "url": "https://www.tribuneindia.com/news/business/stock-markets-decline-in-early-trade-after-2-day-rally"
+    "title": "Sensex Dips 0.63% as IT Sector Slumps; BEML Ltd Leads Small Caps Rally",
+    "url": "https://www.marketsmojo.com/news/stock-market-news/sensex-dips-063-as-it-sector-slumps-beml-ltd-leads-small-caps-rally-4276638"
    },
    "date": "2026-11-27",
-   "slot": "1105",
-   "when": "11:05",
-   "updated": false,
+   "slot": "1135",
+   "when": "11:35",
+   "updated": true,
    "is_new": true,
    "first_seen": {
-    "date": "2026-11-27",
+    "date": "2026-11-25",
     "slot": "1105"
    }
   },
@@ -110,23 +103,47 @@
    "key": "defence-stocks",
    "tag": "Stocks",
    "impact": "pos",
-   "title": "Defence stocks buck the slide",
-   "line": "The Nifty India Defence index is the standout gainer this morning",
+   "title": "Defence stays the top gainer",
+   "line": "Bharat Electronics is among the Sensex winners as defence shares buck the slide",
    "more": [
-    "No specific trigger has been reported for the move",
-    "Metals are the other sector rising against the market"
+    "No specific trigger for the move has been reported",
+    "Titan, Tata Steel and Power Grid are also among the gainers"
    ],
    "src": {
-    "title": "Stock Market LIVE: Sensex at day's low, down 500 pts, Nifty below 25,750; Nifty India Defence up 3%",
-    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+    "title": "Stock Market Today: Sensex, Nifty Fall; List of Top Laggards & Gainers",
+    "url": "https://www.etvbharat.com/en/business/stock-market-on-november-27-2026-bse-sensex-nse-nifty-crude-oil-prices-fii-buying-enn26112701094"
    },
    "date": "2026-11-27",
-   "slot": "1105",
-   "when": "11:05",
+   "slot": "1135",
+   "when": "11:35",
    "updated": true,
    "is_new": true,
    "first_seen": {
     "date": "2026-11-23",
+    "slot": "1105"
+   }
+  },
+  {
+   "key": "profit-taking-1127",
+   "tag": "Stocks",
+   "impact": "neg",
+   "title": "IT is the day's weakest sector",
+   "line": "TCS, HCL Tech, Infosys, HDFC Bank, Reliance and Bajaj Finserv lead the decline",
+   "more": [
+    "The selling follows a two-day rally led by IT",
+    "FIIs had bought ₹5,843.33 crore of shares on Thursday"
+   ],
+   "src": {
+    "title": "Stock Market Today: Sensex, Nifty Fall; List of Top Laggards & Gainers",
+    "url": "https://www.etvbharat.com/en/business/stock-market-on-november-27-2026-bse-sensex-nse-nifty-crude-oil-prices-fii-buying-enn26112701094"
+   },
+   "date": "2026-11-27",
+   "slot": "1135",
+   "when": "11:35",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-27",
     "slot": "1105"
    }
   },
@@ -149,7 +166,7 @@
    "slot": "1105",
    "when": "11:05",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-21",
     "slot": "1400"
@@ -276,30 +293,6 @@
    "first_seen": {
     "date": "2026-11-27",
     "slot": "0845"
-   }
-  },
-  {
-   "key": "breadth",
-   "tag": "Stocks",
-   "impact": "watch",
-   "title": "Midcaps and smallcaps outperform",
-   "line": "The broader market is holding up better than the IT-heavy benchmarks",
-   "more": [
-    "Business Standard's live blog flags small and midcap outperformance",
-    "Titan, Tata Steel and Adani Ports were among the early Sensex gainers"
-   ],
-   "src": {
-    "title": "Stock Market LIVE: Sensex down 200 pts, Nifty around 25,800; SMIDs outperform",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
-   },
-   "date": "2026-11-27",
-   "slot": "1005",
-   "when": "10:05",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-25",
-    "slot": "1105"
    }
   },
   {
