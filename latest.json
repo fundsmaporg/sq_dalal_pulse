@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-27T18:01:02+05:30",
+ "generated_at": "2026-11-27T21:00:18+05:30",
  "date": "2026-11-27",
- "slot": "1800",
- "slot_label": "18:00",
+ "slot": "2100",
+ "slot_label": "21:00",
  "stage": "Evening wrap",
- "asof": "2026-11-27T18:05:00+05:30",
+ "asof": "2026-11-27T21:05:00+05:30",
  "nifty": {
   "value": 25607.2,
   "pct": -1.07,
@@ -30,28 +30,123 @@
     "title": "Strong dollar, rising crude prices drag rupee down to 92.98",
     "url": "https://telanganatoday.com/strong-dollar-rising-crude-prices-drag-rupee-down-to-92-98"
    }
+  },
+  "fii_net_cr": {
+   "value": 1634.33,
+   "asof": "2026-11-27 provisional",
+   "approx": false,
+   "src": {
+    "title": "FII index futures short: 77% after weeks of cash buying",
+    "url": "https://www.marketcalls.in/futures-and-options/fiis-buy-cash-for-weeks-but-stay-77-short-index-futures.html"
+   }
+  },
+  "dii_net_cr": {
+   "value": -556,
+   "asof": "2026-11-27 provisional",
+   "approx": true,
+   "src": {
+    "title": "FII index futures short: 77% after weeks of cash buying",
+    "url": "https://www.marketcalls.in/futures-and-options/fiis-buy-cash-for-weeks-but-stay-77-short-index-futures.html"
+   }
   }
  },
  "mood": {
-  "label": "Cautious into Monday",
-  "score": -0.3,
-  "summary": "Indian shares head into the weekend on the back foot after a broad sell-off, with Monday's tone hinging on Sunday's OPEC+ decision and India's GDP data due the same day.",
+  "label": "Steadier into Monday",
+  "score": -0.1,
+  "summary": "Indian shares go into the weekend after a sharp sell-off, but foreign buying held up and Wall Street is rising, which softens the setup for Monday ahead of OPEC+ and GDP data.",
   "detail": {
    "leaders": "Metals and defence names, which held up on Friday",
    "laggards": "IT and heavyweight banks, which led Friday's selling",
-   "tone": "A forward-looking read for Monday's session: still cautious after Friday's sharp fall, with a weaker rupee and Brent near $97 in the background.",
+   "tone": "A forward-looking read for Monday, a little less cautious than the previous note now that FIIs are known to have kept buying and US stocks are higher in their half-day session.",
    "watch": [
     "OPEC+ decision on Sunday and Brent's reaction",
     "India's Q2 GDP data on 30 November",
-    "Friday's provisional FII and DII figures, still awaited"
+    "Whether FIIs keep buying in cash while staying short in index futures"
    ],
    "src": {
-    "title": "Stock Market Close: Sensex tanks 990 pts, Nifty below 25,607 as Brent tops $97; metal pack outshines",
-    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html"
+    "title": "FII index futures short: 77% after weeks of cash buying",
+    "url": "https://www.marketcalls.in/futures-and-options/fiis-buy-cash-for-weeks-but-stay-77-short-index-futures.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "FIIs bought ₹1,634 cr despite the sell-off",
+   "line": "Foreign investors stayed net buyers on Friday while DIIs turned sellers",
+   "more": [
+    "DIIs sold about ₹556 crore after buying on Thursday",
+    "FIIs had bought ₹5,843.33 crore on Thursday",
+    "FIIs remain about 77% short in index futures, Marketcalls reports"
+   ],
+   "src": {
+    "title": "FII index futures short: 77% after weeks of cash buying",
+    "url": "https://www.marketcalls.in/futures-and-options/fiis-buy-cash-for-weeks-but-stay-77-short-index-futures.html"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-27",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "0800"
+   }
+  },
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Wall Street rises in Black Friday half-day",
+   "line": "US stocks are higher in live trade as tech rebounds; the session ends at 1 pm ET",
+   "more": [
+    "The S&P 500 was up 0.66% and the Nasdaq 0.82% in one intraday snapshot",
+    "The S&P 500 is heading for its best week since April",
+    "Some strategists flag possible Fed rate hikes as a bigger risk than AI spending"
+   ],
+   "src": {
+    "title": "Stock Market Today: Dow Gains 344 Points, S&P 500 Up 0.66% and Nasdaq Rises 0.82% as Tech Rebounds",
+    "url": "https://aroundprague.cz/en/news/us/stock-market-today-dow-gains-344-points-s-p-500-up-0-66-and-nasdaq-rises-0-82"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-27",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-21",
+    "slot": "0800"
+   }
+  },
+  {
+   "key": "china-market-support",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "China pledges support for its markets",
+   "line": "Beijing's State Council promised fresh support for Chinese capital markets",
+   "more": [
+    "The pledge helped lift global sentiment on Friday",
+    "US stock futures rose in holiday-thinned trade on the tech rebound"
+   ],
+   "src": {
+    "title": "S&P 500, Nasdaq and Dow open higher on Black Friday as tech and China rally lift mood",
+    "url": "https://journalarta.com/en/2026/11/27/sp-500-nasdaq-and-dow-open-higher-on-black-friday-as-tech-and-china-rally-lift-mood/"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-27",
+   "slot": "2100",
+   "when": "21:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-27",
+    "slot": "2100"
+   }
+  },
   {
    "key": "opec-meeting",
    "tag": "Global",
@@ -72,7 +167,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "1800"
@@ -97,7 +192,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-27",
     "slot": "1800"
@@ -121,7 +216,7 @@
    "slot": "1800",
    "when": "18:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-27",
     "slot": "1800"
@@ -176,31 +271,6 @@
    "first_seen": {
     "date": "2026-11-21",
     "slot": "1400"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "watch",
-   "title": "Friday's FII figures still awaited",
-   "line": "FIIs bought ₹5,843 crore on Thursday; Friday's provisional data is not yet out",
-   "more": [
-    "DIIs bought ₹5,631 crore on Thursday",
-    "One tracker shows FIIs net buyers in November through the 26th"
-   ],
-   "src": {
-    "title": "FII DII data monthly: net flow, last 12 months — DalalOS",
-    "url": "https://dalalos.in/fii-dii/monthly"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-27",
-   "slot": "1635",
-   "when": "16:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
    }
   },
   {
@@ -593,31 +663,6 @@
    "first_seen": {
     "date": "2026-11-27",
     "slot": "0925"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Wall Street returns for a half-day",
-   "line": "US stocks reopen tonight after Thanksgiving for a session that ends at 1 pm ET",
-   "more": [
-    "Indian shares had no overnight US lead to trade on this morning",
-    "Wall Street staged a late recovery on Wednesday before the holiday"
-   ],
-   "src": {
-    "title": "Reversal session before the Thanksgiving holiday",
-    "url": "https://equityclock.com/2026/11/25/stock-market-outlook-for-november-27-2026/"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-27",
-   "slot": "0925",
-   "when": "9:25",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
    }
   },
   {
