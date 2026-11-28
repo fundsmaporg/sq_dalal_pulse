@@ -1,11 +1,11 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-28T08:00:40+05:30",
+ "generated_at": "2026-11-28T14:00:29+05:30",
  "date": "2026-11-28",
- "slot": "0800",
- "slot_label": "8:00",
+ "slot": "1400",
+ "slot_label": "14:00",
  "stage": "Weekend outlook",
- "asof": "2026-11-28T08:05:00+05:30",
+ "asof": "2026-11-28T14:05:00+05:30",
  "nifty": {
   "value": 25607.2,
   "pct": -1.07,
@@ -13,37 +13,103 @@
   "approx": false,
   "asof_quote": "Fri 27 Nov close"
  },
- "metrics": {
-  "brent_usd": {
-   "value": 95.44,
-   "asof": "Fri 27 Nov settlement",
-   "approx": false,
-   "src": {
-    "title": "Brent settles 1.2% lower at $95.44 but logs a weekly gain before OPEC+",
-    "url": "https://mlq.ai/news/brent-settles-12-lower-at-9544-but-logs-a-weekly-gain-before-opec/"
-   }
-  }
- },
  "mood": {
-  "label": "Steadier into Monday",
-  "score": 0.1,
-  "summary": "Monday's session sets up with a strong lead from Wall Street and slightly softer oil, against a weak finish to India's week, with OPEC+ and GDP data still to come.",
+  "label": "Cautious into Monday",
+  "score": 0.0,
+  "summary": "Monday's session faces a tug of war: strong foreign buying and a firm Wall Street lead on one side, and fresh Gulf escalation that could keep oil elevated on the other.",
   "detail": {
-   "leaders": "IT, which may draw support from Wall Street's tech rebound; defence names that outperformed last week",
-   "laggards": "Banks and oil-sensitive sectors if crude stays near recent highs",
-   "tone": "A look-ahead to Monday 30 November, the next session. Indian shares ended the week lower after a heavy Friday sell-off, but Wall Street's strong Friday close and Brent settling off its highs improve the setup.",
+   "leaders": "Defence names, which outperformed last week as Gulf tensions rose; IT on Wall Street's tech rebound",
+   "laggards": "Oil-sensitive sectors such as paints and airlines if crude reacts to the weekend's escalation",
+   "tone": "A look-ahead to Monday 30 November, slightly more cautious than this morning's note: a Houthi missile aimed at Riyadh and the Houthis' grip on the Red Sea coast add oil risk.",
    "watch": [
-    "OPEC+ decision on Sunday and how Brent opens",
+    "How Brent opens after the weekend's Gulf escalation and Sunday's OPEC+ decision",
     "India's Q2 GDP data on Monday 30 November",
-    "Whether foreign investors keep buying in cash"
+    "Whether foreign buyers keep supporting the market"
    ],
    "src": {
-    "title": "Dalal Street weekly wrap: Sensex sheds 580 points; defence stocks outperform amid banking, IT sell-off",
-    "url": "https://www.theweek.in/news/biz-tech/2026/11/27/dalal-street-weekly-wrap-sensex-sheds-580-points-defence-stocks-outperform-amid-banking-it-sell-off.html"
+    "title": "Saudi-led coalition intercepts, destroys Houthi cruise missile targeting Riyadh",
+    "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-28-2026"
    }
   }
  },
  "insights": [
+  {
+   "key": "crude-iran-war",
+   "tag": "Global",
+   "impact": "neg",
+   "title": "Houthi missile at Riyadh intercepted",
+   "line": "The Saudi-led coalition says it destroyed a Houthi cruise missile aimed at Riyadh",
+   "more": [
+    "The Houthis reportedly took Mokha, giving them Yemen's whole Red Sea coastline",
+    "Iran's Revolutionary Guards say a gas carrier hit a mine in Hormuz; Reuters could not verify it",
+    "The US condemned attacks on Saudi energy infrastructure"
+   ],
+   "src": {
+    "title": "Saudi-led coalition intercepts, destroys Houthi cruise missile targeting Riyadh",
+    "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-28-2026"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-28",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-22",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "sebi-fpi-onboarding",
+   "tag": "Regulation",
+   "impact": "pos",
+   "title": "SEBI aims to onboard FPIs in 5 days",
+   "line": "SEBI wants to cut foreign investor registration from a month to five business days",
+   "more": [
+    "SEBI chair Tuhin Kanta Pandey announced it at an ASSOCHAM conference",
+    "SEBI is also looking at scrapping the extra disclosure framework for FPIs",
+    "A corporate-bond market-making framework is being worked out with RBI"
+   ],
+   "src": {
+    "title": "SEBI plans to onboard foreign investors within 5 business days",
+    "url": "https://www.newsbytesapp.com/news/business/sebi-aims-to-slash-fpi-onboarding-time-to-5-days/story"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-28",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": false,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-28",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "fii-flows",
+   "tag": "Flows",
+   "impact": "pos",
+   "title": "Foreign buying dominates November",
+   "line": "FPIs bought ₹94,230 crore in November through the 18th while DIIs sold ₹55,570 crore",
+   "more": [
+    "Another tracker puts the month's FII net at ₹79,302 crore, DIIs at −₹49,089 crore",
+    "Trackers measure at different dates, so the totals differ"
+   ],
+   "src": {
+    "title": "Domestic Institutions Sell ₹55,570 Crore in November as Foreign Investors Buy ₹94,230 Crore",
+    "url": "https://www.5paisa.com/blog/domestic-institutions-sell-55570-crore-fpi-buy-94230-crore-november-2026"
+   },
+   "thread": "fii-flows",
+   "date": "2026-11-28",
+   "slot": "1400",
+   "when": "14:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-22",
+    "slot": "0800"
+   }
+  },
   {
    "key": "us-markets",
    "tag": "Global",
@@ -64,36 +130,10 @@
    "slot": "0800",
    "when": "8:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-22",
     "slot": "0800"
-   }
-  },
-  {
-   "key": "crude-iran-war",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Brent settles at $95.44, first weekly gain",
-   "line": "Oil slipped 1.2% on Friday but rose about 3% for the week on supply fears",
-   "more": [
-    "Attacks on tankers and Saudi facilities kept supply worries alive",
-    "It ended a three-week losing streak",
-    "WTI settled at $83.08"
-   ],
-   "src": {
-    "title": "Brent settles 1.2% lower at $95.44 but logs a weekly gain before OPEC+",
-    "url": "https://mlq.ai/news/brent-settles-12-lower-at-9544-but-logs-a-weekly-gain-before-opec/"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-28",
-   "slot": "0800",
-   "when": "8:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-22",
-    "slot": "1400"
    }
   },
   {
@@ -115,7 +155,7 @@
    "slot": "0800",
    "when": "8:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-26",
     "slot": "1800"
@@ -139,36 +179,10 @@
    "slot": "0800",
    "when": "8:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-27",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "fii-flows",
-   "tag": "Flows",
-   "impact": "pos",
-   "title": "FIIs bought ₹1,634 cr despite the sell-off",
-   "line": "Foreign investors stayed net buyers on Friday while DIIs turned sellers",
-   "more": [
-    "DIIs sold about ₹556 crore after buying on Thursday",
-    "FIIs had bought ₹5,843.33 crore on Thursday",
-    "FIIs remain about 77% short in index futures, Marketcalls reports"
-   ],
-   "src": {
-    "title": "FII index futures short: 77% after weeks of cash buying",
-    "url": "https://www.marketcalls.in/futures-and-options/fiis-buy-cash-for-weeks-but-stay-77-short-index-futures.html"
-   },
-   "thread": "fii-flows",
-   "date": "2026-11-27",
-   "slot": "2100",
-   "when": "Fri · 21:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-22",
-    "slot": "0800"
    }
   },
   {
