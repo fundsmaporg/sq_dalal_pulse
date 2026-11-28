@@ -1,75 +1,150 @@
 {
  "schema": "dalal-pulse/v1",
- "generated_at": "2026-11-27T21:00:18+05:30",
- "date": "2026-11-27",
- "slot": "2100",
- "slot_label": "21:00",
- "stage": "Evening wrap",
- "asof": "2026-11-27T21:05:00+05:30",
+ "generated_at": "2026-11-28T08:00:40+05:30",
+ "date": "2026-11-28",
+ "slot": "0800",
+ "slot_label": "8:00",
+ "stage": "Weekend outlook",
+ "asof": "2026-11-28T08:05:00+05:30",
  "nifty": {
   "value": 25607.2,
   "pct": -1.07,
   "chg": -277.3,
-  "approx": false
+  "approx": false,
+  "asof_quote": "Fri 27 Nov close"
  },
  "metrics": {
   "brent_usd": {
-   "value": 97.19,
-   "asof": "2026-11-27",
+   "value": 95.44,
+   "asof": "Fri 27 Nov settlement",
    "approx": false,
    "src": {
-    "title": "Strong dollar, rising crude prices drag rupee down to 92.98",
-    "url": "https://telanganatoday.com/strong-dollar-rising-crude-prices-drag-rupee-down-to-92-98"
-   }
-  },
-  "usd_inr": {
-   "value": 92.98,
-   "asof": "2026-11-27 close (provisional)",
-   "approx": false,
-   "src": {
-    "title": "Strong dollar, rising crude prices drag rupee down to 92.98",
-    "url": "https://telanganatoday.com/strong-dollar-rising-crude-prices-drag-rupee-down-to-92-98"
-   }
-  },
-  "fii_net_cr": {
-   "value": 1634.33,
-   "asof": "2026-11-27 provisional",
-   "approx": false,
-   "src": {
-    "title": "FII index futures short: 77% after weeks of cash buying",
-    "url": "https://www.marketcalls.in/futures-and-options/fiis-buy-cash-for-weeks-but-stay-77-short-index-futures.html"
-   }
-  },
-  "dii_net_cr": {
-   "value": -556,
-   "asof": "2026-11-27 provisional",
-   "approx": true,
-   "src": {
-    "title": "FII index futures short: 77% after weeks of cash buying",
-    "url": "https://www.marketcalls.in/futures-and-options/fiis-buy-cash-for-weeks-but-stay-77-short-index-futures.html"
+    "title": "Brent settles 1.2% lower at $95.44 but logs a weekly gain before OPEC+",
+    "url": "https://mlq.ai/news/brent-settles-12-lower-at-9544-but-logs-a-weekly-gain-before-opec/"
    }
   }
  },
  "mood": {
   "label": "Steadier into Monday",
-  "score": -0.1,
-  "summary": "Indian shares go into the weekend after a sharp sell-off, but foreign buying held up and Wall Street is rising, which softens the setup for Monday ahead of OPEC+ and GDP data.",
+  "score": 0.1,
+  "summary": "Monday's session sets up with a strong lead from Wall Street and slightly softer oil, against a weak finish to India's week, with OPEC+ and GDP data still to come.",
   "detail": {
-   "leaders": "Metals and defence names, which held up on Friday",
-   "laggards": "IT and heavyweight banks, which led Friday's selling",
-   "tone": "A forward-looking read for Monday, a little less cautious than the previous note now that FIIs are known to have kept buying and US stocks are higher in their half-day session.",
+   "leaders": "IT, which may draw support from Wall Street's tech rebound; defence names that outperformed last week",
+   "laggards": "Banks and oil-sensitive sectors if crude stays near recent highs",
+   "tone": "A look-ahead to Monday 30 November, the next session. Indian shares ended the week lower after a heavy Friday sell-off, but Wall Street's strong Friday close and Brent settling off its highs improve the setup.",
    "watch": [
-    "OPEC+ decision on Sunday and Brent's reaction",
-    "India's Q2 GDP data on 30 November",
-    "Whether FIIs keep buying in cash while staying short in index futures"
+    "OPEC+ decision on Sunday and how Brent opens",
+    "India's Q2 GDP data on Monday 30 November",
+    "Whether foreign investors keep buying in cash"
    ],
    "src": {
-    "title": "FII index futures short: 77% after weeks of cash buying",
-    "url": "https://www.marketcalls.in/futures-and-options/fiis-buy-cash-for-weeks-but-stay-77-short-index-futures.html"
+    "title": "Dalal Street weekly wrap: Sensex sheds 580 points; defence stocks outperform amid banking, IT sell-off",
+    "url": "https://www.theweek.in/news/biz-tech/2026/11/27/dalal-street-weekly-wrap-sensex-sheds-580-points-defence-stocks-outperform-amid-banking-it-sell-off.html"
    }
   }
  },
  "insights": [
+  {
+   "key": "us-markets",
+   "tag": "Global",
+   "impact": "pos",
+   "title": "Wall Street ends its best week in over a year",
+   "line": "US stocks jumped on Friday as AI shares rebounded; the S&P 500 rose 1.60%",
+   "more": [
+    "Friday close: Dow +1.2% to 50,774.94; Nasdaq +2.31% to 24,129.50",
+    "Reuters-based reports put the S&P 500's weekly gain at 5.6%",
+    "Yahoo Finance's live blog gave a much smaller weekly figure"
+   ],
+   "src": {
+    "title": "U.S. stocks jump to close out an erratic week that was also Wall Street's best in more than a year",
+    "url": "https://www.bnnbloomberg.ca/markets/2026/11/27/stocks-jump-to-close-out-an-erratic-week-that-was-also-wall-streets-best-in-more-than-a-year/"
+   },
+   "thread": "global-markets",
+   "date": "2026-11-28",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-22",
+    "slot": "0800"
+   }
+  },
+  {
+   "key": "crude-iran-war",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "Brent settles at $95.44, first weekly gain",
+   "line": "Oil slipped 1.2% on Friday but rose about 3% for the week on supply fears",
+   "more": [
+    "Attacks on tankers and Saudi facilities kept supply worries alive",
+    "It ended a three-week losing streak",
+    "WTI settled at $83.08"
+   ],
+   "src": {
+    "title": "Brent settles 1.2% lower at $95.44 but logs a weekly gain before OPEC+",
+    "url": "https://mlq.ai/news/brent-settles-12-lower-at-9544-but-logs-a-weekly-gain-before-opec/"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-28",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-22",
+    "slot": "1400"
+   }
+  },
+  {
+   "key": "opec-meeting",
+   "tag": "Global",
+   "impact": "watch",
+   "title": "OPEC+ meets Sunday on 2027 quotas",
+   "line": "The group is expected to hold first-quarter targets while Iraq presses for a higher quota",
+   "more": [
+    "The decision will shape Brent's open on Monday",
+    "OPEC+ has no output framework in place after 31 December 2026"
+   ],
+   "src": {
+    "title": "Brent Ends Week Near $95 as OPEC+ Is Set to Hold Q1 Targets and Iraq Presses for a Higher Quota",
+    "url": "https://unbiasedheadlines.com/article/brent-ends-week-near-95-as-opec-is-set-to-hold-q1-targets-and-iraq-presses"
+   },
+   "thread": "crude-iran-war",
+   "date": "2026-11-28",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-26",
+    "slot": "1800"
+   }
+  },
+  {
+   "key": "india-gdp-q2",
+   "tag": "Macro",
+   "impact": "watch",
+   "title": "Q2 GDP data due Monday",
+   "line": "July–September growth figures land on 30 November; polls expect around 7.6%",
+   "more": [
+    "Growth was 7.8% in the previous quarter",
+    "The RBI announces its policy decision on 4 December"
+   ],
+   "src": {
+    "title": "India's second-quarter GDP growth forecast to ease to 7.6%",
+    "url": "https://web.matrixnews.in/news/2bgk27iockfqi/indias-second-quarter-gdp-growth-forecast-to-ease-to-7-6-percent"
+   },
+   "date": "2026-11-28",
+   "slot": "0800",
+   "when": "8:00",
+   "updated": true,
+   "is_new": true,
+   "first_seen": {
+    "date": "2026-11-27",
+    "slot": "1800"
+   }
+  },
   {
    "key": "fii-flows",
    "tag": "Flows",
@@ -88,37 +163,11 @@
    "thread": "fii-flows",
    "date": "2026-11-27",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Fri · 21:00",
    "updated": true,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
-   }
-  },
-  {
-   "key": "us-markets",
-   "tag": "Global",
-   "impact": "pos",
-   "title": "Wall Street rises in Black Friday half-day",
-   "line": "US stocks are higher in live trade as tech rebounds; the session ends at 1 pm ET",
-   "more": [
-    "The S&P 500 was up 0.66% and the Nasdaq 0.82% in one intraday snapshot",
-    "The S&P 500 is heading for its best week since April",
-    "Some strategists flag possible Fed rate hikes as a bigger risk than AI spending"
-   ],
-   "src": {
-    "title": "Stock Market Today: Dow Gains 344 Points, S&P 500 Up 0.66% and Nasdaq Rises 0.82% as Tech Rebounds",
-    "url": "https://aroundprague.cz/en/news/us/stock-market-today-dow-gains-344-points-s-p-500-up-0-66-and-nasdaq-rises-0-82"
-   },
-   "thread": "global-markets",
-   "date": "2026-11-27",
-   "slot": "2100",
-   "when": "21:00",
-   "updated": true,
-   "is_new": true,
-   "first_seen": {
-    "date": "2026-11-21",
+    "date": "2026-11-22",
     "slot": "0800"
    }
   },
@@ -139,63 +188,12 @@
    "thread": "global-markets",
    "date": "2026-11-27",
    "slot": "2100",
-   "when": "21:00",
+   "when": "Fri · 21:00",
    "updated": false,
-   "is_new": true,
+   "is_new": false,
    "first_seen": {
     "date": "2026-11-27",
     "slot": "2100"
-   }
-  },
-  {
-   "key": "opec-meeting",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "OPEC+ likely to hold Q1 2027 output flat",
-   "line": "Sources say the group agreed in principle to keep targets unchanged at Sunday's meeting",
-   "more": [
-    "Its capacity audit, meant to set 2027 baselines, is running weeks late",
-    "OPEC+ has no output framework in place after 31 December 2026",
-    "Forecasters see a 2–3.8 million bpd surplus in 2027"
-   ],
-   "src": {
-    "title": "OPEC+ Heads Into Sunday Meeting to Set 2027 Quotas With Its Capacity Audit Weeks Late and Output Held Flat",
-    "url": "https://leprivatebanker.com/2026/11/27/opec-heads-into-sunday-meeting-to-set-2027-quotas-with-its-capacity-audit-weeks-late-and-output-held-flat/"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-27",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-26",
-    "slot": "1800"
-   }
-  },
-  {
-   "key": "india-gdp-q2",
-   "tag": "Macro",
-   "impact": "watch",
-   "title": "Q2 GDP due Monday; 7.6–7.8% expected",
-   "line": "Official July–September growth data is due on 30 November",
-   "more": [
-    "A Mint poll sees 7.6%, down from 7.8% the previous quarter",
-    "SBI Research estimates 7.8%, above the RBI's 7.2% projection",
-    "The data lands days before the RBI policy decision on 4 December"
-   ],
-   "src": {
-    "title": "India's second-quarter GDP growth forecast to ease to 7.6%",
-    "url": "https://web.matrixnews.in/news/2bgk27iockfqi/indias-second-quarter-gdp-growth-forecast-to-ease-to-7-6-percent"
-   },
-   "date": "2026-11-27",
-   "slot": "1800",
-   "when": "18:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-27",
-    "slot": "1800"
    }
   },
   {
@@ -214,7 +212,7 @@
    },
    "date": "2026-11-27",
    "slot": "1800",
-   "when": "18:00",
+   "when": "Fri · 18:00",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -240,37 +238,12 @@
    "thread": "rupee",
    "date": "2026-11-27",
    "slot": "1635",
-   "when": "16:35",
+   "when": "Fri · 16:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-21",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "crude-iran-war",
-   "tag": "Global",
-   "impact": "neg",
-   "title": "Brent at $97.19 after Houthi attack",
-   "line": "Oil rose on reports of vessels targeted in the Strait of Hormuz",
-   "more": [
-    "Analysts say costlier oil can lift inflation and widen the import bill",
-    "OPEC+ meets on Sunday 29 November"
-   ],
-   "src": {
-    "title": "Rupee nosedives 60 paise to settle at 92.98 against US dollar",
-    "url": "https://thesentimes.com/rupee-nosedives-60-paise-to-settle-at-92-98-against-us-dollar/"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-27",
-   "slot": "1635",
-   "when": "16:35",
-   "updated": true,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "1400"
+    "date": "2026-11-23",
+    "slot": "1235"
    }
   },
   {
@@ -289,7 +262,7 @@
    },
    "date": "2026-11-27",
    "slot": "1605",
-   "when": "16:05",
+   "when": "Fri · 16:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -313,7 +286,7 @@
    },
    "date": "2026-11-27",
    "slot": "1605",
-   "when": "16:05",
+   "when": "Fri · 16:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -337,7 +310,7 @@
    },
    "date": "2026-11-27",
    "slot": "1535",
-   "when": "15:35",
+   "when": "Fri · 15:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -361,7 +334,7 @@
    },
    "date": "2026-11-27",
    "slot": "1505",
-   "when": "15:05",
+   "when": "Fri · 15:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -385,7 +358,7 @@
    },
    "date": "2026-11-27",
    "slot": "1505",
-   "when": "15:05",
+   "when": "Fri · 15:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -410,7 +383,7 @@
    "thread": "global-markets",
    "date": "2026-11-27",
    "slot": "1435",
-   "when": "14:35",
+   "when": "Fri · 14:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -434,7 +407,7 @@
    },
    "date": "2026-11-27",
    "slot": "1435",
-   "when": "14:35",
+   "when": "Fri · 14:35",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -459,7 +432,7 @@
    "thread": "it-sector",
    "date": "2026-11-27",
    "slot": "1405",
-   "when": "14:05",
+   "when": "Fri · 14:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -485,7 +458,7 @@
    "thread": "rbi-policy",
    "date": "2026-11-27",
    "slot": "1335",
-   "when": "13:35",
+   "when": "Fri · 13:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -509,7 +482,7 @@
    },
    "date": "2026-11-27",
    "slot": "1305",
-   "when": "13:05",
+   "when": "Fri · 13:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -534,7 +507,7 @@
    "thread": "it-sector",
    "date": "2026-11-27",
    "slot": "1305",
-   "when": "13:05",
+   "when": "Fri · 13:05",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -559,7 +532,7 @@
    "thread": "it-sector",
    "date": "2026-11-27",
    "slot": "1205",
-   "when": "12:05",
+   "when": "Fri · 12:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -584,7 +557,7 @@
    },
    "date": "2026-11-27",
    "slot": "1035",
-   "when": "10:35",
+   "when": "Fri · 10:35",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -608,7 +581,7 @@
    },
    "date": "2026-11-27",
    "slot": "1005",
-   "when": "10:05",
+   "when": "Fri · 10:05",
    "updated": true,
    "is_new": false,
    "first_seen": {
@@ -633,7 +606,7 @@
    },
    "date": "2026-11-27",
    "slot": "0925",
-   "when": "9:25",
+   "when": "Fri · 9:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -657,7 +630,7 @@
    },
    "date": "2026-11-27",
    "slot": "0925",
-   "when": "9:25",
+   "when": "Fri · 9:25",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -682,7 +655,7 @@
    },
    "date": "2026-11-27",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Fri · 8:45",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -708,7 +681,7 @@
    },
    "date": "2026-11-27",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Fri · 8:45",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -732,7 +705,7 @@
    },
    "date": "2026-11-27",
    "slot": "0845",
-   "when": "8:45",
+   "when": "Fri · 8:45",
    "updated": false,
    "is_new": false,
    "first_seen": {
@@ -1665,8 +1638,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
+    "date": "2026-11-23",
+    "slot": "0700"
    }
   },
   {
@@ -1689,8 +1662,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
+    "date": "2026-11-23",
+    "slot": "1635"
    }
   },
   {
@@ -1860,8 +1833,8 @@
    "updated": true,
    "is_new": false,
    "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
+    "date": "2026-11-22",
+    "slot": "outlook"
    }
   },
   {
@@ -1910,79 +1883,6 @@
    "first_seen": {
     "date": "2026-11-22",
     "slot": "1800"
-   }
-  },
-  {
-   "key": "ipo-pipeline",
-   "tag": "Listing",
-   "impact": "watch",
-   "title": "Two mainboard IPOs open next week",
-   "line": "Crystal Crop and Mahanadi Coalfields due to list; two allotments also ahead",
-   "more": [
-    "Foodlink F&B and Integris Medtech among issues opening",
-    "Short week because of Tuesday's holiday"
-   ],
-   "src": {
-    "title": "IPOs Next Week: 2 mainboard issues to open; Crystal Crop, Mahanadi Coalfields IPOs in focus",
-    "url": "https://www.zeebiz.com/markets/ipo/news-upcoming-ipos-next-week-foodlink-fb-integris-medtech-issues-to-open-2-ipo-allotments-2-listings-ahead-405833"
-   },
-   "date": "2026-11-21",
-   "slot": "2100",
-   "when": "Sat · 21:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "2100"
-   }
-  },
-  {
-   "key": "sebi-fpi-onboarding",
-   "tag": "Regulation",
-   "impact": "pos",
-   "title": "SEBI, RBI aim to onboard FPIs in 5 days",
-   "line": "Working to cut foreign investor registration time to five business days",
-   "more": [
-    "Announced by SEBI chairman Tuhin Kanta Pandey on Friday",
-    "SEBI also studying a domestic AI model for market regulation"
-   ],
-   "src": {
-    "title": "SEBI Explores Domestic AI Model for Securities Market Regulation",
-    "url": "https://www.angelone.in/news/market-updates/sebi-explores-domestic-ai-model-for-securities-market-regulation"
-   },
-   "date": "2026-11-21",
-   "slot": "1400",
-   "when": "Sat · 14:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "1400"
-   }
-  },
-  {
-   "key": "crude",
-   "tag": "Global",
-   "impact": "watch",
-   "title": "Brent ends a third weekly decline",
-   "line": "Settled at $92.57 on Friday, up on the day but down 3.4% for the week",
-   "more": [
-    "Middle East tensions lifted prices on Friday",
-    "WTI closed at $83.98"
-   ],
-   "src": {
-    "title": "Oil Prices Rebound Friday on Middle East Tensions but Fall for Third Straight Week - WTI Closes at $83.98, Brent at $92.57",
-    "url": "https://energynow.com/2026/11/oil-prices-rebound-friday-on-middle-east-tensions-but-fall-for-third-straight-week-wti-closes-at-83-98-brent-at-92-57/"
-   },
-   "thread": "crude-iran-war",
-   "date": "2026-11-21",
-   "slot": "0800",
-   "when": "Sat · 8:00",
-   "updated": false,
-   "is_new": false,
-   "first_seen": {
-    "date": "2026-11-21",
-    "slot": "0800"
    }
   }
  ]
